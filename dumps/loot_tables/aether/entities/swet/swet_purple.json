@@ -1,0 +1,43 @@
+{
+  "pools": [
+    {
+      "name": "jelly",
+      "entries": [
+        {
+          "entryName": "aether:swet_gel",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 2.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "aether:swet_gel"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "parent",
+      "entries": [
+        {
+          "entryName": "aether:entities/swet/swet",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "aether:entities/swet/swet"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

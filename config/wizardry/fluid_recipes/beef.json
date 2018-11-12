@@ -1,0 +1,19 @@
+{
+  "output": {
+    "item": "minecraft:beef"
+  },
+  "input": {
+    "item": "minecraft:rotten_flesh"
+  },
+  "extraInputs": [
+    {
+      "item": "contenttweaker:boneshard"
+    },
+    {
+      "item": "wizardry:devil_dust"
+    }
+  ],
+  "required": 4,
+  "duration": 120,
+  "harp": false
+}

@@ -1,0 +1,22 @@
+{
+  "output": {
+    "item": "extrabitmanipulation:diamond_nugget"
+  },
+  "input": {
+    "item": "minecraft:coal",
+    "data": 1
+  },
+  "extraInputs": [
+    {
+      "item": "minecraft:coal",
+      "data": 1
+    },
+    {
+      "item": "minecraft:coal",
+      "data": 1
+    }
+  ],
+  "required": 4,
+  "duration": 60,
+  "harp": false
+}

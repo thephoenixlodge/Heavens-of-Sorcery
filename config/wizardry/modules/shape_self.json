@@ -1,0 +1,10 @@
+{
+  "item": "minecraft:diamond",
+  "mana": {
+    "base": 30
+  },
+  "burnout": {
+    "base": 30
+  },
+  "cooldown": { "base": 30 }
+}

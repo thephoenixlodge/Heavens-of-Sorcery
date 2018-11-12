@@ -1,0 +1,9 @@
+thaumic_arcana:research/metal_transmutation
+thaumic_arcana:research/biomancy
+thaumic_arcana:research/biomancy/enchanting
+thaumic_arcana:research/biomancy/plantproducts
+thaumic_arcana:research/biomancy/animalproducts
+thaumic_arcana:research/biomancy/golems
+thaumic_arcana:research/biomancy/plantexperiments
+thaumic_arcana:research/biomancy/metallurgy
+thaumic_arcana:research/scans

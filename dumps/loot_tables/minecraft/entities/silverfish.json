@@ -1,0 +1,17 @@
+{
+  "pools": [
+    {
+      "name": "inspirations",
+      "entries": [
+        {
+          "entryName": "inspirations",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "inspirations:entities/silverfish"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

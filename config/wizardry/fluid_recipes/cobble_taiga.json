@@ -1,0 +1,11 @@
+{
+  "output": {
+    "item": "botania:biomestonea",
+    "data": 14
+  },
+  "input": {
+    "item": "minecraft:cobblestone"
+  },
+  "duration": 0,
+  "harp": false
+}

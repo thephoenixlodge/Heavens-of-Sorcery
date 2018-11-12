@@ -1,0 +1,9 @@
+{
+  "pools": [
+    {
+      "name": "gecko",
+      "entries": [],
+      "rolls": 0.0
+    }
+  ]
+}

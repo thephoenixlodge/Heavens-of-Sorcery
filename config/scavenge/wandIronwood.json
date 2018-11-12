@@ -1,0 +1,128 @@
+{
+	"block_pools":
+	[
+		{
+			"name": "ironberries",
+			"type":
+			{
+				"type": "block_list",
+				"blocks":
+				[
+					{
+						"name": "rustic:leaves",
+						"metas": [1, 5]
+					},
+					{
+						"name": "rustic:leaves0",
+						"metas": [4, 5, 6, 7]
+					}
+				]
+			},
+			"clicktype": "rightclick",
+			"properties":
+			[
+				{
+					"type": "require_item",
+					"name": "contenttweaker:ironwood_wand_one"
+				},
+				{
+					"type": "swing_hand"
+				}
+			],
+			"drops":
+			[
+				{
+					"name": "rustic:ironberries",
+					"amount": "1",
+					"properties":
+					[
+						{
+							"type": "set_random_size",
+							"minValue": "1",
+							"maxValue": "4"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "clay",
+			"type":
+			{
+				"type": "block",
+				"name": "botania:biomestonea",
+				"meta": 6
+			},
+			"clicktype": "rightclick",
+			"properties":
+			[
+				{
+					"type": "require_item",
+					"name": "contenttweaker:ironwood_wand_one"
+				},
+				{
+					"type": "swing_hand"
+				}
+			],
+			"drops":
+			[
+				{
+					"name": "minecraft:clay_ball",
+					"amount": "1",
+					"properties":
+					[
+						{
+							"type": "set_random_size",
+							"minValue": "0",
+							"maxValue": "2"
+						}
+					]
+				}
+			]
+
+		},
+		{
+			"name": "boneshards",
+			"type":
+			{
+				"type": "block",
+				"name": "botania:altgrass",
+				"meta": 4
+			},
+			"clicktype": "rightclick",
+			"properties":
+			[
+				{
+					"type": "require_item",
+					"name": "contenttweaker:ironwood_wand_one"
+				},
+				{
+					"type": "swing_hand"
+				}
+			],
+			"drops":
+			[
+				{
+					"name": "contenttweaker:boneshard",
+					"amount": "1",
+					"chance": "50",
+					"properties":
+					[
+						{
+							"type": "set_random_size",
+							"minValue": "0",
+							"maxValue": "2"
+						}
+					]
+				},
+				{
+					"name": "botania:grassseeds",
+					"meta": 7,
+					"amount": "1",
+					"chance": "6"
+				}
+			]
+
+		}
+	]
+}

@@ -1,0 +1,11 @@
+{
+  "output": {
+    "item": "rustic:wildberry_bush"
+  },
+  "input": {
+    "type": "forge:ore_dict",
+    "ore": "treeLeaves"
+  },
+  "duration": 0,
+  "harp": false
+}

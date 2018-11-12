@@ -1,0 +1,121 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "entries": [
+        {
+          "entryName": "minecraft:leather_boots",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.0,
+                "max": 0.9
+              },
+              "function": "minecraft:set_damage"
+            }
+          ],
+          "name": "minecraft:leather_boots"
+        },
+        {
+          "entryName": "minecraft:leather",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:leather"
+        },
+        {
+          "entryName": "minecraft:bone",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:bone"
+        },
+        {
+          "entryName": "minecraft:potion",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{Potion:\"minecraft:water\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:potion"
+        },
+        {
+          "entryName": "minecraft:string",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:string"
+        },
+        {
+          "entryName": "minecraft:fishing_rod",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.0,
+                "max": 0.9
+              },
+              "function": "minecraft:set_damage"
+            }
+          ],
+          "name": "minecraft:fishing_rod"
+        },
+        {
+          "entryName": "minecraft:bowl",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:bowl"
+        },
+        {
+          "entryName": "minecraft:stick",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:stick"
+        },
+        {
+          "entryName": "minecraft:dye",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 0.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": 10.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:dye"
+        },
+        {
+          "entryName": "minecraft:tripwire_hook",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:tripwire_hook"
+        },
+        {
+          "entryName": "minecraft:rotten_flesh",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:rotten_flesh"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

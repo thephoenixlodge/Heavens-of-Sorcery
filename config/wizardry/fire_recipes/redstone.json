@@ -1,0 +1,9 @@
+{
+  "input": {
+    "item": "cuisine:material",
+    "data": 4
+  },
+  "output": {
+    "item": "minecraft:redstone"
+  }
+}
