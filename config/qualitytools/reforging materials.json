@@ -122,5 +122,13 @@
     "material": {
         "ore_dict": "gemEmerald"
     }
+  },
+  {
+    "tool": {
+        "item": "arcaneworld:ethereal_sword>"
+    },
+    "material": {
+        "item": "arcaneworld:amethyst"
+    }
   }
 ]

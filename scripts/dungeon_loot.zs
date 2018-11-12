@@ -21,4 +21,4 @@ poolRaid.addItemEntry(angelHeart, 8);
 poolRaid.addItemEntry(flyingPhial, 6);
 
 //Portal core for Misty World and aether portals
-poolRaid.addItemEntry(portalCore, 12);
+poolRaid.addItemEntry(portalCore, 8);
