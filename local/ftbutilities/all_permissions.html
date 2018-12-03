@@ -258,6 +258,24 @@ false
 '>
 </td></tr>
 <tr>
+<td><code>ftbutilities.claims.block.interact.cathedral.dwemer_door_normal</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+</td></tr>
+<tr>
+<td><code>ftbutilities.claims.block.interact.cuisine.door</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+</td></tr>
+<tr>
 <td><code>ftbutilities.claims.block.interact.dimdoors.dimensional_portal</code></td>
 <td><code>bool</code></td>
 <td class='true' colspan='2'><code>true</code></td>
@@ -1066,7 +1084,7 @@ false
 </table><br><table><tr><th>Available command nodes</th><th>Usage</th></tr>
 <tr><td><code>command.advancement</code></td><td>/advancement &lt;grant|revoke|test&gt; &lt;player&gt;</td></tr>
 <tr><td><code>command.aether.aeisland</code></td><td class='error' title='Invalid usage language key!'>/aeisland [toggleDownfall]</td></tr>
-<tr><td><code>command.aov.aov</code></td><td>/aov [open | setlevel [level] &lt;player&gt; | reset [minor | full] &lt;player&gt;]</td></tr>
+<tr><td><code>command.aov.aov</code></td><td>/aov [open | setlevel [level] &lt;player&gt; | reset [minor | full | cooldown] &lt;player&gt;]</td></tr>
 <tr><td><code>command.applecore.hunger</code></td><td>/hunger [player] &lt;value&gt;</td></tr>
 <tr><td><code>command.astralsorcery.astralsorcery</code></td><td class='error' title='Invalid usage language key!'>/astralsorcery &lt;action&gt; [player] [arguments...]</td></tr>
 <tr><td><code>command.baubles.baubles</code></td><td class='error' title='Invalid usage language key!'>/baubles &lt;action&gt; [&lt;player&gt; [&lt;params&gt;]]</td></tr>
@@ -1079,13 +1097,15 @@ false
 <tr><td><code>command.bloodmagic.bloodmagic.orb</code></td><td class='error' title='Invalid usage language key!'>/bloodmagic orb [set|get] player [tier]</td></tr>
 <tr><td><code>command.botania.botania-open</code></td><td>&lt;entry&gt;</td></tr>
 <tr><td><code>command.botania.botania-share</code></td><td>&lt;entry&gt;</td></tr>
+<tr><td><code>command.botania_tweaks.botaniatweaks-debug-stats</code></td><td>/botaniatweaks-debug-stats [flowerName | all | total]</td></tr>
+<tr><td><code>command.botania_tweaks.botaniatweaks-reset-stats</code></td><td>/botaniatweaks-reset-stats [flowerName | all]</td></tr>
 <tr><td><code>command.bq_standard.bqs_loot</code></td><td class='error' title='Invalid usage language key!'>/bq_loot default [save|load], /bq_loot delete [all|&lt;loot_index&gt;]</td></tr>
 <tr><td><code>command.buildinggadgets.deleteblockmaps</code></td><td class='error' title='Invalid usage language key!'>DeleteBlockMaps &lt;player&gt;</td></tr>
 <tr><td><code>command.buildinggadgets.findblockmaps</code></td><td class='error' title='Invalid usage language key!'>FindBlockMaps &lt;player&gt;</td></tr>
 <tr><td><code>command.clear</code></td><td>/clear [player] [item] [data] [maxCount] [dataTag]</td></tr>
 <tr><td><code>command.clone</code></td><td>/clone &lt;x1&gt; &lt;y1&gt; &lt;z1&gt; &lt;x2&gt; &lt;y2&gt; &lt;z2&gt; &lt;x&gt; &lt;y&gt; &lt;z&gt; [maskMode] [cloneMode]</td></tr>
 <tr><td><code>command.cosmeticarmorreworked.clearcosarmor</code></td><td>/clearCosArmor [player]</td></tr>
-<tr><td><code>command.crafttweaker.crafttweaker</code></td><td class='error' title='Invalid usage language key!'>/crafttweaker biomeTypes | biomes | blockinfo | blockmaterial | blocks | botania | botbrews | botlexcats | botlexentries | botlexpages | botlextypes | botorechid | bugs | chiselGroups | conflict | copy | creativetab | discord | docs | dumpzs | entities | exportzs | hand | help | inspirations | inventory | liquids | log | loottables | materialparts | materials | mods | names | nbt | oredict | parts | parttypes | potions | recipeNames | recipes | reload | scripts | seeds | soundevent | soundtype | syntax | thaumcraftDump | wiki | zslint</td></tr>
+<tr><td><code>command.crafttweaker.crafttweaker</code></td><td class='error' title='Invalid usage language key!'>/crafttweaker biomeTypes | biomes | blockinfo | blockmaterial | blocks | botania | botbrews | botlexcats | botlexentries | botlexpages | botlextypes | botorechid | bugs | chiselGroups | conflict | copy | creativetab | discord | docs | dumpzs | entities | exportzs | hand | help | inspirations | inventory | jeiCategories | json | liquids | log | loottables | materialparts | materials | mods | names | nbt | oredict | parts | parttypes | potions | recipeNames | recipes | reload | scripts | seeds | soundevent | soundtype | syntax | thaumcraftDump | wiki | zslint</td></tr>
 <tr><td><code>command.crafttweaker.ctgui</code></td><td class='error' title='Invalid usage language key!'>CTGUI &lt;id&gt;</td></tr>
 <tr><td><code>command.cuisine.culinaryskill</code></td><td>/culinaryskill &lt;Player&gt; get &lt;SkillPoint&gt; or /culinaryskill &lt;Player&gt; set &lt;SkillPoint&gt; &lt;value&gt;</td></tr>
 <tr><td><code>command.debug</code></td><td>/debug &lt;start|stop&gt;</td></tr>
@@ -1187,12 +1207,6 @@ false
 <tr><td><code>command.function</code></td><td>/function &lt;name&gt; [if &lt;selector&gt;|unless &lt;selector&gt;]</td></tr>
 <tr><td><code>command.gamemode</code></td><td>/gamemode &lt;mode&gt; [player]</td></tr>
 <tr><td><code>command.gamerule</code></td><td>/gamerule &lt;rule name&gt; [value]</td></tr>
-<tr><td><code>command.gamestages.gamestage.add</code></td><td class='error' title='Invalid usage language key!'>/gamestage add &lt;player&gt; &lt;stage&gt;</td></tr>
-<tr><td><code>command.gamestages.gamestage.check</code></td><td class='error' title='Invalid usage language key!'>/gamestage check &lt;player&gt; &lt;stage&gt;</td></tr>
-<tr><td><code>command.gamestages.gamestage.clear</code></td><td class='error' title='Invalid usage language key!'>/gamestage clear &lt;player&gt;</td></tr>
-<tr><td><code>command.gamestages.gamestage.info</code></td><td class='error' title='Invalid usage language key!'>/gamestage info [player]</td></tr>
-<tr><td><code>command.gamestages.gamestage.reloadfakes</code></td><td class='error' title='Invalid usage language key!'>/gamestage reloadfakes</td></tr>
-<tr><td><code>command.gamestages.gamestage.remove</code></td><td class='error' title='Invalid usage language key!'>/gamestage remove &lt;player&gt; &lt;stage&gt;</td></tr>
 <tr><td><code>command.give</code></td><td>/give &lt;player&gt; &lt;item&gt; [amount] [data] [dataTag]</td></tr>
 <tr><td><code>command.help</code></td><td>/help [page|command name]</td></tr>
 <tr><td><code>command.incontrol.ctrldebug</code></td><td>ctrldebug</td></tr>
@@ -1210,6 +1224,9 @@ false
 <tr><td><code>command.login_shield.lgs.setspawn</code></td><td>commands.lgs.setspawn.usage</td></tr>
 <tr><td><code>command.login_shield.lgs.sit</code></td><td>commands.lgs.sit.usage</td></tr>
 <tr><td><code>command.login_shield.lgs.tp</code></td><td>commands.lgs.tp.usage</td></tr>
+<tr><td><code>command.lordcraft.lord:reload_energy</code></td><td class='error' title='Invalid usage language key!'></td></tr>
+<tr><td><code>command.lordcraft.lord:remove_energy_override</code></td><td>commands.removeEnergyValueHand.usage</td></tr>
+<tr><td><code>command.lordcraft.lord:set_energy</code></td><td>commands.setEnergyValueHand.usage</td></tr>
 <tr><td><code>command.loreexpansion.lore.clear</code></td><td class='error' title='Invalid usage language key!'>/lore clear [player]</td></tr>
 <tr><td><code>command.loreexpansion.lore.debug</code></td><td class='error' title='Invalid usage language key!'>/lore debug</td></tr>
 <tr><td><code>command.loreexpansion.lore.give</code></td><td class='error' title='Invalid usage language key!'>/lore give &lt;player&gt; &lt;lore_category&gt; &lt;lore_id&gt; [useItem]</td></tr>
@@ -1219,7 +1236,6 @@ false
 <tr><td><code>command.meecreeps.creep_list</code></td><td>creep_list</td></tr>
 <tr><td><code>command.meecreeps.creep_test</code></td><td>creep_test</td></tr>
 <tr><td><code>command.minecolonies.minecolonies</code></td><td class='error' title='Invalid usage language key!'>/minecolonies &lt;colonies|kill|colony|citizens|rtp|backup|home|loadBackup|raid-tonight|raid-now|check|whoami|whereami|lootGen&gt;</td></tr>
-<tr><td><code>command.morpheus.morpheus</code></td><td class='error' title='Invalid usage language key!'>/morpheus &lt;alert : version&gt; | /morpheus percent &lt;percentage&gt; | /morpheus disable &lt;dimension number&gt;</td></tr>
 <tr><td><code>command.mystic.sandstorm</code></td><td>commands.sandstorm.usage</td></tr>
 <tr><td><code>command.naturesaura.naaura</code></td><td>/naaura &lt;action&gt; &lt;amount&gt; &lt;range&gt;</td></tr>
 <tr><td><code>command.particle</code></td><td>/particle &lt;name&gt; &lt;x&gt; &lt;y&gt; &lt;z&gt; &lt;xd&gt; &lt;yd&gt; &lt;zd&gt; &lt;speed&gt; [count] [mode] [player] [params]</td></tr>
@@ -1254,6 +1270,8 @@ false
 <tr><td><code>command.testforblock</code></td><td>/testforblock &lt;x&gt; &lt;y&gt; &lt;z&gt; &lt;block&gt; [dataValue|-1|state|*] [dataTag]</td></tr>
 <tr><td><code>command.testforblocks</code></td><td>/testforblocks &lt;x1&gt; &lt;y1&gt; &lt;z1&gt; &lt;x2&gt; &lt;y2&gt; &lt;z2&gt; &lt;x&gt; &lt;y&gt; &lt;z&gt; [mode]</td></tr>
 <tr><td><code>command.thaumcraft.thaumcraft</code></td><td class='error' title='Invalid usage language key!'>/thaumcraft &lt;action&gt; [&lt;player&gt; [&lt;params&gt;]]</td></tr>
+<tr><td><code>command.thaumic_arcana.spawnarcanastructure</code></td><td>spawnArcanaStructure x y z &lt;structure_name&gt;</td></tr>
+<tr><td><code>command.thaumic_arcana.tascar</code></td><td class='error' title='Invalid usage language key!'>/tascar &lt;player&gt; &lt;check|setdamage&gt; &lt;number&gt;&gt;</td></tr>
 <tr><td><code>command.thebetweenlands.aspectdiscovery</code></td><td>Usage: /aspectDiscovery &lt;player&gt; &lt;reset|discover&gt; &lt;held|all&gt;</td></tr>
 <tr><td><code>command.thebetweenlands.blevent</code></td><td>Usage: /blevent &lt;toggle|on|off|list|enable|disable&gt;</td></tr>
 <tr><td><code>command.thebetweenlands.blreloadrecipes</code></td><td>Usage: /blReloadRecipes</td></tr>

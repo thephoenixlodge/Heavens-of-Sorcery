@@ -209,6 +209,5 @@ ArcaneWorld.createRitualCreateItem("angel_statue", "Choir of Angels", angelicSta
 ArcaneWorld.createRitualCreateItem("mist_portal_upper", "Imbue Upper Portal Stone", mistyPortalUpper, stoneTaiga, portalCore, nuggetGold, amethyst, bottleEmpty);
 ArcaneWorld.createRitualCreateItem("mist_portal_lower", "Imbue Lower Portal Stone", mistyPortalLower, stoneTaiga, portalCore, nuggetGold, amethyst, growthPowder);
 
-
 //Aether Portal
 ArcaneWorld.createRitualCreateItem("aether_portal", "Imbue Aether Portal", aetherPortal, andesitePolished, portalCore, portalCore, sapphire, ingotIron);

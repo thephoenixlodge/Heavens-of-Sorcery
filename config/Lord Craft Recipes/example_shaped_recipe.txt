@@ -1,0 +1,22 @@
+Remember When you make one for yourself make sure it is a .json file!
+{
+    "type": "crafting_shaped",
+	"research": 31, 
+    "pattern": [
+        "###",
+        " s ",
+        " s "
+    ],
+	"result": {
+        "item": "lordcraft:pick_infused_metal"
+    },
+    "key": {
+		"s": {
+			"type": "forge:ore_dict",
+			"ore": "stickWood"
+		},
+        "#": {
+            "item": "lordcraft:ingot_magic"
+        }
+    }
+}

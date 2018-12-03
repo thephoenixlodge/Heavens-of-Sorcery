@@ -1,0 +1,66 @@
+None: 0 --You can actually just not include the research tag completely instead of using this if you want
+Basics: 1
+Water: 2
+Earth: 3
+Fire: 4
+Air: 5
+Light: 6
+Dark: 7
+Water Tools: 8
+Earth Tools: 9
+Fire Tools: 10
+Air Tools: 11
+Light Tools: 12
+Dark Tools: 13
+Arcane Forge: 14
+Crystallisation: 15
+Void Eye: 16
+Advanced Forge: 17
+Staff: 18
+Advanced Staves: 19
+Ultimate Staves: 20
+Thelos: 21
+Infused Fabric: 22
+Water Robes: 23
+Earth Robes: 24
+Fire Robes: 25
+Air Robes: 26
+Light Robes: 27
+Dark Robes: 28
+Ore Processing: 29
+Transmutation: 30
+Infused Tools: 31
+Gem Tools: 32
+Arcane Crafting: 33
+
+|| \/ Tier 2 Elements \/ ||
+Ice: 34
+Steam: 35
+Metal: 36
+Plant: 37
+Hellfire: 38
+Dragon: 39
+Self: 40
+Other: 41
+Corruption: 42
+Calm: 43
+Shadow: 44
+Void: 45
+|| /\ Tier 2 Elements /\ ||
+
+Equipment: 46
+Runestones: 47
+Translocation: 48
+Transform: 49
+Void Power: 50
+Contraptions: 51
+
+Tier1: 52 --Essentially checks if you have picked an element
+Robes: 53 --You have completed robe research within at least one element
+Tools: 54 --You have completed Tools research within at least one element
+Tier 2 Water: 55 --You have picked a tier 2 water research
+Tier 2 Earth: 56 --You have picked a tier 2 earth research
+Tier 2 Fire: 57 --You have picked a tier 2 fire research
+Tier 2 Air: 58 --You have picked a tier 2 air research
+Tier 2 Light: 59 --You have picked a tier 2 light research
+Tier 2 Dark: 60 --You have picked a tier 2 dark research

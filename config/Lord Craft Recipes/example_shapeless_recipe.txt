@@ -1,0 +1,31 @@
+Remember When you make one for yourself make sure it is a .json file!
+{
+    "type": "crafting_shapeless",
+	"research": 2,
+    "ingredients": [
+        {
+            "item": "lordcraft:crystal_basic_neutral",
+			"data": 0
+        },
+		{
+            "item": "lordcraft:crystal_basic_neutral",
+			"data": 0
+        },
+		{
+            "item": "lordcraft:crystal_basic_neutral",
+			"data": 0
+        },
+		{
+            "item": "lordcraft:crystal_basic_neutral",
+			"data": 0
+        },
+		{
+            "item": "minecraft:water_bucket"
+        }
+    ],
+    "result": {
+        "item": "lordcraft:crystal_basic_water",
+		"data": 0,
+		"count": 4
+    }
+}

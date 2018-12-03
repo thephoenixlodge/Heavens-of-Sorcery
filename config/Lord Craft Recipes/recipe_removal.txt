@@ -1,0 +1,7 @@
+#Put your lines in a .lord file without the '#'s, the '~' denotes metadata but it can be removed entirely
+#Removing a recipe will remove all lordcraft recipes for that item allowing you to then add your own
+
+#Removing recipes
+#lordcraft.recipes.remove(SHAPED, <modid:itemName~0>)
+#lordcraft.recipes.remove(SHAPELESS, <modid:itemName~0>)
+#lordcraft.recipes.remove(FORGE, <modid:itemName~0>)

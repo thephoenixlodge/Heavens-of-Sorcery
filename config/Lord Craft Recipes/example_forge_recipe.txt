@@ -1,0 +1,21 @@
+Remember When you make one for yourself make sure it is a .json file!
+{
+    "type": "crafting_forge",
+	"research": 15,
+    "input": [
+        {
+            "ore": "ingotIron",
+			"count": 2
+        },
+		{
+            "item": "lordcraft:crystal_basic_neutral",
+			"data": 0,
+			"count": 2
+        }
+    ],
+    "result": {
+        "item": "lordcraft:crystal_basic_neutral",
+		"data": 1,
+		"count": 3
+    }
+}

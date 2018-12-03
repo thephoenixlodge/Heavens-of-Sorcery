@@ -6,7 +6,7 @@ val goldShroom = <mist:mushrooms_food:18>;
 val brilliantFibre = <naturesaura:gold_fiber>;
 val leaves = <ore:treeLeaves>;
 val nuggetGold = <ore:nuggetGold>;
-val tallGrass = <minecraft:tallGrass>;
+val tallGrass = <minecraft:tallgrass>;
 
 
 //Tweak gold fibre recipe to require misty world
