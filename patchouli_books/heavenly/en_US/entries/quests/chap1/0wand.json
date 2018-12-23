@@ -1,0 +1,19 @@
+{
+    "name": "An End and a Beginning",
+    "icon": "contenttweaker:ironwood_wand_one",
+    "category": "quests/chap1",
+    "sortnum": 0,
+    "turnin": "heavens:bookchap1/0wand",
+    "pages": [
+        {
+            "type": "text",
+            "text": "I'm sorry, I failed you. For all I thought I was capable of, in the end I could barely protect this tiny fragment of the world. The fact that you live though, gives me hope my child. Though I am nothing but a whisper on the breeze now, I will assist you however I can.$(br2)First of all, this island, small though it may be, holds some key materials to begin to re-establish things."
+        },
+        {
+        	"type": "crafting",
+        	"title": "Ironwood Wand",
+        	"recipe": "crafttweaker:ct_shaped1684457938",
+        	"text": "Take these trees for example - though you can fell them with your bare hands, their wood is innately powerful - such that even the crudest of wands carved from it may be of great use."
+        }
+    ]
+}

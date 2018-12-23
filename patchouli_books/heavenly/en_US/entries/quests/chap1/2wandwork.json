@@ -1,0 +1,47 @@
+{
+    "name": "No Such Thing as Sifting",
+    "icon": "botania:grassseeds:7",
+    "category": "quests/chap1",
+    "sortnum": 2,
+    "advancement": "heavens:bookchap1/0wand",
+    "turnin": "heavens:bookchap1/2wandwork",
+    "pages": [
+        {
+            "type": "text",
+            "text": "The trees aren't the only materials I was able to preserve with this island. Look around - water, rock and earth are part of all this too. That wand - it's attuned to the subtleties of this place, and can coax the earth and rocks here to aid you.$(br)Using it on the stone will reward you with Clay, while the earth will indulge you with shards of life lost, and seeds to spread beyond this place."
+        },
+        {
+        	"type": "checklist",
+        	"item1": "botania:grassseeds:7",
+            "item_name1": "1 Infused Pasture Seed",
+            "item2": "contenttweaker:boneshard",
+            "item_name2": "20 Bone Shards",
+            "item3": "minecraft:clay_ball",
+            "item_name3": "20 Clay"
+        },
+        {
+            "type": "wand_use",
+            "heading": "Infused Pasture Seeds",
+            "interact": "botania:altgrass:4",
+            "receive": "botania:grassseeds:7",
+            "drop_chance": "6%",
+            "quantity": "1"
+        },
+        {
+            "type": "wand_use",
+            "heading": "Bone Shards",
+            "interact": "botania:altgrass:4",
+            "receive": "contenttweaker:boneshard",
+            "drop_chance": "50%",
+            "quantity": "0-2"
+        },
+        {
+            "type": "wand_use",
+            "heading": "Clay",
+            "interact": "botania:biomestonea:6",
+            "receive": "minecraft:clay_ball",
+            "drop_chance": "100%",
+            "quantity": "0-2"
+        }
+    ]
+}

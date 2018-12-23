@@ -1,0 +1,15 @@
+setTitle("Saving the World 101")
+
+setIcon(<patchouli:guide_book, nbt:{"patchouli:book":"patchouli:heavenly"}>)
+
+setDescription("I have few regrets, but burdening you with my final unfinished task is one of them. Yet not even death shall prevent me from assisting you in this endeavour.")
+
+setBackground("botania:textures/blocks/biomestone6.png")
+
+setShowToast(false)
+
+setAnnounceToChat(false)
+
+setPos(10,15)
+
+addCriteria("location", "minecraft:location")

@@ -1,0 +1,7 @@
+{
+	"name": "Creatures - Passive",
+	"description": "The various passive animals you may encounter, and/or wish to tame or farm",
+	"icon": "minecraft:spawn_egg{EntityTag: {id: \"minecraft:cow\"}}",
+	"sortnum": 0,
+	"parent": "collected_knowledge"
+}

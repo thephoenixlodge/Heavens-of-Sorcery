@@ -1,0 +1,27 @@
+{
+    "name": "The Simple Things",
+    "icon": "rustic:ironberries",
+    "category": "quests/chap1",
+    "sortnum": 1,
+    "advancement": "heavens:bookchap1/0wand",
+    "turnin": "heavens:bookchap1/1ironberries",
+    "pages": [
+        {
+            "type": "text",
+            "text": "With a keen eye, you may have noticed that these trees grow small, hard berries that feel almost metallic to the touch. While they normally grow slowly, the wand you hold should be capable of encouraging the growth of these berries - simply use it on the leaves, and watch the Ironberries flow!"
+        },
+        {
+        	"type": "checklist",
+        	"item1": "rustic:ironberries",
+            "item_name1": "20 Ironberries"
+        },
+        {
+            "type": "wand_use",
+            "heading": "Ironberries",
+            "interact": "rustic:leaves:1",
+            "receive": "rustic:ironberries",
+            "drop_chance": "100%",
+            "quantity": "1-4"
+        }
+    ]
+}

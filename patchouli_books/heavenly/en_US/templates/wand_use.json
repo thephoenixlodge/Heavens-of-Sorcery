@@ -1,0 +1,61 @@
+{
+	"components": [
+		{
+			"type": "header",
+			"text": "#heading",
+			"x": -1,
+			"y": -1
+		},
+		{
+			"type": "image",
+			"image": "books:templates/wand_background.png",
+			"texture_width": 64,
+			"texture_height": 16,
+			"width": 64,
+			"height": 16,
+			"scale": 1.5,
+			"x": 10,
+			"y": 30
+		},
+		{
+			"type": "item",
+			"item": "#interact",
+			"framed": "true",
+			"x": 10,
+			"y": 35
+		},
+		{
+			"type": "item",
+			"item": "#receive",
+			"framed": "true",
+			"link_recipe": true,
+			"x": 90,
+			"y": 35
+		},
+		{
+			"type": "item",
+			"item": "contenttweaker:ironwood_wand_one",
+			"framed": "false",
+			"x": 50,
+			"y": 21
+		},
+        {
+            "type": "text",
+            "text": "Drop Chance:$(br)Quantity:",
+            "x": 10,
+            "y": 70
+        },
+        {
+            "type": "text",
+            "text": "#drop_chance",
+            "x": 60,
+            "y": 70
+        },
+        {
+            "type": "text",
+            "text": "#quantity",
+            "x": 60,
+            "y": 79
+        }
+	]
+}

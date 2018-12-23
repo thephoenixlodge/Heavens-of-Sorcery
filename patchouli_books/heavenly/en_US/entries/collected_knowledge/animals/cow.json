@@ -1,0 +1,16 @@
+{
+    "name": "Cow",
+    "icon": "minecraft:spawn_egg{EntityTag: {id: \"minecraft:cow\"}}",
+    "category": "collected_knowledge/animals",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Ahhh, the simple cow. Ever reliable as a source of beef, leather and milk. Harvesting the former two requires butchering the poor beast, but simply using a bucket on it should suffice to collect milk."
+        },
+        {
+        	"type": "entity",
+            "entity": "minecraft:cow",
+            "scale": 0.7
+        }
+    ]
+}

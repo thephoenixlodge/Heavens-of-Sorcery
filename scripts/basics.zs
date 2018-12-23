@@ -49,8 +49,8 @@ val diorite = <minecraft:stone:3>;
 val oreDiorite = <ore:stoneDiorite>;
 val andesite = <minecraft:stone:5>;
 val granite = <minecraft:stone:1>;
-val colonyBuildingTool = <minecolonies:sceptergold>;
-val colonyScanTool = <minecolonies:sceptersteel>;
+//val colonyBuildingTool = <minecolonies:sceptergold>;
+//val colonyScanTool = <minecolonies:sceptersteel>;
 val growthPowder = <rootsclassic:growthsalve>;
 val redstone = <minecraft:redstone>;
 val pestle = <rootsclassic:pestle>;
@@ -153,10 +153,10 @@ recipes.remove(granite);
 recipes.addShapeless(granite, [oreDiorite, quartzSliver]);
 
 //Minecolonies tools recipe conflicts
-recipes.remove(colonyScanTool);
+/*recipes.remove(colonyScanTool);
 recipes.addShaped(colonyScanTool, [[null, null, diorite], [null, stick, null], [stick, null, null]]);
 recipes.remove(colonyBuildingTool);
-recipes.addShaped(colonyBuildingTool, [[null, null, andesite], [null, stick, null], [stick, null, null]]);
+recipes.addShaped(colonyBuildingTool, [[null, null, andesite], [null, stick, null], [stick, null, null]]);*/
 
 //Growth Powder
 recipes.remove(growthPowder);

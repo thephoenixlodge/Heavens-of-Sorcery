@@ -1,0 +1,75 @@
+{
+	"components": [
+		{
+			"type": "header",
+			"text": "Collect:",
+			"x": -1,
+			"y": -1
+		},
+		{
+			"type": "item",
+			"item": "#item1",
+			"framed": "true",
+			"x": 10,
+			"y": 15
+		},
+		{
+			"type": "text",
+			"text": "#item_name1",
+			"x": 30,
+			"y": 15
+		},
+		{
+			"type": "item",
+			"item": "#item2",
+			"framed": "true",
+			"x": 10,
+			"y": 40
+		},
+		{
+			"type": "text",
+			"text": "#item_name2",
+			"x": 30,
+			"y": 40
+		},
+		{
+			"type": "item",
+			"item": "#item3",
+			"framed": "true",
+			"x": 10,
+			"y": 65
+		},
+		{
+			"type": "text",
+			"text": "#item_name3",
+			"x": 30,
+			"y": 65
+		},
+		{
+			"type": "item",
+			"item": "#item4",
+			"framed": "true",
+			"x": 10,
+			"y": 90
+		},
+		{
+			"type": "text",
+			"text": "#item_name4",
+			"x": 30,
+			"y": 90
+		},
+		{
+			"type": "item",
+			"item": "#item5",
+			"framed": "true",
+			"x": 10,
+			"y": 115
+		},
+		{
+			"type": "text",
+			"text": "#item_name5",
+			"x": 30,
+			"y": 115
+		}
+	]
+}
