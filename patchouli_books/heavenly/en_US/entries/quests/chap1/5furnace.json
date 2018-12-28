@@ -1,0 +1,27 @@
+{
+    "name": "Heating Up",
+    "icon": "minecraft:furnace",
+    "category": "quests/chap1",
+    "sortnum": 5,
+    "advancement": "heavens:bookchap1/2wandwork",
+    "turnin": "heavens:bookchap1/5furnace",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "Heating Up",
+            "trigger": "heavens:bookchap1/5furnace",
+            "text": "Raw clay can only do so much, but if you combine it with some of the stone that forms the island's foundation, you should have a furnace vessel that can handle enough heat to actually cook things, including the clay itself."
+        },
+        {
+        	"type": "checklist_end",
+        	"item1": "minecraft:furnace",
+            "item_name1": "1 Furnace",
+            "reward1": "minecraft:furnace#2",
+            "reward2": "minecraft:coal:1#3"
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:ct_shaped1541019723"
+        }
+    ]
+}

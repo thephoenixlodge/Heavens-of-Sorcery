@@ -7,9 +7,10 @@ setDescription("Collect 20 Ironberries using the Ironwood wand")
 addParent("heavens:bookchap1/0wand")
 
 setPos(50,25)
+hideLines()
 
 criteria = addCriteria("hasItemIronberries", "minecraft:inventory_changed")
-criteria.setItem(<rustic:ironberries, count:20>)
+criteria.addItem(<rustic:ironberries, count:20>)
 
 addRewardItem(<minecraft:stone_axe>)
 addRewardItem(<rustic:ironberries, count:20>)

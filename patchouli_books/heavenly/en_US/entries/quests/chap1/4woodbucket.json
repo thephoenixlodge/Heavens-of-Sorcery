@@ -1,0 +1,27 @@
+{
+    "name": "Hope it Doesn't Leak",
+    "icon": "thebetweenlands:bl_bucket",
+    "category": "quests/chap1",
+    "sortnum": 4,
+    "advancement": "heavens:bookchap1/0wand",
+    "turnin": "heavens:bookchap1/4woodbucket",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "Hope it Doesn't Leak",
+            "trigger": "heavens:bookchap1/4woodbucket",
+            "text": "At this point, perhaps you wish to move water around, or perhaps you find yourself handling some other liquid. Either way, I can show you how to use wood to create a rough bucket. It won't hold up to anything hot, but it'll do for a start I'm sure."
+        },
+        {
+        	"type": "checklist_end",
+        	"item1": "thebetweenlands:bl_bucket",
+            "item_name1": "1 Wooden Bucket",
+            "reward1": "minecraft:stone_shovel",
+            "reward2": "rustic:wildberries#3"
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:ct_shaped-939146164"
+        }
+    ]
+}

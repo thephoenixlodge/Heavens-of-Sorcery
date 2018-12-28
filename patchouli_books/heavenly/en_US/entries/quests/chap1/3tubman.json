@@ -1,0 +1,34 @@
+{
+    "name": "Tubman",
+    "icon": "rustic:crushing_tub",
+    "category": "quests/chap1",
+    "sortnum": 3,
+    "advancement": "heavens:bookchap1/1ironberries",
+    "turnin": "heavens:bookchap1/3tubman",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "Tubman",
+            "trigger": "heavens:bookchap1/3tubman",
+            "text": "I hope you weren't expecting to return things to how they were with a simple swish of a wand. With so much lost, there are limits to what can be done without a bit of good ol' fashioned physical labour."
+        },
+        {
+            "type": "text",
+            "text": "Surely you're wondering what is to be done with those berries by now, but for that you'll need to make a wooden tub, and a terracotta drying basin."
+        },
+        {
+        	"type": "checklist_end",
+        	"item1": "rustic:crushing_tub",
+            "item_name1": "1 Crushing Tub",
+            "item2": "rustic:evaporating_basin",
+            "item_name2": "1 Drying Basin",
+            "reward1": "rustic:ironberries#50",
+            "reward2": "rustic:evaporating_basin"
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:ct_shaped-1935834352",
+            "recipe2": "rustic:evaporating_basin"
+        }
+    ]
+}

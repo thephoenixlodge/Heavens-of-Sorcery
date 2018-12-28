@@ -1,0 +1,17 @@
+setIcon(<rustic:crushing_tub>)
+
+setTitle("Tubman")
+
+setDescription("Craft a Crushing Tub and Drying Basin")
+
+addParent("heavens:bookchap1/1ironberries")
+
+setPos(90,35)
+
+criteria1 = addCriteria("hasItemsCrushTub", "triumph:player_crafted_item")
+criteria1.setItem(<rustic:crushing_tub>)
+criteria2 = addCriteria("hasItemsDryingBasin", "triumph:player_crafted_item")
+criteria2.setItem(<rustic:evaporating_basin>)
+
+addRewardItem(<rustic:evaporating_basin>)
+addRewardItem(<rustic:ironberries, count:50>)

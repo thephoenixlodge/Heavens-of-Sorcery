@@ -1,0 +1,16 @@
+setIcon(<thebetweenlands:bl_bucket>)
+
+setTitle("Hope it Doesn't Leak")
+
+setDescription("Craft a Wooden Bucket")
+
+addParent("heavens:bookchap1/0wand")
+
+setPos(90,15)
+hideLines()
+
+criteria1 = addCriteria("hasItemsWoodBucket", "triumph:player_crafted_item")
+criteria1.setItem(<thebetweenlands:bl_bucket>)
+
+addRewardItem(<minecraft:stone_shovel>)
+addRewardItem(<rustic:wildberries, count:3>)

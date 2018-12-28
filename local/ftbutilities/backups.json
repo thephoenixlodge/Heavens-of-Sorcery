@@ -47,5 +47,12 @@
 		"index": 7,
 		"success": true,
 		"size": 25089320
+	},
+	{
+		"time": 1545919096618,
+		"file": "2018-12-27-21-58-16.zip",
+		"index": 8,
+		"success": true,
+		"size": 1588819
 	}
 ]

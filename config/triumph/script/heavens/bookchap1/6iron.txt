@@ -1,0 +1,18 @@
+setIcon(<minecraft:furnace>)
+
+setTitle("Heating Up")
+
+setDescription("Squish Ironberries into juice to make Juice, Dry it to Dust, then smelt for Iron Nuggets to make an Iron Ingot")
+
+addParent("heavens:bookchap1/3tubman")
+addParent("heavens:bookchap1/4woodbucket")
+addParent("heavens:bookchap1/5furnace")
+
+setPos(90,-5)
+hideLines()
+
+criteria = addCriteria("hasItemsIron", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:iron_ingot>)
+criteria.addItem(<rustic:dust_tiny_iron>)
+
+addRewardItem(<minecraft:iron_ingot, count:2>)

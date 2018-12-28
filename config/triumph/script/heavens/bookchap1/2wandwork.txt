@@ -7,13 +7,12 @@ setDescription("Collect 20 Clay, 20 Bone Shards and an Infused Pasture Seed usin
 addParent("heavens:bookchap1/0wand")
 
 setPos(50,5)
+hideLines()
 
-criteria1 = addCriteria("hasItemsInfusedSeed", "minecraft:inventory_changed")
-criteria1.setItem(<botania:grassseeds, meta:7>)
-criteria2 = addCriteria("hasItemsClay", "minecraft:inventory_changed")
-criteria2.setItem(<minecraft:clay_ball, count:20>)
-criteria3 = addCriteria("hasItemsBoneshards", "minecraft:inventory_changed")
-criteria3.setItem(<contenttweaker:boneshard, count:20>)
+criteria = addCriteria("hasItems", "minecraft:inventory_changed")
+criteria.addItem(<botania:grassseeds, meta:7>)
+criteria.addItem(<minecraft:clay_ball, count:20>)
+criteria.addItem(<contenttweaker:boneshard, count:20>)
 
 addRewardItem(<minecraft:stone_pickaxe>)
 addRewardItem(<botania:grassseeds, meta:7, count:2>)

@@ -1,0 +1,35 @@
+{
+    "name": "That's So Metal",
+    "icon": "minecraft:iron_ingot",
+    "category": "quests/chap1",
+    "sortnum": 6,
+    "advancement": "heavens:bookchap1/3tubman",
+    "turnin": "heavens:bookchap1/6iron",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "That's So Metal",
+            "trigger": "heavens:bookchap1/6iron",
+            "text": "I warned you about the manual labour, right? Well here it comes. Stick some of those Ironberries in the Crushing Tub and get to jumping. As hardy as they are, these berries readily squish into juice. Then, transfer the juice to a Drying Basin to produce Tiny Piles of Iron Dust. Smelt these in a furnace, then combine and wa-la, Iron Ingot."
+        },
+        {
+        	"type": "checklist_end",
+        	"item1": "rustic:dust_tiny_iron",
+            "item_name1": "1 Tiny Pile of Iron Dust",
+            "item2": "minecraft:iron_ingot",
+            "item_name2": "1 Iron Ingot",
+            "reward1": "minecraft:iron_ingot#2"
+        },
+        {
+            "type": "crushing",
+            "heading": "Ironberrry Processing",
+            "input_crush": "rustic:ironberries#2",
+            "fluid": "rustic:ironberry_juice",
+            "receive": "rustic:dust_tiny_iron"
+        },
+        {
+            "type": "smelting",
+            "recipe": "rustic:dust_tiny_iron"
+        }
+    ]
+}

@@ -7,17 +7,25 @@
     "turnin": "heavens:bookchap1/2wandwork",
     "pages": [
         {
-            "type": "text",
-            "text": "The trees aren't the only materials I was able to preserve with this island. Look around - water, rock and earth are part of all this too. That wand - it's attuned to the subtleties of this place, and can coax the earth and rocks here to aid you.$(br)Using it on the stone will reward you with Clay, while the earth will indulge you with shards of life lost, and seeds to spread beyond this place."
+            "type": "quest",
+            "title": "No Such Thing as Sifting",
+            "trigger": "heavens:bookchap1/2wandwork",
+            "text": "The trees aren't the only materials I was able to preserve with this island. Look around - water, rock and earth are part of all this too. That wand - it's attuned to the subtleties of this place, and can coax the earth and rocks here to aid you."
         },
         {
-        	"type": "checklist",
+            "type": "text",
+            "text": "Using it on the stone will reward you with Clay, while the earth will indulge you with shards of life lost, and seeds to spread beyond this place."
+        },
+        {
+        	"type": "checklist_end",
         	"item1": "botania:grassseeds:7",
             "item_name1": "1 Infused Pasture Seed",
             "item2": "contenttweaker:boneshard",
             "item_name2": "20 Bone Shards",
             "item3": "minecraft:clay_ball",
-            "item_name3": "20 Clay"
+            "item_name3": "20 Clay",
+            "reward1": "minecraft:stone_pickaxe",
+            "reward2": "botania:altgrass:4#2"
         },
         {
             "type": "wand_use",

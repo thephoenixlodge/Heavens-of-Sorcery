@@ -1,4 +1,4 @@
-12618 nodes in total
+12623 nodes in total
 Modifying this file won't have any effect, edit ranks.txt!
 
 admin_panel.ftbutilities.crash_reports.delete: OP
@@ -2375,6 +2375,7 @@ ftbutilities.claims.block.edit.naturesaura.animal_generator: OP
 ftbutilities.claims.block.edit.naturesaura.aura_detector: OP
 ftbutilities.claims.block.edit.naturesaura.conversion_catalyst: OP
 ftbutilities.claims.block.edit.naturesaura.decayed_leaves: OP
+ftbutilities.claims.block.edit.naturesaura.end_flower: OP
 ftbutilities.claims.block.edit.naturesaura.field_creator: OP
 ftbutilities.claims.block.edit.naturesaura.flower_generator: OP
 ftbutilities.claims.block.edit.naturesaura.furnace_heater: OP
@@ -6032,6 +6033,7 @@ ftbutilities.claims.block.interact.naturesaura.animal_generator: OP
 ftbutilities.claims.block.interact.naturesaura.aura_detector: OP
 ftbutilities.claims.block.interact.naturesaura.conversion_catalyst: OP
 ftbutilities.claims.block.interact.naturesaura.decayed_leaves: OP
+ftbutilities.claims.block.interact.naturesaura.end_flower: OP
 ftbutilities.claims.block.interact.naturesaura.field_creator: OP
 ftbutilities.claims.block.interact.naturesaura.flower_generator: OP
 ftbutilities.claims.block.interact.naturesaura.furnace_heater: OP
@@ -10667,7 +10669,10 @@ ftbutilities.claims.item.naturesaura.calling_spirit: ALL
 ftbutilities.claims.item.naturesaura.color_changer: ALL
 ftbutilities.claims.item.naturesaura.conversion_catalyst: ALL
 ftbutilities.claims.item.naturesaura.decayed_leaves: ALL
+ftbutilities.claims.item.naturesaura.effect_powder: ALL
+ftbutilities.claims.item.naturesaura.end_flower: ALL
 ftbutilities.claims.item.naturesaura.eye: ALL
+ftbutilities.claims.item.naturesaura.eye_improved: ALL
 ftbutilities.claims.item.naturesaura.farming_stencil: ALL
 ftbutilities.claims.item.naturesaura.field_creator: ALL
 ftbutilities.claims.item.naturesaura.flower_generator: ALL
@@ -12627,6 +12632,7 @@ command.aether.aeisland
 command.aov.aov
 command.applecore.hunger
 command.astralsorcery.astralsorcery
+command.base.base.recipes.reload
 command.baubles.baubles
 command.betterbuilderswands.wandoops
 command.betterquesting.bq_admin
@@ -12640,7 +12646,7 @@ command.botania.botania-open
 command.botania.botania-share
 command.botania_tweaks.botaniatweaks-debug-stats
 command.botania_tweaks.botaniatweaks-reset-stats
-command.bountiful.bounty
+command.bountiful.bountiful
 command.bq_standard.bqs_loot
 command.buildinggadgets.deleteblockmaps
 command.buildinggadgets.findblockmaps

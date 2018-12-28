@@ -6,14 +6,25 @@
     "turnin": "heavens:bookchap1/0wand",
     "pages": [
         {
-            "type": "text",
-            "text": "I'm sorry, I failed you. For all I thought I was capable of, in the end I could barely protect this tiny fragment of the world. The fact that you live though, gives me hope my child. Though I am nothing but a whisper on the breeze now, I will assist you however I can.$(br2)First of all, this island, small though it may be, holds some key materials to begin to re-establish things."
+            "type": "quest",
+            "title": "An End and a Beginning",
+            "trigger": "heavens:bookchap1/0wand",
+            "text": "I'm sorry, I failed you. For all I thought I was capable of, in the end I could barely protect this tiny fragment of the world. The fact that you live though, gives me hope my child. Though I am nothing but a whisper on the breeze now, I will assist you however I can."
         },
         {
-        	"type": "crafting",
-        	"title": "Ironwood Wand",
-        	"recipe": "crafttweaker:ct_shaped1684457938",
-        	"text": "Take these trees for example - though you can fell them with your bare hands, their wood is innately powerful - such that even the crudest of wands carved from it may be of great use."
+            "type": "text",
+            "text": "First of all, this island, small though it may be, holds some key materials to begin to re-establish things.$(br2)Take these trees for example - though you can fell them with your bare hands, their wood is innately powerful - such that even the crudest of wands carved from it may be of great use."
+        },
+        {
+            "type": "checklist_end",
+            "item1": "contenttweaker:ironwood_wand_one",
+            "item_name1": "1 Simple Ironwood Wand",
+            "reward1": "rustic:log:1#50"
+        },
+        {
+            "type": "crafting",
+            "title": "Ironwood Wand",
+            "recipe": "crafttweaker:ct_shaped1684457938"
         }
     ]
 }

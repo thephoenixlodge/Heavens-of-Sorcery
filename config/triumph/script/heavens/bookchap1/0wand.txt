@@ -7,6 +7,7 @@ setDescription("Craft an Ironwood wand")
 addParent("heavens:bookchap1/root")
 
 setPos(30,15)
+hideLines()
 
 criteria = addCriteria("hasItemIronwoodWand", "triumph:player_crafted_item")
 criteria.setItem(<contenttweaker:ironwood_wand_one>)

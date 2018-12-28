@@ -1,0 +1,87 @@
+{
+	"components": [
+		{
+			"type": "header",
+			"text": "#heading",
+			"x": -1,
+			"y": -1
+		},
+		{
+			"type": "image",
+			"image": "books:templates/jumping.png",
+			"texture_width": 16,
+			"texture_height": 16,
+			"width": 15,
+			"height": 16,
+			"scale": 1.5,
+			"x": 46,
+			"y": 20
+		},
+		{
+			"type": "image",
+			"image": "books:templates/arrow_generic.png",
+			"texture_width": 32,
+			"texture_height": 16,
+			"width": 22,
+			"height": 9,
+			"scale": 1.5,
+			"x": 40,
+			"y": 35
+		},
+		{
+			"type": "item",
+			"item": "#input_crush",
+			"framed": "true",
+			"x": 10,
+			"y": 35
+		},
+		{
+			"type": "item",
+			"item": "#fluid",
+			"framed": "true",
+			"link_recipe": true,
+			"x": 90,
+			"y": 35
+		},
+		{
+			"type": "item",
+			"item": "rustic:crushing_tub",
+			"framed": "false",
+			"x": 50,
+			"y": 45
+		},
+		{
+			"type": "image",
+			"image": "books:templates/arrow_generic.png",
+			"texture_width": 32,
+			"texture_height": 16,
+			"width": 22,
+			"height": 9,
+			"scale": 1.5,
+			"x": 40,
+			"y": 90
+		},
+		{
+			"type": "item",
+			"item": "#fluid",
+			"framed": "true",
+			"x": 10,
+			"y": 90
+		},
+		{
+			"type": "item",
+			"item": "#receive",
+			"framed": "true",
+			"link_recipe": true,
+			"x": 90,
+			"y": 90
+		},
+		{
+			"type": "item",
+			"item": "rustic:evaporating_basin",
+			"framed": "false",
+			"x": 50,
+			"y": 100
+		}
+	]
+}

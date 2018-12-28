@@ -1,0 +1,89 @@
+{
+	"components": [
+		{
+			"type": "header",
+			"text": "Collect:",
+			"x": -1,
+			"y": -5
+		},
+		{
+			"type": "item",
+			"item": "#item1",
+			"framed": "true",
+			"x": 10,
+			"y": 10
+		},
+		{
+			"type": "text",
+			"text": "#item_name1",
+			"x": 30,
+			"y": 10
+		},
+		{
+			"type": "item",
+			"item": "#item2",
+			"framed": "true",
+			"x": 10,
+			"y": 35
+		},
+		{
+			"type": "text",
+			"text": "#item_name2",
+			"x": 30,
+			"y": 35
+		},
+		{
+			"type": "item",
+			"item": "#item3",
+			"framed": "true",
+			"x": 10,
+			"y": 60
+		},
+		{
+			"type": "text",
+			"text": "#item_name3",
+			"x": 30,
+			"y": 60
+		},
+		{
+			"type": "item",
+			"item": "#item4",
+			"framed": "true",
+			"x": 10,
+			"y": 85
+		},
+		{
+			"type": "text",
+			"text": "#item_name4",
+			"x": 30,
+			"y": 85
+		},
+		{
+			"type": "header",
+			"text": "Rewards:",
+			"x": -1,
+			"y": 110
+		},
+		{
+			"type": "item",
+			"item": "#reward1",
+			"framed": "true",
+			"x": 20,
+			"y": 125
+		},
+		{
+			"type": "item",
+			"item": "#reward2",
+			"framed": "true",
+			"x": 50,
+			"y": 125
+		},
+		{
+			"type": "item",
+			"item": "#reward3",
+			"framed": "true",
+			"x": 80,
+			"y": 125
+		}
+	]
+}
