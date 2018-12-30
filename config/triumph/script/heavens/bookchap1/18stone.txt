@@ -1,0 +1,17 @@
+setIcon(<minecraft:cobblestone>)
+
+setTitle("Stoneage - How Retro!")
+
+setDescription("Obtain 10 cobblestone and 1 Obsidian")
+
+addParent("heavens:bookchap1/17lava")
+
+setPos(90,120)
+drawDirectLines()
+
+criteria1 = addCriteria("hasItemsCobble", "minecraft:inventory_changed")
+criteria1.addItem(<minecraft:cobblestone, count:10>)
+criteria2 = addCriteria("hasItemsObsidian", "triumph:player_crafted_item")
+criteria2.addItem(<minecraft:obsidian, count:1>)
+
+addRewardItem(<minecraft:cobblestone, count:400>)

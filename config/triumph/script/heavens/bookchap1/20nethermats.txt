@@ -1,0 +1,23 @@
+setIcon(<arcaneworld:amethyst>)
+
+setTitle("Hell's Bounty")
+
+setDescription("Collect 10 Quartz, 1 Gold Ingot, and 1 Amethyst")
+
+addParent("heavens:bookchap1/19nether")
+
+setPos(50,5)
+hideLines()
+
+criteria1 = addCriteria("hasItems", "minecraft:inventory_changed")
+criteria1.addItem(<arcaneworld:amethyst, count:1>)
+
+criteria2 = addCriteria("hasItems2", "minecraft:inventory_changed")
+criteria2.addItem(<minecraft:quartz, count:10>)
+
+criteria3 = addCriteria("hasItems3", "minecraft:inventory_changed")
+criteria3.addItem(<minecraft:gold_ingot, count:1>)
+
+addRewardItem(<minecraft:quartz_block, count:5>)
+addRewardItem(<minecraft:gold_ingot, count:5>)
+addRewardItem(<arcaneworld:amethyst, count:4>)

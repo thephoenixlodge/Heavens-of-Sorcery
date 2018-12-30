@@ -1,0 +1,24 @@
+setIcon(<minecraft:soul_sand>)
+
+setTitle("Hell's Constructs")
+
+setDescription("Collect 30 Netherrack and 10 each of Soul Sand, Gravel, and Sand")
+
+addParent("heavens:bookchap1/19nether")
+
+setPos(50,5)
+hideLines()
+
+criteria1 = addCriteria("hasItems", "minecraft:inventory_changed")
+criteria1.addItem(<minecraft:soul_sand, count:10>)
+
+criteria2 = addCriteria("hasItems2", "minecraft:inventory_changed")
+criteria2.addItem(<minecraft:gravel, count:10>)
+
+criteria3 = addCriteria("hasItems3", "minecraft:inventory_changed")
+criteria3.addItem(<minecraft:sand, count:10>)
+
+criteria4 = addCriteria("hasItems4", "minecraft:inventory_changed")
+criteria4.addItem(<minecraft:netherrack, count:30>)
+
+addRewardItem(<minecraft:sand, count:100>)

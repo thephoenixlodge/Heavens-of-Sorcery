@@ -1,0 +1,18 @@
+setIcon(<rustic:wildberries>)
+
+setTitle("Juicy")
+
+setDescription("Obtain a Wildberry bush, and some Wheat Seeds")
+
+addParent("heavens:bookchap1/8mana")
+
+setPos(90,50)
+drawDirectLines()
+
+criteria1 = addCriteria("hasItemsBerryBush", "minecraft:inventory_changed")
+criteria1.addItem(<rustic:wildberry_bush, count:1>)
+criteria2 = addCriteria("hasItemsSeeds", "minecraft:inventory_changed")
+criteria2.addItem(<minecraft:wheat_seeds, count:1>)
+
+addRewardItem(<rustic:wildberries, count:40>)
+addRewardItem(<minecraft:stone_hoe>)

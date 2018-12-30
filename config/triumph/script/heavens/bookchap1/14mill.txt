@@ -1,0 +1,17 @@
+setIcon(<cuisine:mill>)
+
+setTitle("Millhouse")
+
+setDescription("Craft a Mill, then use it to grind Chili into Powder")
+
+addParent("heavens:bookchap1/13peppers")
+
+setPos(90,80)
+drawDirectLines()
+
+criteria1 = addCriteria("hasItemsMill", "triumph:player_crafted_item")
+criteria1.addItem(<cuisine:mill, count:1>)
+criteria2 = addCriteria("hasItemsPowder", "minecraft:inventory_changed")
+criteria2.addItem(<cuisine:material, meta:4, count:1>)
+
+addRewardItem(<cuisine:material, meta:4, count:8>)

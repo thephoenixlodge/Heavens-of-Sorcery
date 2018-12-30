@@ -1,0 +1,17 @@
+setIcon(<rustic:chili_pepper>)
+
+setTitle("Hot Stuff")
+
+setDescription("Obtain some Chili Pepper Seeds, and a Wooden Stake to plant them on")
+
+addParent("heavens:bookchap1/11berries")
+
+setPos(90,70)
+drawDirectLines()
+
+criteria1 = addCriteria("hasItemsChili", "minecraft:inventory_changed")
+criteria1.addItem(<rustic:chili_pepper_seeds, count:1>)
+criteria2 = addCriteria("hasItemsStake", "minecraft:inventory_changed")
+criteria2.addItem(<rustic:crop_stake, count:1>)
+
+addRewardItem(<rustic:chili_pepper, count:6>)

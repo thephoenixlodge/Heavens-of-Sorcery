@@ -1,0 +1,15 @@
+setIcon(<minecraft:cauldron>)
+
+setTitle("Toil, Without the Trouble")
+
+setDescription("Craft a Cauldron")
+
+addParent("heavens:bookchap1/6iron")
+
+setPos(90,-5)
+hideLines()
+
+criteria1 = addCriteria("hasItemsCauldron", "triumph:player_crafted_item")
+criteria1.setItem(<minecraft:cauldron>)
+
+addRewardItem(<botania:grassseeds, meta:7, count:5>)

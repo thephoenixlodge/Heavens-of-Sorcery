@@ -6,7 +6,7 @@ setDescription("Craft a Crushing Tub and Drying Basin")
 
 addParent("heavens:bookchap1/1ironberries")
 
-setPos(90,35)
+setPos(90,0)
 
 criteria1 = addCriteria("hasItemsCrushTub", "triumph:player_crafted_item")
 criteria1.setItem(<rustic:crushing_tub>)

@@ -1,0 +1,17 @@
+setIcon(<minecraft:flint_and_steel>)
+
+setTitle("Meet the Flintstones")
+
+setDescription("Obtain Flint, then use it to craft a Flint and Steel")
+
+addParent("heavens:bookchap1/8mana")
+
+setPos(90,90)
+drawDirectLines()
+
+criteria1 = addCriteria("hasItemsFlint", "minecraft:inventory_changed")
+criteria1.addItem(<minecraft:flint, count:1>)
+criteria2 = addCriteria("hasItemsFlintSteel", "triumph:player_crafted_item")
+criteria2.addItem(<minecraft:flint_and_steel, count:1>)
+
+addRewardItem(<quark:charcoal_block, meta:0, count:1>)

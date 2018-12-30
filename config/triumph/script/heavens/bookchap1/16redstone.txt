@@ -1,0 +1,16 @@
+setIcon(<minecraft:redstone>)
+
+setTitle("Charging with Heat")
+
+setDescription("Obtain Redstone")
+
+addParent("heavens:bookchap1/15flintsteel")
+addParent("heavens:bookchap1/14mill")
+
+setPos(90,100)
+drawDirectLines()
+
+criteria = addCriteria("hasItemRedstone", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:redstone, count:1>)
+
+addRewardItem(<minecraft:redstone, count:10>)

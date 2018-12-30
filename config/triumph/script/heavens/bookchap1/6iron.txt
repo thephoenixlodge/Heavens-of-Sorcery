@@ -1,12 +1,10 @@
-setIcon(<minecraft:furnace>)
+setIcon(<minecraft:iron_ingot>)
 
-setTitle("Heating Up")
+setTitle("That's so Metal")
 
 setDescription("Squish Ironberries into juice to make Juice, Dry it to Dust, then smelt for Iron Nuggets to make an Iron Ingot")
 
 addParent("heavens:bookchap1/3tubman")
-addParent("heavens:bookchap1/4woodbucket")
-addParent("heavens:bookchap1/5furnace")
 
 setPos(90,-5)
 hideLines()
