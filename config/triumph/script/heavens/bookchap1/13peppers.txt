@@ -6,7 +6,9 @@ setDescription("Obtain some Chili Pepper Seeds, and a Wooden Stake to plant them
 
 addParent("heavens:bookchap1/11berries")
 
-setPos(90,70)
+setRequiresParents()
+
+setPos(140,-10)
 drawDirectLines()
 
 criteria1 = addCriteria("hasItemsChili", "minecraft:inventory_changed")

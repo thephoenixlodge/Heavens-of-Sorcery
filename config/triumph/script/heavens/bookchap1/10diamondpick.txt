@@ -6,7 +6,9 @@ setDescription("Craft a Diamond Pickaxe")
 
 addParent("heavens:bookchap1/9diamond")
 
-setPos(90,40)
+setRequiresParents()
+
+setPos(140,95)
 drawDirectLines()
 
 criteria1 = addCriteria("hasItemsDiamondPick", "triumph:player_crafted_item")

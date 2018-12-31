@@ -7,7 +7,9 @@ setDescription("Obtain Redstone")
 addParent("heavens:bookchap1/15flintsteel")
 addParent("heavens:bookchap1/14mill")
 
-setPos(90,100)
+setRequiresParents()
+
+setPos(140,25)
 drawDirectLines()
 
 criteria = addCriteria("hasItemRedstone", "minecraft:inventory_changed")

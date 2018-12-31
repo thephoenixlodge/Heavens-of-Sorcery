@@ -1,0 +1,33 @@
+{
+    "name": "Shine Bright",
+    "icon": "extrabitmanipulation:diamond_nugget",
+    "category": "quests/chap1",
+    "sortnum": 9,
+    "advancement": "heavens:bookchap1/8mana",
+    "turnin": "heavens:bookchap1/9diamond",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "Shine Bright",
+            "trigger": "heavens:bookchap1/9diamond",
+            "text": "Moving forward, you'll need to be able to harvest harder materials than is possible with simple iron. If you can recall, Diamond was prized for its beauty before, but is also incredibly hardy. We can make good use of tools made from it, but first we'll need to collect it."
+        },
+        {
+            "type": "text",
+            "text": "As the composition of Diamond and Charcoal are much the same, we can use large amounts of Charcoal with Liquid Mana to create small amounts of Diamond."
+        },
+        {
+        	"type": "checklist_end",
+        	"item1": "extrabitmanipulation:diamond_nugget#9",
+            "item_name1": "9 Diamond Nuggets",
+            "reward1": "minecraft:coal:1#100"
+        },
+        {
+            "type": "mana_world",
+            "heading": "Diamond Nuggets",
+            "input": "minecraft:coal:1#3",
+            "output": "extrabitmanipulation:diamond_nugget",
+            "description": "In world transmutation. Requires a pool of at least 4 blocks of Liquid Mana"
+        }
+    ]
+}

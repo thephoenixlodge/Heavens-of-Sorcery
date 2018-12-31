@@ -6,8 +6,10 @@ setDescription("Collect 20 Ironberries using the Ironwood wand")
 
 addParent("heavens:bookchap1/0wand")
 
-setPos(50,25)
-hideLines()
+setRequiresParents()
+
+setPos(-70,25)
+drawDirectLines()
 
 criteria = addCriteria("hasItemIronberries", "minecraft:inventory_changed")
 criteria.addItem(<rustic:ironberries, count:20>)

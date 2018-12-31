@@ -10,7 +10,6 @@ setShowToast(false)
 
 setAnnounceToChat(false)
 
-setPos(10,15)
-hideLines()
+setPos(-140,60)
 
 addCriteria("location", "minecraft:location")

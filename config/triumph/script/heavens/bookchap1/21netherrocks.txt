@@ -6,8 +6,10 @@ setDescription("Collect 30 Netherrack and 10 each of Soul Sand, Gravel, and Sand
 
 addParent("heavens:bookchap1/19nether")
 
-setPos(50,5)
-hideLines()
+setRequiresParents()
+
+setPos(245,25)
+drawDirectLines()
 
 criteria1 = addCriteria("hasItems", "minecraft:inventory_changed")
 criteria1.addItem(<minecraft:soul_sand, count:10>)

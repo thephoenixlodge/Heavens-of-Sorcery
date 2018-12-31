@@ -1,0 +1,113 @@
+{
+	"components": [
+		{
+			"type": "header",
+			"text": "#heading",
+			"x": -1,
+			"y": -1
+		},
+		{
+			"type": "image",
+			"image": "books:templates/arrow_curved.png",
+			"texture_width": 16,
+			"texture_height": 16,
+			"width": 16,
+			"height": 16,
+			"scale": 1,
+			"x": 22,
+			"y": 25
+		},
+		{
+			"type": "item",
+			"item": "#input_item",
+			"framed": "true",
+			"x": 5,
+			"y": 25
+		},
+		{
+			"type": "item",
+			"item": "minecraft:cauldron",
+			"framed": "false",
+			"x": 25,
+			"y": 55
+		},
+		{
+			"type": "item",
+			"item": "#input_fluid",
+			"framed": "false",
+			"x": 25,
+			"y": 45
+		},
+		{
+			"type": "image",
+			"image": "books:templates/fire.png",
+			"texture_width": 16,
+			"texture_height": 16,
+			"width": 15,
+			"height": 15,
+			"scale": 1,
+			"x": 25,
+			"y": 25
+		},
+		{
+			"type": "image",
+			"image": "books:templates/arrow_generic.png",
+			"texture_width": 32,
+			"texture_height": 16,
+			"width": 22,
+			"height": 9,
+			"scale": 1.5,
+			"x": 43,
+			"y": 50
+		},
+		{
+			"type": "image",
+			"image": "books:templates/arrow_curved_up.png",
+			"texture_width": 16,
+			"texture_height": 16,
+			"width": 16,
+			"height": 16,
+			"scale": 1,
+			"x": 82,
+			"y": 25
+		},
+		{
+			"type": "item",
+			"item": "minecraft:cauldron",
+			"framed": "false",
+			"x": 80,
+			"y": 55
+		},
+		{
+			"type": "item",
+			"item": "#output_fluid",
+			"framed": "false",
+			"x": 80,
+			"y": 45
+		},
+		{
+			"type": "item",
+			"item": "#output_item",
+			"framed": "true",
+			"x": 5,
+			"y": 25
+		},
+		{
+			"type": "image",
+			"image": "books:templates/fire.png",
+			"texture_width": 16,
+			"texture_height": 16,
+			"width": 15,
+			"height": 15,
+			"scale": 1,
+			"x": 80,
+			"y": 25
+		},
+		{
+			"type": "text",
+			"text": "#description",
+			"x": 10,
+			"y": 90
+		}
+	]
+}

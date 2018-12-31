@@ -6,7 +6,9 @@ setDescription("Obtain a Wildberry bush, and some Wheat Seeds")
 
 addParent("heavens:bookchap1/8mana")
 
-setPos(90,50)
+setRequiresParents()
+
+setPos(105,25)
 drawDirectLines()
 
 criteria1 = addCriteria("hasItemsBerryBush", "minecraft:inventory_changed")

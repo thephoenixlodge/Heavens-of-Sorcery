@@ -6,7 +6,9 @@ setDescription("Fill a bucket with liquid mana")
 
 addParent("heavens:bookchap1/7cauldron")
 
-setPos(90,0)
+setRequiresParents()
+
+setPos(70,60)
 drawDirectLines()
 
 setRequirements("any")

@@ -6,7 +6,9 @@ setDescription("Obtain 10 cobblestone and 1 Obsidian")
 
 addParent("heavens:bookchap1/17lava")
 
-setPos(90,120)
+setRequiresParents()
+
+setPos(175,60)
 drawDirectLines()
 
 criteria1 = addCriteria("hasItemsCobble", "minecraft:inventory_changed")

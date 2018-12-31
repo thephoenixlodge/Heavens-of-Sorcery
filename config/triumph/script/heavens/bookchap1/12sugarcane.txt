@@ -6,7 +6,9 @@ setDescription("Collect Sugar Cane Seeds")
 
 addParent("heavens:bookchap1/11berries")
 
-setPos(90,60)
+setRequiresParents()
+
+setPos(105,60)
 drawDirectLines()
 
 criteria1 = addCriteria("hasItemsSugarSeeds", "minecraft:inventory_changed")

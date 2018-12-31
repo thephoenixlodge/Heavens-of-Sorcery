@@ -7,7 +7,9 @@ setDescription("Obtain a Bucket of Lava")
 addParent("heavens:bookchap1/15flintsteel")
 addParent("heavens:bookchap1/14mill")
 
-setPos(90,110)
+setRequiresParents()
+
+setPos(175,25)
 drawDirectLines()
 
 criteria = addCriteria("hasItemLava", "minecraft:inventory_changed")

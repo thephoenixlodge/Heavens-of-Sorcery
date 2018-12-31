@@ -6,7 +6,9 @@ setDescription("Collect 9 Diamond Nuggets")
 
 addParent("heavens:bookchap1/8mana")
 
-setPos(90,30)
+setRequiresParents()
+
+setPos(105,95)
 drawDirectLines()
 
 criteria1 = addCriteria("hasItemsDiamond", "minecraft:inventory_changed")

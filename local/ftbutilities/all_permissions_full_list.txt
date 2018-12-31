@@ -1,4 +1,4 @@
-12633 nodes in total
+12637 nodes in total
 Modifying this file won't have any effect, edit ranks.txt!
 
 admin_panel.ftbutilities.crash_reports.delete: OP
@@ -2985,6 +2985,7 @@ ftbutilities.claims.block.edit.soot.sulfur_ore: OP
 ftbutilities.claims.block.edit.soot.wrought_platform: OP
 ftbutilities.claims.block.edit.soot.wrought_platform_slab: OP
 ftbutilities.claims.block.edit.soot.wrought_tile: OP
+ftbutilities.claims.block.edit.t3s4ebw.crystal_crop: OP
 ftbutilities.claims.block.edit.tartheus.alder_leaves: OP
 ftbutilities.claims.block.edit.tartheus.alder_log: OP
 ftbutilities.claims.block.edit.tartheus.alder_planks: OP
@@ -6646,6 +6647,7 @@ ftbutilities.claims.block.interact.soot.sulfur_ore: OP
 ftbutilities.claims.block.interact.soot.wrought_platform: OP
 ftbutilities.claims.block.interact.soot.wrought_platform_slab: OP
 ftbutilities.claims.block.interact.soot.wrought_tile: OP
+ftbutilities.claims.block.interact.t3s4ebw.crystal_crop: OP
 ftbutilities.claims.block.interact.tartheus.alder_leaves: OP
 ftbutilities.claims.block.interact.tartheus.alder_log: OP
 ftbutilities.claims.block.interact.tartheus.alder_planks: OP
@@ -11501,6 +11503,8 @@ ftbutilities.claims.item.spartanweaponry.warhammer_iron: ALL
 ftbutilities.claims.item.spartanweaponry.warhammer_silver: ALL
 ftbutilities.claims.item.spartanweaponry.warhammer_stone: ALL
 ftbutilities.claims.item.spartanweaponry.warhammer_wood: ALL
+ftbutilities.claims.item.t3s4ebw.crystal_crop: ALL
+ftbutilities.claims.item.t3s4ebw.magic_seed: ALL
 ftbutilities.claims.item.tartheus.alder_leaves: ALL
 ftbutilities.claims.item.tartheus.alder_log: ALL
 ftbutilities.claims.item.tartheus.alder_planks: ALL

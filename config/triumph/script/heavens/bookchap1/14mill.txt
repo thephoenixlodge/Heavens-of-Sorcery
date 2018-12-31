@@ -6,7 +6,9 @@ setDescription("Craft a Mill, then use it to grind Chili into Powder")
 
 addParent("heavens:bookchap1/13peppers")
 
-setPos(90,80)
+setRequiresParents()
+
+setPos(175,25)
 drawDirectLines()
 
 criteria1 = addCriteria("hasItemsMill", "triumph:player_crafted_item")

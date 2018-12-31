@@ -6,8 +6,10 @@ setDescription("Collect 10 Quartz, 1 Gold Ingot, and 1 Amethyst")
 
 addParent("heavens:bookchap1/19nether")
 
-setPos(50,5)
-hideLines()
+setRequiresParents()
+
+setPos(245,60)
+drawDirectLines()
 
 criteria1 = addCriteria("hasItems", "minecraft:inventory_changed")
 criteria1.addItem(<arcaneworld:amethyst, count:1>)

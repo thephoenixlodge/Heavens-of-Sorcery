@@ -6,8 +6,10 @@ setDescription("Collect 20 Clay, 20 Bone Shards and an Infused Pasture Seed usin
 
 addParent("heavens:bookchap1/0wand")
 
-setPos(50,5)
-hideLines()
+setRequiresParents()
+
+setPos(-70,95)
+drawDirectLines()
 
 criteria1 = addCriteria("hasItems", "minecraft:inventory_changed")
 criteria1.addItem(<botania:grassseeds, meta:7, count 1>)

@@ -6,8 +6,10 @@ setDescription("Craft a Furnace")
 
 addParent("heavens:bookchap1/2wandwork")
 
-setPos(90,-5)
-hideLines()
+setRequiresParents()
+
+setPos(-35,95)
+drawDirectLines()
 
 criteria1 = addCriteria("hasItemsFurnace", "triumph:player_crafted_item")
 criteria1.setItem(<minecraft:furnace>)

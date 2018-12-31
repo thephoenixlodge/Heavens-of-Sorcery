@@ -1,0 +1,30 @@
+{
+    "name": "Manamananama",
+    "icon": "thebetweenlands:bl_bucket{Fluid: {FluidName: \"mana_fluid\", Amount: 1000}}",
+    "category": "quests/chap1",
+    "sortnum": 8,
+    "advancement": "heavens:bookchap1/7cauldron",
+    "turnin": "heavens:bookchap1/8mana",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "Manamananama",
+            "trigger": "heavens:bookchap1/8mana",
+            "text": "Using the Cauldron is fairly simple, even for a novice. Fill it with a liquid, then add a reagent to transform either the liquid, the reagent, or both. For now, we simply require Liquid Mana - a coalescence of magicks. There should be enough residual magic in those Infused Pasture Seeds to transmute simple water into it for now."
+        },
+        {
+        	"type": "checklist_end",
+        	"item1": "thebetweenlands:bl_bucket{Fluid: {FluidName: \"mana_fluid\", Amount: 1000}}",
+            "item_name1": "1 Bucket of Liquid Mana",
+            "reward1": "botania:grassseeds:7#5"
+        },
+        {
+            "type": "cauldron",
+            "heading": "Liquid Mana",
+            "input_item": "botania:grassseeds:7",
+            "input_fluid": "minecraft:water_bucket",
+            "output_fluid": "forge:bucketfilled{FluidName: \"mana_fluid\", Amount: 1000}",
+            "description": "Converting Water to Liquid Mana"
+        }
+    ]
+}

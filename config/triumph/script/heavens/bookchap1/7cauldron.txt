@@ -6,8 +6,10 @@ setDescription("Craft a Cauldron")
 
 addParent("heavens:bookchap1/6iron")
 
-setPos(90,-5)
-hideLines()
+setRequiresParents()
+
+setPos(35,60)
+drawDirectLines()
 
 criteria1 = addCriteria("hasItemsCauldron", "triumph:player_crafted_item")
 criteria1.setItem(<minecraft:cauldron>)

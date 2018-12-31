@@ -6,8 +6,10 @@ setDescription("Craft a Wooden Bucket")
 
 addParent("heavens:bookchap1/0wand")
 
-setPos(90,15)
-hideLines()
+setRequiresParents()
+
+setPos(-50,60)
+drawDirectLines()
 
 criteria1 = addCriteria("hasItemsWoodBucket", "triumph:player_crafted_item")
 criteria1.setItem(<thebetweenlands:bl_bucket>)
