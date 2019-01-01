@@ -10,11 +10,11 @@
             "type": "quest",
             "title": "Shine Bright",
             "trigger": "heavens:bookchap1/9diamond",
-            "text": "Moving forward, you'll need to be able to harvest harder materials than is possible with simple iron. If you can recall, Diamond was prized for its beauty before, but is also incredibly hardy. We can make good use of tools made from it, but first we'll need to collect it."
+            "text": "Moving forward, you'll need to be able to harvest harder materials than is possible with simple $(item)Iron$(). If you can recall, $(item)Diamond$() was prized for its beauty before, but is also incredibly hardy. We can make good use of tools made from it, but first we'll need to collect it."
         },
         {
             "type": "text",
-            "text": "As the composition of Diamond and Charcoal are much the same, we can use large amounts of Charcoal with Liquid Mana to create small amounts of Diamond."
+            "text": "As the composition of $(item)Diamond$() and $(item)Charcoal$() are much the same, we can use large amounts of $(item)Charcoal$() with $(item)Liquid Mana$() to create small amounts of $(item)Diamond$()."
         },
         {
         	"type": "checklist_end",

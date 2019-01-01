@@ -10,7 +10,7 @@
             "type": "quest",
             "title": "The Simple Things",
             "trigger": "heavens:bookchap1/1ironberries",
-            "text": "With a keen eye, you may have noticed that these trees grow small, hard berries that feel almost metallic to the touch. While they normally grow slowly, the wand you hold should be capable of encouraging the growth of these berries - simply use it on the leaves, and watch the Ironberries flow!"
+            "text": "With a keen eye, you may have noticed that these trees grow small, hard berries that feel almost metallic to the touch. While they normally grow slowly, the wand you hold should be capable of encouraging the growth of these berries - simply use it on the leaves, and watch the $(item)Ironberries$() flow!"
         },
         {
         	"type": "checklist_end",

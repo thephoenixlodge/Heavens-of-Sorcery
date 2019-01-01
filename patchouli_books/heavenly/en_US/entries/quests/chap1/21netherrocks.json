@@ -1,0 +1,44 @@
+{
+    "name": "Hell's Constructs",
+    "icon": "minecraft:soul_sand",
+    "category": "quests/chap1",
+    "sortnum": 21,
+    "advancement": "heavens:bookchap1/19nether",
+    "turnin": "heavens:bookchap1/21netherrocks",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "Hell's Constructs",
+            "trigger": "heavens:bookchap1/21netherrocks",
+            "text": "The Nether is itself constructed of a slew of materials you've not encountered before. I think it would be prudent to collect samples of some, mundane though they seem. Some, such as $(item)Soul Sand$(), and $(item)Basalt$() may even have a reaction to $(item)Liquid Mana$()."
+        },
+        {
+        	"type": "checklist_end",
+        	"item1": "minecraft:netherrack",
+            "item_name1": "30 Netherrack",
+            "item2": "minecraft:soul_sand",
+            "item_name2": "10 Soul Sand",
+            "item3": "minecraft:sand",
+            "item_name3": "10 Sand",
+            "item4": "minecraft:gravel",
+            "item_name4": "10 Gravel",
+            "reward1": "minecraft:sand#100"
+        },
+        {
+            "type": "cauldron",
+            "heading": "Sand",
+            "input_item": "minecraft:soul_sand",
+            "input_fluid": "forge:bucketfilled{FluidName: \"mana_fluid\", Amount: 1000}",
+            "output_item": "minecraft:sand",
+            "description": "Consumes 1 bottles of Liquid Mana (1/4 of a bucket)"
+        },
+        {
+            "type": "cauldron",
+            "heading": "Gravel",
+            "input_item": "ore:stoneBasalt",
+            "input_fluid": "forge:bucketfilled{FluidName: \"mana_fluid\", Amount: 1000}",
+            "output_item": "minecraft:gravel",
+            "description": "Consumes 1 bottles of Liquid Mana (1/4 of a bucket)"
+        }
+    ]
+}

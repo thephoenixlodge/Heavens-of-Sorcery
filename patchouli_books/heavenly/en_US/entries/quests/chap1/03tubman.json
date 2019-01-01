@@ -14,7 +14,7 @@
         },
         {
             "type": "text",
-            "text": "Surely you're wondering what is to be done with those berries by now, but for that you'll need to make a wooden tub, and a terracotta drying basin."
+            "text": "Surely you're wondering what is to be done with those berries by now, but for that you'll need to make a $(item)Wooden Tub$(), and a $(item)Terracotta Drying Basin$()."
         },
         {
         	"type": "checklist_end",

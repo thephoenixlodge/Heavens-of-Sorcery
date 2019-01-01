@@ -10,7 +10,7 @@
             "type": "quest",
             "title": "That's So Metal",
             "trigger": "heavens:bookchap1/6iron",
-            "text": "I warned you about the manual labour, right? Well here it comes. Stick some of those Ironberries in the Crushing Tub and get to jumping. As hardy as they are, these berries readily squish into juice. Then, transfer the juice to a Drying Basin to produce Tiny Piles of Iron Dust. Smelt these in a furnace, then combine and wa-la, Iron Ingot."
+            "text": "I warned you about the manual labour, right? Well here it comes. Stick some of those $(item)Ironberries$() in the $(item)Crushing Tub$() and get to $(thing)jumping$(). As hardy as they are, these berries readily squish into $(item)Juice$(). Then, transfer the $(item)Juice$() to a $(item)Drying Basin$() to produce $(item)Tiny Piles of Iron Dust$(). Smelt these in a furnace, then combine and wa-la, $(item)Iron Ingot$()."
         },
         {
         	"type": "checklist_end",

@@ -10,7 +10,7 @@
             "type": "quest",
             "title": "Heating Up",
             "trigger": "heavens:bookchap1/5furnace",
-            "text": "Raw clay can only do so much, but if you combine it with some of the stone that forms the island's foundation, you should have a furnace vessel that can handle enough heat to actually cook things, including the clay itself."
+            "text": "Raw clay can only do so much, but if you combine it with some of the stone that forms the island's foundation, you should have a $(item)Furnace$() vessel that can handle enough heat to actually cook things, including the clay itself."
         },
         {
         	"type": "checklist_end",

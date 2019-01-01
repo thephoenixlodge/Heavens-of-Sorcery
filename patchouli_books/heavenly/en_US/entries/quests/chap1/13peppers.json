@@ -1,0 +1,36 @@
+{
+    "name": "Hot Stuff",
+    "icon": "rustic:chili_pepper",
+    "category": "quests/chap1",
+    "sortnum": 13,
+    "advancement": "heavens:bookchap1/11berries",
+    "turnin": "heavens:bookchap1/13peppers",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "Hot Stuff",
+            "trigger": "heavens:bookchap1/13peppers",
+            "text": "With the $(item)Crushing Tub$(), you can also crush $(item)Wildberries$() into $(item)Juice$(). Combining this $(item)Juice$() with $(item)Wheat Seeds$() in a $(item)Cauldron$(), will then allow you to get seeds for the ever hot $(item)Chili$() plant. These seeds are unable to grow unsupported however, and will $(thing)need to be planted on a $(item)Wooden Stake$()."
+        },
+        {
+        	"type": "checklist_end",
+        	"item1": "rustic:chili_pepper_seeds",
+            "item_name1": "1 Chili Pepper Seed",
+            "item2": "rustic:crop_stake",
+            "item_name2": "1 Wooden Stake",
+            "reward1": "rustic:chili_pepper#2"
+        },
+        {
+            "type": "cauldron",
+            "heading": "Chili Pepper Seeds",
+            "input_item": "minecraft:wheat_seeds",
+            "input_fluid": "forge:bucketfilled{FluidName: \"wildberryjuice\", Amount: 1000}",
+            "output_item": "rustic:chili_pepper_seeds",
+            "description": "Consumes 1 bottle of Wildberry Juice (1/4 of a bucket)"
+        },
+        {
+            "type": "crafting",
+            "recipe": "rustic:crop_stake"
+        }
+    ]
+}

@@ -15,7 +15,15 @@
 			"height": 16,
 			"scale": 1.5,
 			"x": 46,
-			"y": 20
+			"y": 17
+		},
+		{
+			"type": "tooltip",
+			"tooltip": ["Process by jumping"],
+			"width": 16,
+			"height": 16,
+			"x": 46,
+			"y": 17
 		},
 		{
 			"type": "image",

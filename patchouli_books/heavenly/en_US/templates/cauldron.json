@@ -71,6 +71,7 @@
 			"type": "item",
 			"item": "#output_fluid",
 			"framed": "false",
+			"link_recipe": "true",
 			"x": 80,
 			"y": 45
 		},
@@ -78,13 +79,14 @@
 			"type": "item",
 			"item": "#output_item",
 			"framed": "true",
+			"link_recipe": "true",
 			"x": 100,
 			"y": 25
 		},
 		{
 			"type": "text",
 			"text": "#description",
-			"x": 10,
+			"x": 5,
 			"y": 90
 		}
 	]

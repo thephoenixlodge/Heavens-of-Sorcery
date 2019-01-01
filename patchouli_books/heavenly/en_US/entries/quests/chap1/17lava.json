@@ -1,0 +1,31 @@
+{
+    "name": "The Floor is Lava",
+    "icon": "minecraft:lava_bucket",
+    "category": "quests/chap1",
+    "sortnum": 17,
+    "advancement": "heavens:bookchap1/15flintsteel",
+    "turnin": "heavens:bookchap1/17lava",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "The Floor is Lava",
+            "trigger": "heavens:bookchap1/17lava",
+            "text": "With $(item)Chili Powder$() at your disposal, you can start producing other, similarly hot materials. Combining the powder with $(item)Liquid Mana$() in a $(thing)Boiling$() $(item)Cauldron$() transforms it into the dangerously hot $(item)Lava$()."
+        },
+        {
+        	"type": "checklist_end",
+        	"item1": "minecraft:lava_bucket",
+            "item_name1": "1 Bucket of Lava",
+            "reward1": "minecraft:lava_bucket",
+            "reward2": "arcaneworld:molten_pickaxe"
+        },
+        {
+            "type": "cauldron_lit",
+            "heading": "Lava",
+            "input_item": "cuisine:material:4#2",
+            "input_fluid": "forge:bucketfilled{FluidName: \"mana_fluid\", Amount: 1000}",
+            "output_fluid": "minecraft:lava_bucket",
+            "description": "Converting Liquid Mana into Lava.$(br)Requires Fire under the Cauldron"
+        }    
+    ]
+}

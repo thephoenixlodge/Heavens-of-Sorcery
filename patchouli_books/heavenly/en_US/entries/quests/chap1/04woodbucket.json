@@ -10,7 +10,7 @@
             "type": "quest",
             "title": "Hope it Doesn't Leak",
             "trigger": "heavens:bookchap1/4woodbucket",
-            "text": "At this point, perhaps you wish to move water around, or perhaps you find yourself handling some other liquid. Either way, I can show you how to use wood to create a rough bucket. It won't hold up to anything hot, but it'll do for a start I'm sure."
+            "text": "At this point, perhaps you wish to move water around, or perhaps you find yourself handling some other liquid. Either way, I can show you how to use wood to create a rough $(item)Bucket$(). It won't hold up to anything hot, but it'll do for a start I'm sure."
         },
         {
         	"type": "checklist_end",

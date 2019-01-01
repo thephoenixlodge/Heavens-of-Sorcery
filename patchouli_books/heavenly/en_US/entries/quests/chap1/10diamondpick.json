@@ -1,0 +1,26 @@
+{
+    "name": "Tooled Up",
+    "icon": "minecraft:diamond_pickaxe",
+    "category": "quests/chap1",
+    "sortnum": 10,
+    "advancement": "heavens:bookchap1/9diamond",
+    "turnin": "heavens:bookchap1/10diamondpick",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "Tooled Up",
+            "trigger": "heavens:bookchap1/10diamondpick",
+            "text": "With $(item)Diamond$() you can produce basic tools strong enough to harvest most things. The most important of these is the $(item)Pickaxe$(), as it will allow you to gather $(item)Obsidian$()."
+        },
+        {
+        	"type": "checklist_end",
+        	"item1": "minecraft:diamond_pickaxe",
+            "item_name1": "1 Diamond Pickaxe",
+            "reward1": "minecraft:coal:1#70"
+        },
+        {
+            "type": "crafting",
+            "recipe": "minecraft:diamond_pickaxe"
+        }
+    ]
+}

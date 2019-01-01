@@ -1,0 +1,36 @@
+{
+    "name": "Meet the Flintstones",
+    "icon": "minecraft:flint_and_steel",
+    "category": "quests/chap1",
+    "sortnum": 15,
+    "advancement": "heavens:bookchap1/14mill",
+    "turnin": "heavens:bookchap1/15flintsteel",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "Meet the Flintstones",
+            "trigger": "heavens:bookchap1/15flintsteel",
+            "text": "I think it's about time to turn up the heat, don't you? If I remember rightly, you can transmute $(item)Iron Nuggets$() into $(item)Flint$() in a $(item)Cauldron$() of $(item)Liquid Mana$(). This should allow you to put together a $(item)Flint and Steel$(), useful as always for starting fires, as may be required for further use of the $(item)Cauldron$()."
+        },
+        {
+        	"type": "checklist_end",
+        	"item1": "minecraft:flint",
+            "item_name1": "1 Flint",
+            "item2": "minecraft:flint_and_steel",
+            "item_name2": "1 Flint and Steel",
+            "reward1": "quark:charcoal_block"
+        },
+        {
+            "type": "cauldron",
+            "heading": "Flint",
+            "input_item": "minecraft:iron_nugget",
+            "input_fluid": "forge:bucketfilled{FluidName: \"mana_fluid\", Amount: 1000}",
+            "output_item": "minecraft:flint",
+            "description": "Consumes 1 bottle of Liquid Mana (1/4 of a bucket)"
+        },
+        {
+            "type": "crafting",
+            "recipe": "minecraft:flint_and_steel"
+        }    
+    ]
+}

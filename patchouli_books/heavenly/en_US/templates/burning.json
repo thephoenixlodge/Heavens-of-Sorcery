@@ -13,59 +13,52 @@
 			"texture_height": 16,
 			"width": 16,
 			"height": 16,
-			"scale": 1,
-			"x": 43,
-			"y": 35
+			"scale": 1.5,
+			"x": 45,
+			"y": 25
 		},
 		{
 			"type": "image",
-			"image": "books:templates/arrow_curved_up.png",
+			"image": "books:templates/arrow_curved.png",
 			"texture_width": 16,
 			"texture_height": 16,
 			"width": 16,
 			"height": 16,
-			"scale": 1,
-			"x": 63,
-			"y": 35
+			"scale": 1.5,
+			"x": 73,
+			"y": 45
 		},
 		{
 			"type": "image",
-			"image": "books:templates/manapond.png",
-			"texture_width": 32,
-			"texture_height": 32,
-			"width": 32,
-			"height": 21,
-			"scale": 1,
-			"x": 45,
-			"y": 50
-		},
-		{
-			"type": "item",
-			"item": "forge:bucketfilled{FluidName: \"mana_fluid\", Amount: 1000}",
-			"framed": "false",
-			"x": 53,
-			"y": 52
+			"image": "books:templates/fire.png",
+			"texture_width": 16,
+			"texture_height": 16,
+			"width": 15,
+			"height": 15,
+			"scale": 1.5,
+			"x": 50,
+			"y": 45
 		},
 		{
 			"type": "item",
 			"item": "#input",
 			"framed": "true",
-			"x": 25,
-			"y": 35
+			"x": 27,
+			"y": 30
 		},
 		{
 			"type": "item",
 			"item": "#output",
 			"framed": "true",
 			"link_recipe": true,
-			"x": 80,
-			"y": 35
+			"x": 82,
+			"y": 70
 		},
 		{
 			"type": "text",
 			"text": "#description",
 			"x": 5,
-			"y": 90
+			"y": 95
 		}
 	]
 }

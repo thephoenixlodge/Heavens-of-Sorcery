@@ -1,0 +1,29 @@
+{
+    "name": "Charging with Heat",
+    "icon": "minecraft:redstone",
+    "category": "quests/chap1",
+    "sortnum": 16,
+    "advancement": "heavens:bookchap1/15flintsteel",
+    "turnin": "heavens:bookchap1/16redstone",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "Charging with Heat",
+            "trigger": "heavens:bookchap1/16redstone",
+            "text": "If you've got an excess of $(item)Chili Powder$() building up, and don't want to use it all on one $(o)really$() spicy sandwich, throw it in a $(item)Fire$(). The residual magicks of this place will cause it to transform, imbuing it with a peculiar charge, making this new $(item)Redstone$() powder useful for anything remotely mechanical."
+        },
+        {
+        	"type": "checklist_end",
+        	"item1": "minecraft:redstone",
+            "item_name1": "1 Redstone",
+            "reward1": "minecraft:redstone#10"
+        },
+        {
+            "type": "burning",
+            "heading": "Redstone",
+            "input": "cuisine:material:4",
+            "output": "minecraft:redstone",
+            "description": "Consumes 1 bottle of Liquid Mana (1/4 of a bucket)"
+        }    
+    ]
+}

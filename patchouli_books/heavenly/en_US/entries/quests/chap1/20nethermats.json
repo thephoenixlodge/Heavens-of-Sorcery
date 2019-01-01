@@ -1,0 +1,36 @@
+{
+    "name": "Hell's Bounty",
+    "icon": "arcaneworld:amethyst",
+    "category": "quests/chap1",
+    "sortnum": 20,
+    "advancement": "heavens:bookchap1/19nether",
+    "turnin": "heavens:bookchap1/20nethermats",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "Hell's Bounty",
+            "trigger": "heavens:bookchap1/20nethermats",
+            "text": "Upon visiting the Nether, you can start reaping the benefits of the resources held within, primarily $(item)Quartz$(), $(item)Gold$() and $(item)Amethyst$(). $(item)Quartz$() and $(item)Amethyst$() can be harvested from ores, while $(item)Gold$() is coveted by the resident $(item)Zombie Pigmen$(). Otherwise, you can expose $(item)Slivers of Quartz$() to $(item)Liquid Mana$() to transform it into $(item)Gold Nuggets$() too."
+        },
+        {
+        	"type": "checklist_end",
+        	"item1": "minecraft:quartz",
+            "item_name1": "10 Nether Quartz",
+            "item2": "minecraft:gold_ingot",
+            "item_name2": "1 Gold Ingot",
+            "item3": "arcaneworld:amethyst",
+            "item_name3": "1 Amethyst",
+            "reward1": "minecraft:quartz_block#10",
+            "reward2": "minecraft:gold_ingot#5",
+            "reward3": "arcaneworld:amethyst#4"
+        },
+        {
+            "type": "cauldron",
+            "heading": "Gold Nuggets",
+            "input_item": "thaumcraft:nugget:9",
+            "input_fluid": "forge:bucketfilled{FluidName: \"mana_fluid\", Amount: 1000}",
+            "output_item": "minecraft:gold_nugget",
+            "description": "Consumes 1 bottles of Liquid Mana (1/4 of a bucket)"
+        }
+    ]
+}

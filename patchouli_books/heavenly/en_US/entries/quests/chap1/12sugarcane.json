@@ -1,0 +1,30 @@
+{
+    "name": "Come Here Sugar",
+    "icon": "minecraft:reeds",
+    "category": "quests/chap1",
+    "sortnum": 12,
+    "advancement": "heavens:bookchap1/11berries",
+    "turnin": "heavens:bookchap1/12sugarcane",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "Come Here Sugar",
+            "trigger": "heavens:bookchap1/12sugarcane",
+            "text": "With a handful of other seeds available to you now, maybe you wish to have the means for paper to write things down. Or maybe you've just got quite the sweet tooth. Either way, I think it likely you will find $(item)Sugar Cane$() a worthwhile resource to have at your disposal. Seeds for it can be obtained by adding $(item)Wheat Seeds$() to a $(item)Cauldron$() of $(item)Water$()."
+        },
+        {
+        	"type": "checklist_end",
+        	"item1": "inspirations:sugar_cane_seeds",
+            "item_name1": "1 Sugar Cane Seed",
+            "reward1": "minecraft:paper#10"
+        },
+        {
+            "type": "cauldron",
+            "heading": "Sugar Cane Seeds",
+            "input_item": "minecraft:wheat_seeds",
+            "input_fluid": "minecraft:water_bucket",
+            "output_item": "inspirations:sugar_cane_seeds",
+            "description": "Consumes 2 bottles of Water (1/2 of a bucket)"
+        }
+    ]
+}

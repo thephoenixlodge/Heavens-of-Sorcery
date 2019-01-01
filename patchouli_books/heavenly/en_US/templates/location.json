@@ -1,0 +1,56 @@
+{
+	"components": [
+		{
+			"type": "header",
+			"text": "Travel to:",
+			"x": -1,
+			"y": -5
+		},
+		{
+			"type": "frame",
+			"x": -1,
+			"y": -1
+		},
+		{
+			"type": "item",
+			"item": "#icon",
+			"framed": "true",
+			"x": 50,
+			"y": 35
+		},
+		{
+			"type": "header",
+			"text": "#location",
+			"scale": 1.5,
+			"x": -1,
+			"y": 70
+		},
+		{
+			"type": "header",
+			"text": "Rewards:",
+			"x": -1,
+			"y": 113
+		},
+		{
+			"type": "item",
+			"item": "#reward1",
+			"framed": "true",
+			"x": 20,
+			"y": 127
+		},
+		{
+			"type": "item",
+			"item": "#reward2",
+			"framed": "true",
+			"x": 50,
+			"y": 127
+		},
+		{
+			"type": "item",
+			"item": "#reward3",
+			"framed": "true",
+			"x": 80,
+			"y": 127
+		}
+	]
+}

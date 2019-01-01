@@ -10,11 +10,11 @@
             "type": "quest",
             "title": "No Such Thing as Sifting",
             "trigger": "heavens:bookchap1/2wandwork",
-            "text": "The trees aren't the only materials I was able to preserve with this island. Look around - water, rock and earth are part of all this too. That wand - it's attuned to the subtleties of this place, and can coax the earth and rocks here to aid you."
+            "text": "The trees aren't the only materials I was able to preserve with this island. Look around - water, rock and earth are part of all this too. That $(item)wand$() - it's attuned to the subtleties of this place, and can coax the earth and rocks here to aid you."
         },
         {
             "type": "text",
-            "text": "Using it on the stone will reward you with Clay, while the earth will indulge you with shards of life lost, and seeds to spread beyond this place."
+            "text": "Using it on the stone will reward you with $(item)Clay$(), while the earth will indulge you with shards of life lost, and seeds to spread beyond this place."
         },
         {
         	"type": "checklist_end",

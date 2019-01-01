@@ -1,0 +1,50 @@
+{
+    "name": "Hellbound",
+    "icon": "minecraft:netherrack",
+    "category": "quests/chap1",
+    "sortnum": 19,
+    "advancement": "heavens:bookchap1/18stone",
+    "turnin": "heavens:bookchap1/19nether",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "Hellbound",
+            "trigger": "heavens:bookchap1/19nether",
+            "text": "Hmmm, I think you've become powerful enough now to have this world fragment partially tethered to your soul. Because of this, I can lessen my hold here, and divert some of my essence to helping you access other planes of existence. The first of these is the realm known as the $(item)Nether$()."
+        },
+        {
+            "type": "text",
+            "text": "Hopefully opening up this realm of fire will grant you the means to get many new resources. To access the nether, build a frame of 10 or more $(item)Obsidian$() and ignite it to open the gateway."
+        },
+        {
+        	"type": "location",
+            "icon": "minecraft:netherrack",
+            "location": "The Nether",
+            "reward1": "minecraft:obsidian#20"
+        },
+        {
+            "type": "multiblock",
+            "name": "Nether Portal",
+            "text": "Portal Frame can be various sizes (Frame size shown one is the smallest allowed). Activate by lighting a fire",
+            "multiblock": {
+            "pattern": [
+                [ " ", "O", "O", " " ],
+                [ "O", "P", "P", "O" ],
+                [ "O", "P", "P", "O" ],
+                [ "O", "P", "P", "O" ],
+                [ " ", "O", "0", " " ],
+                [ " ", " ", " ", " " ]
+            ],
+            "mapping": {
+                " ": "ANY",
+                "0": "minecraft:obsidian",
+                "O": "minecraft:obsidian",
+                "P": "AIR"
+            },
+            "symmetrical": false,
+            "offset"     : [0, 0, 0],
+            "view_offset": [0, 0, 0]
+            }
+        }
+    ]
+}

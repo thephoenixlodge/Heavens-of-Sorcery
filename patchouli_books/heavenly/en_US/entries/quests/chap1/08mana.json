@@ -10,7 +10,7 @@
             "type": "quest",
             "title": "Manamananama",
             "trigger": "heavens:bookchap1/8mana",
-            "text": "Using the Cauldron is fairly simple, even for a novice. Fill it with a liquid, then add a reagent to transform either the liquid, the reagent, or both. For now, we simply require Liquid Mana - a coalescence of magicks. There should be enough residual magic in those Infused Pasture Seeds to transmute simple water into it for now."
+            "text": "Using the $(item)Cauldron$() is fairly simple, even for a novice. Fill it with a liquid, then add a reagent to transform either the liquid, the reagent, or both. For now, we simply require $(item)Liquid Mana$() - a coalescence of magicks. There should be enough residual magic in those $(item)Infused Pasture Seeds$() to transmute simple $(item)Water$() into it for now."
         },
         {
         	"type": "checklist_end",

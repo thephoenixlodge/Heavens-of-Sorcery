@@ -1,0 +1,44 @@
+{
+    "name": "Juicy",
+    "icon": "rustic:wildberries",
+    "category": "quests/chap1",
+    "sortnum": 11,
+    "advancement": "heavens:bookchap1/8mana",
+    "turnin": "heavens:bookchap1/11berries",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "Juicy",
+            "trigger": "heavens:bookchap1/11berries",
+            "text": "$(item)Liquid Mana$() is powerful stuff. So much so, that you even find that sometimes the $(item)Cauldron$() hinders its effects. In these instances, you can just use any ol' hole in the ground and let it soak in energy from its surroundings to transform things that are exposed to it."
+        },
+        {
+            "type": "text",
+            "text": "By now, you're probably a bit hungry, and those $(item)Ironberries$() don't do much for ones appetite (or teeth!), so let's use the $(item)Mana$() to get some better food going.$(br2)$(item)Leaves$() can be transformed into $(item)Wildberry Bushes$() this way, while you can also make $(item)Wheat Seeds$() from $(item)Ironberry Seeds$() in the $(item)Cauldron$()."
+        },
+        {
+        	"type": "checklist_end",
+        	"item1": "rustic:wildberry_bush",
+            "item_name1": "1 Wildberry Bush",
+            "item2": "minecraft:wheat_seeds",
+            "item_name2": "1 Wheat Seed",
+            "reward1": "rustic:wildberries#40",
+            "reward2": "minecraft:stone_hoe"
+        },
+        {
+            "type": "mana_world",
+            "heading": "Wildberry Bushes",
+            "input": "ore:treeLeaves",
+            "output": "rustic:wildberry_bush",
+            "description": "In world transmutation. Requires a pool of at least 1 block of Liquid Mana"
+        },
+        {
+            "type": "cauldron",
+            "heading": "Wheat Seeds",
+            "input_item": "rustic:ironwoodseed",
+            "input_fluid": "forge:bucketfilled{FluidName: \"mana_fluid\", Amount: 1000}",
+            "output_item": "minecraft:wheat_seeds",
+            "description": "Consumes 1 bottle of Liquid Mana (1/4 of a bucket)"
+        }
+    ]
+}

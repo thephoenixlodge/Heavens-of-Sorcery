@@ -1,0 +1,24 @@
+{
+    "name": "Stoneage - How Retro",
+    "icon": "minecraft:cobblestone",
+    "category": "quests/chap1",
+    "sortnum": 18,
+    "advancement": "heavens:bookchap1/17lava",
+    "turnin": "heavens:bookchap1/18stone",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "Stoneage - How Retro",
+            "trigger": "heavens:bookchap1/18stone",
+            "text": "The latent magicks here have some strange effects, as you've already seen, yet none so peculiar as the conflict of $(item)Lava$() and $(item)Water$(). In an even fight, they'll produce an infinite supply of $(item)Cobblestone$() as they war, yet if $(item)Water$() gets the advantage and contacts the source of the $(item)Lava$(), it will turn it into hardened $(item)Obsidian$()."
+        },
+        {
+        	"type": "checklist_end",
+        	"item1": "minecraft:cobblestone",
+            "item_name1": "10 Cobblestone",
+            "item2": "minecraft:obsidian",
+            "item_name2": "1 Obsidian",
+            "reward1": "minecraft:cobblestone#400"
+        }   
+    ]
+}

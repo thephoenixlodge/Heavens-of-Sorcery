@@ -10,7 +10,7 @@
             "type": "quest",
             "title": "Toil, Without the Trouble",
             "trigger": "heavens:bookchap1/7cauldron",
-            "text": "Now that you've got ahold of some iron, it's time to construct your next tool for weaving the arcane - a simple Cauldron."
+            "text": "Now that you've got ahold of some $(item)Iron$(), it's time to construct your next tool for weaving the arcane - a simple $(item)Cauldron$()."
         },
         {
         	"type": "checklist_end",
