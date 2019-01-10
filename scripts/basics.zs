@@ -86,6 +86,9 @@ val mistyPortalUpper = <mist:portal_base:3>;
 val mistyPortalLower = <mist:portal_base:2>;
 val aetherPortal = <aether:aether_teleporter>;
 val bottleEmpty = <minecraft:glass_bottle>;
+val cape = <wizardry:cape>;
+val leather = <minecraft:leather>;
+
 
 //Change Crushing tub recipe for starting
 recipes.remove(crushingTub);
@@ -177,6 +180,10 @@ CauldronCrafting.addFluidRecipe(sapphire, amethyst, manaLiquid, 2);
 
 //Duplicate Nacre recipe in Cauldron
 CauldronCrafting.addFluidTransform(nacreLiquid, nuggetGold, manaLiquid);
+
+//Tweak Cape recipe
+recipes.remove(cape);
+recipes.addShaped(cape, [[null, leather, null], [leather, nuggetGold, leather], [leather, sapphire, leather]]);
 
 //Meatspin
 CauldronCrafting.addFluidRecipe(rawMutton, rawChicken, nacreLiquid, 4);

@@ -1,0 +1,17 @@
+setIcon(<wizardry:book>)
+
+setTitle("Spellcasting Decoded")
+
+setDescription("Obtain a Spellforger's Codex")
+
+addParent("heavens:bookchap2/4needles")
+
+setRequiresParents()
+
+setPos(-95,100)
+drawDirectLines()
+
+criteria1 = addCriteria("hasItems1", "minecraft:inventory_changed")
+criteria1.addItem(<wizardry:book, count:1>)
+
+addRewardItem(<minecraft:book, count:5>)

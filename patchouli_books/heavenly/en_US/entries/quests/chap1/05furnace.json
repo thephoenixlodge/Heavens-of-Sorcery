@@ -14,8 +14,7 @@
         },
         {
         	"type": "checklist_end",
-        	"item1": "minecraft:furnace",
-            "item_name1": "1 Furnace",
+        	"item1": "minecraft:furnace#1",
             "reward1": "minecraft:furnace#2",
             "reward2": "minecraft:coal:1#3"
         },

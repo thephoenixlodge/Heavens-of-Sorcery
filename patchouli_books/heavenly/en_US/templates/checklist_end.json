@@ -15,7 +15,7 @@
 		},
 		{
 			"type": "text",
-			"text": "#item_name1",
+			"text": "#item1->icount# #item1->iname->capital#",
 			"x": 30,
 			"y": 10
 		},
@@ -28,7 +28,7 @@
 		},
 		{
 			"type": "text",
-			"text": "#item_name2",
+			"text": "#item2->icount# #item2->iname->capital#",
 			"x": 30,
 			"y": 35
 		},
@@ -41,7 +41,7 @@
 		},
 		{
 			"type": "text",
-			"text": "#item_name3",
+			"text": "#item3->icount# #item3->iname->capital#",
 			"x": 30,
 			"y": 60
 		},
@@ -54,7 +54,7 @@
 		},
 		{
 			"type": "text",
-			"text": "#item_name4",
+			"text": "#item4->icount# #item4->iname->capital#",
 			"x": 30,
 			"y": 85
 		},

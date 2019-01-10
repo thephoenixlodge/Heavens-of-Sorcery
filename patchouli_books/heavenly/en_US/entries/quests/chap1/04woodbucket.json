@@ -14,8 +14,7 @@
         },
         {
         	"type": "checklist_end",
-        	"item1": "thebetweenlands:bl_bucket",
-            "item_name1": "1 Wooden Bucket",
+        	"item1": "thebetweenlands:bl_bucket#1",
             "reward1": "minecraft:stone_shovel",
             "reward2": "rustic:wildberries#3"
         },

@@ -14,14 +14,10 @@
         },
         {
         	"type": "checklist_end",
-        	"item1": "minecraft:netherrack",
-            "item_name1": "30 Netherrack",
-            "item2": "minecraft:soul_sand",
-            "item_name2": "10 Soul Sand",
-            "item3": "minecraft:sand",
-            "item_name3": "10 Sand",
-            "item4": "minecraft:gravel",
-            "item_name4": "10 Gravel",
+        	"item1": "minecraft:netherrack#30",
+            "item2": "minecraft:soul_sand#10",
+            "item3": "minecraft:sand#10",
+            "item4": "minecraft:gravel#10",
             "reward1": "minecraft:sand#100"
         },
         {

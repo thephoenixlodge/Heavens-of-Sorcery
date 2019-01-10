@@ -1,4 +1,4 @@
-12637 nodes in total
+12684 nodes in total
 Modifying this file won't have any effect, edit ranks.txt!
 
 admin_panel.ftbutilities.crash_reports.delete: OP
@@ -36,6 +36,8 @@ ftbutilities.claims.block.edit.aether.blue_light_skyroot_leaves: OP
 ftbutilities.claims.block.edit.aether.blue_skyroot_leaves: OP
 ftbutilities.claims.block.edit.aether.blueberry_bush: OP
 ftbutilities.claims.block.edit.aether.brettl_plant: OP
+ftbutilities.claims.block.edit.aether.candy_cane_block: OP
+ftbutilities.claims.block.edit.aether.candy_cane_wall: OP
 ftbutilities.claims.block.edit.aether.cloudwool_block: OP
 ftbutilities.claims.block.edit.aether.cloudwool_carpet: OP
 ftbutilities.claims.block.edit.aether.crude_scatterglass: OP
@@ -69,7 +71,12 @@ ftbutilities.claims.block.edit.aether.greatroot_stairs: OP
 ftbutilities.claims.block.edit.aether.green_dark_skyroot_leaves: OP
 ftbutilities.claims.block.edit.aether.green_light_skyroot_leaves: OP
 ftbutilities.claims.block.edit.aether.green_skyroot_leaves: OP
+ftbutilities.claims.block.edit.aether.hellfirestone_brick: OP
+ftbutilities.claims.block.edit.aether.hellfirestone_brick_decorative: OP
+ftbutilities.claims.block.edit.aether.hellfirestone_lantern: OP
+ftbutilities.claims.block.edit.aether.hellfirestone_pillar: OP
 ftbutilities.claims.block.edit.aether.highlands_ice: OP
+ftbutilities.claims.block.edit.aether.highlands_ice_crystal: OP
 ftbutilities.claims.block.edit.aether.highlands_packed_ice: OP
 ftbutilities.claims.block.edit.aether.highlands_snow: OP
 ftbutilities.claims.block.edit.aether.highlands_snow_layer: OP
@@ -108,6 +115,8 @@ ftbutilities.claims.block.edit.aether.mossy_holystone_stairs: OP
 ftbutilities.claims.block.edit.aether.mossy_holystone_wall: OP
 ftbutilities.claims.block.edit.aether.multiblock_dummy: OP
 ftbutilities.claims.block.edit.aether.multiblock_dummy_half: OP
+ftbutilities.claims.block.edit.aether.mutant_leaves: OP
+ftbutilities.claims.block.edit.aether.mutant_leaves_decorated: OP
 ftbutilities.claims.block.edit.aether.orange_tree: OP
 ftbutilities.claims.block.edit.aether.outpost_campfire: OP
 ftbutilities.claims.block.edit.aether.plumproot: OP
@@ -245,6 +254,7 @@ ftbutilities.claims.block.edit.auraddons.block_hard_ice: OP
 ftbutilities.claims.block.edit.auraddons.block_infused_brick_wall: OP
 ftbutilities.claims.block.edit.auraddons.block_infused_stone_wall: OP
 ftbutilities.claims.block.edit.auraddons.block_potion_enhancer: OP
+ftbutilities.claims.block.edit.auraddons.block_wither_proofer: OP
 ftbutilities.claims.block.edit.betterquesting.submit_station: OP
 ftbutilities.claims.block.edit.bibliocraft.armorstand: OP
 ftbutilities.claims.block.edit.bibliocraft.bell: OP
@@ -2375,7 +2385,9 @@ ftbutilities.claims.block.edit.naturesaura.ancient_slab: OP
 ftbutilities.claims.block.edit.naturesaura.ancient_slab_double: OP
 ftbutilities.claims.block.edit.naturesaura.ancient_stairs: OP
 ftbutilities.claims.block.edit.naturesaura.animal_generator: OP
+ftbutilities.claims.block.edit.naturesaura.animal_spawner: OP
 ftbutilities.claims.block.edit.naturesaura.aura_detector: OP
+ftbutilities.claims.block.edit.naturesaura.auto_crafter: OP
 ftbutilities.claims.block.edit.naturesaura.conversion_catalyst: OP
 ftbutilities.claims.block.edit.naturesaura.decayed_leaves: OP
 ftbutilities.claims.block.edit.naturesaura.end_flower: OP
@@ -2384,6 +2396,7 @@ ftbutilities.claims.block.edit.naturesaura.flower_generator: OP
 ftbutilities.claims.block.edit.naturesaura.furnace_heater: OP
 ftbutilities.claims.block.edit.naturesaura.gold_powder: OP
 ftbutilities.claims.block.edit.naturesaura.golden_leaves: OP
+ftbutilities.claims.block.edit.naturesaura.grated_chute: OP
 ftbutilities.claims.block.edit.naturesaura.hopper_upgrade: OP
 ftbutilities.claims.block.edit.naturesaura.infused_brick: OP
 ftbutilities.claims.block.edit.naturesaura.infused_brick_slab: OP
@@ -3632,6 +3645,7 @@ ftbutilities.claims.block.edit.wizardry.pearl_holder: OP
 ftbutilities.claims.block.edit.wizardry.torikki_grass: OP
 ftbutilities.claims.block.edit.wizardry.unicorn_trail: OP
 ftbutilities.claims.block.edit.wizardry.wisdom_leaves: OP
+ftbutilities.claims.block.edit.wizardry.wisdom_sapling: OP
 ftbutilities.claims.block.edit.wizardry.wisdom_wood_door: OP
 ftbutilities.claims.block.edit.wizardry.wisdom_wood_fence: OP
 ftbutilities.claims.block.edit.wizardry.wisdom_wood_fence_gate: OP
@@ -3698,6 +3712,8 @@ ftbutilities.claims.block.interact.aether.blue_light_skyroot_leaves: OP
 ftbutilities.claims.block.interact.aether.blue_skyroot_leaves: OP
 ftbutilities.claims.block.interact.aether.blueberry_bush: OP
 ftbutilities.claims.block.interact.aether.brettl_plant: OP
+ftbutilities.claims.block.interact.aether.candy_cane_block: OP
+ftbutilities.claims.block.interact.aether.candy_cane_wall: OP
 ftbutilities.claims.block.interact.aether.cloudwool_block: OP
 ftbutilities.claims.block.interact.aether.cloudwool_carpet: OP
 ftbutilities.claims.block.interact.aether.crude_scatterglass: OP
@@ -3731,7 +3747,12 @@ ftbutilities.claims.block.interact.aether.greatroot_stairs: OP
 ftbutilities.claims.block.interact.aether.green_dark_skyroot_leaves: OP
 ftbutilities.claims.block.interact.aether.green_light_skyroot_leaves: OP
 ftbutilities.claims.block.interact.aether.green_skyroot_leaves: OP
+ftbutilities.claims.block.interact.aether.hellfirestone_brick: OP
+ftbutilities.claims.block.interact.aether.hellfirestone_brick_decorative: OP
+ftbutilities.claims.block.interact.aether.hellfirestone_lantern: OP
+ftbutilities.claims.block.interact.aether.hellfirestone_pillar: OP
 ftbutilities.claims.block.interact.aether.highlands_ice: OP
+ftbutilities.claims.block.interact.aether.highlands_ice_crystal: OP
 ftbutilities.claims.block.interact.aether.highlands_packed_ice: OP
 ftbutilities.claims.block.interact.aether.highlands_snow: OP
 ftbutilities.claims.block.interact.aether.highlands_snow_layer: OP
@@ -3770,6 +3791,8 @@ ftbutilities.claims.block.interact.aether.mossy_holystone_stairs: OP
 ftbutilities.claims.block.interact.aether.mossy_holystone_wall: OP
 ftbutilities.claims.block.interact.aether.multiblock_dummy: OP
 ftbutilities.claims.block.interact.aether.multiblock_dummy_half: OP
+ftbutilities.claims.block.interact.aether.mutant_leaves: OP
+ftbutilities.claims.block.interact.aether.mutant_leaves_decorated: OP
 ftbutilities.claims.block.interact.aether.orange_tree: OP
 ftbutilities.claims.block.interact.aether.outpost_campfire: OP
 ftbutilities.claims.block.interact.aether.plumproot: OP
@@ -3907,6 +3930,7 @@ ftbutilities.claims.block.interact.auraddons.block_hard_ice: OP
 ftbutilities.claims.block.interact.auraddons.block_infused_brick_wall: OP
 ftbutilities.claims.block.interact.auraddons.block_infused_stone_wall: OP
 ftbutilities.claims.block.interact.auraddons.block_potion_enhancer: OP
+ftbutilities.claims.block.interact.auraddons.block_wither_proofer: OP
 ftbutilities.claims.block.interact.betterquesting.submit_station: OP
 ftbutilities.claims.block.interact.bibliocraft.armorstand: OP
 ftbutilities.claims.block.interact.bibliocraft.bell: OP
@@ -6037,7 +6061,9 @@ ftbutilities.claims.block.interact.naturesaura.ancient_slab: OP
 ftbutilities.claims.block.interact.naturesaura.ancient_slab_double: OP
 ftbutilities.claims.block.interact.naturesaura.ancient_stairs: OP
 ftbutilities.claims.block.interact.naturesaura.animal_generator: OP
+ftbutilities.claims.block.interact.naturesaura.animal_spawner: OP
 ftbutilities.claims.block.interact.naturesaura.aura_detector: OP
+ftbutilities.claims.block.interact.naturesaura.auto_crafter: OP
 ftbutilities.claims.block.interact.naturesaura.conversion_catalyst: OP
 ftbutilities.claims.block.interact.naturesaura.decayed_leaves: OP
 ftbutilities.claims.block.interact.naturesaura.end_flower: OP
@@ -6046,6 +6072,7 @@ ftbutilities.claims.block.interact.naturesaura.flower_generator: OP
 ftbutilities.claims.block.interact.naturesaura.furnace_heater: OP
 ftbutilities.claims.block.interact.naturesaura.gold_powder: OP
 ftbutilities.claims.block.interact.naturesaura.golden_leaves: OP
+ftbutilities.claims.block.interact.naturesaura.grated_chute: OP
 ftbutilities.claims.block.interact.naturesaura.hopper_upgrade: OP
 ftbutilities.claims.block.interact.naturesaura.infused_brick: OP
 ftbutilities.claims.block.interact.naturesaura.infused_brick_slab: OP
@@ -7294,6 +7321,7 @@ ftbutilities.claims.block.interact.wizardry.pearl_holder: OP
 ftbutilities.claims.block.interact.wizardry.torikki_grass: OP
 ftbutilities.claims.block.interact.wizardry.unicorn_trail: OP
 ftbutilities.claims.block.interact.wizardry.wisdom_leaves: OP
+ftbutilities.claims.block.interact.wizardry.wisdom_sapling: OP
 ftbutilities.claims.block.interact.wizardry.wisdom_wood_door: ALL
 ftbutilities.claims.block.interact.wizardry.wisdom_wood_fence: OP
 ftbutilities.claims.block.interact.wizardry.wisdom_wood_fence_gate: OP
@@ -7389,6 +7417,8 @@ ftbutilities.claims.item.aether.burrukai_pelt: ALL
 ftbutilities.claims.item.aether.burrukai_rib_cut: ALL
 ftbutilities.claims.item.aether.burrukai_ribs: ALL
 ftbutilities.claims.item.aether.candy_cane: ALL
+ftbutilities.claims.item.aether.candy_cane_block: ALL
+ftbutilities.claims.item.aether.candy_cane_wall: ALL
 ftbutilities.claims.item.aether.candy_corn: ALL
 ftbutilities.claims.item.aether.cloud_parachute: ALL
 ftbutilities.claims.item.aether.cloudtwine: ALL
@@ -7409,6 +7439,7 @@ ftbutilities.claims.item.aether.dark_skyroot_log: ALL
 ftbutilities.claims.item.aether.dark_skyroot_planks: ALL
 ftbutilities.claims.item.aether.dart: ALL
 ftbutilities.claims.item.aether.dart_shooter: ALL
+ftbutilities.claims.item.aether.eggnog: ALL
 ftbutilities.claims.item.aether.enchanted_blueberry: ALL
 ftbutilities.claims.item.aether.enchanted_wyndberry: ALL
 ftbutilities.claims.item.aether.faded_holystone_brick: ALL
@@ -7448,7 +7479,12 @@ ftbutilities.claims.item.aether.green_light_skyroot_leaves: ALL
 ftbutilities.claims.item.aether.green_skyroot_leaves: ALL
 ftbutilities.claims.item.aether.healing_stone: ALL
 ftbutilities.claims.item.aether.healing_stone_depleted: ALL
+ftbutilities.claims.item.aether.hellfirestone_brick: ALL
+ftbutilities.claims.item.aether.hellfirestone_brick_decorative: ALL
+ftbutilities.claims.item.aether.hellfirestone_lantern: ALL
+ftbutilities.claims.item.aether.hellfirestone_pillar: ALL
 ftbutilities.claims.item.aether.highlands_ice: ALL
+ftbutilities.claims.item.aether.highlands_ice_crystal: ALL
 ftbutilities.claims.item.aether.highlands_packed_ice: ALL
 ftbutilities.claims.item.aether.highlands_snow: ALL
 ftbutilities.claims.item.aether.highlands_snow_layer: ALL
@@ -7507,6 +7543,8 @@ ftbutilities.claims.item.aether.moa_music_disc: ALL
 ftbutilities.claims.item.aether.mossy_holystone_slab: ALL
 ftbutilities.claims.item.aether.mossy_holystone_stairs: ALL
 ftbutilities.claims.item.aether.mossy_holystone_wall: ALL
+ftbutilities.claims.item.aether.mutant_leaves: ALL
+ftbutilities.claims.item.aether.mutant_leaves_decorated: ALL
 ftbutilities.claims.item.aether.orange: ALL
 ftbutilities.claims.item.aether.orange_lollipop: ALL
 ftbutilities.claims.item.aether.orange_tree: ALL
@@ -7599,6 +7637,7 @@ ftbutilities.claims.item.aether.valkyrie_grass: ALL
 ftbutilities.claims.item.aether.valkyrie_music_disc: ALL
 ftbutilities.claims.item.aether.valkyrie_wings: ALL
 ftbutilities.claims.item.aether.wildcard: ALL
+ftbutilities.claims.item.aether.winter_hat: ALL
 ftbutilities.claims.item.aether.wisproot_button: ALL
 ftbutilities.claims.item.aether.wisproot_fence: ALL
 ftbutilities.claims.item.aether.wisproot_fence_gate: ALL
@@ -7609,6 +7648,7 @@ ftbutilities.claims.item.aether.woven_sticks: ALL
 ftbutilities.claims.item.aether.wrapped_chocolates: ALL
 ftbutilities.claims.item.aether.wrapping_paper: ALL
 ftbutilities.claims.item.aether.wyndberry: ALL
+ftbutilities.claims.item.aether.yule_log: ALL
 ftbutilities.claims.item.aether.zanite_axe: ALL
 ftbutilities.claims.item.aether.zanite_block: ALL
 ftbutilities.claims.item.aether.zanite_boots: ALL
@@ -7763,6 +7803,7 @@ ftbutilities.claims.item.auraddons.block_hard_ice: ALL
 ftbutilities.claims.item.auraddons.block_infused_brick_wall: ALL
 ftbutilities.claims.item.auraddons.block_infused_stone_wall: ALL
 ftbutilities.claims.item.auraddons.block_potion_enhancer: ALL
+ftbutilities.claims.item.auraddons.block_wither_proofer: ALL
 ftbutilities.claims.item.auraddons.item_creative_aura_cache: ALL
 ftbutilities.claims.item.auraddons.item_dampening_feather: ALL
 ftbutilities.claims.item.auraddons.item_sky_bottle: ALL
@@ -10673,9 +10714,12 @@ ftbutilities.claims.item.naturesaura.ancient_slab_double: ALL
 ftbutilities.claims.item.naturesaura.ancient_stairs: ALL
 ftbutilities.claims.item.naturesaura.ancient_stick: ALL
 ftbutilities.claims.item.naturesaura.animal_generator: ALL
+ftbutilities.claims.item.naturesaura.animal_spawner: ALL
 ftbutilities.claims.item.naturesaura.aura_bottle: ALL
 ftbutilities.claims.item.naturesaura.aura_cache: ALL
 ftbutilities.claims.item.naturesaura.aura_detector: ALL
+ftbutilities.claims.item.naturesaura.auto_crafter: ALL
+ftbutilities.claims.item.naturesaura.birth_spirit: ALL
 ftbutilities.claims.item.naturesaura.bottle_two_the_rebottling: ALL
 ftbutilities.claims.item.naturesaura.calling_spirit: ALL
 ftbutilities.claims.item.naturesaura.color_changer: ALL
@@ -10693,6 +10737,7 @@ ftbutilities.claims.item.naturesaura.gold_fiber: ALL
 ftbutilities.claims.item.naturesaura.gold_leaf: ALL
 ftbutilities.claims.item.naturesaura.gold_powder: ALL
 ftbutilities.claims.item.naturesaura.golden_leaves: ALL
+ftbutilities.claims.item.naturesaura.grated_chute: ALL
 ftbutilities.claims.item.naturesaura.hopper_upgrade: ALL
 ftbutilities.claims.item.naturesaura.infused_brick: ALL
 ftbutilities.claims.item.naturesaura.infused_brick_slab: ALL
@@ -12536,8 +12581,10 @@ ftbutilities.claims.item.wizardry.sky_dust: ALL
 ftbutilities.claims.item.wizardry.staff: ALL
 ftbutilities.claims.item.wizardry.syringe: ALL
 ftbutilities.claims.item.wizardry.torikki_grass: ALL
+ftbutilities.claims.item.wizardry.unicorn_dagger: ALL
 ftbutilities.claims.item.wizardry.unicorn_horn: ALL
 ftbutilities.claims.item.wizardry.wisdom_leaves: ALL
+ftbutilities.claims.item.wizardry.wisdom_sapling: ALL
 ftbutilities.claims.item.wizardry.wisdom_stick: ALL
 ftbutilities.claims.item.wizardry.wisdom_wood_door: ALL
 ftbutilities.claims.item.wizardry.wisdom_wood_fence: ALL
@@ -12642,7 +12689,6 @@ ftbutilities.tpa.cross_dim: ALL
 Available command nodes:
 
 command.advancement
-command.aether.aeisland
 command.aov.aov
 command.applecore.hunger
 command.astralsorcery.astralsorcery

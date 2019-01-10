@@ -8,7 +8,7 @@ addParent("heavens:bookchap1/13peppers")
 
 setRequiresParents()
 
-setPos(175,25)
+setPos(175,-10)
 drawDirectLines()
 
 criteria1 = addCriteria("hasItemsMill", "triumph:player_crafted_item")

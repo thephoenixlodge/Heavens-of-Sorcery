@@ -15,9 +15,7 @@
         {
         	"type": "checklist_end",
         	"item1": "cuisine:mill",
-            "item_name1": "1 Mill",
-            "item2": "cuisine:material:4",
-            "item_name2": "1 Chili Powder",
+            "item2": "cuisine:material:4#1",
             "reward1": "cuisine:material:4#8"
         },
         {
@@ -29,7 +27,7 @@
             "heading": "Chili Powder",
             "input": "rustic:chili_pepper",
             "output": "cuisine:material:4",
-            "description": "Mill will output into any adjacent block which has an inventory"
+            "description": "The Mill will output into any adjacent block which has an inventory"
         }    
     ]
 }

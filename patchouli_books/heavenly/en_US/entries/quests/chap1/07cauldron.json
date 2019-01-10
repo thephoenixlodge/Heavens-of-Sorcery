@@ -14,8 +14,7 @@
         },
         {
         	"type": "checklist_end",
-        	"item1": "minecraft:cauldron",
-            "item_name1": "1 Cauldron",
+        	"item1": "minecraft:cauldron#1",
             "reward1": "botania:grassseeds:7#5"
         },
         {

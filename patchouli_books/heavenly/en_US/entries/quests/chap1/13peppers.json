@@ -14,10 +14,8 @@
         },
         {
         	"type": "checklist_end",
-        	"item1": "rustic:chili_pepper_seeds",
-            "item_name1": "1 Chili Pepper Seed",
-            "item2": "rustic:crop_stake",
-            "item_name2": "1 Wooden Stake",
+        	"item1": "rustic:chili_pepper_seeds#1",
+            "item2": "rustic:crop_stake#1",
             "reward1": "rustic:chili_pepper#2"
         },
         {

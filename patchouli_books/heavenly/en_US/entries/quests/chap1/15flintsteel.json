@@ -14,10 +14,8 @@
         },
         {
         	"type": "checklist_end",
-        	"item1": "minecraft:flint",
-            "item_name1": "1 Flint",
+        	"item1": "minecraft:flint#1",
             "item2": "minecraft:flint_and_steel",
-            "item_name2": "1 Flint and Steel",
             "reward1": "quark:charcoal_block"
         },
         {

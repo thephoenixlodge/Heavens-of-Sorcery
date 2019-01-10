@@ -14,8 +14,7 @@
         },
         {
         	"type": "checklist_end",
-        	"item1": "rustic:ironberries",
-            "item_name1": "20 Ironberries",
+        	"item1": "rustic:ironberries#20",
             "reward1": "minecraft:stone_axe",
             "reward2": "rustic:ironberries#100"
         },

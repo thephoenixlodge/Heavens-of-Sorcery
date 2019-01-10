@@ -1,0 +1,23 @@
+setIcon(<wizardry:syringe, meta:1>)
+
+setTitle("Caster's Crux")
+
+setDescription("Collect an Empty Syringe and a Mana Orb, then combine into a Mana Booster")
+
+addParent("heavens:bookchap2/root")
+
+setPos(-58,63)
+
+criteria = addCriteria("completedChap1", "triumph:completed_advancement")
+criteria.setString("heavens:bookchap1/21netherrocks")
+
+criteria1 = addCriteria("hasItems1", "triumph:player_crafted_item")
+criteria1.setItem(<wizardry:syringe, count:1>)
+
+criteria2 = addCriteria("hasItems2", "minecraft:inventory_changed")
+criteria2.addItem(<wizardry:orb, meta:1, count:1>)
+
+criteria3 = addCriteria("hasItems3", "triumph:player_crafted_item")
+criteria3.setItem(<wizardry:syringe, meta:1, count:1>)
+
+addRewardItem(<wizardry:syringe, meta:1, count:3>)

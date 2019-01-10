@@ -18,10 +18,8 @@
         },
         {
         	"type": "checklist_end",
-        	"item1": "rustic:crushing_tub",
-            "item_name1": "1 Crushing Tub",
-            "item2": "rustic:evaporating_basin",
-            "item_name2": "1 Drying Basin",
+        	"item1": "rustic:crushing_tub#1",
+            "item2": "rustic:evaporating_basin#1",
             "reward1": "rustic:ironberries#50",
             "reward2": "rustic:evaporating_basin"
         },

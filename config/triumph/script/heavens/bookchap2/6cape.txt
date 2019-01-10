@@ -1,0 +1,19 @@
+setIcon(<wizardry:cape>)
+
+setTitle("Casting Capers")
+
+setDescription("Craft a Cape")
+
+addParent("heavens:bookchap2/5halo")
+addParent("heavens:bookchap2/3cows")
+
+setRequiresParents()
+
+setPos(-51,213)
+drawDirectLines()
+
+criteria1 = addCriteria("hasItems1", "triumph:player_crafted_item")
+criteria1.setItem(<wizardry:cape, count:1>)
+
+addRewardItem(<minecraft:leather, count:3>)
+addRewardItem(<minecraft:book, count:3>)

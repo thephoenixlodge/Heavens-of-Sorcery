@@ -14,8 +14,7 @@
         },
         {
         	"type": "checklist_end",
-        	"item1": "minecraft:redstone",
-            "item_name1": "1 Redstone",
+        	"item1": "minecraft:redstone#1",
             "reward1": "minecraft:redstone#10"
         },
         {

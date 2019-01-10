@@ -14,8 +14,7 @@
         },
         {
         	"type": "checklist_end",
-        	"item1": "inspirations:sugar_cane_seeds",
-            "item_name1": "1 Sugar Cane Seed",
+        	"item1": "inspirations:sugar_cane_seeds#1",
             "reward1": "minecraft:paper#10"
         },
         {

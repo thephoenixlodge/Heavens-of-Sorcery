@@ -14,10 +14,8 @@
         },
         {
         	"type": "checklist_end",
-        	"item1": "rustic:dust_tiny_iron",
-            "item_name1": "1 Tiny Pile of Iron Dust",
-            "item2": "minecraft:iron_ingot",
-            "item_name2": "1 Iron Ingot",
+        	"item1": "rustic:dust_tiny_iron#1",
+            "item2": "minecraft:iron_ingot#1",
             "reward1": "minecraft:iron_ingot#2"
         },
         {

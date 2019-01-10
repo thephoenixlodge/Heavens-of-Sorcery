@@ -1,0 +1,16 @@
+setTitle("Magicks of the Apprentice")
+
+setIcon(<wizardry:book>)
+
+setDescription("Now that you've delved the depths of the Nether, it is nigh upon time I introduce you to some more complex magicks than the twigs and bowls you've used so far.")
+
+setBackground("wizardry:textures/blocks/wisdom_wood_planks.png")
+
+setShowToast(false)
+
+setAnnounceToChat(false)
+
+setPos(-23,26)
+
+criteria = addCriteria("completedChap1", "triumph:completed_advancement")
+criteria.setString("heavens:bookchap1/19nether")

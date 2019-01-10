@@ -1,0 +1,20 @@
+setIcon(<minecraft:spawn_egg, nbt:{EntityTag:{id:"minecraft:cow"}}>)
+
+setTitle("Creating Company")
+
+setDescription("Obtain leather by summoning and killing a cow")
+
+addParent("heavens:bookchap2/2rituals")
+
+setRequiresParents()
+
+setPos(-23,100)
+drawDirectLines()
+
+criteria1 = addCriteria("hasItems", "minecraft:inventory_changed")
+criteria1.addItem(<minecraft:beef, count:1>)
+
+criteria2 = addCriteria("hasItems2", "minecraft:inventory_changed")
+criteria2.addItem(<minecraft:leather, count:1>)
+
+addRewardItem(<minecraft:spawn_egg, count:2, nbt:{EntityTag:{id:"minecraft:cow"}}>)

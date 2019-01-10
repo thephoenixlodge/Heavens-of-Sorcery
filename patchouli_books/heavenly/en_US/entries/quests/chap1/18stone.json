@@ -14,10 +14,8 @@
         },
         {
         	"type": "checklist_end",
-        	"item1": "minecraft:cobblestone",
-            "item_name1": "10 Cobblestone",
+        	"item1": "minecraft:cobblestone#10",
             "item2": "minecraft:obsidian",
-            "item_name2": "1 Obsidian",
             "reward1": "minecraft:cobblestone#400"
         }   
     ]

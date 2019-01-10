@@ -14,8 +14,7 @@
         },
         {
         	"type": "checklist_end",
-        	"item1": "minecraft:lava_bucket",
-            "item_name1": "1 Bucket of Lava",
+        	"item1": "minecraft:lava_bucket#1",
             "reward1": "minecraft:lava_bucket",
             "reward2": "arcaneworld:molten_pickaxe"
         },

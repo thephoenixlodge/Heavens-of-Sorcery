@@ -1,0 +1,18 @@
+setIcon(<arcaneworld:ritual_table>)
+
+setTitle("Progressing with Rituals")
+
+setDescription("Construct a Ritual Table")
+
+addParent("heavens:bookchap2/0sapphires")
+
+setRequiresParents()
+
+setPos(14,100)
+drawDirectLines()
+
+criteria1 = addCriteria("hasItemsRitual", "triumph:player_crafted_item")
+criteria1.setItem(<arcaneworld:ritual_table, count:1>)
+
+addRewardItem(<arcaneworld:amethyst, count:5>)
+addRewardItem(<arcaneworld:sapphire, count:5>)

@@ -18,10 +18,8 @@
         },
         {
         	"type": "checklist_end",
-        	"item1": "rustic:wildberry_bush",
-            "item_name1": "1 Wildberry Bush",
-            "item2": "minecraft:wheat_seeds",
-            "item_name2": "1 Wheat Seed",
+        	"item1": "rustic:wildberry_bush#1",
+            "item2": "minecraft:wheat_seeds#1",
             "reward1": "rustic:wildberries#40",
             "reward2": "minecraft:stone_hoe"
         },

@@ -14,12 +14,9 @@
         },
         {
         	"type": "checklist_end",
-        	"item1": "minecraft:quartz",
-            "item_name1": "10 Nether Quartz",
-            "item2": "minecraft:gold_ingot",
-            "item_name2": "1 Gold Ingot",
-            "item3": "arcaneworld:amethyst",
-            "item_name3": "1 Amethyst",
+        	"item1": "minecraft:quartz#10",
+            "item2": "minecraft:gold_ingot#1",
+            "item3": "arcaneworld:amethyst#1",
             "reward1": "minecraft:quartz_block#10",
             "reward2": "minecraft:gold_ingot#5",
             "reward3": "arcaneworld:amethyst#4"

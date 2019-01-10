@@ -10,7 +10,7 @@ addParent("heavens:bookchap1/5furnace")
 
 setRequiresParents()
 
-setPos(0,60)
+setPos(-1,60)
 drawDirectLines()
 
 criteria1 = addCriteria("hasItemsIron", "minecraft:inventory_changed")

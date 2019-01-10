@@ -17,8 +17,7 @@
         },
         {
             "type": "checklist_end",
-            "item1": "contenttweaker:ironwood_wand_one",
-            "item_name1": "1 Simple Ironwood Wand",
+            "item1": "contenttweaker:ironwood_wand_one#1",
             "reward1": "rustic:log:1#50"
         },
         {

@@ -1,0 +1,17 @@
+setIcon(<wizardry:nacre_pearl>)
+
+setTitle("Pearl Perfusion")
+
+setDescription("Obtain a Nacre Pearl")
+
+addParent("heavens:bookchap2/7codex")
+
+setRequiresParents()
+
+setPos(-95,179)
+drawDirectLines()
+
+criteria1 = addCriteria("hasItems1", "minecraft:inventory_changed")
+criteria1.addItem(<wizardry:nacre_pearl, count:1>)
+
+addRewardItem(<wizardry:orb, meta:0, count:20>)
