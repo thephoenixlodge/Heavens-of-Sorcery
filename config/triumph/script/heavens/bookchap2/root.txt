@@ -10,7 +10,7 @@ setShowToast(false)
 
 setAnnounceToChat(false)
 
-setPos(-23,26)
+setPos(-21,26)
 
 criteria = addCriteria("completedChap1", "triumph:completed_advancement")
 criteria.setString("heavens:bookchap1/19nether")

@@ -1,4 +1,4 @@
-12684 nodes in total
+12693 nodes in total
 Modifying this file won't have any effect, edit ranks.txt!
 
 admin_panel.ftbutilities.crash_reports.delete: OP
@@ -2929,13 +2929,16 @@ ftbutilities.claims.block.edit.rustic.wildberry_juice: OP
 ftbutilities.claims.block.edit.rustic.wind_thistle: OP
 ftbutilities.claims.block.edit.rusticthaumaturgy.chair_greatwood: OP
 ftbutilities.claims.block.edit.rusticthaumaturgy.chair_silverwood: OP
+ftbutilities.claims.block.edit.rusticthaumaturgy.cinderfire_whiskey: OP
 ftbutilities.claims.block.edit.rusticthaumaturgy.cinderfire_wort: OP
 ftbutilities.claims.block.edit.rusticthaumaturgy.cindermote: OP
+ftbutilities.claims.block.edit.rusticthaumaturgy.shimmerdew_spirits: OP
 ftbutilities.claims.block.edit.rusticthaumaturgy.shimmerdew_wort: OP
 ftbutilities.claims.block.edit.rusticthaumaturgy.shimmerpetal: OP
 ftbutilities.claims.block.edit.rusticthaumaturgy.table_greatwood: OP
 ftbutilities.claims.block.edit.rusticthaumaturgy.table_silverwood: OP
 ftbutilities.claims.block.edit.rusticthaumaturgy.viscap: OP
+ftbutilities.claims.block.edit.rusticthaumaturgy.viscous_brew: OP
 ftbutilities.claims.block.edit.rusticthaumaturgy.viscous_wort: OP
 ftbutilities.claims.block.edit.solar.altar: OP
 ftbutilities.claims.block.edit.solar.ancient_menhir: OP
@@ -6605,13 +6608,16 @@ ftbutilities.claims.block.interact.rustic.wildberry_juice: OP
 ftbutilities.claims.block.interact.rustic.wind_thistle: OP
 ftbutilities.claims.block.interact.rusticthaumaturgy.chair_greatwood: OP
 ftbutilities.claims.block.interact.rusticthaumaturgy.chair_silverwood: OP
+ftbutilities.claims.block.interact.rusticthaumaturgy.cinderfire_whiskey: OP
 ftbutilities.claims.block.interact.rusticthaumaturgy.cinderfire_wort: OP
 ftbutilities.claims.block.interact.rusticthaumaturgy.cindermote: OP
+ftbutilities.claims.block.interact.rusticthaumaturgy.shimmerdew_spirits: OP
 ftbutilities.claims.block.interact.rusticthaumaturgy.shimmerdew_wort: OP
 ftbutilities.claims.block.interact.rusticthaumaturgy.shimmerpetal: OP
 ftbutilities.claims.block.interact.rusticthaumaturgy.table_greatwood: OP
 ftbutilities.claims.block.interact.rusticthaumaturgy.table_silverwood: OP
 ftbutilities.claims.block.interact.rusticthaumaturgy.viscap: OP
+ftbutilities.claims.block.interact.rusticthaumaturgy.viscous_brew: OP
 ftbutilities.claims.block.interact.rusticthaumaturgy.viscous_wort: OP
 ftbutilities.claims.block.interact.solar.altar: OP
 ftbutilities.claims.block.interact.solar.ancient_menhir: OP
@@ -11297,10 +11303,12 @@ ftbutilities.claims.item.rustic.wildberry_juice: ALL
 ftbutilities.claims.item.rustic.wind_thistle: ALL
 ftbutilities.claims.item.rusticthaumaturgy.chair_greatwood: ALL
 ftbutilities.claims.item.rusticthaumaturgy.chair_silverwood: ALL
+ftbutilities.claims.item.rusticthaumaturgy.cinderfire_whiskey: ALL
 ftbutilities.claims.item.rusticthaumaturgy.cinderfire_wort: ALL
 ftbutilities.claims.item.rusticthaumaturgy.cindermote: ALL
 ftbutilities.claims.item.rusticthaumaturgy.cindermote_seeds: ALL
 ftbutilities.claims.item.rusticthaumaturgy.dust_tiny_blaze: ALL
+ftbutilities.claims.item.rusticthaumaturgy.shimmerdew_spirits: ALL
 ftbutilities.claims.item.rusticthaumaturgy.shimmerdew_wort: ALL
 ftbutilities.claims.item.rusticthaumaturgy.shimmerpetal: ALL
 ftbutilities.claims.item.rusticthaumaturgy.shimmerpetal_bulb: ALL
@@ -11308,6 +11316,7 @@ ftbutilities.claims.item.rusticthaumaturgy.table_greatwood: ALL
 ftbutilities.claims.item.rusticthaumaturgy.table_silverwood: ALL
 ftbutilities.claims.item.rusticthaumaturgy.viscap: ALL
 ftbutilities.claims.item.rusticthaumaturgy.viscap_spores: ALL
+ftbutilities.claims.item.rusticthaumaturgy.viscous_brew: ALL
 ftbutilities.claims.item.rusticthaumaturgy.viscous_wort: ALL
 ftbutilities.claims.item.similsaxtranstructors.similsaxtranstructoradvanced: ALL
 ftbutilities.claims.item.similsaxtranstructors.similsaxtranstructorbasic: ALL

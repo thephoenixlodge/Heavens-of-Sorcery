@@ -8,7 +8,7 @@ addParent("heavens:bookchap2/2rituals")
 
 setRequiresParents()
 
-setPos(-23,100)
+setPos(-21,100)
 drawDirectLines()
 
 criteria1 = addCriteria("hasItems", "minecraft:inventory_changed")

@@ -6,7 +6,7 @@ setDescription("Obtain a Sapphire")
 
 addParent("heavens:bookchap2/root")
 
-setPos(14,63)
+setPos(16,63)
 
 criteria = addCriteria("completedChap1", "triumph:completed_advancement")
 criteria.setString("heavens:bookchap1/20nethermats")

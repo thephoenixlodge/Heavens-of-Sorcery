@@ -8,7 +8,7 @@ addParent("heavens:bookchap2/0sapphires")
 
 setRequiresParents()
 
-setPos(-23,63)
+setPos(-21,63)
 drawDirectLines()
 
 criteria1 = addCriteria("hasItemsFurnace", "triumph:player_crafted_item")
