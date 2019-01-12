@@ -1,0 +1,29 @@
+{
+    "name": "Sapphires in the Skyblock",
+    "icon": "arcaneworld:sapphire",
+    "category": "quests/chap2",
+    "sortnum": 0,
+    "turnin": "heavens:bookchap1/20nethermats",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "Sapphires in the Skyblock",
+            "trigger": "heavens:bookchap1/0wand",
+            "text": "The $(item)Amethyst$() you gathered from the $(thing)Nether$(), it's similar in composition to the $(item)Sapphire$() I used to use in my experiments, but it seems almost chaotic in nature. I wonder if that could be tamed with some exposure to the essence of our world - $(item)Liquid Mana$()."
+        },
+        {
+            "type": "checklist_end",
+            "item1": "arcaneworld:sapphire#1",
+            "reward1": "arcaneworld:sapphire#10",
+            "reward2": "arcaneworld:amethyst#10"
+        },
+        {
+            "type": "cauldron",
+            "heading": "Sapphire",
+            "input_item": "arcaneworld:amethyst",
+            "input_fluid": "forge:bucketfilled{FluidName: \"mana_fluid\", Amount: 1000}",
+            "output_item": "arcaneworld:sapphire",
+            "description": "Consumes 2 bottles of Liquid Mana (1/2 of a bucket)"
+        }
+    ]
+}

@@ -88,6 +88,8 @@ val aetherPortal = <aether:aether_teleporter>;
 val bottleEmpty = <minecraft:glass_bottle>;
 val cape = <wizardry:cape>;
 val leather = <minecraft:leather>;
+val slimeball = <minecraft:slime_ball>;
+val magmaCream = <minecraft:magma_cream>;
 
 
 //Change Crushing tub recipe for starting
@@ -143,6 +145,9 @@ CauldronCrafting.addFluidRecipe(cobbleTaiga, cobble, manaLiquid, 0);
 
 //Flint
 CauldronCrafting.addFluidRecipe(flint, nuggetIron, manaLiquid, 1);
+
+//Slime
+CauldronCrafting.addFluidRecipe(magmaCream, slimeball, manaLiquid, 1);
 
 //Quartz sliver reconstruct
 recipes.addShapeless(quartzNether, [quartzSliver, quartzSliver, quartzSliver, quartzSliver, quartzSliver, quartzSliver, quartzSliver, quartzSliver, quartzSliver]);
