@@ -1,4 +1,4 @@
-12693 nodes in total
+12689 nodes in total
 Modifying this file won't have any effect, edit ranks.txt!
 
 admin_panel.ftbutilities.crash_reports.delete: OP
@@ -3660,7 +3660,6 @@ ftbutilities.claims.block.edit.wizardry.wisdom_wood_slab_full: OP
 ftbutilities.claims.block.edit.wizardry.wisdom_wood_stairs: OP
 ftbutilities.claims.block.edit.wizardry.wisdom_wood_trapdoor: OP
 ftbutilities.claims.block.edit.yabba.antibarrel: OP
-ftbutilities.claims.block.edit.yabba.compound_item_barrel: OP
 ftbutilities.claims.block.edit.yabba.decorative_block: OP
 ftbutilities.claims.block.edit.yabba.item_barrel: OP
 ftbutilities.claims.block.edit.yabba.item_barrel_connector: OP
@@ -7339,7 +7338,6 @@ ftbutilities.claims.block.interact.wizardry.wisdom_wood_slab_full: OP
 ftbutilities.claims.block.interact.wizardry.wisdom_wood_stairs: OP
 ftbutilities.claims.block.interact.wizardry.wisdom_wood_trapdoor: OP
 ftbutilities.claims.block.interact.yabba.antibarrel: OP
-ftbutilities.claims.block.interact.yabba.compound_item_barrel: OP
 ftbutilities.claims.block.interact.yabba.decorative_block: OP
 ftbutilities.claims.block.interact.yabba.item_barrel: OP
 ftbutilities.claims.block.interact.yabba.item_barrel_connector: OP
@@ -12605,7 +12603,6 @@ ftbutilities.claims.item.wizardry.wisdom_wood_slab: ALL
 ftbutilities.claims.item.wizardry.wisdom_wood_stairs: ALL
 ftbutilities.claims.item.wizardry.wisdom_wood_trapdoor: ALL
 ftbutilities.claims.item.yabba.antibarrel: ALL
-ftbutilities.claims.item.yabba.compound_item_barrel: ALL
 ftbutilities.claims.item.yabba.decorative_block: ALL
 ftbutilities.claims.item.yabba.hammer: ALL
 ftbutilities.claims.item.yabba.item_barrel: ALL
@@ -12621,7 +12618,6 @@ ftbutilities.claims.item.yabba.upgrade_obsidian_shell: ALL
 ftbutilities.claims.item.yabba.upgrade_pickup: ALL
 ftbutilities.claims.item.yabba.upgrade_redstone_out: ALL
 ftbutilities.claims.item.yabba.upgrade_star_tier: ALL
-ftbutilities.claims.item.yabba.upgrade_stone_tier: ALL
 ftbutilities.claims.item.yabba.upgrade_void: ALL
 ftbutilities.claims.item.yabba.wrench: ALL
 ftbutilities.claims.item.zoocraftdiscoveries.anteater_leather: ALL
