@@ -213,9 +213,9 @@ CauldronCrafting.addFluidRecipe(gravel, basalt, manaLiquid, 1);
 recipes.remove(ritualTable);
 recipes.addShaped(ritualTable, [[null, paper, null], [ingotGold, amethyst, ingotGold], [blockSapphire, plankWisdomWood, blockSapphire]]);
 
-//Angelic Statue
-recipes.remove(angelicStatue);
-ArcaneWorld.createRitualCreateItem("angel_statue", "Choir of Angels", angelicStatue, andesitePolished, angelHeart, haloCrude, feather);
+//Angelic Statue - REVISIT DUE TO CHANGES IN AOV
+//recipes.remove(angelicStatue);
+//ArcaneWorld.createRitualCreateItem("angel_statue", "Choir of Angels", angelicStatue, andesitePolished, angelHeart, haloCrude, feather);
 
 //Misty World Portal stones
 ArcaneWorld.createRitualCreateItem("mist_portal_upper", "Imbue Upper Portal Stone", mistyPortalUpper, stoneTaiga, portalCore, nuggetGold, amethyst, bottleEmpty);
