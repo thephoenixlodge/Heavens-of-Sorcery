@@ -1,1 +1,14 @@
-[]
+[
+	{
+		"dimension": -3,
+		"mobs": [
+			{
+				"mob": "embers:ancient_golem",
+				"weight": 1,
+				"groupcountmin": 1,
+        		"groupcountmax": 1
+			}
+		],
+		"result": "allow"
+	}
+]

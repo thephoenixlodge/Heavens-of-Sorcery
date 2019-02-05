@@ -22,7 +22,7 @@
             "item2": "contenttweaker:boneshard#20",
             "item3": "minecraft:clay_ball#20",
             "reward1": "minecraft:stone_pickaxe",
-            "reward2": "botania:altgrass:4#2"
+            "reward2": "botania:grassseeds:7#2"
         },
         {
             "type": "wand_use",

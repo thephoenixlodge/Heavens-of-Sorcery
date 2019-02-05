@@ -1,0 +1,3623 @@
+"Mod name","Registry name","Hardness","Resistance"
+"Aether II","aether:aercloud",0.20,1.00
+"Aether II","aether:aether_crafting_table",2.50,12.50
+"Aether II","aether:aether_dirt",0.50,2.50
+"Aether II","aether:aether_flower",0.00,0.00
+"Aether II","aether:aether_grass",0.50,2.50
+"Aether II","aether:aether_portal",-1.00,0.00
+"Aether II","aether:aether_sapling",0.00,0.00
+"Aether II","aether:aether_teleporter",2.50,12.50
+"Aether II","aether:agiosite",2.00,10.00
+"Aether II","aether:agiosite_brick",2.00,10.00
+"Aether II","aether:agiosite_brick_decorative",2.00,10.00
+"Aether II","aether:agiosite_brick_slab",2.00,10.00
+"Aether II","aether:agiosite_brick_stairs",2.00,10.00
+"Aether II","aether:agiosite_pillar",2.00,10.00
+"Aether II","aether:agiosite_slab",2.00,10.00
+"Aether II","aether:agiosite_stairs",2.00,10.00
+"Aether II","aether:altar",2.00,10.00
+"Aether II","aether:ambrosium_ore",3.00,15.00
+"Aether II","aether:ambrosium_torch",0.00,0.00
+"Aether II","aether:arkenium_door",3.00,15.00
+"Aether II","aether:arkenium_ore",3.00,15.00
+"Aether II","aether:blue_dark_skyroot_leaves",0.20,1.00
+"Aether II","aether:blue_light_skyroot_leaves",0.20,1.00
+"Aether II","aether:blue_skyroot_leaves",0.20,1.00
+"Aether II","aether:blueberry_bush",1.00,5.00
+"Aether II","aether:brettl_plant",0.00,0.00
+"Aether II","aether:candy_cane_block",0.50,2.50
+"Aether II","aether:candy_cane_wall",0.50,5.00
+"Aether II","aether:cloudwool_block",0.80,4.00
+"Aether II","aether:cloudwool_carpet",0.10,0.50
+"Aether II","aether:crude_scatterglass",1.00,6000.00
+"Aether II","aether:crude_scatterglass_decorative",1.00,6000.00
+"Aether II","aether:crude_scatterglass_pane",0.30,1.50
+"Aether II","aether:crude_scatterglass_pane_decorative",1.00,6000.00
+"Aether II","aether:dark_blue_dark_skyroot_leaves",0.20,1.00
+"Aether II","aether:dark_blue_light_skyroot_leaves",0.20,1.00
+"Aether II","aether:dark_blue_skyroot_leaves",0.20,1.00
+"Aether II","aether:dark_skyroot_beam",2.00,10.00
+"Aether II","aether:dark_skyroot_decorative",2.00,10.00
+"Aether II","aether:dark_skyroot_log",2.00,10.00
+"Aether II","aether:dark_skyroot_planks",2.00,10.00
+"Aether II","aether:faded_holystone_brick",2.00,10.00
+"Aether II","aether:faded_holystone_brick_decorative",2.00,30.00
+"Aether II","aether:faded_holystone_brick_slab",2.00,10.00
+"Aether II","aether:faded_holystone_brick_stairs",2.00,10.00
+"Aether II","aether:faded_holystone_pillar",2.00,10.00
+"Aether II","aether:ferrosite",1.50,7.50
+"Aether II","aether:ferrosite_sand",0.50,2.50
+"Aether II","aether:golden_oak_leaves",0.20,1.00
+"Aether II","aether:golden_oak_log",2.00,10.00
+"Aether II","aether:gravitite_block",5.00,25.00
+"Aether II","aether:gravitite_ore",3.00,15.00
+"Aether II","aether:greatroot_button",0.50,2.50
+"Aether II","aether:greatroot_fence",2.00,15.00
+"Aether II","aether:greatroot_fence_gate",2.00,15.00
+"Aether II","aether:greatroot_pressure_plate",0.50,2.50
+"Aether II","aether:greatroot_slab",2.00,10.00
+"Aether II","aether:greatroot_stairs",2.00,10.00
+"Aether II","aether:green_dark_skyroot_leaves",0.20,1.00
+"Aether II","aether:green_light_skyroot_leaves",0.20,1.00
+"Aether II","aether:green_skyroot_leaves",0.20,1.00
+"Aether II","aether:hellfirestone_brick",2.00,10.00
+"Aether II","aether:hellfirestone_brick_decorative",2.00,30.00
+"Aether II","aether:hellfirestone_lantern",2.00,10.00
+"Aether II","aether:hellfirestone_pillar",2.00,10.00
+"Aether II","aether:highlands_ice",0.50,2.50
+"Aether II","aether:highlands_ice_crystal",0.25,3.00
+"Aether II","aether:highlands_packed_ice",0.50,2.50
+"Aether II","aether:highlands_snow",0.20,1.00
+"Aether II","aether:highlands_snow_layer",0.10,0.50
+"Aether II","aether:holystone",2.00,30.00
+"Aether II","aether:holystone_bookshelf",2.00,10.00
+"Aether II","aether:holystone_brick",2.00,10.00
+"Aether II","aether:holystone_brick_decorative",2.00,30.00
+"Aether II","aether:holystone_brick_slab",2.00,10.00
+"Aether II","aether:holystone_brick_stairs",2.00,10.00
+"Aether II","aether:holystone_brick_wall",1.00,10.00
+"Aether II","aether:holystone_button",0.50,2.50
+"Aether II","aether:holystone_furnace",3.50,17.50
+"Aether II","aether:holystone_pillar",2.00,10.00
+"Aether II","aether:holystone_pressure_plate",0.50,2.50
+"Aether II","aether:holystone_rock",0.00,0.00
+"Aether II","aether:holystone_slab",2.00,10.00
+"Aether II","aether:holystone_stairs",2.00,30.00
+"Aether II","aether:holystone_wall",1.00,10.00
+"Aether II","aether:icestone_brick_stairs",3.00,15.00
+"Aether II","aether:icestone_bricks",3.00,15.00
+"Aether II","aether:icestone_bricks_decorative",2.00,30.00
+"Aether II","aether:icestone_cooler",2.50,12.50
+"Aether II","aether:icestone_ore",3.00,15.00
+"Aether II","aether:icestone_pillar",2.00,10.00
+"Aether II","aether:icestone_slab",3.00,15.00
+"Aether II","aether:icestone_wall",3.00,15.00
+"Aether II","aether:incubator",2.50,12.50
+"Aether II","aether:light_skyroot_beam",2.00,10.00
+"Aether II","aether:light_skyroot_decorative",2.00,10.00
+"Aether II","aether:light_skyroot_log",2.00,10.00
+"Aether II","aether:light_skyroot_planks",2.00,10.00
+"Aether II","aether:masonry_bench",2.50,12.50
+"Aether II","aether:moa_egg",0.10,0.50
+"Aether II","aether:mossy_holystone_slab",2.00,10.00
+"Aether II","aether:mossy_holystone_stairs",2.00,30.00
+"Aether II","aether:mossy_holystone_wall",1.00,10.00
+"Aether II","aether:multiblock_dummy",-1.00,18000000.00
+"Aether II","aether:multiblock_dummy_half",-1.00,18000000.00
+"Aether II","aether:mutant_leaves",0.20,1.00
+"Aether II","aether:mutant_leaves_decorated",0.20,1.00
+"Aether II","aether:orange_tree",1.00,5.00
+"Aether II","aether:outpost_campfire",-1.00,0.00
+"Aether II","aether:plumproot",1.00,5.00
+"Aether II","aether:present",0.40,2.00
+"Aether II","aether:quicksoil",1.50,7.50
+"Aether II","aether:quicksoil_glass",1.00,6000.00
+"Aether II","aether:quicksoil_glass_decorative",1.00,6000.00
+"Aether II","aether:quicksoil_glass_pane",0.30,1.50
+"Aether II","aether:quicksoil_glass_pane_decorative",1.00,6000.00
+"Aether II","aether:rusted_ferrosite",1.50,7.50
+"Aether II","aether:scatterglass",1.00,6000.00
+"Aether II","aether:scatterglass_decorative",1.00,6000.00
+"Aether II","aether:scatterglass_pane",0.30,1.50
+"Aether II","aether:scatterglass_pane_decorative",1.00,6000.00
+"Aether II","aether:scatterglass_slab",1.00,5.00
+"Aether II","aether:scatterglass_stairs",1.00,6000.00
+"Aether II","aether:scatterglass_wall",1.00,10.00
+"Aether II","aether:secret_skyroot_door",3.00,15.00
+"Aether II","aether:secret_skyroot_trapdoor",3.00,15.00
+"Aether II","aether:sentrystone_brick",2.00,10.00
+"Aether II","aether:sentrystone_brick_decorative",2.00,30.00
+"Aether II","aether:sentrystone_brick_decorative_lit",2.00,30.00
+"Aether II","aether:sentrystone_pillar",2.00,10.00
+"Aether II","aether:sentrystone_pillar_lit",2.00,10.00
+"Aether II","aether:skyroot_beam",2.00,10.00
+"Aether II","aether:skyroot_bed",0.20,1.00
+"Aether II","aether:skyroot_bookshelf",2.00,10.00
+"Aether II","aether:skyroot_button",0.50,2.50
+"Aether II","aether:skyroot_chest",2.50,12.50
+"Aether II","aether:skyroot_decorative",2.00,10.00
+"Aether II","aether:skyroot_door",3.00,15.00
+"Aether II","aether:skyroot_fence",2.00,15.00
+"Aether II","aether:skyroot_fence_gate",2.00,15.00
+"Aether II","aether:skyroot_ladder",0.40,2.00
+"Aether II","aether:skyroot_log",2.00,10.00
+"Aether II","aether:skyroot_log_wall",2.00,10.00
+"Aether II","aether:skyroot_planks",2.00,10.00
+"Aether II","aether:skyroot_pressure_plate",0.50,2.50
+"Aether II","aether:skyroot_slab",2.00,10.00
+"Aether II","aether:skyroot_stairs",2.00,10.00
+"Aether II","aether:skyroot_trapdoor",3.00,15.00
+"Aether II","aether:skyroot_twigs",0.00,0.00
+"Aether II","aether:standing_skyroot_sign",1.00,5.00
+"Aether II","aether:tall_aether_grass",0.00,0.00
+"Aether II","aether:thera_dirt",0.50,2.50
+"Aether II","aether:thera_grass",0.50,2.50
+"Aether II","aether:therastone_brick",2.00,10.00
+"Aether II","aether:therastone_brick_decorative",2.00,30.00
+"Aether II","aether:therastone_brick_slab",2.00,10.00
+"Aether II","aether:therastone_brick_stairs",2.00,10.00
+"Aether II","aether:therastone_pillar",2.00,10.00
+"Aether II","aether:therawood_beam",2.00,10.00
+"Aether II","aether:therawood_decorative",2.00,10.00
+"Aether II","aether:therawood_leaves",0.20,1.00
+"Aether II","aether:therawood_log",2.00,10.00
+"Aether II","aether:therawood_planks",2.00,10.00
+"Aether II","aether:therawood_slab",2.00,10.00
+"Aether II","aether:therawood_stairs",2.00,10.00
+"Aether II","aether:valkyrie_grass",0.00,0.00
+"Aether II","aether:wall_skyroot_sign",1.00,5.00
+"Aether II","aether:wildcard",2.50,12.50
+"Aether II","aether:wisproot_button",0.50,2.50
+"Aether II","aether:wisproot_fence",2.00,15.00
+"Aether II","aether:wisproot_fence_gate",2.00,15.00
+"Aether II","aether:wisproot_pressure_plate",0.50,2.50
+"Aether II","aether:wisproot_slab",2.00,10.00
+"Aether II","aether:wisproot_stairs",2.00,10.00
+"Aether II","aether:woven_sticks",0.50,2.50
+"Aether II","aether:zanite_block",5.00,25.00
+"Aether II","aether:zanite_ore",3.00,15.00
+"Angel of Vengeance","aov:angelicstatue",7.00,35.00
+"Angel of Vengeance","aov:astrostatue",7.00,35.00
+"Angel of Vengeance","aov:clericstatue",7.00,35.00
+"Angel of Vengeance","aov:druidstatue",7.00,35.00
+"Angel of Vengeance","aov:favoredsoulstatue",7.00,35.00
+"Angel of Vengeance","aov:paladinstatue",7.00,35.00
+"Animus","animus:blockantimatter",0.00,0.00
+"Animus","animus:blockbloodcore",10.00,50.00
+"Animus","animus:blockbloodsapling",0.00,0.00
+"Animus","animus:blockbloodwood",0.00,0.00
+"Animus","animus:blockfluidantimatter",0.00,0.00
+"Animus","animus:blockfluiddirt",0.00,0.00
+"Animus","animus:blockphantombuilder",0.00,0.00
+"Arcane Archives","arcanearchives:accessorblock",0.00,0.00
+"Arcane Archives","arcanearchives:dominion_crystal",0.00,0.00
+"Arcane Archives","arcanearchives:gemcutters_table",0.00,0.00
+"Arcane Archives","arcanearchives:matrix_crystal_core",0.00,0.00
+"Arcane Archives","arcanearchives:matrix_distillate",0.00,0.00
+"Arcane Archives","arcanearchives:matrix_repository",0.00,0.00
+"Arcane Archives","arcanearchives:matrix_reservoir",0.00,0.00
+"Arcane Archives","arcanearchives:matrix_storage",0.00,0.00
+"Arcane Archives","arcanearchives:radiant_chest",1.70,18000.00
+"Arcane Archives","arcanearchives:radiant_crafting_table",1.70,8.50
+"Arcane Archives","arcanearchives:radiant_lantern",0.30,1.50
+"Arcane Archives","arcanearchives:radiant_resonator",1.10,5.50
+"Arcane Archives","arcanearchives:raw_quartz",1.40,7.00
+"Arcane Archives","arcanearchives:storage_cut_quartz",1.70,8.50
+"Arcane Archives","arcanearchives:storage_raw_quartz",1.70,8.50
+"Arcane World","arcaneworld:block_amethyst",3.00,15.00
+"Arcane World","arcaneworld:block_sapphire",3.00,15.00
+"Arcane World","arcaneworld:levitator",3.00,15.00
+"Arcane World","arcaneworld:ore_amethyst",3.00,15.00
+"Arcane World","arcaneworld:ore_amethyst_nether",3.00,15.00
+"Arcane World","arcaneworld:ore_sapphire",3.00,15.00
+"Arcane World","arcaneworld:return_portal",-1.00,0.00
+"Arcane World","arcaneworld:ritual_table",3.00,15.00
+"ArchitectureCraft","architecturecraft:sawbench",2.00,10.00
+"ArchitectureCraft","architecturecraft:shape",0.00,0.00
+"Astral Sorcery","astralsorcery:blockaltar",3.00,75.00
+"Astral Sorcery","astralsorcery:blockattunementaltar",3.00,75.00
+"Astral Sorcery","astralsorcery:blockattunementrelay",0.50,3.00
+"Astral Sorcery","astralsorcery:blockblackmarble",1.00,9.00
+"Astral Sorcery","astralsorcery:blockbore",3.00,75.00
+"Astral Sorcery","astralsorcery:blockborehead",10.00,45.00
+"Astral Sorcery","astralsorcery:blockcelestialcollectorcrystal",-1.00,600000.00
+"Astral Sorcery","astralsorcery:blockcelestialcrystals",2.00,90.00
+"Astral Sorcery","astralsorcery:blockcelestialgateway",4.00,120.00
+"Astral Sorcery","astralsorcery:blockchalice",2.00,45.00
+"Astral Sorcery","astralsorcery:blockcollectorcrystal",-1.00,600000.00
+"Astral Sorcery","astralsorcery:blockcustomflower",0.00,0.00
+"Astral Sorcery","astralsorcery:blockcustomore",3.00,75.00
+"Astral Sorcery","astralsorcery:blockcustomsandore",0.50,2.50
+"Astral Sorcery","astralsorcery:blockfaketree",-1.00,18000004.00
+"Astral Sorcery","astralsorcery:blockflarelight",-1.00,0.00
+"Astral Sorcery","astralsorcery:blockgemcrystals",2.00,60.00
+"Astral Sorcery","astralsorcery:blockinfusedwood",1.00,9.00
+"Astral Sorcery","astralsorcery:blocklens",3.00,36.00
+"Astral Sorcery","astralsorcery:blockmachine",3.00,75.00
+"Astral Sorcery","astralsorcery:blockmapdrawingtable",2.00,45.00
+"Astral Sorcery","astralsorcery:blockmarble",1.00,9.00
+"Astral Sorcery","astralsorcery:blockmarbledoubleslab",1.00,9.00
+"Astral Sorcery","astralsorcery:blockmarbleslab",1.00,9.00
+"Astral Sorcery","astralsorcery:blockmarblestairs",1.00,9.00
+"Astral Sorcery","astralsorcery:blockobservatory",3.50,9.00
+"Astral Sorcery","astralsorcery:blockportalnode",-1.00,18000004.00
+"Astral Sorcery","astralsorcery:blockprism",3.00,36.00
+"Astral Sorcery","astralsorcery:blockrituallink",3.00,75.00
+"Astral Sorcery","astralsorcery:blockritualpedestal",3.00,75.00
+"Astral Sorcery","astralsorcery:blockstarlightinfuser",1.00,30.00
+"Astral Sorcery","astralsorcery:blockstructural",-1.00,0.00
+"Astral Sorcery","astralsorcery:blocktranslucentblock",-1.00,18000004.00
+"Astral Sorcery","astralsorcery:blocktreebeacon",1.00,30.00
+"Astral Sorcery","astralsorcery:blockvanishing",-1.00,0.00
+"Astral Sorcery","astralsorcery:blockwell",3.00,75.00
+"Astral Sorcery","astralsorcery:blockworldilluminator",3.00,75.00
+"Astral Sorcery","astralsorcery:fluidblockliquidstarlight",0.00,0.00
+"Auraddons","auraddons:block_ancient_fence",2.00,15.00
+"Auraddons","auraddons:block_ancient_fence_gate",2.00,15.00
+"Auraddons","auraddons:block_ancient_ladder",0.40,2.00
+"Auraddons","auraddons:block_aura_transporter",2.00,15.00
+"Auraddons","auraddons:block_auto_wrath",2.00,15.00
+"Auraddons","auraddons:block_disruption_catalyst",2.00,15.00
+"Auraddons","auraddons:block_freezer",2.00,15.00
+"Auraddons","auraddons:block_hard_ice",0.00,0.00
+"Auraddons","auraddons:block_infused_brick_wall",2.00,30.00
+"Auraddons","auraddons:block_infused_stone_wall",2.00,30.00
+"Auraddons","auraddons:block_potion_enhancer",2.00,15.00
+"Auraddons","auraddons:block_rainbow_beacon",2.00,15.00
+"Auraddons","auraddons:block_wither_proofer",2.00,15.00
+"Better Questing","betterquesting:submit_station",1.00,5.00
+"BiblioCraft","bibliocraft:armorstand",0.00,0.00
+"BiblioCraft","bibliocraft:bell",0.00,0.00
+"BiblioCraft","bibliocraft:bookcase",0.00,0.00
+"BiblioCraft","bibliocraft:bookcasecreative",0.00,0.00
+"BiblioCraft","bibliocraft:case",0.00,0.00
+"BiblioCraft","bibliocraft:clipboard",0.00,0.00
+"BiblioCraft","bibliocraft:clock",0.00,0.00
+"BiblioCraft","bibliocraft:cookiejar",0.00,0.00
+"BiblioCraft","bibliocraft:desk",0.00,0.00
+"BiblioCraft","bibliocraft:dinnerplate",0.00,0.00
+"BiblioCraft","bibliocraft:discrack",0.00,0.00
+"BiblioCraft","bibliocraft:fancysign",0.00,0.00
+"BiblioCraft","bibliocraft:fancyworkbench",0.00,0.00
+"BiblioCraft","bibliocraft:framedchest",0.00,0.00
+"BiblioCraft","bibliocraft:furniturepaneler",0.00,0.00
+"BiblioCraft","bibliocraft:label",0.00,0.00
+"BiblioCraft","bibliocraft:lampgold",0.00,0.00
+"BiblioCraft","bibliocraft:lampiron",0.00,0.00
+"BiblioCraft","bibliocraft:lanterngold",0.00,0.00
+"BiblioCraft","bibliocraft:lanterniron",0.00,0.00
+"BiblioCraft","bibliocraft:mapframe",0.00,0.00
+"BiblioCraft","bibliocraft:markerpole",0.00,0.00
+"BiblioCraft","bibliocraft:paintingframeborderless",0.00,0.00
+"BiblioCraft","bibliocraft:paintingframefancy",0.00,0.00
+"BiblioCraft","bibliocraft:paintingframeflat",0.00,0.00
+"BiblioCraft","bibliocraft:paintingframemiddle",0.00,0.00
+"BiblioCraft","bibliocraft:paintingframesimple",0.00,0.00
+"BiblioCraft","bibliocraft:paintingpress",0.00,0.00
+"BiblioCraft","bibliocraft:potionshelf",0.00,0.00
+"BiblioCraft","bibliocraft:printingpress",0.00,0.00
+"BiblioCraft","bibliocraft:seat",0.00,0.00
+"BiblioCraft","bibliocraft:shelf",0.00,0.00
+"BiblioCraft","bibliocraft:swordpedestal",0.00,0.00
+"BiblioCraft","bibliocraft:table",0.00,0.00
+"BiblioCraft","bibliocraft:toolrack",0.00,0.00
+"BiblioCraft","bibliocraft:typesettingtable",0.00,0.00
+"BiblioCraft","bibliocraft:typewriter",0.00,0.00
+"Blockcraftery","blockcraftery:editable_block",1.00,5.00
+"Blockcraftery","blockcraftery:editable_double_slab",1.00,5.00
+"Blockcraftery","blockcraftery:editable_fence",1.00,5.00
+"Blockcraftery","blockcraftery:editable_inner_corner",1.00,5.00
+"Blockcraftery","blockcraftery:editable_outer_corner",1.00,5.00
+"Blockcraftery","blockcraftery:editable_slab",1.00,5.00
+"Blockcraftery","blockcraftery:editable_slant",1.00,5.00
+"Blockcraftery","blockcraftery:editable_stairs",1.00,5.00
+"Blockcraftery","blockcraftery:editable_wall",1.00,5.00
+"Blood Magic: Alchemical Wizardry","bloodmagic:alchemy_array",0.10,0.50
+"Blood Magic: Alchemical Wizardry","bloodmagic:alchemy_table",2.00,15.00
+"Blood Magic: Alchemical Wizardry","bloodmagic:altar",2.00,15.00
+"Blood Magic: Alchemical Wizardry","bloodmagic:blood_light",0.00,0.00
+"Blood Magic: Alchemical Wizardry","bloodmagic:blood_rune",2.00,15.00
+"Blood Magic: Alchemical Wizardry","bloodmagic:blood_tank",2.00,15.00
+"Blood Magic: Alchemical Wizardry","bloodmagic:decorative_brick",2.00,15.00
+"Blood Magic: Alchemical Wizardry","bloodmagic:demon_brick_1",2.00,15.00
+"Blood Magic: Alchemical Wizardry","bloodmagic:demon_brick_2",2.00,15.00
+"Blood Magic: Alchemical Wizardry","bloodmagic:demon_crucible",2.00,15.00
+"Blood Magic: Alchemical Wizardry","bloodmagic:demon_crystal",2.00,15.00
+"Blood Magic: Alchemical Wizardry","bloodmagic:demon_crystallizer",2.00,15.00
+"Blood Magic: Alchemical Wizardry","bloodmagic:demon_extras",2.00,15.00
+"Blood Magic: Alchemical Wizardry","bloodmagic:demon_light",2.00,15.00
+"Blood Magic: Alchemical Wizardry","bloodmagic:demon_pillar_1",2.00,15.00
+"Blood Magic: Alchemical Wizardry","bloodmagic:demon_pillar_2",2.00,15.00
+"Blood Magic: Alchemical Wizardry","bloodmagic:demon_pillar_cap_1",2.00,15.00
+"Blood Magic: Alchemical Wizardry","bloodmagic:demon_pillar_cap_2",2.00,15.00
+"Blood Magic: Alchemical Wizardry","bloodmagic:demon_pillar_cap_3",2.00,15.00
+"Blood Magic: Alchemical Wizardry","bloodmagic:demon_pylon",2.00,15.00
+"Blood Magic: Alchemical Wizardry","bloodmagic:demon_stairs_1",2.00,15.00
+"Blood Magic: Alchemical Wizardry","bloodmagic:demon_stairs_2",2.00,15.00
+"Blood Magic: Alchemical Wizardry","bloodmagic:demon_stairs_3",2.00,15.00
+"Blood Magic: Alchemical Wizardry","bloodmagic:demon_wall_1",2.00,15.00
+"Blood Magic: Alchemical Wizardry","bloodmagic:dimensional_portal",-1.00,6000.00
+"Blood Magic: Alchemical Wizardry","bloodmagic:incense_altar",2.00,15.00
+"Blood Magic: Alchemical Wizardry","bloodmagic:input_routing_node",2.00,15.00
+"Blood Magic: Alchemical Wizardry","bloodmagic:inversion_pillar",2.00,15.00
+"Blood Magic: Alchemical Wizardry","bloodmagic:inversion_pillar_end",2.00,15.00
+"Blood Magic: Alchemical Wizardry","bloodmagic:item_routing_node",2.00,15.00
+"Blood Magic: Alchemical Wizardry","bloodmagic:life_essence",0.00,0.00
+"Blood Magic: Alchemical Wizardry","bloodmagic:master_routing_node",2.00,15.00
+"Blood Magic: Alchemical Wizardry","bloodmagic:mimic",2.00,15.00
+"Blood Magic: Alchemical Wizardry","bloodmagic:output_routing_node",2.00,15.00
+"Blood Magic: Alchemical Wizardry","bloodmagic:path",2.00,15.00
+"Blood Magic: Alchemical Wizardry","bloodmagic:phantom",0.00,0.00
+"Blood Magic: Alchemical Wizardry","bloodmagic:ritual_controller",2.00,15.00
+"Blood Magic: Alchemical Wizardry","bloodmagic:ritual_stone",2.00,15.00
+"Blood Magic: Alchemical Wizardry","bloodmagic:soul_forge",2.00,15.00
+"Blood Magic: Alchemical Wizardry","bloodmagic:spectral",0.00,0.00
+"Blood Magic: Alchemical Wizardry","bloodmagic:teleposer",2.00,15.00
+"Botania","botania:alchemycatalyst",2.00,30.00
+"Botania","botania:alfheimportal",10.00,50.00
+"Botania","botania:altar",3.50,17.50
+"Botania","botania:altgrass",0.60,3.00
+"Botania","botania:animatedtorch",0.00,0.00
+"Botania","botania:avatar",2.00,10.00
+"Botania","botania:bellows",2.00,10.00
+"Botania","botania:bifrost",-1.00,0.00
+"Botania","botania:bifrostperm",0.30,1.50
+"Botania","botania:bifrostpermpane",0.30,1.50
+"Botania","botania:biomestonea",1.50,30.00
+"Botania","botania:biomestonea0slab",1.50,30.00
+"Botania","botania:biomestonea0slabfull",1.50,30.00
+"Botania","botania:biomestonea0stairs",1.50,30.00
+"Botania","botania:biomestonea0wall",1.50,30.00
+"Botania","botania:biomestonea10slab",1.50,30.00
+"Botania","botania:biomestonea10slabfull",1.50,30.00
+"Botania","botania:biomestonea10stairs",1.50,30.00
+"Botania","botania:biomestonea11slab",1.50,30.00
+"Botania","botania:biomestonea11slabfull",1.50,30.00
+"Botania","botania:biomestonea11stairs",1.50,30.00
+"Botania","botania:biomestonea12slab",1.50,30.00
+"Botania","botania:biomestonea12slabfull",1.50,30.00
+"Botania","botania:biomestonea12stairs",1.50,30.00
+"Botania","botania:biomestonea13slab",1.50,30.00
+"Botania","botania:biomestonea13slabfull",1.50,30.00
+"Botania","botania:biomestonea13stairs",1.50,30.00
+"Botania","botania:biomestonea14slab",1.50,30.00
+"Botania","botania:biomestonea14slabfull",1.50,30.00
+"Botania","botania:biomestonea14stairs",1.50,30.00
+"Botania","botania:biomestonea15slab",1.50,30.00
+"Botania","botania:biomestonea15slabfull",1.50,30.00
+"Botania","botania:biomestonea15stairs",1.50,30.00
+"Botania","botania:biomestonea1slab",1.50,30.00
+"Botania","botania:biomestonea1slabfull",1.50,30.00
+"Botania","botania:biomestonea1stairs",1.50,30.00
+"Botania","botania:biomestonea2slab",1.50,30.00
+"Botania","botania:biomestonea2slabfull",1.50,30.00
+"Botania","botania:biomestonea2stairs",1.50,30.00
+"Botania","botania:biomestonea3slab",1.50,30.00
+"Botania","botania:biomestonea3slabfull",1.50,30.00
+"Botania","botania:biomestonea3stairs",1.50,30.00
+"Botania","botania:biomestonea4slab",1.50,30.00
+"Botania","botania:biomestonea4slabfull",1.50,30.00
+"Botania","botania:biomestonea4stairs",1.50,30.00
+"Botania","botania:biomestonea5slab",1.50,30.00
+"Botania","botania:biomestonea5slabfull",1.50,30.00
+"Botania","botania:biomestonea5stairs",1.50,30.00
+"Botania","botania:biomestonea6slab",1.50,30.00
+"Botania","botania:biomestonea6slabfull",1.50,30.00
+"Botania","botania:biomestonea6stairs",1.50,30.00
+"Botania","botania:biomestonea7slab",1.50,30.00
+"Botania","botania:biomestonea7slabfull",1.50,30.00
+"Botania","botania:biomestonea7stairs",1.50,30.00
+"Botania","botania:biomestonea8slab",1.50,30.00
+"Botania","botania:biomestonea8slabfull",1.50,30.00
+"Botania","botania:biomestonea8stairs",1.50,30.00
+"Botania","botania:biomestonea9slab",1.50,30.00
+"Botania","botania:biomestonea9slabfull",1.50,30.00
+"Botania","botania:biomestonea9stairs",1.50,30.00
+"Botania","botania:biomestoneb",1.50,30.00
+"Botania","botania:biomestoneb0slab",1.50,30.00
+"Botania","botania:biomestoneb0slabfull",1.50,30.00
+"Botania","botania:biomestoneb0stairs",1.50,30.00
+"Botania","botania:biomestoneb1slab",1.50,30.00
+"Botania","botania:biomestoneb1slabfull",1.50,30.00
+"Botania","botania:biomestoneb1stairs",1.50,30.00
+"Botania","botania:biomestoneb2slab",1.50,30.00
+"Botania","botania:biomestoneb2slabfull",1.50,30.00
+"Botania","botania:biomestoneb2stairs",1.50,30.00
+"Botania","botania:biomestoneb3slab",1.50,30.00
+"Botania","botania:biomestoneb3slabfull",1.50,30.00
+"Botania","botania:biomestoneb3stairs",1.50,30.00
+"Botania","botania:biomestoneb4slab",1.50,30.00
+"Botania","botania:biomestoneb4slabfull",1.50,30.00
+"Botania","botania:biomestoneb4stairs",1.50,30.00
+"Botania","botania:biomestoneb5slab",1.50,30.00
+"Botania","botania:biomestoneb5slabfull",1.50,30.00
+"Botania","botania:biomestoneb5stairs",1.50,30.00
+"Botania","botania:biomestoneb6slab",1.50,30.00
+"Botania","botania:biomestoneb6slabfull",1.50,30.00
+"Botania","botania:biomestoneb6stairs",1.50,30.00
+"Botania","botania:biomestoneb7slab",1.50,30.00
+"Botania","botania:biomestoneb7slabfull",1.50,30.00
+"Botania","botania:biomestoneb7stairs",1.50,30.00
+"Botania","botania:blazeblock",3.00,30.00
+"Botania","botania:brewery",2.00,30.00
+"Botania","botania:buriedpetals",0.00,0.00
+"Botania","botania:cacophoniumblock",0.80,4.00
+"Botania","botania:cellblock",0.00,0.00
+"Botania","botania:cocoon",3.00,150.00
+"Botania","botania:conjurationcatalyst",2.00,30.00
+"Botania","botania:corporeacrystalcube",5.50,27.50
+"Botania","botania:corporeafunnel",5.50,27.50
+"Botania","botania:corporeaindex",5.50,27.50
+"Botania","botania:corporeainterceptor",5.50,27.50
+"Botania","botania:corporearetainer",5.50,27.50
+"Botania","botania:custombrick",2.00,15.00
+"Botania","botania:distributor",2.00,30.00
+"Botania","botania:doubleflower1",0.00,0.00
+"Botania","botania:doubleflower2",0.00,0.00
+"Botania","botania:dreamwood",2.00,10.00
+"Botania","botania:dreamwood0slab",2.00,10.00
+"Botania","botania:dreamwood0slabfull",2.00,10.00
+"Botania","botania:dreamwood0stairs",2.00,10.00
+"Botania","botania:dreamwood0wall",2.00,10.00
+"Botania","botania:dreamwood1slab",2.00,10.00
+"Botania","botania:dreamwood1slabfull",2.00,10.00
+"Botania","botania:dreamwood1stairs",2.00,10.00
+"Botania","botania:elfglass",0.30,1.50
+"Botania","botania:elfglasspane",0.30,1.50
+"Botania","botania:enchantedsoil",0.60,3.00
+"Botania","botania:enchanter",3.00,15.00
+"Botania","botania:endereyeblock",3.00,30.00
+"Botania","botania:fakeair",0.00,0.00
+"Botania","botania:felpumpkin",1.00,5.00
+"Botania","botania:floatingspecialflower",0.50,2.50
+"Botania","botania:flower",0.00,0.00
+"Botania","botania:forestdrum",2.00,10.00
+"Botania","botania:foresteye",5.00,30.00
+"Botania","botania:gaiaheadblock",1.00,5.00
+"Botania","botania:ghostrail",0.00,0.00
+"Botania","botania:hourglass",2.00,10.00
+"Botania","botania:incenseplate",2.00,10.00
+"Botania","botania:lightlauncher",2.00,10.00
+"Botania","botania:lightrelay",0.00,0.00
+"Botania","botania:livingrock",2.00,30.00
+"Botania","botania:livingrock0slab",2.00,30.00
+"Botania","botania:livingrock0slabfull",2.00,30.00
+"Botania","botania:livingrock0stairs",2.00,30.00
+"Botania","botania:livingrock0wall",2.00,30.00
+"Botania","botania:livingrock1slab",2.00,30.00
+"Botania","botania:livingrock1slabfull",2.00,30.00
+"Botania","botania:livingrock1stairs",2.00,30.00
+"Botania","botania:livingwood",2.00,10.00
+"Botania","botania:livingwood0slab",2.00,10.00
+"Botania","botania:livingwood0slabfull",2.00,10.00
+"Botania","botania:livingwood0stairs",2.00,10.00
+"Botania","botania:livingwood0wall",2.00,10.00
+"Botania","botania:livingwood1slab",2.00,10.00
+"Botania","botania:livingwood1slabfull",2.00,10.00
+"Botania","botania:livingwood1stairs",2.00,10.00
+"Botania","botania:manabomb",12.00,60.00
+"Botania","botania:manadetector",2.00,30.00
+"Botania","botania:manaflame",0.00,0.00
+"Botania","botania:managlass",0.30,1.50
+"Botania","botania:managlasspane",0.30,1.50
+"Botania","botania:manavoid",2.00,6000.00
+"Botania","botania:miniisland",0.50,2.50
+"Botania","botania:mushroom",0.00,0.00
+"Botania","botania:opencrate",2.00,10.00
+"Botania","botania:pavement",2.00,30.00
+"Botania","botania:pavement0slab",2.00,30.00
+"Botania","botania:pavement0slabfull",2.00,30.00
+"Botania","botania:pavement0stairs",2.00,30.00
+"Botania","botania:pavement1slab",2.00,30.00
+"Botania","botania:pavement1slabfull",2.00,30.00
+"Botania","botania:pavement1stairs",2.00,30.00
+"Botania","botania:pavement2slab",2.00,30.00
+"Botania","botania:pavement2slabfull",2.00,30.00
+"Botania","botania:pavement2stairs",2.00,30.00
+"Botania","botania:pavement3slab",2.00,30.00
+"Botania","botania:pavement3slabfull",2.00,30.00
+"Botania","botania:pavement3stairs",2.00,30.00
+"Botania","botania:pavement4slab",2.00,30.00
+"Botania","botania:pavement4slabfull",2.00,30.00
+"Botania","botania:pavement4stairs",2.00,30.00
+"Botania","botania:pavement5slab",2.00,30.00
+"Botania","botania:pavement5slabfull",2.00,30.00
+"Botania","botania:pavement5stairs",2.00,30.00
+"Botania","botania:petalblock",0.40,2.00
+"Botania","botania:pistonrelay",2.00,30.00
+"Botania","botania:platform",2.00,15.00
+"Botania","botania:pool",2.00,30.00
+"Botania","botania:prism",0.30,1.50
+"Botania","botania:pump",2.00,30.00
+"Botania","botania:pylon",5.50,27.50
+"Botania","botania:quartzslabblazefull",0.80,30.00
+"Botania","botania:quartzslabblazehalf",0.80,30.00
+"Botania","botania:quartzslabdarkfull",0.80,30.00
+"Botania","botania:quartzslabdarkhalf",0.80,30.00
+"Botania","botania:quartzslabelffull",0.80,30.00
+"Botania","botania:quartzslabelfhalf",0.80,30.00
+"Botania","botania:quartzslablavenderfull",0.80,30.00
+"Botania","botania:quartzslablavenderhalf",0.80,30.00
+"Botania","botania:quartzslabmanafull",0.80,30.00
+"Botania","botania:quartzslabmanahalf",0.80,30.00
+"Botania","botania:quartzslabredfull",0.80,30.00
+"Botania","botania:quartzslabredhalf",0.80,30.00
+"Botania","botania:quartzslabsunnyfull",0.80,30.00
+"Botania","botania:quartzslabsunnyhalf",0.80,30.00
+"Botania","botania:quartzstairsblaze",0.80,30.00
+"Botania","botania:quartzstairsdark",0.80,30.00
+"Botania","botania:quartzstairself",0.80,30.00
+"Botania","botania:quartzstairslavender",0.80,30.00
+"Botania","botania:quartzstairsmana",0.80,30.00
+"Botania","botania:quartzstairsred",0.80,30.00
+"Botania","botania:quartzstairssunny",0.80,30.00
+"Botania","botania:quartztypeblaze",0.80,30.00
+"Botania","botania:quartztypedark",0.80,30.00
+"Botania","botania:quartztypeelf",0.80,30.00
+"Botania","botania:quartztypelavender",0.80,30.00
+"Botania","botania:quartztypemana",0.80,30.00
+"Botania","botania:quartztypered",0.80,30.00
+"Botania","botania:quartztypesunny",0.80,30.00
+"Botania","botania:redstringcomparator",2.00,30.00
+"Botania","botania:redstringcontainer",2.00,30.00
+"Botania","botania:redstringdispenser",2.00,30.00
+"Botania","botania:redstringfertilizer",2.00,30.00
+"Botania","botania:redstringinterceptor",2.00,30.00
+"Botania","botania:redstringrelay",2.00,30.00
+"Botania","botania:rfgenerator",2.00,30.00
+"Botania","botania:root",1.20,6.00
+"Botania","botania:runealtar",2.00,30.00
+"Botania","botania:shimmerrock",2.00,30.00
+"Botania","botania:shimmerrock0slab",2.00,30.00
+"Botania","botania:shimmerrock0slabfull",2.00,30.00
+"Botania","botania:shimmerrock0stairs",2.00,30.00
+"Botania","botania:shimmerwoodplanks",2.00,10.00
+"Botania","botania:shimmerwoodplanks0slab",2.00,30.00
+"Botania","botania:shimmerwoodplanks0slabfull",2.00,30.00
+"Botania","botania:shimmerwoodplanks0stairs",2.00,10.00
+"Botania","botania:shinyflower",0.00,0.00
+"Botania","botania:solidvine",0.50,2.50
+"Botania","botania:sparkchanger",2.00,30.00
+"Botania","botania:spawnerclaw",3.00,15.00
+"Botania","botania:specialflower",0.10,0.50
+"Botania","botania:spreader",2.00,10.00
+"Botania","botania:starfield",5.00,6000.00
+"Botania","botania:storage",3.00,30.00
+"Botania","botania:terraplate",3.00,30.00
+"Botania","botania:teruterubozu",0.00,0.00
+"Botania","botania:tinyplanetblock",20.00,300.00
+"Botania","botania:tinypotato",0.25,1.25
+"Botania","botania:turntable",2.00,10.00
+"Botania Tweaks","botania_tweaks:compressed_tiny_potato_1",0.50,2.50
+"Botania Tweaks","botania_tweaks:compressed_tiny_potato_2",0.75,3.75
+"Botania Tweaks","botania_tweaks:compressed_tiny_potato_3",1.00,5.00
+"Botania Tweaks","botania_tweaks:compressed_tiny_potato_4",1.25,6.25
+"Botania Tweaks","botania_tweaks:compressed_tiny_potato_5",1.50,7.50
+"Botania Tweaks","botania_tweaks:compressed_tiny_potato_6",1.75,8.75
+"Botania Tweaks","botania_tweaks:compressed_tiny_potato_7",2.00,10.00
+"Botania Tweaks","botania_tweaks:compressed_tiny_potato_8",2.25,11.25
+"Botania Tweaks","botania_tweaks:potted_tiny_potato",0.00,0.00
+"Building Gadgets","buildinggadgets:constructionblock",2.00,10.00
+"Building Gadgets","buildinggadgets:constructionblockpowder",0.50,2.50
+"Building Gadgets","buildinggadgets:effectblock",20.00,100.00
+"Building Gadgets","buildinggadgets:templatemanager",2.00,10.00
+"Cathedral","cathedral:basalt_block_carved",2.50,60.00
+"Cathedral","cathedral:basalt_block_checkered",2.25,45.00
+"Cathedral","cathedral:basalt_doubleslab_carved",2.50,60.00
+"Cathedral","cathedral:basalt_doubleslab_checkered",2.50,60.00
+"Cathedral","cathedral:basalt_slab_carved",2.50,60.00
+"Cathedral","cathedral:basalt_slab_checkered",2.25,45.00
+"Cathedral","cathedral:basalt_stairs_carved_bricks",2.50,60.00
+"Cathedral","cathedral:basalt_stairs_carved_layers",2.50,60.00
+"Cathedral","cathedral:basalt_stairs_carved_raw",2.50,60.00
+"Cathedral","cathedral:basalt_stairs_carved_slabs",2.50,60.00
+"Cathedral","cathedral:basalt_stairs_carved_smallbricks",2.50,60.00
+"Cathedral","cathedral:basalt_stairs_carved_smalltiles",2.50,60.00
+"Cathedral","cathedral:basalt_stairs_carved_tiles",2.50,60.00
+"Cathedral","cathedral:basalt_stairs_checkered_normal",2.25,45.00
+"Cathedral","cathedral:basalt_stairs_checkered_small",2.25,45.00
+"Cathedral","cathedral:basalt_stairs_checkered_tiles",2.25,45.00
+"Cathedral","cathedral:basalt_stairs_checkered_tilessmall",2.25,45.00
+"Cathedral","cathedral:cathedral_chain_various",1.00,15.00
+"Cathedral","cathedral:cathedral_gargoyle_demon_basalt",1.00,9.00
+"Cathedral","cathedral:cathedral_gargoyle_demon_dwemer",1.00,9.00
+"Cathedral","cathedral:cathedral_gargoyle_demon_endstone",1.00,9.00
+"Cathedral","cathedral:cathedral_gargoyle_demon_limestone",1.00,9.00
+"Cathedral","cathedral:cathedral_gargoyle_demon_marble",1.00,9.00
+"Cathedral","cathedral:cathedral_gargoyle_demon_netherbrick",1.00,9.00
+"Cathedral","cathedral:cathedral_gargoyle_demon_obsidian",1.00,9.00
+"Cathedral","cathedral:cathedral_gargoyle_demon_packedice",1.00,9.00
+"Cathedral","cathedral:cathedral_gargoyle_demon_quartz",1.00,9.00
+"Cathedral","cathedral:cathedral_gargoyle_demon_redsandstone",1.00,9.00
+"Cathedral","cathedral:cathedral_gargoyle_demon_sandstone",1.00,9.00
+"Cathedral","cathedral:cathedral_gargoyle_demon_snow",1.00,9.00
+"Cathedral","cathedral:cathedral_gargoyle_demon_stone",1.00,9.00
+"Cathedral","cathedral:cathedral_glass_stained",0.30,1.50
+"Cathedral","cathedral:cathedral_pane_stained",0.30,1.50
+"Cathedral","cathedral:cathedral_pillar_various",0.00,0.00
+"Cathedral","cathedral:cathedral_railing_various",0.00,0.00
+"Cathedral","cathedral:deckprism",1.50,30.00
+"Cathedral","cathedral:dwemer_bars_normal",2.50,60.00
+"Cathedral","cathedral:dwemer_block_carved",2.50,60.00
+"Cathedral","cathedral:dwemer_door_normal",3.50,60.00
+"Cathedral","cathedral:dwemer_door_tall",3.50,60.00
+"Cathedral","cathedral:dwemer_glass_normal",0.30,1.50
+"Cathedral","cathedral:dwemer_light_normal",2.50,60.00
+"Cathedral","cathedral:extras_block_endstone",3.00,135.00
+"Cathedral","cathedral:extras_block_stone",1.50,90.00
+"Cathedral","cathedral:extras_doubleslab_endstone",3.00,135.00
+"Cathedral","cathedral:extras_slab_endstone",3.00,135.00
+"Cathedral","cathedral:extras_stairs_endstone_bricks",3.00,135.00
+"Cathedral","cathedral:extras_stairs_endstone_checkered",3.00,135.00
+"Cathedral","cathedral:extras_stairs_endstone_layers",3.00,135.00
+"Cathedral","cathedral:extras_stairs_endstone_raw",3.00,135.00
+"Cathedral","cathedral:extras_stairs_endstone_slabs",3.00,135.00
+"Cathedral","cathedral:extras_stairs_endstone_smallbricks",3.00,135.00
+"Cathedral","cathedral:extras_stairs_endstone_smalltiles",3.00,135.00
+"Cathedral","cathedral:extras_stairs_endstone_tiles",3.00,135.00
+"Cathedral","cathedral:roofing_shingles_black",2.00,30.00
+"Cathedral","cathedral:roofing_shingles_blue",2.00,30.00
+"Cathedral","cathedral:roofing_shingles_brown",2.00,30.00
+"Cathedral","cathedral:roofing_shingles_cyan",2.00,30.00
+"Cathedral","cathedral:roofing_shingles_gray",2.00,30.00
+"Cathedral","cathedral:roofing_shingles_green",2.00,30.00
+"Cathedral","cathedral:roofing_shingles_light_blue",2.00,30.00
+"Cathedral","cathedral:roofing_shingles_lime",2.00,30.00
+"Cathedral","cathedral:roofing_shingles_magenta",2.00,30.00
+"Cathedral","cathedral:roofing_shingles_natural",2.00,30.00
+"Cathedral","cathedral:roofing_shingles_orange",2.00,30.00
+"Cathedral","cathedral:roofing_shingles_pink",2.00,30.00
+"Cathedral","cathedral:roofing_shingles_purple",2.00,30.00
+"Cathedral","cathedral:roofing_shingles_red",2.00,30.00
+"Cathedral","cathedral:roofing_shingles_silver",2.00,30.00
+"Cathedral","cathedral:roofing_shingles_white",2.00,30.00
+"Cathedral","cathedral:roofing_shingles_yellow",2.00,30.00
+"Chisel","chisel:andesite",1.50,90.00
+"Chisel","chisel:andesite1",1.50,90.00
+"Chisel","chisel:andesite2",1.50,90.00
+"Chisel","chisel:antiblock",1.00,5.00
+"Chisel","chisel:auto_chisel",2.50,12.50
+"Chisel","chisel:basalt",1.50,30.00
+"Chisel","chisel:basalt1",1.50,30.00
+"Chisel","chisel:basalt2",1.50,30.00
+"Chisel","chisel:block_charcoal",5.00,30.00
+"Chisel","chisel:block_charcoal1",5.00,30.00
+"Chisel","chisel:block_charcoal2",5.00,30.00
+"Chisel","chisel:block_coal",5.00,30.00
+"Chisel","chisel:block_coal1",5.00,30.00
+"Chisel","chisel:block_coal2",5.00,30.00
+"Chisel","chisel:blockcobalt",5.00,25.00
+"Chisel","chisel:blockgold",3.00,15.00
+"Chisel","chisel:blockiron",5.00,25.00
+"Chisel","chisel:bookshelf_acacia",1.50,7.50
+"Chisel","chisel:bookshelf_birch",1.50,7.50
+"Chisel","chisel:bookshelf_darkoak",1.50,7.50
+"Chisel","chisel:bookshelf_jungle",1.50,7.50
+"Chisel","chisel:bookshelf_oak",1.50,7.50
+"Chisel","chisel:bookshelf_spruce",1.50,7.50
+"Chisel","chisel:bricks",2.00,30.00
+"Chisel","chisel:bricks1",2.00,30.00
+"Chisel","chisel:bricks2",2.00,30.00
+"Chisel","chisel:brownstone",1.00,5.00
+"Chisel","chisel:carpet_black",0.10,5.00
+"Chisel","chisel:carpet_blue",0.10,5.00
+"Chisel","chisel:carpet_brown",0.10,5.00
+"Chisel","chisel:carpet_cyan",0.10,5.00
+"Chisel","chisel:carpet_gray",0.10,5.00
+"Chisel","chisel:carpet_green",0.10,5.00
+"Chisel","chisel:carpet_lightblue",0.10,5.00
+"Chisel","chisel:carpet_lightgray",0.10,5.00
+"Chisel","chisel:carpet_lime",0.10,5.00
+"Chisel","chisel:carpet_magenta",0.10,5.00
+"Chisel","chisel:carpet_orange",0.10,5.00
+"Chisel","chisel:carpet_pink",0.10,5.00
+"Chisel","chisel:carpet_purple",0.10,5.00
+"Chisel","chisel:carpet_red",0.10,5.00
+"Chisel","chisel:carpet_white",0.10,5.00
+"Chisel","chisel:carpet_yellow",0.10,5.00
+"Chisel","chisel:cloud",0.30,5.00
+"Chisel","chisel:cobblestone",2.00,30.00
+"Chisel","chisel:cobblestone1",2.00,30.00
+"Chisel","chisel:cobblestone2",2.00,30.00
+"Chisel","chisel:cobblestonemossy",2.00,30.00
+"Chisel","chisel:cobblestonemossy1",2.00,30.00
+"Chisel","chisel:cobblestonemossy2",2.00,30.00
+"Chisel","chisel:concrete_black",1.50,7.50
+"Chisel","chisel:concrete_black1",1.50,7.50
+"Chisel","chisel:concrete_black2",1.50,7.50
+"Chisel","chisel:concrete_blue",1.50,7.50
+"Chisel","chisel:concrete_blue1",1.50,7.50
+"Chisel","chisel:concrete_blue2",1.50,7.50
+"Chisel","chisel:concrete_brown",1.50,7.50
+"Chisel","chisel:concrete_brown1",1.50,7.50
+"Chisel","chisel:concrete_brown2",1.50,7.50
+"Chisel","chisel:concrete_cyan",1.50,7.50
+"Chisel","chisel:concrete_cyan1",1.50,7.50
+"Chisel","chisel:concrete_cyan2",1.50,7.50
+"Chisel","chisel:concrete_gray",1.50,7.50
+"Chisel","chisel:concrete_gray1",1.50,7.50
+"Chisel","chisel:concrete_gray2",1.50,7.50
+"Chisel","chisel:concrete_green",1.50,7.50
+"Chisel","chisel:concrete_green1",1.50,7.50
+"Chisel","chisel:concrete_green2",1.50,7.50
+"Chisel","chisel:concrete_lightblue",1.50,7.50
+"Chisel","chisel:concrete_lightblue1",1.50,7.50
+"Chisel","chisel:concrete_lightblue2",1.50,7.50
+"Chisel","chisel:concrete_lightgray",1.50,7.50
+"Chisel","chisel:concrete_lightgray1",1.50,7.50
+"Chisel","chisel:concrete_lightgray2",1.50,7.50
+"Chisel","chisel:concrete_lime",1.50,7.50
+"Chisel","chisel:concrete_lime1",1.50,7.50
+"Chisel","chisel:concrete_lime2",1.50,7.50
+"Chisel","chisel:concrete_magenta",1.50,7.50
+"Chisel","chisel:concrete_magenta1",1.50,7.50
+"Chisel","chisel:concrete_magenta2",1.50,7.50
+"Chisel","chisel:concrete_orange",1.50,7.50
+"Chisel","chisel:concrete_orange1",1.50,7.50
+"Chisel","chisel:concrete_orange2",1.50,7.50
+"Chisel","chisel:concrete_pink",1.50,7.50
+"Chisel","chisel:concrete_pink1",1.50,7.50
+"Chisel","chisel:concrete_pink2",1.50,7.50
+"Chisel","chisel:concrete_purple",1.50,7.50
+"Chisel","chisel:concrete_purple1",1.50,7.50
+"Chisel","chisel:concrete_purple2",1.50,7.50
+"Chisel","chisel:concrete_red",1.50,7.50
+"Chisel","chisel:concrete_red1",1.50,7.50
+"Chisel","chisel:concrete_red2",1.50,7.50
+"Chisel","chisel:concrete_white",1.50,7.50
+"Chisel","chisel:concrete_white1",1.50,7.50
+"Chisel","chisel:concrete_white2",1.50,7.50
+"Chisel","chisel:concrete_yellow",1.50,7.50
+"Chisel","chisel:concrete_yellow1",1.50,7.50
+"Chisel","chisel:concrete_yellow2",1.50,7.50
+"Chisel","chisel:diamond",5.00,25.00
+"Chisel","chisel:diorite",1.50,90.00
+"Chisel","chisel:diorite1",1.50,90.00
+"Chisel","chisel:diorite2",1.50,90.00
+"Chisel","chisel:dirt",0.50,5.00
+"Chisel","chisel:emerald",5.00,25.00
+"Chisel","chisel:endstone",3.00,45.00
+"Chisel","chisel:endstone1",3.00,45.00
+"Chisel","chisel:endstone2",3.00,45.00
+"Chisel","chisel:energizedvoidstone",1.00,5.00
+"Chisel","chisel:factory",1.00,5.00
+"Chisel","chisel:factory1",1.00,5.00
+"Chisel","chisel:futura",1.00,5.00
+"Chisel","chisel:glass",0.30,5.00
+"Chisel","chisel:glassdyedblack",0.30,5.00
+"Chisel","chisel:glassdyedblue",0.30,5.00
+"Chisel","chisel:glassdyedbrown",0.30,5.00
+"Chisel","chisel:glassdyedcyan",0.30,5.00
+"Chisel","chisel:glassdyedgray",0.30,5.00
+"Chisel","chisel:glassdyedgreen",0.30,5.00
+"Chisel","chisel:glassdyedlightblue",0.30,5.00
+"Chisel","chisel:glassdyedlightgray",0.30,5.00
+"Chisel","chisel:glassdyedlime",0.30,5.00
+"Chisel","chisel:glassdyedmagenta",0.30,5.00
+"Chisel","chisel:glassdyedorange",0.30,5.00
+"Chisel","chisel:glassdyedpink",0.30,5.00
+"Chisel","chisel:glassdyedpurple",0.30,5.00
+"Chisel","chisel:glassdyedred",0.30,5.00
+"Chisel","chisel:glassdyedwhite",0.30,5.00
+"Chisel","chisel:glassdyedyellow",0.30,5.00
+"Chisel","chisel:glowstone",0.30,4.50
+"Chisel","chisel:glowstone1",0.30,4.50
+"Chisel","chisel:glowstone2",0.30,4.50
+"Chisel","chisel:gold",3.00,15.00
+"Chisel","chisel:granite",1.50,90.00
+"Chisel","chisel:granite1",1.50,90.00
+"Chisel","chisel:granite2",1.50,90.00
+"Chisel","chisel:hardenedclay",1.25,21.00
+"Chisel","chisel:hardenedclay1",1.25,21.00
+"Chisel","chisel:hardenedclay2",1.25,21.00
+"Chisel","chisel:ice",0.50,5.00
+"Chisel","chisel:ice1",0.50,5.00
+"Chisel","chisel:ice2",0.50,5.00
+"Chisel","chisel:icepillar",0.50,5.00
+"Chisel","chisel:iron",5.00,25.00
+"Chisel","chisel:ironpane",5.00,25.00
+"Chisel","chisel:laboratory",1.00,5.00
+"Chisel","chisel:lapis",3.00,15.00
+"Chisel","chisel:lavastone",4.00,150.00
+"Chisel","chisel:lavastone1",4.00,150.00
+"Chisel","chisel:lavastone2",4.00,150.00
+"Chisel","chisel:limestone",1.50,30.00
+"Chisel","chisel:limestone1",1.50,30.00
+"Chisel","chisel:limestone2",1.50,30.00
+"Chisel","chisel:marble",1.50,30.00
+"Chisel","chisel:marble1",1.50,30.00
+"Chisel","chisel:marble2",1.50,30.00
+"Chisel","chisel:marblepillar",1.50,30.00
+"Chisel","chisel:netherbrick",2.00,30.00
+"Chisel","chisel:netherrack",0.40,5.00
+"Chisel","chisel:obsidian",50.00,6000.00
+"Chisel","chisel:paper",1.50,7.50
+"Chisel","chisel:planks-acacia",2.00,15.00
+"Chisel","chisel:planks-birch",2.00,15.00
+"Chisel","chisel:planks-dark-oak",2.00,15.00
+"Chisel","chisel:planks-jungle",2.00,15.00
+"Chisel","chisel:planks-oak",2.00,15.00
+"Chisel","chisel:planks-spruce",2.00,15.00
+"Chisel","chisel:prismarine",1.50,30.00
+"Chisel","chisel:prismarine1",1.50,30.00
+"Chisel","chisel:prismarine2",1.50,30.00
+"Chisel","chisel:purpur",1.50,30.00
+"Chisel","chisel:purpur1",1.50,30.00
+"Chisel","chisel:purpur2",1.50,30.00
+"Chisel","chisel:quartz",0.80,12.00
+"Chisel","chisel:quartz1",0.80,12.00
+"Chisel","chisel:redstone",5.00,30.00
+"Chisel","chisel:redstone1",5.00,30.00
+"Chisel","chisel:sandstone-scribbles",0.80,5.00
+"Chisel","chisel:sandstonered",0.80,5.00
+"Chisel","chisel:sandstonered1",0.80,5.00
+"Chisel","chisel:sandstonered2",0.80,5.00
+"Chisel","chisel:sandstoneyellow",0.80,5.00
+"Chisel","chisel:sandstoneyellow1",0.80,5.00
+"Chisel","chisel:sandstoneyellow2",0.80,5.00
+"Chisel","chisel:stonebrick",1.50,30.00
+"Chisel","chisel:stonebrick1",1.50,30.00
+"Chisel","chisel:stonebrick2",1.50,30.00
+"Chisel","chisel:technical",1.00,5.00
+"Chisel","chisel:technical1",1.00,5.00
+"Chisel","chisel:technicalnew",1.00,5.00
+"Chisel","chisel:temple",1.50,30.00
+"Chisel","chisel:templemossy",1.50,30.00
+"Chisel","chisel:tyrian",1.00,5.00
+"Chisel","chisel:valentines",1.50,60.00
+"Chisel","chisel:voidstone",1.00,5.00
+"Chisel","chisel:voidstonerunic",1.00,5.00
+"Chisel","chisel:waterstone",4.00,150.00
+"Chisel","chisel:waterstone1",4.00,150.00
+"Chisel","chisel:waterstone2",4.00,150.00
+"Chisel","chisel:wool_black",0.80,5.00
+"Chisel","chisel:wool_blue",0.80,5.00
+"Chisel","chisel:wool_brown",0.80,5.00
+"Chisel","chisel:wool_cyan",0.80,5.00
+"Chisel","chisel:wool_gray",0.80,5.00
+"Chisel","chisel:wool_green",0.80,5.00
+"Chisel","chisel:wool_lightblue",0.80,5.00
+"Chisel","chisel:wool_lightgray",0.80,5.00
+"Chisel","chisel:wool_lime",0.80,5.00
+"Chisel","chisel:wool_magenta",0.80,5.00
+"Chisel","chisel:wool_orange",0.80,5.00
+"Chisel","chisel:wool_pink",0.80,5.00
+"Chisel","chisel:wool_purple",0.80,5.00
+"Chisel","chisel:wool_red",0.80,5.00
+"Chisel","chisel:wool_white",0.80,5.00
+"Chisel","chisel:wool_yellow",0.80,5.00
+"Chisels & Bits","chiselsandbits:bittank",1.00,5.00
+"Chisels & Bits","chiselsandbits:chiseled_clay",1.00,5.00
+"Chisels & Bits","chiselsandbits:chiseled_cloth",1.00,5.00
+"Chisels & Bits","chiselsandbits:chiseled_fluid",1.00,5.00
+"Chisels & Bits","chiselsandbits:chiseled_glass",1.00,5.00
+"Chisels & Bits","chiselsandbits:chiseled_grass",1.00,5.00
+"Chisels & Bits","chiselsandbits:chiseled_ground",1.00,5.00
+"Chisels & Bits","chiselsandbits:chiseled_ice",1.00,5.00
+"Chisels & Bits","chiselsandbits:chiseled_iron",1.00,5.00
+"Chisels & Bits","chiselsandbits:chiseled_leaves",1.00,5.00
+"Chisels & Bits","chiselsandbits:chiseled_packedice",1.00,5.00
+"Chisels & Bits","chiselsandbits:chiseled_rock",1.00,5.00
+"Chisels & Bits","chiselsandbits:chiseled_sand",1.00,5.00
+"Chisels & Bits","chiselsandbits:chiseled_snow",1.00,5.00
+"Chisels & Bits","chiselsandbits:chiseled_wood",1.00,5.00
+"Cuisine","cuisine:bamboo",0.25,10.00
+"Cuisine","cuisine:bamboo_plant",0.25,1.25
+"Cuisine","cuisine:chili",0.00,0.00
+"Cuisine","cuisine:chinese_cabbage",0.00,0.00
+"Cuisine","cuisine:chopping_board",2.00,10.00
+"Cuisine","cuisine:corn",0.00,0.00
+"Cuisine","cuisine:cucumber",0.00,0.00
+"Cuisine","cuisine:door",3.00,15.00
+"Cuisine","cuisine:drinkro",5.00,25.00
+"Cuisine","cuisine:earthen_basin",2.50,12.50
+"Cuisine","cuisine:earthen_basin_colored",2.50,12.50
+"Cuisine","cuisine:edible_oil",0.00,0.00
+"Cuisine","cuisine:eggplant",0.00,0.00
+"Cuisine","cuisine:fence",0.00,0.00
+"Cuisine","cuisine:fence_gate",0.00,0.00
+"Cuisine","cuisine:fire_pit",2.50,12.50
+"Cuisine","cuisine:fruit_vinegar",0.00,0.00
+"Cuisine","cuisine:garlic",0.00,0.00
+"Cuisine","cuisine:ginger",0.00,0.00
+"Cuisine","cuisine:green_pepper",0.00,0.00
+"Cuisine","cuisine:jar",1.25,15.00
+"Cuisine","cuisine:leaves_citron",0.20,5.00
+"Cuisine","cuisine:leaves_grapefruit",0.20,5.00
+"Cuisine","cuisine:leaves_lemon",0.20,5.00
+"Cuisine","cuisine:leaves_lime",0.20,5.00
+"Cuisine","cuisine:leaves_mandarin",0.20,5.00
+"Cuisine","cuisine:leaves_orange",0.20,5.00
+"Cuisine","cuisine:leaves_pomelo",0.20,5.00
+"Cuisine","cuisine:leek",0.00,0.00
+"Cuisine","cuisine:lettuce",0.00,0.00
+"Cuisine","cuisine:log",2.00,10.00
+"Cuisine","cuisine:milk",0.00,0.00
+"Cuisine","cuisine:mill",2.50,12.50
+"Cuisine","cuisine:mortar",0.20,12.50
+"Cuisine","cuisine:onion",0.00,0.00
+"Cuisine","cuisine:peanut",0.00,0.00
+"Cuisine","cuisine:placed_dish",0.50,15.00
+"Cuisine","cuisine:planks",2.00,10.00
+"Cuisine","cuisine:red_pepper",0.00,0.00
+"Cuisine","cuisine:rice",0.00,0.00
+"Cuisine","cuisine:rice_vinegar",0.00,0.00
+"Cuisine","cuisine:sapling",0.00,0.00
+"Cuisine","cuisine:scallion",0.00,0.00
+"Cuisine","cuisine:sesame",0.00,0.00
+"Cuisine","cuisine:sesame_oil",0.00,0.00
+"Cuisine","cuisine:sheared_leaves",0.20,5.00
+"Cuisine","cuisine:sichuan_pepper",0.00,0.00
+"Cuisine","cuisine:soy_milk",0.00,0.00
+"Cuisine","cuisine:soy_sauce",0.00,0.00
+"Cuisine","cuisine:soybean",0.00,0.00
+"Cuisine","cuisine:spinach",0.00,0.00
+"Cuisine","cuisine:squeezer",0.50,5.00
+"Cuisine","cuisine:sugarcane_juice",0.00,0.00
+"Cuisine","cuisine:tofu_block",0.20,2.50
+"Cuisine","cuisine:tomato",0.00,0.00
+"Cuisine","cuisine:trapdoor",3.00,15.00
+"Cuisine","cuisine:turnip",0.00,0.00
+"Cuisine","cuisine:wooden_basin",2.00,10.00
+"Dimensional Doors","dimdoors:ancient_fabric",-1.00,18000000.00
+"Dimensional Doors","dimdoors:dimensional_portal",1.00,5.00
+"Dimensional Doors","dimdoors:dimensional_trapdoor",1.00,5.00
+"Dimensional Doors","dimdoors:eternal_fabric",-1.00,18000000.00
+"Dimensional Doors","dimdoors:fabric",0.10,0.50
+"Dimensional Doors","dimdoors:gold_dimensional_door",1.00,5.00
+"Dimensional Doors","dimdoors:gold_door",0.10,0.50
+"Dimensional Doors","dimdoors:iron_dimensional_door",1.00,6000.00
+"Dimensional Doors","dimdoors:oak_dimensional_door",1.00,5.00
+"Dimensional Doors","dimdoors:quartz_dimensional_door",0.10,0.50
+"Dimensional Doors","dimdoors:quartz_door",0.10,0.50
+"Dimensional Doors","dimdoors:rift",-1.00,18000000.00
+"Dimensional Doors","dimdoors:unravelled_fabric",0.10,0.50
+"Dynamic Trees","dynamictrees:acaciabranch",0.00,0.00
+"Dynamic Trees","dynamictrees:birchbranch",0.00,0.00
+"Dynamic Trees","dynamictrees:bonsaipot",0.00,0.00
+"Dynamic Trees","dynamictrees:cactusbranch",0.00,0.00
+"Dynamic Trees","dynamictrees:darkoakbranch",0.00,0.00
+"Dynamic Trees","dynamictrees:darkoakbranchx",0.00,0.00
+"Dynamic Trees","dynamictrees:darkoakroot",2.50,3.00
+"Dynamic Trees","dynamictrees:fruit",0.30,1.50
+"Dynamic Trees","dynamictrees:fruitcocoa",0.00,0.00
+"Dynamic Trees","dynamictrees:junglebranch",0.00,0.00
+"Dynamic Trees","dynamictrees:leaves0",0.20,1.00
+"Dynamic Trees","dynamictrees:leaves1",0.20,1.00
+"Dynamic Trees","dynamictrees:oakbranch",0.00,0.00
+"Dynamic Trees","dynamictrees:oakbranchx",0.00,0.00
+"Dynamic Trees","dynamictrees:rootydirt",0.00,0.00
+"Dynamic Trees","dynamictrees:rootydirtfake",0.00,0.00
+"Dynamic Trees","dynamictrees:rootydirtspecies",0.00,0.00
+"Dynamic Trees","dynamictrees:rootysand",0.00,0.00
+"Dynamic Trees","dynamictrees:sapling",0.00,0.00
+"Dynamic Trees","dynamictrees:sprucebranch",0.00,0.00
+"Dynamic Trees","dynamictrees:sprucebranchx",0.00,0.00
+"Dynamic Trees","dynamictrees:trunkshell",0.00,0.00
+"Dynamic Trees TC","dynamictreestc:greatwoodbranch",0.00,0.00
+"Dynamic Trees TC","dynamictreestc:greatwoodbranchx",0.00,0.00
+"Dynamic Trees TC","dynamictreestc:greatwoodroot",2.50,3.00
+"Dynamic Trees TC","dynamictreestc:leaves0",0.20,1.00
+"Dynamic Trees TC","dynamictreestc:leaves_silverwood",0.20,1.00
+"Dynamic Trees TC","dynamictreestc:silverwoodbranch",0.00,0.00
+"Dynamic Trees TC","dynamictreestc:silverwoodbranchx",0.00,0.00
+"Dynamic Trees TC","dynamictreestc:silverwoodroot",2.50,3.00
+"Earthworks","earthworks:block_adobe",2.00,9.90
+"Earthworks","earthworks:block_chalk",1.00,7.50
+"Earthworks","earthworks:block_cinder",1.50,17.49
+"Earthworks","earthworks:block_cob",1.00,9.00
+"Earthworks","earthworks:block_concrete",2.00,30.00
+"Earthworks","earthworks:block_cordwood",1.50,8.49
+"Earthworks","earthworks:block_dry_stone",2.00,3999.90
+"Earthworks","earthworks:block_gabion_dirt",2.00,36.00
+"Earthworks","earthworks:block_gabion_falling_dirt",2.00,36.00
+"Earthworks","earthworks:block_gabion_falling_gravel",2.00,36.00
+"Earthworks","earthworks:block_gabion_falling_sand",2.00,36.00
+"Earthworks","earthworks:block_gabion_gravel",2.00,36.00
+"Earthworks","earthworks:block_gabion_sand",2.00,36.00
+"Earthworks","earthworks:block_mud",0.60,3.00
+"Earthworks","earthworks:block_mud_bottom",0.60,3.00
+"Earthworks","earthworks:block_plaster",2.00,22.50
+"Earthworks","earthworks:block_rammed_earth",2.00,30.00
+"Earthworks","earthworks:block_reed",0.80,3.00
+"Earthworks","earthworks:block_slate",1.50,30.00
+"Earthworks","earthworks:block_slate_green",1.50,30.00
+"Earthworks","earthworks:block_slate_purple",1.50,30.00
+"Earthworks","earthworks:block_slate_shingle",1.20,30.00
+"Earthworks","earthworks:block_slate_shingle_purple",1.20,30.00
+"Earthworks","earthworks:block_slate_shingle_verte",1.20,30.00
+"Earthworks","earthworks:block_slate_slab",1.50,30.00
+"Earthworks","earthworks:block_slate_slab_green",1.50,30.00
+"Earthworks","earthworks:block_slate_slab_purple",1.50,30.00
+"Earthworks","earthworks:block_slate_tile",1.20,30.00
+"Earthworks","earthworks:block_slate_tile_purple",1.20,30.00
+"Earthworks","earthworks:block_slate_tile_verte",1.20,30.00
+"Earthworks","earthworks:block_thatch",0.80,3.00
+"Earthworks","earthworks:block_timber",2.00,9.99
+"Earthworks","earthworks:block_timber_acacia",2.00,9.99
+"Earthworks","earthworks:block_timber_birch",2.00,9.99
+"Earthworks","earthworks:block_timber_dark_oak",2.00,9.99
+"Earthworks","earthworks:block_timber_jungle",2.00,9.99
+"Earthworks","earthworks:block_timber_spruce",2.00,9.99
+"Earthworks","earthworks:block_wattle",1.50,24.99
+"Earthworks","earthworks:block_wicker",0.80,3.00
+"Earthworks","earthworks:block_wood_shingle",2.00,9.99
+"Earthworks","earthworks:daub_cob_arrow0",1.50,30.00
+"Earthworks","earthworks:daub_cob_arrow1",1.50,30.00
+"Earthworks","earthworks:daub_cob_arrow2",1.50,30.00
+"Earthworks","earthworks:daub_cob_arrow3",1.50,30.00
+"Earthworks","earthworks:daub_cob_barndoor0",1.50,30.00
+"Earthworks","earthworks:daub_cob_barndoor1",1.50,30.00
+"Earthworks","earthworks:daub_cob_barndoor2",1.50,30.00
+"Earthworks","earthworks:daub_cob_barndoor3",1.50,30.00
+"Earthworks","earthworks:daub_cob_barndoor4",1.50,30.00
+"Earthworks","earthworks:daub_cob_barndoor5",1.50,30.00
+"Earthworks","earthworks:daub_cob_barndoor6",1.50,30.00
+"Earthworks","earthworks:daub_cob_barndoor7",1.50,30.00
+"Earthworks","earthworks:daub_cob_bottom",1.50,30.00
+"Earthworks","earthworks:daub_cob_bottom_l",1.50,30.00
+"Earthworks","earthworks:daub_cob_bottom_r",1.50,30.00
+"Earthworks","earthworks:daub_cob_left",1.50,30.00
+"Earthworks","earthworks:daub_cob_parallel_hor",1.50,30.00
+"Earthworks","earthworks:daub_cob_parallel_vert",1.50,30.00
+"Earthworks","earthworks:daub_cob_right",1.50,30.00
+"Earthworks","earthworks:daub_cob_slash",1.50,30.00
+"Earthworks","earthworks:daub_cob_slash_back",1.50,30.00
+"Earthworks","earthworks:daub_cob_square",1.50,30.00
+"Earthworks","earthworks:daub_cob_square_x",1.50,30.00
+"Earthworks","earthworks:daub_cob_top",1.50,30.00
+"Earthworks","earthworks:daub_cob_top_l",1.50,30.00
+"Earthworks","earthworks:daub_cob_top_r",1.50,30.00
+"Earthworks","earthworks:daub_cob_triangle0",1.50,30.00
+"Earthworks","earthworks:daub_cob_triangle1",1.50,30.00
+"Earthworks","earthworks:daub_cob_triangle2",1.50,30.00
+"Earthworks","earthworks:daub_cob_triangle3",1.50,30.00
+"Earthworks","earthworks:daub_cob_x",1.50,30.00
+"Earthworks","earthworks:daub_cob_xbottom",1.50,30.00
+"Earthworks","earthworks:daub_cob_xdoor0",1.50,30.00
+"Earthworks","earthworks:daub_cob_xdoor1",1.50,30.00
+"Earthworks","earthworks:daub_cob_xdoor2",1.50,30.00
+"Earthworks","earthworks:daub_cob_xdoor3",1.50,30.00
+"Earthworks","earthworks:daub_cob_xleft",1.50,30.00
+"Earthworks","earthworks:daub_cob_xright",1.50,30.00
+"Earthworks","earthworks:daub_cob_xtop",1.50,30.00
+"Earthworks","earthworks:doubleslab_adobe",0.00,0.00
+"Earthworks","earthworks:doubleslab_chalk",0.00,0.00
+"Earthworks","earthworks:doubleslab_cinder",0.00,0.00
+"Earthworks","earthworks:doubleslab_cob",0.00,0.00
+"Earthworks","earthworks:doubleslab_concrete",0.00,0.00
+"Earthworks","earthworks:doubleslab_cordwood",0.00,0.00
+"Earthworks","earthworks:doubleslab_dry_stone",0.00,0.00
+"Earthworks","earthworks:doubleslab_gabion_dirt",0.00,0.00
+"Earthworks","earthworks:doubleslab_gabion_gravel",0.00,0.00
+"Earthworks","earthworks:doubleslab_gabion_sand",0.00,0.00
+"Earthworks","earthworks:doubleslab_mud",0.00,0.00
+"Earthworks","earthworks:doubleslab_planks_vert_acacia",0.00,0.00
+"Earthworks","earthworks:doubleslab_planks_vert_birch",0.00,0.00
+"Earthworks","earthworks:doubleslab_planks_vert_dark_oak",0.00,0.00
+"Earthworks","earthworks:doubleslab_planks_vert_jungle",0.00,0.00
+"Earthworks","earthworks:doubleslab_planks_vert_oak",0.00,0.00
+"Earthworks","earthworks:doubleslab_planks_vert_spruce",0.00,0.00
+"Earthworks","earthworks:doubleslab_plaster",0.00,0.00
+"Earthworks","earthworks:doubleslab_rammed_earth",0.00,0.00
+"Earthworks","earthworks:doubleslab_reed",0.00,0.00
+"Earthworks","earthworks:doubleslab_slate",0.00,0.00
+"Earthworks","earthworks:doubleslab_slate_green",0.00,0.00
+"Earthworks","earthworks:doubleslab_slate_purple",0.00,0.00
+"Earthworks","earthworks:doubleslab_slate_shingle",0.00,0.00
+"Earthworks","earthworks:doubleslab_slate_shingle_purple",0.00,0.00
+"Earthworks","earthworks:doubleslab_slate_shingle_verte",0.00,0.00
+"Earthworks","earthworks:doubleslab_slate_slab",0.00,0.00
+"Earthworks","earthworks:doubleslab_slate_slab_green",0.00,0.00
+"Earthworks","earthworks:doubleslab_slate_slab_purple",0.00,0.00
+"Earthworks","earthworks:doubleslab_slate_tile",0.00,0.00
+"Earthworks","earthworks:doubleslab_slate_tile_purple",0.00,0.00
+"Earthworks","earthworks:doubleslab_slate_tile_verte",0.00,0.00
+"Earthworks","earthworks:doubleslab_thatch",0.00,0.00
+"Earthworks","earthworks:doubleslab_timber",0.00,0.00
+"Earthworks","earthworks:doubleslab_timber_acacia",0.00,0.00
+"Earthworks","earthworks:doubleslab_timber_birch",0.00,0.00
+"Earthworks","earthworks:doubleslab_timber_dark_oak",0.00,0.00
+"Earthworks","earthworks:doubleslab_timber_jungle",0.00,0.00
+"Earthworks","earthworks:doubleslab_timber_spruce",0.00,0.00
+"Earthworks","earthworks:doubleslab_wattle",0.00,0.00
+"Earthworks","earthworks:doubleslab_wicker",0.00,0.00
+"Earthworks","earthworks:doubleslab_wood_shingle_acacia",0.00,0.00
+"Earthworks","earthworks:doubleslab_wood_shingle_birch",0.00,0.00
+"Earthworks","earthworks:doubleslab_wood_shingle_dark_oak",0.00,0.00
+"Earthworks","earthworks:doubleslab_wood_shingle_jungle",0.00,0.00
+"Earthworks","earthworks:doubleslab_wood_shingle_oak",0.00,0.00
+"Earthworks","earthworks:doubleslab_wood_shingle_spruce",0.00,0.00
+"Earthworks","earthworks:fence_planks_vert_acacia",2.00,9.00
+"Earthworks","earthworks:fence_planks_vert_birch",2.00,9.00
+"Earthworks","earthworks:fence_planks_vert_dark_oak",2.00,9.00
+"Earthworks","earthworks:fence_planks_vert_jungle",2.00,9.00
+"Earthworks","earthworks:fence_planks_vert_oak",2.00,9.00
+"Earthworks","earthworks:fence_planks_vert_spruce",2.00,9.00
+"Earthworks","earthworks:plaster_arrow0",3.00,22.50
+"Earthworks","earthworks:plaster_arrow1",3.00,22.50
+"Earthworks","earthworks:plaster_arrow2",3.00,22.50
+"Earthworks","earthworks:plaster_arrow3",3.00,22.50
+"Earthworks","earthworks:plaster_barndoor0",3.00,22.50
+"Earthworks","earthworks:plaster_barndoor1",3.00,22.50
+"Earthworks","earthworks:plaster_barndoor2",3.00,22.50
+"Earthworks","earthworks:plaster_barndoor3",3.00,22.50
+"Earthworks","earthworks:plaster_barndoor4",3.00,22.50
+"Earthworks","earthworks:plaster_barndoor5",3.00,22.50
+"Earthworks","earthworks:plaster_barndoor6",3.00,22.50
+"Earthworks","earthworks:plaster_barndoor7",3.00,22.50
+"Earthworks","earthworks:plaster_bottom",3.00,22.50
+"Earthworks","earthworks:plaster_bottom_l",3.00,22.50
+"Earthworks","earthworks:plaster_bottom_r",3.00,22.50
+"Earthworks","earthworks:plaster_left",3.00,22.50
+"Earthworks","earthworks:plaster_parallel_hor",3.00,22.50
+"Earthworks","earthworks:plaster_parallel_vert",3.00,22.50
+"Earthworks","earthworks:plaster_right",3.00,22.50
+"Earthworks","earthworks:plaster_slash",3.00,22.50
+"Earthworks","earthworks:plaster_slash_back",3.00,22.50
+"Earthworks","earthworks:plaster_square",3.00,22.50
+"Earthworks","earthworks:plaster_square_x",3.00,22.50
+"Earthworks","earthworks:plaster_top",3.00,22.50
+"Earthworks","earthworks:plaster_top_l",3.00,22.50
+"Earthworks","earthworks:plaster_top_r",3.00,22.50
+"Earthworks","earthworks:plaster_triangle0",3.00,22.50
+"Earthworks","earthworks:plaster_triangle1",3.00,22.50
+"Earthworks","earthworks:plaster_triangle2",3.00,22.50
+"Earthworks","earthworks:plaster_triangle3",3.00,22.50
+"Earthworks","earthworks:plaster_x",3.00,22.50
+"Earthworks","earthworks:plaster_xbottom",3.00,22.50
+"Earthworks","earthworks:plaster_xdoor0",3.00,22.50
+"Earthworks","earthworks:plaster_xdoor1",3.00,22.50
+"Earthworks","earthworks:plaster_xdoor2",3.00,22.50
+"Earthworks","earthworks:plaster_xdoor3",3.00,22.50
+"Earthworks","earthworks:plaster_xleft",3.00,22.50
+"Earthworks","earthworks:plaster_xright",3.00,22.50
+"Earthworks","earthworks:plaster_xtop",3.00,22.50
+"Earthworks","earthworks:slab_adobe",2.00,10.00
+"Earthworks","earthworks:slab_chalk",1.00,5.00
+"Earthworks","earthworks:slab_cinder",1.50,7.50
+"Earthworks","earthworks:slab_cob",1.00,5.00
+"Earthworks","earthworks:slab_concrete",2.00,10.00
+"Earthworks","earthworks:slab_cordwood",1.50,7.50
+"Earthworks","earthworks:slab_dry_stone",2.00,10.00
+"Earthworks","earthworks:slab_gabion_dirt",2.00,10.00
+"Earthworks","earthworks:slab_gabion_gravel",2.00,10.00
+"Earthworks","earthworks:slab_gabion_sand",2.00,10.00
+"Earthworks","earthworks:slab_mud",0.60,3.00
+"Earthworks","earthworks:slab_planks_vert_acacia",2.00,10.00
+"Earthworks","earthworks:slab_planks_vert_birch",2.00,10.00
+"Earthworks","earthworks:slab_planks_vert_dark_oak",2.00,10.00
+"Earthworks","earthworks:slab_planks_vert_jungle",2.00,10.00
+"Earthworks","earthworks:slab_planks_vert_oak",2.00,10.00
+"Earthworks","earthworks:slab_planks_vert_spruce",2.00,10.00
+"Earthworks","earthworks:slab_plaster",2.00,10.00
+"Earthworks","earthworks:slab_rammed_earth",2.00,10.00
+"Earthworks","earthworks:slab_reed",0.80,4.00
+"Earthworks","earthworks:slab_slate",1.50,7.50
+"Earthworks","earthworks:slab_slate_green",1.50,7.50
+"Earthworks","earthworks:slab_slate_purple",1.50,7.50
+"Earthworks","earthworks:slab_slate_shingle",1.20,6.00
+"Earthworks","earthworks:slab_slate_shingle_purple",1.20,6.00
+"Earthworks","earthworks:slab_slate_shingle_verte",1.20,6.00
+"Earthworks","earthworks:slab_slate_slab",1.50,7.50
+"Earthworks","earthworks:slab_slate_slab_green",1.50,7.50
+"Earthworks","earthworks:slab_slate_slab_purple",1.50,7.50
+"Earthworks","earthworks:slab_slate_tile",1.20,6.00
+"Earthworks","earthworks:slab_slate_tile_purple",1.20,6.00
+"Earthworks","earthworks:slab_slate_tile_verte",1.20,6.00
+"Earthworks","earthworks:slab_thatch",0.80,4.00
+"Earthworks","earthworks:slab_timber",2.00,10.00
+"Earthworks","earthworks:slab_timber_acacia",2.00,10.00
+"Earthworks","earthworks:slab_timber_birch",2.00,10.00
+"Earthworks","earthworks:slab_timber_dark_oak",2.00,10.00
+"Earthworks","earthworks:slab_timber_jungle",2.00,10.00
+"Earthworks","earthworks:slab_timber_spruce",2.00,10.00
+"Earthworks","earthworks:slab_wattle",1.50,7.50
+"Earthworks","earthworks:slab_wicker",0.80,4.00
+"Earthworks","earthworks:slab_wood_shingle_acacia",2.00,10.00
+"Earthworks","earthworks:slab_wood_shingle_birch",2.00,10.00
+"Earthworks","earthworks:slab_wood_shingle_dark_oak",2.00,10.00
+"Earthworks","earthworks:slab_wood_shingle_jungle",2.00,10.00
+"Earthworks","earthworks:slab_wood_shingle_oak",2.00,10.00
+"Earthworks","earthworks:slab_wood_shingle_spruce",2.00,10.00
+"Earthworks","earthworks:stair_adobe",2.00,30.00
+"Earthworks","earthworks:stair_chalk",1.00,22.50
+"Earthworks","earthworks:stair_cinder",1.50,52.47
+"Earthworks","earthworks:stair_cob",1.00,27.00
+"Earthworks","earthworks:stair_concrete",2.00,90.00
+"Earthworks","earthworks:stair_cordwood",1.50,25.47
+"Earthworks","earthworks:stair_dry_stone",2.00,11999.70
+"Earthworks","earthworks:stair_gabion_dirt",2.00,108.00
+"Earthworks","earthworks:stair_gabion_gravel",2.00,108.00
+"Earthworks","earthworks:stair_gabion_sand",2.00,108.00
+"Earthworks","earthworks:stair_mud",0.60,9.00
+"Earthworks","earthworks:stair_planks_vert_acacia",2.00,30.00
+"Earthworks","earthworks:stair_planks_vert_birch",2.00,30.00
+"Earthworks","earthworks:stair_planks_vert_dark_oak",2.00,30.00
+"Earthworks","earthworks:stair_planks_vert_jungle",2.00,30.00
+"Earthworks","earthworks:stair_planks_vert_oak",2.00,30.00
+"Earthworks","earthworks:stair_planks_vert_spruce",2.00,30.00
+"Earthworks","earthworks:stair_plaster",2.00,67.50
+"Earthworks","earthworks:stair_rammed_earth",2.00,90.00
+"Earthworks","earthworks:stair_reed",0.80,12.00
+"Earthworks","earthworks:stair_slate",1.50,90.00
+"Earthworks","earthworks:stair_slate_green",1.50,90.00
+"Earthworks","earthworks:stair_slate_purple",1.50,90.00
+"Earthworks","earthworks:stair_slate_shingle",1.20,90.00
+"Earthworks","earthworks:stair_slate_shingle_purple",1.20,90.00
+"Earthworks","earthworks:stair_slate_shingle_verte",1.20,90.00
+"Earthworks","earthworks:stair_slate_slab",1.50,90.00
+"Earthworks","earthworks:stair_slate_slab_green",1.50,90.00
+"Earthworks","earthworks:stair_slate_slab_purple",1.50,90.00
+"Earthworks","earthworks:stair_slate_tile",1.20,90.00
+"Earthworks","earthworks:stair_slate_tile_purple",1.20,90.00
+"Earthworks","earthworks:stair_slate_tile_verte",1.20,90.00
+"Earthworks","earthworks:stair_thatch",0.80,12.00
+"Earthworks","earthworks:stair_timber",2.00,30.00
+"Earthworks","earthworks:stair_timber_acacia",2.00,30.00
+"Earthworks","earthworks:stair_timber_birch",2.00,30.00
+"Earthworks","earthworks:stair_timber_dark_oak",2.00,30.00
+"Earthworks","earthworks:stair_timber_jungle",2.00,30.00
+"Earthworks","earthworks:stair_timber_spruce",2.00,30.00
+"Earthworks","earthworks:stair_wattle",1.50,74.97
+"Earthworks","earthworks:stair_wicker",0.80,12.00
+"Earthworks","earthworks:stair_wood_shingle_acacia",2.00,30.00
+"Earthworks","earthworks:stair_wood_shingle_birch",2.00,30.00
+"Earthworks","earthworks:stair_wood_shingle_dark_oak",2.00,30.00
+"Earthworks","earthworks:stair_wood_shingle_jungle",2.00,30.00
+"Earthworks","earthworks:stair_wood_shingle_oak",2.00,30.00
+"Earthworks","earthworks:stair_wood_shingle_spruce",2.00,30.00
+"Earthworks","earthworks:wall_adobe",2.00,30.00
+"Earthworks","earthworks:wall_chalk",1.00,22.50
+"Earthworks","earthworks:wall_cinder",1.50,52.47
+"Earthworks","earthworks:wall_cob",1.00,27.00
+"Earthworks","earthworks:wall_concrete",2.00,90.00
+"Earthworks","earthworks:wall_cordwood",1.50,25.47
+"Earthworks","earthworks:wall_dry_stone",2.00,11999.70
+"Earthworks","earthworks:wall_gabion_dirt",2.00,108.00
+"Earthworks","earthworks:wall_gabion_gravel",2.00,108.00
+"Earthworks","earthworks:wall_gabion_sand",2.00,108.00
+"Earthworks","earthworks:wall_mud",0.60,9.00
+"Earthworks","earthworks:wall_plaster",2.00,67.50
+"Earthworks","earthworks:wall_rammed_earth",2.00,90.00
+"Earthworks","earthworks:wall_reed",0.80,12.00
+"Earthworks","earthworks:wall_slate",1.50,90.00
+"Earthworks","earthworks:wall_slate_green",1.50,90.00
+"Earthworks","earthworks:wall_slate_purple",1.50,90.00
+"Earthworks","earthworks:wall_slate_shingle",1.20,90.00
+"Earthworks","earthworks:wall_slate_shingle_purple",1.20,90.00
+"Earthworks","earthworks:wall_slate_shingle_verte",1.20,90.00
+"Earthworks","earthworks:wall_slate_slab",1.50,90.00
+"Earthworks","earthworks:wall_slate_slab_green",1.50,90.00
+"Earthworks","earthworks:wall_slate_slab_purple",1.50,90.00
+"Earthworks","earthworks:wall_slate_tile",1.20,90.00
+"Earthworks","earthworks:wall_slate_tile_purple",1.20,90.00
+"Earthworks","earthworks:wall_slate_tile_verte",1.20,90.00
+"Earthworks","earthworks:wall_thatch",0.80,12.00
+"Earthworks","earthworks:wall_timber",2.00,30.00
+"Earthworks","earthworks:wall_timber_acacia",2.00,30.00
+"Earthworks","earthworks:wall_timber_birch",2.00,30.00
+"Earthworks","earthworks:wall_timber_dark_oak",2.00,30.00
+"Earthworks","earthworks:wall_timber_jungle",2.00,30.00
+"Earthworks","earthworks:wall_timber_spruce",2.00,30.00
+"Earthworks","earthworks:wall_wattle",1.50,74.97
+"Earthworks","earthworks:wall_wicker",0.80,12.00
+"Earthworks","earthworks:wall_wood_shingle_acacia",2.00,30.00
+"Earthworks","earthworks:wall_wood_shingle_birch",2.00,30.00
+"Earthworks","earthworks:wall_wood_shingle_dark_oak",2.00,30.00
+"Earthworks","earthworks:wall_wood_shingle_jungle",2.00,30.00
+"Earthworks","earthworks:wall_wood_shingle_oak",2.00,30.00
+"Earthworks","earthworks:wall_wood_shingle_spruce",2.00,30.00
+"Eerie Entities","eerieentities:pumpkin_creeper",1.00,5.00
+"Eerie Entities","eerieentities:pumpkin_cyclops",1.00,5.00
+"Eerie Entities","eerieentities:pumpkin_lit_creeper",1.00,5.00
+"Eerie Entities","eerieentities:pumpkin_lit_cyclops",1.00,5.00
+"Eerie Entities","eerieentities:pumpkin_lit_owo",1.00,5.00
+"Eerie Entities","eerieentities:pumpkin_lit_rawr",1.00,5.00
+"Eerie Entities","eerieentities:pumpkin_lit_surprised",1.00,5.00
+"Eerie Entities","eerieentities:pumpkin_owo",1.00,5.00
+"Eerie Entities","eerieentities:pumpkin_rawr",1.00,5.00
+"Eerie Entities","eerieentities:pumpkin_surprised",1.00,5.00
+"Electroblob's Wizardry","ebwizardry:arcane_workbench",1.00,5.00
+"Electroblob's Wizardry","ebwizardry:crystal_block",5.00,30.00
+"Electroblob's Wizardry","ebwizardry:crystal_flower",0.00,0.00
+"Electroblob's Wizardry","ebwizardry:crystal_ore",3.00,15.00
+"Electroblob's Wizardry","ebwizardry:ice_statue",0.50,2.50
+"Electroblob's Wizardry","ebwizardry:magic_light",0.00,0.00
+"Electroblob's Wizardry","ebwizardry:meteor",0.00,0.00
+"Electroblob's Wizardry","ebwizardry:petrified_stone",1.50,30.00
+"Electroblob's Wizardry","ebwizardry:snare",0.00,0.00
+"Electroblob's Wizardry","ebwizardry:spectral_block",-1.00,18000000.00
+"Electroblob's Wizardry","ebwizardry:transportation_stone",0.30,1.50
+"Electroblob's Wizardry","ebwizardry:vanishing_cobweb",4.00,20.00
+"Embers Rekindled","embers:advanced_edge",1.00,5.00
+"Embers Rekindled","embers:alchemical_redstone",0.00,0.00
+"Embers Rekindled","embers:alchemy_pedestal",1.60,8.00
+"Embers Rekindled","embers:alchemy_tablet",1.60,8.00
+"Embers Rekindled","embers:aluminum",0.00,0.00
+"Embers Rekindled","embers:archaic_bricks",1.60,8.00
+"Embers Rekindled","embers:archaic_edge",1.60,8.00
+"Embers Rekindled","embers:archaic_light",1.60,8.00
+"Embers Rekindled","embers:archaic_tile",1.60,8.00
+"Embers Rekindled","embers:ashen_brick",1.60,8.00
+"Embers Rekindled","embers:ashen_brick_slab",1.60,8.00
+"Embers Rekindled","embers:ashen_brick_slab_double",1.60,8.00
+"Embers Rekindled","embers:ashen_stone",1.60,8.00
+"Embers Rekindled","embers:ashen_stone_slab",1.60,8.00
+"Embers Rekindled","embers:ashen_stone_slab_double",1.60,8.00
+"Embers Rekindled","embers:ashen_tile",1.60,8.00
+"Embers Rekindled","embers:ashen_tile_slab",1.60,8.00
+"Embers Rekindled","embers:ashen_tile_slab_double",1.60,8.00
+"Embers Rekindled","embers:auto_hammer",1.60,8.00
+"Embers Rekindled","embers:beam_cannon",1.60,8.00
+"Embers Rekindled","embers:beam_splitter",1.00,5.00
+"Embers Rekindled","embers:bin",1.00,5.00
+"Embers Rekindled","embers:block_aluminum",1.60,8.00
+"Embers Rekindled","embers:block_bronze",2.30,11.50
+"Embers Rekindled","embers:block_caminite_brick",1.60,8.00
+"Embers Rekindled","embers:block_caminite_brick_slab",1.60,8.00
+"Embers Rekindled","embers:block_caminite_brick_slab_double",1.60,8.00
+"Embers Rekindled","embers:block_copper",1.40,7.00
+"Embers Rekindled","embers:block_dawnstone",1.60,8.00
+"Embers Rekindled","embers:block_electrum",1.60,8.00
+"Embers Rekindled","embers:block_furnace",1.60,8.00
+"Embers Rekindled","embers:block_lantern",1.00,5.00
+"Embers Rekindled","embers:block_lead",1.60,8.00
+"Embers Rekindled","embers:block_nickel",2.20,11.00
+"Embers Rekindled","embers:block_silver",1.60,8.00
+"Embers Rekindled","embers:block_tank",1.60,8.00
+"Embers Rekindled","embers:block_tin",1.30,6.50
+"Embers Rekindled","embers:boiler",1.60,8.00
+"Embers Rekindled","embers:breaker",1.60,8.00
+"Embers Rekindled","embers:bronze",0.00,0.00
+"Embers Rekindled","embers:caminite_lever",0.75,3.75
+"Embers Rekindled","embers:catalytic_plug",1.60,8.00
+"Embers Rekindled","embers:catalyzer",1.60,8.00
+"Embers Rekindled","embers:charger",1.00,5.00
+"Embers Rekindled","embers:cinder_plinth",1.60,8.00
+"Embers Rekindled","embers:clockwork_attenuator",1.60,8.00
+"Embers Rekindled","embers:combustor",1.60,8.00
+"Embers Rekindled","embers:copper",0.00,0.00
+"Embers Rekindled","embers:copper_cell",1.40,7.00
+"Embers Rekindled","embers:creative_ember_source",1.00,5.00
+"Embers Rekindled","embers:crystal_cell",1.00,5.00
+"Embers Rekindled","embers:dawnstone",0.00,0.00
+"Embers Rekindled","embers:dawnstone_anvil",1.60,8.00
+"Embers Rekindled","embers:electrum",0.00,0.00
+"Embers Rekindled","embers:ember_activator",1.60,8.00
+"Embers Rekindled","embers:ember_bore",1.00,5.00
+"Embers Rekindled","embers:ember_emitter",0.60,3.00
+"Embers Rekindled","embers:ember_funnel",1.60,8.00
+"Embers Rekindled","embers:ember_gauge",1.00,5.00
+"Embers Rekindled","embers:ember_injector",1.60,8.00
+"Embers Rekindled","embers:ember_pulser",1.60,8.00
+"Embers Rekindled","embers:ember_receiver",0.60,3.00
+"Embers Rekindled","embers:ember_relay",1.00,5.00
+"Embers Rekindled","embers:ember_siphon",1.60,8.00
+"Embers Rekindled","embers:explosion_pedestal",1.60,8.00
+"Embers Rekindled","embers:field_chart",1.60,8.00
+"Embers Rekindled","embers:fluid_gauge",1.00,5.00
+"Embers Rekindled","embers:fluid_transfer",1.60,8.00
+"Embers Rekindled","embers:glow",0.00,0.00
+"Embers Rekindled","embers:gold",0.00,0.00
+"Embers Rekindled","embers:heat_coil",1.00,5.00
+"Embers Rekindled","embers:inferno_forge",1.00,5.00
+"Embers Rekindled","embers:inferno_forge_edge",1.00,5.00
+"Embers Rekindled","embers:iron",0.00,0.00
+"Embers Rekindled","embers:item_dropper",1.00,5.00
+"Embers Rekindled","embers:item_pipe",1.00,5.00
+"Embers Rekindled","embers:item_pump",1.00,5.00
+"Embers Rekindled","embers:item_transfer",1.60,8.00
+"Embers Rekindled","embers:large_tank",1.00,5.00
+"Embers Rekindled","embers:lead",0.00,0.00
+"Embers Rekindled","embers:mech_accessor",1.00,5.00
+"Embers Rekindled","embers:mech_core",1.00,5.00
+"Embers Rekindled","embers:mech_edge",1.00,5.00
+"Embers Rekindled","embers:mechanical_pump",1.00,5.00
+"Embers Rekindled","embers:mini_boiler",1.60,8.00
+"Embers Rekindled","embers:mixer",1.00,5.00
+"Embers Rekindled","embers:nickel",0.00,0.00
+"Embers Rekindled","embers:ore_aluminum",1.60,8.00
+"Embers Rekindled","embers:ore_copper",1.80,9.00
+"Embers Rekindled","embers:ore_lead",2.50,12.50
+"Embers Rekindled","embers:ore_nickel",2.20,11.00
+"Embers Rekindled","embers:ore_quartz",1.90,9.50
+"Embers Rekindled","embers:ore_silver",2.50,12.50
+"Embers Rekindled","embers:ore_tin",1.30,6.50
+"Embers Rekindled","embers:pipe",1.00,5.00
+"Embers Rekindled","embers:pump",1.00,5.00
+"Embers Rekindled","embers:reactor",1.60,8.00
+"Embers Rekindled","embers:sealed_planks",2.50,12.50
+"Embers Rekindled","embers:seed",1.60,8.00
+"Embers Rekindled","embers:silver",0.00,0.00
+"Embers Rekindled","embers:stairs_ashen_brick",1.60,8.00
+"Embers Rekindled","embers:stairs_ashen_stone",1.60,8.00
+"Embers Rekindled","embers:stairs_ashen_tile",1.60,8.00
+"Embers Rekindled","embers:stairs_caminite_brick",1.60,8.00
+"Embers Rekindled","embers:stamper",1.00,5.00
+"Embers Rekindled","embers:stamper_base",1.00,5.00
+"Embers Rekindled","embers:stirling",1.60,8.00
+"Embers Rekindled","embers:stone_edge",1.00,5.00
+"Embers Rekindled","embers:structure_marker",1.60,8.00
+"Embers Rekindled","embers:tin",0.00,0.00
+"Embers Rekindled","embers:vacuum",1.60,8.00
+"Embers Rekindled","embers:wall_ashen_brick",1.60,8.00
+"Embers Rekindled","embers:wall_ashen_stone",1.60,8.00
+"Embers Rekindled","embers:wall_ashen_tile",1.60,8.00
+"Embers Rekindled","embers:wall_caminite_brick",1.60,8.00
+"Embers Rekindled","embers:wrapped_sealed_planks",3.10,15.50
+"Essentials","essentials:brazier",2.00,10.00
+"Essentials","essentials:candle_lilypad",0.00,0.00
+"Essentials","essentials:fertile_soil",0.50,2.50
+"Essentials","essentials:item_chute",1.50,7.50
+"Essentials","essentials:item_chute_port",2.00,10.00
+"Essentials","essentials:port_extender",2.00,10.00
+"Essentials","essentials:slotted_chest",2.00,10.00
+"Essentials","essentials:sorting_hopper",2.00,10.00
+"Extra Bit Manipulation","extrabitmanipulation:bodypart_template",0.20,2.50
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock0",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock1",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock10",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock11",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock12",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock13",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock14",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock15",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock16",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock17",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock18",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock19",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock2",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock20",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock21",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock22",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock23",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock24",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock25",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock26",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock27",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock28",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock29",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock3",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock30",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock31",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock32",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock33",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock34",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock35",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock36",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock37",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock38",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock39",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock4",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock40",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock41",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock42",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock43",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock44",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock45",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock46",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock47",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock48",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock49",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock5",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock50",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock51",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock52",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock53",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock54",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock55",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock56",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock57",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock58",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock59",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock6",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock60",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock61",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock62",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock63",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock64",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock65",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock66",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock67",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock68",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock69",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock7",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock70",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock71",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock72",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock73",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock74",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock75",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock76",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock77",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock78",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock79",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock8",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock80",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock9",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_glowing0_0",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_glowing0_1",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_glowing0_10",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_glowing0_11",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_glowing0_12",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_glowing0_13",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_glowing0_14",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_glowing0_15",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_glowing0_16",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_glowing0_17",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_glowing0_18",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_glowing0_19",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_glowing0_2",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_glowing0_20",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_glowing0_21",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_glowing0_22",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_glowing0_23",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_glowing0_24",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_glowing0_25",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_glowing0_26",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_glowing0_27",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_glowing0_28",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_glowing0_29",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_glowing0_3",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_glowing0_30",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_glowing0_31",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_glowing0_32",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_glowing0_33",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_glowing0_34",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_glowing0_35",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_glowing0_36",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_glowing0_37",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_glowing0_38",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_glowing0_39",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_glowing0_4",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_glowing0_40",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_glowing0_41",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_glowing0_42",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_glowing0_43",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_glowing0_44",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_glowing0_45",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_glowing0_46",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_glowing0_47",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_glowing0_48",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_glowing0_49",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_glowing0_5",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_glowing0_50",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_glowing0_51",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_glowing0_52",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_glowing0_53",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_glowing0_54",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_glowing0_55",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_glowing0_56",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_glowing0_57",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_glowing0_58",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_glowing0_59",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_glowing0_6",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_glowing0_60",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_glowing0_61",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_glowing0_62",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_glowing0_63",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_glowing0_64",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_glowing0_65",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_glowing0_66",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_glowing0_67",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_glowing0_68",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_glowing0_69",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_glowing0_7",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_glowing0_70",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_glowing0_71",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_glowing0_72",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_glowing0_73",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_glowing0_74",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_glowing0_75",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_glowing0_76",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_glowing0_77",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_glowing0_78",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_glowing0_79",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_glowing0_8",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_glowing0_80",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_glowing0_9",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_transparent0_0",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_transparent0_1",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_transparent0_10",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_transparent0_11",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_transparent0_12",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_transparent0_13",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_transparent0_14",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_transparent0_15",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_transparent0_16",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_transparent0_17",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_transparent0_18",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_transparent0_19",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_transparent0_2",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_transparent0_20",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_transparent0_21",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_transparent0_22",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_transparent0_23",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_transparent0_24",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_transparent0_25",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_transparent0_26",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_transparent0_27",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_transparent0_28",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_transparent0_29",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_transparent0_3",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_transparent0_30",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_transparent0_31",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_transparent0_32",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_transparent0_33",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_transparent0_34",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_transparent0_35",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_transparent0_36",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_transparent0_37",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_transparent0_38",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_transparent0_39",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_transparent0_4",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_transparent0_40",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_transparent0_41",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_transparent0_42",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_transparent0_43",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_transparent0_44",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_transparent0_45",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_transparent0_46",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_transparent0_47",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_transparent0_48",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_transparent0_49",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_transparent0_5",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_transparent0_50",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_transparent0_51",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_transparent0_52",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_transparent0_53",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_transparent0_54",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_transparent0_55",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_transparent0_56",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_transparent0_57",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_transparent0_58",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_transparent0_59",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_transparent0_6",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_transparent0_60",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_transparent0_61",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_transparent0_62",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_transparent0_63",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_transparent0_64",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_transparent0_65",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_transparent0_66",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_transparent0_67",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_transparent0_68",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_transparent0_69",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_transparent0_7",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_transparent0_70",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_transparent0_71",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_transparent0_72",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_transparent0_73",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_transparent0_74",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_transparent0_75",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_transparent0_76",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_transparent0_77",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_transparent0_78",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_transparent0_79",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_transparent0_8",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_transparent0_80",1.50,30.00
+"Flat Colored Blocks","flatcoloredblocks:flatcoloredblock_transparent0_9",1.50,30.00
+"Inspirations","inspirations:bookshelf",2.00,15.00
+"Inspirations","inspirations:bricks_button",1.50,30.00
+"Inspirations","inspirations:cactus_crop",0.40,2.00
+"Inspirations","inspirations:carpeted_pressure_plate_1",0.50,2.50
+"Inspirations","inspirations:carpeted_pressure_plate_2",0.50,2.50
+"Inspirations","inspirations:carpeted_trapdoor_black",3.00,15.00
+"Inspirations","inspirations:carpeted_trapdoor_blue",3.00,15.00
+"Inspirations","inspirations:carpeted_trapdoor_brown",3.00,15.00
+"Inspirations","inspirations:carpeted_trapdoor_cyan",3.00,15.00
+"Inspirations","inspirations:carpeted_trapdoor_gray",3.00,15.00
+"Inspirations","inspirations:carpeted_trapdoor_green",3.00,15.00
+"Inspirations","inspirations:carpeted_trapdoor_light_blue",3.00,15.00
+"Inspirations","inspirations:carpeted_trapdoor_lime",3.00,15.00
+"Inspirations","inspirations:carpeted_trapdoor_magenta",3.00,15.00
+"Inspirations","inspirations:carpeted_trapdoor_orange",3.00,15.00
+"Inspirations","inspirations:carpeted_trapdoor_pink",3.00,15.00
+"Inspirations","inspirations:carpeted_trapdoor_purple",3.00,15.00
+"Inspirations","inspirations:carpeted_trapdoor_red",3.00,15.00
+"Inspirations","inspirations:carpeted_trapdoor_silver",3.00,15.00
+"Inspirations","inspirations:carpeted_trapdoor_white",3.00,15.00
+"Inspirations","inspirations:carpeted_trapdoor_yellow",3.00,15.00
+"Inspirations","inspirations:collector",3.50,17.50
+"Inspirations","inspirations:enlightened_bush",0.20,1.00
+"Inspirations","inspirations:flower",0.00,0.00
+"Inspirations","inspirations:glass_door",0.30,1.50
+"Inspirations","inspirations:glass_trapdoor",0.30,1.50
+"Inspirations","inspirations:mulch",0.60,3.00
+"Inspirations","inspirations:path",1.50,30.00
+"Inspirations","inspirations:pipe",3.00,24.00
+"Inspirations","inspirations:redstone_barrel",1.50,30.00
+"Inspirations","inspirations:redstone_charge",0.00,0.00
+"Inspirations","inspirations:redstone_torch_lever",0.00,0.00
+"Inspirations","inspirations:redstone_torch_lever_powered",0.00,0.00
+"Inspirations","inspirations:rope",0.50,2.50
+"Inspirations","inspirations:sugar_cane_crop",0.00,0.00
+"Inspirations","inspirations:torch_lever",0.00,0.00
+"Kathairis","kathairis:baurble",0.00,0.00
+"Kathairis","kathairis:bison_stars",0.00,0.00
+"Kathairis","kathairis:block_iron_gold",5.00,15.00
+"Kathairis","kathairis:bluecloud",0.50,1.50
+"Kathairis","kathairis:bluecloudbricks",1.00,3.00
+"Kathairis","kathairis:bluecondensedcloud",1.00,3.00
+"Kathairis","kathairis:bluecrystal",3.00,9.00
+"Kathairis","kathairis:bluefruitplant",0.00,0.00
+"Kathairis","kathairis:bonebricks",1.00,3.00
+"Kathairis","kathairis:butterflyflower",0.00,0.00
+"Kathairis","kathairis:charger",3.00,9.00
+"Kathairis","kathairis:chiseledbonebricks",1.00,3.00
+"Kathairis","kathairis:christmas_gift",0.00,0.00
+"Kathairis","kathairis:cloudparticleemitter",-1.00,1.50
+"Kathairis","kathairis:corrupteddirt",2.00,6.00
+"Kathairis","kathairis:corruptedgrass",2.00,6.00
+"Kathairis","kathairis:cursedflower",0.00,0.00
+"Kathairis","kathairis:deadlichen",0.00,0.00
+"Kathairis","kathairis:easteregg",0.00,0.00
+"Kathairis","kathairis:energyshard",1.00,3.00
+"Kathairis","kathairis:eyeplant",0.00,0.00
+"Kathairis","kathairis:forgottensand",1.50,4.50
+"Kathairis","kathairis:gecko_eggs",0.50,1.50
+"Kathairis","kathairis:gemsore",5.00,45.00
+"Kathairis","kathairis:gooseberryblock",0.00,0.00
+"Kathairis","kathairis:hardenedweatheredrock",2.50,7.50
+"Kathairis","kathairis:hardenedweatheredrockbricks",2.50,7.50
+"Kathairis","kathairis:hardenedweatheredrockbricksstairs",2.50,7.50
+"Kathairis","kathairis:hardenedweatheredrockstairs",2.50,7.50
+"Kathairis","kathairis:hardenedweatheredrocktiles",2.50,7.50
+"Kathairis","kathairis:hardenedweatheredrockwall",2.50,7.50
+"Kathairis","kathairis:jadevine_bottom",0.10,0.30
+"Kathairis","kathairis:jadevine_empty",0.10,0.30
+"Kathairis","kathairis:jadevine_mid",0.10,0.30
+"Kathairis","kathairis:jadevine_top",0.10,0.30
+"Kathairis","kathairis:layered_sand",1.00,3.00
+"Kathairis","kathairis:luminescentgnarl",1.00,3.00
+"Kathairis","kathairis:magicbeans",0.00,0.00
+"Kathairis","kathairis:magnethium",10.00,30.00
+"Kathairis","kathairis:movingsand",1.50,4.50
+"Kathairis","kathairis:mudblock",1.50,4.50
+"Kathairis","kathairis:mudbricks",2.00,6.00
+"Kathairis","kathairis:mystic_gem_block",5.00,15.00
+"Kathairis","kathairis:mystic_wood_door",4.00,12.00
+"Kathairis","kathairis:mystic_wood_trap_door",3.00,9.00
+"Kathairis","kathairis:mysticdeadgrass",0.00,0.00
+"Kathairis","kathairis:mysticflower",0.00,0.00
+"Kathairis","kathairis:mysticfungus",0.00,0.00
+"Kathairis","kathairis:mysticleaves",0.50,0.30
+"Kathairis","kathairis:mysticlog",3.00,9.00
+"Kathairis","kathairis:mysticlogbark",3.00,9.00
+"Kathairis","kathairis:mysticminigrass",0.00,0.00
+"Kathairis","kathairis:mysticmultigrass",0.00,0.00
+"Kathairis","kathairis:mysticnightflower",0.00,0.00
+"Kathairis","kathairis:mysticplanks",4.00,12.00
+"Kathairis","kathairis:mysticportal",-1.00,-3.00
+"Kathairis","kathairis:mysticsapling",0.00,0.00
+"Kathairis","kathairis:mystictallgrass",0.00,0.00
+"Kathairis","kathairis:mysticwooddoubleslab",3.00,9.00
+"Kathairis","kathairis:mysticwoodfence",4.00,12.00
+"Kathairis","kathairis:mysticwoodfencegate",4.00,12.00
+"Kathairis","kathairis:mysticwoodhalfslab",3.00,9.00
+"Kathairis","kathairis:mysticwoodstairs",4.00,12.00
+"Kathairis","kathairis:mythic_cobblestone",2.50,7.50
+"Kathairis","kathairis:mythic_stone_bricks",2.50,7.50
+"Kathairis","kathairis:mythicstone",2.50,7.50
+"Kathairis","kathairis:mythicstonepillar",3.00,9.00
+"Kathairis","kathairis:mythicstonestairs",2.50,7.50
+"Kathairis","kathairis:mythicstonestandingsign",0.00,0.00
+"Kathairis","kathairis:mythicstonetiles",2.50,7.50
+"Kathairis","kathairis:mythicstonewall",2.50,7.50
+"Kathairis","kathairis:mythicstonewallsign",0.00,0.00
+"Kathairis","kathairis:plant_blue_cloud",0.00,0.00
+"Kathairis","kathairis:plant_yellow_cloud",0.00,0.00
+"Kathairis","kathairis:redwood_log_full",4.00,12.00
+"Kathairis","kathairis:redwood_log_size_1",4.00,12.00
+"Kathairis","kathairis:redwood_log_size_2",4.00,12.00
+"Kathairis","kathairis:redwood_log_size_3",4.00,12.00
+"Kathairis","kathairis:redwood_log_size_4",4.00,12.00
+"Kathairis","kathairis:redwood_log_size_5",4.00,12.00
+"Kathairis","kathairis:redwood_log_size_6",4.00,12.00
+"Kathairis","kathairis:redwood_planks",4.00,12.00
+"Kathairis","kathairis:refined_cloud_blue",2.00,6.00
+"Kathairis","kathairis:refined_cloud_yellow",2.00,6.00
+"Kathairis","kathairis:revenumore",25.00,150.00
+"Kathairis","kathairis:shiny_wood_door",4.00,12.00
+"Kathairis","kathairis:shiny_wood_trap_door",3.00,9.00
+"Kathairis","kathairis:shinyleaves",0.50,0.30
+"Kathairis","kathairis:shinylog",3.00,9.00
+"Kathairis","kathairis:shinylogbark",3.00,9.00
+"Kathairis","kathairis:shinyplanks",4.00,12.00
+"Kathairis","kathairis:shinyrock",5.00,15.00
+"Kathairis","kathairis:shinytreesapling",0.00,0.00
+"Kathairis","kathairis:shinywooddoubleslab",3.00,9.00
+"Kathairis","kathairis:shinywoodfence",4.00,12.00
+"Kathairis","kathairis:shinywoodfencegate",4.00,12.00
+"Kathairis","kathairis:shinywoodhalfslab",3.00,9.00
+"Kathairis","kathairis:shinywoodstairs",4.00,12.00
+"Kathairis","kathairis:snowdrop_cyprepedium",0.00,0.00
+"Kathairis","kathairis:solis_crystals",5.00,15.00
+"Kathairis","kathairis:soul_wood_door",4.00,12.00
+"Kathairis","kathairis:soul_wood_trap_door",3.00,9.00
+"Kathairis","kathairis:soulleaves",0.50,0.30
+"Kathairis","kathairis:soullog",3.00,9.00
+"Kathairis","kathairis:soullogbark",3.00,9.00
+"Kathairis","kathairis:soulplanks",4.00,12.00
+"Kathairis","kathairis:soulsapling",0.00,0.00
+"Kathairis","kathairis:soulstonebricks",1.00,3.00
+"Kathairis","kathairis:soulstonebrickswithbones",1.00,3.00
+"Kathairis","kathairis:soulwooddoubleslab",3.00,9.00
+"Kathairis","kathairis:soulwoodhalfslab",3.00,9.00
+"Kathairis","kathairis:soulwoodstairs",4.00,12.00
+"Kathairis","kathairis:steppedsucculent",0.00,0.00
+"Kathairis","kathairis:stripped_mystic_log",3.00,9.00
+"Kathairis","kathairis:stripped_shiny_log",3.00,9.00
+"Kathairis","kathairis:stripped_soul_log",3.00,9.00
+"Kathairis","kathairis:succulent",0.00,0.00
+"Kathairis","kathairis:swampgas",-1.00,1.50
+"Kathairis","kathairis:titaniumblock",7.00,60.00
+"Kathairis","kathairis:titaniumore",5.00,45.00
+"Kathairis","kathairis:turtleshellplate",4.00,29997.00
+"Kathairis","kathairis:violetcrystal",3.00,9.00
+"Kathairis","kathairis:weatheredrock",1.50,4.50
+"Kathairis","kathairis:yellowcloud",0.50,1.50
+"Kathairis","kathairis:yellowcloudblock",1.00,3.00
+"Kathairis","kathairis:yellowcondensedcloud",1.00,3.00
+"Kathairis","kathairis:yellowcrystal",3.00,9.00
+"MCMultiPart","mcmultipart:multipart",0.00,0.00
+"MalisisDoors","malisisdoors:big_door_acacia_3x3",0.00,30.00
+"MalisisDoors","malisisdoors:big_door_birch_3x3",0.00,30.00
+"MalisisDoors","malisisdoors:big_door_dark_oak_3x3",0.00,30.00
+"MalisisDoors","malisisdoors:big_door_iron_3x3",0.00,600.00
+"MalisisDoors","malisisdoors:big_door_jungle_3x3",0.00,30.00
+"MalisisDoors","malisisdoors:big_door_oak_3x3",0.00,30.00
+"MalisisDoors","malisisdoors:big_door_rusty_3x3",0.00,600.00
+"MalisisDoors","malisisdoors:big_door_spruce_3x3",0.00,30.00
+"MalisisDoors","malisisdoors:camofencegate",2.00,15.00
+"MalisisDoors","malisisdoors:carriage_door",5.00,30.00
+"MalisisDoors","malisisdoors:curtain_black",2.00,10.00
+"MalisisDoors","malisisdoors:curtain_blue",2.00,10.00
+"MalisisDoors","malisisdoors:curtain_brown",2.00,10.00
+"MalisisDoors","malisisdoors:curtain_cyan",2.00,10.00
+"MalisisDoors","malisisdoors:curtain_gray",2.00,10.00
+"MalisisDoors","malisisdoors:curtain_green",2.00,10.00
+"MalisisDoors","malisisdoors:curtain_light_blue",2.00,10.00
+"MalisisDoors","malisisdoors:curtain_lime",2.00,10.00
+"MalisisDoors","malisisdoors:curtain_magenta",2.00,10.00
+"MalisisDoors","malisisdoors:curtain_orange",2.00,10.00
+"MalisisDoors","malisisdoors:curtain_pink",2.00,10.00
+"MalisisDoors","malisisdoors:curtain_purple",2.00,10.00
+"MalisisDoors","malisisdoors:curtain_red",2.00,10.00
+"MalisisDoors","malisisdoors:curtain_silver",2.00,10.00
+"MalisisDoors","malisisdoors:curtain_white",2.00,10.00
+"MalisisDoors","malisisdoors:curtain_yellow",2.00,10.00
+"MalisisDoors","malisisdoors:customdoor",3.00,15.00
+"MalisisDoors","malisisdoors:door_factory",3.00,15.00
+"MalisisDoors","malisisdoors:factory_door",4.00,20.00
+"MalisisDoors","malisisdoors:forcefielddoor",-1.00,180000000.00
+"MalisisDoors","malisisdoors:garage_door",2.00,10.00
+"MalisisDoors","malisisdoors:hitechdoor",4.00,20.00
+"MalisisDoors","malisisdoors:iron_sliding_door",3.00,15.00
+"MalisisDoors","malisisdoors:jail_door",5.00,25.00
+"MalisisDoors","malisisdoors:laboratory_door",4.00,20.00
+"MalisisDoors","malisisdoors:medieval_door",5.00,30.00
+"MalisisDoors","malisisdoors:rustyhatch",3.00,30000.00
+"MalisisDoors","malisisdoors:rustyladder",2.00,10.00
+"MalisisDoors","malisisdoors:saloon",2.50,12.50
+"MalisisDoors","malisisdoors:shoji_door",1.00,5.00
+"MalisisDoors","malisisdoors:sliding_trapdoor",4.00,20.00
+"MalisisDoors","malisisdoors:trapdoor_acacia",4.00,20.00
+"MalisisDoors","malisisdoors:trapdoor_birch",4.00,20.00
+"MalisisDoors","malisisdoors:trapdoor_dark_oak",4.00,20.00
+"MalisisDoors","malisisdoors:trapdoor_jungle",4.00,20.00
+"MalisisDoors","malisisdoors:trapdoor_spruce",4.00,20.00
+"MalisisDoors","malisisdoors:verticalhatch",3.50,17.50
+"MalisisDoors","malisisdoors:wood_sliding_door",2.00,10.00
+"MeeCreeps","meecreeps:creepcube",0.00,0.00
+"MeeCreeps","meecreeps:portalblock",0.00,0.00
+"MetalChests","metalchests:hungry_metal_chest",3.00,15.00
+"MetalChests","metalchests:metal_chest",3.00,15.00
+"Minecraft","minecraft:acacia_door",3.00,15.00
+"Minecraft","minecraft:acacia_fence",2.00,15.00
+"Minecraft","minecraft:acacia_fence_gate",2.00,15.00
+"Minecraft","minecraft:acacia_stairs",2.00,15.00
+"Minecraft","minecraft:activator_rail",0.70,3.50
+"Minecraft","minecraft:air",0.00,0.00
+"Minecraft","minecraft:anvil",5.00,6000.00
+"Minecraft","minecraft:barrier",-1.00,18000004.00
+"Minecraft","minecraft:beacon",3.00,15.00
+"Minecraft","minecraft:bed",0.20,1.00
+"Minecraft","minecraft:bedrock",-1.00,18000000.00
+"Minecraft","minecraft:beetroots",0.00,0.00
+"Minecraft","minecraft:birch_door",3.00,15.00
+"Minecraft","minecraft:birch_fence",2.00,15.00
+"Minecraft","minecraft:birch_fence_gate",2.00,15.00
+"Minecraft","minecraft:birch_stairs",2.00,15.00
+"Minecraft","minecraft:black_glazed_terracotta",1.40,7.00
+"Minecraft","minecraft:black_shulker_box",2.00,6000.00
+"Minecraft","minecraft:blue_glazed_terracotta",1.40,7.00
+"Minecraft","minecraft:blue_shulker_box",2.00,6000.00
+"Minecraft","minecraft:bone_block",2.00,10.00
+"Minecraft","minecraft:bookshelf",1.50,7.50
+"Minecraft","minecraft:brewing_stand",0.50,2.50
+"Minecraft","minecraft:brick_block",2.00,30.00
+"Minecraft","minecraft:brick_stairs",2.00,30.00
+"Minecraft","minecraft:brown_glazed_terracotta",1.40,7.00
+"Minecraft","minecraft:brown_mushroom",0.00,0.00
+"Minecraft","minecraft:brown_mushroom_block",0.20,1.00
+"Minecraft","minecraft:brown_shulker_box",2.00,6000.00
+"Minecraft","minecraft:cactus",0.40,2.00
+"Minecraft","minecraft:cake",0.50,2.50
+"Minecraft","minecraft:carpet",0.10,0.50
+"Minecraft","minecraft:carrots",0.00,0.00
+"Minecraft","minecraft:cauldron",2.00,10.00
+"Minecraft","minecraft:chain_command_block",-1.00,18000000.00
+"Minecraft","minecraft:chest",2.50,12.50
+"Minecraft","minecraft:chorus_flower",0.40,2.00
+"Minecraft","minecraft:chorus_plant",0.40,2.00
+"Minecraft","minecraft:clay",0.60,3.00
+"Minecraft","minecraft:coal_block",5.00,30.00
+"Minecraft","minecraft:coal_ore",3.00,15.00
+"Minecraft","minecraft:cobblestone",2.00,30.00
+"Minecraft","minecraft:cobblestone_wall",2.00,30.00
+"Minecraft","minecraft:cocoa",0.20,15.00
+"Minecraft","minecraft:command_block",-1.00,18000000.00
+"Minecraft","minecraft:concrete",1.80,9.00
+"Minecraft","minecraft:concrete_powder",0.50,2.50
+"Minecraft","minecraft:crafting_table",2.50,12.50
+"Minecraft","minecraft:cyan_glazed_terracotta",1.40,7.00
+"Minecraft","minecraft:cyan_shulker_box",2.00,6000.00
+"Minecraft","minecraft:dark_oak_door",3.00,15.00
+"Minecraft","minecraft:dark_oak_fence",2.00,15.00
+"Minecraft","minecraft:dark_oak_fence_gate",2.00,15.00
+"Minecraft","minecraft:dark_oak_stairs",2.00,15.00
+"Minecraft","minecraft:daylight_detector",0.20,1.00
+"Minecraft","minecraft:daylight_detector_inverted",0.20,1.00
+"Minecraft","minecraft:deadbush",0.00,0.00
+"Minecraft","minecraft:detector_rail",0.70,3.50
+"Minecraft","minecraft:diamond_block",5.00,30.00
+"Minecraft","minecraft:diamond_ore",3.00,15.00
+"Minecraft","minecraft:dirt",0.50,2.50
+"Minecraft","minecraft:dispenser",3.50,17.50
+"Minecraft","minecraft:double_plant",0.00,0.00
+"Minecraft","minecraft:double_stone_slab",2.00,30.00
+"Minecraft","minecraft:double_stone_slab2",2.00,30.00
+"Minecraft","minecraft:double_wooden_slab",2.00,15.00
+"Minecraft","minecraft:dragon_egg",3.00,45.00
+"Minecraft","minecraft:dropper",3.50,17.50
+"Minecraft","minecraft:emerald_block",5.00,30.00
+"Minecraft","minecraft:emerald_ore",3.00,15.00
+"Minecraft","minecraft:enchanting_table",5.00,6000.00
+"Minecraft","minecraft:end_bricks",0.80,4.00
+"Minecraft","minecraft:end_gateway",-1.00,18000000.00
+"Minecraft","minecraft:end_portal",-1.00,18000000.00
+"Minecraft","minecraft:end_portal_frame",-1.00,18000000.00
+"Minecraft","minecraft:end_rod",0.00,0.00
+"Minecraft","minecraft:end_stone",3.00,45.00
+"Minecraft","minecraft:ender_chest",22.50,3000.00
+"Minecraft","minecraft:farmland",0.60,3.00
+"Minecraft","minecraft:fence",2.00,15.00
+"Minecraft","minecraft:fence_gate",2.00,15.00
+"Minecraft","minecraft:fire",0.00,0.00
+"Minecraft","minecraft:flower_pot",0.00,0.00
+"Minecraft","minecraft:flowing_lava",100.00,500.00
+"Minecraft","minecraft:flowing_water",100.00,500.00
+"Minecraft","minecraft:frosted_ice",0.50,2.50
+"Minecraft","minecraft:furnace",3.50,17.50
+"Minecraft","minecraft:glass",0.30,1.50
+"Minecraft","minecraft:glass_pane",0.30,1.50
+"Minecraft","minecraft:glowstone",0.30,1.50
+"Minecraft","minecraft:gold_block",3.00,30.00
+"Minecraft","minecraft:gold_ore",3.00,15.00
+"Minecraft","minecraft:golden_rail",0.70,3.50
+"Minecraft","minecraft:grass",0.60,3.00
+"Minecraft","minecraft:grass_path",0.65,3.25
+"Minecraft","minecraft:gravel",0.60,3.00
+"Minecraft","minecraft:gray_glazed_terracotta",1.40,7.00
+"Minecraft","minecraft:gray_shulker_box",2.00,6000.00
+"Minecraft","minecraft:green_glazed_terracotta",1.40,7.00
+"Minecraft","minecraft:green_shulker_box",2.00,6000.00
+"Minecraft","minecraft:hardened_clay",1.25,21.00
+"Minecraft","minecraft:hay_block",0.50,2.50
+"Minecraft","minecraft:heavy_weighted_pressure_plate",0.50,2.50
+"Minecraft","minecraft:hopper",3.00,24.00
+"Minecraft","minecraft:ice",0.50,2.50
+"Minecraft","minecraft:iron_bars",5.00,30.00
+"Minecraft","minecraft:iron_block",5.00,30.00
+"Minecraft","minecraft:iron_door",5.00,25.00
+"Minecraft","minecraft:iron_ore",3.00,15.00
+"Minecraft","minecraft:iron_trapdoor",5.00,25.00
+"Minecraft","minecraft:jukebox",2.00,30.00
+"Minecraft","minecraft:jungle_door",3.00,15.00
+"Minecraft","minecraft:jungle_fence",2.00,15.00
+"Minecraft","minecraft:jungle_fence_gate",2.00,15.00
+"Minecraft","minecraft:jungle_stairs",2.00,15.00
+"Minecraft","minecraft:ladder",0.40,2.00
+"Minecraft","minecraft:lapis_block",3.00,15.00
+"Minecraft","minecraft:lapis_ore",3.00,15.00
+"Minecraft","minecraft:lava",100.00,500.00
+"Minecraft","minecraft:leaves",0.20,1.00
+"Minecraft","minecraft:leaves2",0.20,1.00
+"Minecraft","minecraft:lever",0.50,2.50
+"Minecraft","minecraft:light_blue_glazed_terracotta",1.40,7.00
+"Minecraft","minecraft:light_blue_shulker_box",2.00,6000.00
+"Minecraft","minecraft:light_weighted_pressure_plate",0.50,2.50
+"Minecraft","minecraft:lime_glazed_terracotta",1.40,7.00
+"Minecraft","minecraft:lime_shulker_box",2.00,6000.00
+"Minecraft","minecraft:lit_furnace",3.50,17.50
+"Minecraft","minecraft:lit_pumpkin",1.00,5.00
+"Minecraft","minecraft:lit_redstone_lamp",0.30,1.50
+"Minecraft","minecraft:lit_redstone_ore",3.00,15.00
+"Minecraft","minecraft:log",2.00,10.00
+"Minecraft","minecraft:log2",2.00,10.00
+"Minecraft","minecraft:magenta_glazed_terracotta",1.40,7.00
+"Minecraft","minecraft:magenta_shulker_box",2.00,6000.00
+"Minecraft","minecraft:magma",0.50,2.50
+"Minecraft","minecraft:melon_block",1.00,5.00
+"Minecraft","minecraft:melon_stem",0.00,0.00
+"Minecraft","minecraft:mob_spawner",5.00,25.00
+"Minecraft","minecraft:monster_egg",0.75,3.75
+"Minecraft","minecraft:mossy_cobblestone",2.00,30.00
+"Minecraft","minecraft:mycelium",0.60,3.00
+"Minecraft","minecraft:nether_brick",2.00,30.00
+"Minecraft","minecraft:nether_brick_fence",2.00,30.00
+"Minecraft","minecraft:nether_brick_stairs",2.00,30.00
+"Minecraft","minecraft:nether_wart",0.00,0.00
+"Minecraft","minecraft:nether_wart_block",1.00,5.00
+"Minecraft","minecraft:netherrack",0.40,2.00
+"Minecraft","minecraft:noteblock",0.80,4.00
+"Minecraft","minecraft:oak_stairs",2.00,15.00
+"Minecraft","minecraft:observer",3.00,15.00
+"Minecraft","minecraft:obsidian",50.00,6000.00
+"Minecraft","minecraft:orange_glazed_terracotta",1.40,7.00
+"Minecraft","minecraft:orange_shulker_box",2.00,6000.00
+"Minecraft","minecraft:packed_ice",0.50,2.50
+"Minecraft","minecraft:pink_glazed_terracotta",1.40,7.00
+"Minecraft","minecraft:pink_shulker_box",2.00,6000.00
+"Minecraft","minecraft:piston",0.50,2.50
+"Minecraft","minecraft:piston_extension",-1.00,0.00
+"Minecraft","minecraft:piston_head",0.50,2.50
+"Minecraft","minecraft:planks",2.00,15.00
+"Minecraft","minecraft:portal",-1.00,0.00
+"Minecraft","minecraft:potatoes",0.00,0.00
+"Minecraft","minecraft:powered_comparator",0.00,0.00
+"Minecraft","minecraft:powered_repeater",0.00,0.00
+"Minecraft","minecraft:prismarine",1.50,30.00
+"Minecraft","minecraft:pumpkin",1.00,5.00
+"Minecraft","minecraft:pumpkin_stem",0.00,0.00
+"Minecraft","minecraft:purple_glazed_terracotta",1.40,7.00
+"Minecraft","minecraft:purple_shulker_box",2.00,6000.00
+"Minecraft","minecraft:purpur_block",1.50,30.00
+"Minecraft","minecraft:purpur_double_slab",2.00,30.00
+"Minecraft","minecraft:purpur_pillar",1.50,30.00
+"Minecraft","minecraft:purpur_slab",2.00,30.00
+"Minecraft","minecraft:purpur_stairs",1.50,30.00
+"Minecraft","minecraft:quartz_block",0.80,4.00
+"Minecraft","minecraft:quartz_ore",3.00,15.00
+"Minecraft","minecraft:quartz_stairs",0.80,4.00
+"Minecraft","minecraft:rail",0.70,3.50
+"Minecraft","minecraft:red_flower",0.00,0.00
+"Minecraft","minecraft:red_glazed_terracotta",1.40,7.00
+"Minecraft","minecraft:red_mushroom",0.00,0.00
+"Minecraft","minecraft:red_mushroom_block",0.20,1.00
+"Minecraft","minecraft:red_nether_brick",2.00,30.00
+"Minecraft","minecraft:red_sandstone",0.80,4.00
+"Minecraft","minecraft:red_sandstone_stairs",0.80,4.00
+"Minecraft","minecraft:red_shulker_box",2.00,6000.00
+"Minecraft","minecraft:redstone_block",5.00,30.00
+"Minecraft","minecraft:redstone_lamp",0.30,1.50
+"Minecraft","minecraft:redstone_ore",3.00,15.00
+"Minecraft","minecraft:redstone_torch",0.00,0.00
+"Minecraft","minecraft:redstone_wire",0.00,0.00
+"Minecraft","minecraft:reeds",0.00,0.00
+"Minecraft","minecraft:repeating_command_block",-1.00,18000000.00
+"Minecraft","minecraft:sand",0.50,2.50
+"Minecraft","minecraft:sandstone",0.80,4.00
+"Minecraft","minecraft:sandstone_stairs",0.80,4.00
+"Minecraft","minecraft:sapling",0.00,0.00
+"Minecraft","minecraft:sea_lantern",0.30,1.50
+"Minecraft","minecraft:silver_glazed_terracotta",1.40,7.00
+"Minecraft","minecraft:silver_shulker_box",2.00,6000.00
+"Minecraft","minecraft:skull",1.00,5.00
+"Minecraft","minecraft:slime",0.00,0.00
+"Minecraft","minecraft:snow",0.20,1.00
+"Minecraft","minecraft:snow_layer",0.10,0.50
+"Minecraft","minecraft:soul_sand",0.50,2.50
+"Minecraft","minecraft:sponge",0.60,3.00
+"Minecraft","minecraft:spruce_door",3.00,15.00
+"Minecraft","minecraft:spruce_fence",2.00,15.00
+"Minecraft","minecraft:spruce_fence_gate",2.00,15.00
+"Minecraft","minecraft:spruce_stairs",2.00,15.00
+"Minecraft","minecraft:stained_glass",0.30,1.50
+"Minecraft","minecraft:stained_glass_pane",0.30,1.50
+"Minecraft","minecraft:stained_hardened_clay",1.25,21.00
+"Minecraft","minecraft:standing_banner",1.00,5.00
+"Minecraft","minecraft:standing_sign",1.00,5.00
+"Minecraft","minecraft:sticky_piston",0.50,2.50
+"Minecraft","minecraft:stone",1.50,30.00
+"Minecraft","minecraft:stone_brick_stairs",1.50,30.00
+"Minecraft","minecraft:stone_button",0.50,2.50
+"Minecraft","minecraft:stone_pressure_plate",0.50,2.50
+"Minecraft","minecraft:stone_slab",2.00,30.00
+"Minecraft","minecraft:stone_slab2",2.00,30.00
+"Minecraft","minecraft:stone_stairs",2.00,30.00
+"Minecraft","minecraft:stonebrick",1.50,30.00
+"Minecraft","minecraft:structure_block",-1.00,18000000.00
+"Minecraft","minecraft:structure_void",0.00,0.00
+"Minecraft","minecraft:tallgrass",0.00,0.00
+"Minecraft","minecraft:tnt",0.00,0.00
+"Minecraft","minecraft:torch",0.00,0.00
+"Minecraft","minecraft:trapdoor",3.00,15.00
+"Minecraft","minecraft:trapped_chest",2.50,12.50
+"Minecraft","minecraft:tripwire",0.00,0.00
+"Minecraft","minecraft:tripwire_hook",0.00,0.00
+"Minecraft","minecraft:unlit_redstone_torch",0.00,0.00
+"Minecraft","minecraft:unpowered_comparator",0.00,0.00
+"Minecraft","minecraft:unpowered_repeater",0.00,0.00
+"Minecraft","minecraft:vine",0.20,1.00
+"Minecraft","minecraft:wall_banner",1.00,5.00
+"Minecraft","minecraft:wall_sign",1.00,5.00
+"Minecraft","minecraft:water",100.00,500.00
+"Minecraft","minecraft:waterlily",0.00,0.00
+"Minecraft","minecraft:web",4.00,20.00
+"Minecraft","minecraft:wheat",0.00,0.00
+"Minecraft","minecraft:white_glazed_terracotta",1.40,7.00
+"Minecraft","minecraft:white_shulker_box",2.00,6000.00
+"Minecraft","minecraft:wooden_button",0.50,2.50
+"Minecraft","minecraft:wooden_door",3.00,15.00
+"Minecraft","minecraft:wooden_pressure_plate",0.50,2.50
+"Minecraft","minecraft:wooden_slab",2.00,15.00
+"Minecraft","minecraft:wool",0.80,4.00
+"Minecraft","minecraft:yellow_flower",0.00,0.00
+"Minecraft","minecraft:yellow_glazed_terracotta",1.40,7.00
+"Minecraft","minecraft:yellow_shulker_box",2.00,6000.00
+"Misty World","mist:a_tree_block",3.00,15.00
+"Misty World","mist:a_tree_branch",3.00,15.00
+"Misty World","mist:a_tree_leaves",0.20,1.00
+"Misty World","mist:a_tree_slab",3.00,15.00
+"Misty World","mist:a_tree_stairs",3.00,15.00
+"Misty World","mist:a_tree_step",3.00,15.00
+"Misty World","mist:a_tree_trunk",3.00,15.00
+"Misty World","mist:acacia_block",4.00,20.00
+"Misty World","mist:acacia_branch",4.00,20.00
+"Misty World","mist:acacia_leaves",0.20,1.00
+"Misty World","mist:acacia_slab",4.00,20.00
+"Misty World","mist:acacia_stairs",4.00,20.00
+"Misty World","mist:acacia_step",4.00,20.00
+"Misty World","mist:acacia_trunk",4.00,20.00
+"Misty World","mist:acid_block",0.00,0.00
+"Misty World","mist:acid_dirt_0",0.70,3.50
+"Misty World","mist:acid_dirt_1",0.60,3.00
+"Misty World","mist:acid_dirt_2",0.50,2.50
+"Misty World","mist:acid_grass_0",0.70,3.50
+"Misty World","mist:acid_grass_1",0.60,3.00
+"Misty World","mist:acid_grass_2",0.50,2.50
+"Misty World","mist:acid_sand",0.50,2.50
+"Misty World","mist:aspen_block",4.00,20.00
+"Misty World","mist:aspen_branch",4.00,20.00
+"Misty World","mist:aspen_leaves",0.20,1.00
+"Misty World","mist:aspen_slab",4.00,20.00
+"Misty World","mist:aspen_stairs",4.00,20.00
+"Misty World","mist:aspen_step",4.00,20.00
+"Misty World","mist:aspen_trunk",4.00,20.00
+"Misty World","mist:bio_shale_block",5.00,30.00
+"Misty World","mist:bio_shale_ore",5.00,60.00
+"Misty World","mist:birch_block",4.00,20.00
+"Misty World","mist:birch_branch",4.00,20.00
+"Misty World","mist:birch_leaves",0.20,1.00
+"Misty World","mist:birch_slab",4.00,20.00
+"Misty World","mist:birch_stairs",4.00,20.00
+"Misty World","mist:birch_step",4.00,20.00
+"Misty World","mist:birch_trunk",4.00,20.00
+"Misty World","mist:camp_stick",0.40,2.00
+"Misty World","mist:campfire",0.50,2.50
+"Misty World","mist:clay",1.50,7.50
+"Misty World","mist:cobblestone",3.00,30.00
+"Misty World","mist:cobblestone_slab",3.00,30.00
+"Misty World","mist:cobblestone_stairs",3.00,30.00
+"Misty World","mist:cobblestone_step",3.00,30.00
+"Misty World","mist:compost_heap",0.50,2.50
+"Misty World","mist:dirt_c",0.60,3.00
+"Misty World","mist:dirt_f",0.50,2.50
+"Misty World","mist:dirt_r",0.70,3.50
+"Misty World","mist:dirt_s",0.40,2.00
+"Misty World","mist:dirt_t",0.50,2.50
+"Misty World","mist:farmland_c",0.60,3.00
+"Misty World","mist:farmland_f",0.50,2.50
+"Misty World","mist:farmland_h",0.60,3.00
+"Misty World","mist:farmland_r",0.70,3.50
+"Misty World","mist:farmland_s",0.40,2.00
+"Misty World","mist:farmland_t",0.50,2.50
+"Misty World","mist:filter_coal_block",5.00,30.00
+"Misty World","mist:filter_coal_ore",100.00,3000.00
+"Misty World","mist:floating_mat",0.70,3.50
+"Misty World","mist:flower_pot",0.00,0.00
+"Misty World","mist:gold_ore",5.00,60.00
+"Misty World","mist:grass_c",0.60,3.00
+"Misty World","mist:grass_f",0.50,2.50
+"Misty World","mist:grass_r",0.70,3.50
+"Misty World","mist:grass_s",0.40,2.00
+"Misty World","mist:grass_t",0.50,2.50
+"Misty World","mist:gravel",0.60,3.00
+"Misty World","mist:humus_dirt",0.60,3.00
+"Misty World","mist:humus_grass",0.60,3.00
+"Misty World","mist:iron_ore",100.00,3000.00
+"Misty World","mist:lapis_ore",100.00,3000.00
+"Misty World","mist:loose_rock",0.00,0.00
+"Misty World","mist:mulch_block",0.50,2.50
+"Misty World","mist:mushrooms_0",0.00,0.00
+"Misty World","mist:mushrooms_1",0.00,0.00
+"Misty World","mist:mycelium",0.50,2.50
+"Misty World","mist:niobium_block",5.00,30.00
+"Misty World","mist:niobium_ore",5.00,60.00
+"Misty World","mist:oak_block",5.00,25.00
+"Misty World","mist:oak_branch",5.00,25.00
+"Misty World","mist:oak_leaves",0.20,1.00
+"Misty World","mist:oak_slab",5.00,25.00
+"Misty World","mist:oak_stairs",5.00,25.00
+"Misty World","mist:oak_step",5.00,25.00
+"Misty World","mist:oak_trunk",5.00,25.00
+"Misty World","mist:peat",0.70,3.50
+"Misty World","mist:pine_block",4.00,20.00
+"Misty World","mist:pine_branch",4.00,20.00
+"Misty World","mist:pine_leaves",0.20,1.00
+"Misty World","mist:pine_slab",4.00,20.00
+"Misty World","mist:pine_stairs",4.00,20.00
+"Misty World","mist:pine_step",4.00,20.00
+"Misty World","mist:pine_trunk",4.00,20.00
+"Misty World","mist:poplar_block",3.00,15.00
+"Misty World","mist:poplar_branch",3.00,15.00
+"Misty World","mist:poplar_leaves",0.20,1.00
+"Misty World","mist:poplar_slab",3.00,15.00
+"Misty World","mist:poplar_stairs",3.00,15.00
+"Misty World","mist:poplar_step",3.00,15.00
+"Misty World","mist:poplar_trunk",3.00,15.00
+"Misty World","mist:portal",0.00,0.00
+"Misty World","mist:portal_base",10.00,3000.00
+"Misty World","mist:portal_work",10.00,3000.00
+"Misty World","mist:s_tree_block",10.00,50.00
+"Misty World","mist:s_tree_branch",10.00,50.00
+"Misty World","mist:s_tree_leaves",0.20,1.00
+"Misty World","mist:s_tree_slab",10.00,50.00
+"Misty World","mist:s_tree_stairs",10.00,50.00
+"Misty World","mist:s_tree_step",10.00,50.00
+"Misty World","mist:s_tree_trunk",10.00,45.00
+"Misty World","mist:sand",0.50,2.50
+"Misty World","mist:sapropel",0.50,2.50
+"Misty World","mist:snow_block",5.00,25.00
+"Misty World","mist:snow_branch",5.00,25.00
+"Misty World","mist:snow_leaves",0.20,1.00
+"Misty World","mist:snow_slab",5.00,25.00
+"Misty World","mist:snow_stairs",5.00,25.00
+"Misty World","mist:snow_step",5.00,25.00
+"Misty World","mist:snow_trunk",5.00,25.00
+"Misty World","mist:sponge",0.40,2.00
+"Misty World","mist:spruce_block",4.00,20.00
+"Misty World","mist:spruce_branch",4.00,20.00
+"Misty World","mist:spruce_leaves",0.20,1.00
+"Misty World","mist:spruce_slab",4.00,20.00
+"Misty World","mist:spruce_stairs",4.00,20.00
+"Misty World","mist:spruce_step",4.00,20.00
+"Misty World","mist:spruce_trunk",4.00,20.00
+"Misty World","mist:stone",100.00,3000.00
+"Misty World","mist:stone_basic",800.00,24000.00
+"Misty World","mist:stone_porous",5.00,60.00
+"Misty World","mist:t_tree_block",6.00,30.00
+"Misty World","mist:t_tree_branch",6.00,30.00
+"Misty World","mist:t_tree_leaves",0.20,1.00
+"Misty World","mist:t_tree_slab",6.00,30.00
+"Misty World","mist:t_tree_stairs",6.00,30.00
+"Misty World","mist:t_tree_step",6.00,30.00
+"Misty World","mist:t_tree_trunk",6.00,30.00
+"Misty World","mist:tree_sapling",0.00,0.00
+"Misty World","mist:willow_block",4.00,20.00
+"Misty World","mist:willow_branch",4.00,20.00
+"Misty World","mist:willow_leaves",0.20,1.00
+"Misty World","mist:willow_slab",4.00,20.00
+"Misty World","mist:willow_stairs",4.00,20.00
+"Misty World","mist:willow_step",4.00,20.00
+"Misty World","mist:willow_trunk",4.00,20.00
+"Natural Pledge","naturalpledge:actuator",5.00,30.00
+"Natural Pledge","naturalpledge:alt_leaves0",0.20,1.00
+"Natural Pledge","naturalpledge:alt_leaves1",0.20,1.00
+"Natural Pledge","naturalpledge:alt_log0",2.00,0.00
+"Natural Pledge","naturalpledge:alt_log1",2.00,0.00
+"Natural Pledge","naturalpledge:alt_planks",2.00,15.00
+"Natural Pledge","naturalpledge:amp",2.00,15.00
+"Natural Pledge","naturalpledge:aqua_glass",0.30,0.00
+"Natural Pledge","naturalpledge:aqua_pane",0.30,0.00
+"Natural Pledge","naturalpledge:aurora_dirt",0.50,0.00
+"Natural Pledge","naturalpledge:aurora_leaves",0.20,1.00
+"Natural Pledge","naturalpledge:aurora_log",2.00,0.00
+"Natural Pledge","naturalpledge:aurora_planks",2.00,15.00
+"Natural Pledge","naturalpledge:calico_leaves",0.20,1.00
+"Natural Pledge","naturalpledge:calico_log",2.00,0.00
+"Natural Pledge","naturalpledge:calico_planks",2.00,15.00
+"Natural Pledge","naturalpledge:calico_sapling",0.00,0.00
+"Natural Pledge","naturalpledge:circuit_leaves",0.20,1.00
+"Natural Pledge","naturalpledge:circuit_log",2.00,0.00
+"Natural Pledge","naturalpledge:circuit_planks",2.00,15.00
+"Natural Pledge","naturalpledge:circuit_sapling",0.00,0.00
+"Natural Pledge","naturalpledge:corporea_resonator",5.50,27.50
+"Natural Pledge","naturalpledge:crackling_star",0.00,0.00
+"Natural Pledge","naturalpledge:disorient_trap",0.50,0.00
+"Natural Pledge","naturalpledge:divine_core",5.00,30.00
+"Natural Pledge","naturalpledge:funnel",2.00,0.00
+"Natural Pledge","naturalpledge:inferno_trap",0.50,0.00
+"Natural Pledge","naturalpledge:iris_dirt",0.50,0.00
+"Natural Pledge","naturalpledge:iris_lamp",0.30,0.00
+"Natural Pledge","naturalpledge:iris_leaves0",0.20,1.00
+"Natural Pledge","naturalpledge:iris_leaves1",0.20,1.00
+"Natural Pledge","naturalpledge:iris_leaves2",0.20,1.00
+"Natural Pledge","naturalpledge:iris_leaves3",0.20,1.00
+"Natural Pledge","naturalpledge:iris_log0",2.00,0.00
+"Natural Pledge","naturalpledge:iris_log1",2.00,0.00
+"Natural Pledge","naturalpledge:iris_log2",2.00,0.00
+"Natural Pledge","naturalpledge:iris_log3",2.00,0.00
+"Natural Pledge","naturalpledge:iris_planks",2.00,15.00
+"Natural Pledge","naturalpledge:iris_sapling",0.00,0.00
+"Natural Pledge","naturalpledge:launch_trap",0.50,0.00
+"Natural Pledge","naturalpledge:prism_flame",0.00,0.00
+"Natural Pledge","naturalpledge:rainbow_dirt",0.50,0.00
+"Natural Pledge","naturalpledge:rainbow_leaves",0.20,1.00
+"Natural Pledge","naturalpledge:rainbow_log",2.00,0.00
+"Natural Pledge","naturalpledge:rainbow_planks",2.00,15.00
+"Natural Pledge","naturalpledge:root_trap",0.50,0.00
+"Natural Pledge","naturalpledge:sand_trap",0.50,0.00
+"Natural Pledge","naturalpledge:seal_leaves",0.20,1.00
+"Natural Pledge","naturalpledge:seal_log",2.00,0.00
+"Natural Pledge","naturalpledge:seal_planks",2.00,15.00
+"Natural Pledge","naturalpledge:seal_sapling",0.00,0.00
+"Natural Pledge","naturalpledge:signal_trap",0.50,0.00
+"Natural Pledge","naturalpledge:star",0.00,0.00
+"Natural Pledge","naturalpledge:storage",5.00,10.00
+"Natural Pledge","naturalpledge:thunder_leaves",0.20,1.00
+"Natural Pledge","naturalpledge:thunder_log",2.00,0.00
+"Natural Pledge","naturalpledge:thunder_planks",2.00,15.00
+"Natural Pledge","naturalpledge:thunder_sapling",0.00,0.00
+"Natural Pledge","naturalpledge:thunder_trap",0.00,0.00
+"Natural Pledge","naturalpledge:wrath_trap",0.50,0.00
+"Nature's Aura","naturesaura:ancient_bark",2.00,10.00
+"Nature's Aura","naturesaura:ancient_leaves",0.20,1.00
+"Nature's Aura","naturesaura:ancient_log",2.00,10.00
+"Nature's Aura","naturesaura:ancient_planks",2.00,10.00
+"Nature's Aura","naturesaura:ancient_sapling",0.00,0.00
+"Nature's Aura","naturesaura:ancient_slab",1.50,7.50
+"Nature's Aura","naturesaura:ancient_slab_double",1.50,7.50
+"Nature's Aura","naturesaura:ancient_stairs",2.00,10.00
+"Nature's Aura","naturesaura:animal_generator",3.00,15.00
+"Nature's Aura","naturesaura:animal_spawner",2.00,10.00
+"Nature's Aura","naturesaura:aura_detector",2.00,10.00
+"Nature's Aura","naturesaura:auto_crafter",1.50,7.50
+"Nature's Aura","naturesaura:conversion_catalyst",2.50,12.50
+"Nature's Aura","naturesaura:crushing_catalyst",2.50,12.50
+"Nature's Aura","naturesaura:decayed_leaves",0.20,1.00
+"Nature's Aura","naturesaura:end_flower",0.50,2.50
+"Nature's Aura","naturesaura:field_creator",2.00,10.00
+"Nature's Aura","naturesaura:flower_generator",2.00,10.00
+"Nature's Aura","naturesaura:furnace_heater",3.00,15.00
+"Nature's Aura","naturesaura:gold_brick",2.00,10.00
+"Nature's Aura","naturesaura:gold_powder",0.00,0.00
+"Nature's Aura","naturesaura:golden_leaves",0.20,1.00
+"Nature's Aura","naturesaura:grated_chute",3.00,24.00
+"Nature's Aura","naturesaura:hopper_upgrade",2.50,12.50
+"Nature's Aura","naturesaura:infused_brick",1.50,7.50
+"Nature's Aura","naturesaura:infused_brick_slab",1.25,6.25
+"Nature's Aura","naturesaura:infused_brick_slab_double",1.25,6.25
+"Nature's Aura","naturesaura:infused_brick_stairs",1.50,7.50
+"Nature's Aura","naturesaura:infused_iron_block",3.00,15.00
+"Nature's Aura","naturesaura:infused_slab",1.25,6.25
+"Nature's Aura","naturesaura:infused_slab_double",1.25,6.25
+"Nature's Aura","naturesaura:infused_stairs",1.75,8.75
+"Nature's Aura","naturesaura:infused_stone",1.75,8.75
+"Nature's Aura","naturesaura:moss_generator",2.50,12.50
+"Nature's Aura","naturesaura:nature_altar",4.00,20.00
+"Nature's Aura","naturesaura:oak_generator",2.00,10.00
+"Nature's Aura","naturesaura:offering_table",2.00,10.00
+"Nature's Aura","naturesaura:pickup_stopper",2.00,10.00
+"Nature's Aura","naturesaura:placer",2.50,12.50
+"Nature's Aura","naturesaura:potion_generator",5.00,25.00
+"Nature's Aura","naturesaura:rf_converter",3.00,15.00
+"Nature's Aura","naturesaura:spawn_lamp",3.00,15.00
+"Nature's Aura","naturesaura:wood_stand",1.50,7.50
+"Nature's Destruction","naturesdestruction:explosion_generator",0.00,0.00
+"Nature's Destruction","naturesdestruction:explosion_upgrade_capacity",0.00,0.00
+"Nature's Destruction","naturesdestruction:explosion_upgrade_speed",0.00,0.00
+"Platforms","platforms:platform",3.00,15.00
+"Quality Tools","qualitytools:reforging_station",5.00,6000.00
+"Quark","quark:acacia_button",0.50,2.50
+"Quark","quark:acacia_pressure_plate",0.50,2.50
+"Quark","quark:acacia_trapdoor",3.00,15.00
+"Quark","quark:andesite_speleothem",1.50,7.50
+"Quark","quark:bark",2.00,10.00
+"Quark","quark:bark_acacia_slab",2.00,10.00
+"Quark","quark:bark_acacia_slab_double",2.00,10.00
+"Quark","quark:bark_acacia_stairs",2.00,10.00
+"Quark","quark:bark_acacia_wall",2.00,10.00
+"Quark","quark:bark_birch_slab",2.00,10.00
+"Quark","quark:bark_birch_slab_double",2.00,10.00
+"Quark","quark:bark_birch_stairs",2.00,10.00
+"Quark","quark:bark_birch_wall",2.00,10.00
+"Quark","quark:bark_dark_oak_slab",2.00,10.00
+"Quark","quark:bark_dark_oak_slab_double",2.00,10.00
+"Quark","quark:bark_dark_oak_stairs",2.00,10.00
+"Quark","quark:bark_dark_oak_wall",2.00,10.00
+"Quark","quark:bark_jungle_slab",2.00,10.00
+"Quark","quark:bark_jungle_slab_double",2.00,10.00
+"Quark","quark:bark_jungle_stairs",2.00,10.00
+"Quark","quark:bark_jungle_wall",2.00,10.00
+"Quark","quark:bark_oak_slab",2.00,10.00
+"Quark","quark:bark_oak_slab_double",2.00,10.00
+"Quark","quark:bark_oak_stairs",2.00,10.00
+"Quark","quark:bark_oak_wall",2.00,10.00
+"Quark","quark:bark_spruce_slab",2.00,10.00
+"Quark","quark:bark_spruce_slab_double",2.00,10.00
+"Quark","quark:bark_spruce_stairs",2.00,10.00
+"Quark","quark:bark_spruce_wall",2.00,10.00
+"Quark","quark:basalt",1.50,30.00
+"Quark","quark:basalt_speleothem",1.50,7.50
+"Quark","quark:basalt_wall",1.50,30.00
+"Quark","quark:biome_cobblestone",1.50,30.00
+"Quark","quark:biotite_block",0.80,4.00
+"Quark","quark:biotite_ore",3.20,45.00
+"Quark","quark:biotite_slab",0.80,4.00
+"Quark","quark:biotite_slab_double",0.80,4.00
+"Quark","quark:biotite_stairs",0.80,4.00
+"Quark","quark:biotite_wall",0.80,4.00
+"Quark","quark:birch_button",0.50,2.50
+"Quark","quark:birch_pressure_plate",0.50,2.50
+"Quark","quark:birch_trapdoor",3.00,15.00
+"Quark","quark:black_ash",0.00,0.00
+"Quark","quark:blaze_lantern",0.30,1.50
+"Quark","quark:brick_wall",2.00,30.00
+"Quark","quark:candle",0.20,1.00
+"Quark","quark:carved_wood",2.00,15.00
+"Quark","quark:charcoal_block",5.00,30.00
+"Quark","quark:charred_nether_brick_slab",2.00,30.00
+"Quark","quark:charred_nether_brick_slab_double",2.00,30.00
+"Quark","quark:charred_nether_brick_stairs",2.00,30.00
+"Quark","quark:charred_nether_bricks",2.00,30.00
+"Quark","quark:chute",2.50,12.50
+"Quark","quark:colored_flowerpot_black",0.00,0.00
+"Quark","quark:colored_flowerpot_blue",0.00,0.00
+"Quark","quark:colored_flowerpot_brown",0.00,0.00
+"Quark","quark:colored_flowerpot_cyan",0.00,0.00
+"Quark","quark:colored_flowerpot_gray",0.00,0.00
+"Quark","quark:colored_flowerpot_green",0.00,0.00
+"Quark","quark:colored_flowerpot_light_blue",0.00,0.00
+"Quark","quark:colored_flowerpot_lime",0.00,0.00
+"Quark","quark:colored_flowerpot_magenta",0.00,0.00
+"Quark","quark:colored_flowerpot_orange",0.00,0.00
+"Quark","quark:colored_flowerpot_pink",0.00,0.00
+"Quark","quark:colored_flowerpot_purple",0.00,0.00
+"Quark","quark:colored_flowerpot_red",0.00,0.00
+"Quark","quark:colored_flowerpot_silver",0.00,0.00
+"Quark","quark:colored_flowerpot_white",0.00,0.00
+"Quark","quark:colored_flowerpot_yellow",0.00,0.00
+"Quark","quark:crystal",0.30,1.50
+"Quark","quark:custom_bookshelf",1.50,7.50
+"Quark","quark:custom_chest",2.50,12.50
+"Quark","quark:custom_chest_trap",2.50,12.50
+"Quark","quark:dark_oak_button",0.50,2.50
+"Quark","quark:dark_oak_pressure_plate",0.50,2.50
+"Quark","quark:dark_oak_trapdoor",3.00,15.00
+"Quark","quark:dark_prismarine_wall",1.50,30.00
+"Quark","quark:diorite_speleothem",1.50,7.50
+"Quark","quark:duskbound_block",1.50,30.00
+"Quark","quark:duskbound_block_slab",1.50,30.00
+"Quark","quark:duskbound_block_slab_double",1.50,30.00
+"Quark","quark:duskbound_block_stairs",1.50,30.00
+"Quark","quark:duskbound_block_wall",1.50,30.00
+"Quark","quark:duskbound_lantern",1.50,30.00
+"Quark","quark:end_bricks_slab",0.80,4.00
+"Quark","quark:end_bricks_slab_double",0.80,4.00
+"Quark","quark:end_bricks_stairs",0.80,4.00
+"Quark","quark:end_bricks_wall",0.80,4.00
+"Quark","quark:fire_stone_slab",1.50,30.00
+"Quark","quark:fire_stone_slab_double",1.50,30.00
+"Quark","quark:fire_stone_stairs",1.50,30.00
+"Quark","quark:fire_stone_wall",1.50,30.00
+"Quark","quark:framed_glass",3.00,30.00
+"Quark","quark:framed_glass_pane",3.00,30.00
+"Quark","quark:glowcelium",0.20,1.00
+"Quark","quark:glowshroom",0.00,0.00
+"Quark","quark:glowstone_dust_block",0.00,0.00
+"Quark","quark:gold_button",0.50,2.50
+"Quark","quark:granite_speleothem",1.50,7.50
+"Quark","quark:gunpowder_block",0.00,0.00
+"Quark","quark:hardened_clay_tiles",1.25,21.00
+"Quark","quark:hardened_clay_tiles_slab",1.25,21.00
+"Quark","quark:hardened_clay_tiles_slab_double",1.25,21.00
+"Quark","quark:hardened_clay_tiles_stairs",1.25,21.00
+"Quark","quark:icy_stone_slab",1.50,30.00
+"Quark","quark:icy_stone_slab_double",1.50,30.00
+"Quark","quark:icy_stone_stairs",1.50,30.00
+"Quark","quark:icy_stone_wall",1.50,30.00
+"Quark","quark:iron_button",0.50,2.50
+"Quark","quark:iron_ladder",0.00,0.00
+"Quark","quark:iron_plate",5.00,30.00
+"Quark","quark:iron_plate_slab",5.00,30.00
+"Quark","quark:iron_plate_slab_double",5.00,30.00
+"Quark","quark:iron_plate_stairs",5.00,30.00
+"Quark","quark:iron_rod",5.00,30.00
+"Quark","quark:jungle_button",0.50,2.50
+"Quark","quark:jungle_pressure_plate",0.50,2.50
+"Quark","quark:jungle_trapdoor",3.00,15.00
+"Quark","quark:leaf_carpet",0.20,1.00
+"Quark","quark:limestone",1.50,30.00
+"Quark","quark:limestone_speleothem",1.50,7.50
+"Quark","quark:limestone_wall",1.50,30.00
+"Quark","quark:lit_lamp",0.30,1.50
+"Quark","quark:magma_bricks",1.50,30.00
+"Quark","quark:magma_bricks_slab",1.50,30.00
+"Quark","quark:magma_bricks_slab_double",1.50,30.00
+"Quark","quark:magma_bricks_stairs",1.50,30.00
+"Quark","quark:marble",1.50,30.00
+"Quark","quark:marble_speleothem",1.50,7.50
+"Quark","quark:marble_wall",1.50,30.00
+"Quark","quark:midori_block",1.50,30.00
+"Quark","quark:midori_block_slab",1.50,30.00
+"Quark","quark:midori_block_slab_double",1.50,30.00
+"Quark","quark:midori_block_stairs",1.50,30.00
+"Quark","quark:midori_block_wall",1.50,30.00
+"Quark","quark:midori_pillar",1.50,30.00
+"Quark","quark:nether_brick_fence_gate",2.00,30.00
+"Quark","quark:netherrack_speleothem",0.40,7.50
+"Quark","quark:obsidian_pressure_plate",50.00,6000.00
+"Quark","quark:paper_lantern",1.50,7.50
+"Quark","quark:paper_wall",1.50,7.50
+"Quark","quark:paper_wall_big",1.50,7.50
+"Quark","quark:polished_netherrack",1.50,30.00
+"Quark","quark:polished_netherrack_bricks_slab",1.50,30.00
+"Quark","quark:polished_netherrack_bricks_slab_double",1.50,30.00
+"Quark","quark:polished_netherrack_bricks_stairs",1.50,30.00
+"Quark","quark:polished_netherrack_bricks_wall",1.50,30.00
+"Quark","quark:polished_stone",1.50,30.00
+"Quark","quark:prismarine_bricks_slab",1.50,30.00
+"Quark","quark:prismarine_bricks_slab_double",1.50,30.00
+"Quark","quark:prismarine_bricks_stairs",1.50,30.00
+"Quark","quark:prismarine_bricks_wall",1.50,30.00
+"Quark","quark:prismarine_dark_slab",1.50,30.00
+"Quark","quark:prismarine_dark_slab_double",1.50,30.00
+"Quark","quark:prismarine_dark_stairs",1.50,30.00
+"Quark","quark:prismarine_rough_wall",1.50,30.00
+"Quark","quark:prismarine_slab",1.50,30.00
+"Quark","quark:prismarine_slab_double",1.50,30.00
+"Quark","quark:prismarine_stairs",1.50,30.00
+"Quark","quark:purpur_block_wall",1.50,30.00
+"Quark","quark:quartz_wall",0.80,4.00
+"Quark","quark:quilted_wool",0.80,4.00
+"Quark","quark:rain_detector",1.50,7.50
+"Quark","quark:red_nether_brick_slab",2.00,30.00
+"Quark","quark:red_nether_brick_slab_double",2.00,30.00
+"Quark","quark:red_nether_brick_stairs",2.00,30.00
+"Quark","quark:red_sandstone_bricks_slab",0.80,4.00
+"Quark","quark:red_sandstone_bricks_slab_double",0.80,4.00
+"Quark","quark:red_sandstone_bricks_stairs",0.80,4.00
+"Quark","quark:red_sandstone_smooth_slab",0.80,4.00
+"Quark","quark:red_sandstone_smooth_slab_double",0.80,4.00
+"Quark","quark:red_sandstone_wall",0.80,4.00
+"Quark","quark:redstone_randomizer",0.00,0.00
+"Quark","quark:reed_block",0.50,2.50
+"Quark","quark:reed_block_slab",0.50,2.50
+"Quark","quark:reed_block_slab_double",0.50,2.50
+"Quark","quark:reed_block_stairs",0.50,2.50
+"Quark","quark:reed_block_wall",0.50,2.50
+"Quark","quark:sandstone_bricks_slab",0.80,4.00
+"Quark","quark:sandstone_bricks_slab_double",0.80,4.00
+"Quark","quark:sandstone_bricks_stairs",0.80,4.00
+"Quark","quark:sandstone_new",0.80,4.00
+"Quark","quark:sandstone_smooth_slab",0.80,4.00
+"Quark","quark:sandstone_smooth_slab_double",0.80,4.00
+"Quark","quark:sandstone_wall",0.80,4.00
+"Quark","quark:sandy_bricks",2.00,30.00
+"Quark","quark:sandy_bricks_slab",2.00,30.00
+"Quark","quark:sandy_bricks_slab_double",2.00,30.00
+"Quark","quark:sandy_bricks_stairs",2.00,30.00
+"Quark","quark:sandy_bricks_wall",2.00,30.00
+"Quark","quark:smoker",0.40,2.00
+"Quark","quark:snow_bricks",0.20,1.00
+"Quark","quark:snow_bricks_slab",0.20,1.00
+"Quark","quark:snow_bricks_slab_double",0.20,1.00
+"Quark","quark:snow_bricks_stairs",0.20,1.00
+"Quark","quark:snow_bricks_wall",0.20,1.00
+"Quark","quark:soul_sandstone",1.00,5.00
+"Quark","quark:soul_sandstone_bricks_slab",0.80,4.00
+"Quark","quark:soul_sandstone_bricks_slab_double",0.80,4.00
+"Quark","quark:soul_sandstone_bricks_stairs",0.80,4.00
+"Quark","quark:soul_sandstone_slab",1.00,5.00
+"Quark","quark:soul_sandstone_slab_double",1.00,5.00
+"Quark","quark:soul_sandstone_smooth_slab",0.80,4.00
+"Quark","quark:soul_sandstone_smooth_slab_double",0.80,4.00
+"Quark","quark:soul_sandstone_stairs",1.00,5.00
+"Quark","quark:soul_sandstone_wall",1.00,5.00
+"Quark","quark:spruce_button",0.50,2.50
+"Quark","quark:spruce_pressure_plate",0.50,2.50
+"Quark","quark:spruce_trapdoor",3.00,15.00
+"Quark","quark:stained_clay_tiles",1.25,21.00
+"Quark","quark:stained_clay_tiles_black_slab",1.25,21.00
+"Quark","quark:stained_clay_tiles_black_slab_double",1.25,21.00
+"Quark","quark:stained_clay_tiles_black_stairs",1.25,21.00
+"Quark","quark:stained_clay_tiles_blue_slab",1.25,21.00
+"Quark","quark:stained_clay_tiles_blue_slab_double",1.25,21.00
+"Quark","quark:stained_clay_tiles_blue_stairs",1.25,21.00
+"Quark","quark:stained_clay_tiles_brown_slab",1.25,21.00
+"Quark","quark:stained_clay_tiles_brown_slab_double",1.25,21.00
+"Quark","quark:stained_clay_tiles_brown_stairs",1.25,21.00
+"Quark","quark:stained_clay_tiles_cyan_slab",1.25,21.00
+"Quark","quark:stained_clay_tiles_cyan_slab_double",1.25,21.00
+"Quark","quark:stained_clay_tiles_cyan_stairs",1.25,21.00
+"Quark","quark:stained_clay_tiles_gray_slab",1.25,21.00
+"Quark","quark:stained_clay_tiles_gray_slab_double",1.25,21.00
+"Quark","quark:stained_clay_tiles_gray_stairs",1.25,21.00
+"Quark","quark:stained_clay_tiles_green_slab",1.25,21.00
+"Quark","quark:stained_clay_tiles_green_slab_double",1.25,21.00
+"Quark","quark:stained_clay_tiles_green_stairs",1.25,21.00
+"Quark","quark:stained_clay_tiles_light_blue_slab",1.25,21.00
+"Quark","quark:stained_clay_tiles_light_blue_slab_double",1.25,21.00
+"Quark","quark:stained_clay_tiles_light_blue_stairs",1.25,21.00
+"Quark","quark:stained_clay_tiles_lime_slab",1.25,21.00
+"Quark","quark:stained_clay_tiles_lime_slab_double",1.25,21.00
+"Quark","quark:stained_clay_tiles_lime_stairs",1.25,21.00
+"Quark","quark:stained_clay_tiles_magenta_slab",1.25,21.00
+"Quark","quark:stained_clay_tiles_magenta_slab_double",1.25,21.00
+"Quark","quark:stained_clay_tiles_magenta_stairs",1.25,21.00
+"Quark","quark:stained_clay_tiles_orange_slab",1.25,21.00
+"Quark","quark:stained_clay_tiles_orange_slab_double",1.25,21.00
+"Quark","quark:stained_clay_tiles_orange_stairs",1.25,21.00
+"Quark","quark:stained_clay_tiles_pink_slab",1.25,21.00
+"Quark","quark:stained_clay_tiles_pink_slab_double",1.25,21.00
+"Quark","quark:stained_clay_tiles_pink_stairs",1.25,21.00
+"Quark","quark:stained_clay_tiles_purple_slab",1.25,21.00
+"Quark","quark:stained_clay_tiles_purple_slab_double",1.25,21.00
+"Quark","quark:stained_clay_tiles_purple_stairs",1.25,21.00
+"Quark","quark:stained_clay_tiles_red_slab",1.25,21.00
+"Quark","quark:stained_clay_tiles_red_slab_double",1.25,21.00
+"Quark","quark:stained_clay_tiles_red_stairs",1.25,21.00
+"Quark","quark:stained_clay_tiles_silver_slab",1.25,21.00
+"Quark","quark:stained_clay_tiles_silver_slab_double",1.25,21.00
+"Quark","quark:stained_clay_tiles_silver_stairs",1.25,21.00
+"Quark","quark:stained_clay_tiles_white_slab",1.25,21.00
+"Quark","quark:stained_clay_tiles_white_slab_double",1.25,21.00
+"Quark","quark:stained_clay_tiles_white_stairs",1.25,21.00
+"Quark","quark:stained_clay_tiles_yellow_slab",1.25,21.00
+"Quark","quark:stained_clay_tiles_yellow_slab_double",1.25,21.00
+"Quark","quark:stained_clay_tiles_yellow_stairs",1.25,21.00
+"Quark","quark:stained_planks",2.00,15.00
+"Quark","quark:stained_planks_black_slab",2.00,15.00
+"Quark","quark:stained_planks_black_slab_double",2.00,15.00
+"Quark","quark:stained_planks_black_stairs",2.00,15.00
+"Quark","quark:stained_planks_blue_slab",2.00,15.00
+"Quark","quark:stained_planks_blue_slab_double",2.00,15.00
+"Quark","quark:stained_planks_blue_stairs",2.00,15.00
+"Quark","quark:stained_planks_brown_slab",2.00,15.00
+"Quark","quark:stained_planks_brown_slab_double",2.00,15.00
+"Quark","quark:stained_planks_brown_stairs",2.00,15.00
+"Quark","quark:stained_planks_cyan_slab",2.00,15.00
+"Quark","quark:stained_planks_cyan_slab_double",2.00,15.00
+"Quark","quark:stained_planks_cyan_stairs",2.00,15.00
+"Quark","quark:stained_planks_gray_slab",2.00,15.00
+"Quark","quark:stained_planks_gray_slab_double",2.00,15.00
+"Quark","quark:stained_planks_gray_stairs",2.00,15.00
+"Quark","quark:stained_planks_green_slab",2.00,15.00
+"Quark","quark:stained_planks_green_slab_double",2.00,15.00
+"Quark","quark:stained_planks_green_stairs",2.00,15.00
+"Quark","quark:stained_planks_light_blue_slab",2.00,15.00
+"Quark","quark:stained_planks_light_blue_slab_double",2.00,15.00
+"Quark","quark:stained_planks_light_blue_stairs",2.00,15.00
+"Quark","quark:stained_planks_lime_slab",2.00,15.00
+"Quark","quark:stained_planks_lime_slab_double",2.00,15.00
+"Quark","quark:stained_planks_lime_stairs",2.00,15.00
+"Quark","quark:stained_planks_magenta_slab",2.00,15.00
+"Quark","quark:stained_planks_magenta_slab_double",2.00,15.00
+"Quark","quark:stained_planks_magenta_stairs",2.00,15.00
+"Quark","quark:stained_planks_orange_slab",2.00,15.00
+"Quark","quark:stained_planks_orange_slab_double",2.00,15.00
+"Quark","quark:stained_planks_orange_stairs",2.00,15.00
+"Quark","quark:stained_planks_pink_slab",2.00,15.00
+"Quark","quark:stained_planks_pink_slab_double",2.00,15.00
+"Quark","quark:stained_planks_pink_stairs",2.00,15.00
+"Quark","quark:stained_planks_purple_slab",2.00,15.00
+"Quark","quark:stained_planks_purple_slab_double",2.00,15.00
+"Quark","quark:stained_planks_purple_stairs",2.00,15.00
+"Quark","quark:stained_planks_red_slab",2.00,15.00
+"Quark","quark:stained_planks_red_slab_double",2.00,15.00
+"Quark","quark:stained_planks_red_stairs",2.00,15.00
+"Quark","quark:stained_planks_silver_slab",2.00,15.00
+"Quark","quark:stained_planks_silver_slab_double",2.00,15.00
+"Quark","quark:stained_planks_silver_stairs",2.00,15.00
+"Quark","quark:stained_planks_white_slab",2.00,15.00
+"Quark","quark:stained_planks_white_slab_double",2.00,15.00
+"Quark","quark:stained_planks_white_stairs",2.00,15.00
+"Quark","quark:stained_planks_yellow_slab",2.00,15.00
+"Quark","quark:stained_planks_yellow_slab_double",2.00,15.00
+"Quark","quark:stained_planks_yellow_stairs",2.00,15.00
+"Quark","quark:stone_andesite_bricks_slab",1.50,30.00
+"Quark","quark:stone_andesite_bricks_slab_double",1.50,30.00
+"Quark","quark:stone_andesite_bricks_stairs",1.50,30.00
+"Quark","quark:stone_andesite_bricks_wall",1.50,30.00
+"Quark","quark:stone_andesite_slab",1.50,30.00
+"Quark","quark:stone_andesite_slab_double",1.50,30.00
+"Quark","quark:stone_andesite_stairs",1.50,30.00
+"Quark","quark:stone_andesite_wall",1.50,30.00
+"Quark","quark:stone_basalt_bricks_slab",1.50,30.00
+"Quark","quark:stone_basalt_bricks_slab_double",1.50,30.00
+"Quark","quark:stone_basalt_bricks_stairs",1.50,30.00
+"Quark","quark:stone_basalt_bricks_wall",1.50,30.00
+"Quark","quark:stone_basalt_slab",1.50,30.00
+"Quark","quark:stone_basalt_slab_double",1.50,30.00
+"Quark","quark:stone_basalt_stairs",1.50,30.00
+"Quark","quark:stone_diorite_bricks_slab",1.50,30.00
+"Quark","quark:stone_diorite_bricks_slab_double",1.50,30.00
+"Quark","quark:stone_diorite_bricks_stairs",1.50,30.00
+"Quark","quark:stone_diorite_bricks_wall",1.50,30.00
+"Quark","quark:stone_diorite_slab",1.50,30.00
+"Quark","quark:stone_diorite_slab_double",1.50,30.00
+"Quark","quark:stone_diorite_stairs",1.50,30.00
+"Quark","quark:stone_diorite_wall",1.50,30.00
+"Quark","quark:stone_granite_bricks_slab",1.50,30.00
+"Quark","quark:stone_granite_bricks_slab_double",1.50,30.00
+"Quark","quark:stone_granite_bricks_stairs",1.50,30.00
+"Quark","quark:stone_granite_bricks_wall",1.50,30.00
+"Quark","quark:stone_granite_slab",1.50,30.00
+"Quark","quark:stone_granite_slab_double",1.50,30.00
+"Quark","quark:stone_granite_stairs",1.50,30.00
+"Quark","quark:stone_granite_wall",1.50,30.00
+"Quark","quark:stone_limestone_bricks_slab",1.50,30.00
+"Quark","quark:stone_limestone_bricks_slab_double",1.50,30.00
+"Quark","quark:stone_limestone_bricks_stairs",1.50,30.00
+"Quark","quark:stone_limestone_bricks_wall",1.50,30.00
+"Quark","quark:stone_limestone_slab",1.50,30.00
+"Quark","quark:stone_limestone_slab_double",1.50,30.00
+"Quark","quark:stone_limestone_stairs",1.50,30.00
+"Quark","quark:stone_marble_bricks_slab",1.50,30.00
+"Quark","quark:stone_marble_bricks_slab_double",1.50,30.00
+"Quark","quark:stone_marble_bricks_stairs",1.50,30.00
+"Quark","quark:stone_marble_bricks_wall",1.50,30.00
+"Quark","quark:stone_marble_slab",1.50,30.00
+"Quark","quark:stone_marble_slab_double",1.50,30.00
+"Quark","quark:stone_marble_stairs",1.50,30.00
+"Quark","quark:stone_speleothem",1.50,7.50
+"Quark","quark:stone_stairs",1.50,30.00
+"Quark","quark:stone_wall",1.50,30.00
+"Quark","quark:stonebrick_wall",1.50,30.00
+"Quark","quark:sturdy_stone",4.00,30.00
+"Quark","quark:sugar_block",0.50,2.50
+"Quark","quark:thatch",0.50,2.50
+"Quark","quark:thatch_slab",0.50,2.50
+"Quark","quark:thatch_slab_double",0.50,2.50
+"Quark","quark:thatch_stairs",0.50,2.50
+"Quark","quark:vertical_planks",2.00,15.00
+"Quark","quark:vertical_stained_planks",2.00,15.00
+"Quark","quark:world_stone_bricks",1.50,30.00
+"Quark","quark:world_stone_pavement",1.50,30.00
+"Roots Classic","rootsclassic:altar",1.00,5.00
+"Roots Classic","rootsclassic:brazier",1.00,5.00
+"Roots Classic","rootsclassic:flareorchid",0.00,0.00
+"Roots Classic","rootsclassic:imbuer",1.00,5.00
+"Roots Classic","rootsclassic:midnightbloom",0.00,0.00
+"Roots Classic","rootsclassic:mortar",1.00,5.00
+"Roots Classic","rootsclassic:radiantdaisy",0.00,0.00
+"Roots Classic","rootsclassic:standingstoneaccelerator",1.00,5.00
+"Roots Classic","rootsclassic:standingstoneaesthetic",1.00,5.00
+"Roots Classic","rootsclassic:standingstoneentangler",1.00,5.00
+"Roots Classic","rootsclassic:standingstonegrower",1.00,5.00
+"Roots Classic","rootsclassic:standingstonehealer",1.00,5.00
+"Roots Classic","rootsclassic:standingstoneigniter",1.00,5.00
+"Roots Classic","rootsclassic:standingstonerepulsor",1.00,5.00
+"Roots Classic","rootsclassic:standingstonet1",1.00,5.00
+"Roots Classic","rootsclassic:standingstonet2",1.00,5.00
+"Roots Classic","rootsclassic:standingstonevacuum",1.00,5.00
+"Runecarved","runecarved:runestone",1.00,5.00
+"Runecarved","runecarved:simple_enchanter",1.00,5.00
+"Rustic","rustic:ale_wort",0.00,0.00
+"Rustic","rustic:aloe_vera",0.00,0.00
+"Rustic","rustic:andesite_pillar",2.00,10.00
+"Rustic","rustic:apiary",1.00,5.00
+"Rustic","rustic:apple_juice",0.00,0.00
+"Rustic","rustic:apple_seeds",0.00,5.00
+"Rustic","rustic:barrel",1.50,7.50
+"Rustic","rustic:beehive",0.50,5.00
+"Rustic","rustic:blood_orchid",0.00,0.00
+"Rustic","rustic:brewing_barrel",1.50,7.50
+"Rustic","rustic:cabinet",2.50,12.50
+"Rustic","rustic:candle",1.00,5.00
+"Rustic","rustic:chain",1.00,5.00
+"Rustic","rustic:chair_acacia",1.00,5.00
+"Rustic","rustic:chair_big_oak",1.00,5.00
+"Rustic","rustic:chair_birch",1.00,5.00
+"Rustic","rustic:chair_ironwood",1.00,5.00
+"Rustic","rustic:chair_jungle",1.00,5.00
+"Rustic","rustic:chair_oak",1.00,5.00
+"Rustic","rustic:chair_olive",1.00,5.00
+"Rustic","rustic:chair_spruce",1.00,5.00
+"Rustic","rustic:chamomile",0.00,0.00
+"Rustic","rustic:chandelier",2.00,10.00
+"Rustic","rustic:chili_crop",0.00,5.00
+"Rustic","rustic:clay_wall",1.00,5.00
+"Rustic","rustic:clay_wall_cross",1.00,5.00
+"Rustic","rustic:clay_wall_diag",1.00,5.00
+"Rustic","rustic:cloudsbluff",0.00,0.00
+"Rustic","rustic:cohosh",0.00,0.00
+"Rustic","rustic:condenser",2.00,10.00
+"Rustic","rustic:condenser_advanced",2.00,10.00
+"Rustic","rustic:core_root",0.00,0.00
+"Rustic","rustic:crop_stake",2.00,15.00
+"Rustic","rustic:crushing_tub",1.50,7.50
+"Rustic","rustic:deathstalk_mushroom",0.00,0.00
+"Rustic","rustic:diorite_pillar",2.00,10.00
+"Rustic","rustic:evaporating_basin",1.25,6.25
+"Rustic","rustic:fence_gate_ironwood",2.00,10.00
+"Rustic","rustic:fence_gate_olive",2.00,10.00
+"Rustic","rustic:fence_ironwood",2.00,10.00
+"Rustic","rustic:fence_olive",2.00,10.00
+"Rustic","rustic:fertile_soil",0.50,5.00
+"Rustic","rustic:gargoyle",1.00,5.00
+"Rustic","rustic:ginseng",0.00,0.00
+"Rustic","rustic:granite_pillar",2.00,10.00
+"Rustic","rustic:grape_juice",0.00,0.00
+"Rustic","rustic:grape_leaves",1.00,5.00
+"Rustic","rustic:grape_stem",0.50,5.00
+"Rustic","rustic:honey",0.00,0.00
+"Rustic","rustic:horsetail",0.00,0.00
+"Rustic","rustic:iron_lantern",2.00,10.00
+"Rustic","rustic:iron_lattice",2.00,10.00
+"Rustic","rustic:ironberry_juice",0.00,0.00
+"Rustic","rustic:ironwood_door",3.00,15.00
+"Rustic","rustic:ironwood_doubleslab",2.00,10.00
+"Rustic","rustic:ironwood_slab",2.00,10.00
+"Rustic","rustic:ironwoodbranch",0.00,0.00
+"Rustic","rustic:ironwoodbranchx",0.00,0.00
+"Rustic","rustic:ironwoodroot",2.50,3.00
+"Rustic","rustic:leaves",0.20,1.00
+"Rustic","rustic:leaves0",0.20,1.00
+"Rustic","rustic:leaves_apple",0.20,1.00
+"Rustic","rustic:liquid_barrel",1.50,7.50
+"Rustic","rustic:log",2.00,10.00
+"Rustic","rustic:marsh_mallow",0.00,0.00
+"Rustic","rustic:mooncap_mushroom",0.00,0.00
+"Rustic","rustic:olive_door",3.00,15.00
+"Rustic","rustic:olive_doubleslab",2.00,10.00
+"Rustic","rustic:olive_oil",0.00,0.00
+"Rustic","rustic:olive_slab",2.00,10.00
+"Rustic","rustic:olivebranch",0.00,0.00
+"Rustic","rustic:painted_wood_black",2.00,10.00
+"Rustic","rustic:painted_wood_blue",2.00,10.00
+"Rustic","rustic:painted_wood_brown",2.00,10.00
+"Rustic","rustic:painted_wood_cyan",2.00,10.00
+"Rustic","rustic:painted_wood_gray",2.00,10.00
+"Rustic","rustic:painted_wood_green",2.00,10.00
+"Rustic","rustic:painted_wood_light_blue",2.00,10.00
+"Rustic","rustic:painted_wood_lime",2.00,10.00
+"Rustic","rustic:painted_wood_magenta",2.00,10.00
+"Rustic","rustic:painted_wood_orange",2.00,10.00
+"Rustic","rustic:painted_wood_pink",2.00,10.00
+"Rustic","rustic:painted_wood_purple",2.00,10.00
+"Rustic","rustic:painted_wood_red",2.00,10.00
+"Rustic","rustic:painted_wood_silver",2.00,10.00
+"Rustic","rustic:painted_wood_white",2.00,10.00
+"Rustic","rustic:painted_wood_yellow",2.00,10.00
+"Rustic","rustic:planks",2.00,15.00
+"Rustic","rustic:retort",2.00,10.00
+"Rustic","rustic:retort_advanced",2.00,10.00
+"Rustic","rustic:rope",0.50,5.00
+"Rustic","rustic:sapling",0.00,0.00
+"Rustic","rustic:sapling_apple",0.00,0.00
+"Rustic","rustic:slate",2.00,10.00
+"Rustic","rustic:slate_brick",2.00,10.00
+"Rustic","rustic:slate_brick_doubleslab",2.00,10.00
+"Rustic","rustic:slate_brick_slab",2.00,10.00
+"Rustic","rustic:slate_chiseled",2.00,10.00
+"Rustic","rustic:slate_pillar",2.00,10.00
+"Rustic","rustic:slate_roof",2.00,10.00
+"Rustic","rustic:slate_roof_doubleslab",2.00,10.00
+"Rustic","rustic:slate_roof_slab",2.00,10.00
+"Rustic","rustic:slate_tile",2.00,10.00
+"Rustic","rustic:stairs_ironwood",2.00,15.00
+"Rustic","rustic:stairs_olive",2.00,15.00
+"Rustic","rustic:stairs_slate_brick",2.00,10.00
+"Rustic","rustic:stairs_slate_roof",2.00,10.00
+"Rustic","rustic:stake_tied",1.00,15.00
+"Rustic","rustic:stone_pillar",2.00,10.00
+"Rustic","rustic:table_acacia",1.00,5.00
+"Rustic","rustic:table_big_oak",1.00,5.00
+"Rustic","rustic:table_birch",1.00,5.00
+"Rustic","rustic:table_ironwood",1.00,5.00
+"Rustic","rustic:table_jungle",1.00,5.00
+"Rustic","rustic:table_oak",1.00,5.00
+"Rustic","rustic:table_olive",1.00,5.00
+"Rustic","rustic:table_spruce",1.00,5.00
+"Rustic","rustic:tomato_crop",0.00,5.00
+"Rustic","rustic:vase",0.50,5.00
+"Rustic","rustic:wildberry_bush",0.20,5.00
+"Rustic","rustic:wildberry_juice",0.00,0.00
+"Rustic","rustic:wind_thistle",0.00,0.00
+"Rustic Thaumaturgy","rusticthaumaturgy:brass_lantern",2.00,10.00
+"Rustic Thaumaturgy","rusticthaumaturgy:chain_brass",1.00,5.00
+"Rustic Thaumaturgy","rusticthaumaturgy:chair_greatwood",1.00,5.00
+"Rustic Thaumaturgy","rusticthaumaturgy:chair_silverwood",1.00,5.00
+"Rustic Thaumaturgy","rusticthaumaturgy:chandelier_brass",2.00,10.00
+"Rustic Thaumaturgy","rusticthaumaturgy:cinderfire_whiskey",0.00,0.00
+"Rustic Thaumaturgy","rusticthaumaturgy:cinderfire_wort",0.00,0.00
+"Rustic Thaumaturgy","rusticthaumaturgy:cindermote",0.00,0.00
+"Rustic Thaumaturgy","rusticthaumaturgy:shimmerdew_spirits",0.00,0.00
+"Rustic Thaumaturgy","rusticthaumaturgy:shimmerdew_wort",0.00,0.00
+"Rustic Thaumaturgy","rusticthaumaturgy:shimmerpetal",0.00,0.00
+"Rustic Thaumaturgy","rusticthaumaturgy:table_greatwood",1.00,5.00
+"Rustic Thaumaturgy","rusticthaumaturgy:table_silverwood",1.00,5.00
+"Rustic Thaumaturgy","rusticthaumaturgy:viscap",0.00,0.00
+"Rustic Thaumaturgy","rusticthaumaturgy:viscous_brew",0.00,0.00
+"Rustic Thaumaturgy","rusticthaumaturgy:viscous_wort",0.00,0.00
+"Seeds For Electroblob's Wizardry","t3s4ebw:crystal_crop",0.00,0.00
+"Soot","soot:alchemy_gauge",1.60,8.00
+"Soot","soot:alchemy_globe",1.60,8.00
+"Soot","soot:alchemy_pedestal",1.60,8.00
+"Soot","soot:alchemy_tablet",1.60,8.00
+"Soot","soot:archaic_big_bricks",1.60,8.00
+"Soot","soot:archaic_big_bricks_slab",1.60,8.00
+"Soot","soot:archaic_big_bricks_stairs",1.60,8.00
+"Soot","soot:archaic_bricks_slab",1.60,8.00
+"Soot","soot:archaic_bricks_stairs",1.60,8.00
+"Soot","soot:archaic_tile_slab",1.60,8.00
+"Soot","soot:archaic_tile_stairs",1.60,8.00
+"Soot","soot:beam_cannon",1.60,8.00
+"Soot","soot:caminite_clay",1.60,8.00
+"Soot","soot:caminite_large_tile",1.60,8.00
+"Soot","soot:caminite_large_tile_slab",1.60,8.00
+"Soot","soot:caminite_large_tile_stairs",1.60,8.00
+"Soot","soot:caminite_tiles",1.60,8.00
+"Soot","soot:caminite_tiles_slab",1.60,8.00
+"Soot","soot:caminite_tiles_stairs",1.60,8.00
+"Soot","soot:crystal_cell",1.00,5.00
+"Soot","soot:dawnstone_anvil",1.60,8.00
+"Soot","soot:distillation_pipe",1.60,8.00
+"Soot","soot:ember_bore",1.00,5.00
+"Soot","soot:ember_burst",0.00,0.00
+"Soot","soot:heat_coil",1.00,5.00
+"Soot","soot:insulation",1.60,8.00
+"Soot","soot:mech_accessor",1.00,5.00
+"Soot","soot:mixer",1.00,5.00
+"Soot","soot:redstone_bin",1.00,5.00
+"Soot","soot:scale",1.60,8.00
+"Soot","soot:sealed_keg",1.60,8.00
+"Soot","soot:sealed_pillar",1.60,8.00
+"Soot","soot:sealed_planks_slab",1.60,8.00
+"Soot","soot:sealed_planks_stairs",1.60,12.50
+"Soot","soot:sealed_tile",1.60,8.00
+"Soot","soot:sealed_tile_slab",1.60,8.00
+"Soot","soot:sealed_tile_stairs",1.60,8.00
+"Soot","soot:stamper",1.00,5.00
+"Soot","soot:still",1.60,8.00
+"Soot","soot:sulfur_ore",1.60,8.00
+"Soot","soot:wrought_platform",1.60,8.00
+"Soot","soot:wrought_platform_slab",1.60,8.00
+"Soot","soot:wrought_tile",1.60,8.00
+"Thaumcraft","thaumcraft:activator_rail",0.70,3.50
+"Thaumcraft","thaumcraft:alembic",2.00,60.00
+"Thaumcraft","thaumcraft:amber_block",0.50,7.50
+"Thaumcraft","thaumcraft:amber_brick",0.50,7.50
+"Thaumcraft","thaumcraft:arcane_ear",1.00,60.00
+"Thaumcraft","thaumcraft:arcane_ear_toggle",1.00,60.00
+"Thaumcraft","thaumcraft:arcane_workbench",2.00,60.00
+"Thaumcraft","thaumcraft:arcane_workbench_charger",1.25,30.00
+"Thaumcraft","thaumcraft:banner_black",1.00,7.50
+"Thaumcraft","thaumcraft:banner_blue",1.00,7.50
+"Thaumcraft","thaumcraft:banner_brown",1.00,7.50
+"Thaumcraft","thaumcraft:banner_crimson_cult",1.00,7.50
+"Thaumcraft","thaumcraft:banner_cyan",1.00,7.50
+"Thaumcraft","thaumcraft:banner_gray",1.00,7.50
+"Thaumcraft","thaumcraft:banner_green",1.00,7.50
+"Thaumcraft","thaumcraft:banner_lightblue",1.00,7.50
+"Thaumcraft","thaumcraft:banner_lime",1.00,7.50
+"Thaumcraft","thaumcraft:banner_magenta",1.00,7.50
+"Thaumcraft","thaumcraft:banner_orange",1.00,7.50
+"Thaumcraft","thaumcraft:banner_pink",1.00,7.50
+"Thaumcraft","thaumcraft:banner_purple",1.00,7.50
+"Thaumcraft","thaumcraft:banner_red",1.00,7.50
+"Thaumcraft","thaumcraft:banner_silver",1.00,7.50
+"Thaumcraft","thaumcraft:banner_white",1.00,7.50
+"Thaumcraft","thaumcraft:banner_yellow",1.00,7.50
+"Thaumcraft","thaumcraft:barrier",0.00,0.00
+"Thaumcraft","thaumcraft:bellows",1.00,60.00
+"Thaumcraft","thaumcraft:brain_box",1.00,30.00
+"Thaumcraft","thaumcraft:candle_black",0.10,7.50
+"Thaumcraft","thaumcraft:candle_blue",0.10,7.50
+"Thaumcraft","thaumcraft:candle_brown",0.10,7.50
+"Thaumcraft","thaumcraft:candle_cyan",0.10,7.50
+"Thaumcraft","thaumcraft:candle_gray",0.10,7.50
+"Thaumcraft","thaumcraft:candle_green",0.10,7.50
+"Thaumcraft","thaumcraft:candle_lightblue",0.10,7.50
+"Thaumcraft","thaumcraft:candle_lime",0.10,7.50
+"Thaumcraft","thaumcraft:candle_magenta",0.10,7.50
+"Thaumcraft","thaumcraft:candle_orange",0.10,7.50
+"Thaumcraft","thaumcraft:candle_pink",0.10,7.50
+"Thaumcraft","thaumcraft:candle_purple",0.10,7.50
+"Thaumcraft","thaumcraft:candle_red",0.10,7.50
+"Thaumcraft","thaumcraft:candle_silver",0.10,7.50
+"Thaumcraft","thaumcraft:candle_white",0.10,7.50
+"Thaumcraft","thaumcraft:candle_yellow",0.10,7.50
+"Thaumcraft","thaumcraft:centrifuge",2.00,60.00
+"Thaumcraft","thaumcraft:cinderpearl",0.00,0.00
+"Thaumcraft","thaumcraft:condenser",2.00,60.00
+"Thaumcraft","thaumcraft:condenser_lattice",0.50,15.00
+"Thaumcraft","thaumcraft:condenser_lattice_dirty",0.50,15.00
+"Thaumcraft","thaumcraft:crucible",2.00,60.00
+"Thaumcraft","thaumcraft:crystal_aer",0.25,1.25
+"Thaumcraft","thaumcraft:crystal_aqua",0.25,1.25
+"Thaumcraft","thaumcraft:crystal_ignis",0.25,1.25
+"Thaumcraft","thaumcraft:crystal_ordo",0.25,1.25
+"Thaumcraft","thaumcraft:crystal_perditio",0.25,1.25
+"Thaumcraft","thaumcraft:crystal_terra",0.25,1.25
+"Thaumcraft","thaumcraft:crystal_vitium",0.25,1.25
+"Thaumcraft","thaumcraft:dioptra",2.00,60.00
+"Thaumcraft","thaumcraft:effect_glimmer",1.50,999.00
+"Thaumcraft","thaumcraft:effect_sap",1.50,999.00
+"Thaumcraft","thaumcraft:effect_shock",1.50,999.00
+"Thaumcraft","thaumcraft:empty",0.50,7.50
+"Thaumcraft","thaumcraft:essentia_input",1.00,30.00
+"Thaumcraft","thaumcraft:essentia_output",1.00,30.00
+"Thaumcraft","thaumcraft:everfull_urn",2.00,60.00
+"Thaumcraft","thaumcraft:flesh_block",0.25,6.00
+"Thaumcraft","thaumcraft:flux_goo",0.00,0.00
+"Thaumcraft","thaumcraft:golem_builder",2.00,60.00
+"Thaumcraft","thaumcraft:grass_ambient",0.60,3.00
+"Thaumcraft","thaumcraft:hole",-1.00,18000000.00
+"Thaumcraft","thaumcraft:hungry_chest",2.50,12.50
+"Thaumcraft","thaumcraft:infernal_furnace",2.00,60.00
+"Thaumcraft","thaumcraft:infusion_matrix",2.00,60.00
+"Thaumcraft","thaumcraft:inlay",0.50,7.50
+"Thaumcraft","thaumcraft:jar_brain",0.30,60.00
+"Thaumcraft","thaumcraft:jar_normal",0.30,60.00
+"Thaumcraft","thaumcraft:jar_void",0.30,60.00
+"Thaumcraft","thaumcraft:lamp_arcane",1.00,60.00
+"Thaumcraft","thaumcraft:lamp_fertility",1.00,60.00
+"Thaumcraft","thaumcraft:lamp_growth",1.00,60.00
+"Thaumcraft","thaumcraft:leaves_greatwood",0.20,1.00
+"Thaumcraft","thaumcraft:leaves_silverwood",0.20,1.00
+"Thaumcraft","thaumcraft:levitator",2.00,60.00
+"Thaumcraft","thaumcraft:liquid_death",0.00,0.00
+"Thaumcraft","thaumcraft:log_greatwood",2.00,15.00
+"Thaumcraft","thaumcraft:log_silverwood",2.00,15.00
+"Thaumcraft","thaumcraft:loot_crate_common",0.15,0.00
+"Thaumcraft","thaumcraft:loot_crate_rare",0.15,0.00
+"Thaumcraft","thaumcraft:loot_crate_uncommon",0.15,0.00
+"Thaumcraft","thaumcraft:loot_urn_common",0.15,0.00
+"Thaumcraft","thaumcraft:loot_urn_rare",0.15,0.00
+"Thaumcraft","thaumcraft:loot_urn_uncommon",0.15,0.00
+"Thaumcraft","thaumcraft:matrix_cost",2.00,30.00
+"Thaumcraft","thaumcraft:matrix_speed",2.00,30.00
+"Thaumcraft","thaumcraft:metal_alchemical",4.00,30.00
+"Thaumcraft","thaumcraft:metal_alchemical_advanced",4.00,30.00
+"Thaumcraft","thaumcraft:metal_brass",4.00,30.00
+"Thaumcraft","thaumcraft:metal_thaumium",4.00,30.00
+"Thaumcraft","thaumcraft:metal_void",4.00,30.00
+"Thaumcraft","thaumcraft:mirror",0.10,60.00
+"Thaumcraft","thaumcraft:mirror_essentia",0.10,60.00
+"Thaumcraft","thaumcraft:nitor_black",0.10,7.50
+"Thaumcraft","thaumcraft:nitor_blue",0.10,7.50
+"Thaumcraft","thaumcraft:nitor_brown",0.10,7.50
+"Thaumcraft","thaumcraft:nitor_cyan",0.10,7.50
+"Thaumcraft","thaumcraft:nitor_gray",0.10,7.50
+"Thaumcraft","thaumcraft:nitor_green",0.10,7.50
+"Thaumcraft","thaumcraft:nitor_lightblue",0.10,7.50
+"Thaumcraft","thaumcraft:nitor_lime",0.10,7.50
+"Thaumcraft","thaumcraft:nitor_magenta",0.10,7.50
+"Thaumcraft","thaumcraft:nitor_orange",0.10,7.50
+"Thaumcraft","thaumcraft:nitor_pink",0.10,7.50
+"Thaumcraft","thaumcraft:nitor_purple",0.10,7.50
+"Thaumcraft","thaumcraft:nitor_red",0.10,7.50
+"Thaumcraft","thaumcraft:nitor_silver",0.10,7.50
+"Thaumcraft","thaumcraft:nitor_white",0.10,7.50
+"Thaumcraft","thaumcraft:nitor_yellow",0.10,7.50
+"Thaumcraft","thaumcraft:ore_amber",1.50,15.00
+"Thaumcraft","thaumcraft:ore_cinnabar",2.00,15.00
+"Thaumcraft","thaumcraft:ore_quartz",3.00,15.00
+"Thaumcraft","thaumcraft:pattern_crafter",2.00,60.00
+"Thaumcraft","thaumcraft:paving_stone_barrier",2.50,12.50
+"Thaumcraft","thaumcraft:paving_stone_travel",2.50,12.50
+"Thaumcraft","thaumcraft:pedestal_ancient",2.00,60.00
+"Thaumcraft","thaumcraft:pedestal_arcane",2.00,60.00
+"Thaumcraft","thaumcraft:pedestal_eldritch",2.00,60.00
+"Thaumcraft","thaumcraft:pillar_ancient",2.50,12.50
+"Thaumcraft","thaumcraft:pillar_arcane",2.50,12.50
+"Thaumcraft","thaumcraft:pillar_eldritch",2.50,12.50
+"Thaumcraft","thaumcraft:placeholder_anvil",2.50,12.50
+"Thaumcraft","thaumcraft:placeholder_bars",2.50,12.50
+"Thaumcraft","thaumcraft:placeholder_brick",2.50,12.50
+"Thaumcraft","thaumcraft:placeholder_cauldron",2.50,12.50
+"Thaumcraft","thaumcraft:placeholder_obsidian",2.50,12.50
+"Thaumcraft","thaumcraft:placeholder_table",2.50,12.50
+"Thaumcraft","thaumcraft:plank_greatwood",2.00,10.00
+"Thaumcraft","thaumcraft:plank_silverwood",2.00,10.00
+"Thaumcraft","thaumcraft:potion_sprayer",2.00,60.00
+"Thaumcraft","thaumcraft:purifying_fluid",0.00,0.00
+"Thaumcraft","thaumcraft:recharge_pedestal",2.00,60.00
+"Thaumcraft","thaumcraft:redstone_relay",0.00,0.00
+"Thaumcraft","thaumcraft:research_table",2.00,60.00
+"Thaumcraft","thaumcraft:sapling_greatwood",0.00,0.00
+"Thaumcraft","thaumcraft:sapling_silverwood",0.00,0.00
+"Thaumcraft","thaumcraft:shimmerleaf",0.00,0.00
+"Thaumcraft","thaumcraft:slab_ancient",2.00,30.00
+"Thaumcraft","thaumcraft:slab_arcane_brick",2.00,30.00
+"Thaumcraft","thaumcraft:slab_arcane_stone",2.00,30.00
+"Thaumcraft","thaumcraft:slab_double_ancient",2.00,30.00
+"Thaumcraft","thaumcraft:slab_double_arcane_brick",2.00,30.00
+"Thaumcraft","thaumcraft:slab_double_arcane_stone",2.00,30.00
+"Thaumcraft","thaumcraft:slab_double_eldritch",2.00,30.00
+"Thaumcraft","thaumcraft:slab_double_greatwood",1.20,6.00
+"Thaumcraft","thaumcraft:slab_double_silverwood",1.00,6.00
+"Thaumcraft","thaumcraft:slab_eldritch",2.00,30.00
+"Thaumcraft","thaumcraft:slab_greatwood",1.20,6.00
+"Thaumcraft","thaumcraft:slab_silverwood",1.00,6.00
+"Thaumcraft","thaumcraft:smelter_aux",1.00,30.00
+"Thaumcraft","thaumcraft:smelter_basic",2.00,60.00
+"Thaumcraft","thaumcraft:smelter_thaumium",2.00,60.00
+"Thaumcraft","thaumcraft:smelter_vent",1.00,30.00
+"Thaumcraft","thaumcraft:smelter_void",2.00,60.00
+"Thaumcraft","thaumcraft:spa",2.00,60.00
+"Thaumcraft","thaumcraft:stabilizer",2.00,60.00
+"Thaumcraft","thaumcraft:stairs_ancient",2.00,30.00
+"Thaumcraft","thaumcraft:stairs_arcane",2.00,30.00
+"Thaumcraft","thaumcraft:stairs_arcane_brick",2.00,30.00
+"Thaumcraft","thaumcraft:stairs_greatwood",2.00,10.00
+"Thaumcraft","thaumcraft:stairs_silverwood",2.00,10.00
+"Thaumcraft","thaumcraft:stone_ancient",2.00,30.00
+"Thaumcraft","thaumcraft:stone_ancient_doorway",-1.00,30.00
+"Thaumcraft","thaumcraft:stone_ancient_glyphed",2.00,30.00
+"Thaumcraft","thaumcraft:stone_ancient_rock",-1.00,30.00
+"Thaumcraft","thaumcraft:stone_ancient_tile",2.00,30.00
+"Thaumcraft","thaumcraft:stone_arcane",2.00,30.00
+"Thaumcraft","thaumcraft:stone_arcane_brick",2.00,30.00
+"Thaumcraft","thaumcraft:stone_eldritch_tile",15.00,3000.00
+"Thaumcraft","thaumcraft:stone_porous",1.00,15.00
+"Thaumcraft","thaumcraft:table_stone",2.50,12.50
+"Thaumcraft","thaumcraft:table_wood",2.00,10.00
+"Thaumcraft","thaumcraft:taint_crust",10.00,300.00
+"Thaumcraft","thaumcraft:taint_feature",0.10,7.50
+"Thaumcraft","thaumcraft:taint_fibre",1.00,5.00
+"Thaumcraft","thaumcraft:taint_geyser",10.00,300.00
+"Thaumcraft","thaumcraft:taint_log",3.00,300.00
+"Thaumcraft","thaumcraft:taint_rock",10.00,300.00
+"Thaumcraft","thaumcraft:taint_soil",10.00,300.00
+"Thaumcraft","thaumcraft:thaumatorium",2.00,60.00
+"Thaumcraft","thaumcraft:thaumatorium_top",2.00,60.00
+"Thaumcraft","thaumcraft:tube",0.50,15.00
+"Thaumcraft","thaumcraft:tube_buffer",0.50,15.00
+"Thaumcraft","thaumcraft:tube_filter",0.50,15.00
+"Thaumcraft","thaumcraft:tube_oneway",0.50,15.00
+"Thaumcraft","thaumcraft:tube_restrict",0.50,15.00
+"Thaumcraft","thaumcraft:tube_valve",0.50,15.00
+"Thaumcraft","thaumcraft:vis_battery",0.50,2.50
+"Thaumcraft","thaumcraft:vis_generator",2.00,60.00
+"Thaumcraft","thaumcraft:vishroom",0.00,0.00
+"Thaumcraft","thaumcraft:void_siphon",2.00,60.00
+"Thaumcraft","thaumcraft:wand_workbench",2.00,60.00
+"Thaumic Arcana","thaumic_arcana:arcane_sieve",0.00,0.00
+"Thaumic Arcana","thaumic_arcana:essentia_mine",0.00,0.00
+"Thaumic Arcana","thaumic_arcana:magic_oak_sapling",0.00,0.00
+"Thaumic Arcana","thaumic_arcana:paving_stone_disable_enchants",2.50,12.50
+"Thaumic Arcana","thaumic_arcana:paving_stone_enable_enchants",2.50,12.50
+"Thaumic Arcana","thaumic_arcana:silver_oak_sapling",0.00,0.00
+"Thaumic Arcana","thaumic_arcana:taint_wine_cap",0.00,0.00
+"Thaumic Arcana","thaumic_arcana:taint_wine_trunk",0.00,0.00
+"Thaumic Arcana","thaumic_arcana:tainted_oak_sapling",0.00,0.00
+"The Betweenlands","thebetweenlands:alembic",2.00,15.00
+"The Betweenlands","thebetweenlands:algae",0.00,0.00
+"The Betweenlands","thebetweenlands:amate_paper_pane_1",0.30,1.50
+"The Betweenlands","thebetweenlands:amate_paper_pane_2",0.30,1.50
+"The Betweenlands","thebetweenlands:amate_paper_pane_3",0.30,1.50
+"The Betweenlands","thebetweenlands:angry_betweenstone",1.50,30.00
+"The Betweenlands","thebetweenlands:animator",2.00,10.00
+"The Betweenlands","thebetweenlands:aqua_middle_gem_block",1.50,30.00
+"The Betweenlands","thebetweenlands:aqua_middle_gem_ore",1.50,30.00
+"The Betweenlands","thebetweenlands:arrow_arum",0.00,0.00
+"The Betweenlands","thebetweenlands:aspect_vial_block",0.40,2.00
+"The Betweenlands","thebetweenlands:aspectrus_crop",0.00,0.00
+"The Betweenlands","thebetweenlands:betweenlands_bedrock",-1.00,18000000.00
+"The Betweenlands","thebetweenlands:betweenstone",1.50,30.00
+"The Betweenlands","thebetweenlands:betweenstone_brick_slab",2.00,30.00
+"The Betweenlands","thebetweenlands:betweenstone_brick_stairs",1.50,30.00
+"The Betweenlands","thebetweenlands:betweenstone_brick_wall",2.00,10.00
+"The Betweenlands","thebetweenlands:betweenstone_bricks",1.50,30.00
+"The Betweenlands","thebetweenlands:betweenstone_bricks_mirage",1.50,30.00
+"The Betweenlands","thebetweenlands:betweenstone_button",0.50,2.50
+"The Betweenlands","thebetweenlands:betweenstone_chiseled",1.50,30.00
+"The Betweenlands","thebetweenlands:betweenstone_pillar",1.50,30.00
+"The Betweenlands","thebetweenlands:betweenstone_pressure_plate",1.50,30.00
+"The Betweenlands","thebetweenlands:betweenstone_slab",2.00,30.00
+"The Betweenlands","thebetweenlands:betweenstone_stairs",1.50,30.00
+"The Betweenlands","thebetweenlands:betweenstone_tiles",1.50,30.00
+"The Betweenlands","thebetweenlands:betweenstone_wall",2.00,10.00
+"The Betweenlands","thebetweenlands:black_hat_mushroom",0.00,0.00
+"The Betweenlands","thebetweenlands:black_ice",0.50,2.50
+"The Betweenlands","thebetweenlands:bladderwort_flower",0.00,0.00
+"The Betweenlands","thebetweenlands:bladderwort_stalk",1.50,30.00
+"The Betweenlands","thebetweenlands:blue_eyed_grass",0.00,0.00
+"The Betweenlands","thebetweenlands:blue_iris",0.00,0.00
+"The Betweenlands","thebetweenlands:bog_bean_flower",0.00,0.00
+"The Betweenlands","thebetweenlands:bog_bean_stalk",1.50,30.00
+"The Betweenlands","thebetweenlands:boneset",0.00,0.00
+"The Betweenlands","thebetweenlands:bottle_brush_grass",0.00,0.00
+"The Betweenlands","thebetweenlands:broomsedge",0.00,0.00
+"The Betweenlands","thebetweenlands:bulb_capped_mushroom",0.00,0.00
+"The Betweenlands","thebetweenlands:bulb_capped_mushroom_cap",0.20,1.00
+"The Betweenlands","thebetweenlands:bulb_capped_mushroom_stalk",0.20,1.00
+"The Betweenlands","thebetweenlands:button_bush",0.00,0.00
+"The Betweenlands","thebetweenlands:cardinal_flower",0.00,0.00
+"The Betweenlands","thebetweenlands:cattail",0.00,0.00
+"The Betweenlands","thebetweenlands:cave_grass",0.00,0.00
+"The Betweenlands","thebetweenlands:cave_moss",0.00,0.00
+"The Betweenlands","thebetweenlands:caving_rope_light",0.00,0.00
+"The Betweenlands","thebetweenlands:coarse_swamp_dirt",0.50,2.50
+"The Betweenlands","thebetweenlands:compost_bin",2.00,15.00
+"The Betweenlands","thebetweenlands:compost_block",0.50,30.00
+"The Betweenlands","thebetweenlands:copper_iris",0.00,0.00
+"The Betweenlands","thebetweenlands:cracked_betweenstone_brick_slab",2.00,30.00
+"The Betweenlands","thebetweenlands:cracked_betweenstone_brick_stairs",1.50,30.00
+"The Betweenlands","thebetweenlands:cracked_betweenstone_brick_wall",2.00,10.00
+"The Betweenlands","thebetweenlands:cracked_betweenstone_bricks",1.50,30.00
+"The Betweenlands","thebetweenlands:cracked_betweenstone_tiles",1.50,30.00
+"The Betweenlands","thebetweenlands:cracked_limestone_bricks",1.50,30.00
+"The Betweenlands","thebetweenlands:cragrock",1.50,30.00
+"The Betweenlands","thebetweenlands:cragrock_brick_slab",2.00,30.00
+"The Betweenlands","thebetweenlands:cragrock_brick_stairs",1.50,30.00
+"The Betweenlands","thebetweenlands:cragrock_brick_wall",2.00,10.00
+"The Betweenlands","thebetweenlands:cragrock_bricks",1.50,30.00
+"The Betweenlands","thebetweenlands:cragrock_chiseled",1.50,30.00
+"The Betweenlands","thebetweenlands:cragrock_pillar",1.50,30.00
+"The Betweenlands","thebetweenlands:cragrock_slab",2.00,30.00
+"The Betweenlands","thebetweenlands:cragrock_stairs",1.50,30.00
+"The Betweenlands","thebetweenlands:cragrock_tiles",1.50,30.00
+"The Betweenlands","thebetweenlands:cragrock_wall",2.00,10.00
+"The Betweenlands","thebetweenlands:crimson_middle_gem_block",1.50,30.00
+"The Betweenlands","thebetweenlands:crimson_middle_gem_ore",1.50,30.00
+"The Betweenlands","thebetweenlands:damp_torch",0.00,0.00
+"The Betweenlands","thebetweenlands:dead_grass",0.50,2.50
+"The Betweenlands","thebetweenlands:dead_weedwood_bush",0.00,0.00
+"The Betweenlands","thebetweenlands:deep_water_coral",0.50,30.00
+"The Betweenlands","thebetweenlands:deep_water_coral_block",1.50,30.00
+"The Betweenlands","thebetweenlands:dentrothyst",1.50,30.00
+"The Betweenlands","thebetweenlands:druid_altar",8.00,300.00
+"The Betweenlands","thebetweenlands:druid_stone_1",1.50,30.00
+"The Betweenlands","thebetweenlands:druid_stone_2",1.50,30.00
+"The Betweenlands","thebetweenlands:druid_stone_3",1.50,30.00
+"The Betweenlands","thebetweenlands:druid_stone_4",1.50,30.00
+"The Betweenlands","thebetweenlands:druid_stone_5",1.50,30.00
+"The Betweenlands","thebetweenlands:druid_stone_6",1.50,30.00
+"The Betweenlands","thebetweenlands:dug_purified_swamp_dirt",0.50,2.50
+"The Betweenlands","thebetweenlands:dug_purified_swamp_grass",0.50,2.50
+"The Betweenlands","thebetweenlands:dug_swamp_dirt",0.50,2.50
+"The Betweenlands","thebetweenlands:dug_swamp_grass",0.50,2.50
+"The Betweenlands","thebetweenlands:energy_barrier",-1.00,18000000.00
+"The Betweenlands","thebetweenlands:fallen_leaves",0.10,0.50
+"The Betweenlands","thebetweenlands:flat_head_mushroom",0.00,0.00
+"The Betweenlands","thebetweenlands:fungus_crop",0.00,0.00
+"The Betweenlands","thebetweenlands:gecko_cage",2.00,15.00
+"The Betweenlands","thebetweenlands:generic_stone",1.50,30.00
+"The Betweenlands","thebetweenlands:giant_root",2.00,10.00
+"The Betweenlands","thebetweenlands:giant_root_plank_door",1.75,15.00
+"The Betweenlands","thebetweenlands:giant_root_plank_fence",2.00,15.00
+"The Betweenlands","thebetweenlands:giant_root_plank_fence_gate",2.00,10.00
+"The Betweenlands","thebetweenlands:giant_root_plank_slab",2.00,30.00
+"The Betweenlands","thebetweenlands:giant_root_plank_stairs",1.75,15.00
+"The Betweenlands","thebetweenlands:giant_root_plank_trapdoor",1.75,15.00
+"The Betweenlands","thebetweenlands:giant_root_planks",1.75,15.00
+"The Betweenlands","thebetweenlands:glowing_betweenstone_tile",1.50,30.00
+"The Betweenlands","thebetweenlands:glowing_smooth_cragrock",1.50,30.00
+"The Betweenlands","thebetweenlands:golden_club_flower",0.00,0.00
+"The Betweenlands","thebetweenlands:golden_club_stalk",1.50,30.00
+"The Betweenlands","thebetweenlands:green_middle_gem_block",1.50,30.00
+"The Betweenlands","thebetweenlands:green_middle_gem_ore",1.50,30.00
+"The Betweenlands","thebetweenlands:hanger",0.10,0.50
+"The Betweenlands","thebetweenlands:hearthgrove_plank_door",1.75,15.00
+"The Betweenlands","thebetweenlands:hearthgrove_plank_fence",2.00,15.00
+"The Betweenlands","thebetweenlands:hearthgrove_plank_fence_gate",2.00,10.00
+"The Betweenlands","thebetweenlands:hearthgrove_plank_slab",2.00,30.00
+"The Betweenlands","thebetweenlands:hearthgrove_plank_stairs",1.75,15.00
+"The Betweenlands","thebetweenlands:hearthgrove_plank_trapdoor",1.75,15.00
+"The Betweenlands","thebetweenlands:hearthgrove_planks",1.75,15.00
+"The Betweenlands","thebetweenlands:hollow_log",0.80,4.00
+"The Betweenlands","thebetweenlands:inactive_glowing_smooth_cragrock",1.50,30.00
+"The Betweenlands","thebetweenlands:infuser",2.00,15.00
+"The Betweenlands","thebetweenlands:item_cage",10.00,30.00
+"The Betweenlands","thebetweenlands:item_shelf",2.00,10.00
+"The Betweenlands","thebetweenlands:leaves_hearthgrove_tree",0.20,1.00
+"The Betweenlands","thebetweenlands:leaves_nibbletwig_tree",0.20,1.00
+"The Betweenlands","thebetweenlands:leaves_rubber_tree",0.20,1.00
+"The Betweenlands","thebetweenlands:leaves_sap_tree",0.20,1.00
+"The Betweenlands","thebetweenlands:leaves_spirit_tree_bottom",0.20,1.00
+"The Betweenlands","thebetweenlands:leaves_spirit_tree_middle",0.20,1.00
+"The Betweenlands","thebetweenlands:leaves_spirit_tree_top",0.20,1.00
+"The Betweenlands","thebetweenlands:leaves_weedwood_tree",0.20,1.00
+"The Betweenlands","thebetweenlands:lichen",0.20,1.00
+"The Betweenlands","thebetweenlands:life_crystal_stalactite",2.50,30.00
+"The Betweenlands","thebetweenlands:limestone",1.20,24.00
+"The Betweenlands","thebetweenlands:limestone_brick_slab",2.00,30.00
+"The Betweenlands","thebetweenlands:limestone_brick_stairs",1.50,30.00
+"The Betweenlands","thebetweenlands:limestone_brick_wall",2.00,10.00
+"The Betweenlands","thebetweenlands:limestone_bricks",1.50,30.00
+"The Betweenlands","thebetweenlands:limestone_chiseled",1.50,30.00
+"The Betweenlands","thebetweenlands:limestone_pillar",1.50,30.00
+"The Betweenlands","thebetweenlands:limestone_slab",2.00,30.00
+"The Betweenlands","thebetweenlands:limestone_stairs",1.20,24.00
+"The Betweenlands","thebetweenlands:limestone_tiles",1.50,30.00
+"The Betweenlands","thebetweenlands:limestone_wall",2.00,10.00
+"The Betweenlands","thebetweenlands:log_hearthgrove",2.00,10.00
+"The Betweenlands","thebetweenlands:log_nibbletwig",2.00,10.00
+"The Betweenlands","thebetweenlands:log_portal",2.00,10.00
+"The Betweenlands","thebetweenlands:log_rotten_bark",2.00,10.00
+"The Betweenlands","thebetweenlands:log_rubber",2.00,10.00
+"The Betweenlands","thebetweenlands:log_sap",2.00,10.00
+"The Betweenlands","thebetweenlands:log_spirit_tree",2.00,10.00
+"The Betweenlands","thebetweenlands:log_spreading_rotten_bark",2.00,10.00
+"The Betweenlands","thebetweenlands:log_weedwood",2.00,10.00
+"The Betweenlands","thebetweenlands:loot_pot",0.40,2.00
+"The Betweenlands","thebetweenlands:marsh_hibiscus",0.00,0.00
+"The Betweenlands","thebetweenlands:marsh_mallow",0.00,0.00
+"The Betweenlands","thebetweenlands:marsh_marigold_flower",0.00,0.00
+"The Betweenlands","thebetweenlands:marsh_marigold_stalk",1.50,30.00
+"The Betweenlands","thebetweenlands:middle_fruit_bush",0.00,0.00
+"The Betweenlands","thebetweenlands:milkweed",0.00,0.00
+"The Betweenlands","thebetweenlands:mire_coral",0.50,30.00
+"The Betweenlands","thebetweenlands:mire_coral_block",1.50,30.00
+"The Betweenlands","thebetweenlands:mob_spawner",10.00,50.00
+"The Betweenlands","thebetweenlands:mortar",2.00,15.00
+"The Betweenlands","thebetweenlands:moss",0.20,1.00
+"The Betweenlands","thebetweenlands:moss_bed",0.20,1.00
+"The Betweenlands","thebetweenlands:mossy_betweenstone_brick_slab",2.00,30.00
+"The Betweenlands","thebetweenlands:mossy_betweenstone_brick_stairs",1.50,30.00
+"The Betweenlands","thebetweenlands:mossy_betweenstone_brick_wall",2.00,10.00
+"The Betweenlands","thebetweenlands:mossy_betweenstone_bricks",1.50,30.00
+"The Betweenlands","thebetweenlands:mossy_betweenstone_tiles",1.50,30.00
+"The Betweenlands","thebetweenlands:mossy_limestone_bricks",1.50,30.00
+"The Betweenlands","thebetweenlands:mossy_smooth_betweenstone",1.50,30.00
+"The Betweenlands","thebetweenlands:mossy_smooth_betweenstone_slab",2.00,30.00
+"The Betweenlands","thebetweenlands:mossy_smooth_betweenstone_stairs",1.50,30.00
+"The Betweenlands","thebetweenlands:mossy_smooth_betweenstone_wall",2.00,10.00
+"The Betweenlands","thebetweenlands:mud",0.50,2.50
+"The Betweenlands","thebetweenlands:mud_brick_roof",1.50,30.00
+"The Betweenlands","thebetweenlands:mud_brick_shingle_slab",2.00,30.00
+"The Betweenlands","thebetweenlands:mud_brick_shingles",1.50,30.00
+"The Betweenlands","thebetweenlands:mud_brick_slab",2.00,30.00
+"The Betweenlands","thebetweenlands:mud_brick_stairs",1.50,30.00
+"The Betweenlands","thebetweenlands:mud_brick_wall",2.00,10.00
+"The Betweenlands","thebetweenlands:mud_bricks",1.50,30.00
+"The Betweenlands","thebetweenlands:mud_flower_pot",0.30,1.50
+"The Betweenlands","thebetweenlands:mud_flower_pot_candle",0.30,1.50
+"The Betweenlands","thebetweenlands:nettle",0.00,0.00
+"The Betweenlands","thebetweenlands:nettle_flowered",0.00,0.00
+"The Betweenlands","thebetweenlands:nibbletwig_plank_door",1.75,15.00
+"The Betweenlands","thebetweenlands:nibbletwig_plank_fence",2.00,15.00
+"The Betweenlands","thebetweenlands:nibbletwig_plank_fence_gate",2.00,10.00
+"The Betweenlands","thebetweenlands:nibbletwig_plank_slab",2.00,30.00
+"The Betweenlands","thebetweenlands:nibbletwig_plank_stairs",1.75,15.00
+"The Betweenlands","thebetweenlands:nibbletwig_plank_trapdoor",1.75,15.00
+"The Betweenlands","thebetweenlands:nibbletwig_planks",1.75,15.00
+"The Betweenlands","thebetweenlands:octine_block",1.50,30.00
+"The Betweenlands","thebetweenlands:octine_ore",1.50,30.00
+"The Betweenlands","thebetweenlands:peat",0.50,2.50
+"The Betweenlands","thebetweenlands:phragmites",0.00,0.00
+"The Betweenlands","thebetweenlands:pickerel_weed",0.00,0.00
+"The Betweenlands","thebetweenlands:pitcher_plant",0.00,0.00
+"The Betweenlands","thebetweenlands:pitstone",1.50,30.00
+"The Betweenlands","thebetweenlands:pitstone_brick_slab",2.00,30.00
+"The Betweenlands","thebetweenlands:pitstone_brick_stairs",1.50,30.00
+"The Betweenlands","thebetweenlands:pitstone_brick_wall",2.00,10.00
+"The Betweenlands","thebetweenlands:pitstone_bricks",1.50,30.00
+"The Betweenlands","thebetweenlands:pitstone_chiseled",1.50,30.00
+"The Betweenlands","thebetweenlands:pitstone_pillar",1.50,30.00
+"The Betweenlands","thebetweenlands:pitstone_slab",2.00,30.00
+"The Betweenlands","thebetweenlands:pitstone_stairs",1.50,30.00
+"The Betweenlands","thebetweenlands:pitstone_tiles",1.50,30.00
+"The Betweenlands","thebetweenlands:pitstone_wall",2.00,10.00
+"The Betweenlands","thebetweenlands:poison_ivy",0.20,1.00
+"The Betweenlands","thebetweenlands:polished_dentrothyst",0.30,1.50
+"The Betweenlands","thebetweenlands:polished_dentrothyst_pane",0.30,1.50
+"The Betweenlands","thebetweenlands:polished_limestone",1.50,30.00
+"The Betweenlands","thebetweenlands:polished_limestone_slab",2.00,30.00
+"The Betweenlands","thebetweenlands:polished_limestone_stairs",1.50,30.00
+"The Betweenlands","thebetweenlands:polished_limestone_wall",2.00,10.00
+"The Betweenlands","thebetweenlands:portal_frame",2.00,10.00
+"The Betweenlands","thebetweenlands:possessed_block",10.00,6000.00
+"The Betweenlands","thebetweenlands:present",0.80,4.00
+"The Betweenlands","thebetweenlands:puddle",0.10,0.50
+"The Betweenlands","thebetweenlands:purified_swamp_dirt",0.50,2.50
+"The Betweenlands","thebetweenlands:purifier",2.00,15.00
+"The Betweenlands","thebetweenlands:repeller",1.00,5.00
+"The Betweenlands","thebetweenlands:root",1.50,30.00
+"The Betweenlands","thebetweenlands:root_pod",0.00,0.00
+"The Betweenlands","thebetweenlands:root_underwater",1.50,30.00
+"The Betweenlands","thebetweenlands:rope",0.50,2.50
+"The Betweenlands","thebetweenlands:rubber",0.00,0.00
+"The Betweenlands","thebetweenlands:rubber_block",1.00,5.00
+"The Betweenlands","thebetweenlands:rubber_tree_plank_door",1.75,15.00
+"The Betweenlands","thebetweenlands:rubber_tree_plank_fence",2.00,15.00
+"The Betweenlands","thebetweenlands:rubber_tree_plank_fence_gate",2.00,10.00
+"The Betweenlands","thebetweenlands:rubber_tree_plank_slab",2.00,30.00
+"The Betweenlands","thebetweenlands:rubber_tree_plank_stairs",1.75,15.00
+"The Betweenlands","thebetweenlands:rubber_tree_plank_trapdoor",1.75,15.00
+"The Betweenlands","thebetweenlands:rubber_tree_planks",1.75,15.00
+"The Betweenlands","thebetweenlands:sapling_hearthgrove",0.00,0.00
+"The Betweenlands","thebetweenlands:sapling_nibbletwig",0.00,0.00
+"The Betweenlands","thebetweenlands:sapling_rubber",0.00,0.00
+"The Betweenlands","thebetweenlands:sapling_sap",0.00,0.00
+"The Betweenlands","thebetweenlands:sapling_spirit_tree",0.00,0.00
+"The Betweenlands","thebetweenlands:sapling_weedwood",0.00,0.00
+"The Betweenlands","thebetweenlands:scabyst_block",1.50,30.00
+"The Betweenlands","thebetweenlands:scabyst_brick_slab",2.00,30.00
+"The Betweenlands","thebetweenlands:scabyst_brick_stairs",1.50,30.00
+"The Betweenlands","thebetweenlands:scabyst_brick_wall",2.00,10.00
+"The Betweenlands","thebetweenlands:scabyst_bricks",1.50,30.00
+"The Betweenlands","thebetweenlands:scabyst_chiseled_1",1.50,30.00
+"The Betweenlands","thebetweenlands:scabyst_chiseled_2",1.50,30.00
+"The Betweenlands","thebetweenlands:scabyst_chiseled_3",1.50,30.00
+"The Betweenlands","thebetweenlands:scabyst_door",1.50,30.00
+"The Betweenlands","thebetweenlands:scabyst_ore",1.50,30.00
+"The Betweenlands","thebetweenlands:scabyst_pitstone_dotted",1.50,30.00
+"The Betweenlands","thebetweenlands:scabyst_pitstone_horizontal",1.50,30.00
+"The Betweenlands","thebetweenlands:scabyst_trapdoor",1.75,15.00
+"The Betweenlands","thebetweenlands:shelf_fungus",0.20,1.00
+"The Betweenlands","thebetweenlands:shoots",0.00,0.00
+"The Betweenlands","thebetweenlands:silt",0.50,2.50
+"The Betweenlands","thebetweenlands:silt_glass",0.30,1.50
+"The Betweenlands","thebetweenlands:silt_glass_pane",0.30,1.50
+"The Betweenlands","thebetweenlands:slimy_bone_block",1.50,30.00
+"The Betweenlands","thebetweenlands:slimy_bone_ore",1.50,30.00
+"The Betweenlands","thebetweenlands:slimy_dirt",0.50,2.50
+"The Betweenlands","thebetweenlands:slimy_grass",0.50,2.50
+"The Betweenlands","thebetweenlands:sludge",0.10,0.50
+"The Betweenlands","thebetweenlands:sludgecreep",0.00,0.00
+"The Betweenlands","thebetweenlands:sludgy_dirt",0.50,2.50
+"The Betweenlands","thebetweenlands:smooth_betweenstone",1.50,30.00
+"The Betweenlands","thebetweenlands:smooth_betweenstone_slab",2.00,30.00
+"The Betweenlands","thebetweenlands:smooth_betweenstone_stairs",1.50,30.00
+"The Betweenlands","thebetweenlands:smooth_betweenstone_wall",2.00,10.00
+"The Betweenlands","thebetweenlands:smooth_cragrock",1.50,30.00
+"The Betweenlands","thebetweenlands:smooth_cragrock_slab",2.00,30.00
+"The Betweenlands","thebetweenlands:smooth_cragrock_stairs",1.50,30.00
+"The Betweenlands","thebetweenlands:smooth_cragrock_wall",2.00,10.00
+"The Betweenlands","thebetweenlands:smooth_pitstone",1.50,30.00
+"The Betweenlands","thebetweenlands:smooth_pitstone_slab",2.00,30.00
+"The Betweenlands","thebetweenlands:smooth_pitstone_stairs",1.50,30.00
+"The Betweenlands","thebetweenlands:smooth_pitstone_wall",2.00,10.00
+"The Betweenlands","thebetweenlands:snow",0.10,0.50
+"The Betweenlands","thebetweenlands:soft_rush",0.00,0.00
+"The Betweenlands","thebetweenlands:spike_trap",10.00,6000.00
+"The Betweenlands","thebetweenlands:spreading_sludgy_dirt",0.50,2.50
+"The Betweenlands","thebetweenlands:stagnant_water",0.00,0.00
+"The Betweenlands","thebetweenlands:stalactite",1.50,30.00
+"The Betweenlands","thebetweenlands:standing_weedwood_sign",1.00,5.00
+"The Betweenlands","thebetweenlands:sulfur_block",1.50,30.00
+"The Betweenlands","thebetweenlands:sulfur_furnace",3.50,17.50
+"The Betweenlands","thebetweenlands:sulfur_furnace_active",3.50,17.50
+"The Betweenlands","thebetweenlands:sulfur_furnace_dual",3.50,17.50
+"The Betweenlands","thebetweenlands:sulfur_furnace_dual_active",3.50,17.50
+"The Betweenlands","thebetweenlands:sulfur_ore",1.50,30.00
+"The Betweenlands","thebetweenlands:sulfur_torch",0.00,0.00
+"The Betweenlands","thebetweenlands:sundew",0.00,0.00
+"The Betweenlands","thebetweenlands:swamp_dirt",0.50,2.50
+"The Betweenlands","thebetweenlands:swamp_double_tallgrass",0.00,0.00
+"The Betweenlands","thebetweenlands:swamp_grass",0.50,2.50
+"The Betweenlands","thebetweenlands:swamp_kelp",0.10,30.00
+"The Betweenlands","thebetweenlands:swamp_plant",0.00,0.00
+"The Betweenlands","thebetweenlands:swamp_reed",0.00,0.00
+"The Betweenlands","thebetweenlands:swamp_reed_underwater",0.10,30.00
+"The Betweenlands","thebetweenlands:swamp_tallgrass",0.00,0.00
+"The Betweenlands","thebetweenlands:swamp_water",0.00,0.00
+"The Betweenlands","thebetweenlands:syrmorite_block",1.50,30.00
+"The Betweenlands","thebetweenlands:syrmorite_door",1.50,30.00
+"The Betweenlands","thebetweenlands:syrmorite_hopper",3.00,24.00
+"The Betweenlands","thebetweenlands:syrmorite_ore",1.50,30.00
+"The Betweenlands","thebetweenlands:syrmorite_pressure_plate",1.50,30.00
+"The Betweenlands","thebetweenlands:syrmorite_rubber_tap",2.00,10.00
+"The Betweenlands","thebetweenlands:syrmorite_trapdoor",1.50,30.00
+"The Betweenlands","thebetweenlands:tall_cattail",0.00,0.00
+"The Betweenlands","thebetweenlands:tar",0.00,0.00
+"The Betweenlands","thebetweenlands:tar_beast_spawner",5.00,25.00
+"The Betweenlands","thebetweenlands:tar_loot_pot",1.50,30.00
+"The Betweenlands","thebetweenlands:tar_solid",1.50,30.00
+"The Betweenlands","thebetweenlands:tar_solid_slab",2.00,30.00
+"The Betweenlands","thebetweenlands:tar_solid_stairs",1.50,30.00
+"The Betweenlands","thebetweenlands:tar_solid_wall",2.00,10.00
+"The Betweenlands","thebetweenlands:temple_brick_slab",2.00,30.00
+"The Betweenlands","thebetweenlands:temple_brick_stairs",1.50,30.00
+"The Betweenlands","thebetweenlands:temple_brick_wall",2.00,10.00
+"The Betweenlands","thebetweenlands:temple_bricks",1.50,30.00
+"The Betweenlands","thebetweenlands:temple_pillar",1.50,30.00
+"The Betweenlands","thebetweenlands:thatch",0.50,2.50
+"The Betweenlands","thebetweenlands:thatch_roof",0.50,2.50
+"The Betweenlands","thebetweenlands:thatch_slab",0.50,30.00
+"The Betweenlands","thebetweenlands:thorns",0.20,1.00
+"The Betweenlands","thebetweenlands:tree_portal",-1.00,0.00
+"The Betweenlands","thebetweenlands:valonite_block",1.50,30.00
+"The Betweenlands","thebetweenlands:valonite_ore",1.50,30.00
+"The Betweenlands","thebetweenlands:venus_fly_trap",0.00,0.00
+"The Betweenlands","thebetweenlands:volarpad",0.00,0.00
+"The Betweenlands","thebetweenlands:walkway",1.00,5.00
+"The Betweenlands","thebetweenlands:wall_weedwood_sign",1.00,5.00
+"The Betweenlands","thebetweenlands:water_weeds",0.50,30.00
+"The Betweenlands","thebetweenlands:waystone",25.00,30000.00
+"The Betweenlands","thebetweenlands:weak_betweenstone_tiles",1.50,30.00
+"The Betweenlands","thebetweenlands:weak_mossy_betweenstone_tiles",1.50,30.00
+"The Betweenlands","thebetweenlands:weak_polished_limestone",1.50,30.00
+"The Betweenlands","thebetweenlands:weedwood",2.00,10.00
+"The Betweenlands","thebetweenlands:weedwood_bush",0.35,1.75
+"The Betweenlands","thebetweenlands:weedwood_chest",2.00,10.00
+"The Betweenlands","thebetweenlands:weedwood_door",2.00,15.00
+"The Betweenlands","thebetweenlands:weedwood_jukebox",2.00,30.00
+"The Betweenlands","thebetweenlands:weedwood_ladder",0.40,2.00
+"The Betweenlands","thebetweenlands:weedwood_lever",0.50,2.50
+"The Betweenlands","thebetweenlands:weedwood_log_fence",2.00,15.00
+"The Betweenlands","thebetweenlands:weedwood_log_fence_gate",2.00,10.00
+"The Betweenlands","thebetweenlands:weedwood_plank_button",0.50,2.50
+"The Betweenlands","thebetweenlands:weedwood_plank_fence",2.00,15.00
+"The Betweenlands","thebetweenlands:weedwood_plank_fence_gate",2.00,10.00
+"The Betweenlands","thebetweenlands:weedwood_plank_pressure_plate",2.00,15.00
+"The Betweenlands","thebetweenlands:weedwood_plank_slab",2.00,30.00
+"The Betweenlands","thebetweenlands:weedwood_plank_stairs",2.00,15.00
+"The Betweenlands","thebetweenlands:weedwood_planks",2.00,15.00
+"The Betweenlands","thebetweenlands:weedwood_rubber_tap",2.00,10.00
+"The Betweenlands","thebetweenlands:weedwood_trapdoor",2.00,15.00
+"The Betweenlands","thebetweenlands:weedwood_workbench",2.50,12.50
+"The Betweenlands","thebetweenlands:weeping_blue",0.00,0.00
+"The Betweenlands","thebetweenlands:wisp",0.00,0.00
+"The Betweenlands","thebetweenlands:wood_chip_path",0.50,2.50
+"Tomb Many Graves","tombmanygraves:grave_block",-1.00,300.00
+"Wards","wards:ward",5.00,36.00
+"Wings","wings:amethyst_ore",3.00,15.00
+"Wings","wings:fairy_dust_ore",3.00,15.00
+"Wizardry","wizardry:cloud",0.50,2.50
+"Wizardry","wizardry:crafting_plate",2.00,45.00
+"Wizardry","wizardry:creative_mana_battery",0.00,0.00
+"Wizardry","wizardry:fake_air",0.00,0.00
+"Wizardry","wizardry:halo_infuser",2.00,45.00
+"Wizardry","wizardry:jar_block",0.30,4.50
+"Wizardry","wizardry:light",0.00,0.00
+"Wizardry","wizardry:magicians_worktable",2.00,45.00
+"Wizardry","wizardry:mana_battery",0.00,0.00
+"Wizardry","wizardry:mana_fluid",0.00,0.00
+"Wizardry","wizardry:mana_magnet",2.00,45.00
+"Wizardry","wizardry:nacre_block",0.50,2.50
+"Wizardry","wizardry:nacre_block_brick",0.60,3.00
+"Wizardry","wizardry:nacre_fluid",0.00,0.00
+"Wizardry","wizardry:pearl_holder",2.00,45.00
+"Wizardry","wizardry:torikki_grass",0.60,9.00
+"Wizardry","wizardry:unicorn_trail",1.00,5.00
+"Wizardry","wizardry:wisdom_leaves",0.20,1.00
+"Wizardry","wizardry:wisdom_sapling",0.00,0.00
+"Wizardry","wizardry:wisdom_wood_door",0.00,0.00
+"Wizardry","wizardry:wisdom_wood_fence",0.00,0.00
+"Wizardry","wizardry:wisdom_wood_fence_gate",0.00,0.00
+"Wizardry","wizardry:wisdom_wood_log",2.00,0.00
+"Wizardry","wizardry:wisdom_wood_pigmented_planks",2.00,15.00
+"Wizardry","wizardry:wisdom_wood_planks",2.00,15.00
+"Wizardry","wizardry:wisdom_wood_slab",0.00,0.00
+"Wizardry","wizardry:wisdom_wood_slab_full",0.00,0.00
+"Wizardry","wizardry:wisdom_wood_stairs",2.00,15.00
+"Wizardry","wizardry:wisdom_wood_trapdoor",0.00,0.00
+"YABBA","yabba:antibarrel",6.00,3000.00
+"YABBA","yabba:decorative_block",2.00,10.00
+"YABBA","yabba:item_barrel",2.00,10.00
+"YABBA","yabba:item_barrel_connector",1.00,5.00
+"Zoocraft Discoveries","zoocraftdiscoveries:arcticpine_log",2.00,10.00
+"Zoocraft Discoveries","zoocraftdiscoveries:arcticpine_planks",2.00,15.00
+"Zoocraft Discoveries","zoocraftdiscoveries:cookie_bush",0.20,1.00
+"Zoocraft Discoveries","zoocraftdiscoveries:crystal_glass",0.30,1.50
+"Zoocraft Discoveries","zoocraftdiscoveries:grid_glass",0.40,2.00
+"Zoocraft Discoveries","zoocraftdiscoveries:herbs_basil",0.00,0.00
+"Zoocraft Discoveries","zoocraftdiscoveries:herbs_bay",0.00,0.00
+"Zoocraft Discoveries","zoocraftdiscoveries:herbs_chive",0.00,0.00
+"Zoocraft Discoveries","zoocraftdiscoveries:herbs_coriander",0.00,0.00
+"Zoocraft Discoveries","zoocraftdiscoveries:herbs_dill",0.00,0.00
+"Zoocraft Discoveries","zoocraftdiscoveries:herbs_lemongrass",0.00,0.00
+"Zoocraft Discoveries","zoocraftdiscoveries:herbs_mint",0.00,0.00
+"Zoocraft Discoveries","zoocraftdiscoveries:herbs_oregano",0.00,0.00
+"Zoocraft Discoveries","zoocraftdiscoveries:herbs_parsley",0.00,0.00
+"Zoocraft Discoveries","zoocraftdiscoveries:herbs_rosemary",0.00,0.00
+"Zoocraft Discoveries","zoocraftdiscoveries:herbs_saffron",0.00,0.00
+"Zoocraft Discoveries","zoocraftdiscoveries:herbs_sage",0.00,0.00
+"Zoocraft Discoveries","zoocraftdiscoveries:herbs_tarragon",0.00,0.00
+"Zoocraft Discoveries","zoocraftdiscoveries:herbs_thyme",0.00,0.00
+"Zoocraft Discoveries","zoocraftdiscoveries:laboratory_mosaic",1.25,21.00
+"Zoocraft Discoveries","zoocraftdiscoveries:particle_block",0.50,150.00
+"Zoocraft Discoveries","zoocraftdiscoveries:roof_pantile",1.25,21.00
+"Zoocraft Discoveries","zoocraftdiscoveries:roof_pantile_dyed",1.25,21.00
+"Zoocraft Discoveries","zoocraftdiscoveries:roof_slate",1.25,21.00
+"Zoocraft Discoveries","zoocraftdiscoveries:roof_thatching",0.50,2.50
