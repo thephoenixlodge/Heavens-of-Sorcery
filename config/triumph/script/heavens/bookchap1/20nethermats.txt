@@ -12,13 +12,13 @@ setPos(245,60)
 drawDirectLines()
 
 criteria1 = addCriteria("hasItems", "minecraft:inventory_changed")
-criteria1.addItem(<arcaneworld:amethyst, count:1>)
+criteria1.addItem(<arcaneworld:amethyst, count:1~>)
 
 criteria2 = addCriteria("hasItems2", "minecraft:inventory_changed")
-criteria2.addItem(<minecraft:quartz, count:10>)
+criteria2.addItem(<minecraft:quartz, count:10~>)
 
 criteria3 = addCriteria("hasItems3", "minecraft:inventory_changed")
-criteria3.addItem(<minecraft:gold_ingot, count:1>)
+criteria3.addItem(<minecraft:gold_ingot, count:1~>)
 
 addRewardItem(<minecraft:quartz_block, count:5>)
 addRewardItem(<minecraft:gold_ingot, count:5>)

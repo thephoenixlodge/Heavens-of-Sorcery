@@ -12,8 +12,8 @@ setPos(175,60)
 drawDirectLines()
 
 criteria1 = addCriteria("hasItemsCobble", "minecraft:inventory_changed")
-criteria1.addItem(<minecraft:cobblestone, count:10>)
+criteria1.addItem(<minecraft:cobblestone, count:10~>)
 criteria2 = addCriteria("hasItemsObsidian", "triumph:player_crafted_item")
-criteria2.addItem(<minecraft:obsidian, count:1>)
+criteria2.addItem(<minecraft:obsidian, count:1~>)
 
 addRewardItem(<minecraft:cobblestone, count:400>)
