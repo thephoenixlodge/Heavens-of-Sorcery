@@ -1,15 +1,15 @@
-"ID","DimensionType ID","Name","shouldLoadSpawn","Currently loaded","WorldProvider class"
-0,0,"overworld","true","true","net.minecraft.world.WorldProviderSurface"
--1,-1,"the_nether","false","false","net.minecraft.world.WorldProviderHell"
-1,1,"the_end","false","false","net.minecraft.world.WorldProviderEnd"
-3,3,"Aether","true","true","com.gildedgames.aether.common.world.aether.WorldProviderAether"
-6,684,"limbo","false","false","org.dimdev.dimdoors.shared.world.limbo.WorldProviderLimbo"
-7,685,"private_pockets","false","false","org.dimdev.dimdoors.shared.world.pocketdimension.WorldProviderPersonalPocket"
-8,686,"public_pockets","false","false","org.dimdev.dimdoors.shared.world.pocketdimension.WorldProviderPublicPocket"
-9,687,"dungeon_pockets","false","false","org.dimdev.dimdoors.shared.world.pocketdimension.WorldProviderDungeonPocket"
-10,687,"dungeon_pockets","false","false","org.dimdev.dimdoors.shared.world.pocketdimension.WorldProviderDungeonPocket"
-2,2,"KATHAIRIS","false","false","mod.krevik.world.dimension.WorldProviderMystic"
-33,33,"underworld","false","false","com.teamwizardry.wizardry.common.world.underworld.WorldProviderUnderWorld"
--3,-3,"dungeon","false","false","party.lemons.arcaneworld.gen.dungeon.dimension.DungeonDimensionProvider"
-20,20,"betweenlands","false","false","thebetweenlands.common.world.WorldProviderBetweenlands"
-5,5,"misty_world","false","false","ru.liahim.mist.world.WorldProviderMist"
+ID,DimensionType ID,Name,shouldLoadSpawn,Currently loaded,WorldProvider class
+0,0,overworld,TRUE,TRUE,net.minecraft.world.WorldProviderSurface
+-1,-1,the_nether,FALSE,FALSE,net.minecraft.world.WorldProviderHell
+1,1,the_end,FALSE,FALSE,net.minecraft.world.WorldProviderEnd
+3,3,Aether,TRUE,TRUE,com.gildedgames.aether.common.world.aether.WorldProviderAether
+6,684,limbo,FALSE,FALSE,org.dimdev.dimdoors.shared.world.limbo.WorldProviderLimbo
+7,685,private_pockets,FALSE,FALSE,org.dimdev.dimdoors.shared.world.pocketdimension.WorldProviderPersonalPocket
+8,686,public_pockets,FALSE,FALSE,org.dimdev.dimdoors.shared.world.pocketdimension.WorldProviderPublicPocket
+9,687,dungeon_pockets,FALSE,FALSE,org.dimdev.dimdoors.shared.world.pocketdimension.WorldProviderDungeonPocket
+10,687,dungeon_pockets,FALSE,FALSE,org.dimdev.dimdoors.shared.world.pocketdimension.WorldProviderDungeonPocket
+2,2,KATHAIRIS,FALSE,FALSE,mod.krevik.world.dimension.WorldProviderMystic
+33,33,underworld,FALSE,FALSE,com.teamwizardry.wizardry.common.world.underworld.WorldProviderUnderWorld
+-3,-3,dungeon,FALSE,FALSE,party.lemons.arcaneworld.gen.dungeon.dimension.DungeonDimensionProvider
+20,20,betweenlands,FALSE,FALSE,thebetweenlands.common.world.WorldProviderBetweenlands
+5,5,misty_world,FALSE,FALSE,ru.liahim.mist.world.WorldProviderMist

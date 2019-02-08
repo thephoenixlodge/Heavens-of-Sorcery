@@ -12,13 +12,13 @@ setPos(-70,95)
 drawDirectLines()
 
 criteria1 = addCriteria("hasItems", "minecraft:inventory_changed")
-criteria1.addItem(<botania:grassseeds, meta:7, count 1>)
+criteria1.addItem(<botania:grassseeds, meta:7, count:1~>)
 
 criteria2 = addCriteria("hasItems2", "minecraft:inventory_changed")
-criteria2.addItem(<minecraft:clay_ball, count:20>)
+criteria2.addItem(<minecraft:clay_ball, count:20~>)
 
 criteria3 = addCriteria("hasItems3", "minecraft:inventory_changed")
-criteria3.addItem(<contenttweaker:boneshard, count:20>)
+criteria3.addItem(<contenttweaker:boneshard, meta:0, count:20~>)
 
 addRewardItem(<minecraft:stone_pickaxe>)
 addRewardItem(<botania:grassseeds, meta:7, count:2>)

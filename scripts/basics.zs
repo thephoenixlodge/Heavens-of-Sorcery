@@ -84,7 +84,7 @@ val feather = <ore:feather>;
 val portalCore = <contenttweaker:otherworlds_core>;
 val mistyPortalUpper = <mist:portal_base:3>;
 val mistyPortalLower = <mist:portal_base:2>;
-val aetherPortal = <aether:aether_teleporter>;
+//val aetherPortal = <aether:aether_teleporter>;
 val bottleEmpty = <minecraft:glass_bottle>;
 val cape = <wizardry:cape>;
 val leather = <minecraft:leather>;
@@ -222,4 +222,4 @@ ArcaneWorld.createRitualCreateItem("mist_portal_upper", "Imbue Upper Portal Ston
 ArcaneWorld.createRitualCreateItem("mist_portal_lower", "Imbue Lower Portal Stone", mistyPortalLower, stoneTaiga, portalCore, nuggetGold, amethyst, growthPowder);
 
 //Aether Portal
-ArcaneWorld.createRitualCreateItem("aether_portal", "Imbue Aether Portal", aetherPortal, andesitePolished, portalCore, portalCore, sapphire, ingotIron);
+//ArcaneWorld.createRitualCreateItem("aether_portal", "Imbue Aether Portal", aetherPortal, andesitePolished, portalCore, portalCore, sapphire, ingotIron);

@@ -12,7 +12,7 @@ setPos(-70,25)
 drawDirectLines()
 
 criteria = addCriteria("hasItemIronberries", "minecraft:inventory_changed")
-criteria.addItem(<rustic:ironberries, count:20>)
+criteria.addItem(<rustic:ironberries, count:20~>)
 
 addRewardItem(<minecraft:stone_axe>)
 addRewardItem(<rustic:ironberries, count:20>)
