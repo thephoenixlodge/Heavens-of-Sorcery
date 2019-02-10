@@ -1,0 +1,149 @@
+{
+	"frame": {
+		//Valid values: "LATERAL", "VERTICAL", "VERTICAL_X", "VERTICAL_Z", "LATERAL_OR_VERTICAL"
+		"type": "VERTICAL",
+		//Custom size constraints can be defined for each axis.
+		"size": {
+			"verticalX": {
+				"minWidth": 4,
+				"maxWidth": 30,
+				"minHeight": 5,
+				"maxHeight": 30
+			},
+			"verticalZ": {
+				"minWidth": 4,
+				"maxWidth": 30,
+				"minHeight": 5,
+				"maxHeight": 30
+			}
+		},
+		"blocks": [
+			//Note that RandomPortals automatically formats and ensures the correctness
+			//of these configuration files. For example,
+			//{"registryName":"leaves"}
+			//would expand to the following when loaded.
+			{
+				"registryName": "minecraft:glowstone",
+				"minimumAmount": 0
+			},
+			{
+				"registryName": "chisel:glowstone",
+				"meta": 32767,
+				"minimumAmount": 0
+			},
+			{
+				"registryName": "chisel:glowstone1",
+				"meta": 32767,
+				"minimumAmount": 0
+			},
+			{
+				"registryName": "chisel:glowstone2",
+				"meta": 32767,
+				"minimumAmount": 0
+			}
+		],
+		//Valid values: "ANY", "ANY_NON_AIR", "SAME"
+		//"SAME" refers to the blocks defined above.
+		"requiredCorner": "ANY",
+		//Whether corner blocks also contribute to the minimum amounts defined above.
+		"cornerBlocksContributeToMinimumAmount": true,
+		//Whether generated portal frames drop. This can be set to false to prevent frame
+		//block farming.
+		//This should also work with other mods such as Block Breakers from OpenBlocks
+		//and Exchangers.
+		"doGeneratedFramesDrop": true
+	},
+	"activation": {
+		//Whether the portal frame is activated when fire is placed inside it. If this is set
+		//to false, only a player can activate this portal type using one of the activators
+		//defined below.
+		"canBeActivatedByFire": false,
+		//These items can be used to activate the Nether portal.
+		"activators": [
+			{
+				"registryName": "contenttweaker:otherworlds_core"
+			}
+		],
+		//What happens when one of the above activators is used. Valid values:
+		//"CONSUME": shrink the activator stack by 1
+		//"DAMAGE": damage the activator stack by 1
+		//"DO_NOTHING": do nothing to the activator stack
+		"activatorConsumeBehavior": "CONSUME",
+		//Whether fire should be spawned for a tick before the portal is activated
+		//(for visual effects).
+		"spawnFireBeforeActivating": false,
+		//A list of sounds that RandomPortals randomly selects from to play when a
+		//portal is activated.
+		"activationSounds": [
+			"minecraft:entity.wither.death"
+		]
+	},
+	"color": {
+		//Valid values: "WHITE", "ORANGE", "MAGENTA", "LIGHT_BLUE", "YELLOW", "LIME", "PINK",
+		//"GRAY", "SILVER", "CYAN", "PURPLE", "BLUE", "BROWN", "GREEN", "RED", "BLACK"
+		//When a portal is activated, a random color is selected.
+		"colors": [
+			"LIGHT_BLUE"
+		],
+		//Valid values:
+		//"DISABLE": this portal type cannot be dyed
+		//"ONLY_DEFINED_COLORS": this portal type can only be dyed to the colors defined above
+		//"ENABLE": this portal type can be dyed to any color
+		"dyeBehavior": "DISABLE"
+	},
+	"destination": {
+		"dimensionID": 3,
+		//Whether to teleport to a receiving portal
+		"teleportToPortal": true,
+		//Whether this portal is a one-way. If true, the corresponding portal generated in the
+		//destination dimension cannot be entered, only exited.
+		"oneWay": false,
+		//Whether to generate a portal in the destination dimension if a valid portal is not found.
+		"generatePortalIfNotFound": true,
+		//Valid values:
+		//"RANDOMIZE": randomize the frame type, size and blocks
+		//"CLONE": copy the frame type, size and blocks from the sending portal
+		//(note that this also copies any portal blocks, which means dye patterns are persistent,
+		//and that invalid corner blocks such as rogue chests and beds are not cloned)
+		//"USE_RECEIVING_DIMENSION_PORTAL_TYPE": randomize the frame type, size and blocks using
+		//the portal type defined for the receiving dimension
+		"portalGenerationBehavior": "CLONE",
+		//Valid values: "LATERAL", "VERTICAL", "VERTICAL_X", "VERTICAL_Z", "LATERAL_OR_VERTICAL",
+		//"SAME"
+		//If this is set to "SAME", the generated frame type will be lateral if the sending portal
+		//is lateral, and will otherwise be vertical
+		"generatedFrameType": "VERTICAL",
+		"generatedFrameSize": {
+			//If any of these values are set to 0, the width or height of the sending portal is
+			//used in place
+			//In this case, if the sending portal is lateral, then the generated portal will
+			//be a lateral portal of the same size but with randomized frame blocks
+			//Otherwise, the generated portal will be a vertical portal that is 4 blocks wide
+			//and 5 blocks tall with randomized frame blocks
+			"verticalX": {
+				"minWidth": 4,
+				"maxWidth": 4,
+				"minHeight": 5,
+				"maxHeight": 5
+			},
+			"verticalZ": {
+				"minWidth": 4,
+				"maxWidth": 4,
+				"minHeight": 5,
+				"maxHeight": 5
+			}
+		}
+	},
+	//The amount of time it takes for an entity to be teleported. If these values are set to 0,
+	//the default values are used.
+	//In this case, "lateral" is set to 1 so that players can jump into lateral portals from below
+	//and be teleported immediately.
+	"teleportationDelay": {
+		"lateral": 1,
+		"verticalX": 0,
+		"verticalZ": 0
+	},
+	//If this is set to true, this portal does not teleport any entities and is functionally
+	//useless.
+	"decorative": false
+}

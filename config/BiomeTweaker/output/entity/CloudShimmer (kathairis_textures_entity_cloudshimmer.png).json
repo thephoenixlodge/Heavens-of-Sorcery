@@ -1,0 +1,6 @@
+
+{
+  "Name": "CloudShimmer",
+  "Registry ID": "kathairis:textures/entity/cloudshimmer.png",
+  "Class": "mod.krevik.entity.butterfly.EntityCloudShimmer"
+}

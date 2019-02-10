@@ -1,0 +1,6 @@
+
+{
+  "Name": "fossil.debugtest",
+  "Registry ID": "fossil:fossil.debugtest",
+  "Class": "fossilsarcheology.server.entity.utility.EntityDebugTest"
+}

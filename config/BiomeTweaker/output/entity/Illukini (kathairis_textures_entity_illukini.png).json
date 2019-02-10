@@ -1,0 +1,6 @@
+
+{
+  "Name": "Illukini",
+  "Registry ID": "kathairis:textures/entity/illukini.png",
+  "Class": "mod.krevik.entity.butterfly.EntityIllukini"
+}

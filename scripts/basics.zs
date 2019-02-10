@@ -90,7 +90,8 @@ val cape = <wizardry:cape>;
 val leather = <minecraft:leather>;
 val slimeball = <minecraft:slime_ball>;
 val magmaCream = <minecraft:magma_cream>;
-
+val bedYellow = <minecraft:bed:4>;
+val oreThatch = <ore:blockThatch>;
 
 //Change Crushing tub recipe for starting
 recipes.remove(crushingTub);
@@ -221,5 +222,5 @@ ArcaneWorld.createRitualCreateItem("angel_statue", "Choir of Angels", angelicSta
 ArcaneWorld.createRitualCreateItem("mist_portal_upper", "Imbue Upper Portal Stone", mistyPortalUpper, stoneTaiga, portalCore, nuggetGold, amethyst, bottleEmpty);
 ArcaneWorld.createRitualCreateItem("mist_portal_lower", "Imbue Lower Portal Stone", mistyPortalLower, stoneTaiga, portalCore, nuggetGold, amethyst, growthPowder);
 
-//Aether Portal
-//ArcaneWorld.createRitualCreateItem("aether_portal", "Imbue Aether Portal", aetherPortal, andesitePolished, portalCore, portalCore, sapphire, ingotIron);
+//Alt bed recipe with thatch
+recipes.addShaped(bedYellow, [[oreThatch, oreThatch, oreThatch], [plankWood, plankWood, plankWood]]);

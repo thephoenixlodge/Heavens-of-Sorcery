@@ -1,0 +1,6 @@
+
+{
+  "Name": "JellyFish",
+  "Registry ID": "kathairis:textures/entity/jellyfish.png",
+  "Class": "mod.krevik.entity.EntityJellyFish"
+}

@@ -1,0 +1,6 @@
+
+{
+  "Name": "Gecko",
+  "Registry ID": "kathairis:textures/entity/gecko.png",
+  "Class": "mod.krevik.entity.EntityGecko"
+}

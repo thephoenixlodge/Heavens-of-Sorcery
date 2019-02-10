@@ -1,0 +1,6 @@
+
+{
+  "Name": "bound_zombie",
+  "Registry ID": "runecarved:bound_zombie",
+  "Class": "com.minerarcana.runecarved.entity.EntityBoundZombie"
+}

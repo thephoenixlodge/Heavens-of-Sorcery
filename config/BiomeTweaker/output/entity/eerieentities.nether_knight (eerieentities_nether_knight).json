@@ -1,0 +1,6 @@
+
+{
+  "Name": "eerieentities.nether_knight",
+  "Registry ID": "eerieentities:nether_knight",
+  "Class": "com.jarhax.eerieentities.entities.EntityNetherKnight"
+}

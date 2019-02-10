@@ -1,0 +1,6 @@
+
+{
+  "Name": "Fungite",
+  "Registry ID": "kathairis:textures/entity/fungite.png",
+  "Class": "mod.krevik.entity.EntityFungite"
+}

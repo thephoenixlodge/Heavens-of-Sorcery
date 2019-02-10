@@ -1,0 +1,6 @@
+
+{
+  "Name": "Bison",
+  "Registry ID": "kathairis:textures/entity/bison.png",
+  "Class": "mod.krevik.entity.EntityBison"
+}

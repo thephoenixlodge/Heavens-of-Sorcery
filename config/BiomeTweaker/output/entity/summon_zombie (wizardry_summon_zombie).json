@@ -1,0 +1,6 @@
+
+{
+  "Name": "summon_zombie",
+  "Registry ID": "wizardry:summon_zombie",
+  "Class": "com.teamwizardry.wizardry.common.entity.EntityBackupZombie"
+}

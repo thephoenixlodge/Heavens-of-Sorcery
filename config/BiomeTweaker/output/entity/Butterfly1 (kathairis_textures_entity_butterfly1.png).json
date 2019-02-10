@@ -1,0 +1,6 @@
+
+{
+  "Name": "Butterfly1",
+  "Registry ID": "kathairis:textures/entity/butterfly1.png",
+  "Class": "mod.krevik.entity.butterfly.EntityButterfly1"
+}

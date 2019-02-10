@@ -1,0 +1,6 @@
+
+{
+  "Name": "Camel",
+  "Registry ID": "kathairis:textures/entity/camel.png",
+  "Class": "mod.krevik.entity.EntityCamel"
+}

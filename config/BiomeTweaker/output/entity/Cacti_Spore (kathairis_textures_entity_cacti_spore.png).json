@@ -1,0 +1,6 @@
+
+{
+  "Name": "Cacti_Spore",
+  "Registry ID": "kathairis:textures/entity/cacti_spore.png",
+  "Class": "mod.krevik.entity.EntityCactiSpore"
+}

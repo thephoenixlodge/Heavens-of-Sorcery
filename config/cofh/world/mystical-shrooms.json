@@ -1,7 +1,7 @@
 {
 	"populate": {
 		"shrooms": {
-			"distribution": "uniform",
+			"distribution": "surface",
 			"generator": {
 				"type": "decoration",
 				"block": [
@@ -104,7 +104,10 @@
 				],
 				"surface": [
 					{
-						"name": "mist:acid_grass_0"
+						"name": "mist:acid_grass_0",
+						"properties": {
+							"wet": "true"
+						}
 					},
 					{
 						"name": "mist:acid_grass_1"
@@ -129,8 +132,7 @@
 			},
 			"cluster-count": 100,
 			"check-stay": false,
-			"min-height": 5,
-			"max-height": 60,
+			"material": "minecraft:air",
 			"biome": {
 				"restriction": "whitelist",
 				"value": [

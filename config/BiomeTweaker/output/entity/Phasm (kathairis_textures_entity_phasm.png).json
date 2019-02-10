@@ -1,0 +1,6 @@
+
+{
+  "Name": "Phasm",
+  "Registry ID": "kathairis:textures/entity/phasm.png",
+  "Class": "mod.krevik.entity.EntityPhasm"
+}
