@@ -98,12 +98,6 @@
       "Weight": 10,
       "Min Group Count": 1,
       "Max Group Count": 1
-    },
-    {
-      "Entity Class": "com.jarhax.eerieentities.entities.EntityPumpkinSlime",
-      "Weight": 5,
-      "Min Group Count": 1,
-      "Max Group Count": 1
     }
   ],
   "Spawnable Water Creatures": [],

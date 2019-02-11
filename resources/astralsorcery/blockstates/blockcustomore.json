@@ -1,0 +1,27 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "textures": {
+            "base": "mist:blocks/stone_basic",
+            "ore": "astralsorcery:blocks/ore_starmetal"
+        },
+        "model": "astralsorcery:ore"
+    },
+    "variants": {
+        "normal": [{}],
+        "inventory": [{}],
+        "oretype":{
+            "starmetal": {
+                "textures": {
+                    "base": "mist:blocks/stone",
+                    "ore": "astralsorcery:blocks/ore_starmetal"
+                }
+            },
+            "rock_crystal": {
+                "textures": {
+                    "ore": "astralsorcery:blocks/ore_rockcrystal"
+                }
+            }
+        }
+    }
+}

@@ -2,6 +2,12 @@
 	"frame": {
 		"type": "VERTICAL",
 		"size": {
+			"lateral": {
+				"minWidth": 3,
+				"maxWidth": 30,
+				"minHeight": 3,
+				"maxHeight": 30
+			},
 			"verticalX": {
 				"minWidth": 4,
 				"maxWidth": 30,
@@ -52,6 +58,12 @@
 		"portalGenerationBehavior": "CLONE",
 		"generatedFrameType": "SAME",
 		"generatedFrameSize": {
+			"lateral": {
+				"minWidth": 3,
+				"maxWidth": 30,
+				"minHeight": 3,
+				"maxHeight": 30
+			},
 			"verticalX": {
 				"minWidth": 4,
 				"maxWidth": 4,

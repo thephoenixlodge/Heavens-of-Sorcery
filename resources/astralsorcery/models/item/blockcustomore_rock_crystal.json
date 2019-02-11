@@ -1,0 +1,7 @@
+{
+    "parent": "astralsorcery:block/ore",
+    "textures": {
+        "base": "mist:blocks/stone_basic",
+        "ore": "astralsorcery:blocks/ore_rockcrystal"
+    }
+}

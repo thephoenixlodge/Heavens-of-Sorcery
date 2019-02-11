@@ -1,4 +1,4 @@
-13259 nodes in total
+13263 nodes in total
 Modifying this file won't have any effect, edit ranks.txt!
 
 admin_panel.ftbutilities.crash_reports.delete: OP
@@ -2448,6 +2448,7 @@ ftbutilities.claims.block.edit.naturesaura.placer: OP
 ftbutilities.claims.block.edit.naturesaura.potion_generator: OP
 ftbutilities.claims.block.edit.naturesaura.rf_converter: OP
 ftbutilities.claims.block.edit.naturesaura.spawn_lamp: OP
+ftbutilities.claims.block.edit.naturesaura.time_changer: OP
 ftbutilities.claims.block.edit.naturesaura.wood_stand: OP
 ftbutilities.claims.block.edit.platforms.platform: OP
 ftbutilities.claims.block.edit.qualitytools.reforging_station: OP
@@ -6128,6 +6129,7 @@ ftbutilities.claims.block.interact.naturesaura.placer: OP
 ftbutilities.claims.block.interact.naturesaura.potion_generator: OP
 ftbutilities.claims.block.interact.naturesaura.rf_converter: OP
 ftbutilities.claims.block.interact.naturesaura.spawn_lamp: OP
+ftbutilities.claims.block.interact.naturesaura.time_changer: OP
 ftbutilities.claims.block.interact.naturesaura.wood_stand: OP
 ftbutilities.claims.block.interact.platforms.platform: OP
 ftbutilities.claims.block.interact.qualitytools.reforging_station: OP
@@ -11243,6 +11245,7 @@ ftbutilities.claims.item.naturesaura.auto_crafter: ALL
 ftbutilities.claims.item.naturesaura.birth_spirit: ALL
 ftbutilities.claims.item.naturesaura.bottle_two_the_rebottling: ALL
 ftbutilities.claims.item.naturesaura.calling_spirit: ALL
+ftbutilities.claims.item.naturesaura.clock_hand: ALL
 ftbutilities.claims.item.naturesaura.color_changer: ALL
 ftbutilities.claims.item.naturesaura.conversion_catalyst: ALL
 ftbutilities.claims.item.naturesaura.crushing_catalyst: ALL
@@ -11295,6 +11298,7 @@ ftbutilities.claims.item.naturesaura.rf_converter: ALL
 ftbutilities.claims.item.naturesaura.shockwave_creator: ALL
 ftbutilities.claims.item.naturesaura.sky_ingot: ALL
 ftbutilities.claims.item.naturesaura.spawn_lamp: ALL
+ftbutilities.claims.item.naturesaura.time_changer: ALL
 ftbutilities.claims.item.naturesaura.wood_stand: ALL
 ftbutilities.claims.item.patchouli.guide_book: ALL
 ftbutilities.claims.item.platforms.platform: ALL

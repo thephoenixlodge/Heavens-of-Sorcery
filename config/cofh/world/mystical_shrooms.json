@@ -6,10 +6,7 @@
 				"type": "decoration",
 				"block": [
 					{
-						"name": "botania:mushroom",
-						"properties": {
-							"color": "white"
-						}
+						"name": "botania:mushroom"
 					},
 					{
 						"name": "botania:mushroom",
@@ -126,6 +123,12 @@
 					},
 					{
 						"name": "mist:stone"
+					},
+					{
+						"name": "minecraft:grass"
+					},
+					{
+						"name": "minecraft:stone"
 					}
 				],
 				"cluster-size": 50
@@ -134,7 +137,7 @@
 			"check-stay": false,
 			"material": "minecraft:air",
 			"biome": {
-				"restriction": "whitelist",
+				"restriction": "blacklist",
 				"value": [
 					{
 						"type": "id",

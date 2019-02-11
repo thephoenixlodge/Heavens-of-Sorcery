@@ -1,22 +1,6 @@
 {
-	//If this is true, portal types in this group can only be activated in the dimensions
-	//they are defined for (in this case, just the Overworld since we only have "0.json").
 	"blacklistAllUndefinedActivationDimensions": false,
-	//An array of the IDs of the dimensions that portal types in this group cannot be activated
-	//in. If "blacklistAllUndefinedActivationDimensions" is set to true, this has no effect.
-	//Because this is empty, portal types in this group can be activated in any dimension.
 	"activationDimensionIDBlacklist": [],
-	//The default dimension ID. When RandomPortals cannot figure out which dimension to teleport
-	//to, this dimension ID is used. Note that a portal type *must* be defined for this dimension.
 	"defaultDimensionID": 0,
-	//Zombie pigman spawn rates can be configured for each dimension.
-	"zombiePigmanSpawnRates": {
-		//The chance that a zombie pigman spawns from a single portal block each tick is d in n,
-		//where d is the difficulty from 0 to 3 and n is the defined spawn rate. If n is smaller
-		//than or equal to d, then the chance that a zombie pigman spawns each tick is 1,
-		//i.e. a zombie pigman will spawn every tick.
-		//In this case, if the difficulty is Hard, then the chance that a zombie pigman spawns
-		//each tick is 3 in 2000.
-		"0": 0
-	}
+	"zombiePigmanSpawnRates": {}
 }
