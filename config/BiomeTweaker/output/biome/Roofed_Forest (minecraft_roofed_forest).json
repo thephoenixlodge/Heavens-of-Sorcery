@@ -21,8 +21,8 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "SPOOKY",
-    "FOREST",
-    "DENSE"
+    "DENSE",
+    "FOREST"
   ],
   "BiomeManager Entries": {
     "WARM Weights": [

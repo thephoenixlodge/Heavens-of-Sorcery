@@ -1,6 +1,6 @@
 
 {
-  "ID": 89,
+  "ID": 97,
   "Name": "Patchy Islands",
   "Resource Location": "thebetweenlands:patchy_islands",
   "Class": "thebetweenlands.common.world.biome.BiomePatchyIslands",
@@ -21,8 +21,8 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "WATER",
-    "WET",
-    "SWAMP"
+    "SWAMP",
+    "WET"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

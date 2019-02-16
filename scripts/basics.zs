@@ -13,6 +13,7 @@ val seedIronberry = <rustic:ironwoodseed>;
 val ironBerryJuice = <liquid:ironberryjuice>;
 val dustTinyIron = <rustic:dust_tiny_iron>;
 val wandIronwood = <contenttweaker:ironwood_wand_one>;
+val wandIronwoodAdv = <contenttweaker:ironwood_wand_two>;
 val plankIronwood = <rustic:planks:1>;
 val stick = <ore:stickWood>;
 val furnace = <minecraft:furnace>;
@@ -92,6 +93,8 @@ val slimeball = <minecraft:slime_ball>;
 val magmaCream = <minecraft:magma_cream>;
 val bedYellow = <minecraft:bed:4>;
 val oreThatch = <ore:blockThatch>;
+val nacrePearl = <wizardry:nacre_pearl>;
+val emberShard = <embers:shard_ember>;
 
 //Change Crushing tub recipe for starting
 recipes.remove(crushingTub);
@@ -224,3 +227,6 @@ ArcaneWorld.createRitualCreateItem("mist_portal_lower", "Imbue Lower Portal Ston
 
 //Alt bed recipe with thatch
 recipes.addShaped(bedYellow, [[oreThatch, oreThatch, oreThatch], [plankWood, plankWood, plankWood]]);
+
+//Adv Ironwood Wand recipe
+ArcaneWorld.createRitualCreateItem("advWand", "Enhance Ironwood Wand", wandIronwoodAdv, wandIronwood, emberShard, nacrePearl, sapphire);

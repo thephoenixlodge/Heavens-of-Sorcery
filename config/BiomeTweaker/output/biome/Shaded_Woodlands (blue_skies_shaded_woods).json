@@ -1,0 +1,115 @@
+
+{
+  "ID": 91,
+  "Name": "Shaded Woodlands",
+  "Resource Location": "blue_skies:shaded_woods",
+  "Class": "com.legacy.blue_skies.world.everdawn.biome.BiomeShadedWoods",
+  "Root Height": 0.1,
+  "Height Variation": 0.1,
+  "Top Block": "blue_skies:lunar_grass[snowy\u003dfalse]",
+  "Filler Block": "blue_skies:lunar_dirt",
+  "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
+  "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
+  "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
+  "Water Color": "5330024",
+  "Temperature": 0.5,
+  "Humidity": 0.0,
+  "Water Tint": 5330024,
+  "Enable Rain": false,
+  "Enable Snow": false,
+  "Dictionary Types": [
+    "SPOOKY",
+    "DENSE",
+    "LUSH",
+    "FOREST"
+  ],
+  "BiomeManager Entries": {},
+  "Spawnable Creatures": [
+    {
+      "Entity Class": "com.legacy.blue_skies.entities.passive.EntityCosmicFox",
+      "Weight": 30,
+      "Min Group Count": 2,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "com.legacy.blue_skies.entities.passive.EntityFirefly",
+      "Weight": 50,
+      "Min Group Count": 3,
+      "Max Group Count": 5
+    },
+    {
+      "Entity Class": "pavocado.zoocraftdiscoveries.entity.EntityHedgehog",
+      "Weight": 5,
+      "Min Group Count": 2,
+      "Max Group Count": 5
+    },
+    {
+      "Entity Class": "pavocado.zoocraftdiscoveries.entity.EntityHedgehog",
+      "Weight": 5,
+      "Min Group Count": 2,
+      "Max Group Count": 5
+    },
+    {
+      "Entity Class": "pavocado.zoocraftdiscoveries.entity.EntityAnteater",
+      "Weight": 5,
+      "Min Group Count": 2,
+      "Max Group Count": 5
+    },
+    {
+      "Entity Class": "pavocado.zoocraftdiscoveries.entity.EntityFrog",
+      "Weight": 5,
+      "Min Group Count": 2,
+      "Max Group Count": 5
+    },
+    {
+      "Entity Class": "pavocado.zoocraftdiscoveries.entity.EntityFrog",
+      "Weight": 5,
+      "Min Group Count": 2,
+      "Max Group Count": 5
+    },
+    {
+      "Entity Class": "pavocado.zoocraftdiscoveries.entity.EntityCapybara",
+      "Weight": 5,
+      "Min Group Count": 2,
+      "Max Group Count": 5
+    },
+    {
+      "Entity Class": "pavocado.zoocraftdiscoveries.entity.EntityPorcupine",
+      "Weight": 5,
+      "Min Group Count": 2,
+      "Max Group Count": 5
+    }
+  ],
+  "Spawnable Monsters": [
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntityWitch",
+      "Weight": 20,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.legacy.blue_skies.entities.hostile.EntityNyctoBug",
+      "Weight": 30,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "com.jarhax.eerieentities.entities.EntityPumpkinSlime",
+      "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.jarhax.eerieentities.entities.EntityCursedArmor",
+      "Weight": 1,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    }
+  ],
+  "Spawnable Water Creatures": [],
+  "Spawnable Cave Creatures": [],
+  "Spawn Biome": false,
+  "Tweaked": false
+}

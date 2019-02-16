@@ -1,0 +1,84 @@
+
+{
+  "ID": 90,
+  "Name": "Unorthodox Valley",
+  "Resource Location": "blue_skies:unorthodox_valley",
+  "Class": "com.legacy.blue_skies.world.everdawn.biome.BiomeUnorthodoxValley",
+  "Root Height": 0.2,
+  "Height Variation": 0.7,
+  "Top Block": "blue_skies:lunar_grass[snowy\u003dfalse]",
+  "Filler Block": "blue_skies:lunar_dirt",
+  "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
+  "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
+  "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
+  "Water Color": "5330024",
+  "Temperature": 0.5,
+  "Humidity": 0.0,
+  "Water Tint": 5330024,
+  "Enable Rain": false,
+  "Enable Snow": false,
+  "Dictionary Types": [
+    "MOUNTAIN",
+    "MAGICAL",
+    "HILLS"
+  ],
+  "BiomeManager Entries": {},
+  "Spawnable Creatures": [
+    {
+      "Entity Class": "com.legacy.blue_skies.entities.passive.EntityCosmicFox",
+      "Weight": 37,
+      "Min Group Count": 2,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "com.legacy.blue_skies.entities.neutral.EntitySkyBear",
+      "Weight": 40,
+      "Min Group Count": 2,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "pavocado.zoocraftdiscoveries.entity.EntityChinchilla",
+      "Weight": 5,
+      "Min Group Count": 2,
+      "Max Group Count": 5
+    },
+    {
+      "Entity Class": "pavocado.zoocraftdiscoveries.entity.EntityPorcupine",
+      "Weight": 5,
+      "Min Group Count": 2,
+      "Max Group Count": 5
+    }
+  ],
+  "Spawnable Monsters": [
+    {
+      "Entity Class": "net.minecraft.entity.monster.EntityWitch",
+      "Weight": 40,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "thaumcraft.common.entities.monster.EntityPech",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.jarhax.eerieentities.entities.EntityPumpkinSlime",
+      "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.jarhax.eerieentities.entities.EntityCursedArmor",
+      "Weight": 1,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    }
+  ],
+  "Spawnable Water Creatures": [],
+  "Spawnable Cave Creatures": [],
+  "Spawn Biome": false,
+  "Tweaked": false
+}
