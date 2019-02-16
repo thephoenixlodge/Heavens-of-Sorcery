@@ -20,9 +20,9 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "OCEAN",
     "WATER",
-    "MAGICAL"
+    "MAGICAL",
+    "OCEAN"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -73,6 +73,12 @@
     {
       "Entity Class": "mod.krevik.entity.EntityGaznowel",
       "Weight": 2,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.jarhax.eerieentities.entities.EntityCursedArmor",
+      "Weight": 1,
       "Min Group Count": 1,
       "Max Group Count": 1
     }

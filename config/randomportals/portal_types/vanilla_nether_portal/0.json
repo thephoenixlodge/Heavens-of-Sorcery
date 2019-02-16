@@ -80,8 +80,8 @@
 	},
 	"teleportationDelay": {
 		"lateral": 0,
-		"verticalX": 0,
-		"verticalZ": 0
+		"verticalX": 5,
+		"verticalZ": 5
 	},
 	"decorative": false
 }

@@ -58,7 +58,7 @@
 		"activatorConsumeBehavior": "CONSUME",
 		"spawnFireBeforeActivating": false,
 		"activationSounds": [
-			"minecraft:entity.wither.death"
+			"aether_legacy:aemob.aerwhale.call"
 		]
 	},
 	"color": {
@@ -96,9 +96,9 @@
 		}
 	},
 	"teleportationDelay": {
-		"lateral": 1,
-		"verticalX": 0,
-		"verticalZ": 0
+		"lateral": 0,
+		"verticalX": 5,
+		"verticalZ": 5
 	},
 	"decorative": false
 }
