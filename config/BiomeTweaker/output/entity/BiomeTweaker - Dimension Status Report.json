@@ -1,0 +1,1618 @@
+//Yeah, it's a doozy.
+[
+  {
+    "Name": "ElderGuardian",
+    "Registry ID": "minecraft:elder_guardian",
+    "Class": "net.minecraft.entity.monster.EntityElderGuardian"
+  },
+  {
+    "Name": "WitherSkeleton",
+    "Registry ID": "minecraft:wither_skeleton",
+    "Class": "net.minecraft.entity.monster.EntityWitherSkeleton"
+  },
+  {
+    "Name": "Stray",
+    "Registry ID": "minecraft:stray",
+    "Class": "net.minecraft.entity.monster.EntityStray"
+  },
+  {
+    "Name": "Husk",
+    "Registry ID": "minecraft:husk",
+    "Class": "net.minecraft.entity.monster.EntityHusk"
+  },
+  {
+    "Name": "ZombieVillager",
+    "Registry ID": "minecraft:zombie_villager",
+    "Class": "net.minecraft.entity.monster.EntityZombieVillager"
+  },
+  {
+    "Name": "SkeletonHorse",
+    "Registry ID": "minecraft:skeleton_horse",
+    "Class": "net.minecraft.entity.passive.EntitySkeletonHorse"
+  },
+  {
+    "Name": "ZombieHorse",
+    "Registry ID": "minecraft:zombie_horse",
+    "Class": "net.minecraft.entity.passive.EntityZombieHorse"
+  },
+  {
+    "Name": "Donkey",
+    "Registry ID": "minecraft:donkey",
+    "Class": "net.minecraft.entity.passive.EntityDonkey"
+  },
+  {
+    "Name": "Mule",
+    "Registry ID": "minecraft:mule",
+    "Class": "net.minecraft.entity.passive.EntityMule"
+  },
+  {
+    "Name": "EvocationIllager",
+    "Registry ID": "minecraft:evocation_illager",
+    "Class": "net.minecraft.entity.monster.EntityEvoker"
+  },
+  {
+    "Name": "Vex",
+    "Registry ID": "minecraft:vex",
+    "Class": "net.minecraft.entity.monster.EntityVex"
+  },
+  {
+    "Name": "VindicationIllager",
+    "Registry ID": "minecraft:vindication_illager",
+    "Class": "net.minecraft.entity.monster.EntityVindicator"
+  },
+  {
+    "Name": "IllusionIllager",
+    "Registry ID": "minecraft:illusion_illager",
+    "Class": "net.minecraft.entity.monster.EntityIllusionIllager"
+  },
+  {
+    "Name": "Creeper",
+    "Registry ID": "minecraft:creeper",
+    "Class": "net.minecraft.entity.monster.EntityCreeper"
+  },
+  {
+    "Name": "Skeleton",
+    "Registry ID": "minecraft:skeleton",
+    "Class": "net.minecraft.entity.monster.EntitySkeleton"
+  },
+  {
+    "Name": "Spider",
+    "Registry ID": "minecraft:spider",
+    "Class": "net.minecraft.entity.monster.EntitySpider"
+  },
+  {
+    "Name": "Giant",
+    "Registry ID": "minecraft:giant",
+    "Class": "net.minecraft.entity.monster.EntityGiantZombie"
+  },
+  {
+    "Name": "Zombie",
+    "Registry ID": "minecraft:zombie",
+    "Class": "net.minecraft.entity.monster.EntityZombie"
+  },
+  {
+    "Name": "Slime",
+    "Registry ID": "minecraft:slime",
+    "Class": "net.minecraft.entity.monster.EntitySlime"
+  },
+  {
+    "Name": "Ghast",
+    "Registry ID": "minecraft:ghast",
+    "Class": "net.minecraft.entity.monster.EntityGhast"
+  },
+  {
+    "Name": "PigZombie",
+    "Registry ID": "minecraft:zombie_pigman",
+    "Class": "net.minecraft.entity.monster.EntityPigZombie"
+  },
+  {
+    "Name": "Enderman",
+    "Registry ID": "minecraft:enderman",
+    "Class": "net.minecraft.entity.monster.EntityEnderman"
+  },
+  {
+    "Name": "CaveSpider",
+    "Registry ID": "minecraft:cave_spider",
+    "Class": "net.minecraft.entity.monster.EntityCaveSpider"
+  },
+  {
+    "Name": "Silverfish",
+    "Registry ID": "minecraft:silverfish",
+    "Class": "net.minecraft.entity.monster.EntitySilverfish"
+  },
+  {
+    "Name": "Blaze",
+    "Registry ID": "minecraft:blaze",
+    "Class": "net.minecraft.entity.monster.EntityBlaze"
+  },
+  {
+    "Name": "LavaSlime",
+    "Registry ID": "minecraft:magma_cube",
+    "Class": "net.minecraft.entity.monster.EntityMagmaCube"
+  },
+  {
+    "Name": "EnderDragon",
+    "Registry ID": "minecraft:ender_dragon",
+    "Class": "net.minecraft.entity.boss.EntityDragon"
+  },
+  {
+    "Name": "WitherBoss",
+    "Registry ID": "minecraft:wither",
+    "Class": "net.minecraft.entity.boss.EntityWither"
+  },
+  {
+    "Name": "Bat",
+    "Registry ID": "minecraft:bat",
+    "Class": "net.minecraft.entity.passive.EntityBat"
+  },
+  {
+    "Name": "Witch",
+    "Registry ID": "minecraft:witch",
+    "Class": "net.minecraft.entity.monster.EntityWitch"
+  },
+  {
+    "Name": "Endermite",
+    "Registry ID": "minecraft:endermite",
+    "Class": "net.minecraft.entity.monster.EntityEndermite"
+  },
+  {
+    "Name": "Guardian",
+    "Registry ID": "minecraft:guardian",
+    "Class": "net.minecraft.entity.monster.EntityGuardian"
+  },
+  {
+    "Name": "Shulker",
+    "Registry ID": "minecraft:shulker",
+    "Class": "net.minecraft.entity.monster.EntityShulker"
+  },
+  {
+    "Name": "Pig",
+    "Registry ID": "minecraft:pig",
+    "Class": "net.minecraft.entity.passive.EntityPig"
+  },
+  {
+    "Name": "Sheep",
+    "Registry ID": "minecraft:sheep",
+    "Class": "net.minecraft.entity.passive.EntitySheep"
+  },
+  {
+    "Name": "Cow",
+    "Registry ID": "minecraft:cow",
+    "Class": "net.minecraft.entity.passive.EntityCow"
+  },
+  {
+    "Name": "Chicken",
+    "Registry ID": "minecraft:chicken",
+    "Class": "net.minecraft.entity.passive.EntityChicken"
+  },
+  {
+    "Name": "Squid",
+    "Registry ID": "minecraft:squid",
+    "Class": "net.minecraft.entity.passive.EntitySquid"
+  },
+  {
+    "Name": "Wolf",
+    "Registry ID": "minecraft:wolf",
+    "Class": "net.minecraft.entity.passive.EntityWolf"
+  },
+  {
+    "Name": "MushroomCow",
+    "Registry ID": "minecraft:mooshroom",
+    "Class": "net.minecraft.entity.passive.EntityMooshroom"
+  },
+  {
+    "Name": "SnowMan",
+    "Registry ID": "minecraft:snowman",
+    "Class": "net.minecraft.entity.monster.EntitySnowman"
+  },
+  {
+    "Name": "Ozelot",
+    "Registry ID": "minecraft:ocelot",
+    "Class": "net.minecraft.entity.passive.EntityOcelot"
+  },
+  {
+    "Name": "VillagerGolem",
+    "Registry ID": "minecraft:villager_golem",
+    "Class": "net.minecraft.entity.monster.EntityIronGolem"
+  },
+  {
+    "Name": "Horse",
+    "Registry ID": "minecraft:horse",
+    "Class": "net.minecraft.entity.passive.EntityHorse"
+  },
+  {
+    "Name": "Rabbit",
+    "Registry ID": "minecraft:rabbit",
+    "Class": "net.minecraft.entity.passive.EntityRabbit"
+  },
+  {
+    "Name": "PolarBear",
+    "Registry ID": "minecraft:polar_bear",
+    "Class": "net.minecraft.entity.monster.EntityPolarBear"
+  },
+  {
+    "Name": "Llama",
+    "Registry ID": "minecraft:llama",
+    "Class": "net.minecraft.entity.passive.EntityLlama"
+  },
+  {
+    "Name": "Parrot",
+    "Registry ID": "minecraft:parrot",
+    "Class": "net.minecraft.entity.passive.EntityParrot"
+  },
+  {
+    "Name": "Villager",
+    "Registry ID": "minecraft:villager",
+    "Class": "net.minecraft.entity.passive.EntityVillager"
+  },
+  {
+    "Name": "tammodized.DragonOld",
+    "Registry ID": "tammodized:dragonold",
+    "Class": "tamaized.tammodized.common.entity.EntityDragonOld"
+  },
+  {
+    "Name": "artifacts.mimic",
+    "Registry ID": "artifacts:mimic",
+    "Class": "artifacts.common.entity.EntityMimic"
+  },
+  {
+    "Name": "EntityFlare",
+    "Registry ID": "astralsorcery:entityflare",
+    "Class": "hellfirepvp.astralsorcery.common.entities.EntityFlare"
+  },
+  {
+    "Name": "EntitySpectralTool",
+    "Registry ID": "astralsorcery:entityspectraltool",
+    "Class": "hellfirepvp.astralsorcery.common.entities.EntitySpectralTool"
+  },
+  {
+    "Name": "EntityLiquidSpark",
+    "Registry ID": "astralsorcery:entityliquidspark",
+    "Class": "hellfirepvp.astralsorcery.common.entities.EntityLiquidSpark"
+  },
+  {
+    "Name": "quark:pirate",
+    "Registry ID": "quark:pirate",
+    "Class": "vazkii.quark.world.entity.EntityPirate"
+  },
+  {
+    "Name": "quark:wraith",
+    "Registry ID": "quark:wraith",
+    "Class": "vazkii.quark.world.entity.EntityWraith"
+  },
+  {
+    "Name": "quark:dweller",
+    "Registry ID": "quark:dweller",
+    "Class": "vazkii.quark.world.entity.EntityDweller"
+  },
+  {
+    "Name": "quark:ashen",
+    "Registry ID": "quark:ashen",
+    "Class": "vazkii.quark.world.entity.EntityAshen"
+  },
+  {
+    "Name": "botania:pixie",
+    "Registry ID": "botania:pixie",
+    "Class": "vazkii.botania.common.entity.EntityPixie"
+  },
+  {
+    "Name": "botania:doppleganger",
+    "Registry ID": "botania:doppleganger",
+    "Class": "vazkii.botania.common.entity.EntityDoppleganger"
+  },
+  {
+    "Name": "botania:pinkWither",
+    "Registry ID": "botania:pink_wither",
+    "Class": "vazkii.botania.common.entity.EntityPinkWither"
+  },
+  {
+    "Name": "monoliths",
+    "Registry ID": "dimdoors:mob_monolith",
+    "Class": "org.dimdev.dimdoors.shared.entities.EntityMonolith"
+  },
+  {
+    "Name": "ebwizardry:zombie_minion",
+    "Registry ID": "ebwizardry:zombie_minion",
+    "Class": "electroblob.wizardry.entity.living.EntityZombieMinion"
+  },
+  {
+    "Name": "ebwizardry:skeleton_minion",
+    "Registry ID": "ebwizardry:skeleton_minion",
+    "Class": "electroblob.wizardry.entity.living.EntitySkeletonMinion"
+  },
+  {
+    "Name": "ebwizardry:spirit_wolf",
+    "Registry ID": "ebwizardry:spirit_wolf",
+    "Class": "electroblob.wizardry.entity.living.EntitySpiritWolf"
+  },
+  {
+    "Name": "ebwizardry:blaze_minion",
+    "Registry ID": "ebwizardry:blaze_minion",
+    "Class": "electroblob.wizardry.entity.living.EntityBlazeMinion"
+  },
+  {
+    "Name": "ebwizardry:ice_wraith",
+    "Registry ID": "ebwizardry:ice_wraith",
+    "Class": "electroblob.wizardry.entity.living.EntityIceWraith"
+  },
+  {
+    "Name": "ebwizardry:lightning_wraith",
+    "Registry ID": "ebwizardry:lightning_wraith",
+    "Class": "electroblob.wizardry.entity.living.EntityLightningWraith"
+  },
+  {
+    "Name": "ebwizardry:wizard",
+    "Registry ID": "ebwizardry:wizard",
+    "Class": "electroblob.wizardry.entity.living.EntityWizard"
+  },
+  {
+    "Name": "ebwizardry:shadow_wraith",
+    "Registry ID": "ebwizardry:shadow_wraith",
+    "Class": "electroblob.wizardry.entity.living.EntityShadowWraith"
+  },
+  {
+    "Name": "ebwizardry:spider_minion",
+    "Registry ID": "ebwizardry:spider_minion",
+    "Class": "electroblob.wizardry.entity.living.EntitySpiderMinion"
+  },
+  {
+    "Name": "ebwizardry:magic_slime",
+    "Registry ID": "ebwizardry:magic_slime",
+    "Class": "electroblob.wizardry.entity.living.EntityMagicSlime"
+  },
+  {
+    "Name": "ebwizardry:ice_giant",
+    "Registry ID": "ebwizardry:ice_giant",
+    "Class": "electroblob.wizardry.entity.living.EntityIceGiant"
+  },
+  {
+    "Name": "ebwizardry:spirit_horse",
+    "Registry ID": "ebwizardry:spirit_horse",
+    "Class": "electroblob.wizardry.entity.living.EntitySpiritHorse"
+  },
+  {
+    "Name": "ebwizardry:phoenix",
+    "Registry ID": "ebwizardry:phoenix",
+    "Class": "electroblob.wizardry.entity.living.EntityPhoenix"
+  },
+  {
+    "Name": "ebwizardry:silverfish_minion",
+    "Registry ID": "ebwizardry:silverfish_minion",
+    "Class": "electroblob.wizardry.entity.living.EntitySilverfishMinion"
+  },
+  {
+    "Name": "ebwizardry:storm_elemental",
+    "Registry ID": "ebwizardry:storm_elemental",
+    "Class": "electroblob.wizardry.entity.living.EntityStormElemental"
+  },
+  {
+    "Name": "ebwizardry:evil_wizard",
+    "Registry ID": "ebwizardry:evil_wizard",
+    "Class": "electroblob.wizardry.entity.living.EntityEvilWizard"
+  },
+  {
+    "Name": "ebwizardry:decoy",
+    "Registry ID": "ebwizardry:decoy",
+    "Class": "electroblob.wizardry.entity.living.EntityDecoy"
+  },
+  {
+    "Name": "ebwizardry:wither_skeleton_minion",
+    "Registry ID": "ebwizardry:wither_skeleton_minion",
+    "Class": "electroblob.wizardry.entity.living.EntityWitherSkeletonMinion"
+  },
+  {
+    "Name": "ancient_golem",
+    "Registry ID": "embers:ancient_golem",
+    "Class": "teamroots.embers.entity.EntityAncientGolem"
+  },
+  {
+    "Name": "fossil.nautilus",
+    "Registry ID": "fossil:fossil.nautilus",
+    "Class": "fossilsarcheology.server.entity.prehistoric.EntityNautilus"
+  },
+  {
+    "Name": "fossil.coelacanth",
+    "Registry ID": "fossil:fossil.coelacanth",
+    "Class": "fossilsarcheology.server.entity.prehistoric.EntityCoelacanth"
+  },
+  {
+    "Name": "fossil.alligator_gar",
+    "Registry ID": "fossil:fossil.alligator_gar",
+    "Class": "fossilsarcheology.server.entity.prehistoric.EntityAlligatorGar"
+  },
+  {
+    "Name": "fossil.sturgeon",
+    "Registry ID": "fossil:fossil.sturgeon",
+    "Class": "fossilsarcheology.server.entity.prehistoric.EntitySturgeon"
+  },
+  {
+    "Name": "fossil.triceratops",
+    "Registry ID": "fossil:fossil.triceratops",
+    "Class": "fossilsarcheology.server.entity.prehistoric.EntityTriceratops"
+  },
+  {
+    "Name": "fossil.velociraptor",
+    "Registry ID": "fossil:fossil.velociraptor",
+    "Class": "fossilsarcheology.server.entity.prehistoric.EntityVelociraptor"
+  },
+  {
+    "Name": "fossil.tyrannosaurus",
+    "Registry ID": "fossil:fossil.tyrannosaurus",
+    "Class": "fossilsarcheology.server.entity.prehistoric.EntityTyrannosaurus"
+  },
+  {
+    "Name": "fossil.pterosaur",
+    "Registry ID": "fossil:fossil.pterosaur",
+    "Class": "fossilsarcheology.server.entity.prehistoric.EntityPterosaur"
+  },
+  {
+    "Name": "fossil.plesiosaur",
+    "Registry ID": "fossil:fossil.plesiosaur",
+    "Class": "fossilsarcheology.server.entity.prehistoric.EntityPlesiosaurus"
+  },
+  {
+    "Name": "fossil.mosasaurus",
+    "Registry ID": "fossil:fossil.mosasaurus",
+    "Class": "fossilsarcheology.server.entity.prehistoric.EntityMosasaurus"
+  },
+  {
+    "Name": "fossil.stegosaurus",
+    "Registry ID": "fossil:fossil.stegosaurus",
+    "Class": "fossilsarcheology.server.entity.prehistoric.EntityStegosaurus"
+  },
+  {
+    "Name": "fossil.dilophosaurus",
+    "Registry ID": "fossil:fossil.dilophosaurus",
+    "Class": "fossilsarcheology.server.entity.prehistoric.EntityDilophosaurus"
+  },
+  {
+    "Name": "fossil.brachiosaurus",
+    "Registry ID": "fossil:fossil.brachiosaurus",
+    "Class": "fossilsarcheology.server.entity.prehistoric.EntityBrachiosaurus"
+  },
+  {
+    "Name": "fossil.spinosaurus",
+    "Registry ID": "fossil:fossil.spinosaurus",
+    "Class": "fossilsarcheology.server.entity.prehistoric.EntitySpinosaurus"
+  },
+  {
+    "Name": "fossil.compsognathus",
+    "Registry ID": "fossil:fossil.compsognathus",
+    "Class": "fossilsarcheology.server.entity.prehistoric.EntityCompsognathus"
+  },
+  {
+    "Name": "fossil.ankylosaurus",
+    "Registry ID": "fossil:fossil.ankylosaurus",
+    "Class": "fossilsarcheology.server.entity.prehistoric.EntityAnkylosaurus"
+  },
+  {
+    "Name": "fossil.pachycephalosaurus",
+    "Registry ID": "fossil:fossil.pachycephalosaurus",
+    "Class": "fossilsarcheology.server.entity.prehistoric.EntityPachycephalosaurus"
+  },
+  {
+    "Name": "fossil.deinonychus",
+    "Registry ID": "fossil:fossil.deinonychus",
+    "Class": "fossilsarcheology.server.entity.prehistoric.EntityDeinonychus"
+  },
+  {
+    "Name": "fossil.gallimimus",
+    "Registry ID": "fossil:fossil.gallimimus",
+    "Class": "fossilsarcheology.server.entity.prehistoric.EntityGallimimus"
+  },
+  {
+    "Name": "fossil.liopleurodon",
+    "Registry ID": "fossil:fossil.liopleurodon",
+    "Class": "fossilsarcheology.server.entity.prehistoric.EntityLiopleurodon"
+  },
+  {
+    "Name": "fossil.allosaurus",
+    "Registry ID": "fossil:fossil.allosaurus",
+    "Class": "fossilsarcheology.server.entity.prehistoric.EntityAllosaurus"
+  },
+  {
+    "Name": "fossil.sarcosuchus",
+    "Registry ID": "fossil:fossil.sarcosuchus",
+    "Class": "fossilsarcheology.server.entity.prehistoric.EntitySarcosuchus"
+  },
+  {
+    "Name": "fossil.ceratosaurus",
+    "Registry ID": "fossil:fossil.ceratosaurus",
+    "Class": "fossilsarcheology.server.entity.prehistoric.EntityCeratosaurus"
+  },
+  {
+    "Name": "fossil.dryosaurus",
+    "Registry ID": "fossil:fossil.dryosaurus",
+    "Class": "fossilsarcheology.server.entity.prehistoric.EntityDryosaurus"
+  },
+  {
+    "Name": "fossil.therizinosaurus",
+    "Registry ID": "fossil:fossil.therizinosaurus",
+    "Class": "fossilsarcheology.server.entity.prehistoric.EntityTherizinosaurus"
+  },
+  {
+    "Name": "fossil.parasaurolophus",
+    "Registry ID": "fossil:fossil.parasaurolophus",
+    "Class": "fossilsarcheology.server.entity.prehistoric.EntityParasaurolophus"
+  },
+  {
+    "Name": "fossil.henodus",
+    "Registry ID": "fossil:fossil.henodus",
+    "Class": "fossilsarcheology.server.entity.prehistoric.EntityHenodus"
+  },
+  {
+    "Name": "fossil.icthyosaurus",
+    "Registry ID": "fossil:fossil.icthyosaurus",
+    "Class": "fossilsarcheology.server.entity.prehistoric.EntityIcthyosaurus"
+  },
+  {
+    "Name": "fossil.meganeura",
+    "Registry ID": "fossil:fossil.meganeura",
+    "Class": "fossilsarcheology.server.entity.prehistoric.EntityMeganeura"
+  },
+  {
+    "Name": "fossil.megalograptus",
+    "Registry ID": "fossil:fossil.megalograptus",
+    "Class": "fossilsarcheology.server.entity.prehistoric.EntityMegalograptus"
+  },
+  {
+    "Name": "fossil.confuciusornis",
+    "Registry ID": "fossil:fossil.confuciusornis",
+    "Class": "fossilsarcheology.server.entity.prehistoric.EntityConfuciusornis"
+  },
+  {
+    "Name": "fossil.dodo",
+    "Registry ID": "fossil:fossil.dodo",
+    "Class": "fossilsarcheology.server.entity.prehistoric.EntityDodo"
+  },
+  {
+    "Name": "fossil.gastornis",
+    "Registry ID": "fossil:fossil.gastornis",
+    "Class": "fossilsarcheology.server.entity.prehistoric.EntityGastornis"
+  },
+  {
+    "Name": "fossil.kelenken",
+    "Registry ID": "fossil:fossil.kelenken",
+    "Class": "fossilsarcheology.server.entity.prehistoric.EntityKelenken"
+  },
+  {
+    "Name": "fossil.phorusrhacos",
+    "Registry ID": "fossil:fossil.phorusrhacos",
+    "Class": "fossilsarcheology.server.entity.prehistoric.EntityPhorusrhacos"
+  },
+  {
+    "Name": "fossil.titanis",
+    "Registry ID": "fossil:fossil.titanis",
+    "Class": "fossilsarcheology.server.entity.prehistoric.EntityTitanis"
+  },
+  {
+    "Name": "fossil.mammoth",
+    "Registry ID": "fossil:fossil.mammoth",
+    "Class": "fossilsarcheology.server.entity.prehistoric.EntityMammoth"
+  },
+  {
+    "Name": "fossil.smilodon",
+    "Registry ID": "fossil:fossil.smilodon",
+    "Class": "fossilsarcheology.server.entity.prehistoric.EntitySmilodon"
+  },
+  {
+    "Name": "fossil.quagga",
+    "Registry ID": "fossil:fossil.quagga",
+    "Class": "fossilsarcheology.server.entity.prehistoric.EntityQuagga"
+  },
+  {
+    "Name": "fossil.elasmotherium",
+    "Registry ID": "fossil:fossil.elasmotherium",
+    "Class": "fossilsarcheology.server.entity.prehistoric.EntityElasmotherium"
+  },
+  {
+    "Name": "fossil.megaloceros",
+    "Registry ID": "fossil:fossil.megaloceros",
+    "Class": "fossilsarcheology.server.entity.prehistoric.EntityMegaloceros"
+  },
+  {
+    "Name": "fossil.megalania",
+    "Registry ID": "fossil:fossil.megalania",
+    "Class": "fossilsarcheology.server.entity.prehistoric.EntityMegalania"
+  },
+  {
+    "Name": "fossil.megalodon",
+    "Registry ID": "fossil:fossil.megalodon",
+    "Class": "fossilsarcheology.server.entity.prehistoric.EntityMegalodon"
+  },
+  {
+    "Name": "fossil.failuresaurus",
+    "Registry ID": "fossil:fossil.failuresaurus",
+    "Class": "fossilsarcheology.server.entity.monster.EntityFailuresaurus"
+  },
+  {
+    "Name": "fossil.dinoegg",
+    "Registry ID": "fossil:fossil.dinoegg",
+    "Class": "fossilsarcheology.server.entity.EntityDinosaurEgg"
+  },
+  {
+    "Name": "fossil.friendlypigzombie",
+    "Registry ID": "fossil:fossil.friendlypigzombie",
+    "Class": "fossilsarcheology.server.entity.monster.EntityFriendlyPigZombie"
+  },
+  {
+    "Name": "fossil.anueffect",
+    "Registry ID": "fossil:fossil.anueffect",
+    "Class": "fossilsarcheology.server.entity.utility.EntityAnuStatue"
+  },
+  {
+    "Name": "fossil.anudead",
+    "Registry ID": "fossil:fossil.anudead",
+    "Class": "fossilsarcheology.server.entity.utility.EntityAnuDead"
+  },
+  {
+    "Name": "fossil.tarslime",
+    "Registry ID": "fossil:fossil.tarslime",
+    "Class": "fossilsarcheology.server.entity.monster.EntityTarSlime"
+  },
+  {
+    "Name": "fossil.sentrypigman",
+    "Registry ID": "fossil:fossil.sentrypigman",
+    "Class": "fossilsarcheology.server.entity.monster.EntitySentryPigman"
+  },
+  {
+    "Name": "fossil.anubite",
+    "Registry ID": "fossil:fossil.anubite",
+    "Class": "fossilsarcheology.server.entity.monster.EntityAnubite"
+  },
+  {
+    "Name": "fossil.anu",
+    "Registry ID": "fossil:fossil.anu",
+    "Class": "fossilsarcheology.server.entity.monster.EntityAnu"
+  },
+  {
+    "Name": "fossil.debugtest",
+    "Registry ID": "fossil:fossil.debugtest",
+    "Class": "fossilsarcheology.server.entity.utility.EntityDebugTest"
+  },
+  {
+    "Name": "fossil.toyball",
+    "Registry ID": "fossil:fossil.toyball",
+    "Class": "fossilsarcheology.server.entity.utility.EntityToyBall"
+  },
+  {
+    "Name": "fossil.toytetheredlog",
+    "Registry ID": "fossil:fossil.toytetheredlog",
+    "Class": "fossilsarcheology.server.entity.utility.EntityToyTetheredLog"
+  },
+  {
+    "Name": "fossil.toyscratchingpost",
+    "Registry ID": "fossil:fossil.toyscratchingpost",
+    "Class": "fossilsarcheology.server.entity.utility.EntityToyScratchingPost"
+  },
+  {
+    "Name": "MeeCreeps",
+    "Registry ID": "meecreeps:meecreeps",
+    "Class": "mcjty.meecreeps.entities.EntityMeeCreeps"
+  },
+  {
+    "Name": "muse",
+    "Registry ID": "soot:muse",
+    "Class": "soot.entity.EntityMuse"
+  },
+  {
+    "Name": "spirit_blight",
+    "Registry ID": "wizardry:spirit_blight",
+    "Class": "com.teamwizardry.wizardry.common.entity.EntitySpiritBlight"
+  },
+  {
+    "Name": "spirit_wight",
+    "Registry ID": "wizardry:spirit_wight",
+    "Class": "com.teamwizardry.wizardry.common.entity.EntitySpiritWight"
+  },
+  {
+    "Name": "angel_zachriel",
+    "Registry ID": "wizardry:angel_zachriel",
+    "Class": "com.teamwizardry.wizardry.common.entity.angel.zachriel.EntityZachriel"
+  },
+  {
+    "Name": "fairy",
+    "Registry ID": "wizardry:fairy",
+    "Class": "com.teamwizardry.wizardry.common.entity.EntityFairy"
+  },
+  {
+    "Name": "jump_pad",
+    "Registry ID": "wizardry:jump_pad",
+    "Class": "com.teamwizardry.wizardry.common.entity.EntityJumpPad"
+  },
+  {
+    "Name": "unicorn",
+    "Registry ID": "wizardry:unicorn",
+    "Class": "com.teamwizardry.wizardry.common.entity.EntityUnicorn"
+  },
+  {
+    "Name": "summon_zombie",
+    "Registry ID": "wizardry:summon_zombie",
+    "Class": "com.teamwizardry.wizardry.common.entity.EntityBackupZombie"
+  },
+  {
+    "Name": "thebetweenlands.dark_druid",
+    "Registry ID": "thebetweenlands:dark_druid",
+    "Class": "thebetweenlands.common.entity.mobs.EntityDarkDruid"
+  },
+  {
+    "Name": "thebetweenlands.angler",
+    "Registry ID": "thebetweenlands:angler",
+    "Class": "thebetweenlands.common.entity.mobs.EntityAngler"
+  },
+  {
+    "Name": "thebetweenlands.sludge",
+    "Registry ID": "thebetweenlands:sludge",
+    "Class": "thebetweenlands.common.entity.mobs.EntitySludge"
+  },
+  {
+    "Name": "thebetweenlands.swamp_hag",
+    "Registry ID": "thebetweenlands:swamp_hag",
+    "Class": "thebetweenlands.common.entity.mobs.EntitySwampHag"
+  },
+  {
+    "Name": "thebetweenlands.wight",
+    "Registry ID": "thebetweenlands:wight",
+    "Class": "thebetweenlands.common.entity.mobs.EntityWight"
+  },
+  {
+    "Name": "thebetweenlands.firefly",
+    "Registry ID": "thebetweenlands:firefly",
+    "Class": "thebetweenlands.common.entity.mobs.EntityFirefly"
+  },
+  {
+    "Name": "thebetweenlands.sporeling",
+    "Registry ID": "thebetweenlands:sporeling",
+    "Class": "thebetweenlands.common.entity.mobs.EntitySporeling"
+  },
+  {
+    "Name": "thebetweenlands.leech",
+    "Registry ID": "thebetweenlands:leech",
+    "Class": "thebetweenlands.common.entity.mobs.EntityLeech"
+  },
+  {
+    "Name": "thebetweenlands.dragonfly",
+    "Registry ID": "thebetweenlands:dragonfly",
+    "Class": "thebetweenlands.common.entity.mobs.EntityDragonFly"
+  },
+  {
+    "Name": "thebetweenlands.blood_snail",
+    "Registry ID": "thebetweenlands:blood_snail",
+    "Class": "thebetweenlands.common.entity.mobs.EntityBloodSnail"
+  },
+  {
+    "Name": "thebetweenlands.mire_snail",
+    "Registry ID": "thebetweenlands:mire_snail",
+    "Class": "thebetweenlands.common.entity.mobs.EntityMireSnail"
+  },
+  {
+    "Name": "thebetweenlands.mire_snail_egg",
+    "Registry ID": "thebetweenlands:mire_snail_egg",
+    "Class": "thebetweenlands.common.entity.mobs.EntityMireSnailEgg"
+  },
+  {
+    "Name": "thebetweenlands.lurker",
+    "Registry ID": "thebetweenlands:lurker",
+    "Class": "thebetweenlands.common.entity.mobs.EntityLurker"
+  },
+  {
+    "Name": "thebetweenlands.gecko",
+    "Registry ID": "thebetweenlands:gecko",
+    "Class": "thebetweenlands.common.entity.mobs.EntityGecko"
+  },
+  {
+    "Name": "thebetweenlands.termite",
+    "Registry ID": "thebetweenlands:termite",
+    "Class": "thebetweenlands.common.entity.mobs.EntityTermite"
+  },
+  {
+    "Name": "thebetweenlands.toad",
+    "Registry ID": "thebetweenlands:toad",
+    "Class": "thebetweenlands.common.entity.mobs.EntityGiantToad"
+  },
+  {
+    "Name": "thebetweenlands.blind_cave_fish",
+    "Registry ID": "thebetweenlands:blind_cave_fish",
+    "Class": "thebetweenlands.common.entity.mobs.EntityBlindCaveFish"
+  },
+  {
+    "Name": "thebetweenlands.chiromaw",
+    "Registry ID": "thebetweenlands:chiromaw",
+    "Class": "thebetweenlands.common.entity.mobs.EntityChiromaw"
+  },
+  {
+    "Name": "thebetweenlands.frog",
+    "Registry ID": "thebetweenlands:frog",
+    "Class": "thebetweenlands.common.entity.mobs.EntityFrog"
+  },
+  {
+    "Name": "thebetweenlands.gas_cloud",
+    "Registry ID": "thebetweenlands:gas_cloud",
+    "Class": "thebetweenlands.common.entity.mobs.EntityGasCloud"
+  },
+  {
+    "Name": "thebetweenlands.tar_beast",
+    "Registry ID": "thebetweenlands:tar_beast",
+    "Class": "thebetweenlands.common.entity.mobs.EntityTarBeast"
+  },
+  {
+    "Name": "thebetweenlands.silt_crab",
+    "Registry ID": "thebetweenlands:silt_crab",
+    "Class": "thebetweenlands.common.entity.mobs.EntitySiltCrab"
+  },
+  {
+    "Name": "thebetweenlands.pyrad",
+    "Registry ID": "thebetweenlands:pyrad",
+    "Class": "thebetweenlands.common.entity.mobs.EntityPyrad"
+  },
+  {
+    "Name": "thebetweenlands.peat_mummy",
+    "Registry ID": "thebetweenlands:peat_mummy",
+    "Class": "thebetweenlands.common.entity.mobs.EntityPeatMummy"
+  },
+  {
+    "Name": "thebetweenlands.tarminion",
+    "Registry ID": "thebetweenlands:tarminion",
+    "Class": "thebetweenlands.common.entity.mobs.EntityTarminion"
+  },
+  {
+    "Name": "thebetweenlands.mummy_arm",
+    "Registry ID": "thebetweenlands:mummy_arm",
+    "Class": "thebetweenlands.common.entity.mobs.EntityMummyArm"
+  },
+  {
+    "Name": "thebetweenlands.fortress_boss",
+    "Registry ID": "thebetweenlands:fortress_boss",
+    "Class": "thebetweenlands.common.entity.mobs.EntityFortressBoss"
+  },
+  {
+    "Name": "thebetweenlands.fortress_boss_spawner",
+    "Registry ID": "thebetweenlands:fortress_boss_spawner",
+    "Class": "thebetweenlands.common.entity.mobs.EntityFortressBossSpawner"
+  },
+  {
+    "Name": "thebetweenlands.fortress_boss_blockade",
+    "Registry ID": "thebetweenlands:fortress_boss_blockade",
+    "Class": "thebetweenlands.common.entity.mobs.EntityFortressBossBlockade"
+  },
+  {
+    "Name": "thebetweenlands.fortress_boss_turret",
+    "Registry ID": "thebetweenlands:fortress_boss_turret",
+    "Class": "thebetweenlands.common.entity.mobs.EntityFortressBossTurret"
+  },
+  {
+    "Name": "thebetweenlands.dreadful_mummy",
+    "Registry ID": "thebetweenlands:dreadful_mummy",
+    "Class": "thebetweenlands.common.entity.mobs.EntityDreadfulMummy"
+  },
+  {
+    "Name": "thebetweenlands.smoll_sludge",
+    "Registry ID": "thebetweenlands:smoll_sludge",
+    "Class": "thebetweenlands.common.entity.mobs.EntitySmollSludge"
+  },
+  {
+    "Name": "thebetweenlands.greebling",
+    "Registry ID": "thebetweenlands:greebling",
+    "Class": "thebetweenlands.common.entity.mobs.EntityGreebling"
+  },
+  {
+    "Name": "thebetweenlands.boulder_sprite",
+    "Registry ID": "thebetweenlands:boulder_sprite",
+    "Class": "thebetweenlands.common.entity.mobs.EntityBoulderSprite"
+  },
+  {
+    "Name": "thebetweenlands.spirit_tree_face_small",
+    "Registry ID": "thebetweenlands:spirit_tree_face_small",
+    "Class": "thebetweenlands.common.entity.mobs.EntitySpiritTreeFaceSmall"
+  },
+  {
+    "Name": "thebetweenlands.spirit_tree_face_large",
+    "Registry ID": "thebetweenlands:spirit_tree_face_large",
+    "Class": "thebetweenlands.common.entity.mobs.EntitySpiritTreeFaceLarge"
+  },
+  {
+    "Name": "thebetweenlands.tamed_spirit_tree_face",
+    "Registry ID": "thebetweenlands:tamed_spirit_tree_face",
+    "Class": "thebetweenlands.common.entity.mobs.EntityTamedSpiritTreeFace"
+  },
+  {
+    "Name": "thebetweenlands.root_sprite",
+    "Registry ID": "thebetweenlands:root_sprite",
+    "Class": "thebetweenlands.common.entity.mobs.EntityRootSprite"
+  },
+  {
+    "Name": "sentient_specter",
+    "Registry ID": "bloodmagic:sentient_specter",
+    "Class": "WayofTime.bloodmagic.entity.mob.EntitySentientSpecter"
+  },
+  {
+    "Name": "mimic",
+    "Registry ID": "bloodmagic:mimic",
+    "Class": "WayofTime.bloodmagic.entity.mob.EntityMimic"
+  },
+  {
+    "Name": "corrupted_zombie",
+    "Registry ID": "bloodmagic:corrupted_zombie",
+    "Class": "WayofTime.bloodmagic.entity.mob.EntityCorruptedZombie"
+  },
+  {
+    "Name": "corrupted_sheep",
+    "Registry ID": "bloodmagic:corrupted_sheep",
+    "Class": "WayofTime.bloodmagic.entity.mob.EntityCorruptedSheep"
+  },
+  {
+    "Name": "corrupted_chicken",
+    "Registry ID": "bloodmagic:corrupted_chicken",
+    "Class": "WayofTime.bloodmagic.entity.mob.EntityCorruptedChicken"
+  },
+  {
+    "Name": "corrupted_spider",
+    "Registry ID": "bloodmagic:corrupted_spider",
+    "Class": "WayofTime.bloodmagic.entity.mob.EntityCorruptedSpider"
+  },
+  {
+    "Name": "CultistPortalGreater",
+    "Registry ID": "thaumcraft:cultistportalgreater",
+    "Class": "thaumcraft.common.entities.monster.boss.EntityCultistPortalGreater"
+  },
+  {
+    "Name": "CultistPortalLesser",
+    "Registry ID": "thaumcraft:cultistportallesser",
+    "Class": "thaumcraft.common.entities.monster.cult.EntityCultistPortalLesser"
+  },
+  {
+    "Name": "TurretBasic",
+    "Registry ID": "thaumcraft:turretbasic",
+    "Class": "thaumcraft.common.entities.construct.EntityTurretCrossbow"
+  },
+  {
+    "Name": "TurretAdvanced",
+    "Registry ID": "thaumcraft:turretadvanced",
+    "Class": "thaumcraft.common.entities.construct.EntityTurretCrossbowAdvanced"
+  },
+  {
+    "Name": "ArcaneBore",
+    "Registry ID": "thaumcraft:arcanebore",
+    "Class": "thaumcraft.common.entities.construct.EntityArcaneBore"
+  },
+  {
+    "Name": "Golem",
+    "Registry ID": "thaumcraft:golem",
+    "Class": "thaumcraft.common.golems.EntityThaumcraftGolem"
+  },
+  {
+    "Name": "EldritchWarden",
+    "Registry ID": "thaumcraft:eldritchwarden",
+    "Class": "thaumcraft.common.entities.monster.boss.EntityEldritchWarden"
+  },
+  {
+    "Name": "EldritchGolem",
+    "Registry ID": "thaumcraft:eldritchgolem",
+    "Class": "thaumcraft.common.entities.monster.boss.EntityEldritchGolem"
+  },
+  {
+    "Name": "CultistLeader",
+    "Registry ID": "thaumcraft:cultistleader",
+    "Class": "thaumcraft.common.entities.monster.boss.EntityCultistLeader"
+  },
+  {
+    "Name": "TaintacleGiant",
+    "Registry ID": "thaumcraft:taintaclegiant",
+    "Class": "thaumcraft.common.entities.monster.boss.EntityTaintacleGiant"
+  },
+  {
+    "Name": "BrainyZombie",
+    "Registry ID": "thaumcraft:brainyzombie",
+    "Class": "thaumcraft.common.entities.monster.EntityBrainyZombie"
+  },
+  {
+    "Name": "GiantBrainyZombie",
+    "Registry ID": "thaumcraft:giantbrainyzombie",
+    "Class": "thaumcraft.common.entities.monster.EntityGiantBrainyZombie"
+  },
+  {
+    "Name": "Wisp",
+    "Registry ID": "thaumcraft:wisp",
+    "Class": "thaumcraft.common.entities.monster.EntityWisp"
+  },
+  {
+    "Name": "Firebat",
+    "Registry ID": "thaumcraft:firebat",
+    "Class": "thaumcraft.common.entities.monster.EntityFireBat"
+  },
+  {
+    "Name": "Spellbat",
+    "Registry ID": "thaumcraft:spellbat",
+    "Class": "thaumcraft.common.entities.monster.EntitySpellBat"
+  },
+  {
+    "Name": "Pech",
+    "Registry ID": "thaumcraft:pech",
+    "Class": "thaumcraft.common.entities.monster.EntityPech"
+  },
+  {
+    "Name": "MindSpider",
+    "Registry ID": "thaumcraft:mindspider",
+    "Class": "thaumcraft.common.entities.monster.EntityMindSpider"
+  },
+  {
+    "Name": "EldritchGuardian",
+    "Registry ID": "thaumcraft:eldritchguardian",
+    "Class": "thaumcraft.common.entities.monster.EntityEldritchGuardian"
+  },
+  {
+    "Name": "CultistKnight",
+    "Registry ID": "thaumcraft:cultistknight",
+    "Class": "thaumcraft.common.entities.monster.cult.EntityCultistKnight"
+  },
+  {
+    "Name": "CultistCleric",
+    "Registry ID": "thaumcraft:cultistcleric",
+    "Class": "thaumcraft.common.entities.monster.cult.EntityCultistCleric"
+  },
+  {
+    "Name": "EldritchCrab",
+    "Registry ID": "thaumcraft:eldritchcrab",
+    "Class": "thaumcraft.common.entities.monster.EntityEldritchCrab"
+  },
+  {
+    "Name": "InhabitedZombie",
+    "Registry ID": "thaumcraft:inhabitedzombie",
+    "Class": "thaumcraft.common.entities.monster.EntityInhabitedZombie"
+  },
+  {
+    "Name": "ThaumSlime",
+    "Registry ID": "thaumcraft:thaumslime",
+    "Class": "thaumcraft.common.entities.monster.EntityThaumicSlime"
+  },
+  {
+    "Name": "TaintCrawler",
+    "Registry ID": "thaumcraft:taintcrawler",
+    "Class": "thaumcraft.common.entities.monster.tainted.EntityTaintCrawler"
+  },
+  {
+    "Name": "Taintacle",
+    "Registry ID": "thaumcraft:taintacle",
+    "Class": "thaumcraft.common.entities.monster.tainted.EntityTaintacle"
+  },
+  {
+    "Name": "TaintacleTiny",
+    "Registry ID": "thaumcraft:taintacletiny",
+    "Class": "thaumcraft.common.entities.monster.tainted.EntityTaintacleSmall"
+  },
+  {
+    "Name": "TaintSwarm",
+    "Registry ID": "thaumcraft:taintswarm",
+    "Class": "thaumcraft.common.entities.monster.tainted.EntityTaintSwarm"
+  },
+  {
+    "Name": "TaintSeed",
+    "Registry ID": "thaumcraft:taintseed",
+    "Class": "thaumcraft.common.entities.monster.tainted.EntityTaintSeed"
+  },
+  {
+    "Name": "TaintSeedPrime",
+    "Registry ID": "thaumcraft:taintseedprime",
+    "Class": "thaumcraft.common.entities.monster.tainted.EntityTaintSeedPrime"
+  },
+  {
+    "Name": "eerieentities.wisp",
+    "Registry ID": "eerieentities:wisp",
+    "Class": "com.jarhax.eerieentities.entities.EntityWisp"
+  },
+  {
+    "Name": "eerieentities.pumpkin_slime",
+    "Registry ID": "eerieentities:pumpkin_slime",
+    "Class": "com.jarhax.eerieentities.entities.EntityPumpkinSlime"
+  },
+  {
+    "Name": "eerieentities.nether_knight",
+    "Registry ID": "eerieentities:nether_knight",
+    "Class": "com.jarhax.eerieentities.entities.EntityNetherKnight"
+  },
+  {
+    "Name": "eerieentities.cursed_armor",
+    "Registry ID": "eerieentities:cursed_armor",
+    "Class": "com.jarhax.eerieentities.entities.EntityCursedArmor"
+  },
+  {
+    "Name": "dragonegg",
+    "Registry ID": "iceandfire:dragonegg",
+    "Class": "com.github.alexthe666.iceandfire.entity.EntityDragonEgg"
+  },
+  {
+    "Name": "dragonskull",
+    "Registry ID": "iceandfire:dragonskull",
+    "Class": "com.github.alexthe666.iceandfire.entity.EntityDragonSkull"
+  },
+  {
+    "Name": "firedragon",
+    "Registry ID": "iceandfire:firedragon",
+    "Class": "com.github.alexthe666.iceandfire.entity.EntityFireDragon"
+  },
+  {
+    "Name": "icedragon",
+    "Registry ID": "iceandfire:icedragon",
+    "Class": "com.github.alexthe666.iceandfire.entity.EntityIceDragon"
+  },
+  {
+    "Name": "snowvillager",
+    "Registry ID": "iceandfire:snowvillager",
+    "Class": "com.github.alexthe666.iceandfire.entity.EntitySnowVillager"
+  },
+  {
+    "Name": "hippogryph",
+    "Registry ID": "iceandfire:hippogryph",
+    "Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph"
+  },
+  {
+    "Name": "stonestatue",
+    "Registry ID": "iceandfire:stonestatue",
+    "Class": "com.github.alexthe666.iceandfire.entity.EntityStoneStatue"
+  },
+  {
+    "Name": "gorgon",
+    "Registry ID": "iceandfire:gorgon",
+    "Class": "com.github.alexthe666.iceandfire.entity.EntityGorgon"
+  },
+  {
+    "Name": "if_pixie",
+    "Registry ID": "iceandfire:if_pixie",
+    "Class": "com.github.alexthe666.iceandfire.entity.EntityPixie"
+  },
+  {
+    "Name": "cyclops",
+    "Registry ID": "iceandfire:cyclops",
+    "Class": "com.github.alexthe666.iceandfire.entity.EntityCyclops"
+  },
+  {
+    "Name": "siren",
+    "Registry ID": "iceandfire:siren",
+    "Class": "com.github.alexthe666.iceandfire.entity.EntitySiren"
+  },
+  {
+    "Name": "hippocampus",
+    "Registry ID": "iceandfire:hippocampus",
+    "Class": "com.github.alexthe666.iceandfire.entity.EntityHippocampus"
+  },
+  {
+    "Name": "deathworm",
+    "Registry ID": "iceandfire:deathworm",
+    "Class": "com.github.alexthe666.iceandfire.entity.EntityDeathWorm"
+  },
+  {
+    "Name": "if_cockatrice",
+    "Registry ID": "iceandfire:if_cockatrice",
+    "Class": "com.github.alexthe666.iceandfire.entity.EntityCockatrice"
+  },
+  {
+    "Name": "stymphalianbird",
+    "Registry ID": "iceandfire:stymphalianbird",
+    "Class": "com.github.alexthe666.iceandfire.entity.EntityStymphalianBird"
+  },
+  {
+    "Name": "if_troll",
+    "Registry ID": "iceandfire:if_troll",
+    "Class": "com.github.alexthe666.iceandfire.entity.EntityTroll"
+  },
+  {
+    "Name": "myrmex_worker",
+    "Registry ID": "iceandfire:myrmex_worker",
+    "Class": "com.github.alexthe666.iceandfire.entity.EntityMyrmexWorker"
+  },
+  {
+    "Name": "myrmex_soldier",
+    "Registry ID": "iceandfire:myrmex_soldier",
+    "Class": "com.github.alexthe666.iceandfire.entity.EntityMyrmexSoldier"
+  },
+  {
+    "Name": "myrmex_sentinel",
+    "Registry ID": "iceandfire:myrmex_sentinel",
+    "Class": "com.github.alexthe666.iceandfire.entity.EntityMyrmexSentinel"
+  },
+  {
+    "Name": "myrmex_royal",
+    "Registry ID": "iceandfire:myrmex_royal",
+    "Class": "com.github.alexthe666.iceandfire.entity.EntityMyrmexRoyal"
+  },
+  {
+    "Name": "myrmex_queen",
+    "Registry ID": "iceandfire:myrmex_queen",
+    "Class": "com.github.alexthe666.iceandfire.entity.EntityMyrmexQueen"
+  },
+  {
+    "Name": "myrmex_egg",
+    "Registry ID": "iceandfire:myrmex_egg",
+    "Class": "com.github.alexthe666.iceandfire.entity.EntityMyrmexEgg"
+  },
+  {
+    "Name": "bound_zombie",
+    "Registry ID": "runecarved:bound_zombie",
+    "Class": "com.minerarcana.runecarved.entity.EntityBoundZombie"
+  },
+  {
+    "Name": "zoocraftdiscoveries.chinchilla",
+    "Registry ID": "zoocraftdiscoveries:chinchilla",
+    "Class": "pavocado.zoocraftdiscoveries.entity.EntityChinchilla"
+  },
+  {
+    "Name": "zoocraftdiscoveries.gecko",
+    "Registry ID": "zoocraftdiscoveries:gecko",
+    "Class": "pavocado.zoocraftdiscoveries.entity.EntityGecko"
+  },
+  {
+    "Name": "zoocraftdiscoveries.gemsbok",
+    "Registry ID": "zoocraftdiscoveries:gemsbok",
+    "Class": "pavocado.zoocraftdiscoveries.entity.EntityGemsbok"
+  },
+  {
+    "Name": "zoocraftdiscoveries.hedgehog",
+    "Registry ID": "zoocraftdiscoveries:hedgehog",
+    "Class": "pavocado.zoocraftdiscoveries.entity.EntityHedgehog"
+  },
+  {
+    "Name": "zoocraftdiscoveries.giraffe",
+    "Registry ID": "zoocraftdiscoveries:giraffe",
+    "Class": "pavocado.zoocraftdiscoveries.entity.EntityGiraffe"
+  },
+  {
+    "Name": "zoocraftdiscoveries.anteater",
+    "Registry ID": "zoocraftdiscoveries:anteater",
+    "Class": "pavocado.zoocraftdiscoveries.entity.EntityAnteater"
+  },
+  {
+    "Name": "zoocraftdiscoveries.rhino",
+    "Registry ID": "zoocraftdiscoveries:rhino",
+    "Class": "pavocado.zoocraftdiscoveries.entity.EntityRhino"
+  },
+  {
+    "Name": "zoocraftdiscoveries.frog",
+    "Registry ID": "zoocraftdiscoveries:frog",
+    "Class": "pavocado.zoocraftdiscoveries.entity.EntityFrog"
+  },
+  {
+    "Name": "zoocraftdiscoveries.camel",
+    "Registry ID": "zoocraftdiscoveries:camel",
+    "Class": "pavocado.zoocraftdiscoveries.entity.EntityCamel"
+  },
+  {
+    "Name": "zoocraftdiscoveries.capybara",
+    "Registry ID": "zoocraftdiscoveries:capybara",
+    "Class": "pavocado.zoocraftdiscoveries.entity.EntityCapybara"
+  },
+  {
+    "Name": "zoocraftdiscoveries.porcupine",
+    "Registry ID": "zoocraftdiscoveries:porcupine",
+    "Class": "pavocado.zoocraftdiscoveries.entity.EntityPorcupine"
+  },
+  {
+    "Name": "zoocraftdiscoveries.tapir",
+    "Registry ID": "zoocraftdiscoveries:tapir",
+    "Class": "pavocado.zoocraftdiscoveries.entity.EntityTapir"
+  },
+  {
+    "Name": "Overgrown Sheep",
+    "Registry ID": "arcaneworld:overgrown_sheep",
+    "Class": "party.lemons.arcaneworld.entity.EntityOvergrownSheep"
+  },
+  {
+    "Name": "moa",
+    "Registry ID": "aether_legacy:moa",
+    "Class": "com.legacy.aether.entities.passive.mountable.EntityMoa"
+  },
+  {
+    "Name": "phyg",
+    "Registry ID": "aether_legacy:phyg",
+    "Class": "com.legacy.aether.entities.passive.mountable.EntityPhyg"
+  },
+  {
+    "Name": "flying_cow",
+    "Registry ID": "aether_legacy:flying_cow",
+    "Class": "com.legacy.aether.entities.passive.mountable.EntityFlyingCow"
+  },
+  {
+    "Name": "sheepuff",
+    "Registry ID": "aether_legacy:sheepuff",
+    "Class": "com.legacy.aether.entities.passive.EntitySheepuff"
+  },
+  {
+    "Name": "aerbunny",
+    "Registry ID": "aether_legacy:aerbunny",
+    "Class": "com.legacy.aether.entities.passive.mountable.EntityAerbunny"
+  },
+  {
+    "Name": "aerwhale",
+    "Registry ID": "aether_legacy:aerwhale",
+    "Class": "com.legacy.aether.entities.passive.EntityAerwhale"
+  },
+  {
+    "Name": "swet",
+    "Registry ID": "aether_legacy:swet",
+    "Class": "com.legacy.aether.entities.passive.mountable.EntitySwet"
+  },
+  {
+    "Name": "cockatrice",
+    "Registry ID": "aether_legacy:cockatrice",
+    "Class": "com.legacy.aether.entities.hostile.EntityCockatrice"
+  },
+  {
+    "Name": "sentry",
+    "Registry ID": "aether_legacy:sentry",
+    "Class": "com.legacy.aether.entities.hostile.EntitySentry"
+  },
+  {
+    "Name": "zephyr",
+    "Registry ID": "aether_legacy:zephyr",
+    "Class": "com.legacy.aether.entities.hostile.EntityZephyr"
+  },
+  {
+    "Name": "aechor_plant",
+    "Registry ID": "aether_legacy:aechor_plant",
+    "Class": "com.legacy.aether.entities.hostile.EntityAechorPlant"
+  },
+  {
+    "Name": "mimic",
+    "Registry ID": "aether_legacy:mimic",
+    "Class": "com.legacy.aether.entities.hostile.EntityMimic"
+  },
+  {
+    "Name": "slider",
+    "Registry ID": "aether_legacy:slider",
+    "Class": "com.legacy.aether.entities.bosses.slider.EntitySlider"
+  },
+  {
+    "Name": "valkyrie_queen",
+    "Registry ID": "aether_legacy:valkyrie_queen",
+    "Class": "com.legacy.aether.entities.bosses.valkyrie_queen.EntityValkyrieQueen"
+  },
+  {
+    "Name": "sun_spirit",
+    "Registry ID": "aether_legacy:sun_spirit",
+    "Class": "com.legacy.aether.entities.bosses.sun_spirit.EntitySunSpirit"
+  },
+  {
+    "Name": "fire_ball",
+    "Registry ID": "aether_legacy:fire_ball",
+    "Class": "com.legacy.aether.entities.projectile.crystals.EntityFireBall"
+  },
+  {
+    "Name": "ice_ball",
+    "Registry ID": "aether_legacy:ice_ball",
+    "Class": "com.legacy.aether.entities.projectile.crystals.EntityIceyBall"
+  },
+  {
+    "Name": "thunder_ball",
+    "Registry ID": "aether_legacy:thunder_ball",
+    "Class": "com.legacy.aether.entities.projectile.crystals.EntityThunderBall"
+  },
+  {
+    "Name": "valkyrie",
+    "Registry ID": "aether_legacy:valkyrie",
+    "Class": "com.legacy.aether.entities.bosses.EntityValkyrie"
+  },
+  {
+    "Name": "fire_minion",
+    "Registry ID": "aether_legacy:fire_minion",
+    "Class": "com.legacy.aether.entities.bosses.EntityFireMinion"
+  },
+  {
+    "Name": "mini_cloud",
+    "Registry ID": "aether_legacy:mini_cloud",
+    "Class": "com.legacy.aether.entities.passive.EntityMiniCloud"
+  },
+  {
+    "Name": "whirlwind",
+    "Registry ID": "aether_legacy:whirlwind",
+    "Class": "com.legacy.aether.entities.hostile.EntityWhirlwind"
+  },
+  {
+    "Name": "aov.EntityDruidicWolf",
+    "Registry ID": "aov:entitydruidicwolf",
+    "Class": "tamaized.aov.common.entity.EntityDruidicWolf"
+  },
+  {
+    "Name": "azulfo",
+    "Registry ID": "blue_skies:azulfo",
+    "Class": "com.legacy.blue_skies.entities.neutral.EntityAzulfo"
+  },
+  {
+    "Name": "stardust_ram",
+    "Registry ID": "blue_skies:stardust_ram",
+    "Class": "com.legacy.blue_skies.entities.passive.EntityStardustRam"
+  },
+  {
+    "Name": "reindeer_bs",
+    "Registry ID": "blue_skies:reindeer_bs",
+    "Class": "com.legacy.blue_skies.entities.passive.EntityReindeer"
+  },
+  {
+    "Name": "armored_frost_spirit",
+    "Registry ID": "blue_skies:armored_frost_spirit",
+    "Class": "com.legacy.blue_skies.entities.hostile.EntityArmoredFrostSpirit"
+  },
+  {
+    "Name": "frost_spirit",
+    "Registry ID": "blue_skies:frost_spirit",
+    "Class": "com.legacy.blue_skies.entities.hostile.EntityFrostSpirit"
+  },
+  {
+    "Name": "cosmic_fox",
+    "Registry ID": "blue_skies:cosmic_fox",
+    "Class": "com.legacy.blue_skies.entities.passive.EntityCosmicFox"
+  },
+  {
+    "Name": "firefly_bs",
+    "Registry ID": "blue_skies:firefly_bs",
+    "Class": "com.legacy.blue_skies.entities.passive.EntityFirefly"
+  },
+  {
+    "Name": "sky_bear",
+    "Registry ID": "blue_skies:sky_bear",
+    "Class": "com.legacy.blue_skies.entities.neutral.EntitySkyBear"
+  },
+  {
+    "Name": "nycto_bug",
+    "Registry ID": "blue_skies:nycto_bug",
+    "Class": "com.legacy.blue_skies.entities.hostile.EntityNyctoBug"
+  },
+  {
+    "Name": "villager_warrior",
+    "Registry ID": "blue_skies:villager_warrior",
+    "Class": "com.legacy.blue_skies.entities.villager.EntityVillagerWarrior"
+  },
+  {
+    "Name": "summoner_illager",
+    "Registry ID": "blue_skies:summoner_illager",
+    "Class": "com.legacy.blue_skies.entities.hostile.boss.EntitySummoner"
+  },
+  {
+    "Name": "alchemist_illager",
+    "Registry ID": "blue_skies:alchemist_illager",
+    "Class": "com.legacy.blue_skies.entities.hostile.boss.EntityAlchemist"
+  },
+  {
+    "Name": "artificial_golem",
+    "Registry ID": "blue_skies:artificial_golem",
+    "Class": "com.legacy.blue_skies.entities.hostile.boss.summons.EntityArtificialGolem"
+  },
+  {
+    "Name": "skeleton_phantom",
+    "Registry ID": "rootsclassic:skeleton_phantom",
+    "Class": "elucent.rootsclassic.entity.skeleton.EntityFrozenKnight"
+  },
+  {
+    "Name": "Living Flower",
+    "Registry ID": "kathairis:textures/entity/livingflower.png",
+    "Class": "mod.krevik.entity.EntityLivingFlower"
+  },
+  {
+    "Name": "Mystic Bird",
+    "Registry ID": "kathairis:textures/entity/mysticbird.png",
+    "Class": "mod.krevik.entity.EntityMysticBird"
+  },
+  {
+    "Name": "Howler",
+    "Registry ID": "kathairis:textures/entity/howler.png",
+    "Class": "mod.krevik.entity.EntityHowler"
+  },
+  {
+    "Name": "JellyFish",
+    "Registry ID": "kathairis:textures/entity/jellyfish.png",
+    "Class": "mod.krevik.entity.EntityJellyFish"
+  },
+  {
+    "Name": "BigTurtle",
+    "Registry ID": "kathairis:textures/entity/bigturtle.png",
+    "Class": "mod.krevik.entity.EntityBigTurtle"
+  },
+  {
+    "Name": "PoisonousScorpion",
+    "Registry ID": "kathairis:textures/entity/poisonousscorpion.png",
+    "Class": "mod.krevik.entity.EntityPoisonousScorpion"
+  },
+  {
+    "Name": "Bison",
+    "Registry ID": "kathairis:textures/entity/bison.png",
+    "Class": "mod.krevik.entity.EntityBison"
+  },
+  {
+    "Name": "Butterfly",
+    "Registry ID": "kathairis:textures/entity/butterfly.png",
+    "Class": "mod.krevik.entity.butterfly.EntityButterfly"
+  },
+  {
+    "Name": "Butterfly1",
+    "Registry ID": "kathairis:textures/entity/butterfly1.png",
+    "Class": "mod.krevik.entity.butterfly.EntityButterfly1"
+  },
+  {
+    "Name": "StrangeWanderer",
+    "Registry ID": "kathairis:textures/entity/strangewanderer.png",
+    "Class": "mod.krevik.entity.EntityStrangeWanderer"
+  },
+  {
+    "Name": "Skylight",
+    "Registry ID": "kathairis:textures/entity/skylight.png",
+    "Class": "mod.krevik.entity.butterfly.EntitySkylight"
+  },
+  {
+    "Name": "SkeletonWarrior",
+    "Registry ID": "kathairis:textures/entity/skeletonwarrior.png",
+    "Class": "mod.krevik.entity.EntitySkeletonWarrior"
+  },
+  {
+    "Name": "SteveGhost",
+    "Registry ID": "kathairis:textures/entity/steveghost.png",
+    "Class": "mod.krevik.entity.EntitySteveGhost"
+  },
+  {
+    "Name": "Death",
+    "Registry ID": "kathairis:textures/entity/death.png",
+    "Class": "mod.krevik.entity.EntityDeath"
+  },
+  {
+    "Name": "Camel",
+    "Registry ID": "kathairis:textures/entity/camel.png",
+    "Class": "mod.krevik.entity.EntityCamel"
+  },
+  {
+    "Name": "Fungite",
+    "Registry ID": "kathairis:textures/entity/fungite.png",
+    "Class": "mod.krevik.entity.EntityFungite"
+  },
+  {
+    "Name": "CloudOister",
+    "Registry ID": "kathairis:textures/entity/cloudoister.png",
+    "Class": "mod.krevik.entity.EntityCloudOister"
+  },
+  {
+    "Name": "CloudySlime",
+    "Registry ID": "kathairis:textures/entity/cloudyslime.png",
+    "Class": "mod.krevik.entity.EntityCloudySlime"
+  },
+  {
+    "Name": "CloudShimmer",
+    "Registry ID": "kathairis:textures/entity/cloudshimmer.png",
+    "Class": "mod.krevik.entity.butterfly.EntityCloudShimmer"
+  },
+  {
+    "Name": "FlyingSquid",
+    "Registry ID": "kathairis:textures/entity/flyingsquid.png",
+    "Class": "mod.krevik.entity.EntityFlyingSquid"
+  },
+  {
+    "Name": "Skyray",
+    "Registry ID": "kathairis:textures/entity/skyray.png",
+    "Class": "mod.krevik.entity.EntitySkyray"
+  },
+  {
+    "Name": "Illukini",
+    "Registry ID": "kathairis:textures/entity/illukini.png",
+    "Class": "mod.krevik.entity.butterfly.EntityIllukini"
+  },
+  {
+    "Name": "RubySile",
+    "Registry ID": "kathairis:textures/entity/rubysile.png",
+    "Class": "mod.krevik.entity.butterfly.EntityRubySile"
+  },
+  {
+    "Name": "Gecko",
+    "Registry ID": "kathairis:textures/entity/gecko.png",
+    "Class": "mod.krevik.entity.EntityGecko"
+  },
+  {
+    "Name": "Gaznowel",
+    "Registry ID": "kathairis:textures/entity/gaznowel.png",
+    "Class": "mod.krevik.entity.EntityGaznowel"
+  },
+  {
+    "Name": "Cacti_Spore",
+    "Registry ID": "kathairis:textures/entity/cacti_spore.png",
+    "Class": "mod.krevik.entity.EntityCactiSpore"
+  },
+  {
+    "Name": "Phasm",
+    "Registry ID": "kathairis:textures/entity/phasm.png",
+    "Class": "mod.krevik.entity.EntityPhasm"
+  }
+]

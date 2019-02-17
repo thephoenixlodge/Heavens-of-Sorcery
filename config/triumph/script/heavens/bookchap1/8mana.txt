@@ -16,7 +16,7 @@ setRequirements("any")
 criteria1 = addCriteria("hasItemsmanaBucket", "minecraft:inventory_changed")
 criteria1.addItem(<thebetweenlands:bl_bucket, nbt:{Fluid:{FluidName:"mana_fluid",Amount:1000}}>)
 
-criteria2 = addCriteria("hasItemsmanaBucket", "minecraft:inventory_changed")
+criteria2 = addCriteria("hasItemsmanaBucketIron", "minecraft:inventory_changed")
 criteria2.addItem(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"mana_fluid",Amount:1000}>)
 
 addRewardItem(<botania:grassseeds, meta:7, count:5>)

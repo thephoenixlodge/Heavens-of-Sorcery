@@ -1,6 +1,0 @@
-
-{
-  "Name": "Death",
-  "Registry ID": "kathairis:textures/entity/death.png",
-  "Class": "mod.krevik.entity.EntityDeath"
-}
