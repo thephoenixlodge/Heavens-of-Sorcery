@@ -1,0 +1,30 @@
+////Imports
+import mods.aether_legacy.Accessory;
+import crafttweaker.item.IItemStack;
+
+////Variables
+val shieldWood = <superiorshields:vanilla_shield_wood>;
+val shieldStone = <superiorshields:vanilla_shield_stone>;
+val shieldIron = <superiorshields:vanilla_shield_iron>;
+val shieldGold = <superiorshields:vanilla_shield_gold>;
+val shieldDiamond = <superiorshields:vanilla_shield_diamond>;
+val shieldObsidian = <superiorshields:vanilla_shield_obsidian>;
+val shieldEmerald = <superiorshields:vanilla_shield_emerald>;
+val shieldEndstone = <superiorshields:vanilla_shield_endstone>;
+val shieldInfusedIron = <superiorshields:natures_aura_shield_infused_iron>;
+val shieldSkyIngot = <superiorshields:natures_aura_shield_sky_ingot>;
+val shieldManasteel = <superiorshields:botania_shield_manasteel>;
+val shieldTerrasteel = <superiorshields:botania_shield_terrasteel>;
+val shieldElementium = <superiorshields:botania_shield_elementium>;
+val allShieldsArray = [
+	shieldWood, shieldStone, shieldIron,
+	shieldGold, shieldDiamond, shieldObsidian,
+	shieldEmerald, shieldEndstone, shieldInfusedIron, shieldSkyIngot,
+	shieldManasteel, shieldTerrasteel, shieldElementium
+] as IItemStack[];
+
+//Add shields to Aether Shield slot?
+//Accessory types = "RING", "PENDANT", "CAPE", "SHIELD", "GLOVE", "MISC"
+for shieldType in allShieldsArray {
+	Accessory.registerAccessory(shieldType, "SHIELD");
+}

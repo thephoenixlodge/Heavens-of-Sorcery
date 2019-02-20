@@ -8,7 +8,7 @@ val oreSand = <ore:sand>;
 val clay = <minecraft:clay_ball>;
 val caminiteBrickBlock = <embers:block_caminite_brick>;
 val caminiteBrickItem = <embers:brick_caminite>;
-val embersBore = 
+//val embersBore = 
 
 //tweak caminite blend recipe
 recipes.remove(caminiteBlend);

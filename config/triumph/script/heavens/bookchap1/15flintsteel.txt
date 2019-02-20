@@ -14,6 +14,6 @@ drawDirectLines()
 criteria1 = addCriteria("hasItemsFlint", "minecraft:inventory_changed")
 criteria1.addItem(<minecraft:flint, count:1>)
 criteria2 = addCriteria("hasItemsFlintSteel", "triumph:player_crafted_item")
-criteria2.addItem(<minecraft:flint_and_steel, count:1>)
+criteria2.setItem(<minecraft:flint_and_steel, count:1>)
 
 addRewardItem(<quark:charcoal_block, meta:0, count:1>)

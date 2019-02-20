@@ -1,5 +1,6 @@
 The Book icon in your inventory opens the quest and guide book.
 Falling into the Void will not kill you.
+No mobs will spawn in the remnants of the Overworld.
 Chiseled Obsidian can be used when building a Nether Portal.
 Chiseled Glowstone can be used when building an Aether Portal.
 Placing a slab above your head when jumping on the crushing tub lets you jump faster.
