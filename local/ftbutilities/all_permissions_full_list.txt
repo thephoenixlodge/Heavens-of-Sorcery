@@ -1,4 +1,4 @@
-14526 nodes in total
+14497 nodes in total
 Modifying this file won't have any effect, edit ranks.txt!
 
 admin_panel.ftbutilities.crash_reports.delete: OP
@@ -168,6 +168,7 @@ ftbutilities.claims.block.edit.auraddons.block_aura_transporter: OP
 ftbutilities.claims.block.edit.auraddons.block_auto_wrath: OP
 ftbutilities.claims.block.edit.auraddons.block_disruption_catalyst: OP
 ftbutilities.claims.block.edit.auraddons.block_freezer: OP
+ftbutilities.claims.block.edit.auraddons.block_gold_brick_wall: OP
 ftbutilities.claims.block.edit.auraddons.block_hard_ice: OP
 ftbutilities.claims.block.edit.auraddons.block_infused_brick_wall: OP
 ftbutilities.claims.block.edit.auraddons.block_infused_stone_wall: OP
@@ -2775,6 +2776,7 @@ ftbutilities.claims.block.edit.naturesaura.offering_table: OP
 ftbutilities.claims.block.edit.naturesaura.pickup_stopper: OP
 ftbutilities.claims.block.edit.naturesaura.placer: OP
 ftbutilities.claims.block.edit.naturesaura.potion_generator: OP
+ftbutilities.claims.block.edit.naturesaura.powder_placer: OP
 ftbutilities.claims.block.edit.naturesaura.rf_converter: OP
 ftbutilities.claims.block.edit.naturesaura.spawn_lamp: OP
 ftbutilities.claims.block.edit.naturesaura.time_changer: OP
@@ -3597,13 +3599,6 @@ ftbutilities.claims.block.edit.thaumic_arcana.silver_oak_sapling: OP
 ftbutilities.claims.block.edit.thaumic_arcana.taint_wine_cap: OP
 ftbutilities.claims.block.edit.thaumic_arcana.taint_wine_trunk: OP
 ftbutilities.claims.block.edit.thaumic_arcana.tainted_oak_sapling: OP
-ftbutilities.claims.block.edit.thaumicrestoration.block_adv_recharge_pedestal: OP
-ftbutilities.claims.block.edit.thaumicrestoration.block_crystal: OP
-ftbutilities.claims.block.edit.thaumicrestoration.block_greatwood: OP
-ftbutilities.claims.block.edit.thaumicrestoration.block_greatwood_framed: OP
-ftbutilities.claims.block.edit.thaumicrestoration.block_infuser: OP
-ftbutilities.claims.block.edit.thaumicrestoration.block_obsidian: OP
-ftbutilities.claims.block.edit.thaumicrestoration.block_reinforced: OP
 ftbutilities.claims.block.edit.thebetweenlands.alembic: OP
 ftbutilities.claims.block.edit.thebetweenlands.algae: OP
 ftbutilities.claims.block.edit.thebetweenlands.amate_paper_pane_1: OP
@@ -4160,6 +4155,7 @@ ftbutilities.claims.block.interact.auraddons.block_aura_transporter: OP
 ftbutilities.claims.block.interact.auraddons.block_auto_wrath: OP
 ftbutilities.claims.block.interact.auraddons.block_disruption_catalyst: OP
 ftbutilities.claims.block.interact.auraddons.block_freezer: OP
+ftbutilities.claims.block.interact.auraddons.block_gold_brick_wall: OP
 ftbutilities.claims.block.interact.auraddons.block_hard_ice: OP
 ftbutilities.claims.block.interact.auraddons.block_infused_brick_wall: OP
 ftbutilities.claims.block.interact.auraddons.block_infused_stone_wall: OP
@@ -6767,6 +6763,7 @@ ftbutilities.claims.block.interact.naturesaura.offering_table: OP
 ftbutilities.claims.block.interact.naturesaura.pickup_stopper: OP
 ftbutilities.claims.block.interact.naturesaura.placer: OP
 ftbutilities.claims.block.interact.naturesaura.potion_generator: OP
+ftbutilities.claims.block.interact.naturesaura.powder_placer: OP
 ftbutilities.claims.block.interact.naturesaura.rf_converter: OP
 ftbutilities.claims.block.interact.naturesaura.spawn_lamp: OP
 ftbutilities.claims.block.interact.naturesaura.time_changer: OP
@@ -7589,13 +7586,6 @@ ftbutilities.claims.block.interact.thaumic_arcana.silver_oak_sapling: OP
 ftbutilities.claims.block.interact.thaumic_arcana.taint_wine_cap: OP
 ftbutilities.claims.block.interact.thaumic_arcana.taint_wine_trunk: OP
 ftbutilities.claims.block.interact.thaumic_arcana.tainted_oak_sapling: OP
-ftbutilities.claims.block.interact.thaumicrestoration.block_adv_recharge_pedestal: OP
-ftbutilities.claims.block.interact.thaumicrestoration.block_crystal: OP
-ftbutilities.claims.block.interact.thaumicrestoration.block_greatwood: OP
-ftbutilities.claims.block.interact.thaumicrestoration.block_greatwood_framed: OP
-ftbutilities.claims.block.interact.thaumicrestoration.block_infuser: OP
-ftbutilities.claims.block.interact.thaumicrestoration.block_obsidian: OP
-ftbutilities.claims.block.interact.thaumicrestoration.block_reinforced: OP
 ftbutilities.claims.block.interact.thebetweenlands.alembic: OP
 ftbutilities.claims.block.interact.thebetweenlands.algae: OP
 ftbutilities.claims.block.interact.thebetweenlands.amate_paper_pane_1: OP
@@ -8395,6 +8385,7 @@ ftbutilities.claims.item.auraddons.block_aura_transporter: ALL
 ftbutilities.claims.item.auraddons.block_auto_wrath: ALL
 ftbutilities.claims.item.auraddons.block_disruption_catalyst: ALL
 ftbutilities.claims.item.auraddons.block_freezer: ALL
+ftbutilities.claims.item.auraddons.block_gold_brick_wall: ALL
 ftbutilities.claims.item.auraddons.block_hard_ice: ALL
 ftbutilities.claims.item.auraddons.block_infused_brick_wall: ALL
 ftbutilities.claims.item.auraddons.block_infused_stone_wall: ALL
@@ -12507,6 +12498,7 @@ ftbutilities.claims.item.naturesaura.offering_table: ALL
 ftbutilities.claims.item.naturesaura.pickup_stopper: ALL
 ftbutilities.claims.item.naturesaura.placer: ALL
 ftbutilities.claims.item.naturesaura.potion_generator: ALL
+ftbutilities.claims.item.naturesaura.powder_placer: ALL
 ftbutilities.claims.item.naturesaura.range_visualizer: ALL
 ftbutilities.claims.item.naturesaura.rf_converter: ALL
 ftbutilities.claims.item.naturesaura.shockwave_creator: ALL
@@ -13893,27 +13885,6 @@ ftbutilities.claims.item.thaumic_arcana.slimy_sword: ALL
 ftbutilities.claims.item.thaumic_arcana.soul_capsule: ALL
 ftbutilities.claims.item.thaumic_arcana.tainted_oak_sapling: ALL
 ftbutilities.claims.item.thaumic_arcana.vaporous_curiosity: ALL
-ftbutilities.claims.item.thaumicperiphery.caster_elementium: ALL
-ftbutilities.claims.item.thaumicperiphery.caster_ember: ALL
-ftbutilities.claims.item.thaumicperiphery.magic_quiver: ALL
-ftbutilities.claims.item.thaumicperiphery.malignant_heart: ALL
-ftbutilities.claims.item.thaumicperiphery.pauldron: ALL
-ftbutilities.claims.item.thaumicperiphery.pauldron_repulsion: ALL
-ftbutilities.claims.item.thaumicperiphery.vis_phylactery: ALL
-ftbutilities.claims.item.thaumicrestoration.block_adv_recharge_pedestal: ALL
-ftbutilities.claims.item.thaumicrestoration.block_crystal: ALL
-ftbutilities.claims.item.thaumicrestoration.block_greatwood: ALL
-ftbutilities.claims.item.thaumicrestoration.block_greatwood_framed: ALL
-ftbutilities.claims.item.thaumicrestoration.block_infuser: ALL
-ftbutilities.claims.item.thaumicrestoration.block_obsidian: ALL
-ftbutilities.claims.item.thaumicrestoration.block_reinforced: ALL
-ftbutilities.claims.item.thaumicrestoration.item_bucket: OP
-ftbutilities.claims.item.thaumicrestoration.item_ingot: ALL
-ftbutilities.claims.item.thaumicrestoration.item_toast: ALL
-ftbutilities.claims.item.thaumicrestoration.item_wand: ALL
-ftbutilities.claims.item.thaumicrestoration.item_wandcap: ALL
-ftbutilities.claims.item.thaumicrestoration.item_wandrod: ALL
-ftbutilities.claims.item.thaumicrestoration.item_witherring: ALL
 ftbutilities.claims.item.thebetweenlands.alembic: ALL
 ftbutilities.claims.item.thebetweenlands.algae: ALL
 ftbutilities.claims.item.thebetweenlands.amate_map: ALL
@@ -14637,10 +14608,6 @@ command.ftblib.team.settings
 command.ftblib.team.status
 command.ftblib.team.transfer_ownership
 command.ftbutilities.back
-command.ftbutilities.backup.help
-command.ftbutilities.backup.size
-command.ftbutilities.backup.start
-command.ftbutilities.backup.time
 command.ftbutilities.chunks.claim
 command.ftbutilities.chunks.help
 command.ftbutilities.chunks.load
@@ -14658,8 +14625,6 @@ command.ftbutilities.heal
 command.ftbutilities.home
 command.ftbutilities.inv.disable_right_click
 command.ftbutilities.inv.help
-command.ftbutilities.inv.load
-command.ftbutilities.inv.save
 command.ftbutilities.inv.view
 command.ftbutilities.kickme
 command.ftbutilities.killall

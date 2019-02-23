@@ -22,8 +22,16 @@
 			"properties":
 			[
 				{
-					"type": "require_item",
-					"name": "contenttweaker:ironwood_wand_one"
+					"type": "require_item_list",
+					"items": 
+					[
+						{
+							"name": "contenttweaker:ironwood_wand_one"
+						},
+						{
+							"name": "contenttweaker:ironwood_wand_two"
+						}
+					]
 				},
 				{
 					"type": "swing_hand"
@@ -57,8 +65,16 @@
 			"properties":
 			[
 				{
-					"type": "require_item",
-					"name": "contenttweaker:ironwood_wand_one"
+					"type": "require_item_list",
+					"items": 
+					[
+						{
+							"name": "contenttweaker:ironwood_wand_one"
+						},
+						{
+							"name": "contenttweaker:ironwood_wand_two"
+						}
+					]
 				},
 				{
 					"type": "swing_hand"
@@ -93,8 +109,16 @@
 			"properties":
 			[
 				{
-					"type": "require_item",
-					"name": "contenttweaker:ironwood_wand_one"
+					"type": "require_item_list",
+					"items": 
+					[
+						{
+							"name": "contenttweaker:ironwood_wand_one"
+						},
+						{
+							"name": "contenttweaker:ironwood_wand_two"
+						}
+					]
 				},
 				{
 					"type": "swing_hand"
@@ -123,6 +147,123 @@
 				}
 			]
 
+		},
+		{
+			"name": "mushrooms",
+			"type":
+			{
+				"type": "block_list",
+				"blocks": 
+				[
+					{
+						"name": "mist:acid_grass_0",
+						"metas": [0, 1]
+					},
+					{
+						"name": "mist:acid_grass_1",
+						"metas": [0, 1]
+					},
+					{
+						"name": "mist:acid_grass_2",
+						"metas": [0, 1]
+					}
+				]
+			},
+			"clicktype": "rightclick",
+			"properties":
+			[
+				{
+					"type": "require_item",
+					"name": "contenttweaker:ironwood_wand_two"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "require_biome",
+					"biomes": 
+					[
+						"mist:border_plains",
+						"mist:border_desert",
+						"mist:border_cold",
+						"mist:border_swamp",
+						"mist:border_jungle",
+						"mist:border_down",
+						"mist:separator",
+						"mist:down",
+						"mist:down_forest",
+						"mist:down_swamp",
+						"mist:down_center"
+					]
+				},
+				{
+					"type": "require_dimension",
+					"dimension": 
+					{
+						"dim": 5,
+						"required": true
+					}
+				},
+				{
+					"type": "require_height",
+					"maxValue": 99,
+					"jeiDesc": "Within the Mist"
+				},
+				{
+					"type": "require_side",
+					"sides":
+					[
+						"top"
+					]
+				}
+			],
+			"drops":
+			[
+				{
+					"name": "mist:mushrooms_food",
+					"amount": "1",
+					"weight": 25,
+					"properties":
+					[
+						{
+							"type": "set_random_damage",
+							"damages": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27]
+						}
+					]
+				},
+				{
+					"name": "botania:mushroom",
+					"amount": "1",
+					"weight": 24,
+					"properties":
+					[
+						{
+							"type": "set_random_damage",
+							"damages": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+						}
+					]
+				},
+				{
+					"name": "minecraft:red_mushroom",
+					"amount": "1",
+					"weight": 1
+				},
+				{
+					"name": "minecraft:brown_mushroom",
+					"amount": "1",
+					"weight": 1
+				},
+				{
+					"name": "rustic:mooncap_mushroom",
+					"amount": "1",
+					"weight": 1
+				},
+				{
+					"name": "rustic:deathstalk_mushroom",
+					"amount": "1",
+					"weight": 1
+				}
+			]
 		}
 	]
 }

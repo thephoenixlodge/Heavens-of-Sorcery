@@ -4,6 +4,12 @@
 		"mobs": [
 			{
 				"mob": "embers:ancient_golem",
+				"weight": 20,
+				"groupcountmin": 1,
+        		"groupcountmax": 1
+			},
+			{
+				"mob": "artifacts:mimic",
 				"weight": 1,
 				"groupcountmin": 1,
         		"groupcountmax": 1

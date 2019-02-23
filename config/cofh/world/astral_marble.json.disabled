@@ -1,0 +1,23 @@
+{
+	"populate": {
+		"marble": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "astralsorcery:blockmarble",
+				"material": "aether_legacy:holystone",
+				"cluster-size": 20
+			},
+			"cluster-count": 5,
+			"min-height": 0,
+			"max-height": 256,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					3
+				]
+			}
+		}
+	}
+}

@@ -11,10 +11,14 @@ val poolRaid = tableDungeonRaid.getPool("raid_1");
 //Items
 val angelHeart = <contenttweaker:angel_heart>;
 val portalCore = <contenttweaker:otherworlds_core>;
+val elytra = <minecraft:elytra>;
 
 
 //Add angel hearts to the pool
-poolRaid.addItemEntry(angelHeart, 8);
+poolRaid.addItemEntry(angelHeart, 4);
 
 //Portal core for Misty World and aether portals
 poolRaid.addItemEntry(portalCore, 8);
+
+//add Elytra to the pool
+poolRaid.addItemEntry(elytra, 4);

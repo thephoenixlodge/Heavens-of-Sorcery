@@ -21,8 +21,8 @@ oreAmethyst.remove(amethystWings);
 oreAmethyst.remove(amethystBW);
 recipes.remove(amethystBW);
 recipes.remove(blockAmethystBW);
-oreOreAmethyst.remove(amethystoreBW);
-oreOreAmethyst.remove(amethystoreWings);
+oreOreAmethyst.remove(amethystOreBW);
+oreOreAmethyst.remove(amethystOreWings);
 
 //remove I&F Sapphire from oredict, and remove recipes for the block
 oreSapphire.remove(sapphireIF);

@@ -30,7 +30,7 @@ ArcaneWorld.createRitualCreateItem("gadget_exchanging", "Infuse Tome of Exchangi
 
 //Copy-Paste Gadget
 recipes.remove(gadgetCopyPaste);
-ArcaneWorld.createRitualCreateItem("gadget_copy", "Infuse Tome of Copying and Pasting", gadgetCopyPaste, book, sapphire, amethyst, slime);
+ArcaneWorld.createRitualCreateItem("gadget_copy", "Infuse Tome of Transferrance", gadgetCopyPaste, book, sapphire, amethyst, slime);
 
 //Destruction Gadget
 recipes.remove(gadgetDestruction);
