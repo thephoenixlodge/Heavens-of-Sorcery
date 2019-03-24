@@ -50,8 +50,6 @@ val diorite = <minecraft:stone:3>;
 val oreDiorite = <ore:stoneDiorite>;
 val andesite = <minecraft:stone:5>;
 val granite = <minecraft:stone:1>;
-//val colonyBuildingTool = <minecolonies:sceptergold>;
-//val colonyScanTool = <minecolonies:sceptersteel>;
 val growthPowder = <rootsclassic:growthsalve>;
 val redstone = <minecraft:redstone>;
 val pestle = <rootsclassic:pestle>;
@@ -85,7 +83,6 @@ val feather = <ore:feather>;
 val portalCore = <contenttweaker:otherworlds_core>;
 val mistyPortalUpper = <mist:portal_base:3>;
 val mistyPortalLower = <mist:portal_base:2>;
-//val aetherPortal = <aether:aether_teleporter>;
 val bottleEmpty = <minecraft:glass_bottle>;
 val cape = <wizardry:cape>;
 val leather = <minecraft:leather>;
@@ -164,12 +161,6 @@ recipes.addShaped(diorite, [[quartzSliver, oreCobble],[oreCobble, quartzSliver]]
 recipes.remove(granite);
 recipes.addShapeless(granite, [oreDiorite, quartzSliver]);
 
-//Minecolonies tools recipe conflicts
-/*recipes.remove(colonyScanTool);
-recipes.addShaped(colonyScanTool, [[null, null, diorite], [null, stick, null], [stick, null, null]]);
-recipes.remove(colonyBuildingTool);
-recipes.addShaped(colonyBuildingTool, [[null, null, andesite], [null, stick, null], [stick, null, null]]);*/
-
 //Growth Powder
 recipes.remove(growthPowder);
 recipes.addShapeless(growthPowder * 3, [pestle.reuse(), seedWheat, redstone, pastureSeedInfused]);
@@ -230,3 +221,7 @@ recipes.addShaped(bedYellow, [[oreThatch, oreThatch, oreThatch], [plankWood, pla
 
 //Adv Ironwood Wand recipe
 ArcaneWorld.createRitualCreateItem("advWand", "Enhance Ironwood Wand", wandIronwoodAdv, wandIronwood, emberShard, nacrePearl, sapphire);
+
+//Tweak Dungeon Ritual cost
+ArcaneWorld.remove("arcaenworld:dungeon");
+ArcaneWorld.createRitualDungeon("dungeon2", "Dungeon Raid", sapphire, sapphire, sapphire, ingotGold, nacrePearl);

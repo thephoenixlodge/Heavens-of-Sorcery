@@ -4,7 +4,9 @@ import crafttweaker.item.IItemDefinition;
 import mods.botania.PureDaisy;
 import mods.botania.ManaInfusion;
 import mods.botania.Lexicon;
+import mods.botania.RuneAltar;
 import mods.inspirations.Cauldron as CauldronCrafting;
+import mods.astralsorcery.Altar;
 
 ////Variables
 var oreMistyWoods = <ore:mistyWood>;
@@ -45,6 +47,48 @@ val nacreLiquid = <liquid:nacre_fluid>;
 val petalApothecary = <botania:altar>;
 val mysticalPetal = <botania:petal:*>;
 val slabStone = <minecraft:stone_slab>;
+val manaPowder = <botania:manaresource:23>;
+val manaPearl = <botania:manaresource:1>;
+val nacrePearl = <wizardry:nacre_pearl>;
+val runicAltar = <botania:runealtar>;
+val marblePillar = <astralsorcery:blockmarble:2>;
+val manaOrb = <wizardry:orb:1>;
+val swetBall = <aether_legacy:swetty_ball>;
+val aquamarine = <astralsorcery:itemcraftingcomponent>;
+val jar = <cuisine:jar>;
+val chiliPowder = <cuisine:material:4>;
+val emberCrystal = <embers:crystal_ember>;
+val magmaBlock = <minecraft:magma>;
+val holyStone = <aether_legacy:holystone>;
+val hardFogStone = <mist:stone_basic>;
+val oreMushroom = <ore:shrooms>;
+val skyrootLeaves = <aether_legacy:aether_leaves>;
+val feather = <ore:feather>;
+val coldAercloud = <aether_legacy:aercloud>;
+val mushroomsArray = [
+	<minecraft:brown_mushroom>,
+	<minecraft:red_mushroom>,
+	<blue_skies:snowcap_mushroom>,
+	<blue_skies:baneful_mushroom>,
+	<botania:mushroom:*>,
+	<mist:mushrooms_food:*>,
+	<rustic:deathstalk_mushroom>,
+	<rustic:mooncap_mushroom>,
+	<thebetweenlands:flat_head_mushroom_item>,
+	<thebetweenlands:black_hat_mushroom_item>,
+	<thebetweenlands:bulb_capped_mushroom_item>
+] as IItemStack[];
+val basalt = <ore:stoneBasalt>;
+val slate = <rustic:slate>;
+val slateBlue = <earthworks:block_slate>;
+val slateGreen = <earthworks:block_slate_green>;
+val slatePurple = <earthworks:block_slate_purple>;
+//Runes
+val runeWater = <botania:rune>;
+val runeFire = <botania:rune:1>;
+val runeEarth = <botania:rune:2>;
+val runeAir = <botania:rune:3>;
+val runeMana = <botania:rune:8>;
 
 //Oredict all Misty World logs
 for log in mistyWoods {
@@ -74,17 +118,49 @@ ManaInfusion.addInfusion(ingotManasteel, ingotNiobium, 3000);
 ManaInfusion.removeRecipe(blockManasteel);
 ManaInfusion.addInfusion(blockManasteel, blockNiobium, 27000);
 Lexicon.removePage("botania.entry.pool", 5);
-Lexicon.addTextPage("Tossing in some resources into a &1Mana Pool&0 will cause them to get infused with &4Mana&0, turning them into more powerful forms.<br>A few examples are &1Niobium Ingots&0 or &1Ender Pearls&0.<br>&4Mana&0 reading for this block functions like the &1Mana Spreader&0. A &1Redstone Comparator&0 can also output a signal based on the contents.", "botania.entry.pool", 5);
+Lexicon.addTextPage("Tossing in some resources into a &1Mana Pool&0 will cause them to get infused with &4Mana&0, turning them into more powerful forms.<br>A few examples are &1Niobium Ingots&0 or &1Nacre Pearls&0.<br>&4Mana&0 reading for this block functions like the &1Mana Spreader&0. A &1Redstone Comparator&0 can also output a signal based on the contents.", "botania.entry.pool", 5);
+
+//Tweak Manapearl recipe
+ManaInfusion.removeRecipe(manaPearl);
+ManaInfusion.addInfusion(manaPearl, nacrePearl, 6000);
+
+//Runic Altar recipe
+recipes.remove(runicAltar);
+Altar.addDiscoveryAltarRecipe("custom_runic_altar", runicAltar, 500, 250, [null, null, null, livingrock, livingrock, livingrock, marblePillar, manaPearl, marblePillar]);
 
 //Tweak respirator recipe
 recipes.remove(respirator);
 recipes.addShaped(respirator, [[itemString, null, itemString], [leather, null, leather], [ingotNiobium, sapphire, ingotNiobium]]);
 
-//Add Cauldron recipe to turn mystical shrooms into flowers
-for j in 0 to 15 {
-	CauldronCrafting.addFluidRecipe(mysticalFlower.makeStack(j), mysticalShroom.makeStack(j), nacreLiquid, 2);
-}
-
 //Tweak Petal Apothecary recipe
 recipes.remove(petalApothecary);
 recipes.addShaped(petalApothecary, [[slabStone, mysticalPetal, slabStone], [null, oreFogStone, null], [oreFogStone, oreFogStone, oreFogStone]]);
+
+//Shrooms oredict
+for shroom in mushroomsArray {
+	oreMushroom.add(shroom);
+}
+
+//Runes
+//Water
+RuneAltar.removeRecipe(runeWater);
+RuneAltar.addRecipe(runeWater, [manaPowder, ingotManasteel, jar, swetBall, aquamarine], 5200);
+//Fire
+RuneAltar.removeRecipe(runeFire);
+RuneAltar.addRecipe(runeFire, [manaPowder, ingotManasteel, chiliPowder, emberCrystal, magmaBlock], 5200);
+//Earth
+RuneAltar.removeRecipe(runeEarth);
+RuneAltar.addRecipe(runeEarth, [manaPowder, ingotManasteel, holyStone, hardFogStone, oreMushroom], 5200);
+//Air
+RuneAltar.removeRecipe(runeAir);
+RuneAltar.addRecipe(runeAir, [manaPowder, ingotManasteel, feather, skyrootLeaves, coldAercloud], 5200);
+//Mana
+RuneAltar.removeRecipe(runeMana);
+RuneAltar.addRecipe(runeMana, [manaPowder, ingotManasteel, ingotManasteel, ingotManasteel, manaOrb, manaOrb, manaPearl, manaPearl], 8000);
+
+//Add recipe for getting slate from Rustic and Earthworks
+PureDaisy.addRecipe(basalt, slate);
+ManaInfusion.addAlchemy(slate, slateBlue, 50);
+ManaInfusion.addAlchemy(slateBlue, slateGreen, 50);
+ManaInfusion.addAlchemy(slateGreen, slatePurple, 50);
+ManaInfusion.addAlchemy(slatePurple, slate, 50);

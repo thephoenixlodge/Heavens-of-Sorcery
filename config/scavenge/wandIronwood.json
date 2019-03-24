@@ -146,7 +146,6 @@
 					"chance": "6"
 				}
 			]
-
 		},
 		{
 			"name": "mushrooms",
@@ -264,6 +263,566 @@
 					"weight": 1
 				}
 			]
+		},
+		{
+			"name": "flower_white",
+			"type":
+			{
+				"type": "block",
+				"name": "botania:mushroom",
+				"meta": 0
+			},
+			"clicktype": "rightclick",
+			"properties":
+			[
+				{
+					"type": "require_item",
+					"name": "contenttweaker:ironwood_wand_two"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "per_block_limit",
+					"usage": 1,
+					"max": 1
+				}
+			],
+			"drops":
+			[
+				{
+					"name": "botania:flower",
+					"meta": 0,
+					"amount": "1",
+					"chance": "100"
+				}
+			]
+
+		},
+		{
+			"name": "flower_orange",
+			"type":
+			{
+				"type": "block",
+				"name": "botania:mushroom",
+				"meta": 1
+			},
+			"clicktype": "rightclick",
+			"properties":
+			[
+				{
+					"type": "require_item",
+					"name": "contenttweaker:ironwood_wand_two"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "per_block_limit",
+					"usage": 1,
+					"max": 1
+				}
+			],
+			"drops":
+			[
+				{
+					"name": "botania:flower",
+					"meta": 1,
+					"amount": "1",
+					"chance": "100"
+				}
+			]
+
+		},
+		{
+			"name": "flower_magenta",
+			"type":
+			{
+				"type": "block",
+				"name": "botania:mushroom",
+				"meta": 2
+			},
+			"clicktype": "rightclick",
+			"properties":
+			[
+				{
+					"type": "require_item",
+					"name": "contenttweaker:ironwood_wand_two"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "per_block_limit",
+					"usage": 1,
+					"max": 1
+				}
+			],
+			"drops":
+			[
+				{
+					"name": "botania:flower",
+					"meta": 2,
+					"amount": "1",
+					"chance": "100"
+				}
+			]
+
+		},
+		{
+			"name": "flower_light_blue",
+			"type":
+			{
+				"type": "block",
+				"name": "botania:mushroom",
+				"meta": 3
+			},
+			"clicktype": "rightclick",
+			"properties":
+			[
+				{
+					"type": "require_item",
+					"name": "contenttweaker:ironwood_wand_two"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "per_block_limit",
+					"usage": 1,
+					"max": 1
+				}
+			],
+			"drops":
+			[
+				{
+					"name": "botania:flower",
+					"meta": 3,
+					"amount": "1",
+					"chance": "100"
+				}
+			]
+
+		},
+		{
+			"name": "flower_yellow",
+			"type":
+			{
+				"type": "block",
+				"name": "botania:mushroom",
+				"meta": 4
+			},
+			"clicktype": "rightclick",
+			"properties":
+			[
+				{
+					"type": "require_item",
+					"name": "contenttweaker:ironwood_wand_two"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "per_block_limit",
+					"usage": 1,
+					"max": 1
+				}
+			],
+			"drops":
+			[
+				{
+					"name": "botania:flower",
+					"meta": 4,
+					"amount": "1",
+					"chance": "100"
+				}
+			]
+
+		},
+		{
+			"name": "flower_lime",
+			"type":
+			{
+				"type": "block",
+				"name": "botania:mushroom",
+				"meta": 5
+			},
+			"clicktype": "rightclick",
+			"properties":
+			[
+				{
+					"type": "require_item",
+					"name": "contenttweaker:ironwood_wand_two"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "per_block_limit",
+					"usage": 1,
+					"max": 1
+				}
+			],
+			"drops":
+			[
+				{
+					"name": "botania:flower",
+					"meta": 5,
+					"amount": "1",
+					"chance": "100"
+				}
+			]
+
+		},
+		{
+			"name": "flower_pink",
+			"type":
+			{
+				"type": "block",
+				"name": "botania:mushroom",
+				"meta": 6
+			},
+			"clicktype": "rightclick",
+			"properties":
+			[
+				{
+					"type": "require_item",
+					"name": "contenttweaker:ironwood_wand_two"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "per_block_limit",
+					"usage": 1,
+					"max": 1
+				}
+			],
+			"drops":
+			[
+				{
+					"name": "botania:flower",
+					"meta": 6,
+					"amount": "1",
+					"chance": "100"
+				}
+			]
+
+		},
+		{
+			"name": "flower_gray",
+			"type":
+			{
+				"type": "block",
+				"name": "botania:mushroom",
+				"meta": 7
+			},
+			"clicktype": "rightclick",
+			"properties":
+			[
+				{
+					"type": "require_item",
+					"name": "contenttweaker:ironwood_wand_two"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "per_block_limit",
+					"usage": 1,
+					"max": 1
+				}
+			],
+			"drops":
+			[
+				{
+					"name": "botania:flower",
+					"meta": 7,
+					"amount": "1",
+					"chance": "100"
+				}
+			]
+
+		},
+		{
+			"name": "flower_silver",
+			"type":
+			{
+				"type": "block",
+				"name": "botania:mushroom",
+				"meta": 8
+			},
+			"clicktype": "rightclick",
+			"properties":
+			[
+				{
+					"type": "require_item",
+					"name": "contenttweaker:ironwood_wand_two"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "per_block_limit",
+					"usage": 1,
+					"max": 1
+				}
+			],
+			"drops":
+			[
+				{
+					"name": "botania:flower",
+					"meta": 8,
+					"amount": "1",
+					"chance": "100"
+				}
+			]
+
+		},
+		{
+			"name": "flower_cyan",
+			"type":
+			{
+				"type": "block",
+				"name": "botania:mushroom",
+				"meta": 9
+			},
+			"clicktype": "rightclick",
+			"properties":
+			[
+				{
+					"type": "require_item",
+					"name": "contenttweaker:ironwood_wand_two"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "per_block_limit",
+					"usage": 1,
+					"max": 1
+				}
+			],
+			"drops":
+			[
+				{
+					"name": "botania:flower",
+					"meta": 9,
+					"amount": "1",
+					"chance": "100"
+				}
+			]
+
+		},
+		{
+			"name": "flower_purple",
+			"type":
+			{
+				"type": "block",
+				"name": "botania:mushroom",
+				"meta": 10
+			},
+			"clicktype": "rightclick",
+			"properties":
+			[
+				{
+					"type": "require_item",
+					"name": "contenttweaker:ironwood_wand_two"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "per_block_limit",
+					"usage": 1,
+					"max": 1
+				}
+			],
+			"drops":
+			[
+				{
+					"name": "botania:flower",
+					"meta": 10,
+					"amount": "1",
+					"chance": "100"
+				}
+			]
+
+		},
+		{
+			"name": "flower_blue",
+			"type":
+			{
+				"type": "block",
+				"name": "botania:mushroom",
+				"meta": 11
+			},
+			"clicktype": "rightclick",
+			"properties":
+			[
+				{
+					"type": "require_item",
+					"name": "contenttweaker:ironwood_wand_two"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "per_block_limit",
+					"usage": 1,
+					"max": 1
+				}
+			],
+			"drops":
+			[
+				{
+					"name": "botania:flower",
+					"meta": 11,
+					"amount": "1",
+					"chance": "100"
+				}
+			]
+
+		},
+		{
+			"name": "flower_brown",
+			"type":
+			{
+				"type": "block",
+				"name": "botania:mushroom",
+				"meta": 12
+			},
+			"clicktype": "rightclick",
+			"properties":
+			[
+				{
+					"type": "require_item",
+					"name": "contenttweaker:ironwood_wand_two"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "per_block_limit",
+					"usage": 1,
+					"max": 1
+				}
+			],
+			"drops":
+			[
+				{
+					"name": "botania:flower",
+					"meta": 12,
+					"amount": "1",
+					"chance": "100"
+				}
+			]
+
+		},
+		{
+			"name": "flower_green",
+			"type":
+			{
+				"type": "block",
+				"name": "botania:mushroom",
+				"meta": 13
+			},
+			"clicktype": "rightclick",
+			"properties":
+			[
+				{
+					"type": "require_item",
+					"name": "contenttweaker:ironwood_wand_two"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "per_block_limit",
+					"usage": 1,
+					"max": 1
+				}
+			],
+			"drops":
+			[
+				{
+					"name": "botania:flower",
+					"meta": 13,
+					"amount": "1",
+					"chance": "100"
+				}
+			]
+
+		},
+		{
+			"name": "flower_red",
+			"type":
+			{
+				"type": "block",
+				"name": "botania:mushroom",
+				"meta": 14
+			},
+			"clicktype": "rightclick",
+			"properties":
+			[
+				{
+					"type": "require_item",
+					"name": "contenttweaker:ironwood_wand_two"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "per_block_limit",
+					"usage": 1,
+					"max": 1
+				}
+			],
+			"drops":
+			[
+				{
+					"name": "botania:flower",
+					"meta": 14,
+					"amount": "1",
+					"chance": "100"
+				}
+			]
+
+		},
+		{
+			"name": "flower_black",
+			"type":
+			{
+				"type": "block",
+				"name": "botania:mushroom",
+				"meta": 15
+			},
+			"clicktype": "rightclick",
+			"properties":
+			[
+				{
+					"type": "require_item",
+					"name": "contenttweaker:ironwood_wand_two"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "per_block_limit",
+					"usage": 1,
+					"max": 1
+				}
+			],
+			"drops":
+			[
+				{
+					"name": "botania:flower",
+					"meta": 15,
+					"amount": "1",
+					"chance": "100"
+				}
+			]
+
 		}
 	]
 }

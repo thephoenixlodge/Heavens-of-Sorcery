@@ -1,0 +1,18 @@
+{
+    "name": "Caaaaaaan Do!",
+    "icon": "minecraft:spawn_egg{EntityTag: {id: \"meecreeps:meecreeps\"}}",
+    "category": "useful_things",
+    "advancement": "heavens:bookchap2/0sapphires",
+    "pages": [
+        {
+            "type": "text",
+            "text": "When I was younger, I made a deal with some very unusual creatures. These $(thing)MeeCreeps$(), though they lack anything beyond rudimentary intelligence, are quite capable when it comes to busywork. Most of the time, they're completely incorporeal though, which makes getting things done tricky to say the least. In the past I had a box which I bound them to, tethering them to this plane."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:ct_shaped-970281468",
+            "title": "Box of MeeCreeps",
+            "text": "That was destroyed, but it should be possible for you to recreate it, and then you'll have your very own $(m)slaves$() err, prisoners with jobs."
+        }
+    ]
+}

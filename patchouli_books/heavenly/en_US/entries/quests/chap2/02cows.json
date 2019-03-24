@@ -1,0 +1,51 @@
+{
+    "name": "Creating Company",
+    "icon": "minecraft:spawn_egg{EntityTag:{id:\"minecraft:cow\"}}",
+    "category": "quests/chap2",
+    "sortnum": 2,
+    "advancement": "heavens:bookchap2/2rituals",
+    "turnin": "heavens:bookchap2/3cows",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "Creating Company",
+            "trigger": "heavens:bookchap2/0sapphires",
+            "text": "This Ritual Table is swirling with energy, both peaceful and malicious. You should be able to use this to restore some of the creatures that were lost to the void. Let's keep it simple to start with - Conjure some livestock, a $(item)Cow$() for example. You may require an approximation of its flesh and bones to accomplish this, but surely you can figure that out."
+        },
+        {
+            "type": "checklist_end",
+            "item1": "minecraft:beef#1",
+            "item2": "minecraft:leather",
+            "reward1": "minecraft:spawn_egg#2{EntityTag:{id:\"minecraft:cow\"}}"
+        },
+        {
+            "type": "ritual",
+            "heading": "Conjure Cow",
+            "item1": "arcaneworld:sapphire",
+            "item2": "minecraft:beef",
+            "item3": "minecraft:bone",
+            "output_item": "minecraft:spawn_egg{EntityTag:{id:\"minecraft:cow\"}}",
+            "description": "Summon a Cow at the Ritual Altar"
+        },
+        {
+            "type": "ritual",
+            "heading": "Conjure Skeleton",
+            "item1": "arcaneworld:amethyst",
+            "item2": "contenttweaker:boneshard",
+            "item3": "contenttweaker:boneshard",
+            "item4": "contenttweaker:boneshard",
+            "item5": "contenttweaker:boneshard",
+            "output_item": "minecraft:spawn_egg{EntityTag: {id: \"minecraft:skeleton\"}}",
+            "description": "Summon a Skeleton at the Ritual Altar to get whole bones"
+        },
+        {
+            "type": "mana_world",
+            "heading": "Raw Beef",
+            "input": "minecraft:rotten_flesh",
+            "input2": "contenttweaker:boneshard",
+            "input3": "wizardry:devil_dust",
+            "output": "minecraft:beef",
+            "description": "Requires at least 4 buckets of Liquid Mana"
+        }
+    ]
+}

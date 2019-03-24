@@ -1,0 +1,27 @@
+{
+    "name": "Progressing with Rituals",
+    "icon": "arcaneworld:ritual_table",
+    "category": "quests/chap2",
+    "sortnum": 1,
+    "advancement": "heavens:bookchap2/0sapphires",
+    "turnin": "heavens:bookchap2/2rituals",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "Progressing with Rituals",
+            "trigger": "heavens:bookchap2/2rituals",
+            "text": "Sapphire and Amethyst... These gems are much more in tune with magic than the diamonds we produced so far. Lets use some to build an altar. We should then be able to use this to channel various $(thing)Rituals$()."
+        },
+        {
+            "type": "checklist_end",
+            "item1": "arcaneworld:ritual_table#1",
+            "reward1": "arcaneworld:sapphire#5",
+            "reward2": "arcaneworld:amethyst#5"
+        },
+        {
+            "type": "crafting",
+            "title": "Ritual Table",
+            "recipe": "crafttweaker:ct_shaped-832280076"
+        }
+    ]
+}

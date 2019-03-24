@@ -55,6 +55,54 @@
 		},
 		{
 			"type": "item",
+			"item": "#input2",
+			"framed": "true",
+			"guard": "#input2->iexists",
+			"x": 25,
+			"y": 15
+		},
+		{
+			"type": "item",
+			"item": "#input3",
+			"framed": "true",
+			"guard": "#input3->iexists",
+			"x": 5,
+			"y": 35
+		},
+		{
+			"type": "item",
+			"item": "#input4",
+			"framed": "true",
+			"guard": "#input4->iexists",
+			"x": 5,
+			"y": 15
+		},
+		{
+			"type": "item",
+			"item": "#input5",
+			"framed": "true",
+			"guard": "#input5->iexists",
+			"x": 25,
+			"y": 55
+		},
+		{
+			"type": "item",
+			"item": "#input6",
+			"framed": "true",
+			"guard": "#input6->iexists",
+			"x": 5,
+			"y": 55
+		},
+		{
+			"type": "item",
+			"item": "#input7",
+			"framed": "true",
+			"guard": "#input7->iexists",
+			"x": 25,
+			"y": 75
+		},
+		{
+			"type": "item",
 			"item": "#output",
 			"framed": "true",
 			"link_recipe": true,
@@ -64,8 +112,8 @@
 		{
 			"type": "text",
 			"text": "#description",
-			"x": 5,
-			"y": 90
+			"x": 2,
+			"y": 100
 		}
 	]
 }

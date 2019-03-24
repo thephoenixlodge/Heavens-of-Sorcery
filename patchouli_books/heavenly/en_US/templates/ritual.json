@@ -12,74 +12,20 @@
 			"texture_width": 64,
 			"texture_height": 32,
 			"width": 11,
-			"height": 32,
+			"height": 21,
 			"scale": 2,
 			"x": 47,
 			"y": 35
 		},
 		{
-			"type": "image",
-			"image": "books:templates/arrow_ritual.png",
-			"guard": "#item5->iexists",
-			"texture_width": 64,
-			"texture_height": 32,
-			"width": 17,
-			"height": 16,
-			"u": 11,
-			"scale": 2,
-			"x": 47,
-			"y": 45
-		},
-		{
-			"type": "image",
-			"image": "books:templates/arrow_ritual.png",
-			"guard": "#item4->iexists",
-			"texture_width": 64,
-			"texture_height": 32,
-			"width": 18,
-			"height": 16,
-			"u": 12,
-			"v": 16,
-			"scale": 2,
-			"x": 37,
-			"y": 47
-		},
-		{
-			"type": "image",
-			"image": "books:templates/arrow_ritual.png",
-			"guard": "#item2->iexists",
-			"texture_width": 64,
-			"texture_height": 32,
-			"width": 10,
-			"height": 9,
-			"u": 29,
-			"scale": 2,
-			"x": 39,
-			"y": 75
-		},
-		{
-			"type": "image",
-			"image": "books:templates/arrow_ritual.png",
-			"guard": "#item3->iexists",
-			"texture_width": 64,
-			"texture_height": 32,
-			"width": 10,
-			"height": 9,
-			"u": 29,
-			"v": 9,
-			"scale": 2,
-			"x": 61,
-			"y": 75
-		},
-		{
 			"type": "item",
 			"item": "arcaneworld:ritual_table",
-			"x": 30,
-			"y": 15
+			"x": 50,
+			"y": 78
 		},
 		{
 			"type": "item",
-			"item": "#item_output",
+			"item": "#output_item",
 			"framed": "true",
 			"x": 50,
 			"y": 15
@@ -126,7 +72,7 @@
 		{
 			"type": "text",
 			"text": "#description",
-			"x": 5,
+			"x": 2,
 			"y": 120
 		}
 	]

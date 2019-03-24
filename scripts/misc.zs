@@ -14,6 +14,11 @@ val itemQuartz = <ore:gemQuartz>;
 val slabQuartz = <minecraft:stone_slab:7>;
 val bone = <ore:bone>;
 val amethyst = <arcaneworld:amethyst>;
+val remedyTalisman = <bewitchment:remedy_talisman>;
+val nuggetColdIron = <bewitchment:cold_iron_nugget>;
+val nuggetSilver = <ore:nuggetSilver>;
+val silverScales = <bewitchment:silver_scales>;
+val nuggetSilverEmbers = <embers:nugget_silver>;
 //Artifacts
 val artifactsArray = [
 	<artifacts:shiny_red_balloon>,
@@ -56,3 +61,10 @@ for artifact in artifactsArray {
 	oreArtifact.add(artifact);
 }
 ArcaneWorld.createRitualSummon("summon_mimic", "Conjure Mimic", "artifacts:mimic", oreArtifact, oreArtifact, amethyst, bone);
+
+//Fix Remedy Talisman amethyst
+recipes.remove(remedyTalisman);
+recipes.addShaped(remedyTalisman, [[nuggetSilver, nuggetColdIron, nuggetSilver], [nuggetColdIron, amethyst, nuggetColdIron], [nuggetSilver, nuggetColdIron, nuggetSilver]]);
+
+//Readd bw silver scales to nugget recipe
+furnace.addRecipe(nuggetSilverEmbers, silverScales);

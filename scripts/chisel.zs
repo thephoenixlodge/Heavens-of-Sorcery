@@ -42,7 +42,13 @@ val limestoneTileBL = <thebetweenlands:limestone_tiles>;
 val limestoneMossyBL = <thebetweenlands:mossy_limestone_bricks>;
 val limestonePolishedBL = <thebetweenlands:polished_limestone>;
 val limestonePillarBL = <thebetweenlands:limestone_pillar>;
-
+//Rustic Slate
+val slate = <rustic:slate>;
+val slateRoof = <rustic:slate_roof>;
+val slatePillar = <rustic:slate_pillar>;
+val slateTile = <rustic:slate_tile>;
+val slateBrick = <rustic:slate_brick>;
+val slateChiseled = <rustic:slate_chiseled>;
 //Add group for Sapphire Blocks
 Carving.addGroup("blockSapphire");
 Carving.addVariation("blockSapphire", blockSapphireAW);
@@ -95,3 +101,12 @@ Carving.addVariation("limestone", limestoneTileBL);
 Carving.addVariation("limestone", limestoneMossyBL);
 Carving.addVariation("limestone", limestonePolishedBL);
 Carving.addVariation("limestone", limestonePillarBL);
+
+//Rustic Slate
+Carving.addGroup("slate-rustic");
+Carving.addVariation("slate-rustic", slate);
+Carving.addVariation("slate-rustic", slateRoof);
+Carving.addVariation("slate-rustic", slatePillar);
+Carving.addVariation("slate-rustic", slateTile);
+Carving.addVariation("slate-rustic", slateBrick);
+Carving.addVariation("slate-rustic", slateChiseled);

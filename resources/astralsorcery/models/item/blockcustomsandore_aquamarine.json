@@ -1,0 +1,7 @@
+{
+    "parent": "astralsorcery:block/ore",
+    "textures": {
+        "base": "aether_legacy:blocks/quicksoil",
+        "ore": "astralsorcery:blocks/ore_aquamarine"
+    }
+}
