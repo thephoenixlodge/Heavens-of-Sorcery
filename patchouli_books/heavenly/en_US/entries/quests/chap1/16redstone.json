@@ -22,7 +22,6 @@
             "heading": "Redstone",
             "input": "cuisine:material:4",
             "output": "minecraft:redstone",
-            "description": "Consumes 1 bottle of Liquid Mana (1/4 of a bucket)"
         }    
     ]
 }

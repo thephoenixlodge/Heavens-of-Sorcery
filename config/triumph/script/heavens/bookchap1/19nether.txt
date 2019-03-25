@@ -2,7 +2,7 @@ setIcon(<minecraft:netherrack>)
 
 setTitle("Hellbound")
 
-setDescription("Enter the nether")
+setDescription("Enter the Nether")
 
 addParent("heavens:bookchap1/18stone")
 

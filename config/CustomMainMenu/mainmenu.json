@@ -1,25 +1,15 @@
 {
     "images":
     {
-        "title":
-        {
-            "image" : "custommainmenu:textures/gui/minecraft.png",
-            "posX" : -137,
-            "posY" : 30,
-            "width" : 512,
-            "height" : 512,
-            "alignment" : "top_center"
-        },
-        
-        "edition":
-        {
-            "image" : "custommainmenu:textures/gui/edition.png",
-            "posX" : -49,
-            "posY" : 67,
-            "width" : 128,
-            "height" : 16,
-            "alignment" : "top_center"
-        }
+        "icon":
+		{
+			"image" : "textures:gui/hos.png",
+            "posX" : 7,
+            "posY" : -205,
+            "width" : 95,
+            "height" : 63,
+			"alignment" : "bottom_left"
+		}
     },
     
     "buttons":
@@ -27,10 +17,11 @@
         "singleplayer":
         {
             "text" : "menu.singleplayer",
-            "posX" : -100,
-            "posY" : 48,
-            "width" : 200,
+            "posX" : 5,
+            "posY" : -130,
+            "width" : 100,
             "height" : 20,
+			"alignment" : "bottom_left",
             "action" : 
             {
                 "type" : "openGui",
@@ -41,24 +32,26 @@
         "multiplayer":
         {
             "text" : "menu.multiplayer",
-            "posX" : -100,
-            "posY" : 72,
-            "width" : 200,
+            "posX" : 5,
+            "posY" : -105,
+            "width" : 100,
             "height" : 20,
+			"alignment" : "bottom_left",
             "action" : 
             {
                 "type" : "openGui",
                 "gui" : "multiplayer"
             }
         },
-        
+		
         "mods":
         {
             "text" : "fml.menu.mods",
-            "posX" : -100,
-            "posY" : 96,
-            "width" : 200,
+            "posX" : 5,
+            "posY" : -80,
+            "width" : 100,
             "height" : 20,
+			"alignment" : "bottom_left",
             "action" : 
             {
                 "type" : "openGui",
@@ -69,10 +62,11 @@
         "options":
         {
             "text" : "menu.options",
-            "posX" : -100,
-            "posY" : 132,
-            "width" : 98,
+            "posX" : 5,
+            "posY" : -55,
+            "width" : 100,
             "height" : 20,
+			"alignment" : "bottom_left",
             "action" : 
             {
                 "type" : "openGui",
@@ -83,23 +77,77 @@
         "quit":
         {
             "text" : "menu.quit",
-            "posX" : 2,
-            "posY" : 132,
-            "width" : 98,
+            "posX" : 5,
+            "posY" : -30,
+            "width" : 100,
             "height" : 20,
+			"alignment" : "bottom_left",
             "action" : 
             {
                 "type" : "quit"
             }
         },
+		
+		"discord":
+        {
+            "text" : "",
+            "tooltip" : "Join the discussion on Discord",
+            "posX" : 110,
+            "posY" : -130,
+            "width" : 20,
+            "height" : 20,
+			"alignment" : "bottom_left",
+            "texture" : "textures:gui/buttondiscord.png",
+            "action" : 
+            {
+                "type" : "openLink",
+				"link" : "https://discord.gg/xb48CH5"
+            }
+        },
         
+		"patreon":
+        {
+            "text" : "",
+            "tooltip" : "Support thephoenixlodge on Patreon",
+            "posX" : 110,
+            "posY" : -80,
+            "width" : 20,
+            "height" : 20,
+			"alignment" : "bottom_left",
+            "texture" : "textures:gui/buttonpatreon.png",
+            "action" : 
+            {
+                "type" : "openLink",
+				"link" : "https://www.patreon.com/thephoenixlodge"
+            }
+        },
+		
+		"twitter":
+        {
+            "text" : "",
+            "tooltip" : "Follow thephoenixlodge on Twitter for news about updates and new packs",
+            "posX" : 110,
+            "posY" : -105,
+            "width" : 20,
+            "height" : 20,
+			"alignment" : "bottom_left",
+            "texture" : "textures:gui/buttontwitter.png",
+            "action" : 
+            {
+                "type" : "openLink",
+				"link" : "https://twitter.com/ThePhoenixLodge"
+            }
+        },
+		
         "language":
         {
             "text" : "",
-            "posX" : -124,
-            "posY" : 132,
+            "tooltip" : "Change Language",
+            "posX" : 110,
+            "posY" : -55,
             "width" : 20,
             "height" : 20,
+			"alignment" : "bottom_left",
             "action" : 
             {
                 "type" : "openGui",
@@ -110,10 +158,12 @@
         "refresh":
         {
             "text" : "",
-            "posX" : -154,
-            "posY" : 132,
+            "tooltip" : "Refreshes Main Menu",
+            "posX" : 110,
+            "posY" : -30,
             "width" : 20,
             "height" : 20,
+			"alignment" : "bottom_left",
             "texture" : "custommainmenu:textures/gui/buttons.png",
             "action" : 
             {
@@ -127,42 +177,34 @@
         "mojang":
         {
             "text" : "Copyright Mojang AB. Do not distribute!",
-            "hoverText" : "§nCopyright Mojang AB. Do not distribute!",
             "posX" : -197,
             "posY" : -10,
             "color" : -1,
-            "alignment" : "bottom_right",
-            "action" : 
-            {
-                "type" : "openGui",
-                "gui" : "credits"
-            }
+            "alignment" : "bottom_right"
         },
-        
-        "fml":
-        {
-            "text" : "",
-            "posX" : 2,
-            "posY" : -40,
-            "color" : -1,
-            "alignment" : "bottom_left"
-        }
+		
+		"packName":
+		{
+			"text" : "Heavens of Sorcery Mod Pack",
+			"alignment" : "bottom_left",
+            "posX" : 150,
+            "posY" : -30
+		},
+		
+		"packVersion":
+		{
+			"text" : "Version 0.1.0 alpha6",
+			"alignment" : "bottom_left",
+            "posX" : 150,
+            "posY" : -20
+		}
     },
     
     "other":
     {
-        "splash-text":
-        {
-            "posX" : 90,
-            "posY" : 70,
-            "color" : -256,
-            "alignment" : "top_center",
-            "texts" : "file:minecraft:texts/splashes.txt"
-        },
-        
         "panorama":
         {
-            "images" : "minecraft:textures/gui/title/background/panorama_%c.png",
+            "images" : "textures:gui/panorama/panorama_%c.png",
             "animate" : true,
             "animationSpeed" : 1,
             "blur" : true,
