@@ -12,18 +12,22 @@
 			"y": -1
 		},
 		{
-			"type": "item",
-			"item": "#icon",
-			"framed": "true",
-			"x": 50,
-			"y": 35
+			"type": "image",
+			"image": "#icon",
+			"texture_width": 32,
+			"texture_height": 32,
+			"width": 32,
+			"height": 32,
+			"scale": 2,
+			"x": 27,
+			"y": 25
 		},
 		{
 			"type": "header",
 			"text": "#location",
 			"scale": 1.5,
 			"x": -1,
-			"y": 70
+			"y": 95
 		},
 		{
 			"type": "header",

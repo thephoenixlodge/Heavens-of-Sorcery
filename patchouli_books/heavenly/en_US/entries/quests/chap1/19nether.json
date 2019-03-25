@@ -18,14 +18,14 @@
         },
         {
         	"type": "location",
-            "icon": "minecraft:netherrack",
+            "icon": "books:templates/nether_preview.png",
             "location": "The Nether",
             "reward1": "minecraft:obsidian#20"
         },
         {
             "type": "multiblock",
             "name": "Nether Portal",
-            "text": "Portal Frame can be various sizes (Frame size shown one is the smallest allowed). Activate by lighting a fire",
+            "text": "Portal Frame can be various sizes (Frame size shown one is the smallest allowed). Activate by lighting a fire.",
             "multiblock": {
             "pattern": [
                 [ " ", "O", "O", " " ],
@@ -37,8 +37,8 @@
             ],
             "mapping": {
                 " ": "ANY",
-                "0": "ore:obsidian",
-                "O": "ore:obsidian",
+                "0": "minecraft:obsidian",
+                "O": "minecraft:obsidian",
                 "P": "AIR"
             },
             "symmetrical": false,
