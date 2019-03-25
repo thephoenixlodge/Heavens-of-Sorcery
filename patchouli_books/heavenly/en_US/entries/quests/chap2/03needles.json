@@ -1,0 +1,42 @@
+{
+    "name": "Caster's Crux",
+    "icon": "wizardry:syringe:1",
+    "category": "quests/chap2",
+    "sortnum": 3,
+    "advancement": "heavens:bookchap1/21netherrocks",
+    "turnin": "heavens:bookchap2/4needles",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "Caster's Crux",
+            "trigger": "heavens:bookchap2/4needles",
+            "text": "As an infant you watched me weave many a spell, yet I was unable to teach you the art before this catastrophe. But now I think it is finally time. Your skill in the arcane arts has developed enough that I think it should be possible to introduce raw mana into your body without too many adverse effects."
+        },
+        {
+            "type": "text",
+            "text": "To do this you will need a $(item)Syringe$(), and an $(item)Orb of Mana$(), both constructed of $(item)Glass$(). Combine these to crate a $(item)Mana Booster Lite$(), which you can use to directly inject the Mana into your body, enabling you to power spells."
+        },
+        {
+            "type": "checklist_end",
+            "item1": "wizardry:syringe#1",
+            "item2": "wizardry:orb:1#1",
+            "item3": "wizardry:syringe:1#1",
+            "reward1": "wizardry:syringe:1#3"
+        },
+        {
+            "type": "crafting",
+            "recipe": "wizardry:syringe\/syringe",
+            "recipe2": "wizardry:syringe\/fill_mana_syringe"
+        },
+        {
+            "type": "mana_world",
+            "input": "wizardry:orb",
+            "output": "wizardry:orb:1",
+            "description": "Fill an orb with Mana. Does not consume any liquid. Can be done in world, or in a $(item)Cauldron$()"
+        },
+        {
+            "type": "crafting",
+            "recipe": "wizardry:glass_orb"
+        }
+    ]
+}

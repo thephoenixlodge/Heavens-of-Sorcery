@@ -21,7 +21,7 @@
             "type": "burning",
             "heading": "Redstone",
             "input": "cuisine:material:4",
-            "output": "minecraft:redstone",
+            "output": "minecraft:redstone"
         }    
     ]
 }
