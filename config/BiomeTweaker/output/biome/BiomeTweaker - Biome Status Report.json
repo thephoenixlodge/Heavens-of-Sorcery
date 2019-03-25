@@ -11600,8 +11600,8 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SPOOKY",
-      "MAGICAL"
+      "MAGICAL",
+      "SPOOKY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -11757,8 +11757,8 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "END",
-      "SPOOKY",
-      "MAGICAL"
+      "MAGICAL",
+      "SPOOKY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -12124,12 +12124,6 @@
       {
         "Entity Class": "mod.krevik.entity.EntityFungite",
         "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityPumpkinSlime",
-        "Weight": 5,
         "Min Group Count": 1,
         "Max Group Count": 1
       }
@@ -12516,10 +12510,10 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
+      "MAGICAL",
       "DRY",
       "SPOOKY",
       "COLD",
-      "MAGICAL",
       "VOID"
     ],
     "BiomeManager Entries": {},
@@ -12602,8 +12596,8 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "COLD",
       "MAGICAL",
+      "COLD",
       "VOID"
     ],
     "BiomeManager Entries": {},
@@ -12727,8 +12721,8 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "COLD",
-      "MAGICAL"
+      "MAGICAL",
+      "COLD"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -12797,9 +12791,9 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
+      "MAGICAL",
       "MOUNTAIN",
-      "SNOWY",
-      "MAGICAL"
+      "SNOWY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -13025,9 +13019,9 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "LUSH",
+      "MAGICAL",
       "JUNGLE",
-      "DENSE",
-      "MAGICAL"
+      "DENSE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -13071,9 +13065,9 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
+      "MAGICAL",
       "MOUNTAIN",
-      "HILLS",
-      "MAGICAL"
+      "HILLS"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [

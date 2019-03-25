@@ -13,6 +13,6 @@ setPos(140,25)
 drawDirectLines()
 
 criteria = addCriteria("hasItemRedstone", "minecraft:inventory_changed")
-criteria.addItem(<minecraft:redstone, count:1>)
+criteria.addItem(<minecraft:redstone, count:1~>)
 
 addRewardItem(<minecraft:redstone, count:10>)
