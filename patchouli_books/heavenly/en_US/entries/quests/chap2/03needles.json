@@ -30,6 +30,7 @@
         },
         {
             "type": "mana_world",
+            "heading": "Filling Glass Orbs",
             "input": "wizardry:orb",
             "output": "wizardry:orb:1",
             "description": "Fill an orb with Mana. Does not consume any liquid. Can be done in world, or in a $(item)Cauldron$()"

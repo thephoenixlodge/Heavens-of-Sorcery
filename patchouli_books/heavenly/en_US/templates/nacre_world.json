@@ -1,0 +1,71 @@
+{
+	"components": [
+		{
+			"type": "header",
+			"text": "#heading",
+			"x": -1,
+			"y": -1
+		},
+		{
+			"type": "image",
+			"image": "books:templates/arrow_curved.png",
+			"texture_width": 16,
+			"texture_height": 16,
+			"width": 16,
+			"height": 16,
+			"scale": 1,
+			"x": 43,
+			"y": 35
+		},
+		{
+			"type": "image",
+			"image": "books:templates/arrow_curved_up.png",
+			"texture_width": 16,
+			"texture_height": 16,
+			"width": 16,
+			"height": 16,
+			"scale": 1,
+			"x": 63,
+			"y": 35
+		},
+		{
+			"type": "image",
+			"image": "books:templates/nacrepond.png",
+			"texture_width": 32,
+			"texture_height": 32,
+			"width": 32,
+			"height": 21,
+			"scale": 1,
+			"x": 45,
+			"y": 50
+		},
+		{
+			"type": "item",
+			"item": "forge:bucketfilled{FluidName: \"nacre_fluid\", Amount: 1000}",
+			"framed": "false",
+			"x": 53,
+			"y": 52
+		},
+		{
+			"type": "item",
+			"item": "#input",
+			"framed": "true",
+			"x": 25,
+			"y": 35
+		},
+		{
+			"type": "item",
+			"item": "#output",
+			"framed": "true",
+			"link_recipe": true,
+			"x": 80,
+			"y": 35
+		},
+		{
+			"type": "text",
+			"text": "#description",
+			"x": 2,
+			"y": 100
+		}
+	]
+}

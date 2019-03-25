@@ -1,0 +1,31 @@
+{
+    "name": "Spellcasting Decoded",
+    "icon": "wizardry:book",
+    "category": "quests/chap2",
+    "sortnum": 6,
+    "advancement": "heavens:bookchap2/4needles",
+    "turnin": "heavens:bookchap2/7codex",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "Spellcasting Decoded",
+            "trigger": "heavens:bookchap2/7codex",
+            "text": "I may have been a competent spellcaster, but I certainly never achieved true mastery, so my tutelage cannot be considered gospel. The old masters, sticklers though they were, had the foresight to write self-writing books on the fabric of the universe."
+        },
+        {
+            "type": "text",
+            "text": "So with the right materials, you can imbue books with their otherwise lost knowledge. For now, lets get you started with a $(item)Spellforger's Codex$()."
+        },
+        {
+            "type": "checklist_end",
+            "item1": "wizardry:book",
+            "reward1": "minecraft:book#5"
+        },
+        {
+            "type": "mana_world",
+            "heading": "Spellforger's Codex",
+            "input": "minecraft:book",
+            "output": "wizardry:book"
+        }
+    ]
+}

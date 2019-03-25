@@ -1,0 +1,30 @@
+{
+    "name": "Angelic Imitator",
+    "icon": "wizardry:halo_fake",
+    "category": "quests/chap2",
+    "sortnum": 4,
+    "advancement": "heavens:bookchap2/4needles",
+    "turnin": "heavens:bookchap2/5halo",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "Angelic Imitator",
+            "trigger": "heavens:bookchap2/5halo",
+            "text": "With $(thing)Mana$() injected into your veins, you should be ready to start slinging spells around right?$(br)...$(br)Wrong! That $(thing)Mana$() is limited, and if you aren't careful you can easily end up injuring yourself. It's much easier to avoid this mistake if you are actually aware of how much $(thing)Mana$() is left in your body."
+        },
+        {
+            "type": "text",
+            "text": "This can be done with a $(item)Crude Halo$() - A poor, yet sufficient, imitation of those worn by the Angels."
+        },
+        {
+            "type": "checklist_end",
+            "item1": "wizardry:halo_fake",
+            "reward1": "wizardry:syringe:1#2",
+            "reward2": "minecraft:quartz_block#10"
+        },
+        {
+            "type": "crafting",
+            "recipe": "wizardry:halo_fake"
+        }
+    ]
+}

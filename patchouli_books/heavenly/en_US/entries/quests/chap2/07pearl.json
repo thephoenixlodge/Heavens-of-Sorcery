@@ -1,0 +1,39 @@
+{
+    "name": "Pearl Perfusion",
+    "icon": "wizardry:nacre_pearl",
+    "category": "quests/chap2",
+    "sortnum": 7,
+    "advancement": "heavens:bookchap2/7codex",
+    "turnin": "heavens:bookchap2/8pearl",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "Pearl Perfusion",
+            "trigger": "heavens:bookchap2/8pearl",
+            "text": "One of the ingredients you'll need for spellcrafting are the mysterious $(item)Nacre Pearls$(). It seems that exposing $(item)Glass Orbs$() to the unusual $(item)Nacre fluid$() causes it to coalesce onto the orbs, forming pearls of varying quality."
+        },
+        {
+            "type": "text",
+            "text": "There seems to be a correlation between the quality and how long the orb is exposed to the liquid, but I never did discover exactly how long was best. Maybe one of the old masters did."
+        },
+        {
+            "type": "checklist_end",
+            "item1": "wizardry:nacre_pearl",
+            "reward1": "wizardry:orb#20"
+        },
+        {
+            "type": "nacre_world",
+            "heading": "Creating a Nacre Pearl",
+            "input": "wizardry:orb",
+            "output": "wizardry:nacre_pearl",
+            "description": "Different lengths of time in the liquid produces different qualities of pearl"
+        },
+        {
+            "type": "mana_world",
+            "heading": "Creating Liquid Nacre",
+            "input": "minecraft:gold_nugget",
+            "output": "forge:bucketfilled{FluidName: \"nacre_fluid\", Amount: 1000}",
+            "description": "Transforms the $(item)Liquid Mana$() into $(item)Nacre$(), replacing it in the world. Can also be performed in a $(item)Cauldron$()"
+        }
+    ]
+}

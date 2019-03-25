@@ -1,0 +1,26 @@
+{
+    "name": "Casting Capers",
+    "icon": "wizardry:cape",
+    "category": "quests/chap2",
+    "sortnum": 5,
+    "advancement": "heavens:bookchap2/5halo",
+    "turnin": "heavens:bookchap2/6cape",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "Casting Capers",
+            "trigger": "heavens:bookchap2/6cape",
+            "text": "The other piece of Garb critical in any spell slinging Wizard's wardrobe, is a $(item)Cape$(). A simple leather $(item)Cape$() made with some TLC will gradually absorb excess $(thing)Mana$() spent while spellcasting, and help streamline the process - reducing the cost of spells."
+        },
+        {
+            "type": "checklist_end",
+            "item1": "wizardry:cape",
+            "reward1": "minecraft:leather#3",
+            "reward2": "minecraft:book#3"
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:ct_shaped1219635424"
+        }
+    ]
+}
