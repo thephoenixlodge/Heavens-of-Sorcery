@@ -1,4 +1,4 @@
-13629 nodes in total
+13675 nodes in total
 Modifying this file won't have any effect, edit ranks.txt!
 
 admin_panel.ftbutilities.crash_reports.delete: OP
@@ -826,6 +826,7 @@ ftbutilities.claims.block.edit.botania_tweaks.compressed_tiny_potato_7: OP
 ftbutilities.claims.block.edit.botania_tweaks.compressed_tiny_potato_8: OP
 ftbutilities.claims.block.edit.botania_tweaks.potted_tiny_potato: OP
 ftbutilities.claims.block.edit.buildinggadgets.constructionblock: OP
+ftbutilities.claims.block.edit.buildinggadgets.constructionblock_dense: OP
 ftbutilities.claims.block.edit.buildinggadgets.constructionblockpowder: OP
 ftbutilities.claims.block.edit.buildinggadgets.effectblock: OP
 ftbutilities.claims.block.edit.buildinggadgets.templatemanager: OP
@@ -4737,6 +4738,7 @@ ftbutilities.claims.block.interact.botania_tweaks.compressed_tiny_potato_7: OP
 ftbutilities.claims.block.interact.botania_tweaks.compressed_tiny_potato_8: OP
 ftbutilities.claims.block.interact.botania_tweaks.potted_tiny_potato: OP
 ftbutilities.claims.block.interact.buildinggadgets.constructionblock: OP
+ftbutilities.claims.block.interact.buildinggadgets.constructionblock_dense: OP
 ftbutilities.claims.block.interact.buildinggadgets.constructionblockpowder: OP
 ftbutilities.claims.block.interact.buildinggadgets.effectblock: OP
 ftbutilities.claims.block.interact.buildinggadgets.templatemanager: OP
@@ -8374,7 +8376,10 @@ ftbutilities.claims.item.bewitchment.ravens_feather: ALL
 ftbutilities.claims.item.bewitchment.regal_silk: ALL
 ftbutilities.claims.item.bewitchment.remedy_talisman: ALL
 ftbutilities.claims.item.bewitchment.revealing_lantern: ALL
-ftbutilities.claims.item.bewitchment.ritual_chalk: ALL
+ftbutilities.claims.item.bewitchment.ritual_chalk_ender: ALL
+ftbutilities.claims.item.bewitchment.ritual_chalk_golden: ALL
+ftbutilities.claims.item.bewitchment.ritual_chalk_nether: ALL
+ftbutilities.claims.item.bewitchment.ritual_chalk_normal: ALL
 ftbutilities.claims.item.bewitchment.sagebrush: ALL
 ftbutilities.claims.item.bewitchment.salt: ALL
 ftbutilities.claims.item.bewitchment.salt_ore: ALL
@@ -9361,7 +9366,9 @@ ftbutilities.claims.item.botania_tweaks.compressed_tiny_potato_8: ALL
 ftbutilities.claims.item.botania_tweaks.potted_tiny_potato: ALL
 ftbutilities.claims.item.bq_standard.loot_chest: ALL
 ftbutilities.claims.item.buildinggadgets.buildingtool: ALL
+ftbutilities.claims.item.buildinggadgets.construction_chunk_dense: ALL
 ftbutilities.claims.item.buildinggadgets.constructionblock: ALL
+ftbutilities.claims.item.buildinggadgets.constructionblock_dense: ALL
 ftbutilities.claims.item.buildinggadgets.constructionblockpowder: ALL
 ftbutilities.claims.item.buildinggadgets.constructionpaste: ALL
 ftbutilities.claims.item.buildinggadgets.constructionpastecontainer: ALL
@@ -10715,6 +10722,8 @@ ftbutilities.claims.item.flatcoloredblocks.flatcoloredblock_transparent0_9: ALL
 ftbutilities.claims.item.forge.bucketfilled: ALL
 ftbutilities.claims.item.guideapi.bloodmagic-guide: ALL
 ftbutilities.claims.item.iceandfire.ambrosia: ALL
+ftbutilities.claims.item.iceandfire.amphithere_arrow: ALL
+ftbutilities.claims.item.iceandfire.amphithere_feather: ALL
 ftbutilities.claims.item.iceandfire.armor_blue_boots: ALL
 ftbutilities.claims.item.iceandfire.armor_blue_chestplate: ALL
 ftbutilities.claims.item.iceandfire.armor_blue_helmet: ALL
@@ -10901,6 +10910,15 @@ ftbutilities.claims.item.iceandfire.rotten_egg: ALL
 ftbutilities.claims.item.iceandfire.sapphire_block: ALL
 ftbutilities.claims.item.iceandfire.sapphire_gem: ALL
 ftbutilities.claims.item.iceandfire.sapphire_ore: ALL
+ftbutilities.claims.item.iceandfire.sea_serpent_arrow: ALL
+ftbutilities.claims.item.iceandfire.sea_serpent_fang: ALL
+ftbutilities.claims.item.iceandfire.sea_serpent_scales_blue: ALL
+ftbutilities.claims.item.iceandfire.sea_serpent_scales_bronze: ALL
+ftbutilities.claims.item.iceandfire.sea_serpent_scales_deepblue: ALL
+ftbutilities.claims.item.iceandfire.sea_serpent_scales_green: ALL
+ftbutilities.claims.item.iceandfire.sea_serpent_scales_purple: ALL
+ftbutilities.claims.item.iceandfire.sea_serpent_scales_red: ALL
+ftbutilities.claims.item.iceandfire.sea_serpent_scales_teal: ALL
 ftbutilities.claims.item.iceandfire.sheep_boots: ALL
 ftbutilities.claims.item.iceandfire.sheep_chestplate: ALL
 ftbutilities.claims.item.iceandfire.sheep_helmet: ALL
@@ -10920,6 +10938,34 @@ ftbutilities.claims.item.iceandfire.silverpile: ALL
 ftbutilities.claims.item.iceandfire.stone_statue: ALL
 ftbutilities.claims.item.iceandfire.stymphalian_arrow: ALL
 ftbutilities.claims.item.iceandfire.stymphalian_bird_feather: ALL
+ftbutilities.claims.item.iceandfire.tide_blue_boots: ALL
+ftbutilities.claims.item.iceandfire.tide_blue_chestplate: ALL
+ftbutilities.claims.item.iceandfire.tide_blue_helmet: ALL
+ftbutilities.claims.item.iceandfire.tide_blue_leggings: ALL
+ftbutilities.claims.item.iceandfire.tide_bronze_boots: ALL
+ftbutilities.claims.item.iceandfire.tide_bronze_chestplate: ALL
+ftbutilities.claims.item.iceandfire.tide_bronze_helmet: ALL
+ftbutilities.claims.item.iceandfire.tide_bronze_leggings: ALL
+ftbutilities.claims.item.iceandfire.tide_deepblue_boots: ALL
+ftbutilities.claims.item.iceandfire.tide_deepblue_chestplate: ALL
+ftbutilities.claims.item.iceandfire.tide_deepblue_helmet: ALL
+ftbutilities.claims.item.iceandfire.tide_deepblue_leggings: ALL
+ftbutilities.claims.item.iceandfire.tide_green_boots: ALL
+ftbutilities.claims.item.iceandfire.tide_green_chestplate: ALL
+ftbutilities.claims.item.iceandfire.tide_green_helmet: ALL
+ftbutilities.claims.item.iceandfire.tide_green_leggings: ALL
+ftbutilities.claims.item.iceandfire.tide_purple_boots: ALL
+ftbutilities.claims.item.iceandfire.tide_purple_chestplate: ALL
+ftbutilities.claims.item.iceandfire.tide_purple_helmet: ALL
+ftbutilities.claims.item.iceandfire.tide_purple_leggings: ALL
+ftbutilities.claims.item.iceandfire.tide_red_boots: ALL
+ftbutilities.claims.item.iceandfire.tide_red_chestplate: ALL
+ftbutilities.claims.item.iceandfire.tide_red_helmet: ALL
+ftbutilities.claims.item.iceandfire.tide_red_leggings: ALL
+ftbutilities.claims.item.iceandfire.tide_teal_boots: ALL
+ftbutilities.claims.item.iceandfire.tide_teal_chestplate: ALL
+ftbutilities.claims.item.iceandfire.tide_teal_helmet: ALL
+ftbutilities.claims.item.iceandfire.tide_teal_leggings: ALL
 ftbutilities.claims.item.iceandfire.troll_leather_forest: ALL
 ftbutilities.claims.item.iceandfire.troll_leather_frost: ALL
 ftbutilities.claims.item.iceandfire.troll_leather_mountain: ALL

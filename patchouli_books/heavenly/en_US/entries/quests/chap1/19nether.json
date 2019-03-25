@@ -37,8 +37,8 @@
             ],
             "mapping": {
                 " ": "ANY",
-                "0": "minecraft:obsidian",
-                "O": "minecraft:obsidian",
+                "0": "ore:obsidian",
+                "O": "ore:obsidian",
                 "P": "AIR"
             },
             "symmetrical": false,

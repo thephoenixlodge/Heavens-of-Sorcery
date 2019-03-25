@@ -1016,6 +1016,16 @@
     "Class": "com.github.alexthe666.iceandfire.entity.EntityMyrmexEgg"
   },
   {
+    "Name": "amphithere",
+    "Registry ID": "iceandfire:amphithere",
+    "Class": "com.github.alexthe666.iceandfire.entity.EntityAmphithere"
+  },
+  {
+    "Name": "seaserpent",
+    "Registry ID": "iceandfire:seaserpent",
+    "Class": "com.github.alexthe666.iceandfire.entity.EntitySeaSerpent"
+  },
+  {
     "Name": "bound_zombie",
     "Registry ID": "runecarved:bound_zombie",
     "Class": "com.minerarcana.runecarved.entity.EntityBoundZombie"
