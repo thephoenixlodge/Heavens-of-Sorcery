@@ -31,16 +31,8 @@
 			"y": 15
 		},
 		{
-			"type": "entity",
-			"entity": "#summon",
-			"render_size": 20,
-			"x": 58,
-			"y": 22
-		},
-		{
 			"type": "image",
 			"image": "books:templates/ritual_portal.png",
-			"guard": "#tip->exists",
 			"texture_width": 16,
 			"texture_height": 16,
 			"width": 16,

@@ -25,7 +25,7 @@
 		{
 			"type": "header",
 			"text": "#location",
-			"scale": 1.5,
+			"scale": 1.2,
 			"x": -1,
 			"y": 95
 		},

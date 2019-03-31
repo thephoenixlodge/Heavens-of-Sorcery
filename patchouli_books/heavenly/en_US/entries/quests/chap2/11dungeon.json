@@ -20,7 +20,8 @@
         	"type": "location",
             "icon": "books:templates/dungeon_preview.png",
             "location": "Dungeon Raid",
-            "reward1": "arcaneworld:sapphire#10"
+            "reward1": "arcaneworld:sapphire#10",
+            "reward2": "minecraft:enchanted_book{StoredEnchantments: [{lvl: 4 as short, id: 0 as short}]}"
         },
         {
             "type": "ritual",
@@ -31,7 +32,7 @@
             "item4": "wizardry:nacre_pearl",
             "item5": "minecraft:gold_ingot",
             "tip": "Port to the Dungeon Raid",
-            "description": "Teleports you directly to the raid.$(br)$(o)Warning: preparing armour first is advised$()"
+            "description": "Teleports you to the raid.$(br)$(o)Warning: preparing armour first is advised$()"
         }
     ]
 }
