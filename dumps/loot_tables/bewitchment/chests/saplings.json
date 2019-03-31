@@ -1,0 +1,33 @@
+{
+  "pools": [
+    {
+      "name": "saplings",
+      "entries": [
+        {
+          "entryName": "bewitchment:sapling",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": {
+                "min": 0.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "bewitchment:sapling"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

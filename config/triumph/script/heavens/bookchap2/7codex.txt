@@ -8,10 +8,10 @@ addParent("heavens:bookchap2/4needles")
 
 setRequiresParents()
 
-setPos(-95,100)
+setPos(-58,137)
 drawDirectLines()
 
 criteria1 = addCriteria("hasItems1", "minecraft:inventory_changed")
-criteria1.addItem(<wizardry:book, count:1>)
+criteria1.addItem(<wizardry:book, count:1~>)
 
 addRewardItem(<minecraft:book, count:5>)

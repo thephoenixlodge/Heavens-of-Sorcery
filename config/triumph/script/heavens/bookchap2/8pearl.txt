@@ -8,10 +8,10 @@ addParent("heavens:bookchap2/7codex")
 
 setRequiresParents()
 
-setPos(-95,137)
+setPos(-21,137)
 drawDirectLines()
 
 criteria1 = addCriteria("hasItems1", "minecraft:inventory_changed")
-criteria1.addItem(<wizardry:nacre_pearl, count:1>)
+criteria1.addItem(<wizardry:nacre_pearl, count:1~>)
 
 addRewardItem(<wizardry:orb, meta:0, count:20>)

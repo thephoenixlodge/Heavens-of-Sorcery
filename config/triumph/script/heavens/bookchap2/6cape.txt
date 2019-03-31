@@ -9,11 +9,11 @@ addParent("heavens:bookchap2/3cows")
 
 setRequiresParents()
 
-setPos(-21,137)
+setPos(-21,100)
 drawDirectLines()
 
 criteria1 = addCriteria("hasItems1", "triumph:player_crafted_item")
-criteria1.setItem(<wizardry:cape, count:1>)
+criteria1.setItem(<wizardry:cape, count:1~>)
 
 addRewardItem(<minecraft:leather, count:3>)
 addRewardItem(<minecraft:book, count:3>)

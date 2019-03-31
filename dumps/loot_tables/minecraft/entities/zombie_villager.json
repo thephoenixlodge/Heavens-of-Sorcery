@@ -66,6 +66,19 @@
           "condition": "minecraft:random_chance_with_looting"
         }
       ]
+    },
+    {
+      "name": "everlasting_food",
+      "entries": [
+        {
+          "entryName": "entry#0",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "artifacts:everlasting_food/rotten_flesh"
+        }
+      ],
+      "rolls": 1.0
     }
   ]
 }

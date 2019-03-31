@@ -1,0 +1,23 @@
+{
+  "pools": [
+    {
+      "name": "knowledge",
+      "entries": [
+        {
+          "entryName": "bewitchment:knowledge_fragment",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "bewitchment:knowledge_fragment"
+        }
+      ],
+      "rolls": 2.0
+    }
+  ]
+}

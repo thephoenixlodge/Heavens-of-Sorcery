@@ -1,0 +1,68 @@
+{
+    "name": "Structured Spellcraft",
+    "icon": "wizardry:crafting_plate",
+    "category": "quests/chap2",
+    "sortnum": 8,
+    "advancement": "heavens:bookchap2/5halo",
+    "turnin": "heavens:bookchap2/9spellaltar",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "Structured Spellcraft",
+            "trigger": "heavens:bookchap2/9spellaltar",
+            "text": "\"When are we going to actually start casting spells\" you ask. Well, you can hardly cast spells that haven't been written yet can you? There's a few things we need to prepare, and then you can start writing whatever spells tickle your fancy."
+        },
+        {
+            "type": "text",
+            "text": "Firstly, spellcrafting requires a big ol' $(item)Altar$(). To build it, you're going to need a combination of $(item)Quartz$(), $(item)Wisdom Wood$() and $(item)Gold$(), along with an $(thing)open 9x9 area$()."
+        },
+        {
+        	"type": "checklist_many",
+            "item1": "wizardry:crafting_plate#1",
+            "item2": "wizardry:pearl_holder#4",
+            "item3": "wizardry:wisdom_wood_log#12",
+            "item4": "wizardry:wisdom_wood_planks#4",
+            "item5": "wizardry:wisdom_wood_pigmented_planks#12",
+            "item6": "wizardry:wisdom_wood_stairs#16",
+            "item7": "minecraft:quartz_block#9",
+            "item8": "minecraft:quartz_stairs#4",
+            "item9": "minecraft:stone_slab:7#4",
+            "reward1": "minecraft:quartz_block#30",
+            "reward2": "wizardry:wisdom_wood_log#40"
+        },
+        {
+            "type": "multiblock",
+            "name": "Spellcrafting Altar",
+            "multiblock": {
+            "pattern": [
+                [ "         ", " H     H ", "         ", "         ", "         ", "         ", "         ", " H     H ", "         " ],
+                [ "         ", " L     L ", "         ", "         ", "         ", "         ", "         ", " L     L ", "         " ],
+                [ "         ", " L     L ", "         ", "         ", "    C    ", "         ", "         ", " L     L ", "         " ],
+                [ "    Z    ", " LDDRDDL ", " SPPQPPI ", " SPWQWPI ", "ZAQQ0QQUZ", " SPWQWPI ", " SPPQPPI ", " LOOTOOL ", "    Z    " ]
+            ],
+            "mapping": {
+                " ": "ANY",
+                "0": "minecraft:quartz_block",
+                "Q": "minecraft:quartz_block",
+                "H": "wizardry:pearl_holder",
+                "C": "wizardry:crafting_plate",
+                "L": "wizardry:wisdom_wood_log",
+                "W": "wizardry:wisdom_wood_planks",
+                "P": "wizardry:wisdom_wood_pigmented_planks",
+                "I": "wizardry:wisdom_wood_stairs[facing=north]",
+                "S": "wizardry:wisdom_wood_stairs[facing=south]",
+                "D": "wizardry:wisdom_wood_stairs[facing=east]",
+                "O": "wizardry:wisdom_wood_stairs[facing=west]",
+                "U": "minecraft:quartz_stairs[facing=north]",
+                "A": "minecraft:quartz_stairs[facing=south]",
+                "R": "minecraft:quartz_stairs[facing=east]",
+                "T": "minecraft:quartz_stairs[facing=west]",
+                "Z": "minecraft:stone_slab[half=bottom,variant=quartz]"
+            },
+            "symmetrical": true,
+            "offset"     : [0, 0, 0],
+            "view_offset": [0, 0, 0]
+            }
+        }
+    ]
+}

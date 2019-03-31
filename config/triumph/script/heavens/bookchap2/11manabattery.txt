@@ -1,0 +1,32 @@
+setIcon(<wizardry:mana_battery>)
+
+setTitle("Battery Buildup")
+
+setDescription("Collect the components to build a Mana Battery")
+
+addParent("heavens:bookchap2/9spellaltar")
+
+setRequiresParents()
+
+setPos(-95,174)
+drawDirectLines()
+
+criteria1 = addCriteria("hasItems1", "minecraft:inventory_changed")
+criteria1.addItem(<wizardry:mana_battery, count:1~>)
+criteria2 = addCriteria("hasItems2", "minecraft:inventory_changed")
+criteria2.addItem(<wizardry:pearl_holder, count:8~>)
+criteria3 = addCriteria("hasItems3", "minecraft:inventory_changed")
+criteria3.addItem(<wizardry:wisdom_wood_log, count:38~>)
+criteria4 = addCriteria("hasItems4", "minecraft:inventory_changed")
+criteria4.addItem(<wizardry:wisdom_wood_planks, count:28~>)
+criteria5 = addCriteria("hasItems5", "minecraft:inventory_changed")
+criteria5.addItem(<wizardry:wisdom_wood_pigmented_planks, count:8~>)
+criteria6 = addCriteria("hasItems6", "minecraft:inventory_changed")
+criteria6.addItem(<wizardry:wisdom_wood_stairs, count:20~>)
+criteria7 = addCriteria("hasItems7", "minecraft:inventory_changed")
+criteria7.addItem(<minecraft:quartz_block, count:41~>)
+criteria8 = addCriteria("hasItems8", "minecraft:inventory_changed")
+criteria8.addItem(<minecraft:quartz_stairs, count:12~>)
+
+addRewardItem(<minecraft:quartz, meta:0, count:200>)
+addRewardItem(<wizardry:orb, meta:1, count:40>)

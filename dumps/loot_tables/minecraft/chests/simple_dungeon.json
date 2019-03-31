@@ -262,6 +262,13 @@
             }
           ],
           "name": "minecraft:beetroot_seeds"
+        },
+        {
+          "entryName": "iceandfire:manuscript",
+          "weight": 10,
+          "quality": 5,
+          "type": "item",
+          "name": "iceandfire:manuscript"
         }
       ],
       "rolls": {
@@ -340,6 +347,32 @@
       "rolls": 3.0
     },
     {
+      "name": "bewitchment_saplings_pool",
+      "entries": [
+        {
+          "entryName": "bewitchment_saplings_entry",
+          "weight": 5,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "bewitchment:chests/saplings"
+        }
+      ],
+      "rolls": 3.0
+    },
+    {
+      "name": "bewitchment_jewels_pool",
+      "entries": [
+        {
+          "entryName": "bewitchment_jewels_entry",
+          "weight": 5,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "bewitchment:chests/jewels"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
       "name": "botania_inject_pool",
       "entries": [
         {
@@ -348,25 +381,6 @@
           "quality": 0,
           "type": "loot_table",
           "name": "botania:inject/simple_dungeon"
-        }
-      ],
-      "rolls": 1.0
-    },
-    {
-      "name": "flying_things_chest_treasure",
-      "entries": [
-        {
-          "entryName": "flying_things:phial_of_animation",
-          "weight": 10,
-          "quality": 2,
-          "type": "item",
-          "name": "flying_things:phial_of_animation"
-        },
-        {
-          "entryName": "empty",
-          "weight": 90,
-          "quality": 0,
-          "type": "empty"
         }
       ],
       "rolls": 1.0

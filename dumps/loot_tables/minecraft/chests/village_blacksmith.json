@@ -184,12 +184,66 @@
           "quality": 0,
           "type": "item",
           "name": "minecraft:diamond_horse_armor"
+        },
+        {
+          "entryName": "thaumic_arcana:magical_enchant_powder",
+          "weight": 5,
+          "quality": 1,
+          "type": "item",
+          "name": "thaumic_arcana:enchanting_powder_magical"
+        },
+        {
+          "entryName": "thaumic_arcana:vaporous_curiosoitx",
+          "weight": 3,
+          "quality": 1,
+          "type": "item",
+          "name": "thaumic_arcana:enchanting_powder_magical"
+        },
+        {
+          "entryName": "thaumic_arcana:animated_curiosity",
+          "weight": 3,
+          "quality": 1,
+          "type": "item",
+          "name": "thaumic_arcana:enchanting_powder_magical"
+        },
+        {
+          "entryName": "thaumic_arcana:infused_curiosity",
+          "weight": 3,
+          "quality": 1,
+          "type": "item",
+          "name": "thaumic_arcana:enchanting_powder_magical"
         }
       ],
       "rolls": {
         "min": 3.0,
         "max": 8.0
       }
+    },
+    {
+      "name": "bewitchment_saplings_pool",
+      "entries": [
+        {
+          "entryName": "bewitchment_saplings_entry",
+          "weight": 5,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "bewitchment:chests/saplings"
+        }
+      ],
+      "rolls": 3.0
+    },
+    {
+      "name": "bewitchment_jewels_pool",
+      "entries": [
+        {
+          "entryName": "bewitchment_jewels_entry",
+          "weight": 5,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "bewitchment:chests/jewels"
+        }
+      ],
+      "rolls": 1.0
     },
     {
       "name": "botania_inject_pool",

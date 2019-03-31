@@ -40,6 +40,19 @@
         }
       ],
       "rolls": 1.0
+    },
+    {
+      "name": "everlasting_food",
+      "entries": [
+        {
+          "entryName": "entry#0",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "artifacts:everlasting_food/porkchop"
+        }
+      ],
+      "rolls": 1.0
     }
   ]
 }

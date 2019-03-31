@@ -1,0 +1,22 @@
+setIcon(<wizardry:staff, meta:1>)
+
+setTitle("Spellbound")
+
+setDescription("Make a Magicians Worktable, use it to write your first spell, then write it to a Nacre Pearl and use it to top a Staff")
+
+addParent("heavens:bookchap2/9spellaltar")
+addParent("heavens:bookchap2/8pearl")
+
+setRequiresParents()
+
+setPos(-58,174)
+drawDirectLines()
+
+criteria1 = addCriteria("hasItems1", "triumph:player_crafted_item")
+criteria1.setItem(<wizardry:magicians_worktable, count:1~>)
+criteria2 = addCriteria("hasItems2", "triumph:player_crafted_item")
+criteria2.setItem(<wizardry:staff, count:1~>)
+criteria3 = addCriteria("hasItems3", "minecraft:inventory_changed")
+criteria3.addItem(<wizardry:staff, meta:1, count:1~>)
+
+addRewardItem(<wizardry:nacre_pearl, meta:0, count:1, nbt:{rand:51.414062f,purity:600,complete:1b,purity_override:1.0f}>)

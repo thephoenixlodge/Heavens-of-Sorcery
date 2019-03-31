@@ -24,7 +24,7 @@
             "item1": "arcaneworld:sapphire",
             "item2": "minecraft:beef",
             "item3": "minecraft:bone",
-            "output_item": "minecraft:spawn_egg{EntityTag:{id:\"minecraft:cow\"}}",
+            "summon": "minecraft:cow",
             "description": "Summon a Cow at the Ritual Altar"
         },
         {
@@ -35,7 +35,7 @@
             "item3": "contenttweaker:boneshard",
             "item4": "contenttweaker:boneshard",
             "item5": "contenttweaker:boneshard",
-            "output_item": "minecraft:spawn_egg{EntityTag: {id: \"minecraft:skeleton\"}}",
+            "summon": "minecraft:skeleton",
             "description": "Summon a Skeleton at the Ritual Altar to get whole bones"
         },
         {

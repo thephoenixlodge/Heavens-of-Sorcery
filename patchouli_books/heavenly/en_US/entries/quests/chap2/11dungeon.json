@@ -1,0 +1,37 @@
+{
+    "name": "Raiding the Pantry",
+    "icon": "minecraft:stonebrick:1",
+    "category": "quests/chap2",
+    "sortnum": 11,
+    "advancement": "heavens:bookchap2/8pearl",
+    "turnin": "heavens:bookchap2/12dungeon",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "Raiding the Pantry",
+            "trigger": "heavens:bookchap2/12dungeon",
+            "text": "With these ingredients, I think it should be possible to open a gate to that place... Yes... I suppose it's time I tell you about that. When i was younger, my colleagues and I maintained a pocket dimension for storing some of our more $(o)unstable$() research. We had to abandon it due to out of control self-replicating $(thing)Golems$(), but left many things behind when we"
+        },
+        {
+            "type": "text",
+            "text": "did. Some of the materials stored there should be particularly useful to our cause."
+        },
+        {
+        	"type": "location",
+            "icon": "books:templates/dungeon_preview.png",
+            "location": "Dungeon Raid",
+            "reward1": "arcaneworld:sapphire#10"
+        },
+        {
+            "type": "ritual",
+            "heading": "Dungeon Raid",
+            "item1": "arcaneworld:sapphire",
+            "item2": "arcaneworld:sapphire",
+            "item3": "arcaneworld:sapphire",
+            "item4": "wizardry:nacre_pearl",
+            "item5": "minecraft:gold_ingot",
+            "tip": "Port to the Dungeon Raid",
+            "description": "Teleports you directly to the raid.$(br)$(o)Warning: preparing armour first is advised$()"
+        }
+    ]
+}

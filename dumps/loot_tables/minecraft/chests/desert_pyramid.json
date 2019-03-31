@@ -182,6 +182,25 @@
           "type": "empty"
         },
         {
+          "entryName": "thaumic_arcana:magical_enchant_powder",
+          "weight": 5,
+          "quality": 1,
+          "type": "item",
+          "name": "thaumic_arcana:enchanting_powder_magical"
+        },
+        {
+          "entryName": "quark:treasure_map",
+          "weight": 10,
+          "quality": 2,
+          "type": "item",
+          "functions": [
+            {
+              "function": "quark:set_treasure"
+            }
+          ],
+          "name": "minecraft:filled_map"
+        },
+        {
           "entryName": "quark:rune",
           "weight": 15,
           "quality": 0,
@@ -196,18 +215,6 @@
             }
           ],
           "name": "quark:rune"
-        },
-        {
-          "entryName": "quark:treasure_map",
-          "weight": 10,
-          "quality": 2,
-          "type": "item",
-          "functions": [
-            {
-              "function": "quark:set_treasure"
-            }
-          ],
-          "name": "minecraft:filled_map"
         },
         {
           "entryName": "astralsorcery:constellation_paper",
@@ -309,6 +316,32 @@
       "rolls": 4.0
     },
     {
+      "name": "bewitchment_saplings_pool",
+      "entries": [
+        {
+          "entryName": "bewitchment_saplings_entry",
+          "weight": 5,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "bewitchment:chests/saplings"
+        }
+      ],
+      "rolls": 3.0
+    },
+    {
+      "name": "bewitchment_jewels_pool",
+      "entries": [
+        {
+          "entryName": "bewitchment_jewels_entry",
+          "weight": 5,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "bewitchment:chests/jewels"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
       "name": "botania_inject_pool",
       "entries": [
         {
@@ -317,25 +350,6 @@
           "quality": 0,
           "type": "loot_table",
           "name": "botania:inject/desert_pyramid"
-        }
-      ],
-      "rolls": 1.0
-    },
-    {
-      "name": "flying_things_chest_treasure",
-      "entries": [
-        {
-          "entryName": "flying_things:phial_of_animation",
-          "weight": 10,
-          "quality": 2,
-          "type": "item",
-          "name": "flying_things:phial_of_animation"
-        },
-        {
-          "entryName": "empty",
-          "weight": 90,
-          "quality": 0,
-          "type": "empty"
         }
       ],
       "rolls": 1.0

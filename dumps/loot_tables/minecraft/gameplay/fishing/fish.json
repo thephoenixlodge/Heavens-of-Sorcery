@@ -54,6 +54,24 @@
             }
           ],
           "name": "minecraft:fish"
+        },
+        {
+          "entryName": "everlasting_fish",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "function": "artifacts:generate_everlasting_fish",
+              "conditions": [
+                {
+                  "chance": 0.05,
+                  "condition": "minecraft:random_chance"
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:fish"
         }
       ],
       "rolls": 1.0

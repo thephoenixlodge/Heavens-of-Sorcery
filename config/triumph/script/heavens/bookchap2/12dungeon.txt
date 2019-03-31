@@ -1,0 +1,19 @@
+setIcon(<minecraft:stonebrick, meta:1, count:1>)
+
+setTitle("Raiding the Pantry")
+
+setDescription("Perform a Dungeon Raid Ritual")
+
+addParent("heavens:bookchap2/8pearl")
+addParent("heavens:bookchap2/2rituals")
+
+setRequiresParents()
+
+setPos(16,137)
+drawDirectLines()
+
+criteria = addCriteria("locationDungeon", "minecraft:changed_dimension")
+criteria.setDimensionDestination("dungeon")
+
+addRewardItem(<arcaneworld:sapphire, count:10>)
+addRewardItem(<minecraft:enchanted_book, meta:0, count:1, enchant:minecraft:protection:4, nbt:{StoredEnchantments:[{lvl:4s,id:0s}]}>)

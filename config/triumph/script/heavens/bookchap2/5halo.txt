@@ -12,7 +12,7 @@ setPos(-58,100)
 drawDirectLines()
 
 criteria1 = addCriteria("hasItems1", "triumph:player_crafted_item")
-criteria1.setItem(<wizardry:halo_fake, count:1>)
+criteria1.setItem(<wizardry:halo_fake, count:1~>)
 
 addRewardItem(<wizardry:syringe, meta:1, count:2>)
 addRewardItem(<minecraft:quartz_block, count:10>)
