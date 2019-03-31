@@ -1,0 +1,18 @@
+setIcon(<contenttweaker:otherworlds_core>)
+
+setTitle("Shoot and Loot")
+
+setDescription("Obtain 3 Otherworlds' Cores from Dungeon Raids")
+
+addParent("heavens:bookchap2/12dungeon")
+
+setRequiresParents()
+
+setPos(16,157)
+drawDirectLines()
+
+criteria1 = addCriteria("hasItems1", "minecraft:inventory_changed")
+criteria1.addItem(<contenttweaker:otherworlds_core, count:3~>)
+
+addRewardItem(<arcaneworld:amethyst, count:10>)
+addRewardItem(<minecraft:enchanted_book, meta:0, count:1, enchant:minecraft:protection:4, nbt:{StoredEnchantments:[{lvl:4s,id:0s}]}>)

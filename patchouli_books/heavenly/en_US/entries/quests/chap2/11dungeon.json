@@ -21,7 +21,7 @@
             "icon": "books:templates/dungeon_preview.png",
             "location": "Dungeon Raid",
             "reward1": "arcaneworld:sapphire#10",
-            "reward2": "minecraft:enchanted_book{StoredEnchantments: [{lvl: 4 as short, id: 0 as short}]}"
+            "reward2": "minecraft:enchanted_book{StoredEnchantments: [{lvl: 4, id: 0}]}"
         },
         {
             "type": "ritual",

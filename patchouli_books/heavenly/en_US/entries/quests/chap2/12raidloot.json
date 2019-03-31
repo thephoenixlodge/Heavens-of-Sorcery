@@ -1,0 +1,46 @@
+{
+    "name": "Shoot and Loot",
+    "icon": "contenttweaker:otherworlds_core",
+    "category": "quests/chap2",
+    "sortnum": 11,
+    "advancement": "heavens:bookchap2/12dungeon",
+    "turnin": "heavens:bookchap2/13raidloot",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "Shoot and Loot",
+            "trigger": "heavens:bookchap2/13raidloot",
+            "text": "Now that you've made it in, there's plenty of useful stuff stored in there, but what you're really looking for are $(item)Otherworlds' Cores$(). With these we should be able to open portals to further planes which hold a bounty of new resources. We'll need 3 in total at present. Be careful though, this place has been left unchecked for a long time."
+        },
+        {
+        	"type": "checklist_end",
+            "item1": "contenttweaker:otherworlds_core#3",
+            "reward1": "arcaneworld:amethyst#10",
+            "reward2": "minecraft:enchanted_book{StoredEnchantments: [{lvl: 4, id: 0}]}"
+        },
+        {
+            "type": "loot",
+            "lootpool": "Raid",
+            "item1": "minecraft:gold_ingot",
+            "item2": "minecraft:iron_ingot",
+            "item3": "minecraft:diamond",
+            "item4": "arcaneworld:growth_powder",
+            "item5": "arcaneworld:sapphire",
+            "item6": "arcaneworld:amethyst",
+            "item7": "arcaneworld:ethereal_sword",
+            "item8": "arcaneworld:potion_orb",
+            "item9": "minecraft:redstone",
+            "item10": "minecraft:name_tag",
+            "item11": "minecraft:bucket",
+            "item12": "minecraft:chainmail_chestplate",
+            "item13": "minecraft:diamond_hoe",
+            "item14": "minecraft:diamond_chestplate",
+            "item15": "minecraft:enchanted_book",
+            "item16": "minecraft:bow",
+            "item17": "contenttweaker:angel_heart",
+            "item18": "contenttweaker:otherworlds_core",
+            "item19": "minecraft:elytra",
+            "description": "Some chests in the $(thing)Raid$() give general dungeon loot, some give these things"
+        }
+    ]
+}
