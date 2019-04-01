@@ -8,7 +8,7 @@ addParent("heavens:bookchap2/12dungeon")
 
 setRequiresParents()
 
-setPos(16,157)
+setPos(53,137)
 drawDirectLines()
 
 criteria1 = addCriteria("hasItems1", "minecraft:inventory_changed")

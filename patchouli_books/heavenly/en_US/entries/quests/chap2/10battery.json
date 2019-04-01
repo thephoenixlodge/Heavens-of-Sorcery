@@ -1,0 +1,86 @@
+{
+    "name": "Battery Builder",
+    "icon": "wizardry:mana_battery",
+    "category": "quests/chap2",
+    "sortnum": 8,
+    "advancement": "heavens:bookchap2/9spellaltar",
+    "turnin": "heavens:bookchap2/11manabattery",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "Battery Builder",
+            "trigger": "heavens:bookchap2/11manabattery",
+            "text": "The spellcrafting altar can be fed mana by placing $(item)Mana Orbs$() on the $()Pearl Holders$(), but that's a rather small reserve, and requires frequent manual refilling. Building a $(item)Mana Battery$() structure will allow you to hold much more $(thing)mana$() in reserve for creating your spells. Like the spellcrafting altar, the structure is built mostly of $(item)Quartz$(), $(item)Gold$() and"
+        },
+        {
+            "type": "text",
+            "text": "$(item)Wisdom Wood$(), but also includes 8 buckets of $(item)Liquid Mana$() in the middle of the structure."
+        },
+        {
+        	"type": "checklist_many",
+            "item1": "wizardry:mana_battery#1",
+            "item2": "wizardry:pearl_holder#8",
+            "item3": "wizardry:wisdom_wood_log#38",
+            "item4": "wizardry:wisdom_wood_planks#28",
+            "item5": "wizardry:wisdom_wood_pigmented_planks#8",
+            "item6": "wizardry:wisdom_wood_stairs#20",
+            "item7": "minecraft:quartz_block#41",
+            "item8": "minecraft:quartz_stairs#12",
+            "reward1": "wizardry:orb:1#40",
+            "reward2": "minecraft:quartz#200"
+        },
+        {
+            "type": "multiblock",
+            "name": "Mana Battery",
+            "text": "The Mana Battery block must be placed 2 blocks above the log in the middle (1 block of air between log and battery)",
+            "multiblock": {
+            "pattern": [
+                ["           ", " H       H ", "           ", "           ", "           ", "           ", "           ", "           ", "           ", " H       H ", "           "],
+
+                ["           ", " L       L ", "           ", "   H   H   ", "           ", "           ", "           ", "   H   H   ", "           ", " L       L ", "           "],
+
+                ["           ", " L       L ", "           ", "   L   L   ", "           ", "     B     ", "           ", "   L   L   ", "           ", " L       L ", "           "],
+
+                ["           ", " L       L ", "           ", "   L   L   ", "           ", "           ", "           ", "   L   L   ", "           ", " L       L ", "           "],
+
+                ["           ", " L   R   L ", "  DDDQDDD  ", "  SL T LI  ", "  S     I  ", " AQU L AQU ", "  S     I  ", "  SL R LI  ", "  SOOQOOO  ", " L   T   L ", "           "],
+
+                ["     R     ", " LQQQWQQQL ", " QWWWWWWWQ ", " QWLPQPLWQ ", " QWPMMMPWQ ", "AWWQMLMQWWU", " QWPMMMPWQ ", " QWLPQPLWQ ", " QWWWWWWWQ ", " LQQQWQQQL ", "     T     "],
+
+                ["           ", "           ", "           ", "           ", "    QQQ    ", "    Q0Q    ", "    QQQ    ", "           ", "           ", "           ", "           "]
+            ],
+            "mapping": {
+                " ": "ANY",
+                "0": "minecraft:quartz_block",
+                "Q": "minecraft:quartz_block",
+                "H": "wizardry:pearl_holder",
+                "B": "wizardry:mana_battery",
+                "L": "wizardry:wisdom_wood_log",
+                "W": "wizardry:wisdom_wood_planks",
+                "P": "wizardry:wisdom_wood_pigmented_planks",
+                "I": "wizardry:wisdom_wood_stairs[facing=north]",
+                "S": "wizardry:wisdom_wood_stairs[facing=south]",
+                "D": "wizardry:wisdom_wood_stairs[facing=east]",
+                "O": "wizardry:wisdom_wood_stairs[facing=west]",
+                "U": "minecraft:quartz_stairs[facing=north]",
+                "A": "minecraft:quartz_stairs[facing=south]",
+                "R": "minecraft:quartz_stairs[facing=east]",
+                "T": "minecraft:quartz_stairs[facing=west]",
+                "M": "liquid:mana_fluid"
+            },
+            "symmetrical": true,
+            "offset"     : [0, 0, 0],
+            "view_offset": [0, 0, 0]
+            }
+        },
+        {
+            "type": "mana_world",
+            "heading": "Crystalizing a Mana Battery",
+            "input": "minecraft:diamond",
+            "input2": "minecraft:soul_sand",
+            "input3": "wizardry:devil_dust",
+            "output": "wizardry:mana_battery",
+            "description": "Requires and consumes 9 buckets of Liquid Mana"
+        }
+    ]
+}

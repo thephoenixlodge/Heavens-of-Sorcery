@@ -1,0 +1,36 @@
+{
+    "name": "Spellbound",
+    "icon": "wizardry:staff:1",
+    "category": "quests/chap2",
+    "sortnum": 9,
+    "advancement": "heavens:bookchap2/9spellaltar",
+    "turnin": "heavens:bookchap2/10staff",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "Spellbound",
+            "trigger": "heavens:bookchap2/10staff",
+            "text": "It seems you've gathered most of the things you'll need, so now is the time to begin actually crafting your own spells. To do this you'll first need to get a $(item)Magician's Worktable$(). With this you can combine effects to write your spells.$(br)To do so you'll need to first choose a $(thing)Spell Type$() or target from the top left, and drag it"
+        },
+        {
+            "type": "text",
+            "text": "onto the paper. Do the same thing with a $(thing)Spell Effect$(), and then you can drag with RMB to link them. Order is important - you must draw from the $(thing)Type$() to the $(thing)Effect#(), not the reverse. Provided you're carrying your $(item)Codex$(), you can then save the spell recipe to it, and see what ingredients will be necessary to craft the spell on the $(item)Crafting Plate$().$(br)Gather the ingredients, then throw them onto the $(item)Plate$() $(n)in order$() with the $(item)Nacre Pearl$() being added last. With enough $(thing)Mana$() available (either through"
+        },
+        {
+        	"type": "text",
+        	"text": "$(item)Mana Orbs$() on the $(item)Pearl Holders$(), or reserved in a $(item)Mana Battery$()) the spell will be constructed, ending with a $(thing)large burst of Mana$().$(br)This returns the $(item)pearl$(), with the spell etched into it. To cast the spell, you will need to attach the pearl to a $(item)Wisdom Wood Staff$()."
+        },
+        {
+            "type": "checklist_end",
+            "item1": "wizardry:magicians_worktable",
+            "item2": "wizardry:staff",
+            "item3": "wizardry:staff:1",
+            "reward1": "wizardry:nacre_pearl"
+        },
+        {
+            "type": "crafting",
+            "recipe": "wizardry:magicians_worktable",
+            "recipe2": "wizardry:staff"
+        }
+    ]
+}

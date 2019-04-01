@@ -63,6 +63,29 @@
             "offset"     : [0, 0, 0],
             "view_offset": [0, 0, 0]
             }
+        },
+        {
+            "type": "crafting",
+            "recipe": "wizardry:crafting_plate",
+            "recipe2": "wizardry:pearl_holder"
+        },
+        {
+            "type": "mana_world",
+            "heading": "Infusing Wood Logs",
+            "input": "ore:logWood",
+            "output": "wizardry:wisdom_wood_log"
+        },
+        {
+            "type": "crafting",
+            "title": "Planks & Pigmented Planks",
+            "recipe": "wizardry:wisdom_wood/planks",
+            "recipe2": "wizardry:wisdom_wood/pigmented_planks"
+        },
+        {
+            "type": "mana_world",
+            "heading": "Infusing Wood Planks",
+            "input": "ore:plankWood",
+            "output": "wizardry:wisdom_wood_planks"
         }
     ]
 }

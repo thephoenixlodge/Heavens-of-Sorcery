@@ -1,0 +1,18 @@
+setIcon(<aether_legacy:aether_grass>)
+
+setTitle("Aerborn")
+
+setDescription("Enter the Aether")
+
+addParent("heavens:bookchap2/13raidloot")
+
+setRequiresParents()
+
+setPos(16,174)
+drawDirectLines()
+
+criteria = addCriteria("locationDungeon", "minecraft:changed_dimension")
+criteria.setDimensionDestination("AetherI")
+
+addRewardItem(<aether_legacy:diamond_gloves, meta:0, count:1>)
+addRewardItem(<minecraft:glowstone_dust, count:100>)

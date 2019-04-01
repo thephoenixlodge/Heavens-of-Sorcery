@@ -1,0 +1,18 @@
+setIcon(<mist:stone_porous>)
+
+setTitle("Mistborn")
+
+setDescription("Enter the Misty World")
+
+addParent("heavens:bookchap2/13raidloot")
+
+setRequiresParents()
+
+setPos(53,174)
+drawDirectLines()
+
+criteria = addCriteria("locationDungeon", "minecraft:changed_dimension")
+criteria.setDimensionDestination("misty_world")
+
+addRewardItem(<minecraft:enchanted_book, meta:0, count:1, enchant:minecraft:sharpness:5, nbt:{StoredEnchantments:[{lvl:5s,id:16s}]}>)
+addRewardItem(<minecraft:gold_ingot, count:20>)
