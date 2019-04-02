@@ -25,7 +25,7 @@
         {
             "type": "multiblock",
             "name": "Nether Portal",
-            "text": "Portal Frame can be various sizes (Frame size shown one is the smallest allowed). Activate by lighting a fire.",
+            "text": "Portal Frame can be various sizes (Frame size shown is the smallest allowed). Activate by lighting a fire.",
             "multiblock": {
             "pattern": [
                 [ " ", "O", "O", " " ],

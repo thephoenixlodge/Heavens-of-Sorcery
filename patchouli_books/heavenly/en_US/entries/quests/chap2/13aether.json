@@ -1,0 +1,51 @@
+{
+    "name": "Aerborn",
+    "icon": "aether_legacy:aether_grass",
+    "category": "quests/chap2",
+    "sortnum": 13,
+    "advancement": "heavens:bookchap2/13raidloot",
+    "turnin": "heavens:bookchap2/14aether",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "Aerborn",
+            "trigger": "heavens:bookchap2/14aether",
+            "text": "Collecting materials from the $(thing)Nether$() was a good start, but continuining our progress is going to require further dimension hopping. One of our next stops is the plane known as the $(thing)Aether$(). At first glance, it seems the polar opposite of the $(thing)Nether$() - a paradise rather than hell. But in my experience, it is every bit as deadly, if not even moreso."
+        },
+        {
+            "type": "text",
+            "text": "The $(thing)Portal$() gateway to access the $(thing)Aether$() is built the same as the $(thing)Nether Portal$(), but with $(item)Glowstone$() in place of $(item)Obsidian$(). Once built, use one of the $(item)Otherworlds' Cores$() to activate it."
+        },
+        {
+        	"type": "location",
+            "icon": "books:templates/aether_preview.png",
+            "location": "The Aether",
+            "reward1": "aether_legacy:diamond_gloves",
+            "reward2": "minecraft:glowstone_dust#100"
+        },
+        {
+            "type": "multiblock",
+            "name": "Aether Portal",
+            "text": "Portal Frame can be various sizes (Frame size shown is the smallest allowed). Activate with an $(item)Otherworlds Core$().",
+            "multiblock": {
+            "pattern": [
+                [ " ", "O", "O", " " ],
+                [ "O", "P", "P", "O" ],
+                [ "O", "P", "P", "O" ],
+                [ "O", "P", "P", "O" ],
+                [ " ", "O", "0", " " ],
+                [ " ", " ", " ", " " ]
+            ],
+            "mapping": {
+                " ": "ANY",
+                "0": "minecraft:glowstone",
+                "O": "minecraft:glowstone",
+                "P": "AIR"
+            },
+            "symmetrical": false,
+            "offset"     : [0, 0, 0],
+            "view_offset": [0, 0, 0]
+            }
+        }
+    ]
+}

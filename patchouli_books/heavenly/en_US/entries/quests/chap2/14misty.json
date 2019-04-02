@@ -1,0 +1,65 @@
+{
+    "name": "Mistborn",
+    "icon": "mist:stone_porous",
+    "category": "quests/chap2",
+    "sortnum": 14,
+    "advancement": "heavens:bookchap2/13raidloot",
+    "turnin": "heavens:bookchap2/15misty",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "Mistborn",
+            "trigger": "heavens:bookchap2/15misty",
+            "text": "Now that your power has further grown, it's time we push into another plane. This time we're bound for the $(thing)Misty World$(). I know little of it, save that it has materials we sorely need - the place is unnerving to say the least. You'll need to use a $(thing)Ritual$() to imbue 2 stones with $(item)Otherworlds Cores$(), then place them vertically with a $(item)Block of Gold$() in between."
+        },
+        {
+        	"type": "location",
+            "icon": "books:templates/mist_preview.png",
+            "location": "The Misty World",
+            "reward1": "minecraft:enchanted_book{StoredEnchantments: [{lvl: 5, id: 16}]}",
+            "reward2": "minecraft:gold_ingot#30"
+        },
+        {
+            "type": "ritual",
+            "heading": "Upper Portal Stone",
+            "item1": "botania:biomestonea:6",
+            "item2": "contenttweaker:otherworlds_core",
+            "item3": "minecraft:gold_nugget",
+            "item4": "arcaneworld:amethyst",
+            "item5": "minecraft:glass_bottle",
+            "output_item": "mist:portal_base:3"
+        },
+        {
+            "type": "ritual",
+            "heading": "Lower Portal Stone",
+            "item1": "botania:biomestonea:6",
+            "item2": "contenttweaker:otherworlds_core",
+            "item3": "minecraft:gold_nugget",
+            "item4": "arcaneworld:amethyst",
+            "item5": "rootsclassic:growthsalve",
+            "output_item": "mist:portal_base:2"
+        },
+        {
+            "type": "multiblock",
+            "name": "Aether Portal",
+            "text": "Warning: $(item)Gold Block$() is lost if portal is broken.",
+            "multiblock": {
+            "pattern": [
+                ["T"],
+                ["G"],
+                ["0"],
+                [" "]
+            ],
+            "mapping": {
+                " ": "ANY",
+                "0": "mist:portal_base[isnew=false,isup=false]",
+                "T": "mist:portal_base[isnew=false,isup=true]",
+                "G": "minecraft:gold_block"
+            },
+            "symmetrical": false,
+            "offset"     : [0, 0, 0],
+            "view_offset": [0, 0, 0]
+            }
+        }
+    ]
+}
