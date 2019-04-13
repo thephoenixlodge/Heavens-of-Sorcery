@@ -1,0 +1,26 @@
+{
+  "output": {
+    "item": "embers:nugget_copper"
+  },
+  "input": {
+    "item": "minecraft:magma"
+  },
+  "extraInputs": [
+    {
+      "item": "rustic:dust_tiny_iron"
+    },
+    {
+      "item": "rustic:dust_tiny_iron"
+    },
+    {
+      "item": "rustic:dust_tiny_iron"
+    },
+    {
+      "item": "botania:manaresource",
+      "data": 23
+    }
+  ],
+  "required": 6,
+  "duration": 20,
+  "harp": false
+}

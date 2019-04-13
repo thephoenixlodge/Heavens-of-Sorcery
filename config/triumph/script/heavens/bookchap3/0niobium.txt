@@ -1,0 +1,18 @@
+setIcon(<mist:niobium_ore>)
+
+setTitle("Transitioning to New Metals")
+
+setDescription("Obtain Niobium Ore")
+
+addParent("heavens:bookchap3/root")
+
+setRequiresParents()
+
+setPos(-160,-25)
+
+criteria = addCriteria("completedChap1", "triumph:completed_advancement")
+criteria.setString("heavens:bookchap2/15misty")
+criteria1 = addCriteria("hasItemsFurnace", "minecraft:inventory_changed")
+criteria1.addItem(<mist:niobium_ore, count:1~>)
+
+addRewardItem(<mist:niobium_ore, count:10>)

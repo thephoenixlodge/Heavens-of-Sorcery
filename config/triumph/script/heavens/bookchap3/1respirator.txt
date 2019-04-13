@@ -1,0 +1,18 @@
+setIcon(<mist:respirator_single>)
+
+setTitle("Just Breathe")
+
+setDescription("Craft a Respirator, and mine Filter Coal to use in it")
+
+addParent("heavens:bookchap3/0niobium")
+
+setRequiresParents()
+
+setPos(-120,-25)
+
+criteria1 = addCriteria("hasItemsFurnace", "minecraft:inventory_changed")
+criteria1.addItem(<mist:filter_coal, count:1~>)
+criteria2 = addCriteria("hasItems1", "triumph:player_crafted_item")
+criteria2.setItem(<mist:respirator_single, count:1>)
+
+addRewardItem(<mist:filter_coal, count:20>)

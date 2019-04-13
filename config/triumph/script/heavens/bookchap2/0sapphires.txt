@@ -11,7 +11,7 @@ setPos(16,63)
 criteria = addCriteria("completedChap1", "triumph:completed_advancement")
 criteria.setString("heavens:bookchap1/20nethermats")
 criteria1 = addCriteria("hasItemsFurnace", "minecraft:inventory_changed")
-criteria1.addItem(<arcaneworld:sapphire, count:1>)
+criteria1.addItem(<arcaneworld:sapphire, count:1~>)
 
 addRewardItem(<arcaneworld:sapphire, count:10>)
 addRewardItem(<arcaneworld:amethyst, count:10>)

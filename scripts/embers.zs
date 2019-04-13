@@ -1,5 +1,5 @@
 ////Imports
-
+import mods.astralsorcery.LightTransmutation;
 
 ////Variables
 val caminiteBlend = <embers:blend_caminite>;
@@ -12,6 +12,10 @@ val embersBore = <embers:ember_bore>;
 val fluidExtractor = <embers:pump>;
 val itemExtractor = <embers:item_pump>;
 val mechCore = <embers:mech_core>;
+val ingotNiobium = <mist:niobium_ingot>;
+val blockNiobium = <mist:niobium_block>;
+val ingotNickel = <embers:ingot_nickel>;
+val blockNickel = <embers:block_nickel>;
 
 //tweak caminite blend recipe
 recipes.remove(caminiteBlend);
@@ -26,3 +30,6 @@ fluidExtractor.addTooltip(format.gold("Activate with redstone signal"));
 itemExtractor.addTooltip(format.gold("Activate with redstone signal"));
 embersBore.addTooltip(format.gold("Place on Bedrock. Use " + format.bold(format.italic("Mechanical Core")) + " to manage input/output"));
 mechCore.addTooltip(format.gold("Extends adjacent inventories for additional I/O"));
+
+//Add starlight transmute for Niobium to Nickel
+LightTransmutation.addTransmutation(blockNiobium, blockNickel, 400);

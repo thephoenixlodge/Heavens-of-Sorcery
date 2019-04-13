@@ -1,0 +1,16 @@
+setTitle("Magicks of the Adept")
+
+setIcon(<botania:lexicon>)
+
+setDescription("You've opened up two new planes, time to get to work utilizing the resources available in them")
+
+setBackground("mist:textures/blocks/stone_basic.png")
+
+setShowToast(false)
+
+setAnnounceToChat(false)
+
+setPos(-200,-25)
+
+criteria = addCriteria("completedChap1", "triumph:completed_advancement")
+criteria.setString("heavens:bookchap2/13raidloot")

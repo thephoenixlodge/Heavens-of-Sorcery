@@ -1,0 +1,26 @@
+{
+  "output": {
+    "item": "embers:nugget_tin"
+  },
+  "input": {
+    "item": "aether_legacy:icestone"
+  },
+  "extraInputs": [
+    {
+      "item": "rustic:dust_tiny_iron"
+    },
+    {
+      "item": "rustic:dust_tiny_iron"
+    },
+    {
+      "item": "rustic:dust_tiny_iron"
+    },
+    {
+      "item": "botania:manaresource",
+      "data": 23
+    }
+  ],
+  "required": 6,
+  "duration": 20,
+  "harp": false
+}

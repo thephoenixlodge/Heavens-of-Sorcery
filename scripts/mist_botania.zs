@@ -10,6 +10,7 @@ import mods.astralsorcery.Altar;
 
 ////Variables
 var oreMistyWoods = <ore:mistyWood>;
+val oreLog = <ore:logWood>;
 var mistyWoods = [
 	<mist:acacia_block>.definition,
 	<mist:aspen_block>.definition,
@@ -46,6 +47,7 @@ val mysticalFlower = <botania:flower>.definition;
 val nacreLiquid = <liquid:nacre_fluid>;
 val petalApothecary = <botania:altar>;
 val mysticalPetal = <botania:petal:*>;
+val mysticalShrooms = <botania:mushroom:*>;
 val slabStone = <minecraft:stone_slab>;
 val manaPowder = <botania:manaresource:23>;
 val manaPearl = <botania:manaresource:1>;
@@ -83,6 +85,8 @@ val slate = <rustic:slate>;
 val slateBlue = <earthworks:block_slate>;
 val slateGreen = <earthworks:block_slate_green>;
 val slatePurple = <earthworks:block_slate_purple>;
+val lexicaBotania = <botania:lexicon>;
+val book = <minecraft:book>;
 //Runes
 val runeWater = <botania:rune>;
 val runeFire = <botania:rune:1>;
@@ -94,6 +98,7 @@ val runeMana = <botania:rune:8>;
 for log in mistyWoods {
 	for i in mistyLogMeta {
 		oreMistyWoods.add(log.makeStack(i));
+		oreLog.add(log.makeStack(i));
 	}
 }
 
@@ -105,8 +110,10 @@ for stone in fogStones {
 //Tweak Livingwood and Livingrock recipes
 PureDaisy.removeRecipe(livingrock);
 PureDaisy.addRecipe(oreFogStone, livingrock);
+livingrock.addTooltip(format.gold("Made from Foggy Stone from the Misty World"));
 PureDaisy.removeRecipe(livingwood);
 PureDaisy.addRecipe(oreMistyWoods, livingwood);
+livingwood.addTooltip(format.gold("Made from Woods native to the Misty World"));
 Lexicon.removePage("botania.entry.pureDaisy", 0);
 Lexicon.removePage("botania.entry.pureDaisy", 1);
 Lexicon.removePage("botania.entry.pureDaisy", 2);
@@ -134,7 +141,7 @@ recipes.addShaped(respirator, [[itemString, null, itemString], [leather, null, l
 
 //Tweak Petal Apothecary recipe
 recipes.remove(petalApothecary);
-recipes.addShaped(petalApothecary, [[slabStone, mysticalPetal, slabStone], [null, oreFogStone, null], [oreFogStone, oreFogStone, oreFogStone]]);
+recipes.addShaped(petalApothecary, [[slabStone, mysticalShrooms, slabStone], [null, oreFogStone, null], [oreFogStone, oreFogStone, oreFogStone]]);
 
 //Shrooms oredict
 for shroom in mushroomsArray {
@@ -164,3 +171,7 @@ ManaInfusion.addAlchemy(slate, slateBlue, 50);
 ManaInfusion.addAlchemy(slateBlue, slateGreen, 50);
 ManaInfusion.addAlchemy(slateGreen, slatePurple, 50);
 ManaInfusion.addAlchemy(slatePurple, slate, 50);
+
+//tweak lexica recipe to use shroom instead of sapling
+recipes.remove(lexicaBotania);
+recipes.addShapeless(lexicaBotania, [mysticalShrooms, book]);

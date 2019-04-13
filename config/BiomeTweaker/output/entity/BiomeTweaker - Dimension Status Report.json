@@ -1351,6 +1351,11 @@
     "Class": "mod.krevik.entity.EntityPhasm"
   },
   {
+    "Name": "king_aerwhale",
+    "Registry ID": "lost_aether:king_aerwhale",
+    "Class": "com.legacy.lostaether.entities.EntityKingAerwhale"
+  },
+  {
     "Name": "skeleton_phantom",
     "Registry ID": "rootsclassic:skeleton_phantom",
     "Class": "elucent.rootsclassic.entity.skeleton.EntityFrozenKnight"

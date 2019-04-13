@@ -1,0 +1,18 @@
+setIcon(<botania:altar, count:1>)
+
+setTitle("In Bloom")
+
+setDescription("Craft a Petal Apothecary, then use it to make a Pure Daisy")
+
+addParent("heavens:bookchap3/3shrooms")
+
+setRequiresParents()
+
+setPos(0,-25)
+
+criteria1 = addCriteria("hasItemsFurnace", "minecraft:inventory_changed")
+criteria1.addItem(<botania:specialflower, count:1~, nbt:{type:"puredaisy"}>)
+criteria2 = addCriteria("hasItems1", "triumph:player_crafted_item")
+criteria2.setItem(<botania:altar, count:1>)
+
+addRewardItem(<mist:a_tree_block, meta:4, count:150>)

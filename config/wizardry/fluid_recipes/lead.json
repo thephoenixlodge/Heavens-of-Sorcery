@@ -1,0 +1,26 @@
+{
+  "output": {
+    "item": "embers:nugget_lead"
+  },
+  "input": {
+    "item": "aether_legacy:aechor_petal"
+  },
+  "extraInputs": [
+    {
+      "item": "rustic:dust_tiny_iron"
+    },
+    {
+      "item": "rustic:dust_tiny_iron"
+    },
+    {
+      "item": "rustic:dust_tiny_iron"
+    },
+    {
+      "item": "botania:manaresource",
+      "data": 23
+    }
+  ],
+  "required": 6,
+  "duration": 40,
+  "harp": false
+}

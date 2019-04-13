@@ -45,6 +45,22 @@ val artifactsArray = [
 	<artifacts:night_vision_goggles>
 ] as IItemStack[];
 val oreArtifact = <ore:artifact>;
+val kathairisLog = [
+	<kathairis:mysticlog>,
+	<kathairis:shinylog>,
+	<kathairis:soullog>,
+	<kathairis:stripped_mystic_log>,
+	<kathairis:stripped_shiny_log>,
+	<kathairis:stripped_soul_log>,
+	<kathairis:redwood_log_full>,
+	<kathairis:redwood_log_size_6>,
+	<kathairis:redwood_log_size_5>,
+	<kathairis:redwood_log_size_4>,
+	<kathairis:redwood_log_size_3>,
+	<kathairis:redwood_log_size_2>,
+	<kathairis:redwood_log_size_1>
+] as IItemStack[];
+val oreLogWood = <ore:logWood>;
 
 //tweak clay tile related recipes
 recipes.remove(terracottaShingle);
@@ -68,3 +84,8 @@ recipes.addShaped(remedyTalisman, [[nuggetSilver, nuggetColdIron, nuggetSilver],
 
 //Readd bw silver scales to nugget recipe
 furnace.addRecipe(nuggetSilverEmbers, silverScales);
+
+//add kathairis logs to logWood oredict
+for log in kathairisLog {
+	oreLogWood.add(log);
+}

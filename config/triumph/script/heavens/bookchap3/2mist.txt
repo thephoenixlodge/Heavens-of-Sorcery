@@ -1,0 +1,19 @@
+setIcon(<mist:acid_grass_0>)
+
+setTitle("White Out")
+
+setDescription("Enter the Mist")
+
+addParent("heavens:bookchap3/1respirator")
+
+setRequiresParents()
+
+setPos(-80,-25)
+
+criteria1 = addCriteria("isInMist", "minecraft:location")
+location = criteria1.getLocationData()
+location.setDimensionType("misty_world")
+location.setYMax(95)
+
+addRewardItem(<mist:filter_coal, count:20>)
+addRewardItem(<mist:niobium_ore, count:15>)
