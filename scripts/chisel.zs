@@ -1,5 +1,6 @@
 ////Imports
 import mods.chisel.Carving;
+import crafttweaker.item.IItemDefinition;
 
 ////Variables
 //Sapphire blocks
@@ -49,6 +50,9 @@ val slatePillar = <rustic:slate_pillar>;
 val slateTile = <rustic:slate_tile>;
 val slateBrick = <rustic:slate_brick>;
 val slateChiseled = <rustic:slate_chiseled>;
+//Sooty Marble
+val sootyMarble = <astralsorcery:blockblackmarble>.definition as IItemDefinition;
+
 //Add group for Sapphire Blocks
 Carving.addGroup("blockSapphire");
 Carving.addVariation("blockSapphire", blockSapphireAW);
@@ -110,3 +114,9 @@ Carving.addVariation("slate-rustic", slatePillar);
 Carving.addVariation("slate-rustic", slateTile);
 Carving.addVariation("slate-rustic", slateBrick);
 Carving.addVariation("slate-rustic", slateChiseled);
+
+//Sooty Marble
+Carving.addGroup("sootyMarble");
+for i in 0 to 6 {
+	Carving.addVariation("sootyMarble", sootyMarble.makeStack(i));
+}
