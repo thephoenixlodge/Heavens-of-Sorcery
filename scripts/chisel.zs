@@ -52,6 +52,9 @@ val slateBrick = <rustic:slate_brick>;
 val slateChiseled = <rustic:slate_chiseled>;
 //Sooty Marble
 val sootyMarble = <astralsorcery:blockblackmarble>.definition as IItemDefinition;
+//livingwood and rock
+val livingwood = <botania:livingwood>.definition as IItemDefinition;
+val livingrock = <botania:livingrock>.definition as IItemDefinition;
 
 //Add group for Sapphire Blocks
 Carving.addGroup("blockSapphire");
@@ -119,4 +122,16 @@ Carving.addVariation("slate-rustic", slateChiseled);
 Carving.addGroup("sootyMarble");
 for i in 0 to 6 {
 	Carving.addVariation("sootyMarble", sootyMarble.makeStack(i));
+}
+
+//Livingwood planks
+Carving.addGroup("livingwood-planks");
+for j in 1 to 4 {
+	Carving.addVariation("livingwood-planks", livingwood.makeStack(j));
+}
+
+//Livingrock
+Carving.addGroup("livingrock");
+for k in 0 to 4 {
+	Carving.addVariation("livingrock", livingrock.makeStack(k));
 }

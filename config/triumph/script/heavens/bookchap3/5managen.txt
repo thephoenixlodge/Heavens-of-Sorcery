@@ -1,0 +1,22 @@
+setIcon(<botania:pool>)
+
+setTitle("Mana Management")
+
+setDescription("Craft a Petal Apothecary, then use it to make a Pure Daisy")
+
+addParent("heavens:bookchap3/4puredaisy")
+
+setRequiresParents()
+
+setPos(-80,-25)
+
+criteria1 = addCriteria("hasItemsFurnace", "minecraft:inventory_changed")
+criteria1.addItem(<botania:specialflower, count:1~, nbt:{type:"endoflame"}>)
+criteria2 = addCriteria("hasItems1", "triumph:player_crafted_item")
+criteria2.setItem(<botania:spreader, count:1>)
+criteria3 = addCriteria("hasItems2", "triumph:player_crafted_item")
+criteria3.setItem(<botania:pool, count:1>)
+
+addRewardItem(<botania:specialflower, count:3, nbt:{type:"endoflame"}>)
+addRewardItem(<botania:livingrock, count:30>)
+addRewardItem(<botania:livingwood, count:30>)

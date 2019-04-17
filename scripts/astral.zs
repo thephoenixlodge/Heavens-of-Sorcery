@@ -1,6 +1,7 @@
 ////Imports
 import mods.astralsorcery.LightTransmutation;
 import mods.astralsorcery.Altar;
+import mods.astralsorcery.Utils;
 import mods.botania.PureDaisy;
 import mods.ArcaneWorld;
 
@@ -20,6 +21,11 @@ val aquamarine = <astralsorcery:itemcraftingcomponent>;
 val dictMarble = <ore:blockMarble>;
 val sootyMarble = <astralsorcery:blockblackmarble:*>;
 val patFrameLivingwood = <botania:livingwood:4>;
+val livingwood = <botania:livingwood>;
+val livingwoodStick = <botania:manaresource:3>;
+val wisdomWood = <wizardry:wisdom_wood_log>;
+val linkingTool = <astralsorcery:itemlinkingtool>;
+val rockCrystalAny = Utils.getCrystalORIngredient(false, false);
 
 //Starmetal able to be made from the Iron Ore from the Misty World
 LightTransmutation.addTransmutation(oreIronMW, oreStarmetal, 100);
@@ -37,3 +43,6 @@ ArcaneWorld.createRitualCreateItem("astral_table", "Attune to Starlight", lumino
 //Ritual to craft resonating wand
 ArcaneWorld.createRitualCreateItem("astral_wand", "Attune to Starlight", resonatingWand, ironwoodWand, dictMarble, aquamarine, aquamarine, manaPearl);
 Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/tool_basicwand");
+
+//Tweak Linking wand recipe
+Altar.addAttunementAltarRecipe("astralsorcery:shaped/internal/altar/tool_linking", linkingTool, 1000, 300, [livingwoodStick, aquamarine, manaPearl, livingwoodStick, rockCrystalAny, aquamarine, wisdomWood, livingwoodStick, livingwoodStick, null, null, livingwood, null]);

@@ -92,6 +92,7 @@ val bedYellow = <minecraft:bed:4>;
 val oreThatch = <ore:blockThatch>;
 val nacrePearl = <wizardry:nacre_pearl>;
 val emberShard = <embers:shard_ember>;
+val livingwoodStick = <botania:manaresource:3>;
 
 //Change Crushing tub recipe for starting
 recipes.remove(crushingTub);
@@ -220,7 +221,7 @@ ArcaneWorld.createRitualCreateItem("mist_portal_lower", "Imbue Lower Portal Ston
 recipes.addShaped(bedYellow, [[oreThatch, oreThatch, oreThatch], [plankWood, plankWood, plankWood]]);
 
 //Adv Ironwood Wand recipe
-ArcaneWorld.createRitualCreateItem("advWand", "Enhance Ironwood Wand", wandIronwoodAdv, wandIronwood, emberShard, nacrePearl, sapphire);
+ArcaneWorld.createRitualCreateItem("advWand", "Enhance Ironwood Wand", wandIronwoodAdv, wandIronwood, livingwoodStick, emberShard, nacrePearl, sapphire);
 
 //Tweak Dungeon Ritual cost
 ArcaneWorld.remove("arcaenworld:dungeon");

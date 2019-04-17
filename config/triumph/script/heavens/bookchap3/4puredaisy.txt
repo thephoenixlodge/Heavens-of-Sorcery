@@ -1,4 +1,4 @@
-setIcon(<botania:altar, count:1>)
+setIcon(<botania:altar>)
 
 setTitle("In Bloom")
 
@@ -8,7 +8,7 @@ addParent("heavens:bookchap3/3shrooms")
 
 setRequiresParents()
 
-setPos(0,-25)
+setPos(-120,-25)
 
 criteria1 = addCriteria("hasItemsFurnace", "minecraft:inventory_changed")
 criteria1.addItem(<botania:specialflower, count:1~, nbt:{type:"puredaisy"}>)

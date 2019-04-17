@@ -1,0 +1,16 @@
+setIcon(<astralsorcery:itemrockcrystalsimple>)
+
+setTitle("Rocky Road")
+
+setDescription("Use the Resonating Wand to find Rock Crystals in the Misty World")
+
+addParent("heavens:bookchap3/8luminous")
+
+setRequiresParents()
+
+setPos(-40,15)
+
+criteria1 = addCriteria("hasItemsFurnace", "minecraft:inventory_changed")
+criteria1.addItem(<astralsorcery:itemrockcrystalsimple, count:1~>)
+
+addRewardItem(<astralsorcery:itemcraftingcomponent, meta:0, count:20>)

@@ -1,0 +1,17 @@
+setIcon(<astralsorcery:itemconstellationpaper>)
+
+setTitle("Star Charts")
+
+setDescription("Find Constellation Paper in an old Shrine in the Aether")
+
+addParent("heavens:bookchap3/6marble")
+
+setRequiresParents()
+
+setPos(-160,55)
+
+criteria1 = addCriteria("hasItemsFurnace", "minecraft:inventory_changed")
+criteria1.addItem(<astralsorcery:itemconstellationpaper, count:1~>)
+
+addRewardItem(<astralsorcery:blockmarble, count:100>)
+addRewardItem(<astralsorcery:itemjournal, count:1>)

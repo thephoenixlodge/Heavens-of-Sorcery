@@ -8,9 +8,10 @@ addParent("heavens:bookchap3/2mist")
 
 setRequiresParents()
 
-setPos(-40,-25)
+setPos(-160,-25)
 
 criteria1 = addCriteria("hasItemsFurnace", "minecraft:inventory_changed")
 criteria1.addItem(<botania:mushroom, meta:0~15, count:1~>)
 
 addRewardItem(<botania:mushroom, meta:0, count:4>)
+addRewardItem(<botania:lexicon, count:1>)

@@ -1,0 +1,16 @@
+setIcon(<astralsorcery:itemcraftingcomponent, meta:0>)
+
+setTitle("Where's the Water?")
+
+setDescription("Obtain Aquamarine")
+
+addParent("heavens:bookchap3/6marble")
+
+setRequiresParents()
+
+setPos(-120,15)
+
+criteria1 = addCriteria("hasItemsFurnace", "minecraft:inventory_changed")
+criteria1.addItem(<astralsorcery:itemcraftingcomponent, meta:0, count:1~>)
+
+addRewardItem(<astralsorcery:itemcraftingcomponent, meta:0, count:10>)

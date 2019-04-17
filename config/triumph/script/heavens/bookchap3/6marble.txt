@@ -1,0 +1,18 @@
+setIcon(<astralsorcery:blockmarble>)
+
+setTitle("Marbellous")
+
+setDescription("Obtain Marble")
+
+addParent("heavens:bookchap3/root")
+
+setRequiresParents()
+
+setPos(-160,15)
+
+criteria = addCriteria("completedChap1", "triumph:completed_advancement")
+criteria.setString("heavens:bookchap2/14aether")
+criteria1 = addCriteria("hasItemsFurnace", "minecraft:inventory_changed")
+criteria1.addItem(<ore:stoneMarble, count:10~>)
+
+addRewardItem(<astralsorcery:blockmarble, count:100>)

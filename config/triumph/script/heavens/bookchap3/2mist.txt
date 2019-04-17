@@ -8,7 +8,7 @@ addParent("heavens:bookchap3/1respirator")
 
 setRequiresParents()
 
-setPos(-80,-25)
+setPos(-200,-25)
 
 criteria1 = addCriteria("isInMist", "minecraft:location")
 location = criteria1.getLocationData()

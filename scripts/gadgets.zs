@@ -10,6 +10,7 @@ val templateManager = <buildinggadgets:templatemanager>;
 val book = <minecraft:book>;
 val wandDiamond = <betterbuilderswands:wanddiamond>;
 val advSimilsax = <similsaxtranstructors:similsaxtranstructoradvanced>;
+val wandFormation = <astralsorcery:itemarchitectwand>;
 val shovelDiamond = <minecraft:diamond_shovel>;
 val amethyst = <arcaneworld:amethyst>;
 val sapphire = <arcaneworld:sapphire>;
@@ -22,7 +23,7 @@ val nacrePearl = <wizardry:nacre_pearl>;
 
 //Building Gadget
 recipes.remove(gadgetBuilding);
-ArcaneWorld.createRitualCreateItem("gadget_building", "Infuse Tome of Building", gadgetBuilding, book, sapphire, sapphire, wandDiamond, advSimilsax);
+ArcaneWorld.createRitualCreateItem("gadget_building", "Infuse Tome of Building", gadgetBuilding, book, sapphire, wandFormation, wandDiamond, advSimilsax);
 
 //Exchanging Gadget
 recipes.remove(gadgetExchanging);

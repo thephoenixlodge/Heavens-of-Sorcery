@@ -7,6 +7,7 @@ import mods.botania.Lexicon;
 import mods.botania.RuneAltar;
 import mods.inspirations.Cauldron as CauldronCrafting;
 import mods.astralsorcery.Altar;
+import mods.astralsorcery.StarlightInfusion;
 
 ////Variables
 var oreMistyWoods = <ore:mistyWood>;
@@ -87,12 +88,14 @@ val slateGreen = <earthworks:block_slate_green>;
 val slatePurple = <earthworks:block_slate_purple>;
 val lexicaBotania = <botania:lexicon>;
 val book = <minecraft:book>;
+val livingwoodGlimmering = <botania:livingwood:5>;
 //Runes
 val runeWater = <botania:rune>;
 val runeFire = <botania:rune:1>;
 val runeEarth = <botania:rune:2>;
 val runeAir = <botania:rune:3>;
 val runeMana = <botania:rune:8>;
+
 
 //Oredict all Misty World logs
 for log in mistyWoods {
@@ -133,7 +136,7 @@ ManaInfusion.addInfusion(manaPearl, nacrePearl, 6000);
 
 //Runic Altar recipe
 recipes.remove(runicAltar);
-Altar.addDiscoveryAltarRecipe("custom_runic_altar", runicAltar, 500, 250, [null, null, null, livingrock, livingrock, livingrock, marblePillar, manaPearl, marblePillar]);
+Altar.addDiscoveryAltarRecipe("custom_runic_altar", runicAltar, 1000, 250, [null, null, null, livingrock, livingrock, livingrock, marblePillar, manaPearl, marblePillar]);
 
 //Tweak respirator recipe
 recipes.remove(respirator);
@@ -175,3 +178,7 @@ ManaInfusion.addAlchemy(slatePurple, slate, 50);
 //tweak lexica recipe to use shroom instead of sapling
 recipes.remove(lexicaBotania);
 recipes.addShapeless(lexicaBotania, [mysticalShrooms, book]);
+
+//Glimmering Livingwood
+recipes.remove(livingwoodGlimmering);
+StarlightInfusion.addInfusion(livingwood, livingwoodGlimmering, false, 0.8, 120);

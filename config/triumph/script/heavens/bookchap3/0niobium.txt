@@ -1,6 +1,6 @@
 setIcon(<mist:niobium_ore>)
 
-setTitle("Transitioning to New Metals")
+setTitle("Metallic Transition")
 
 setDescription("Obtain Niobium Ore")
 
@@ -8,7 +8,7 @@ addParent("heavens:bookchap3/root")
 
 setRequiresParents()
 
-setPos(-160,-25)
+setPos(-240,15)
 
 criteria = addCriteria("completedChap1", "triumph:completed_advancement")
 criteria.setString("heavens:bookchap2/15misty")

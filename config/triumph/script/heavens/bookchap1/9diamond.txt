@@ -12,6 +12,6 @@ setPos(105,95)
 drawDirectLines()
 
 criteria1 = addCriteria("hasItemsDiamond", "minecraft:inventory_changed")
-criteria1.addItem(<extrabitmanipulation:diamond_nugget, count:9>)
+criteria1.addItem(<extrabitmanipulation:diamond_nugget, count:9~>)
 
 addRewardItem(<minecraft:coal, meta:1, count:100>)
