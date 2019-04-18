@@ -1,6 +1,7 @@
 ////Imports
 import mods.astralsorcery.LightTransmutation;
 import mods.astralsorcery.Altar;
+import mods.astralsorcery.Utils;
 
 ////Variables
 val caminiteBlend = <embers:blend_caminite>;
@@ -20,9 +21,9 @@ val ingotNickel = <embers:ingot_nickel>;
 val blockNickel = <embers:block_nickel>;
 val ingotCopper = <embers:ingot_copper>;
 val plateLead = <embers:plate_lead>;
-val compass = <minecraft:compass>;
 val ingotIron = <minecraft:iron_ingot>;
 val hardFoggyStone = <mist:stone_basic>;
+val rockCrystalAny = Utils.getCrystalORIngredient(false, false);
 
 //tweak caminite blend recipe
 recipes.remove(caminiteBlend);
@@ -47,4 +48,4 @@ Altar.addDiscoveryAltarRecipe("custom_ember_bore", embersBore, 1000, 250, [camin
 
 //tweak mech core recipe
 recipes.remove(mechCore);
-Altar.addDiscoveryAltarRecipe("custom_mech_core", mechCore, 500, 120, [ingotIron, compass, ingotIron, hardFoggyStone, plateLead, hardFoggyStone, ingotIron, hardFoggyStone, ingotIron]);
+Altar.addDiscoveryAltarRecipe("custom_mech_core", mechCore, 500, 120, [ingotIron, rockCrystalAny, ingotIron, hardFoggyStone, plateLead, hardFoggyStone, ingotIron, hardFoggyStone, ingotIron]);

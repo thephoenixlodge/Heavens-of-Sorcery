@@ -9,6 +9,12 @@ import mods.ArcaneWorld;
 val oreIronMW = <mist:iron_ore>;
 val oreStarmetal = <astralsorcery:blockcustomore:1>;
 val marble = <astralsorcery:blockmarble>;
+val marblePillar = <astralsorcery:blockmarble:2>;
+val marbleBricks = <astralsorcery:blockmarble:1>;
+val marbleArch = <astralsorcery:blockmarble:3>;
+val marbleChiseled = <astralsorcery:blockmarble:4>;
+val marbleEngraved = <astralsorcery:blockmarble:5>;
+val marbleRuned = <astralsorcery:blockmarble:6>;
 val holystone = <aether_legacy:holystone>;
 val aquamarineShale = <astralsorcery:blockcustomsandore>;
 val quicksoil = <aether_legacy:quicksoil>;
@@ -26,6 +32,8 @@ val livingwoodStick = <botania:manaresource:3>;
 val wisdomWood = <wizardry:wisdom_wood_log>;
 val linkingTool = <astralsorcery:itemlinkingtool>;
 val rockCrystalAny = Utils.getCrystalORIngredient(false, false);
+val runeAir = <botania:rune:3>;
+val lightWell = <astralsorcery:blockwell>;
 
 //Starmetal able to be made from the Iron Ore from the Misty World
 LightTransmutation.addTransmutation(oreIronMW, oreStarmetal, 100);
@@ -45,4 +53,7 @@ ArcaneWorld.createRitualCreateItem("astral_wand", "Attune to Starlight", resonat
 Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/tool_basicwand");
 
 //Tweak Linking wand recipe
-Altar.addAttunementAltarRecipe("astralsorcery:shaped/internal/altar/tool_linking", linkingTool, 1000, 300, [livingwoodStick, aquamarine, manaPearl, livingwoodStick, rockCrystalAny, aquamarine, wisdomWood, livingwoodStick, livingwoodStick, null, null, livingwood, null]);
+Altar.addAttunementAltarRecipe("internal/altar/tool_linking", linkingTool, 1000, 300, [livingwoodStick, aquamarine, manaPearl, livingwoodStick, rockCrystalAny, aquamarine, wisdomWood, livingwoodStick, livingwoodStick, null, null, livingwood, null]);
+
+//Tweak lightwell recipe
+Altar.addDiscoveryAltarRecipe("internal/altar/lightwell", lightWell, 200, 100, [marbleRuned, rockCrystalAny, marbleRuned, marbleChiseled, runeAir, marbleChiseled, aquamarine, marbleRuned, aquamarine]);

@@ -1,0 +1,19 @@
+setIcon(<embers:ingot_copper>)
+
+setTitle("Don't Lick the Lead")
+
+setDescription("Obtain Copper and Lead Nuggets")
+
+addParent("heavens:bookchap3/5managen")
+
+setRequiresParents()
+
+setPos(-80,-65)
+
+criteria1 = addCriteria("hasItems", "minecraft:inventory_changed")
+criteria1.addItem(<embers:nugget_copper, count:1~>)
+criteria2 = addCriteria("hasItems2", "minecraft:inventory_changed")
+criteria2.addItem(<embers:nugget_lead, count:1~>)
+
+addRewardItem(<embers:ingot_copper, count:10>)
+addRewardItem(<embers:ingot_lead, count:10>)

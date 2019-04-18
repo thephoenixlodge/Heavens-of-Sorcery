@@ -1,0 +1,18 @@
+setIcon(<contenttweaker:ironwood_wand_two>)
+
+setTitle("Flowering")
+
+setDescription("Enhance your Ironwood Wand and use it to transform Mystical Mushrooms into Mystical Flowers")
+
+addParent("heavens:bookchap3/16emberbore")
+
+setRequiresParents()
+
+setPos(-40,-25)
+
+criteria1 = addCriteria("hasItems", "minecraft:inventory_changed")
+criteria1.addItem(<contenttweaker:ironwood_wand_two, count:1~>)
+criteria2 = addCriteria("hasItems2", "minecraft:inventory_changed")
+criteria2.addItem(<botania:mushroom, meta:0~15, count:1~>)
+
+addRewardItem(<botania:fertilizer, count:20>)

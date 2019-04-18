@@ -1,0 +1,19 @@
+setIcon(<embers:ember_bore>)
+
+setTitle("Ugh, So Boring")
+
+setDescription("Craft an Ember Bore and use it to collect Ember Shards from Bedrock")
+
+addParent("heavens:bookchap3/15metals")
+addParent("heavens:bookchap3/10rockcrystal")
+
+setRequiresParents()
+
+setPos(-40,-65)
+
+criteria1 = addCriteria("hasItems", "minecraft:inventory_changed")
+criteria1.addItem(<embers:ember_bore, count:1~>)
+criteria2 = addCriteria("hasItems2", "minecraft:inventory_changed")
+criteria2.addItem(<embers:shard_ember, count:1~>)
+
+addRewardItem(<embers:shard_ember, count:30>)

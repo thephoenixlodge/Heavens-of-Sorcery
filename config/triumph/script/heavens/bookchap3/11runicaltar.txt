@@ -1,0 +1,16 @@
+setIcon(<botania:runealtar, count:1>)
+
+setTitle("Don't Rune It")
+
+setDescription("Craft a Runic Altar")
+
+addParent("heavens:bookchap3/8luminous")
+
+setRequiresParents()
+
+setPos(-80,55)
+
+criteria1 = addCriteria("hasItemsFurnace", "minecraft:inventory_changed")
+criteria1.addItem(<botania:runealtar, count:1~>)
+
+addRewardItem(<botania:livingrock, count:15>)

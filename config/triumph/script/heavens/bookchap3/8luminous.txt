@@ -13,7 +13,7 @@ setPos(-80,15)
 
 criteria1 = addCriteria("hasItemsFurnace", "minecraft:inventory_changed")
 criteria1.addItem(<astralsorcery:blockaltar, count:1~>)
-criteria2 = addCriteria("hasItemsFurnace", "minecraft:inventory_changed")
+criteria2 = addCriteria("hasItemsFurnace2", "minecraft:inventory_changed")
 criteria2.addItem(<astralsorcery:itemwand, count:1~>)
 
 addRewardItem(<astralsorcery:blockblackmarble, count:100>)

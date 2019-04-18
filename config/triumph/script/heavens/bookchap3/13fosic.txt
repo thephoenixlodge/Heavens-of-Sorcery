@@ -1,0 +1,16 @@
+setIcon(<astralsorcery:itemskyresonator>)
+
+setTitle("Resonating")
+
+setDescription("Craft a Fosic Resonator")
+
+addParent("heavens:bookchap3/12lightwell")
+
+setRequiresParents()
+
+setPos(0,55)
+
+criteria1 = addCriteria("hasItemsFurnace", "minecraft:inventory_changed")
+criteria1.addItem(<astralsorcery:itemskyresonator, count:1~>)
+
+addRewardItem(<botania:blacklotus, meta:0, count:20>)

@@ -2,7 +2,7 @@ setIcon(<botania:pool>)
 
 setTitle("Mana Management")
 
-setDescription("Craft a Petal Apothecary, then use it to make a Pure Daisy")
+setDescription("Craft a Mana Pool, Mana Spreader and Endoflame to start producing Mana")
 
 addParent("heavens:bookchap3/4puredaisy")
 

@@ -89,6 +89,7 @@ val slatePurple = <earthworks:block_slate_purple>;
 val lexicaBotania = <botania:lexicon>;
 val book = <minecraft:book>;
 val livingwoodGlimmering = <botania:livingwood:5>;
+val floralFertilizer = <botania:fertilizer>;
 //Runes
 val runeWater = <botania:rune>;
 val runeFire = <botania:rune:1>;
@@ -182,3 +183,6 @@ recipes.addShapeless(lexicaBotania, [mysticalShrooms, book]);
 //Glimmering Livingwood
 recipes.remove(livingwoodGlimmering);
 StarlightInfusion.addInfusion(livingwood, livingwoodGlimmering, false, 0.8, 120);
+
+//remove recipe for Floral Fertilizer (add new one to later point in progression?)
+recipes.remove(floralFertilizer);
