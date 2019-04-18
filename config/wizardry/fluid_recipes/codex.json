@@ -5,5 +5,5 @@
   "input": {
     "item": "minecraft:book"
   },
-  "explode": true
+  "explode": false
 }

@@ -16,6 +16,6 @@
   ],
   "required": 9,
   "consume": true,
-  "explode": true,
+  "explode": false,
   "harp": false
 }
