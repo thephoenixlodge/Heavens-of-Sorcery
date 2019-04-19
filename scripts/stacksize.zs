@@ -93,6 +93,7 @@ var stack256 = [
 	<botania:grassseeds>,
 	<minecraft:wheat>
 	<inspirations:sugar_cane_seeds>
+	<minecraft:reeds>
 ] as IItemStack[];
 
 var stack512 = [
