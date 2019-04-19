@@ -60,7 +60,9 @@ var materials1024 = [
 	<thaumcraft:nugget>,
 	<rustic:dust_tiny_iron>,
 	<minecraft:glowstone_dust>,
-	<arcaneworld:amethyst>
+	<arcaneworld:amethyst>,
+	//Ingredients
+	<minecraft:paper>
 ] as IItemStack[];
 
 var oresAndBlocks512 = [
@@ -91,8 +93,8 @@ var stack256 = [
 	<rustic:chili_pepper_seeds>,
 	<rustic:ironwoodseed>,
 	<botania:grassseeds>,
-	<minecraft:wheat>
-	<inspirations:sugar_cane_seeds>
+	<minecraft:wheat>,
+	<inspirations:sugar_cane_seeds>,
 	<minecraft:reeds>
 ] as IItemStack[];
 
