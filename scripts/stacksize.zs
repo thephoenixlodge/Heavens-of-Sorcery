@@ -101,17 +101,13 @@ var stack512 = [
 ] as IItemStack[];
 
 var stack1024 = [
-	<minecraft:log>,
-	<minecraft:log2>,
 	<minecraft:wool>,
 	<minecraft:ice>,
 	<minecraft:torch>,
 	<contenttweaker:boneshard>,
-	<rustic:log>,
 	<rustic:chili_pepper>,
 	<rustic:wildberries>,
 	<minecraft:clay_ball>,
-	<wizardry:wisdom_wood_log>,
 	<rustic:ironberries>
 ] as IItemStack[];
 
@@ -126,7 +122,6 @@ var stack2048 = [
 ] as IItemStack[];
 
 var stack4096 = [
-	<minecraft:planks>,
 	<minecraft:sandstone>,
 	<minecraft:stone_slab>,
 	<minecraft:oak_stairs>,
@@ -136,12 +131,7 @@ var stack4096 = [
 	<minecraft:stone_brick_stairs>,
 	<minecraft:nether_brick>,
 	<minecraft:nether_brick_stairs>,
-	<minecraft:wooden_slab>,
-	<rustic:planks>,
 	<minecraft:stick>,
-	<rustic:ironwood_slab_item>,
-	<wizardry:wisdom_wood_planks>,
-	<wizardry:wisdom_wood_slab>
 ] as IItemStack[];
 
 var stack8192 = [
