@@ -92,6 +92,7 @@ var stack256 = [
 	<rustic:ironwoodseed>,
 	<botania:grassseeds>,
 	<minecraft:wheat>
+	<inspirations:sugar_cane_seeds>
 ] as IItemStack[];
 
 var stack512 = [
