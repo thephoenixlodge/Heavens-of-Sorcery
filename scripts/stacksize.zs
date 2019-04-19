@@ -37,6 +37,7 @@ var materials1024 = [
 	<thaumic_arcana:ingot_livium>,
 	<thebetweenlands:items_misc>, 
 	<thebetweenlands:octine_ingot>,
+	<embers:archaic_brick>,
 	//Nuggets
 	<minecraft:gold_nugget>,
 	<minecraft:iron_nugget>,
