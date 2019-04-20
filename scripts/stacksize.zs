@@ -67,6 +67,14 @@ var materials1024 = [
 	<embers:ancient_motive_core>
 ] as IItemStack[];
 
+var MobDrops512 = [
+	<minecraft:rotten_flesh>,
+	<minecraft:bone>,
+	<minecraft:leather>,
+	<minecraft:string>,
+	<minecraft:blaze_rod>
+] as IItemStack[];
+
 var oresAndBlocks512 = [
 	<minecraft:gold_ore>,
 	<minecraft:iron_ore>,
@@ -97,7 +105,8 @@ var stack256 = [
 	<botania:grassseeds>,
 	<minecraft:wheat>,
 	<inspirations:sugar_cane_seeds>,
-	<minecraft:reeds>
+	<minecraft:reeds>,
+	<minecraft:nether_wart>
 ] as IItemStack[];
 
 var stack512 = [
