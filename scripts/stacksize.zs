@@ -63,7 +63,7 @@ var materials1024 = [
 	<minecraft:glowstone_dust>,
 	<arcaneworld:amethyst>,
 	//Ingredients
-	<minecraft:paper>
+	<minecraft:paper>,
 	<embers:ancient_motive_core>
 ] as IItemStack[];
 
