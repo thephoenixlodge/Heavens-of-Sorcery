@@ -100,7 +100,7 @@ Altar.addAttunementAltarRecipe("shield/manasteel", shieldManasteel, 1400, 300, [
 
 //terrasteel shield
 recipes.remove(shieldTerrasteel);
-Altar.addConstellationAltarRecipe("shield/terrasteel", shieldTerrasteel, 2000, 500, [stickLivingWood, ingotTerrasteel, stickLivingWood, ingotTerrasteel, shieldManasteel, ingotTerrasteel, stickLivingWood, ingotTerrasteel, stickLivingWood, null, null, null, null, stickLunar, stickBluebright, stickBluebright, stickLunar, stickLunar, stickBluebright, stickBluebright, stickLunar]);
+Altar.addConstellationAltarRecipe("shield/terrasteel", shieldTerrasteel, 2000, 500, [stickLivingwood, ingotTerrasteel, stickLivingwood, ingotTerrasteel, shieldManasteel, ingotTerrasteel, stickLivingwood, ingotTerrasteel, stickLivingwood, null, null, null, null, stickLunar, stickBluebright, stickBluebright, stickLunar, stickLunar, stickBluebright, stickBluebright, stickLunar]);
 
 //elementium shield
 recipes.remove(shieldElementium);
