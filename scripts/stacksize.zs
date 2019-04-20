@@ -67,7 +67,7 @@ var materials1024 = [
 	<embers:ancient_motive_core>
 ] as IItemStack[];
 
-var MobDrops512 = [
+var mobDrops512 = [
 	<minecraft:rotten_flesh>,
 	<minecraft:bone>,
 	<minecraft:leather>,
@@ -167,6 +167,10 @@ var stack8192 = [
 
 for oreBlock in oresAndBlocks512 {
 	stack512 += oreBlock;
+}
+
+for mobdrops in mobDrops512 {
+	stack512 += mobdrops;
 }
 
 for material in materials1024 {
