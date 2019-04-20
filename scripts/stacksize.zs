@@ -64,6 +64,7 @@ var materials1024 = [
 	<arcaneworld:amethyst>,
 	//Ingredients
 	<minecraft:paper>
+	<embers:ancient_motive_core>
 ] as IItemStack[];
 
 var oresAndBlocks512 = [
