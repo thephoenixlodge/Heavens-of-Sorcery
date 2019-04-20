@@ -37,6 +37,7 @@ var materials1024 = [
 	<thaumic_arcana:ingot_livium>,
 	<thebetweenlands:items_misc>, 
 	<thebetweenlands:octine_ingot>,
+	<embers:archaic_brick>,
 	//Nuggets
 	<minecraft:gold_nugget>,
 	<minecraft:iron_nugget>,
@@ -60,7 +61,10 @@ var materials1024 = [
 	<thaumcraft:nugget>,
 	<rustic:dust_tiny_iron>,
 	<minecraft:glowstone_dust>,
-	<arcaneworld:amethyst>
+	<arcaneworld:amethyst>,
+	//Ingredients
+	<minecraft:paper>,
+	<embers:ancient_motive_core>
 ] as IItemStack[];
 
 var oresAndBlocks512 = [
@@ -91,7 +95,9 @@ var stack256 = [
 	<rustic:chili_pepper_seeds>,
 	<rustic:ironwoodseed>,
 	<botania:grassseeds>,
-	<minecraft:wheat>
+	<minecraft:wheat>,
+	<inspirations:sugar_cane_seeds>,
+	<minecraft:reeds>
 ] as IItemStack[];
 
 var stack512 = [
