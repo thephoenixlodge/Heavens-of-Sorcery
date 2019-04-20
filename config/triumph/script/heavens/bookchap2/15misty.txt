@@ -14,5 +14,5 @@ drawDirectLines()
 criteria = addCriteria("locationDungeon", "minecraft:changed_dimension")
 criteria.setDimensionDestination("misty_world")
 
-addRewardItem(<minecraft:enchanted_book, meta:0, count:1, enchant:minecraft:sharpness:5>)
+addRewardItem(<minecraft:enchanted_book, count:1, nbt:{StoredEnchantments:[{lvl:5s,id:16s}]}>
 addRewardItem(<minecraft:gold_ingot, count:30>)

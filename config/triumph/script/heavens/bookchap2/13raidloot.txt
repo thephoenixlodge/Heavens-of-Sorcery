@@ -15,4 +15,4 @@ criteria1 = addCriteria("hasItems1", "minecraft:inventory_changed")
 criteria1.addItem(<contenttweaker:otherworlds_core, count:3~>)
 
 addRewardItem(<arcaneworld:amethyst, count:10>)
-addRewardItem(<minecraft:enchanted_book, meta:0, count:1, enchant:minecraft:protection:4>)
+addRewardItem(<minecraft:enchanted_book, count:1, nbt:{StoredEnchantments:[{lvl:4s,id:0s}]}>)

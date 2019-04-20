@@ -16,4 +16,4 @@ criteria = addCriteria("locationDungeon", "minecraft:changed_dimension")
 criteria.setDimensionDestination("dungeon")
 
 addRewardItem(<arcaneworld:sapphire, count:10>)
-addRewardItem(<minecraft:enchanted_book, meta:0, count:1, enchant:minecraft:protection:4>)
+addRewardItem(<minecraft:enchanted_book, count:1, nbt:{StoredEnchantments:[{lvl:4s,id:0s}]}>)
