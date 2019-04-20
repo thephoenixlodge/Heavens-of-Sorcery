@@ -18,7 +18,7 @@ val elytra = <minecraft:elytra>;
 poolRaid.addItemEntry(angelHeart, 4);
 
 //Portal core for Misty World and aether portals
-poolRaid.addItemEntry(portalCore, 8);
+poolRaid.addItemEntry(portalCore, 10);
 
 //add Elytra to the pool
 poolRaid.addItemEntry(elytra, 4);
