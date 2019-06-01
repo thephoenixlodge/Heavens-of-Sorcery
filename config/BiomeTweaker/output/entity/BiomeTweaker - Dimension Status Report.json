@@ -361,14 +361,14 @@
     "Class": "hellfirepvp.astralsorcery.common.entities.EntityLiquidSpark"
   },
   {
-    "Name": "quark:pirate",
-    "Registry ID": "quark:pirate",
-    "Class": "vazkii.quark.world.entity.EntityPirate"
+    "Name": "quark:stoneling",
+    "Registry ID": "quark:stoneling",
+    "Class": "vazkii.quark.world.entity.EntityStoneling"
   },
   {
-    "Name": "quark:wraith",
-    "Registry ID": "quark:wraith",
-    "Class": "vazkii.quark.world.entity.EntityWraith"
+    "Name": "quark:archeologist",
+    "Registry ID": "quark:archeologist",
+    "Class": "vazkii.quark.world.entity.EntityArcheologist"
   },
   {
     "Name": "quark:dweller",
@@ -379,6 +379,16 @@
     "Name": "quark:ashen",
     "Registry ID": "quark:ashen",
     "Class": "vazkii.quark.world.entity.EntityAshen"
+  },
+  {
+    "Name": "quark:pirate",
+    "Registry ID": "quark:pirate",
+    "Class": "vazkii.quark.world.entity.EntityPirate"
+  },
+  {
+    "Name": "quark:wraith",
+    "Registry ID": "quark:wraith",
+    "Class": "vazkii.quark.world.entity.EntityWraith"
   },
   {
     "Name": "botania:pixie",
@@ -886,6 +896,21 @@
     "Class": "com.bewitchment.common.entity.spirits.ghosts.EntityBlackDog"
   },
   {
+    "Name": "Crow",
+    "Registry ID": "corvus:crow",
+    "Class": "party.lemons.corvus.entity.EntityCrow"
+  },
+  {
+    "Name": "Familiar",
+    "Registry ID": "corvus:familiar",
+    "Class": "party.lemons.corvus.entity.EntityFamiliar"
+  },
+  {
+    "Name": "Wendigo",
+    "Registry ID": "corvus:wendigo",
+    "Class": "party.lemons.corvus.entity.EntityWendigo"
+  },
+  {
     "Name": "eerieentities.wisp",
     "Registry ID": "eerieentities:wisp",
     "Class": "com.jarhax.eerieentities.entities.EntityWisp"
@@ -1171,6 +1196,11 @@
     "Class": "com.legacy.blue_skies.entities.hostile.EntityArmoredFrostSpirit"
   },
   {
+    "Name": "cryno",
+    "Registry ID": "blue_skies:cryno",
+    "Class": "com.legacy.blue_skies.entities.hostile.EntityCryno"
+  },
+  {
     "Name": "frost_spirit",
     "Registry ID": "blue_skies:frost_spirit",
     "Class": "com.legacy.blue_skies.entities.hostile.EntityFrostSpirit"
@@ -1186,14 +1216,24 @@
     "Class": "com.legacy.blue_skies.entities.passive.EntityFirefly"
   },
   {
-    "Name": "sky_bear",
-    "Registry ID": "blue_skies:sky_bear",
-    "Class": "com.legacy.blue_skies.entities.neutral.EntitySkyBear"
+    "Name": "nightshade_bear",
+    "Registry ID": "blue_skies:nightshade_bear",
+    "Class": "com.legacy.blue_skies.entities.neutral.EntityNightshadeBear"
+  },
+  {
+    "Name": "crystal_camel",
+    "Registry ID": "blue_skies:crystal_camel",
+    "Class": "com.legacy.blue_skies.entities.neutral.EntityCrystalCamel"
   },
   {
     "Name": "nycto_bug",
     "Registry ID": "blue_skies:nycto_bug",
     "Class": "com.legacy.blue_skies.entities.hostile.EntityNyctoBug"
+  },
+  {
+    "Name": "venom_spider",
+    "Registry ID": "blue_skies:venom_spider",
+    "Class": "com.legacy.blue_skies.entities.hostile.EntityVenomSpider"
   },
   {
     "Name": "villager_warrior",

@@ -66,6 +66,17 @@ false
 <p>AFK Timer</p>
 </td></tr>
 <tr>
+<td><code>ftbutilities.back.back</code></td>
+<td><code>bool</code></td>
+<td class='false'><code>false</code></td>
+<td class='true'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Allow player back to last time where /back is used</p>
+</td></tr>
+<tr>
 <td><code>ftbutilities.back.cooldown</code></td>
 <td><code>timer</code></td>
 <td class='other'><code>3m</code></td>
@@ -74,6 +85,17 @@ false
 0s to &infin; 
 '>
 <p>/back Cooldown Timer</p>
+</td></tr>
+<tr>
+<td><code>ftbutilities.back.home</code></td>
+<td><code>bool</code></td>
+<td class='false'><code>false</code></td>
+<td class='true'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Allow player back to last time where /home is used</p>
 </td></tr>
 <tr>
 <td><code>ftbutilities.back.infinite</code></td>
@@ -86,6 +108,49 @@ false
 <p>Allow to use 'back' command infinite times</p>
 </td></tr>
 <tr>
+<td><code>ftbutilities.back.respawn</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Allow player back to last death point</p>
+</td></tr>
+<tr>
+<td><code>ftbutilities.back.rtp</code></td>
+<td><code>bool</code></td>
+<td class='false'><code>false</code></td>
+<td class='true'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Allow player back to last time where /rtp is used</p>
+</td></tr>
+<tr>
+<td><code>ftbutilities.back.spawn</code></td>
+<td><code>bool</code></td>
+<td class='false'><code>false</code></td>
+<td class='true'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Allow player back to last time where /spawn is used</p>
+</td></tr>
+<tr>
+<td><code>ftbutilities.back.tpa</code></td>
+<td><code>bool</code></td>
+<td class='false'><code>false</code></td>
+<td class='true'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Allow player back to last time where /tpa is used</p>
+</td></tr>
+<tr>
 <td><code>ftbutilities.back.warmup</code></td>
 <td><code>timer</code></td>
 <td class='other'><code>5s</code></td>
@@ -96,12 +161,33 @@ false
 <p>/back Warmup Timer</p>
 </td></tr>
 <tr>
+<td><code>ftbutilities.back.warp</code></td>
+<td><code>bool</code></td>
+<td class='false'><code>false</code></td>
+<td class='true'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Allow player back to last time where /warp is used</p>
+</td></tr>
+<tr>
 <td><code>ftbutilities.badge</code></td>
 <td><code>string</code></td>
 <td class='other' colspan='2'><code>""</code></td>
 <td title='
 '>
 <p>Badge</p>
+</td></tr>
+<tr>
+<td><code>ftbutilities.chat.formatting</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+<p>Allows to use **bold**, *italic* and ~~striketrough~~ in chat</p>
 </td></tr>
 <tr>
 <td><code>ftbutilities.chat.name_format</code></td>
@@ -249,7 +335,25 @@ false
 '>
 </td></tr>
 <tr>
+<td><code>ftbutilities.claims.block.interact.blue_skies.frostbright_door</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+</td></tr>
+<tr>
 <td><code>ftbutilities.claims.block.interact.blue_skies.lunar_door</code></td>
+<td><code>bool</code></td>
+<td class='true' colspan='2'><code>true</code></td>
+<td title='
+true 
+false 
+'>
+</td></tr>
+<tr>
+<td><code>ftbutilities.claims.block.interact.blue_skies.maple_door</code></td>
 <td><code>bool</code></td>
 <td class='true' colspan='2'><code>true</code></td>
 <td title='
@@ -1255,7 +1359,7 @@ false
 <tr><td><code>command.playsound</code></td><td>/playsound &lt;sound&gt; &lt;source&gt; &lt;player&gt; [x] [y] [z] [volume] [pitch] [minimumVolume]</td></tr>
 <tr><td><code>command.publish</code></td><td>/publish</td></tr>
 <tr><td><code>command.qualitytools.qualitytoolsreload</code></td><td>/qualitytoolsreload</td></tr>
-<tr><td><code>command.quark.quarkconfig</code></td><td class='error' title='Invalid usage language key!'>&lt;module&gt; &lt;category&gt; &lt;key&gt; &lt;value&gt; [save?] [player]</td></tr>
+<tr><td><code>command.quark.quarkconfig</code></td><td>/quarkconfig &lt;module&gt; &lt;category&gt; &lt;key&gt; &lt;value&gt; [save?] [player]</td></tr>
 <tr><td><code>command.randomportals.rporeload</code></td><td>/rporeload</td></tr>
 <tr><td><code>command.recipe</code></td><td>/recipe &lt;give|take&gt; [player] &lt;name|*&gt;</td></tr>
 <tr><td><code>command.replaceitem</code></td><td>/replaceitem &lt;entity|block&gt; ...</td></tr>
@@ -1303,6 +1407,7 @@ false
 <tr><td><code>command.tombmanygraves.tmg_toggle_render</code></td><td>tmg_toggle_render</td></tr>
 <tr><td><code>command.tp</code></td><td>/tp [target player] &lt;destination player&gt;<br>/tp [target player] &lt;x&gt; &lt;y&gt; &lt;z&gt; [&lt;yaw&gt; &lt;pitch&gt;]</td></tr>
 <tr><td><code>command.trigger</code></td><td>/trigger &lt;objective&gt; &lt;add|set&gt; &lt;value&gt;</td></tr>
+<tr><td><code>command.triumph.triumph.debug</code></td><td class='error' title='Invalid usage language key!'>Use /triumph debug</td></tr>
 <tr><td><code>command.voidislandcontrol.island</code></td><td>island</td></tr>
 <tr><td><code>command.voidislandcontrol.islandadmin</code></td><td>island</td></tr>
 <tr><td><code>command.voidislandcontrol.startinginv</code></td><td class='error' title='Invalid usage language key!'></td></tr>

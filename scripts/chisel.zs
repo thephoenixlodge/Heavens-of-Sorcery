@@ -120,18 +120,18 @@ Carving.addVariation("slate-rustic", slateChiseled);
 
 //Sooty Marble
 Carving.addGroup("sootyMarble");
-for i in 0 to 6 {
+for i in 0 to 7 {
 	Carving.addVariation("sootyMarble", sootyMarble.makeStack(i));
 }
 
 //Livingwood planks
 Carving.addGroup("livingwood-planks");
-for j in 1 to 4 {
+for j in 1 to 5 {
 	Carving.addVariation("livingwood-planks", livingwood.makeStack(j));
 }
 
 //Livingrock
 Carving.addGroup("livingrock");
-for k in 0 to 4 {
+for k in 0 to 5 {
 	Carving.addVariation("livingrock", livingrock.makeStack(k));
 }

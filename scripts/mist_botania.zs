@@ -8,6 +8,7 @@ import mods.botania.RuneAltar;
 import mods.inspirations.Cauldron as CauldronCrafting;
 import mods.astralsorcery.Altar;
 import mods.astralsorcery.StarlightInfusion;
+import mods.astralsorcery.Utils;
 
 ////Variables
 var oreMistyWoods = <ore:mistyWood>;
@@ -90,13 +91,17 @@ val lexicaBotania = <botania:lexicon>;
 val book = <minecraft:book>;
 val livingwoodGlimmering = <botania:livingwood:5>;
 val floralFertilizer = <botania:fertilizer>;
+val niobiumPick = <mist:niobium_pickaxe>;
+val rockCrystalAttuned = Utils.getCrystalORIngredient(false, true);
+val ingotStarmetal = <astralsorcery:itemcraftingcomponent:1>;
+val dustStarmetal = <astralsorcery:itemcraftingcomponent:2>;
 //Runes
 val runeWater = <botania:rune>;
 val runeFire = <botania:rune:1>;
 val runeEarth = <botania:rune:2>;
 val runeAir = <botania:rune:3>;
 val runeMana = <botania:rune:8>;
-
+val runeStarlight = <contenttweaker:rune_starlight>;
 
 //Oredict all Misty World logs
 for log in mistyWoods {
@@ -186,3 +191,9 @@ StarlightInfusion.addInfusion(livingwood, livingwoodGlimmering, false, 0.8, 120)
 
 //remove recipe for Floral Fertilizer (add new one to later point in progression?)
 recipes.remove(floralFertilizer);
+
+//increase max durability for niobium pick
+niobiumPick.maxDamage = 600;
+
+//Rune of Starlight recipe
+RuneAltar.addRecipe(runeStarlight * 2, [runeMana, runeMana, ingotStarmetal, ingotStarmetal, dustStarmetal, dustStarmetal], 12000);
