@@ -30,6 +30,7 @@ var mistyWoods = [
 var mistyLogMeta = [0,4,7,8,11] as int[];
 var oreFogStone = <ore:fogStone>;
 var fogStones = [
+	<mist:cobblestone>,
 	<mist:stone>,
 	<mist:stone_porous>,
 	<mist:stone_basic>

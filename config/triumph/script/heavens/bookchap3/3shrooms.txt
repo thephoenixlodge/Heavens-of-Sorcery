@@ -1,4 +1,4 @@
-setIcon(<botania:mushroom, meta:1>)
+setIcon(<botania:mushroom, meta:11>)
 
 setTitle("Shroomish")
 

@@ -38,6 +38,9 @@ val oreSilverIF = <iceandfire:silver_ore>;
 val blockSilverIF = <iceandfire:silver_block>;
 val blockSilverBW = <bewitchment:silver_block>;
 
+val plateIronTC = <thaumcraft:plate:1>;
+val plateIronOre = <ore:plateIron>;
+
 //remove extra amethyst from the oredict
 oreAmethyst.remove(amethystWings);
 oreAmethyst.remove(amethystBW);
@@ -83,3 +86,7 @@ oreSilverOre.remove(oreSilverIF);
 recipes.remove(blockSilverIF);
 recipes.remove(blockSilverBW);
 recipes.removeByRecipeName("chisel:uncraft_blocksilver");
+
+//TC Iron plate
+recipes.remove(plateIronTC);
+plateIronOre.remove(plateIronTC);

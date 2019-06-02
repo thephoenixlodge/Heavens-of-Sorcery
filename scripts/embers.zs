@@ -23,7 +23,18 @@ val ingotCopper = <embers:ingot_copper>;
 val plateLead = <embers:plate_lead>;
 val ingotIron = <minecraft:iron_ingot>;
 val hardFoggyStone = <mist:stone_basic>;
+val foggyCobble = <mist:cobblestone>;
+val oreFogStone = <ore:fogStone>;
 val rockCrystalAny = Utils.getCrystalORIngredient(false, false);
+val tinkersHammer = <embers:tinker_hammer>;
+val stickLivingwood = <botania:manaresource:3>;
+val ingotLead = <embers:ingot_lead>;
+val ingotBrass = <thaumcraft:ingot:2>;
+val ingotThaumium = <thaumcraft:ingot>;
+val ingotVoid = <thaumcraft:ingot:1>;
+val plateBrass = <thaumcraft:plate>;
+val plateThaumium = <thaumcraft:plate:2>;
+val plateVoid = <thaumcraft:plate:3>;
 
 //tweak caminite blend recipe
 recipes.remove(caminiteBlend);
@@ -48,4 +59,16 @@ Altar.addDiscoveryAltarRecipe("custom_ember_bore", embersBore, 1000, 250, [camin
 
 //tweak mech core recipe
 recipes.remove(mechCore);
-Altar.addDiscoveryAltarRecipe("custom_mech_core", mechCore, 500, 120, [ingotIron, rockCrystalAny, ingotIron, hardFoggyStone, plateLead, hardFoggyStone, ingotIron, hardFoggyStone, ingotIron]);
+Altar.addDiscoveryAltarRecipe("custom_mech_core", mechCore, 500, 120, [ingotIron, rockCrystalAny, ingotIron, oreFogStone, plateLead, oreFogStone, ingotIron, oreFogStone, ingotIron]);
+
+//tweak hammer recipe slightly
+recipes.remove(tinkersHammer);
+recipes.addShaped(tinkersHammer, [[ingotNiobium, ingotLead, ingotNiobium], [ingotNiobium, stickLivingwood, ingotNiobium], [null, stickLivingwood, null]]);
+
+//tweak TC plate recipes
+recipes.remove(plateBrass);
+recipes.addShapeless(plateBrass, [ingotBrass, ingotBrass, tinkersHammer.reuse()]);
+recipes.remove(plateThaumium);
+recipes.addShapeless(plateThaumium, [ingotThaumium, ingotThaumium, tinkersHammer.reuse()]);
+recipes.remove(plateVoid);
+recipes.addShapeless(plateVoid, [ingotVoid, ingotVoid, tinkersHammer.reuse()]);

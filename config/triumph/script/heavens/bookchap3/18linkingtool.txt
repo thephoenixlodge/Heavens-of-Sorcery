@@ -4,11 +4,11 @@ setTitle("A Link to the Stars")
 
 setDescription("Craft a Linking Tool and use it to turn Iron Ore into Starmetal Ore at a Shrine in the Aether")
 
-addParent("heavens:bookchap3/10rockcrystal")
+addParent("heavens:bookchap3/14starlightaltar")
 
 setRequiresParents()
 
-setPos(0,15)
+setPos(0,-25)
 
 criteria1 = addCriteria("hasItemsFurnace", "minecraft:inventory_changed")
 criteria1.addItem(<astralsorcery:itemlinkingtool, count:1~>)

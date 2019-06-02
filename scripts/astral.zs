@@ -3,6 +3,7 @@ import mods.astralsorcery.LightTransmutation;
 import mods.astralsorcery.Altar;
 import mods.astralsorcery.Utils;
 import mods.astralsorcery.Lightwell;
+import mods.astralsorcery.StarlightInfusion;
 import mods.botania.PureDaisy;
 import mods.ArcaneWorld;
 
@@ -16,6 +17,7 @@ val marbleArch = <astralsorcery:blockmarble:3>;
 val marbleChiseled = <astralsorcery:blockmarble:4>;
 val marbleEngraved = <astralsorcery:blockmarble:5>;
 val marbleRuned = <astralsorcery:blockmarble:6>;
+val marbleAny = <ore:stoneMarble>;
 val holystone = <aether_legacy:holystone>;
 val aquamarineShale = <astralsorcery:blockcustomsandore>;
 val quicksoil = <aether_legacy:quicksoil>;
@@ -57,6 +59,18 @@ val cauldron = <minecraft:cauldron>;
 val icestone = <aether_legacy:icestone>;
 val enchanter = <aether_legacy:enchanter>;
 val freezer = <aether_legacy:freezer>;
+val ingotGold = <minecraft:gold_ingot>;
+val glassLens = <astralsorcery:itemcraftingcomponent:3>;
+val manaGlassPane = <botania:managlasspane>;
+val alfGlassPane = <botania:elfglasspane>;
+val sextant = <astralsorcery:itemsextant>;
+val lookingGlass = <astralsorcery:itemhandtelescope>;
+val telescope = <astralsorcery:blockmachine>;
+val starlightInfuser = <astralsorcery:blockstarlightinfuser>;
+val attunementAltar = <astralsorcery:blockattunementaltar>;
+val spectralRelay = <astralsorcery:blockattunementrelay>;
+val nuggetGold = <minecraft:gold_nugget>;
+val infusedWood = <astralsorcery:blockinfusedwood>;
 //liquids
 val liquidMana = <liquid:mana_fluid>;
 val liquidStarlight = <liquid:astralsorcery.liquidstarlight>;
@@ -72,6 +86,9 @@ LightTransmutation.addTransmutation(holystone, marble, 20);
 //Quicksoil to Aquamarine Shale
 LightTransmutation.addTransmutation(quicksoil, aquamarineShale, 80);
 PureDaisy.addRecipe(quicksoil, aquamarineShale);
+
+//Alt livingwood
+LightTransmutation.addTransmutation(infusedWood, livingwood, 400);
 
 //Ritual to craft Luminous Crafting Table
 ArcaneWorld.createRitualCreateItem("astral_table", "Attune to Starlight", luminousTable, craftingTable, patFrameLivingwood, sootyMarble, dictMarble, dictMarble);
@@ -94,22 +111,43 @@ Altar.addAttunementAltarRecipe("internal/altar/upgrade_tier3", celestialAltar, 1
 
 //New recipes for enchanter and freezer
 recipes.remove(enchanter);
-Altar.addConstellationAltarRecipe("internal/altar/aether_enchanter", enchanter, 2500, 300, [null, gemResonating, null, gemZanite, enchantingTable, gemZanite, runeStarlight, runeSpring, runeStarlight, plankSkyroot, plankSkyroot, holystone, holystone, plankSkyroot, plankSkyroot, plankSkyroot, plankSkyroot, holystone, holystone, holystone, holystone]);
+Altar.addConstellationAltarRecipe("internal/altar/aether_enchanter", enchanter, 3200, 500, [null, gemResonating, null, gemZanite, enchantingTable, gemZanite, runeStarlight, runeSpring, runeStarlight, plankSkyroot, plankSkyroot, holystone, holystone, plankSkyroot, plankSkyroot, plankSkyroot, plankSkyroot, holystone, holystone, holystone, holystone]);
 recipes.remove(freezer);
-Altar.addConstellationAltarRecipe("internal/altar/aether_freezer", freezer, 2500, 300, [null, gemResonating, null, icestone, cauldron, icestone, runeStarlight, runeWinter, runeStarlight, holystone, holystone, plankSkyroot, plankSkyroot, holystone, holystone, holystone, holystone, plankSkyroot, plankSkyroot, plankSkyroot, plankSkyroot]);
+Altar.addConstellationAltarRecipe("internal/altar/aether_freezer", freezer, 3200, 500, [null, gemResonating, null, icestone, cauldron, icestone, runeStarlight, runeWinter, runeStarlight, holystone, holystone, plankSkyroot, plankSkyroot, holystone, holystone, holystone, holystone, plankSkyroot, plankSkyroot, plankSkyroot, plankSkyroot]);
 
 ////Lightwell melting
 //Starlight
 Lightwell.addLiquefaction(gemZanite, liquidStarlight, 0.4F, 14, 0);
 Lightwell.addLiquefaction(manaPearl, liquidStarlight, 0.5F, 17, 0);
 Lightwell.addLiquefaction(manaOrb100, liquidStarlight, 0.3F, 12, 0);
-
 //Lava
 Lightwell.addLiquefaction(chiliPowder, liquidLava, 0.4F, 6, 0xFF350C);
 Lightwell.addLiquefaction(devilDust, liquidLava, 0.8F, 10, 0xFF350C);
-
 //Mana
 Lightwell.addLiquefaction(pastureSeedInfused, liquidMana, 0.4F, 4, 0x00CCCC);
-
 //Ironberry Juice
 Lightwell.addLiquefaction(ironberry, liquidIronberry, 0.2F, 2, 0xA0A0A0);
+
+//Glass Lens alt recipe
+Altar.addDiscoveryAltarRecipe("internal/altar/alt_lens", glassLens * 2, 150, 50, [null, manaGlassPane, null, manaGlassPane, aquamarine, manaGlassPane, null, manaGlassPane, null]);
+StarlightInfusion.addInfusion(manaGlassPane, glassLens * 2, false, 0.4, 50);
+Altar.addDiscoveryAltarRecipe("internal/altar/alt_lens_two", glassLens * 4, 200, 60, [null, alfGlassPane, null, alfGlassPane, aquamarine, alfGlassPane, null, alfGlassPane, null]);
+StarlightInfusion.addInfusion(alfGlassPane, glassLens * 4, false, 0.2, 60);
+
+//Sextant
+Altar.addDiscoveryAltarRecipe("internal/altar/sextant", sextant, 200, 100, [null, glassLens, null, ingotGold, glassLens, ingotGold, livingwoodStick, livingwoodStick, livingwoodStick]);
+
+//Looking glass
+Altar.addDiscoveryAltarRecipe("internal/altar/handtelescope", lookingGlass, 200, 100, [null, livingwoodStick, glassLens, livingwoodStick, ingotGold, livingwoodStick, livingwood, livingwoodStick, null]);
+
+//telescope
+Altar.addAttunementAltarRecipe("internal/altar/telescope", telescope, 1000, 300, [null, lookingGlass, null, ingotGold, livingwood, ingotGold, livingwoodStick, livingwoodStick, livingwoodStick, null, null, null, null]);
+
+//Starlight Infuser
+Altar.addConstellationAltarRecipe("internal/altar/starlightinfuser", starlightInfuser, 3200, 500, [runeStarlight, ingotStarmetal, runeStarlight, aquamarine, liquidStarlight, aquamarine, ingotBronze, marbleRuned, ingotBronze, null, null, marbleChiseled, marbleChiseled, null, null, marbleEngraved, marbleEngraved, marblePillar, marblePillar, marblePillar, marblePillar]);
+
+//Attunement Altar
+Altar.addAttunementAltarRecipe("internal/altar/attunementaltar", attunementAltar, 1000, 300, [null, rockCrystalAny, null, ingotStarmetal, runeStarlight, ingotStarmetal, marbleRuned, spectralRelay, marbleRuned, aquamarine, aquamarine, marbleRuned, marbleRuned]);
+
+//spectral relay
+Altar.addDiscoveryAltarRecipe("internal/altar/attunementrelay", spectralRelay, 200, 100, [null, null, null, nuggetGold, glassLens, nuggetGold, infusedWood, marbleAny, infusedWood]);
