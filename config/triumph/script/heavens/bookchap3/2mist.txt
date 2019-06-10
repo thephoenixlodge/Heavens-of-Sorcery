@@ -13,7 +13,7 @@ setPos(-200,-25)
 criteria1 = addCriteria("isInMist", "minecraft:location")
 location = criteria1.getLocationData()
 location.setDimensionType("misty_world")
-location.setYMax(95)
+location.setYMax(90)
 
 addRewardItem(<mist:filter_coal, count:20>)
 addRewardItem(<mist:niobium_ore, count:15>)

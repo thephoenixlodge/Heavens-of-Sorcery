@@ -147,7 +147,7 @@ Altar.addAttunementAltarRecipe("internal/altar/telescope", telescope, 1000, 300,
 Altar.addConstellationAltarRecipe("internal/altar/starlightinfuser", starlightInfuser, 3200, 500, [runeStarlight, ingotStarmetal, runeStarlight, aquamarine, liquidStarlight, aquamarine, ingotBronze, marbleRuned, ingotBronze, null, null, marbleChiseled, marbleChiseled, null, null, marbleEngraved, marbleEngraved, marblePillar, marblePillar, marblePillar, marblePillar]);
 
 //Attunement Altar
-Altar.addAttunementAltarRecipe("internal/altar/attunementaltar", attunementAltar, 1000, 300, [null, rockCrystalAny, null, ingotStarmetal, runeStarlight, ingotStarmetal, marbleRuned, spectralRelay, marbleRuned, aquamarine, aquamarine, marbleRuned, marbleRuned]);
+Altar.addAttunementAltarRecipe("attunementaltar", attunementAltar, 1000, 300, [null, rockCrystalAny, null, ingotStarmetal, runeStarlight, ingotStarmetal, marbleRuned, spectralRelay, marbleRuned, aquamarine, aquamarine, marbleRuned, marbleRuned]);
 
 //spectral relay
 Altar.addDiscoveryAltarRecipe("internal/altar/attunementrelay", spectralRelay, 200, 100, [null, null, null, nuggetGold, glassLens, nuggetGold, infusedWood, marbleAny, infusedWood]);

@@ -49,12 +49,7 @@
 	},
 	"activation": {
 		"canBeActivatedByFire": false,
-		"activators": [
-			{
-				"registryName": "contenttweaker:otherworlds_core",
-				"meta": 32767
-			}
-		],
+		"activators": [],
 		"activatorConsumeBehavior": "CONSUME",
 		"spawnFireBeforeActivating": false,
 		"activationSounds": [

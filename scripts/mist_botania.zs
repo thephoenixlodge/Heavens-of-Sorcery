@@ -9,6 +9,8 @@ import mods.inspirations.Cauldron as CauldronCrafting;
 import mods.astralsorcery.Altar;
 import mods.astralsorcery.StarlightInfusion;
 import mods.astralsorcery.Utils;
+import mods.astralsorcery.LightTransmutation;
+import mods.aether_legacy.Freezer;
 
 ////Variables
 var oreMistyWoods = <ore:mistyWood>;
@@ -66,6 +68,8 @@ val emberCrystal = <embers:crystal_ember>;
 val magmaBlock = <minecraft:magma>;
 val holyStone = <aether_legacy:holystone>;
 val hardFogStone = <mist:stone_basic>;
+val porousFogStone = <mist:stone_porous>;
+val foggyCobble = <mist:cobblestone>;
 val oreMushroom = <ore:shrooms>;
 val skyrootLeaves = <aether_legacy:aether_leaves>;
 val feather = <ore:feather>;
@@ -96,6 +100,12 @@ val niobiumPick = <mist:niobium_pickaxe>;
 val rockCrystalAttuned = Utils.getCrystalORIngredient(false, true);
 val ingotStarmetal = <astralsorcery:itemcraftingcomponent:1>;
 val dustStarmetal = <astralsorcery:itemcraftingcomponent:2>;
+val catalystInert = <contenttweaker:catalyst_inert>;
+val catalystPure = <contenttweaker:catalyst_pure>;
+val catalystStarlit = <contenttweaker:catalyst_starlit>;
+val catalystInert2 = <contenttweaker:catalyst_inert_2>;
+val catalystPure2 = <contenttweaker:catalyst_pure_2>;
+val catalystStarlit2 = <contenttweaker:catalyst_starlit_2>;
 //Runes
 val runeWater = <botania:rune>;
 val runeFire = <botania:rune:1>;
@@ -167,7 +177,7 @@ RuneAltar.removeRecipe(runeFire);
 RuneAltar.addRecipe(runeFire, [manaPowder, ingotManasteel, chiliPowder, emberCrystal, magmaBlock], 5200);
 //Earth
 RuneAltar.removeRecipe(runeEarth);
-RuneAltar.addRecipe(runeEarth, [manaPowder, ingotManasteel, holyStone, hardFogStone, oreMushroom], 5200);
+RuneAltar.addRecipe(runeEarth, [manaPowder, ingotManasteel, holyStone, porousFogStone, oreMushroom], 5200);
 //Air
 RuneAltar.removeRecipe(runeAir);
 RuneAltar.addRecipe(runeAir, [manaPowder, ingotManasteel, feather, skyrootLeaves, coldAercloud], 5200);
@@ -198,3 +208,12 @@ niobiumPick.maxDamage = 600;
 
 //Rune of Starlight recipe
 RuneAltar.addRecipe(runeStarlight * 2, [runeMana, runeMana, ingotStarmetal, ingotStarmetal, dustStarmetal, dustStarmetal], 12000);
+
+//Freezer recipe for foggy stone hardening
+Freezer.registerFreezable(porousFogStone, hardFogStone, 80);
+
+//Catalyst recipes
+PureDaisy.addRecipe(catalystInert, catalystPure);
+LightTransmutation.addTransmutation(catalystPure, catalystStarlit, 100);
+PureDaisy.addRecipe(catalystInert2, catalystPure2);
+LightTransmutation.addTransmutation(catalystPure2, catalystStarlit2, 100);

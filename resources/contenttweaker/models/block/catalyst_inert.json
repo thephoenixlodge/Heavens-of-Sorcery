@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "contenttweaker:blocks/inert_catalyst_top",
+        "side": "contenttweaker:blocks/inert_catalyst_side"
+    }
+}

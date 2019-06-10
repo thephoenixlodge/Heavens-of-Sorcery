@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "contenttweaker:blocks/starlit_catalyst_2_top",
+        "side": "contenttweaker:blocks/starlit_catalyst_2_side"
+    }
+}

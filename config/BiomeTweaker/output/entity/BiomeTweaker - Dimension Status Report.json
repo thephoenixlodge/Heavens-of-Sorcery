@@ -361,14 +361,19 @@
     "Class": "hellfirepvp.astralsorcery.common.entities.EntityLiquidSpark"
   },
   {
+    "Name": "quark:leash_knot",
+    "Registry ID": "quark:leash_knot",
+    "Class": "vazkii.quark.decoration.entity.EntityLeashKnot2TheKnotting"
+  },
+  {
     "Name": "quark:stoneling",
     "Registry ID": "quark:stoneling",
     "Class": "vazkii.quark.world.entity.EntityStoneling"
   },
   {
-    "Name": "quark:archeologist",
-    "Registry ID": "quark:archeologist",
-    "Class": "vazkii.quark.world.entity.EntityArcheologist"
+    "Name": "quark:archaeologist",
+    "Registry ID": "quark:archaeologist",
+    "Class": "vazkii.quark.world.entity.EntityArchaeologist"
   },
   {
     "Name": "quark:dweller",
@@ -1051,9 +1056,9 @@
     "Class": "com.github.alexthe666.iceandfire.entity.EntitySeaSerpent"
   },
   {
-    "Name": "bound_zombie",
-    "Registry ID": "runecarved:bound_zombie",
-    "Class": "com.minerarcana.runecarved.entity.EntityBoundZombie"
+    "Name": "rat",
+    "Registry ID": "rats:rat",
+    "Class": "com.github.alexthe666.rats.server.entity.EntityRat"
   },
   {
     "Name": "Overgrown Sheep",

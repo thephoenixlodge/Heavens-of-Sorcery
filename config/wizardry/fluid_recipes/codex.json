@@ -1,9 +1,9 @@
 {
-  "output": {
-    "item": "wizardry:book"
-  },
-  "input": {
-    "item": "minecraft:book"
-  },
-  "explode": false
+	"output": {
+		"item": "wizardry:book"
+	},
+	"input": {
+		"item": "minecraft:book"
+	},
+	"explode": true
 }
