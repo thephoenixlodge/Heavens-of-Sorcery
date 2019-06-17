@@ -1,4 +1,4 @@
-13646 nodes in total
+13643 nodes in total
 Modifying this file won't have any effect, edit ranks.txt!
 
 admin_panel.ftbutilities.crash_reports.delete: OP
@@ -2122,7 +2122,6 @@ ftbutilities.claims.block.edit.meecreeps.creepcube: OP
 ftbutilities.claims.block.edit.meecreeps.portalblock: OP
 ftbutilities.claims.block.edit.metalchests.metal_chest: OP
 ftbutilities.claims.block.edit.metalchests.metal_hungry_chest: OP
-ftbutilities.claims.block.edit.metalchests.metal_hungry_sorting_chest: OP
 ftbutilities.claims.block.edit.minecraft.acacia_door: OP
 ftbutilities.claims.block.edit.minecraft.acacia_fence: OP
 ftbutilities.claims.block.edit.minecraft.acacia_fence_gate: OP
@@ -6002,7 +6001,6 @@ ftbutilities.claims.block.interact.meecreeps.creepcube: OP
 ftbutilities.claims.block.interact.meecreeps.portalblock: OP
 ftbutilities.claims.block.interact.metalchests.metal_chest: OP
 ftbutilities.claims.block.interact.metalchests.metal_hungry_chest: OP
-ftbutilities.claims.block.interact.metalchests.metal_hungry_sorting_chest: OP
 ftbutilities.claims.block.interact.minecraft.acacia_door: ALL
 ftbutilities.claims.block.interact.minecraft.acacia_fence: OP
 ftbutilities.claims.block.interact.minecraft.acacia_fence_gate: OP
@@ -11188,7 +11186,6 @@ ftbutilities.claims.item.meecreeps.projectile: ALL
 ftbutilities.claims.item.metalchests.chest_upgrade: ALL
 ftbutilities.claims.item.metalchests.metal_chest: ALL
 ftbutilities.claims.item.metalchests.metal_hungry_chest: ALL
-ftbutilities.claims.item.metalchests.metal_hungry_sorting_chest: ALL
 ftbutilities.claims.item.metalchests.minecart_metal_chest: ALL
 ftbutilities.claims.item.minecraft.acacia_boat: ALL
 ftbutilities.claims.item.minecraft.acacia_door: ALL

@@ -106,6 +106,14 @@ val catalystStarlit = <contenttweaker:catalyst_starlit>;
 val catalystInert2 = <contenttweaker:catalyst_inert_2>;
 val catalystPure2 = <contenttweaker:catalyst_pure_2>;
 val catalystStarlit2 = <contenttweaker:catalyst_starlit_2>;
+val alchemyCatalyst = <botania:alchemycatalyst>;
+val conjurationCatalyst = <botania:conjurationcatalyst>;
+val ingotGold = <minecraft:gold_ingot>;
+val ingotLead = <embers:ingot_lead>;
+val ingotElementium = <botania:manaresource:7>;
+val dustPixie = <botania:manaresource:8>;
+val amethyst = <arcaneworld:amethyst>;
+val tokenJoy = <naturesaura:token_joy>;
 //Runes
 val runeWater = <botania:rune>;
 val runeFire = <botania:rune:1>;
@@ -214,6 +222,14 @@ Freezer.registerFreezable(porousFogStone, hardFogStone, 80);
 
 //Catalyst recipes
 PureDaisy.addRecipe(catalystInert, catalystPure);
-LightTransmutation.addTransmutation(catalystPure, catalystStarlit, 100);
+LightTransmutation.addTransmutation(catalystPure, catalystStarlit, 400);
 PureDaisy.addRecipe(catalystInert2, catalystPure2);
-LightTransmutation.addTransmutation(catalystPure2, catalystStarlit2, 100);
+LightTransmutation.addTransmutation(catalystPure2, catalystStarlit2, 400);
+
+//Alchemy Catalyst
+recipes.remove(alchemyCatalyst);
+Altar.addAttunementAltarRecipe("internal/altar/alchemy_catalyst", alchemyCatalyst, 1200, 300, [ingotGold, amethyst, ingotLead, sapphire, manaPearl, sapphire, ingotLead, amethyst, ingotGold, livingrock, livingrock, livingrock, livingrock]);
+
+//Conjuration Catalyst
+recipes.remove(conjurationCatalyst);
+Altar.addConstellationAltarRecipe("internal/altar/conjuration_catalyst", conjurationCatalyst, 3000, 500, [ingotElementium, dustPixie, ingotElementium, tokenJoy, alchemyCatalyst, tokenJoy, ingotElementium, dustPixie, ingotElementium, null, null, null, null, livingrock, livingrock, livingrock, livingrock, livingrock, livingrock, livingrock, livingrock]);

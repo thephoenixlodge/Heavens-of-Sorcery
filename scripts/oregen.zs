@@ -10,6 +10,7 @@ import mods.botaniatweaks.AgglomerationMultiblock;
 import mods.botaniatweaks.AgglomerationRecipe;
 import mods.astralsorcery.Lightwell;
 import mods.astralsorcery.LiquidInteraction;
+import mods.astralsorcery.Altar;
 
 ////Variables
 //Multiblocks
@@ -21,6 +22,9 @@ val brickLunar = <blue_skies:lunar_stonebrick>;
 val brickTurquoise = <blue_skies:turquoise_stonebrick>;
 var multiblockLunar = AgglomerationMultiblock.create().checker(brickLunar, catalystStarlit).edgeReplace(catalystInert);
 var multiblockTurquoise = AgglomerationMultiblock.create().checker(brickTurquoise, catalystStarlit2).edgeReplace(catalystInert2);
+val runeStarlight = <contenttweaker:rune_starlight>;
+val runeMana = <botania:rune:8>;
+val tokenJoy = <naturesaura:token_joy>;
 
 //Base ingredients
 val powderBountiful = <naturesaura:effect_powder>.withTag({effect: "naturesaura:ore_spawn"});
@@ -332,6 +336,9 @@ dictMetalliaOre.add(metalliaOre);
 Orechid.addOre(dictPreciaOre, 35);
 Orechid.addOre(dictMetalliaOre, 65);
 Dropt.list("materia_ore").add(Dropt.rule().matchBlocks(["contenttweaker:precia_ore"]).addDrop(Dropt.drop().items([preciaMundane]))).add(Dropt.rule().matchBlocks(["contenttweaker:metallia_ore"]).addDrop(Dropt.drop().items([metalliaMundane])));
+//catalyst recipe
+Altar.addConstellationAltarRecipe("shaped/internal/inertCatalystLunar", catalystInert * 2, 3200, 200, [null, runeStarlight, null, ingotFalsite, tokenJoy, ingotFalsite, null, runeMana, null, brickLunar, brickLunar, brickLunar, brickLunar, brickLunar, brickLunar, null, null, null, null, brickLunar, brickLunar]);
+Altar.addConstellationAltarRecipe("shaped/internal/inertCatalystTurquoise", catalystInert2 * 2, 3200, 200, [null, runeStarlight, null, ingotFalsite, tokenJoy, ingotFalsite, null, runeMana, null, brickTurquoise, brickTurquoise, brickTurquoise, brickTurquoise, brickTurquoise, brickTurquoise, null, null, null, null, brickTurquoise, brickTurquoise]);
 //materia awakening
 preciaMundane.addTooltip(format.gold("Harvested from Precia Ore"));
 metalliaMundane.addTooltip(format.gold("Harvested from Metallia Ore"));

@@ -1,0 +1,16 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "model": "naturesaura:wood_stand",
+        "textures": {
+            "texture": "blue_skies:blocks/wood/starlit_log_side",
+            "top": "blue_skies:blocks/wood/starlit_log_top",
+            "particle": "#texture"
+        },
+        "transform": "forge:default-block"
+    },
+    "variants": {
+        "normal": [{}],
+        "inventory": [{}]
+    }
+}
