@@ -1,0 +1,236 @@
+# WARNING : Any changes to this config file will not take effect!!
+# To fix this, set 'IGNORE_CONFIG_FILE: true' --> 'IGNORE_CONFIG_FILE: false'
+# This was done to prevent default values in new versions from being overriden
+# by outdated config files. By doing this, you will no longer recieve any new
+# config defaults...
+
+IGNORE_CONFIG_FILE: true
+
+AirBurstSettings:
+  durationToFire: 40.0
+  knockback: 2.0
+  performanceAmount: 15
+  radius: 3.0
+InfernoPunchDamage: 3.0
+addDungeonLoot: true
+airBladeBreakableBlockNames:
+- minecraft:stone
+- minecraft:sand
+- minecraft:sandstone
+- minecraft:cobblestone
+- minecraft:dirt
+- minecraft:gravel
+- minecraft:brick_block
+- minecraft:mossy_cobblestone
+- minecraft:stonebrick
+- minecraft:clay
+- minecraft:hardened_clay
+- minecraft:stained_hardened_clay
+- minecraft:coal_ore
+- minecraft:iron_ore
+- minecraft:red_sandstone
+- minecraft:grass
+- minecraft:grass_path
+airBurstSettings:
+  damage: 5.0
+  push: 1.0
+airbladeSettings:
+  damage: 5.0
+  push: 0.03
+allowAirBubbleElytra: false
+allowMultiAirbendingWalljump: false
+bendableBlocksNames:
+- minecraft:stone
+- minecraft:sand
+- minecraft:sandstone
+- minecraft:cobblestone
+- minecraft:dirt
+- minecraft:gravel
+- minecraft:brick_block
+- minecraft:mossy_cobblestone
+- minecraft:stonebrick
+- minecraft:stone_slab
+- minecraft:clay
+- minecraft:hardened_clay
+- minecraft:stained_hardened_clay
+- minecraft:coal_ore
+- minecraft:iron_ore
+- minecraft:emerald_ore
+- minecraft:gold_ore
+- minecraft:lapis_ore
+- minecraft:redstone_ore
+- minecraft:red_sandstone
+- minecraft:grass
+- minecraft:grass_path
+boulderSettings:
+  damage: 0.1
+  push: 0.1
+chiAirBubble: 1.5
+chiAirBubbleOneSecond: 0.125
+chiAirBubbleTakeDamage: 0.25
+chiAirBurst: 4.0
+chiAirGust: 0.5
+chiAirJump: 0.4
+chiAirblade: 1.0
+chiBoulderRing: 3.0
+chiBuff: 2.0
+chiBuffLvl2: 3.0
+chiBuffLvl3: 3.5
+chiBuffLvl4: 4.0
+chiCloudburst: 2.5
+chiEarthspike: 3.5
+chiExplosion: 3.0
+chiExplosionUpgraded: 4.5
+chiExplosivePillar: 4.0
+chiFireArc: 1.0
+chiFireJump: 2.0
+chiFireball: 2.0
+chiFlamethrowerSecond: 1.75
+chiFlamethrowerSecondLvl4_1: 2.625
+chiFlamethrowerSecondLvl4_2: 2.0
+chiIceShieldCreate: 4.0
+chiIceShieldProtect: 0.15
+chiInfernoPunch: 3.0
+chiLargeInfernoPunch: 6.0
+chiLightFire: 2.0
+chiLightning: 6.0
+chiLightningRaze: 5.0
+chiLightningSpear: 4.0
+chiMining: 2.0
+chiMiningMaster: 0.5
+chiPickUpBlock: 1.25
+chiPrison: 5.0
+chiPushWall: 4.0
+chiRavine: 1.5
+chiRavineLvl4_1: 2.25
+chiSandPrison: 3.0
+chiSandstorm: 3.0
+chiShockwave: 6.0
+chiSmallInfernoPunch: 2.0
+chiWall: 2.5
+chiWallOneSecond: 0.125
+chiWaterArc: 1.0
+chiWaterBubble: 1.25
+chiWaterCannon: 5.0
+chiWaterSkateSecond: 1.5
+chiWave: 2.0
+cleanseAngles: 10.0
+cleanseChiGroupBonus: 2.0
+cleanseSearchRadius: 5.0
+cloudburstSettings:
+  damage: 3.0
+  push: 1.5
+earthspikeSettings:
+  damage: 3.0
+  frequency: 4.0
+  push: 0.5
+  size: 1.0
+explosionSettings:
+  damage: 6.0
+  damageBlocks: false
+  explosionSize: 1.0
+  fireTime: 2
+  push: 1.0
+fireAngles: 8.0
+fireArcSettings:
+  damage: 3.5
+  push: 1.0
+fireSearchRadius: 4.0
+fireballSettings:
+  damage: 2.5
+  damageBlocks: false
+  explosionSize: 1.0
+  fireTime: 6
+  push: 0.75
+floatingBlockSettings:
+  damage: 2.0
+  push: 1.0
+iceBendableBlockNames:
+- minecraft:snow
+- minecraft:snow_layer
+- minecraft:ice
+- minecraft:packed_ice
+- minecraft:frosted_ice
+icePrisonDamage: 2.0
+lightningRazeSettings:
+  accuracy: 1.0
+  bolts: 1
+  damage: 2.0
+  frequency: 5.0
+  speed: 5.0
+  ticks: 20
+lightningSpearSettings:
+  damage: 4.0
+  push: 2.0
+passiveSettings:
+  fireResistance: true
+  hasteInWater: true
+  noFallDamageAir: true
+  waterBreathing: true
+plantBendableBlockNames:
+- minecraft:tallgrass
+- minecraft:wheat
+- minecraft:double_grass
+- minecraft:waterlily
+- minecraft:red_flower
+- minecraft:double_plant
+- minecraft:leaves
+- minecraft:yellow_flower
+- minecraft:red_mushroom
+- minecraft:brown_mushroom
+- minecraft:vine
+preventPickupBlockGriefing: false
+ravineSettings:
+  damage: 3.5
+  push: 0.25
+sandBlocksNames:
+- minecraft:sand
+- minecraft:gravel
+shiftActivateFireDevour: true
+sleepChiRegen: 99999.0
+wallJumpDelay: 10
+wallMomentum: 10.0
+wallWaitTime: 10.0
+waterArcAngles: 8.0
+waterArcBreakableBlockNames:
+- minecraft:stone
+- minecraft:sand
+- minecraft:sandstone
+- minecraft:cobblestone
+- minecraft:dirt
+- minecraft:gravel
+- minecraft:brick_block
+- minecraft:mossy_cobblestone
+- minecraft:stonebrick
+- minecraft:clay
+- minecraft:hardened_clay
+- minecraft:stained_hardened_clay
+- minecraft:coal_ore
+- minecraft:iron_ore
+- minecraft:red_sandstone
+- minecraft:grass
+- minecraft:grass_path
+waterArcSearchRadius: 4.0
+waterArcSettings:
+  damage: 3.0
+  push: 1.0
+waterArcTicks: 120.0
+waterBendableBlockNames:
+- minecraft:snow
+- minecraft:snow_layer
+- minecraft:ice
+- minecraft:packed_ice
+- minecraft:frosted_ice
+- minecraft:water
+- minecraft:flowing_water
+waterBubbleAngles: 8.0
+waterBubbleSearchRadius: 5.0
+waterCannonSettings:
+  useWaterCannonParticles: true
+  waterCannonAngles: 8.0
+  waterCannonDamage: 1.0
+  waterCannonKnockbackMult: 1.0
+  waterCannonSearchRadius: 3.0
+waveSettings:
+  damage: 0.25
+  push: 4.0

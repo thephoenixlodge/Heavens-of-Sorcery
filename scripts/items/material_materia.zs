@@ -62,7 +62,7 @@ var jasper = MaterialSystem.getMaterialBuilder().setName("Jasper").setColor(Colo
 var malachite = MaterialSystem.getMaterialBuilder().setName("Malachite").setColor(Color.fromHex("35B884")).build();
 var alexandrite = MaterialSystem.getMaterialBuilder().setName("Alexandrite").setColor(Color.fromHex("7EAAAC")).build();
 
-var listPrecious = [coal, redstone, lapis, diamond, emerald, quartz, ambrosium, zanite, sapphire, amethyst, diopside, pyrope, turquoise, charoite, moonstone, crystalQuartz, wiserGem, cinnabar, amber, valonite, sulfur, garnet, nuummite, tigersEye, tourmaline, bloodstone, jasper, malachite, alexandrite] as Material[];
+var listPrecious = [coal, redstone, lapis, diamond, emerald, quartz, ambrosium, zanite, sapphire, amethyst, diopside, pyrope, turquoise, charoite, moonstone, cinnabar, amber, valonite, sulfur, garnet, nuummite, tigersEye, tourmaline, bloodstone, jasper, malachite, alexandrite] as Material[];
 
 //register materials
 for i, metal in listMetals {

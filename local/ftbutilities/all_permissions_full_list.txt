@@ -1,4 +1,4 @@
-13643 nodes in total
+13799 nodes in total
 Modifying this file won't have any effect, edit ranks.txt!
 
 admin_panel.ftbutilities.crash_reports.delete: OP
@@ -2537,6 +2537,18 @@ ftbutilities.claims.block.edit.naturalpledge.alt_leaves1: OP
 ftbutilities.claims.block.edit.naturalpledge.alt_log0: OP
 ftbutilities.claims.block.edit.naturalpledge.alt_log1: OP
 ftbutilities.claims.block.edit.naturalpledge.alt_planks: OP
+ftbutilities.claims.block.edit.naturalpledge.alt_planks_slab0: OP
+ftbutilities.claims.block.edit.naturalpledge.alt_planks_slab0_full: OP
+ftbutilities.claims.block.edit.naturalpledge.alt_planks_slab1: OP
+ftbutilities.claims.block.edit.naturalpledge.alt_planks_slab1_full: OP
+ftbutilities.claims.block.edit.naturalpledge.alt_planks_slab2: OP
+ftbutilities.claims.block.edit.naturalpledge.alt_planks_slab2_full: OP
+ftbutilities.claims.block.edit.naturalpledge.alt_planks_slab3: OP
+ftbutilities.claims.block.edit.naturalpledge.alt_planks_slab3_full: OP
+ftbutilities.claims.block.edit.naturalpledge.alt_planks_slab4: OP
+ftbutilities.claims.block.edit.naturalpledge.alt_planks_slab4_full: OP
+ftbutilities.claims.block.edit.naturalpledge.alt_planks_slab5: OP
+ftbutilities.claims.block.edit.naturalpledge.alt_planks_slab5_full: OP
 ftbutilities.claims.block.edit.naturalpledge.amp: OP
 ftbutilities.claims.block.edit.naturalpledge.aqua_glass: OP
 ftbutilities.claims.block.edit.naturalpledge.aqua_pane: OP
@@ -2544,13 +2556,19 @@ ftbutilities.claims.block.edit.naturalpledge.aurora_dirt: OP
 ftbutilities.claims.block.edit.naturalpledge.aurora_leaves: OP
 ftbutilities.claims.block.edit.naturalpledge.aurora_log: OP
 ftbutilities.claims.block.edit.naturalpledge.aurora_planks: OP
+ftbutilities.claims.block.edit.naturalpledge.aurora_planks_slab: OP
+ftbutilities.claims.block.edit.naturalpledge.aurora_planks_slab_full: OP
 ftbutilities.claims.block.edit.naturalpledge.calico_leaves: OP
 ftbutilities.claims.block.edit.naturalpledge.calico_log: OP
 ftbutilities.claims.block.edit.naturalpledge.calico_planks: OP
+ftbutilities.claims.block.edit.naturalpledge.calico_planks_slab: OP
+ftbutilities.claims.block.edit.naturalpledge.calico_planks_slab_full: OP
 ftbutilities.claims.block.edit.naturalpledge.calico_sapling: OP
 ftbutilities.claims.block.edit.naturalpledge.circuit_leaves: OP
 ftbutilities.claims.block.edit.naturalpledge.circuit_log: OP
 ftbutilities.claims.block.edit.naturalpledge.circuit_planks: OP
+ftbutilities.claims.block.edit.naturalpledge.circuit_planks_slab: OP
+ftbutilities.claims.block.edit.naturalpledge.circuit_planks_slab_full: OP
 ftbutilities.claims.block.edit.naturalpledge.circuit_sapling: OP
 ftbutilities.claims.block.edit.naturalpledge.corporea_resonator: OP
 ftbutilities.claims.block.edit.naturalpledge.crackling_star: OP
@@ -2569,6 +2587,38 @@ ftbutilities.claims.block.edit.naturalpledge.iris_log1: OP
 ftbutilities.claims.block.edit.naturalpledge.iris_log2: OP
 ftbutilities.claims.block.edit.naturalpledge.iris_log3: OP
 ftbutilities.claims.block.edit.naturalpledge.iris_planks: OP
+ftbutilities.claims.block.edit.naturalpledge.iris_planks_slab_black: OP
+ftbutilities.claims.block.edit.naturalpledge.iris_planks_slab_black_full: OP
+ftbutilities.claims.block.edit.naturalpledge.iris_planks_slab_blue: OP
+ftbutilities.claims.block.edit.naturalpledge.iris_planks_slab_blue_full: OP
+ftbutilities.claims.block.edit.naturalpledge.iris_planks_slab_brown: OP
+ftbutilities.claims.block.edit.naturalpledge.iris_planks_slab_brown_full: OP
+ftbutilities.claims.block.edit.naturalpledge.iris_planks_slab_cyan: OP
+ftbutilities.claims.block.edit.naturalpledge.iris_planks_slab_cyan_full: OP
+ftbutilities.claims.block.edit.naturalpledge.iris_planks_slab_gray: OP
+ftbutilities.claims.block.edit.naturalpledge.iris_planks_slab_gray_full: OP
+ftbutilities.claims.block.edit.naturalpledge.iris_planks_slab_green: OP
+ftbutilities.claims.block.edit.naturalpledge.iris_planks_slab_green_full: OP
+ftbutilities.claims.block.edit.naturalpledge.iris_planks_slab_light_blue: OP
+ftbutilities.claims.block.edit.naturalpledge.iris_planks_slab_light_blue_full: OP
+ftbutilities.claims.block.edit.naturalpledge.iris_planks_slab_lime: OP
+ftbutilities.claims.block.edit.naturalpledge.iris_planks_slab_lime_full: OP
+ftbutilities.claims.block.edit.naturalpledge.iris_planks_slab_magenta: OP
+ftbutilities.claims.block.edit.naturalpledge.iris_planks_slab_magenta_full: OP
+ftbutilities.claims.block.edit.naturalpledge.iris_planks_slab_orange: OP
+ftbutilities.claims.block.edit.naturalpledge.iris_planks_slab_orange_full: OP
+ftbutilities.claims.block.edit.naturalpledge.iris_planks_slab_pink: OP
+ftbutilities.claims.block.edit.naturalpledge.iris_planks_slab_pink_full: OP
+ftbutilities.claims.block.edit.naturalpledge.iris_planks_slab_purple: OP
+ftbutilities.claims.block.edit.naturalpledge.iris_planks_slab_purple_full: OP
+ftbutilities.claims.block.edit.naturalpledge.iris_planks_slab_red: OP
+ftbutilities.claims.block.edit.naturalpledge.iris_planks_slab_red_full: OP
+ftbutilities.claims.block.edit.naturalpledge.iris_planks_slab_silver: OP
+ftbutilities.claims.block.edit.naturalpledge.iris_planks_slab_silver_full: OP
+ftbutilities.claims.block.edit.naturalpledge.iris_planks_slab_white: OP
+ftbutilities.claims.block.edit.naturalpledge.iris_planks_slab_white_full: OP
+ftbutilities.claims.block.edit.naturalpledge.iris_planks_slab_yellow: OP
+ftbutilities.claims.block.edit.naturalpledge.iris_planks_slab_yellow_full: OP
 ftbutilities.claims.block.edit.naturalpledge.iris_sapling: OP
 ftbutilities.claims.block.edit.naturalpledge.launch_trap: OP
 ftbutilities.claims.block.edit.naturalpledge.prism_flame: OP
@@ -2576,11 +2626,15 @@ ftbutilities.claims.block.edit.naturalpledge.rainbow_dirt: OP
 ftbutilities.claims.block.edit.naturalpledge.rainbow_leaves: OP
 ftbutilities.claims.block.edit.naturalpledge.rainbow_log: OP
 ftbutilities.claims.block.edit.naturalpledge.rainbow_planks: OP
+ftbutilities.claims.block.edit.naturalpledge.rainbow_planks_slab: OP
+ftbutilities.claims.block.edit.naturalpledge.rainbow_planks_slab_full: OP
 ftbutilities.claims.block.edit.naturalpledge.root_trap: OP
 ftbutilities.claims.block.edit.naturalpledge.sand_trap: OP
 ftbutilities.claims.block.edit.naturalpledge.seal_leaves: OP
 ftbutilities.claims.block.edit.naturalpledge.seal_log: OP
 ftbutilities.claims.block.edit.naturalpledge.seal_planks: OP
+ftbutilities.claims.block.edit.naturalpledge.seal_planks_slab: OP
+ftbutilities.claims.block.edit.naturalpledge.seal_planks_slab_full: OP
 ftbutilities.claims.block.edit.naturalpledge.seal_sapling: OP
 ftbutilities.claims.block.edit.naturalpledge.signal_trap: OP
 ftbutilities.claims.block.edit.naturalpledge.star: OP
@@ -2588,6 +2642,8 @@ ftbutilities.claims.block.edit.naturalpledge.storage: OP
 ftbutilities.claims.block.edit.naturalpledge.thunder_leaves: OP
 ftbutilities.claims.block.edit.naturalpledge.thunder_log: OP
 ftbutilities.claims.block.edit.naturalpledge.thunder_planks: OP
+ftbutilities.claims.block.edit.naturalpledge.thunder_planks_slab: OP
+ftbutilities.claims.block.edit.naturalpledge.thunder_planks_slab_full: OP
 ftbutilities.claims.block.edit.naturalpledge.thunder_sapling: OP
 ftbutilities.claims.block.edit.naturalpledge.thunder_trap: OP
 ftbutilities.claims.block.edit.naturalpledge.wrath_trap: OP
@@ -3085,6 +3141,7 @@ ftbutilities.claims.block.edit.rats.block_of_cheese: OP
 ftbutilities.claims.block.edit.rats.cauldron_cheese: OP
 ftbutilities.claims.block.edit.rats.cauldron_milk: OP
 ftbutilities.claims.block.edit.rats.rat_cage: OP
+ftbutilities.claims.block.edit.rats.rat_crafting_table: OP
 ftbutilities.claims.block.edit.rats.rat_hole: OP
 ftbutilities.claims.block.edit.rats.rattrap: OP
 ftbutilities.claims.block.edit.rootsclassic.altar: OP
@@ -6416,6 +6473,18 @@ ftbutilities.claims.block.interact.naturalpledge.alt_leaves1: OP
 ftbutilities.claims.block.interact.naturalpledge.alt_log0: OP
 ftbutilities.claims.block.interact.naturalpledge.alt_log1: OP
 ftbutilities.claims.block.interact.naturalpledge.alt_planks: OP
+ftbutilities.claims.block.interact.naturalpledge.alt_planks_slab0: OP
+ftbutilities.claims.block.interact.naturalpledge.alt_planks_slab0_full: OP
+ftbutilities.claims.block.interact.naturalpledge.alt_planks_slab1: OP
+ftbutilities.claims.block.interact.naturalpledge.alt_planks_slab1_full: OP
+ftbutilities.claims.block.interact.naturalpledge.alt_planks_slab2: OP
+ftbutilities.claims.block.interact.naturalpledge.alt_planks_slab2_full: OP
+ftbutilities.claims.block.interact.naturalpledge.alt_planks_slab3: OP
+ftbutilities.claims.block.interact.naturalpledge.alt_planks_slab3_full: OP
+ftbutilities.claims.block.interact.naturalpledge.alt_planks_slab4: OP
+ftbutilities.claims.block.interact.naturalpledge.alt_planks_slab4_full: OP
+ftbutilities.claims.block.interact.naturalpledge.alt_planks_slab5: OP
+ftbutilities.claims.block.interact.naturalpledge.alt_planks_slab5_full: OP
 ftbutilities.claims.block.interact.naturalpledge.amp: OP
 ftbutilities.claims.block.interact.naturalpledge.aqua_glass: OP
 ftbutilities.claims.block.interact.naturalpledge.aqua_pane: OP
@@ -6423,13 +6492,19 @@ ftbutilities.claims.block.interact.naturalpledge.aurora_dirt: OP
 ftbutilities.claims.block.interact.naturalpledge.aurora_leaves: OP
 ftbutilities.claims.block.interact.naturalpledge.aurora_log: OP
 ftbutilities.claims.block.interact.naturalpledge.aurora_planks: OP
+ftbutilities.claims.block.interact.naturalpledge.aurora_planks_slab: OP
+ftbutilities.claims.block.interact.naturalpledge.aurora_planks_slab_full: OP
 ftbutilities.claims.block.interact.naturalpledge.calico_leaves: OP
 ftbutilities.claims.block.interact.naturalpledge.calico_log: OP
 ftbutilities.claims.block.interact.naturalpledge.calico_planks: OP
+ftbutilities.claims.block.interact.naturalpledge.calico_planks_slab: OP
+ftbutilities.claims.block.interact.naturalpledge.calico_planks_slab_full: OP
 ftbutilities.claims.block.interact.naturalpledge.calico_sapling: OP
 ftbutilities.claims.block.interact.naturalpledge.circuit_leaves: OP
 ftbutilities.claims.block.interact.naturalpledge.circuit_log: OP
 ftbutilities.claims.block.interact.naturalpledge.circuit_planks: OP
+ftbutilities.claims.block.interact.naturalpledge.circuit_planks_slab: OP
+ftbutilities.claims.block.interact.naturalpledge.circuit_planks_slab_full: OP
 ftbutilities.claims.block.interact.naturalpledge.circuit_sapling: OP
 ftbutilities.claims.block.interact.naturalpledge.corporea_resonator: OP
 ftbutilities.claims.block.interact.naturalpledge.crackling_star: OP
@@ -6448,6 +6523,38 @@ ftbutilities.claims.block.interact.naturalpledge.iris_log1: OP
 ftbutilities.claims.block.interact.naturalpledge.iris_log2: OP
 ftbutilities.claims.block.interact.naturalpledge.iris_log3: OP
 ftbutilities.claims.block.interact.naturalpledge.iris_planks: OP
+ftbutilities.claims.block.interact.naturalpledge.iris_planks_slab_black: OP
+ftbutilities.claims.block.interact.naturalpledge.iris_planks_slab_black_full: OP
+ftbutilities.claims.block.interact.naturalpledge.iris_planks_slab_blue: OP
+ftbutilities.claims.block.interact.naturalpledge.iris_planks_slab_blue_full: OP
+ftbutilities.claims.block.interact.naturalpledge.iris_planks_slab_brown: OP
+ftbutilities.claims.block.interact.naturalpledge.iris_planks_slab_brown_full: OP
+ftbutilities.claims.block.interact.naturalpledge.iris_planks_slab_cyan: OP
+ftbutilities.claims.block.interact.naturalpledge.iris_planks_slab_cyan_full: OP
+ftbutilities.claims.block.interact.naturalpledge.iris_planks_slab_gray: OP
+ftbutilities.claims.block.interact.naturalpledge.iris_planks_slab_gray_full: OP
+ftbutilities.claims.block.interact.naturalpledge.iris_planks_slab_green: OP
+ftbutilities.claims.block.interact.naturalpledge.iris_planks_slab_green_full: OP
+ftbutilities.claims.block.interact.naturalpledge.iris_planks_slab_light_blue: OP
+ftbutilities.claims.block.interact.naturalpledge.iris_planks_slab_light_blue_full: OP
+ftbutilities.claims.block.interact.naturalpledge.iris_planks_slab_lime: OP
+ftbutilities.claims.block.interact.naturalpledge.iris_planks_slab_lime_full: OP
+ftbutilities.claims.block.interact.naturalpledge.iris_planks_slab_magenta: OP
+ftbutilities.claims.block.interact.naturalpledge.iris_planks_slab_magenta_full: OP
+ftbutilities.claims.block.interact.naturalpledge.iris_planks_slab_orange: OP
+ftbutilities.claims.block.interact.naturalpledge.iris_planks_slab_orange_full: OP
+ftbutilities.claims.block.interact.naturalpledge.iris_planks_slab_pink: OP
+ftbutilities.claims.block.interact.naturalpledge.iris_planks_slab_pink_full: OP
+ftbutilities.claims.block.interact.naturalpledge.iris_planks_slab_purple: OP
+ftbutilities.claims.block.interact.naturalpledge.iris_planks_slab_purple_full: OP
+ftbutilities.claims.block.interact.naturalpledge.iris_planks_slab_red: OP
+ftbutilities.claims.block.interact.naturalpledge.iris_planks_slab_red_full: OP
+ftbutilities.claims.block.interact.naturalpledge.iris_planks_slab_silver: OP
+ftbutilities.claims.block.interact.naturalpledge.iris_planks_slab_silver_full: OP
+ftbutilities.claims.block.interact.naturalpledge.iris_planks_slab_white: OP
+ftbutilities.claims.block.interact.naturalpledge.iris_planks_slab_white_full: OP
+ftbutilities.claims.block.interact.naturalpledge.iris_planks_slab_yellow: OP
+ftbutilities.claims.block.interact.naturalpledge.iris_planks_slab_yellow_full: OP
 ftbutilities.claims.block.interact.naturalpledge.iris_sapling: OP
 ftbutilities.claims.block.interact.naturalpledge.launch_trap: OP
 ftbutilities.claims.block.interact.naturalpledge.prism_flame: OP
@@ -6455,11 +6562,15 @@ ftbutilities.claims.block.interact.naturalpledge.rainbow_dirt: OP
 ftbutilities.claims.block.interact.naturalpledge.rainbow_leaves: OP
 ftbutilities.claims.block.interact.naturalpledge.rainbow_log: OP
 ftbutilities.claims.block.interact.naturalpledge.rainbow_planks: OP
+ftbutilities.claims.block.interact.naturalpledge.rainbow_planks_slab: OP
+ftbutilities.claims.block.interact.naturalpledge.rainbow_planks_slab_full: OP
 ftbutilities.claims.block.interact.naturalpledge.root_trap: OP
 ftbutilities.claims.block.interact.naturalpledge.sand_trap: OP
 ftbutilities.claims.block.interact.naturalpledge.seal_leaves: OP
 ftbutilities.claims.block.interact.naturalpledge.seal_log: OP
 ftbutilities.claims.block.interact.naturalpledge.seal_planks: OP
+ftbutilities.claims.block.interact.naturalpledge.seal_planks_slab: OP
+ftbutilities.claims.block.interact.naturalpledge.seal_planks_slab_full: OP
 ftbutilities.claims.block.interact.naturalpledge.seal_sapling: OP
 ftbutilities.claims.block.interact.naturalpledge.signal_trap: OP
 ftbutilities.claims.block.interact.naturalpledge.star: OP
@@ -6467,6 +6578,8 @@ ftbutilities.claims.block.interact.naturalpledge.storage: OP
 ftbutilities.claims.block.interact.naturalpledge.thunder_leaves: OP
 ftbutilities.claims.block.interact.naturalpledge.thunder_log: OP
 ftbutilities.claims.block.interact.naturalpledge.thunder_planks: OP
+ftbutilities.claims.block.interact.naturalpledge.thunder_planks_slab: OP
+ftbutilities.claims.block.interact.naturalpledge.thunder_planks_slab_full: OP
 ftbutilities.claims.block.interact.naturalpledge.thunder_sapling: OP
 ftbutilities.claims.block.interact.naturalpledge.thunder_trap: OP
 ftbutilities.claims.block.interact.naturalpledge.wrath_trap: OP
@@ -6964,6 +7077,7 @@ ftbutilities.claims.block.interact.rats.block_of_cheese: OP
 ftbutilities.claims.block.interact.rats.cauldron_cheese: OP
 ftbutilities.claims.block.interact.rats.cauldron_milk: OP
 ftbutilities.claims.block.interact.rats.rat_cage: OP
+ftbutilities.claims.block.interact.rats.rat_crafting_table: OP
 ftbutilities.claims.block.interact.rats.rat_hole: OP
 ftbutilities.claims.block.interact.rats.rattrap: OP
 ftbutilities.claims.block.interact.rootsclassic.altar: OP
@@ -8173,6 +8287,13 @@ ftbutilities.claims.item.astralsorcery.itemtunedcelestialcrystal: ALL
 ftbutilities.claims.item.astralsorcery.itemtunedrockcrystal: ALL
 ftbutilities.claims.item.astralsorcery.itemusabledust: ALL
 ftbutilities.claims.item.astralsorcery.itemwand: ALL
+ftbutilities.claims.item.avatarmod.airbender_staff: ALL
+ftbutilities.claims.item.avatarmod.bison_armor: ALL
+ftbutilities.claims.item.avatarmod.bison_saddle: ALL
+ftbutilities.claims.item.avatarmod.bison_whistle: ALL
+ftbutilities.claims.item.avatarmod.ostrich_equip: ALL
+ftbutilities.claims.item.avatarmod.scroll: ALL
+ftbutilities.claims.item.avatarmod.water_pouch: ALL
 ftbutilities.claims.item.base.wrench: ALL
 ftbutilities.claims.item.baubles.ring: ALL
 ftbutilities.claims.item.betterbuilderswands.wanddiamond: ALL
@@ -11186,7 +11307,6 @@ ftbutilities.claims.item.meecreeps.projectile: ALL
 ftbutilities.claims.item.metalchests.chest_upgrade: ALL
 ftbutilities.claims.item.metalchests.metal_chest: ALL
 ftbutilities.claims.item.metalchests.metal_hungry_chest: ALL
-ftbutilities.claims.item.metalchests.minecart_metal_chest: ALL
 ftbutilities.claims.item.minecraft.acacia_boat: ALL
 ftbutilities.claims.item.minecraft.acacia_door: ALL
 ftbutilities.claims.item.minecraft.acacia_fence: ALL
@@ -11803,6 +11923,12 @@ ftbutilities.claims.item.naturalpledge.alt_leaves1: ALL
 ftbutilities.claims.item.naturalpledge.alt_log0: ALL
 ftbutilities.claims.item.naturalpledge.alt_log1: ALL
 ftbutilities.claims.item.naturalpledge.alt_planks: ALL
+ftbutilities.claims.item.naturalpledge.alt_planks_slab0: ALL
+ftbutilities.claims.item.naturalpledge.alt_planks_slab1: ALL
+ftbutilities.claims.item.naturalpledge.alt_planks_slab2: ALL
+ftbutilities.claims.item.naturalpledge.alt_planks_slab3: ALL
+ftbutilities.claims.item.naturalpledge.alt_planks_slab4: ALL
+ftbutilities.claims.item.naturalpledge.alt_planks_slab5: ALL
 ftbutilities.claims.item.naturalpledge.amp: ALL
 ftbutilities.claims.item.naturalpledge.apple_immortality: ALL
 ftbutilities.claims.item.naturalpledge.aqua_glass: ALL
@@ -11811,13 +11937,16 @@ ftbutilities.claims.item.naturalpledge.aurora_dirt: ALL
 ftbutilities.claims.item.naturalpledge.aurora_leaves: ALL
 ftbutilities.claims.item.naturalpledge.aurora_log: ALL
 ftbutilities.claims.item.naturalpledge.aurora_planks: ALL
+ftbutilities.claims.item.naturalpledge.aurora_planks_slab: ALL
 ftbutilities.claims.item.naturalpledge.calico_leaves: ALL
 ftbutilities.claims.item.naturalpledge.calico_log: ALL
 ftbutilities.claims.item.naturalpledge.calico_planks: ALL
+ftbutilities.claims.item.naturalpledge.calico_planks_slab: ALL
 ftbutilities.claims.item.naturalpledge.calico_sapling: ALL
 ftbutilities.claims.item.naturalpledge.circuit_leaves: ALL
 ftbutilities.claims.item.naturalpledge.circuit_log: ALL
 ftbutilities.claims.item.naturalpledge.circuit_planks: ALL
+ftbutilities.claims.item.naturalpledge.circuit_planks_slab: ALL
 ftbutilities.claims.item.naturalpledge.circuit_sapling: ALL
 ftbutilities.claims.item.naturalpledge.corporea_focus: ALL
 ftbutilities.claims.item.naturalpledge.corporea_resonator: ALL
@@ -11855,6 +11984,22 @@ ftbutilities.claims.item.naturalpledge.iris_log1: ALL
 ftbutilities.claims.item.naturalpledge.iris_log2: ALL
 ftbutilities.claims.item.naturalpledge.iris_log3: ALL
 ftbutilities.claims.item.naturalpledge.iris_planks: ALL
+ftbutilities.claims.item.naturalpledge.iris_planks_slab_black: ALL
+ftbutilities.claims.item.naturalpledge.iris_planks_slab_blue: ALL
+ftbutilities.claims.item.naturalpledge.iris_planks_slab_brown: ALL
+ftbutilities.claims.item.naturalpledge.iris_planks_slab_cyan: ALL
+ftbutilities.claims.item.naturalpledge.iris_planks_slab_gray: ALL
+ftbutilities.claims.item.naturalpledge.iris_planks_slab_green: ALL
+ftbutilities.claims.item.naturalpledge.iris_planks_slab_light_blue: ALL
+ftbutilities.claims.item.naturalpledge.iris_planks_slab_lime: ALL
+ftbutilities.claims.item.naturalpledge.iris_planks_slab_magenta: ALL
+ftbutilities.claims.item.naturalpledge.iris_planks_slab_orange: ALL
+ftbutilities.claims.item.naturalpledge.iris_planks_slab_pink: ALL
+ftbutilities.claims.item.naturalpledge.iris_planks_slab_purple: ALL
+ftbutilities.claims.item.naturalpledge.iris_planks_slab_red: ALL
+ftbutilities.claims.item.naturalpledge.iris_planks_slab_silver: ALL
+ftbutilities.claims.item.naturalpledge.iris_planks_slab_white: ALL
+ftbutilities.claims.item.naturalpledge.iris_planks_slab_yellow: ALL
 ftbutilities.claims.item.naturalpledge.iris_sapling: ALL
 ftbutilities.claims.item.naturalpledge.iron_belt: ALL
 ftbutilities.claims.item.naturalpledge.launch_trap: ALL
@@ -11871,6 +12016,7 @@ ftbutilities.claims.item.naturalpledge.rainbow_dirt: ALL
 ftbutilities.claims.item.naturalpledge.rainbow_leaves: ALL
 ftbutilities.claims.item.naturalpledge.rainbow_log: ALL
 ftbutilities.claims.item.naturalpledge.rainbow_planks: ALL
+ftbutilities.claims.item.naturalpledge.rainbow_planks_slab: ALL
 ftbutilities.claims.item.naturalpledge.resource: ALL
 ftbutilities.claims.item.naturalpledge.root_trap: ALL
 ftbutilities.claims.item.naturalpledge.sand_trap: ALL
@@ -11878,6 +12024,7 @@ ftbutilities.claims.item.naturalpledge.seal_arrow: ALL
 ftbutilities.claims.item.naturalpledge.seal_leaves: ALL
 ftbutilities.claims.item.naturalpledge.seal_log: ALL
 ftbutilities.claims.item.naturalpledge.seal_planks: ALL
+ftbutilities.claims.item.naturalpledge.seal_planks_slab: ALL
 ftbutilities.claims.item.naturalpledge.seal_sapling: ALL
 ftbutilities.claims.item.naturalpledge.shadowbreaker: ALL
 ftbutilities.claims.item.naturalpledge.signal_trap: ALL
@@ -11894,6 +12041,7 @@ ftbutilities.claims.item.naturalpledge.thunder_fist: ALL
 ftbutilities.claims.item.naturalpledge.thunder_leaves: ALL
 ftbutilities.claims.item.naturalpledge.thunder_log: ALL
 ftbutilities.claims.item.naturalpledge.thunder_planks: ALL
+ftbutilities.claims.item.naturalpledge.thunder_planks_slab: ALL
 ftbutilities.claims.item.naturalpledge.thunder_sapling: ALL
 ftbutilities.claims.item.naturalpledge.toolbelt: ALL
 ftbutilities.claims.item.naturalpledge.travel_stone: ALL
@@ -12382,20 +12530,28 @@ ftbutilities.claims.item.rats.cheese_stick: ALL
 ftbutilities.claims.item.rats.chef_toque: ALL
 ftbutilities.claims.item.rats.confit_byaldi: ALL
 ftbutilities.claims.item.rats.cooked_rat: ALL
+ftbutilities.claims.item.rats.creative_cheese: ALL
+ftbutilities.claims.item.rats.piper_hat: ALL
 ftbutilities.claims.item.rats.rat_cage: ALL
+ftbutilities.claims.item.rats.rat_crafting_table: ALL
+ftbutilities.claims.item.rats.rat_flute: ALL
 ftbutilities.claims.item.rats.rat_hole: ALL
 ftbutilities.claims.item.rats.rat_pelt: ALL
 ftbutilities.claims.item.rats.rat_upgrade_armor: ALL
 ftbutilities.claims.item.rats.rat_upgrade_basic: ALL
+ftbutilities.claims.item.rats.rat_upgrade_blacklist: ALL
 ftbutilities.claims.item.rats.rat_upgrade_chef: ALL
+ftbutilities.claims.item.rats.rat_upgrade_crafting: ALL
 ftbutilities.claims.item.rats.rat_upgrade_god: ALL
 ftbutilities.claims.item.rats.rat_upgrade_health: ALL
 ftbutilities.claims.item.rats.rat_upgrade_platter: ALL
 ftbutilities.claims.item.rats.rat_upgrade_speed: ALL
 ftbutilities.claims.item.rats.rat_upgrade_strength: ALL
 ftbutilities.claims.item.rats.rat_upgrade_warrior: ALL
+ftbutilities.claims.item.rats.rat_upgrade_whitelist: ALL
 ftbutilities.claims.item.rats.rattrap: ALL
 ftbutilities.claims.item.rats.raw_rat: ALL
+ftbutilities.claims.item.rats.string_cheese: ALL
 ftbutilities.claims.item.rootsclassic.acaciatreebark: ALL
 ftbutilities.claims.item.rootsclassic.altar: ALL
 ftbutilities.claims.item.rootsclassic.birchtreebark: ALL
@@ -13810,6 +13966,9 @@ command.function
 command.gamemode
 command.gamerule
 command.give
+command.gorecore.avatar
+command.gorecore.gorecore
+command.gorecore.test
 command.help
 command.incontrol.ctrldebug
 command.incontrol.ctrlkill

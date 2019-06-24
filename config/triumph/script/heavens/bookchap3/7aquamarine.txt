@@ -5,6 +5,7 @@ setTitle("Where's the Water?")
 setDescription("Obtain Aquamarine")
 
 addParent("heavens:bookchap3/6marble")
+addParent("heavens:bookchap3/4puredaisy")
 
 setRequiresParents()
 

@@ -37,6 +37,7 @@ val livingwoodStick = <botania:manaresource:3>;
 val wisdomWood = <wizardry:wisdom_wood_log>;
 val linkingTool = <astralsorcery:itemlinkingtool>;
 val rockCrystalAny = Utils.getCrystalORIngredient(false, false);
+val rockCrystalAttuned = Utils.getCrystalORIngredient(false, true);
 val runeAir = <botania:rune:3>;
 val runeMana = <botania:rune:8>;
 val runeStarlight = <contenttweaker:rune_starlight>;
@@ -107,7 +108,7 @@ Altar.addDiscoveryAltarRecipe("internal/altar/lightwell", lightWell, 200, 100, [
 Altar.addDiscoveryAltarRecipe("internal/altar/upgrade_tier2", starlightAltar, 700, 100, [marblePillar, rockCrystalAny, marblePillar, marbleChiseled, liquidStarlight, marbleChiseled, marblePillar, runeMana, marblePillar]);
 
 //Tweak Celestial altar recipe
-Altar.addAttunementAltarRecipe("internal/altar/upgrade_tier3", celestialAltar, 1400, 300, [ingotBronze, null, ingotBronze, marbleChiseled, rockCrystalAny, marbleChiseled, marblePillar, ingotStarmetal, marblePillar, runeStarlight, runeStarlight, aquamarine, aquamarine]);
+Altar.addAttunementAltarRecipe("internal/altar/upgrade_tier3", celestialAltar, 1400, 300, [ingotBronze, null, ingotBronze, marbleChiseled, rockCrystalAttuned, marbleChiseled, marblePillar, ingotStarmetal, marblePillar, runeStarlight, runeStarlight, aquamarine, aquamarine]);
 
 //New recipes for enchanter and freezer
 recipes.remove(enchanter);

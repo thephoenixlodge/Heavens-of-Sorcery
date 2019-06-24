@@ -112,6 +112,12 @@
         "Max Group Count": 3
       },
       {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 1
+      },
+      {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
         "Weight": 2,
         "Min Group Count": 1,
@@ -216,6 +222,12 @@
         "Weight": 1,
         "Min Group Count": 1,
         "Max Group Count": 3
+      },
+      {
+        "Entity Class": "com.crowsofwar.avatar.common.entity.mob.EntityOstrichHorse",
+        "Weight": 5,
+        "Min Group Count": 1,
+        "Max Group Count": 3
       }
     ],
     "Spawnable Monsters": [
@@ -304,6 +316,12 @@
         "Max Group Count": 3
       },
       {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 1
+      },
+      {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
         "Weight": 2,
         "Min Group Count": 1,
@@ -374,9 +392,9 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
+      "SANDY",
       "HOT",
-      "DRY",
-      "SANDY"
+      "DRY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -389,6 +407,12 @@
       {
         "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityDeathWorm",
         "Weight": 2,
+        "Min Group Count": 1,
+        "Max Group Count": 3
+      },
+      {
+        "Entity Class": "com.crowsofwar.avatar.common.entity.mob.EntityOstrichHorse",
+        "Weight": 5,
         "Min Group Count": 1,
         "Max Group Count": 3
       }
@@ -479,6 +503,12 @@
         "Max Group Count": 3
       },
       {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 1
+      },
+      {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
         "Weight": 2,
         "Min Group Count": 1,
@@ -537,8 +567,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "MOUNTAIN",
-      "HILLS"
+      "HILLS",
+      "MOUNTAIN"
     ],
     "BiomeManager Entries": {
       "WARM Weights": [
@@ -620,6 +650,12 @@
         "Weight": 2,
         "Min Group Count": 1,
         "Max Group Count": 1
+      },
+      {
+        "Entity Class": "com.crowsofwar.avatar.common.entity.mob.EntitySkyBison",
+        "Weight": 5,
+        "Min Group Count": 1,
+        "Max Group Count": 3
       }
     ],
     "Spawnable Monsters": [
@@ -712,6 +748,12 @@
         "Weight": 80,
         "Min Group Count": 1,
         "Max Group Count": 3
+      },
+      {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 1
       },
       {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
@@ -912,6 +954,12 @@
         "Max Group Count": 3
       },
       {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 1
+      },
+      {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
         "Weight": 2,
         "Min Group Count": 1,
@@ -988,9 +1036,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "COLD",
+      "FOREST",
       "CONIFEROUS",
-      "FOREST"
+      "COLD"
     ],
     "BiomeManager Entries": {
       "COOL Weights": [
@@ -1133,6 +1181,12 @@
         "Max Group Count": 3
       },
       {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 1
+      },
+      {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
         "Weight": 2,
         "Min Group Count": 1,
@@ -1209,8 +1263,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SWAMP",
-      "WET"
+      "WET",
+      "SWAMP"
     ],
     "BiomeManager Entries": {
       "WARM Weights": [
@@ -1335,6 +1389,12 @@
         "Max Group Count": 3
       },
       {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 1
+      },
+      {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
         "Weight": 2,
         "Min Group Count": 1,
@@ -1405,8 +1465,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "RIVER",
-      "WATER"
+      "WATER",
+      "RIVER"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -1490,6 +1550,12 @@
         "Max Group Count": 3
       },
       {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 1
+      },
+      {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
         "Weight": 2,
         "Min Group Count": 1,
@@ -1548,9 +1614,9 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "NETHER",
       "HOT",
-      "DRY"
+      "DRY",
+      "NETHER"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -1694,10 +1760,10 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
-      "SNOWY",
-      "COLD",
       "OCEAN",
-      "WATER"
+      "WATER",
+      "SNOWY",
+      "COLD"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -1793,6 +1859,12 @@
         "Max Group Count": 3
       },
       {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 1
+      },
+      {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
         "Weight": 2,
         "Min Group Count": 1,
@@ -1851,10 +1923,10 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
-      "SNOWY",
-      "COLD",
+      "WATER",
       "RIVER",
-      "WATER"
+      "SNOWY",
+      "COLD"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -1944,6 +2016,12 @@
         "Max Group Count": 3
       },
       {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 1
+      },
+      {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
         "Weight": 2,
         "Min Group Count": 1,
@@ -2023,6 +2101,12 @@
         "Weight": 1,
         "Min Group Count": 1,
         "Max Group Count": 2
+      },
+      {
+        "Entity Class": "com.crowsofwar.avatar.common.entity.mob.EntityOtterPenguin",
+        "Weight": 10,
+        "Min Group Count": 3,
+        "Max Group Count": 6
       }
     ],
     "Spawnable Monsters": [
@@ -2121,6 +2205,12 @@
         "Weight": 80,
         "Min Group Count": 1,
         "Max Group Count": 3
+      },
+      {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 1
       },
       {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
@@ -2210,6 +2300,18 @@
         "Weight": 1,
         "Min Group Count": 1,
         "Max Group Count": 2
+      },
+      {
+        "Entity Class": "com.crowsofwar.avatar.common.entity.mob.EntitySkyBison",
+        "Weight": 5,
+        "Min Group Count": 1,
+        "Max Group Count": 3
+      },
+      {
+        "Entity Class": "com.crowsofwar.avatar.common.entity.mob.EntityOtterPenguin",
+        "Weight": 10,
+        "Min Group Count": 3,
+        "Max Group Count": 6
       }
     ],
     "Spawnable Monsters": [
@@ -2310,6 +2412,12 @@
         "Max Group Count": 3
       },
       {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 1
+      },
+      {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
         "Weight": 2,
         "Min Group Count": 1,
@@ -2388,6 +2496,12 @@
         "Max Group Count": 3
       },
       {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 1
+      },
+      {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
         "Weight": 2,
         "Min Group Count": 1,
@@ -2440,8 +2554,8 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "MUSHROOM",
-      "BEACH",
-      "RARE"
+      "RARE",
+      "BEACH"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -2458,6 +2572,12 @@
         "Weight": 80,
         "Min Group Count": 1,
         "Max Group Count": 3
+      },
+      {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 1
       },
       {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
@@ -2595,6 +2715,12 @@
         "Max Group Count": 3
       },
       {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 1
+      },
+      {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
         "Weight": 2,
         "Min Group Count": 1,
@@ -2653,10 +2779,10 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "HOT",
-      "DRY",
       "SANDY",
-      "HILLS"
+      "HILLS",
+      "HOT",
+      "DRY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -2711,6 +2837,12 @@
       {
         "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityDeathWorm",
         "Weight": 2,
+        "Min Group Count": 1,
+        "Max Group Count": 3
+      },
+      {
+        "Entity Class": "com.crowsofwar.avatar.common.entity.mob.EntityOstrichHorse",
+        "Weight": 5,
         "Min Group Count": 1,
         "Max Group Count": 3
       }
@@ -2801,6 +2933,12 @@
         "Max Group Count": 3
       },
       {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 1
+      },
+      {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
         "Weight": 2,
         "Min Group Count": 1,
@@ -2859,8 +2997,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "FOREST",
-      "HILLS"
+      "HILLS",
+      "FOREST"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -3023,6 +3161,12 @@
         "Max Group Count": 3
       },
       {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 1
+      },
+      {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
         "Weight": 2,
         "Min Group Count": 1,
@@ -3093,10 +3237,10 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "COLD",
-      "CONIFEROUS",
+      "HILLS",
       "FOREST",
-      "HILLS"
+      "CONIFEROUS",
+      "COLD"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -3183,6 +3327,12 @@
         "Weight": 5,
         "Min Group Count": 2,
         "Max Group Count": 6
+      },
+      {
+        "Entity Class": "com.crowsofwar.avatar.common.entity.mob.EntitySkyBison",
+        "Weight": 5,
+        "Min Group Count": 1,
+        "Max Group Count": 3
       }
     ],
     "Spawnable Monsters": [
@@ -3269,6 +3419,12 @@
         "Weight": 80,
         "Min Group Count": 1,
         "Max Group Count": 3
+      },
+      {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 1
       },
       {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
@@ -3374,6 +3530,12 @@
         "Weight": 5,
         "Min Group Count": 4,
         "Max Group Count": 6
+      },
+      {
+        "Entity Class": "com.crowsofwar.avatar.common.entity.mob.EntitySkyBison",
+        "Weight": 5,
+        "Min Group Count": 1,
+        "Max Group Count": 3
       }
     ],
     "Spawnable Monsters": [
@@ -3462,6 +3624,12 @@
         "Max Group Count": 3
       },
       {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 1
+      },
+      {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
         "Weight": 2,
         "Min Group Count": 1,
@@ -3520,9 +3688,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "HOT",
-      "DENSE",
       "WET",
+      "DENSE",
+      "HOT",
       "JUNGLE"
     ],
     "BiomeManager Entries": {},
@@ -3656,6 +3824,12 @@
         "Max Group Count": 3
       },
       {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 1
+      },
+      {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
         "Weight": 2,
         "Min Group Count": 1,
@@ -3714,11 +3888,11 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "HOT",
-      "DENSE",
       "WET",
-      "JUNGLE",
-      "HILLS"
+      "HILLS",
+      "DENSE",
+      "HOT",
+      "JUNGLE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -3893,6 +4067,12 @@
         "Max Group Count": 3
       },
       {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 1
+      },
+      {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
         "Weight": 2,
         "Min Group Count": 1,
@@ -3951,11 +4131,11 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "HOT",
       "WET",
-      "JUNGLE",
+      "RARE",
       "FOREST",
-      "RARE"
+      "HOT",
+      "JUNGLE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -4086,6 +4266,12 @@
         "Weight": 80,
         "Min Group Count": 1,
         "Max Group Count": 3
+      },
+      {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 1
       },
       {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
@@ -4249,6 +4435,12 @@
         "Max Group Count": 3
       },
       {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 1
+      },
+      {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
         "Weight": 2,
         "Min Group Count": 1,
@@ -4397,6 +4589,12 @@
         "Max Group Count": 3
       },
       {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 1
+      },
+      {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
         "Weight": 2,
         "Min Group Count": 1,
@@ -4455,12 +4653,19 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
+      "BEACH",
       "SNOWY",
-      "COLD",
-      "BEACH"
+      "COLD"
     ],
     "BiomeManager Entries": {},
-    "Spawnable Creatures": [],
+    "Spawnable Creatures": [
+      {
+        "Entity Class": "com.crowsofwar.avatar.common.entity.mob.EntityOtterPenguin",
+        "Weight": 10,
+        "Min Group Count": 3,
+        "Max Group Count": 6
+      }
+    ],
     "Spawnable Monsters": [
       {
         "Entity Class": "net.minecraft.entity.monster.EntitySpider",
@@ -4545,6 +4750,12 @@
         "Weight": 80,
         "Min Group Count": 1,
         "Max Group Count": 3
+      },
+      {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 1
       },
       {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
@@ -4730,6 +4941,12 @@
         "Max Group Count": 3
       },
       {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 1
+      },
+      {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
         "Weight": 2,
         "Min Group Count": 1,
@@ -4806,8 +5023,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "FOREST",
-      "HILLS"
+      "HILLS",
+      "FOREST"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -4876,6 +5093,12 @@
         "Weight": 2,
         "Min Group Count": 1,
         "Max Group Count": 1
+      },
+      {
+        "Entity Class": "com.crowsofwar.avatar.common.entity.mob.EntitySkyBison",
+        "Weight": 5,
+        "Min Group Count": 1,
+        "Max Group Count": 3
       }
     ],
     "Spawnable Monsters": [
@@ -4964,6 +5187,12 @@
         "Max Group Count": 3
       },
       {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 1
+      },
+      {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
         "Weight": 2,
         "Min Group Count": 1,
@@ -5035,8 +5264,8 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "SPOOKY",
-      "DENSE",
-      "FOREST"
+      "FOREST",
+      "DENSE"
     ],
     "BiomeManager Entries": {
       "WARM Weights": [
@@ -5161,6 +5390,12 @@
         "Max Group Count": 3
       },
       {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 18,
+        "Min Group Count": 1,
+        "Max Group Count": 1
+      },
+      {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
         "Weight": 2,
         "Min Group Count": 1,
@@ -5243,10 +5478,10 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
+      "FOREST",
       "SNOWY",
-      "COLD",
       "CONIFEROUS",
-      "FOREST"
+      "COLD"
     ],
     "BiomeManager Entries": {
       "ICY Weights": [
@@ -5395,6 +5630,12 @@
         "Max Group Count": 3
       },
       {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 1
+      },
+      {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
         "Weight": 2,
         "Min Group Count": 1,
@@ -5471,11 +5712,11 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
-      "SNOWY",
-      "COLD",
-      "CONIFEROUS",
+      "HILLS",
       "FOREST",
-      "HILLS"
+      "SNOWY",
+      "CONIFEROUS",
+      "COLD"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -5654,6 +5895,12 @@
         "Weight": 80,
         "Min Group Count": 1,
         "Max Group Count": 3
+      },
+      {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 1
       },
       {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
@@ -5726,9 +5973,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "COLD",
+      "FOREST",
       "CONIFEROUS",
-      "FOREST"
+      "COLD"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -5859,6 +6106,12 @@
         "Weight": 80,
         "Min Group Count": 1,
         "Max Group Count": 3
+      },
+      {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 1
       },
       {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
@@ -5931,10 +6184,10 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "COLD",
-      "CONIFEROUS",
+      "HILLS",
       "FOREST",
-      "HILLS"
+      "CONIFEROUS",
+      "COLD"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -6021,6 +6274,12 @@
         "Weight": 5,
         "Min Group Count": 2,
         "Max Group Count": 6
+      },
+      {
+        "Entity Class": "com.crowsofwar.avatar.common.entity.mob.EntitySkyBison",
+        "Weight": 5,
+        "Min Group Count": 1,
+        "Max Group Count": 3
       }
     ],
     "Spawnable Monsters": [
@@ -6107,6 +6366,12 @@
         "Weight": 80,
         "Min Group Count": 1,
         "Max Group Count": 3
+      },
+      {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 1
       },
       {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
@@ -6179,9 +6444,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
+      "FOREST",
       "SPARSE",
-      "MOUNTAIN",
-      "FOREST"
+      "MOUNTAIN"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -6214,6 +6479,12 @@
         "Weight": 5,
         "Min Group Count": 4,
         "Max Group Count": 6
+      },
+      {
+        "Entity Class": "com.crowsofwar.avatar.common.entity.mob.EntitySkyBison",
+        "Weight": 5,
+        "Min Group Count": 1,
+        "Max Group Count": 3
       }
     ],
     "Spawnable Monsters": [
@@ -6306,6 +6577,12 @@
         "Weight": 80,
         "Min Group Count": 1,
         "Max Group Count": 3
+      },
+      {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 1
       },
       {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
@@ -6378,10 +6655,10 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "PLAINS",
       "SAVANNA",
       "SPARSE",
-      "HOT"
+      "HOT",
+      "PLAINS"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -6426,6 +6703,12 @@
         "Weight": 4,
         "Min Group Count": 1,
         "Max Group Count": 2
+      },
+      {
+        "Entity Class": "com.crowsofwar.avatar.common.entity.mob.EntityOstrichHorse",
+        "Weight": 5,
+        "Min Group Count": 1,
+        "Max Group Count": 3
       }
     ],
     "Spawnable Monsters": [
@@ -6506,6 +6789,12 @@
         "Weight": 80,
         "Min Group Count": 1,
         "Max Group Count": 3
+      },
+      {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 1
       },
       {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
@@ -6572,11 +6861,11 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "PLAINS",
       "SAVANNA",
+      "RARE",
       "SPARSE",
       "HOT",
-      "RARE"
+      "PLAINS"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -6627,6 +6916,18 @@
         "Weight": 4,
         "Min Group Count": 1,
         "Max Group Count": 2
+      },
+      {
+        "Entity Class": "com.crowsofwar.avatar.common.entity.mob.EntitySkyBison",
+        "Weight": 5,
+        "Min Group Count": 1,
+        "Max Group Count": 3
+      },
+      {
+        "Entity Class": "com.crowsofwar.avatar.common.entity.mob.EntityOstrichHorse",
+        "Weight": 5,
+        "Min Group Count": 1,
+        "Max Group Count": 3
       }
     ],
     "Spawnable Monsters": [
@@ -6707,6 +7008,12 @@
         "Weight": 80,
         "Min Group Count": 1,
         "Max Group Count": 3
+      },
+      {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 1
       },
       {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
@@ -6773,9 +7080,9 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "DRY",
       "SANDY",
-      "MESA"
+      "MESA",
+      "DRY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -6857,6 +7164,12 @@
         "Weight": 80,
         "Min Group Count": 1,
         "Max Group Count": 3
+      },
+      {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 1
       },
       {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
@@ -6917,10 +7230,10 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SPARSE",
-      "DRY",
       "SANDY",
-      "MESA"
+      "SPARSE",
+      "MESA",
+      "DRY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -7002,6 +7315,12 @@
         "Weight": 80,
         "Min Group Count": 1,
         "Max Group Count": 3
+      },
+      {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 1
       },
       {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
@@ -7062,9 +7381,9 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "DRY",
       "SANDY",
-      "MESA"
+      "MESA",
+      "DRY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -7146,6 +7465,12 @@
         "Weight": 80,
         "Min Group Count": 1,
         "Max Group Count": 3
+      },
+      {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 1
       },
       {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
@@ -7243,6 +7568,12 @@
         "Max Group Count": 3
       },
       {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 1
+      },
+      {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
         "Weight": 2,
         "Min Group Count": 1,
@@ -7330,6 +7661,12 @@
         "Max Group Count": 3
       },
       {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 1
+      },
+      {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
         "Weight": 2,
         "Min Group Count": 1,
@@ -7386,9 +7723,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "DENSE",
       "WET",
-      "FOREST"
+      "FOREST",
+      "DENSE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -7423,6 +7760,12 @@
         "Weight": 80,
         "Min Group Count": 1,
         "Max Group Count": 3
+      },
+      {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 1
       },
       {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
@@ -7520,6 +7863,12 @@
         "Max Group Count": 3
       },
       {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 1
+      },
+      {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
         "Weight": 2,
         "Min Group Count": 1,
@@ -7564,9 +7913,9 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
+      "SANDY",
       "HOT",
-      "DRY",
-      "SANDY"
+      "DRY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -7601,6 +7950,12 @@
         "Weight": 80,
         "Min Group Count": 1,
         "Max Group Count": 3
+      },
+      {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 1
       },
       {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
@@ -7647,10 +8002,10 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "HOT",
-      "DRY",
       "SANDY",
-      "HILLS"
+      "HILLS",
+      "HOT",
+      "DRY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -7685,6 +8040,12 @@
         "Weight": 80,
         "Min Group Count": 1,
         "Max Group Count": 3
+      },
+      {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 1
       },
       {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
@@ -7731,10 +8092,10 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
-      "PLAINS",
       "SNOWY",
-      "COLD",
-      "CONIFEROUS"
+      "PLAINS",
+      "CONIFEROUS",
+      "COLD"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -7775,6 +8136,12 @@
         "Weight": 80,
         "Min Group Count": 1,
         "Max Group Count": 3
+      },
+      {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 1
       },
       {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
@@ -7827,10 +8194,10 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
+      "FOREST",
       "SNOWY",
-      "COLD",
       "CONIFEROUS",
-      "FOREST"
+      "COLD"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -7871,6 +8238,12 @@
         "Weight": 80,
         "Min Group Count": 1,
         "Max Group Count": 3
+      },
+      {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 1
       },
       {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
@@ -7929,11 +8302,11 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
-      "SNOWY",
-      "COLD",
-      "CONIFEROUS",
+      "HILLS",
       "FOREST",
-      "HILLS"
+      "SNOWY",
+      "CONIFEROUS",
+      "COLD"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -7974,6 +8347,12 @@
         "Weight": 80,
         "Min Group Count": 1,
         "Max Group Count": 3
+      },
+      {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 1
       },
       {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
@@ -8032,8 +8411,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SWAMP",
-      "WET"
+      "WET",
+      "SWAMP"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -8068,6 +8447,12 @@
         "Weight": 80,
         "Min Group Count": 1,
         "Max Group Count": 3
+      },
+      {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 1
       },
       {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
@@ -8121,9 +8506,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "PLAINS",
+      "WET",
       "SWAMP",
-      "WET"
+      "PLAINS"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -8158,6 +8543,12 @@
         "Weight": 80,
         "Min Group Count": 1,
         "Max Group Count": 3
+      },
+      {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 1
       },
       {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
@@ -8217,8 +8608,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SWAMP",
       "WET",
+      "SWAMP",
       "FOREST"
     ],
     "BiomeManager Entries": {},
@@ -8254,6 +8645,12 @@
         "Weight": 80,
         "Min Group Count": 1,
         "Max Group Count": 3
+      },
+      {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 1
       },
       {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
@@ -8359,6 +8756,12 @@
         "Max Group Count": 3
       },
       {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 1
+      },
+      {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
         "Weight": 2,
         "Min Group Count": 1,
@@ -8453,6 +8856,12 @@
         "Max Group Count": 3
       },
       {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 1
+      },
+      {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
         "Weight": 2,
         "Min Group Count": 1,
@@ -8498,9 +8907,9 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "LUSH",
+      "HILLS",
       "FOREST",
-      "JUNGLE",
-      "HILLS"
+      "JUNGLE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -8535,6 +8944,12 @@
         "Weight": 80,
         "Min Group Count": 1,
         "Max Group Count": 3
+      },
+      {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 1
       },
       {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
@@ -8594,8 +9009,8 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "WET",
-      "RIVER",
-      "WATER"
+      "WATER",
+      "RIVER"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -8630,6 +9045,12 @@
         "Weight": 80,
         "Min Group Count": 1,
         "Max Group Count": 3
+      },
+      {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 1
       },
       {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
@@ -8676,8 +9097,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SWAMP",
-      "WET"
+      "WET",
+      "SWAMP"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -8712,6 +9133,12 @@
         "Weight": 80,
         "Min Group Count": 1,
         "Max Group Count": 3
+      },
+      {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 1
       },
       {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
@@ -8766,8 +9193,8 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "WET",
-      "RIVER",
-      "WATER"
+      "WATER",
+      "RIVER"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -8802,6 +9229,12 @@
         "Weight": 80,
         "Min Group Count": 1,
         "Max Group Count": 3
+      },
+      {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 1
       },
       {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
@@ -8848,11 +9281,11 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
-      "SNOWY",
-      "COLD",
       "WET",
+      "WATER",
       "RIVER",
-      "WATER"
+      "SNOWY",
+      "COLD"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -8887,6 +9320,12 @@
         "Weight": 80,
         "Min Group Count": 1,
         "Max Group Count": 3
+      },
+      {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 1
       },
       {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
@@ -8964,6 +9403,12 @@
         "Max Group Count": 3
       },
       {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 1
+      },
+      {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
         "Weight": 2,
         "Min Group Count": 1,
@@ -9020,10 +9465,10 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "HOT",
-      "DRY",
       "SANDY",
-      "WASTELAND"
+      "HOT",
+      "WASTELAND",
+      "DRY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -9051,6 +9496,12 @@
         "Weight": 80,
         "Min Group Count": 1,
         "Max Group Count": 3
+      },
+      {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 1
       },
       {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
@@ -9135,6 +9586,12 @@
         "Max Group Count": 3
       },
       {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 1
+      },
+      {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
         "Weight": 2,
         "Min Group Count": 1,
@@ -9214,6 +9671,12 @@
         "Weight": 80,
         "Min Group Count": 1,
         "Max Group Count": 3
+      },
+      {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 1
       },
       {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
@@ -9298,6 +9761,12 @@
         "Max Group Count": 3
       },
       {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 1
+      },
+      {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
         "Weight": 2,
         "Min Group Count": 1,
@@ -9359,6 +9828,12 @@
         "Weight": 80,
         "Min Group Count": 1,
         "Max Group Count": 3
+      },
+      {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 18,
+        "Min Group Count": 1,
+        "Max Group Count": 1
       },
       {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
@@ -9424,6 +9899,12 @@
         "Max Group Count": 3
       },
       {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 18,
+        "Min Group Count": 1,
+        "Max Group Count": 1
+      },
+      {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
         "Weight": 2,
         "Min Group Count": 1,
@@ -9485,6 +9966,12 @@
         "Weight": 80,
         "Min Group Count": 1,
         "Max Group Count": 3
+      },
+      {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 18,
+        "Min Group Count": 1,
+        "Max Group Count": 1
       },
       {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
@@ -9550,6 +10037,12 @@
         "Max Group Count": 3
       },
       {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 18,
+        "Min Group Count": 1,
+        "Max Group Count": 1
+      },
+      {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
         "Weight": 2,
         "Min Group Count": 1,
@@ -9613,6 +10106,12 @@
         "Max Group Count": 3
       },
       {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 18,
+        "Min Group Count": 1,
+        "Max Group Count": 1
+      },
+      {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
         "Weight": 2,
         "Min Group Count": 1,
@@ -9674,6 +10173,12 @@
         "Weight": 80,
         "Min Group Count": 1,
         "Max Group Count": 3
+      },
+      {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 18,
+        "Min Group Count": 1,
+        "Max Group Count": 1
       },
       {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
@@ -10075,9 +10580,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "END",
       "SPOOKY",
-      "MAGICAL"
+      "MAGICAL",
+      "END"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -10265,9 +10770,9 @@
     "Enable Snow": true,
     "Dictionary Types": [
       "SPARSE",
+      "DEAD",
       "SNOWY",
       "COLD",
-      "DEAD",
       "WASTELAND"
     ],
     "BiomeManager Entries": {
@@ -10397,8 +10902,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "DENSE",
-      "FOREST"
+      "FOREST",
+      "DENSE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -10486,8 +10991,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "PLAINS",
-      "DENSE"
+      "DENSE",
+      "PLAINS"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -10569,9 +11074,9 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
+      "DEAD",
       "PLAINS",
-      "HOT",
-      "DEAD"
+      "HOT"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -10835,11 +11340,11 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "MOUNTAIN",
       "SPOOKY",
       "MAGICAL",
-      "WASTELAND",
-      "WATER"
+      "WATER",
+      "MOUNTAIN",
+      "WASTELAND"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -10883,9 +11388,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "MOUNTAIN",
       "SPOOKY",
       "MAGICAL",
+      "MOUNTAIN",
       "WASTELAND"
     ],
     "BiomeManager Entries": {},
@@ -10930,11 +11435,11 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
+      "SPOOKY",
+      "MAGICAL",
       "VOID",
       "COLD",
-      "SPOOKY",
-      "DRY",
-      "MAGICAL"
+      "DRY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -11016,9 +11521,9 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
+      "MAGICAL",
       "VOID",
-      "COLD",
-      "MAGICAL"
+      "COLD"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -11141,8 +11646,8 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "COLD",
-      "MAGICAL"
+      "MAGICAL",
+      "COLD"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -11211,9 +11716,9 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
+      "MAGICAL",
       "SNOWY",
-      "MOUNTAIN",
-      "MAGICAL"
+      "MOUNTAIN"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -11308,10 +11813,10 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "COLD",
       "OCEAN",
       "MAGICAL",
-      "WATER"
+      "WATER",
+      "COLD"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -11355,9 +11860,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SNOWY",
       "SWAMP",
-      "MAGICAL"
+      "MAGICAL",
+      "SNOWY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -11447,9 +11952,9 @@
     "Enable Snow": true,
     "Dictionary Types": [
       "LUSH",
-      "DENSE",
       "MAGICAL",
-      "FOREST"
+      "FOREST",
+      "DENSE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -11512,9 +12017,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "MOUNTAIN",
+      "HILLS",
       "MAGICAL",
-      "HILLS"
+      "MOUNTAIN"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -11589,10 +12094,10 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "DENSE",
-      "SPOOKY",
       "LUSH",
-      "FOREST"
+      "SPOOKY",
+      "FOREST",
+      "DENSE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -11667,9 +12172,9 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "DRY",
+      "SANDY",
       "DEAD",
-      "SANDY"
+      "DRY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -11895,8 +12400,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SWAMP",
       "WET",
+      "SWAMP",
       "WATER"
     ],
     "BiomeManager Entries": {},
@@ -11935,11 +12440,11 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SWAMP",
-      "DENSE",
       "WET",
+      "SWAMP",
       "FOREST",
-      "WATER"
+      "WATER",
+      "DENSE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -12029,8 +12534,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SWAMP",
       "WET",
+      "SWAMP",
       "WATER"
     ],
     "BiomeManager Entries": {},
@@ -12069,10 +12574,10 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SWAMP",
       "WET",
-      "WASTELAND",
-      "DEAD"
+      "SWAMP",
+      "DEAD",
+      "WASTELAND"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -12117,8 +12622,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SWAMP",
       "WET",
+      "SWAMP",
       "WATER"
     ],
     "BiomeManager Entries": {},
@@ -12157,8 +12662,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SWAMP",
       "WET",
+      "SWAMP",
       "WATER"
     ],
     "BiomeManager Entries": {},
@@ -12197,11 +12702,11 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SWAMP",
-      "DENSE",
       "WET",
+      "SWAMP",
       "FOREST",
-      "WATER"
+      "WATER",
+      "DENSE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -12270,6 +12775,12 @@
         "Max Group Count": 3
       },
       {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 1
+      },
+      {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
         "Weight": 2,
         "Min Group Count": 1,
@@ -12314,8 +12825,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "PLAINS",
-      "RARE"
+      "RARE",
+      "PLAINS"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -12436,6 +12947,12 @@
         "Max Group Count": 3
       },
       {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 1
+      },
+      {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
         "Weight": 2,
         "Min Group Count": 1,
@@ -12500,10 +13017,10 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "HOT",
-      "DRY",
       "SANDY",
-      "RARE"
+      "RARE",
+      "HOT",
+      "DRY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -12606,6 +13123,12 @@
         "Max Group Count": 3
       },
       {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 1
+      },
+      {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
         "Weight": 2,
         "Min Group Count": 1,
@@ -12664,9 +13187,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
+      "RARE",
       "SPARSE",
-      "MOUNTAIN",
-      "RARE"
+      "MOUNTAIN"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -12699,6 +13222,12 @@
         "Weight": 5,
         "Min Group Count": 4,
         "Max Group Count": 6
+      },
+      {
+        "Entity Class": "com.crowsofwar.avatar.common.entity.mob.EntitySkyBison",
+        "Weight": 5,
+        "Min Group Count": 1,
+        "Max Group Count": 3
       }
     ],
     "Spawnable Monsters": [
@@ -12787,6 +13316,12 @@
         "Max Group Count": 3
       },
       {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 1
+      },
+      {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
         "Weight": 2,
         "Min Group Count": 1,
@@ -12845,9 +13380,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "FOREST",
       "HILLS",
-      "RARE"
+      "RARE",
+      "FOREST"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -13010,6 +13545,12 @@
         "Max Group Count": 3
       },
       {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 1
+      },
+      {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
         "Weight": 2,
         "Min Group Count": 1,
@@ -13080,11 +13621,11 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "MOUNTAIN",
-      "COLD",
-      "CONIFEROUS",
+      "RARE",
       "FOREST",
-      "RARE"
+      "CONIFEROUS",
+      "MOUNTAIN",
+      "COLD"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -13223,6 +13764,12 @@
         "Max Group Count": 3
       },
       {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 1
+      },
+      {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
         "Weight": 2,
         "Min Group Count": 1,
@@ -13293,8 +13840,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SWAMP",
       "WET",
+      "SWAMP",
       "HILLS",
       "RARE"
     ],
@@ -13453,6 +14000,12 @@
         "Max Group Count": 3
       },
       {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 1
+      },
+      {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
         "Weight": 2,
         "Min Group Count": 1,
@@ -13517,10 +14070,10 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
-      "SNOWY",
-      "COLD",
       "HILLS",
-      "RARE"
+      "RARE",
+      "SNOWY",
+      "COLD"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -13577,6 +14130,12 @@
         "Weight": 2,
         "Min Group Count": 1,
         "Max Group Count": 1
+      },
+      {
+        "Entity Class": "com.crowsofwar.avatar.common.entity.mob.EntityOtterPenguin",
+        "Weight": 10,
+        "Min Group Count": 3,
+        "Max Group Count": 6
       }
     ],
     "Spawnable Monsters": [
@@ -13671,6 +14230,12 @@
         "Max Group Count": 3
       },
       {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 1
+      },
+      {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
         "Weight": 2,
         "Min Group Count": 1,
@@ -13729,12 +14294,12 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
+      "WET",
+      "RARE",
+      "DENSE",
       "HOT",
       "MOUNTAIN",
-      "DENSE",
-      "WET",
-      "JUNGLE",
-      "RARE"
+      "JUNGLE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -13873,6 +14438,12 @@
         "Max Group Count": 3
       },
       {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 1
+      },
+      {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
         "Weight": 2,
         "Min Group Count": 1,
@@ -13931,11 +14502,11 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
+      "HILLS",
+      "RARE",
       "SPARSE",
       "HOT",
-      "JUNGLE",
-      "HILLS",
-      "RARE"
+      "JUNGLE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -14104,6 +14675,12 @@
         "Max Group Count": 3
       },
       {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 1
+      },
+      {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
         "Weight": 2,
         "Min Group Count": 1,
@@ -14162,10 +14739,10 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "DENSE",
-      "FOREST",
       "HILLS",
-      "RARE"
+      "RARE",
+      "FOREST",
+      "DENSE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -14320,6 +14897,12 @@
         "Weight": 80,
         "Min Group Count": 1,
         "Max Group Count": 3
+      },
+      {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 1
       },
       {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
@@ -14392,10 +14975,10 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "MOUNTAIN",
-      "DENSE",
+      "RARE",
       "FOREST",
-      "RARE"
+      "DENSE",
+      "MOUNTAIN"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -14514,6 +15097,12 @@
         "Weight": 80,
         "Min Group Count": 1,
         "Max Group Count": 3
+      },
+      {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 1
       },
       {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
@@ -14586,11 +15175,11 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "MOUNTAIN",
       "SPOOKY",
-      "DENSE",
+      "RARE",
       "FOREST",
-      "RARE"
+      "DENSE",
+      "MOUNTAIN"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -14709,6 +15298,12 @@
         "Weight": 80,
         "Min Group Count": 1,
         "Max Group Count": 3
+      },
+      {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 18,
+        "Min Group Count": 1,
+        "Max Group Count": 1
       },
       {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
@@ -14787,12 +15382,12 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
-      "SNOWY",
-      "MOUNTAIN",
-      "COLD",
-      "CONIFEROUS",
+      "RARE",
       "FOREST",
-      "RARE"
+      "SNOWY",
+      "CONIFEROUS",
+      "MOUNTAIN",
+      "COLD"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -14937,6 +15532,12 @@
         "Max Group Count": 3
       },
       {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 1
+      },
+      {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
         "Weight": 2,
         "Min Group Count": 1,
@@ -15007,9 +15608,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "DENSE",
+      "RARE",
       "FOREST",
-      "RARE"
+      "DENSE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -15134,6 +15735,12 @@
         "Weight": 80,
         "Min Group Count": 1,
         "Max Group Count": 3
+      },
+      {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 1
       },
       {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
@@ -15206,10 +15813,10 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "DENSE",
-      "FOREST",
       "HILLS",
-      "RARE"
+      "RARE",
+      "FOREST",
+      "DENSE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -15378,6 +15985,12 @@
         "Max Group Count": 3
       },
       {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 1
+      },
+      {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
         "Weight": 2,
         "Min Group Count": 1,
@@ -15448,9 +16061,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
+      "RARE",
       "SPARSE",
-      "MOUNTAIN",
-      "RARE"
+      "MOUNTAIN"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -15483,6 +16096,12 @@
         "Weight": 5,
         "Min Group Count": 4,
         "Max Group Count": 6
+      },
+      {
+        "Entity Class": "com.crowsofwar.avatar.common.entity.mob.EntitySkyBison",
+        "Weight": 5,
+        "Min Group Count": 1,
+        "Max Group Count": 3
       }
     ],
     "Spawnable Monsters": [
@@ -15569,6 +16188,12 @@
         "Weight": 80,
         "Min Group Count": 1,
         "Max Group Count": 3
+      },
+      {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 1
       },
       {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
@@ -15630,11 +16255,11 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "SAVANNA",
+      "RARE",
       "SPARSE",
       "HOT",
       "MOUNTAIN",
-      "DRY",
-      "RARE"
+      "DRY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -15765,6 +16390,12 @@
         "Weight": 80,
         "Min Group Count": 1,
         "Max Group Count": 3
+      },
+      {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 1
       },
       {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
@@ -15825,12 +16456,12 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
+      "HILLS",
       "SAVANNA",
+      "RARE",
       "SPARSE",
       "HOT",
-      "DRY",
-      "HILLS",
-      "RARE"
+      "DRY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -15999,6 +16630,12 @@
         "Max Group Count": 3
       },
       {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 1
+      },
+      {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
         "Weight": 2,
         "Min Group Count": 1,
@@ -16057,11 +16694,11 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
+      "RARE",
       "SPARSE",
       "HOT",
       "MOUNTAIN",
-      "DRY",
-      "RARE"
+      "DRY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -16151,6 +16788,12 @@
         "Max Group Count": 3
       },
       {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 1
+      },
+      {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
         "Weight": 2,
         "Min Group Count": 1,
@@ -16209,11 +16852,11 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
+      "HILLS",
+      "RARE",
       "SPARSE",
       "HOT",
-      "DRY",
-      "HILLS",
-      "RARE"
+      "DRY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -16340,6 +16983,12 @@
         "Max Group Count": 3
       },
       {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 1
+      },
+      {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
         "Weight": 2,
         "Min Group Count": 1,
@@ -16398,11 +17047,11 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
+      "RARE",
       "SPARSE",
       "HOT",
       "MOUNTAIN",
-      "DRY",
-      "RARE"
+      "DRY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -16490,6 +17139,12 @@
         "Weight": 80,
         "Min Group Count": 1,
         "Max Group Count": 3
+      },
+      {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 1
       },
       {
         "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",

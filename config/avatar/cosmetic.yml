@@ -1,0 +1,25 @@
+# WARNING : Any changes to this config file will not take effect!!
+# To fix this, set 'IGNORE_CONFIG_FILE: true' --> 'IGNORE_CONFIG_FILE: false'
+# This was done to prevent default values in new versions from being overriden
+# by outdated config files. By doing this, you will no longer recieve any new
+# config defaults...
+
+IGNORE_CONFIG_FILE: true
+
+activeBendingSettings:
+  shouldBendingMenuRender: true
+bendingCycleAlpha: 0.75
+chiBarAlpha: 0.5
+chiBarSettings:
+  shouldChiNumbersRender: true
+  shouldChibarRender: true
+displayGetBendingMessage: true
+nameConflicts: {}
+nameKeymappings: {}
+radialMenuAlpha: 0.75
+shaderSettings:
+  useCleanseShaders: false
+  usePurifyShaders: false
+  useRestoreShaders: false
+  useSlipstreamShaders: false
+useCustomParticles: true

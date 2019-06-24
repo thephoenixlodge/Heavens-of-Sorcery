@@ -32,3 +32,4 @@ criteria9.addItem(<minecraft:quartz_stairs, count:4~>)
 
 addRewardItem(<minecraft:quartz_block, meta:0, count:30>)
 addRewardItem(<wizardry:wisdom_wood_log, meta:0, count:40>)
+addRewardItem(<buildinggadgets:template, meta:0, count:1, nbt:{copycounter:1,TemplateName:"Spell Crafting Plate",UUID:"d3229356-4601-456a-bd4c-197294e66f93",startPos:{X:-4968,Y:96,Z:-5017},itemcountmap:[{item:7470,meta:0,count:12},{item:155,meta:0,count:9},{item:7465,meta:0,count:16},{item:44,meta:7,count:4},{item:7462,meta:0,count:12},{item:156,meta:0,count:4},{item:7463,meta:0,count:4}],endPos:{X:-4960,Y:98,Z:-5025}}>)

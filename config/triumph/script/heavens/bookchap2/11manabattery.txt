@@ -30,3 +30,4 @@ criteria8.addItem(<minecraft:quartz_stairs, count:12~>)
 
 addRewardItem(<minecraft:quartz, meta:0, count:200>)
 addRewardItem(<wizardry:orb, meta:1, count:40>)
+addRewardItem(<buildinggadgets:template, meta:0, count:1, nbt:{copycounter:1,TemplateName:"Mana Battery",UUID:"d3229356-4601-456a-bd4c-197294e66f93",startPos:{X:-4969,Y:100,Z:-5014},itemcountmap:[{item:155,meta:0,count:41},{item:7470,meta:0,count:8},{item:7465,meta:0,count:20},{item:156,meta:0,count:12},{item:7462,meta:0,count:38},{item:7463,meta:0,count:28}],endPos:{X:-4959,Y:95,Z:-5004}}>)

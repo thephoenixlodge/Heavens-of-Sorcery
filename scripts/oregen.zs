@@ -209,13 +209,13 @@ val preciaMoonstone = <contenttweaker:moonstone_precious_materia>;
 val ethericMoonstone = <liquid:moonstone_etheric>;
 val gemMoonstone = <blue_skies:moonstone>;
 //crystal quartz
-val preciaCrystalQuartz = <contenttweaker:crystal_quartz_precious_materia>;
+/*val preciaCrystalQuartz = <contenttweaker:crystal_quartz_precious_materia>;
 val ethericCrystalQuartz = <liquid:crystal_quartz_etheric>;
 val gemCrystalQuartz = <corvus:crystal_quartz>;
 //wiser gem
 val preciaWiserGem = <contenttweaker:wiser_gem_precious_materia>;
 val ethericWiserGem = <liquid:wiser_gem_etheric>;
-val gemWiserGem = <corvus:wiser_gem>;
+val gemWiserGem = <corvus:wiser_gem>;*/
 //cinnabar
 val preciaQuicksilver = <contenttweaker:quicksilver_precious_materia>;
 val ethericQuicksilver = <liquid:quicksilver_etheric>;
@@ -281,8 +281,8 @@ preciousToPrecia[preciaPyrope] = [gemPyrope];
 preciousToPrecia[preciaTurquoise] = [gemTurquoise];
 preciousToPrecia[preciaCharoite] = [gemCharoite];
 preciousToPrecia[preciaMoonstone] = [gemMoonstone];
-preciousToPrecia[preciaCrystalQuartz] = [gemCrystalQuartz];
-preciousToPrecia[preciaWiserGem] = [gemWiserGem];
+//preciousToPrecia[preciaCrystalQuartz] = [gemCrystalQuartz];
+//preciousToPrecia[preciaWiserGem] = [gemWiserGem];
 preciousToPrecia[preciaQuicksilver] = [gemQuicksilver];
 preciousToPrecia[preciaAmber] = [gemAmber];
 preciousToPrecia[preciaValonite] = [gemValonite];
@@ -312,8 +312,8 @@ preciaToEtheric[preciaPyrope] = ethericPyrope;
 preciaToEtheric[preciaTurquoise] = ethericTurquoise;
 preciaToEtheric[preciaCharoite] = ethericCharoite;
 preciaToEtheric[preciaMoonstone] = ethericMoonstone;
-preciaToEtheric[preciaCrystalQuartz] = ethericCrystalQuartz;
-preciaToEtheric[preciaWiserGem] = ethericWiserGem;
+//preciaToEtheric[preciaCrystalQuartz] = ethericCrystalQuartz;
+//preciaToEtheric[preciaWiserGem] = ethericWiserGem;
 preciaToEtheric[preciaQuicksilver] = ethericQuicksilver;
 preciaToEtheric[preciaAmber] = ethericAmber;
 preciaToEtheric[preciaValonite] = ethericValonite;

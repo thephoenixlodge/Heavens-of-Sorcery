@@ -1,0 +1,86 @@
+# WARNING : Any changes to this config file will not take effect!!
+# To fix this, set 'IGNORE_CONFIG_FILE: true' --> 'IGNORE_CONFIG_FILE: false'
+# This was done to prevent default values in new versions from being overriden
+# by outdated config files. By doing this, you will no longer recieve any new
+# config defaults...
+
+IGNORE_CONFIG_FILE: true
+
+bisonBreedMaxMinutes: 120.0
+bisonBreedMinMinutes: 60.0
+bisonChestTameness: 1000
+bisonFoods:
+  minecraft:sugar: 2
+  minecraft:hay_block: 75
+  minecraft:apple: 10
+  minecraft:wheat: 8
+  minecraft:potato: 6
+  minecraft:golden_carrot: 30
+  minecraft:bread: 5
+  minecraft:grass: 9
+  minecraft:beetroot: 8
+  minecraft:carrot: 6
+  minecraft:leaves2: 3
+  minecraft:baked_potato: 5
+  minecraft:leaves: 3
+  minecraft:cake: 45
+bisonGrassFoodBonus: 5
+bisonLeashTameness: 1000
+bisonMaxDomestication: 800
+bisonMinDomestication: 500
+bisonOwnableTameness: 900
+bisonRideOneSecondTameness: 3
+bisonRiderTameness: 800
+maxNumberOfBenders: 3
+scrollDropChance:
+  zombie_pigman: 15.0
+  chicken: 1.0
+  stray: 3.0
+  wither_skeleton: 15.0
+  elder_guardian: 20.0
+  magma_cube: 10.0
+  polar_bear: 5.0
+  skeleton: 1.5
+  bat: 7.5
+  husk: 3.0
+  blaze: 30.0
+  mooshroom: 1.0
+  cave_spider: 2.5
+  silverfish: 5.0
+  zombie: 1.5
+  witch: 5.0
+  squid: 2.0
+  guardian: 10.0
+  ghast: 30.0
+  parrot: 5.0
+  spider: 2.0
+  sheep: 0.25
+  creeper: 0.75
+  enderman: 10.0
+scrollTradeItems:
+  minecraft:gold_ingot: 1
+  minecraft:emerald: 1
+  minecraft:diamond: 1
+scrollType:
+  zombie_pigman: fire
+  chicken: air
+  stray: ice
+  wither_skeleton: fire
+  elder_guardian: water
+  magma_cube: fire
+  polar_bear: water
+  skeleton: earth
+  bat: air
+  husk: sand
+  blaze: fire
+  mooshroom: earth
+  cave_spider: earth
+  silverfish: earth
+  zombie: earth
+  squid: water
+  guardian: water
+  ghast: fire
+  parrot: air
+  spider: earth
+  sheep: air
+  creeper: combustion

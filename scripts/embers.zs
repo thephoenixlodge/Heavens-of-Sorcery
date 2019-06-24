@@ -35,6 +35,10 @@ val ingotVoid = <thaumcraft:ingot:1>;
 val plateBrass = <thaumcraft:plate>;
 val plateThaumium = <thaumcraft:plate:2>;
 val plateVoid = <thaumcraft:plate:3>;
+val emberActivator = <embers:ember_activator>;
+val emberEmitter = <embers:ember_emitter>;
+val melter = <embers:block_furnace>;
+val mixer = <embers:mixer>;
 
 //tweak caminite blend recipe
 recipes.remove(caminiteBlend);
@@ -72,3 +76,20 @@ recipes.remove(plateThaumium);
 recipes.addShapeless(plateThaumium, [ingotThaumium, ingotThaumium, tinkersHammer.reuse()]);
 recipes.remove(plateVoid);
 recipes.addShapeless(plateVoid, [ingotVoid, ingotVoid, tinkersHammer.reuse()]);
+
+//Ember activator
+emberActivator.addTooltip(format.gold("Input Ember Crystals to bottom half"));
+emberActivator.addTooltip(format.gold("Attach Ember Emitter to top half"));
+
+//Emitter
+emberEmitter.addTooltip(format.gold("Activate with redstone signal"));
+
+//melter
+melter.addTooltip(format.gold("Input Items to top half"));
+melter.addTooltip(format.gold("Extract Fluids from top half"));
+melter.addTooltip(format.gold("Input Ember to bottom half"));
+
+//Mixer centrifuge
+mixer.addTooltip(format.gold("Input fluids to bottom half. Each side is a separate tank"));
+mixer.addTooltip(format.gold("Extract Fluids from top half"));
+mixer.addTooltip(format.gold("Input Ember to top half"));

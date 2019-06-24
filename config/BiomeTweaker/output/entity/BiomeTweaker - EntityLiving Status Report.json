@@ -361,6 +361,11 @@
     "Class": "hellfirepvp.astralsorcery.common.entities.EntityLiquidSpark"
   },
   {
+    "Name": "quark:leash_knot",
+    "Registry ID": "quark:leash_knot",
+    "Class": "vazkii.quark.decoration.entity.EntityLeashKnot2TheKnotting"
+  },
+  {
     "Name": "quark:stoneling",
     "Registry ID": "quark:stoneling",
     "Class": "vazkii.quark.world.entity.EntityStoneling"
@@ -389,11 +394,6 @@
     "Name": "quark:wraith",
     "Registry ID": "quark:wraith",
     "Class": "vazkii.quark.world.entity.EntityWraith"
-  },
-  {
-    "Name": "quark:leash_knot",
-    "Registry ID": "quark:leash_knot",
-    "Class": "vazkii.quark.decoration.entity.EntityLeashKnot2TheKnotting"
   },
   {
     "Name": "botania:pixie",
@@ -1061,6 +1061,11 @@
     "Class": "com.github.alexthe666.rats.server.entity.EntityRat"
   },
   {
+    "Name": "illager_piper",
+    "Registry ID": "rats:illager_piper",
+    "Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper"
+  },
+  {
     "Name": "Overgrown Sheep",
     "Registry ID": "arcaneworld:overgrown_sheep",
     "Class": "party.lemons.arcaneworld.entity.EntityOvergrownSheep"
@@ -1179,6 +1184,31 @@
     "Name": "aov.EntityDruidicWolf",
     "Registry ID": "aov:entitydruidicwolf",
     "Class": "tamaized.aov.common.entity.EntityDruidicWolf"
+  },
+  {
+    "Name": "Firebender",
+    "Registry ID": "avatarmod:firebender",
+    "Class": "com.crowsofwar.avatar.common.entity.mob.EntityFirebender"
+  },
+  {
+    "Name": "Airbender",
+    "Registry ID": "avatarmod:airbender",
+    "Class": "com.crowsofwar.avatar.common.entity.mob.EntityAirbender"
+  },
+  {
+    "Name": "SkyBison",
+    "Registry ID": "avatarmod:skybison",
+    "Class": "com.crowsofwar.avatar.common.entity.mob.EntitySkyBison"
+  },
+  {
+    "Name": "OtterPenguin",
+    "Registry ID": "avatarmod:otterpenguin",
+    "Class": "com.crowsofwar.avatar.common.entity.mob.EntityOtterPenguin"
+  },
+  {
+    "Name": "OstrichHorse",
+    "Registry ID": "avatarmod:ostrichhorse",
+    "Class": "com.crowsofwar.avatar.common.entity.mob.EntityOstrichHorse"
   },
   {
     "Name": "azulfo",
