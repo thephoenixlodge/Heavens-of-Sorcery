@@ -1,0 +1,122 @@
+{
+	"components": [
+		{
+			"type": "header",
+			"text": "#heading",
+			"x": -1,
+			"y": -5
+		},
+		{
+			"type": "image",
+			"image": "books:templates/astral_flare.png",
+			"texture_width": 64,
+			"texture_height": 64,
+			"width": 50,
+			"height": 50,
+			"scale": 1,
+			"x": 33,
+			"y": 3
+		},
+		{
+			"type": "image",
+			"image": "books:templates/grid.png",
+			"texture_width": 64,
+			"texture_height": 64,
+			"width": 64,
+			"height": 64,
+			"scale": 1,
+			"x": 26,
+			"y": 53
+		},
+		{
+			"type": "item",
+			"item": "astralsorcery:blockaltar",
+			"x": 10,
+			"y": 20
+		},
+		{
+			"type": "item",
+			"item": "#output_item",
+			"framed": "false",
+			"x": 50,
+			"y": 20
+		},
+		{
+			"type": "item",
+			"item": "#item1",
+			"framed": "false",
+			"x": 31,
+			"y": 58
+		},
+		{
+			"type": "item",
+			"item": "#item2",
+			"guard": "#item2->iexists",
+			"framed": "false",
+			"x": 50,
+			"y": 58
+		},
+		{
+			"type": "item",
+			"item": "#item3",
+			"guard": "#item3->iexists",
+			"framed": "false",
+			"x": 69,
+			"y": 58
+		},
+		{
+			"type": "item",
+			"item": "#item4",
+			"guard": "#item4->iexists",
+			"framed": "false",
+			"x": 31,
+			"y": 77
+		},
+		{
+			"type": "item",
+			"item": "#item5",
+			"guard": "#item5->iexists",
+			"framed": "false",
+			"x": 50,
+			"y": 77
+		},
+		{
+			"type": "item",
+			"item": "#item6",
+			"guard": "#item6->iexists",
+			"framed": "false",
+			"x": 69,
+			"y": 77
+		},
+		{
+			"type": "item",
+			"item": "#item7",
+			"guard": "#item7->iexists",
+			"framed": "false",
+			"x": 31,
+			"y": 96
+		},
+		{
+			"type": "item",
+			"item": "#item8",
+			"guard": "#item8->iexists",
+			"framed": "false",
+			"x": 50,
+			"y": 96
+		},
+		{
+			"type": "item",
+			"item": "#item9",
+			"guard": "#item9->iexists",
+			"framed": "false",
+			"x": 69,
+			"y": 96
+		},
+		{
+			"type": "text",
+			"text": "#description",
+			"x": 2,
+			"y": 120
+		}
+	]
+}

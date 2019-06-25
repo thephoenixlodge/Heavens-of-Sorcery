@@ -1,0 +1,212 @@
+{
+	"components": [
+		{
+			"type": "image",
+			"image": "books:templates/astral_flare.png",
+			"texture_width": 64,
+			"texture_height": 64,
+			"width": 50,
+			"height": 50,
+			"scale": 1,
+			"x": 33,
+			"y": -12
+		},
+		{
+			"type": "image",
+			"image": "books:templates/grid_celestial.png",
+			"texture_width": 128,
+			"texture_height": 128,
+			"width": 102,
+			"height": 102,
+			"scale": 1,
+			"x": 7,
+			"y": 24
+		},
+		{
+			"type": "item",
+			"item": "astralsorcery:blockaltar:2",
+			"x": 10,
+			"y": 5
+		},
+		{
+			"type": "item",
+			"item": "#output_item",
+			"framed": "false",
+			"x": 50,
+			"y": 5
+		},
+		{
+			"type": "item",
+			"item": "#item1",
+			"framed": "false",
+			"x": 31,
+			"y": 48
+		},
+		{
+			"type": "item",
+			"item": "#item2",
+			"guard": "#item2->iexists",
+			"framed": "false",
+			"x": 50,
+			"y": 48
+		},
+		{
+			"type": "item",
+			"item": "#item3",
+			"guard": "#item3->iexists",
+			"framed": "false",
+			"x": 69,
+			"y": 48
+		},
+		{
+			"type": "item",
+			"item": "#item4",
+			"guard": "#item4->iexists",
+			"framed": "false",
+			"x": 31,
+			"y": 67
+		},
+		{
+			"type": "item",
+			"item": "#item5",
+			"guard": "#item5->iexists",
+			"framed": "false",
+			"x": 50,
+			"y": 67
+		},
+		{
+			"type": "item",
+			"item": "#item6",
+			"guard": "#item6->iexists",
+			"framed": "false",
+			"x": 69,
+			"y": 67
+		},
+		{
+			"type": "item",
+			"item": "#item7",
+			"guard": "#item7->iexists",
+			"framed": "false",
+			"x": 31,
+			"y": 86
+		},
+		{
+			"type": "item",
+			"item": "#item8",
+			"guard": "#item8->iexists",
+			"framed": "false",
+			"x": 50,
+			"y": 86
+		},
+		{
+			"type": "item",
+			"item": "#item9",
+			"guard": "#item9->iexists",
+			"framed": "false",
+			"x": 69,
+			"y": 86
+		},
+		{
+			"type": "item",
+			"item": "#item10",
+			"guard": "#item10->iexists",
+			"framed": "false",
+			"x": 12,
+			"y": 29
+		},
+		{
+			"type": "item",
+			"item": "#item11",
+			"guard": "#item11->iexists",
+			"framed": "false",
+			"x": 88,
+			"y": 29
+		},
+		{
+			"type": "item",
+			"item": "#item12",
+			"guard": "#item12->iexists",
+			"framed": "false",
+			"x": 12,
+			"y": 105
+		},
+		{
+			"type": "item",
+			"item": "#item13",
+			"guard": "#item13->iexists",
+			"framed": "false",
+			"x": 88,
+			"y": 105
+		},
+		{
+			"type": "item",
+			"item": "#item14",
+			"guard": "#item14->iexists",
+			"framed": "false",
+			"x": 31,
+			"y": 29
+		},
+		{
+			"type": "item",
+			"item": "#item15",
+			"guard": "#item15->iexists",
+			"framed": "false",
+			"x": 69,
+			"y": 29
+		},
+		{
+			"type": "item",
+			"item": "#item16",
+			"guard": "#item16->iexists",
+			"framed": "false",
+			"x": 12,
+			"y": 48
+		},
+		{
+			"type": "item",
+			"item": "#item17",
+			"guard": "#item17->iexists",
+			"framed": "false",
+			"x": 88,
+			"y": 48
+		},
+		{
+			"type": "item",
+			"item": "#item18",
+			"guard": "#item18->iexists",
+			"framed": "false",
+			"x": 12,
+			"y": 86
+		},
+		{
+			"type": "item",
+			"item": "#item19",
+			"guard": "#item19->iexists",
+			"framed": "false",
+			"x": 88,
+			"y": 86
+		},
+		{
+			"type": "item",
+			"item": "#item20",
+			"guard": "#item20->iexists",
+			"framed": "false",
+			"x": 31,
+			"y": 105
+		},
+		{
+			"type": "item",
+			"item": "#item21",
+			"guard": "#item21->iexists",
+			"framed": "false",
+			"x": 69,
+			"y": 105
+		},
+		{
+			"type": "text",
+			"text": "#description",
+			"x": 2,
+			"y": 125
+		}
+	]
+}

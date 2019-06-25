@@ -1,4 +1,4 @@
-13799 nodes in total
+13793 nodes in total
 Modifying this file won't have any effect, edit ranks.txt!
 
 admin_panel.ftbutilities.crash_reports.delete: OP
@@ -1227,7 +1227,6 @@ ftbutilities.claims.block.edit.contenttweaker.catalyst_starlit_2: OP
 ftbutilities.claims.block.edit.contenttweaker.charoite_etheric: OP
 ftbutilities.claims.block.edit.contenttweaker.coal_etheric: OP
 ftbutilities.claims.block.edit.contenttweaker.copper_etheric: OP
-ftbutilities.claims.block.edit.contenttweaker.crystal_quartz_etheric: OP
 ftbutilities.claims.block.edit.contenttweaker.diamond_etheric: OP
 ftbutilities.claims.block.edit.contenttweaker.diopside_etheric: OP
 ftbutilities.claims.block.edit.contenttweaker.emerald_etheric: OP
@@ -1262,7 +1261,6 @@ ftbutilities.claims.block.edit.contenttweaker.tourmaline_etheric: OP
 ftbutilities.claims.block.edit.contenttweaker.turquoise_etheric: OP
 ftbutilities.claims.block.edit.contenttweaker.valonite_etheric: OP
 ftbutilities.claims.block.edit.contenttweaker.ventium_etheric: OP
-ftbutilities.claims.block.edit.contenttweaker.wiser_gem_etheric: OP
 ftbutilities.claims.block.edit.contenttweaker.zanite_etheric: OP
 ftbutilities.claims.block.edit.corvus.blazing_tulip: OP
 ftbutilities.claims.block.edit.corvus.blood_rose: OP
@@ -5163,7 +5161,6 @@ ftbutilities.claims.block.interact.contenttweaker.catalyst_starlit_2: OP
 ftbutilities.claims.block.interact.contenttweaker.charoite_etheric: OP
 ftbutilities.claims.block.interact.contenttweaker.coal_etheric: OP
 ftbutilities.claims.block.interact.contenttweaker.copper_etheric: OP
-ftbutilities.claims.block.interact.contenttweaker.crystal_quartz_etheric: OP
 ftbutilities.claims.block.interact.contenttweaker.diamond_etheric: OP
 ftbutilities.claims.block.interact.contenttweaker.diopside_etheric: OP
 ftbutilities.claims.block.interact.contenttweaker.emerald_etheric: OP
@@ -5198,7 +5195,6 @@ ftbutilities.claims.block.interact.contenttweaker.tourmaline_etheric: OP
 ftbutilities.claims.block.interact.contenttweaker.turquoise_etheric: OP
 ftbutilities.claims.block.interact.contenttweaker.valonite_etheric: OP
 ftbutilities.claims.block.interact.contenttweaker.ventium_etheric: OP
-ftbutilities.claims.block.interact.contenttweaker.wiser_gem_etheric: OP
 ftbutilities.claims.block.interact.contenttweaker.zanite_etheric: OP
 ftbutilities.claims.block.interact.corvus.blazing_tulip: OP
 ftbutilities.claims.block.interact.corvus.blood_rose: OP
@@ -9855,7 +9851,6 @@ ftbutilities.claims.item.contenttweaker.catalyst_starlit_2: ALL
 ftbutilities.claims.item.contenttweaker.charoite_precious_materia: ALL
 ftbutilities.claims.item.contenttweaker.coal_precious_materia: ALL
 ftbutilities.claims.item.contenttweaker.copper_metal_materia: ALL
-ftbutilities.claims.item.contenttweaker.crystal_quartz_precious_materia: ALL
 ftbutilities.claims.item.contenttweaker.diamond_precious_materia: ALL
 ftbutilities.claims.item.contenttweaker.diopside_precious_materia: ALL
 ftbutilities.claims.item.contenttweaker.emerald_precious_materia: ALL
@@ -9898,7 +9893,6 @@ ftbutilities.claims.item.contenttweaker.tourmaline_precious_materia: ALL
 ftbutilities.claims.item.contenttweaker.turquoise_precious_materia: ALL
 ftbutilities.claims.item.contenttweaker.valonite_precious_materia: ALL
 ftbutilities.claims.item.contenttweaker.ventium_metal_materia: ALL
-ftbutilities.claims.item.contenttweaker.wiser_gem_precious_materia: ALL
 ftbutilities.claims.item.contenttweaker.zanite_precious_materia: ALL
 ftbutilities.claims.item.corvus.blazing_tulip: ALL
 ftbutilities.claims.item.corvus.blood_rose: ALL

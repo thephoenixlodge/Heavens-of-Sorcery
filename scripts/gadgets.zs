@@ -23,19 +23,19 @@ val nacrePearl = <wizardry:nacre_pearl>;
 
 //Building Gadget
 recipes.remove(gadgetBuilding);
-ArcaneWorld.createRitualCreateItem("gadget_building", "Infuse Tome of Building", gadgetBuilding, book, sapphire, wandFormation, wandDiamond, advSimilsax);
+ArcaneWorld.createRitualCreateItem("gadget_building", "Tome of Building", gadgetBuilding, book, sapphire, wandFormation, wandDiamond, advSimilsax);
 
 //Exchanging Gadget
 recipes.remove(gadgetExchanging);
-ArcaneWorld.createRitualCreateItem("gadget_exchanging", "Infuse Tome of Exchanging", gadgetExchanging, book, sapphire, amethyst, shovelDiamond);
+ArcaneWorld.createRitualCreateItem("gadget_exchanging", "Tome of Exchanging", gadgetExchanging, book, sapphire, amethyst, shovelDiamond);
 
 //Copy-Paste Gadget
 recipes.remove(gadgetCopyPaste);
-ArcaneWorld.createRitualCreateItem("gadget_copy", "Infuse Tome of Transferrance", gadgetCopyPaste, book, sapphire, amethyst, slime);
+ArcaneWorld.createRitualCreateItem("gadget_copy", "Tome of Transferrance", gadgetCopyPaste, book, sapphire, amethyst, slime);
 
 //Destruction Gadget
 recipes.remove(gadgetDestruction);
-ArcaneWorld.createRitualCreateItem("gadget_destroy", "Infuse Tome of Destruction", gadgetDestruction, book, amethyst, amethyst, moltenCore);
+ArcaneWorld.createRitualCreateItem("gadget_destroy", "Tome of Destruction", gadgetDestruction, book, amethyst, amethyst, moltenCore);
 
 //Template Manager
 recipes.remove(templateManager);

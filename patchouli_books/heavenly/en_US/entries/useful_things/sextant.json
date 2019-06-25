@@ -1,0 +1,26 @@
+{
+    "name": "Structure Seeker",
+    "icon": "astralsorcery:itemsextant",
+    "category": "useful_things",
+    "advancement": "heavens:bookchap3/8luminous",
+    "pages": [
+        {
+            "type": "text",
+            "text": "The need to find the ancient marble temples for your Astral Magicks can be daunting at best, especially when considering the risks of traversing the Aether. However, crafting a Sextant will help with the search, guiding you to such structures with the stars above."
+        },
+        {
+            "type": "altar_luminous",
+            "output_item": "astralsorcery:itemsextant",
+            "constellation": "Vicio",
+            "item2": "astralsorcery:itemcraftingcomponent:3",
+            "item4": "minecraft:gold_ingot",
+            "item5": "astralsorcery:itemcraftingcomponent:3",
+            "item6": "minecraft:gold_ingot",
+            "item7": "botania:manaresource:3",
+            "item8": "botania:manaresource:3",
+            "item9": "botania:manaresource:3",
+            "heading": "Sextant",
+            "description": "Hold $(k:sneak) to free the cursor and drag structure icons to stars"
+        }
+    ]
+}
