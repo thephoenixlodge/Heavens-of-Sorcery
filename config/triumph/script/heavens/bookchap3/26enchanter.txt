@@ -1,0 +1,18 @@
+setIcon(<aether_legacy:enchanter>)
+
+setTitle("Enchanted")
+
+setDescription("Construct an Enchanter and use it to make a Zeal Lighter")
+
+addParent("heavens:bookchap3/25starlightinfuser")
+
+setRequiresParents()
+
+setPos(160,-25)
+
+criteria1 = addCriteria("hasItems", "minecraft:inventory_changed")
+criteria1.addItem(<aether_legacy:enchanter, meta:0, count:1~>)
+criteria2 = addCriteria("hasItems2", "minecraft:inventory_changed")
+criteria2.addItem(<blue_skies:zeal_lighter, meta:0, count:1~>)
+
+addRewardItem(<aether_legacy:ambrosium_shard, meta:0, count:15>)

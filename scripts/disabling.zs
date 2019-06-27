@@ -90,3 +90,6 @@ recipes.removeByRecipeName("chisel:uncraft_blocksilver");
 //TC Iron plate
 recipes.remove(plateIronTC);
 plateIronOre.remove(plateIronTC);
+
+//Essentials piston recipe
+recipes.removeByRecipeName("essentials:piston");

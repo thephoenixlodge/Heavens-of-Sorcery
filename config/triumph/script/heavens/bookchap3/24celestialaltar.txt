@@ -1,0 +1,18 @@
+setIcon(<astralsorcery:blockaltar, meta:2>)
+
+setTitle("From the Heavens")
+
+setDescription("Upgrade your Starlight Crafting Altar into a Celestial Crafting Altar")
+
+addParent("heavens:bookchap3/21mixercentrifuge")
+addParent("heavens:bookchap3/22attunementaltar")
+
+setRequiresParents()
+
+setPos(80,-25)
+
+criteria1 = addCriteria("interact", "triumph:right_click_block")
+criteria1.setBlock(<astralsorcery:blockaltar, meta:2>)
+
+addRewardItem(<astralsorcery:itemcraftingcomponent, meta:2, count:10>)
+addRewardItem(<buildinggadgets:template, meta:0, count:1, nbt:{copycounter:2,TemplateName:"Celestial Altar",UUID:"67762efc-0a1f-4da1-be1e-2f3f80da8b2d",startPos:{X:-4946,Y:99,Z:-4994},itemcountmap:[{item:7973,meta:6,count:4},{item:7974,meta:0,count:49},{item:7973,meta:0,count:12},{item:7973,meta:1,count:40},{item:7973,meta:2,count:8},{item:7973,meta:4,count:4}],endPos:{X:-4956,Y:95,Z:-5004}}>)

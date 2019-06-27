@@ -33,8 +33,6 @@
     "charoite_precious_materia": 66,
     "coal_etheric": 98,
     "malachite_precious_materia": 94,
-    "crystal_quartz_precious_materia": 70,
-    "wiser_gem_etheric": 114,
     "pyrope_etheric": 109,
     "tin_metal_materia": 7,
     "pyrope_precious_materia": 62,
@@ -60,7 +58,6 @@
     "octine_etheric": 128,
     "malachite_etheric": 125,
     "bloodstone_etheric": 123,
-    "wiser_gem_precious_materia": 72,
     "lapis_lazuli_precious_materia": 44,
     "sapphire_precious_materia": 56,
     "garnet_etheric": 119,
@@ -85,7 +82,6 @@
     "zanite_etheric": 105,
     "amethyst_etheric": 107,
     "tourmaline_precious_materia": 88,
-    "crystal_quartz_etheric": 113,
     "ventium_etheric": 37,
     "titanium_metal_materia": 12
   }

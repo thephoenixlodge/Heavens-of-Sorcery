@@ -8,7 +8,7 @@ addParent("heavens:bookchap3/8luminous")
 
 setRequiresParents()
 
-setPos(-40,15)
+setPos(-40,-25)
 
 criteria1 = addCriteria("hasItemsFurnace", "minecraft:inventory_changed")
 criteria1.addItem(<astralsorcery:itemrockcrystalsimple, count:1~>)

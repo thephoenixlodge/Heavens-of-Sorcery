@@ -2,6 +2,7 @@
 import mods.rustic.EvaporatingBasin;
 import mods.inspirations.Cauldron as CauldronCrafting;
 import mods.ArcaneWorld;
+import scripts.globals;
 
 ////Variables
 //Basics
@@ -93,6 +94,7 @@ val oreThatch = <ore:blockThatch>;
 val nacrePearl = <wizardry:nacre_pearl>;
 val emberShard = <embers:shard_ember>;
 val livingwoodStick = <botania:manaresource:3>;
+val bacterialShale = <mist:bio_shale>;
 
 //Change Crushing tub recipe for starting
 recipes.remove(crushingTub);
@@ -101,6 +103,7 @@ recipes.addShaped(crushingTub, [[plankWood, null, plankWood], [slabWood, slabWoo
 //Weedwood bucket
 recipes.remove(bucketWeedwood);
 recipes.addShaped(bucketWeedwood, [[plankWood, null, plankWood], [null, slabWood, null]]);
+globals.setNewName(bucketWeedwood, "Wooden Bucket");
 
 //Tweak iron output from drying basin
 EvaporatingBasin.removeRecipe(dustTinyIron);
@@ -161,6 +164,10 @@ recipes.addShaped(diorite, [[quartzSliver, oreCobble],[oreCobble, quartzSliver]]
 //Granite
 recipes.remove(granite);
 recipes.addShapeless(granite, [oreDiorite, quartzSliver]);
+
+//Andesite alt
+recipes.removeByRecipeName("quark:stone");
+recipes.addShapeless(andesite, [basalt, quartzSliver]);
 
 //Growth Powder
 recipes.remove(growthPowder);
@@ -226,3 +233,6 @@ ArcaneWorld.createRitualCreateItem("advWand", "Enhance Ironwood Wand", wandIronw
 //Tweak Dungeon Ritual cost
 ArcaneWorld.remove("arcaenworld:dungeon");
 ArcaneWorld.createRitualDungeon("dungeon2", "Dungeon Raid", sapphire, sapphire, sapphire, ingotGold, nacrePearl);
+
+//Alt summon for slime with bacterial shale
+ArcaneWorld.createRitualSummon("summon_slime", "Conjure Slime", "slime", bacterialShale, amethyst, bone);

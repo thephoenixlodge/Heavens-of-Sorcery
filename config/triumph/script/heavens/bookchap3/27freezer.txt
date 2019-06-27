@@ -1,0 +1,22 @@
+setIcon(<aether_legacy:freezer>)
+
+setTitle("Frozen")
+
+setDescription("Construct a Freezer and use it to get Turqoise Stone and Lunar Stone")
+
+addParent("heavens:bookchap3/25starlightinfuser")
+
+setRequiresParents()
+
+setPos(160,15)
+
+criteria1 = addCriteria("hasItems", "minecraft:inventory_changed")
+criteria1.addItem(<aether_legacy:freezer, meta:0, count:1~>)
+criteria2 = addCriteria("hasItems2", "minecraft:inventory_changed")
+criteria2.addItem(<blue_skies:turquoise_stone, meta:0, count:1~>)
+criteria3 = addCriteria("hasItems3", "minecraft:inventory_changed")
+criteria3.addItem(<blue_skies:lunar_stone, meta:0, count:1~>)
+
+addRewardItem(<aether_legacy:icestone, meta:0, count:15>)
+addRewardItem(<blue_skies:lunar_stone, meta:0, count:5>)
+addRewardItem(<blue_skies:turquoise_stone, meta:0, count:5>)

@@ -1,0 +1,19 @@
+setIcon(<blue_skies:everbright_portal>)
+
+setTitle("In Brightest Day")
+
+setDescription("Enter the Everbright")
+
+addParent("heavens:bookchap3/26enchanter")
+addParent("heavens:bookchap3/27freezer")
+
+setRequiresParents()
+
+setPos(200,-25)
+drawDirectLines()
+
+criteria = addCriteria("locationDungeon", "minecraft:changed_dimension")
+criteria.setDimensionDestination("everbright")
+
+addRewardItem(<minecraft:enchanted_book, meta:0, count:1, nbt:{StoredEnchantments:[{lvl:1s,id:70s}]}>>
+addRewardItem(<blue_skies:turquoise_stone, meta:0, count:200>)

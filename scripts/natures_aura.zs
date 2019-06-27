@@ -12,8 +12,10 @@ import scripts.globals;
 val goldShroom = <mist:mushrooms_food:23>;
 val brilliantFibre = <naturesaura:gold_fiber>;
 val leaves = <ore:treeLeaves>;
+val goldLeaves = <aether_legacy:aether_leaves:1>;
 val nuggetGold = <ore:nuggetGold>;
-val tallGrass = <minecraft:tallgrass>;
+val tallGrassBS = <blue_skies:turquoise_tallgrass>|<blue_skies:lunar_tallgrass>|<blue_skies:cherry_tallgrass>;
+val shardMoonstone = <blue_skies:moonstone_shard>;
 val infusedStone = <naturesaura:infused_stone>;
 val turqoiseStone = <blue_skies:turquoise_stone>;
 val lunarStone = <blue_skies:lunar_stone>;
@@ -44,7 +46,7 @@ val blockInfused = <naturesaura:infused_iron_block>;
 
 //Tweak gold fibre recipe to require misty world
 recipes.remove(brilliantFibre);
-recipes.addShaped("gold_fiber", brilliantFibre, [[leaves, nuggetGold, tallGrass], [nuggetGold, goldShroom, nuggetGold], [tallGrass, nuggetGold, leaves]]);
+recipes.addShaped("gold_fiber", brilliantFibre, [[goldLeaves, nuggetGold, tallGrassBS], [nuggetGold, shardMoonstone, nuggetGold], [tallGrassBS, nuggetGold, goldLeaves]]);
 
 //Tweak Infused stone recipe
 NatureAltar.removeRecipe(infusedStone);

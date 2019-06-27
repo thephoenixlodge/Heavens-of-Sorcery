@@ -1,0 +1,23 @@
+setIcon(<embers:block_furnace>)
+
+setTitle("Meltdown")
+
+setDescription("Craft a Melter, Stamper, Stamp Base and Bar Stamp")
+
+addParent("heavens:bookchap3/19activator")
+
+setRequiresParents()
+
+setPos(40,-65)
+
+criteria1 = addCriteria("hasItems", "minecraft:inventory_changed")
+criteria1.addItem(<embers:block_furnace, count:1~>)
+criteria1 = addCriteria("hasItems2", "minecraft:inventory_changed")
+criteria1.addItem(<embers:stamper, count:1~>)
+criteria1 = addCriteria("hasItems3", "minecraft:inventory_changed")
+criteria1.addItem(<embers:stamper_base, count:1~>)
+criteria1 = addCriteria("hasItems4", "minecraft:inventory_changed")
+criteria1.addItem(<embers:stamp_bar, count:1~>)
+
+addRewardItem(<embers:brick_caminite, count:250>)
+addRewardItem(<embers:copper_cell, count:1>)

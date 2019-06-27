@@ -1,0 +1,17 @@
+setIcon(<astralsorcery:blockattunementaltar>)
+
+setTitle("In Tune")
+
+setDescription("Build an Attunement Altar")
+
+addParent("heavens:bookchap3/18linkingtool")
+
+setRequiresParents()
+
+setPos(40,-25)
+
+criteria1 = addCriteria("hasItems", "minecraft:inventory_changed")
+criteria1.addItem(<astralsorcery:blockattunementaltar, count:1~>)
+
+addRewardItem(<astralsorcery:blockblackmarble, meta:0, count:200>)
+addRewardItem(<buildinggadgets:template, meta:0, count:1, nbt:{copycounter:1,TemplateName:"Attunement Altar",UUID:"f35d6534-c973-4434-8306-e2bdba146969",startPos:{X:-4937,Y:95,Z:-5003},itemcountmap:[{item:7973,meta:2,count:12},{item:7974,meta:0,count:225},{item:7973,meta:6,count:4},{item:7973,meta:3,count:80},{item:7973,meta:4,count:4}],endPos:{X:-4919,Y:100,Z:-4985}}>)

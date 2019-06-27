@@ -55,6 +55,21 @@ val sootyMarble = <astralsorcery:blockblackmarble>.definition as IItemDefinition
 //livingwood and rock
 val livingwood = <botania:livingwood>.definition as IItemDefinition;
 val livingrock = <botania:livingrock>.definition as IItemDefinition;
+//lunar stone
+val lunarStone = <blue_skies:lunar_stone>;
+val lunarBricks = <blue_skies:lunar_stonebrick>;
+val lunarBricksMossy = <blue_skies:mossy_lunar_stonebrick>;
+val lunarBricksCracked = <blue_skies:cracked_lunar_stonebrick>;
+val lunarCobble = <blue_skies:lunar_cobblestone>;
+val lunarCobbleMossy = <blue_skies:mossy_lunar_cobblestone>;
+//turquoise stone
+val turquoiseStone = <blue_skies:turquoise_stone>;
+val turquoiseBricks = <blue_skies:turquoise_stonebrick>;
+val turquoiseBricksMossy = <blue_skies:mossy_turquoise_stonebrick>;
+val turquoiseBricksCracked = <blue_skies:cracked_turquoise_stonebrick>;
+val turquoiseCobble = <blue_skies:turquoise_cobblestone>;
+val turquoiseCobbleMossy = <blue_skies:mossy_turquoise_cobblestone>;
+
 
 //Add group for Sapphire Blocks
 Carving.addGroup("blockSapphire");
@@ -135,3 +150,23 @@ Carving.addGroup("livingrock");
 for k in 0 to 5 {
 	Carving.addVariation("livingrock", livingrock.makeStack(k));
 }
+
+//Lunar stone and cobble
+Carving.addGroup("lunar-stone");
+Carving.addVariation("lunar-stone", lunarStone);
+Carving.addVariation("lunar-stone", lunarBricks);
+Carving.addVariation("lunar-stone", lunarBricksMossy);
+Carving.addVariation("lunar-stone", lunarBricksCracked);
+Carving.addGroup("lunar-cobble");
+Carving.addVariation("lunar-cobble", lunarCobble);
+Carving.addVariation("lunar-cobble", lunarCobbleMossy);
+
+//turquoise stone and cobble
+Carving.addGroup("turquoise-stone");
+Carving.addVariation("turquoise-stone", turquoiseStone);
+Carving.addVariation("turquoise-stone", turquoiseBricks);
+Carving.addVariation("turquoise-stone", turquoiseBricksMossy);
+Carving.addVariation("turquoise-stone", turquoiseBricksCracked);
+Carving.addGroup("turquoise-cobble");
+Carving.addVariation("turquoise-cobble", turquoiseCobble);
+Carving.addVariation("turquoise-cobble", turquoiseCobbleMossy);

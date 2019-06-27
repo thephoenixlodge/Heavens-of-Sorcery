@@ -1,0 +1,18 @@
+setIcon(<embers:ember_activator>)
+
+setTitle("Activation")
+
+setDescription("Craft an Ember Activator, to start producing Ember energy from Ember Crystals")
+
+addParent("heavens:bookchap3/16emberbore")
+
+setRequiresParents()
+
+setPos(0,-65)
+
+criteria1 = addCriteria("hasItems", "minecraft:inventory_changed")
+criteria1.addItem(<embers:ember_activator, count:1~>)
+
+addRewardItem(<embers:shard_ember, count:120>)
+addRewardItem(<embers:ember_receiver, count:3>)
+addRewardItem(<embers:ember_emitter, count:3>)

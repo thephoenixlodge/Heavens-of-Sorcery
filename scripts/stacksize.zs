@@ -38,6 +38,7 @@ var materials1024 = [
 	<thebetweenlands:items_misc>, 
 	<thebetweenlands:octine_ingot>,
 	<embers:archaic_brick>,
+	<embers:brick_caminite>,
 	//Nuggets
 	<minecraft:gold_nugget>,
 	<minecraft:iron_nugget>,
@@ -62,6 +63,8 @@ var materials1024 = [
 	<rustic:dust_tiny_iron>,
 	<minecraft:glowstone_dust>,
 	<arcaneworld:amethyst>,
+	<embers:shard_ember>,
+	<embers:crystal_ember>,
 	//Ingredients
 	<minecraft:paper>,
 	<embers:ancient_motive_core>

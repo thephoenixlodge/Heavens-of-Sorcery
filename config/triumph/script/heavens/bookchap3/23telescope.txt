@@ -1,0 +1,16 @@
+setIcon(<astralsorcery:blockmachine, meta:0>)
+
+setTitle("Zoom and Enhance")
+
+setDescription("Craft a Telescope, to help identify constellations")
+
+addParent("heavens:bookchap3/14starlightaltar")
+
+setRequiresParents()
+
+setPos(40,15)
+
+criteria1 = addCriteria("hasItems", "minecraft:inventory_changed")
+criteria1.addItem(<astralsorcery:blockmachine, meta:0, count:1~>)
+
+addRewardItem(<astralsorcery:blockmarble, meta:0, count:200>)

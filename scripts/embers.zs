@@ -2,6 +2,8 @@
 import mods.astralsorcery.LightTransmutation;
 import mods.astralsorcery.Altar;
 import mods.astralsorcery.Utils;
+import crafttweaker.item.IItemStack;
+import mods.chisel.Carving;
 
 ////Variables
 val caminiteBlend = <embers:blend_caminite>;
@@ -17,6 +19,7 @@ val itemExtractor = <embers:item_pump>;
 val mechCore = <embers:mech_core>;
 val ingotNiobium = <mist:niobium_ingot>;
 val blockNiobium = <mist:niobium_block>;
+val nuggetNiobium = <mist:niobium_nugget>;
 val ingotNickel = <embers:ingot_nickel>;
 val blockNickel = <embers:block_nickel>;
 val ingotCopper = <embers:ingot_copper>;
@@ -37,8 +40,41 @@ val plateThaumium = <thaumcraft:plate:2>;
 val plateVoid = <thaumcraft:plate:3>;
 val emberActivator = <embers:ember_activator>;
 val emberEmitter = <embers:ember_emitter>;
+val emberReceptor = <embers:ember_receiver>;
 val melter = <embers:block_furnace>;
 val mixer = <embers:mixer>;
+val stamper = <embers:stamper>;
+val stamperBase = <embers:stamper_base>;
+val bin = <embers:bin>;
+val stampRawArray = [
+	<embers:stamp_bar_raw>,
+	<embers:stamp_plate_raw>,
+	<soot:stamp_nugget_raw>,
+	<embers:stamp_gear_raw>,
+	<soot:stamp_text_raw>,
+	<embers:stamp_flat_raw>
+] as IItemStack[];
+val stampRawBlank = <embers:stamp_flat_raw>;
+val stampCookedArray = [
+	<embers:stamp_flat>,
+	<embers:stamp_bar>,
+	<embers:stamp_plate>,
+	<embers:stamp_gear>,
+	<soot:stamp_nugget>,
+	<soot:stamp_text>
+] as IItemStack[];
+val stampCookedBlank = <embers:stamp_flat>;
+val moltenCore = <arcaneworld:molten_core>;
+val plateIron = <embers:plate_iron>;
+val plateCaminite = <embers:plate_caminite>;
+val ingotManasteel = <botania:manaresource>;
+val cauldron = <minecraft:cauldron>;
+val piston = <minecraft:piston>;
+val amethyst = <arcaneworld:amethyst>;
+val lava = <liquid:lava>;
+val magmaCream = <minecraft:magma_cream>;
+val emberShard = <embers:shard_ember>;
+val emberCrystal = <embers:crystal_ember>;
 
 //tweak caminite blend recipe
 recipes.remove(caminiteBlend);
@@ -80,16 +116,60 @@ recipes.addShapeless(plateVoid, [ingotVoid, ingotVoid, tinkersHammer.reuse()]);
 //Ember activator
 emberActivator.addTooltip(format.gold("Input Ember Crystals to bottom half"));
 emberActivator.addTooltip(format.gold("Attach Ember Emitter to top half"));
+recipes.remove(emberActivator);
+Altar.addDiscoveryAltarRecipe("custom_ember_activator", emberActivator, 500, 120, [ingotCopper, ingotCopper, ingotCopper, ingotCopper, ingotCopper, ingotCopper, plateIron, moltenCore, plateIron]);
 
 //Emitter
 emberEmitter.addTooltip(format.gold("Activate with redstone signal"));
+recipes.remove(emberEmitter);
+Altar.addDiscoveryAltarRecipe("custom_ember_emitter", emberEmitter * 4, 200, 50, [null, ingotCopper, null, null, ingotCopper, null, ingotNiobium, plateCaminite, ingotNiobium]);
+
+//Receptor
+recipes.remove(emberReceptor);
+Altar.addDiscoveryAltarRecipe("custom_ember_receptor", emberReceptor * 4, 200, 50, [null, null, null, ingotNiobium, null, ingotNiobium, ingotCopper, plateCaminite, ingotCopper]);
 
 //melter
 melter.addTooltip(format.gold("Input Items to top half"));
 melter.addTooltip(format.gold("Extract Fluids from top half"));
 melter.addTooltip(format.gold("Input Ember to bottom half"));
+recipes.remove(melter);
+Altar.addDiscoveryAltarRecipe("custom_melter", melter, 500, 120, [caminiteBrickItem, plateCaminite, caminiteBrickItem, caminiteBrickItem, ingotCopper, caminiteBrickItem, ingotNiobium, moltenCore, ingotNiobium]);
 
 //Mixer centrifuge
 mixer.addTooltip(format.gold("Input fluids to bottom half. Each side is a separate tank"));
 mixer.addTooltip(format.gold("Extract Fluids from top half"));
 mixer.addTooltip(format.gold("Input Ember to top half"));
+recipes.remove(mixer);
+Altar.addAttunementAltarRecipe("custom_mixer", mixer, 1000, 200, [plateIron, ingotCopper, plateIron, plateIron, cauldron, plateIron, ingotManasteel, mechCore, ingotManasteel, null, null, caminiteBrickItem, caminiteBrickItem]);
+
+//Stamper
+stamper.addTooltip(format.gold("Place two blocks above Stamp Base. Requires Ember input"));
+recipes.remove(stamper);
+Altar.addDiscoveryAltarRecipe("custom_stamper", stamper, 500, 120, [caminiteBrickItem, ingotCopper, caminiteBrickItem, caminiteBrickItem, piston, caminiteBrickItem, caminiteBrickItem, null, caminiteBrickItem]);
+
+//Stamper Base
+stamperBase.addTooltip(format.gold("Place two blocks below Stamper. Input Items or Fluids."));
+stamperBase.addTooltip(format.gold("Item outputs can be collected by placing a Bin underneath"));
+recipes.remove(stamperBase);
+Altar.addDiscoveryAltarRecipe("custom_stamper_base", stamperBase, 250, 80, [null, null, null, ingotNiobium, null, ingotNiobium, caminiteBrickBlock, cauldron, caminiteBrickBlock]);
+
+//bin
+recipes.remove(bin);
+Altar.addDiscoveryAltarRecipe("custom_bin", bin, 200, 40, [nuggetNiobium, null, nuggetNiobium, nuggetNiobium, null, nuggetNiobium, nuggetNiobium, plateIron, nuggetNiobium]);
+
+//Simplify stamps
+for stampRaw in stampRawArray {
+	recipes.remove(stampRaw);
+}
+recipes.addShaped(stampRawBlank, [[null, caminiteBlend, null], [caminiteBlend, null, caminiteBlend], [null, caminiteBlend, null]]);
+Carving.addGroup("embers-stamps");
+for stampCooked in stampCookedArray {
+	if(!(stampCooked has stampCookedBlank)) {
+		furnace.remove(stampCooked);
+	}
+	Carving.addVariation("embers-stamps", stampCooked);
+}
+
+//Molten core recipe
+recipes.remove(moltenCore);
+recipes.addShaped(moltenCore, [[amethyst, emberShard, amethyst], [emberCrystal, lava, emberCrystal], [magmaCream, emberShard, magmaCream]]);

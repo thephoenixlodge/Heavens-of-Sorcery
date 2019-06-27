@@ -11,10 +11,13 @@ import mods.astralsorcery.StarlightInfusion;
 import mods.astralsorcery.Utils;
 import mods.astralsorcery.LightTransmutation;
 import mods.aether_legacy.Freezer;
+import mods.ArcaneWorld;
 
 ////Variables
 var oreMistyWoods = <ore:mistyWood>;
-val oreLog = <ore:logWood>;
+var oreMistyPlanks = <ore:mistyPlanks>;
+var oreLog = <ore:logWood>;
+var orePlanks = <ore:plankWood>;
 var mistyWoods = [
 	<mist:acacia_block>.definition,
 	<mist:aspen_block>.definition,
@@ -114,6 +117,11 @@ val ingotElementium = <botania:manaresource:7>;
 val dustPixie = <botania:manaresource:8>;
 val amethyst = <arcaneworld:amethyst>;
 val tokenJoy = <naturesaura:token_joy>;
+val bacterialShale = <mist:bio_shale>;
+val plankSkyroot = <aether_legacy:skyroot_plank>;
+val gemZanite = <aether_legacy:zanite_gemstone>;
+val redstone = <minecraft:redstone>;
+val piston = <minecraft:piston>;
 //Runes
 val runeWater = <botania:rune>;
 val runeFire = <botania:rune:1>;
@@ -123,11 +131,13 @@ val runeMana = <botania:rune:8>;
 val runeStarlight = <contenttweaker:rune_starlight>;
 
 //Oredict all Misty World logs
-for log in mistyWoods {
+for wood in mistyWoods {
 	for i in mistyLogMeta {
-		oreMistyWoods.add(log.makeStack(i));
-		oreLog.add(log.makeStack(i));
+		oreMistyWoods.add(wood.makeStack(i));
+		oreLog.add(wood.makeStack(i));
 	}
+	oreMistyPlanks.add(wood.makeStack(13));
+	orePlanks.add(wood.makeStack(13));
 }
 
 //Oredict for all variants of Foggy Stone
@@ -233,3 +243,9 @@ Altar.addAttunementAltarRecipe("internal/altar/alchemy_catalyst", alchemyCatalys
 //Conjuration Catalyst
 recipes.remove(conjurationCatalyst);
 Altar.addConstellationAltarRecipe("internal/altar/conjuration_catalyst", conjurationCatalyst, 3000, 500, [ingotElementium, dustPixie, ingotElementium, tokenJoy, alchemyCatalyst, tokenJoy, ingotElementium, dustPixie, ingotElementium, null, null, null, null, livingrock, livingrock, livingrock, livingrock, livingrock, livingrock, livingrock, livingrock]);
+
+//piston
+recipes.remove(piston);
+recipes.addShaped(piston, [[plankSkyroot, plankSkyroot, plankSkyroot], [holyStone, gemZanite, holyStone], [holyStone, redstone, holyStone]]);
+recipes.addShaped(piston, [[oreMistyPlanks, oreMistyPlanks, oreMistyPlanks], [oreFogStone, ingotNiobium, oreFogStone], [oreFogStone, redstone, oreFogStone]]);
+recipes.addShaped(piston * 3, [[livingwood, livingwood, livingwood], [livingrock, ingotManasteel, livingrock], [livingrock, redstone, livingrock]]);

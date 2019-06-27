@@ -2,7 +2,7 @@ setIcon(<mist:respirator_single>)
 
 setTitle("Just Breathe")
 
-setDescription("Craft a Respirator, and mine Filter Coal to use in it")
+setDescription("Craft a Respirator, and mine Filter Coal to use in it. (Use a Niobium Pickaxe to harvest it)")
 
 addParent("heavens:bookchap3/0niobium")
 

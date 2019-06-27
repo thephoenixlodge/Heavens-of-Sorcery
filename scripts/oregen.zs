@@ -353,7 +353,7 @@ for metallia, metal in metalToMetallia {
 	//Agglomeration.addRecipe(clusterRecipe);
 	Lightwell.addLiquefaction(metallia, metalliaToEtheric[metallia], 0.8F, 8, 0);
 	LiquidInteraction.addInteraction(liquidMana * 500, 0.4, metalliaToEtheric[metallia] * 200, 0.8, 100, metal[0]);
-	metalliaToEtheric[metallia].addTooltip(format.gold("interacts with Liquid Mana in Containment Chalices"));
+	metalliaToEtheric[metallia].addTooltip(format.gold("Interacts with Liquid Mana in Containment Chalices"));
 }
 
 //Precious mats to precia

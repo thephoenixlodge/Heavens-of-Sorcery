@@ -2,7 +2,7 @@ setIcon(<mist:niobium_ore>)
 
 setTitle("Metallic Transition")
 
-setDescription("Obtain Niobium Ore")
+setDescription("Obtain Niobium Ore when the mist recedes at night")
 
 addParent("heavens:bookchap3/root")
 

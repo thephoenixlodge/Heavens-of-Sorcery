@@ -1,0 +1,16 @@
+setIcon(<embers:mixer>)
+
+setTitle("Big Mixup")
+
+setDescription("Craft a Mixer Centrifuge for alloying molten metals")
+
+addParent("heavens:bookchap3/20melter")
+
+setRequiresParents()
+
+setPos(80,-65)
+
+criteria1 = addCriteria("hasItems", "minecraft:inventory_changed")
+criteria1.addItem(<embers:mixer, count:1~>)
+
+addRewardItem(<embers:beam_splitter, count:1>)
