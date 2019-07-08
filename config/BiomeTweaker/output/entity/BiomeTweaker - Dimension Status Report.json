@@ -416,6 +416,51 @@
     "Class": "org.dimdev.dimdoors.shared.entities.EntityMonolith"
   },
   {
+    "Name": "minion_blaze",
+    "Registry ID": "divinefavor:entity.minion_blaze",
+    "Class": "aurocosh.divinefavor.common.entity.minions.EntityMinionBlaze"
+  },
+  {
+    "Name": "minion_cave_spider",
+    "Registry ID": "divinefavor:entity.minion_cave_spider",
+    "Class": "aurocosh.divinefavor.common.entity.minions.EntityMinionCaveSpider"
+  },
+  {
+    "Name": "minion_creeper",
+    "Registry ID": "divinefavor:entity.minion_creeper",
+    "Class": "aurocosh.divinefavor.common.entity.minions.EntityMinionCreeper"
+  },
+  {
+    "Name": "minion_husk",
+    "Registry ID": "divinefavor:entity.minion_husk",
+    "Class": "aurocosh.divinefavor.common.entity.minions.EntityMinionHusk"
+  },
+  {
+    "Name": "minion_skeleton",
+    "Registry ID": "divinefavor:entity.minion_skeleton",
+    "Class": "aurocosh.divinefavor.common.entity.minions.EntityMinionSkeleton"
+  },
+  {
+    "Name": "minion_spider",
+    "Registry ID": "divinefavor:entity.minion_spider",
+    "Class": "aurocosh.divinefavor.common.entity.minions.EntityMinionSpider"
+  },
+  {
+    "Name": "minion_stray",
+    "Registry ID": "divinefavor:entity.minion_stray",
+    "Class": "aurocosh.divinefavor.common.entity.minions.EntityMinionStray"
+  },
+  {
+    "Name": "minion_zombie",
+    "Registry ID": "divinefavor:entity.minion_zombie",
+    "Class": "aurocosh.divinefavor.common.entity.minions.EntityMinionZombie"
+  },
+  {
+    "Name": "direwolf",
+    "Registry ID": "divinefavor:entity.direwolf",
+    "Class": "aurocosh.divinefavor.common.entity.mob.EntityDirewolf"
+  },
+  {
     "Name": "ancient_golem",
     "Registry ID": "embers:ancient_golem",
     "Class": "teamroots.embers.entity.EntityAncientGolem"
@@ -654,6 +699,31 @@
     "Name": "thebetweenlands.root_sprite",
     "Registry ID": "thebetweenlands:root_sprite",
     "Class": "thebetweenlands.common.entity.mobs.EntityRootSprite"
+  },
+  {
+    "Name": "entity_fox",
+    "Registry ID": "mysticalworld:entity_fox",
+    "Class": "epicsquid.mysticalworld.entity.EntityFox"
+  },
+  {
+    "Name": "entity_frog",
+    "Registry ID": "mysticalworld:entity_frog",
+    "Class": "epicsquid.mysticalworld.entity.EntityFrog"
+  },
+  {
+    "Name": "entity_beetle",
+    "Registry ID": "mysticalworld:entity_beetle",
+    "Class": "epicsquid.mysticalworld.entity.EntityBeetle"
+  },
+  {
+    "Name": "entity_sprout",
+    "Registry ID": "mysticalworld:entity_sprout",
+    "Class": "epicsquid.mysticalworld.entity.EntitySprout"
+  },
+  {
+    "Name": "entity_deer",
+    "Registry ID": "mysticalworld:entity_deer",
+    "Class": "epicsquid.mysticalworld.entity.EntityDeer"
   },
   {
     "Name": "sentient_specter",
@@ -1429,10 +1499,5 @@
     "Name": "king_aerwhale",
     "Registry ID": "lost_aether:king_aerwhale",
     "Class": "com.legacy.lostaether.entities.EntityKingAerwhale"
-  },
-  {
-    "Name": "skeleton_phantom",
-    "Registry ID": "rootsclassic:skeleton_phantom",
-    "Class": "elucent.rootsclassic.entity.skeleton.EntityFrozenKnight"
   }
 ]

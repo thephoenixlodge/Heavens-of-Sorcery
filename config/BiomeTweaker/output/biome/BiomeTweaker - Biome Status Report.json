@@ -224,6 +224,18 @@
         "Max Group Count": 3
       },
       {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityDeer",
+        "Weight": 6,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityBeetle",
+        "Weight": 5,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
         "Entity Class": "com.crowsofwar.avatar.common.entity.mob.EntityOstrichHorse",
         "Weight": 5,
         "Min Group Count": 1,
@@ -392,9 +404,9 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
+      "DRY",
       "HOT",
-      "SANDY",
-      "DRY"
+      "SANDY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -860,6 +872,30 @@
         "Weight": 5,
         "Min Group Count": 4,
         "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityDeer",
+        "Weight": 6,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityFox",
+        "Weight": 4,
+        "Min Group Count": 1,
+        "Max Group Count": 3
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityBeetle",
+        "Weight": 5,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntitySprout",
+        "Weight": 2,
+        "Min Group Count": 2,
+        "Max Group Count": 4
       }
     ],
     "Spawnable Monsters": [
@@ -1037,8 +1073,8 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "COLD",
-      "FOREST",
-      "CONIFEROUS"
+      "CONIFEROUS",
+      "FOREST"
     ],
     "BiomeManager Entries": {
       "COOL Weights": [
@@ -1081,6 +1117,30 @@
         "Weight": 4,
         "Min Group Count": 2,
         "Max Group Count": 3
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityDeer",
+        "Weight": 6,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityFox",
+        "Weight": 4,
+        "Min Group Count": 1,
+        "Max Group Count": 3
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityBeetle",
+        "Weight": 5,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntitySprout",
+        "Weight": 2,
+        "Min Group Count": 2,
+        "Max Group Count": 4
       },
       {
         "Entity Class": "party.lemons.corvus.entity.EntityCrow",
@@ -1263,8 +1323,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "WET",
-      "SWAMP"
+      "SWAMP",
+      "WET"
     ],
     "BiomeManager Entries": {
       "WARM Weights": [
@@ -1294,6 +1354,18 @@
         "Entity Class": "net.minecraft.entity.passive.EntityCow",
         "Weight": 8,
         "Min Group Count": 4,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityBeetle",
+        "Weight": 5,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityFrog",
+        "Weight": 6,
+        "Min Group Count": 2,
         "Max Group Count": 4
       }
     ],
@@ -1469,7 +1541,20 @@
       "WATER"
     ],
     "BiomeManager Entries": {},
-    "Spawnable Creatures": [],
+    "Spawnable Creatures": [
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityFrog",
+        "Weight": 6,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntitySprout",
+        "Weight": 2,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      }
+    ],
     "Spawnable Monsters": [
       {
         "Entity Class": "net.minecraft.entity.monster.EntitySpider",
@@ -1614,9 +1699,9 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "HOT",
       "DRY",
-      "NETHER"
+      "NETHER",
+      "HOT"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -1708,12 +1793,25 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "END",
       "COLD",
-      "DRY"
+      "DRY",
+      "END"
     ],
     "BiomeManager Entries": {},
-    "Spawnable Creatures": [],
+    "Spawnable Creatures": [
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityDeer",
+        "Weight": 6,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityFox",
+        "Weight": 4,
+        "Min Group Count": 1,
+        "Max Group Count": 3
+      }
+    ],
     "Spawnable Monsters": [
       {
         "Entity Class": "net.minecraft.entity.monster.EntityEnderman",
@@ -1760,13 +1858,26 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
-      "SNOWY",
       "COLD",
       "OCEAN",
-      "WATER"
+      "WATER",
+      "SNOWY"
     ],
     "BiomeManager Entries": {},
-    "Spawnable Creatures": [],
+    "Spawnable Creatures": [
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityDeer",
+        "Weight": 6,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityFox",
+        "Weight": 4,
+        "Min Group Count": 1,
+        "Max Group Count": 3
+      }
+    ],
     "Spawnable Monsters": [
       {
         "Entity Class": "net.minecraft.entity.monster.EntitySpider",
@@ -1923,13 +2034,38 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
-      "SNOWY",
       "COLD",
       "RIVER",
-      "WATER"
+      "WATER",
+      "SNOWY"
     ],
     "BiomeManager Entries": {},
-    "Spawnable Creatures": [],
+    "Spawnable Creatures": [
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityDeer",
+        "Weight": 6,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityFox",
+        "Weight": 4,
+        "Min Group Count": 1,
+        "Max Group Count": 3
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityFrog",
+        "Weight": 6,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntitySprout",
+        "Weight": 2,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      }
+    ],
     "Spawnable Monsters": [
       {
         "Entity Class": "net.minecraft.entity.monster.EntitySpider",
@@ -2080,9 +2216,9 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
-      "SNOWY",
       "COLD",
-      "WASTELAND"
+      "WASTELAND",
+      "SNOWY"
     ],
     "BiomeManager Entries": {
       "ICY Weights": [
@@ -2101,6 +2237,18 @@
         "Weight": 1,
         "Min Group Count": 1,
         "Max Group Count": 2
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityDeer",
+        "Weight": 6,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityFox",
+        "Weight": 4,
+        "Min Group Count": 1,
+        "Max Group Count": 3
       },
       {
         "Entity Class": "com.crowsofwar.avatar.common.entity.mob.EntityOtterPenguin",
@@ -2283,9 +2431,9 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
-      "SNOWY",
+      "COLD",
       "MOUNTAIN",
-      "COLD"
+      "SNOWY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -2300,6 +2448,18 @@
         "Weight": 1,
         "Min Group Count": 1,
         "Max Group Count": 2
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityDeer",
+        "Weight": 6,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityFox",
+        "Weight": 4,
+        "Min Group Count": 1,
+        "Max Group Count": 3
       },
       {
         "Entity Class": "com.crowsofwar.avatar.common.entity.mob.EntitySkyBison",
@@ -2476,8 +2636,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "RARE",
-      "MUSHROOM"
+      "MUSHROOM",
+      "RARE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -2553,9 +2713,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "BEACH",
+      "MUSHROOM",
       "RARE",
-      "MUSHROOM"
+      "BEACH"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -2564,6 +2724,18 @@
         "Weight": 8,
         "Min Group Count": 4,
         "Max Group Count": 8
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityFrog",
+        "Weight": 6,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntitySprout",
+        "Weight": 2,
+        "Min Group Count": 2,
+        "Max Group Count": 4
       }
     ],
     "Spawnable Monsters": [
@@ -2634,7 +2806,20 @@
       "BEACH"
     ],
     "BiomeManager Entries": {},
-    "Spawnable Creatures": [],
+    "Spawnable Creatures": [
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityFrog",
+        "Weight": 6,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntitySprout",
+        "Weight": 2,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      }
+    ],
     "Spawnable Monsters": [
       {
         "Entity Class": "net.minecraft.entity.monster.EntitySpider",
@@ -2779,10 +2964,10 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "HOT",
+      "DRY",
       "HILLS",
-      "SANDY",
-      "DRY"
+      "HOT",
+      "SANDY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -2997,8 +3182,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "FOREST",
-      "HILLS"
+      "HILLS",
+      "FOREST"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -3073,6 +3258,30 @@
         "Weight": 2,
         "Min Group Count": 1,
         "Max Group Count": 1
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityDeer",
+        "Weight": 6,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityFox",
+        "Weight": 4,
+        "Min Group Count": 1,
+        "Max Group Count": 3
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityBeetle",
+        "Weight": 5,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntitySprout",
+        "Weight": 2,
+        "Min Group Count": 2,
+        "Max Group Count": 4
       }
     ],
     "Spawnable Monsters": [
@@ -3238,9 +3447,9 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "COLD",
-      "FOREST",
+      "CONIFEROUS",
       "HILLS",
-      "CONIFEROUS"
+      "FOREST"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -3321,6 +3530,30 @@
         "Weight": 2,
         "Min Group Count": 1,
         "Max Group Count": 1
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityDeer",
+        "Weight": 6,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityFox",
+        "Weight": 4,
+        "Min Group Count": 1,
+        "Max Group Count": 3
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityBeetle",
+        "Weight": 5,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntitySprout",
+        "Weight": 2,
+        "Min Group Count": 2,
+        "Max Group Count": 4
       },
       {
         "Entity Class": "party.lemons.corvus.entity.EntityCrow",
@@ -3688,10 +3921,10 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "HOT",
-      "WET",
       "JUNGLE",
-      "DENSE"
+      "DENSE",
+      "WET",
+      "HOT"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -3736,6 +3969,24 @@
         "Weight": 10,
         "Min Group Count": 1,
         "Max Group Count": 3
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityBeetle",
+        "Weight": 5,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityFrog",
+        "Weight": 6,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntitySprout",
+        "Weight": 2,
+        "Min Group Count": 2,
+        "Max Group Count": 4
       }
     ],
     "Spawnable Monsters": [
@@ -3888,11 +4139,11 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "HOT",
-      "WET",
       "JUNGLE",
+      "DENSE",
+      "WET",
       "HILLS",
-      "DENSE"
+      "HOT"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -3979,6 +4230,24 @@
         "Weight": 10,
         "Min Group Count": 1,
         "Max Group Count": 3
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityBeetle",
+        "Weight": 5,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityFrog",
+        "Weight": 6,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntitySprout",
+        "Weight": 2,
+        "Min Group Count": 2,
+        "Max Group Count": 4
       }
     ],
     "Spawnable Monsters": [
@@ -4131,10 +4400,10 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "RARE",
-      "HOT",
-      "WET",
       "JUNGLE",
+      "RARE",
+      "WET",
+      "HOT",
       "FOREST"
     ],
     "BiomeManager Entries": {},
@@ -4180,6 +4449,36 @@
         "Weight": 10,
         "Min Group Count": 1,
         "Max Group Count": 3
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityDeer",
+        "Weight": 6,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityFox",
+        "Weight": 4,
+        "Min Group Count": 1,
+        "Max Group Count": 3
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityBeetle",
+        "Weight": 5,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityFrog",
+        "Weight": 6,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntitySprout",
+        "Weight": 2,
+        "Min Group Count": 2,
+        "Max Group Count": 4
       }
     ],
     "Spawnable Monsters": [
@@ -4508,7 +4807,20 @@
       "BEACH"
     ],
     "BiomeManager Entries": {},
-    "Spawnable Creatures": [],
+    "Spawnable Creatures": [
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityFrog",
+        "Weight": 6,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntitySprout",
+        "Weight": 2,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      }
+    ],
     "Spawnable Monsters": [
       {
         "Entity Class": "net.minecraft.entity.monster.EntitySpider",
@@ -4653,12 +4965,36 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
-      "SNOWY",
+      "COLD",
       "BEACH",
-      "COLD"
+      "SNOWY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityDeer",
+        "Weight": 6,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityFox",
+        "Weight": 4,
+        "Min Group Count": 1,
+        "Max Group Count": 3
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityFrog",
+        "Weight": 6,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntitySprout",
+        "Weight": 2,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
       {
         "Entity Class": "com.crowsofwar.avatar.common.entity.mob.EntityOtterPenguin",
         "Weight": 10,
@@ -4847,6 +5183,30 @@
         "Weight": 8,
         "Min Group Count": 4,
         "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityDeer",
+        "Weight": 6,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityFox",
+        "Weight": 4,
+        "Min Group Count": 1,
+        "Max Group Count": 3
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityBeetle",
+        "Weight": 5,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntitySprout",
+        "Weight": 2,
+        "Min Group Count": 2,
+        "Max Group Count": 4
       }
     ],
     "Spawnable Monsters": [
@@ -5023,8 +5383,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "FOREST",
-      "HILLS"
+      "HILLS",
+      "FOREST"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -5093,6 +5453,30 @@
         "Weight": 2,
         "Min Group Count": 1,
         "Max Group Count": 1
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityDeer",
+        "Weight": 6,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityFox",
+        "Weight": 4,
+        "Min Group Count": 1,
+        "Max Group Count": 3
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityBeetle",
+        "Weight": 5,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntitySprout",
+        "Weight": 2,
+        "Min Group Count": 2,
+        "Max Group Count": 4
       },
       {
         "Entity Class": "com.crowsofwar.avatar.common.entity.mob.EntitySkyBison",
@@ -5263,9 +5647,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
+      "DENSE",
       "SPOOKY",
-      "FOREST",
-      "DENSE"
+      "FOREST"
     ],
     "BiomeManager Entries": {
       "WARM Weights": [
@@ -5295,6 +5679,30 @@
         "Entity Class": "net.minecraft.entity.passive.EntityCow",
         "Weight": 8,
         "Min Group Count": 4,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityDeer",
+        "Weight": 6,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityFox",
+        "Weight": 4,
+        "Min Group Count": 1,
+        "Max Group Count": 3
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityBeetle",
+        "Weight": 5,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntitySprout",
+        "Weight": 2,
+        "Min Group Count": 2,
         "Max Group Count": 4
       }
     ],
@@ -5478,10 +5886,10 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
-      "SNOWY",
       "COLD",
+      "CONIFEROUS",
       "FOREST",
-      "CONIFEROUS"
+      "SNOWY"
     ],
     "BiomeManager Entries": {
       "ICY Weights": [
@@ -5524,6 +5932,30 @@
         "Weight": 4,
         "Min Group Count": 2,
         "Max Group Count": 3
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityDeer",
+        "Weight": 6,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityFox",
+        "Weight": 4,
+        "Min Group Count": 1,
+        "Max Group Count": 3
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityBeetle",
+        "Weight": 5,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntitySprout",
+        "Weight": 2,
+        "Min Group Count": 2,
+        "Max Group Count": 4
       },
       {
         "Entity Class": "party.lemons.corvus.entity.EntityCrow",
@@ -5712,11 +6144,11 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
-      "SNOWY",
       "COLD",
-      "FOREST",
+      "CONIFEROUS",
       "HILLS",
-      "CONIFEROUS"
+      "FOREST",
+      "SNOWY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -5797,6 +6229,30 @@
         "Weight": 2,
         "Min Group Count": 1,
         "Max Group Count": 1
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityDeer",
+        "Weight": 6,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityFox",
+        "Weight": 4,
+        "Min Group Count": 1,
+        "Max Group Count": 3
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityBeetle",
+        "Weight": 5,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntitySprout",
+        "Weight": 2,
+        "Min Group Count": 2,
+        "Max Group Count": 4
       },
       {
         "Entity Class": "party.lemons.corvus.entity.EntityCrow",
@@ -5974,8 +6430,8 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "COLD",
-      "FOREST",
-      "CONIFEROUS"
+      "CONIFEROUS",
+      "FOREST"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -6014,6 +6470,30 @@
         "Weight": 4,
         "Min Group Count": 2,
         "Max Group Count": 3
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityDeer",
+        "Weight": 6,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityFox",
+        "Weight": 4,
+        "Min Group Count": 1,
+        "Max Group Count": 3
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityBeetle",
+        "Weight": 5,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntitySprout",
+        "Weight": 2,
+        "Min Group Count": 2,
+        "Max Group Count": 4
       },
       {
         "Entity Class": "party.lemons.corvus.entity.EntityCrow",
@@ -6185,9 +6665,9 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "COLD",
-      "FOREST",
+      "CONIFEROUS",
       "HILLS",
-      "CONIFEROUS"
+      "FOREST"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -6268,6 +6748,30 @@
         "Weight": 2,
         "Min Group Count": 1,
         "Max Group Count": 1
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityDeer",
+        "Weight": 6,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityFox",
+        "Weight": 4,
+        "Min Group Count": 1,
+        "Max Group Count": 3
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityBeetle",
+        "Weight": 5,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntitySprout",
+        "Weight": 2,
+        "Min Group Count": 2,
+        "Max Group Count": 4
       },
       {
         "Entity Class": "party.lemons.corvus.entity.EntityCrow",
@@ -6444,8 +6948,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SPARSE",
       "MOUNTAIN",
+      "SPARSE",
       "FOREST"
     ],
     "BiomeManager Entries": {},
@@ -6479,6 +6983,30 @@
         "Weight": 5,
         "Min Group Count": 4,
         "Max Group Count": 6
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityDeer",
+        "Weight": 6,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityFox",
+        "Weight": 4,
+        "Min Group Count": 1,
+        "Max Group Count": 3
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityBeetle",
+        "Weight": 5,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntitySprout",
+        "Weight": 2,
+        "Min Group Count": 2,
+        "Max Group Count": 4
       },
       {
         "Entity Class": "com.crowsofwar.avatar.common.entity.mob.EntitySkyBison",
@@ -6657,8 +7185,8 @@
     "Dictionary Types": [
       "SPARSE",
       "PLAINS",
-      "HOT",
-      "SAVANNA"
+      "SAVANNA",
+      "HOT"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -6703,6 +7231,18 @@
         "Weight": 4,
         "Min Group Count": 1,
         "Max Group Count": 2
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityDeer",
+        "Weight": 6,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityBeetle",
+        "Weight": 5,
+        "Min Group Count": 2,
+        "Max Group Count": 4
       },
       {
         "Entity Class": "com.crowsofwar.avatar.common.entity.mob.EntityOstrichHorse",
@@ -6864,8 +7404,8 @@
       "SPARSE",
       "PLAINS",
       "RARE",
-      "HOT",
-      "SAVANNA"
+      "SAVANNA",
+      "HOT"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -6916,6 +7456,18 @@
         "Weight": 4,
         "Min Group Count": 1,
         "Max Group Count": 2
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityDeer",
+        "Weight": 6,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityBeetle",
+        "Weight": 5,
+        "Min Group Count": 2,
+        "Max Group Count": 4
       },
       {
         "Entity Class": "com.crowsofwar.avatar.common.entity.mob.EntitySkyBison",
@@ -7080,9 +7632,9 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SANDY",
+      "MESA",
       "DRY",
-      "MESA"
+      "SANDY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -7230,10 +7782,10 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SPARSE",
-      "SANDY",
+      "MESA",
       "DRY",
-      "MESA"
+      "SPARSE",
+      "SANDY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -7381,9 +7933,9 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SANDY",
+      "MESA",
       "DRY",
-      "MESA"
+      "SANDY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -7540,6 +8092,18 @@
         "Weight": 1,
         "Min Group Count": 0,
         "Max Group Count": 1
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityDeer",
+        "Weight": 6,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityBeetle",
+        "Weight": 5,
+        "Min Group Count": 2,
+        "Max Group Count": 4
       }
     ],
     "Spawnable Monsters": [
@@ -7633,6 +8197,30 @@
         "Weight": 1,
         "Min Group Count": 0,
         "Max Group Count": 1
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityDeer",
+        "Weight": 6,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityFox",
+        "Weight": 4,
+        "Min Group Count": 1,
+        "Max Group Count": 3
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityBeetle",
+        "Weight": 5,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntitySprout",
+        "Weight": 2,
+        "Min Group Count": 2,
+        "Max Group Count": 4
       }
     ],
     "Spawnable Monsters": [
@@ -7723,9 +8311,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
+      "DENSE",
       "WET",
-      "FOREST",
-      "DENSE"
+      "FOREST"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -7734,6 +8322,30 @@
         "Weight": 1,
         "Min Group Count": 0,
         "Max Group Count": 1
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityDeer",
+        "Weight": 6,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityFox",
+        "Weight": 4,
+        "Min Group Count": 1,
+        "Max Group Count": 3
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityBeetle",
+        "Weight": 5,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntitySprout",
+        "Weight": 2,
+        "Min Group Count": 2,
+        "Max Group Count": 4
       }
     ],
     "Spawnable Monsters": [
@@ -7824,9 +8436,9 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "HOT",
+      "DRY",
       "SAVANNA",
-      "DRY"
+      "HOT"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -7913,9 +8525,9 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
+      "DRY",
       "HOT",
-      "SANDY",
-      "DRY"
+      "SANDY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -8002,10 +8614,10 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "HOT",
+      "DRY",
       "HILLS",
-      "SANDY",
-      "DRY"
+      "HOT",
+      "SANDY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -8092,10 +8704,10 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
-      "PLAINS",
-      "SNOWY",
       "COLD",
-      "CONIFEROUS"
+      "CONIFEROUS",
+      "PLAINS",
+      "SNOWY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -8104,6 +8716,24 @@
         "Weight": 1,
         "Min Group Count": 0,
         "Max Group Count": 1
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityDeer",
+        "Weight": 6,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityFox",
+        "Weight": 4,
+        "Min Group Count": 1,
+        "Max Group Count": 3
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityBeetle",
+        "Weight": 5,
+        "Min Group Count": 2,
+        "Max Group Count": 4
       },
       {
         "Entity Class": "party.lemons.corvus.entity.EntityCrow",
@@ -8194,10 +8824,10 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
-      "SNOWY",
       "COLD",
+      "CONIFEROUS",
       "FOREST",
-      "CONIFEROUS"
+      "SNOWY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -8206,6 +8836,30 @@
         "Weight": 1,
         "Min Group Count": 0,
         "Max Group Count": 1
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityDeer",
+        "Weight": 6,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityFox",
+        "Weight": 4,
+        "Min Group Count": 1,
+        "Max Group Count": 3
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityBeetle",
+        "Weight": 5,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntitySprout",
+        "Weight": 2,
+        "Min Group Count": 2,
+        "Max Group Count": 4
       },
       {
         "Entity Class": "party.lemons.corvus.entity.EntityCrow",
@@ -8302,11 +8956,11 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
-      "SNOWY",
       "COLD",
-      "FOREST",
+      "CONIFEROUS",
       "HILLS",
-      "CONIFEROUS"
+      "FOREST",
+      "SNOWY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -8315,6 +8969,30 @@
         "Weight": 1,
         "Min Group Count": 0,
         "Max Group Count": 1
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityDeer",
+        "Weight": 6,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityFox",
+        "Weight": 4,
+        "Min Group Count": 1,
+        "Max Group Count": 3
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityBeetle",
+        "Weight": 5,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntitySprout",
+        "Weight": 2,
+        "Min Group Count": 2,
+        "Max Group Count": 4
       },
       {
         "Entity Class": "party.lemons.corvus.entity.EntityCrow",
@@ -8411,8 +9089,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "WET",
-      "SWAMP"
+      "SWAMP",
+      "WET"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -8421,6 +9099,18 @@
         "Weight": 1,
         "Min Group Count": 0,
         "Max Group Count": 1
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityBeetle",
+        "Weight": 5,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityFrog",
+        "Weight": 6,
+        "Min Group Count": 2,
+        "Max Group Count": 4
       }
     ],
     "Spawnable Monsters": [
@@ -8506,9 +9196,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
+      "SWAMP",
       "PLAINS",
-      "WET",
-      "SWAMP"
+      "WET"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -8517,6 +9207,24 @@
         "Weight": 1,
         "Min Group Count": 0,
         "Max Group Count": 1
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityDeer",
+        "Weight": 6,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityBeetle",
+        "Weight": 5,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityFrog",
+        "Weight": 6,
+        "Min Group Count": 2,
+        "Max Group Count": 4
       }
     ],
     "Spawnable Monsters": [
@@ -8608,9 +9316,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
+      "SWAMP",
       "WET",
-      "FOREST",
-      "SWAMP"
+      "FOREST"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -8619,6 +9327,36 @@
         "Weight": 1,
         "Min Group Count": 0,
         "Max Group Count": 1
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityDeer",
+        "Weight": 6,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityFox",
+        "Weight": 4,
+        "Min Group Count": 1,
+        "Max Group Count": 3
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityBeetle",
+        "Weight": 5,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityFrog",
+        "Weight": 6,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntitySprout",
+        "Weight": 2,
+        "Min Group Count": 2,
+        "Max Group Count": 4
       }
     ],
     "Spawnable Monsters": [
@@ -8717,9 +9455,9 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "JUNGLE",
+      "LUSH",
       "WET",
-      "FOREST",
-      "LUSH"
+      "FOREST"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -8728,6 +9466,36 @@
         "Weight": 1,
         "Min Group Count": 0,
         "Max Group Count": 1
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityDeer",
+        "Weight": 6,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityFox",
+        "Weight": 4,
+        "Min Group Count": 1,
+        "Max Group Count": 3
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityBeetle",
+        "Weight": 5,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityFrog",
+        "Weight": 6,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntitySprout",
+        "Weight": 2,
+        "Min Group Count": 2,
+        "Max Group Count": 4
       }
     ],
     "Spawnable Monsters": [
@@ -8828,6 +9596,24 @@
         "Weight": 1,
         "Min Group Count": 0,
         "Max Group Count": 1
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityBeetle",
+        "Weight": 5,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityFrog",
+        "Weight": 6,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntitySprout",
+        "Weight": 2,
+        "Min Group Count": 2,
+        "Max Group Count": 4
       }
     ],
     "Spawnable Monsters": [
@@ -8907,9 +9693,9 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "JUNGLE",
-      "FOREST",
+      "LUSH",
       "HILLS",
-      "LUSH"
+      "FOREST"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -8918,6 +9704,36 @@
         "Weight": 1,
         "Min Group Count": 0,
         "Max Group Count": 1
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityDeer",
+        "Weight": 6,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityFox",
+        "Weight": 4,
+        "Min Group Count": 1,
+        "Max Group Count": 3
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityBeetle",
+        "Weight": 5,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityFrog",
+        "Weight": 6,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntitySprout",
+        "Weight": 2,
+        "Min Group Count": 2,
+        "Max Group Count": 4
       }
     ],
     "Spawnable Monsters": [
@@ -9019,6 +9835,18 @@
         "Weight": 1,
         "Min Group Count": 0,
         "Max Group Count": 1
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityFrog",
+        "Weight": 6,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntitySprout",
+        "Weight": 2,
+        "Min Group Count": 2,
+        "Max Group Count": 4
       }
     ],
     "Spawnable Monsters": [
@@ -9097,8 +9925,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "WET",
-      "SWAMP"
+      "SWAMP",
+      "WET"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -9107,6 +9935,18 @@
         "Weight": 1,
         "Min Group Count": 0,
         "Max Group Count": 1
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityBeetle",
+        "Weight": 5,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityFrog",
+        "Weight": 6,
+        "Min Group Count": 2,
+        "Max Group Count": 4
       }
     ],
     "Spawnable Monsters": [
@@ -9203,6 +10043,18 @@
         "Weight": 1,
         "Min Group Count": 0,
         "Max Group Count": 1
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityFrog",
+        "Weight": 6,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntitySprout",
+        "Weight": 2,
+        "Min Group Count": 2,
+        "Max Group Count": 4
       }
     ],
     "Spawnable Monsters": [
@@ -9281,11 +10133,11 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
-      "SNOWY",
-      "RIVER",
       "COLD",
+      "RIVER",
       "WET",
-      "WATER"
+      "WATER",
+      "SNOWY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -9294,6 +10146,30 @@
         "Weight": 1,
         "Min Group Count": 0,
         "Max Group Count": 1
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityDeer",
+        "Weight": 6,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityFox",
+        "Weight": 4,
+        "Min Group Count": 1,
+        "Max Group Count": 3
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityFrog",
+        "Weight": 6,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntitySprout",
+        "Weight": 2,
+        "Min Group Count": 2,
+        "Max Group Count": 4
       }
     ],
     "Spawnable Monsters": [
@@ -9376,7 +10252,20 @@
       "WASTELAND"
     ],
     "BiomeManager Entries": {},
-    "Spawnable Creatures": [],
+    "Spawnable Creatures": [
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityDeer",
+        "Weight": 6,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityBeetle",
+        "Weight": 5,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      }
+    ],
     "Spawnable Monsters": [
       {
         "Entity Class": "net.minecraft.entity.monster.EntitySpider",
@@ -9465,10 +10354,10 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "HOT",
+      "DRY",
       "WASTELAND",
-      "SANDY",
-      "DRY"
+      "HOT",
+      "SANDY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -9554,12 +10443,25 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
-      "SNOWY",
       "COLD",
-      "WASTELAND"
+      "WASTELAND",
+      "SNOWY"
     ],
     "BiomeManager Entries": {},
-    "Spawnable Creatures": [],
+    "Spawnable Creatures": [
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityDeer",
+        "Weight": 6,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityFox",
+        "Weight": 4,
+        "Min Group Count": 1,
+        "Max Group Count": 3
+      }
+    ],
     "Spawnable Monsters": [
       {
         "Entity Class": "net.minecraft.entity.monster.EntitySpider",
@@ -9734,7 +10636,26 @@
       "WASTELAND"
     ],
     "BiomeManager Entries": {},
-    "Spawnable Creatures": [],
+    "Spawnable Creatures": [
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityBeetle",
+        "Weight": 5,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityFrog",
+        "Weight": 6,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntitySprout",
+        "Weight": 2,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      }
+    ],
     "Spawnable Monsters": [
       {
         "Entity Class": "net.minecraft.entity.monster.EntitySpider",
@@ -9817,8 +10738,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SPOOKY",
-      "DEAD"
+      "DEAD",
+      "SPOOKY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -9886,8 +10807,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SPOOKY",
-      "DEAD"
+      "DEAD",
+      "SPOOKY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -9955,8 +10876,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SPOOKY",
-      "DEAD"
+      "DEAD",
+      "SPOOKY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -10024,8 +10945,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SPOOKY",
-      "DEAD"
+      "DEAD",
+      "SPOOKY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -10093,8 +11014,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SPOOKY",
-      "DEAD"
+      "DEAD",
+      "SPOOKY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -10162,8 +11083,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SPOOKY",
-      "DEAD"
+      "DEAD",
+      "SPOOKY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -10424,8 +11345,8 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SPOOKY",
-      "MAGICAL"
+      "MAGICAL",
+      "SPOOKY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -10580,9 +11501,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SPOOKY",
       "END",
-      "MAGICAL"
+      "MAGICAL",
+      "SPOOKY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -10769,11 +11690,11 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
-      "SPARSE",
-      "SNOWY",
       "COLD",
+      "SPARSE",
       "DEAD",
-      "WASTELAND"
+      "WASTELAND",
+      "SNOWY"
     ],
     "BiomeManager Entries": {
       "COOL Weights": [
@@ -10902,8 +11823,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "FOREST",
-      "DENSE"
+      "DENSE",
+      "FOREST"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -11075,8 +11996,8 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "PLAINS",
-      "HOT",
-      "DEAD"
+      "DEAD",
+      "HOT"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -11340,10 +12261,10 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SPOOKY",
       "MAGICAL",
       "MOUNTAIN",
       "WASTELAND",
+      "SPOOKY",
       "WATER"
     ],
     "BiomeManager Entries": {},
@@ -11388,10 +12309,10 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SPOOKY",
       "MAGICAL",
       "MOUNTAIN",
-      "WASTELAND"
+      "WASTELAND",
+      "SPOOKY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -11435,11 +12356,11 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SPOOKY",
-      "MAGICAL",
-      "COLD",
       "DRY",
-      "VOID"
+      "COLD",
+      "MAGICAL",
+      "VOID",
+      "SPOOKY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -11521,8 +12442,8 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "MAGICAL",
       "COLD",
+      "MAGICAL",
       "VOID"
     ],
     "BiomeManager Entries": {},
@@ -11646,8 +12567,8 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "MAGICAL",
-      "COLD"
+      "COLD",
+      "MAGICAL"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -11716,9 +12637,9 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
-      "SNOWY",
       "MAGICAL",
-      "MOUNTAIN"
+      "MOUNTAIN",
+      "SNOWY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -11813,8 +12734,8 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "MAGICAL",
       "COLD",
+      "MAGICAL",
       "OCEAN",
       "WATER"
     ],
@@ -11860,9 +12781,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SNOWY",
+      "SWAMP",
       "MAGICAL",
-      "SWAMP"
+      "SNOWY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -11952,9 +12873,9 @@
     "Enable Snow": true,
     "Dictionary Types": [
       "MAGICAL",
-      "FOREST",
+      "LUSH",
       "DENSE",
-      "LUSH"
+      "FOREST"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -12017,8 +12938,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "MOUNTAIN",
       "MAGICAL",
+      "MOUNTAIN",
       "HILLS"
     ],
     "BiomeManager Entries": {},
@@ -12094,10 +13015,10 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SPOOKY",
-      "FOREST",
+      "LUSH",
       "DENSE",
-      "LUSH"
+      "FOREST",
+      "SPOOKY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -12172,9 +13093,9 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
+      "DRY",
       "DEAD",
-      "SANDY",
-      "DRY"
+      "SANDY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -12400,9 +13321,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
+      "SWAMP",
       "WET",
-      "WATER",
-      "SWAMP"
+      "WATER"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -12440,11 +13361,11 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
+      "SWAMP",
+      "DENSE",
       "WET",
       "FOREST",
-      "WATER",
-      "SWAMP",
-      "DENSE"
+      "WATER"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -12495,8 +13416,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "WATER",
-      "SWAMP"
+      "SWAMP",
+      "WATER"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -12534,9 +13455,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
+      "SWAMP",
       "WET",
-      "WATER",
-      "SWAMP"
+      "WATER"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -12574,10 +13495,10 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
+      "SWAMP",
       "WET",
-      "DEAD",
       "WASTELAND",
-      "SWAMP"
+      "DEAD"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -12622,9 +13543,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
+      "SWAMP",
       "WET",
-      "WATER",
-      "SWAMP"
+      "WATER"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -12662,9 +13583,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
+      "SWAMP",
       "WET",
-      "WATER",
-      "SWAMP"
+      "WATER"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -12702,11 +13623,11 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
+      "SWAMP",
+      "DENSE",
       "WET",
       "FOREST",
-      "WATER",
-      "SWAMP",
-      "DENSE"
+      "WATER"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -12865,6 +13786,18 @@
         "Weight": 1,
         "Min Group Count": 1,
         "Max Group Count": 3
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityDeer",
+        "Weight": 6,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityBeetle",
+        "Weight": 5,
+        "Min Group Count": 2,
+        "Max Group Count": 4
       }
     ],
     "Spawnable Monsters": [
@@ -13017,10 +13950,10 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
+      "DRY",
       "RARE",
       "HOT",
-      "SANDY",
-      "DRY"
+      "SANDY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -13187,8 +14120,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SPARSE",
       "MOUNTAIN",
+      "SPARSE",
       "RARE"
     ],
     "BiomeManager Entries": {},
@@ -13381,8 +14314,8 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "RARE",
-      "FOREST",
-      "HILLS"
+      "HILLS",
+      "FOREST"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -13457,6 +14390,30 @@
         "Weight": 2,
         "Min Group Count": 1,
         "Max Group Count": 1
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityDeer",
+        "Weight": 6,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityFox",
+        "Weight": 4,
+        "Min Group Count": 1,
+        "Max Group Count": 3
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityBeetle",
+        "Weight": 5,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntitySprout",
+        "Weight": 2,
+        "Min Group Count": 2,
+        "Max Group Count": 4
       }
     ],
     "Spawnable Monsters": [
@@ -13621,11 +14578,11 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "MOUNTAIN",
       "COLD",
+      "CONIFEROUS",
+      "MOUNTAIN",
       "RARE",
-      "FOREST",
-      "CONIFEROUS"
+      "FOREST"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -13664,6 +14621,30 @@
         "Weight": 4,
         "Min Group Count": 2,
         "Max Group Count": 3
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityDeer",
+        "Weight": 6,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityFox",
+        "Weight": 4,
+        "Min Group Count": 1,
+        "Max Group Count": 3
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityBeetle",
+        "Weight": 5,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntitySprout",
+        "Weight": 2,
+        "Min Group Count": 2,
+        "Max Group Count": 4
       },
       {
         "Entity Class": "party.lemons.corvus.entity.EntityCrow",
@@ -13840,10 +14821,10 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
+      "SWAMP",
       "RARE",
       "WET",
-      "HILLS",
-      "SWAMP"
+      "HILLS"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -13912,6 +14893,18 @@
         "Weight": 2,
         "Min Group Count": 1,
         "Max Group Count": 1
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityBeetle",
+        "Weight": 5,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityFrog",
+        "Weight": 6,
+        "Min Group Count": 2,
+        "Max Group Count": 4
       }
     ],
     "Spawnable Monsters": [
@@ -14070,10 +15063,10 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
-      "SNOWY",
       "COLD",
       "RARE",
-      "HILLS"
+      "HILLS",
+      "SNOWY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -14130,6 +15123,18 @@
         "Weight": 2,
         "Min Group Count": 1,
         "Max Group Count": 1
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityDeer",
+        "Weight": 6,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityFox",
+        "Weight": 4,
+        "Min Group Count": 1,
+        "Max Group Count": 3
       },
       {
         "Entity Class": "com.crowsofwar.avatar.common.entity.mob.EntityOtterPenguin",
@@ -14294,12 +15299,12 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
+      "JUNGLE",
       "MOUNTAIN",
       "RARE",
-      "HOT",
+      "DENSE",
       "WET",
-      "JUNGLE",
-      "DENSE"
+      "HOT"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -14344,6 +15349,24 @@
         "Weight": 10,
         "Min Group Count": 1,
         "Max Group Count": 3
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityBeetle",
+        "Weight": 5,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityFrog",
+        "Weight": 6,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntitySprout",
+        "Weight": 2,
+        "Min Group Count": 2,
+        "Max Group Count": 4
       }
     ],
     "Spawnable Monsters": [
@@ -14502,11 +15525,11 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
+      "JUNGLE",
       "SPARSE",
       "RARE",
-      "HOT",
-      "JUNGLE",
-      "HILLS"
+      "HILLS",
+      "HOT"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -14593,6 +15616,24 @@
         "Weight": 10,
         "Min Group Count": 1,
         "Max Group Count": 3
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityBeetle",
+        "Weight": 5,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityFrog",
+        "Weight": 6,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntitySprout",
+        "Weight": 2,
+        "Min Group Count": 2,
+        "Max Group Count": 4
       }
     ],
     "Spawnable Monsters": [
@@ -14740,9 +15781,9 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "RARE",
-      "FOREST",
+      "DENSE",
       "HILLS",
-      "DENSE"
+      "FOREST"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -14811,6 +15852,30 @@
         "Weight": 2,
         "Min Group Count": 1,
         "Max Group Count": 1
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityDeer",
+        "Weight": 6,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityFox",
+        "Weight": 4,
+        "Min Group Count": 1,
+        "Max Group Count": 3
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityBeetle",
+        "Weight": 5,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntitySprout",
+        "Weight": 2,
+        "Min Group Count": 2,
+        "Max Group Count": 4
       }
     ],
     "Spawnable Monsters": [
@@ -14977,8 +16042,8 @@
     "Dictionary Types": [
       "MOUNTAIN",
       "RARE",
-      "FOREST",
-      "DENSE"
+      "DENSE",
+      "FOREST"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -15004,6 +16069,30 @@
         "Entity Class": "net.minecraft.entity.passive.EntityCow",
         "Weight": 8,
         "Min Group Count": 4,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityDeer",
+        "Weight": 6,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityFox",
+        "Weight": 4,
+        "Min Group Count": 1,
+        "Max Group Count": 3
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityBeetle",
+        "Weight": 5,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntitySprout",
+        "Weight": 2,
+        "Min Group Count": 2,
         "Max Group Count": 4
       }
     ],
@@ -15175,11 +16264,11 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SPOOKY",
       "MOUNTAIN",
       "RARE",
-      "FOREST",
-      "DENSE"
+      "DENSE",
+      "SPOOKY",
+      "FOREST"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -15205,6 +16294,30 @@
         "Entity Class": "net.minecraft.entity.passive.EntityCow",
         "Weight": 8,
         "Min Group Count": 4,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityDeer",
+        "Weight": 6,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityFox",
+        "Weight": 4,
+        "Min Group Count": 1,
+        "Max Group Count": 3
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityBeetle",
+        "Weight": 5,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntitySprout",
+        "Weight": 2,
+        "Min Group Count": 2,
         "Max Group Count": 4
       }
     ],
@@ -15382,12 +16495,12 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
-      "SNOWY",
-      "MOUNTAIN",
       "COLD",
+      "CONIFEROUS",
+      "MOUNTAIN",
       "RARE",
       "FOREST",
-      "CONIFEROUS"
+      "SNOWY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -15426,6 +16539,30 @@
         "Weight": 4,
         "Min Group Count": 2,
         "Max Group Count": 3
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityDeer",
+        "Weight": 6,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityFox",
+        "Weight": 4,
+        "Min Group Count": 1,
+        "Max Group Count": 3
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityBeetle",
+        "Weight": 5,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntitySprout",
+        "Weight": 2,
+        "Min Group Count": 2,
+        "Max Group Count": 4
       },
       {
         "Entity Class": "party.lemons.corvus.entity.EntityCrow",
@@ -15609,8 +16746,8 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "RARE",
-      "FOREST",
-      "DENSE"
+      "DENSE",
+      "FOREST"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -15649,6 +16786,30 @@
         "Weight": 4,
         "Min Group Count": 2,
         "Max Group Count": 3
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityDeer",
+        "Weight": 6,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityFox",
+        "Weight": 4,
+        "Min Group Count": 1,
+        "Max Group Count": 3
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityBeetle",
+        "Weight": 5,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntitySprout",
+        "Weight": 2,
+        "Min Group Count": 2,
+        "Max Group Count": 4
       }
     ],
     "Spawnable Monsters": [
@@ -15814,9 +16975,9 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "RARE",
-      "FOREST",
+      "DENSE",
       "HILLS",
-      "DENSE"
+      "FOREST"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -15897,6 +17058,30 @@
         "Weight": 2,
         "Min Group Count": 1,
         "Max Group Count": 1
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityDeer",
+        "Weight": 6,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityFox",
+        "Weight": 4,
+        "Min Group Count": 1,
+        "Max Group Count": 3
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityBeetle",
+        "Weight": 5,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntitySprout",
+        "Weight": 2,
+        "Min Group Count": 2,
+        "Max Group Count": 4
       }
     ],
     "Spawnable Monsters": [
@@ -16061,8 +17246,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SPARSE",
       "MOUNTAIN",
+      "SPARSE",
       "RARE"
     ],
     "BiomeManager Entries": {},
@@ -16254,12 +17439,12 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SPARSE",
-      "MOUNTAIN",
-      "RARE",
-      "HOT",
       "DRY",
-      "SAVANNA"
+      "MOUNTAIN",
+      "SPARSE",
+      "RARE",
+      "SAVANNA",
+      "HOT"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -16456,12 +17641,12 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
+      "DRY",
       "SPARSE",
       "RARE",
-      "HOT",
       "HILLS",
-      "DRY",
-      "SAVANNA"
+      "SAVANNA",
+      "HOT"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -16694,11 +17879,11 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SPARSE",
+      "DRY",
       "MOUNTAIN",
+      "SPARSE",
       "RARE",
-      "HOT",
-      "DRY"
+      "HOT"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -16852,11 +18037,11 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
+      "DRY",
       "SPARSE",
       "RARE",
-      "HOT",
       "HILLS",
-      "DRY"
+      "HOT"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -17047,11 +18232,11 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SPARSE",
+      "DRY",
       "MOUNTAIN",
+      "SPARSE",
       "RARE",
-      "HOT",
-      "DRY"
+      "HOT"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],

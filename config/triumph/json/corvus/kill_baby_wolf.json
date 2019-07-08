@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:bone"
+    },
+    "title": {
+      "translate": "advancements.corvus.kill_baby_wolf.title"
+    },
+    "description": {
+      "translate": "advancements.corvus.kill_baby_wolf.description"
+    }
+  },
+  "parent": "corvus:corvus/awaken",
+  "criteria": {
+    "kill_wolf": {
+      "trigger": "minecraft:impossible"
+      }
+    }
+}

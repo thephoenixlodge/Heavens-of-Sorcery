@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "corvus:oil_protective"
+    },
+    "title": {
+      "translate": "advancements.corvus.spirit.title"
+    },
+    "description": {
+      "translate": "advancements.corvus.spirit.description"
+    }
+  },
+  "parent": "corvus:corvus/awaken",
+  "criteria": {
+    "kill_wolf": {
+      "trigger": "minecraft:effects_changed",
+      "conditions":{
+        "effects": {
+          "minecraft:invisibility": {},
+          "corvus:slow_fall": {}
+        }
+      }
+      }
+    }
+}

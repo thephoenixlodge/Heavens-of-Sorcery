@@ -1,0 +1,2 @@
+give @p buildinggadgets:template 1 0 {copycounter: 2, TemplateName: "Starlight Altar", UUID: "2bc79549-8d6c-4074-afa6-1be0c75737e7", startPos: {X: -4973, Y: 95, Z: -5010}, itemcountmap: [{item: 7942, meta: 1, count: 24}, {item: 7942, meta: 3, count: 28}, {item: 7942, meta: 2, count: 8}, {item: 7942, meta: 4, count: 8}, {item: 7943, meta: 0, count: 21}], endPos: {X: -4981, Y: 98, Z: -5002}}
+give @p astralsorcery:itemcraftingcomponent 8 3

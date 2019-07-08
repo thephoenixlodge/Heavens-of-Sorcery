@@ -1,8 +1,10 @@
 //Imports
 import mods.rustic.EvaporatingBasin;
 import mods.inspirations.Cauldron as CauldronCrafting;
+import mods.roots.Mortar;
 import mods.ArcaneWorld;
 import scripts.globals;
+import mods.astralsorcery.Altar;
 
 ////Variables
 //Basics
@@ -27,6 +29,8 @@ val water = <liquid:water>;
 val manaLiquid = <liquid:mana_fluid>;
 val nacreLiquid = <liquid:nacre_fluid>;
 val pastureSeedInfused = <botania:grassseeds:7>;
+val pastureSeedAny = <botania:grassseeds:*>;
+val pastureSeed = <botania:grassseeds>;
 val orbGlass = <wizardry:orb>;
 val orbMana100 = <wizardry:orb:1>;
 val cauldron = <minecraft:cauldron>;
@@ -51,9 +55,9 @@ val diorite = <minecraft:stone:3>;
 val oreDiorite = <ore:stoneDiorite>;
 val andesite = <minecraft:stone:5>;
 val granite = <minecraft:stone:1>;
-val growthPowder = <rootsclassic:growthsalve>;
+val granitePolished = <minecraft:stone:2>;
 val redstone = <minecraft:redstone>;
-val pestle = <rootsclassic:pestle>;
+val pestle = <roots:pestle>;
 val meecreepBox = <meecreeps:creepcube>;
 val plankWisdomWood = <wizardry:wisdom_wood_planks>;
 val diamond = <minecraft:diamond>;
@@ -95,6 +99,17 @@ val nacrePearl = <wizardry:nacre_pearl>;
 val emberShard = <embers:shard_ember>;
 val livingwoodStick = <botania:manaresource:3>;
 val bacterialShale = <mist:bio_shale>;
+val vaultSearcher = <vaultopic:vault_searcher>;
+val view1 = <vaultopic:view_small>;
+val view2 = <vaultopic:view_big>;
+val vice = <vaultopic:vice>;
+val gemZanite = <aether_legacy:zanite_gemstone>;
+val ingotNiobium = <mist:niobium_ingot>;
+val ingotManasteel = <botania:manaresource>;
+val dustStarmetal = <astralsorcery:itemcraftingcomponent:2>;
+val craftingStation = <craftingstation:tooltables>;
+val book = <minecraft:book>;
+val akashicTome = <akashictome:tome>;
 
 //Change Crushing tub recipe for starting
 recipes.remove(crushingTub);
@@ -169,9 +184,12 @@ recipes.addShapeless(granite, [oreDiorite, quartzSliver]);
 recipes.removeByRecipeName("quark:stone");
 recipes.addShapeless(andesite, [basalt, quartzSliver]);
 
+//pestle
+recipes.remove(pestle);
+recipes.addShaped(pestle, [[null, null, diorite], [andesite, andesite, null], [andesite, andesite, null]]);
+
 //Growth Powder
-recipes.remove(growthPowder);
-recipes.addShapeless(growthPowder * 3, [pestle.reuse(), seedWheat, redstone, pastureSeedInfused]);
+Mortar.addRecipe(pastureSeed, [pastureSeedAny]);
 
 //Meecreep box
 recipes.remove(meecreepBox);
@@ -222,7 +240,7 @@ ArcaneWorld.createRitualCreateItem("angel_statue", "Choir of Angels", angelicSta
 
 //Misty World Portal stones
 ArcaneWorld.createRitualCreateItem("mist_portal_upper", "Imbue Upper Portal Stone", mistyPortalUpper, stoneTaiga, portalCore, nuggetGold, amethyst, bottleEmpty);
-ArcaneWorld.createRitualCreateItem("mist_portal_lower", "Imbue Lower Portal Stone", mistyPortalLower, stoneTaiga, portalCore, nuggetGold, amethyst, growthPowder);
+ArcaneWorld.createRitualCreateItem("mist_portal_lower", "Imbue Lower Portal Stone", mistyPortalLower, stoneTaiga, portalCore, nuggetGold, amethyst, pastureSeed);
 
 //Alt bed recipe with thatch
 recipes.addShaped(bedYellow, [[oreThatch, oreThatch, oreThatch], [plankWood, plankWood, plankWood]]);
@@ -231,8 +249,26 @@ recipes.addShaped(bedYellow, [[oreThatch, oreThatch, oreThatch], [plankWood, pla
 ArcaneWorld.createRitualCreateItem("advWand", "Enhance Ironwood Wand", wandIronwoodAdv, wandIronwood, livingwoodStick, emberShard, nacrePearl, sapphire);
 
 //Tweak Dungeon Ritual cost
-ArcaneWorld.remove("arcaenworld:dungeon");
+ArcaneWorld.remove("arcaneworld:dungeon");
 ArcaneWorld.createRitualDungeon("dungeon2", "Dungeon Raid", sapphire, sapphire, sapphire, ingotGold, nacrePearl);
 
 //Alt summon for slime with bacterial shale
 ArcaneWorld.createRitualSummon("summon_slime", "Conjure Slime", "slime", bacterialShale, amethyst, bone);
+
+//Vaultropic recipe and name changes
+recipes.remove(vaultSearcher);
+ArcaneWorld.createRitualCreateItem("searcher", "Index Inventories", vaultSearcher, book, chest, sapphire, nacrePearl);
+globals.setNewName(vaultSearcher, "Material Index");
+recipes.remove(view1);
+ArcaneWorld.createRitualCreateItem("view", "Item Seeker", view1, granitePolished, angelHeart, vaultSearcher, vaultSearcher);
+globals.setNewName(view1, "Item Seeker");
+recipes.remove(view2);
+Altar.addDiscoveryAltarRecipe("internal/altar/view2", view2, 400, 100, [vaultSearcher, gemZanite, vaultSearcher, ingotNiobium, view1, ingotNiobium, vaultSearcher, gemZanite, vaultSearcher]);
+globals.setNewName(view2, "Enhanced Item Seeker");
+recipes.remove(vice);
+Altar.addConstellationAltarRecipe("internal/altar/vice", vice, 3000, 500, [null, craftingStation, null, dustStarmetal, view2, dustStarmetal, null, craftingStation, null, vaultSearcher, vaultSearcher, vaultSearcher, vaultSearcher, ingotManasteel, ingotManasteel, ingotManasteel, ingotManasteel, ingotManasteel, ingotManasteel, ingotManasteel, ingotManasteel]);
+globals.setNewName(vice, "Regional Crafter");
+
+//akashicTome
+recipes.remove(akashicTome);
+ArcaneWorld.createRitualCreateItem("akashic", "Imbue Akashic Tome", akashicTome, book, chest);

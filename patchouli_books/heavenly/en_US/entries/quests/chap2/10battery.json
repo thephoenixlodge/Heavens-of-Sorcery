@@ -10,22 +10,22 @@
             "type": "quest",
             "title": "Battery Builder",
             "trigger": "heavens:bookchap2/11manabattery",
-            "text": "The spellcrafting altar can be fed mana by placing $(item)Mana Orbs$() on the $()Pearl Holders$(), but that's a rather small reserve, and requires frequent manual refilling. Building a $(item)Mana Battery$() structure will allow you to hold much more $(thing)mana$() in reserve for creating your spells. Like the spellcrafting altar, the structure is built mostly of $(item)Quartz$(), $(item)Gold$() and"
+            "text": "The spellcrafting altar can be fed mana by placing $(item)Mana Orbs$() on the $()Pearl Holders$(), but that's a rather small reserve, and requires frequent manual refilling. A $(item)Mana Battery$() structure will slowly regenerate $(thing)mana$() and act as a reserve of it for creating your spells. Like the spellcrafting altar, the structure is built mostly of "
         },
         {
             "type": "text",
-            "text": "$(item)Wisdom Wood$(), but also includes 8 buckets of $(item)Liquid Mana$() in the middle of the structure."
+            "text": "$(item)Quartz$(), $(item)Gold$() and $(item)Wisdom Wood$(), but also includes 8 buckets of $(item)Liquid Mana$() in the middle of the structure."
         },
         {
         	"type": "checklist_many",
             "item1": "wizardry:mana_battery#1",
-            "item2": "wizardry:pearl_holder#8",
-            "item3": "wizardry:wisdom_wood_log#38",
-            "item4": "wizardry:wisdom_wood_planks#28",
-            "item5": "wizardry:wisdom_wood_pigmented_planks#8",
-            "item6": "wizardry:wisdom_wood_stairs#20",
-            "item7": "minecraft:quartz_block#41",
-            "item8": "minecraft:quartz_stairs#12",
+            "item2": "wizardry:pearl_holder#4",
+            "item3": "wizardry:wisdom_wood_log#15",
+            "item4": "wizardry:wisdom_wood_planks#20",
+            "item5": "wizardry:wisdom_wood_pigmented_planks#12",
+            "item6": "wizardry:wisdom_wood_stairs#8",
+            "item7": "minecraft:quartz_block#20",
+            "item8": "minecraft:quartz_stairs#8",
             "reward1": "wizardry:orb:1#40",
             "reward2": "minecraft:quartz#200",
             "reward3": "buildinggadgets:template#1{TemplateName:\"Mana Battery\"}"
@@ -36,23 +36,15 @@
             "text": "The Mana Battery block must be placed 2 blocks above the log in the middle (1 block of air between log and battery)",
             "multiblock": {
             "pattern": [
-                ["           ", " H       H ", "           ", "           ", "           ", "           ", "           ", "           ", "           ", " H       H ", "           "],
-
-                ["           ", " L       L ", "           ", "   H   H   ", "           ", "           ", "           ", "   H   H   ", "           ", " L       L ", "           "],
-
-                ["           ", " L       L ", "           ", "   L   L   ", "           ", "     B     ", "           ", "   L   L   ", "           ", " L       L ", "           "],
-
-                ["           ", " L       L ", "           ", "   L   L   ", "           ", "           ", "           ", "   L   L   ", "           ", " L       L ", "           "],
-
-                ["           ", " L   R   L ", "  DDDQDDD  ", "  SL T LI  ", "  S     I  ", " AQU L AQU ", "  S     I  ", "  SL R LI  ", "  SOOQOOO  ", " L   T   L ", "           "],
-
-                ["     R     ", " LQQQWQQQL ", " QWWWWWWWQ ", " QWLPQPLWQ ", " QWPMMMPWQ ", "AWWQMLMQWWU", " QWPMMMPWQ ", " QWLPQPLWQ ", " QWWWWWWWQ ", " LQQQWQQQL ", "     T     "],
-
-                ["           ", "           ", "           ", "           ", "    QQQ    ", "    Q0Q    ", "    QQQ    ", "           ", "           ", "           ", "           "]
+                ["         ", "         ", "         ", "         ", "    B    ", "         ", "         ", "         ", "         "],
+                ["         ", " H     H ", "         ", "         ", "         ", "         ", "         ", " H     H ", "         "],
+                ["         ", " L     L ", "         ", "         ", "    L    ", "         ", "         ", " L     L ", "         "],
+                ["         ", " L  R  L ", "  PDQDP  ", "  S   I  ", " AQ L QU ", "  S   I  ", "  POQOP  ", " L  T  L ", "         "],
+                ["    R    ", " LWWWWWL ", " WQQQQQW ", " WQPPPQW ", "AWQP0PQWU", " WQPPPQW ", " WQQQQQW ", " LWWWWWL ", "    T    "]
             ],
             "mapping": {
                 " ": "ANY",
-                "0": "minecraft:quartz_block",
+                "0": "wizardry:wisdom_wood_log",
                 "Q": "minecraft:quartz_block",
                 "H": "wizardry:pearl_holder",
                 "B": "wizardry:mana_battery",
@@ -66,8 +58,7 @@
                 "U": "minecraft:quartz_stairs[facing=north]",
                 "A": "minecraft:quartz_stairs[facing=south]",
                 "R": "minecraft:quartz_stairs[facing=east]",
-                "T": "minecraft:quartz_stairs[facing=west]",
-                "M": "liquid:mana_fluid"
+                "T": "minecraft:quartz_stairs[facing=west]"
             },
             "symmetrical": true,
             "offset"     : [0, 0, 0],

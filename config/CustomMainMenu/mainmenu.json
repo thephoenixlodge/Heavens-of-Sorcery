@@ -90,7 +90,7 @@
 		
 		"discord":
         {
-            "text" : "",
+            "text" : " ",
             "tooltip" : "Join the discussion on Discord",
             "posX" : 110,
             "posY" : -130,
@@ -107,7 +107,7 @@
         
 		"patreon":
         {
-            "text" : "",
+            "text" : " ",
             "tooltip" : "Support thephoenixlodge on Patreon",
             "posX" : 110,
             "posY" : -80,
@@ -124,7 +124,7 @@
 		
 		"twitter":
         {
-            "text" : "",
+            "text" : " ",
             "tooltip" : "Follow thephoenixlodge on Twitter for news about updates and new packs",
             "posX" : 110,
             "posY" : -105,
@@ -141,7 +141,7 @@
 		
         "language":
         {
-            "text" : "",
+            "text" : " ",
             "tooltip" : "Change Language",
             "posX" : 110,
             "posY" : -55,
@@ -157,7 +157,7 @@
         
         "refresh":
         {
-            "text" : "",
+            "text" : " ",
             "tooltip" : "Refreshes Main Menu",
             "posX" : 110,
             "posY" : -30,
