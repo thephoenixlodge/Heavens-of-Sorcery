@@ -1,0 +1,20 @@
+{
+    "name": "Atomement",
+    "icon": "akashictome:tome",
+    "category": "useful_things",
+    "advancement": "heavens:bookchap2/3cows",
+    "pages": [
+        {
+            "type": "text",
+            "text": "The quest for knowledge is a noble one, but at somepoint, you may find yourself simply drowning in books. You can however, imbue a book with the capacity to hold and transform between various tomes. Such a book is known as an $(item)Akashic Tome$().$(br2)Craft with other books to add them to the $(item)Akashic Tome$()."
+        },
+        {
+            "type": "ritual",
+            "output_item": "akashictome:tome",
+            "item1": "minecraft:book",
+            "item2": "minecraft:chest",
+            "heading": "Akashic Tome",
+            "description": "With a book selected, Use $(k:attack) in the air to reset and choose a different book."
+        }
+    ]
+}

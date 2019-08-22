@@ -11,7 +11,6 @@
         {
             "type": "altar_luminous",
             "output_item": "astralsorcery:itemsextant",
-            "constellation": "Vicio",
             "item2": "astralsorcery:itemcraftingcomponent:3",
             "item4": "minecraft:gold_ingot",
             "item5": "astralsorcery:itemcraftingcomponent:3",

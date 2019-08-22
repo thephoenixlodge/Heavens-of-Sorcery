@@ -1,0 +1,83 @@
+{
+    "name": "Seek and Ye Shall Find",
+    "icon": "vaultopic:view_small",
+    "category": "useful_things",
+    "advancement": "heavens:bookchap2/12dungeon",
+    "pages": [
+        {
+            "type": "spotlight",
+            "item": "vaultopic:view_small",
+            "text": "Everybody loses things sometimes, but as long as it didn't fall into the void, it can be found. An $(item)Item Seeker$() will allow you to search for items in nearby inventories (5 block range). So simple, yet can save so many headaches"
+        },
+        {
+            "type": "ritual",
+            "output_item": "vaultopic:view_small",
+            "item1": "minecraft:stone:2",
+            "item2": "contenttweaker:angel_heart",
+            "item3": "vaultopic:vault_searcher",
+            "item4": "vaultopic:vault_searcher",
+            "heading": "Item Seeker",
+            "description": "Right click to open search. Can also be used from anywhere in inventory with $(thing)$(k:vaultopic.view)$()"
+        },
+        {
+            "type": "spotlight",
+            "advancement": "heavens:bookchap3/8luminous",
+            "item": "vaultopic:view_big",
+            "title": "Enhanced Item Seeker",
+            "text": "With a $(item)Luminous Crafting Table$() and some new materials, you can upgrade your $(item)Item Seeker$() to increase its range - doubling it to 10 blocks."
+        },
+        {
+            "type": "altar_luminous",
+            "heading": "Enhanced Item Seeker",
+            "output_item": "vaultopic:view_big",
+            "item1": "vaultopic:vault_searcher",
+            "item2": "aether_legacy:zanite_gemstone",
+            "item3": "vaultopic:vault_searcher",
+            "item4": "mist:niobium_ingot",
+            "item5": "vaultopic:view_small",
+            "item6": "mist:niobium_ingot",
+            "item7": "vaultopic:vault_searcher",
+            "item8": "aether_legacy:zanite_gemstone",
+            "item9": "vaultopic:vault_searcher",
+            "description": "Right click to open search. Can also be used from anywhere in inventory with $(thing)$(k:vaultopic.view)$()"
+        },
+        {
+            "type": "spotlight",
+            "advancement": "heavens:bookchap3/24celestialaltar",
+            "item": "vaultopic:vice",
+            "title": "Regional Crafter",
+            "text": "With a $(item)Celestial Altar$() and even more new materials, you can upgrade your $(item)Item Seeker$() to enable crafting using items from inventories vithin range. $(br2)It retains the ability to search inventories too, by using the keybind $(thing)$(k:vaultopic.view)$()."
+        },
+        {
+            "type": "altar_celestial",
+            "output_item": "vaultopic:vice",
+            "item2": "craftingstation:tooltables",
+            "item4": "astralsorcery:itemcraftingcomponent:2",
+            "item5": "vaultopic:view_big",
+            "item6": "astralsorcery:itemcraftingcomponent:2",
+            "item8": "craftingstation:tooltables",
+            "item10": "vaultopic:vault_searcher",
+            "item11": "vaultopic:vault_searcher",
+            "item12": "vaultopic:vault_searcher",
+            "item13": "vaultopic:vault_searcher",
+            "item14": "botania:manaresource",
+            "item15": "botania:manaresource",
+            "item16": "botania:manaresource",
+            "item17": "botania:manaresource",
+            "item18": "botania:manaresource",
+            "item19": "botania:manaresource",
+            "item20": "botania:manaresource",
+            "item21": "botania:manaresource"
+        },
+        {
+            "type": "ritual",
+            "output_item": "vaultopic:vault_searcher",
+            "item1": "minecraft:book",
+            "item2": "minecraft:chest",
+            "item3": "arcaneworld:sapphire",
+            "item4": "wizardry:nacre_pearl",
+            "heading": "Material Index",
+            "description": "Used in creating and upgrading $(item)Item Seekers$()"
+        }
+    ]
+}

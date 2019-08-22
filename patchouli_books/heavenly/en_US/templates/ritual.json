@@ -43,6 +43,7 @@
 		{
 			"type": "tooltip",
 			"tooltip": ["#tip"],
+			"guard": "#tip->exists",
 			"width": 20,
 			"height": 20,
 			"x": 50,

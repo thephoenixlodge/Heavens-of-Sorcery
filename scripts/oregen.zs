@@ -52,64 +52,64 @@ var arrayOresFromOrechid = [
 
 //Metals
 //Iron
-val metalliaIron = <contenttweaker:iron_metal_materia>;
+val metalliaIron = <contenttweaker:material_part>;
 val ethericIron = <liquid:iron_etheric>;
 val ingotIron = <minecraft:iron_ingot>;
 val clusterIron = <thaumcraft:cluster>;
 //Gold
-val metalliaGold = <contenttweaker:gold_metal_materia>;
+val metalliaGold = <contenttweaker:material_part:1>;
 val ethericGold = <liquid:gold_etheric>;
 val ingotGold = <minecraft:gold_ingot>;
 //Copper
-val metalliaCopper = <contenttweaker:copper_metal_materia>;
+val metalliaCopper = <contenttweaker:material_part:2>;
 val ethericCopper = <liquid:copper_etheric>;
 val ingotCopper = <embers:ingot_copper>;
 //Lead
-val metalliaLead = <contenttweaker:lead_metal_materia>;
+val metalliaLead = <contenttweaker:material_part:3>;
 val ethericLead = <liquid:lead_etheric>;
 val ingotLead = <embers:ingot_lead>;
 //Silver
-val metalliaSilver = <contenttweaker:silver_metal_materia>;
+val metalliaSilver = <contenttweaker:material_part:4>;
 val ethericSilver = <liquid:silver_etheric>;
 val ingotSilver = <embers:ingot_silver>;
 //Aluminium
-val metalliaAluminium = <contenttweaker:aluminium_metal_materia>;
+val metalliaAluminium = <contenttweaker:material_part:5>;
 val ethericAluminium = <liquid:aluminium_etheric>;
 val ingotAluminium = <embers:ingot_aluminum>;
 //Nickel
-val metalliaNickel = <contenttweaker:nickel_metal_materia>;
+val metalliaNickel = <contenttweaker:material_part:6>;
 val ethericNickel = <liquid:nickel_etheric>;
 val ingotNickel = <embers:ingot_nickel>;
 //Tin
-val metalliaTin = <contenttweaker:tin_metal_materia>;
+val metalliaTin = <contenttweaker:material_part:7>;
 val ethericTin = <liquid:tin_etheric>;
 val ingotTin = <embers:ingot_tin>;
 //Niobium
-val metalliaNiobium = <contenttweaker:niobium_metal_materia>;
+val metalliaNiobium = <contenttweaker:material_part:8>;
 val ethericNiobium = <liquid:niobium_etheric>;
 val ingotNiobium = <mist:niobium_ingot>;
 //Falsite
-val metalliaFalsite = <contenttweaker:falsite_metal_materia>;
+val metalliaFalsite = <contenttweaker:material_part:9>;
 val ethericFalsite = <liquid:falsite_etheric>;
 val ingotFalsite = <blue_skies:falsite_ingot>;
 //Ventium
-val metalliaVentium = <contenttweaker:ventium_metal_materia>;
+val metalliaVentium = <contenttweaker:material_part:10>;
 val ethericVentium = <liquid:ventium_etheric>;
 val ingotVentium = <blue_skies:ventium_ingot>;
 //Horizonite
-val metalliaHorizonite = <contenttweaker:horizonite_metal_materia>;
+val metalliaHorizonite = <contenttweaker:material_part:11>;
 val ethericHorizonite = <liquid:horizonite_etheric>;
 val ingotHorizonite = <blue_skies:horizonite_ingot>;
 //Titanium
-val metalliaTitanium = <contenttweaker:titanium_metal_materia>;
+val metalliaTitanium = <contenttweaker:material_part:12>;
 val ethericTitanium = <liquid:titanium_etheric>;
 val ingotTitanium = <kathairis:titaniumingot>;
 //Syrmorite
-val metalliaSyrmorite = <contenttweaker:syrmorite_metal_materia>;
+val metalliaSyrmorite = <contenttweaker:material_part:13>;
 val ethericSyrmorite = <liquid:syrmorite_etheric>;
 val ingotSyrmorite = <thebetweenlands:items_misc:11>;
 //Octine
-val metalliaOctine = <contenttweaker:octine_metal_materia>;
+val metalliaOctine = <contenttweaker:material_part:127>;
 val ethericOctine = <liquid:octine_etheric>;
 val ingotOctine = <thebetweenlands:octine_ingot>;
 
@@ -149,63 +149,63 @@ metalliaToEtheric[metalliaOctine] = ethericOctine;
 
 //Precious mats
 //coal
-val preciaCoal = <contenttweaker:coal_precious_materia>;
+val preciaCoal = <contenttweaker:material_part:40>;
 val ethericCoal = <liquid:coal_etheric>;
 val gemCoal = <minecraft:coal>;
 //redstone
-val preciaRedstone = <contenttweaker:redstone_precious_materia>;
+val preciaRedstone = <contenttweaker:material_part:42>;
 val ethericRedstone = <liquid:redstone_etheric>;
 val gemRedstone = <minecraft:redstone>;
 //lapis
-val preciaLapis = <contenttweaker:lapis_lazuli_precious_materia>;
+val preciaLapis = <contenttweaker:material_part:44>;
 val ethericLapis = <liquid:lapis_lazuli_etheric>;
 val gemLapis = <minecraft:dye:4>;
 //diamond
-val preciaDiamond = <contenttweaker:diamond_precious_materia>;
+val preciaDiamond = <contenttweaker:material_part:46>;
 val ethericDiamond = <liquid:diamond_etheric>;
 val gemDiamond = <minecraft:diamond>;
 //emerald
-val preciaEmerald = <contenttweaker:emerald_precious_materia>;
+val preciaEmerald = <contenttweaker:material_part:48>;
 val ethericEmerald = <liquid:emerald_etheric>;
 val gemEmerald = <minecraft:emerald>;
 //quartz
-val preciaQuartz = <contenttweaker:nether_quartz_precious_materia>;
+val preciaQuartz = <contenttweaker:material_part:50>;
 val ethericQuartz = <liquid:nether_quartz_etheric>;
 val gemQuartz = <minecraft:quartz>;
 //ambrosiu
-val preciaAmbrosium = <contenttweaker:ambrosium_precious_materia>;
+val preciaAmbrosium = <contenttweaker:material_part:52>;
 val ethericAmbrosium = <liquid:ambrosium_etheric>;
 val gemAmbrosium = <aether_legacy:ambrosium_shard>;
 //zanite
-val preciaZanite = <contenttweaker:zanite_precious_materia>;
+val preciaZanite = <contenttweaker:material_part:54>;
 val ethericZanite = <liquid:zanite_etheric>;
 val gemZanite = <aether_legacy:zanite_gemstone>;
 //sapphire
-val preciaSapphire = <contenttweaker:sapphire_precious_materia>;
+val preciaSapphire = <contenttweaker:material_part:56>;
 val ethericSapphire = <liquid:sapphire_etheric>;
 val gemSapphire = <arcaneworld:sapphire>;
 //amethyst
-val preciaAmethyst = <contenttweaker:amethyst_precious_materia>;
+val preciaAmethyst = <contenttweaker:material_part:58>;
 val ethericAmethyst = <liquid:amethyst_etheric>;
 val gemAmethyst = <arcaneworld:amethyst>;
 //diopside
-val preciaDiopside = <contenttweaker:diopside_precious_materia>;
+val preciaDiopside = <contenttweaker:material_part:60>;
 val ethericDiopside = <liquid:diopside_etheric>;
 val gemDiopside = <blue_skies:diopside_gem>;
 //pyrope
-val preciaPyrope = <contenttweaker:pyrope_precious_materia>;
+val preciaPyrope = <contenttweaker:material_part:62>;
 val ethericPyrope = <liquid:pyrope_etheric>;
 val gemPyrope = <blue_skies:pyrope_gem>;
 //turquois
-val preciaTurquoise = <contenttweaker:turquoise_precious_materia>;
+val preciaTurquoise = <contenttweaker:material_part:64>;
 val ethericTurquoise = <liquid:turquoise_etheric>;
 val gemTurquoise = <blue_skies:turquoise_gem>;
 //charoite
-val preciaCharoite = <contenttweaker:charoite_precious_materia>;
+val preciaCharoite = <contenttweaker:material_part:66>;
 val ethericCharoite = <liquid:charoite_etheric>;
 val gemCharoite = <blue_skies:charoite>;
 //moonstone
-val preciaMoonstone = <contenttweaker:moonstone_precious_materia>;
+val preciaMoonstone = <contenttweaker:material_part:68>;
 val ethericMoonstone = <liquid:moonstone_etheric>;
 val gemMoonstone = <blue_skies:moonstone>;
 //crystal quartz
@@ -217,53 +217,29 @@ val preciaWiserGem = <contenttweaker:wiser_gem_precious_materia>;
 val ethericWiserGem = <liquid:wiser_gem_etheric>;
 val gemWiserGem = <corvus:wiser_gem>;*/
 //cinnabar
-val preciaQuicksilver = <contenttweaker:quicksilver_precious_materia>;
+val preciaQuicksilver = <contenttweaker:material_part:74>;
 val ethericQuicksilver = <liquid:quicksilver_etheric>;
 val gemQuicksilver = <thaumcraft:quicksilver>;
 //amber
-val preciaAmber = <contenttweaker:amber_precious_materia>;
+val preciaAmber = <contenttweaker:material_part:76>;
 val ethericAmber = <liquid:amber_etheric>;
 val gemAmber = <thaumcraft:amber>;
 //valonite
-val preciaValonite = <contenttweaker:valonite_precious_materia>;
+val preciaValonite = <contenttweaker:material_part:78>;
 val ethericValonite = <liquid:valonite_etheric>;
 val gemValonite = <thebetweenlands:items_misc:19>;
 //sulfur
-val preciaSulfur = <contenttweaker:sulfur_precious_materia>;
+val preciaSulfur = <contenttweaker:material_part:80>;
 val ethericSulfur = <liquid:sulfur_etheric>;
 val gemSulfur = <thebetweenlands:items_misc:18>;
 //garnet
-val preciaGarnet = <contenttweaker:garnet_precious_materia>;
+val preciaGarnet = <contenttweaker:material_part:82>;
 val ethericGarnet = <liquid:garnet_etheric>;
-val gemGarnet = <bewitchment:gem>;
-//nuummite
-val preciaNuummite = <contenttweaker:nuummite_precious_materia>;
-val ethericNuummite = <liquid:nuummite_etheric>;
-val gemNuummite = <bewitchment:gem:1>;
-//tigers eye
-val preciaTigersEye = <contenttweaker:tigers_eye_precious_materia>;
-val ethericTigersEye = <liquid:tigers_eye_etheric>;
-val gemTigersEye = <bewitchment:gem:2>;
-//tourmaline
-val preciaTourmaline = <contenttweaker:tourmaline_precious_materia>;
-val ethericTourmaline = <liquid:tourmaline_etheric>;
-val gemTourmaline = <bewitchment:gem:3>;
-//bloodstone
-val preciaBloodstone = <contenttweaker:bloodstone_precious_materia>;
-val ethericBloodstone = <liquid:bloodstone_etheric>;
-val gemBloodstone = <bewitchment:gem:4>;
-//jasper
-val preciaJasper = <contenttweaker:jasper_precious_materia>;
-val ethericJasper = <liquid:jasper_etheric>;
-val gemJasper = <bewitchment:gem:5>;
-//malachite
-val preciaMalachite = <contenttweaker:malachite_precious_materia>;
-val ethericMalachite = <liquid:malachite_etheric>;
-val gemMalachite = <bewitchment:gem:6>;
-//alexandrite
-val preciaAlexandrite = <contenttweaker:alexandrite_precious_materia>;
-val ethericAlexandrite = <liquid:alexandrite_etheric>;
-val gemAlexandrite = <bewitchment:gem:7>;
+val gemGarnet = <bewitchment:garnet>;
+//Opal
+val preciaOpal = <contenttweaker:material_part:84>;
+val ethericOpal = <liquid:opal_etheric>;
+val gemOpal = <bewitchment:opal>;
 
 val preciousToPrecia = {} as IItemStack[][IItemStack];
 preciousToPrecia[preciaCoal] = [gemCoal];
@@ -288,13 +264,7 @@ preciousToPrecia[preciaAmber] = [gemAmber];
 preciousToPrecia[preciaValonite] = [gemValonite];
 preciousToPrecia[preciaSulfur] = [gemSulfur];
 preciousToPrecia[preciaGarnet] = [gemGarnet];
-preciousToPrecia[preciaNuummite] = [gemNuummite];
-preciousToPrecia[preciaTigersEye] = [gemTigersEye];
-preciousToPrecia[preciaTourmaline] = [gemTourmaline];
-preciousToPrecia[preciaBloodstone] = [gemBloodstone];
-preciousToPrecia[preciaJasper] = [gemJasper];
-preciousToPrecia[preciaMalachite] = [gemMalachite];
-preciousToPrecia[preciaAlexandrite] = [gemAlexandrite];
+preciousToPrecia[preciaOpal] = [gemOpal];
 
 val preciaToEtheric = {} as ILiquidStack[IItemStack];
 preciaToEtheric[preciaCoal] = ethericCoal;
@@ -319,13 +289,7 @@ preciaToEtheric[preciaAmber] = ethericAmber;
 preciaToEtheric[preciaValonite] = ethericValonite;
 preciaToEtheric[preciaSulfur] = ethericSulfur;
 preciaToEtheric[preciaGarnet] = ethericGarnet;
-preciaToEtheric[preciaNuummite] = ethericNuummite;
-preciaToEtheric[preciaTigersEye] = ethericTigersEye;
-preciaToEtheric[preciaTourmaline] = ethericTourmaline;
-preciaToEtheric[preciaBloodstone] = ethericBloodstone;
-preciaToEtheric[preciaJasper] = ethericJasper;
-preciaToEtheric[preciaMalachite] = ethericMalachite;
-preciaToEtheric[preciaAlexandrite] = ethericAlexandrite;
+preciaToEtheric[preciaOpal] = ethericOpal;
 
 //Tweak Orechid to only produce Materia ores
 for ore in arrayOresFromOrechid {

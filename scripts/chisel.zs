@@ -4,11 +4,12 @@ import crafttweaker.item.IItemDefinition;
 
 ////Variables
 //Sapphire blocks
-val blockSapphireIF = <iceandfire:sapphire_block>;
+//val blockSapphireIF = <iceandfire:sapphire_block>;
 val blockSapphireAW = <arcaneworld:block_sapphire>;
 //Amethyst blocks
 val blockAmethystAW = <arcaneworld:block_amethyst>;
-val blockAmethystBW = <bewitchment:gem_block:7>;
+val blockAmethystBW = <bewitchment:block_of_amethyst>;
+val blockAmethystMy = <mysticalworld:amethyst_block>;
 //Thatch
 val thatchQuark = <quark:thatch>;
 val thatchEarthworks = <earthworks:block_thatch>;
@@ -72,14 +73,15 @@ val turquoiseCobbleMossy = <blue_skies:mossy_turquoise_cobblestone>;
 
 
 //Add group for Sapphire Blocks
-Carving.addGroup("blockSapphire");
-Carving.addVariation("blockSapphire", blockSapphireAW);
-Carving.addVariation("blockSapphire", blockSapphireIF);
+//Carving.addGroup("blockSapphire");
+//Carving.addVariation("blockSapphire", blockSapphireAW);
+//Carving.addVariation("blockSapphire", blockSapphireIF);
 
 //Add group for Amethyst blocks
 Carving.addGroup("blockAmethyst");
 Carving.addVariation("blockAmethyst", blockAmethystAW);
 Carving.addVariation("blockAmethyst", blockAmethystBW);
+Carving.addVariation("blockAmethyst", blockAmethystMy);
 
 //Add group, disable other recipes for thatch blocks and add oredict
 recipes.remove(thatchEarthworks);

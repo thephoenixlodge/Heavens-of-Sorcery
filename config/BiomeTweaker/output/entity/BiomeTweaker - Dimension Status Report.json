@@ -361,6 +361,11 @@
     "Class": "hellfirepvp.astralsorcery.common.entities.EntityLiquidSpark"
   },
   {
+    "Name": "quark:leash_knot",
+    "Registry ID": "quark:leash_knot",
+    "Class": "vazkii.quark.decoration.entity.EntityLeashKnot2TheKnotting"
+  },
+  {
     "Name": "quark:stoneling",
     "Registry ID": "quark:stoneling",
     "Class": "vazkii.quark.world.entity.EntityStoneling"
@@ -369,6 +374,11 @@
     "Name": "quark:archaeologist",
     "Registry ID": "quark:archaeologist",
     "Class": "vazkii.quark.world.entity.EntityArchaeologist"
+  },
+  {
+    "Name": "quark:foxhound",
+    "Registry ID": "quark:foxhound",
+    "Class": "vazkii.quark.world.entity.EntityFoxhound"
   },
   {
     "Name": "quark:dweller",
@@ -381,19 +391,24 @@
     "Class": "vazkii.quark.world.entity.EntityAshen"
   },
   {
+    "Name": "quark:frog",
+    "Registry ID": "quark:frog",
+    "Class": "vazkii.quark.world.entity.EntityFrog"
+  },
+  {
     "Name": "quark:pirate",
     "Registry ID": "quark:pirate",
     "Class": "vazkii.quark.world.entity.EntityPirate"
   },
   {
+    "Name": "quark:crab",
+    "Registry ID": "quark:crab",
+    "Class": "vazkii.quark.world.entity.EntityCrab"
+  },
+  {
     "Name": "quark:wraith",
     "Registry ID": "quark:wraith",
     "Class": "vazkii.quark.world.entity.EntityWraith"
-  },
-  {
-    "Name": "quark:leash_knot",
-    "Registry ID": "quark:leash_knot",
-    "Class": "vazkii.quark.decoration.entity.EntityLeashKnot2TheKnotting"
   },
   {
     "Name": "botania:pixie",
@@ -901,74 +916,64 @@
     "Class": "thaumcraft.common.entities.monster.tainted.EntityTaintSeedPrime"
   },
   {
-    "Name": "bewitchment.demon",
-    "Registry ID": "bewitchment:demon",
-    "Class": "com.bewitchment.common.entity.spirits.demons.EntityDemon"
-  },
-  {
-    "Name": "bewitchment.demoness",
-    "Registry ID": "bewitchment:demoness",
-    "Class": "com.bewitchment.common.entity.spirits.demons.EntityDemoness"
-  },
-  {
-    "Name": "bewitchment.imp",
-    "Registry ID": "bewitchment:imp",
-    "Class": "com.bewitchment.common.entity.spirits.demons.EntityImp"
-  },
-  {
-    "Name": "bewitchment.owl",
-    "Registry ID": "bewitchment:owl",
-    "Class": "com.bewitchment.common.entity.living.animals.EntityOwl"
-  },
-  {
-    "Name": "bewitchment.snake",
-    "Registry ID": "bewitchment:snake",
-    "Class": "com.bewitchment.common.entity.living.animals.EntitySnake"
-  },
-  {
-    "Name": "bewitchment.raven",
-    "Registry ID": "bewitchment:raven",
-    "Class": "com.bewitchment.common.entity.living.animals.EntityRaven"
-  },
-  {
-    "Name": "bewitchment.toad",
-    "Registry ID": "bewitchment:toad",
-    "Class": "com.bewitchment.common.entity.living.animals.EntityToad"
-  },
-  {
-    "Name": "bewitchment.blindworm",
-    "Registry ID": "bewitchment:blindworm",
-    "Class": "com.bewitchment.common.entity.living.animals.EntityBlindworm"
+    "Name": "bewitchment.lizard",
+    "Registry ID": "bewitchment:lizard",
+    "Class": "com.bewitchment.common.entity.living.EntityLizard"
   },
   {
     "Name": "bewitchment.newt",
     "Registry ID": "bewitchment:newt",
-    "Class": "com.bewitchment.common.entity.living.animals.EntityNewt"
+    "Class": "com.bewitchment.common.entity.living.EntityNewt"
   },
   {
-    "Name": "bewitchment.lizard",
-    "Registry ID": "bewitchment:lizard",
-    "Class": "com.bewitchment.common.entity.living.animals.EntityLizard"
+    "Name": "bewitchment.owl",
+    "Registry ID": "bewitchment:owl",
+    "Class": "com.bewitchment.common.entity.living.EntityOwl"
   },
   {
-    "Name": "bewitchment.uran",
-    "Registry ID": "bewitchment:uran",
-    "Class": "com.bewitchment.common.entity.spirits.demons.EntityUran"
+    "Name": "bewitchment.raven",
+    "Registry ID": "bewitchment:raven",
+    "Class": "com.bewitchment.common.entity.living.EntityRaven"
   },
   {
-    "Name": "bewitchment.hellhound",
-    "Registry ID": "bewitchment:hellhound",
-    "Class": "com.bewitchment.common.entity.spirits.demons.EntityHellhound"
+    "Name": "bewitchment.snake",
+    "Registry ID": "bewitchment:snake",
+    "Class": "com.bewitchment.common.entity.living.EntitySnake"
   },
   {
-    "Name": "bewitchment.hellhound_alpha",
-    "Registry ID": "bewitchment:hellhound_alpha",
-    "Class": "com.bewitchment.common.entity.spirits.demons.EntityHellhoundAlpha"
+    "Name": "bewitchment.toad",
+    "Registry ID": "bewitchment:toad",
+    "Class": "com.bewitchment.common.entity.living.EntityToad"
   },
   {
     "Name": "bewitchment.black_dog",
     "Registry ID": "bewitchment:black_dog",
-    "Class": "com.bewitchment.common.entity.spirits.ghosts.EntityBlackDog"
+    "Class": "com.bewitchment.common.entity.spirit.ghost.EntityBlackDog"
+  },
+  {
+    "Name": "bewitchment.hellhound",
+    "Registry ID": "bewitchment:hellhound",
+    "Class": "com.bewitchment.common.entity.spirit.demon.EntityHellhound"
+  },
+  {
+    "Name": "bewitchment.serpent",
+    "Registry ID": "bewitchment:serpent",
+    "Class": "com.bewitchment.common.entity.spirit.demon.EntitySerpent"
+  },
+  {
+    "Name": "bewitchment.demon",
+    "Registry ID": "bewitchment:demon",
+    "Class": "com.bewitchment.common.entity.spirit.demon.EntityDemon"
+  },
+  {
+    "Name": "bewitchment.demoness",
+    "Registry ID": "bewitchment:demoness",
+    "Class": "com.bewitchment.common.entity.spirit.demon.EntityDemoness"
+  },
+  {
+    "Name": "bewitchment.imp",
+    "Registry ID": "bewitchment:imp",
+    "Class": "com.bewitchment.common.entity.spirit.demon.EntityImp"
   },
   {
     "Name": "Crow",
@@ -1004,126 +1009,6 @@
     "Name": "eerieentities.cursed_armor",
     "Registry ID": "eerieentities:cursed_armor",
     "Class": "com.jarhax.eerieentities.entities.EntityCursedArmor"
-  },
-  {
-    "Name": "dragonegg",
-    "Registry ID": "iceandfire:dragonegg",
-    "Class": "com.github.alexthe666.iceandfire.entity.EntityDragonEgg"
-  },
-  {
-    "Name": "dragonskull",
-    "Registry ID": "iceandfire:dragonskull",
-    "Class": "com.github.alexthe666.iceandfire.entity.EntityDragonSkull"
-  },
-  {
-    "Name": "firedragon",
-    "Registry ID": "iceandfire:firedragon",
-    "Class": "com.github.alexthe666.iceandfire.entity.EntityFireDragon"
-  },
-  {
-    "Name": "icedragon",
-    "Registry ID": "iceandfire:icedragon",
-    "Class": "com.github.alexthe666.iceandfire.entity.EntityIceDragon"
-  },
-  {
-    "Name": "snowvillager",
-    "Registry ID": "iceandfire:snowvillager",
-    "Class": "com.github.alexthe666.iceandfire.entity.EntitySnowVillager"
-  },
-  {
-    "Name": "hippogryph",
-    "Registry ID": "iceandfire:hippogryph",
-    "Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph"
-  },
-  {
-    "Name": "stonestatue",
-    "Registry ID": "iceandfire:stonestatue",
-    "Class": "com.github.alexthe666.iceandfire.entity.EntityStoneStatue"
-  },
-  {
-    "Name": "gorgon",
-    "Registry ID": "iceandfire:gorgon",
-    "Class": "com.github.alexthe666.iceandfire.entity.EntityGorgon"
-  },
-  {
-    "Name": "if_pixie",
-    "Registry ID": "iceandfire:if_pixie",
-    "Class": "com.github.alexthe666.iceandfire.entity.EntityPixie"
-  },
-  {
-    "Name": "cyclops",
-    "Registry ID": "iceandfire:cyclops",
-    "Class": "com.github.alexthe666.iceandfire.entity.EntityCyclops"
-  },
-  {
-    "Name": "siren",
-    "Registry ID": "iceandfire:siren",
-    "Class": "com.github.alexthe666.iceandfire.entity.EntitySiren"
-  },
-  {
-    "Name": "hippocampus",
-    "Registry ID": "iceandfire:hippocampus",
-    "Class": "com.github.alexthe666.iceandfire.entity.EntityHippocampus"
-  },
-  {
-    "Name": "deathworm",
-    "Registry ID": "iceandfire:deathworm",
-    "Class": "com.github.alexthe666.iceandfire.entity.EntityDeathWorm"
-  },
-  {
-    "Name": "if_cockatrice",
-    "Registry ID": "iceandfire:if_cockatrice",
-    "Class": "com.github.alexthe666.iceandfire.entity.EntityCockatrice"
-  },
-  {
-    "Name": "stymphalianbird",
-    "Registry ID": "iceandfire:stymphalianbird",
-    "Class": "com.github.alexthe666.iceandfire.entity.EntityStymphalianBird"
-  },
-  {
-    "Name": "if_troll",
-    "Registry ID": "iceandfire:if_troll",
-    "Class": "com.github.alexthe666.iceandfire.entity.EntityTroll"
-  },
-  {
-    "Name": "myrmex_worker",
-    "Registry ID": "iceandfire:myrmex_worker",
-    "Class": "com.github.alexthe666.iceandfire.entity.EntityMyrmexWorker"
-  },
-  {
-    "Name": "myrmex_soldier",
-    "Registry ID": "iceandfire:myrmex_soldier",
-    "Class": "com.github.alexthe666.iceandfire.entity.EntityMyrmexSoldier"
-  },
-  {
-    "Name": "myrmex_sentinel",
-    "Registry ID": "iceandfire:myrmex_sentinel",
-    "Class": "com.github.alexthe666.iceandfire.entity.EntityMyrmexSentinel"
-  },
-  {
-    "Name": "myrmex_royal",
-    "Registry ID": "iceandfire:myrmex_royal",
-    "Class": "com.github.alexthe666.iceandfire.entity.EntityMyrmexRoyal"
-  },
-  {
-    "Name": "myrmex_queen",
-    "Registry ID": "iceandfire:myrmex_queen",
-    "Class": "com.github.alexthe666.iceandfire.entity.EntityMyrmexQueen"
-  },
-  {
-    "Name": "myrmex_egg",
-    "Registry ID": "iceandfire:myrmex_egg",
-    "Class": "com.github.alexthe666.iceandfire.entity.EntityMyrmexEgg"
-  },
-  {
-    "Name": "amphithere",
-    "Registry ID": "iceandfire:amphithere",
-    "Class": "com.github.alexthe666.iceandfire.entity.EntityAmphithere"
-  },
-  {
-    "Name": "seaserpent",
-    "Registry ID": "iceandfire:seaserpent",
-    "Class": "com.github.alexthe666.iceandfire.entity.EntitySeaSerpent"
   },
   {
     "Name": "rat",

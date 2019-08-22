@@ -1,0 +1,32 @@
+{
+    "name": "Just Breathe",
+    "icon": "mist:respirator_single",
+    "category": "quests/chap3",
+    "sortnum": 1,
+    "advancement": "heavens:bookchap3/0niobium",
+    "turnin": "heavens:bookchap3/1respirator",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "Just Breathe",
+            "trigger": "heavens:bookchap3/1respirator",
+            "text": "Now that you've got $(item)Niobium$() you can use it to help protect yourself from the corrosion of the mist. Firstly, use it to make a pickaxe, which can cleave through the $(item)Foggy Stone$() with easy, and has the finesse to collect other Misty ores. Of those the most important is $(item)Filter Coal$() which, when placed in a $(item)Respirator$(), allows one to safely breathe in the $(thing)Mist$()."
+        },
+        {
+            "type": "checklist_end",
+            "item1": "mist:niobium_pickaxe",
+            "item2": "mist:filter_coal",
+            "item3": "mist:respirator_single",
+            "reward1": "mist:filter_coal#20"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mist:niobium_pickaxe"
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:ct_shaped-683928126",
+            "text": "Can be equipped as a helmet, or in a unique slot accessed by clicking directly above the helmet slot in your inventory.$(br2)Hold in your hand and right click to add $(item)Filter Coal$()."
+        }
+    ]
+}

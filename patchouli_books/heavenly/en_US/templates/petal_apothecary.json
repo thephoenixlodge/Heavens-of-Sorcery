@@ -1,0 +1,123 @@
+{
+	"components": [
+		{
+			"type": "header",
+			"text": "#heading",
+			"x": -1,
+			"y": -1
+		},
+		{
+			"type": "image",
+			"image": "books:templates/arrow_curved.png",
+			"texture_width": 16,
+			"texture_height": 16,
+			"width": 16,
+			"height": 16,
+			"scale": 1,
+			"x": 43,
+			"y": 35
+		},
+		{
+			"type": "image",
+			"image": "books:templates/arrow_curved_up.png",
+			"texture_width": 16,
+			"texture_height": 16,
+			"width": 16,
+			"height": 16,
+			"scale": 1,
+			"x": 63,
+			"y": 35
+		},
+		{
+			"type": "item",
+			"item": "botania:altar",
+			"framed": "false",
+			"x": 53,
+			"y": 52
+		},
+		{
+			"type": "item",
+			"item": "minecraft:wheat_seeds",
+			"framed": "false",
+			"x": 45,
+			"y": 15
+		},
+		{
+			"type": "item",
+			"item": "#input1",
+			"framed": "true",
+			"x": 25,
+			"y": 35
+		},
+		{
+			"type": "item",
+			"item": "#input2",
+			"framed": "true",
+			"guard": "#input2->iexists",
+			"x": 25,
+			"y": 15
+		},
+		{
+			"type": "item",
+			"item": "#input3",
+			"framed": "true",
+			"guard": "#input3->iexists",
+			"x": 5,
+			"y": 35
+		},
+		{
+			"type": "item",
+			"item": "#input4",
+			"framed": "true",
+			"guard": "#input4->iexists",
+			"x": 5,
+			"y": 15
+		},
+		{
+			"type": "item",
+			"item": "#input5",
+			"framed": "true",
+			"guard": "#input5->iexists",
+			"x": 25,
+			"y": 55
+		},
+		{
+			"type": "item",
+			"item": "#input6",
+			"framed": "true",
+			"guard": "#input6->iexists",
+			"x": 5,
+			"y": 55
+		},
+		{
+			"type": "item",
+			"item": "#input7",
+			"framed": "true",
+			"guard": "#input7->iexists",
+			"x": 25,
+			"y": 75
+		},
+		{
+			"type": "item",
+			"item": "#input8",
+			"framed": "true",
+			"guard": "#input8->iexists",
+			"x": 5,
+			"y": 75
+		},
+		{
+			"type": "item",
+			"item": "#output",
+			"framed": "true",
+			"link_recipe": true,
+			"x": 80,
+			"y": 35
+		},
+		{
+			"type": "text",
+			"text": "#description",
+			"x": 2,
+			"y": 100
+		}
+	]
+}

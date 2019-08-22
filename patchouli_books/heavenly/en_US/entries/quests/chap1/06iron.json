@@ -27,7 +27,8 @@
         },
         {
             "type": "smelting",
-            "recipe": "rustic:dust_tiny_iron"
+            "recipe": "rustic:dust_tiny_iron",
+            "recipe2": "mysticalworld:iron_dust"
         }
     ]
 }

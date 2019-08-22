@@ -1,0 +1,40 @@
+{
+    "name": "In Bloom",
+    "icon": "botania:altar",
+    "category": "quests/chap3",
+    "sortnum": 4,
+    "advancement": "heavens:bookchap3/3shrooms",
+    "turnin": "heavens:bookchap3/4puredaisy",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "In Bloom",
+            "trigger": "heavens:bookchap3/4puredaisy",
+            "text": "A-ha! I was right! Those $(item)Mystical Mushrooms$() are a perfect substitute for $(item)Mystical Petals$(). I was worried there'd be no such materials left in existence, but with these, I can begin to teach you the Botanical Magicks. $(br) The first thing you'll need to do is craft a special basin, called a $(item)Petal Apothecary$()."
+        },
+        {
+            "type": "text",
+            "text": "Using it, you can then combine four of those $(item)White Mushrooms$() with some seeds to form a $(item)Pure Daisy$()."
+        },
+        {
+            "type": "checklist_end",
+            "item1": "botania:altar",
+            "item2": "botania:specialflower{type:\"puredaisy\"}",
+            "reward1": "mist:a_tree_block:4#150"
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:ct_shaped-367508463"
+        },
+        {
+            "type": "petal_apothecary",
+            "heading": "Pure Daisy",
+            "output": "botania:specialflower{type:\"puredaisy\"}",
+            "input1": "botania:mushroom:0",
+            "input2": "botania:mushroom:0",
+            "input3": "botania:mushroom:0",
+            "input4": "botania:mushroom:0",
+            "description": "Add $(item)Water$(), then drop $(item)Mushrooms$() in, and finish by dropping in any $(item)Seed$()."
+        }
+    ]
+}

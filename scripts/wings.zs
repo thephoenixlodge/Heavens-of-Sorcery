@@ -21,16 +21,17 @@ val wingsFairy = <wings:fairy_wings>;
 val wingsEvil = <wings:evil_wings>;
 val wingsFire = <wings:fire_wings>;
 //foci
-val dragonBone = <iceandfire:dragonbone>;
+//val dragonBone = <iceandfire:dragonbone>;
 val slime = <minecraft:slime_ball>;
 val dyeLightBlue = <ore:dyeLightBlue>;
 val dyeOrange = <ore:dyeOrange>;
 val leather = <minecraft:leather>;
 val smokeyQuartz = <botania:quartz>;
 val blazePowder = <minecraft:blaze_powder>;
+val dragonStone = <botania:manaresource:9>;
 
 val wingsToFoci = {} as IIngredient[IItemStack];
-wingsToFoci[wingsDragon] = dragonBone;
+wingsToFoci[wingsDragon] = dragonStone;
 wingsToFoci[wingsAngel] = feather;
 wingsToFoci[wingsSlime] = slime;
 wingsToFoci[wingsButterfly] = dyeLightBlue;

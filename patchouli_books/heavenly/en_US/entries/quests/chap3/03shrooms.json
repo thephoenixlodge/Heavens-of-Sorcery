@@ -1,0 +1,22 @@
+{
+    "name": "Shroomish",
+    "icon": "botania:mushroom:11",
+    "category": "quests/chap3",
+    "sortnum": 3,
+    "advancement": "heavens:bookchap3/2mist",
+    "turnin": "heavens:bookchap3/3shrooms",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "Shroomish",
+            "trigger": "heavens:bookchap3/3shrooms",
+            "text": "Hmmmm, deep within the $(thing)Mist$(), there appears to be some basic plantlife. $(item)Mushrooms$() specifically. Those multicoloured ones do appear to have similar properties to flower petals I've studied in the past. I recommend you gather some - If my theory is right, they will be immensely useful. $(br)$(#f00)All colours count for this task$()"
+        },
+        {
+            "type": "checklist_end",
+            "item1": "botania:mushroom",
+            "reward1": "botania:mushroom:0#4",
+            "reward2": "botania:lexicon"
+        }
+    ]
+}

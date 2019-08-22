@@ -1,0 +1,25 @@
+{
+    "name": "Metallic Transition",
+    "icon": "mist:niobium_ore",
+    "category": "quests/chap3",
+    "sortnum": 0,
+    "advancement": "heavens:bookchap2/15misty",
+    "turnin": "heavens:bookchap3/0niobium",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "Metallic Transition",
+            "trigger": "heavens:bookchap3/0niobium",
+            "text": "Take care in this place. The $(thing)Mist$() is a great risk to one's personal health. Unfortunately the path to making it safer means risking the danger. You're going to need to harvest a material know as $(item)Niobium$(), which can be found as an ore around the mist."
+        },
+        {
+            "type": "text",
+            "text": "Fortunately, the $(thing)Mist$() ebbs and flows with daylight, and is at its lowest at night, allowing careful collection of this precious ore, though that's to speak nothing of the other dangers of this realm. $(br2)Take care my child."
+        },
+        {
+            "type": "checklist_end",
+            "item1": "mist:niobium_ore#1",
+            "reward1": "mist:niobium_ore#10"
+        }
+    ]
+}

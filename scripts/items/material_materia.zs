@@ -47,22 +47,16 @@ var pyrope = MaterialSystem.getMaterialBuilder().setName("Pyrope").setColor(Colo
 var turquoise = MaterialSystem.getMaterialBuilder().setName("Turquoise").setColor(Color.fromHex("5AE7D1")).build();
 var charoite = MaterialSystem.getMaterialBuilder().setName("Charoite").setColor(Color.fromHex("A075C8")).build();
 var moonstone = MaterialSystem.getMaterialBuilder().setName("Moonstone").setColor(Color.fromHex("C3E3EE")).build();
-var crystalQuartz = MaterialSystem.getMaterialBuilder().setName("Crystal Quartz").setColor(Color.fromHex("C8C8C8")).build(); //Corvus
-var wiserGem = MaterialSystem.getMaterialBuilder().setName("Wiser Gem").setColor(Color.fromHex("F1D25A")).build(); //Corvus
+//var crystalQuartz = MaterialSystem.getMaterialBuilder().setName("Crystal Quartz").setColor(Color.fromHex("C8C8C8")).build(); //Corvus
+//var wiserGem = MaterialSystem.getMaterialBuilder().setName("Wiser Gem").setColor(Color.fromHex("F1D25A")).build(); //Corvus
 var cinnabar = MaterialSystem.getMaterialBuilder().setName("Quicksilver").setColor(Color.fromHex("C6C6DB")).build();
 var amber = MaterialSystem.getMaterialBuilder().setName("Amber").setColor(Color.fromHex("FFBA00")).build();
 var valonite = MaterialSystem.getMaterialBuilder().setName("Valonite").setColor(Color.fromHex("C8B2C8")).build();
 var sulfur = MaterialSystem.getMaterialBuilder().setName("Sulfur").setColor(Color.fromHex("E0E018")).build();
 var garnet = MaterialSystem.getMaterialBuilder().setName("Garnet").setColor(Color.fromHex("4F0724")).build();
-var nuummite = MaterialSystem.getMaterialBuilder().setName("Nuummite").setColor(Color.fromHex("51575C")).build();
-var tigersEye = MaterialSystem.getMaterialBuilder().setName("Tiger's Eye").setColor(Color.fromHex("FA8301")).build();
-var tourmaline = MaterialSystem.getMaterialBuilder().setName("Tourmaline").setColor(Color.fromHex("C1758C")).build();
-var bloodstone = MaterialSystem.getMaterialBuilder().setName("Bloodstone").setColor(Color.fromHex("5F8780")).build();
-var jasper = MaterialSystem.getMaterialBuilder().setName("Jasper").setColor(Color.fromHex("CB2816")).build();
-var malachite = MaterialSystem.getMaterialBuilder().setName("Malachite").setColor(Color.fromHex("35B884")).build();
-var alexandrite = MaterialSystem.getMaterialBuilder().setName("Alexandrite").setColor(Color.fromHex("7EAAAC")).build();
+var opal = MaterialSystem.getMaterialBuilder().setName("Opal").setColor(Color.fromHex("B1C4DC")).build();
 
-var listPrecious = [coal, redstone, lapis, diamond, emerald, quartz, ambrosium, zanite, sapphire, amethyst, diopside, pyrope, turquoise, charoite, moonstone, cinnabar, amber, valonite, sulfur, garnet, nuummite, tigersEye, tourmaline, bloodstone, jasper, malachite, alexandrite] as Material[];
+var listPrecious = [coal, redstone, lapis, diamond, emerald, quartz, ambrosium, zanite, sapphire, amethyst, diopside, pyrope, turquoise, charoite, moonstone, cinnabar, amber, valonite, sulfur, garnet, opal] as Material[];
 
 //register materials
 for i, metal in listMetals {

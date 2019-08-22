@@ -1,0 +1,49 @@
+{
+    "name": "Mana Management",
+    "icon": "botania:pool",
+    "category": "quests/chap3",
+    "sortnum": 5,
+    "advancement": "heavens:bookchap3/4puredaisy",
+    "turnin": "heavens:bookchap3/5managen",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "Mana Management",
+            "trigger": "heavens:bookchap3/5managen",
+            "text": "When things are placed around that $(item)Pure Daisy$(), it will use the ambient $(thing)Mana$() to Purify them, transforming them into something else. If this is done with $(item)Wood Logs$() and $(item)Foggy Stones$() harvested from the $(thing)Misty World$(), it'll turn them into $(item)Livingwood$() and $(item)Livingrock$() respectively. These materials are, as such, attuned to the $(thing)Mana$() in the atmosphere, and"
+        },
+        {
+            "type": "text",
+            "text": "can be used to focus and direct it for more refined uses. $(br)To get started, use some more $(item)Mushrooms$() to make an $(item)Endoflame$(), which coalesces $(thing)Mana$() from burning$(thing)furnace fuels$() dropped nearby. This will need to be linked to a $(item)Mana Spreader$(), which should in turn be pointed at a $(item)Mana Pool$(). $(br)For finer control of linking, a $(item)Wand of the Forest$() may be required."
+        },
+        {
+            "type": "checklist_end",
+            "item1": "botania:specialflower{type:\"endoflame\"}",
+            "item2": "botania:spreader",
+            "item3": "botania:pool",
+            "item4": "botania:twigwand",
+            "reward1": "botania:livingrock#30",
+            "reward2": "botania:livingwood#30"
+        },
+        {
+            "type": "petal_apothecary",
+            "heading": "Endoflame",
+            "output": "botania:specialflower{type:\"endoflame\"}",
+            "input1": "botania:mushroom:12",
+            "input2": "botania:mushroom:12",
+            "input3": "botania:mushroom:14",
+            "input4": "botania:mushroom:8",
+            "description": "Add $(item)Water$(), then drop $(item)Mushrooms$() in, and finish by dropping in any $(item)Seed$()."
+        },
+        {
+            "type": "crafting",
+            "recipe": "botania:spreader_0",
+            "recipe2": "botania:pool_0"
+        },
+        {
+            "type": "crafting",
+            "recipe": "botania:wands/twigwand_yellow_red",
+            "text": "Can use any combination of 2 $(item)Mushrooms/Petals$(). The colours used will be visible on the $(item)Wand$()."
+        }
+    ]
+}

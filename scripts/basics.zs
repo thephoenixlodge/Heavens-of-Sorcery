@@ -19,7 +19,7 @@ val wandIronwood = <contenttweaker:ironwood_wand_one>;
 val wandIronwoodAdv = <contenttweaker:ironwood_wand_two>;
 val plankIronwood = <rustic:planks:1>;
 val stick = <ore:stickWood>;
-val furnace = <minecraft:furnace>;
+val furnaceBlock = <minecraft:furnace>;
 val clayBlock = <minecraft:clay>;
 val cobbleTaiga = <botania:biomestonea:14>;
 val stoneTaiga = <botania:biomestonea:6>;
@@ -107,9 +107,14 @@ val gemZanite = <aether_legacy:zanite_gemstone>;
 val ingotNiobium = <mist:niobium_ingot>;
 val ingotManasteel = <botania:manaresource>;
 val dustStarmetal = <astralsorcery:itemcraftingcomponent:2>;
-val craftingStation = <craftingstation:tooltables>;
+val craftingStation = <craftingstation:crafting_station>;
 val book = <minecraft:book>;
 val akashicTome = <akashictome:tome>;
+val ingotCopper = <embers:ingot_copper>;
+val dustCopper = <mysticalworld:copper_dust>;
+val ingotSilver = <embers:ingot_silver>;
+val dustSilver = <mysticalworld:silver_dust>;
+val dustIron = <mysticalworld:iron_dust>;
 
 //Change Crushing tub recipe for starting
 recipes.remove(crushingTub);
@@ -124,11 +129,14 @@ globals.setNewName(bucketWeedwood, "Wooden Bucket");
 EvaporatingBasin.removeRecipe(dustTinyIron);
 EvaporatingBasin.addRecipe(dustTinyIron * 2, ironBerryJuice * 500);
 
+//add recipe for iron dust from tiny iron dust
+recipes.addShapeless(dustIron, [dustTinyIron, dustTinyIron, dustTinyIron, dustTinyIron, dustTinyIron, dustTinyIron, dustTinyIron, dustTinyIron, dustTinyIron]);
+
 //Ironwood wand recipe
 recipes.addShaped(wandIronwood, [[null, null, stick], [null, stick, null], [plankIronwood, null, null]]);
 
 //alt furnace recipe
-recipes.addShaped(furnace, [[cobbleTaiga, cobbleTaiga, cobbleTaiga], [clayBlock, null, clayBlock], [cobbleTaiga, cobbleTaiga, cobbleTaiga]]);
+recipes.addShaped(furnaceBlock, [[cobbleTaiga, cobbleTaiga, cobbleTaiga], [clayBlock, null, clayBlock], [cobbleTaiga, cobbleTaiga, cobbleTaiga]]);
 
 //boneshard usage
 recipes.addShapeless(bonemeal, [boneshard]);
@@ -272,3 +280,7 @@ globals.setNewName(vice, "Regional Crafter");
 //akashicTome
 recipes.remove(akashicTome);
 ArcaneWorld.createRitualCreateItem("akashic", "Imbue Akashic Tome", akashicTome, book, chest);
+
+//missing dust to ingot recipes
+furnace.addRecipe(ingotCopper, dustCopper, 0.1);
+furnace.addRecipe(ingotSilver, dustSilver, 0.1);

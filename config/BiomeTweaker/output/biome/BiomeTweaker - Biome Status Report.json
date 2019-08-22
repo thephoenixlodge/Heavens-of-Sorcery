@@ -236,6 +236,18 @@
         "Max Group Count": 4
       },
       {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityRaven",
+        "Weight": 20,
+        "Min Group Count": 1,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntitySnake",
+        "Weight": 20,
+        "Min Group Count": 1,
+        "Max Group Count": 4
+      },
+      {
         "Entity Class": "com.crowsofwar.avatar.common.entity.mob.EntityOstrichHorse",
         "Weight": 5,
         "Min Group Count": 1,
@@ -352,6 +364,12 @@
         "Max Group Count": 1
       },
       {
+        "Entity Class": "com.bewitchment.common.entity.spirit.ghost.EntityBlackDog",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 4
+      },
+      {
         "Entity Class": "thaumcraft.common.entities.monster.EntityBrainyZombie",
         "Weight": 10,
         "Min Group Count": 1,
@@ -404,9 +422,9 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "DRY",
+      "SANDY",
       "HOT",
-      "SANDY"
+      "DRY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -414,12 +432,6 @@
         "Entity Class": "net.minecraft.entity.passive.EntityRabbit",
         "Weight": 4,
         "Min Group Count": 2,
-        "Max Group Count": 3
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityDeathWorm",
-        "Weight": 2,
-        "Min Group Count": 1,
         "Max Group Count": 3
       },
       {
@@ -622,46 +634,10 @@
         "Max Group Count": 6
       },
       {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
+        "Entity Class": "com.bewitchment.common.entity.living.EntitySnake",
+        "Weight": 20,
         "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
+        "Max Group Count": 4
       },
       {
         "Entity Class": "com.crowsofwar.avatar.common.entity.mob.EntitySkyBison",
@@ -746,12 +722,6 @@
       {
         "Entity Class": "teamroots.embers.entity.EntityAncientGolem",
         "Weight": 0,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityTroll",
-        "Weight": 500,
         "Min Group Count": 1,
         "Max Group Count": 1
       },
@@ -896,6 +866,18 @@
         "Weight": 2,
         "Min Group Count": 2,
         "Max Group Count": 4
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityLizard",
+        "Weight": 20,
+        "Min Group Count": 1,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityOwl",
+        "Weight": 20,
+        "Min Group Count": 1,
+        "Max Group Count": 4
       }
     ],
     "Spawnable Monsters": [
@@ -978,12 +960,6 @@
         "Max Group Count": 1
       },
       {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityTroll",
-        "Weight": 500,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "com.github.alexthe666.rats.server.entity.EntityRat",
         "Weight": 80,
         "Min Group Count": 1,
@@ -1012,6 +988,12 @@
         "Weight": 2,
         "Min Group Count": 1,
         "Max Group Count": 1
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.spirit.ghost.EntityBlackDog",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 4
       },
       {
         "Entity Class": "party.lemons.corvus.entity.EntityWendigo",
@@ -1073,8 +1055,8 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "COLD",
-      "CONIFEROUS",
-      "FOREST"
+      "FOREST",
+      "CONIFEROUS"
     ],
     "BiomeManager Entries": {
       "COOL Weights": [
@@ -1140,6 +1122,18 @@
         "Entity Class": "epicsquid.mysticalworld.entity.EntitySprout",
         "Weight": 2,
         "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityLizard",
+        "Weight": 20,
+        "Min Group Count": 1,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityOwl",
+        "Weight": 20,
+        "Min Group Count": 1,
         "Max Group Count": 4
       },
       {
@@ -1229,12 +1223,6 @@
         "Max Group Count": 1
       },
       {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityTroll",
-        "Weight": 500,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "com.github.alexthe666.rats.server.entity.EntityRat",
         "Weight": 80,
         "Min Group Count": 1,
@@ -1263,6 +1251,12 @@
         "Weight": 2,
         "Min Group Count": 1,
         "Max Group Count": 1
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.spirit.ghost.EntityBlackDog",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 4
       },
       {
         "Entity Class": "party.lemons.corvus.entity.EntityWendigo",
@@ -1323,8 +1317,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SWAMP",
-      "WET"
+      "WET",
+      "SWAMP"
     ],
     "BiomeManager Entries": {
       "WARM Weights": [
@@ -1367,6 +1361,24 @@
         "Weight": 6,
         "Min Group Count": 2,
         "Max Group Count": 4
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityNewt",
+        "Weight": 20,
+        "Min Group Count": 1,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityToad",
+        "Weight": 20,
+        "Min Group Count": 1,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "vazkii.quark.world.entity.EntityFrog",
+        "Weight": 40,
+        "Min Group Count": 1,
+        "Max Group Count": 3
       }
     ],
     "Spawnable Monsters": [
@@ -1699,9 +1711,9 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
+      "HOT",
       "DRY",
-      "NETHER",
-      "HOT"
+      "NETHER"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -1737,8 +1749,26 @@
         "Max Group Count": 1
       },
       {
+        "Entity Class": "com.bewitchment.common.entity.spirit.demon.EntityHellhound",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.spirit.demon.EntitySerpent",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 4
+      },
+      {
         "Entity Class": "net.minecraft.entity.monster.EntityBlaze",
         "Weight": 5,
+        "Min Group Count": 1,
+        "Max Group Count": 2
+      },
+      {
+        "Entity Class": "vazkii.quark.world.entity.EntityFoxhound",
+        "Weight": 10,
         "Min Group Count": 1,
         "Max Group Count": 2
       },
@@ -1794,8 +1824,8 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "COLD",
-      "DRY",
-      "END"
+      "END",
+      "DRY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -1954,12 +1984,6 @@
       {
         "Entity Class": "teamroots.embers.entity.EntityAncientGolem",
         "Weight": 0,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityTroll",
-        "Weight": 500,
         "Min Group Count": 1,
         "Max Group Count": 1
       },
@@ -2140,12 +2164,6 @@
         "Max Group Count": 2
       },
       {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityTroll",
-        "Weight": 500,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "com.github.alexthe666.rats.server.entity.EntityRat",
         "Weight": 80,
         "Min Group Count": 1,
@@ -2251,6 +2269,12 @@
         "Max Group Count": 3
       },
       {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityRaven",
+        "Weight": 20,
+        "Min Group Count": 1,
+        "Max Group Count": 4
+      },
+      {
         "Entity Class": "com.crowsofwar.avatar.common.entity.mob.EntityOtterPenguin",
         "Weight": 10,
         "Min Group Count": 3,
@@ -2343,12 +2367,6 @@
         "Max Group Count": 1
       },
       {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityTroll",
-        "Weight": 500,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "com.github.alexthe666.rats.server.entity.EntityRat",
         "Weight": 80,
         "Min Group Count": 1,
@@ -2377,6 +2395,12 @@
         "Weight": 2,
         "Min Group Count": 1,
         "Max Group Count": 1
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.spirit.ghost.EntityBlackDog",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 4
       },
       {
         "Entity Class": "thaumcraft.common.entities.monster.EntityBrainyZombie",
@@ -2554,18 +2578,6 @@
         "Max Group Count": 2
       },
       {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityTroll",
-        "Weight": 500,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityTroll",
-        "Weight": 500,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "com.github.alexthe666.rats.server.entity.EntityRat",
         "Weight": 80,
         "Min Group Count": 1,
@@ -2714,8 +2726,8 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "MUSHROOM",
-      "RARE",
-      "BEACH"
+      "BEACH",
+      "RARE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -2818,6 +2830,12 @@
         "Weight": 2,
         "Min Group Count": 2,
         "Max Group Count": 4
+      },
+      {
+        "Entity Class": "vazkii.quark.world.entity.EntityCrab",
+        "Weight": 40,
+        "Min Group Count": 1,
+        "Max Group Count": 3
       }
     ],
     "Spawnable Monsters": [
@@ -2964,10 +2982,10 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "DRY",
-      "HILLS",
+      "SANDY",
       "HOT",
-      "SANDY"
+      "DRY",
+      "HILLS"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -2978,52 +2996,10 @@
         "Max Group Count": 3
       },
       {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
+        "Entity Class": "com.bewitchment.common.entity.living.EntitySnake",
+        "Weight": 20,
         "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityDeathWorm",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 3
+        "Max Group Count": 4
       },
       {
         "Entity Class": "com.crowsofwar.avatar.common.entity.mob.EntityOstrichHorse",
@@ -3182,8 +3158,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "HILLS",
-      "FOREST"
+      "FOREST",
+      "HILLS"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -3218,48 +3194,6 @@
         "Max Group Count": 4
       },
       {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "epicsquid.mysticalworld.entity.EntityDeer",
         "Weight": 6,
         "Min Group Count": 2,
@@ -3281,6 +3215,24 @@
         "Entity Class": "epicsquid.mysticalworld.entity.EntitySprout",
         "Weight": 2,
         "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityLizard",
+        "Weight": 20,
+        "Min Group Count": 1,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityOwl",
+        "Weight": 20,
+        "Min Group Count": 1,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntitySnake",
+        "Weight": 20,
+        "Min Group Count": 1,
         "Max Group Count": 4
       }
     ],
@@ -3358,12 +3310,6 @@
         "Max Group Count": 2
       },
       {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityTroll",
-        "Weight": 500,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "com.github.alexthe666.rats.server.entity.EntityRat",
         "Weight": 80,
         "Min Group Count": 1,
@@ -3392,6 +3338,12 @@
         "Weight": 2,
         "Min Group Count": 1,
         "Max Group Count": 1
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.spirit.ghost.EntityBlackDog",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 4
       },
       {
         "Entity Class": "party.lemons.corvus.entity.EntityWendigo",
@@ -3447,9 +3399,9 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "COLD",
+      "FOREST",
       "CONIFEROUS",
-      "HILLS",
-      "FOREST"
+      "HILLS"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -3490,48 +3442,6 @@
         "Max Group Count": 3
       },
       {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "epicsquid.mysticalworld.entity.EntityDeer",
         "Weight": 6,
         "Min Group Count": 2,
@@ -3553,6 +3463,24 @@
         "Entity Class": "epicsquid.mysticalworld.entity.EntitySprout",
         "Weight": 2,
         "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityLizard",
+        "Weight": 20,
+        "Min Group Count": 1,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityOwl",
+        "Weight": 20,
+        "Min Group Count": 1,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntitySnake",
+        "Weight": 20,
+        "Min Group Count": 1,
         "Max Group Count": 4
       },
       {
@@ -3642,12 +3570,6 @@
         "Max Group Count": 2
       },
       {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityTroll",
-        "Weight": 500,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "com.github.alexthe666.rats.server.entity.EntityRat",
         "Weight": 80,
         "Min Group Count": 1,
@@ -3676,6 +3598,12 @@
         "Weight": 2,
         "Min Group Count": 1,
         "Max Group Count": 1
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.spirit.ghost.EntityBlackDog",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 4
       },
       {
         "Entity Class": "party.lemons.corvus.entity.EntityWendigo",
@@ -3845,12 +3773,6 @@
         "Max Group Count": 2
       },
       {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityTroll",
-        "Weight": 500,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "com.github.alexthe666.rats.server.entity.EntityRat",
         "Weight": 80,
         "Min Group Count": 1,
@@ -3921,10 +3843,10 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "JUNGLE",
+      "HOT",
       "DENSE",
       "WET",
-      "HOT"
+      "JUNGLE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -3965,12 +3887,6 @@
         "Max Group Count": 4
       },
       {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityAmphithere",
-        "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 3
-      },
-      {
         "Entity Class": "epicsquid.mysticalworld.entity.EntityBeetle",
         "Weight": 5,
         "Min Group Count": 2,
@@ -3986,6 +3902,12 @@
         "Entity Class": "epicsquid.mysticalworld.entity.EntitySprout",
         "Weight": 2,
         "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityOwl",
+        "Weight": 20,
+        "Min Group Count": 1,
         "Max Group Count": 4
       }
     ],
@@ -4139,11 +4061,11 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "JUNGLE",
+      "HOT",
       "DENSE",
       "WET",
-      "HILLS",
-      "HOT"
+      "JUNGLE",
+      "HILLS"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -4184,54 +4106,6 @@
         "Max Group Count": 4
       },
       {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityAmphithere",
-        "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 3
-      },
-      {
         "Entity Class": "epicsquid.mysticalworld.entity.EntityBeetle",
         "Weight": 5,
         "Min Group Count": 2,
@@ -4247,6 +4121,18 @@
         "Entity Class": "epicsquid.mysticalworld.entity.EntitySprout",
         "Weight": 2,
         "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityOwl",
+        "Weight": 20,
+        "Min Group Count": 1,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntitySnake",
+        "Weight": 20,
+        "Min Group Count": 1,
         "Max Group Count": 4
       }
     ],
@@ -4400,11 +4286,11 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "JUNGLE",
-      "RARE",
-      "WET",
       "HOT",
-      "FOREST"
+      "FOREST",
+      "WET",
+      "JUNGLE",
+      "RARE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -4445,12 +4331,6 @@
         "Max Group Count": 4
       },
       {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityAmphithere",
-        "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 3
-      },
-      {
         "Entity Class": "epicsquid.mysticalworld.entity.EntityDeer",
         "Weight": 6,
         "Min Group Count": 2,
@@ -4478,6 +4358,18 @@
         "Entity Class": "epicsquid.mysticalworld.entity.EntitySprout",
         "Weight": 2,
         "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityLizard",
+        "Weight": 20,
+        "Min Group Count": 1,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityOwl",
+        "Weight": 20,
+        "Min Group Count": 1,
         "Max Group Count": 4
       }
     ],
@@ -4555,12 +4447,6 @@
         "Max Group Count": 2
       },
       {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityTroll",
-        "Weight": 500,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "com.github.alexthe666.rats.server.entity.EntityRat",
         "Weight": 80,
         "Min Group Count": 1,
@@ -4589,6 +4475,12 @@
         "Weight": 2,
         "Min Group Count": 1,
         "Max Group Count": 1
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.spirit.ghost.EntityBlackDog",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 4
       },
       {
         "Entity Class": "party.lemons.corvus.entity.EntityWendigo",
@@ -5076,12 +4968,6 @@
         "Max Group Count": 2
       },
       {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityTroll",
-        "Weight": 500,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "com.github.alexthe666.rats.server.entity.EntityRat",
         "Weight": 80,
         "Min Group Count": 1,
@@ -5207,6 +5093,18 @@
         "Weight": 2,
         "Min Group Count": 2,
         "Max Group Count": 4
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityLizard",
+        "Weight": 20,
+        "Min Group Count": 1,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityOwl",
+        "Weight": 20,
+        "Min Group Count": 1,
+        "Max Group Count": 4
       }
     ],
     "Spawnable Monsters": [
@@ -5289,12 +5187,6 @@
         "Max Group Count": 1
       },
       {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityTroll",
-        "Weight": 500,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "com.github.alexthe666.rats.server.entity.EntityRat",
         "Weight": 80,
         "Min Group Count": 1,
@@ -5323,6 +5215,12 @@
         "Weight": 2,
         "Min Group Count": 1,
         "Max Group Count": 1
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.spirit.ghost.EntityBlackDog",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 4
       },
       {
         "Entity Class": "party.lemons.corvus.entity.EntityWendigo",
@@ -5383,8 +5281,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "HILLS",
-      "FOREST"
+      "FOREST",
+      "HILLS"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -5413,48 +5311,6 @@
         "Max Group Count": 4
       },
       {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "epicsquid.mysticalworld.entity.EntityDeer",
         "Weight": 6,
         "Min Group Count": 2,
@@ -5476,6 +5332,24 @@
         "Entity Class": "epicsquid.mysticalworld.entity.EntitySprout",
         "Weight": 2,
         "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityLizard",
+        "Weight": 20,
+        "Min Group Count": 1,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityOwl",
+        "Weight": 20,
+        "Min Group Count": 1,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntitySnake",
+        "Weight": 20,
+        "Min Group Count": 1,
         "Max Group Count": 4
       },
       {
@@ -5559,12 +5433,6 @@
         "Max Group Count": 2
       },
       {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityTroll",
-        "Weight": 500,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "com.github.alexthe666.rats.server.entity.EntityRat",
         "Weight": 80,
         "Min Group Count": 1,
@@ -5593,6 +5461,12 @@
         "Weight": 2,
         "Min Group Count": 1,
         "Max Group Count": 1
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.spirit.ghost.EntityBlackDog",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 4
       },
       {
         "Entity Class": "party.lemons.corvus.entity.EntityWendigo",
@@ -5647,9 +5521,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "DENSE",
       "SPOOKY",
-      "FOREST"
+      "FOREST",
+      "DENSE"
     ],
     "BiomeManager Entries": {
       "WARM Weights": [
@@ -5703,6 +5577,18 @@
         "Entity Class": "epicsquid.mysticalworld.entity.EntitySprout",
         "Weight": 2,
         "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityLizard",
+        "Weight": 20,
+        "Min Group Count": 1,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityOwl",
+        "Weight": 20,
+        "Min Group Count": 1,
         "Max Group Count": 4
       }
     ],
@@ -5786,12 +5672,6 @@
         "Max Group Count": 1
       },
       {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityTroll",
-        "Weight": 500,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "com.github.alexthe666.rats.server.entity.EntityRat",
         "Weight": 80,
         "Min Group Count": 1,
@@ -5820,6 +5700,12 @@
         "Weight": 2,
         "Min Group Count": 1,
         "Max Group Count": 1
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.spirit.ghost.EntityBlackDog",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 4
       },
       {
         "Entity Class": "party.lemons.corvus.entity.EntityWendigo",
@@ -5887,8 +5773,8 @@
     "Enable Snow": true,
     "Dictionary Types": [
       "COLD",
-      "CONIFEROUS",
       "FOREST",
+      "CONIFEROUS",
       "SNOWY"
     ],
     "BiomeManager Entries": {
@@ -5958,6 +5844,18 @@
         "Max Group Count": 4
       },
       {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityLizard",
+        "Weight": 20,
+        "Min Group Count": 1,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityOwl",
+        "Weight": 20,
+        "Min Group Count": 1,
+        "Max Group Count": 4
+      },
+      {
         "Entity Class": "party.lemons.corvus.entity.EntityCrow",
         "Weight": 5,
         "Min Group Count": 2,
@@ -6044,18 +5942,6 @@
         "Max Group Count": 1
       },
       {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityTroll",
-        "Weight": 500,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityTroll",
-        "Weight": 500,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "com.github.alexthe666.rats.server.entity.EntityRat",
         "Weight": 80,
         "Min Group Count": 1,
@@ -6084,6 +5970,12 @@
         "Weight": 2,
         "Min Group Count": 1,
         "Max Group Count": 1
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.spirit.ghost.EntityBlackDog",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 4
       },
       {
         "Entity Class": "party.lemons.corvus.entity.EntityWendigo",
@@ -6145,9 +6037,9 @@
     "Enable Snow": true,
     "Dictionary Types": [
       "COLD",
+      "FOREST",
       "CONIFEROUS",
       "HILLS",
-      "FOREST",
       "SNOWY"
     ],
     "BiomeManager Entries": {},
@@ -6189,48 +6081,6 @@
         "Max Group Count": 3
       },
       {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "epicsquid.mysticalworld.entity.EntityDeer",
         "Weight": 6,
         "Min Group Count": 2,
@@ -6252,6 +6102,24 @@
         "Entity Class": "epicsquid.mysticalworld.entity.EntitySprout",
         "Weight": 2,
         "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityLizard",
+        "Weight": 20,
+        "Min Group Count": 1,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityOwl",
+        "Weight": 20,
+        "Min Group Count": 1,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntitySnake",
+        "Weight": 20,
+        "Min Group Count": 1,
         "Max Group Count": 4
       },
       {
@@ -6335,18 +6203,6 @@
         "Max Group Count": 2
       },
       {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityTroll",
-        "Weight": 500,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityTroll",
-        "Weight": 500,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "com.github.alexthe666.rats.server.entity.EntityRat",
         "Weight": 80,
         "Min Group Count": 1,
@@ -6375,6 +6231,12 @@
         "Weight": 2,
         "Min Group Count": 1,
         "Max Group Count": 1
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.spirit.ghost.EntityBlackDog",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 4
       },
       {
         "Entity Class": "party.lemons.corvus.entity.EntityWendigo",
@@ -6430,8 +6292,8 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "COLD",
-      "CONIFEROUS",
-      "FOREST"
+      "FOREST",
+      "CONIFEROUS"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -6493,6 +6355,18 @@
         "Entity Class": "epicsquid.mysticalworld.entity.EntitySprout",
         "Weight": 2,
         "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityLizard",
+        "Weight": 20,
+        "Min Group Count": 1,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityOwl",
+        "Weight": 20,
+        "Min Group Count": 1,
         "Max Group Count": 4
       },
       {
@@ -6576,12 +6450,6 @@
         "Max Group Count": 2
       },
       {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityTroll",
-        "Weight": 500,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "com.github.alexthe666.rats.server.entity.EntityRat",
         "Weight": 80,
         "Min Group Count": 1,
@@ -6610,6 +6478,12 @@
         "Weight": 2,
         "Min Group Count": 1,
         "Max Group Count": 1
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.spirit.ghost.EntityBlackDog",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 4
       },
       {
         "Entity Class": "party.lemons.corvus.entity.EntityWendigo",
@@ -6665,9 +6539,9 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "COLD",
+      "FOREST",
       "CONIFEROUS",
-      "HILLS",
-      "FOREST"
+      "HILLS"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -6708,48 +6582,6 @@
         "Max Group Count": 3
       },
       {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "epicsquid.mysticalworld.entity.EntityDeer",
         "Weight": 6,
         "Min Group Count": 2,
@@ -6771,6 +6603,24 @@
         "Entity Class": "epicsquid.mysticalworld.entity.EntitySprout",
         "Weight": 2,
         "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityLizard",
+        "Weight": 20,
+        "Min Group Count": 1,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityOwl",
+        "Weight": 20,
+        "Min Group Count": 1,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntitySnake",
+        "Weight": 20,
+        "Min Group Count": 1,
         "Max Group Count": 4
       },
       {
@@ -6860,12 +6710,6 @@
         "Max Group Count": 2
       },
       {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityTroll",
-        "Weight": 500,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "com.github.alexthe666.rats.server.entity.EntityRat",
         "Weight": 80,
         "Min Group Count": 1,
@@ -6894,6 +6738,12 @@
         "Weight": 2,
         "Min Group Count": 1,
         "Max Group Count": 1
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.spirit.ghost.EntityBlackDog",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 4
       },
       {
         "Entity Class": "party.lemons.corvus.entity.EntityWendigo",
@@ -6949,8 +6799,8 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "MOUNTAIN",
-      "SPARSE",
-      "FOREST"
+      "FOREST",
+      "SPARSE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -7009,6 +6859,18 @@
         "Max Group Count": 4
       },
       {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityLizard",
+        "Weight": 20,
+        "Min Group Count": 1,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityOwl",
+        "Weight": 20,
+        "Min Group Count": 1,
+        "Max Group Count": 4
+      },
+      {
         "Entity Class": "com.crowsofwar.avatar.common.entity.mob.EntitySkyBison",
         "Weight": 5,
         "Min Group Count": 1,
@@ -7089,18 +6951,6 @@
         "Max Group Count": 2
       },
       {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityTroll",
-        "Weight": 500,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityTroll",
-        "Weight": 500,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "com.github.alexthe666.rats.server.entity.EntityRat",
         "Weight": 80,
         "Min Group Count": 1,
@@ -7129,6 +6979,12 @@
         "Weight": 2,
         "Min Group Count": 1,
         "Max Group Count": 1
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.spirit.ghost.EntityBlackDog",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 4
       },
       {
         "Entity Class": "party.lemons.corvus.entity.EntityWendigo",
@@ -7183,10 +7039,10 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SPARSE",
-      "PLAINS",
+      "HOT",
       "SAVANNA",
-      "HOT"
+      "PLAINS",
+      "SPARSE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -7227,12 +7083,6 @@
         "Max Group Count": 1
       },
       {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityCockatrice",
-        "Weight": 4,
-        "Min Group Count": 1,
-        "Max Group Count": 2
-      },
-      {
         "Entity Class": "epicsquid.mysticalworld.entity.EntityDeer",
         "Weight": 6,
         "Min Group Count": 2,
@@ -7242,6 +7092,18 @@
         "Entity Class": "epicsquid.mysticalworld.entity.EntityBeetle",
         "Weight": 5,
         "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityRaven",
+        "Weight": 20,
+        "Min Group Count": 1,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntitySnake",
+        "Weight": 20,
+        "Min Group Count": 1,
         "Max Group Count": 4
       },
       {
@@ -7355,6 +7217,12 @@
         "Max Group Count": 1
       },
       {
+        "Entity Class": "com.bewitchment.common.entity.spirit.ghost.EntityBlackDog",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 4
+      },
+      {
         "Entity Class": "com.jarhax.eerieentities.entities.EntityPumpkinSlime",
         "Weight": 5,
         "Min Group Count": 1,
@@ -7401,11 +7269,11 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SPARSE",
-      "PLAINS",
-      "RARE",
+      "HOT",
       "SAVANNA",
-      "HOT"
+      "PLAINS",
+      "SPARSE",
+      "RARE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -7452,12 +7320,6 @@
         "Max Group Count": 4
       },
       {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityCockatrice",
-        "Weight": 4,
-        "Min Group Count": 1,
-        "Max Group Count": 2
-      },
-      {
         "Entity Class": "epicsquid.mysticalworld.entity.EntityDeer",
         "Weight": 6,
         "Min Group Count": 2,
@@ -7467,6 +7329,18 @@
         "Entity Class": "epicsquid.mysticalworld.entity.EntityBeetle",
         "Weight": 5,
         "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityRaven",
+        "Weight": 20,
+        "Min Group Count": 1,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntitySnake",
+        "Weight": 20,
+        "Min Group Count": 1,
         "Max Group Count": 4
       },
       {
@@ -7586,6 +7460,12 @@
         "Max Group Count": 1
       },
       {
+        "Entity Class": "com.bewitchment.common.entity.spirit.ghost.EntityBlackDog",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 4
+      },
+      {
         "Entity Class": "com.jarhax.eerieentities.entities.EntityPumpkinSlime",
         "Weight": 5,
         "Min Group Count": 1,
@@ -7633,8 +7513,8 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "MESA",
-      "DRY",
-      "SANDY"
+      "SANDY",
+      "DRY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -7783,9 +7663,9 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "MESA",
+      "SANDY",
       "DRY",
-      "SPARSE",
-      "SANDY"
+      "SPARSE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -7934,8 +7814,8 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "MESA",
-      "DRY",
-      "SANDY"
+      "SANDY",
+      "DRY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -8311,9 +8191,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
+      "FOREST",
       "DENSE",
-      "WET",
-      "FOREST"
+      "WET"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -8436,9 +8316,9 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "DRY",
       "SAVANNA",
-      "HOT"
+      "HOT",
+      "DRY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -8525,9 +8405,9 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "DRY",
+      "SANDY",
       "HOT",
-      "SANDY"
+      "DRY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -8614,10 +8494,10 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "DRY",
-      "HILLS",
+      "SANDY",
       "HOT",
-      "SANDY"
+      "DRY",
+      "HILLS"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -8825,8 +8705,8 @@
     "Enable Snow": true,
     "Dictionary Types": [
       "COLD",
-      "CONIFEROUS",
       "FOREST",
+      "CONIFEROUS",
       "SNOWY"
     ],
     "BiomeManager Entries": {},
@@ -8957,9 +8837,9 @@
     "Enable Snow": true,
     "Dictionary Types": [
       "COLD",
+      "FOREST",
       "CONIFEROUS",
       "HILLS",
-      "FOREST",
       "SNOWY"
     ],
     "BiomeManager Entries": {},
@@ -9089,8 +8969,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SWAMP",
-      "WET"
+      "WET",
+      "SWAMP"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -9196,9 +9076,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SWAMP",
+      "WET",
       "PLAINS",
-      "WET"
+      "SWAMP"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -9316,9 +9196,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SWAMP",
+      "FOREST",
       "WET",
-      "FOREST"
+      "SWAMP"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -9454,10 +9334,10 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "JUNGLE",
-      "LUSH",
+      "FOREST",
       "WET",
-      "FOREST"
+      "LUSH",
+      "JUNGLE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -9586,8 +9466,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "JUNGLE",
-      "WET"
+      "WET",
+      "JUNGLE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -9692,10 +9572,10 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "JUNGLE",
+      "FOREST",
       "LUSH",
-      "HILLS",
-      "FOREST"
+      "JUNGLE",
+      "HILLS"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -9925,8 +9805,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SWAMP",
-      "WET"
+      "WET",
+      "SWAMP"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -10248,8 +10128,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "PLAINS",
-      "WASTELAND"
+      "WASTELAND",
+      "PLAINS"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -10354,10 +10234,10 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "DRY",
       "WASTELAND",
+      "SANDY",
       "HOT",
-      "SANDY"
+      "DRY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -10544,8 +10424,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "WET",
-      "WASTELAND"
+      "WASTELAND",
+      "WET"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -10631,9 +10511,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "JUNGLE",
+      "WASTELAND",
       "WET",
-      "WASTELAND"
+      "JUNGLE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -10738,8 +10618,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "DEAD",
-      "SPOOKY"
+      "SPOOKY",
+      "DEAD"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -10807,8 +10687,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "DEAD",
-      "SPOOKY"
+      "SPOOKY",
+      "DEAD"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -10876,8 +10756,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "DEAD",
-      "SPOOKY"
+      "SPOOKY",
+      "DEAD"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -10945,8 +10825,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "DEAD",
-      "SPOOKY"
+      "SPOOKY",
+      "DEAD"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -11014,8 +10894,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "DEAD",
-      "SPOOKY"
+      "SPOOKY",
+      "DEAD"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -11083,8 +10963,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "DEAD",
-      "SPOOKY"
+      "SPOOKY",
+      "DEAD"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -11501,9 +11381,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "END",
       "MAGICAL",
-      "SPOOKY"
+      "SPOOKY",
+      "END"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -11552,258 +11432,6 @@
   },
   {
     "ID": 73,
-    "Name": "Vampire Lair",
-    "Resource Location": "bewitchment:vampire_lair",
-    "Class": "com.bewitchment.common.world.biome.BiomeVampireLair",
-    "Root Height": 0.1,
-    "Height Variation": 0.2,
-    "Top Block": "minecraft:grass[snowy\u003dfalse]",
-    "Filler Block": "minecraft:dirt[snowy\u003dfalse,variant\u003ddirt]",
-    "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
-    "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
-    "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
-    "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
-    "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
-    "Water Color": "2228275",
-    "Temperature": 0.5,
-    "Humidity": 0.5,
-    "Water Tint": 2228275,
-    "Enable Rain": false,
-    "Enable Snow": false,
-    "Dictionary Types": [
-      "IMMUTABLE"
-    ],
-    "BiomeManager Entries": {},
-    "Spawnable Creatures": [
-      {
-        "Entity Class": "net.minecraft.entity.passive.EntitySheep",
-        "Weight": 12,
-        "Min Group Count": 4,
-        "Max Group Count": 4
-      },
-      {
-        "Entity Class": "net.minecraft.entity.passive.EntityPig",
-        "Weight": 10,
-        "Min Group Count": 4,
-        "Max Group Count": 4
-      },
-      {
-        "Entity Class": "net.minecraft.entity.passive.EntityChicken",
-        "Weight": 10,
-        "Min Group Count": 4,
-        "Max Group Count": 4
-      },
-      {
-        "Entity Class": "net.minecraft.entity.passive.EntityCow",
-        "Weight": 8,
-        "Min Group Count": 4,
-        "Max Group Count": 4
-      }
-    ],
-    "Spawnable Monsters": [
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntitySpider",
-        "Weight": 100,
-        "Min Group Count": 4,
-        "Max Group Count": 4
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityZombie",
-        "Weight": 95,
-        "Min Group Count": 4,
-        "Max Group Count": 4
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityZombieVillager",
-        "Weight": 5,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntitySkeleton",
-        "Weight": 100,
-        "Min Group Count": 4,
-        "Max Group Count": 4
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityCreeper",
-        "Weight": 100,
-        "Min Group Count": 4,
-        "Max Group Count": 4
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntitySlime",
-        "Weight": 100,
-        "Min Group Count": 4,
-        "Max Group Count": 4
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEnderman",
-        "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 4
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityWitch",
-        "Weight": 5,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      }
-    ],
-    "Spawnable Water Creatures": [
-      {
-        "Entity Class": "net.minecraft.entity.passive.EntitySquid",
-        "Weight": 10,
-        "Min Group Count": 4,
-        "Max Group Count": 4
-      }
-    ],
-    "Spawnable Cave Creatures": [
-      {
-        "Entity Class": "net.minecraft.entity.passive.EntityBat",
-        "Weight": 10,
-        "Min Group Count": 8,
-        "Max Group Count": 8
-      }
-    ],
-    "Spawn Biome": false,
-    "Tweaked": false
-  },
-  {
-    "ID": 74,
-    "Name": "Glacier",
-    "Resource Location": "iceandfire:glacier",
-    "Class": "com.github.alexthe666.iceandfire.world.BiomeGlacier",
-    "Root Height": 2.125,
-    "Height Variation": 0.025,
-    "Top Block": "minecraft:snow",
-    "Filler Block": "minecraft:packed_ice",
-    "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
-    "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
-    "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
-    "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
-    "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
-    "Water Color": "16777215",
-    "Temperature": 0.0,
-    "Humidity": 0.5,
-    "Water Tint": 16777215,
-    "Enable Rain": true,
-    "Enable Snow": true,
-    "Dictionary Types": [
-      "COLD",
-      "SPARSE",
-      "DEAD",
-      "WASTELAND",
-      "SNOWY"
-    ],
-    "BiomeManager Entries": {
-      "COOL Weights": [
-        4
-      ]
-    },
-    "Spawnable Creatures": [
-      {
-        "Entity Class": "net.minecraft.entity.passive.EntityRabbit",
-        "Weight": 10,
-        "Min Group Count": 2,
-        "Max Group Count": 3
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityPolarBear",
-        "Weight": 1,
-        "Min Group Count": 1,
-        "Max Group Count": 2
-      }
-    ],
-    "Spawnable Monsters": [
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntitySpider",
-        "Weight": 100,
-        "Min Group Count": 4,
-        "Max Group Count": 4
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityZombie",
-        "Weight": 95,
-        "Min Group Count": 4,
-        "Max Group Count": 4
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityZombieVillager",
-        "Weight": 5,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityCreeper",
-        "Weight": 100,
-        "Min Group Count": 4,
-        "Max Group Count": 4
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntitySlime",
-        "Weight": 100,
-        "Min Group Count": 4,
-        "Max Group Count": 4
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEnderman",
-        "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 4
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityWitch",
-        "Weight": 5,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntitySkeleton",
-        "Weight": 20,
-        "Min Group Count": 4,
-        "Max Group Count": 4
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityStray",
-        "Weight": 80,
-        "Min Group Count": 4,
-        "Max Group Count": 4
-      },
-      {
-        "Entity Class": "thaumcraft.common.entities.monster.EntityBrainyZombie",
-        "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityCursedArmor",
-        "Weight": 1,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      }
-    ],
-    "Spawnable Water Creatures": [
-      {
-        "Entity Class": "net.minecraft.entity.passive.EntitySquid",
-        "Weight": 10,
-        "Min Group Count": 4,
-        "Max Group Count": 4
-      }
-    ],
-    "Spawnable Cave Creatures": [
-      {
-        "Entity Class": "net.minecraft.entity.passive.EntityBat",
-        "Weight": 10,
-        "Min Group Count": 8,
-        "Max Group Count": 8
-      }
-    ],
-    "Spawn Biome": true,
-    "Tweaked": false
-  },
-  {
-    "ID": 75,
     "Name": "Mystic Forest",
     "Resource Location": "kathairis:mystic forest",
     "Class": "mod.krevik.biome.BiomeMysticForest",
@@ -11823,8 +11451,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "DENSE",
-      "FOREST"
+      "FOREST",
+      "DENSE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -11892,7 +11520,7 @@
     "Tweaked": false
   },
   {
-    "ID": 76,
+    "ID": 74,
     "Name": "Mystic Plains",
     "Resource Location": "kathairis:mystic plains",
     "Class": "mod.krevik.biome.BiomeMysticPlains",
@@ -11912,8 +11540,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "PLAINS",
-      "DENSE"
+      "DENSE",
+      "PLAINS"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -11975,7 +11603,7 @@
     "Tweaked": false
   },
   {
-    "ID": 77,
+    "ID": 75,
     "Name": "Mystic Desert",
     "Resource Location": "kathairis:mystic desert",
     "Class": "mod.krevik.biome.BiomeMysticDesert",
@@ -11995,9 +11623,9 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "PLAINS",
+      "HOT",
       "DEAD",
-      "HOT"
+      "PLAINS"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -12047,7 +11675,7 @@
     "Tweaked": false
   },
   {
-    "ID": 78,
+    "ID": 76,
     "Name": "Mystic Swamps",
     "Resource Location": "kathairis:mystic swamps",
     "Class": "mod.krevik.biome.BiomeMysticSwamps",
@@ -12111,7 +11739,7 @@
     "Tweaked": false
   },
   {
-    "ID": 79,
+    "ID": 77,
     "Name": "Floating Islands",
     "Resource Location": "kathairis:floating islands",
     "Class": "mod.krevik.biome.BiomeFloatingIslands",
@@ -12186,6 +11814,12 @@
         "Weight": 2,
         "Min Group Count": 1,
         "Max Group Count": 1
+      },
+      {
+        "Entity Class": "thaumcraft.common.entities.monster.EntityPech",
+        "Weight": 10,
+        "Min Group Count": 1,
+        "Max Group Count": 1
       }
     ],
     "Spawnable Water Creatures": [],
@@ -12201,7 +11835,7 @@
     "Tweaked": false
   },
   {
-    "ID": 80,
+    "ID": 78,
     "Name": "Katharian Ocean",
     "Resource Location": "kathairis:katharian ocean",
     "Class": "mod.krevik.biome.BiomeKatharianOcean",
@@ -12241,7 +11875,111 @@
     "Tweaked": false
   },
   {
-    "ID": 81,
+    "ID": 79,
+    "Name": "ratlantis",
+    "Resource Location": "rats:ratlantis",
+    "Class": "com.github.alexthe666.rats.server.world.BiomeRatlantis",
+    "Root Height": 0.1,
+    "Height Variation": 0.2,
+    "Top Block": "minecraft:grass[snowy\u003dfalse]",
+    "Filler Block": "minecraft:dirt[snowy\u003dfalse,variant\u003ddirt]",
+    "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
+    "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
+    "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
+    "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
+    "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
+    "Water Color": "16777215",
+    "Temperature": 0.95,
+    "Humidity": 0.9,
+    "Water Tint": 16777215,
+    "Enable Rain": true,
+    "Enable Snow": false,
+    "Dictionary Types": [
+      "HOT",
+      "DENSE",
+      "WET",
+      "JUNGLE"
+    ],
+    "BiomeManager Entries": {},
+    "Spawnable Creatures": [
+      {
+        "Entity Class": "net.minecraft.entity.passive.EntityParrot",
+        "Weight": 60,
+        "Min Group Count": 1,
+        "Max Group Count": 2
+      }
+    ],
+    "Spawnable Monsters": [
+      {
+        "Entity Class": "net.minecraft.entity.monster.EntitySpider",
+        "Weight": 100,
+        "Min Group Count": 4,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "net.minecraft.entity.monster.EntityZombie",
+        "Weight": 95,
+        "Min Group Count": 4,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "net.minecraft.entity.monster.EntityZombieVillager",
+        "Weight": 5,
+        "Min Group Count": 1,
+        "Max Group Count": 1
+      },
+      {
+        "Entity Class": "net.minecraft.entity.monster.EntitySkeleton",
+        "Weight": 100,
+        "Min Group Count": 4,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "net.minecraft.entity.monster.EntityCreeper",
+        "Weight": 100,
+        "Min Group Count": 4,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "net.minecraft.entity.monster.EntitySlime",
+        "Weight": 100,
+        "Min Group Count": 4,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "net.minecraft.entity.monster.EntityEnderman",
+        "Weight": 10,
+        "Min Group Count": 1,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "net.minecraft.entity.monster.EntityWitch",
+        "Weight": 5,
+        "Min Group Count": 1,
+        "Max Group Count": 1
+      }
+    ],
+    "Spawnable Water Creatures": [
+      {
+        "Entity Class": "net.minecraft.entity.passive.EntitySquid",
+        "Weight": 10,
+        "Min Group Count": 4,
+        "Max Group Count": 4
+      }
+    ],
+    "Spawnable Cave Creatures": [
+      {
+        "Entity Class": "net.minecraft.entity.passive.EntityBat",
+        "Weight": 10,
+        "Min Group Count": 8,
+        "Max Group Count": 8
+      }
+    ],
+    "Spawn Biome": false,
+    "Tweaked": false
+  },
+  {
+    "ID": 80,
     "Name": "wizardry_torikkisea",
     "Resource Location": "wizardry:wizardry_torikkisea",
     "Class": "com.teamwizardry.wizardry.common.world.biome.BiomeTorikkiSea",
@@ -12261,8 +11999,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "MAGICAL",
       "MOUNTAIN",
+      "MAGICAL",
       "WASTELAND",
       "SPOOKY",
       "WATER"
@@ -12289,7 +12027,7 @@
     "Tweaked": false
   },
   {
-    "ID": 82,
+    "ID": 81,
     "Name": "wizardry_torikki",
     "Resource Location": "wizardry:wizardry_torikki",
     "Class": "com.teamwizardry.wizardry.common.world.biome.BiomeTorikki",
@@ -12309,8 +12047,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "MAGICAL",
       "MOUNTAIN",
+      "MAGICAL",
       "WASTELAND",
       "SPOOKY"
     ],
@@ -12336,7 +12074,7 @@
     "Tweaked": false
   },
   {
-    "ID": 83,
+    "ID": 82,
     "Name": "wizardry_underworld",
     "Resource Location": "wizardry:wizardry_underworld",
     "Class": "com.teamwizardry.wizardry.common.world.biome.BiomeUnderWorld",
@@ -12356,11 +12094,11 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "DRY",
       "COLD",
       "MAGICAL",
-      "VOID",
-      "SPOOKY"
+      "SPOOKY",
+      "DRY",
+      "VOID"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -12384,7 +12122,7 @@
     "Tweaked": false
   },
   {
-    "ID": 84,
+    "ID": 83,
     "Name": "arcane_void",
     "Resource Location": "arcaneworld:arcane_void",
     "Class": "party.lemons.arcaneworld.gen.BiomeArcaneVoid",
@@ -12422,7 +12160,7 @@
     "Tweaked": false
   },
   {
-    "ID": 85,
+    "ID": 84,
     "Name": "Aether Highlands",
     "Resource Location": "aether_legacy:aether_highlands",
     "Class": "com.legacy.aether.world.biome.AetherBiome",
@@ -12547,7 +12285,7 @@
     "Tweaked": false
   },
   {
-    "ID": 86,
+    "ID": 85,
     "Name": "Calming Skies",
     "Resource Location": "blue_skies:calming_skies",
     "Class": "com.legacy.blue_skies.world.everbright.biome.BiomeCalmingSkies",
@@ -12617,7 +12355,7 @@
     "Tweaked": false
   },
   {
-    "ID": 87,
+    "ID": 86,
     "Name": "Brightlands",
     "Resource Location": "blue_skies:brightlands",
     "Class": "com.legacy.blue_skies.world.everbright.biome.BiomeBrightlands",
@@ -12637,8 +12375,8 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
-      "MAGICAL",
       "MOUNTAIN",
+      "MAGICAL",
       "SNOWY"
     ],
     "BiomeManager Entries": {},
@@ -12714,7 +12452,7 @@
     "Tweaked": false
   },
   {
-    "ID": 88,
+    "ID": 87,
     "Name": "Peeking Oceans",
     "Resource Location": "blue_skies:peeking_oceans",
     "Class": "com.legacy.blue_skies.world.everbright.biome.BiomePeekingOceans",
@@ -12761,7 +12499,7 @@
     "Tweaked": false
   },
   {
-    "ID": 89,
+    "ID": 88,
     "Name": "Pale Swamplands",
     "Resource Location": "blue_skies:pale_swamplands",
     "Class": "com.legacy.blue_skies.world.everbright.biome.BiomePaleSwamplands",
@@ -12781,8 +12519,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SWAMP",
       "MAGICAL",
+      "SWAMP",
       "SNOWY"
     ],
     "BiomeManager Entries": {},
@@ -12852,7 +12590,7 @@
     "Tweaked": false
   },
   {
-    "ID": 90,
+    "ID": 89,
     "Name": "Frostbitten Forest",
     "Resource Location": "blue_skies:frostbit_forest",
     "Class": "com.legacy.blue_skies.world.everbright.biome.BiomeFrostbitForest",
@@ -12873,9 +12611,9 @@
     "Enable Snow": true,
     "Dictionary Types": [
       "MAGICAL",
-      "LUSH",
+      "FOREST",
       "DENSE",
-      "FOREST"
+      "LUSH"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -12918,7 +12656,7 @@
     "Tweaked": false
   },
   {
-    "ID": 91,
+    "ID": 90,
     "Name": "Unorthodox Valley",
     "Resource Location": "blue_skies:unorthodox_valley",
     "Class": "com.legacy.blue_skies.world.everdawn.biome.BiomeUnorthodoxValley",
@@ -12938,8 +12676,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "MAGICAL",
       "MOUNTAIN",
+      "MAGICAL",
       "HILLS"
     ],
     "BiomeManager Entries": {},
@@ -12995,7 +12733,7 @@
     "Tweaked": false
   },
   {
-    "ID": 92,
+    "ID": 91,
     "Name": "Shaded Woodlands",
     "Resource Location": "blue_skies:shaded_woods",
     "Class": "com.legacy.blue_skies.world.everdawn.biome.BiomeShadedWoods",
@@ -13015,10 +12753,10 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "LUSH",
-      "DENSE",
+      "SPOOKY",
       "FOREST",
-      "SPOOKY"
+      "DENSE",
+      "LUSH"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -13073,7 +12811,7 @@
     "Tweaked": false
   },
   {
-    "ID": 93,
+    "ID": 92,
     "Name": "Crystal Dunes",
     "Resource Location": "blue_skies:crystal_dunes",
     "Class": "com.legacy.blue_skies.world.everdawn.biome.BiomeCrystalDunes",
@@ -13093,9 +12831,9 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "DRY",
+      "SANDY",
       "DEAD",
-      "SANDY"
+      "DRY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -13126,7 +12864,7 @@
     "Tweaked": false
   },
   {
-    "ID": 94,
+    "ID": 93,
     "Name": "Sunset Maple Forest",
     "Resource Location": "blue_skies:sunset_maple_forest",
     "Class": "com.legacy.blue_skies.world.everdawn.biome.BiomeSunsetMapleForest",
@@ -13170,7 +12908,7 @@
     "Tweaked": false
   },
   {
-    "ID": 95,
+    "ID": 94,
     "Name": "Limbo",
     "Resource Location": "dimdoors:limbo",
     "Class": "org.dimdev.dimdoors.shared.world.limbo.BiomeLimbo",
@@ -13208,7 +12946,7 @@
     "Tweaked": false
   },
   {
-    "ID": 96,
+    "ID": 95,
     "Name": "White Void",
     "Resource Location": "dimdoors:white_void",
     "Class": "org.dimdev.dimdoors.shared.world.pocketdimension.BiomeBlank",
@@ -13239,7 +12977,7 @@
     "Tweaked": false
   },
   {
-    "ID": 97,
+    "ID": 96,
     "Name": "Black Void",
     "Resource Location": "dimdoors:black_void",
     "Class": "org.dimdev.dimdoors.shared.world.pocketdimension.BiomeBlank",
@@ -13270,7 +13008,7 @@
     "Tweaked": false
   },
   {
-    "ID": 98,
+    "ID": 97,
     "Name": "Dangerous Black Void",
     "Resource Location": "dimdoors:dangerous_black_void",
     "Class": "org.dimdev.dimdoors.shared.world.pocketdimension.BiomeBlank",
@@ -13301,7 +13039,7 @@
     "Tweaked": false
   },
   {
-    "ID": 99,
+    "ID": 98,
     "Name": "Patchy Islands",
     "Resource Location": "thebetweenlands:patchy_islands",
     "Class": "thebetweenlands.common.world.biome.BiomePatchyIslands",
@@ -13321,9 +13059,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SWAMP",
       "WET",
-      "WATER"
+      "WATER",
+      "SWAMP"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -13341,7 +13079,7 @@
     "Tweaked": false
   },
   {
-    "ID": 100,
+    "ID": 99,
     "Name": "Swamplands",
     "Resource Location": "thebetweenlands:swamplands",
     "Class": "thebetweenlands.common.world.biome.BiomeSwamplands",
@@ -13361,11 +13099,11 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SWAMP",
+      "FOREST",
       "DENSE",
       "WET",
-      "FOREST",
-      "WATER"
+      "WATER",
+      "SWAMP"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -13396,7 +13134,7 @@
     "Tweaked": false
   },
   {
-    "ID": 101,
+    "ID": 100,
     "Name": "Deep Waters",
     "Resource Location": "thebetweenlands:deep_waters",
     "Class": "thebetweenlands.common.world.biome.BiomeDeepWaters",
@@ -13416,8 +13154,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SWAMP",
-      "WATER"
+      "WATER",
+      "SWAMP"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -13435,7 +13173,7 @@
     "Tweaked": false
   },
   {
-    "ID": 102,
+    "ID": 101,
     "Name": "Coarse Islands",
     "Resource Location": "thebetweenlands:coarse_islands",
     "Class": "thebetweenlands.common.world.biome.BiomeCoarseIslands",
@@ -13455,9 +13193,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SWAMP",
       "WET",
-      "WATER"
+      "WATER",
+      "SWAMP"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -13475,7 +13213,7 @@
     "Tweaked": false
   },
   {
-    "ID": 103,
+    "ID": 102,
     "Name": "Sludge Plains",
     "Resource Location": "thebetweenlands:sludge_plains",
     "Class": "thebetweenlands.common.world.biome.BiomeSludgePlains",
@@ -13495,10 +13233,10 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SWAMP",
-      "WET",
       "WASTELAND",
-      "DEAD"
+      "DEAD",
+      "WET",
+      "SWAMP"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -13523,7 +13261,7 @@
     "Tweaked": false
   },
   {
-    "ID": 104,
+    "ID": 103,
     "Name": "Marsh 0",
     "Resource Location": "thebetweenlands:marsh_0",
     "Class": "thebetweenlands.common.world.biome.BiomeMarsh",
@@ -13543,9 +13281,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SWAMP",
       "WET",
-      "WATER"
+      "WATER",
+      "SWAMP"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -13563,7 +13301,7 @@
     "Tweaked": false
   },
   {
-    "ID": 105,
+    "ID": 104,
     "Name": "Marsh 1",
     "Resource Location": "thebetweenlands:marsh_1",
     "Class": "thebetweenlands.common.world.biome.BiomeMarsh",
@@ -13583,9 +13321,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SWAMP",
       "WET",
-      "WATER"
+      "WATER",
+      "SWAMP"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -13603,7 +13341,7 @@
     "Tweaked": false
   },
   {
-    "ID": 106,
+    "ID": 105,
     "Name": "Swamplands Clearing",
     "Resource Location": "thebetweenlands:swamplands_clearing",
     "Class": "thebetweenlands.common.world.biome.BiomeSwamplandsClearing",
@@ -13623,11 +13361,11 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SWAMP",
+      "FOREST",
       "DENSE",
       "WET",
-      "FOREST",
-      "WATER"
+      "WATER",
+      "SWAMP"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -13798,6 +13536,18 @@
         "Weight": 5,
         "Min Group Count": 2,
         "Max Group Count": 4
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityRaven",
+        "Weight": 20,
+        "Min Group Count": 1,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntitySnake",
+        "Weight": 20,
+        "Min Group Count": 1,
+        "Max Group Count": 4
       }
     ],
     "Spawnable Monsters": [
@@ -13904,6 +13654,12 @@
         "Max Group Count": 1
       },
       {
+        "Entity Class": "com.bewitchment.common.entity.spirit.ghost.EntityBlackDog",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 4
+      },
+      {
         "Entity Class": "com.jarhax.eerieentities.entities.EntityPumpkinSlime",
         "Weight": 5,
         "Min Group Count": 1,
@@ -13950,10 +13706,10 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "DRY",
-      "RARE",
+      "SANDY",
       "HOT",
-      "SANDY"
+      "DRY",
+      "RARE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -13961,12 +13717,6 @@
         "Entity Class": "net.minecraft.entity.passive.EntityRabbit",
         "Weight": 4,
         "Min Group Count": 2,
-        "Max Group Count": 3
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityDeathWorm",
-        "Weight": 2,
-        "Min Group Count": 1,
         "Max Group Count": 3
       }
     ],
@@ -14237,12 +13987,6 @@
         "Max Group Count": 2
       },
       {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityTroll",
-        "Weight": 500,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "com.github.alexthe666.rats.server.entity.EntityRat",
         "Weight": 80,
         "Min Group Count": 1,
@@ -14313,9 +14057,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "RARE",
+      "FOREST",
       "HILLS",
-      "FOREST"
+      "RARE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -14350,48 +14094,6 @@
         "Max Group Count": 3
       },
       {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "epicsquid.mysticalworld.entity.EntityDeer",
         "Weight": 6,
         "Min Group Count": 2,
@@ -14413,6 +14115,24 @@
         "Entity Class": "epicsquid.mysticalworld.entity.EntitySprout",
         "Weight": 2,
         "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityLizard",
+        "Weight": 20,
+        "Min Group Count": 1,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityOwl",
+        "Weight": 20,
+        "Min Group Count": 1,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntitySnake",
+        "Weight": 20,
+        "Min Group Count": 1,
         "Max Group Count": 4
       }
     ],
@@ -14490,12 +14210,6 @@
         "Max Group Count": 2
       },
       {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityTroll",
-        "Weight": 500,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "com.github.alexthe666.rats.server.entity.EntityRat",
         "Weight": 80,
         "Min Group Count": 1,
@@ -14524,6 +14238,12 @@
         "Weight": 2,
         "Min Group Count": 1,
         "Max Group Count": 1
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.spirit.ghost.EntityBlackDog",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 4
       },
       {
         "Entity Class": "party.lemons.corvus.entity.EntityWendigo",
@@ -14579,10 +14299,10 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "COLD",
-      "CONIFEROUS",
       "MOUNTAIN",
-      "RARE",
-      "FOREST"
+      "FOREST",
+      "CONIFEROUS",
+      "RARE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -14644,6 +14364,18 @@
         "Entity Class": "epicsquid.mysticalworld.entity.EntitySprout",
         "Weight": 2,
         "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityLizard",
+        "Weight": 20,
+        "Min Group Count": 1,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityOwl",
+        "Weight": 20,
+        "Min Group Count": 1,
         "Max Group Count": 4
       },
       {
@@ -14727,18 +14459,6 @@
         "Max Group Count": 2
       },
       {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityTroll",
-        "Weight": 500,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityTroll",
-        "Weight": 500,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "com.github.alexthe666.rats.server.entity.EntityRat",
         "Weight": 80,
         "Min Group Count": 1,
@@ -14767,6 +14487,12 @@
         "Weight": 2,
         "Min Group Count": 1,
         "Max Group Count": 1
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.spirit.ghost.EntityBlackDog",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 4
       },
       {
         "Entity Class": "party.lemons.corvus.entity.EntityWendigo",
@@ -14821,10 +14547,10 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SWAMP",
-      "RARE",
       "WET",
-      "HILLS"
+      "SWAMP",
+      "HILLS",
+      "RARE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -14853,48 +14579,6 @@
         "Max Group Count": 4
       },
       {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "epicsquid.mysticalworld.entity.EntityBeetle",
         "Weight": 5,
         "Min Group Count": 2,
@@ -14904,6 +14588,24 @@
         "Entity Class": "epicsquid.mysticalworld.entity.EntityFrog",
         "Weight": 6,
         "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityNewt",
+        "Weight": 20,
+        "Min Group Count": 1,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntitySnake",
+        "Weight": 20,
+        "Min Group Count": 1,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityToad",
+        "Weight": 20,
+        "Min Group Count": 1,
         "Max Group Count": 4
       }
     ],
@@ -15064,9 +14766,9 @@
     "Enable Snow": true,
     "Dictionary Types": [
       "COLD",
-      "RARE",
       "HILLS",
-      "SNOWY"
+      "SNOWY",
+      "RARE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -15083,48 +14785,6 @@
         "Max Group Count": 2
       },
       {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "epicsquid.mysticalworld.entity.EntityDeer",
         "Weight": 6,
         "Min Group Count": 2,
@@ -15135,6 +14795,12 @@
         "Weight": 4,
         "Min Group Count": 1,
         "Max Group Count": 3
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntitySnake",
+        "Weight": 20,
+        "Min Group Count": 1,
+        "Max Group Count": 4
       },
       {
         "Entity Class": "com.crowsofwar.avatar.common.entity.mob.EntityOtterPenguin",
@@ -15223,12 +14889,6 @@
         "Max Group Count": 2
       },
       {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityTroll",
-        "Weight": 500,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "com.github.alexthe666.rats.server.entity.EntityRat",
         "Weight": 80,
         "Min Group Count": 1,
@@ -15299,12 +14959,12 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "JUNGLE",
       "MOUNTAIN",
-      "RARE",
+      "HOT",
       "DENSE",
       "WET",
-      "HOT"
+      "JUNGLE",
+      "RARE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -15345,12 +15005,6 @@
         "Max Group Count": 4
       },
       {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityAmphithere",
-        "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 3
-      },
-      {
         "Entity Class": "epicsquid.mysticalworld.entity.EntityBeetle",
         "Weight": 5,
         "Min Group Count": 2,
@@ -15366,6 +15020,12 @@
         "Entity Class": "epicsquid.mysticalworld.entity.EntitySprout",
         "Weight": 2,
         "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityOwl",
+        "Weight": 20,
+        "Min Group Count": 1,
         "Max Group Count": 4
       }
     ],
@@ -15449,12 +15109,6 @@
         "Max Group Count": 2
       },
       {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityTroll",
-        "Weight": 500,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "com.github.alexthe666.rats.server.entity.EntityRat",
         "Weight": 80,
         "Min Group Count": 1,
@@ -15525,11 +15179,11 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
+      "HOT",
       "JUNGLE",
       "SPARSE",
-      "RARE",
       "HILLS",
-      "HOT"
+      "RARE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -15570,54 +15224,6 @@
         "Max Group Count": 4
       },
       {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityAmphithere",
-        "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 3
-      },
-      {
         "Entity Class": "epicsquid.mysticalworld.entity.EntityBeetle",
         "Weight": 5,
         "Min Group Count": 2,
@@ -15633,6 +15239,12 @@
         "Entity Class": "epicsquid.mysticalworld.entity.EntitySprout",
         "Weight": 2,
         "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntitySnake",
+        "Weight": 20,
+        "Min Group Count": 1,
         "Max Group Count": 4
       }
     ],
@@ -15780,10 +15392,10 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "RARE",
+      "FOREST",
       "DENSE",
       "HILLS",
-      "FOREST"
+      "RARE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -15812,48 +15424,6 @@
         "Max Group Count": 4
       },
       {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "epicsquid.mysticalworld.entity.EntityDeer",
         "Weight": 6,
         "Min Group Count": 2,
@@ -15875,6 +15445,24 @@
         "Entity Class": "epicsquid.mysticalworld.entity.EntitySprout",
         "Weight": 2,
         "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityLizard",
+        "Weight": 20,
+        "Min Group Count": 1,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityOwl",
+        "Weight": 20,
+        "Min Group Count": 1,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntitySnake",
+        "Weight": 20,
+        "Min Group Count": 1,
         "Max Group Count": 4
       }
     ],
@@ -15952,12 +15540,6 @@
         "Max Group Count": 2
       },
       {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityTroll",
-        "Weight": 500,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "com.github.alexthe666.rats.server.entity.EntityRat",
         "Weight": 80,
         "Min Group Count": 1,
@@ -15986,6 +15568,12 @@
         "Weight": 2,
         "Min Group Count": 1,
         "Max Group Count": 1
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.spirit.ghost.EntityBlackDog",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 4
       },
       {
         "Entity Class": "party.lemons.corvus.entity.EntityWendigo",
@@ -16041,9 +15629,9 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "MOUNTAIN",
-      "RARE",
+      "FOREST",
       "DENSE",
-      "FOREST"
+      "RARE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -16093,6 +15681,18 @@
         "Entity Class": "epicsquid.mysticalworld.entity.EntitySprout",
         "Weight": 2,
         "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityLizard",
+        "Weight": 20,
+        "Min Group Count": 1,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityOwl",
+        "Weight": 20,
+        "Min Group Count": 1,
         "Max Group Count": 4
       }
     ],
@@ -16170,18 +15770,6 @@
         "Max Group Count": 2
       },
       {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityTroll",
-        "Weight": 500,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityTroll",
-        "Weight": 500,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "com.github.alexthe666.rats.server.entity.EntityRat",
         "Weight": 80,
         "Min Group Count": 1,
@@ -16210,6 +15798,12 @@
         "Weight": 2,
         "Min Group Count": 1,
         "Max Group Count": 1
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.spirit.ghost.EntityBlackDog",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 4
       },
       {
         "Entity Class": "party.lemons.corvus.entity.EntityWendigo",
@@ -16265,10 +15859,10 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "MOUNTAIN",
-      "RARE",
-      "DENSE",
       "SPOOKY",
-      "FOREST"
+      "FOREST",
+      "DENSE",
+      "RARE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -16318,6 +15912,18 @@
         "Entity Class": "epicsquid.mysticalworld.entity.EntitySprout",
         "Weight": 2,
         "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityLizard",
+        "Weight": 20,
+        "Min Group Count": 1,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityOwl",
+        "Weight": 20,
+        "Min Group Count": 1,
         "Max Group Count": 4
       }
     ],
@@ -16395,18 +16001,6 @@
         "Max Group Count": 2
       },
       {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityTroll",
-        "Weight": 500,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityTroll",
-        "Weight": 500,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "com.github.alexthe666.rats.server.entity.EntityRat",
         "Weight": 80,
         "Min Group Count": 1,
@@ -16435,6 +16029,12 @@
         "Weight": 2,
         "Min Group Count": 1,
         "Max Group Count": 1
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.spirit.ghost.EntityBlackDog",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 4
       },
       {
         "Entity Class": "party.lemons.corvus.entity.EntityWendigo",
@@ -16496,11 +16096,11 @@
     "Enable Snow": true,
     "Dictionary Types": [
       "COLD",
-      "CONIFEROUS",
       "MOUNTAIN",
-      "RARE",
       "FOREST",
-      "SNOWY"
+      "CONIFEROUS",
+      "SNOWY",
+      "RARE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -16562,6 +16162,18 @@
         "Entity Class": "epicsquid.mysticalworld.entity.EntitySprout",
         "Weight": 2,
         "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityLizard",
+        "Weight": 20,
+        "Min Group Count": 1,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityOwl",
+        "Weight": 20,
+        "Min Group Count": 1,
         "Max Group Count": 4
       },
       {
@@ -16645,24 +16257,6 @@
         "Max Group Count": 2
       },
       {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityTroll",
-        "Weight": 500,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityTroll",
-        "Weight": 500,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityTroll",
-        "Weight": 500,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "com.github.alexthe666.rats.server.entity.EntityRat",
         "Weight": 80,
         "Min Group Count": 1,
@@ -16691,6 +16285,12 @@
         "Weight": 2,
         "Min Group Count": 1,
         "Max Group Count": 1
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.spirit.ghost.EntityBlackDog",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 4
       },
       {
         "Entity Class": "party.lemons.corvus.entity.EntityWendigo",
@@ -16745,9 +16345,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "RARE",
+      "FOREST",
       "DENSE",
-      "FOREST"
+      "RARE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -16809,6 +16409,18 @@
         "Entity Class": "epicsquid.mysticalworld.entity.EntitySprout",
         "Weight": 2,
         "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityLizard",
+        "Weight": 20,
+        "Min Group Count": 1,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityOwl",
+        "Weight": 20,
+        "Min Group Count": 1,
         "Max Group Count": 4
       }
     ],
@@ -16886,12 +16498,6 @@
         "Max Group Count": 2
       },
       {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityTroll",
-        "Weight": 500,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "com.github.alexthe666.rats.server.entity.EntityRat",
         "Weight": 80,
         "Min Group Count": 1,
@@ -16920,6 +16526,12 @@
         "Weight": 2,
         "Min Group Count": 1,
         "Max Group Count": 1
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.spirit.ghost.EntityBlackDog",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 4
       },
       {
         "Entity Class": "party.lemons.corvus.entity.EntityWendigo",
@@ -16974,10 +16586,10 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "RARE",
+      "FOREST",
       "DENSE",
       "HILLS",
-      "FOREST"
+      "RARE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -17018,48 +16630,6 @@
         "Max Group Count": 3
       },
       {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "epicsquid.mysticalworld.entity.EntityDeer",
         "Weight": 6,
         "Min Group Count": 2,
@@ -17081,6 +16651,24 @@
         "Entity Class": "epicsquid.mysticalworld.entity.EntitySprout",
         "Weight": 2,
         "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityLizard",
+        "Weight": 20,
+        "Min Group Count": 1,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityOwl",
+        "Weight": 20,
+        "Min Group Count": 1,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntitySnake",
+        "Weight": 20,
+        "Min Group Count": 1,
         "Max Group Count": 4
       }
     ],
@@ -17158,12 +16746,6 @@
         "Max Group Count": 2
       },
       {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityTroll",
-        "Weight": 500,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "com.github.alexthe666.rats.server.entity.EntityRat",
         "Weight": 80,
         "Min Group Count": 1,
@@ -17192,6 +16774,12 @@
         "Weight": 2,
         "Min Group Count": 1,
         "Max Group Count": 1
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.spirit.ghost.EntityBlackDog",
+        "Weight": 6,
+        "Min Group Count": 1,
+        "Max Group Count": 4
       },
       {
         "Entity Class": "party.lemons.corvus.entity.EntityWendigo",
@@ -17363,12 +16951,6 @@
         "Max Group Count": 2
       },
       {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityTroll",
-        "Weight": 500,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "com.github.alexthe666.rats.server.entity.EntityRat",
         "Weight": 80,
         "Min Group Count": 1,
@@ -17439,12 +17021,12 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "DRY",
       "MOUNTAIN",
-      "SPARSE",
-      "RARE",
+      "HOT",
       "SAVANNA",
-      "HOT"
+      "DRY",
+      "SPARSE",
+      "RARE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -17483,12 +17065,6 @@
         "Weight": 1,
         "Min Group Count": 1,
         "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityCockatrice",
-        "Weight": 4,
-        "Min Group Count": 1,
-        "Max Group Count": 2
       }
     ],
     "Spawnable Monsters": [
@@ -17565,12 +17141,6 @@
         "Max Group Count": 2
       },
       {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityTroll",
-        "Weight": 500,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "com.github.alexthe666.rats.server.entity.EntityRat",
         "Weight": 80,
         "Min Group Count": 1,
@@ -17641,12 +17211,12 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
+      "HOT",
+      "SAVANNA",
       "DRY",
       "SPARSE",
-      "RARE",
       "HILLS",
-      "SAVANNA",
-      "HOT"
+      "RARE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -17687,52 +17257,10 @@
         "Max Group Count": 1
       },
       {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
+        "Entity Class": "com.bewitchment.common.entity.living.EntitySnake",
+        "Weight": 20,
         "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityCockatrice",
-        "Weight": 4,
-        "Min Group Count": 1,
-        "Max Group Count": 2
+        "Max Group Count": 4
       }
     ],
     "Spawnable Monsters": [
@@ -17879,11 +17407,11 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "DRY",
       "MOUNTAIN",
+      "HOT",
+      "DRY",
       "SPARSE",
-      "RARE",
-      "HOT"
+      "RARE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -17961,12 +17489,6 @@
         "Max Group Count": 2
       },
       {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityTroll",
-        "Weight": 500,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "com.github.alexthe666.rats.server.entity.EntityRat",
         "Weight": 80,
         "Min Group Count": 1,
@@ -18037,55 +17559,19 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
+      "HOT",
       "DRY",
       "SPARSE",
-      "RARE",
       "HILLS",
-      "HOT"
+      "RARE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
       {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
+        "Entity Class": "com.bewitchment.common.entity.living.EntitySnake",
+        "Weight": 20,
         "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityHippogryph",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
+        "Max Group Count": 4
       }
     ],
     "Spawnable Monsters": [
@@ -18232,11 +17718,11 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "DRY",
       "MOUNTAIN",
+      "HOT",
+      "DRY",
       "SPARSE",
-      "RARE",
-      "HOT"
+      "RARE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -18312,12 +17798,6 @@
         "Weight": 10,
         "Min Group Count": 1,
         "Max Group Count": 2
-      },
-      {
-        "Entity Class": "com.github.alexthe666.iceandfire.entity.EntityTroll",
-        "Weight": 500,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       },
       {
         "Entity Class": "com.github.alexthe666.rats.server.entity.EntityRat",

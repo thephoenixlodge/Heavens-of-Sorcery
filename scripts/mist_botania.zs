@@ -1,6 +1,9 @@
 ////Imports
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IItemDefinition;
+import crafttweaker.block.IBlock;
+import crafttweaker.block.IBlockDefinition;
+import crafttweaker.block.IBlockState;
 import mods.botania.PureDaisy;
 import mods.botania.ManaInfusion;
 import mods.botania.Lexicon;
@@ -249,3 +252,7 @@ recipes.remove(piston);
 recipes.addShaped(piston, [[plankSkyroot, plankSkyroot, plankSkyroot], [holyStone, gemZanite, holyStone], [holyStone, redstone, holyStone]]);
 recipes.addShaped(piston, [[oreMistyPlanks, oreMistyPlanks, oreMistyPlanks], [oreFogStone, ingotNiobium, oreFogStone], [oreFogStone, redstone, oreFogStone]]);
 recipes.addShaped(piston * 3, [[livingwood, livingwood, livingwood], [livingrock, ingotManasteel, livingrock], [livingrock, redstone, livingrock]]);
+
+//tweak foggy stone hardnesses
+var hardFogStoneBlock = hardFogStone as IBlock;
+hardFogStoneBlock.definition.hardness = 45;

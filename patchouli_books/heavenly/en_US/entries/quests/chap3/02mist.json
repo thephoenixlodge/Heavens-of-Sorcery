@@ -1,0 +1,24 @@
+{
+    "name": "White Out",
+    "icon": "mist:acid_grass_0",
+    "category": "quests/chap3",
+    "sortnum": 2,
+    "advancement": "heavens:bookchap3/1respirator",
+    "turnin": "heavens:bookchap3/2mist",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "White Out",
+            "trigger": "heavens:bookchap3/2mist",
+            "text": "With your $(item)Respirator$() equipped, it should be safe enough to enter the $(thing)Mist$(). Be wary of the durability of your $(item)Filter Coal$() though, lest it run out leaving you stranded. It may be wise to carry a $(item)Block Of Filter Coal$() as it will filter a small localised area when placed, giving you a window in which to swap out the filter in the $(item)Respirator$()."
+        },
+        {
+            "type": "location",
+            "icon": "books:templates/mist_mist.png",
+            "heading": "Enter:",
+            "location": "The Mist",
+            "reward1": "mist:filter_coal#20",
+            "reward2": "mist:niobium_ore#15"
+        }
+    ]
+}
