@@ -1,0 +1,32 @@
+{
+    "name": "Marbellous",
+    "icon": "astralsorcery:blockmarble",
+    "category": "quests/chap3",
+    "sortnum": 6,
+    "advancement": "heavens:bookchap2/14aether",
+    "turnin": "heavens:bookchap3/6marble",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "Marbellous",
+            "trigger": "heavens:bookchap3/6marble",
+            "text": "At first glance, the $(thing)Aether$() seems like paradise, but be wary, many of the creatures there despise intrusion, and will eject you to the world below at first opportunity. However, navigate you must, as the first thing we seek is $(item)Marble$() - which you'll need to collect from the ruins that litter this place."
+        },
+        {
+            "type": "checklist_end",
+            "item1": "astralsorcery:blockmarble#10",
+            "reward1": "astralsorcery:blockmarble#100"
+        },
+        {
+            "type": "image",
+            "images": [
+                    "books:templates/astral_ruin.png",
+                    "books:templates/astral_fountain.png",
+                    "books:templates/astral_temple.png"
+                ],
+            "title": "Ruins in the Aether",
+            "border": "true",
+            "text": "Could these be hiding something more?"
+        }
+    ]
+}

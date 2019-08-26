@@ -35,6 +35,16 @@
             "input3": "botania:mushroom:0",
             "input4": "botania:mushroom:0",
             "description": "Add $(item)Water$(), then drop $(item)Mushrooms$() in, and finish by dropping in any $(item)Seed$()."
+        },
+        {
+            "type": "pure_daisy",
+            "heading": "Livingwood",
+            "output": "botania:livingwood",
+            "input": "mist:oak_block",
+            "heading2": "Livingrock",
+            "output2": "botania:livingrock",
+            "input2": "mist:cobblestone",
+            "description": "Works with all $(item)Wood Logs$() and $(item)Foggy Stones$() from the $(thing)Misty World$()."
         }
     ]
 }

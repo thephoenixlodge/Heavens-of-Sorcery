@@ -1,0 +1,38 @@
+{
+    "name": "Where's the Water?",
+    "icon": "astralsorcery:itemcraftingcomponent:0",
+    "category": "quests/chap3",
+    "sortnum": 7,
+    "advancement": "heavens:bookchap3/6marble",
+    "turnin": "heavens:bookchap3/7aquamarine",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "Where's the Water?",
+            "trigger": "heavens:bookchap3/7aquamarine",
+            "text": "While collecting $(item)Marble$(), you may have noticed some strange lights, or maybe even a large glimmering crystal. The reason we collected $(item)Marble$() is for it's affinity to such things, and as such, it's ties to the $(theme)Astral Magicks$()."
+        },
+        {
+            "type": "text",
+            "text": "It's not the only such material though. The other is present in the $(item)Quicksoil$() of the $(thing)Aether$(), but will require coaxing by the Purification processes of a $(item)Pure Daisy$(). Hopefully we can figure out a way to make one."
+        },
+        {
+            "type": "checklist_end",
+            "item1": "astralsorcery:itemcraftingcomponent:0#1",
+            "reward1": "astralsorcery:itemcraftingcomponent:0#10"
+        },
+        {
+            "type": "image",
+            "images": ["books:templates/quicksoil.png"],
+            "title": "Quicksoil in the Aether",
+            "border": true,
+            "text": "Take care when gathering, lest you meet a quick end"
+        },
+        {
+            "type": "pure_daisy",
+            "heading": "Aquamarine Shale",
+            "output": "astralsorcery:blockcustomsandore",
+            "input": "aether_legacy:quicksoil"
+        }
+    ]
+}

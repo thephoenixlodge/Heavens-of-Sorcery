@@ -1,0 +1,36 @@
+{
+    "name": "Rocky Road",
+    "icon": "astralsorcery:itemrockcrystalsimple",
+    "category": "quests/chap3",
+    "sortnum": 10,
+    "advancement": "heavens:bookchap3/8luminous",
+    "turnin": "heavens:bookchap3/10rockcrystal",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "Rocky Road",
+            "trigger": "heavens:bookchap3/10rockcrystal",
+            "text": "Aside from its use in crafting with the $(item)Luminous Crafting Table$(), the $(item)Resonating Wand$() also resonates with a rare type of crystal found deep underground in the $(thing)Misty World$(). While the wand allows you to locate the $(item)Rock Crystal Ore$() from the surface, retrieving it will require digging deep into the $(thing)Mist$(), so prepare accordingly."
+        },
+        {
+            "type": "checklist_end",
+            "item1": "astralsorcery:itemrockcrystalsimple#1",
+            "reward1": "astralsorcery:itemcraftingcomponent:0#20"
+        },
+        {
+            "type": "image",
+            "images": [
+                "books:templates/rock_crystal_markers.png",
+                "books:templates/rock_crystal_ore.png"
+            ],
+            "title": "Finding Rock Crystals",
+            "border": true,
+            "text": "Holding a $(item)Resonating Wand$() at night shows lights above $(item)Rock Crystal Ore$()"
+        },
+        {
+            "type": "spotlight",
+            "item": "astralsorcery:blockcustomore",
+            "text": "When harvested, gives multiple $(item)Rock Crystals$(), which have three stats - Size, Cutting, and Purity. These stats have some influence on the usage of the crystals, but all can be improved later.$(br2)Each Crystal takes up a separate inventory slot, so make sure you have space to carry them!"
+        }
+    ]
+}

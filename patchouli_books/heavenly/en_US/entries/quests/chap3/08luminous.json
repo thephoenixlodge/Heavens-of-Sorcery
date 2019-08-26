@@ -1,0 +1,51 @@
+{
+    "name": "Lighten Up",
+    "icon": "astralsorcery:blockaltar",
+    "category": "quests/chap3",
+    "sortnum": 8,
+    "advancement": "heavens:bookchap3/7aquamarine",
+    "turnin": "heavens:bookchap3/8luminous",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "Lighten Up",
+            "trigger": "heavens:bookchap3/8luminous",
+            "text": "With $(item)Marble$(), $(item)Aquamarine$(), $(item)Livingwood$() and $(item)Mana Pearls$() at your disposable, you can perform a $(thing)Ritual$() to put together a crafting altar that is directly (though weakly) attuned to the power of $(thing)Starlight$(), along with the $(item)Resonating Wand$() necessary to operate it."
+        },
+        {
+            "type": "checklist_end",
+            "item1": "astralsorcery:blockaltar#1",
+            "item2": "astralsorcery:itemwand#1",
+            "reward1": "astralsorcery:blockblackmarble#100"
+        },
+        {
+            "type": "crafting",
+            "recipe": "botania:livingwood_1",
+            "recipe2": "botania:livingwood_4"
+        },
+        {
+            "type": "crafting",
+            "recipe": "astralsorcery:shaped/marble_black_raw"
+        },
+        {
+            "type": "ritual",
+            "heading": "Luminous Crafting Table",
+            "output_item": "astralsorcery:blockaltar",
+            "item1": "minecraft:crafting_table",
+            "item2": "botania:livingwood:4",
+            "item3": "astralsorcery:blockblackmarble",
+            "item4": "astralsorcery:blockmarble",
+            "item5": "astralsorcery:blockmarble"
+        },
+        {
+            "type": "ritual",
+            "heading": "Resonating Wand",
+            "output_item": "astralsorcery:itemwand",
+            "item1": "contenttweaker:ironwood_wand_one",
+            "item2": "astralsorcery:blockmarble",
+            "item3": "botania:manaresource:1",
+            "item4": "astralsorcery:itemcraftingcomponent:0",
+            "item5": "astralsorcery:itemcraftingcomponent:0"
+        }
+    ]
+}

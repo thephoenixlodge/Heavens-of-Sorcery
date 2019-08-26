@@ -1,4 +1,4 @@
-14321 nodes in total
+14342 nodes in total
 Modifying this file won't have any effect, edit ranks.txt!
 
 admin_panel.ftbutilities.crash_reports.delete: OP
@@ -1788,12 +1788,17 @@ ftbutilities.claims.block.edit.ebwizardry.arcane_workbench: OP
 ftbutilities.claims.block.edit.ebwizardry.crystal_block: OP
 ftbutilities.claims.block.edit.ebwizardry.crystal_flower: OP
 ftbutilities.claims.block.edit.ebwizardry.crystal_ore: OP
+ftbutilities.claims.block.edit.ebwizardry.dry_frosted_ice: OP
 ftbutilities.claims.block.edit.ebwizardry.ice_statue: OP
 ftbutilities.claims.block.edit.ebwizardry.magic_light: OP
 ftbutilities.claims.block.edit.ebwizardry.meteor: OP
+ftbutilities.claims.block.edit.ebwizardry.obsidian_crust: OP
 ftbutilities.claims.block.edit.ebwizardry.petrified_stone: OP
+ftbutilities.claims.block.edit.ebwizardry.runestone: OP
+ftbutilities.claims.block.edit.ebwizardry.runestone_pedestal: OP
 ftbutilities.claims.block.edit.ebwizardry.snare: OP
 ftbutilities.claims.block.edit.ebwizardry.spectral_block: OP
+ftbutilities.claims.block.edit.ebwizardry.thorns: OP
 ftbutilities.claims.block.edit.ebwizardry.transportation_stone: OP
 ftbutilities.claims.block.edit.ebwizardry.vanishing_cobweb: OP
 ftbutilities.claims.block.edit.eerieentities.pumpkin_creeper: OP
@@ -2113,54 +2118,6 @@ ftbutilities.claims.block.edit.lost_aether.locked_gale_stone: OP
 ftbutilities.claims.block.edit.lost_aether.locked_light_gale_stone: OP
 ftbutilities.claims.block.edit.lost_aether.songstone: OP
 ftbutilities.claims.block.edit.magicalsculpture.magicalsculpture: OP
-ftbutilities.claims.block.edit.malisisdoors.big_door_acacia_3x3: OP
-ftbutilities.claims.block.edit.malisisdoors.big_door_birch_3x3: OP
-ftbutilities.claims.block.edit.malisisdoors.big_door_dark_oak_3x3: OP
-ftbutilities.claims.block.edit.malisisdoors.big_door_iron_3x3: OP
-ftbutilities.claims.block.edit.malisisdoors.big_door_jungle_3x3: OP
-ftbutilities.claims.block.edit.malisisdoors.big_door_oak_3x3: OP
-ftbutilities.claims.block.edit.malisisdoors.big_door_rusty_3x3: OP
-ftbutilities.claims.block.edit.malisisdoors.big_door_spruce_3x3: OP
-ftbutilities.claims.block.edit.malisisdoors.camofencegate: OP
-ftbutilities.claims.block.edit.malisisdoors.carriage_door: OP
-ftbutilities.claims.block.edit.malisisdoors.curtain_black: OP
-ftbutilities.claims.block.edit.malisisdoors.curtain_blue: OP
-ftbutilities.claims.block.edit.malisisdoors.curtain_brown: OP
-ftbutilities.claims.block.edit.malisisdoors.curtain_cyan: OP
-ftbutilities.claims.block.edit.malisisdoors.curtain_gray: OP
-ftbutilities.claims.block.edit.malisisdoors.curtain_green: OP
-ftbutilities.claims.block.edit.malisisdoors.curtain_light_blue: OP
-ftbutilities.claims.block.edit.malisisdoors.curtain_lime: OP
-ftbutilities.claims.block.edit.malisisdoors.curtain_magenta: OP
-ftbutilities.claims.block.edit.malisisdoors.curtain_orange: OP
-ftbutilities.claims.block.edit.malisisdoors.curtain_pink: OP
-ftbutilities.claims.block.edit.malisisdoors.curtain_purple: OP
-ftbutilities.claims.block.edit.malisisdoors.curtain_red: OP
-ftbutilities.claims.block.edit.malisisdoors.curtain_silver: OP
-ftbutilities.claims.block.edit.malisisdoors.curtain_white: OP
-ftbutilities.claims.block.edit.malisisdoors.curtain_yellow: OP
-ftbutilities.claims.block.edit.malisisdoors.customdoor: OP
-ftbutilities.claims.block.edit.malisisdoors.door_factory: OP
-ftbutilities.claims.block.edit.malisisdoors.factory_door: OP
-ftbutilities.claims.block.edit.malisisdoors.forcefielddoor: OP
-ftbutilities.claims.block.edit.malisisdoors.garage_door: OP
-ftbutilities.claims.block.edit.malisisdoors.hitechdoor: OP
-ftbutilities.claims.block.edit.malisisdoors.iron_sliding_door: OP
-ftbutilities.claims.block.edit.malisisdoors.jail_door: OP
-ftbutilities.claims.block.edit.malisisdoors.laboratory_door: OP
-ftbutilities.claims.block.edit.malisisdoors.medieval_door: OP
-ftbutilities.claims.block.edit.malisisdoors.rustyhatch: OP
-ftbutilities.claims.block.edit.malisisdoors.rustyladder: OP
-ftbutilities.claims.block.edit.malisisdoors.saloon: OP
-ftbutilities.claims.block.edit.malisisdoors.shoji_door: OP
-ftbutilities.claims.block.edit.malisisdoors.sliding_trapdoor: OP
-ftbutilities.claims.block.edit.malisisdoors.trapdoor_acacia: OP
-ftbutilities.claims.block.edit.malisisdoors.trapdoor_birch: OP
-ftbutilities.claims.block.edit.malisisdoors.trapdoor_dark_oak: OP
-ftbutilities.claims.block.edit.malisisdoors.trapdoor_jungle: OP
-ftbutilities.claims.block.edit.malisisdoors.trapdoor_spruce: OP
-ftbutilities.claims.block.edit.malisisdoors.verticalhatch: OP
-ftbutilities.claims.block.edit.malisisdoors.wood_sliding_door: OP
 ftbutilities.claims.block.edit.mcjtylib_ng.multipart: OP
 ftbutilities.claims.block.edit.mcmultipart.multipart: OP
 ftbutilities.claims.block.edit.meecreeps.creepcube: OP
@@ -2580,9 +2537,36 @@ ftbutilities.claims.block.edit.mysticalmechanics.gearbox_frame: OP
 ftbutilities.claims.block.edit.mysticalmechanics.mergebox_frame: OP
 ftbutilities.claims.block.edit.mysticalworld.amethyst_block: OP
 ftbutilities.claims.block.edit.mysticalworld.aubergine_crop: OP
+ftbutilities.claims.block.edit.mysticalworld.charred_button: OP
+ftbutilities.claims.block.edit.mysticalworld.charred_double_slab: OP
+ftbutilities.claims.block.edit.mysticalworld.charred_fence: OP
+ftbutilities.claims.block.edit.mysticalworld.charred_log: OP
+ftbutilities.claims.block.edit.mysticalworld.charred_planks: OP
+ftbutilities.claims.block.edit.mysticalworld.charred_pressure_plate: OP
+ftbutilities.claims.block.edit.mysticalworld.charred_slab: OP
+ftbutilities.claims.block.edit.mysticalworld.charred_stairs: OP
+ftbutilities.claims.block.edit.mysticalworld.charred_wall: OP
 ftbutilities.claims.block.edit.mysticalworld.copper_block: OP
+ftbutilities.claims.block.edit.mysticalworld.mud_block: OP
+ftbutilities.claims.block.edit.mysticalworld.mud_block_button: OP
+ftbutilities.claims.block.edit.mysticalworld.mud_block_double_slab: OP
+ftbutilities.claims.block.edit.mysticalworld.mud_block_fence: OP
+ftbutilities.claims.block.edit.mysticalworld.mud_block_pressure_plate: OP
+ftbutilities.claims.block.edit.mysticalworld.mud_block_slab: OP
+ftbutilities.claims.block.edit.mysticalworld.mud_block_stairs: OP
+ftbutilities.claims.block.edit.mysticalworld.mud_block_wall: OP
+ftbutilities.claims.block.edit.mysticalworld.mud_brick: OP
+ftbutilities.claims.block.edit.mysticalworld.mud_brick_button: OP
+ftbutilities.claims.block.edit.mysticalworld.mud_brick_double_slab: OP
+ftbutilities.claims.block.edit.mysticalworld.mud_brick_fence: OP
+ftbutilities.claims.block.edit.mysticalworld.mud_brick_pressure_plate: OP
+ftbutilities.claims.block.edit.mysticalworld.mud_brick_slab: OP
+ftbutilities.claims.block.edit.mysticalworld.mud_brick_stairs: OP
+ftbutilities.claims.block.edit.mysticalworld.mud_brick_wall: OP
 ftbutilities.claims.block.edit.mysticalworld.silver_block: OP
 ftbutilities.claims.block.edit.mysticalworld.thatch: OP
+ftbutilities.claims.block.edit.mysticalworld.wet_mud_block: OP
+ftbutilities.claims.block.edit.mysticalworld.wet_mud_brick: OP
 ftbutilities.claims.block.edit.naturalpledge.actuator: OP
 ftbutilities.claims.block.edit.naturalpledge.alt_leaves0: OP
 ftbutilities.claims.block.edit.naturalpledge.alt_leaves1: OP
@@ -2752,7 +2736,6 @@ ftbutilities.claims.block.edit.naturesaura.rf_converter: OP
 ftbutilities.claims.block.edit.naturesaura.spawn_lamp: OP
 ftbutilities.claims.block.edit.naturesaura.time_changer: OP
 ftbutilities.claims.block.edit.naturesaura.wood_stand: OP
-ftbutilities.claims.block.edit.platforms.platform: OP
 ftbutilities.claims.block.edit.qualitytools.reforging_station: OP
 ftbutilities.claims.block.edit.quark.acacia_button: OP
 ftbutilities.claims.block.edit.quark.acacia_pressure_plate: OP
@@ -5877,12 +5860,17 @@ ftbutilities.claims.block.interact.ebwizardry.arcane_workbench: OP
 ftbutilities.claims.block.interact.ebwizardry.crystal_block: OP
 ftbutilities.claims.block.interact.ebwizardry.crystal_flower: OP
 ftbutilities.claims.block.interact.ebwizardry.crystal_ore: OP
+ftbutilities.claims.block.interact.ebwizardry.dry_frosted_ice: OP
 ftbutilities.claims.block.interact.ebwizardry.ice_statue: OP
 ftbutilities.claims.block.interact.ebwizardry.magic_light: OP
 ftbutilities.claims.block.interact.ebwizardry.meteor: OP
+ftbutilities.claims.block.interact.ebwizardry.obsidian_crust: OP
 ftbutilities.claims.block.interact.ebwizardry.petrified_stone: OP
+ftbutilities.claims.block.interact.ebwizardry.runestone: OP
+ftbutilities.claims.block.interact.ebwizardry.runestone_pedestal: OP
 ftbutilities.claims.block.interact.ebwizardry.snare: OP
 ftbutilities.claims.block.interact.ebwizardry.spectral_block: OP
+ftbutilities.claims.block.interact.ebwizardry.thorns: OP
 ftbutilities.claims.block.interact.ebwizardry.transportation_stone: OP
 ftbutilities.claims.block.interact.ebwizardry.vanishing_cobweb: OP
 ftbutilities.claims.block.interact.eerieentities.pumpkin_creeper: OP
@@ -6202,54 +6190,6 @@ ftbutilities.claims.block.interact.lost_aether.locked_gale_stone: OP
 ftbutilities.claims.block.interact.lost_aether.locked_light_gale_stone: OP
 ftbutilities.claims.block.interact.lost_aether.songstone: OP
 ftbutilities.claims.block.interact.magicalsculpture.magicalsculpture: OP
-ftbutilities.claims.block.interact.malisisdoors.big_door_acacia_3x3: OP
-ftbutilities.claims.block.interact.malisisdoors.big_door_birch_3x3: OP
-ftbutilities.claims.block.interact.malisisdoors.big_door_dark_oak_3x3: OP
-ftbutilities.claims.block.interact.malisisdoors.big_door_iron_3x3: OP
-ftbutilities.claims.block.interact.malisisdoors.big_door_jungle_3x3: OP
-ftbutilities.claims.block.interact.malisisdoors.big_door_oak_3x3: OP
-ftbutilities.claims.block.interact.malisisdoors.big_door_rusty_3x3: OP
-ftbutilities.claims.block.interact.malisisdoors.big_door_spruce_3x3: OP
-ftbutilities.claims.block.interact.malisisdoors.camofencegate: OP
-ftbutilities.claims.block.interact.malisisdoors.carriage_door: OP
-ftbutilities.claims.block.interact.malisisdoors.curtain_black: ALL
-ftbutilities.claims.block.interact.malisisdoors.curtain_blue: ALL
-ftbutilities.claims.block.interact.malisisdoors.curtain_brown: ALL
-ftbutilities.claims.block.interact.malisisdoors.curtain_cyan: ALL
-ftbutilities.claims.block.interact.malisisdoors.curtain_gray: ALL
-ftbutilities.claims.block.interact.malisisdoors.curtain_green: ALL
-ftbutilities.claims.block.interact.malisisdoors.curtain_light_blue: ALL
-ftbutilities.claims.block.interact.malisisdoors.curtain_lime: ALL
-ftbutilities.claims.block.interact.malisisdoors.curtain_magenta: ALL
-ftbutilities.claims.block.interact.malisisdoors.curtain_orange: ALL
-ftbutilities.claims.block.interact.malisisdoors.curtain_pink: ALL
-ftbutilities.claims.block.interact.malisisdoors.curtain_purple: ALL
-ftbutilities.claims.block.interact.malisisdoors.curtain_red: ALL
-ftbutilities.claims.block.interact.malisisdoors.curtain_silver: ALL
-ftbutilities.claims.block.interact.malisisdoors.curtain_white: ALL
-ftbutilities.claims.block.interact.malisisdoors.curtain_yellow: ALL
-ftbutilities.claims.block.interact.malisisdoors.customdoor: ALL
-ftbutilities.claims.block.interact.malisisdoors.door_factory: OP
-ftbutilities.claims.block.interact.malisisdoors.factory_door: ALL
-ftbutilities.claims.block.interact.malisisdoors.forcefielddoor: OP
-ftbutilities.claims.block.interact.malisisdoors.garage_door: OP
-ftbutilities.claims.block.interact.malisisdoors.hitechdoor: OP
-ftbutilities.claims.block.interact.malisisdoors.iron_sliding_door: ALL
-ftbutilities.claims.block.interact.malisisdoors.jail_door: ALL
-ftbutilities.claims.block.interact.malisisdoors.laboratory_door: ALL
-ftbutilities.claims.block.interact.malisisdoors.medieval_door: OP
-ftbutilities.claims.block.interact.malisisdoors.rustyhatch: OP
-ftbutilities.claims.block.interact.malisisdoors.rustyladder: OP
-ftbutilities.claims.block.interact.malisisdoors.saloon: ALL
-ftbutilities.claims.block.interact.malisisdoors.shoji_door: ALL
-ftbutilities.claims.block.interact.malisisdoors.sliding_trapdoor: OP
-ftbutilities.claims.block.interact.malisisdoors.trapdoor_acacia: OP
-ftbutilities.claims.block.interact.malisisdoors.trapdoor_birch: OP
-ftbutilities.claims.block.interact.malisisdoors.trapdoor_dark_oak: OP
-ftbutilities.claims.block.interact.malisisdoors.trapdoor_jungle: OP
-ftbutilities.claims.block.interact.malisisdoors.trapdoor_spruce: OP
-ftbutilities.claims.block.interact.malisisdoors.verticalhatch: ALL
-ftbutilities.claims.block.interact.malisisdoors.wood_sliding_door: ALL
 ftbutilities.claims.block.interact.mcjtylib_ng.multipart: OP
 ftbutilities.claims.block.interact.mcmultipart.multipart: OP
 ftbutilities.claims.block.interact.meecreeps.creepcube: OP
@@ -6669,9 +6609,36 @@ ftbutilities.claims.block.interact.mysticalmechanics.gearbox_frame: OP
 ftbutilities.claims.block.interact.mysticalmechanics.mergebox_frame: OP
 ftbutilities.claims.block.interact.mysticalworld.amethyst_block: OP
 ftbutilities.claims.block.interact.mysticalworld.aubergine_crop: OP
+ftbutilities.claims.block.interact.mysticalworld.charred_button: OP
+ftbutilities.claims.block.interact.mysticalworld.charred_double_slab: OP
+ftbutilities.claims.block.interact.mysticalworld.charred_fence: OP
+ftbutilities.claims.block.interact.mysticalworld.charred_log: OP
+ftbutilities.claims.block.interact.mysticalworld.charred_planks: OP
+ftbutilities.claims.block.interact.mysticalworld.charred_pressure_plate: OP
+ftbutilities.claims.block.interact.mysticalworld.charred_slab: OP
+ftbutilities.claims.block.interact.mysticalworld.charred_stairs: OP
+ftbutilities.claims.block.interact.mysticalworld.charred_wall: OP
 ftbutilities.claims.block.interact.mysticalworld.copper_block: OP
+ftbutilities.claims.block.interact.mysticalworld.mud_block: OP
+ftbutilities.claims.block.interact.mysticalworld.mud_block_button: OP
+ftbutilities.claims.block.interact.mysticalworld.mud_block_double_slab: OP
+ftbutilities.claims.block.interact.mysticalworld.mud_block_fence: OP
+ftbutilities.claims.block.interact.mysticalworld.mud_block_pressure_plate: OP
+ftbutilities.claims.block.interact.mysticalworld.mud_block_slab: OP
+ftbutilities.claims.block.interact.mysticalworld.mud_block_stairs: OP
+ftbutilities.claims.block.interact.mysticalworld.mud_block_wall: OP
+ftbutilities.claims.block.interact.mysticalworld.mud_brick: OP
+ftbutilities.claims.block.interact.mysticalworld.mud_brick_button: OP
+ftbutilities.claims.block.interact.mysticalworld.mud_brick_double_slab: OP
+ftbutilities.claims.block.interact.mysticalworld.mud_brick_fence: OP
+ftbutilities.claims.block.interact.mysticalworld.mud_brick_pressure_plate: OP
+ftbutilities.claims.block.interact.mysticalworld.mud_brick_slab: OP
+ftbutilities.claims.block.interact.mysticalworld.mud_brick_stairs: OP
+ftbutilities.claims.block.interact.mysticalworld.mud_brick_wall: OP
 ftbutilities.claims.block.interact.mysticalworld.silver_block: OP
 ftbutilities.claims.block.interact.mysticalworld.thatch: OP
+ftbutilities.claims.block.interact.mysticalworld.wet_mud_block: OP
+ftbutilities.claims.block.interact.mysticalworld.wet_mud_brick: OP
 ftbutilities.claims.block.interact.naturalpledge.actuator: OP
 ftbutilities.claims.block.interact.naturalpledge.alt_leaves0: OP
 ftbutilities.claims.block.interact.naturalpledge.alt_leaves1: OP
@@ -6841,7 +6808,6 @@ ftbutilities.claims.block.interact.naturesaura.rf_converter: OP
 ftbutilities.claims.block.interact.naturesaura.spawn_lamp: OP
 ftbutilities.claims.block.interact.naturesaura.time_changer: OP
 ftbutilities.claims.block.interact.naturesaura.wood_stand: OP
-ftbutilities.claims.block.interact.platforms.platform: OP
 ftbutilities.claims.block.interact.qualitytools.reforging_station: OP
 ftbutilities.claims.block.interact.quark.acacia_button: OP
 ftbutilities.claims.block.interact.quark.acacia_pressure_plate: OP
@@ -8449,6 +8415,7 @@ ftbutilities.claims.item.arcanearchives.radiant_amphora: ALL
 ftbutilities.claims.item.arcanearchives.radiant_chest: ALL
 ftbutilities.claims.item.arcanearchives.radiant_crafting_table: ALL
 ftbutilities.claims.item.arcanearchives.radiant_dust: ALL
+ftbutilities.claims.item.arcanearchives.radiant_key: ALL
 ftbutilities.claims.item.arcanearchives.radiant_lantern: ALL
 ftbutilities.claims.item.arcanearchives.radiant_resonator: ALL
 ftbutilities.claims.item.arcanearchives.radiant_tank: ALL
@@ -8876,6 +8843,7 @@ ftbutilities.claims.item.bewitchment.snake_venom: ALL
 ftbutilities.claims.item.bewitchment.spectral_dust: ALL
 ftbutilities.claims.item.bewitchment.spinning_wheel: ALL
 ftbutilities.claims.item.bewitchment.spruce_heart: ALL
+ftbutilities.claims.item.bewitchment.stew_of_the_grotesque: ALL
 ftbutilities.claims.item.bewitchment.stone_leonard_idol: ALL
 ftbutilities.claims.item.bewitchment.stone_witches_altar: ALL
 ftbutilities.claims.item.bewitchment.taglock: ALL
@@ -10932,6 +10900,24 @@ ftbutilities.claims.item.ebwizardry.advanced_lightning_wand: ALL
 ftbutilities.claims.item.ebwizardry.advanced_necromancy_wand: ALL
 ftbutilities.claims.item.ebwizardry.advanced_sorcery_wand: ALL
 ftbutilities.claims.item.ebwizardry.advanced_wand: ALL
+ftbutilities.claims.item.ebwizardry.amulet_anchoring: ALL
+ftbutilities.claims.item.ebwizardry.amulet_arcane_defence: ALL
+ftbutilities.claims.item.ebwizardry.amulet_auto_shield: ALL
+ftbutilities.claims.item.ebwizardry.amulet_banishing: ALL
+ftbutilities.claims.item.ebwizardry.amulet_channeling: ALL
+ftbutilities.claims.item.ebwizardry.amulet_fire_cloaking: ALL
+ftbutilities.claims.item.ebwizardry.amulet_fire_protection: ALL
+ftbutilities.claims.item.ebwizardry.amulet_glide: ALL
+ftbutilities.claims.item.ebwizardry.amulet_ice_immunity: ALL
+ftbutilities.claims.item.ebwizardry.amulet_ice_protection: ALL
+ftbutilities.claims.item.ebwizardry.amulet_lich: ALL
+ftbutilities.claims.item.ebwizardry.amulet_potential: ALL
+ftbutilities.claims.item.ebwizardry.amulet_recovery: ALL
+ftbutilities.claims.item.ebwizardry.amulet_resurrection: ALL
+ftbutilities.claims.item.ebwizardry.amulet_transience: ALL
+ftbutilities.claims.item.ebwizardry.amulet_warding: ALL
+ftbutilities.claims.item.ebwizardry.amulet_wisdom: ALL
+ftbutilities.claims.item.ebwizardry.amulet_wither_immunity: ALL
 ftbutilities.claims.item.ebwizardry.apprentice_earth_wand: ALL
 ftbutilities.claims.item.ebwizardry.apprentice_fire_wand: ALL
 ftbutilities.claims.item.ebwizardry.apprentice_healing_wand: ALL
@@ -10943,30 +10929,42 @@ ftbutilities.claims.item.ebwizardry.apprentice_wand: ALL
 ftbutilities.claims.item.ebwizardry.arcane_tome: ALL
 ftbutilities.claims.item.ebwizardry.arcane_workbench: ALL
 ftbutilities.claims.item.ebwizardry.armour_upgrade: ALL
+ftbutilities.claims.item.ebwizardry.astral_diamond: ALL
 ftbutilities.claims.item.ebwizardry.attunement_upgrade: ALL
-ftbutilities.claims.item.ebwizardry.basic_earth_wand: ALL
-ftbutilities.claims.item.ebwizardry.basic_fire_wand: ALL
-ftbutilities.claims.item.ebwizardry.basic_healing_wand: ALL
-ftbutilities.claims.item.ebwizardry.basic_ice_wand: ALL
-ftbutilities.claims.item.ebwizardry.basic_lightning_wand: ALL
-ftbutilities.claims.item.ebwizardry.basic_necromancy_wand: ALL
-ftbutilities.claims.item.ebwizardry.basic_sorcery_wand: ALL
 ftbutilities.claims.item.ebwizardry.blank_scroll: ALL
 ftbutilities.claims.item.ebwizardry.blast_upgrade: ALL
+ftbutilities.claims.item.ebwizardry.charm_abseiling: ALL
+ftbutilities.claims.item.ebwizardry.charm_auto_smelt: ALL
+ftbutilities.claims.item.ebwizardry.charm_experience_tome: ALL
+ftbutilities.claims.item.ebwizardry.charm_feeding: ALL
+ftbutilities.claims.item.ebwizardry.charm_flight: ALL
+ftbutilities.claims.item.ebwizardry.charm_growth: ALL
+ftbutilities.claims.item.ebwizardry.charm_haggler: ALL
+ftbutilities.claims.item.ebwizardry.charm_lava_walking: ALL
+ftbutilities.claims.item.ebwizardry.charm_light: ALL
+ftbutilities.claims.item.ebwizardry.charm_minion_health: ALL
+ftbutilities.claims.item.ebwizardry.charm_minion_variants: ALL
+ftbutilities.claims.item.ebwizardry.charm_silk_touch: ALL
+ftbutilities.claims.item.ebwizardry.charm_stop_time: ALL
+ftbutilities.claims.item.ebwizardry.charm_storm: ALL
+ftbutilities.claims.item.ebwizardry.charm_transportation: ALL
 ftbutilities.claims.item.ebwizardry.condenser_upgrade: ALL
 ftbutilities.claims.item.ebwizardry.cooldown_upgrade: ALL
 ftbutilities.claims.item.ebwizardry.crystal_block: ALL
 ftbutilities.claims.item.ebwizardry.crystal_flower: ALL
 ftbutilities.claims.item.ebwizardry.crystal_ore: ALL
+ftbutilities.claims.item.ebwizardry.crystal_shard: ALL
 ftbutilities.claims.item.ebwizardry.duration_upgrade: ALL
 ftbutilities.claims.item.ebwizardry.firebomb: ALL
 ftbutilities.claims.item.ebwizardry.flaming_axe: ALL
 ftbutilities.claims.item.ebwizardry.frost_axe: ALL
+ftbutilities.claims.item.ebwizardry.grand_crystal: ALL
 ftbutilities.claims.item.ebwizardry.identification_scroll: ALL
+ftbutilities.claims.item.ebwizardry.large_mana_flask: ALL
+ftbutilities.claims.item.ebwizardry.lightning_hammer: ALL
 ftbutilities.claims.item.ebwizardry.magic_crystal: ALL
 ftbutilities.claims.item.ebwizardry.magic_silk: ALL
 ftbutilities.claims.item.ebwizardry.magic_wand: ALL
-ftbutilities.claims.item.ebwizardry.mana_flask: ALL
 ftbutilities.claims.item.ebwizardry.master_earth_wand: ALL
 ftbutilities.claims.item.ebwizardry.master_fire_wand: ALL
 ftbutilities.claims.item.ebwizardry.master_healing_wand: ALL
@@ -10975,11 +10973,55 @@ ftbutilities.claims.item.ebwizardry.master_lightning_wand: ALL
 ftbutilities.claims.item.ebwizardry.master_necromancy_wand: ALL
 ftbutilities.claims.item.ebwizardry.master_sorcery_wand: ALL
 ftbutilities.claims.item.ebwizardry.master_wand: ALL
+ftbutilities.claims.item.ebwizardry.medium_mana_flask: ALL
+ftbutilities.claims.item.ebwizardry.melee_upgrade: ALL
+ftbutilities.claims.item.ebwizardry.novice_earth_wand: ALL
+ftbutilities.claims.item.ebwizardry.novice_fire_wand: ALL
+ftbutilities.claims.item.ebwizardry.novice_healing_wand: ALL
+ftbutilities.claims.item.ebwizardry.novice_ice_wand: ALL
+ftbutilities.claims.item.ebwizardry.novice_lightning_wand: ALL
+ftbutilities.claims.item.ebwizardry.novice_necromancy_wand: ALL
+ftbutilities.claims.item.ebwizardry.novice_sorcery_wand: ALL
 ftbutilities.claims.item.ebwizardry.poison_bomb: ALL
+ftbutilities.claims.item.ebwizardry.purifying_elixir: ALL
 ftbutilities.claims.item.ebwizardry.range_upgrade: ALL
+ftbutilities.claims.item.ebwizardry.ring_arcane_frost: ALL
+ftbutilities.claims.item.ebwizardry.ring_battlemage: ALL
+ftbutilities.claims.item.ebwizardry.ring_blockwrangler: ALL
+ftbutilities.claims.item.ebwizardry.ring_combustion: ALL
+ftbutilities.claims.item.ebwizardry.ring_condensing: ALL
+ftbutilities.claims.item.ebwizardry.ring_conjurer: ALL
+ftbutilities.claims.item.ebwizardry.ring_defender: ALL
+ftbutilities.claims.item.ebwizardry.ring_disintegration: ALL
+ftbutilities.claims.item.ebwizardry.ring_earth_biome: ALL
+ftbutilities.claims.item.ebwizardry.ring_earth_melee: ALL
+ftbutilities.claims.item.ebwizardry.ring_extraction: ALL
+ftbutilities.claims.item.ebwizardry.ring_fire_biome: ALL
+ftbutilities.claims.item.ebwizardry.ring_fire_melee: ALL
+ftbutilities.claims.item.ebwizardry.ring_full_moon: ALL
+ftbutilities.claims.item.ebwizardry.ring_hammer: ALL
+ftbutilities.claims.item.ebwizardry.ring_ice_biome: ALL
+ftbutilities.claims.item.ebwizardry.ring_ice_melee: ALL
+ftbutilities.claims.item.ebwizardry.ring_interdiction: ALL
+ftbutilities.claims.item.ebwizardry.ring_leeching: ALL
+ftbutilities.claims.item.ebwizardry.ring_lightning_melee: ALL
+ftbutilities.claims.item.ebwizardry.ring_mana_return: ALL
+ftbutilities.claims.item.ebwizardry.ring_mind_control: ALL
+ftbutilities.claims.item.ebwizardry.ring_necromancy_melee: ALL
+ftbutilities.claims.item.ebwizardry.ring_paladin: ALL
+ftbutilities.claims.item.ebwizardry.ring_poison: ALL
+ftbutilities.claims.item.ebwizardry.ring_seeking: ALL
+ftbutilities.claims.item.ebwizardry.ring_shattering: ALL
+ftbutilities.claims.item.ebwizardry.ring_siphoning: ALL
+ftbutilities.claims.item.ebwizardry.ring_soulbinding: ALL
+ftbutilities.claims.item.ebwizardry.ring_storm: ALL
+ftbutilities.claims.item.ebwizardry.runestone: ALL
+ftbutilities.claims.item.ebwizardry.runestone_pedestal: ALL
 ftbutilities.claims.item.ebwizardry.scroll: ALL
 ftbutilities.claims.item.ebwizardry.siphon_upgrade: ALL
+ftbutilities.claims.item.ebwizardry.small_mana_flask: ALL
 ftbutilities.claims.item.ebwizardry.smoke_bomb: ALL
+ftbutilities.claims.item.ebwizardry.spark_bomb: ALL
 ftbutilities.claims.item.ebwizardry.spectral_boots: ALL
 ftbutilities.claims.item.ebwizardry.spectral_bow: ALL
 ftbutilities.claims.item.ebwizardry.spectral_chestplate: ALL
@@ -11296,7 +11338,6 @@ ftbutilities.claims.item.embers.wrapped_sealed_planks: ALL
 ftbutilities.claims.item.extraalchemy.breakable_potion: ALL
 ftbutilities.claims.item.extraalchemy.modified_potion: ALL
 ftbutilities.claims.item.extraalchemy.potion_bag: ALL
-ftbutilities.claims.item.extraalchemy.supporter_medal: ALL
 ftbutilities.claims.item.extraalchemy.vial_break: ALL
 ftbutilities.claims.item.extrabitmanipulation.bit_wrench: ALL
 ftbutilities.claims.item.extrabitmanipulation.bit_wrench_head: ALL
@@ -11616,55 +11657,6 @@ ftbutilities.claims.item.magicalsculpture.magicalsculpture: ALL
 ftbutilities.claims.item.magicalsculpture.relic: ALL
 ftbutilities.claims.item.magicalsculpture.reverser: ALL
 ftbutilities.claims.item.magicalsculpture.userguide: ALL
-ftbutilities.claims.item.malisisdoors.big_door_acacia_3x3: ALL
-ftbutilities.claims.item.malisisdoors.big_door_birch_3x3: ALL
-ftbutilities.claims.item.malisisdoors.big_door_dark_oak_3x3: ALL
-ftbutilities.claims.item.malisisdoors.big_door_iron_3x3: ALL
-ftbutilities.claims.item.malisisdoors.big_door_jungle_3x3: ALL
-ftbutilities.claims.item.malisisdoors.big_door_oak_3x3: ALL
-ftbutilities.claims.item.malisisdoors.big_door_rusty_3x3: ALL
-ftbutilities.claims.item.malisisdoors.big_door_spruce_3x3: ALL
-ftbutilities.claims.item.malisisdoors.camofencegate: ALL
-ftbutilities.claims.item.malisisdoors.carriage_door: ALL
-ftbutilities.claims.item.malisisdoors.curtain_black: ALL
-ftbutilities.claims.item.malisisdoors.curtain_blue: ALL
-ftbutilities.claims.item.malisisdoors.curtain_brown: ALL
-ftbutilities.claims.item.malisisdoors.curtain_cyan: ALL
-ftbutilities.claims.item.malisisdoors.curtain_gray: ALL
-ftbutilities.claims.item.malisisdoors.curtain_green: ALL
-ftbutilities.claims.item.malisisdoors.curtain_light_blue: ALL
-ftbutilities.claims.item.malisisdoors.curtain_lime: ALL
-ftbutilities.claims.item.malisisdoors.curtain_magenta: ALL
-ftbutilities.claims.item.malisisdoors.curtain_orange: ALL
-ftbutilities.claims.item.malisisdoors.curtain_pink: ALL
-ftbutilities.claims.item.malisisdoors.curtain_purple: ALL
-ftbutilities.claims.item.malisisdoors.curtain_red: ALL
-ftbutilities.claims.item.malisisdoors.curtain_silver: ALL
-ftbutilities.claims.item.malisisdoors.curtain_white: ALL
-ftbutilities.claims.item.malisisdoors.curtain_yellow: ALL
-ftbutilities.claims.item.malisisdoors.customdooritem: ALL
-ftbutilities.claims.item.malisisdoors.door_factory: ALL
-ftbutilities.claims.item.malisisdoors.factory_door: ALL
-ftbutilities.claims.item.malisisdoors.forcefielditem: ALL
-ftbutilities.claims.item.malisisdoors.garage_door: ALL
-ftbutilities.claims.item.malisisdoors.hitechdoor: ALL
-ftbutilities.claims.item.malisisdoors.iron_sliding_door: ALL
-ftbutilities.claims.item.malisisdoors.jail_door: ALL
-ftbutilities.claims.item.malisisdoors.laboratory_door: ALL
-ftbutilities.claims.item.malisisdoors.medieval_door: ALL
-ftbutilities.claims.item.malisisdoors.rustyhandle: ALL
-ftbutilities.claims.item.malisisdoors.rustyhatch: ALL
-ftbutilities.claims.item.malisisdoors.rustyladder: ALL
-ftbutilities.claims.item.malisisdoors.saloon: ALL
-ftbutilities.claims.item.malisisdoors.shoji_door: ALL
-ftbutilities.claims.item.malisisdoors.sliding_trapdoor: ALL
-ftbutilities.claims.item.malisisdoors.trapdoor_acacia: ALL
-ftbutilities.claims.item.malisisdoors.trapdoor_birch: ALL
-ftbutilities.claims.item.malisisdoors.trapdoor_dark_oak: ALL
-ftbutilities.claims.item.malisisdoors.trapdoor_jungle: ALL
-ftbutilities.claims.item.malisisdoors.trapdoor_spruce: ALL
-ftbutilities.claims.item.malisisdoors.verticalhatch: ALL
-ftbutilities.claims.item.malisisdoors.wood_sliding_door: ALL
 ftbutilities.claims.item.mcjtylib_ng.multipart: ALL
 ftbutilities.claims.item.meecreeps.cartridge: ALL
 ftbutilities.claims.item.meecreeps.creepcube: ALL
@@ -12090,6 +12082,7 @@ ftbutilities.claims.item.minecraft.written_book: ALL
 ftbutilities.claims.item.minecraft.yellow_flower: ALL
 ftbutilities.claims.item.minecraft.yellow_glazed_terracotta: ALL
 ftbutilities.claims.item.minecraft.yellow_shulker_box: ALL
+ftbutilities.claims.item.minerva.supporter_medal: ALL
 ftbutilities.claims.item.mist.a_tree_block: ALL
 ftbutilities.claims.item.mist.a_tree_branch: ALL
 ftbutilities.claims.item.mist.a_tree_leaves: ALL
@@ -12299,7 +12292,16 @@ ftbutilities.claims.item.mysticalworld.antlers: ALL
 ftbutilities.claims.item.mysticalworld.aubergine: ALL
 ftbutilities.claims.item.mysticalworld.aubergine_seed: ALL
 ftbutilities.claims.item.mysticalworld.carapace: ALL
+ftbutilities.claims.item.mysticalworld.charred_button: ALL
+ftbutilities.claims.item.mysticalworld.charred_fence: ALL
+ftbutilities.claims.item.mysticalworld.charred_log: ALL
+ftbutilities.claims.item.mysticalworld.charred_planks: ALL
+ftbutilities.claims.item.mysticalworld.charred_pressure_plate: ALL
+ftbutilities.claims.item.mysticalworld.charred_slab: ALL
+ftbutilities.claims.item.mysticalworld.charred_stairs: ALL
+ftbutilities.claims.item.mysticalworld.charred_wall: ALL
 ftbutilities.claims.item.mysticalworld.cooked_aubergine: ALL
+ftbutilities.claims.item.mysticalworld.cooked_squid: ALL
 ftbutilities.claims.item.mysticalworld.cooked_venison: ALL
 ftbutilities.claims.item.mysticalworld.copper_axe: ALL
 ftbutilities.claims.item.mysticalworld.copper_block: ALL
@@ -12309,12 +12311,28 @@ ftbutilities.claims.item.mysticalworld.copper_knife: ALL
 ftbutilities.claims.item.mysticalworld.copper_pickaxe: ALL
 ftbutilities.claims.item.mysticalworld.copper_shovel: ALL
 ftbutilities.claims.item.mysticalworld.copper_sword: ALL
+ftbutilities.claims.item.mysticalworld.epic_squid: ALL
 ftbutilities.claims.item.mysticalworld.gold_dust: ALL
 ftbutilities.claims.item.mysticalworld.gold_dust_tiny: ALL
 ftbutilities.claims.item.mysticalworld.ink_bottle: ALL
 ftbutilities.claims.item.mysticalworld.iron_dust: ALL
 ftbutilities.claims.item.mysticalworld.iron_dust_tiny: ALL
+ftbutilities.claims.item.mysticalworld.mud_block: ALL
+ftbutilities.claims.item.mysticalworld.mud_block_button: ALL
+ftbutilities.claims.item.mysticalworld.mud_block_fence: ALL
+ftbutilities.claims.item.mysticalworld.mud_block_pressure_plate: ALL
+ftbutilities.claims.item.mysticalworld.mud_block_slab: ALL
+ftbutilities.claims.item.mysticalworld.mud_block_stairs: ALL
+ftbutilities.claims.item.mysticalworld.mud_block_wall: ALL
+ftbutilities.claims.item.mysticalworld.mud_brick: ALL
+ftbutilities.claims.item.mysticalworld.mud_brick_button: ALL
+ftbutilities.claims.item.mysticalworld.mud_brick_fence: ALL
+ftbutilities.claims.item.mysticalworld.mud_brick_pressure_plate: ALL
+ftbutilities.claims.item.mysticalworld.mud_brick_slab: ALL
+ftbutilities.claims.item.mysticalworld.mud_brick_stairs: ALL
+ftbutilities.claims.item.mysticalworld.mud_brick_wall: ALL
 ftbutilities.claims.item.mysticalworld.pelt: ALL
+ftbutilities.claims.item.mysticalworld.raw_squid: ALL
 ftbutilities.claims.item.mysticalworld.silver_axe: ALL
 ftbutilities.claims.item.mysticalworld.silver_block: ALL
 ftbutilities.claims.item.mysticalworld.silver_dust: ALL
@@ -12325,7 +12343,10 @@ ftbutilities.claims.item.mysticalworld.silver_shovel: ALL
 ftbutilities.claims.item.mysticalworld.silver_sword: ALL
 ftbutilities.claims.item.mysticalworld.stuffed_aubergine: ALL
 ftbutilities.claims.item.mysticalworld.thatch: ALL
+ftbutilities.claims.item.mysticalworld.unripe_pearl: ALL
 ftbutilities.claims.item.mysticalworld.venison: ALL
+ftbutilities.claims.item.mysticalworld.wet_mud_block: ALL
+ftbutilities.claims.item.mysticalworld.wet_mud_brick: ALL
 ftbutilities.claims.item.naturalpledge.actuator: ALL
 ftbutilities.claims.item.naturalpledge.alt_leaves0: ALL
 ftbutilities.claims.item.naturalpledge.alt_leaves1: ALL
@@ -12550,8 +12571,6 @@ ftbutilities.claims.item.naturesaura.token_sorrow: ALL
 ftbutilities.claims.item.naturesaura.token_terror: ALL
 ftbutilities.claims.item.naturesaura.wood_stand: ALL
 ftbutilities.claims.item.patchouli.guide_book: ALL
-ftbutilities.claims.item.platforms.platform: ALL
-ftbutilities.claims.item.platforms.wrench: ALL
 ftbutilities.claims.item.qualitytools.emerald_amulet: ALL
 ftbutilities.claims.item.qualitytools.emerald_ring: ALL
 ftbutilities.claims.item.qualitytools.reforging_station: ALL
@@ -13079,6 +13098,7 @@ ftbutilities.claims.item.roots.ritual_divine_protection: ALL
 ftbutilities.claims.item.roots.ritual_fire_storm: ALL
 ftbutilities.claims.item.roots.ritual_flower_growth: ALL
 ftbutilities.claims.item.roots.ritual_frost_lands: ALL
+ftbutilities.claims.item.roots.ritual_gathering: ALL
 ftbutilities.claims.item.roots.ritual_germination: ALL
 ftbutilities.claims.item.roots.ritual_healing_aura: ALL
 ftbutilities.claims.item.roots.ritual_heavy_storms: ALL
@@ -14139,6 +14159,7 @@ ftbutilities.claims.item.thebetweenlands.sulfur_furnace_dual: ALL
 ftbutilities.claims.item.thebetweenlands.sulfur_ore: ALL
 ftbutilities.claims.item.thebetweenlands.sulfur_torch: ALL
 ftbutilities.claims.item.thebetweenlands.sundew: ALL
+ftbutilities.claims.item.thebetweenlands.sushi: ALL
 ftbutilities.claims.item.thebetweenlands.swamp_dirt: ALL
 ftbutilities.claims.item.thebetweenlands.swamp_double_tallgrass: ALL
 ftbutilities.claims.item.thebetweenlands.swamp_grass: ALL
@@ -14398,7 +14419,6 @@ command.effect
 command.enchant
 command.entitydata
 command.execute
-command.extraalchemy.ea-medal
 command.fill
 command.forge.dimensions
 command.forge.entity.help.list
@@ -14431,10 +14451,13 @@ command.ftblib.reload
 command.ftblib.team.create
 command.ftblib.team.create_server_team
 command.ftblib.team.delete
+command.ftblib.team.get
 command.ftblib.team.help
+command.ftblib.team.info
 command.ftblib.team.join
 command.ftblib.team.kick
 command.ftblib.team.leave
+command.ftblib.team.list
 command.ftblib.team.request_invite
 command.ftblib.team.settings
 command.ftblib.team.status
@@ -14442,6 +14465,7 @@ command.ftblib.team.transfer_ownership
 command.ftbutilities.back
 command.ftbutilities.chunks.claim
 command.ftbutilities.chunks.help
+command.ftbutilities.chunks.info
 command.ftbutilities.chunks.load
 command.ftbutilities.chunks.unclaim
 command.ftbutilities.chunks.unclaim_all
@@ -14468,6 +14492,7 @@ command.ftbutilities.nbtedit.item
 command.ftbutilities.nbtedit.player
 command.ftbutilities.nbtedit.tile
 command.ftbutilities.nick
+command.ftbutilities.nickfor
 command.ftbutilities.ranks.add
 command.ftbutilities.ranks.delete
 command.ftbutilities.ranks.get
@@ -14514,6 +14539,7 @@ command.me
 command.meecreeps.creep_clear
 command.meecreeps.creep_list
 command.meecreeps.creep_test
+command.minerva.ea-medal
 command.naturesaura.naaura
 command.particle
 command.playsound
@@ -14523,12 +14549,12 @@ command.quark.quark-config
 command.randomportals.rporeload
 command.recipe
 command.replaceitem
+command.roots.ritual
+command.roots.roots
+command.roots.staff
 command.rpreload
 command.say
 command.scavenge.scavenge
-command.schematica.schematicalist
-command.schematica.schematicaremove
-command.schematica.schematicasave
 command.scoreboard
 command.seed
 command.setblock

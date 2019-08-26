@@ -1,0 +1,22 @@
+{
+    "name": "Star Charts",
+    "icon": "astralsorcery:itemconstellationpaper",
+    "category": "quests/chap3",
+    "sortnum": 7,
+    "advancement": "heavens:bookchap3/6marble",
+    "turnin": "heavens:bookchap3/9constellation",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "Star Charts",
+            "trigger": "heavens:bookchap3/9constellation",
+            "text": "It seems that some of these old marble structures still contain some things left behind by those who built them. Of particular value are the notes which detail the constellations of the night sky. As always, knowledge is power, so it's worthwhile to collect these."
+        },
+        {
+            "type": "checklist_end",
+            "item1": "astralsorcery:itemconstellationpaper#1",
+            "reward1": "astralsorcery:blockmarble#100",
+            "reward2": "astralsorcery:itemjournal#1"
+        }
+    ]
+}
