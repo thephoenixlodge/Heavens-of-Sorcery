@@ -237,7 +237,7 @@ val preciaGarnet = <contenttweaker:material_part:82>;
 val ethericGarnet = <liquid:garnet_etheric>;
 val gemGarnet = <bewitchment:garnet>;
 //Opal
-val preciaOpal = <contenttweaker:material_part:84>;
+val preciaOpal = <contenttweaker:material_part:128>;
 val ethericOpal = <liquid:opal_etheric>;
 val gemOpal = <bewitchment:opal>;
 

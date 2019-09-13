@@ -1,0 +1,61 @@
+{
+    "name": "Altar-ation",
+    "icon": "astralsorcery:blockaltar:1",
+    "category": "quests/chap3",
+    "sortnum": 14,
+    "advancement": "heavens:bookchap3/12lightwell",
+    "turnin": "heavens:bookchap3/14starlightaltar",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "Resonating",
+            "trigger": "heavens:bookchap3/14starlightaltar",
+            "text": "The $(thing)Luminous Crafting Table$() is useful by itself, but its ability to absorb and channel $(thing)Starlight$() is limited. However, by utilising some of the other materials you've unearthed, you can enhance it. Combine this with a structure built of $(item)Marble$() and $(item)Sooty Marble$() and you'll find yourself with a much more capable $(item)Starlight Crafting Altar$()."
+        },
+        {
+            "type": "checklist_end",
+            "item1": "astralsorcery:blockaltar:1",
+            "reward1": "astralsorcery:itemcraftingcomponent:3#8"
+        },
+        {
+            "type": "altar_luminous",
+            "heading": "Starlight Crafting Altar",
+            "output_item": "astralsorcery:blockaltar:1",
+            "item1": "astralsorcery:blockmarble:2",
+            "item2": "astralsorcery:itemrockcrystalsimple",
+            "item3": "astralsorcery:blockmarble:2",
+            "item4": "astralsorcery:blockmarble:4",
+            "item5": "forge:bucketfilled{FluidName: \"astralsorcery.liquidstarlight\", Amount: 1000}",
+            "item6": "astralsorcery:blockmarble:4",
+            "item7": "astralsorcery:blockmarble:2",
+            "item8": "botania:rune:8",
+            "item9": "astralsorcery:blockmarble:2"
+        },
+        {
+            "type": "multiblock",
+            "name": "Starlight Crafting Altar",
+            "multiblock": {
+                "pattern": [
+                    [ "         ", " C     C ", "         ", "         ", "         ", "         ", "         ", " C     C ", "         " ],
+                    [ "         ", " T     T ", "         ", "         ", "         ", "         ", "         ", " T     T ", "         " ],
+                    [ "         ", " P     P ", "         ", "         ", "    0    ", "         ", "         ", " P     P ", "         " ],
+                    [ " AAAAAAA ", "ACBBBBBCA", "ABSSBSSBA", "ABSSSSSBA", "ABBSSSBBA", "ABSSSSSBA", "ABSSBSSBA", "ACBBBBBCA", " AAAAAAA " ]
+                ],
+                "mapping": {
+                    " ": "ANY",
+                    "0": "astralsorcery:blockaltar[altartype=altar_2]",
+                    "S": "astralsorcery:blockblackmarble",
+                    "B": "astralsorcery:blockmarble[marbletype=bricks]",
+                    "C": "astralsorcery:blockmarble[marbletype=chiseled]",
+                    "A": "astralsorcery:blockmarble[marbletype=arch]",
+                    "P": "astralsorcery:blockmarble[marbletype=pillar_bottom]",
+                    "T": "astralsorcery:blockmarble[marbletype=pillar_top]"
+                },
+                "symmetrical": true,
+                "offset"     : [0, 0, 0],
+                "view_offset": [0, 0, 0]
+            },
+            "text": "$(l:https://pastebin.com/S4bCmc3s)Pastebin of Structure$(/l) for use with Template Manager"
+        }
+    ]
+}

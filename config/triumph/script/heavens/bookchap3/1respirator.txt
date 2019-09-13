@@ -8,7 +8,7 @@ addParent("heavens:bookchap3/0niobium")
 
 setRequiresParents()
 
-setPos(-240,-25)
+setPos(-48,-13)
 
 criteria1 = addCriteria("hasItemsFurnace", "minecraft:inventory_changed")
 criteria1.addItem(<mist:filter_coal, count:1~>)

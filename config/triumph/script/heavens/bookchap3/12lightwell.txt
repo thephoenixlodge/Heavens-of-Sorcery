@@ -9,7 +9,7 @@ addParent("heavens:bookchap3/10rockcrystal")
 
 setRequiresParents()
 
-setPos(-40,15)
+setPos(152,27)
 
 criteria1 = addCriteria("hasItemsFurnace", "minecraft:inventory_changed")
 criteria1.addItem(<astralsorcery:blockwell, count:1~>)

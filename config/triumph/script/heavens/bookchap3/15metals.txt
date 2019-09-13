@@ -8,7 +8,7 @@ addParent("heavens:bookchap3/5managen")
 
 setRequiresParents()
 
-setPos(-80,-65)
+setPos(112,-53)
 
 criteria1 = addCriteria("hasItems", "minecraft:inventory_changed")
 criteria1.addItem(<embers:nugget_copper, count:1~>)

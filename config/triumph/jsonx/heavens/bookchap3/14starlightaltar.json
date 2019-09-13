@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "astralsorcery:blockaltar",
+            "data": 1
+        },
+        "title": "Altar-ation",
+        "description": "Upgrade your Luminous Crafting Table into a Starlight Crafting Altar",
+        "pos_x": "192",
+        "pos_y": "27"
+    },
+    "parent": "heavens:bookchap3/12lightwell",
+    "criteria": {
+        "altar_craft_t2_altar": {
+            "trigger": "astralsorcery:altar_craft",
+            "conditions": {
+                "recipes": [
+                    "astralsorcery:shaped/internal/altar/upgrade_tier2"
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "heavens:rewards_astralT2"
+    }
+}

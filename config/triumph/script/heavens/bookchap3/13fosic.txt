@@ -8,7 +8,7 @@ addParent("heavens:bookchap3/12lightwell")
 
 setRequiresParents()
 
-setPos(-40,55)
+setPos(152,67)
 
 criteria1 = addCriteria("hasItemsFurnace", "minecraft:inventory_changed")
 criteria1.addItem(<astralsorcery:itemskyresonator, count:1~>)

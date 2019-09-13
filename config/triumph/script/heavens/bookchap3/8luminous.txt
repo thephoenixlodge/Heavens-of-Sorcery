@@ -9,7 +9,7 @@ addParent("heavens:bookchap3/5managen")
 
 setRequiresParents()
 
-setPos(-80,15)
+setPos(112,27)
 
 criteria1 = addCriteria("hasItemsFurnace", "minecraft:inventory_changed")
 criteria1.addItem(<astralsorcery:blockaltar, count:1~>)

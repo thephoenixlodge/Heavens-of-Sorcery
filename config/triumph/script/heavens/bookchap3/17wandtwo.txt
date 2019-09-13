@@ -8,7 +8,7 @@ addParent("heavens:bookchap3/16emberbore")
 
 setRequiresParents()
 
-setPos(-40,-105)
+setPos(152,-93)
 
 criteria1 = addCriteria("hasItems", "minecraft:inventory_changed")
 criteria1.addItem(<contenttweaker:ironwood_wand_two, count:1~>)

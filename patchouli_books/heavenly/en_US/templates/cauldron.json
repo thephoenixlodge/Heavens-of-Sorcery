@@ -54,6 +54,7 @@
 			"image": "books:templates/arrow_curved_up.png",
 			"texture_width": 16,
 			"texture_height": 16,
+			"guard": "#output_item->iexists",
 			"width": 16,
 			"height": 16,
 			"scale": 1,
@@ -71,7 +72,7 @@
 			"type": "item",
 			"item": "#output_fluid",
 			"framed": "false",
-			"link_recipe": "true",
+			"link_recipe": "false",
 			"x": 80,
 			"y": 45
 		},
@@ -79,6 +80,7 @@
 			"type": "item",
 			"item": "#output_item",
 			"framed": "true",
+			"guard": "#output_item->iexists",
 			"link_recipe": "true",
 			"x": 100,
 			"y": 25

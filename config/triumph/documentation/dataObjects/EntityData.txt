@@ -18,25 +18,17 @@ setFeature:
     Notes:
         Sets the feature id. Used for things like structures.
 
-setGeneratorOptions:
+getDistanceData:
+    Notes:
+        Returns the DistanceData object so functions can be called on it.
+
+setScoreboard:
     Arguments:
-        String
+        String, Float, Float
     Usage:
-        generator string
+        score name, min score, max score
     Notes:
         Sets the generator options string.
-
-setWorldType:
-    Arguments:
-        String
-    Usage:
-        WorldType id
-    Notes:
-        Sets the WorldType id.
-
-getLocationData:
-    Notes:
-        Returns the LocationData object so functions can be called on it.
 
 setDimensionType:
     Arguments:
@@ -46,9 +38,9 @@ setDimensionType:
     Notes:
         Sets the dimension type. Vanilla options are "overworld", "the_nether", "the_end"
 
-getDistanceData:
+getLocationData:
     Notes:
-        Returns the DistanceData object so functions can be called on it.
+        Returns the LocationData object so functions can be called on it.
 
 setDimID:
     Arguments:
@@ -58,6 +50,14 @@ setDimID:
     Notes:
         Sets the dimension id.
 
+setWorldType:
+    Arguments:
+        String
+    Usage:
+        WorldType id
+    Notes:
+        Sets the WorldType id.
+
 setBiome:
     Arguments:
         Non_Null_Biome_ID
@@ -65,4 +65,12 @@ setBiome:
         biome id
     Notes:
         Sets the biome id. Can be an int or String.
+
+setGeneratorOptions:
+    Arguments:
+        String
+    Usage:
+        generator string
+    Notes:
+        Sets the generator options string.
 

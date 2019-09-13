@@ -8,7 +8,7 @@ addParent("heavens:bookchap3/19activator")
 
 setRequiresParents()
 
-setPos(40,-65)
+setPos(232,-53)
 
 criteria1 = addCriteria("hasItems", "minecraft:inventory_changed")
 criteria1.addItem(<embers:block_furnace, count:1~>)

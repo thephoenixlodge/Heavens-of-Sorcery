@@ -11,22 +11,6 @@ setFeature:
     Notes:
         Sets the feature id. Used for things like structures.
 
-setItem:
-    Arguments:
-        ItemBlockData
-    Usage:
-        item data
-    Notes:
-        Sets the required item.
-
-setGeneratorOptions:
-    Arguments:
-        String
-    Usage:
-        generator string
-    Notes:
-        Sets the generator options string.
-
 setBlock:
     Arguments:
         ItemBlockData
@@ -35,13 +19,13 @@ setBlock:
     Notes:
         Sets the required block.
 
-setWorldType:
+setItem:
     Arguments:
-        String
+        ItemBlockData
     Usage:
-        WorldType id
+        item data
     Notes:
-        Sets the WorldType id.
+        Sets the required item.
 
 getLocationData:
     Notes:
@@ -54,6 +38,30 @@ setDimID:
         dimension id
     Notes:
         Sets the dimension id.
+
+setWorldType:
+    Arguments:
+        String
+    Usage:
+        WorldType id
+    Notes:
+        Sets the WorldType id.
+
+setBiome:
+    Arguments:
+        Non_Null_Biome_ID
+    Usage:
+        biome id
+    Notes:
+        Sets the biome id. Can be an int or String.
+
+setGeneratorOptions:
+    Arguments:
+        String
+    Usage:
+        generator string
+    Notes:
+        Sets the generator options string.
 
 setHitZMax:
     Arguments:
@@ -71,13 +79,13 @@ setHitXMin:
     Notes:
         Sets the min X coordinate for the interaction location on the block.
 
-setHitYMinMax:
+setHitXMax:
     Arguments:
-        float, float
+        float
     Usage:
-        min, max
+        max
     Notes:
-        Sets the min and max Y coordinates for the interaction location on the block.
+        Sets the max X coordinate for the interaction location on the block.
 
 setHitYMax:
     Arguments:
@@ -86,14 +94,6 @@ setHitYMax:
         max
     Notes:
         Sets the max Y coordinate for the interaction location on the block.
-
-setHitYMin:
-    Arguments:
-        float
-    Usage:
-        min
-    Notes:
-        Sets the min Y coordinate for the interaction location on the block.
 
 setHitXMinMax:
     Arguments:
@@ -111,13 +111,21 @@ setHitZMinMax:
     Notes:
         Sets the min and max Z coordinates for the interaction location on the block.
 
-setHitXMax:
+setHitYMinMax:
+    Arguments:
+        float, float
+    Usage:
+        min, max
+    Notes:
+        Sets the min and max Y coordinates for the interaction location on the block.
+
+setHitYMin:
     Arguments:
         float
     Usage:
-        max
+        min
     Notes:
-        Sets the max X coordinate for the interaction location on the block.
+        Sets the min Y coordinate for the interaction location on the block.
 
 setHitZMin:
     Arguments:
@@ -126,14 +134,6 @@ setHitZMin:
         min
     Notes:
         Sets the min Z coordinate for the interaction location on the block.
-
-setBiome:
-    Arguments:
-        Non_Null_Biome_ID
-    Usage:
-        biome id
-    Notes:
-        Sets the biome id. Can be an int or String.
 
 setCount:
     Arguments:

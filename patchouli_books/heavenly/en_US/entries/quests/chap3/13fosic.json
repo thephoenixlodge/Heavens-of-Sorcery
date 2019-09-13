@@ -1,0 +1,40 @@
+{
+    "name": "Resonating",
+    "icon": "astralsorcery:itemskyresonator",
+    "category": "quests/chap3",
+    "sortnum": 13,
+    "advancement": "heavens:bookchap3/12lightwell",
+    "turnin": "heavens:bookchap3/13fosic",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "Resonating",
+            "trigger": "heavens:bookchap3/13fosic",
+            "text": "$(thing)Starlight$() is fickle. As you may have already noticed, there are areas around the worlds where it is weaker and stronger, and furthermore, altitude affects it too, as you reach that little bit closer to the stars. Using some $(item)Liquid Starlight$(), you can make a device which will show you where the $(thing)Starlight$() shines brightest."
+        },
+        {
+            "type": "checklist_end",
+            "item1": "astralsorcery:itemskyresonator#1",
+            "reward1": "botania:blacklotus:0#20"
+        },
+        {
+            "type": "altar_luminous",
+            "heading": "Fosic Resonater",
+            "output_item": "astralsorcery:itemskyresonator",
+            "item2": "astralsorcery:itemcraftingcomponent:0",
+            "item4": "astralsorcery:blockmarble:0",
+            "item5": "forge:bucketfilled{FluidName: \"astralsorcery.liquidstarlight\", Amount: 1000}",
+            "item6": "astralsorcery:blockmarble:0",
+            "item7": "aether_legacy:zanite_gemstone",
+            "item8": "botania:manaresource",
+            "item9": "aether_legacy:zanite_gemstone"
+        },
+        {
+            "type": "image",
+            "images": ["books:templates/starfield.png"],
+            "border": true,
+            "title": "Starfields",
+            "text": "Visible at night, when holding a $(item)Fosic Resonater$()."
+        }
+    ]
+}

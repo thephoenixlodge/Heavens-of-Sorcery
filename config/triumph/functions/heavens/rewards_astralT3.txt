@@ -1,0 +1,2 @@
+give @p buildinggadgets:template 1 0 {copycounter:2,TemplateName:"Celestial Altar",UUID:"67762efc-0a1f-4da1-be1e-2f3f80da8b2d",startPos:{X:-4946,Y:99,Z:-4994},itemcountmap:[{item:7973,meta:6,count:4},{item:7974,meta:0,count:49},{item:7973,meta:0,count:12},{item:7973,meta:1,count:40},{item:7973,meta:2,count:8},{item:7973,meta:4,count:4}],endPos:{X:-4956,Y:95,Z:-5004}}
+give @p astralsorcery:itemcraftingcomponent 10 2

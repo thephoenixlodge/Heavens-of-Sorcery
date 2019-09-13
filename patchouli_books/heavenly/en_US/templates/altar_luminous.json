@@ -44,6 +44,7 @@
 		{
 			"type": "item",
 			"item": "#item1",
+			"guard": "#item1->iexists",
 			"framed": "false",
 			"x": 31,
 			"y": 58

@@ -27,8 +27,7 @@
             "item7": "minecraft:quartz_block#20",
             "item8": "minecraft:quartz_stairs#8",
             "reward1": "wizardry:orb:1#40",
-            "reward2": "minecraft:quartz#200",
-            "reward3": "buildinggadgets:template#1{TemplateName:\"Mana Battery\"}"
+            "reward2": "minecraft:quartz#200"
         },
         {
             "type": "multiblock",

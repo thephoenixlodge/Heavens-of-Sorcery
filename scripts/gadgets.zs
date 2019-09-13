@@ -1,5 +1,6 @@
 ////Imports
 import mods.ArcaneWorld;
+import scripts.globals;
 
 ////Vars
 val gadgetBuilding = <buildinggadgets:buildingtool>;
@@ -24,18 +25,22 @@ val nacrePearl = <wizardry:nacre_pearl>;
 //Building Gadget
 recipes.remove(gadgetBuilding);
 ArcaneWorld.createRitualCreateItem("gadget_building", "Tome of Building", gadgetBuilding, book, sapphire, wandFormation, wandDiamond, advSimilsax);
+globals.setNewName(gadgetBuilding, "Tome of Building");
 
 //Exchanging Gadget
 recipes.remove(gadgetExchanging);
 ArcaneWorld.createRitualCreateItem("gadget_exchanging", "Tome of Exchanging", gadgetExchanging, book, sapphire, amethyst, shovelDiamond);
+globals.setNewName(gadgetExchanging, "Tome of Exchanging");
 
 //Copy-Paste Gadget
 recipes.remove(gadgetCopyPaste);
 ArcaneWorld.createRitualCreateItem("gadget_copy", "Tome of Transferrance", gadgetCopyPaste, book, sapphire, amethyst, slime);
+globals.setNewName(gadgetCopyPaste, "Tome of Transferrence");
 
 //Destruction Gadget
 recipes.remove(gadgetDestruction);
 ArcaneWorld.createRitualCreateItem("gadget_destroy", "Tome of Destruction", gadgetDestruction, book, amethyst, amethyst, moltenCore);
+globals.setNewName(gadgetDestruction, "Tome of Destruction");
 
 //Template Manager
 recipes.remove(templateManager);

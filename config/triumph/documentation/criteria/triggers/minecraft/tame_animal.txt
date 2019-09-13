@@ -2,10 +2,6 @@ These are the functions which can be called on a minecraft:tame_animal criteria 
 
 
 
-getEntityData:
-    Notes:
-        Returns the EntityData object so functions can be called on it.
-
 setEntityType:
     Arguments:
         String
@@ -13,6 +9,10 @@ setEntityType:
         entity type
     Notes:
         Sets the entity type.
+
+getEntityData:
+    Notes:
+        Returns the EntityData object so functions can be called on it.
 
 setCount:
     Arguments:

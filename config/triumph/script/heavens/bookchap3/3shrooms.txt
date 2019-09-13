@@ -8,7 +8,7 @@ addParent("heavens:bookchap3/2mist")
 
 setRequiresParents()
 
-setPos(-160,-25)
+setPos(32,-13)
 
 criteria1 = addCriteria("hasItemsFurnace", "minecraft:inventory_changed")
 criteria1.addItem(<botania:mushroom, meta:0~15, count:1~>)

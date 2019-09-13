@@ -1,4 +1,4 @@
-14342 nodes in total
+14357 nodes in total
 Modifying this file won't have any effect, edit ranks.txt!
 
 admin_panel.ftbutilities.crash_reports.delete: OP
@@ -2536,6 +2536,7 @@ ftbutilities.claims.block.edit.mysticalmechanics.creative_mech_source: OP
 ftbutilities.claims.block.edit.mysticalmechanics.gearbox_frame: OP
 ftbutilities.claims.block.edit.mysticalmechanics.mergebox_frame: OP
 ftbutilities.claims.block.edit.mysticalworld.amethyst_block: OP
+ftbutilities.claims.block.edit.mysticalworld.amethyst_ore: OP
 ftbutilities.claims.block.edit.mysticalworld.aubergine_crop: OP
 ftbutilities.claims.block.edit.mysticalworld.charred_button: OP
 ftbutilities.claims.block.edit.mysticalworld.charred_double_slab: OP
@@ -2547,6 +2548,7 @@ ftbutilities.claims.block.edit.mysticalworld.charred_slab: OP
 ftbutilities.claims.block.edit.mysticalworld.charred_stairs: OP
 ftbutilities.claims.block.edit.mysticalworld.charred_wall: OP
 ftbutilities.claims.block.edit.mysticalworld.copper_block: OP
+ftbutilities.claims.block.edit.mysticalworld.copper_ore: OP
 ftbutilities.claims.block.edit.mysticalworld.mud_block: OP
 ftbutilities.claims.block.edit.mysticalworld.mud_block_button: OP
 ftbutilities.claims.block.edit.mysticalworld.mud_block_double_slab: OP
@@ -2564,6 +2566,7 @@ ftbutilities.claims.block.edit.mysticalworld.mud_brick_slab: OP
 ftbutilities.claims.block.edit.mysticalworld.mud_brick_stairs: OP
 ftbutilities.claims.block.edit.mysticalworld.mud_brick_wall: OP
 ftbutilities.claims.block.edit.mysticalworld.silver_block: OP
+ftbutilities.claims.block.edit.mysticalworld.silver_ore: OP
 ftbutilities.claims.block.edit.mysticalworld.thatch: OP
 ftbutilities.claims.block.edit.mysticalworld.wet_mud_block: OP
 ftbutilities.claims.block.edit.mysticalworld.wet_mud_brick: OP
@@ -6608,6 +6611,7 @@ ftbutilities.claims.block.interact.mysticalmechanics.creative_mech_source: OP
 ftbutilities.claims.block.interact.mysticalmechanics.gearbox_frame: OP
 ftbutilities.claims.block.interact.mysticalmechanics.mergebox_frame: OP
 ftbutilities.claims.block.interact.mysticalworld.amethyst_block: OP
+ftbutilities.claims.block.interact.mysticalworld.amethyst_ore: OP
 ftbutilities.claims.block.interact.mysticalworld.aubergine_crop: OP
 ftbutilities.claims.block.interact.mysticalworld.charred_button: OP
 ftbutilities.claims.block.interact.mysticalworld.charred_double_slab: OP
@@ -6619,6 +6623,7 @@ ftbutilities.claims.block.interact.mysticalworld.charred_slab: OP
 ftbutilities.claims.block.interact.mysticalworld.charred_stairs: OP
 ftbutilities.claims.block.interact.mysticalworld.charred_wall: OP
 ftbutilities.claims.block.interact.mysticalworld.copper_block: OP
+ftbutilities.claims.block.interact.mysticalworld.copper_ore: OP
 ftbutilities.claims.block.interact.mysticalworld.mud_block: OP
 ftbutilities.claims.block.interact.mysticalworld.mud_block_button: OP
 ftbutilities.claims.block.interact.mysticalworld.mud_block_double_slab: OP
@@ -6636,6 +6641,7 @@ ftbutilities.claims.block.interact.mysticalworld.mud_brick_slab: OP
 ftbutilities.claims.block.interact.mysticalworld.mud_brick_stairs: OP
 ftbutilities.claims.block.interact.mysticalworld.mud_brick_wall: OP
 ftbutilities.claims.block.interact.mysticalworld.silver_block: OP
+ftbutilities.claims.block.interact.mysticalworld.silver_ore: OP
 ftbutilities.claims.block.interact.mysticalworld.thatch: OP
 ftbutilities.claims.block.interact.mysticalworld.wet_mud_block: OP
 ftbutilities.claims.block.interact.mysticalworld.wet_mud_brick: OP
@@ -12283,8 +12289,10 @@ ftbutilities.claims.item.mysticalmechanics.gearbox_frame: ALL
 ftbutilities.claims.item.mysticalmechanics.mergebox_frame: ALL
 ftbutilities.claims.item.mysticalworld.amethyst_axe: ALL
 ftbutilities.claims.item.mysticalworld.amethyst_block: ALL
+ftbutilities.claims.item.mysticalworld.amethyst_gem: ALL
 ftbutilities.claims.item.mysticalworld.amethyst_hoe: ALL
 ftbutilities.claims.item.mysticalworld.amethyst_knife: ALL
+ftbutilities.claims.item.mysticalworld.amethyst_ore: ALL
 ftbutilities.claims.item.mysticalworld.amethyst_pickaxe: ALL
 ftbutilities.claims.item.mysticalworld.amethyst_shovel: ALL
 ftbutilities.claims.item.mysticalworld.amethyst_sword: ALL
@@ -12306,8 +12314,12 @@ ftbutilities.claims.item.mysticalworld.cooked_venison: ALL
 ftbutilities.claims.item.mysticalworld.copper_axe: ALL
 ftbutilities.claims.item.mysticalworld.copper_block: ALL
 ftbutilities.claims.item.mysticalworld.copper_dust: ALL
+ftbutilities.claims.item.mysticalworld.copper_dust_tiny: ALL
 ftbutilities.claims.item.mysticalworld.copper_hoe: ALL
+ftbutilities.claims.item.mysticalworld.copper_ingot: ALL
 ftbutilities.claims.item.mysticalworld.copper_knife: ALL
+ftbutilities.claims.item.mysticalworld.copper_nugget: ALL
+ftbutilities.claims.item.mysticalworld.copper_ore: ALL
 ftbutilities.claims.item.mysticalworld.copper_pickaxe: ALL
 ftbutilities.claims.item.mysticalworld.copper_shovel: ALL
 ftbutilities.claims.item.mysticalworld.copper_sword: ALL
@@ -12336,8 +12348,12 @@ ftbutilities.claims.item.mysticalworld.raw_squid: ALL
 ftbutilities.claims.item.mysticalworld.silver_axe: ALL
 ftbutilities.claims.item.mysticalworld.silver_block: ALL
 ftbutilities.claims.item.mysticalworld.silver_dust: ALL
+ftbutilities.claims.item.mysticalworld.silver_dust_tiny: ALL
 ftbutilities.claims.item.mysticalworld.silver_hoe: ALL
+ftbutilities.claims.item.mysticalworld.silver_ingot: ALL
 ftbutilities.claims.item.mysticalworld.silver_knife: ALL
+ftbutilities.claims.item.mysticalworld.silver_nugget: ALL
+ftbutilities.claims.item.mysticalworld.silver_ore: ALL
 ftbutilities.claims.item.mysticalworld.silver_pickaxe: ALL
 ftbutilities.claims.item.mysticalworld.silver_shovel: ALL
 ftbutilities.claims.item.mysticalworld.silver_sword: ALL
@@ -13071,7 +13087,6 @@ ftbutilities.claims.item.roots.elemental_soil_fire: ALL
 ftbutilities.claims.item.roots.elemental_soil_water: ALL
 ftbutilities.claims.item.roots.fey_crafter: ALL
 ftbutilities.claims.item.roots.fey_leather: ALL
-ftbutilities.claims.item.roots.fey_light: ALL
 ftbutilities.claims.item.roots.flour: ALL
 ftbutilities.claims.item.roots.gold_knife: ALL
 ftbutilities.claims.item.roots.grove_stone: ALL
@@ -14460,6 +14475,7 @@ command.ftblib.team.leave
 command.ftblib.team.list
 command.ftblib.team.request_invite
 command.ftblib.team.settings
+command.ftblib.team.settings_for
 command.ftblib.team.status
 command.ftblib.team.transfer_ownership
 command.ftbutilities.back

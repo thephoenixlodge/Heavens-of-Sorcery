@@ -3,14 +3,6 @@ trigger.
 
 
 
-setDimensionOrigin:
-    Arguments:
-        String
-    Usage:
-        dimension type
-    Notes:
-        Sets the origin dimension type. Vanilla options are "overworld", "the_nether", "the_end"
-
 setDimensionDestination:
     Arguments:
         String
@@ -18,6 +10,14 @@ setDimensionDestination:
         dimension type
     Notes:
         Sets the destination dimension type. Vanilla options are "overworld", "the_nether", "the_end"
+
+setDimensionOrigin:
+    Arguments:
+        String
+    Usage:
+        dimension type
+    Notes:
+        Sets the origin dimension type. Vanilla options are "overworld", "the_nether", "the_end"
 
 setCount:
     Arguments:

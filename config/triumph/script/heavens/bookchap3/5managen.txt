@@ -8,7 +8,7 @@ addParent("heavens:bookchap3/4puredaisy")
 
 setRequiresParents()
 
-setPos(-80,-25)
+setPos(112,-13)
 
 criteria1 = addCriteria("hasItemsFurnace", "minecraft:inventory_changed")
 criteria1.addItem(<botania:specialflower, count:1~, nbt:{type:"endoflame"}>)

@@ -22,5 +22,22 @@
 		"hostile": true,
 		"dimension": 0,
 		"result": "deny"	
+	},
+	{
+		"dimension": 5,
+		"mob": [
+			"spider",
+			"cave_spider",
+			"enderman",
+			"creeper",
+			"zombie",
+			"skeleton"
+		],
+		"maxcount": 30,
+		"result": "default"
+	},
+	{
+		"dimension": 5,
+		"result": "deny"
 	}
 ]

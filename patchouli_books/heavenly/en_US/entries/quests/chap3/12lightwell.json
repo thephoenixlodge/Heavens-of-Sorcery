@@ -1,0 +1,39 @@
+{
+    "name": "Welling Up",
+    "icon": "astralsorcery:blockwell",
+    "category": "quests/chap3",
+    "sortnum": 12,
+    "advancement": "heavens:bookchap3/11runicaltar",
+    "turnin": "heavens:bookchap3/12lightwell",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "Welling Up",
+            "trigger": "heavens:bookchap3/12lightwell",
+            "text": "Though the connection between $(thing)Mana$() and $(thing)Starlight$() is weak, insetting a $(item)Rune of Air$() into a basin of $(item)Marble$() with some $(item)Aquamarine$() and a $(item)Rock Crystal$() is enough to cause it to actively focus $(thing)Starlight$() through what is placed in it, transforming the essence of that item into a liquid."
+        },
+        {
+            "type": "text",
+            "text": "This serves two valuable purposes. Firstly, $(item)Aquamarine$() and $(item)Rock Crystals$() can melt into $(item)Liquid Starlight$() which will be needed going forward. Furthermore, many of the liquid production processes you've done up to now can be performed more effectively with a $(item)Lightwell$()."
+        },
+        {
+            "type": "checklist_end",
+            "item1": "astralsorcery:blockwell#1",
+            "reward1": "astralsorcery:itemcraftingcomponent:0#30"
+        },
+        {
+            "type": "altar_luminous",
+            "heading": "Lightwell",
+            "output_item": "astralsorcery:blockwell",
+            "item1": "astralsorcery:blockmarble:6",
+            "item2": "astralsorcery:rockcrystalsimple",
+            "item3": "astralsorcery:blockmarble:6",
+            "item4": "astralsorcery:blockmarble:4",
+            "item5": "botania:rune:3",
+            "item6": "astralsorcery:blockmarble:4",
+            "item7": "astralsorcery:itemcraftingcomponent:0",
+            "item8": "astralsorcery:blockmarble:6",
+            "item9": "astralsorcery:itemcraftingcomponent:0"
+        }
+    ]
+}

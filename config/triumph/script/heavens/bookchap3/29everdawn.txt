@@ -9,7 +9,7 @@ addParent("heavens:bookchap3/27freezer")
 
 setRequiresParents()
 
-setPos(200,15)
+setPos(352,27)
 drawDirectLines()
 
 criteria = addCriteria("locationDungeon", "minecraft:changed_dimension")

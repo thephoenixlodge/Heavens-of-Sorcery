@@ -10,6 +10,22 @@ setFeature:
     Notes:
         Sets the feature id. Used for things like structures.
 
+setDimensionType:
+    Arguments:
+        String
+    Usage:
+        dimension type
+    Notes:
+        Sets the dimension type. Vanilla options are "overworld", "the_nether", "the_end"
+
+setDimID:
+    Arguments:
+        int
+    Usage:
+        dimension id
+    Notes:
+        Sets the dimension id.
+
 setXMinMax:
     Arguments:
         float, float
@@ -26,13 +42,13 @@ setXMin:
     Notes:
         Sets the min X coordinate.
 
-setXMax:
+setYMinMax:
     Arguments:
-        float
+        float, float
     Usage:
-        max
+        min, max
     Notes:
-        Sets the max X coordinate.
+        Sets the min and max Y coordinates.
 
 setYMin:
     Arguments:
@@ -50,22 +66,6 @@ setYMax:
     Notes:
         Sets the max Y coordinate.
 
-setYMinMax:
-    Arguments:
-        float, float
-    Usage:
-        min, max
-    Notes:
-        Sets the min and max Y coordinates.
-
-setZMax:
-    Arguments:
-        float
-    Usage:
-        max
-    Notes:
-        Sets the max Z coordinate.
-
 setZMinMax:
     Arguments:
         float, float
@@ -82,13 +82,21 @@ setZMin:
     Notes:
         Sets the min Z coordinate.
 
-setGeneratorOptions:
+setZMax:
     Arguments:
-        String
+        float
     Usage:
-        generator string
+        max
     Notes:
-        Sets the generator options string.
+        Sets the max Z coordinate.
+
+setXMax:
+    Arguments:
+        float
+    Usage:
+        max
+    Notes:
+        Sets the max X coordinate.
 
 setWorldType:
     Arguments:
@@ -98,22 +106,6 @@ setWorldType:
     Notes:
         Sets the WorldType id.
 
-setDimensionType:
-    Arguments:
-        String
-    Usage:
-        dimension type
-    Notes:
-        Sets the dimension type. Vanilla options are "overworld", "the_nether", "the_end"
-
-setDimID:
-    Arguments:
-        int
-    Usage:
-        dimension id
-    Notes:
-        Sets the dimension id.
-
 setBiome:
     Arguments:
         Non_Null_Biome_ID
@@ -121,4 +113,12 @@ setBiome:
         biome id
     Notes:
         Sets the biome id. Can be an int or String.
+
+setGeneratorOptions:
+    Arguments:
+        String
+    Usage:
+        generator string
+    Notes:
+        Sets the generator options string.
 

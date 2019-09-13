@@ -3,10 +3,6 @@ trigger.
 
 
 
-getEntityData:
-    Notes:
-        Returns the EntityData object so functions can be called on it.
-
 setItem:
     Arguments:
         ItemBlockData
@@ -22,6 +18,10 @@ setEntityType:
         entity type
     Notes:
         Sets the entity type.
+
+getEntityData:
+    Notes:
+        Returns the EntityData object so functions can be called on it.
 
 setCount:
     Arguments:

@@ -198,7 +198,7 @@ RuneAltar.removeRecipe(runeFire);
 RuneAltar.addRecipe(runeFire, [manaPowder, ingotManasteel, chiliPowder, emberCrystal, magmaBlock], 5200);
 //Earth
 RuneAltar.removeRecipe(runeEarth);
-RuneAltar.addRecipe(runeEarth, [manaPowder, ingotManasteel, holyStone, porousFogStone, oreMushroom], 5200);
+RuneAltar.addRecipe(runeEarth, [manaPowder, ingotManasteel, holyStone, oreFogStone, oreMushroom], 5200);
 //Air
 RuneAltar.removeRecipe(runeAir);
 RuneAltar.addRecipe(runeAir, [manaPowder, ingotManasteel, feather, skyrootLeaves, coldAercloud], 5200);

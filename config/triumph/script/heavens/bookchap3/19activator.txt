@@ -8,7 +8,7 @@ addParent("heavens:bookchap3/16emberbore")
 
 setRequiresParents()
 
-setPos(0,-65)
+setPos(192,-53)
 
 criteria1 = addCriteria("hasItems", "minecraft:inventory_changed")
 criteria1.addItem(<embers:ember_activator, count:1~>)

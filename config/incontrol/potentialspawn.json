@@ -16,5 +16,46 @@
 			}
 		],
 		"result": "allow"
+	},
+	{
+		"dimension": 5,
+		"mobs": [
+			{
+				"mob": "enderman",
+				"weight": 1,
+				"groupcountmin": 1,
+				"groupcountmax": 2
+			},
+			{
+				"mob": "creeper",
+				"weight": 2,
+				"groupcountmin": 1,
+				"groupcountmax": 4
+			},
+			{
+				"mob": "zombie",
+				"weight": 2,
+				"groupcountmin": 1,
+				"groupcountmax": 5
+			},
+			{
+				"mob": "cave_spider",
+				"weight": 1,
+				"groupcountmin": 1,
+				"groupcountmax": 4
+			},
+			{
+				"mob": "spider",
+				"weight": 3,
+				"groupcountmin": 2,
+				"groupcountmax": 3
+			},
+			{
+				"mob": "skeleton",
+				"weight": 2,
+				"groupcountmin": 1,
+				"groupcountmax": 3
+			}
+		]
 	}
 ]

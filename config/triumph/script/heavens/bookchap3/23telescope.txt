@@ -8,7 +8,7 @@ addParent("heavens:bookchap3/14starlightaltar")
 
 setRequiresParents()
 
-setPos(40,15)
+setPos(232,27)
 
 criteria1 = addCriteria("hasItems", "minecraft:inventory_changed")
 criteria1.addItem(<astralsorcery:blockmachine, meta:0, count:1~>)

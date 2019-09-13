@@ -45,6 +45,7 @@ val runeWinter = <botania:rune:7>;
 val runeSpring = <botania:rune:4>;
 val lightWell = <astralsorcery:blockwell>;
 val ingotBronze = <embers:ingot_bronze>;
+val ingotManasteel = <botania:manaresource>;
 val ingotStarmetal = <astralsorcery:itemcraftingcomponent:1>;
 val dustStarmetal = <astralsorcery:itemcraftingcomponent:2>;
 val ironberry = <rustic:ironberries>;
@@ -72,6 +73,7 @@ val attunementAltar = <astralsorcery:blockattunementaltar>;
 val spectralRelay = <astralsorcery:blockattunementrelay>;
 val nuggetGold = <minecraft:gold_nugget>;
 val infusedWood = <astralsorcery:blockinfusedwood>;
+val fosicResonator = <astralsorcery:itemskyresonator>;
 //liquids
 val liquidMana = <liquid:mana_fluid>;
 val liquidStarlight = <liquid:astralsorcery.liquidstarlight>;
@@ -152,3 +154,6 @@ Altar.addAttunementAltarRecipe("attunementaltar", attunementAltar, 1000, 300, [n
 
 //spectral relay
 Altar.addDiscoveryAltarRecipe("internal/altar/attunementrelay", spectralRelay, 200, 100, [null, null, null, nuggetGold, glassLens, nuggetGold, infusedWood, marbleAny, infusedWood]);
+
+//Fosic resonator
+Altar.addDiscoveryAltarRecipe("internal/altar/skyresonator", fosicResonator, 300, 100, [null, aquamarine, null, marble, liquidStarlight, marble, gemZanite, ingotManasteel, gemZanite]);

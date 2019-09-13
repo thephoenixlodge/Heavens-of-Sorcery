@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "astralsorcery:blockaltar",
+            "data": 2
+        },
+        "title": "From the Heavens",
+        "description": "Upgrade your Luminous Crafting Table into a Starlight Crafting Altar",
+        "pos_x": "272",
+        "pos_y": "-13"
+    },
+    "parent": "heavens:bookchap3/22attunementaltar",
+    "criteria": {
+        "altar_craft_t3_altar": {
+            "trigger": "astralsorcery:altar_craft",
+            "conditions": {
+                "recipes": [
+                    "astralsorcery:shaped/internal/altar/upgrade_tier3"
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "heavens:rewards_astralT3"
+    }
+}

@@ -8,11 +8,10 @@ addParent("heavens:bookchap3/24celestialaltar")
 
 setRequiresParents()
 
-setPos(120,-25)
+setPos(272,27)
 
 criteria1 = addCriteria("hasItems", "minecraft:inventory_changed")
 criteria1.addItem(<astralsorcery:blockstarlightinfuser, meta:0, count:1~>)
 
 addRewardItem(<astralsorcery:itemcraftingcomponent, meta:4, count:2>)
 addRewardItem(<astralsorcery:itemcraftingcomponent, meta:0, count:20>)
-addRewardItem(<buildinggadgets:template, meta:0, count:1, nbt:{copycounter:1,TemplateName:"Starlight Infuser",UUID:"0b497162-b595-464e-acb3-528bdd296535",startPos:{X:-4953,Y:95,Z:-5022},itemcountmap:[{item:7973,meta:6,count:12},{item:22,meta:0,count:1},{item:7973,meta:0,count:12},{item:7973,meta:2,count:8},{item:7973,meta:3,count:40},{item:7973,meta:4,count:4}],endPos:{X:-4947,Y:101,Z:-5028}}>)

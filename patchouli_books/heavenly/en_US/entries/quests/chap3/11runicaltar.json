@@ -1,0 +1,32 @@
+{
+    "name": "Don't Rune It",
+    "icon": "botania:runealtar",
+    "category": "quests/chap3",
+    "sortnum": 11,
+    "advancement": "heavens:bookchap3/8luminous",
+    "turnin": "heavens:bookchap3/11runicaltar",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "Don't Rune It",
+            "trigger": "heavens:bookchap3/11runicaltar",
+            "text": "With the $(item)Luminous Crafting Altar$(), we have the means to focus $(thing)Starlight$() into crafting. With this, you can make another altar from $(item)Livingrock$(), which can focus $(thing)Mana$() to create runes -  embodying various aspects of the world"
+        },
+        {
+            "type": "checklist_end",
+            "item1": "botania:runealtar#1",
+            "reward1": "botania:livingrock#15"
+        },
+        {
+            "type": "altar_luminous",
+            "heading": "Runic Altar",
+            "output_item": "botania:runealtar",
+            "item4": "botania:livingrock",
+            "item5": "botania:livingrock",
+            "item6": "botania:livingrock",
+            "item7": "astralsorcery:blockmarble:2",
+            "item8": "botania:manaresource:1",
+            "item9": "astralsorcery:blockmarble:2"
+        }
+    ]
+}

@@ -9,10 +9,10 @@ addParent("heavens:bookchap3/27freezer")
 
 setRequiresParents()
 
-setPos(200,-25)
+setPos(352,-13)
 drawDirectLines()
 
-criteria = addCriteria("locationDungeon", "minecraft:changed_dimension")
+criteria = addCriteria("locationEverbright", "minecraft:changed_dimension")
 criteria.setDimensionDestination("everbright")
 
 addRewardItem(<minecraft:enchanted_book, meta:0, count:1, nbt:{StoredEnchantments:[{lvl:1s,id:70s}]}>>

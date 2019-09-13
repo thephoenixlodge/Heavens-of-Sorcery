@@ -8,7 +8,7 @@ addParent("heavens:bookchap3/25starlightinfuser")
 
 setRequiresParents()
 
-setPos(160,15)
+setPos(312,27)
 
 criteria1 = addCriteria("hasItems", "minecraft:inventory_changed")
 criteria1.addItem(<aether_legacy:freezer, meta:0, count:1~>)

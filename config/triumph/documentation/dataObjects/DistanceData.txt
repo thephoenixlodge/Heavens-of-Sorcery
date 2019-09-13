@@ -18,13 +18,13 @@ setXMin:
     Notes:
         Sets the min distance on the X axis.
 
-setXMax:
+setYMinMax:
     Arguments:
-        float
+        float, float
     Usage:
-        max
+        min, max
     Notes:
-        Sets the max distance on the X axis.
+        Sets the min and max distances on the Y axis.
 
 setYMin:
     Arguments:
@@ -42,22 +42,6 @@ setYMax:
     Notes:
         Sets the max distance on the Y axis.
 
-setYMinMax:
-    Arguments:
-        float, float
-    Usage:
-        min, max
-    Notes:
-        Sets the min and max distances on the Y axis.
-
-setZMax:
-    Arguments:
-        float
-    Usage:
-        max
-    Notes:
-        Sets the max distance on the Z axis.
-
 setZMinMax:
     Arguments:
         float, float
@@ -74,37 +58,21 @@ setZMin:
     Notes:
         Sets the min distance on the Z axis.
 
-setHorizontalMin:
-    Arguments:
-        float
-    Usage:
-        min
-    Notes:
-        Sets the min distance on the horizontal axis.
-
-setHorizontalMax:
+setZMax:
     Arguments:
         float
     Usage:
         max
     Notes:
-        Sets the max distance on the horizontal axis.
+        Sets the max distance on the Z axis.
 
-setAbsoluteMin:
-    Arguments:
-        float
-    Usage:
-        min
-    Notes:
-        Sets the min distance for all directions combined.
-
-setAbsoluteMax:
+setXMax:
     Arguments:
         float
     Usage:
         max
     Notes:
-        Sets the max distance for all directions combined.
+        Sets the max distance on the X axis.
 
 setHorizontalMinMax:
     Arguments:
@@ -121,4 +89,36 @@ setAbsoluteMinMax:
         min, max
     Notes:
         Sets the min and max distances for all directions combined.
+
+setHorizontalMax:
+    Arguments:
+        float
+    Usage:
+        max
+    Notes:
+        Sets the max distance on the horizontal axis.
+
+setAbsoluteMax:
+    Arguments:
+        float
+    Usage:
+        max
+    Notes:
+        Sets the max distance for all directions combined.
+
+setAbsoluteMin:
+    Arguments:
+        float
+    Usage:
+        min
+    Notes:
+        Sets the min distance for all directions combined.
+
+setHorizontalMin:
+    Arguments:
+        float
+    Usage:
+        min
+    Notes:
+        Sets the min distance on the horizontal axis.
 
