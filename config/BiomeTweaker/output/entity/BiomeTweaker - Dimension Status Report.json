@@ -271,11 +271,6 @@
     "Class": "hellfirepvp.astralsorcery.common.entities.EntityLiquidSpark"
   },
   {
-    "Name": "quark:leash_knot",
-    "Registry ID": "quark:leash_knot",
-    "Class": "vazkii.quark.decoration.entity.EntityLeashKnot2TheKnotting"
-  },
-  {
     "Name": "quark:stoneling",
     "Registry ID": "quark:stoneling",
     "Class": "vazkii.quark.world.entity.EntityStoneling"
@@ -319,6 +314,11 @@
     "Name": "quark:wraith",
     "Registry ID": "quark:wraith",
     "Class": "vazkii.quark.world.entity.EntityWraith"
+  },
+  {
+    "Name": "quark:leash_knot",
+    "Registry ID": "quark:leash_knot",
+    "Class": "vazkii.quark.decoration.entity.EntityLeashKnot2TheKnotting"
   },
   {
     "Name": "botania:pixie",

@@ -26,6 +26,7 @@
             "item6": "wizardry:wisdom_wood_stairs#8",
             "item7": "minecraft:quartz_block#20",
             "item8": "minecraft:quartz_stairs#8",
+            "item9": "forge:bucketfilled#8{FluidName: \"mana_fluid\", Amount: 1000}",
             "reward1": "wizardry:orb:1#40",
             "reward2": "minecraft:quartz#200"
         },
@@ -38,7 +39,7 @@
                 ["         ", "         ", "         ", "         ", "    B    ", "         ", "         ", "         ", "         "],
                 ["         ", " H     H ", "         ", "         ", "         ", "         ", "         ", " H     H ", "         "],
                 ["         ", " L     L ", "         ", "         ", "    L    ", "         ", "         ", " L     L ", "         "],
-                ["         ", " L  R  L ", "  PDQDP  ", "  S   I  ", " AQ L QU ", "  S   I  ", "  POQOP  ", " L  T  L ", "         "],
+                ["         ", " L  R  L ", "  PDQDP  ", "  SMMMI  ", " AQMLMQU ", "  SMMMI  ", "  POQOP  ", " L  T  L ", "         "],
                 ["    R    ", " LWWWWWL ", " WQQQQQW ", " WQPPPQW ", "AWQP0PQWU", " WQPPPQW ", " WQQQQQW ", " LWWWWWL ", "    T    "]
             ],
             "mapping": {
@@ -57,7 +58,8 @@
                 "U": "minecraft:quartz_stairs[facing=north]",
                 "A": "minecraft:quartz_stairs[facing=south]",
                 "R": "minecraft:quartz_stairs[facing=east]",
-                "T": "minecraft:quartz_stairs[facing=west]"
+                "T": "minecraft:quartz_stairs[facing=west]",
+                "M": "wizardry:mana_fluid"
             },
             "symmetrical": true,
             "offset"     : [0, 0, 0],
@@ -66,12 +68,12 @@
         },
         {
             "type": "mana_world",
-            "heading": "Crystalizing a Mana Battery",
+            "heading": "Mana Battery",
             "input": "minecraft:diamond",
             "input2": "minecraft:soul_sand",
             "input3": "wizardry:devil_dust",
             "output": "wizardry:mana_battery",
-            "description": "Requires and consumes 9 buckets of Liquid Mana"
+            "description": "Requires and consumes 9 buckets of $(item)Liquid Mana$()."
         }
     ]
 }

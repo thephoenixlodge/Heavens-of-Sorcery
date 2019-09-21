@@ -33,7 +33,8 @@
 			"zombie",
 			"skeleton"
 		],
-		"maxcount": 30,
+		"minheight": 110,
+		"maxcount": 10,
 		"result": "default"
 	},
 	{

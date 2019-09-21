@@ -1,0 +1,90 @@
+
+{
+    "name": "Ugh, So Boring",
+    "icon": "embers:ember_bore",
+    "category": "quests/chap3",
+    "sortnum": 16,
+    "advancement": "heavens:bookchap3/15metals",
+    "turnin": "heavens:bookchap3/16emberbore",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "Ugh, So Boring",
+            "trigger": "heavens:bookchap3/16emberbore",
+            "text": "In times long past, the deep mountain folk, unskilled in magicks powered by their own bodies, devised ways to use metallic materials to harness the raw energy of the molten core of the world. Though our world is gone and lacks any sort of core now, we should be able to utilise the core the $(thing)Misty World$() instead. The difficulty lies in now much"
+        },
+        {
+        	"type": "text",
+        	"text": "deeper you'll need to go to access the core. The rocky depths of the $(thing)Misty World$() have much sturdier stone, comparable only to $(item)Obsidian$(). You will however need to delve deep enough to find $(item)Bedrock$().$(br)Once you've reached $(item)Bedrock$(), you'll need to place and fuel an $(item)Ember Bore$() to start producing $(item)Ember Shards$()."
+        },
+        {
+            "type": "checklist_end",
+            "item1": "embers:ember_bore#1",
+            "item2": "embers:shard_ember#1",
+            "reward1": "embers:shard_ember#30"
+        },
+        {
+        	"type": "image",
+        	"images": ["books:templates/ember_bore.png"],
+        	"text": "Example setup. Use $(item)Mechanical Core$() for simultaneous input of $(thing)fuel$(), and output of $(item)Ember Shards$()."
+        },
+        {
+            "type": "altar_luminous",
+            "heading": "Ember Bore",
+            "item1": "embers:stairs_caminite_brick",
+            "item2": "embers:ingot_copper",
+            "item3": "embers:stairs_caminite_brick",
+            "item4": "embers:block_caminite_brick",
+            "item5": "embers:mech_core",
+            "item6": "embers:block_caminite_brick",
+            "item7": "mist:niobium_ingot",
+            "item8": "mist:niobium_ingot",
+            "item9": "mist:niobium_ingot",
+            "output_item": "embers:ember_bore"
+        },
+        {
+            "type": "altar_luminous",
+            "heading": "Mechanical Core",
+            "item1": "minecraft:iron_ingot",
+            "item2": "astralsorcery:itemrockcrystalsimple",
+            "item3": "minecraft:iron_ingot",
+            "item4": "mist:cobblestone",
+            "item5": "embers:plate_lead",
+            "item6": "mist:cobblestone",
+            "item7": "minecraft:iron_ingot",
+            "item8": "mist:cobblestone",
+            "item9": "minecraft:iron_ingot",
+            "output_item": "embers:mech_core",
+            "description": "Accepts any variant of $(item)Foggy Stone$()"
+        },
+        {
+            "type": "crafting",
+            "recipe": "embers:ingotlead_plate",
+            "recipe2": "crafttweaker:ct_shaped1373077595"
+        },
+        {
+        	"type": "crafting",
+        	"recipe": "embers:stairs_caminite_brick",
+        	"recipe2": "crafttweaker:ct_shaped-1419575871"
+        },
+        {
+        	"type": "crafting",
+        	"recipe": "crafttweaker:ct_shapeless184845769",
+        	"text": "$(item)Rocks$() can be found on the surface in the $(thing)Misty World$(), or obtained by breaking $(item)Foggy Stone$()."
+        },
+        {
+        	"type": "smelting",
+        	"recipe": "embers:blend_caminite",
+        	"recipe2": "embers:plate_caminite_raw"
+        },
+        {
+        	"type": "crafting",
+        	"recipe": "embers:item_pipe",
+        	"recipe2": "embers:item_pump"
+        },
+        {
+        	"type": "crafting",
+        	"recipe": "soot:caminite_plate"
+        }
+    ]
+}

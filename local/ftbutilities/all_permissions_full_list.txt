@@ -1,4 +1,4 @@
-14357 nodes in total
+14372 nodes in total
 Modifying this file won't have any effect, edit ranks.txt!
 
 admin_panel.ftbutilities.crash_reports.delete: OP
@@ -3692,7 +3692,9 @@ ftbutilities.claims.block.edit.thaumcraft.vis_generator: OP
 ftbutilities.claims.block.edit.thaumcraft.vishroom: OP
 ftbutilities.claims.block.edit.thaumcraft.void_siphon: OP
 ftbutilities.claims.block.edit.thaumcraft.wand_workbench: OP
-ftbutilities.claims.block.edit.thaumic_arcana.arcane_sieve: OP
+ftbutilities.claims.block.edit.thaumic_arcana.aura_leaves: OP
+ftbutilities.claims.block.edit.thaumic_arcana.aura_wood_log: OP
+ftbutilities.claims.block.edit.thaumic_arcana.aura_wood_sapling: OP
 ftbutilities.claims.block.edit.thaumic_arcana.essentia_mine: OP
 ftbutilities.claims.block.edit.thaumic_arcana.magic_oak_sapling: OP
 ftbutilities.claims.block.edit.thaumic_arcana.paving_stone_disable_enchants: OP
@@ -7767,7 +7769,9 @@ ftbutilities.claims.block.interact.thaumcraft.vis_generator: OP
 ftbutilities.claims.block.interact.thaumcraft.vishroom: OP
 ftbutilities.claims.block.interact.thaumcraft.void_siphon: OP
 ftbutilities.claims.block.interact.thaumcraft.wand_workbench: OP
-ftbutilities.claims.block.interact.thaumic_arcana.arcane_sieve: OP
+ftbutilities.claims.block.interact.thaumic_arcana.aura_leaves: OP
+ftbutilities.claims.block.interact.thaumic_arcana.aura_wood_log: OP
+ftbutilities.claims.block.interact.thaumic_arcana.aura_wood_sapling: OP
 ftbutilities.claims.block.interact.thaumic_arcana.essentia_mine: OP
 ftbutilities.claims.block.interact.thaumic_arcana.magic_oak_sapling: OP
 ftbutilities.claims.block.interact.thaumic_arcana.paving_stone_disable_enchants: OP
@@ -8391,6 +8395,13 @@ ftbutilities.claims.item.aov.druidstatue: ALL
 ftbutilities.claims.item.aov.favoredsoulstatue: ALL
 ftbutilities.claims.item.aov.handwraps: ALL
 ftbutilities.claims.item.aov.paladinstatue: ALL
+ftbutilities.claims.item.arcane_essentials.master_fire_sword: ALL
+ftbutilities.claims.item.arcane_essentials.master_healing_sword: ALL
+ftbutilities.claims.item.arcane_essentials.master_ice_sword: ALL
+ftbutilities.claims.item.arcane_essentials.master_lightning_sword: ALL
+ftbutilities.claims.item.arcane_essentials.master_nature_sword: ALL
+ftbutilities.claims.item.arcane_essentials.master_necromancy_sword: ALL
+ftbutilities.claims.item.arcane_essentials.master_sorcery_sword: ALL
 ftbutilities.claims.item.arcanearchives.agegleam: ALL
 ftbutilities.claims.item.arcanearchives.brazier_of_hoarding: ALL
 ftbutilities.claims.item.arcanearchives.chromatic_powder: ALL
@@ -11342,8 +11353,10 @@ ftbutilities.claims.item.embers.wildfire_core: ALL
 ftbutilities.claims.item.embers.winding_gears: ALL
 ftbutilities.claims.item.embers.wrapped_sealed_planks: ALL
 ftbutilities.claims.item.extraalchemy.breakable_potion: ALL
+ftbutilities.claims.item.extraalchemy.empty_ring: ALL
 ftbutilities.claims.item.extraalchemy.modified_potion: ALL
 ftbutilities.claims.item.extraalchemy.potion_bag: ALL
+ftbutilities.claims.item.extraalchemy.potion_ring: ALL
 ftbutilities.claims.item.extraalchemy.vial_break: ALL
 ftbutilities.claims.item.extrabitmanipulation.bit_wrench: ALL
 ftbutilities.claims.item.extrabitmanipulation.bit_wrench_head: ALL
@@ -13700,7 +13713,9 @@ ftbutilities.claims.item.thaumcraft.void_sword: ALL
 ftbutilities.claims.item.thaumcraft.voidseer_charm: ALL
 ftbutilities.claims.item.thaumcraft.wand_workbench: ALL
 ftbutilities.claims.item.thaumic_arcana.animated_curiosity: ALL
-ftbutilities.claims.item.thaumic_arcana.arcane_sieve: ALL
+ftbutilities.claims.item.thaumic_arcana.aura_leaves: ALL
+ftbutilities.claims.item.thaumic_arcana.aura_wood_log: ALL
+ftbutilities.claims.item.thaumic_arcana.aura_wood_sapling: ALL
 ftbutilities.claims.item.thaumic_arcana.creature_enchanter: ALL
 ftbutilities.claims.item.thaumic_arcana.empty_soul_capsule: ALL
 ftbutilities.claims.item.thaumic_arcana.enchant_modifier: ALL
@@ -14480,6 +14495,7 @@ command.ftblib.team.status
 command.ftblib.team.transfer_ownership
 command.ftbutilities.back
 command.ftbutilities.chunks.claim
+command.ftbutilities.chunks.claim_as
 command.ftbutilities.chunks.help
 command.ftbutilities.chunks.info
 command.ftbutilities.chunks.load
