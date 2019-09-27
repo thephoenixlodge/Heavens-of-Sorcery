@@ -1,0 +1,36 @@
+{
+    "name": "Tome of Exchanging",
+    "icon": "buildinggadgets:exchangertool",
+    "category": "useful_things/building_tools",
+    "advancement": "heavens:bookchap3/14starlightaltar",
+    "pages": [
+        {
+            "type": "text",
+            "advancement": "heavens:bookchap3/14starlightaltar",
+            "text": "Much like the $(l:useful_things/building_tools/conversion_wand)$(item)Conversion Wand$(), the $(item)Tome of Exchanging$() can be used to swap one block for another in the world, but with a few key differences. To use, Shift-Right-Click the block you wish to place, then simply Right-Click where you wish to perform the exchange. Can Undo up to 10 actions. $(br2)Note: unlike the $(item)Conversion Wand$(), the Tome only stores one type of block at a time."
+        },
+        {
+            "type": "ritual",
+            "output_item": "buildinggadgets:exchangertool",
+            "item1": "minecraft:book",
+            "item2": "arcaneworld:sapphire",
+            "item3": "arcaneworld:amethyst",
+            "item4": "astralsorcery:itemexchangewand",
+            "heading": "Tome of Exchanging",
+            "description": "Hold $(k:settings_menu) to change modes (details on next page)."
+        },
+        {
+            "type": "text",
+            "title": "Modes/Settings",
+            "text": "$(l)Range:$() The size of the area in which to exchange, from 1-15 blocks.$(br)$(l)Anchor:$() Toggle to hold the preview in place, allowing you to move around and check before finalizing the exchange.$(br)$(l)Raytrace Fluid:$() Toggle on to allow exchanging of fluids.$(br)$(l)Fuzzy Mode:$() Toggle on to allow exchanging of all blocks regardless of if it matches the block clicked. If Off, only the same type as the block clicked will be exchanged."
+        },
+        {
+            "type": "text",
+            "text": "$(l)Horizontal Column:$() Limit area to a single horizontal line perpindicular to the direction you face.$(br)$(l)Vertical Column:$() Limit area to a single line based on which face of the block you target. Top/Bottom target a horizontal line, sides target a vertical line. If horizontal, runs in the direction you face.$(br)$(l)Surface:$() Solid square area centred on the targeted block.$(br)$(l)Connected Surface:$() Toggle to only exchange blocks physically connected to the block clicked."
+        },
+        {
+            "type": "text",
+            "text": "$(l)Grid:$() Exchanges in a square grid with space inbetween each exchanged block. Behaves slightly differently depending on the Range setting. $(br)For Range 1-6: 3x3 grid, where range = space between each block exchanged.$(br)For Range 7-12: 11x11 grid, where range-6 = space between each block exchanged.$(br)For Range 13-15: 19x19 grid, where range-12 = space between each block exchanged."
+        }
+    ]
+}

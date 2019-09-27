@@ -74,6 +74,7 @@ val spectralRelay = <astralsorcery:blockattunementrelay>;
 val nuggetGold = <minecraft:gold_nugget>;
 val infusedWood = <astralsorcery:blockinfusedwood>;
 val fosicResonator = <astralsorcery:itemskyresonator>;
+val wandFormation = <astralsorcery:itemarchitectwand>;
 //liquids
 val liquidMana = <liquid:mana_fluid>;
 val liquidStarlight = <liquid:astralsorcery.liquidstarlight>;
@@ -157,3 +158,6 @@ Altar.addDiscoveryAltarRecipe("internal/altar/attunementrelay", spectralRelay, 2
 
 //Fosic resonator
 Altar.addDiscoveryAltarRecipe("internal/altar/skyresonator", fosicResonator, 300, 100, [null, aquamarine, null, marble, liquidStarlight, marble, gemZanite, ingotManasteel, gemZanite]);
+
+//Formation Wand
+Altar.addAttunementAltarRecipe("internal/altar/tool_architect", wandFormation, 1000, 300, [null, dustStarmetal, gemZanite, gemZanite, marbleRuned, dustStarmetal, marbleRuned, null, null, null, null, marbleRuned, null]);

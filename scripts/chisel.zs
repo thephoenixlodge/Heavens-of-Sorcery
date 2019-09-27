@@ -70,7 +70,55 @@ val turquoiseBricksMossy = <blue_skies:mossy_turquoise_stonebrick>;
 val turquoiseBricksCracked = <blue_skies:cracked_turquoise_stonebrick>;
 val turquoiseCobble = <blue_skies:turquoise_cobblestone>;
 val turquoiseCobbleMossy = <blue_skies:mossy_turquoise_cobblestone>;
-
+//bookshelves
+val bookshelfBirchQ = <quark:custom_bookshelf:1>;
+val bookshelfSpruceQ = <quark:custom_bookshelf>;
+val bookshelfJungleQ = <quark:custom_bookshelf:2>;
+val bookshelfAcaciaQ = <quark:custom_bookshelf:3>;
+val bookshelfDarkOakQ = <quark:custom_bookshelf:4>;
+val bookshelfBirchC = <chisel:bookshelf_birch>;
+val bookshelfSpruceC = <chisel:bookshelf_spruce>;
+val bookshelfJungleC = <chisel:bookshelf_jungle>;
+val bookshelfAcaciaC = <chisel:bookshelf_acacia>;
+val bookshelfDarkOakC = <chisel:bookshelf_darkoak>;
+//Scabyst
+val scabystBricks = <thebetweenlands:scabyst_bricks>;
+val scabystChiseled1 = <thebetweenlands:scabyst_chiseled_1>;
+val scabystChiseled2 = <thebetweenlands:scabyst_chiseled_2>;
+val scabystChiseled3 = <thebetweenlands:scabyst_chiseled_3>;
+//pitstone
+val pitstone = <thebetweenlands:pitstone>;
+val pitstoneBricks = <thebetweenlands:pitstone_bricks>;
+val pitstoneChiseled = <thebetweenlands:pitstone_chiseled>;
+//pitstone-smooth
+val pitstoneSmooth = <thebetweenlands:smooth_pitstone>;
+val pitstonePillar = <thebetweenlands:pitstone_pillar>;
+val pitstoneTiles = <thebetweenlands:pitstone_tiles>;
+//Cragrock
+val cragrock = <thebetweenlands:cragrock>;
+val cragrockBricks = <thebetweenlands:cragrock_bricks>;
+val cragrockChiseled = <thebetweenlands:cragrock_chiseled>;
+//cragrock-smooth
+val cragrockSmooth = <thebetweenlands:smooth_cragrock>;
+val cragrockPillar = <thebetweenlands:cragrock_pillar>;
+val cragrockTiles = <thebetweenlands:cragrock_tiles>;
+val cragrockInactive = <thebetweenlands:inactive_glowing_smooth_cragrock>;
+val cragrockGlowing = <thebetweenlands:glowing_smooth_cragrock>;
+//blockcraftery pressure plates
+val plateAll = <blockcraftery:editable_pressure_plate_all>;
+val plateMobs = <blockcraftery:editable_pressure_plate_mobs>;
+val platePlayers = <blockcraftery:editable_pressure_plate_player>;
+val plateItems = <blockcraftery:editable_pressure_plate_items>;
+val plateAllR = <blockcraftery:editable_pressure_plate_all_reinforced>;
+val plateMobsR = <blockcraftery:editable_pressure_plate_mobs_reinforced>;
+val platePlayersR = <blockcraftery:editable_pressure_plate_player_reinforced>;
+val plateItemsR = <blockcraftery:editable_pressure_plate_items_reinforced>;
+//chains
+val chainIronC = <cathedral:cathedral_chain_various>;
+val chainIronI = <inspirations:rope:1>;
+val chainIronR = <rustic:chain>;
+val chainGoldC = <cathedral:cathedral_chain_various:1>;
+val chainGoldR = <rustic:chain_gold>;
 
 //Add group for Sapphire Blocks
 //Carving.addGroup("blockSapphire");
@@ -172,3 +220,70 @@ Carving.addVariation("turquoise-stone", turquoiseBricksCracked);
 Carving.addGroup("turquoise-cobble");
 Carving.addVariation("turquoise-cobble", turquoiseCobble);
 Carving.addVariation("turquoise-cobble", turquoiseCobbleMossy);
+
+//bookshelves
+recipes.remove(bookshelfBirchC);
+recipes.remove(bookshelfSpruceC);
+recipes.remove(bookshelfJungleC);
+recipes.remove(bookshelfAcaciaC);
+recipes.remove(bookshelfDarkOakC);
+Carving.addVariation("bookshelf-birch", bookshelfBirchQ);
+Carving.addVariation("bookshelf-spruce", bookshelfSpruceQ);
+Carving.addVariation("bookshelf-jungle", bookshelfJungleQ);
+Carving.addVariation("bookshelf-acacia", bookshelfAcaciaQ);
+Carving.addVariation("bookshelf-darkoak", bookshelfDarkOakQ);
+
+//Scabyst
+Carving.addGroup("scabyst-brick");
+Carving.addVariation("scabyst-brick", scabystBricks);
+Carving.addVariation("scabyst-brick", scabystChiseled1);
+Carving.addVariation("scabyst-brick", scabystChiseled2);
+Carving.addVariation("scabyst-brick", scabystChiseled3);
+
+//pitstone
+Carving.addGroup("pitstone");
+Carving.addVariation("pitstone", pitstone);
+Carving.addVariation("pitstone", pitstoneBricks);
+Carving.addVariation("pitstone", pitstoneChiseled);
+//pitstone-smooth
+Carving.addGroup("pitstone-smooth");
+Carving.addVariation("pitstone-smooth", pitstoneSmooth);
+Carving.addVariation("pitstone-smooth", pitstonePillar);
+Carving.addVariation("pitstone-smooth", pitstoneTiles);
+
+//cragrock
+Carving.addGroup("cragrock");
+Carving.addVariation("cragrock", cragrock);
+Carving.addVariation("cragrock", cragrockBricks);
+Carving.addVariation("cragrock", cragrockChiseled);
+//cragrock-smooth
+Carving.addGroup("cragrock-smooth");
+Carving.addVariation("cragrock-smooth", cragrockSmooth);
+Carving.addVariation("cragrock-smooth", cragrockPillar);
+Carving.addVariation("cragrock-smooth", cragrockTiles);
+Carving.addVariation("cragrock-smooth", cragrockInactive);
+Carving.addVariation("cragrock-smooth", cragrockGlowing);
+
+//BlockCraftery Pressure Plates
+Carving.addGroup("pressure-plate");
+Carving.addVariation("pressure-plate", plateAll);
+Carving.addVariation("pressure-plate", plateMobs);
+Carving.addVariation("pressure-plate", platePlayers);
+Carving.addVariation("pressure-plate", plateItems);
+Carving.addGroup("pressure-plate-r");
+Carving.addVariation("pressure-plate-r", plateAllR);
+Carving.addVariation("pressure-plate-r", plateMobsR);
+Carving.addVariation("pressure-plate-r", platePlayersR);
+Carving.addVariation("pressure-plate-r", plateItemsR);
+
+//chain
+Carving.addGroup("iron-chain");
+Carving.addVariation("iron-chain", chainIronC);
+Carving.addVariation("iron-chain", chainIronI);
+Carving.addVariation("iron-chain", chainIronR);
+recipes.remove(chainIronI);
+recipes.remove(chainIronR);
+Carving.addGroup("gold-chain");
+Carving.addVariation("gold-chain", chainGoldC);
+Carving.addVariation("gold-chain", chainGoldR);
+recipes.remove(chainGoldR);

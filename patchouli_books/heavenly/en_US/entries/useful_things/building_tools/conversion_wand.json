@@ -1,0 +1,25 @@
+{
+    "name": "Conversion Wand",
+    "icon": "astralsorcery:itemexchangewand",
+    "category": "useful_things/building_tools",
+    "advancement": "heavens:bookchap3/14starlightaltar",
+    "pages": [
+        {
+            "type": "text",
+            "advancement": "heavens:bookchap3/14starlightaltar",
+            "text": "The $(item)Conversion Wand$() allows you to swap out materials in world without needing to break and replace. It will exchange blocks in an 11x11 area centred on the targeted block. Shift-Right-Click a block to select which block(s) to use. If more than one, a random mix will be placed. Left-Click to clear selection."
+        },
+        {
+            "type": "altar_starlight",
+            "advancement": "heavens:bookchap3/14starlightaltar",
+            "Heading": "Conversion Wand",
+            "output_item": "astralsorcery:itemexchangewand",
+            "item2": "astralsorcery:itemcraftingcomponent:2",
+            "item3": "minecraft:diamond",
+            "item4": "minecraft:diamond",
+            "item5": "astralsorcery:blockmarble:6",
+            "item7": "astralsorcery:blockmarble:6",
+            "item12": "astralsorcery:blockmarble:6"
+        }
+    ]
+}

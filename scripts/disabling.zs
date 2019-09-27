@@ -1,4 +1,5 @@
 ////Imports
+import mods.jei.JEI;
 
 ////Vars
 //Amethyst
@@ -66,6 +67,11 @@ val silverSwordMy = <mysticalworld:silver_sword>;
 val silverChestIF = <iceandfire:armor_silver_metal_chestplate>;
 val silverLegsIF = <iceandfire:armor_silver_metal_leggings>;
 val silverBootsIF = <iceandfire:armor_silver_metal_boots>;*/
+
+val bwStone = <betterbuilderswands:wandstone>;
+val bookNA = <patchouli:guide_book>.withTag({"patchouli:book": "naturesaura:book"});
+val bitChiselStone = <chiselsandbits:chisel_stone>;
+val bitChiselGold = <chiselsandbits:chisel_gold>;
 
 //remove extra amethyst from the oredict
 oreAmethyst.remove(amethystWings);
@@ -150,3 +156,13 @@ recipes.remove(silverSwordMy);
 recipes.remove(silverChestIF);
 recipes.remove(silverLegsIF);
 recipes.remove(silverBootsIF);*/
+
+//stone builder's wand
+recipes.remove(bwStone);
+
+//NA book (because reimplemented to update info)
+recipes.removeByRecipeName("naturesaura:book");
+
+//stone bit chisel
+recipes.remove(bitChiselStone);
+recipes.remove(bitChiselGold);

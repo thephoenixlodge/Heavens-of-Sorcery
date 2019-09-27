@@ -271,6 +271,11 @@
     "Class": "hellfirepvp.astralsorcery.common.entities.EntityLiquidSpark"
   },
   {
+    "Name": "quark:leash_knot",
+    "Registry ID": "quark:leash_knot",
+    "Class": "vazkii.quark.decoration.entity.EntityLeashKnot2TheKnotting"
+  },
+  {
     "Name": "quark:stoneling",
     "Registry ID": "quark:stoneling",
     "Class": "vazkii.quark.world.entity.EntityStoneling"
@@ -301,11 +306,6 @@
     "Class": "vazkii.quark.world.entity.EntityFrog"
   },
   {
-    "Name": "quark:pirate",
-    "Registry ID": "quark:pirate",
-    "Class": "vazkii.quark.world.entity.EntityPirate"
-  },
-  {
     "Name": "quark:crab",
     "Registry ID": "quark:crab",
     "Class": "vazkii.quark.world.entity.EntityCrab"
@@ -314,11 +314,6 @@
     "Name": "quark:wraith",
     "Registry ID": "quark:wraith",
     "Class": "vazkii.quark.world.entity.EntityWraith"
-  },
-  {
-    "Name": "quark:leash_knot",
-    "Registry ID": "quark:leash_knot",
-    "Class": "vazkii.quark.decoration.entity.EntityLeashKnot2TheKnotting"
   },
   {
     "Name": "botania:pixie",
@@ -1016,26 +1011,6 @@
     "Class": "party.lemons.corvus.entity.EntityWendigo"
   },
   {
-    "Name": "eerieentities.wisp",
-    "Registry ID": "eerieentities:wisp",
-    "Class": "com.jarhax.eerieentities.entities.EntityWisp"
-  },
-  {
-    "Name": "eerieentities.pumpkin_slime",
-    "Registry ID": "eerieentities:pumpkin_slime",
-    "Class": "com.jarhax.eerieentities.entities.EntityPumpkinSlime"
-  },
-  {
-    "Name": "eerieentities.nether_knight",
-    "Registry ID": "eerieentities:nether_knight",
-    "Class": "com.jarhax.eerieentities.entities.EntityNetherKnight"
-  },
-  {
-    "Name": "eerieentities.cursed_armor",
-    "Registry ID": "eerieentities:cursed_armor",
-    "Class": "com.jarhax.eerieentities.entities.EntityCursedArmor"
-  },
-  {
     "Name": "rat",
     "Registry ID": "rats:rat",
     "Class": "com.github.alexthe666.rats.server.entity.EntityRat"
@@ -1044,6 +1019,36 @@
     "Name": "illager_piper",
     "Registry ID": "rats:illager_piper",
     "Class": "com.github.alexthe666.rats.server.entity.EntityIllagerPiper"
+  },
+  {
+    "Name": "ratlantean_spirit",
+    "Registry ID": "rats:ratlantean_spirit",
+    "Class": "com.github.alexthe666.rats.server.entity.EntityRatlanteanSpirit"
+  },
+  {
+    "Name": "marbled_cheese_golem",
+    "Registry ID": "rats:marbled_cheese_golem",
+    "Class": "com.github.alexthe666.rats.server.entity.EntityMarbleCheeseGolem"
+  },
+  {
+    "Name": "feral_ratlantean",
+    "Registry ID": "rats:feral_ratlantean",
+    "Class": "com.github.alexthe666.rats.server.entity.EntityFeralRatlantean"
+  },
+  {
+    "Name": "neo_ratlantean",
+    "Registry ID": "rats:neo_ratlantean",
+    "Class": "com.github.alexthe666.rats.server.entity.EntityNeoRatlantean"
+  },
+  {
+    "Name": "pirat_boat",
+    "Registry ID": "rats:pirat_boat",
+    "Class": "com.github.alexthe666.rats.server.entity.EntityPiratBoat"
+  },
+  {
+    "Name": "pirat",
+    "Registry ID": "rats:pirat",
+    "Class": "com.github.alexthe666.rats.server.entity.EntityPirat"
   },
   {
     "Name": "Overgrown Sheep",

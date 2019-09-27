@@ -1,0 +1,164 @@
+{
+    "name": "Bits",
+    "icon": "chiselsandbits:chisel_iron",
+    "category": "useful_things/building_tools",
+    "advancement": "heavens:bookchap1/6iron",
+    "pages": [
+        {
+            "type": "text",
+            "advancement": "heavens:bookchap1/6iron",
+            "text": "Sometimes working with full blocks isn't enough detail. As such, it's possible to break down blocks into a 16x16x16 grid of $(thing)Bits$() using a $(item)Bit Chisel$(). These bits can be removed individually, or in areas depending on the Mode, switched using $(k:mod.chiselsandbits.other.mode). Bits can be mixed and matched between different blocks, allowing very fine detail work. If placing a chiseled block, hold Shift to ignore the block grid."
+        },
+        {
+            "type": "crafting",
+            "advancement": "heavens:bookchap1/6iron",
+            "recipe": "chiselsandbits:chisel_iron",
+            "recipe2": "chiselsandbits:chisel_diamond"
+        },
+        {
+            "type": "crafting",
+            "advancement": "heavens:bookchap1/9diamond",
+            "title": "Bit Saw",
+            "recipe": "chiselsandbits:bitsaw_diamond",
+            "text": "Craft with Chiselable or Chiseled blocks to cut them in half.$(br2)Its position in the crafting grid relative to the block sets the direction of the cut."
+        },
+        {
+            "type": "crafting",
+            "anchor": "bitbag",
+            "advancement": "heavens:bookchap2/15misty",
+            "title": "Bit Bags",
+            "recipe": "chiselsandbits:bit_bag",
+            "text": "For storing large quantities of bits. Each slot holds up to 40,960 bits. Craft with any dye to change its colour."
+        },
+        {
+            "type": "crafting",
+            "advancement": "heavens:bookchap2/15misty",
+            "title": "Fluid Bits",
+            "recipe": "chiselsandbits:bittank",
+            "text": "Allows creation of $(thing)Fluid Bits$(). Use a bucket or pipes to add a fluid, then Right-Click with an empty hand, or use item transport to extract the $(thing)Fluid Bits$(), which are usable just like any other Bit."
+        },
+        {
+            "type": "empty"
+        },
+        {
+            "type": "text",
+            "advancement": "heavens:bookchap1/9diamond",
+            "title": "Sculpting Wires & Spades",
+            "text": "These tools allow carving out more predefined shapes with $(thing)Bits$().$(br)$(item)Spades$() - Left-Click to place the shape, after selecting bit type with Shift-Left-Click. Right-Click to cycle mode. $(k:mod.chiselsandbits.other.mode) for other settings.$(br)$(item)Wires$() - Left-Click to carve out the shape. Shift-Left-Click to filter which bits are removed. Right-Click to cycle mode. $(k:mod.chiselsandbits.other.mode) for other settings."
+        },
+        {
+            "type": "crafting",
+            "advancement": "heavens:bookchap1/9diamond",
+            "title": "Sculpting Tools",
+            "recipe": "extrabitmanipulation:sculpting_spade_curved",
+            "text": "Same recipe, with different heads to produce the different sculpting tools."
+        },
+        {
+            "type": "crafting",
+            "advancement": "heavens:bookchap1/9diamond",
+            "title": "Spade Heads",
+            "recipe": "extrabitmanipulation:sculpting_spade_curved_head",
+            "recipe2": "extrabitmanipulation:sculpting_spade_squared_head"
+        },
+        {
+            "type": "crafting",
+            "advancement": "heavens:bookchap1/9diamond",
+            "title": "Wire Heads",
+            "recipe": "extrabitmanipulation:sculpting_loop_head",
+            "recipe2": "extrabitmanipulation:sculpting_square_head"
+        },
+        {
+            "type": "crafting",
+            "advancement": "heavens:bookchap1/6iron",
+            "title": "Bit Wrenche",
+            "recipe": "chiselsandbits:wrench_wood",
+            "text": "$(item)Bit Wrenches$() allow in-world manipulation of Chiseled Blocks. The $(item)Wooden Bit Wrench$() can rotate anti-clockwise around the block face clicked. The advanced one can also mirror, translate and invert filled/empty bits. Use Shift to invert the direction."
+        },
+        {
+            "type": "crafting",
+            "advancement": "heavens:bookchap1/9diamond",
+            "title": "Advanced Bit Wrench",
+            "recipe": "extrabitmanipulation:bit_wrench",
+            "recipe2": "extrabitmanipulation:bit_wrench_head"
+        },
+        {
+            "type": "text",
+            "advancement": "heavens:bookchap2/15misty",
+            "title": "Designs",
+            "text": "When you are making large numbers of Chiseled Blocks, it gets tedious repeating the same fine detail work over and over. $(item)Designs$() Allow you to copy a Chiseled block in world to allow quick replication. Right-Click a Chiseled Block with any design to write it. then you can use it to make copies by Right-Clicking any block in-world. Hold Shift and scroll the mouse wheel to rotate before placing. Craft alone to clear stored design."
+        },
+        {
+            "type": "crafting",
+            "advancement": "heavens:bookchap2/15misty",
+            "title": "Positive Design",
+            "recipe": "chiselsandbits:positiveprint",
+            "text": "Stores exactly which bits are used in the block. Can also be crafted with a stack of bits, or a $(l:useful_things/building_tools/bits#bitbag)$(item)Bit Bag$() to make a copy of the Chiseled Block. Right-Click a block in world to add or remove bits as necessary, dependent on mode ($(k:mod.chiselsandbits.other.mode))."
+        },
+        {
+            "type": "crafting",
+            "advancement": "heavens:bookchap2/15misty",
+            "title": "Negative Design",
+            "recipe": "chiselsandbits:negativeprint",
+            "text": "Stores only whether each bit is filled or empty. Right-Click a block in world to remove bits to match the design."
+        },
+        {
+            "type": "crafting",
+            "advancement": "heavens:bookchap2/15misty",
+            "title": "Mirror Design",
+            "recipe": "chiselsandbits:mirrorprint",
+            "text": "Stores a copy of the chiseled block, but mirrored over the plane of the face you clicked when writing it (i.e. top face mirrors the design vertically). Cannot edit blocks in world directly - must be crafted with a $(item)Positive$() or $(item)Negative Design$() to transfer the design."
+        },
+        {
+            "type": "text",
+            "advancement": "heavens:bookchap1/9diamond",
+            "title": "Modeling Tool",
+            "text": "Did you ever want an itty-bitty scale model of your base? Well the $(item)Modeling Tool$() serves to make exactly that. $(br2)Left-Click with it to record the contents of a given area, up to a maximum of 16x16x16. Depending on the mode selected (centred/xz/xyz) with $(k:mod.chiselsandbits.other.mode) it will either use the block you point at as the middle, or use the chunk (and sub-chunk for xyz) the block is in."
+        },
+        {
+            "type": "text",
+            "advancement": "heavens:bookchap1/9diamond",
+            "text": "It will map all the blocks found to a bit, generating a 1 block:1 bit scale model. Mappings of blocks to bits can be manually set in the menu (opens automatically when making a model, or can be accessed with Shift-Right-Click). $(br2)With a model recorded, Right-Click to place it in world."
+        },
+        {
+            "type": "crafting",
+            "advancement": "heavens:bookchap1/9diamond",
+            "title": "Modeling Tool",
+            "recipe": "extrabitmanipulation:modeling_tool",
+            "recipe2": "extrabitmanipulation:modeling_tool_head"
+        },
+        {
+            "type": "empty",
+            "advancement": "heavens:bookchap1/9diamond"
+        },
+        {
+            "type": "text",
+            "advancement": "heavens:bookchap1/6iron",
+            "title": "Chiseled Armour",
+            "text": "If you've ever thought your armour doesn't look fancy enough, you might appreciate the opportunity to create the visuals of your armour using bits.$(br)To get started, simply craft any piece of $(item)Iron Armour$() or $(item)Diamond Armour$() with a $(item)Bit Chisel$(). The resulting $(item)Chiseled Armour$() has the same protection value as the armour it was made from, and by default appears as though crafted out of a block of Diamond or Iron."
+        },
+        {
+            "type": "crafting",
+            "advancement": "heavens:bookchap1/6iron",
+            "title": "Chiseled Armour",
+            "recipe": "extrabitmanipulation:chiseledarmor_chisel+diamondchestplate=chiseledchestplate",
+            "text": "You can also equip up to 4 sets of $(item)Chiseled Armour$() in $(thing)Vanity Slots$() accessed by pressing $(k:keybinding.extrabitmanipulation.chiseledarmor.slots) if you wish to have the protection or effects of other armour alongside the customizable visuals of $(item)Chiseled Armour$()."
+        },
+        {
+            "type": "text",
+            "title": "Customizing Appearance",
+            "advancement": "heavens:bookchap1/6iron",
+            "text": "To start editing the visuals of the armour, hold it and use $(k:mod.chiselsandbits.other.mode) to select the scale (bigger scale = more detail in your armour model) and which part of the armour you want to start building.$(br2)Each moving part is built and added to the armour separately (for example, the chestplate has torso, left arm and right arm parts)."
+        },
+        {
+            "type": "text",
+            "advancement": "heavens:bookchap1/6iron",
+            "text": "Make sure it is in $(thing)Template Creation Mode$(), then use it to place a bodypart template. This template represents where the player's body will be inside the armour, so use bits to build your armour around it.$(br2)Once finished, switch to $(thing)Block Collection Mode$() and Left-Click blocks to store their appearance to the armour.$(br)Note: You can add from blocks with no bodypart templates - when doing so, it is rendered relative to the stored template position."
+        },
+        {
+            "type": "text",
+            "advancement": "heavens:bookchap1/6iron",
+            "text": "You can further customize which parts are visible at any time, along with adjusting their size and moving them around as needed by pressing $(k:keybinding.extrabitmanipulation.chiseledarmor) with at least one piece of $(item)Chiseled Armour$() equipped."
+        }
+
+    ]
+}

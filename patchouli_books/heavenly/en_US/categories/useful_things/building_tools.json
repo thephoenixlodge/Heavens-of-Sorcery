@@ -1,0 +1,6 @@
+{
+	"name": "Builder's Best Buds",
+	"description": "Various Tools for aiding your building.",
+	"icon": "chisel:chisel_iron",
+	"parent": "useful_things"
+}

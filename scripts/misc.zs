@@ -2,6 +2,7 @@
 import mods.jei.JEI;
 import mods.ArcaneWorld;
 import crafttweaker.item.IItemStack;
+import scripts.globals;
 
 ////Variables
 val clayTile = <cathedral:firedtile>;
@@ -59,6 +60,34 @@ val kathairisLog = [
 	<kathairis:redwood_log_size_1>
 ] as IItemStack[];
 val oreLogWood = <ore:logWood>;
+val chiselDiamond = <chisel:chisel_diamond>;
+val chiselI = <chisel:chisel_hitech>;
+val nacrePearl = <wizardry:nacre_pearl>;
+val similsax = <similsaxtranstructors:similsaxtranstructorbasic>;
+val similsaxAdv = <similsaxtranstructors:similsaxtranstructoradvanced>;
+val nuggetDiamond = <extrabitmanipulation:diamond_nugget>;
+val ingotIron = <minecraft:iron_ingot>;
+val enderPearl = <minecraft:ender_pearl>;
+val bookNA = <patchouli:guide_book>.withTag({"patchouli:book": "patchouli:natures_aura"});
+val book = <minecraft:book>;
+val saplingBS = <blue_skies:bluebright_sapling>|<blue_skies:lunar_sapling>|<blue_skies:starlit_sapling>|<blue_skies:frostbright_sapling>|<blue_skies:dusk_sapling>|<blue_skies:maple_sapling>;
+val stick = <ore:stickWood>;
+//Architexture tools
+val chiselIron = <chisel:chisel_iron>;
+val chiselArch = <architecturecraft:chisel>;
+val hammerArch = <architecturecraft:hammer>;
+//BlC plate recipe tweak
+val framedBlock = <blockcraftery:editable_block>;
+val framedPlate = <blockcraftery:editable_pressure_plate_all>;
+val framedBlockR = <blockcraftery:editable_block_reinforced>;
+val framedPlateR = <blockcraftery:editable_pressure_plate_all_reinforced>;
+//chain tweaks
+val chainIronC = <cathedral:cathedral_chain_various>;
+val chainItem = <quark:chain>;
+val chainManasteel = <cathedral:cathedral_chain_various:6>;
+val nuggetManasteel = <botania:manaresource:17>;
+val chainBrass = <rusticthaumaturgy:chain_brass>;
+val nuggetBrass = <thaumcraft:nugget:8>;
 
 //tweak clay tile related recipes
 recipes.remove(terracottaShingle);
@@ -80,3 +109,36 @@ ArcaneWorld.createRitualSummon("summon_mimic", "Conjure Mimic", "artifacts:mimic
 for log in kathairisLog {
 	oreLogWood.add(log);
 }
+
+//tweak iChisel recipe
+recipes.remove(chiselI);
+recipes.addShapeless(chiselI, [chiselDiamond, nacrePearl]);
+
+//tweak similsax recipes
+recipes.remove(similsax);
+recipes.addShaped(similsax, [[ingotIron, null, ingotIron], [ingotIron, nuggetDiamond, ingotIron], [null, stick, null]]);
+recipes.remove(similsaxAdv);
+recipes.addShapeless(similsaxAdv, [similsax, enderPearl]);
+
+//add recipe for redone NA book
+recipes.addShapeless(bookNA, [book, saplingBS]);
+
+//architecture tools
+recipes.remove(chiselArch);
+recipes.addShapeless(chiselIron, [chiselArch]);
+recipes.addShapeless(chiselArch, [chiselIron]);
+recipes.remove(hammerArch);
+recipes.addShaped(hammerArch, [[ingotIron, ingotIron, null], [null, stick, ingotIron], [null, stick, null]]);
+
+//tweak framed pressure plate recipe
+recipes.remove(framedPlate);
+recipes.addShaped(framedPlate, [[framedBlock, framedBlock]]);
+recipes.remove(framedPlateR);
+recipes.addShaped(framedPlateR, [[framedBlockR, framedBlockR]]);
+
+//chains
+recipes.addShaped(chainIronC * 28, [[chainItem], [chainItem], [chainItem]]);
+recipes.remove(chainBrass);
+recipes.addShaped(chainBrass * 4, [[nuggetBrass], [nuggetBrass], [nuggetBrass]]);
+recipes.addShaped(chainManasteel * 4, [[nuggetManasteel], [nuggetManasteel], [nuggetManasteel]]);
+//globals.setNewName(chainManasteel, "Manasteel Chain");

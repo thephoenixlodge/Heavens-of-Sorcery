@@ -12,6 +12,7 @@ val book = <minecraft:book>;
 val wandDiamond = <betterbuilderswands:wanddiamond>;
 val advSimilsax = <similsaxtranstructors:similsaxtranstructoradvanced>;
 val wandFormation = <astralsorcery:itemarchitectwand>;
+val wandConversion = <astralsorcery:itemexchangewand>;
 val shovelDiamond = <minecraft:diamond_shovel>;
 val amethyst = <arcaneworld:amethyst>;
 val sapphire = <arcaneworld:sapphire>;
@@ -29,7 +30,7 @@ globals.setNewName(gadgetBuilding, "Tome of Building");
 
 //Exchanging Gadget
 recipes.remove(gadgetExchanging);
-ArcaneWorld.createRitualCreateItem("gadget_exchanging", "Tome of Exchanging", gadgetExchanging, book, sapphire, amethyst, shovelDiamond);
+ArcaneWorld.createRitualCreateItem("gadget_exchanging", "Tome of Exchanging", gadgetExchanging, book, sapphire, amethyst, wandConversion);
 globals.setNewName(gadgetExchanging, "Tome of Exchanging");
 
 //Copy-Paste Gadget

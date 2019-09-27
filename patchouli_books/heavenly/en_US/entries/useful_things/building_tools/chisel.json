@@ -1,0 +1,43 @@
+{
+    "name": "Chisel",
+    "icon": "chisel:chisel_iron",
+    "category": "useful_things/building_tools",
+    "advancement": "heavens:bookchap1/6iron",
+    "pages": [
+        {
+            "type": "text",
+            "advancement": "heavens:bookchap1/6iron",
+            "text": "Sometimes, the basic appearance of blocks isn't quite as appealing as you'd like. To resolve this, you can make and use a $(item)Chisel$() to alter the appearance in a variety of ways. Right click with it to access the Chiseling menu and insert blocks to see the different options."
+        },
+        {
+            "type": "crafting",
+            "advancement": "heavens:bookchap1/6iron",
+            "recipe": "chisel:chisel_iron",
+            "text": "Durability: 1024"
+        },
+        {
+            "type": "crafting",
+            "advancement": "heavens:bookchap1/9diamond",
+            "recipe": "chisel:chisel_diamond",
+            "text": "Durability: 8192 $(br2)Can change Chisel Modes in the GUI."
+        },
+        {
+            "type": "crafting",
+            "advancement": "heavens:bookchap2/8pearl",
+            "recipe": "crafttweaker:ct_shapeless930754035",
+            "text": "Durability: 32767 $(br2)Can change Chisel Modes in the GUI. Can chisel all of the same block in your inventory at once. Shows a preview of the blocks for connected textures."
+        },
+        {
+            "type": "crafting",
+            "advancement": "heavens:bookchap1/19nether",
+            "recipe": "chisel:offsettool",
+            "text": "Shifts the position of connected textures"
+        },
+        {
+            "type": "crafting",
+            "advancement": "heavens:bookchap1/21netherrocks",
+            "recipe": "chisel:autochisel",
+            "text": "Allows automatic chiseling of materials. Requires a $(item)Chisel$() and a target block to be set in the middle."
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "name": "Similsax Transtructors",
+    "icon": "similsaxtranstructors:similsaxtranstructorbasic",
+    "category": "useful_things/building_tools",
+    "advancement": "heavens:bookchap1/9diamond",
+    "pages": [
+        {
+            "type": "text",
+            "anchor": "similsax",
+            "advancement": "heavens:bookchap1/9diamond",
+            "text": "$(item)Builder's Wands$() are good for building a wall, but when it comes to building the outline for the wall, $(item)Similsax Transtructors$() are an excellent complement. Based on where you click on the targeted block, they will use the same type of block to build out a line in that direction."
+        },
+        {
+            "type": "crafting",
+            "advancement": "heavens:bookchap1/9diamond",
+            "recipe": "crafttweaker:ct_shaped1563371775",
+            "title": "Basic Similsax",
+            "text": "Durability: 199 $(br2)Max blocks placed: 15 out from the starting block"
+        },
+        {
+            "type": "crafting",
+            "advancement": "heavens:bookchap1/19nether",
+            "recipe": "crafttweaker:ct_shapeless-838453074",
+            "title": "Advanced Similsax",
+            "text": "Durability: 999 $(br2)Max blocks placed: 63 out from the starting block"
+        }
+    ]
+}

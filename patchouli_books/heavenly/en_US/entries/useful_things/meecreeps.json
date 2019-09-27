@@ -13,6 +13,12 @@
             "recipe": "crafttweaker:ct_shaped-970281468",
             "title": "Box of MeeCreeps",
             "text": "That was destroyed, but it should be possible for you to recreate it, and then you'll have your very own $(m)slaves$() err, prisoners with jobs."
+        },
+        {
+            "type": "text",
+            "advancement": "heavens:bookchap3/1respirator",
+            "title": "The Mist",
+            "text": "It seems that the $(thing)MeeCreeps$() are even immune to the corrosive $(thing)Mist$() found in the $(thing)Misty World$(). This could be quite useful indeed."
         }
     ]
 }

@@ -21,8 +21,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "OCEAN",
-      "WATER"
+      "WATER",
+      "OCEAN"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -362,12 +362,6 @@
         "Weight": 10,
         "Min Group Count": 1,
         "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityPumpkinSlime",
-        "Weight": 5,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       }
     ],
     "Spawnable Water Creatures": [
@@ -411,8 +405,8 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "DRY",
-      "HOT",
-      "SANDY"
+      "SANDY",
+      "HOT"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -573,8 +567,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "MOUNTAIN",
-      "HILLS"
+      "HILLS",
+      "MOUNTAIN"
     ],
     "BiomeManager Entries": {
       "WARM Weights": [
@@ -988,12 +982,6 @@
         "Weight": 10,
         "Min Group Count": 1,
         "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityPumpkinSlime",
-        "Weight": 5,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       }
     ],
     "Spawnable Water Creatures": [
@@ -1036,9 +1024,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
+      "FOREST",
       "COLD",
-      "CONIFEROUS",
-      "FOREST"
+      "CONIFEROUS"
     ],
     "BiomeManager Entries": {
       "COOL Weights": [
@@ -1251,12 +1239,6 @@
         "Weight": 10,
         "Min Group Count": 1,
         "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityPumpkinSlime",
-        "Weight": 5,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       }
     ],
     "Spawnable Water Creatures": [
@@ -1299,8 +1281,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SWAMP",
-      "WET"
+      "WET",
+      "SWAMP"
     ],
     "BiomeManager Entries": {
       "WARM Weights": [
@@ -1493,12 +1475,6 @@
         "Weight": 10,
         "Min Group Count": 8,
         "Max Group Count": 8
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityWisp",
-        "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       }
     ],
     "Spawn Biome": false,
@@ -1681,9 +1657,9 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "NETHER",
       "DRY",
-      "HOT"
+      "HOT",
+      "NETHER"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -1765,12 +1741,6 @@
         "Weight": 5,
         "Min Group Count": 1,
         "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityNetherKnight",
-        "Weight": 1,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       }
     ],
     "Spawnable Water Creatures": [],
@@ -1799,9 +1769,9 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "END",
+      "DRY",
       "COLD",
-      "DRY"
+      "END"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -1876,10 +1846,10 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
-      "COLD",
       "SNOWY",
-      "OCEAN",
-      "WATER"
+      "WATER",
+      "COLD",
+      "OCEAN"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -2052,10 +2022,10 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
-      "COLD",
-      "SNOWY",
       "RIVER",
-      "WATER"
+      "SNOWY",
+      "WATER",
+      "COLD"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -2234,9 +2204,9 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
-      "COLD",
+      "WASTELAND",
       "SNOWY",
-      "WASTELAND"
+      "COLD"
     ],
     "BiomeManager Entries": {
       "ICY Weights": [
@@ -2413,12 +2383,6 @@
         "Weight": 10,
         "Min Group Count": 1,
         "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityCursedArmor",
-        "Weight": 1,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       }
     ],
     "Spawnable Water Creatures": [
@@ -2461,9 +2425,9 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
-      "COLD",
+      "MOUNTAIN",
       "SNOWY",
-      "MOUNTAIN"
+      "COLD"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -2964,10 +2928,10 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "DRY",
-      "HOT",
       "HILLS",
-      "SANDY"
+      "DRY",
+      "SANDY",
+      "HOT"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -3134,8 +3098,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "FOREST",
-      "HILLS"
+      "HILLS",
+      "FOREST"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -3326,12 +3290,6 @@
         "Weight": 10,
         "Min Group Count": 1,
         "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityPumpkinSlime",
-        "Weight": 5,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       }
     ],
     "Spawnable Water Creatures": [
@@ -3374,10 +3332,10 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "COLD",
-      "CONIFEROUS",
+      "HILLS",
       "FOREST",
-      "HILLS"
+      "COLD",
+      "CONIFEROUS"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -3584,12 +3542,6 @@
       {
         "Entity Class": "party.lemons.corvus.entity.EntityWendigo",
         "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityPumpkinSlime",
-        "Weight": 5,
         "Min Group Count": 1,
         "Max Group Count": 1
       }
@@ -4031,10 +3983,10 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
+      "HILLS",
       "DENSE",
       "JUNGLE",
       "HOT",
-      "HILLS",
       "WET"
     ],
     "BiomeManager Entries": {},
@@ -4251,10 +4203,10 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "FOREST",
+      "RARE",
       "JUNGLE",
       "HOT",
-      "WET",
-      "RARE"
+      "WET"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -4451,12 +4403,6 @@
         "Weight": 10,
         "Min Group Count": 1,
         "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityPumpkinSlime",
-        "Weight": 5,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       }
     ],
     "Spawnable Water Creatures": [
@@ -4499,8 +4445,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "OCEAN",
-      "WATER"
+      "WATER",
+      "OCEAN"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -4606,12 +4552,6 @@
         "Weight": 3,
         "Min Group Count": 1,
         "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityGuardian",
-        "Weight": 4,
-        "Min Group Count": 1,
-        "Max Group Count": 3
       }
     ],
     "Spawnable Water Creatures": [
@@ -4809,8 +4749,8 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
-      "COLD",
       "SNOWY",
+      "COLD",
       "BEACH"
     ],
     "BiomeManager Entries": {},
@@ -5191,12 +5131,6 @@
         "Weight": 10,
         "Min Group Count": 1,
         "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityPumpkinSlime",
-        "Weight": 5,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       }
     ],
     "Spawnable Water Creatures": [
@@ -5239,8 +5173,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "FOREST",
-      "HILLS"
+      "HILLS",
+      "FOREST"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -5431,12 +5365,6 @@
         "Weight": 10,
         "Min Group Count": 1,
         "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityPumpkinSlime",
-        "Weight": 5,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       }
     ],
     "Spawnable Water Creatures": [
@@ -5480,8 +5408,8 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "SPOOKY",
-      "DENSE",
-      "FOREST"
+      "FOREST",
+      "DENSE"
     ],
     "BiomeManager Entries": {
       "WARM Weights": [
@@ -5676,18 +5604,6 @@
         "Weight": 10,
         "Min Group Count": 1,
         "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityPumpkinSlime",
-        "Weight": 5,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityCursedArmor",
-        "Weight": 1,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       }
     ],
     "Spawnable Water Creatures": [
@@ -5730,10 +5646,10 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
-      "COLD",
-      "CONIFEROUS",
       "FOREST",
-      "SNOWY"
+      "SNOWY",
+      "COLD",
+      "CONIFEROUS"
     ],
     "BiomeManager Entries": {
       "ICY Weights": [
@@ -5946,12 +5862,6 @@
         "Weight": 10,
         "Min Group Count": 1,
         "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityPumpkinSlime",
-        "Weight": 5,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       }
     ],
     "Spawnable Water Creatures": [
@@ -5994,11 +5904,11 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
-      "COLD",
-      "CONIFEROUS",
+      "HILLS",
       "FOREST",
       "SNOWY",
-      "HILLS"
+      "COLD",
+      "CONIFEROUS"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -6199,12 +6109,6 @@
       {
         "Entity Class": "party.lemons.corvus.entity.EntityWendigo",
         "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityPumpkinSlime",
-        "Weight": 5,
         "Min Group Count": 1,
         "Max Group Count": 1
       }
@@ -6249,9 +6153,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
+      "FOREST",
       "COLD",
-      "CONIFEROUS",
-      "FOREST"
+      "CONIFEROUS"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -6446,12 +6350,6 @@
       {
         "Entity Class": "party.lemons.corvus.entity.EntityWendigo",
         "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityPumpkinSlime",
-        "Weight": 5,
         "Min Group Count": 1,
         "Max Group Count": 1
       }
@@ -6496,10 +6394,10 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "COLD",
-      "CONIFEROUS",
+      "HILLS",
       "FOREST",
-      "HILLS"
+      "COLD",
+      "CONIFEROUS"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -6708,12 +6606,6 @@
         "Weight": 10,
         "Min Group Count": 1,
         "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityPumpkinSlime",
-        "Weight": 5,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       }
     ],
     "Spawnable Water Creatures": [
@@ -6756,8 +6648,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "FOREST",
       "MOUNTAIN",
+      "FOREST",
       "SPARSE"
     ],
     "BiomeManager Entries": {},
@@ -6949,12 +6841,6 @@
         "Weight": 10,
         "Min Group Count": 1,
         "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityPumpkinSlime",
-        "Weight": 5,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       }
     ],
     "Spawnable Water Creatures": [
@@ -6997,10 +6883,10 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SAVANNA",
+      "SPARSE",
       "PLAINS",
       "HOT",
-      "SPARSE"
+      "SAVANNA"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -7173,12 +7059,6 @@
         "Weight": 6,
         "Min Group Count": 1,
         "Max Group Count": 4
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityPumpkinSlime",
-        "Weight": 5,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       }
     ],
     "Spawnable Water Creatures": [
@@ -7221,11 +7101,11 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SAVANNA",
-      "PLAINS",
-      "HOT",
       "SPARSE",
-      "RARE"
+      "PLAINS",
+      "RARE",
+      "HOT",
+      "SAVANNA"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -7410,12 +7290,6 @@
         "Weight": 6,
         "Min Group Count": 1,
         "Max Group Count": 4
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityPumpkinSlime",
-        "Weight": 5,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       }
     ],
     "Spawnable Water Creatures": [
@@ -7602,9 +7476,9 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
+      "SPARSE",
       "MESA",
       "DRY",
-      "SPARSE",
       "SANDY"
     ],
     "BiomeManager Entries": {},
@@ -7962,12 +7836,6 @@
         "Weight": 3,
         "Min Group Count": 1,
         "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityPumpkinSlime",
-        "Weight": 5,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       }
     ],
     "Spawnable Water Creatures": [],
@@ -8089,12 +7957,6 @@
       {
         "Entity Class": "party.lemons.corvus.entity.EntityWendigo",
         "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityPumpkinSlime",
-        "Weight": 5,
         "Min Group Count": 1,
         "Max Group Count": 1
       }
@@ -8222,12 +8084,6 @@
         "Weight": 10,
         "Min Group Count": 1,
         "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityPumpkinSlime",
-        "Weight": 5,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       }
     ],
     "Spawnable Water Creatures": [],
@@ -8256,9 +8112,9 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SAVANNA",
       "DRY",
-      "HOT"
+      "HOT",
+      "SAVANNA"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -8346,8 +8202,8 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "DRY",
-      "HOT",
-      "SANDY"
+      "SANDY",
+      "HOT"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -8434,10 +8290,10 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "DRY",
-      "HOT",
       "HILLS",
-      "SANDY"
+      "DRY",
+      "SANDY",
+      "HOT"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -8524,10 +8380,10 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
-      "COLD",
-      "CONIFEROUS",
+      "PLAINS",
       "SNOWY",
-      "PLAINS"
+      "COLD",
+      "CONIFEROUS"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -8622,12 +8478,6 @@
         "Weight": 3,
         "Min Group Count": 1,
         "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityPumpkinSlime",
-        "Weight": 5,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       }
     ],
     "Spawnable Water Creatures": [],
@@ -8656,10 +8506,10 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
-      "COLD",
-      "CONIFEROUS",
       "FOREST",
-      "SNOWY"
+      "SNOWY",
+      "COLD",
+      "CONIFEROUS"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -8758,12 +8608,6 @@
       {
         "Entity Class": "party.lemons.corvus.entity.EntityWendigo",
         "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityPumpkinSlime",
-        "Weight": 5,
         "Min Group Count": 1,
         "Max Group Count": 1
       }
@@ -8794,11 +8638,11 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
-      "COLD",
-      "CONIFEROUS",
+      "HILLS",
       "FOREST",
       "SNOWY",
-      "HILLS"
+      "COLD",
+      "CONIFEROUS"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -8899,12 +8743,6 @@
         "Weight": 10,
         "Min Group Count": 1,
         "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityPumpkinSlime",
-        "Weight": 5,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       }
     ],
     "Spawnable Water Creatures": [],
@@ -8933,8 +8771,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SWAMP",
-      "WET"
+      "WET",
+      "SWAMP"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -9008,14 +8846,7 @@
       }
     ],
     "Spawnable Water Creatures": [],
-    "Spawnable Cave Creatures": [
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityWisp",
-        "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      }
-    ],
+    "Spawnable Cave Creatures": [],
     "Spawn Biome": false,
     "Tweaked": false
   },
@@ -9040,9 +8871,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SWAMP",
       "PLAINS",
-      "WET"
+      "WET",
+      "SWAMP"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -9119,23 +8950,10 @@
         "Weight": 3,
         "Min Group Count": 1,
         "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityPumpkinSlime",
-        "Weight": 5,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       }
     ],
     "Spawnable Water Creatures": [],
-    "Spawnable Cave Creatures": [
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityWisp",
-        "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      }
-    ],
+    "Spawnable Cave Creatures": [],
     "Spawn Biome": false,
     "Tweaked": false
   },
@@ -9160,9 +8978,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SWAMP",
       "FOREST",
-      "WET"
+      "WET",
+      "SWAMP"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -9263,23 +9081,10 @@
         "Weight": 10,
         "Min Group Count": 1,
         "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityPumpkinSlime",
-        "Weight": 5,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       }
     ],
     "Spawnable Water Creatures": [],
-    "Spawnable Cave Creatures": [
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityWisp",
-        "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      }
-    ],
+    "Spawnable Cave Creatures": [],
     "Spawn Biome": false,
     "Tweaked": false
   },
@@ -9406,12 +9211,6 @@
       {
         "Entity Class": "party.lemons.corvus.entity.EntityWendigo",
         "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityPumpkinSlime",
-        "Weight": 5,
         "Min Group Count": 1,
         "Max Group Count": 1
       }
@@ -9548,9 +9347,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
+      "HILLS",
       "FOREST",
       "JUNGLE",
-      "HILLS",
       "LUSH"
     ],
     "BiomeManager Entries": {},
@@ -9652,12 +9451,6 @@
         "Weight": 10,
         "Min Group Count": 1,
         "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityPumpkinSlime",
-        "Weight": 5,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       }
     ],
     "Spawnable Water Creatures": [],
@@ -9687,8 +9480,8 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "RIVER",
-      "WET",
-      "WATER"
+      "WATER",
+      "WET"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -9787,8 +9580,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SWAMP",
-      "WET"
+      "WET",
+      "SWAMP"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -9862,14 +9655,7 @@
       }
     ],
     "Spawnable Water Creatures": [],
-    "Spawnable Cave Creatures": [
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityWisp",
-        "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      }
-    ],
+    "Spawnable Cave Creatures": [],
     "Spawn Biome": false,
     "Tweaked": false
   },
@@ -9895,8 +9681,8 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "RIVER",
-      "WET",
-      "WATER"
+      "WATER",
+      "WET"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -9995,11 +9781,11 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
-      "COLD",
-      "SNOWY",
       "RIVER",
+      "SNOWY",
+      "WATER",
       "WET",
-      "WATER"
+      "COLD"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -10188,18 +9974,6 @@
         "Weight": 3,
         "Min Group Count": 1,
         "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityPumpkinSlime",
-        "Weight": 5,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityCursedArmor",
-        "Weight": 1,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       }
     ],
     "Spawnable Water Creatures": [],
@@ -10228,10 +10002,10 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "WASTELAND",
       "DRY",
-      "HOT",
-      "SANDY"
+      "WASTELAND",
+      "SANDY",
+      "HOT"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -10283,12 +10057,6 @@
         "Weight": 3,
         "Min Group Count": 1,
         "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityCursedArmor",
-        "Weight": 1,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       }
     ],
     "Spawnable Water Creatures": [],
@@ -10317,9 +10085,9 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
-      "COLD",
+      "WASTELAND",
       "SNOWY",
-      "WASTELAND"
+      "COLD"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -10394,12 +10162,6 @@
       {
         "Entity Class": "electroblob.wizardry.entity.living.EntityEvilWizard",
         "Weight": 3,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityCursedArmor",
-        "Weight": 1,
         "Min Group Count": 1,
         "Max Group Count": 1
       }
@@ -10481,12 +10243,6 @@
       {
         "Entity Class": "electroblob.wizardry.entity.living.EntityEvilWizard",
         "Weight": 3,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityCursedArmor",
-        "Weight": 1,
         "Min Group Count": 1,
         "Max Group Count": 1
       }
@@ -10590,12 +10346,6 @@
         "Weight": 3,
         "Min Group Count": 1,
         "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityCursedArmor",
-        "Weight": 1,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       }
     ],
     "Spawnable Water Creatures": [],
@@ -10624,8 +10374,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "DEAD",
-      "SPOOKY"
+      "SPOOKY",
+      "DEAD"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -10664,12 +10414,6 @@
       {
         "Entity Class": "electroblob.wizardry.entity.living.EntityEvilWizard",
         "Weight": 3,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityCursedArmor",
-        "Weight": 1,
         "Min Group Count": 1,
         "Max Group Count": 1
       }
@@ -10700,8 +10444,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "DEAD",
-      "SPOOKY"
+      "SPOOKY",
+      "DEAD"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -10740,12 +10484,6 @@
       {
         "Entity Class": "electroblob.wizardry.entity.living.EntityEvilWizard",
         "Weight": 3,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityCursedArmor",
-        "Weight": 1,
         "Min Group Count": 1,
         "Max Group Count": 1
       }
@@ -10776,8 +10514,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "DEAD",
-      "SPOOKY"
+      "SPOOKY",
+      "DEAD"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -10816,12 +10554,6 @@
       {
         "Entity Class": "electroblob.wizardry.entity.living.EntityEvilWizard",
         "Weight": 3,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityCursedArmor",
-        "Weight": 1,
         "Min Group Count": 1,
         "Max Group Count": 1
       }
@@ -10852,8 +10584,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "DEAD",
-      "SPOOKY"
+      "SPOOKY",
+      "DEAD"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -10892,12 +10624,6 @@
       {
         "Entity Class": "electroblob.wizardry.entity.living.EntityEvilWizard",
         "Weight": 3,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityCursedArmor",
-        "Weight": 1,
         "Min Group Count": 1,
         "Max Group Count": 1
       }
@@ -10928,8 +10654,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "DEAD",
-      "SPOOKY"
+      "SPOOKY",
+      "DEAD"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -10968,12 +10694,6 @@
       {
         "Entity Class": "electroblob.wizardry.entity.living.EntityEvilWizard",
         "Weight": 3,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityCursedArmor",
-        "Weight": 1,
         "Min Group Count": 1,
         "Max Group Count": 1
       }
@@ -11004,8 +10724,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "DEAD",
-      "SPOOKY"
+      "SPOOKY",
+      "DEAD"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -11044,12 +10764,6 @@
       {
         "Entity Class": "electroblob.wizardry.entity.living.EntityEvilWizard",
         "Weight": 3,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityCursedArmor",
-        "Weight": 1,
         "Min Group Count": 1,
         "Max Group Count": 1
       }
@@ -11231,18 +10945,6 @@
         "Weight": 10,
         "Min Group Count": 1,
         "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityPumpkinSlime",
-        "Weight": 5,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityCursedArmor",
-        "Weight": 1,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       }
     ],
     "Spawnable Water Creatures": [
@@ -11399,18 +11101,6 @@
         "Weight": 10,
         "Min Group Count": 1,
         "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityPumpkinSlime",
-        "Weight": 5,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityCursedArmor",
-        "Weight": 1,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       }
     ],
     "Spawnable Water Creatures": [
@@ -11453,9 +11143,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "END",
       "SPOOKY",
-      "MAGICAL"
+      "MAGICAL",
+      "END"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -11493,18 +11183,6 @@
       {
         "Entity Class": "thaumcraft.common.entities.monster.EntityPech",
         "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityPumpkinSlime",
-        "Weight": 5,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityCursedArmor",
-        "Weight": 1,
         "Min Group Count": 1,
         "Max Group Count": 1
       }
@@ -11624,8 +11302,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "DENSE",
-      "PLAINS"
+      "PLAINS",
+      "DENSE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -11707,9 +11385,9 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "DEAD",
       "PLAINS",
-      "HOT"
+      "HOT",
+      "DEAD"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -11808,12 +11486,6 @@
         "Weight": 2,
         "Min Group Count": 1,
         "Max Group Count": 1
-      },
-      {
-        "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
-        "Weight": 1,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       }
     ],
     "Spawnable Water Creatures": [],
@@ -11849,9 +11521,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
+      "WATER",
       "MAGICAL",
-      "OCEAN",
-      "WATER"
+      "OCEAN"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -11939,9 +11611,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
+      "WATER",
       "MAGICAL",
-      "OCEAN",
-      "WATER"
+      "OCEAN"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -11952,14 +11624,7 @@
         "Max Group Count": 6
       }
     ],
-    "Spawnable Monsters": [
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityCursedArmor",
-        "Weight": 1,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      }
-    ],
+    "Spawnable Monsters": [],
     "Spawnable Water Creatures": [],
     "Spawnable Cave Creatures": [],
     "Spawn Biome": false,
@@ -12050,6 +11715,24 @@
         "Max Group Count": 1
       },
       {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityFeralRatlantean",
+        "Weight": 70,
+        "Min Group Count": 1,
+        "Max Group Count": 3
+      },
+      {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityPirat",
+        "Weight": 20,
+        "Min Group Count": 1,
+        "Max Group Count": 1
+      },
+      {
+        "Entity Class": "com.github.alexthe666.rats.server.entity.EntityRatlanteanSpirit",
+        "Weight": 50,
+        "Min Group Count": 1,
+        "Max Group Count": 3
+      },
+      {
         "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
         "Weight": 1,
         "Min Group Count": 1,
@@ -12103,10 +11786,10 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "SPOOKY",
-      "WASTELAND",
-      "MAGICAL",
       "MOUNTAIN",
-      "WATER"
+      "WASTELAND",
+      "WATER",
+      "MAGICAL"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -12126,18 +11809,6 @@
       {
         "Entity Class": "thaumcraft.common.entities.monster.EntityPech",
         "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityPumpkinSlime",
-        "Weight": 5,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityCursedArmor",
-        "Weight": 1,
         "Min Group Count": 1,
         "Max Group Count": 1
       }
@@ -12169,9 +11840,9 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "SPOOKY",
+      "MOUNTAIN",
       "WASTELAND",
-      "MAGICAL",
-      "MOUNTAIN"
+      "MAGICAL"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -12191,18 +11862,6 @@
       {
         "Entity Class": "thaumcraft.common.entities.monster.EntityPech",
         "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityPumpkinSlime",
-        "Weight": 5,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityCursedArmor",
-        "Weight": 1,
         "Min Group Count": 1,
         "Max Group Count": 1
       }
@@ -12234,10 +11893,10 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "SPOOKY",
-      "COLD",
-      "MAGICAL",
       "DRY",
-      "VOID"
+      "VOID",
+      "MAGICAL",
+      "COLD"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -12257,18 +11916,6 @@
       {
         "Entity Class": "thaumcraft.common.entities.monster.EntityPech",
         "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityPumpkinSlime",
-        "Weight": 5,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityCursedArmor",
-        "Weight": 1,
         "Min Group Count": 1,
         "Max Group Count": 1
       }
@@ -12315,12 +11962,6 @@
         "Weight": 3,
         "Min Group Count": 1,
         "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityPumpkinSlime",
-        "Weight": 5,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       }
     ],
     "Spawnable Water Creatures": [],
@@ -12349,11 +11990,11 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "COLD",
-      "MAGICAL",
-      "PLAINS",
       "DRY",
-      "VOID"
+      "VOID",
+      "PLAINS",
+      "MAGICAL",
+      "COLD"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -12448,18 +12089,6 @@
         "Weight": 10,
         "Min Group Count": 1,
         "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityPumpkinSlime",
-        "Weight": 5,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityCursedArmor",
-        "Weight": 1,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       }
     ],
     "Spawnable Water Creatures": [],
@@ -12488,10 +12117,10 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "COLD",
-      "MAGICAL",
+      "DRY",
       "PLAINS",
-      "DRY"
+      "MAGICAL",
+      "COLD"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -12532,18 +12161,6 @@
         "Weight": 10,
         "Min Group Count": 1,
         "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityPumpkinSlime",
-        "Weight": 5,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityCursedArmor",
-        "Weight": 1,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       }
     ],
     "Spawnable Water Creatures": [],
@@ -12572,11 +12189,11 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
-      "COLD",
+      "HILLS",
+      "MOUNTAIN",
       "SNOWY",
       "MAGICAL",
-      "MOUNTAIN",
-      "HILLS"
+      "COLD"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -12635,18 +12252,6 @@
         "Weight": 10,
         "Min Group Count": 1,
         "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityPumpkinSlime",
-        "Weight": 5,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityCursedArmor",
-        "Weight": 1,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       }
     ],
     "Spawnable Water Creatures": [
@@ -12689,12 +12294,12 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "COLD",
-      "MAGICAL",
-      "PLAINS",
-      "OCEAN",
       "DRY",
-      "WATER"
+      "PLAINS",
+      "WATER",
+      "MAGICAL",
+      "COLD",
+      "OCEAN"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -12714,18 +12319,6 @@
       {
         "Entity Class": "thaumcraft.common.entities.monster.EntityPech",
         "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityPumpkinSlime",
-        "Weight": 5,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityCursedArmor",
-        "Weight": 1,
         "Min Group Count": 1,
         "Max Group Count": 1
       }
@@ -12756,10 +12349,10 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SWAMP",
+      "PLAINS",
       "SNOWY",
       "MAGICAL",
-      "PLAINS"
+      "SWAMP"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -12800,18 +12393,6 @@
         "Weight": 10,
         "Min Group Count": 1,
         "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityPumpkinSlime",
-        "Weight": 5,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityCursedArmor",
-        "Weight": 1,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       }
     ],
     "Spawnable Water Creatures": [
@@ -12828,12 +12409,6 @@
         "Weight": 10,
         "Min Group Count": 8,
         "Max Group Count": 8
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityWisp",
-        "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       }
     ],
     "Spawn Biome": false,
@@ -12860,13 +12435,13 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
-      "COLD",
-      "SNOWY",
       "FOREST",
-      "DENSE",
-      "MAGICAL",
       "PLAINS",
-      "LUSH"
+      "DENSE",
+      "SNOWY",
+      "LUSH",
+      "MAGICAL",
+      "COLD"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -12907,18 +12482,6 @@
         "Weight": 10,
         "Min Group Count": 1,
         "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityPumpkinSlime",
-        "Weight": 5,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityCursedArmor",
-        "Weight": 1,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       }
     ],
     "Spawnable Water Creatures": [],
@@ -12947,9 +12510,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "MAGICAL",
+      "HILLS",
       "MOUNTAIN",
-      "HILLS"
+      "MAGICAL"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -12996,18 +12559,6 @@
         "Weight": 10,
         "Min Group Count": 1,
         "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityPumpkinSlime",
-        "Weight": 5,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityCursedArmor",
-        "Weight": 1,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       }
     ],
     "Spawnable Water Creatures": [],
@@ -13036,10 +12587,10 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SPOOKY",
-      "DENSE",
       "FOREST",
+      "SPOOKY",
       "PLAINS",
+      "DENSE",
       "LUSH"
     ],
     "BiomeManager Entries": {},
@@ -13087,18 +12638,6 @@
         "Weight": 3,
         "Min Group Count": 1,
         "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityPumpkinSlime",
-        "Weight": 5,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityCursedArmor",
-        "Weight": 1,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       }
     ],
     "Spawnable Water Creatures": [],
@@ -13127,10 +12666,10 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "DEAD",
-      "PLAINS",
       "DRY",
-      "SANDY"
+      "PLAINS",
+      "SANDY",
+      "DEAD"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -13157,18 +12696,6 @@
       {
         "Entity Class": "electroblob.wizardry.entity.living.EntityEvilWizard",
         "Weight": 3,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityPumpkinSlime",
-        "Weight": 5,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityCursedArmor",
-        "Weight": 1,
         "Min Group Count": 1,
         "Max Group Count": 1
       }
@@ -13219,12 +12746,6 @@
       {
         "Entity Class": "electroblob.wizardry.entity.living.EntityEvilWizard",
         "Weight": 3,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityPumpkinSlime",
-        "Weight": 5,
         "Min Group Count": 1,
         "Max Group Count": 1
       }
@@ -13437,9 +12958,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SWAMP",
+      "WATER",
       "WET",
-      "WATER"
+      "SWAMP"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -13458,14 +12979,7 @@
       }
     ],
     "Spawnable Water Creatures": [],
-    "Spawnable Cave Creatures": [
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityWisp",
-        "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      }
-    ],
+    "Spawnable Cave Creatures": [],
     "Spawn Biome": false,
     "Tweaked": false
   },
@@ -13490,11 +13004,11 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SWAMP",
-      "DENSE",
       "FOREST",
+      "DENSE",
+      "WATER",
       "WET",
-      "WATER"
+      "SWAMP"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -13516,23 +13030,10 @@
         "Weight": 10,
         "Min Group Count": 1,
         "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityPumpkinSlime",
-        "Weight": 5,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       }
     ],
     "Spawnable Water Creatures": [],
-    "Spawnable Cave Creatures": [
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityWisp",
-        "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      }
-    ],
+    "Spawnable Cave Creatures": [],
     "Spawn Biome": false,
     "Tweaked": false
   },
@@ -13557,8 +13058,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SWAMP",
-      "WATER"
+      "WATER",
+      "SWAMP"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -13577,14 +13078,7 @@
       }
     ],
     "Spawnable Water Creatures": [],
-    "Spawnable Cave Creatures": [
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityWisp",
-        "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      }
-    ],
+    "Spawnable Cave Creatures": [],
     "Spawn Biome": false,
     "Tweaked": false
   },
@@ -13609,9 +13103,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SWAMP",
+      "WATER",
       "WET",
-      "WATER"
+      "SWAMP"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -13630,14 +13124,7 @@
       }
     ],
     "Spawnable Water Creatures": [],
-    "Spawnable Cave Creatures": [
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityWisp",
-        "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      }
-    ],
+    "Spawnable Cave Creatures": [],
     "Spawn Biome": false,
     "Tweaked": false
   },
@@ -13662,10 +13149,10 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SWAMP",
-      "DEAD",
       "WASTELAND",
-      "WET"
+      "WET",
+      "DEAD",
+      "SWAMP"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -13681,23 +13168,10 @@
         "Weight": 3,
         "Min Group Count": 1,
         "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityCursedArmor",
-        "Weight": 1,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       }
     ],
     "Spawnable Water Creatures": [],
-    "Spawnable Cave Creatures": [
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityWisp",
-        "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      }
-    ],
+    "Spawnable Cave Creatures": [],
     "Spawn Biome": false,
     "Tweaked": false
   },
@@ -13722,9 +13196,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SWAMP",
+      "WATER",
       "WET",
-      "WATER"
+      "SWAMP"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -13743,14 +13217,7 @@
       }
     ],
     "Spawnable Water Creatures": [],
-    "Spawnable Cave Creatures": [
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityWisp",
-        "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      }
-    ],
+    "Spawnable Cave Creatures": [],
     "Spawn Biome": false,
     "Tweaked": false
   },
@@ -13775,9 +13242,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SWAMP",
+      "WATER",
       "WET",
-      "WATER"
+      "SWAMP"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -13796,14 +13263,7 @@
       }
     ],
     "Spawnable Water Creatures": [],
-    "Spawnable Cave Creatures": [
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityWisp",
-        "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      }
-    ],
+    "Spawnable Cave Creatures": [],
     "Spawn Biome": false,
     "Tweaked": false
   },
@@ -13828,11 +13288,11 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SWAMP",
-      "DENSE",
       "FOREST",
+      "DENSE",
+      "WATER",
       "WET",
-      "WATER"
+      "SWAMP"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -13854,23 +13314,10 @@
         "Weight": 10,
         "Min Group Count": 1,
         "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityPumpkinSlime",
-        "Weight": 5,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       }
     ],
     "Spawnable Water Creatures": [],
-    "Spawnable Cave Creatures": [
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityWisp",
-        "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      }
-    ],
+    "Spawnable Cave Creatures": [],
     "Spawn Biome": false,
     "Tweaked": false
   },
@@ -14125,12 +13572,6 @@
         "Weight": 6,
         "Min Group Count": 1,
         "Max Group Count": 4
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityPumpkinSlime",
-        "Weight": 5,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       }
     ],
     "Spawnable Water Creatures": [
@@ -14174,9 +13615,9 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "DRY",
-      "HOT",
       "SANDY",
-      "RARE"
+      "RARE",
+      "HOT"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -14518,8 +13959,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "FOREST",
       "HILLS",
+      "FOREST",
       "RARE"
     ],
     "BiomeManager Entries": {},
@@ -14711,12 +14152,6 @@
         "Weight": 10,
         "Min Group Count": 1,
         "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityPumpkinSlime",
-        "Weight": 5,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       }
     ],
     "Spawnable Water Creatures": [
@@ -14759,11 +14194,11 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "COLD",
-      "CONIFEROUS",
       "FOREST",
       "MOUNTAIN",
-      "RARE"
+      "RARE",
+      "COLD",
+      "CONIFEROUS"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -14960,12 +14395,6 @@
         "Weight": 10,
         "Min Group Count": 1,
         "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityPumpkinSlime",
-        "Weight": 5,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       }
     ],
     "Spawnable Water Creatures": [
@@ -15008,10 +14437,10 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SWAMP",
       "HILLS",
+      "RARE",
       "WET",
-      "RARE"
+      "SWAMP"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -15188,12 +14617,6 @@
         "Weight": 10,
         "Min Group Count": 8,
         "Max Group Count": 8
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityWisp",
-        "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       }
     ],
     "Spawn Biome": false,
@@ -15220,10 +14643,10 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
-      "COLD",
-      "SNOWY",
       "HILLS",
-      "RARE"
+      "RARE",
+      "SNOWY",
+      "COLD"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -15420,12 +14843,12 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
+      "MOUNTAIN",
       "DENSE",
+      "RARE",
       "JUNGLE",
       "HOT",
-      "MOUNTAIN",
-      "WET",
-      "RARE"
+      "WET"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -15640,11 +15063,11 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "JUNGLE",
-      "HOT",
-      "SPARSE",
       "HILLS",
-      "RARE"
+      "SPARSE",
+      "RARE",
+      "JUNGLE",
+      "HOT"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -15847,9 +15270,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
+      "HILLS",
       "FOREST",
       "DENSE",
-      "HILLS",
       "RARE"
     ],
     "BiomeManager Entries": {},
@@ -16035,12 +15458,6 @@
         "Weight": 10,
         "Min Group Count": 1,
         "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityPumpkinSlime",
-        "Weight": 5,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       }
     ],
     "Spawnable Water Creatures": [
@@ -16084,8 +15501,8 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "FOREST",
-      "DENSE",
       "MOUNTAIN",
+      "DENSE",
       "RARE"
     ],
     "BiomeManager Entries": {},
@@ -16263,12 +15680,6 @@
       {
         "Entity Class": "party.lemons.corvus.entity.EntityWendigo",
         "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityPumpkinSlime",
-        "Weight": 5,
         "Min Group Count": 1,
         "Max Group Count": 1
       }
@@ -16314,9 +15725,9 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "SPOOKY",
-      "DENSE",
       "FOREST",
       "MOUNTAIN",
+      "DENSE",
       "RARE"
     ],
     "BiomeManager Entries": {},
@@ -16496,18 +15907,6 @@
         "Weight": 10,
         "Min Group Count": 1,
         "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityPumpkinSlime",
-        "Weight": 5,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityCursedArmor",
-        "Weight": 1,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       }
     ],
     "Spawnable Water Creatures": [
@@ -16550,12 +15949,12 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
-      "COLD",
-      "CONIFEROUS",
       "FOREST",
-      "SNOWY",
       "MOUNTAIN",
-      "RARE"
+      "RARE",
+      "SNOWY",
+      "COLD",
+      "CONIFEROUS"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -16752,12 +16151,6 @@
         "Weight": 10,
         "Min Group Count": 1,
         "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityPumpkinSlime",
-        "Weight": 5,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       }
     ],
     "Spawnable Water Creatures": [
@@ -16800,8 +16193,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "DENSE",
       "FOREST",
+      "DENSE",
       "RARE"
     ],
     "BiomeManager Entries": {},
@@ -16993,12 +16386,6 @@
         "Weight": 10,
         "Min Group Count": 1,
         "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityPumpkinSlime",
-        "Weight": 5,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       }
     ],
     "Spawnable Water Creatures": [
@@ -17041,9 +16428,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "DENSE",
-      "FOREST",
       "HILLS",
+      "FOREST",
+      "DENSE",
       "RARE"
     ],
     "BiomeManager Entries": {},
@@ -17239,12 +16626,6 @@
       {
         "Entity Class": "party.lemons.corvus.entity.EntityWendigo",
         "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.jarhax.eerieentities.entities.EntityPumpkinSlime",
-        "Weight": 5,
         "Min Group Count": 1,
         "Max Group Count": 1
       }
@@ -17476,12 +16857,12 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SAVANNA",
-      "DRY",
-      "HOT",
-      "MOUNTAIN",
       "SPARSE",
-      "RARE"
+      "MOUNTAIN",
+      "DRY",
+      "RARE",
+      "HOT",
+      "SAVANNA"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -17666,12 +17047,12 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SAVANNA",
-      "DRY",
-      "HOT",
-      "SPARSE",
       "HILLS",
-      "RARE"
+      "SPARSE",
+      "DRY",
+      "RARE",
+      "HOT",
+      "SAVANNA"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -17856,11 +17237,11 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "DRY",
-      "HOT",
-      "MOUNTAIN",
       "SPARSE",
-      "RARE"
+      "MOUNTAIN",
+      "DRY",
+      "RARE",
+      "HOT"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -18009,11 +17390,11 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "DRY",
-      "HOT",
-      "SPARSE",
       "HILLS",
-      "RARE"
+      "SPARSE",
+      "DRY",
+      "RARE",
+      "HOT"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -18162,11 +17543,11 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "DRY",
-      "HOT",
-      "MOUNTAIN",
       "SPARSE",
-      "RARE"
+      "MOUNTAIN",
+      "DRY",
+      "RARE",
+      "HOT"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [

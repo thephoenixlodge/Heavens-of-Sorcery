@@ -1,0 +1,41 @@
+{
+    "name": "Architectural Shapes",
+    "icon": "architecturecraft:sawbench",
+    "category": "useful_things/building_tools",
+    "advancement": "heavens:bookchap1/6iron",
+    "pages": [
+        {
+            "type": "text",
+            "anchor": "architecture",
+            "advancement": "heavens:bookchap1/6iron",
+            "text": "With an $(item)Architect's Sawbench$() you can make various shapes from your blocks to help accent your builds.$(br2)With most of the shapes, you can place $(item)Cladding$() (from the 'Other' tab of the sawbench) to have a secondary texture on some faces.$(br2)$(item)Window$() shapes can have $(item)Glass Panes$() added after placing."
+        },
+        {
+            "type": "crafting",
+            "advancement": "heavens:bookchap1/6iron",
+            "recipe": "architecturecraft:tile.architecturecraft.sawbench0",
+            "title": "Architect's Sawbench",
+            "text": "Input the blocks you want to shape in the top left, and select which shape you want. Different shapes give different amounts per block used."
+        },
+        {
+            "type": "crafting",
+            "advancement": "heavens:bookchap1/6iron",
+            "recipe": "architecturecraft:item.architecturecraft.sawblade1",
+            "recipe2": "architecturecraft:item.architecturecraft.largepulley2"
+        },
+        {
+            "type": "crafting",
+            "advancement": "heavens:bookchap1/6iron",
+            "recipe": "crafttweaker:ct_shaped1682713095",
+            "title": "Architect's Hammer",
+            "text": "Right Click to rotate a shape around it's $(thing)Vertical Axis$(). Shift-Right Click to Change shape orientation."
+        },
+        {
+            "type": "crafting",
+            "advancement": "heavens:bookchap1/6iron",
+            "recipe": "crafttweaker:ct_shapeless-263565808",
+            "title": "Architect's Chisel",
+            "text": "Right Click to disable/re-enable connections between shape blocks. Can remove $(item)Cladding$()from shape blocks, and $(item)Panes$() from $(item)Window$() shapes. $(br)Can also be used to harvest vanilla $(item)Glass$(), $(item)Glass Panes$(), $(item)Glowstone$() and $(item)Ice$() akin to Silk Touch."
+        }
+    ]
+}

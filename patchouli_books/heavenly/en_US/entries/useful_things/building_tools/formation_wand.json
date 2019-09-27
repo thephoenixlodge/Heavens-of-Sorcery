@@ -1,0 +1,26 @@
+{
+    "name": "Formation Wand",
+    "icon": "astralsorcery:itemarchitectwand",
+    "category": "useful_things/building_tools",
+    "advancement": "heavens:bookchap3/14starlightaltar",
+    "pages": [
+        {
+            "type": "text",
+            "advancement": "heavens:bookchap3/14starlightaltar",
+            "text": "$(item)Similsax Transtructors$() can build away from you, though somewhat slowly. Sometimes you need a more instant placement method however. The $(item)Formation Wand$() will instantly build towards you from the block face you target, up to a maximum of 19 blocks placed. Shift-Right-Click a block to select which block(s) to place. If more than one, a random mix will be placed. Left-Click to clear selection."
+        },
+        {
+            "type": "altar_starlight",
+            "advancement": "heavens:bookchap3/14starlightaltar",
+            "Heading": "Formation Wand",
+            "output_item": "astralsorcery:itemarchitectwand",
+            "item2": "astralsorcery:itemcraftingcomponent:2",
+            "item3": "aether_legacy:zanite_gemstone",
+            "item4": "aether_legacy:zanite_gemstone",
+            "item5": "astralsorcery:blockmarble:6",
+            "item6": "astralsorcery:itemcraftingcomponent:2",
+            "item7": "astralsorcery:blockmarble:6",
+            "item12": "astralsorcery:blockmarble:6"
+        }
+    ]
+}

@@ -1,0 +1,104 @@
+{
+    "name": "Framed Blocks",
+    "icon": "blockcraftery:editable_block",
+    "category": "useful_things/building_tools",
+    "advancement": "heavens:bookchap1/0wand",
+    "pages": [
+        {
+            "type": "text",
+            "anchor": "framed",
+            "advancement": "heavens:bookchap1/0wand",
+            "title": "Framed Blocks",
+            "text": "Sometimes there's just no way to have the block you want, in the shape you want it. For such times, there's a variety of $(item)Framed Blocks$(). Simply Right-Click a block onto it to apply the texture, and Shift-Right-Click with an empty hand to remove it."
+        },
+        {
+            "type": "crafting",
+            "title": "Blocks & Slabs",
+            "recipe": "blockcraftery:editable_block",
+            "recipe2": "blockcraftery:editable_slab"
+        },
+        {
+            "type": "crafting",
+            "title": "Stairs & Slants",
+            "recipe": "blockcraftery:editable_stairs",
+            "recipe2": "blockcraftery:editable_slant"
+        },
+        {
+            "type": "crafting",
+            "title": "Slant Corners",
+            "recipe": "blockcraftery:editable_outer_corner",
+            "recipe2": "blockcraftery:editable_inner_corner"
+        },
+        {
+            "type": "crafting",
+            "title": "Walls & Fences",
+            "recipe": "blockcraftery:editable_wall",
+            "recipe2": "blockcraftery:editable_fence"
+        },
+        {
+            "type": "crafting",
+            "title": "Doors & Trapdoors",
+            "recipe": "blockcraftery:editable_door",
+            "recipe2": "blockcraftery:editable_trap_door"
+        },
+        {
+            "type": "crafting",
+            "title": "Pressure Plates",
+            "recipe": "crafttweaker:ct_shaped1233125827",
+            "text": "Can be changed to different variants which only detect $(thing)Players$(), $(thing)Mobs$() or $(thing)Items$() by using a $(l:useful_things/building_tools/chisel)[Chisel]$()."
+        },
+        {
+            "type": "empty",
+            "draw_filler": "false"
+        },
+        {
+            "type": "text",
+            "anchor": "framed",
+            "advancement": "heavens:bookchap1/6iron",
+            "title": "Reinforced Blocks",
+            "text": "$(item)Framed Blocks$() can also be reinforced with iron, making them both fire-proof, and blast resistant."
+        },
+        {
+            "type": "crafting",
+            "title": "Reinforced Blocks",
+            "advancement": "heavens:bookchap1/6iron",
+            "recipe": "blockcraftery:editable_block_reinforced",
+            "recipe2": "blockcraftery:editable_block_reinforced_upgrade"
+        },
+        {
+            "type": "crafting",
+            "title": "Stairs & Slants",
+            "advancement": "heavens:bookchap1/6iron",
+            "recipe": "blockcraftery:editable_stairs_reinforced",
+            "recipe2": "blockcraftery:editable_slant_reinforced"
+        },
+        {
+            "type": "crafting",
+            "title": "Slant Corners",
+            "advancement": "heavens:bookchap1/6iron",
+            "recipe": "blockcraftery:editable_outer_corner_reinforced",
+            "recipe2": "blockcraftery:editable_inner_corner_reinforced"
+        },
+        {
+            "type": "crafting",
+            "title": "Walls & Fences",
+            "advancement": "heavens:bookchap1/6iron",
+            "recipe": "blockcraftery:editable_wall_reinforced",
+            "recipe2": "blockcraftery:editable_fence_reinforced"
+        },
+        {
+            "type": "crafting",
+            "title": "Doors & Trapdoors",
+            "advancement": "heavens:bookchap1/6iron",
+            "recipe": "blockcraftery:editable_door_reinforced",
+            "recipe2": "blockcraftery:editable_trap_door_reinforced"
+        },
+        {
+            "type": "crafting",
+            "title": "Pressure Plates & Slabs",
+            "advancement": "heavens:bookchap1/6iron",
+            "recipe": "crafttweaker:ct_shaped54775507",
+            "recipe2": "blockcraftery:editable_slab_reinforced"
+        }
+    ]
+}

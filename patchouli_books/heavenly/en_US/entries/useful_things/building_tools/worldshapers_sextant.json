@@ -1,0 +1,19 @@
+{
+    "name": "Worldshaper's Sextant",
+    "icon": "botania:sextant",
+    "category": "useful_things/building_tools",
+    "advancement": "heavens:bookchap3/5managen",
+    "pages": [
+        {
+            "type": "text",
+            "advancement": "heavens:bookchap3/5managen",
+            "text": "Circles suck. So much so that it's typically easier to use a tool to help build them. That's where the $(item)Worldshaper's Sextant$() comes in. Look at the block you wish to be the centre, then, while holding Right-Click, look out toward where you wish the edge to be. When you release Right-Click, it will project an image to help you build your circle."
+        },
+        {
+            "type": "crafting",
+            "advancement": "heavens:bookchap1/6iron",
+            "recipe": "botania:sextant",
+            "text": "Requires a source of $(thing)Mana$() in your inventory, such as a $(item)Mana Tablet$()."
+        }
+    ]
+}

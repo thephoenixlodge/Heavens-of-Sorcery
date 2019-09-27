@@ -1,0 +1,17 @@
+{
+    "name": "Measuring Tape",
+    "icon": "chiselsandbits:tape_measure",
+    "category": "useful_things/building_tools",
+    "advancement": "heavens:bookchap2/15misty",
+    "pages": [
+        {
+            "type": "text",
+            "advancement": "heavens:bookchap2/15misty",
+            "text": "If you're ever unsure of a distance, you can make a trusty $(item)Tape Measure$() to help. It can measure distances in $(l:useful_things/building_tools/bits)Bits$(), or in whole blocks, either as a direct line, or as the dimensions of the area selected. To change modes, hold $(k:mod.chiselsandbits.other.mode). To select the area to measure, hold Right-Click from start to end point. The distance will be displayed as floating numbers, halfway along the distance measured."
+        },
+        {
+            "type": "crafting",
+            "recipe": "chiselsandbits:tape_measure"
+        }
+    ]
+}

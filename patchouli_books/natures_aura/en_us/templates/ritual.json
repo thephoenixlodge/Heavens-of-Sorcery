@@ -1,0 +1,98 @@
+{
+	"components": [
+		{
+			"type": "header",
+			"text": "#heading",
+			"x": -1,
+			"y": -1
+		},
+		{
+			"type": "image",
+			"image": "books:templates/arrow_ritual.png",
+			"texture_width": 64,
+			"texture_height": 32,
+			"width": 11,
+			"height": 21,
+			"scale": 2,
+			"x": 47,
+			"y": 35
+		},
+		{
+			"type": "item",
+			"item": "arcaneworld:ritual_table",
+			"x": 50,
+			"y": 78
+		},
+		{
+			"type": "item",
+			"item": "#output_item",
+			"framed": "true",
+			"x": 50,
+			"y": 15
+		},
+		{
+			"type": "image",
+			"image": "books:templates/ritual_portal.png",
+			"texture_width": 16,
+			"texture_height": 16,
+			"width": 16,
+			"height": 16,
+			"x": 50,
+			"y": 15
+		},
+		{
+			"type": "tooltip",
+			"tooltip": ["#tip"],
+			"guard": "#tip->exists",
+			"width": 20,
+			"height": 20,
+			"x": 50,
+			"y": 15
+		},
+		{
+			"type": "item",
+			"item": "#item1",
+			"framed": "true",
+			"x": 50,
+			"y": 100
+		},
+		{
+			"type": "item",
+			"item": "#item2",
+			"guard": "#item2->iexists",
+			"framed": "true",
+			"x": 22,
+			"y": 83
+		},
+		{
+			"type": "item",
+			"item": "#item3",
+			"guard": "#item3->iexists",
+			"framed": "true",
+			"x": 78,
+			"y": 83
+		},
+		{
+			"type": "item",
+			"item": "#item4",
+			"guard": "#item4->iexists",
+			"framed": "true",
+			"x": 19,
+			"y": 57
+		},
+		{
+			"type": "item",
+			"item": "#item5",
+			"guard": "#item5->iexists",
+			"framed": "true",
+			"x": 83,
+			"y": 57
+		},
+		{
+			"type": "text",
+			"text": "#description",
+			"x": 2,
+			"y": 120
+		}
+	]
+}

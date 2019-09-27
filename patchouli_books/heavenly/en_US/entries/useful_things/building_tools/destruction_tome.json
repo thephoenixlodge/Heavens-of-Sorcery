@@ -1,0 +1,28 @@
+{
+    "name": "Tome of Destruction",
+    "icon": "buildinggadgets:destructiontool",
+    "category": "useful_things/building_tools",
+    "advancement": "heavens:bookchap3/16emberbore",
+    "pages": [
+        {
+            "type": "text",
+            "advancement": "heavens:bookchap3/14starlightaltar",
+            "text": "Sometimes you just want to clear large amounts of space, and care little for the materials that currently occupy it. In this case, a $(item)Tome of Destruction$() can help, as it efficiently clears space, whilst voiding anything that would otherwise drop.$(br)Can Undo the single most recent action."
+        },
+        {
+            "type": "ritual",
+            "output_item": "buildinggadgets:destructiontool",
+            "item1": "minecraft:book",
+            "item2": "arcaneworld:amethyst",
+            "item3": "arcaneworld:amethyst",
+            "item4": "arcaneworld:molten_core",
+            "heading": "Tome of Destruction",
+            "description": "Hold $(k:settings_menu) to toggle settings. Shift-Right-Click in midair to configure area to void."
+        },
+        {
+            "type": "text",
+            "title": "Modes/Settings",
+            "text": "$(l)Show Overlay:$() Toggle to Enable/Disable the preview showing which blocks will be voided.$(br)$(l)Anchor:$() Toggle to hold the preview in place, allowing you to move around and check before finalizing destruction.$(br)$(l)Raytrace Fluid:$() Toggle on to allow exchanging of fluids.$(br)$(l)Connected Area:$() Toggle to only exchange blocks physically connected to the block clicked."
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "name": "Builder's Wands",
+    "icon": "betterbuilderswands:wanddiamond",
+    "category": "useful_things/building_tools",
+    "advancement": "heavens:bookchap1/6iron",
+    "pages": [
+        {
+            "type": "text",
+            "advancement": "heavens:bookchap1/6iron",
+            "text": "These wands allow placement of large amounts of materials. Hover over the side of a block to see a preview of where blocks of the $(l)same type$() will be placed against all identical connected blocks.$(br)More expensive wands have more durability and can place more blocks at once.$(br)$(thing)Placement Mode$() can be changed with $(k:bbw.key.mode). $(thing)Fluid Placement Mode$() can be changed with $(k:bbw.key.fluidmode)."
+        },
+        {
+            "type": "crafting",
+            "advancement": "heavens:bookchap1/6iron",
+            "recipe": "betterbuilderswands:recipewandiron",
+            "text": "Durability: 250 $(br)Max blocks to place: 9 $(br2)Vertical and Horizontal Placement Mode only, cannot change Fluid Mode."
+        },
+        {
+            "type": "crafting",
+            "advancement": "heavens:bookchap1/9diamond",
+            "recipe": "betterbuilderswands:recipewanddiamond",
+            "text": "Durability: 1561 $(br)Max blocks to place: 1561 $(br2)All Placement and Fluid modes available."
+        },
+        {
+            "type": "crafting",
+            "advancement": "heavens:bookchap1/9diamond",
+            "recipe": "betterbuilderswands:recipewandunbreakable",
+            "text": "Durability: Infinite $(br)Max blocks to place: 4096 $(br2)Combine two of these to double the number of blocks it can place, up to a max of 16384.$(br2)All Placement and Fluid modes available."
+        }
+    ]
+}
