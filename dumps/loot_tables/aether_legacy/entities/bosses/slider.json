@@ -1,0 +1,64 @@
+{
+  "pools": [
+    {
+      "name": "key",
+      "entries": [
+        {
+          "entryName": "aether_legacy:dungeon_key",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": 0.0,
+              "function": "minecraft:looting_enchant"
+            },
+            {
+              "data": 0.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "aether_legacy:dungeon_key"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "stone",
+      "entries": [
+        {
+          "entryName": "aether_legacy:dungeon_block",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 7.0,
+                "max": 10.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 3.0
+              },
+              "function": "minecraft:looting_enchant"
+            },
+            {
+              "data": 0.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "aether_legacy:dungeon_block"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

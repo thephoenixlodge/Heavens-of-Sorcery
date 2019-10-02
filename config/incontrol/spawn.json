@@ -1,24 +1,5 @@
 [
 	{
-		"mob": "embers:ancient_golem",
-		"dimension": -3,
-		"maxcount": 20,
-		"maxheight": 42,
-		"result": "allow"
-	},
-	{
-		"mob": "artifacts:mimic",
-		"dimension": -3,
-		"maxcount": 1,
-		"maxheight": 42,
-		"result": "allow"
-	},
-	{
-		"hostile": true,
-		"dimension": -3,
-		"result": "deny"
-	},
-	{
 		"hostile": true,
 		"dimension": 0,
 		"result": "deny"	

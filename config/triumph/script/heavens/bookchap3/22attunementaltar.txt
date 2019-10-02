@@ -5,6 +5,7 @@ setTitle("In Tune")
 setDescription("Build an Attunement Altar")
 
 addParent("heavens:bookchap3/18linkingtool")
+addParent("heavens:bookchap3/23telescope")
 
 setRequiresParents()
 

@@ -1,0 +1,38 @@
+{
+    "name": "Templates",
+    "icon": "buildinggadgets:template",
+    "category": "useful_things/building_tools",
+    "advancement": "heavens:bookchap3/0niobium",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Further expanding the utility of the $(l:useful_things/building_tools/transferrence_tome)Tome of Transferrence$(), you can use $(item)Templates$() to store copied structures for later reuse, both as an item, and as a text string that can be shared with other people.$(br)All of this is done with the $(item)Template Manager$()"
+        },
+        {
+            "type": "ritual",
+            "output_item": "buildinggadgets:templatemanager",
+            "item1": "minecraft:bookshelf",
+            "item2": "minecraft:gold_block",
+            "item3": "wizardry:wisdom_wood_pigmented_planks",
+            "item4": "arcaneworld:sapphire",
+            "item5": "wizardry:nacre_pearl",
+            "heading": "Template Manager",
+            "description": "Used to write $(thing)Templates$() to/from $(item)Paper$() and the $(item)Tome of Transferrence$()."
+        },
+        {
+            "type": "text",
+            "title": "Template Manager",
+            "text": "$(l)Save:$() Saves the structure stored in the $(item)Template$() or $(item)Tome of Transferrence$()in the left slot to a $(item)Template$() or piece of $(item)Paper$() in the right slot.$(br2)$(l)Load:$() Loads the structure from a $(item)Template$() in the right slot to a $(item)Tome$() or $(item)Template$() in the left slot."
+        },
+        {
+            "type": "text",
+            "text": "$(l)Copy:$() Copies the structure from a $(item)Tome$() or $(item)Template$() in the left slot directly to your computer clipboard for sharing with others.$(br2)$(l)Paste:$() Paste structure data from your computer clipboard onto a $(item)Template$() or piece of $(item)Paper$() in the right slot. Many premade templates for various multiblock structures such as altars are available in the Multiblock Index."
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "useful_things/building_tools/transferrence_tome"
+            ]
+        }
+    ]
+}

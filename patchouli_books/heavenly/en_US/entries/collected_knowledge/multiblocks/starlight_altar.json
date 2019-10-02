@@ -1,0 +1,42 @@
+{
+    "name": "Starlight Crafting Altar",
+    "icon": "astralsorcery:blockaltar:1",
+    "category": "collected_knowledge/multiblocks",
+    "advancement": "heavens:bookchap3/12lightwell",
+    "pages": [
+        {
+            "type": "multiblock_bill",
+            "item1": "astralsorcery:blockaltar:1",
+            "item2": "astralsorcery:blockmarble:4#8",
+            "item3": "astralsorcery:blockmarble:3#28",
+            "item4": "astralsorcery:blockmarble:1#24",
+            "item5": "astralsorcery:blockblackmarble#21",
+            "item6": "astralsorcery:blockmarble:2#8"
+        },
+        {
+            "type": "multiblock",
+            "name": "Starlight Crafting Altar",
+            "multiblock": {
+                "pattern": [
+                    [ "         ", " C     C ", "         ", "         ", "         ", "         ", "         ", " C     C ", "         " ],
+                    [ "         ", " P     P ", "         ", "         ", "         ", "         ", "         ", " P     P ", "         " ],
+                    [ "         ", " P     P ", "         ", "         ", "    0    ", "         ", "         ", " P     P ", "         " ],
+                    [ " AAAAAAA ", "ACBBBBBCA", "ABSSBSSBA", "ABSSSSSBA", "ABBSSSBBA", "ABSSSSSBA", "ABSSBSSBA", "ACBBBBBCA", " AAAAAAA " ]
+                ],
+                "mapping": {
+                    " ": "ANY",
+                    "0": "astralsorcery:blockaltar[altartype=altar_2]",
+                    "S": "astralsorcery:blockblackmarble",
+                    "B": "astralsorcery:blockmarble[marbletype=bricks]",
+                    "C": "astralsorcery:blockmarble[marbletype=chiseled]",
+                    "A": "astralsorcery:blockmarble[marbletype=arch]",
+                    "P": "astralsorcery:blockmarble[marbletype=pillar_bottom]"
+                },
+                "symmetrical": true,
+                "offset"     : [0, 0, 0],
+                "view_offset": [0, 0, 0]
+            },
+            "text": "$(l)$(l:https://pastebin.com/S4bCmc3s)Structure Template Link$()$(br)Note: Excludes Tile Entities"
+        }
+    ]
+}

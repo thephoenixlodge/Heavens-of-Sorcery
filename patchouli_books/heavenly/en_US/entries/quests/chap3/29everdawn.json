@@ -1,0 +1,47 @@
+{
+    "name": "In Blackest Night",
+    "icon": "blue_skies:everdawn_portal",
+    "category": "quests/chap3",
+    "sortnum": 29,
+    "advancement": "heavens:bookchap3/27freezer",
+    "turnin": "heavens:bookchap3/29everdawn",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "In Blackest Night",
+            "trigger": "heavens:bookchap3/29everdawn",
+            "text": "With your strength and knowledge further expanded, lets look to open some new dimensions. The second of these is the $(thing)Everdawn$(), a place where dawn eternally sits on the horizon. Be wary of what awaits lurking in the shadows."
+        },
+        {
+        	"type": "location",
+            "icon": "books:templates/everdawn_preview.png",
+            "location": "The Everdawn",
+            "reward1": "minecraft:enchanted_book{StoredEnchantments: [{lvl: 1, id: 70}]}",
+            "reward2": "blue_skies:lunar_stone#200"
+        },
+        {
+            "type": "multiblock",
+            "name": "Everdawn Portal",
+            "text": "Activate with a $(item)Zeal Lighter$()",
+            "multiblock": {
+            "pattern": [
+                [ " ", "O", "O", " " ],
+                [ "O", "P", "P", "O" ],
+                [ "O", "P", "P", "O" ],
+                [ "O", "P", "P", "O" ],
+                [ " ", "O", "0", " " ],
+                [ " ", " ", " ", " " ]
+            ],
+            "mapping": {
+                " ": "ANY",
+                "0": "blue_skies:lunar_stonebrick",
+                "O": "blue_skies:lunar_stonebrick",
+                "P": "AIR"
+            },
+            "symmetrical": false,
+            "offset"     : [0, 0, 0],
+            "view_offset": [0, 0, 0]
+            }
+        }
+    ]
+}

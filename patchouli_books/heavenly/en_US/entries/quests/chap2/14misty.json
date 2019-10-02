@@ -41,7 +41,7 @@
         },
         {
             "type": "multiblock",
-            "name": "Aether Portal",
+            "name": "Misty World Portal",
             "text": "Warning: $(item)Gold Block$() is lost if portal is broken.",
             "multiblock": {
             "pattern": [

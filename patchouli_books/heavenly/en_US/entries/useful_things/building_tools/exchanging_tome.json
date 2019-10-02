@@ -31,6 +31,13 @@
         {
             "type": "text",
             "text": "$(l)Grid:$() Exchanges in a square grid with space inbetween each exchanged block. Behaves slightly differently depending on the Range setting. $(br)For Range 1-6: 3x3 grid, where range = space between each block exchanged.$(br)For Range 7-12: 11x11 grid, where range-6 = space between each block exchanged.$(br)For Range 13-15: 19x19 grid, where range-12 = space between each block exchanged."
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "useful_things/building_tools/conversion_wand",
+                "useful_things/building_tools/construction_paste"
+            ]
         }
     ]
 }

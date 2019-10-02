@@ -32,6 +32,22 @@
         }
       ],
       "rolls": 1.0
+    },
+    {
+      "name": "MysticalWorld",
+      "entries": [
+        {
+          "entryName": "MysticalWorld",
+          "weight": 100,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "mysticalworld:entity/squid_inject"
+        }
+      ],
+      "rolls": {
+        "min": 0.0,
+        "max": 2.0
+      }
     }
   ]
 }

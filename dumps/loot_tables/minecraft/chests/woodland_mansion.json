@@ -312,27 +312,114 @@
       "rolls": 3.0
     },
     {
-      "name": "bewitchment_saplings_pool",
+      "name": "custom_avatar_loot_pools",
       "entries": [
         {
-          "entryName": "bewitchment_saplings_entry",
-          "weight": 5,
-          "quality": 0,
-          "type": "loot_table",
-          "name": "bewitchment:chests/saplings"
+          "entryName": "empty",
+          "weight": 0,
+          "quality": 1,
+          "type": "empty"
+        },
+        {
+          "entryName": "custom_0",
+          "weight": 100,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 1.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "tag": "{}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "avatarmod:scroll"
         }
       ],
-      "rolls": 3.0
+      "rolls": 1.0,
+      "bonus_rolls": 1.0
     },
     {
-      "name": "bewitchment_jewels_pool",
+      "name": "MysticalWorld",
       "entries": [
         {
-          "entryName": "bewitchment_jewels_entry",
+          "entryName": "MysticalWorld",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "mysticalworld:chests/inject"
+        }
+      ],
+      "rolls": 1.0,
+      "bonus_rolls": 1.0
+    },
+    {
+      "name": "bewitchment_materials_pool",
+      "entries": [
+        {
+          "entryName": "bewitchment_materials_entry",
           "weight": 5,
           "quality": 0,
           "type": "loot_table",
-          "name": "bewitchment:chests/jewels"
+          "name": "bewitchment:chests/materials"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "chest_treasure",
+      "entries": [
+        {
+          "entryName": "tombstone:scroll_buff",
+          "weight": 5,
+          "quality": -2,
+          "type": "item",
+          "functions": [
+            {
+              "data": {
+                "min": 0.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_data"
+            },
+            {
+              "tag": "{enchant:1b}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "tombstone:scroll_buff"
+        },
+        {
+          "entryName": "tombstone:scroll_of_knowledge",
+          "weight": 1,
+          "quality": -2,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{stored_xp:2000}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "tombstone:scroll_of_knowledge"
+        },
+        {
+          "entryName": "tombstone:lost_tablet",
+          "weight": 1,
+          "quality": -2,
+          "type": "item",
+          "name": "tombstone:lost_tablet"
+        },
+        {
+          "entryName": "empty",
+          "weight": 93,
+          "quality": 0,
+          "type": "empty"
         }
       ],
       "rolls": 1.0

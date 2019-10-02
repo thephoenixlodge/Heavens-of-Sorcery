@@ -1,0 +1,81 @@
+{
+    "name": "Infused with Light",
+    "icon": "astralsorcery:blockstarlightinfuser",
+    "category": "quests/chap3",
+    "sortnum": 25,
+    "advancement": "heavens:bookchap3/24celestialaltar",
+    "turnin": "heavens:bookchap3/25starlightinfuser",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "Infused with Light",
+            "trigger": "heavens:bookchap3/25starlightinfuser",
+            "text": "Now your $(item)Celestial Altar$() is strong enough to craft the $(item)Starlight Infuser$(). This device uses $(item)Liquid Starlight$() from the pool around it to infuse items with $(thing)Starlight$(), making them able to channel it much more effectively."
+        },
+        {
+            "type": "checklist_end",
+            "item1": "astralsorcery:blockstarlightinfuser#1",
+            "reward1": "astralsorcery:itemcraftingcomponent:4#2",
+            "reward2": "astralsorcery:itemcraftingcomponent:0#20"
+        },
+        {
+            "type": "altar_celestial",
+            "heading": "Starlight Infuser",
+            "output_item": "astralsorcery:blockstarlightinfuser",
+            "item1": "contenttweaker:rune_starlight",
+            "item2": "astralsorcery:itemcraftingcomponent:1",
+            "item3": "contenttweaker:rune_starlight",
+            "item4": "astralsorcery:itemcraftingcomponent:0",
+            "item5": "forge:bucketfilled{FluidName: \"astralsorcery.liquidstarlight\", Amount: 1000}",
+            "item6": "astralsorcery:itemcraftingcomponent:0",
+            "item7": "embers:ingot_bronze",
+            "item8": "astralsorcery:blockmarble:6",
+            "item9": "embers:ingot_bronze",
+            "item12": "astralsorcery:blockmarble:4",
+            "item13": "astralsorcery:blockmarble:4",
+            "item16": "astralsorcery:blockmarble:5",
+            "item17": "astralsorcery:blockmarble:5",
+            "item18": "astralsorcery:blockmarble:2",
+            "item19": "astralsorcery:blockmarble:2",
+            "item20": "astralsorcery:blockmarble:2",
+            "item21": "astralsorcery:blockmarble:2"
+        },
+        {
+            "type": "multiblock",
+            "name": "Starlight Infuser",
+            "multiblock": {
+                "pattern": [
+                    [ "  AAA  ", "       ", "A     A", "A     A", "A     A", "       ", "  AAA  " ],
+                    [ " A   A ", "A     A", "       ", "       ", "       ", "A     A", " A   A " ],
+                    [ "C     C", "       ", "       ", "       ", "       ", "       ", "C     C" ],
+                    [ "P     P", "       ", "       ", "       ", "       ", "       ", "P     P" ],
+                    [ "P     P", "       ", "       ", "   0   ", "       ", "       ", "P     P" ],
+                    [ " AAAAA ", "ARLLLRA", "ALRRRLA", "ALRBRLA", "ALRRRLA", "ARLLLRA", " AAAAA " ],
+                    [ "       ", "  MMM  ", " M   M ", " M   M ", " M   M ", "  MMM  ", "       " ]
+                ],
+                "mapping": {
+                    " ": "ANY",
+                    "0": "astralsorcery:blockstarlightinfuser",
+                    "M": "astralsorcery:blockmarble[marbletype=raw]",
+                    "C": "astralsorcery:blockmarble[marbletype=chiseled]",
+                    "B": "minecraft:lapis_block",
+                    "P": "astralsorcery:blockmarble[marbletype=pillar]",
+                    "R": "astralsorcery:blockmarble[marbletype=runed]",
+                    "S": "astralsorcery:blockblackmarble[marbletype=raw]",
+                    "A": "astralsorcery:blockmarble[marbletype=arch]",
+                    "L": "astralsorcery:fluidblockliquidstarlight"
+                },
+                "symmetrical": true,
+                "offset"     : [0, 0, 0],
+                "view_offset": [0, 0, 0]
+            },
+            "text": "$(l:https://pastebin.com/M2TqpqnE)Pastebin of Structure$(/l) for use with $(l:useful_things/building_tools/templates)Template Manager$()"
+        },
+        {
+            "type": "starlight_infuser",
+            "heading": "Resonating Gem",
+            "output_item": "astralsorcery:itemcraftingcomponent:4",
+            "input": "astralsorcery:itemcraftingcomponent:0"
+        }
+    ]
+}

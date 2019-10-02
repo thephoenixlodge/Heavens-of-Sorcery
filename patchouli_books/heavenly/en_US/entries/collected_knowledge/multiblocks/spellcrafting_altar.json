@@ -1,0 +1,55 @@
+{
+    "name": "Spellcrafting Altar",
+    "icon": "wizardry:crafting_plate",
+    "category": "collected_knowledge/multiblocks",
+    "advancement": "heavens:bookchap2/5halo",
+    "pages": [
+        {
+            "type": "multiblock_bill_many",
+            "item1": "wizardry:crafting_plate#1",
+            "item2": "wizardry:pearl_holder#4",
+            "item3": "wizardry:wisdom_wood_log#12",
+            "item4": "wizardry:wisdom_wood_planks#4",
+            "item5": "wizardry:wisdom_wood_pigmented_planks#12",
+            "item6": "wizardry:wisdom_wood_stairs#16",
+            "item7": "minecraft:quartz_block#9",
+            "item8": "minecraft:quartz_stairs#4",
+            "item9": "minecraft:stone_slab:7#4"
+        },
+        {
+            "type": "multiblock",
+            "name": "Spellcrafting Altar",
+            "multiblock": {
+            "pattern": [
+                [ "         ", " H     H ", "         ", "         ", "         ", "         ", "         ", " H     H ", "         " ],
+                [ "         ", " L     L ", "         ", "         ", "         ", "         ", "         ", " L     L ", "         " ],
+                [ "         ", " L     L ", "         ", "         ", "    C    ", "         ", "         ", " L     L ", "         " ],
+                [ "    Z    ", " LDDRDDL ", " SPPQPPI ", " SPWQWPI ", "ZAQQ0QQUZ", " SPWQWPI ", " SPPQPPI ", " LOOTOOL ", "    Z    " ]
+            ],
+            "mapping": {
+                " ": "ANY",
+                "0": "minecraft:quartz_block",
+                "Q": "minecraft:quartz_block",
+                "H": "wizardry:pearl_holder",
+                "C": "wizardry:crafting_plate",
+                "L": "wizardry:wisdom_wood_log",
+                "W": "wizardry:wisdom_wood_planks",
+                "P": "wizardry:wisdom_wood_pigmented_planks",
+                "I": "wizardry:wisdom_wood_stairs[facing=north]",
+                "S": "wizardry:wisdom_wood_stairs[facing=south]",
+                "D": "wizardry:wisdom_wood_stairs[facing=east]",
+                "O": "wizardry:wisdom_wood_stairs[facing=west]",
+                "U": "minecraft:quartz_stairs[facing=north]",
+                "A": "minecraft:quartz_stairs[facing=south]",
+                "R": "minecraft:quartz_stairs[facing=east]",
+                "T": "minecraft:quartz_stairs[facing=west]",
+                "Z": "minecraft:stone_slab[half=bottom,variant=quartz]"
+            },
+            "symmetrical": true,
+            "offset"     : [0, 0, 0],
+            "view_offset": [0, 0, 0]
+            },
+            "text": "$(l)$(l:https://pastebin.com/wNp60MPS)Structure Template Link$()$(br)Note: Excludes Tile Entities"
+        }
+    ]
+}

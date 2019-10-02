@@ -130,6 +130,7 @@ Carving.addGroup("blockAmethyst");
 Carving.addVariation("blockAmethyst", blockAmethystAW);
 Carving.addVariation("blockAmethyst", blockAmethystBW);
 Carving.addVariation("blockAmethyst", blockAmethystMy);
+recipes.remove(blockAmethystMy);
 
 //Add group, disable other recipes for thatch blocks and add oredict
 recipes.remove(thatchEarthworks);

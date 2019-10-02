@@ -1,0 +1,24 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "entries": [
+        {
+          "entryName": "aether_legacy:iron_ring",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "aether_legacy:iron_ring"
+        },
+        {
+          "entryName": "aether_legacy:ambrosium_torch",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "name": "aether_legacy:ambrosium_torch"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

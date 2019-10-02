@@ -1,0 +1,33 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "entries": [
+        {
+          "entryName": "aether_legacy:iron_pendant",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "aether_legacy:iron_pendant"
+        },
+        {
+          "entryName": "aether_legacy:ambrosium_torch",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "aether_legacy:ambrosium_torch"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

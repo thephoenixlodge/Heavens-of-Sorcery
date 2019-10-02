@@ -27,6 +27,18 @@
             "title": "Ruins in the Aether",
             "border": "true",
             "text": "Could these be hiding something more?"
+        },
+        {
+            "type": "chisel",
+            "heading": "Marble Variants",
+            "item1": "astralsorcery:blockmarble:0",
+            "item2": "astralsorcery:blockmarble:1",
+            "item3": "astralsorcery:blockmarble:2",
+            "item4": "astralsorcery:blockmarble:3",
+            "item5": "astralsorcery:blockmarble:4",
+            "item6": "astralsorcery:blockmarble:5",
+            "item7": "astralsorcery:blockmarble:6",
+            "description": "Plus many more! These ones are the only ones used for Astral Magicks though."
         }
     ]
 }

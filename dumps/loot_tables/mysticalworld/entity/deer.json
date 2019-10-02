@@ -1,0 +1,79 @@
+{
+  "pools": [
+    {
+      "name": "pool1",
+      "entries": [
+        {
+          "entryName": "mysticalworld:venison",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "function": "minecraft:furnace_smelt",
+              "conditions": [
+                {
+                  "properties": {
+                    "minecraft:on_fire": true
+                  },
+                  "entity": "this",
+                  "condition": "minecraft:entity_properties"
+                }
+              ]
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 2.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "mysticalworld:venison"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "main",
+      "entries": [
+        {
+          "entryName": "minecraft:leather",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:leather"
+        },
+        {
+          "entryName": "mysticalworld:antlers",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "inverse": false,
+              "condition": "minecraft:has_horns"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "mysticalworld:antlers"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

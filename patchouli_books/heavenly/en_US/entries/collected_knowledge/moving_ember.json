@@ -1,0 +1,36 @@
+{
+    "name": "Moving Ember Energy",
+    "icon": "embers:crystal_ember",
+    "category": "collected_knowledge",
+    "advancement": "heavens:bookchap3/19activator",
+    "pages": [
+        {
+            "type": "text",
+            "text": "To use many of the mountain folk's machines, you're going to need to supply them $(thing)Ember Energy$() produced by an $(l:quests/chap3/19activator#activator)$(item)Ember Activator$(). Doing so requires $(item)Ember Emitters$() and $(item)Receptors$(). These must be placed on the devices that are sending and receiving the $(thing)Ember$() respectively. Next, link them using a $(l:quests/chap3/16emberbore#hammer)$(item)Tinker's Hammer$(), by Shift-Right-Clicking with it on the $(item)Receptor$(), then Right-Clicking on the $(item)Emitter$()."
+        },
+        {
+            "type": "altar_luminous",
+            "anchor": "activator",
+            "heading": "Ember Emitter",
+            "output_item": "embers:ember_emitter#4",
+            "item2": "embers:ingot_copper",
+            "item5": "embers:ingot_copper",
+            "item7": "mist:niobium_ingot",
+            "item8": "embers:plate_caminite",
+            "item9": "mist:niobium_ingot",
+            "description": "$(item)Emitters$() require a redstone signal to turn on."
+        },
+        {
+            "type": "altar_luminous",
+            "anchor": "activator",
+            "heading": "Ember Receptor",
+            "output_item": "embers:ember_receiver#4",
+            "item4": "mist:niobium_ingot",
+            "item6": "mist:niobium_ingot",
+            "item7": "embers:ingot_copper",
+            "item8": "embers:plate_caminite",
+            "item9": "embers:ingot_copper",
+            "description": "Can only be linked to one emitter at a time."
+        }
+    ]
+}

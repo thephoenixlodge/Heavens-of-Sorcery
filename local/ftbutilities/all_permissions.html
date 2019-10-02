@@ -1057,7 +1057,6 @@ false
 <tr><td><code>command.cosmeticarmorreworked.clearcosarmor</code></td><td>/clearcosarmor [player]</td></tr>
 <tr><td><code>command.crafttweaker.crafttweaker</code></td><td class='error' title='Invalid usage language key!'>/crafttweaker biomeTypes | biomes | blockinfo | blockmaterial | blocks | botania | botbrews | botlexcats | botlexentries | botlexpages | botlextypes | botorechid | bugs | chiselGroups | conflict | copy | creativetab | discord | docs | dumpzs | enchants | entities | foods | give | hand | help | inspirations | inventory | jeiCategories | json | keyNames | liquids | log | loottables | materialparts | materials | mods | names | nbt | oredict | parts | parttypes | potions | recipeNames | recipes | reload | scripts | seeds | soundevent | soundtype | syntax | thaumcraftDump | wiki | zslint</td></tr>
 <tr><td><code>command.crafttweaker.ctgui</code></td><td class='error' title='Invalid usage language key!'>CTGUI &lt;id&gt;</td></tr>
-<tr><td><code>command.creativecore.creative-gui</code></td><td class='error' title='Invalid usage language key!'>opens a test gui</td></tr>
 <tr><td><code>command.cuisine.culinaryskill</code></td><td>/culinaryskill &lt;Player&gt; get &lt;SkillPoint&gt; or /culinaryskill &lt;Player&gt; set &lt;SkillPoint&gt; &lt;value&gt;</td></tr>
 <tr><td><code>command.debug</code></td><td>/debug &lt;start|stop&gt;</td></tr>
 <tr><td><code>command.defaultgamemode</code></td><td>/defaultgamemode &lt;mode&gt;</td></tr>
@@ -1066,7 +1065,6 @@ false
 <tr><td><code>command.dimdoors.fabricconvert</code></td><td>/fabricconvert</td></tr>
 <tr><td><code>command.dimdoors.pocket</code></td><td>/pocket &lt;group&gt; &lt;name&gt; [setup]</td></tr>
 <tr><td><code>command.dimdoors.saveschem</code></td><td>/saveschem &lt;name&gt;</td></tr>
-<tr><td><code>command.dimensionalcontrol.teleportdim</code></td><td class='error' title='Invalid usage language key!'>teleportdim &lt;text&gt;</td></tr>
 <tr><td><code>command.dropt.dropt</code></td><td class='error' title='Invalid usage language key!'>dropt &lt;reload&gt;</td></tr>
 <tr><td><code>command.dynamictrees.dt</code></td><td>/dt &lt;settree|repop&gt; [args]</td></tr>
 <tr><td><code>command.ebwizardry.allies</code></td><td>/ [player]</td></tr>
@@ -1188,6 +1186,7 @@ false
 <tr><td><code>command.incontrol.ctrlreload</code></td><td>ctrlreload</td></tr>
 <tr><td><code>command.incontrol.ctrlshowmobs</code></td><td>ctrlshowmobs</td></tr>
 <tr><td><code>command.inventorysorter.inventorysorter</code></td><td>/inventorysorter §ebladd§f|§eblrem§f|§eshow§f|§elist§f (add/remove last sorted container to blacklist, show last container, list blacklisted)</td></tr>
+<tr><td><code>command.jeresources.jer_profile</code></td><td class='error' title='Invalid usage language key!'>jer_profile [chunks|stop] [all]</td></tr>
 <tr><td><code>command.journeymap.jtp</code></td><td class='error' title='Invalid usage language key!'>/jtp &lt;x y z dim&gt;</td></tr>
 <tr><td><code>command.kathairis.sandstorm</code></td><td>commands.sandstorm.usage</td></tr>
 <tr><td><code>command.kill</code></td><td>/kill [player|entity]</td></tr>
@@ -1245,14 +1244,28 @@ false
 <tr><td><code>command.togetherforever.tfdebug</code></td><td>tfdebug</td></tr>
 <tr><td><code>command.togetherforever.togetherforever</code></td><td class='error' title='Invalid usage language key!'>Usage: /tofe &lt;help|invite|accept|decline|kick|leave|info|forcesync&gt;</td></tr>
 <tr><td><code>command.toggledownfall</code></td><td>/toggledownfall</td></tr>
-<tr><td><code>command.tombmanygraves.tmg_drop</code></td><td class='error' title='Invalid usage language key!'>tmg_drop &lt;player&gt; &lt;timestamp or latest&gt; [receiving player]</td></tr>
-<tr><td><code>command.tombmanygraves.tmg_friends</code></td><td class='error' title='Invalid usage language key!'>tmg_friends [add/remove/list] [player]</td></tr>
-<tr><td><code>command.tombmanygraves.tmg_getdeathlist</code></td><td class='error' title='Invalid usage language key!'>tmg_getDeathList [player] &lt;timestamp or latest&gt;</td></tr>
-<tr><td><code>command.tombmanygraves.tmg_pop_grave</code></td><td class='error' title='Invalid usage language key!'>tmg_pop_grave [x] [y] [z]</td></tr>
-<tr><td><code>command.tombmanygraves.tmg_restore</code></td><td class='error' title='Invalid usage language key!'>tmg_restore &lt;player&gt; &lt;timestamp or latest&gt; [receiving player]</td></tr>
-<tr><td><code>command.tombmanygraves.tmg_steal</code></td><td class='error' title='Invalid usage language key!'>tmg_steal [x] [y] [z]</td></tr>
-<tr><td><code>command.tombmanygraves.tmg_toggle_grave_pos</code></td><td>tmg_toggle_grave_pos</td></tr>
-<tr><td><code>command.tombmanygraves.tmg_toggle_render</code></td><td>tmg_toggle_render</td></tr>
+<tr><td><code>command.tombstone.tbknowledge</code></td><td>Sets the knowledge of death of a player
+/tbknowledge &lt;player&gt; &lt;show|set|give|remove&gt; &lt;value&gt;</td></tr>
+<tr><td><code>command.tombstone.tbrecovery</code></td><td>Backups and restores players
+/tbrecovery &lt;save_all_players|save_player &lt;player&gt;|load_player &lt;player&gt; &lt;save&gt;|load_offline &lt;uuid&gt; &lt;save&gt;&gt;</td></tr>
+<tr><td><code>command.tombstone.tbrequestteleport</code></td><td>tombstone.command.tbrequestteleport.usage</td></tr>
+<tr><td><code>command.tombstone.tbrestoreinventory</code></td><td>Restores the player inventory with the last known grave
+/tbrestoreinventory [player]</td></tr>
+<tr><td><code>command.tombstone.tbrevivefamiliar</code></td><td>Revives the last dead familiar of a player
+/tbrevivefamiliar &lt;player&gt;</td></tr>
+<tr><td><code>command.tombstone.tbshowlastgrave</code></td><td>Shows the position of the last known grave of a player
+/tbshowlastgrave [player]</td></tr>
+<tr><td><code>command.tombstone.tbsiege</code></td><td>Launches a village siege in the chosen dimension or your current one
+/tbsiege [dim]</td></tr>
+<tr><td><code>command.tombstone.tbteleport</code></td><td>Dimensional teleport
+/tbteleport [entity] &lt;destination&gt;
+&lt;destination&gt; = &lt;targetEntity&gt; or &lt;x&gt; &lt;y&gt; &lt;z&gt; [dim]</td></tr>
+<tr><td><code>command.tombstone.tbteleportdiscovery</code></td><td>Teleports to an unexplored structure
+/tbteleportdiscovery &lt;entity&gt; [structure] [dim]</td></tr>
+<tr><td><code>command.tombstone.tbteleportgrave</code></td><td>Teleports to the last known grave of a player
+/tbteleportgrave [player] [playerGrave]</td></tr>
+<tr><td><code>command.tombstone.tbteleportvillage</code></td><td>Teleports to an explored village
+/tbteleportvillage &lt;entity&gt; &lt;value&gt;</td></tr>
 <tr><td><code>command.tp</code></td><td>/tp [target player] &lt;destination player&gt;<br>/tp [target player] &lt;x&gt; &lt;y&gt; &lt;z&gt; [&lt;yaw&gt; &lt;pitch&gt;]</td></tr>
 <tr><td><code>command.trigger</code></td><td>/trigger &lt;objective&gt; &lt;add|set&gt; &lt;value&gt;</td></tr>
 <tr><td><code>command.triumph.triumph.debug</code></td><td class='error' title='Invalid usage language key!'>Use /triumph debug</td></tr>

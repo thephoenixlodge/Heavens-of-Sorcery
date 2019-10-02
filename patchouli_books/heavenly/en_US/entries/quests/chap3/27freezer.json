@@ -1,0 +1,74 @@
+{
+    "name": "Frozen",
+    "icon": "aether_legacy:freezer",
+    "category": "quests/chap3",
+    "sortnum": 27,
+    "advancement": "heavens:bookchap3/25starlightinfuser",
+    "turnin": "heavens:bookchap3/27freezer",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "Frozen",
+            "trigger": "heavens:bookchap3/27freezer",
+            "text": "With access to $(item)Resonating Gems$() you should have everything you need to make a $(item)Freezer$(). This can be used to cool many items, including the materials needed for the next two portals you must build."
+        },
+        {
+            "type": "checklist_end",
+            "item1": "aether_legacy:freezer#1",
+            "item2": "blue_skies:turquoise_stone#1",
+            "item2": "blue_skies:lunar_stone#1",
+            "reward1": "aether_legacy:icestone#15",
+            "reward2": "blue_skies:lunar_stone#5",
+            "reward3": "blue_skies:turquoise_stone#5"
+        },
+        {
+            "type": "altar_celestial",
+            "heading": "Freezer",
+            "output_item": "aether_legacy:freezer",
+            "item2": "astralsorcery:itemcraftingcomponent:4",
+            "item4": "aether_legacy:icestone",
+            "item5": "minecraft:cauldron",
+            "item6": "aether_legacy:icestone",
+            "item7": "contenttweaker:rune_starlight",
+            "item8": "botania:rune:7",
+            "item9": "contenttweaker:rune_starlight",
+            "item10": "aether_legacy:skyroot_plank",
+            "item11": "aether_legacy:skyroot_plank",
+            "item12": "aether_legacy:holystone",
+            "item13": "aether_legacy:holystone",
+            "item14": "aether_legacy:skyroot_plank",
+            "item15": "aether_legacy:skyroot_plank",
+            "item16": "aether_legacy:skyroot_plank",
+            "item17": "aether_legacy:skyroot_plank",
+            "item18": "aether_legacy:holystone",
+            "item19": "aether_legacy:holystone",
+            "item20": "aether_legacy:holystone",
+            "item21": "aether_legacy:holystone",
+            "description": "Powered by $(item)Icestone$()"
+        },
+        {
+            "type": "freezer",
+            "heading": "Turquoise Stone",
+            "output": "blue_skies:turquoise_stone",
+            "input": "mist:stone_basic"
+        },
+        {
+            "type": "freezer",
+            "heading": "Lunar Stone",
+            "output": "blue_skies:lunar_stone",
+            "input": "rustic:slate"
+        },
+        {
+            "type": "freezer",
+            "heading": "Hard Foggy Stone",
+            "output": "mist:stone_basic",
+            "input": "mist:stone_porous"
+        },
+        {
+            "type": "pure_daisy",
+            "heading": "Slate",
+            "output": "rustic:slate",
+            "input": "quark:basalt"
+        }
+    ]
+}

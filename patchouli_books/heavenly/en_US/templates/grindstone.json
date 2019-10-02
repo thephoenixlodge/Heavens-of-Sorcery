@@ -1,0 +1,69 @@
+{
+	"components": [
+		{
+			"type": "header",
+			"text": "#heading",
+			"x": -1,
+			"y": -1
+		},
+		{
+			"type": "image",
+			"image": "books:templates/astral_flare.png",
+			"texture_width": 64,
+			"texture_height": 64,
+			"width": 50,
+			"height": 50,
+			"scale": 1,
+			"x": 3,
+			"y": 20
+		},
+		{
+			"type": "image",
+			"image": "books:templates/astral_flare.png",
+			"texture_width": 64,
+			"texture_height": 64,
+			"width": 50,
+			"height": 50,
+			"scale": 1,
+			"x": 68,
+			"y": 20
+		},
+		{
+			"type": "image",
+			"image": "books:templates/arrow_generic.png",
+			"texture_width": 32,
+			"texture_height": 16,
+			"width": 22,
+			"height": 9,
+			"scale": 1.5,
+			"x": 43,
+			"y": 37
+		},
+		{
+			"type": "item",
+			"item": "astralsorcery:blockmachine:1",
+			"x": 50,
+			"y": 20
+		},
+		{
+			"type": "item",
+			"item": "#output_item",
+			"framed": "false",
+			"x": 85,
+			"y": 37
+		},
+		{
+			"type": "item",
+			"item": "#input",
+			"framed": "false",
+			"x": 20,
+			"y": 37
+		},
+		{
+			"type": "text",
+			"text": "#description",
+			"x": 2,
+			"y": 75
+		}
+	]
+}

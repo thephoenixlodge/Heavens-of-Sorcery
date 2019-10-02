@@ -10,7 +10,7 @@
             "type": "quest",
             "title": "Don't Rune It",
             "trigger": "heavens:bookchap3/11runicaltar",
-            "text": "With the $(item)Luminous Crafting Altar$(), we have the means to focus $(thing)Starlight$() into crafting. With this, you can make another altar from $(item)Livingrock$(), which can focus $(thing)Mana$() to create runes -  embodying various aspects of the world"
+            "text": "With the $(item)Luminous Crafting Altar$(), we have the means to focus $(thing)Starlight$() into crafting. With this, you can make another altar from $(item)Livingrock$(), which can focus $(thing)Mana$() to create runes -  embodying various aspects of the world.$(br)When crafting on the $(item)Runic Altar$(), finish by dropping $(item)Livingrock$() on it and Right-Click with $(item)Wand of the Forest$()."
         },
         {
             "type": "checklist_end",
@@ -27,6 +27,72 @@
             "item7": "astralsorcery:blockmarble:2",
             "item8": "botania:manaresource:1",
             "item9": "astralsorcery:blockmarble:2"
+        },
+        {
+            "type": "runic_altar",
+            "heading": "Rune of Earth",
+            "output_item": "botania:rune:2",
+            "item1": "botania:manaresource:23",
+            "item3": "botania:manaresource:0",
+            "item4": "mist:cobblestone",
+            "item6": "aether_legacy:holystone",
+            "item8": "minecraft:red_mushroom",
+            "description": "Accepts any mushroom and any foggy stone variant"
+        },
+        {
+            "type": "runic_altar",
+            "heading": "Rune of Air",
+            "output_item": "botania:rune:3",
+            "item1": "botania:manaresource:23",
+            "item3": "botania:manaresource:0",
+            "item4": "minecraft:feather",
+            "item6": "aether_legacy:aether_leaves",
+            "item8": "aether_legacy:aercloud"
+        },
+        {
+            "type": "runic_altar",
+            "heading": "Rune of Fire",
+            "output_item": "botania:rune:1",
+            "item1": "botania:manaresource:23",
+            "item3": "botania:manaresource:0",
+            "item4": "cuisine:material:4",
+            "item6": "embers:crystal_ember",
+            "item8": "minecraft:magma"
+        },
+        {
+            "type": "runic_altar",
+            "heading": "Rune of Water",
+            "output_item": "botania:rune:0",
+            "item1": "botania:manaresource:23",
+            "item3": "botania:manaresource:0",
+            "item4": "cuisine:jar",
+            "item6": "aether_legacy:swetty_ball",
+            "item8": "astralsorcery:itemcraftingcomponent:0"
+        },
+        {
+            "type": "runic_altar",
+            "heading": "Rune of Mana",
+            "output_item": "botania:rune:8",
+            "item1": "botania:manaresource:23",
+            "item2": "wizardry:orb:1",
+            "item3": "botania:manaresource:1",
+            "item4": "botania:manaresource:0",
+            "item5": "botania:manaresource:1",
+            "item6": "botania:manaresource:0",
+            "item7": "botania:manaresource:0",
+            "item8": "wizardry:orb:1"
+        },
+        {
+            "type": "runic_altar",
+            "advancement": "heavens:bookchap3/18linkingtool",
+            "heading": "Rune of Starlight",
+            "output_item": "contenttweaker:rune_starlight",
+            "item1": "botania:rune:2",
+            "item2": "astralsorcery:itemcraftingcomponent:1",
+            "item5": "astralsorcery:itemcraftingcomponent:2",
+            "item6": "astralsorcery:itemcraftingcomponent:1",
+            "item7": "botania:rune:2",
+            "item8": "astralsorcery:itemcraftingcomponent:2"
         }
     ]
 }

@@ -74,9 +74,6 @@ TreeRitual.addRecipe("token_joy", saplingBluebright, tokenJoy * 2, 200, [bottled
 recipes.remove(woodStand);
 ArcaneWorld.createRitualCreateItem("aura_wooden_stand", "Imbue Ritual Stand", woodStand, logStarlit, goldLeaf, sapphire);
 
-//Cheese
-CauldronCrafting.addFluidRecipe(blockCheese, powderGrowth * 2, milk, 4);
-
 //Birthing recipe for rats
 AnimalSpawner.addRecipe("rat", "rats:rat", 80000, 60, [cheese]);
 

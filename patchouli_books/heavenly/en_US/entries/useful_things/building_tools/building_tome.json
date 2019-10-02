@@ -23,7 +23,7 @@
         {
             "type": "text",
             "title": "Modes/Settings",
-            "text": "$(l)Range:$() The size of the area to place, from 1-15 blocks.$(br)$(l)Anchor:$() Toggle to hold the preview in place, allowing you to move around and check before finalizing placement.$(br)$(l)Raytrace Fluid:$() Toggle on to allow exchanging of fluids.$(br)$(l)Place on Top:$() Toggle to switch between including the block clicked as part of the area, or starting the area in front of the face clicked."
+            "text": "$(l)Range:$() The size of the area to place, from 1-15 blocks.$(br)$(l)Anchor:$() Toggle to hold the preview in place, allowing you to move around and check before finalizing placement.$(br)$(l)Raytrace Fluid:$() Toggle on to allow replacing fluids.$(br)$(l)Place on Top:$() Toggle to switch between including the block clicked as part of the area, or starting the area in front of the face clicked."
         },
         {
             "type": "text",
@@ -31,11 +31,20 @@
         },
         {
             "type": "text",
-            "text": "$(l)Horizontal Column:$() A horizontal line 1 block wide extending away from you.$(br)$(l)Vertical Column:$() A vertical line 1 block wide extending from the top/bottom face, or centred if on a side face.$(br)$(l)Build to Me:$() A line from the targeted block face towards you. Will build until in line with you, or blocks equal to Range are placed (whichever is smaller).$(br)$(l)Stairs:$() A diagonal line. If target block is below you, builds up and away. If above"
+            "text": "$(l)Horizontal Column:$() A horizontal line 1 block wide extending away from you.$(br)$(l)Vertical Column:$() A vertical line 1 block wide extending from the top/bottom face, or centred if on a side face.$(br)$(l)Build to Me:$() A line from the targeted block face towards you. Will build until in line with you, or blocks equal to Range are placed (whichever is smaller).$(br)$(l)Stairs:$() A diagonal line. If target block is below you, builds up and away. If above, builds down towards you."
         },
         {
             "type": "text",
-            "text": "you, builds down and towards you.$(br)$(l)Grid:$() Exchanges in a square grid with space inbetween each exchanged block. Behaves slightly differently depending on the Range setting. $(br)For Range 1-6: 3x3 grid, where range = space between each block exchanged.$(br)For Range 7-12: Covers a larger area. Range-6 = space between each block exchanged.$(br)For Range 13-15: Larger area again. Range-12 = space between each block exchanged."
+            "text": "$(l)Grid:$() Exchanges in a square grid with space inbetween each exchanged block. Behaves slightly differently depending on the Range setting. $(br)For Range 1-6: 3x3 grid, where range = space between each block exchanged.$(br)For Range 7-12: Covers a larger area. Range-6 = space between each block exchanged.$(br)For Range 13-15: Larger area again. Range-12 = space between each block exchanged."
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "useful_things/building_tools/builders_wands",
+                "useful_things/building_tools/similsax",
+                "useful_things/building_tools/formation_wand",
+                "useful_things/building_tools/construction_paste"
+            ]
         }
     ]
 }

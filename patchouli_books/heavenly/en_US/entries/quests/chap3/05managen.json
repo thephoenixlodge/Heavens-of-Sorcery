@@ -43,7 +43,7 @@
         {
             "type": "crafting",
             "recipe": "botania:wands/twigwand_yellow_red",
-            "text": "Can use any combination of 2 $(item)Mushrooms/Petals$(). The colours used will be visible on the $(item)Wand$()."
+            "recipe2": "botania:manaresource_3"
         }
     ]
 }

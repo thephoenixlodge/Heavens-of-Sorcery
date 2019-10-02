@@ -1,4 +1,4 @@
-14451 nodes in total
+14486 nodes in total
 Modifying this file won't have any effect, edit ranks.txt!
 
 admin_panel.ftbutilities.crash_reports.delete: OP
@@ -1423,7 +1423,6 @@ ftbutilities.claims.block.edit.dimdoors.quartz_dimensional_door: OP
 ftbutilities.claims.block.edit.dimdoors.quartz_door: OP
 ftbutilities.claims.block.edit.dimdoors.rift: OP
 ftbutilities.claims.block.edit.dimdoors.unravelled_fabric: OP
-ftbutilities.claims.block.edit.dimensionalcontrol.dimensional_portal: OP
 ftbutilities.claims.block.edit.divinefavor.bath_heater: OP
 ftbutilities.claims.block.edit.divinefavor.ender_pumpkin: OP
 ftbutilities.claims.block.edit.divinefavor.ethereal_flash: OP
@@ -4071,7 +4070,15 @@ ftbutilities.claims.block.edit.thebetweenlands.weedwood_workbench: OP
 ftbutilities.claims.block.edit.thebetweenlands.weeping_blue: OP
 ftbutilities.claims.block.edit.thebetweenlands.wisp: OP
 ftbutilities.claims.block.edit.thebetweenlands.wood_chip_path: OP
-ftbutilities.claims.block.edit.tombmanygraves.grave_block: OP
+ftbutilities.claims.block.edit.tombstone.dark_marble: OP
+ftbutilities.claims.block.edit.tombstone.decorative_grave_cross: OP
+ftbutilities.claims.block.edit.tombstone.decorative_grave_normal: OP
+ftbutilities.claims.block.edit.tombstone.decorative_grave_simple: OP
+ftbutilities.claims.block.edit.tombstone.decorative_tombstone: OP
+ftbutilities.claims.block.edit.tombstone.grave_cross: OP
+ftbutilities.claims.block.edit.tombstone.grave_normal: OP
+ftbutilities.claims.block.edit.tombstone.grave_simple: OP
+ftbutilities.claims.block.edit.tombstone.tombstone: OP
 ftbutilities.claims.block.edit.wings.amethyst_ore: OP
 ftbutilities.claims.block.edit.wings.fairy_dust_ore: OP
 ftbutilities.claims.block.edit.wizardry.altar_sacrament: OP
@@ -5507,7 +5514,6 @@ ftbutilities.claims.block.interact.dimdoors.quartz_dimensional_door: ALL
 ftbutilities.claims.block.interact.dimdoors.quartz_door: ALL
 ftbutilities.claims.block.interact.dimdoors.rift: OP
 ftbutilities.claims.block.interact.dimdoors.unravelled_fabric: OP
-ftbutilities.claims.block.interact.dimensionalcontrol.dimensional_portal: OP
 ftbutilities.claims.block.interact.divinefavor.bath_heater: OP
 ftbutilities.claims.block.interact.divinefavor.ender_pumpkin: OP
 ftbutilities.claims.block.interact.divinefavor.ethereal_flash: OP
@@ -8155,7 +8161,15 @@ ftbutilities.claims.block.interact.thebetweenlands.weedwood_workbench: OP
 ftbutilities.claims.block.interact.thebetweenlands.weeping_blue: OP
 ftbutilities.claims.block.interact.thebetweenlands.wisp: OP
 ftbutilities.claims.block.interact.thebetweenlands.wood_chip_path: OP
-ftbutilities.claims.block.interact.tombmanygraves.grave_block: OP
+ftbutilities.claims.block.interact.tombstone.dark_marble: OP
+ftbutilities.claims.block.interact.tombstone.decorative_grave_cross: OP
+ftbutilities.claims.block.interact.tombstone.decorative_grave_normal: OP
+ftbutilities.claims.block.interact.tombstone.decorative_grave_simple: OP
+ftbutilities.claims.block.interact.tombstone.decorative_tombstone: OP
+ftbutilities.claims.block.interact.tombstone.grave_cross: OP
+ftbutilities.claims.block.interact.tombstone.grave_normal: OP
+ftbutilities.claims.block.interact.tombstone.grave_simple: OP
+ftbutilities.claims.block.interact.tombstone.tombstone: OP
 ftbutilities.claims.block.interact.wings.amethyst_ore: OP
 ftbutilities.claims.block.interact.wings.fairy_dust_ore: OP
 ftbutilities.claims.block.interact.wizardry.altar_sacrament: OP
@@ -14324,6 +14338,7 @@ ftbutilities.claims.item.thebetweenlands.valonite_shield: ALL
 ftbutilities.claims.item.thebetweenlands.valonite_shovel: ALL
 ftbutilities.claims.item.thebetweenlands.valonite_sword: ALL
 ftbutilities.claims.item.thebetweenlands.venus_fly_trap: ALL
+ftbutilities.claims.item.thebetweenlands.volarkite: ALL
 ftbutilities.claims.item.thebetweenlands.volarpad: ALL
 ftbutilities.claims.item.thebetweenlands.voodoo_doll: ALL
 ftbutilities.claims.item.thebetweenlands.walkway: ALL
@@ -14368,7 +14383,27 @@ ftbutilities.claims.item.thebetweenlands.wights_bane: ALL
 ftbutilities.claims.item.thebetweenlands.wisp: ALL
 ftbutilities.claims.item.thebetweenlands.wood_chip_path: ALL
 ftbutilities.claims.item.thebetweenlands.yellow_dotted_fungus: ALL
-ftbutilities.claims.item.tombmanygraves.death_list: ALL
+ftbutilities.claims.item.tombstone.advancement: ALL
+ftbutilities.claims.item.tombstone.ankh_of_pray: ALL
+ftbutilities.claims.item.tombstone.book_of_disenchantment: ALL
+ftbutilities.claims.item.tombstone.crafting_ingredient: ALL
+ftbutilities.claims.item.tombstone.dark_marble: ALL
+ftbutilities.claims.item.tombstone.decorative_grave_cross: ALL
+ftbutilities.claims.item.tombstone.decorative_grave_normal: ALL
+ftbutilities.claims.item.tombstone.decorative_grave_simple: ALL
+ftbutilities.claims.item.tombstone.decorative_tombstone: ALL
+ftbutilities.claims.item.tombstone.dust_of_vanishing: ALL
+ftbutilities.claims.item.tombstone.familiar_receptacle: ALL
+ftbutilities.claims.item.tombstone.fishing_rod_of_misadventure: ALL
+ftbutilities.claims.item.tombstone.grave_key: ALL
+ftbutilities.claims.item.tombstone.lollypop: ALL
+ftbutilities.claims.item.tombstone.lost_tablet: ALL
+ftbutilities.claims.item.tombstone.scroll_buff: ALL
+ftbutilities.claims.item.tombstone.scroll_of_knowledge: ALL
+ftbutilities.claims.item.tombstone.soul_receptacle: ALL
+ftbutilities.claims.item.tombstone.tablet_of_assistance: ALL
+ftbutilities.claims.item.tombstone.tablet_of_recall: ALL
+ftbutilities.claims.item.tombstone.voodoo_poppet: ALL
 ftbutilities.claims.item.vaultopic.vault_searcher: ALL
 ftbutilities.claims.item.vaultopic.vice: ALL
 ftbutilities.claims.item.vaultopic.view_big: ALL
@@ -14508,7 +14543,6 @@ command.clone
 command.cosmeticarmorreworked.clearcosarmor
 command.crafttweaker.crafttweaker
 command.crafttweaker.ctgui
-command.creativecore.creative-gui
 command.cuisine.culinaryskill
 command.debug
 command.defaultgamemode
@@ -14517,7 +14551,6 @@ command.dimdoors.dimteleport
 command.dimdoors.fabricconvert
 command.dimdoors.pocket
 command.dimdoors.saveschem
-command.dimensionalcontrol.teleportdim
 command.dropt.dropt
 command.dynamictrees.dt
 command.ebwizardry.allies
@@ -14639,6 +14672,7 @@ command.incontrol.ctrlloadsummonaid
 command.incontrol.ctrlreload
 command.incontrol.ctrlshowmobs
 command.inventorysorter.inventorysorter
+command.jeresources.jer_profile
 command.journeymap.jtp
 command.kathairis.sandstorm
 command.kill
@@ -14696,14 +14730,17 @@ command.title
 command.togetherforever.tfdebug
 command.togetherforever.togetherforever
 command.toggledownfall
-command.tombmanygraves.tmg_drop
-command.tombmanygraves.tmg_friends
-command.tombmanygraves.tmg_getdeathlist
-command.tombmanygraves.tmg_pop_grave
-command.tombmanygraves.tmg_restore
-command.tombmanygraves.tmg_steal
-command.tombmanygraves.tmg_toggle_grave_pos
-command.tombmanygraves.tmg_toggle_render
+command.tombstone.tbknowledge
+command.tombstone.tbrecovery
+command.tombstone.tbrequestteleport
+command.tombstone.tbrestoreinventory
+command.tombstone.tbrevivefamiliar
+command.tombstone.tbshowlastgrave
+command.tombstone.tbsiege
+command.tombstone.tbteleport
+command.tombstone.tbteleportdiscovery
+command.tombstone.tbteleportgrave
+command.tombstone.tbteleportvillage
 command.tp
 command.trigger
 command.triumph.triumph.debug

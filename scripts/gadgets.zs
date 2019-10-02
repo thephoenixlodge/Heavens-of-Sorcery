@@ -1,6 +1,7 @@
 ////Imports
 import mods.ArcaneWorld;
 import scripts.globals;
+import mods.inspirations.Cauldron as CauldronCrafting;
 
 ////Vars
 val gadgetBuilding = <buildinggadgets:buildingtool>;
@@ -22,6 +23,13 @@ val wisdomWoodPigmented = <wizardry:wisdom_wood_pigmented_planks>;
 val blockGold = <minecraft:gold_block>;
 val bookshelf = <ore:bookshelf>;
 val nacrePearl = <wizardry:nacre_pearl>;
+val constructionPowder = <buildinggadgets:constructionblockpowder>;
+val constructionPaste = <buildinggadgets:constructionpaste>;
+val blueBerry = <aether_legacy:blue_berry>;
+val ingotFalsite = <blue_skies:falsite_ingot>;
+val sand = <ore:sand>;
+val clay = <minecraft:clay_ball>;
+val water = <liquid:water>;
 
 //Building Gadget
 recipes.remove(gadgetBuilding);
@@ -46,3 +54,9 @@ globals.setNewName(gadgetDestruction, "Tome of Destruction");
 //Template Manager
 recipes.remove(templateManager);
 ArcaneWorld.createRitualCreateItem("gadget_templates", "Infuse Template Manager", templateManager, bookshelf, blockGold, wisdomWoodPigmented, sapphire, nacrePearl);
+
+//Construction paste
+recipes.remove(constructionPowder);
+recipes.addShapeless(constructionPowder * 2, [sand, clay, blueBerry]);
+recipes.addShapeless(constructionPowder * 8, [sand, clay, ingotFalsite]);
+CauldronCrafting.addFluidRecipe(constructionPaste * 2, constructionPowder, water, 0);

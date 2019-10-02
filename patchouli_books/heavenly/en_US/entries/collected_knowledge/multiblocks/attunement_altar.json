@@ -1,0 +1,44 @@
+{
+    "name": "Attunement Altar",
+    "icon": "astralsorcery:blockattunementaltar",
+    "category": "collected_knowledge/multiblocks",
+    "advancement": "heavens:bookchap3/23telescope",
+    "pages": [
+        {
+            "type": "multiblock_bill",
+            "item1": "astralsorcery:blockattunementaltar",
+            "item2": "astralsorcery:blockmarble:6#4",
+            "item3": "astralsorcery:blockmarble:3#80",
+            "item4": "astralsorcery:blockblackmarble#225",
+            "item5": "astralsorcery:blockblackmarble#12",
+            "item6": "astralsorcery:blockmarble:4#4"
+        },
+        {
+            "type": "multiblock",
+            "name": "Attunement Altar",
+            "multiblock": {
+                "pattern": [
+                    [ "                   ", " C               C ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", " C               C ", "                   " ], 
+                    [ "                   ", " M               M ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", " M               M ", "                   " ], 
+                    [ "                   ", " M               M ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", " M               M ", "                   " ], 
+                    [ "                   ", " M               M ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", " M               M ", "                   " ], 
+                    [ "                   ", " R               R ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "         0         ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", " R               R ", "                   " ], 
+                    [ "AAA             AAA", "A AAAAAAAAAAAAAAA A", "AASSSSSSSSSSSSSSSAA", " ASSSSSSSSSSSSSSSA ", " ASSSSSSSSSSSSSSSA ", " ASSSSSSSSSSSSSSSA ", " ASSSSSSSSSSSSSSSA ", " ASSSSSSSSSSSSSSSA ", " ASSSSSSSSSSSSSSSA ", " ASSSSSSSSSSSSSSSA ", " ASSSSSSSSSSSSSSSA ", " ASSSSSSSSSSSSSSSA ", " ASSSSSSSSSSSSSSSA ", " ASSSSSSSSSSSSSSSA ", " ASSSSSSSSSSSSSSSA ", " ASSSSSSSSSSSSSSSA ", "AASSSSSSSSSSSSSSSAA", "A AAAAAAAAAAAAAAA A", "AAA             AAA" ]
+                ],
+                "mapping": {
+                    " ": "ANY",
+                    "0": "astralsorcery:blockattunementaltar",
+                    "S": "astralsorcery:blockblackmarble",
+                    "C": "astralsorcery:blockmarble[marbletype=chiseled]",
+                    "A": "astralsorcery:blockmarble[marbletype=arch]",
+                    "M": "astralsorcery:blockmarble[marbletype=pillar]",
+                    "R": "astralsorcery:blockmarble[marbletype=runed]"
+                },
+                "symmetrical": true,
+                "offset"     : [0, 0, 0],
+                "view_offset": [0, 0, 0]
+            },
+            "text": "$(l)$(l:https://pastebin.com/aRLNGJES)Structure Template Link$()$(br)Note: Excludes Tile Entities"
+        }
+    ]
+}

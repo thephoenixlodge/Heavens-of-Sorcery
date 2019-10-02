@@ -1,0 +1,24 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "entries": [
+        {
+          "entryName": "minecraft:record_cat",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:record_cat"
+        },
+        {
+          "entryName": "aether_legacy:ambrosium_torch",
+          "weight": 9,
+          "quality": 0,
+          "type": "item",
+          "name": "aether_legacy:ambrosium_torch"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

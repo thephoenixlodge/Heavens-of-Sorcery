@@ -1,0 +1,102 @@
+{
+	"components": [
+		{
+			"type": "header",
+			"text": "#heading",
+			"x": -1,
+			"y": -1
+		},
+		{
+			"type": "image",
+			"image": "books:templates/arrow_down_right.png",
+			"texture_width": 16,
+			"texture_height": 16,
+			"width": 10,
+			"height": 12,
+			"scale": 1.5,
+			"x": 30,
+			"y": 50
+		},
+		{
+			"type": "image",
+			"image": "books:templates/arrow_down_left.png",
+			"texture_width": 16,
+			"texture_height": 16,
+			"width": 10,
+			"height": 12,
+			"scale": 1.5,
+			"x": 70,
+			"y": 50
+		},
+		{
+			"type": "item",
+			"item": "embers:mixer",
+			"x": 50,
+			"y": 50
+		},
+		{
+			"type": "item",
+			"item": "embers:block_furnace",
+			"x": 25,
+			"y": 33
+		},
+		{
+			"type": "item",
+			"item": "embers:block_furnace",
+			"x": 75,
+			"y": 33
+		},
+		{
+			"type": "image",
+			"image": "books:templates/arrow_down.png",
+			"texture_width": 16,
+			"texture_height": 16,
+			"width": 9,
+			"height": 12,
+			"scale": 1.5,
+			"x": 51,
+			"y": 70
+		},
+		{
+			"type": "item",
+			"item": "embers:stamper",
+			"x": 50,
+			"y": 90
+		},
+		{
+			"type": "item",
+			"item": "#output_item",
+			"framed": "true",
+			"link_recipe": true,
+			"x": 75,
+			"y": 90
+		},
+		{
+			"type": "item",
+			"item": "#stamp",
+			"link_recipe": false,
+			"x": 35,
+			"y": 90
+		},
+		{
+			"type": "item",
+			"item": "#item1",
+			"framed": "true",
+			"x": 25,
+			"y": 15
+		},
+		{
+			"type": "item",
+			"item": "#item2",
+			"framed": "true",
+			"x": 75,
+			"y": 15
+		},
+		{
+			"type": "text",
+			"text": "#description",
+			"x": 2,
+			"y": 112
+		}
+	]
+}

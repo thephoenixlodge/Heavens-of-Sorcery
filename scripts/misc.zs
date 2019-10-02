@@ -88,6 +88,7 @@ val chainManasteel = <cathedral:cathedral_chain_various:6>;
 val nuggetManasteel = <botania:manaresource:17>;
 val chainBrass = <rusticthaumaturgy:chain_brass>;
 val nuggetBrass = <thaumcraft:nugget:8>;
+val chainGloves = <aether_legacy:chain_gloves>;
 
 //tweak clay tile related recipes
 recipes.remove(terracottaShingle);
@@ -141,4 +142,6 @@ recipes.addShaped(chainIronC * 28, [[chainItem], [chainItem], [chainItem]]);
 recipes.remove(chainBrass);
 recipes.addShaped(chainBrass * 4, [[nuggetBrass], [nuggetBrass], [nuggetBrass]]);
 recipes.addShaped(chainManasteel * 4, [[nuggetManasteel], [nuggetManasteel], [nuggetManasteel]]);
-//globals.setNewName(chainManasteel, "Manasteel Chain");
+
+//chainmail gloves
+recipes.addShaped(chainGloves, [[chainItem, null, chainItem]]);

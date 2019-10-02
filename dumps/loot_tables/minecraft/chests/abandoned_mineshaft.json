@@ -332,27 +332,340 @@
       "rolls": 3.0
     },
     {
-      "name": "bewitchment_saplings_pool",
+      "name": "custom_avatar_loot_pools",
       "entries": [
         {
-          "entryName": "bewitchment_saplings_entry",
+          "entryName": "empty",
+          "weight": 50,
+          "quality": 1,
+          "type": "empty"
+        },
+        {
+          "entryName": "custom_0",
+          "weight": 20,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 1.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "tag": "{}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "avatarmod:bison_armor"
+        },
+        {
+          "entryName": "custom_1",
+          "weight": 10,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 0.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "tag": "{}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "avatarmod:bison_armor"
+        },
+        {
+          "entryName": "custom_2",
+          "weight": 10,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 2.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "tag": "{}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "avatarmod:bison_armor"
+        },
+        {
+          "entryName": "custom_3",
           "weight": 5,
-          "quality": 0,
-          "type": "loot_table",
-          "name": "bewitchment:chests/saplings"
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 3.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "tag": "{}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "avatarmod:bison_armor"
+        },
+        {
+          "entryName": "custom_4",
+          "weight": 30,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 0.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "tag": "{}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "avatarmod:water_pouch"
         }
       ],
-      "rolls": 3.0
+      "rolls": 1.0,
+      "bonus_rolls": 1.0
     },
     {
-      "name": "bewitchment_jewels_pool",
+      "name": "custom_avatar_loot_pools_2",
       "entries": [
         {
-          "entryName": "bewitchment_jewels_entry",
+          "entryName": "empty",
+          "weight": 100,
+          "quality": 1,
+          "type": "empty"
+        },
+        {
+          "entryName": "custom_0",
+          "weight": 20,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 0.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "tag": "{}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "avatarmod:scroll"
+        },
+        {
+          "entryName": "custom_1",
+          "weight": 5,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 1.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "tag": "{}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "avatarmod:scroll"
+        },
+        {
+          "entryName": "custom_2",
+          "weight": 5,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 2.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "tag": "{}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "avatarmod:scroll"
+        },
+        {
+          "entryName": "custom_3",
+          "weight": 5,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 3.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "tag": "{}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "avatarmod:scroll"
+        },
+        {
+          "entryName": "custom_4",
+          "weight": 5,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 4.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "tag": "{}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "avatarmod:scroll"
+        }
+      ],
+      "rolls": 1.0,
+      "bonus_rolls": 1.0
+    },
+    {
+      "name": "custom_avatar_loot_pools_3",
+      "entries": [
+        {
+          "entryName": "empty",
+          "weight": 65,
+          "quality": 1,
+          "type": "empty"
+        },
+        {
+          "entryName": "custom_0",
+          "weight": 10,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 0.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "tag": "{}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "avatarmod:ostrich_equip"
+        },
+        {
+          "entryName": "custom_1",
+          "weight": 10,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 1.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "tag": "{}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "avatarmod:ostrich_equip"
+        },
+        {
+          "entryName": "custom_2",
+          "weight": 15,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 0.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "tag": "{}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "avatarmod:ostrich_equip"
+        }
+      ],
+      "rolls": 1.0,
+      "bonus_rolls": 1.0
+    },
+    {
+      "name": "MysticalWorld",
+      "entries": [
+        {
+          "entryName": "MysticalWorld",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "mysticalworld:chests/inject"
+        }
+      ],
+      "rolls": 1.0,
+      "bonus_rolls": 1.0
+    },
+    {
+      "name": "bewitchment_materials_pool",
+      "entries": [
+        {
+          "entryName": "bewitchment_materials_entry",
           "weight": 5,
           "quality": 0,
           "type": "loot_table",
-          "name": "bewitchment:chests/jewels"
+          "name": "bewitchment:chests/materials"
         }
       ],
       "rolls": 1.0
@@ -366,6 +679,58 @@
           "quality": 0,
           "type": "loot_table",
           "name": "botania:inject/abandoned_mineshaft"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "chest_treasure",
+      "entries": [
+        {
+          "entryName": "tombstone:scroll_buff",
+          "weight": 5,
+          "quality": -2,
+          "type": "item",
+          "functions": [
+            {
+              "data": {
+                "min": 0.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_data"
+            },
+            {
+              "tag": "{enchant:1b}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "tombstone:scroll_buff"
+        },
+        {
+          "entryName": "tombstone:scroll_of_knowledge",
+          "weight": 1,
+          "quality": -2,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{stored_xp:2000}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "tombstone:scroll_of_knowledge"
+        },
+        {
+          "entryName": "tombstone:lost_tablet",
+          "weight": 1,
+          "quality": -2,
+          "type": "item",
+          "name": "tombstone:lost_tablet"
+        },
+        {
+          "entryName": "empty",
+          "weight": 93,
+          "quality": 0,
+          "type": "empty"
         }
       ],
       "rolls": 1.0

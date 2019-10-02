@@ -13,6 +13,6 @@ setPos(152,-93)
 criteria1 = addCriteria("hasItems", "minecraft:inventory_changed")
 criteria1.addItem(<contenttweaker:ironwood_wand_two, count:1~>)
 criteria2 = addCriteria("hasItems2", "minecraft:inventory_changed")
-criteria2.addItem(<botania:mushroom, meta:0~15, count:1~>)
+criteria2.addItem(<botania:flower, meta:0~15, count:1~>)
 
 addRewardItem(<botania:fertilizer, count:20>)

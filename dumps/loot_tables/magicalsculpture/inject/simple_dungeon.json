@@ -1,0 +1,429 @@
+{
+  "pools": [
+    {
+      "name": "magicalsculpture_dungeon_10",
+      "entries": [
+        {
+          "entryName": "magicalsculpture:relic",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 10.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "magicalsculpture:relic"
+        },
+        {
+          "entryName": "empty",
+          "weight": 995,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "magicalsculpture_dungeon_11",
+      "entries": [
+        {
+          "entryName": "magicalsculpture:relic",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 11.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "magicalsculpture:relic"
+        },
+        {
+          "entryName": "empty",
+          "weight": 995,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "magicalsculpture_dungeon_12",
+      "entries": [
+        {
+          "entryName": "magicalsculpture:relic",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 12.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "magicalsculpture:relic"
+        },
+        {
+          "entryName": "empty",
+          "weight": 995,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "magicalsculpture_dungeon_18",
+      "entries": [
+        {
+          "entryName": "magicalsculpture:relic",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 18.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "magicalsculpture:relic"
+        },
+        {
+          "entryName": "empty",
+          "weight": 995,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "magicalsculpture_dungeon_19",
+      "entries": [
+        {
+          "entryName": "magicalsculpture:relic",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 19.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "magicalsculpture:relic"
+        },
+        {
+          "entryName": "empty",
+          "weight": 997,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "magicalsculpture_dungeon_20",
+      "entries": [
+        {
+          "entryName": "magicalsculpture:relic",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 20.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "magicalsculpture:relic"
+        },
+        {
+          "entryName": "empty",
+          "weight": 997,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "magicalsculpture_dungeon_21",
+      "entries": [
+        {
+          "entryName": "magicalsculpture:relic",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 21.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "magicalsculpture:relic"
+        },
+        {
+          "entryName": "empty",
+          "weight": 997,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "magicalsculpture_dungeon_23",
+      "entries": [
+        {
+          "entryName": "magicalsculpture:relic",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 23.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "magicalsculpture:relic"
+        },
+        {
+          "entryName": "empty",
+          "weight": 997,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "magicalsculpture_dungeon_25",
+      "entries": [
+        {
+          "entryName": "magicalsculpture:relic",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 25.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "magicalsculpture:relic"
+        },
+        {
+          "entryName": "empty",
+          "weight": 997,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "magicalsculpture_dungeon_27",
+      "entries": [
+        {
+          "entryName": "magicalsculpture:relic",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 27.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "magicalsculpture:relic"
+        },
+        {
+          "entryName": "empty",
+          "weight": 997,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "magicalsculpture_dungeon_29",
+      "entries": [
+        {
+          "entryName": "magicalsculpture:relic",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 29.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "magicalsculpture:relic"
+        },
+        {
+          "entryName": "empty",
+          "weight": 997,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "magicalsculpture_dungeon_32",
+      "entries": [
+        {
+          "entryName": "magicalsculpture:relic",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 32.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "magicalsculpture:relic"
+        },
+        {
+          "entryName": "empty",
+          "weight": 995,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "magicalsculpture_dungeon_33",
+      "entries": [
+        {
+          "entryName": "magicalsculpture:relic",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 33.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "magicalsculpture:relic"
+        },
+        {
+          "entryName": "empty",
+          "weight": 995,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "magicalsculpture_dungeon_34",
+      "entries": [
+        {
+          "entryName": "magicalsculpture:relic",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 34.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "magicalsculpture:relic"
+        },
+        {
+          "entryName": "empty",
+          "weight": 997,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "magicalsculpture_dungeon_35",
+      "entries": [
+        {
+          "entryName": "magicalsculpture:relic",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 35.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "magicalsculpture:relic"
+        },
+        {
+          "entryName": "empty",
+          "weight": 997,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "magicalsculpture_dungeon_36",
+      "entries": [
+        {
+          "entryName": "magicalsculpture:relic",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 36.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "magicalsculpture:relic"
+        },
+        {
+          "entryName": "empty",
+          "weight": 997,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "magicalsculpture_dungeon_37",
+      "entries": [
+        {
+          "entryName": "magicalsculpture:relic",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 37.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "magicalsculpture:relic"
+        },
+        {
+          "entryName": "empty",
+          "weight": 997,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+    "name": "Meltdown",
+    "icon": "embers:block_furnace",
+    "category": "quests/chap3",
+    "sortnum": 19,
+    "advancement": "heavens:bookchap3/19activator",
+    "turnin": "heavens:bookchap3/20melter",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "Meltdown",
+            "trigger": "heavens:bookchap3/20melter",
+            "text": "Working with ingots is fine for most purposes, but the mountain folk devised a way to use the $(thing)Ember Energy$() to melt down metals into a molten form and then recast it in different shapes. In some cases, such as plates, this allows greater material efficiency."
+        },
+        {
+            "type": "checklist_end",
+            "item1": "embers:block_furnace#1",
+            "item2": "embers:stamper#1",
+            "item3": "embers:stamper_base#1",
+            "item4": "embers:stamp_bar#1",
+            "reward1": "embers:brick_caminite#250",
+            "reward2": "embers:copper_cell#1"
+        },
+        {
+            "type": "altar_luminous",
+            "heading": "Melter",
+            "output_item": "embers:block_furnace",
+            "item1": "embers:brick_caminite",
+            "item2": "embers:plate_caminite",
+            "item3": "embers:brick_caminite",
+            "item4": "embers:brick_caminite",
+            "item5": "embers:ingot_copper",
+            "item6": "embers:brick_caminite",
+            "item7": "mist:niobium_ingot",
+            "item8": "arcaneworld:molten_core",
+            "item9": "mist:niobium_ingot",
+            "description": "Input $(thing)Items$() and extract $(thing)Fluids$() from the top half. Feed $(thing)Ember Energy$() to the bottom half."
+        },
+        {
+            "type": "altar_luminous",
+            "heading": "Stamper",
+            "output_item": "embers:stamper",
+            "item1": "embers:brick_caminite",
+            "item2": "embers:ingot_copper",
+            "item3": "embers:brick_caminite",
+            "item4": "embers:brick_caminite",
+            "item5": "minecraft:piston",
+            "item6": "embers:brick_caminite",
+            "item7": "embers:brick_caminite",
+            "item9": "embers:brick_caminite",
+            "description": "Requires $(thing)Ember Energy$() and a $(item)Stamp$(). Setup info over page."
+        },
+        {
+            "type": "altar_luminous",
+            "heading": "Stamp Base",
+            "output_item": "embers:stamper_base",
+            "item4": "mist:niobium_ingot",
+            "item6": "mist:niobium_ingot",
+            "item7": "embers:block_caminite_brick",
+            "item8": "minecraft:cauldron",
+            "item9": "embers:block_caminite_brick",
+            "description": "Input $(thing)Items$() and/or $(thing)Fluids$() to be stamped. Place a $(item)Bin$() underneath to catch outputs."
+        },
+        {
+            "type": "multiblock",
+            "name": "Stamper Setup",
+            "multiblock": {
+                "pattern": [
+                    [ "S" ],
+                    [ " " ],
+                    [ "0" ],
+                    [ " " ]
+                ],
+                "mapping": {
+                    " ": "ANY",
+                    "0": "embers:stamper_base",
+                    "S": "embers:stamper"
+                },
+                "symmetrical": true,
+                "offset"     : [0, 0, 0],
+                "view_offset": [0, 0, 0]
+            },
+            "text": "See $(l:collected_knowledge/moving_ember)Moving Ember$() for information on setting up $(thing)Ember Energy$() transfer for the $(item)Stamper$() and $(item)Melter$()."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:ct_shaped-1458504776",
+            "text": "Smelt to get a usable $(item)Stamp$(), then change pattern with a $(l:useful_things/building_tools/chisel)Chisel$()"
+        },
+        {
+            "type": "chisel",
+            "heading": "Stamps",
+            "item1": "embers:stamp_flat",
+            "item2": "embers:stamp_bar",
+            "item3": "embers:stamp_plate",
+            "item4": "embers:stamp_gear",
+            "item5": "soot:stamp_nugget",
+            "item6": "soot:stamp_text"
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "collected_knowledge/moving_ember"
+            ]
+        }
+    ]
+}

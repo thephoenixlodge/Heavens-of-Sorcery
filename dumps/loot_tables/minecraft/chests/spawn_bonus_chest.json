@@ -183,6 +183,108 @@
       "rolls": 4.0
     },
     {
+      "name": "custom_avatar_loot_pools",
+      "entries": [
+        {
+          "entryName": "empty",
+          "weight": 0,
+          "quality": 1,
+          "type": "empty"
+        },
+        {
+          "entryName": "custom_0",
+          "weight": 1,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 0.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "tag": "{}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "avatarmod:scroll"
+        }
+      ],
+      "rolls": 1.0,
+      "bonus_rolls": 1.0
+    },
+    {
+      "name": "custom_avatar_loot_pools_2",
+      "entries": [
+        {
+          "entryName": "empty",
+          "weight": 0,
+          "quality": 1,
+          "type": "empty"
+        },
+        {
+          "entryName": "custom_0",
+          "weight": 1,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 0.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "tag": "{}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "avatarmod:scroll"
+        }
+      ],
+      "rolls": 1.0,
+      "bonus_rolls": 1.0
+    },
+    {
+      "name": "custom_avatar_loot_pools_3",
+      "entries": [
+        {
+          "entryName": "empty",
+          "weight": 0,
+          "quality": 1,
+          "type": "empty"
+        },
+        {
+          "entryName": "custom_0",
+          "weight": 1,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 0.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "tag": "{}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "avatarmod:scroll"
+        }
+      ],
+      "rolls": 1.0,
+      "bonus_rolls": 1.0
+    },
+    {
       "name": "botania_inject_pool",
       "entries": [
         {

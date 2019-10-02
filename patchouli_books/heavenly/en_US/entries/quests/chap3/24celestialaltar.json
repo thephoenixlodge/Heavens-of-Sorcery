@@ -1,0 +1,65 @@
+{
+    "name": "From the Heavens",
+    "icon": "astralsorcery:blockaltar:2",
+    "category": "quests/chap3",
+    "sortnum": 24,
+    "advancement": "heavens:bookchap3/22attunementaltar",
+    "turnin": "heavens:bookchap3/24celestialaltar",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "From the Heavens",
+            "trigger": "heavens:bookchap3/24celestialaltar",
+            "text": "It seems that not only can you attune yourself in the $(item)Attunement Altar$(), but you can attune $(item)Rock Crystals$() too. With these $(item)Attuned Rock Crystals$() you can further focus the $(thing)Starlight$() collected by your altar, and upgrade it once again."
+        },
+        {
+            "type": "checklist_end",
+            "item1": "astralsorcery:blockaltar:2#1",
+            "reward1": "astralsorcery:itemcraftingcomponent:2#10"
+        },
+        {
+            "type": "altar_starlight",
+            "heading": "Celestial Altar",
+            "output_item": "astralsorcery:blockaltar:2",
+            "item1": "embers:ingot_bronze",
+            "item3": "embers:ingot_bronze",
+            "item4": "astralsorcery:blockmarble:4",
+            "item5": "astralsorcery:itemtunedrockcrystal",
+            "item6": "astralsorcery:blockmarble:4",
+            "item7": "astralsorcery:blockmarble:2",
+            "item8": "astralsorcery:itemcraftingcomponent:1",
+            "item9": "astralsorcery:blockmarble:2",
+            "item10": "contenttweaker:rune_starlight",
+            "item11": "contenttweaker:rune_starlight",
+            "item12": "astralsorcery:itemcraftingcomponent:0",
+            "item13": "astralsorcery:itemcraftingcomponent:0"
+        },
+        {
+            "type": "multiblock",
+            "name": "Celestial Altar",
+            "multiblock": {
+                "pattern": [
+                    [ "           ", " C       C ", "           ", "           ", "           ", "           ", "           ", "           ", "           ", " C       C ", "           " ],
+                    [ "           ", " P       P ", "           ", "           ", "           ", "           ", "           ", "           ", "           ", " P       P ", "           " ],
+                    [ "           ", " P       P ", "           ", "           ", "           ", "           ", "           ", "           ", "           ", " P       P ", "           " ],
+                    [ "           ", " R       R ", "           ", "           ", "     0     ", "           ", "           ", "           ", "           ", " R       R ", "           " ],
+                    [ "BBB     BBB", "BMMBBBBBMMB", "BMSSSSSSSMB", " BSSSSSSSB ", " BSSSSSSSB ", " BSSSSSSSB ", " BSSSSSSSB ", " BSSSSSSSB ", "BMSSSSSSSMB", "BMMBBBBBMMB", "BBB     BBB" ]
+                ],
+                "mapping": {
+                    " ": "ANY",
+                    "0": "astralsorcery:blockaltar[altartype=altar_3]",
+                    "M": "astralsorcery:blockmarble[marbletype=raw]",
+                    "C": "astralsorcery:blockmarble[marbletype=chiseled]",
+                    "B": "astralsorcery:blockmarble[marbletype=bricks]",
+                    "P": "astralsorcery:blockmarble[marbletype=pillar]",
+                    "R": "astralsorcery:blockmarble[marbletype=runed]",
+                    "S": "astralsorcery:blockblackmarble[marbletype=raw]"
+                },
+                "symmetrical": true,
+                "offset"     : [0, 0, 0],
+                "view_offset": [0, 0, 0]
+            },
+            "text": "$(l:https://pastebin.com/crqsTbJp)Pastebin of Structure$(/l) for use with $(l:useful_things/building_tools/templates)Template Manager$()"
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "entries": [
+        {
+          "entryName": "aether_legacy:gravitite_boots",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "aether_legacy:gravitite_boots"
+        },
+        {
+          "entryName": "aether_legacy:gravitite_gloves",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "aether_legacy:gravitite_gloves"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

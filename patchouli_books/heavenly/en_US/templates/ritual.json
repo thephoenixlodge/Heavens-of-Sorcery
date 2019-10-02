@@ -27,6 +27,7 @@
 			"type": "item",
 			"item": "#output_item",
 			"framed": "true",
+			"link_recipe": true,
 			"x": 50,
 			"y": 15
 		},

@@ -1,0 +1,32 @@
+{
+    "name": "Construction Paste",
+    "icon": "buildinggadgets:constructionpaste",
+    "category": "useful_things/building_tools",
+    "advancement": "heavens:bookchap2/14aether",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Sometimes you want to use a material when building, but obtaining it in sufficient quantities is out of reach. In this case, why not fake it 'til you make it? No-one will know you're actually using $(item)Construction Paste$() instead of real diamonds in that giant ode to manhood.$(br)This paste can be used in place of any block when building with a $(l:useful_things/building_tools/building_tome)$(item)Tome of Building$(), $(l:useful_things/building_tools/exchanging_tome)$(item)Exchanging$() or $(l:useful_things/building_tools/transferrence_tome)$(item)Transferrence$()."
+        },
+        {
+            "type": "crafting",
+            "title": "Construction Powder",
+            "recipe": "crafttweaker:ct_shapeless-28803442",
+            "text": "Place $(item)Construction Powder$() next to water and break it once hardened, or throw in a cauldron of water to get $(item)Construction Paste$()."
+        },
+        {
+            "type": "crafting",
+            "title": "Construction Powder",
+            "recipe": "crafttweaker:ct_shapeless-876749568",
+            "text": "Alternative recipe"
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "useful_things/building_tools/transferrence_tome",
+                "useful_things/building_tools/building_tome",
+                "useful_things/building_tools/exchanging_tome"
+            ]
+        }
+    ]
+}

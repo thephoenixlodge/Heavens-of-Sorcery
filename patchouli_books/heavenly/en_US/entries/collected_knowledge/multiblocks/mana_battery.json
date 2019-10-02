@@ -1,0 +1,56 @@
+{
+    "name": "Mana Battery",
+    "icon": "wizardry:mana_battery",
+    "category": "collected_knowledge/multiblocks",
+    "advancement": "heavens:bookchap2/9spellaltar",
+    "pages": [
+        {
+            "type": "multiblock_bill_many",
+            "item1": "wizardry:mana_battery#1",
+            "item2": "wizardry:pearl_holder#4",
+            "item3": "wizardry:wisdom_wood_log#15",
+            "item4": "wizardry:wisdom_wood_planks#20",
+            "item5": "wizardry:wisdom_wood_pigmented_planks#12",
+            "item6": "wizardry:wisdom_wood_stairs#8",
+            "item7": "minecraft:quartz_block#20",
+            "item8": "minecraft:quartz_stairs#8",
+            "item9": "forge:bucketfilled#8{FluidName: \"mana_fluid\", Amount: 1000}"
+        },
+        {
+            "type": "multiblock",
+            "name": "Mana Battery",
+            "multiblock": {
+            "pattern": [
+                ["         ", "         ", "         ", "         ", "    B    ", "         ", "         ", "         ", "         "],
+                ["         ", " H     H ", "         ", "         ", "         ", "         ", "         ", " H     H ", "         "],
+                ["         ", " L     L ", "         ", "         ", "    L    ", "         ", "         ", " L     L ", "         "],
+                ["         ", " L  R  L ", "  PDQDP  ", "  SMMMI  ", " AQMLMQU ", "  SMMMI  ", "  POQOP  ", " L  T  L ", "         "],
+                ["    R    ", " LWWWWWL ", " WQQQQQW ", " WQPPPQW ", "AWQP0PQWU", " WQPPPQW ", " WQQQQQW ", " LWWWWWL ", "    T    "]
+            ],
+            "mapping": {
+                " ": "ANY",
+                "0": "wizardry:wisdom_wood_log",
+                "Q": "minecraft:quartz_block",
+                "H": "wizardry:pearl_holder",
+                "B": "wizardry:mana_battery",
+                "L": "wizardry:wisdom_wood_log",
+                "W": "wizardry:wisdom_wood_planks",
+                "P": "wizardry:wisdom_wood_pigmented_planks",
+                "I": "wizardry:wisdom_wood_stairs[facing=north]",
+                "S": "wizardry:wisdom_wood_stairs[facing=south]",
+                "D": "wizardry:wisdom_wood_stairs[facing=east]",
+                "O": "wizardry:wisdom_wood_stairs[facing=west]",
+                "U": "minecraft:quartz_stairs[facing=north]",
+                "A": "minecraft:quartz_stairs[facing=south]",
+                "R": "minecraft:quartz_stairs[facing=east]",
+                "T": "minecraft:quartz_stairs[facing=west]",
+                "M": "wizardry:mana_fluid"
+            },
+            "symmetrical": true,
+            "offset"     : [0, 0, 0],
+            "view_offset": [0, 0, 0]
+            },
+            "text": "$(l)$(l:https://pastebin.com/E2V0wDJd)Structure Template Link$()$(br)Note: Excludes Tile Entities. Mana Battery sits 2 blocks above middle log."
+        }
+    ]
+}

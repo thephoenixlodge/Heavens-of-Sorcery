@@ -1,0 +1,37 @@
+{
+    "name": "Tome of Transferrence",
+    "icon": "buildinggadgets:copypastetool",
+    "category": "useful_things/building_tools",
+    "advancement": "heavens:bookchap3/0niobium",
+    "pages": [
+        {
+            "type": "text",
+            "text": "If you've ever finished building something only to discover it's one block off where you wanted it to be or facing the wrong way, you'll understand the value of a tool that let's you copy and paste large areas.$(br2)Use $(k:settings_menu) to switch between $(thing)Copy Mode$() and $(thing)Paste Mode$() (details over page). $(br)Can Undo one action."
+        },
+        {
+            "type": "ritual",
+            "output_item": "buildinggadgets:copypastetool",
+            "item1": "minecraft:book",
+            "item2": "arcaneworld:sapphire",
+            "item3": "arcaneworld:amethyst",
+            "item4": "minecraft:slime_ball",
+            "heading": "Tome of Transferrence"
+        },
+        {
+            "type": "text",
+            "title": "Modes/Settings",
+            "text": "$(l)Copy:$() Right-Click a block to select the first corner of the area to be copied, then Shift-Right-Click the opposite corner to define it.$(br)$(l)Paste:$() Use to place the copied structure (as long as you have the necessary blocks in your inventory. Will not replace blocks, so clear the area first.$(br)$(l)Edit Placement:$() Can also access with Shift-Right-Click in the air. Allows editing and clearing the area being copied"
+        },
+        {
+            "type": "text",
+            "text": "(Copy Mode) and moving the preview around (Paste Mode).$(br)$(l)Anchor:$() Toggle to hold the preview in place, allowing you to move around and check before finalizing the exchange.$(br)$(l)Raytrace Fluid:$() Toggle on to treat fluids as targetable for placing against in Paste Mode.$(br)$(l)Rotate:$() Rotates the preview around the vertical axis in Paste Mode.$(br)$(l)Mirror:$() Flips the preview Left to Right in front of the player."
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "useful_things/building_tools/templates",
+                "useful_things/building_tools/construction_paste"
+            ]
+        }
+    ]
+}

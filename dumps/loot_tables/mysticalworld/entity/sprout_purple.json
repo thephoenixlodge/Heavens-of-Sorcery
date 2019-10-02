@@ -1,0 +1,26 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "entries": [
+        {
+          "entryName": "mysticalworld:aubergine",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "mysticalworld:aubergine"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

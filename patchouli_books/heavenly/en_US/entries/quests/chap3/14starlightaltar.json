@@ -37,7 +37,7 @@
             "multiblock": {
                 "pattern": [
                     [ "         ", " C     C ", "         ", "         ", "         ", "         ", "         ", " C     C ", "         " ],
-                    [ "         ", " T     T ", "         ", "         ", "         ", "         ", "         ", " T     T ", "         " ],
+                    [ "         ", " P     P ", "         ", "         ", "         ", "         ", "         ", " P     P ", "         " ],
                     [ "         ", " P     P ", "         ", "         ", "    0    ", "         ", "         ", " P     P ", "         " ],
                     [ " AAAAAAA ", "ACBBBBBCA", "ABSSBSSBA", "ABSSSSSBA", "ABBSSSBBA", "ABSSSSSBA", "ABSSBSSBA", "ACBBBBBCA", " AAAAAAA " ]
                 ],
@@ -48,14 +48,13 @@
                     "B": "astralsorcery:blockmarble[marbletype=bricks]",
                     "C": "astralsorcery:blockmarble[marbletype=chiseled]",
                     "A": "astralsorcery:blockmarble[marbletype=arch]",
-                    "P": "astralsorcery:blockmarble[marbletype=pillar_bottom]",
-                    "T": "astralsorcery:blockmarble[marbletype=pillar_top]"
+                    "P": "astralsorcery:blockmarble[marbletype=pillar]"
                 },
                 "symmetrical": true,
                 "offset"     : [0, 0, 0],
                 "view_offset": [0, 0, 0]
             },
-            "text": "$(l:https://pastebin.com/S4bCmc3s)Pastebin of Structure$(/l) for use with Template Manager"
+            "text": "$(l:https://pastebin.com/S4bCmc3s)Pastebin of Structure$(/l) for use with $(l:useful_things/building_tools/templates)Template Manager$()"
         }
     ]
 }

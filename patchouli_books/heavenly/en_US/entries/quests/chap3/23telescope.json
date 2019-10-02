@@ -1,0 +1,47 @@
+{
+    "name": "Zoom and Enhance",
+    "icon": "astralsorcery:blockmachine:0",
+    "category": "quests/chap3",
+    "sortnum": 22,
+    "advancement": "heavens:bookchap3/14starlightaltar",
+    "turnin": "heavens:bookchap3/23telescope",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "Zoom and Enhance",
+            "trigger": "heavens:bookchap3/23telescope",
+            "text": "The $(l:quests/chap3/09constellation)Constellation Papers$() you found in those old shrines detail the position and shape of the $(thing)Constellations$() in the sky. Perhaps it's time to try and identify them. A simple $(item)Looking Glass$() will suffice, but a stationary $(item)Telescope$() has a bit more pizazz don't you think?"
+        },
+        {
+            "type": "checklist_end",
+            "item1": "astralsorcery:blockmachine:0#1",
+            "reward1": "astralsorcery:blockmarble#200"
+        },
+        {
+            "type": "altar_luminous",
+            "heading": "Looking Glass",
+            "output_item": "astralsorcery:itemhandtelescope",
+            "item2": "botania:manaresource:3",
+            "item3": "astralsorcery:itemcraftingcomponent:3",
+            "item4": "botania:manaresource:3",
+            "item5": "minecraft:gold_ingot",
+            "item6": "botania:manaresource:3",
+            "item7": "botania:livingwood",
+            "item8": "botania:manaresource:3",
+            "description": "Hold Shift to release the cursor and draw the $(thing)Constellations$()."
+        },
+        {
+            "type": "altar_starlight",
+            "heading": "Looking Glass",
+            "output_item": "astralsorcery:blockmachine:0",
+            "item2": "astralsorcery:itemhandtelescope",
+            "item4": "minecraft:gold_ingot",
+            "item5": "botania:livingwood",
+            "item6": "minecraft:gold_ingot",
+            "item7": "botania:manaresource:3",
+            "item8": "botania:manaresource:3",
+            "item9": "botania:manaresource:3",
+            "description": "Different $(thing)Constellations$() appear on different phases of the moon, so check each night."
+        }
+    ]
+}

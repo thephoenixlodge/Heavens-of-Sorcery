@@ -1,10 +1,4 @@
-# WARNING : Any changes to this config file will not take effect!!
-# To fix this, set 'IGNORE_CONFIG_FILE: true' --> 'IGNORE_CONFIG_FILE: false'
-# This was done to prevent default values in new versions from being overriden
-# by outdated config files. By doing this, you will no longer recieve any new
-# config defaults...
-
-IGNORE_CONFIG_FILE: true
+IGNORE_CONFIG_FILE: false
 
 bisonBreedMaxMinutes: 120.0
 bisonBreedMinMinutes: 60.0
@@ -33,30 +27,30 @@ bisonRideOneSecondTameness: 3
 bisonRiderTameness: 800
 maxNumberOfBenders: 3
 scrollDropChance:
-  zombie_pigman: 15.0
-  chicken: 1.0
-  stray: 3.0
-  wither_skeleton: 15.0
-  elder_guardian: 20.0
-  magma_cube: 10.0
-  polar_bear: 5.0
-  skeleton: 1.5
-  bat: 7.5
-  husk: 3.0
-  blaze: 30.0
-  mooshroom: 1.0
-  cave_spider: 2.5
-  silverfish: 5.0
-  zombie: 1.5
-  witch: 5.0
-  squid: 2.0
-  guardian: 10.0
-  ghast: 30.0
-  parrot: 5.0
-  spider: 2.0
-  sheep: 0.25
-  creeper: 0.75
-  enderman: 10.0
+  zombie_pigman: 0
+  chicken: 0
+  stray: 0
+  wither_skeleton: 0
+  elder_guardian: 0
+  magma_cube: 0
+  polar_bear: 0
+  skeleton: 0
+  bat: 0
+  husk: 0
+  blaze: 0
+  mooshroom: 0
+  cave_spider: 0
+  silverfish: 0
+  zombie: 0
+  witch: 0
+  squid: 0
+  guardian: 0
+  ghast: 0
+  parrot: 0
+  spider: 0
+  sheep: 0
+  creeper: 0
+  enderman: 0
 scrollTradeItems:
   minecraft:gold_ingot: 1
   minecraft:emerald: 1

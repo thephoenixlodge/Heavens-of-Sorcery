@@ -1,0 +1,33 @@
+{
+  "pools": [
+    {
+      "name": "toad",
+      "entries": [
+        {
+          "entryName": "bewitchment:toe_of_frog",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "bewitchment:toe_of_frog"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

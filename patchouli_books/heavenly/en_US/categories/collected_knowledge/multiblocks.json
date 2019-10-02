@@ -1,0 +1,6 @@
+{
+	"name": "Structure Index",
+	"description": "Collection of information regarding various multiblock structures, including templates for them.",
+	"icon": "buildinggadgets:template",
+	"parent": "collected_knowledge"
+}

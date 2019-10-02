@@ -8,7 +8,7 @@ addParent("heavens:bookchap3/root")
 
 setRequiresParents()
 
-setPos(-48,27)
+setPos(-8,-13)
 
 criteria = addCriteria("completedChap1", "triumph:completed_advancement")
 criteria.setString("heavens:bookchap2/15misty")

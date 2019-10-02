@@ -1,0 +1,194 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "entries": [
+        {
+          "entryName": "aether_legacy:zanite_pickaxe",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "aether_legacy:zanite_pickaxe"
+        },
+        {
+          "entryName": "aether_legacy:skyroot_bucket",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "aether_legacy:skyroot_bucket"
+        },
+        {
+          "entryName": "aether_legacy:dart_shooter",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "aether_legacy:dart_shooter"
+        },
+        {
+          "entryName": "aether_legacy:moa_egg",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "moa_type": "aether_legacy:white",
+              "function": "aether_legacy:set_moa_type"
+            }
+          ],
+          "name": "aether_legacy:moa_egg"
+        },
+        {
+          "entryName": "aether_legacy:ambrosium_shard",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 10.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "aether_legacy:ambrosium_shard"
+        },
+        {
+          "entryName": "golden_dart",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 0.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "aether_legacy:dart"
+        },
+        {
+          "entryName": "poison_dart",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 1.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "aether_legacy:dart"
+        },
+        {
+          "entryName": "enchanted_dart",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 2.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "aether_legacy:dart"
+        },
+        {
+          "entryName": "aether_legacy:chests/silver_dungeon_chest_sub0",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "aether_legacy:chests/silver_dungeon_chest_sub0"
+        },
+        {
+          "entryName": "poison_bucket",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 2.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "aether_legacy:skyroot_bucket"
+        },
+        {
+          "entryName": "aether_legacy:chests/silver_dungeon_chest_sub1",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "aether_legacy:chests/silver_dungeon_chest_sub1"
+        },
+        {
+          "entryName": "aether_legacy:chests/silver_dungeon_chest_sub2",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "aether_legacy:chests/silver_dungeon_chest_sub2"
+        },
+        {
+          "entryName": "aether_legacy:chests/silver_dungeon_chest_sub3",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "aether_legacy:chests/silver_dungeon_chest_sub3"
+        },
+        {
+          "entryName": "aether_legacy:chests/silver_dungeon_chest_sub4",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "aether_legacy:chests/silver_dungeon_chest_sub4"
+        },
+        {
+          "entryName": "aether_legacy:chests/silver_dungeon_chest_sub5",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "aether_legacy:chests/silver_dungeon_chest_sub5"
+        },
+        {
+          "entryName": "aether_legacy:ambrosium_torch",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "aether_legacy:ambrosium_torch"
+        }
+      ],
+      "rolls": {
+        "min": 3.0,
+        "max": 5.0
+      }
+    }
+  ]
+}

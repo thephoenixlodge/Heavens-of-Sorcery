@@ -1,0 +1,39 @@
+{
+    "name": "Flowering",
+    "icon": "contenttweaker:ironwood_wand_two",
+    "category": "quests/chap3",
+    "sortnum": 17,
+    "advancement": "heavens:bookchap3/16emberbore",
+    "turnin": "heavens:bookchap3/17wandtwo",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "Flowering",
+            "trigger": "heavens:bookchap3/17wandtwo",
+            "text": "While $(item)Mystical Mushrooms$() are sufficient for the purpose of dealing with $(thing)Mana$(), they're not renewable. If you upgrade your $(item)Ironwood Wand$() using your new $(item)Ember Shards$(),  it can channel some of the magicks from the core to transform the $(item)Mystical Mushrooms$() back into $(item)Mystical Flowers$().$(br)$(#f00)All colours count for this task$()"
+        },
+        {
+            "type": "checklist_end",
+            "item1": "contenttweaker:ironwood_wand_two#1",
+            "item2": "botania:flower#1",
+            "reward1": "botania:fertilizer#20"
+        },
+        {
+            "type": "ritual",
+            "heading": "Upgrade Wand",
+            "output_item": "contenttweaker:ironwood_wand_two",
+            "item1": "contenttweaker:ironwood_wand_one",
+            "item2": "botania:manaresource:3",
+            "item3": "embers:shard_ember",
+            "item4": "wizardry:nacre_pearl",
+            "item5": "arcaneworld:sapphire"
+        },
+        {
+        	"type": "wand_use_two",
+            "heading": "Mystical Flowers",
+        	"interact": "botania:mushroom:2",
+            "receive": "botania:flower:2",
+            "description": "Converts $(item)Mystical Mushrooms$() to equivalent $(item)Flower$(). Plant $(item)Petals$() then use bonemeal to grow them for infinite renewable $(item)Petals$()."
+        }
+    ]
+}

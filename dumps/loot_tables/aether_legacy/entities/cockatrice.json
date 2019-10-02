@@ -1,0 +1,33 @@
+{
+  "pools": [
+    {
+      "name": "feather",
+      "entries": [
+        {
+          "entryName": "minecraft:feather",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 2.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "minecraft:feather"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

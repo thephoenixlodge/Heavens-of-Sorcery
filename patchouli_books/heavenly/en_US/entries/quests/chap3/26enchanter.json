@@ -1,0 +1,58 @@
+{
+    "name": "Enchanted",
+    "icon": "aether_legacy:enchanter",
+    "category": "quests/chap3",
+    "sortnum": 26,
+    "advancement": "heavens:bookchap3/25starlightinfuser",
+    "turnin": "heavens:bookchap3/26enchanter",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "Enchanted",
+            "trigger": "heavens:bookchap3/26enchanter",
+            "text": "With access to $(item)Resonating Gems$() you should have everything you need to make an $(item)Enchanter$(). This can be used to repair many items, but more importantly, can enhance some items, giving them new properties. We can take advantage of this to make a $(item)Zeal Lighter$() to open more dimensions."
+        },
+        {
+            "type": "checklist_end",
+            "item1": "aether_legacy:enchanter#1",
+            "item2": "blue_skies:zeal_lighter#1",
+            "reward1": "aether_legacy:ambrosium_shard#15"
+        },
+        {
+            "type": "altar_celestial",
+            "heading": "Enchanter",
+            "output_item": "aether_legacy:enchanter",
+            "item2": "astralsorcery:itemcraftingcomponent:4",
+            "item4": "aether_legacy:zanite_gemstone",
+            "item5": "minecraft:enchanting_table",
+            "item6": "aether_legacy:zanite_gemstone",
+            "item7": "contenttweaker:rune_starlight",
+            "item8": "botania:rune:4",
+            "item9": "contenttweaker:rune_starlight",
+            "item10": "aether_legacy:skyroot_plank",
+            "item11": "aether_legacy:skyroot_plank",
+            "item12": "aether_legacy:holystone",
+            "item13": "aether_legacy:holystone",
+            "item14": "aether_legacy:skyroot_plank",
+            "item15": "aether_legacy:skyroot_plank",
+            "item16": "aether_legacy:skyroot_plank",
+            "item17": "aether_legacy:skyroot_plank",
+            "item18": "aether_legacy:holystone",
+            "item19": "aether_legacy:holystone",
+            "item20": "aether_legacy:holystone",
+            "item21": "aether_legacy:holystone",
+            "description": "Powered by $(item)Ambrosium$()"
+        },
+        {
+            "type": "enchanter",
+            "heading": "Zeal Lighter",
+            "output": "blue_skies:zeal_lighter",
+            "input": "mist:flint_and_stone"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mist:flint_and_stone",
+            "text": "Used to light the $(thing)Everbright$() and $(thing)Everdawn$() portals."
+        }
+    ]
+}

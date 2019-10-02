@@ -15,3 +15,4 @@ criteria = addCriteria("hasItemIronwoodWand", "triumph:player_crafted_item")
 criteria.setItem(<contenttweaker:ironwood_wand_one>)
 
 addRewardItem(<rustic:log, meta:1, count:50>)
+addRewardFunction("set_spawn")

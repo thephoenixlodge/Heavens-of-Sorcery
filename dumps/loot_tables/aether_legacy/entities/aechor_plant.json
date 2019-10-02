@@ -1,0 +1,30 @@
+{
+  "pools": [
+    {
+      "name": "petal",
+      "entries": [
+        {
+          "entryName": "aether_legacy:aechor_petal",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "aether_legacy:aechor_petal"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

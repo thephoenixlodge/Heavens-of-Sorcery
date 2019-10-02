@@ -8,7 +8,7 @@ addParent("heavens:bookchap3/6marble")
 
 setRequiresParents()
 
-setPos(32,67)
+setPos(32,-13)
 
 criteria1 = addCriteria("hasItemsFurnace", "minecraft:inventory_changed")
 criteria1.addItem(<astralsorcery:itemconstellationpaper, count:1~>)

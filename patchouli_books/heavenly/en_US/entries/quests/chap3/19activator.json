@@ -1,0 +1,43 @@
+{
+    "name": "Activation",
+    "icon": "embers:ember_activator",
+    "category": "quests/chap3",
+    "sortnum": 18,
+    "advancement": "heavens:bookchap3/16emberbore",
+    "turnin": "heavens:bookchap3/19activator",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "Activation",
+            "trigger": "heavens:bookchap3/19activator",
+            "text": "While $(item)Ember Shards$() are the key to the magicks of the core, alone they do very little. To get more out of them, you'll need to use an $(item)Activator$() to convert them into raw $(thing)Ember Energy$()."
+        },
+        {
+            "type": "checklist_end",
+            "item1": "embers:ember_activator#1",
+            "reward1": "embers:shard_ember#120",
+            "reward2": "embers:ember_receiver#3",
+            "reward3": "embers:ember_emitter#3"
+        },
+        {
+            "type": "altar_luminous",
+            "anchor": "activator",
+            "heading": "Ember Activator",
+            "output_item": "embers:ember_activator",
+            "item1": "embers:ingot_copper",
+            "item2": "embers:ingot_copper",
+            "item3": "embers:ingot_copper",
+            "item4": "embers:ingot_copper",
+            "item5": "embers:ingot_copper",
+            "item6": "embers:ingot_copper",
+            "item7": "embers:plate_iron",
+            "item8": "arcaneworld:molten_core",
+            "item9": "embers:plate_iron"
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:ct_shaped737845474",
+            "recipe2": "embers:plate_iron"
+        }
+    ]
+}

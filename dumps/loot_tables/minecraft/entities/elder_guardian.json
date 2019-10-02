@@ -133,6 +133,32 @@
           "condition": "minecraft:random_chance_with_looting"
         }
       ]
+    },
+    {
+      "name": "ebwizardry_ebwizardry_additional_mob_drops",
+      "entries": [
+        {
+          "entryName": "ebwizardry_additive_entry",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "ebwizardry:entities/mob_additions"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "magicalsculpture_elder_guardian",
+      "entries": [
+        {
+          "entryName": "magicalsculpture_elder_guardian",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "magicalsculpture:inject/elder_guardian"
+        }
+      ],
+      "rolls": 1.0
     }
   ]
 }

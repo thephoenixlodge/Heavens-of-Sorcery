@@ -1,0 +1,24 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "entries": [
+        {
+          "entryName": "aether_legacy:aether_tune",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "aether_legacy:aether_tune"
+        },
+        {
+          "entryName": "aether_legacy:ambrosium_torch",
+          "weight": 19,
+          "quality": 0,
+          "type": "item",
+          "name": "aether_legacy:ambrosium_torch"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

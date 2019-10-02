@@ -1,0 +1,55 @@
+{
+    "name": "A Link to the Stars",
+    "icon": "astralsorcery:itemlinkingtool",
+    "category": "quests/chap3",
+    "sortnum": 21,
+    "advancement": "heavens:bookchap3/14starlightaltar",
+    "turnin": "heavens:bookchap3/18linkingtool",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "A Link to the Stars",
+            "trigger": "heavens:bookchap3/18linkingtool",
+            "text": "You've seen the large crystals in those big Marble Temples right? Those actually collect and $(thing)Starlight$() and can redirect focused beams of it elsewhere. To control it, you'll need a $(item)Linking Tool$(). Once you have some take some of the $(item)Iron Ore$() from the $(thing)Misty World$() and use the Crystal to turn it into $(item)Starmetal Ore$()."
+        },
+        {
+            "type": "checklist_end",
+            "item1": "astralsorcery:itemlinkingtool#1",
+            "item2": "astralsorcery:blockcustomore:1#1",
+            "reward1": "astralsorcery:itemcraftingcomponent:2#10"
+        },
+        {
+            "type": "altar_starlight",
+            "heading": "Linking Tool",
+            "output_item": "astralsorcery:itemlinkingtool",
+            "item1": "botania:manaresource:3",
+            "item2": "astralsorcery:itemcraftingcomponent:0",
+            "item3": "botania:manaresource:1",
+            "item4": "botania:manaresource:3",
+            "item5": "astralsorcery:itemrockcrystalsimple",
+            "item6": "astralsorcery:itemcraftingcomponent:0",
+            "item7": "wizardry:wisdom_wood_log",
+            "item8": "botania:manaresource:3",
+            "item9": "botania:manaresource:3",
+            "item12": "botania:livingwood"
+        },
+        {
+        	"type": "starlight_trans",
+            "heading": "Starmetal Ore",
+            "output_item": "astralsorcery:blockcustomore:1",
+            "input": "mist:iron_ore",
+            "description": "$(l)To use the Linking Tool:$() Right-Click the Crystal to select it, then Right-Click any and all blocks you wish to link to it. To deselect and stop linking, simply hold a different item."
+        },
+        {
+            "type": "grindstone",
+            "heading": "Stardust",
+            "output_item": "astralsorcery:itemcraftingcomponent:2",
+            "input": "astralsorcery:blockcustomore:1",
+            "description": "85% chance to double output"
+        },
+        {
+            "type": "smelting",
+            "recipe": "astralsorcery:blockcustomore:1"
+        }
+    ]
+}

@@ -1,0 +1,104 @@
+{
+	"components": [
+		{
+			"type": "header",
+			"text": "#heading",
+			"x": -1,
+			"y": -1
+		},
+		{
+			"type": "image",
+			"image": "books:templates/botania_crafting.png",
+			"texture_width": 128,
+			"texture_height": 128,
+			"width": 85,
+			"height": 85,
+			"scale": 1,
+			"x": 20,
+			"y": 10
+		},
+		{
+			"type": "item",
+			"item": "botania:runealtar",
+			"x": 45,
+			"y": 50
+		},
+		{
+			"type": "item",
+			"item": "#output_item",
+			"framed": "false",
+			"link_recipe": true,
+			"x": 82,
+			"y": 16
+		},
+		{
+			"type": "item",
+			"item": "#item1",
+			"framed": "false",
+			"x": 45,
+			"y": 20
+		},
+		{
+			"type": "item",
+			"item": "#item2",
+			"guard": "#item2->iexists",
+			"framed": "false",
+			"x": 45,
+			"y": 80
+		},
+		{
+			"type": "item",
+			"item": "#item3",
+			"guard": "#item3->iexists",
+			"framed": "false",
+			"x": 15,
+			"y": 50
+		},
+		{
+			"type": "item",
+			"item": "#item4",
+			"guard": "#item4->iexists",
+			"framed": "false",
+			"x": 75,
+			"y": 50
+		},
+		{
+			"type": "item",
+			"item": "#item5",
+			"guard": "#item5->iexists",
+			"framed": "false",
+			"x": 22,
+			"y": 27
+		},
+		{
+			"type": "item",
+			"item": "#item6",
+			"guard": "#item6->iexists",
+			"framed": "false",
+			"x": 68,
+			"y": 73
+		},
+		{
+			"type": "item",
+			"item": "#item7",
+			"guard": "#item7->iexists",
+			"framed": "false",
+			"x": 68,
+			"y": 27
+		},
+		{
+			"type": "item",
+			"item": "#item8",
+			"guard": "#item8->iexists",
+			"framed": "false",
+			"x": 22,
+			"y": 73
+		},
+		{
+			"type": "text",
+			"text": "#description",
+			"x": 2,
+			"y": 100
+		}
+	]
+}

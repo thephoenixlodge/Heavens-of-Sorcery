@@ -21,8 +21,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "WATER",
-      "OCEAN"
+      "OCEAN",
+      "WATER"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -96,24 +96,6 @@
       {
         "Entity Class": "teamroots.embers.entity.EntityAncientGolem",
         "Weight": 0,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
         "Min Group Count": 1,
         "Max Group Count": 1
       },
@@ -250,116 +232,26 @@
     ],
     "Spawnable Monsters": [
       {
-        "Entity Class": "net.minecraft.entity.monster.EntitySpider",
-        "Weight": 100,
-        "Min Group Count": 4,
-        "Max Group Count": 4
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityZombie",
-        "Weight": 95,
-        "Min Group Count": 4,
-        "Max Group Count": 4
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityZombieVillager",
-        "Weight": 5,
+        "Entity Class": "teamroots.embers.entity.EntityAncientGolem",
+        "Weight": 10,
         "Min Group Count": 1,
         "Max Group Count": 1
       },
       {
-        "Entity Class": "net.minecraft.entity.monster.EntitySkeleton",
-        "Weight": 100,
-        "Min Group Count": 4,
-        "Max Group Count": 4
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityCreeper",
-        "Weight": 100,
-        "Min Group Count": 4,
-        "Max Group Count": 4
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntitySlime",
-        "Weight": 100,
-        "Min Group Count": 4,
-        "Max Group Count": 4
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEnderman",
-        "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 4
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityWitch",
+        "Entity Class": "net.minecraft.entity.monster.EntityShulker",
         "Weight": 5,
         "Min Group Count": 1,
         "Max Group Count": 1
       },
       {
         "Entity Class": "vazkii.quark.world.entity.EntityStoneling",
-        "Weight": 80,
+        "Weight": 5,
         "Min Group Count": 1,
         "Max Group Count": 1
       },
       {
-        "Entity Class": "vazkii.quark.world.entity.EntityDweller",
-        "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 2
-      },
-      {
-        "Entity Class": "vazkii.quark.world.entity.EntityAshen",
-        "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 2
-      },
-      {
-        "Entity Class": "teamroots.embers.entity.EntityAncientGolem",
-        "Weight": 0,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
+        "Entity Class": "artifacts.common.entity.EntityMimic",
         "Weight": 1,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "electroblob.wizardry.entity.living.EntityEvilWizard",
-        "Weight": 3,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "com.bewitchment.common.entity.spirit.ghost.EntityBlackDog",
-        "Weight": 6,
-        "Min Group Count": 1,
-        "Max Group Count": 4
-      },
-      {
-        "Entity Class": "thaumcraft.common.entities.monster.EntityBrainyZombie",
-        "Weight": 10,
         "Min Group Count": 1,
         "Max Group Count": 1
       }
@@ -404,8 +296,8 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "DRY",
       "SANDY",
+      "DRY",
       "HOT"
     ],
     "BiomeManager Entries": {},
@@ -495,24 +387,6 @@
         "Weight": 10,
         "Min Group Count": 1,
         "Max Group Count": 2
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       },
       {
         "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
@@ -702,24 +576,6 @@
         "Max Group Count": 1
       },
       {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
         "Weight": 1,
         "Min Group Count": 1,
@@ -728,12 +584,6 @@
       {
         "Entity Class": "electroblob.wizardry.entity.living.EntityEvilWizard",
         "Weight": 3,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "thaumcraft.common.entities.monster.EntityBrainyZombie",
-        "Weight": 10,
         "Min Group Count": 1,
         "Max Group Count": 1
       }
@@ -936,24 +786,6 @@
         "Max Group Count": 1
       },
       {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
         "Weight": 1,
         "Min Group Count": 1,
@@ -973,12 +805,6 @@
       },
       {
         "Entity Class": "party.lemons.corvus.entity.EntityWendigo",
-        "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "thaumcraft.common.entities.monster.EntityBrainyZombie",
         "Weight": 10,
         "Min Group Count": 1,
         "Max Group Count": 1
@@ -1024,9 +850,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "FOREST",
       "COLD",
-      "CONIFEROUS"
+      "CONIFEROUS",
+      "FOREST"
     ],
     "BiomeManager Entries": {
       "COOL Weights": [
@@ -1193,24 +1019,6 @@
         "Max Group Count": 1
       },
       {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
         "Weight": 1,
         "Min Group Count": 1,
@@ -1230,12 +1038,6 @@
       },
       {
         "Entity Class": "party.lemons.corvus.entity.EntityWendigo",
-        "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "thaumcraft.common.entities.monster.EntityBrainyZombie",
         "Weight": 10,
         "Min Group Count": 1,
         "Max Group Count": 1
@@ -1425,24 +1227,6 @@
         "Max Group Count": 1
       },
       {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
         "Weight": 1,
         "Min Group Count": 1,
@@ -1451,12 +1235,6 @@
       {
         "Entity Class": "electroblob.wizardry.entity.living.EntityEvilWizard",
         "Weight": 3,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "thaumcraft.common.entities.monster.EntityBrainyZombie",
-        "Weight": 10,
         "Min Group Count": 1,
         "Max Group Count": 1
       }
@@ -1587,24 +1365,6 @@
         "Max Group Count": 2
       },
       {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
         "Weight": 1,
         "Min Group Count": 1,
@@ -1657,9 +1417,9 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
+      "NETHER",
       "DRY",
-      "HOT",
-      "NETHER"
+      "HOT"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -1769,9 +1529,9 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "DRY",
+      "END",
       "COLD",
-      "END"
+      "DRY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -1847,9 +1607,9 @@
     "Enable Snow": true,
     "Dictionary Types": [
       "SNOWY",
-      "WATER",
       "COLD",
-      "OCEAN"
+      "OCEAN",
+      "WATER"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -1946,24 +1706,6 @@
         "Max Group Count": 1
       },
       {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "electroblob.wizardry.entity.living.EntityIceWraith",
         "Weight": 3,
         "Min Group Count": 1,
@@ -2022,10 +1764,10 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
-      "RIVER",
       "SNOWY",
-      "WATER",
-      "COLD"
+      "RIVER",
+      "COLD",
+      "WATER"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -2128,24 +1870,6 @@
         "Max Group Count": 2
       },
       {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "electroblob.wizardry.entity.living.EntityIceWraith",
         "Weight": 3,
         "Min Group Count": 1,
@@ -2204,9 +1928,9 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
-      "WASTELAND",
       "SNOWY",
-      "COLD"
+      "COLD",
+      "WASTELAND"
     ],
     "BiomeManager Entries": {
       "ICY Weights": [
@@ -2337,24 +2061,6 @@
         "Max Group Count": 1
       },
       {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "electroblob.wizardry.entity.living.EntityIceWraith",
         "Weight": 3,
         "Min Group Count": 1,
@@ -2377,12 +2083,6 @@
         "Weight": 6,
         "Min Group Count": 1,
         "Max Group Count": 4
-      },
-      {
-        "Entity Class": "thaumcraft.common.entities.monster.EntityBrainyZombie",
-        "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       }
     ],
     "Spawnable Water Creatures": [
@@ -2425,9 +2125,9 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
-      "MOUNTAIN",
       "SNOWY",
-      "COLD"
+      "COLD",
+      "MOUNTAIN"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -2548,24 +2248,6 @@
         "Max Group Count": 2
       },
       {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "electroblob.wizardry.entity.living.EntityIceWraith",
         "Weight": 3,
         "Min Group Count": 1,
@@ -2636,26 +2318,7 @@
         "Max Group Count": 8
       }
     ],
-    "Spawnable Monsters": [
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      }
-    ],
+    "Spawnable Monsters": [],
     "Spawnable Water Creatures": [],
     "Spawnable Cave Creatures": [
       {
@@ -2690,8 +2353,8 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "MUSHROOM",
-      "RARE",
-      "BEACH"
+      "BEACH",
+      "RARE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -2714,26 +2377,7 @@
         "Max Group Count": 4
       }
     ],
-    "Spawnable Monsters": [
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      }
-    ],
+    "Spawnable Monsters": [],
     "Spawnable Water Creatures": [],
     "Spawnable Cave Creatures": [
       {
@@ -2858,24 +2502,6 @@
         "Max Group Count": 2
       },
       {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
         "Weight": 1,
         "Min Group Count": 1,
@@ -2928,9 +2554,9 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "HILLS",
-      "DRY",
       "SANDY",
+      "DRY",
+      "HILLS",
       "HOT"
     ],
     "BiomeManager Entries": {},
@@ -3026,24 +2652,6 @@
         "Weight": 10,
         "Min Group Count": 1,
         "Max Group Count": 2
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       },
       {
         "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
@@ -3250,24 +2858,6 @@
         "Max Group Count": 2
       },
       {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
         "Weight": 1,
         "Min Group Count": 1,
@@ -3332,10 +2922,10 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "HILLS",
-      "FOREST",
       "COLD",
-      "CONIFEROUS"
+      "HILLS",
+      "CONIFEROUS",
+      "FOREST"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -3502,24 +3092,6 @@
         "Weight": 10,
         "Min Group Count": 1,
         "Max Group Count": 2
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       },
       {
         "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
@@ -3701,24 +3273,6 @@
         "Max Group Count": 2
       },
       {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
         "Weight": 1,
         "Min Group Count": 1,
@@ -3771,10 +3325,10 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "DENSE",
       "JUNGLE",
-      "HOT",
-      "WET"
+      "WET",
+      "DENSE",
+      "HOT"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -3913,24 +3467,6 @@
         "Max Group Count": 2
       },
       {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
         "Weight": 1,
         "Min Group Count": 1,
@@ -3983,11 +3519,11 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "HILLS",
-      "DENSE",
       "JUNGLE",
-      "HOT",
-      "WET"
+      "WET",
+      "DENSE",
+      "HILLS",
+      "HOT"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -4132,24 +3668,6 @@
         "Max Group Count": 2
       },
       {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
         "Weight": 1,
         "Min Group Count": 1,
@@ -4202,11 +3720,11 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "FOREST",
-      "RARE",
       "JUNGLE",
+      "WET",
+      "RARE",
       "HOT",
-      "WET"
+      "FOREST"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -4363,24 +3881,6 @@
         "Max Group Count": 2
       },
       {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
         "Weight": 1,
         "Min Group Count": 1,
@@ -4445,8 +3945,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "WATER",
-      "OCEAN"
+      "OCEAN",
+      "WATER"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -4520,24 +4020,6 @@
       {
         "Entity Class": "teamroots.embers.entity.EntityAncientGolem",
         "Weight": 0,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
         "Min Group Count": 1,
         "Max Group Count": 1
       },
@@ -4677,24 +4159,6 @@
         "Weight": 10,
         "Min Group Count": 1,
         "Max Group Count": 2
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       },
       {
         "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
@@ -4858,24 +4322,6 @@
         "Weight": 10,
         "Min Group Count": 1,
         "Max Group Count": 2
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       },
       {
         "Entity Class": "electroblob.wizardry.entity.living.EntityIceWraith",
@@ -5085,24 +4531,6 @@
         "Max Group Count": 1
       },
       {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
         "Weight": 1,
         "Min Group Count": 1,
@@ -5122,12 +4550,6 @@
       },
       {
         "Entity Class": "party.lemons.corvus.entity.EntityWendigo",
-        "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "thaumcraft.common.entities.monster.EntityBrainyZombie",
         "Weight": 10,
         "Min Group Count": 1,
         "Max Group Count": 1
@@ -5325,24 +4747,6 @@
         "Max Group Count": 2
       },
       {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
         "Weight": 1,
         "Min Group Count": 1,
@@ -5408,8 +4812,8 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "SPOOKY",
-      "FOREST",
-      "DENSE"
+      "DENSE",
+      "FOREST"
     ],
     "BiomeManager Entries": {
       "WARM Weights": [
@@ -5558,24 +4962,6 @@
         "Max Group Count": 1
       },
       {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
         "Weight": 1,
         "Min Group Count": 1,
@@ -5595,12 +4981,6 @@
       },
       {
         "Entity Class": "party.lemons.corvus.entity.EntityWendigo",
-        "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "thaumcraft.common.entities.monster.EntityBrainyZombie",
         "Weight": 10,
         "Min Group Count": 1,
         "Max Group Count": 1
@@ -5646,10 +5026,10 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
-      "FOREST",
       "SNOWY",
       "COLD",
-      "CONIFEROUS"
+      "CONIFEROUS",
+      "FOREST"
     ],
     "BiomeManager Entries": {
       "ICY Weights": [
@@ -5816,24 +5196,6 @@
         "Max Group Count": 1
       },
       {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
         "Weight": 1,
         "Min Group Count": 1,
@@ -5853,12 +5215,6 @@
       },
       {
         "Entity Class": "party.lemons.corvus.entity.EntityWendigo",
-        "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "thaumcraft.common.entities.monster.EntityBrainyZombie",
         "Weight": 10,
         "Min Group Count": 1,
         "Max Group Count": 1
@@ -5904,11 +5260,11 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
-      "HILLS",
-      "FOREST",
       "SNOWY",
       "COLD",
-      "CONIFEROUS"
+      "HILLS",
+      "CONIFEROUS",
+      "FOREST"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -6071,24 +5427,6 @@
         "Max Group Count": 2
       },
       {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
         "Weight": 1,
         "Min Group Count": 1,
@@ -6153,9 +5491,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "FOREST",
       "COLD",
-      "CONIFEROUS"
+      "CONIFEROUS",
+      "FOREST"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -6312,24 +5650,6 @@
         "Max Group Count": 2
       },
       {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
         "Weight": 1,
         "Min Group Count": 1,
@@ -6394,10 +5714,10 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "HILLS",
-      "FOREST",
       "COLD",
-      "CONIFEROUS"
+      "HILLS",
+      "CONIFEROUS",
+      "FOREST"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -6566,24 +5886,6 @@
         "Max Group Count": 2
       },
       {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
         "Weight": 1,
         "Min Group Count": 1,
@@ -6648,9 +5950,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
+      "SPARSE",
       "MOUNTAIN",
-      "FOREST",
-      "SPARSE"
+      "FOREST"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -6799,24 +6101,6 @@
         "Weight": 10,
         "Min Group Count": 1,
         "Max Group Count": 2
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       },
       {
         "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
@@ -6884,9 +6168,9 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "SPARSE",
-      "PLAINS",
       "HOT",
-      "SAVANNA"
+      "SAVANNA",
+      "PLAINS"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -7025,24 +6309,6 @@
         "Max Group Count": 2
       },
       {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
         "Weight": 1,
         "Min Group Count": 1,
@@ -7102,10 +6368,10 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "SPARSE",
-      "PLAINS",
       "RARE",
       "HOT",
-      "SAVANNA"
+      "SAVANNA",
+      "PLAINS"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -7256,24 +6522,6 @@
         "Max Group Count": 2
       },
       {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
         "Weight": 1,
         "Min Group Count": 1,
@@ -7333,8 +6581,8 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "MESA",
-      "DRY",
-      "SANDY"
+      "SANDY",
+      "DRY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -7404,24 +6652,6 @@
         "Weight": 10,
         "Min Group Count": 1,
         "Max Group Count": 2
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       },
       {
         "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
@@ -7476,10 +6706,10 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SPARSE",
       "MESA",
-      "DRY",
-      "SANDY"
+      "SPARSE",
+      "SANDY",
+      "DRY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -7549,24 +6779,6 @@
         "Weight": 10,
         "Min Group Count": 1,
         "Max Group Count": 2
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       },
       {
         "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
@@ -7622,8 +6834,8 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "MESA",
-      "DRY",
-      "SANDY"
+      "SANDY",
+      "DRY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -7693,24 +6905,6 @@
         "Weight": 10,
         "Min Group Count": 1,
         "Max Group Count": 2
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       },
       {
         "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
@@ -7805,24 +6999,6 @@
         "Entity Class": "net.minecraft.entity.monster.EntityCaveSpider",
         "Weight": 2,
         "Min Group Count": 0,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
         "Max Group Count": 1
       },
       {
@@ -7925,24 +7101,6 @@
         "Max Group Count": 1
       },
       {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
         "Weight": 1,
         "Min Group Count": 1,
@@ -7987,9 +7145,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "FOREST",
       "DENSE",
-      "WET"
+      "WET",
+      "FOREST"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -8047,24 +7205,6 @@
         "Entity Class": "net.minecraft.entity.monster.EntityCaveSpider",
         "Weight": 2,
         "Min Group Count": 0,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
         "Max Group Count": 1
       },
       {
@@ -8145,24 +7285,6 @@
         "Max Group Count": 1
       },
       {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
         "Weight": 1,
         "Min Group Count": 1,
@@ -8201,8 +7323,8 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "DRY",
       "SANDY",
+      "DRY",
       "HOT"
     ],
     "BiomeManager Entries": {},
@@ -8231,24 +7353,6 @@
         "Entity Class": "net.minecraft.entity.monster.EntityCaveSpider",
         "Weight": 2,
         "Min Group Count": 0,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
         "Max Group Count": 1
       },
       {
@@ -8290,9 +7394,9 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "HILLS",
-      "DRY",
       "SANDY",
+      "DRY",
+      "HILLS",
       "HOT"
     ],
     "BiomeManager Entries": {},
@@ -8321,24 +7425,6 @@
         "Entity Class": "net.minecraft.entity.monster.EntityCaveSpider",
         "Weight": 2,
         "Min Group Count": 0,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
         "Max Group Count": 1
       },
       {
@@ -8380,10 +7466,10 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
-      "PLAINS",
       "SNOWY",
       "COLD",
-      "CONIFEROUS"
+      "CONIFEROUS",
+      "PLAINS"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -8441,24 +7527,6 @@
         "Entity Class": "net.minecraft.entity.monster.EntityCaveSpider",
         "Weight": 2,
         "Min Group Count": 0,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
         "Max Group Count": 1
       },
       {
@@ -8506,10 +7574,10 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
-      "FOREST",
       "SNOWY",
       "COLD",
-      "CONIFEROUS"
+      "CONIFEROUS",
+      "FOREST"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -8573,24 +7641,6 @@
         "Entity Class": "net.minecraft.entity.monster.EntityCaveSpider",
         "Weight": 2,
         "Min Group Count": 0,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
         "Max Group Count": 1
       },
       {
@@ -8638,11 +7688,11 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
-      "HILLS",
-      "FOREST",
       "SNOWY",
       "COLD",
-      "CONIFEROUS"
+      "HILLS",
+      "CONIFEROUS",
+      "FOREST"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -8706,24 +7756,6 @@
         "Entity Class": "net.minecraft.entity.monster.EntityCaveSpider",
         "Weight": 2,
         "Min Group Count": 0,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
         "Max Group Count": 1
       },
       {
@@ -8815,24 +7847,6 @@
         "Max Group Count": 1
       },
       {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
         "Weight": 1,
         "Min Group Count": 1,
@@ -8871,9 +7885,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "PLAINS",
       "WET",
-      "SWAMP"
+      "SWAMP",
+      "PLAINS"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -8922,24 +7936,6 @@
         "Max Group Count": 1
       },
       {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
         "Weight": 1,
         "Min Group Count": 1,
@@ -8978,9 +7974,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "FOREST",
       "WET",
-      "SWAMP"
+      "SWAMP",
+      "FOREST"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -9044,24 +8040,6 @@
         "Entity Class": "net.minecraft.entity.monster.EntityCaveSpider",
         "Weight": 2,
         "Min Group Count": 0,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
         "Max Group Count": 1
       },
       {
@@ -9109,10 +8087,10 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "FOREST",
-      "JUNGLE",
       "LUSH",
-      "WET"
+      "JUNGLE",
+      "WET",
+      "FOREST"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -9176,24 +8154,6 @@
         "Entity Class": "net.minecraft.entity.monster.EntityCaveSpider",
         "Weight": 2,
         "Min Group Count": 0,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
         "Max Group Count": 1
       },
       {
@@ -9291,24 +8251,6 @@
         "Max Group Count": 1
       },
       {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
         "Weight": 1,
         "Min Group Count": 1,
@@ -9347,10 +8289,10 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "HILLS",
-      "FOREST",
+      "LUSH",
       "JUNGLE",
-      "LUSH"
+      "HILLS",
+      "FOREST"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -9417,24 +8359,6 @@
         "Max Group Count": 1
       },
       {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
         "Weight": 1,
         "Min Group Count": 1,
@@ -9480,8 +8404,8 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "RIVER",
-      "WATER",
-      "WET"
+      "WET",
+      "WATER"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -9521,24 +8445,6 @@
         "Entity Class": "net.minecraft.entity.monster.EntityCaveSpider",
         "Weight": 2,
         "Min Group Count": 0,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
         "Max Group Count": 1
       },
       {
@@ -9624,24 +8530,6 @@
         "Max Group Count": 1
       },
       {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
         "Weight": 1,
         "Min Group Count": 1,
@@ -9681,8 +8569,8 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "RIVER",
-      "WATER",
-      "WET"
+      "WET",
+      "WATER"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -9725,24 +8613,6 @@
         "Max Group Count": 1
       },
       {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
         "Weight": 1,
         "Min Group Count": 1,
@@ -9781,11 +8651,11 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
-      "RIVER",
       "SNOWY",
-      "WATER",
+      "RIVER",
+      "COLD",
       "WET",
-      "COLD"
+      "WATER"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -9843,24 +8713,6 @@
         "Entity Class": "net.minecraft.entity.monster.EntityCaveSpider",
         "Weight": 2,
         "Min Group Count": 0,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
         "Max Group Count": 1
       },
       {
@@ -9908,8 +8760,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "WASTELAND",
-      "PLAINS"
+      "PLAINS",
+      "WASTELAND"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -9943,24 +8795,6 @@
         "Entity Class": "net.minecraft.entity.monster.EntityCaveSpider",
         "Weight": 3,
         "Min Group Count": 0,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
         "Max Group Count": 1
       },
       {
@@ -10002,10 +8836,10 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "DRY",
-      "WASTELAND",
       "SANDY",
-      "HOT"
+      "DRY",
+      "HOT",
+      "WASTELAND"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -10026,24 +8860,6 @@
         "Entity Class": "net.minecraft.entity.monster.EntityCaveSpider",
         "Weight": 3,
         "Min Group Count": 0,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
         "Max Group Count": 1
       },
       {
@@ -10085,9 +8901,9 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
-      "WASTELAND",
       "SNOWY",
-      "COLD"
+      "COLD",
+      "WASTELAND"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -10127,24 +8943,6 @@
         "Entity Class": "net.minecraft.entity.monster.EntityCaveSpider",
         "Weight": 3,
         "Min Group Count": 0,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
         "Max Group Count": 1
       },
       {
@@ -10192,8 +8990,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "WASTELAND",
-      "WET"
+      "WET",
+      "WASTELAND"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -10214,24 +9012,6 @@
         "Entity Class": "net.minecraft.entity.monster.EntityCaveSpider",
         "Weight": 3,
         "Min Group Count": 0,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
         "Max Group Count": 1
       },
       {
@@ -10273,9 +9053,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "WASTELAND",
       "JUNGLE",
-      "WET"
+      "WET",
+      "WASTELAND"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -10315,24 +9095,6 @@
         "Entity Class": "net.minecraft.entity.monster.EntityCaveSpider",
         "Weight": 3,
         "Min Group Count": 0,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
         "Max Group Count": 1
       },
       {
@@ -10388,24 +9150,6 @@
     ],
     "Spawnable Monsters": [
       {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
         "Weight": 1,
         "Min Group Count": 1,
@@ -10457,24 +9201,6 @@
       }
     ],
     "Spawnable Monsters": [
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
       {
         "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
         "Weight": 1,
@@ -10528,24 +9254,6 @@
     ],
     "Spawnable Monsters": [
       {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
         "Weight": 1,
         "Min Group Count": 1,
@@ -10597,24 +9305,6 @@
       }
     ],
     "Spawnable Monsters": [
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
       {
         "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
         "Weight": 1,
@@ -10668,24 +9358,6 @@
     ],
     "Spawnable Monsters": [
       {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
         "Weight": 1,
         "Min Group Count": 1,
@@ -10738,24 +9410,6 @@
     ],
     "Spawnable Monsters": [
       {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
         "Weight": 1,
         "Min Group Count": 1,
@@ -10794,8 +9448,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "FOREST",
-      "MAGICAL"
+      "MAGICAL",
+      "FOREST"
     ],
     "BiomeManager Entries": {
       "WARM Weights": [
@@ -10939,12 +9593,6 @@
         "Weight": 10,
         "Min Group Count": 1,
         "Max Group Count": 1
-      },
-      {
-        "Entity Class": "thaumcraft.common.entities.monster.EntityBrainyZombie",
-        "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       }
     ],
     "Spawnable Water Creatures": [
@@ -11061,18 +9709,6 @@
         "Max Group Count": 1
       },
       {
-        "Entity Class": "thaumcraft.common.entities.monster.EntityBrainyZombie",
-        "Weight": 32,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "thaumcraft.common.entities.monster.EntityGiantBrainyZombie",
-        "Weight": 8,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "thaumcraft.common.entities.monster.EntityWisp",
         "Weight": 3,
         "Min Group Count": 1,
@@ -11143,9 +9779,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
+      "END",
       "SPOOKY",
-      "MAGICAL",
-      "END"
+      "MAGICAL"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -11213,8 +9849,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "FOREST",
-      "DENSE"
+      "DENSE",
+      "FOREST"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -11302,8 +9938,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "PLAINS",
-      "DENSE"
+      "DENSE",
+      "PLAINS"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -11385,9 +10021,9 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "PLAINS",
+      "DEAD",
       "HOT",
-      "DEAD"
+      "PLAINS"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -11521,9 +10157,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
+      "OCEAN",
       "WATER",
-      "MAGICAL",
-      "OCEAN"
+      "MAGICAL"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -11611,9 +10247,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
+      "OCEAN",
       "WATER",
-      "MAGICAL",
-      "OCEAN"
+      "MAGICAL"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -11651,10 +10287,10 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "DENSE",
       "JUNGLE",
-      "HOT",
-      "WET"
+      "WET",
+      "DENSE",
+      "HOT"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -11786,10 +10422,10 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "SPOOKY",
-      "MOUNTAIN",
-      "WASTELAND",
       "WATER",
-      "MAGICAL"
+      "MOUNTAIN",
+      "MAGICAL",
+      "WASTELAND"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -11841,8 +10477,8 @@
     "Dictionary Types": [
       "SPOOKY",
       "MOUNTAIN",
-      "WASTELAND",
-      "MAGICAL"
+      "MAGICAL",
+      "WASTELAND"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -11893,10 +10529,10 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "SPOOKY",
+      "COLD",
       "DRY",
       "VOID",
-      "MAGICAL",
-      "COLD"
+      "MAGICAL"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -11990,11 +10626,11 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
+      "COLD",
       "DRY",
       "VOID",
       "PLAINS",
-      "MAGICAL",
-      "COLD"
+      "MAGICAL"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -12117,10 +10753,10 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
+      "COLD",
       "DRY",
       "PLAINS",
-      "MAGICAL",
-      "COLD"
+      "MAGICAL"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -12189,11 +10825,11 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
+      "SNOWY",
+      "COLD",
       "HILLS",
       "MOUNTAIN",
-      "SNOWY",
-      "MAGICAL",
-      "COLD"
+      "MAGICAL"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -12294,12 +10930,12 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "DRY",
-      "PLAINS",
-      "WATER",
-      "MAGICAL",
       "COLD",
-      "OCEAN"
+      "DRY",
+      "OCEAN",
+      "WATER",
+      "PLAINS",
+      "MAGICAL"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -12349,10 +10985,10 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "PLAINS",
       "SNOWY",
-      "MAGICAL",
-      "SWAMP"
+      "SWAMP",
+      "PLAINS",
+      "MAGICAL"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -12435,13 +11071,13 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
-      "FOREST",
-      "PLAINS",
-      "DENSE",
       "SNOWY",
       "LUSH",
-      "MAGICAL",
-      "COLD"
+      "COLD",
+      "DENSE",
+      "PLAINS",
+      "FOREST",
+      "MAGICAL"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -12587,11 +11223,11 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "FOREST",
+      "LUSH",
       "SPOOKY",
-      "PLAINS",
       "DENSE",
-      "LUSH"
+      "PLAINS",
+      "FOREST"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -12666,10 +11302,10 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "DRY",
-      "PLAINS",
       "SANDY",
-      "DEAD"
+      "DRY",
+      "DEAD",
+      "PLAINS"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -12958,8 +11594,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "WATER",
       "WET",
+      "WATER",
       "SWAMP"
     ],
     "BiomeManager Entries": {},
@@ -13004,11 +11640,11 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "FOREST",
       "DENSE",
-      "WATER",
       "WET",
-      "SWAMP"
+      "WATER",
+      "SWAMP",
+      "FOREST"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -13103,8 +11739,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "WATER",
       "WET",
+      "WATER",
       "SWAMP"
     ],
     "BiomeManager Entries": {},
@@ -13149,10 +11785,10 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "WASTELAND",
       "WET",
       "DEAD",
-      "SWAMP"
+      "SWAMP",
+      "WASTELAND"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -13196,8 +11832,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "WATER",
       "WET",
+      "WATER",
       "SWAMP"
     ],
     "BiomeManager Entries": {},
@@ -13242,8 +11878,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "WATER",
       "WET",
+      "WATER",
       "SWAMP"
     ],
     "BiomeManager Entries": {},
@@ -13288,11 +11924,11 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "FOREST",
       "DENSE",
-      "WATER",
       "WET",
-      "SWAMP"
+      "WATER",
+      "SWAMP",
+      "FOREST"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -13348,24 +11984,6 @@
     "Spawnable Creatures": [],
     "Spawnable Monsters": [
       {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
         "Weight": 1,
         "Min Group Count": 1,
@@ -13404,8 +12022,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "PLAINS",
-      "RARE"
+      "RARE",
+      "PLAINS"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -13538,24 +12156,6 @@
         "Max Group Count": 2
       },
       {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
         "Weight": 1,
         "Min Group Count": 1,
@@ -13614,8 +12214,8 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "DRY",
       "SANDY",
+      "DRY",
       "RARE",
       "HOT"
     ],
@@ -13702,24 +12302,6 @@
         "Max Group Count": 2
       },
       {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
         "Weight": 1,
         "Min Group Count": 1,
@@ -13772,9 +12354,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "MOUNTAIN",
       "SPARSE",
-      "RARE"
+      "RARE",
+      "MOUNTAIN"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -13889,24 +12471,6 @@
         "Max Group Count": 2
       },
       {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
         "Weight": 1,
         "Min Group Count": 1,
@@ -13960,8 +12524,8 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "HILLS",
-      "FOREST",
-      "RARE"
+      "RARE",
+      "FOREST"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -14112,24 +12676,6 @@
         "Max Group Count": 2
       },
       {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
         "Weight": 1,
         "Min Group Count": 1,
@@ -14194,11 +12740,11 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "FOREST",
-      "MOUNTAIN",
-      "RARE",
       "COLD",
-      "CONIFEROUS"
+      "RARE",
+      "MOUNTAIN",
+      "CONIFEROUS",
+      "FOREST"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -14355,24 +12901,6 @@
         "Max Group Count": 2
       },
       {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
         "Weight": 1,
         "Min Group Count": 1,
@@ -14437,9 +12965,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
+      "WET",
       "HILLS",
       "RARE",
-      "WET",
       "SWAMP"
     ],
     "BiomeManager Entries": {},
@@ -14573,24 +13101,6 @@
         "Max Group Count": 2
       },
       {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
         "Weight": 1,
         "Min Group Count": 1,
@@ -14643,10 +13153,10 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
-      "HILLS",
-      "RARE",
       "SNOWY",
-      "COLD"
+      "COLD",
+      "HILLS",
+      "RARE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -14767,24 +13277,6 @@
         "Max Group Count": 2
       },
       {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "electroblob.wizardry.entity.living.EntityIceWraith",
         "Weight": 3,
         "Min Group Count": 1,
@@ -14843,12 +13335,12 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "MOUNTAIN",
+      "JUNGLE",
+      "WET",
       "DENSE",
       "RARE",
-      "JUNGLE",
       "HOT",
-      "WET"
+      "MOUNTAIN"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -14993,24 +13485,6 @@
         "Max Group Count": 2
       },
       {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
         "Weight": 1,
         "Min Group Count": 1,
@@ -15063,10 +13537,10 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "HILLS",
       "SPARSE",
-      "RARE",
       "JUNGLE",
+      "HILLS",
+      "RARE",
       "HOT"
     ],
     "BiomeManager Entries": {},
@@ -15200,24 +13674,6 @@
         "Max Group Count": 2
       },
       {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
         "Weight": 1,
         "Min Group Count": 1,
@@ -15270,10 +13726,10 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "HILLS",
-      "FOREST",
       "DENSE",
-      "RARE"
+      "HILLS",
+      "RARE",
+      "FOREST"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -15418,24 +13874,6 @@
         "Max Group Count": 2
       },
       {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
         "Weight": 1,
         "Min Group Count": 1,
@@ -15500,10 +13938,10 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "FOREST",
-      "MOUNTAIN",
       "DENSE",
-      "RARE"
+      "RARE",
+      "MOUNTAIN",
+      "FOREST"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -15640,24 +14078,6 @@
         "Weight": 10,
         "Min Group Count": 1,
         "Max Group Count": 2
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       },
       {
         "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
@@ -15725,10 +14145,10 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "SPOOKY",
-      "FOREST",
-      "MOUNTAIN",
       "DENSE",
-      "RARE"
+      "RARE",
+      "MOUNTAIN",
+      "FOREST"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -15867,24 +14287,6 @@
         "Max Group Count": 2
       },
       {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
         "Weight": 1,
         "Min Group Count": 1,
@@ -15949,12 +14351,12 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
-      "FOREST",
-      "MOUNTAIN",
-      "RARE",
       "SNOWY",
       "COLD",
-      "CONIFEROUS"
+      "RARE",
+      "MOUNTAIN",
+      "CONIFEROUS",
+      "FOREST"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -16111,24 +14513,6 @@
         "Max Group Count": 2
       },
       {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
         "Weight": 1,
         "Min Group Count": 1,
@@ -16193,9 +14577,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "FOREST",
       "DENSE",
-      "RARE"
+      "RARE",
+      "FOREST"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -16346,24 +14730,6 @@
         "Max Group Count": 2
       },
       {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
         "Weight": 1,
         "Min Group Count": 1,
@@ -16428,10 +14794,10 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "HILLS",
-      "FOREST",
       "DENSE",
-      "RARE"
+      "HILLS",
+      "RARE",
+      "FOREST"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -16588,24 +14954,6 @@
         "Max Group Count": 2
       },
       {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
         "Weight": 1,
         "Min Group Count": 1,
@@ -16670,9 +15018,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "MOUNTAIN",
       "SPARSE",
-      "RARE"
+      "RARE",
+      "MOUNTAIN"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -16787,24 +15135,6 @@
         "Max Group Count": 2
       },
       {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
         "Weight": 1,
         "Min Group Count": 1,
@@ -16858,10 +15188,10 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "SPARSE",
-      "MOUNTAIN",
       "DRY",
       "RARE",
       "HOT",
+      "MOUNTAIN",
       "SAVANNA"
     ],
     "BiomeManager Entries": {},
@@ -16977,24 +15307,6 @@
         "Max Group Count": 2
       },
       {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
         "Weight": 1,
         "Min Group Count": 1,
@@ -17047,9 +15359,9 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "HILLS",
       "SPARSE",
       "DRY",
+      "HILLS",
       "RARE",
       "HOT",
       "SAVANNA"
@@ -17165,24 +15477,6 @@
         "Weight": 10,
         "Min Group Count": 1,
         "Max Group Count": 2
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       },
       {
         "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
@@ -17238,10 +15532,10 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "SPARSE",
-      "MOUNTAIN",
       "DRY",
       "RARE",
-      "HOT"
+      "HOT",
+      "MOUNTAIN"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -17320,24 +15614,6 @@
         "Max Group Count": 2
       },
       {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
         "Weight": 1,
         "Min Group Count": 1,
@@ -17390,9 +15666,9 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "HILLS",
       "SPARSE",
       "DRY",
+      "HILLS",
       "RARE",
       "HOT"
     ],
@@ -17473,24 +15749,6 @@
         "Max Group Count": 2
       },
       {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
         "Weight": 1,
         "Min Group Count": 1,
@@ -17544,10 +15802,10 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "SPARSE",
-      "MOUNTAIN",
       "DRY",
       "RARE",
-      "HOT"
+      "HOT",
+      "MOUNTAIN"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -17624,24 +15882,6 @@
         "Weight": 10,
         "Min Group Count": 1,
         "Max Group Count": 2
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityIllusionIllager",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityVindicator",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityEvoker",
-        "Weight": 2,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       },
       {
         "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",

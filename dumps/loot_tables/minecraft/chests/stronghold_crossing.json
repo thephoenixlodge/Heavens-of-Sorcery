@@ -127,27 +127,14 @@
       }
     },
     {
-      "name": "bewitchment_saplings_pool",
+      "name": "bewitchment_materials_pool",
       "entries": [
         {
-          "entryName": "bewitchment_saplings_entry",
+          "entryName": "bewitchment_materials_entry",
           "weight": 5,
           "quality": 0,
           "type": "loot_table",
-          "name": "bewitchment:chests/saplings"
-        }
-      ],
-      "rolls": 3.0
-    },
-    {
-      "name": "bewitchment_jewels_pool",
-      "entries": [
-        {
-          "entryName": "bewitchment_jewels_entry",
-          "weight": 5,
-          "quality": 0,
-          "type": "loot_table",
-          "name": "bewitchment:chests/jewels"
+          "name": "bewitchment:chests/materials"
         }
       ],
       "rolls": 1.0

@@ -82,6 +82,19 @@
         }
       ],
       "rolls": 1.0
+    },
+    {
+      "name": "magicalsculpture_fishing",
+      "entries": [
+        {
+          "entryName": "magicalsculpture_fishing",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "magicalsculpture:inject/fishing"
+        }
+      ],
+      "rolls": 1.0
     }
   ]
 }

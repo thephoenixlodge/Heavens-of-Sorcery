@@ -116,6 +116,25 @@
         }
       ],
       "rolls": 1.0
+    },
+    {
+      "name": "lost_tablet",
+      "entries": [
+        {
+          "entryName": "tombstone:lost_tablet",
+          "weight": 5,
+          "quality": -2,
+          "type": "item",
+          "name": "tombstone:lost_tablet"
+        },
+        {
+          "entryName": "empty",
+          "weight": 95,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
     }
   ]
 }

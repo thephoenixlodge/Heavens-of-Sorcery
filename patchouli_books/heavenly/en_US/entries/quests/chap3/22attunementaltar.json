@@ -1,0 +1,75 @@
+{
+    "name": "In Tune",
+    "icon": "astralsorcery:blockattunementaltar",
+    "category": "quests/chap3",
+    "sortnum": 23,
+    "advancement": "heavens:bookchap3/18linkingtool",
+    "turnin": "heavens:bookchap3/22attunementaltar",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "In Tune",
+            "trigger": "heavens:bookchap3/22attunementaltar",
+            "text": "With $(item)Starmetal in hand, and knowledge of the $(thing)Greater Constellations$() acquired, it's time to put that to use. Notes scribbled on the $(item)Constellation Paper$() you found suggest you can attune yourself to a $(thing)Constellation$(), imbuing yourself with power derived from it's light. This requires a large $(item)Attunement Altar$() with $(item)Spectral Relays$()."
+        },
+        {
+            "type": "checklist_end",
+            "item1": "astralsorcery:blockattunementaltar#1",
+            "reward1": "astralsorcery:blockblackmarble:0#200"
+        },
+        {
+            "type": "altar_starlight",
+            "heading": "Attunement Altar",
+            "output_item": "astralsorcery:blockattunementaltar",
+            "item2": "astralsorcery:itemrockcrystalsimple",
+            "item4": "astralsorcery:itemcraftingcomponent:1",
+            "item5": "contenttweaker:rune_starlight",
+            "item6": "astralsorcery:itemcraftingcomponent:1",
+            "item7": "astralsorcery:blockmarble:6",
+            "item8": "astralsorcery:blockattunementrelay",
+            "item9": "astralsorcery:blockmarble:6",
+            "item10": "astralsorcery:itemcraftingcomponent:0",
+            "item11": "astralsorcery:itemcraftingcomponent:0",
+            "item12": "astralsorcery:blockmarble:6",
+            "item13": "astralsorcery:blockmarble:6"
+        },
+        {
+            "type": "multiblock",
+            "name": "Attunement Altar",
+            "multiblock": {
+                "pattern": [
+                    [ "                   ", " C               C ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", " C               C ", "                   " ], 
+                    [ "                   ", " M               M ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", " M               M ", "                   " ], 
+                    [ "                   ", " M               M ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", " M               M ", "                   " ], 
+                    [ "                   ", " M               M ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", " M               M ", "                   " ], 
+                    [ "                   ", " R               R ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "         0         ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", "                   ", " R               R ", "                   " ], 
+                    [ "AAA             AAA", "A AAAAAAAAAAAAAAA A", "AASSSSSSSSSSSSSSSAA", " ASSSSSSSSSSSSSSSA ", " ASSSSSSSSSSSSSSSA ", " ASSSSSSSSSSSSSSSA ", " ASSSSSSSSSSSSSSSA ", " ASSSSSSSSSSSSSSSA ", " ASSSSSSSSSSSSSSSA ", " ASSSSSSSSSSSSSSSA ", " ASSSSSSSSSSSSSSSA ", " ASSSSSSSSSSSSSSSA ", " ASSSSSSSSSSSSSSSA ", " ASSSSSSSSSSSSSSSA ", " ASSSSSSSSSSSSSSSA ", " ASSSSSSSSSSSSSSSA ", "AASSSSSSSSSSSSSSSAA", "A AAAAAAAAAAAAAAA A", "AAA             AAA" ]
+                ],
+                "mapping": {
+                    " ": "ANY",
+                    "0": "astralsorcery:blockattunementaltar",
+                    "S": "astralsorcery:blockblackmarble",
+                    "C": "astralsorcery:blockmarble[marbletype=chiseled]",
+                    "A": "astralsorcery:blockmarble[marbletype=arch]",
+                    "M": "astralsorcery:blockmarble[marbletype=pillar]",
+                    "R": "astralsorcery:blockmarble[marbletype=runed]"
+                },
+                "symmetrical": true,
+                "offset"     : [0, 0, 0],
+                "view_offset": [0, 0, 0]
+            },
+            "text": "$(l:https://pastebin.com/aRLNGJES)Pastebin of Structure$(/l) for use with $(l:useful_things/building_tools/templates)Template Manager$()"
+        },
+        {
+            "type": "altar_luminous",
+            "heading": "Spectral Relay",
+            "output_item": "astralsorcery:blockattunementrelay",
+            "item4": "minecraft:gold_nugget",
+            "item5": "astralsorcery:itemcraftingcomponent:3",
+            "item6": "minecraft:gold_nugget",
+            "item7": "astralsorcery:blockinfusedwood:0",
+            "item8": "astralsorcery:blockmarble",
+            "item9": "astralsorcery:blockinfusedwood:0"
+        }
+    ]
+}

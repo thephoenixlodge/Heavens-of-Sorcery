@@ -1,0 +1,172 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "entries": [
+        {
+          "entryName": "aether_legacy:zanite_pickaxe",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "aether_legacy:zanite_pickaxe"
+        },
+        {
+          "entryName": "aether_legacy:zanite_axe",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "aether_legacy:zanite_axe"
+        },
+        {
+          "entryName": "aether_legacy:zanite_sword",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "aether_legacy:zanite_sword"
+        },
+        {
+          "entryName": "aether_legacy:zanite_shovel",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "aether_legacy:zanite_shovel"
+        },
+        {
+          "entryName": "aether_legacy:swet_cape",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "aether_legacy:swet_cape"
+        },
+        {
+          "entryName": "aether_legacy:ambrosium_shard",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 10.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "aether_legacy:ambrosium_shard"
+        },
+        {
+          "entryName": "golden_dart",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 0.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "aether_legacy:dart"
+        },
+        {
+          "entryName": "poison_dart",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 1.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "aether_legacy:dart"
+        },
+        {
+          "entryName": "enchanted_dart",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 2.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "aether_legacy:dart"
+        },
+        {
+          "entryName": "aether_legacy:chests/bronze_dungeon_chest_sub0",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "aether_legacy:chests/bronze_dungeon_chest_sub0"
+        },
+        {
+          "entryName": "poison_skyroot_bucket",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 2.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "aether_legacy:skyroot_bucket"
+        },
+        {
+          "entryName": "aether_legacy:chests/bronze_dungeon_chest_sub1",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "aether_legacy:chests/bronze_dungeon_chest_sub1"
+        },
+        {
+          "entryName": "aether_legacy:chests/bronze_dungeon_chest_sub2",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "aether_legacy:chests/bronze_dungeon_chest_sub2"
+        },
+        {
+          "entryName": "aether_legacy:chests/bronze_dungeon_chest_sub3",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "aether_legacy:chests/bronze_dungeon_chest_sub3"
+        },
+        {
+          "entryName": "aether_legacy:ambrosium_torch",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "aether_legacy:ambrosium_torch"
+        }
+      ],
+      "rolls": {
+        "min": 3.0,
+        "max": 5.0
+      }
+    }
+  ]
+}

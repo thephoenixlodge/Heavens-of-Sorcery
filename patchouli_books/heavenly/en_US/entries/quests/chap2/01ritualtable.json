@@ -16,7 +16,8 @@
             "type": "checklist_end",
             "item1": "arcaneworld:ritual_table#1",
             "reward1": "arcaneworld:sapphire#5",
-            "reward2": "arcaneworld:amethyst#5"
+            "reward2": "arcaneworld:amethyst#5",
+            "reward3": "minecraft:bed:4#1"
         },
         {
             "type": "crafting",

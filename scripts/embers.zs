@@ -75,6 +75,8 @@ val lava = <liquid:lava>;
 val magmaCream = <minecraft:magma_cream>;
 val emberShard = <embers:shard_ember>;
 val emberCrystal = <embers:crystal_ember>;
+val beamSplitter = <embers:beam_splitter>;
+val ingotDawnstone = <embers:ingot_dawnstone>;
 
 //tweak caminite blend recipe
 recipes.remove(caminiteBlend);
@@ -127,6 +129,10 @@ Altar.addDiscoveryAltarRecipe("custom_ember_emitter", emberEmitter * 4, 200, 50,
 //Receptor
 recipes.remove(emberReceptor);
 Altar.addDiscoveryAltarRecipe("custom_ember_receptor", emberReceptor * 4, 200, 50, [null, null, null, ingotNiobium, null, ingotNiobium, ingotCopper, plateCaminite, ingotCopper]);
+
+//beam splitter
+recipes.remove(beamSplitter);
+Altar.addConstellationAltarRecipe("custom_beam_splitter", beamSplitter * 4, 3200, 500, [null, plateCaminite, null, ingotDawnstone, null, ingotDawnstone, null, plateCaminite, null, plateIron, plateIron, plateIron, plateIron, null, null, ingotCopper, ingotCopper, ingotCopper, ingotCopper, ingotNiobium, ingotNiobium]);
 
 //melter
 melter.addTooltip(format.gold("Input Items to top half"));

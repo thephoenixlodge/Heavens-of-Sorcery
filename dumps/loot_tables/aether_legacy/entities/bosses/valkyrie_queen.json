@@ -1,0 +1,50 @@
+{
+  "pools": [
+    {
+      "name": "key",
+      "entries": [
+        {
+          "entryName": "aether_legacy:dungeon_key",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 1.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "aether_legacy:dungeon_key"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "sword",
+      "entries": [
+        {
+          "entryName": "minecraft:golden_sword",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 0.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "minecraft:golden_sword"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+    "name": "In Brightest Day",
+    "icon": "blue_skies:everbright_portal",
+    "category": "quests/chap3",
+    "sortnum": 28,
+    "advancement": "heavens:bookchap3/27freezer",
+    "turnin": "heavens:bookchap3/28everbright",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "In Brightest Day",
+            "trigger": "heavens:bookchap3/28everbright",
+            "text": "With your strength and knowledge further expanded, lets look to open some new dimensions. The first of these is the $(thing)Everbright$(), a place where the night never comes. That's not to say it's without any dangers though."
+        },
+        {
+        	"type": "location",
+            "icon": "books:templates/everbright_preview.png",
+            "location": "The Everbright",
+            "reward1": "minecraft:enchanted_book{StoredEnchantments: [{lvl: 1, id: 70s}]}",
+            "reward2": "blue_skies:turquoise_stone#200"
+        },
+        {
+            "type": "multiblock",
+            "name": "Everbright Portal",
+            "text": "Activate with a $(item)Zeal Lighter$()",
+            "multiblock": {
+            "pattern": [
+                [ " ", "O", "O", " " ],
+                [ "O", "P", "P", "O" ],
+                [ "O", "P", "P", "O" ],
+                [ "O", "P", "P", "O" ],
+                [ " ", "O", "0", " " ],
+                [ " ", " ", " ", " " ]
+            ],
+            "mapping": {
+                " ": "ANY",
+                "0": "blue_skies:turquoise_stonebrick",
+                "O": "blue_skies:turquoise_stonebrick",
+                "P": "AIR"
+            },
+            "symmetrical": false,
+            "offset"     : [0, 0, 0],
+            "view_offset": [0, 0, 0]
+            }
+        }
+    ]
+}

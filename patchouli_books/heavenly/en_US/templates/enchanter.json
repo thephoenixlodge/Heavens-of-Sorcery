@@ -1,0 +1,49 @@
+{
+	"components": [
+		{
+			"type": "header",
+			"text": "#heading",
+			"x": -1,
+			"y": -1
+		},
+		{
+			"type": "image",
+			"image": "books:templates/arrow_generic.png",
+			"texture_width": 32,
+			"texture_height": 16,
+			"width": 22,
+			"height": 9,
+			"scale": 1.5,
+			"x": 40,
+			"y": 35
+		},
+		{
+			"type": "item",
+			"item": "#input",
+			"framed": "true",
+			"x": 10,
+			"y": 35
+		},
+		{
+			"type": "item",
+			"item": "#output",
+			"framed": "true",
+			"link_recipe": true,
+			"x": 90,
+			"y": 35
+		},
+		{
+			"type": "item",
+			"item": "aether_legacy:enchanter",
+			"framed": "false",
+			"x": 50,
+			"y": 45
+		},
+		{
+			"type": "text",
+			"text": "#description",
+			"x": 5,
+			"y": 90
+		}
+	]
+}

@@ -1,0 +1,50 @@
+{
+    "name": "Starlight Infuser",
+    "icon": "astralsorcery:blockstarlightinfuser",
+    "category": "collected_knowledge/multiblocks",
+    "advancement": "heavens:bookchap3/24celestialaltar",
+    "pages": [
+        {
+            "type": "multiblock_bill_many",
+            "item1": "astralsorcery:blockstarlightinfuser",
+            "item2": "astralsorcery:blockmarble:6#12",
+            "item3": "astralsorcery:blockmarble:3#40",
+            "item4": "astralsorcery:blockmarble:0#12",
+            "item5": "astralsorcery:blockmarble:2#8",
+            "item6": "astralsorcery:blockmarble:4#4",
+            "item7": "minecraft:lapis_block",
+            "item8": "forge:bucketfilled#12{FluidName: \"astralsorcery.liquidstarlight\", Amount: 1000}"
+        },
+        {
+            "type": "multiblock",
+            "name": "Starlight Infuser",
+            "multiblock": {
+                "pattern": [
+                    [ "  AAA  ", "       ", "A     A", "A     A", "A     A", "       ", "  AAA  " ],
+                    [ " A   A ", "A     A", "       ", "       ", "       ", "A     A", " A   A " ],
+                    [ "C     C", "       ", "       ", "       ", "       ", "       ", "C     C" ],
+                    [ "P     P", "       ", "       ", "       ", "       ", "       ", "P     P" ],
+                    [ "P     P", "       ", "       ", "   0   ", "       ", "       ", "P     P" ],
+                    [ " AAAAA ", "ARLLLRA", "ALRRRLA", "ALRBRLA", "ALRRRLA", "ARLLLRA", " AAAAA " ],
+                    [ "       ", "  MMM  ", " M   M ", " M   M ", " M   M ", "  MMM  ", "       " ]
+                ],
+                "mapping": {
+                    " ": "ANY",
+                    "0": "astralsorcery:blockstarlightinfuser",
+                    "M": "astralsorcery:blockmarble[marbletype=raw]",
+                    "C": "astralsorcery:blockmarble[marbletype=chiseled]",
+                    "B": "minecraft:lapis_block",
+                    "P": "astralsorcery:blockmarble[marbletype=pillar]",
+                    "R": "astralsorcery:blockmarble[marbletype=runed]",
+                    "S": "astralsorcery:blockblackmarble[marbletype=raw]",
+                    "A": "astralsorcery:blockmarble[marbletype=arch]",
+                    "L": "astralsorcery:fluidblockliquidstarlight"
+                },
+                "symmetrical": true,
+                "offset"     : [0, 0, 0],
+                "view_offset": [0, 0, 0]
+            },
+            "text": "$(l)$(l:https://pastebin.com/M2TqpqnE)Structure Template Link$()$(br)Note: Excludes Tile Entities"
+        }
+    ]
+}

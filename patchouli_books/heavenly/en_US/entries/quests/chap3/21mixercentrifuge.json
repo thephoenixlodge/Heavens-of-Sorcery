@@ -1,0 +1,60 @@
+{
+    "name": "Big Mixup",
+    "icon": "embers:mixer",
+    "category": "quests/chap3",
+    "sortnum": 20,
+    "advancement": "heavens:bookchap3/20melter",
+    "turnin": "heavens:bookchap3/21mixercentrifuge",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "Big Mixup",
+            "trigger": "heavens:bookchap3/21mixercentrifuge",
+            "text": "Not only does melting metals down enable some extra material efficiency, it also provides the option to mix your metals together to get new ones with more specialized properties. For this you'll need a $(item)Mixer Centrifuge$(). Feed the molten metals to be mixed into the bottom half of the Mixer, supply $(thing)Ember Energy$() and extract from the top half."
+        },
+        {
+            "type": "checklist_end",
+            "item1": "embers:mixer#1",
+            "reward1": "embers:beam_splitter#1"
+        },
+        {
+            "type": "altar_starlight",
+            "heading": "Melter",
+            "output_item": "embers:mixer",
+            "item1": "embers:plate_iron",
+            "item2": "embers:ingot_copper",
+            "item3": "embers:plate_iron",
+            "item4": "embers:plate_iron",
+            "item5": "minecraft:cauldron",
+            "item6": "embers:plate_iron",
+            "item7": "botania:manaresource:0",
+            "item8": "embers:mech_core",
+            "item9": "botania:manaresource:0",
+            "item12": "embers:brick_caminite",
+            "item13": "embers:brick_caminite",
+            "description": "Each face of the bottom half is a separate fluid input tank"
+        },
+        {
+            "type": "mixer",
+            "heading": "Bronze",
+            "output_item": "embers:ingot_bronze#4",
+            "item1": "embers:ingot_copper#3",
+            "item2": "embers:ingot_tin#1",
+            "stamp": "embers:stamp_bar"
+        },
+        {
+            "type": "mixer",
+            "heading": "Dawnstone",
+            "output_item": "embers:ingot_dawnstone#2",
+            "item1": "embers:ingot_copper#1",
+            "item2": "minecraft:gold_ingot#1",
+            "stamp": "embers:stamp_bar"
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "collected_knowledge/moving_ember"
+            ]
+        }
+    ]
+}

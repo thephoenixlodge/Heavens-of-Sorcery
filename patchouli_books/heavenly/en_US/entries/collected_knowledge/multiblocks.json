@@ -1,0 +1,31 @@
+{
+    "name": "Structure Database",
+    "icon": "buildinggadgets:template",
+    "category": "collected_knowledge",
+    "advancement": "heavens:bookchap2/5halo",
+    "pages": [
+        {
+            "type": "text",
+            "text": "In the following pages you will find a compendium of various multiblock structures that are needed to craft many things. These pages include a list of all the required materials, a visualizable render of the structure, and a pastebin link for a $(l:useful_things/building_tools/templates)Template$() to be used with the $(l:useful_things/building_tools/transferrence_tome)Tome of Transferrence$()."
+        },
+        {
+            "type": "relations",
+            "title": "Index",
+            "entries": [
+                "collected_knowledge/multiblocks/starlight_altar",
+                "collected_knowledge/multiblocks/spellcrafting_altar",
+                "collected_knowledge/multiblocks/mana_battery",
+                "collected_knowledge/multiblocks/attunement_altar",
+                "collected_knowledge/multiblocks/celestial_altar",
+                "collected_knowledge/multiblocks/starlight_infuser"
+            ]
+        },
+        {
+            "type": "relations",
+            "title": "Index",
+            "entries": [
+                
+            ]
+        }
+    ]
+}
