@@ -21,8 +21,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "OCEAN",
-      "WATER"
+      "WATER",
+      "OCEAN"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -238,12 +238,6 @@
         "Max Group Count": 1
       },
       {
-        "Entity Class": "net.minecraft.entity.monster.EntityShulker",
-        "Weight": 5,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "vazkii.quark.world.entity.EntityStoneling",
         "Weight": 5,
         "Min Group Count": 1,
@@ -296,9 +290,9 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SANDY",
+      "HOT",
       "DRY",
-      "HOT"
+      "SANDY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -441,8 +435,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "HILLS",
-      "MOUNTAIN"
+      "MOUNTAIN",
+      "HILLS"
     ],
     "BiomeManager Entries": {
       "WARM Weights": [
@@ -802,12 +796,6 @@
         "Weight": 6,
         "Min Group Count": 1,
         "Max Group Count": 4
-      },
-      {
-        "Entity Class": "party.lemons.corvus.entity.EntityWendigo",
-        "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       }
     ],
     "Spawnable Water Creatures": [
@@ -850,8 +838,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "COLD",
       "CONIFEROUS",
+      "COLD",
       "FOREST"
     ],
     "BiomeManager Entries": {
@@ -937,12 +925,6 @@
         "Weight": 20,
         "Min Group Count": 1,
         "Max Group Count": 4
-      },
-      {
-        "Entity Class": "party.lemons.corvus.entity.EntityCrow",
-        "Weight": 5,
-        "Min Group Count": 2,
-        "Max Group Count": 6
       }
     ],
     "Spawnable Monsters": [
@@ -1035,12 +1017,6 @@
         "Weight": 6,
         "Min Group Count": 1,
         "Max Group Count": 4
-      },
-      {
-        "Entity Class": "party.lemons.corvus.entity.EntityWendigo",
-        "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       }
     ],
     "Spawnable Water Creatures": [
@@ -1279,8 +1255,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "RIVER",
-      "WATER"
+      "WATER",
+      "RIVER"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -1417,9 +1393,9 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
+      "HOT",
       "NETHER",
-      "DRY",
-      "HOT"
+      "DRY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -1529,9 +1505,9 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "END",
+      "DRY",
       "COLD",
-      "DRY"
+      "END"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -1572,12 +1548,6 @@
         "Weight": 3,
         "Min Group Count": 1,
         "Max Group Count": 1
-      },
-      {
-        "Entity Class": "party.lemons.corvus.entity.EntityWendigo",
-        "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       }
     ],
     "Spawnable Water Creatures": [],
@@ -1607,9 +1577,9 @@
     "Enable Snow": true,
     "Dictionary Types": [
       "SNOWY",
-      "COLD",
+      "WATER",
       "OCEAN",
-      "WATER"
+      "COLD"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -1765,9 +1735,9 @@
     "Enable Snow": true,
     "Dictionary Types": [
       "SNOWY",
-      "RIVER",
+      "WATER",
       "COLD",
-      "WATER"
+      "RIVER"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -2126,8 +2096,8 @@
     "Enable Snow": true,
     "Dictionary Types": [
       "SNOWY",
-      "COLD",
-      "MOUNTAIN"
+      "MOUNTAIN",
+      "COLD"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -2306,8 +2276,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "MUSHROOM",
-      "RARE"
+      "RARE",
+      "MUSHROOM"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -2352,9 +2322,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
+      "RARE",
       "MUSHROOM",
-      "BEACH",
-      "RARE"
+      "BEACH"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -2554,10 +2524,10 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SANDY",
+      "HOT",
       "DRY",
       "HILLS",
-      "HOT"
+      "SANDY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -2874,12 +2844,6 @@
         "Weight": 6,
         "Min Group Count": 1,
         "Max Group Count": 4
-      },
-      {
-        "Entity Class": "party.lemons.corvus.entity.EntityWendigo",
-        "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       }
     ],
     "Spawnable Water Creatures": [
@@ -2922,9 +2886,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "COLD",
-      "HILLS",
       "CONIFEROUS",
+      "HILLS",
+      "COLD",
       "FOREST"
     ],
     "BiomeManager Entries": {},
@@ -3012,12 +2976,6 @@
         "Weight": 20,
         "Min Group Count": 1,
         "Max Group Count": 4
-      },
-      {
-        "Entity Class": "party.lemons.corvus.entity.EntityCrow",
-        "Weight": 5,
-        "Min Group Count": 2,
-        "Max Group Count": 6
       },
       {
         "Entity Class": "com.crowsofwar.avatar.common.entity.mob.EntitySkyBison",
@@ -3110,12 +3068,6 @@
         "Weight": 6,
         "Min Group Count": 1,
         "Max Group Count": 4
-      },
-      {
-        "Entity Class": "party.lemons.corvus.entity.EntityWendigo",
-        "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       }
     ],
     "Spawnable Water Creatures": [
@@ -3326,9 +3278,9 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "JUNGLE",
-      "WET",
+      "HOT",
       "DENSE",
-      "HOT"
+      "WET"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -3520,10 +3472,10 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "JUNGLE",
-      "WET",
+      "HOT",
       "DENSE",
       "HILLS",
-      "HOT"
+      "WET"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -3721,9 +3673,9 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "JUNGLE",
-      "WET",
       "RARE",
       "HOT",
+      "WET",
       "FOREST"
     ],
     "BiomeManager Entries": {},
@@ -3897,12 +3849,6 @@
         "Weight": 6,
         "Min Group Count": 1,
         "Max Group Count": 4
-      },
-      {
-        "Entity Class": "party.lemons.corvus.entity.EntityWendigo",
-        "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       }
     ],
     "Spawnable Water Creatures": [
@@ -3945,8 +3891,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "OCEAN",
-      "WATER"
+      "WATER",
+      "OCEAN"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -4547,12 +4493,6 @@
         "Weight": 6,
         "Min Group Count": 1,
         "Max Group Count": 4
-      },
-      {
-        "Entity Class": "party.lemons.corvus.entity.EntityWendigo",
-        "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       }
     ],
     "Spawnable Water Creatures": [
@@ -4763,12 +4703,6 @@
         "Weight": 6,
         "Min Group Count": 1,
         "Max Group Count": 4
-      },
-      {
-        "Entity Class": "party.lemons.corvus.entity.EntityWendigo",
-        "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       }
     ],
     "Spawnable Water Creatures": [
@@ -4811,8 +4745,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SPOOKY",
       "DENSE",
+      "SPOOKY",
       "FOREST"
     ],
     "BiomeManager Entries": {
@@ -4978,12 +4912,6 @@
         "Weight": 6,
         "Min Group Count": 1,
         "Max Group Count": 4
-      },
-      {
-        "Entity Class": "party.lemons.corvus.entity.EntityWendigo",
-        "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       }
     ],
     "Spawnable Water Creatures": [
@@ -5026,9 +4954,9 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
+      "CONIFEROUS",
       "SNOWY",
       "COLD",
-      "CONIFEROUS",
       "FOREST"
     ],
     "BiomeManager Entries": {
@@ -5114,12 +5042,6 @@
         "Weight": 20,
         "Min Group Count": 1,
         "Max Group Count": 4
-      },
-      {
-        "Entity Class": "party.lemons.corvus.entity.EntityCrow",
-        "Weight": 5,
-        "Min Group Count": 2,
-        "Max Group Count": 6
       }
     ],
     "Spawnable Monsters": [
@@ -5212,12 +5134,6 @@
         "Weight": 6,
         "Min Group Count": 1,
         "Max Group Count": 4
-      },
-      {
-        "Entity Class": "party.lemons.corvus.entity.EntityWendigo",
-        "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       }
     ],
     "Spawnable Water Creatures": [
@@ -5260,10 +5176,10 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
-      "SNOWY",
-      "COLD",
-      "HILLS",
       "CONIFEROUS",
+      "SNOWY",
+      "HILLS",
+      "COLD",
       "FOREST"
     ],
     "BiomeManager Entries": {},
@@ -5351,12 +5267,6 @@
         "Weight": 20,
         "Min Group Count": 1,
         "Max Group Count": 4
-      },
-      {
-        "Entity Class": "party.lemons.corvus.entity.EntityCrow",
-        "Weight": 5,
-        "Min Group Count": 2,
-        "Max Group Count": 6
       }
     ],
     "Spawnable Monsters": [
@@ -5443,12 +5353,6 @@
         "Weight": 6,
         "Min Group Count": 1,
         "Max Group Count": 4
-      },
-      {
-        "Entity Class": "party.lemons.corvus.entity.EntityWendigo",
-        "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       }
     ],
     "Spawnable Water Creatures": [
@@ -5491,8 +5395,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "COLD",
       "CONIFEROUS",
+      "COLD",
       "FOREST"
     ],
     "BiomeManager Entries": {},
@@ -5574,12 +5478,6 @@
         "Weight": 20,
         "Min Group Count": 1,
         "Max Group Count": 4
-      },
-      {
-        "Entity Class": "party.lemons.corvus.entity.EntityCrow",
-        "Weight": 5,
-        "Min Group Count": 2,
-        "Max Group Count": 6
       }
     ],
     "Spawnable Monsters": [
@@ -5666,12 +5564,6 @@
         "Weight": 6,
         "Min Group Count": 1,
         "Max Group Count": 4
-      },
-      {
-        "Entity Class": "party.lemons.corvus.entity.EntityWendigo",
-        "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       }
     ],
     "Spawnable Water Creatures": [
@@ -5714,9 +5606,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "COLD",
-      "HILLS",
       "CONIFEROUS",
+      "HILLS",
+      "COLD",
       "FOREST"
     ],
     "BiomeManager Entries": {},
@@ -5804,12 +5696,6 @@
         "Weight": 20,
         "Min Group Count": 1,
         "Max Group Count": 4
-      },
-      {
-        "Entity Class": "party.lemons.corvus.entity.EntityCrow",
-        "Weight": 5,
-        "Min Group Count": 2,
-        "Max Group Count": 6
       },
       {
         "Entity Class": "com.crowsofwar.avatar.common.entity.mob.EntitySkyBison",
@@ -5902,12 +5788,6 @@
         "Weight": 6,
         "Min Group Count": 1,
         "Max Group Count": 4
-      },
-      {
-        "Entity Class": "party.lemons.corvus.entity.EntityWendigo",
-        "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       }
     ],
     "Spawnable Water Creatures": [
@@ -6119,12 +5999,6 @@
         "Weight": 6,
         "Min Group Count": 1,
         "Max Group Count": 4
-      },
-      {
-        "Entity Class": "party.lemons.corvus.entity.EntityWendigo",
-        "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       }
     ],
     "Spawnable Water Creatures": [
@@ -6167,10 +6041,10 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SPARSE",
       "HOT",
-      "SAVANNA",
-      "PLAINS"
+      "SPARSE",
+      "PLAINS",
+      "SAVANNA"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -6367,11 +6241,11 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SPARSE",
       "RARE",
       "HOT",
-      "SAVANNA",
-      "PLAINS"
+      "SPARSE",
+      "PLAINS",
+      "SAVANNA"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -6580,9 +6454,9 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
+      "DRY",
       "MESA",
-      "SANDY",
-      "DRY"
+      "SANDY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -6706,10 +6580,10 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "MESA",
       "SPARSE",
-      "SANDY",
-      "DRY"
+      "DRY",
+      "MESA",
+      "SANDY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -6833,9 +6707,9 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
+      "DRY",
       "MESA",
-      "SANDY",
-      "DRY"
+      "SANDY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -7111,12 +6985,6 @@
         "Weight": 3,
         "Min Group Count": 1,
         "Max Group Count": 1
-      },
-      {
-        "Entity Class": "party.lemons.corvus.entity.EntityWendigo",
-        "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       }
     ],
     "Spawnable Water Creatures": [],
@@ -7146,8 +7014,8 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "DENSE",
-      "WET",
-      "FOREST"
+      "FOREST",
+      "WET"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -7218,12 +7086,6 @@
         "Weight": 3,
         "Min Group Count": 1,
         "Max Group Count": 1
-      },
-      {
-        "Entity Class": "party.lemons.corvus.entity.EntityWendigo",
-        "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       }
     ],
     "Spawnable Water Creatures": [],
@@ -7252,8 +7114,8 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "DRY",
       "HOT",
+      "DRY",
       "SAVANNA"
     ],
     "BiomeManager Entries": {},
@@ -7323,9 +7185,9 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SANDY",
+      "HOT",
       "DRY",
-      "HOT"
+      "SANDY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -7394,10 +7256,10 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SANDY",
+      "HOT",
       "DRY",
       "HILLS",
-      "HOT"
+      "SANDY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -7466,10 +7328,10 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
-      "SNOWY",
-      "COLD",
       "CONIFEROUS",
-      "PLAINS"
+      "SNOWY",
+      "PLAINS",
+      "COLD"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -7502,12 +7364,6 @@
         "Weight": 9,
         "Min Group Count": 1,
         "Max Group Count": 3
-      },
-      {
-        "Entity Class": "party.lemons.corvus.entity.EntityCrow",
-        "Weight": 5,
-        "Min Group Count": 2,
-        "Max Group Count": 6
       }
     ],
     "Spawnable Monsters": [
@@ -7574,9 +7430,9 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
+      "CONIFEROUS",
       "SNOWY",
       "COLD",
-      "CONIFEROUS",
       "FOREST"
     ],
     "BiomeManager Entries": {},
@@ -7616,12 +7472,6 @@
         "Weight": 9,
         "Min Group Count": 1,
         "Max Group Count": 3
-      },
-      {
-        "Entity Class": "party.lemons.corvus.entity.EntityCrow",
-        "Weight": 5,
-        "Min Group Count": 2,
-        "Max Group Count": 6
       }
     ],
     "Spawnable Monsters": [
@@ -7652,12 +7502,6 @@
       {
         "Entity Class": "electroblob.wizardry.entity.living.EntityEvilWizard",
         "Weight": 3,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "party.lemons.corvus.entity.EntityWendigo",
-        "Weight": 10,
         "Min Group Count": 1,
         "Max Group Count": 1
       }
@@ -7688,10 +7532,10 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
-      "SNOWY",
-      "COLD",
-      "HILLS",
       "CONIFEROUS",
+      "SNOWY",
+      "HILLS",
+      "COLD",
       "FOREST"
     ],
     "BiomeManager Entries": {},
@@ -7731,12 +7575,6 @@
         "Weight": 9,
         "Min Group Count": 1,
         "Max Group Count": 3
-      },
-      {
-        "Entity Class": "party.lemons.corvus.entity.EntityCrow",
-        "Weight": 5,
-        "Min Group Count": 2,
-        "Max Group Count": 6
       }
     ],
     "Spawnable Monsters": [
@@ -7769,12 +7607,6 @@
         "Weight": 3,
         "Min Group Count": 1,
         "Max Group Count": 1
-      },
-      {
-        "Entity Class": "party.lemons.corvus.entity.EntityWendigo",
-        "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       }
     ],
     "Spawnable Water Creatures": [],
@@ -7803,8 +7635,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "WET",
-      "SWAMP"
+      "SWAMP",
+      "WET"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -7885,9 +7717,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "WET",
+      "PLAINS",
       "SWAMP",
-      "PLAINS"
+      "WET"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -7974,9 +7806,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "WET",
       "SWAMP",
-      "FOREST"
+      "FOREST",
+      "WET"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -8051,12 +7883,6 @@
       {
         "Entity Class": "electroblob.wizardry.entity.living.EntityEvilWizard",
         "Weight": 3,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "party.lemons.corvus.entity.EntityWendigo",
-        "Weight": 10,
         "Min Group Count": 1,
         "Max Group Count": 1
       }
@@ -8087,10 +7913,10 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "LUSH",
       "JUNGLE",
+      "FOREST",
       "WET",
-      "FOREST"
+      "LUSH"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -8165,12 +7991,6 @@
       {
         "Entity Class": "electroblob.wizardry.entity.living.EntityEvilWizard",
         "Weight": 3,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "party.lemons.corvus.entity.EntityWendigo",
-        "Weight": 10,
         "Min Group Count": 1,
         "Max Group Count": 1
       }
@@ -8289,10 +8109,10 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "LUSH",
       "JUNGLE",
       "HILLS",
-      "FOREST"
+      "FOREST",
+      "LUSH"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -8369,12 +8189,6 @@
         "Weight": 3,
         "Min Group Count": 1,
         "Max Group Count": 1
-      },
-      {
-        "Entity Class": "party.lemons.corvus.entity.EntityWendigo",
-        "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       }
     ],
     "Spawnable Water Creatures": [],
@@ -8403,9 +8217,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "RIVER",
+      "WATER",
       "WET",
-      "WATER"
+      "RIVER"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -8486,8 +8300,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "WET",
-      "SWAMP"
+      "SWAMP",
+      "WET"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -8568,9 +8382,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "RIVER",
+      "WATER",
       "WET",
-      "WATER"
+      "RIVER"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -8652,10 +8466,10 @@
     "Enable Snow": true,
     "Dictionary Types": [
       "SNOWY",
-      "RIVER",
+      "WATER",
       "COLD",
       "WET",
-      "WATER"
+      "RIVER"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -8836,10 +8650,10 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SANDY",
-      "DRY",
       "HOT",
-      "WASTELAND"
+      "DRY",
+      "WASTELAND",
+      "SANDY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -8990,8 +8804,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "WET",
-      "WASTELAND"
+      "WASTELAND",
+      "WET"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -9054,8 +8868,8 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "JUNGLE",
-      "WET",
-      "WASTELAND"
+      "WASTELAND",
+      "WET"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -9587,12 +9401,6 @@
         "Weight": 3,
         "Min Group Count": 1,
         "Max Group Count": 1
-      },
-      {
-        "Entity Class": "party.lemons.corvus.entity.EntityWendigo",
-        "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       }
     ],
     "Spawnable Water Creatures": [
@@ -9635,8 +9443,8 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SPOOKY",
-      "MAGICAL"
+      "MAGICAL",
+      "SPOOKY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -9779,9 +9587,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "END",
+      "MAGICAL",
       "SPOOKY",
-      "MAGICAL"
+      "END"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -9807,12 +9615,6 @@
       {
         "Entity Class": "electroblob.wizardry.entity.living.EntityEvilWizard",
         "Weight": 3,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "party.lemons.corvus.entity.EntityWendigo",
-        "Weight": 10,
         "Min Group Count": 1,
         "Max Group Count": 1
       },
@@ -10021,9 +9823,9 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "DEAD",
       "HOT",
-      "PLAINS"
+      "PLAINS",
+      "DEAD"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -10157,9 +9959,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "OCEAN",
+      "MAGICAL",
       "WATER",
-      "MAGICAL"
+      "OCEAN"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -10247,9 +10049,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "OCEAN",
+      "MAGICAL",
       "WATER",
-      "MAGICAL"
+      "OCEAN"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -10288,9 +10090,9 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "JUNGLE",
-      "WET",
+      "HOT",
       "DENSE",
-      "HOT"
+      "WET"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -10421,10 +10223,10 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SPOOKY",
+      "MAGICAL",
       "WATER",
       "MOUNTAIN",
-      "MAGICAL",
+      "SPOOKY",
       "WASTELAND"
     ],
     "BiomeManager Entries": {},
@@ -10475,9 +10277,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SPOOKY",
-      "MOUNTAIN",
       "MAGICAL",
+      "MOUNTAIN",
+      "SPOOKY",
       "WASTELAND"
     ],
     "BiomeManager Entries": {},
@@ -10528,11 +10330,11 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SPOOKY",
-      "COLD",
-      "DRY",
       "VOID",
-      "MAGICAL"
+      "MAGICAL",
+      "DRY",
+      "SPOOKY",
+      "COLD"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -10626,11 +10428,11 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "COLD",
-      "DRY",
       "VOID",
+      "MAGICAL",
+      "DRY",
       "PLAINS",
-      "MAGICAL"
+      "COLD"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -10753,10 +10555,10 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "COLD",
+      "MAGICAL",
       "DRY",
       "PLAINS",
-      "MAGICAL"
+      "COLD"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -10825,11 +10627,11 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
+      "MAGICAL",
       "SNOWY",
-      "COLD",
-      "HILLS",
       "MOUNTAIN",
-      "MAGICAL"
+      "HILLS",
+      "COLD"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -10930,12 +10732,12 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "COLD",
-      "DRY",
-      "OCEAN",
+      "MAGICAL",
       "WATER",
+      "DRY",
       "PLAINS",
-      "MAGICAL"
+      "OCEAN",
+      "COLD"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -10985,10 +10787,10 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
+      "MAGICAL",
       "SNOWY",
-      "SWAMP",
       "PLAINS",
-      "MAGICAL"
+      "SWAMP"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -11071,13 +10873,13 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
+      "MAGICAL",
       "SNOWY",
-      "LUSH",
-      "COLD",
       "DENSE",
       "PLAINS",
+      "COLD",
       "FOREST",
-      "MAGICAL"
+      "LUSH"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -11146,9 +10948,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "HILLS",
+      "MAGICAL",
       "MOUNTAIN",
-      "MAGICAL"
+      "HILLS"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -11223,11 +11025,11 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "LUSH",
-      "SPOOKY",
       "DENSE",
       "PLAINS",
-      "FOREST"
+      "SPOOKY",
+      "FOREST",
+      "LUSH"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -11302,10 +11104,10 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SANDY",
       "DRY",
+      "PLAINS",
       "DEAD",
-      "PLAINS"
+      "SANDY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -11594,9 +11396,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "WET",
       "WATER",
-      "SWAMP"
+      "SWAMP",
+      "WET"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -11640,11 +11442,11 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "DENSE",
-      "WET",
       "WATER",
+      "DENSE",
       "SWAMP",
-      "FOREST"
+      "FOREST",
+      "WET"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -11658,12 +11460,6 @@
       {
         "Entity Class": "electroblob.wizardry.entity.living.EntityEvilWizard",
         "Weight": 3,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "party.lemons.corvus.entity.EntityWendigo",
-        "Weight": 10,
         "Min Group Count": 1,
         "Max Group Count": 1
       }
@@ -11739,9 +11535,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "WET",
       "WATER",
-      "SWAMP"
+      "SWAMP",
+      "WET"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -11785,10 +11581,10 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "WET",
+      "WASTELAND",
       "DEAD",
       "SWAMP",
-      "WASTELAND"
+      "WET"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -11832,9 +11628,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "WET",
       "WATER",
-      "SWAMP"
+      "SWAMP",
+      "WET"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -11878,9 +11674,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "WET",
       "WATER",
-      "SWAMP"
+      "SWAMP",
+      "WET"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -11924,11 +11720,11 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "DENSE",
-      "WET",
       "WATER",
+      "DENSE",
       "SWAMP",
-      "FOREST"
+      "FOREST",
+      "WET"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -11942,12 +11738,6 @@
       {
         "Entity Class": "electroblob.wizardry.entity.living.EntityEvilWizard",
         "Weight": 3,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "party.lemons.corvus.entity.EntityWendigo",
-        "Weight": 10,
         "Min Group Count": 1,
         "Max Group Count": 1
       }
@@ -12214,10 +12004,10 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SANDY",
-      "DRY",
       "RARE",
-      "HOT"
+      "HOT",
+      "DRY",
+      "SANDY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -12354,8 +12144,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SPARSE",
       "RARE",
+      "SPARSE",
       "MOUNTAIN"
     ],
     "BiomeManager Entries": {},
@@ -12523,8 +12313,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "HILLS",
       "RARE",
+      "HILLS",
       "FOREST"
     ],
     "BiomeManager Entries": {},
@@ -12692,12 +12482,6 @@
         "Weight": 6,
         "Min Group Count": 1,
         "Max Group Count": 4
-      },
-      {
-        "Entity Class": "party.lemons.corvus.entity.EntityWendigo",
-        "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       }
     ],
     "Spawnable Water Creatures": [
@@ -12740,10 +12524,10 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "COLD",
       "RARE",
-      "MOUNTAIN",
       "CONIFEROUS",
+      "MOUNTAIN",
+      "COLD",
       "FOREST"
     ],
     "BiomeManager Entries": {},
@@ -12825,12 +12609,6 @@
         "Weight": 20,
         "Min Group Count": 1,
         "Max Group Count": 4
-      },
-      {
-        "Entity Class": "party.lemons.corvus.entity.EntityCrow",
-        "Weight": 5,
-        "Min Group Count": 2,
-        "Max Group Count": 6
       }
     ],
     "Spawnable Monsters": [
@@ -12917,12 +12695,6 @@
         "Weight": 6,
         "Min Group Count": 1,
         "Max Group Count": 4
-      },
-      {
-        "Entity Class": "party.lemons.corvus.entity.EntityWendigo",
-        "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       }
     ],
     "Spawnable Water Creatures": [
@@ -12965,9 +12737,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "WET",
-      "HILLS",
       "RARE",
+      "HILLS",
+      "WET",
       "SWAMP"
     ],
     "BiomeManager Entries": {},
@@ -13153,10 +12925,10 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
+      "RARE",
       "SNOWY",
-      "COLD",
       "HILLS",
-      "RARE"
+      "COLD"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -13336,11 +13108,11 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "JUNGLE",
-      "WET",
-      "DENSE",
       "RARE",
       "HOT",
-      "MOUNTAIN"
+      "DENSE",
+      "MOUNTAIN",
+      "WET"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -13537,11 +13309,11 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SPARSE",
       "JUNGLE",
-      "HILLS",
       "RARE",
-      "HOT"
+      "HOT",
+      "SPARSE",
+      "HILLS"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -13726,9 +13498,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
+      "RARE",
       "DENSE",
       "HILLS",
-      "RARE",
       "FOREST"
     ],
     "BiomeManager Entries": {},
@@ -13890,12 +13662,6 @@
         "Weight": 6,
         "Min Group Count": 1,
         "Max Group Count": 4
-      },
-      {
-        "Entity Class": "party.lemons.corvus.entity.EntityWendigo",
-        "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       }
     ],
     "Spawnable Water Creatures": [
@@ -13938,8 +13704,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "DENSE",
       "RARE",
+      "DENSE",
       "MOUNTAIN",
       "FOREST"
     ],
@@ -14096,12 +13862,6 @@
         "Weight": 6,
         "Min Group Count": 1,
         "Max Group Count": 4
-      },
-      {
-        "Entity Class": "party.lemons.corvus.entity.EntityWendigo",
-        "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       }
     ],
     "Spawnable Water Creatures": [
@@ -14144,10 +13904,10 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SPOOKY",
-      "DENSE",
       "RARE",
+      "DENSE",
       "MOUNTAIN",
+      "SPOOKY",
       "FOREST"
     ],
     "BiomeManager Entries": {},
@@ -14303,12 +14063,6 @@
         "Weight": 6,
         "Min Group Count": 1,
         "Max Group Count": 4
-      },
-      {
-        "Entity Class": "party.lemons.corvus.entity.EntityWendigo",
-        "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       }
     ],
     "Spawnable Water Creatures": [
@@ -14351,11 +14105,11 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
-      "SNOWY",
-      "COLD",
       "RARE",
-      "MOUNTAIN",
       "CONIFEROUS",
+      "SNOWY",
+      "MOUNTAIN",
+      "COLD",
       "FOREST"
     ],
     "BiomeManager Entries": {},
@@ -14437,12 +14191,6 @@
         "Weight": 20,
         "Min Group Count": 1,
         "Max Group Count": 4
-      },
-      {
-        "Entity Class": "party.lemons.corvus.entity.EntityCrow",
-        "Weight": 5,
-        "Min Group Count": 2,
-        "Max Group Count": 6
       }
     ],
     "Spawnable Monsters": [
@@ -14529,12 +14277,6 @@
         "Weight": 6,
         "Min Group Count": 1,
         "Max Group Count": 4
-      },
-      {
-        "Entity Class": "party.lemons.corvus.entity.EntityWendigo",
-        "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       }
     ],
     "Spawnable Water Creatures": [
@@ -14577,8 +14319,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "DENSE",
       "RARE",
+      "DENSE",
       "FOREST"
     ],
     "BiomeManager Entries": {},
@@ -14746,12 +14488,6 @@
         "Weight": 6,
         "Min Group Count": 1,
         "Max Group Count": 4
-      },
-      {
-        "Entity Class": "party.lemons.corvus.entity.EntityWendigo",
-        "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       }
     ],
     "Spawnable Water Creatures": [
@@ -14794,9 +14530,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
+      "RARE",
       "DENSE",
       "HILLS",
-      "RARE",
       "FOREST"
     ],
     "BiomeManager Entries": {},
@@ -14970,12 +14706,6 @@
         "Weight": 6,
         "Min Group Count": 1,
         "Max Group Count": 4
-      },
-      {
-        "Entity Class": "party.lemons.corvus.entity.EntityWendigo",
-        "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       }
     ],
     "Spawnable Water Creatures": [
@@ -15018,8 +14748,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SPARSE",
       "RARE",
+      "SPARSE",
       "MOUNTAIN"
     ],
     "BiomeManager Entries": {},
@@ -15187,10 +14917,10 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SPARSE",
-      "DRY",
       "RARE",
       "HOT",
+      "SPARSE",
+      "DRY",
       "MOUNTAIN",
       "SAVANNA"
     ],
@@ -15359,11 +15089,11 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
+      "RARE",
+      "HOT",
       "SPARSE",
       "DRY",
       "HILLS",
-      "RARE",
-      "HOT",
       "SAVANNA"
     ],
     "BiomeManager Entries": {},
@@ -15531,10 +15261,10 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SPARSE",
-      "DRY",
       "RARE",
       "HOT",
+      "SPARSE",
+      "DRY",
       "MOUNTAIN"
     ],
     "BiomeManager Entries": {},
@@ -15666,11 +15396,11 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
+      "RARE",
+      "HOT",
       "SPARSE",
       "DRY",
-      "HILLS",
-      "RARE",
-      "HOT"
+      "HILLS"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -15801,10 +15531,10 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SPARSE",
-      "DRY",
       "RARE",
       "HOT",
+      "SPARSE",
+      "DRY",
       "MOUNTAIN"
     ],
     "BiomeManager Entries": {},

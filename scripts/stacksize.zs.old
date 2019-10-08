@@ -55,6 +55,7 @@ var materials1024 = [
 	<extrabitmanipulation:diamond_nugget>,
 	<mist:niobium_nugget>,
 	<thaumcraft:nugget>,
+	//gems
 	<minecraft:diamond>,
 	<minecraft:coal>,
 	<minecraft:redstone>,
@@ -63,8 +64,10 @@ var materials1024 = [
 	<rustic:dust_tiny_iron>,
 	<minecraft:glowstone_dust>,
 	<arcaneworld:amethyst>,
+	<arcaneworld:sapphire>,
 	<embers:shard_ember>,
 	<embers:crystal_ember>,
+	<minecraft:obsidian>,
 	//Ingredients
 	<minecraft:paper>,
 	<embers:ancient_motive_core>
@@ -75,7 +78,9 @@ var mobDrops512 = [
 	<minecraft:bone>,
 	<minecraft:leather>,
 	<minecraft:string>,
-	<minecraft:blaze_rod>
+	<minecraft:blaze_rod>,
+	<minecraft:web>,
+	<minecraft:skull>
 ] as IItemStack[];
 
 var oresAndBlocks512 = [
@@ -89,17 +94,31 @@ var oresAndBlocks512 = [
 	<minecraft:lapis_ore>,
 	<minecraft:lapis_block>,
 	<minecraft:gold_block>,
-	<minecraft:iron_block>
+	<minecraft:iron_block>,
+	<minecraft:emerald_block>,
+	<minecraft:quartz_block>,
+	<minecraft:coal_block>,
+	<minecraft:bone_block>,
+	<minecraft:slime>
 ] as IItemStack[];
 
 var dict4096 = [
 	<ore:logWood>,
 	<ore:plankWood>,
-	<ore:slabWood>
+	<ore:slabWood>,
+	<ore:stairWood>,
+	<ore:treeLeaves>,
+	<ore:fenceWood>,
+	<ore:paneGlass>
+] as IOreDictEntry[];
+
+var dict256 = [
+	<ore:bookshelf>,
+	<ore:chest>,
+	<ore:vine>
 ] as IOreDictEntry[];
 
 var stack256 = [
-	<minecraft:bookshelf>,
 	<minecraft:wheat_seeds>,
 	<cuisine:crops>,
 	<rustic:tomato_seeds>,
@@ -109,13 +128,44 @@ var stack256 = [
 	<minecraft:wheat>,
 	<inspirations:sugar_cane_seeds>,
 	<minecraft:reeds>,
-	<minecraft:nether_wart>
+	<minecraft:nether_wart>,
+	<minecraft:sapling>,
+	<minecraft:tallgrass>,
+	<minecraft:deadbush>,
+	<minecraft:yellow_flower>,
+	<minecraft:red_flower>,
+	<minecraft:red_mushroom>,
+	<minecraft:brown_mushroom>,
+	<minecraft:furnace>,
+	<minecraft:cactus>,
+	<minecraft:jukebox>,
+	<minecraft:waterlily>,
+	<minecraft:enchanting_table>,
+	<minecraft:anvil>,
+	<minecraft:double_plant>,
+	<minecraft:painting>,
+	<minecraft:sign>,
+	<minecraft:bed>,
+	<minecraft:item_frame>,
+	<minecraft:flower_pot>,
+	<minecraft:armor_stand>,
+	<minecraft:banner>,
+	<minecraft:end_crystal>,
+	<minecraft:dispenser>,
+	<minecraft:noteblock>,
+	<minecraft:sticky_piston>,
+	<minecraft:piston>,
+	<minecraft:tnt>
 ] as IItemStack[];
 
 var stack512 = [
 	<minecraft:pumpkin>,
 	<minecraft:lit_pumpkin>,
-	<minecraft:melon_block>
+	<minecraft:melon_block>,
+	<minecraft:hay_block>,
+	<minecraft:nether_wart_block>,
+	<minecraft:chorus_plant>,
+	<minecraft:chorus_flower>
 ] as IItemStack[];
 
 var stack1024 = [
@@ -126,23 +176,27 @@ var stack1024 = [
 	<rustic:chili_pepper>,
 	<rustic:wildberries>,
 	<minecraft:clay_ball>,
-	<rustic:ironberries>
+	<rustic:ironberries>,
+	<minecraft:packed_ice>,
+	<minecraft:magma>,
+	<minecraft:ladder>,
+	<minecraft:snow_layer>,
+	<minecraft:carpet>,
+	<minecraft:end_rod>
 ] as IItemStack[];
 
 var stack2048 = [
-	<minecraft:glass>,
 	<minecraft:stained_glass>,
 	<minecraft:brick_block>,
 	<minecraft:clay>,
 	<minecraft:snow>,
 	<minecraft:glowstone>,
-	<minecraft:dye:15>
+	<minecraft:dye:15>,
+	<minecraft:sea_lantern>
 ] as IItemStack[];
 
 var stack4096 = [
-	<minecraft:sandstone>,
 	<minecraft:stone_slab>,
-	<minecraft:oak_stairs>,
 	<minecraft:stone_stairs>,
 	<minecraft:stonebrick>,
 	<minecraft:brick_stairs>,
@@ -150,6 +204,16 @@ var stack4096 = [
 	<minecraft:nether_brick>,
 	<minecraft:nether_brick_stairs>,
 	<minecraft:stick>,
+	<minecraft:sandstone_stairs>,
+	<minecraft:quartz_stairs>,
+	<minecraft:prismarine>,
+	<minecraft:red_sandstone_stairs>,
+	<minecraft:stone_slab2>,
+	<minecraft:purpur_stairs>,
+	<minecraft:purpur_slab>,
+	<minecraft:iron_bars>,
+	<minecraft:nether_brick_fence>,
+	<minecraft:cobblestone_wall>
 ] as IItemStack[];
 
 var stack8192 = [
@@ -157,6 +221,7 @@ var stack8192 = [
 	<minecraft:dirt>,
 	<minecraft:cobblestone>,
 	<minecraft:sand>,
+	<minecraft:glass>,
 	<minecraft:gravel>,
 	<minecraft:mossy_cobblestone>,
 	<minecraft:netherrack>,
@@ -165,8 +230,40 @@ var stack8192 = [
 	<minecraft:grass>,
 	<minecraft:mycelium>,
 	<quark:basalt>,
-	<botania:biomestonea>
+	<botania:biomestonea>,
+	<minecraft:stained_hardened_clay>,
+	<minecraft:hardened_clay>,
+	<minecraft:purpur_block>,
+	<minecraft:purpur_pillar>,
+	<minecraft:end_bricks>,
+	<minecraft:sandstone>,
+	<minecraft:red_sandstone>,
+	<minecraft:red_nether_brick>,
+	<minecraft:concrete>,
+	<minecraft:concrete_powder>,
+	<minecraft:white_glazed_terracotta>,
+	<minecraft:orange_glazed_terracotta>,
+	<minecraft:magenta_glazed_terracotta>,
+	<minecraft:yellow_glazed_terracotta>,
+	<minecraft:light_blue_glazed_terracotta>,
+	<minecraft:lime_glazed_terracotta>,
+	<minecraft:pink_glazed_terracotta>,
+	<minecraft:gray_glazed_terracotta>,
+	<minecraft:silver_glazed_terracotta>,
+	<minecraft:cyan_glazed_terracotta>,
+	<minecraft:purple_glazed_terracotta>,
+	<minecraft:blue_glazed_terracotta>,
+	<minecraft:brown_glazed_terracotta>,
+	<minecraft:green_glazed_terracotta>,
+	<minecraft:red_glazed_terracotta>,
+	<minecraft:black_glazed_terracotta>
 ] as IItemStack[];
+
+for stuffDict in dict256 {
+	for stuff in stuffDict.items {
+		stack256 += stuff;
+	}
+}
 
 for oreBlock in oresAndBlocks512 {
 	stack512 += oreBlock;

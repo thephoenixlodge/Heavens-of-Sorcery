@@ -16,3 +16,5 @@ criteria2 = addCriteria("hasItems1", "triumph:player_crafted_item")
 criteria2.setItem(<botania:altar, count:1>)
 
 addRewardItem(<mist:a_tree_block, meta:4, count:150>)
+addRewardItem(botania:mushroom, meta:8, count:2)
+addRewardItem(botania:mushroom, meta:12, count:2)

@@ -1,6 +1,6 @@
 {
 	"name": "Heavens' Journey",
-	"landing_text": "Failing to stop the Fall is my greatest regret. Though it may have cost me my life, I was at least able to save you, my child, and now you must do what I could not.",
+	"landing_text": "Failing to stop the Fall is my greatest regret. Though it may have cost me my life, I was at least able to save you, my child, and now you must do what I could not. $(br)$(#f00)You can acess this book directly from the book icon in your inventory!$()",
 	"version": 1,
 	"book_texture": "patchouli:textures/gui/book_cyan.png",
 	"model": "patchouli:book_cyan",

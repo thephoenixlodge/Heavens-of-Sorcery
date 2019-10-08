@@ -3,7 +3,7 @@
     "icon": "minecraft:redstone",
     "category": "quests/chap1",
     "sortnum": 16,
-    "advancement": "heavens:bookchap1/15flintsteel",
+    "advancement": "heavens:bookchap1/14mill",
     "turnin": "heavens:bookchap1/16redstone",
     "pages": [
         {

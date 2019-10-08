@@ -115,6 +115,9 @@ val dustCopper = <mysticalworld:copper_dust>;
 val ingotSilver = <embers:ingot_silver>;
 val dustSilver = <mysticalworld:silver_dust>;
 val dustIron = <mysticalworld:iron_dust>;
+val flour = <cuisine:food:1>;
+val dough = <cuisine:food:2>;
+val wheat = <minecraft:wheat>;
 
 //Change Crushing tub recipe for starting
 recipes.remove(crushingTub);
@@ -284,3 +287,11 @@ ArcaneWorld.createRitualCreateItem("akashic", "Imbue Akashic Tome", akashicTome,
 //missing dust to ingot recipes
 furnace.addRecipe(ingotCopper, dustCopper, 0.1);
 furnace.addRecipe(ingotSilver, dustSilver, 0.1);
+
+//flour alt recipe
+Mortar.addRecipe(flour, [wheat]);
+
+//alt way for dough
+CauldronCrafting.addFluidRecipe(dough, flour, water, 1);
+recipes.remove(dough);
+recipes.addShapeless(dough, [flour, water * 1000]);

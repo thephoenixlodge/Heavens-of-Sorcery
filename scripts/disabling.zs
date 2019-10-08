@@ -1,5 +1,6 @@
 ////Imports
 import mods.jei.JEI;
+import mods.roots.Mortar;
 
 ////Vars
 //Amethyst
@@ -85,6 +86,13 @@ val bwStone = <betterbuilderswands:wandstone>;
 val bookNA = <patchouli:guide_book>.withTag({"patchouli:book": "naturesaura:book"});
 val bitChiselStone = <chiselsandbits:chisel_stone>;
 val bitChiselGold = <chiselsandbits:chisel_gold>;
+
+//crops
+val tomatoCuisine = <cuisine:crops:4>;
+val oreCropTomato = <ore:cropTomato>;
+val oreListAllVeggie = <ore:listAllveggie>;
+val flourRoots = <roots:flour>;
+val bread = <minecraft:bread>;
 
 //remove extra amethyst from the oredict
 oreAmethyst.remove(amethystWings);
@@ -201,3 +209,11 @@ recipes.removeByRecipeName("naturesaura:book");
 //stone bit chisel
 recipes.remove(bitChiselStone);
 recipes.remove(bitChiselGold);
+
+//tomato
+oreCropTomato.remove(tomatoCuisine);
+oreListAllVeggie.remove(tomatoCuisine);
+
+//roots flour
+Mortar.removeRecipe(flourRoots);
+furnace.remove(bread, flourRoots);

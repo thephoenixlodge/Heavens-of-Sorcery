@@ -20,7 +20,9 @@
             "type": "checklist_end",
             "item1": "botania:altar",
             "item2": "botania:specialflower{type:\"puredaisy\"}",
-            "reward1": "mist:a_tree_block:4#150"
+            "reward1": "mist:a_tree_block:4#150",
+            "reward2": "botania:mushroom:8#2",
+            "reward3": "botania:mushroom:12#2"
         },
         {
             "type": "crafting",

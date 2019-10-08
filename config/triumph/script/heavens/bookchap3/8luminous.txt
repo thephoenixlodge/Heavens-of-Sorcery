@@ -17,3 +17,4 @@ criteria2 = addCriteria("hasItemsFurnace2", "minecraft:inventory_changed")
 criteria2.addItem(<astralsorcery:itemwand, count:1~>)
 
 addRewardItem(<astralsorcery:blockblackmarble, count:100>)
+setRewardFunction("astral_basic_unlock")

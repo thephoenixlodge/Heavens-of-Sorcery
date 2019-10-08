@@ -28,6 +28,5 @@ for mob in plainsMobs {
 }
 
 spawntabletweaker.addSpawn("embers:ancient_golem", 10, 1, 1, "MONSTER", ["minecraft:plains"]);
-spawntabletweaker.addSpawn("minecraft:shulker", 5, 1, 1, "MONSTER", ["minecraft:plains"]);
 spawntabletweaker.addSpawn("quark:stoneling", 5, 1, 1, "MONSTER", ["minecraft:plains"]);
 spawntabletweaker.addSpawn("artifacts:mimic", 1, 1, 1, "MONSTER", ["minecraft:plains"]);

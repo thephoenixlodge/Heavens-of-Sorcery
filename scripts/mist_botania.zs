@@ -119,12 +119,26 @@ val ingotLead = <embers:ingot_lead>;
 val ingotElementium = <botania:manaresource:7>;
 val dustPixie = <botania:manaresource:8>;
 val amethyst = <arcaneworld:amethyst>;
-val tokenJoy = <naturesaura:token_joy>;
 val bacterialShale = <mist:bio_shale>;
 val plankSkyroot = <aether_legacy:skyroot_plank>;
 val gemZanite = <aether_legacy:zanite_gemstone>;
 val redstone = <minecraft:redstone>;
 val piston = <minecraft:piston>;
+val agglomerationPlate = <botania:terraplate>;
+val charoite = <blue_skies:charoite>;
+val ingotInfused = <naturesaura:infused_iron>;
+val saplingGoldenOak = <aether_legacy:golden_oak_sapling>;
+val blueBerry = <aether_legacy:blue_berry>;
+val manaCloth = <botania:manaresource:22>;
+val pumpkinPie = <minecraft:pumpkin_pie>;
+val iceStone = <aether_legacy:icestone>;
+val leavesGoldenOak = <aether_legacy:aether_leaves:1>;
+val web = <minecraft:web>;
+val slime = <ore:slimeball>;
+val quicksoil = <aether_legacy:quicksoil>;
+val melon = <minecraft:melon>;
+val filterCoal = <mist:filter_coal>;
+val filterCoalBlock = <mist:filter_coal_block>;
 //Runes
 val runeWater = <botania:rune>;
 val runeFire = <botania:rune:1>;
@@ -132,6 +146,22 @@ val runeEarth = <botania:rune:2>;
 val runeAir = <botania:rune:3>;
 val runeMana = <botania:rune:8>;
 val runeStarlight = <contenttweaker:rune_starlight>;
+val runeSummer = <botania:rune:5>;
+val runeAutumn = <botania:rune:6>;
+val runeWinter = <botania:rune:7>;
+val runeSpring = <botania:rune:4>;
+val runeLust = <botania:rune:9>;
+val runeGreed = <botania:rune:11>;
+val runeGluttony = <botania:rune:10>;
+val runeWrath = <botania:rune:13>;
+val runePride = <botania:rune:15>;
+val runeEnvy = <botania:rune:14>;
+val runeSloth = <botania:rune:12>;
+//tokens
+val tokenJoy = <naturesaura:token_joy>;
+val tokenSorrow = <naturesaura:token_sorrow>;
+val tokenAnger = <naturesaura:token_anger>;
+val tokenFear = <naturesaura:token_fear>;
 
 //Oredict all Misty World logs
 for wood in mistyWoods {
@@ -174,7 +204,7 @@ ManaInfusion.addInfusion(manaPearl, nacrePearl, 6000);
 
 //Runic Altar recipe
 recipes.remove(runicAltar);
-Altar.addDiscoveryAltarRecipe("custom_runic_altar", runicAltar, 1000, 250, [null, null, null, livingrock, livingrock, livingrock, marblePillar, manaPearl, marblePillar]);
+Altar.addDiscoveryAltarRecipe("custom_runic_altar", runicAltar, 700, 250, [null, null, null, livingrock, livingrock, livingrock, marblePillar, manaPearl, marblePillar]);
 
 //Tweak respirator recipe
 recipes.remove(respirator);
@@ -205,6 +235,39 @@ RuneAltar.addRecipe(runeAir, [manaPowder, ingotManasteel, feather, skyrootLeaves
 //Mana
 RuneAltar.removeRecipe(runeMana);
 RuneAltar.addRecipe(runeMana, [manaPowder, ingotManasteel, ingotManasteel, ingotManasteel, manaOrb, manaOrb, manaPearl, manaPearl], 8000);
+//Summer
+RuneAltar.removeRecipe(runeSummer);
+RuneAltar.addRecipe(runeSummer, [runeEarth, runeAir, quicksoil, quicksoil, slime, melon], 8000);
+//Autumn
+RuneAltar.removeRecipe(runeAutumn);
+RuneAltar.addRecipe(runeAutumn, [runeFire, runeAir, leavesGoldenOak, leavesGoldenOak, leavesGoldenOak, web], 8000);
+//Winter
+RuneAltar.removeRecipe(runeWinter);
+RuneAltar.addRecipe(runeWinter, [runeWater, runeEarth, iceStone, iceStone, pumpkinPie, manaCloth], 8000);
+//Spring
+RuneAltar.removeRecipe(runeSpring);
+RuneAltar.addRecipe(runeSpring, [runeWater, runeFire, saplingGoldenOak, saplingGoldenOak, saplingGoldenOak, blueBerry], 8000);
+//Lust
+RuneAltar.removeRecipe(runeLust);
+RuneAltar.addRecipe(runeLust, [tokenJoy, tokenJoy, runeAir, runeSummer], 12000);
+//Gluttony
+RuneAltar.removeRecipe(runeGluttony);
+RuneAltar.addRecipe(runeGluttony, [tokenJoy, tokenFear, runeFire, runeWinter], 12000);
+//Greed
+RuneAltar.removeRecipe(runeGreed);
+RuneAltar.addRecipe(runeGreed, [tokenFear, tokenAnger, runeWater, runeSpring], 12000);
+//Wrath
+RuneAltar.removeRecipe(runeWrath);
+RuneAltar.addRecipe(runeWrath, [tokenAnger, tokenAnger, runeEarth, runeWinter], 12000);
+//Envy
+RuneAltar.removeRecipe(runeEnvy);
+RuneAltar.addRecipe(runeEnvy, [tokenAnger, tokenSorrow, runeWater, runeWinter], 12000);
+//Sloth
+RuneAltar.removeRecipe(runeSloth);
+RuneAltar.addRecipe(runeSloth, [tokenSorrow, tokenFear, runeAir, runeAutumn], 12000);
+//Pride
+RuneAltar.removeRecipe(runePride);
+RuneAltar.addRecipe(runePride, [tokenJoy, tokenSorrow, runeFire, runeSummer], 12000);
 
 //Add recipe for getting slate from Rustic and Earthworks
 PureDaisy.addRecipe(basalt, slate);
@@ -256,3 +319,10 @@ recipes.addShaped(piston * 3, [[livingwood, livingwood, livingwood], [livingrock
 //tweak foggy stone hardnesses
 var hardFogStoneBlock = hardFogStone as IBlock;
 hardFogStoneBlock.definition.hardness = 45;
+
+//terrestrial agglomeration plate
+recipes.remove(agglomerationPlate);
+Altar.addConstellationAltarRecipe("internal/altar/agglomeration_plate", agglomerationPlate, 3200, 500, [null, null, null, charoite, charoite, charoite, ingotInfused, blockManasteel, ingotInfused, null, null, runeEarth, runeAir, null, null, null, null, runeFire, runeWater, runeMana, runeStarlight]);
+
+//filter coal block. why wasn't this already a thing?
+recipes.addShapeless(filterCoalBlock, [filterCoal, filterCoal, filterCoal, filterCoal, filterCoal, filterCoal, filterCoal, filterCoal, filterCoal]);

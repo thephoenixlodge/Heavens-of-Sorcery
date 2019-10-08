@@ -14,6 +14,7 @@ val blockAmethystMy = <mysticalworld:amethyst_block>;
 val thatchQuark = <quark:thatch>;
 val thatchEarthworks = <earthworks:block_thatch>;
 val thatchBetweenlands = <thebetweenlands:thatch>;
+val thatchMW = <mysticalworld:thatch>;
 val oreThatch = <ore:blockThatch>;
 //Stone
 val rune1 = <thebetweenlands:druid_stone_1>;
@@ -134,13 +135,16 @@ recipes.remove(blockAmethystMy);
 
 //Add group, disable other recipes for thatch blocks and add oredict
 recipes.remove(thatchEarthworks);
+recipes.remove(thatchMW);
 oreThatch.add(thatchQuark);
 oreThatch.add(thatchEarthworks);
 oreThatch.add(thatchBetweenlands);
+oreThatch.add(thatchMW);
 Carving.addGroup("blockThatch");
 Carving.addVariation("blockThatch", thatchQuark);
 Carving.addVariation("blockThatch", thatchEarthworks);
 Carving.addVariation("blockThatch", thatchBetweenlands);
+Carving.addVariation("blockThatch", thatchMW);
 
 //Add BL Rune Stones to stonebrick group
 Carving.addVariation("stonebrick", rune1);

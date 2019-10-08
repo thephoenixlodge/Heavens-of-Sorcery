@@ -3,6 +3,7 @@ import mods.naturesaura.Altar as NatureAltar;
 import mods.naturesaura.TreeRitual;
 import mods.naturesaura.AnimalSpawner;
 import mods.astralsorcery.Grindstone;
+import mods.astralsorcery.Altar;
 import mods.cuisine.Mill;
 import mods.ArcaneWorld;
 import mods.inspirations.Cauldron as CauldronCrafting;
@@ -26,10 +27,17 @@ val powderGrowth = <naturesaura:effect_powder>.withTag({effect: "naturesaura:pla
 val preciaMundane = <contenttweaker:precia_mundane>;
 val metalliaMundane = <contenttweaker:metallia_mundane>;
 val saplingBluebright = <blue_skies:bluebright_sapling>;
+val saplingStarlit = <blue_skies:starlit_sapling>;
+val saplingMaple = <blue_skies:maple_sapling>;
+val saplingDusk = <blue_skies:dusk_sapling>;
 val tokenJoy = <naturesaura:token_joy>;
+val tokenSorrow = <naturesaura:token_sorrow>;
+val tokenFear = <naturesaura:token_fear>;
+val tokenAnger = <naturesaura:token_anger>;
 val mysticalFlower = <botania:flower:*>;
 val illuminationPowder = <astralsorcery:itemusabledust>;
 val bottledSunlight = <naturesaura:aura_bottle>.withTag({stored_type: "naturesaura:overworld"});
+val bottledGhosts = <naturesaura:aura_bottle>.withTag({stored_type: "naturesaura:nether"});
 val ingotHorizonite = <blue_skies:horizonite_ingot>;
 val blockHorizonite = <blue_skies:horizonite_block>;
 val cherry = <blue_skies:cherry>;
@@ -43,6 +51,26 @@ val corn = <cuisine:crops:13>;
 val ingotSkies = <naturesaura:sky_ingot>;
 val ingotInfused = <naturesaura:infused_iron>;
 val blockInfused = <naturesaura:infused_iron_block>;
+val rootRedstone = <botania:manaresource:6>;
+val wildroot = <roots:wildroot>;
+val holyStone = <aether_legacy:holystone>;
+val naturalAltar = <naturesaura:nature_altar>;
+val runeStone = <roots:runestone>;
+val logWildwood = <roots:wildwood_log>;
+val offeringTable = <naturesaura:offering_table>;
+val infusedRock = <naturesaura:infused_stone>;
+val gemTurquoise = <blue_skies:turquoise_gem>;
+val gemPyrope = <blue_skies:pyrope_gem>;
+val gemDiopside = <blue_skies:diopside_gem>;
+val zealLighter = <blue_skies:zeal_lighter>;
+val enderEye = <minecraft:ender_eye>;
+val swordHorizonite = <blue_skies:horizonite_sword>;
+val rawCarabeef = <blue_skies:raw_azulfo_beef>;
+val crystalGlass = <blue_skies:crystal_glass>;
+val ghastTear = <minecraft:ghast_tear>;
+val shieldZanite = <lost_aether:zanite_shield>;
+val soulBead = <quark:soul_bead>;
+val gravesDust = <tombstone:crafting_ingredient:3>;
 
 //Tweak gold fibre recipe to require misty world
 recipes.remove(brilliantFibre);
@@ -68,7 +96,16 @@ TreeRitual.addRecipe("plant_boost_powder", saplingBluebright, powderGrowth * 12,
 
 //Joy token
 TreeRitual.removeRecipe(tokenJoy);
-TreeRitual.addRecipe("token_joy", saplingBluebright, tokenJoy * 2, 200, [bottledSunlight, goldLeaf, mysticalFlower, cherry, illuminationPowder, ingotHorizonite]);
+TreeRitual.addRecipe("token_joy", saplingBluebright, tokenJoy * 2, 200, [bottledSunlight, goldLeaf, mysticalFlower, gemTurquoise, illuminationPowder, ingotHorizonite]);
+//Anger
+TreeRitual.removeRecipe(tokenAnger);
+TreeRitual.addRecipe("token_anger", saplingMaple, tokenAnger * 2, 200, [bottledGhosts, goldLeaf, swordHorizonite, enderEye, zealLighter, gemPyrope]);
+//Fear
+TreeRitual.removeRecipe(tokenFear);
+TreeRitual.addRecipe("token_fear", saplingDusk, tokenFear * 2, 200, [bottledGhosts, goldLeaf, shieldZanite, soulBead, gravesDust, gemDiopside]);
+//Sorrow
+TreeRitual.removeRecipe(tokenSorrow);
+TreeRitual.addRecipe("token_sorrow", saplingStarlit, tokenSorrow * 2, 200, [bottledSunlight, goldLeaf, rawCarabeef, crystalGlass, ghastTear, shardMoonstone]);
 
 //Wooden stand recipe
 recipes.remove(woodStand);
@@ -84,3 +121,14 @@ NatureAltar.removeRecipe(ingotInfused);
 NatureAltar.addRecipe("infused_iron", ingotHorizonite, ingotInfused, null, 15000, 80);
 NatureAltar.removeRecipe(blockInfused);
 NatureAltar.addRecipe("infused_iron_block", blockHorizonite, blockInfused, null, 15000, 80);
+
+//wildroot
+NatureAltar.addRecipe("wildroot", rootRedstone, wildroot, null, 15000, 80);
+
+//Natural altar
+TreeRitual.removeRecipe(naturalAltar);
+TreeRitual.addRecipe("nature_altar", saplingBluebright, naturalAltar, 800, [tokenJoy, goldLeaf, gemDiopside, holyStone, holyStone, holyStone]);
+
+//offering table
+recipes.remove(offeringTable);
+Altar.addConstellationAltarRecipe("internal/altar/offering", offeringTable, 3200, 500, [tokenFear, ingotInfused, tokenFear, infusedRock, logWildwood, infusedRock, null, logWildwood, null, runeStone, runeStone, null, null, null, null, infusedRock, infusedRock, null, null, logWildwood, logWildwood]);

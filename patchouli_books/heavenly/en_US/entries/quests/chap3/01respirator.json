@@ -10,7 +10,7 @@
             "type": "quest",
             "title": "Just Breathe",
             "trigger": "heavens:bookchap3/1respirator",
-            "text": "Now that you've got $(item)Niobium$() you can use it to help protect yourself from the corrosion of the mist. Firstly, use it to make a pickaxe, which can cleave through the $(item)Foggy Stone$() with easy, and has the finesse to collect other Misty ores. Of those the most important is $(item)Filter Coal$() which, when placed in a $(item)Respirator$(), allows one to safely breathe in the $(thing)Mist$()."
+            "text": "Now that you've got $(item)Niobium$() you can use it to help protect yourself from the corrosion of the mist. Firstly, use it to make a pickaxe, which can cleave through the $(item)Foggy Stone$() with ease, and has the finesse to collect other Misty ores. Of those the most important is $(item)Filter Coal$() which, when placed in a $(item)Respirator$(), allows one to safely breathe in the $(thing)Mist$()."
         },
         {
             "type": "checklist_end",

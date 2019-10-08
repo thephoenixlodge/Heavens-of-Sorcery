@@ -27,30 +27,30 @@ bisonRideOneSecondTameness: 3
 bisonRiderTameness: 800
 maxNumberOfBenders: 3
 scrollDropChance:
-  zombie_pigman: 0
-  chicken: 0
-  stray: 0
-  wither_skeleton: 0
-  elder_guardian: 0
-  magma_cube: 0
-  polar_bear: 0
-  skeleton: 0
-  bat: 0
-  husk: 0
-  blaze: 0
-  mooshroom: 0
-  cave_spider: 0
-  silverfish: 0
-  zombie: 0
-  witch: 0
-  squid: 0
-  guardian: 0
-  ghast: 0
-  parrot: 0
-  spider: 0
-  sheep: 0
-  creeper: 0
-  enderman: 0
+  zombie_pigman: 0.0
+  chicken: 0.0
+  stray: 0.0
+  wither_skeleton: 0.0
+  elder_guardian: 0.0
+  magma_cube: 0.0
+  polar_bear: 0.0
+  skeleton: 0.0
+  bat: 0.0
+  husk: 0.0
+  blaze: 0.0
+  mooshroom: 0.0
+  cave_spider: 0.0
+  silverfish: 0.0
+  zombie: 0.0
+  witch: 0.0
+  squid: 0.0
+  guardian: 0.0
+  ghast: 0.0
+  parrot: 0.0
+  spider: 0.0
+  sheep: 0.0
+  creeper: 0.0
+  enderman: 0.0
 scrollTradeItems:
   minecraft:gold_ingot: 1
   minecraft:emerald: 1

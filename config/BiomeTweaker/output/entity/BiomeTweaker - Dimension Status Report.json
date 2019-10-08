@@ -996,21 +996,6 @@
     "Class": "com.bewitchment.common.entity.spirit.demon.EntityImp"
   },
   {
-    "Name": "Crow",
-    "Registry ID": "corvus:crow",
-    "Class": "party.lemons.corvus.entity.EntityCrow"
-  },
-  {
-    "Name": "Familiar",
-    "Registry ID": "corvus:familiar",
-    "Class": "party.lemons.corvus.entity.EntityFamiliar"
-  },
-  {
-    "Name": "Wendigo",
-    "Registry ID": "corvus:wendigo",
-    "Class": "party.lemons.corvus.entity.EntityWendigo"
-  },
-  {
     "Name": "rat",
     "Registry ID": "rats:rat",
     "Class": "com.github.alexthe666.rats.server.entity.EntityRat"
