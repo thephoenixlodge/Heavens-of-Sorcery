@@ -1,0 +1,17 @@
+setIcon(<ebwizardry:arcane_workbench>)
+
+setTitle("Superior Spellcraft")
+
+setDescription("Craft an Arcane Workbench")
+
+addParent("heavens:bookchap4/07magiccrystal")
+
+setRequiresParents()
+
+setPos(200,0)
+
+criteria1 = addCriteria("hasItemsFurnace", "minecraft:inventory_changed")
+criteria1.addItem(<ebwizardry:arcane_workbench, count:1~>)
+
+addRewardItem(<ebwizardry:magic_crystal, count:10>)
+addRewardItem(<ebwizardry:wizard_handbook, count:1>)

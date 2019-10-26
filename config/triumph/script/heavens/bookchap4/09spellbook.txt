@@ -1,0 +1,21 @@
+setIcon(<ebwizardry:spell_book>)
+
+setTitle("Yer a Wizard Steve")
+
+setDescription("Find a Spellbook, and identify it, either by casting it once equiped to a Magic Wand, or by using an Identification Scroll")
+
+addParent("heavens:bookchap4/08arcaneworkbench")
+
+setRequiresParents()
+
+setPos(240,0)
+
+criteria1 = addCriteria("identifycast", "ebwizardry:discover_spell")
+criteria1.addCondition(""source": "casting"")
+criteria2 = addCriteria("identifyscroll", "ebwizardry:discover_spell")
+criteria2.addCondition(""source": "identification_scroll"")
+
+setRequirements("any")
+
+addRewardItem(<ebwizardry:magic_crystal, count:15>)
+addRewardItem(<ebwizardry:arcane_tome, meta:1, count:1>)

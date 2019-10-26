@@ -1,0 +1,20 @@
+setIcon(<roots:fey_crafter>)
+
+setTitle("Fey and Far Between")
+
+setDescription("Create a Fey Crafter and a Grove Stone, then activate the Grove Stone with the Grove Supplication spell")
+
+addParent("heavens:bookchap4/12ancientsapling")
+
+setRequiresParents()
+
+setPos(240,-40)
+
+criteria1 = addCriteria("hasItemsFurnace", "minecraft:inventory_changed")
+criteria1.addItem(<roots:fey_crafter, meta:0, count:1~>)
+criteria2 = addCriteria("hasItemsSpelldust", "minecraft:inventory_changed")
+criteria2.addItem(<roots:spell_dust, count:1~, nbt:{spell_holder:{spell_0:"spell_supplication",selectedSlot:0,lastCooldown:0,cooldown:0}}>)
+criteria3 = addCriteria("activateGroveStone", "roots:grove_activate")
+
+addRewardItem(<naturesaura:ancient_sapling, count:3>)
+addRewardItem(<roots:wildroot, count:10>)

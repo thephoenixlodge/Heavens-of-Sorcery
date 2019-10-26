@@ -120,6 +120,11 @@ val chainIronI = <inspirations:rope:1>;
 val chainIronR = <rustic:chain>;
 val chainGoldC = <cathedral:cathedral_chain_various:1>;
 val chainGoldR = <rustic:chain_gold>;
+//crystal-sandstone
+val crystalSandstone = <blue_skies:crystal_sandstone>;
+val crystalSandstoneChiseled = <blue_skies:chiseled_crystal_sandstone>;
+val crystalSandstoneSmooth = <blue_skies:smooth_crystal_sandstone>;
+
 
 //Add group for Sapphire Blocks
 //Carving.addGroup("blockSapphire");
@@ -292,3 +297,9 @@ Carving.addGroup("gold-chain");
 Carving.addVariation("gold-chain", chainGoldC);
 Carving.addVariation("gold-chain", chainGoldR);
 recipes.remove(chainGoldR);
+
+//crystal sandstone
+Carving.addGroup("crystal-sandstone");
+Carving.addVariation("crystal-sandstone", crystalSandstone);
+Carving.addVariation("crystal-sandstone", crystalSandstoneChiseled);
+Carving.addVariation("crystal-sandstone", crystalSandstoneSmooth);

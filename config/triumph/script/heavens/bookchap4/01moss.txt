@@ -1,0 +1,19 @@
+setIcon(<roots:terra_moss, count:1>)
+
+setTitle("Moss We Really Do This?")
+
+setDescription("Collect Terra Spores and use them to turn Cobblestone into Mossy Cobblestone, then harvest the moss with a Knife")
+
+addParent("heavens:bookchap4/root")
+
+setRequiresParents()
+
+setPos(40,40)
+
+criteria1 = addCriteria("hasItemsSpores", "minecraft:inventory_changed")
+criteria1.addItem(<roots:terra_spores, count:1~>)
+criteria2 = addCriteria("hasItemsMoss", "minecraft:inventory_changed")
+criteria2.addItem(<roots:terra_moss, count:1~>)
+
+addRewardItem(<roots:terra_moss, count:5>)
+addRewardItem(<patchouli:guide_book, count:1, nbt:{"patchouli:book":"roots:roots_guide"}>)

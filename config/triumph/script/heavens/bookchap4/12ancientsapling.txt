@@ -1,0 +1,17 @@
+setIcon(<naturesaura:ancient_sapling>)
+
+setTitle("As Old as the Trees")
+
+setDescription("Create an Ancient Sapling, to help replenish damage you've done to the Aura")
+
+addParent("heavens:bookchap4/11pyre")
+
+setRequiresParents()
+
+setPos(200,-40)
+
+criteria1 = addCriteria("hasItemsFurnace", "minecraft:inventory_changed")
+criteria1.addItem(<naturesaura:ancient_sapling, count:1~>)
+
+addRewardItem(<naturesaura:ancient_sapling, count:3>)
+addRewardItem(<roots:wildroot, count:10>)

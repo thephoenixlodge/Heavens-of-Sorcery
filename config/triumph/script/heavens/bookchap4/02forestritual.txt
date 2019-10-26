@@ -1,0 +1,18 @@
+setIcon(<naturesaura:wood_stand>)
+
+setTitle("Into the Woods")
+
+setDescription("Setup the Ritual of The Forest by placing Display Stands and Gold Powder around a Sapling")
+
+addParent("heavens:bookchap4/00goldleaf")
+
+setRequiresParents()
+
+setPos(80,0)
+
+criteria1 = addCriteria("hasItemsFurnace", "minecraft:inventory_changed")
+criteria1.addItem(<naturesaura:wood_stand, count:8~>)
+criteria2 = addCriteria("hasItemsGoldLeaf", "minecraft:inventory_changed")
+criteria2.addItem(<naturesaura:gold_powder, count:16~>)
+
+addRewardItem(<naturesaura:gold_powder, count:50>)

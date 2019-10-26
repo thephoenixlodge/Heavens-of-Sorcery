@@ -3,6 +3,7 @@ import mods.naturesaura.Altar as NatureAltar;
 import mods.naturesaura.TreeRitual;
 import mods.astralsorcery.Altar;
 import mods.roots.Fey;
+import mods.roots.Mortar;
 
 //variables
 val pyre = <roots:bonfire>;
@@ -24,6 +25,10 @@ val woodStand = <naturesaura:wood_stand>;
 val feyCrafter = <roots:fey_crafter>;
 val runeStone = <roots:runestone>;
 val gemTurquoise = <blue_skies:turquoise_gem>;
+val petals = <roots:petals>;
+val runeSpring = <botania:rune:4>;
+val ancientSapling = <naturesaura:ancient_sapling>;
+val holystoneMossy = <aether_legacy:mossy_holystone>;
 
 //Pyre
 recipes.remove(pyre);
@@ -41,5 +46,9 @@ Altar.addConstellationAltarRecipe("internal/altar/grove_stone", groveStone, 3200
 recipes.remove(feyCrafter);
 Altar.addConstellationAltarRecipe("internal/altar/fey_crafter", feyCrafter, 3200, 500, [infusedHorizonite, terraMoss, infusedHorizonite, null, wildroot, null, null, woodStand, null, null, null, null, null, null, null, null, null, null, null, livingwood, livingwood]);
 
+//runestone
 Fey.removeRecipe(runeStone);
 Fey.addRecipe("runestone", runeStone, [gemTurquoise, infusedRock, infusedRock, infusedRock, infusedRock]);
+
+//grove supplication spelldust
+Mortar.changeSpell("spell_supplication", [runeSpring, holystoneMossy, ancientSapling, wildroot, petals]);

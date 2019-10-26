@@ -1,0 +1,18 @@
+setIcon(<astralsorcery:blockaltar, meta:3>)
+
+setTitle("Truly Iridescent")
+
+setDescription("Upgrade your Celestial Altar into an Iridescent Altar")
+
+addParent("heavens:bookchap4/06gemcutterstable")
+addParent("heavens:bookchap4/07magiccrystal")
+
+setRequiresParents()
+
+setPos(200,40)
+
+criteria1 = addCriteria("altarT4", "astralsorcery:altar_craft")
+criteria1.addCondition(""recipes": ["astralsorcery:shaped/internal/altar/upgrade_tier4"]")
+
+addRewardItem(<astralsorcery:blockattunementrelay, count:5>)
+addRewardItem(<ebwizardry:magic_crystal, count:15>)

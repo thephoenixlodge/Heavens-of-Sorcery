@@ -6,7 +6,8 @@ import crafttweaker.item.IItemDefinition;
 
 var mapSizeChange = {
     64 : 8192,
-    16 : 4096
+    16 : 4096,
+    8 : 2048
 } as int[int];
 
 for item in game.items {

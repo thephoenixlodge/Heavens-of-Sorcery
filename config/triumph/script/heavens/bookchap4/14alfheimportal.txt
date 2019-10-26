@@ -1,0 +1,21 @@
+setIcon(<botania:pylon, meta:1>)
+
+setTitle("Friends on the Other Side")
+
+setDescription("Build a Portal to Alfheim")
+
+addParent("heavens:bookchap4/13feygrove")
+addParent("heavens:bookchap4/03terrestrialagglomeration")
+
+setRequiresParents()
+
+setPos(280,-80)
+
+criteria1 = addCriteria("hasItemsFurnace", "minecraft:inventory_changed")
+criteria1.addItem(<botania:alfheimportal, count:1~>)
+criteria1 = addCriteria("hasItemsPylon", "minecraft:inventory_changed")
+criteria1.addItem(<botania:pylon, meta:1, count:2~>)
+criteria1 = addCriteria("hasItemsGlimmering", "minecraft:inventory_changed")
+criteria1.addItem(<botania:livingwood, meta:5, count:3~>)
+
+addRewardItem(<botania:manaresource, meta:4, count:5>)

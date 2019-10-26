@@ -656,6 +656,16 @@
     "Class": "epicsquid.mysticalworld.entity.EntityOwl"
   },
   {
+    "Name": "entity_lava_cat",
+    "Registry ID": "mysticalworld:entity_lava_cat",
+    "Class": "epicsquid.mysticalworld.entity.EntityLavaCat"
+  },
+  {
+    "Name": "entity_silkworm",
+    "Registry ID": "mysticalworld:entity_silkworm",
+    "Class": "epicsquid.mysticalworld.entity.EntitySilkworm"
+  },
+  {
     "Name": "sentient_specter",
     "Registry ID": "bloodmagic:sentient_specter",
     "Class": "WayofTime.bloodmagic.entity.mob.EntitySentientSpecter"
@@ -684,6 +694,111 @@
     "Name": "corrupted_spider",
     "Registry ID": "bloodmagic:corrupted_spider",
     "Class": "WayofTime.bloodmagic.entity.mob.EntityCorruptedSpider"
+  },
+  {
+    "Name": "ebwizardry:zombie_minion",
+    "Registry ID": "ebwizardry:zombie_minion",
+    "Class": "electroblob.wizardry.entity.living.EntityZombieMinion"
+  },
+  {
+    "Name": "ebwizardry:husk_minion",
+    "Registry ID": "ebwizardry:husk_minion",
+    "Class": "electroblob.wizardry.entity.living.EntityHuskMinion"
+  },
+  {
+    "Name": "ebwizardry:skeleton_minion",
+    "Registry ID": "ebwizardry:skeleton_minion",
+    "Class": "electroblob.wizardry.entity.living.EntitySkeletonMinion"
+  },
+  {
+    "Name": "ebwizardry:stray_minion",
+    "Registry ID": "ebwizardry:stray_minion",
+    "Class": "electroblob.wizardry.entity.living.EntityStrayMinion"
+  },
+  {
+    "Name": "ebwizardry:spider_minion",
+    "Registry ID": "ebwizardry:spider_minion",
+    "Class": "electroblob.wizardry.entity.living.EntitySpiderMinion"
+  },
+  {
+    "Name": "ebwizardry:blaze_minion",
+    "Registry ID": "ebwizardry:blaze_minion",
+    "Class": "electroblob.wizardry.entity.living.EntityBlazeMinion"
+  },
+  {
+    "Name": "ebwizardry:wither_skeleton_minion",
+    "Registry ID": "ebwizardry:wither_skeleton_minion",
+    "Class": "electroblob.wizardry.entity.living.EntityWitherSkeletonMinion"
+  },
+  {
+    "Name": "ebwizardry:silverfish_minion",
+    "Registry ID": "ebwizardry:silverfish_minion",
+    "Class": "electroblob.wizardry.entity.living.EntitySilverfishMinion"
+  },
+  {
+    "Name": "ebwizardry:vex_minion",
+    "Registry ID": "ebwizardry:vex_minion",
+    "Class": "electroblob.wizardry.entity.living.EntityVexMinion"
+  },
+  {
+    "Name": "ebwizardry:ice_wraith",
+    "Registry ID": "ebwizardry:ice_wraith",
+    "Class": "electroblob.wizardry.entity.living.EntityIceWraith"
+  },
+  {
+    "Name": "ebwizardry:lightning_wraith",
+    "Registry ID": "ebwizardry:lightning_wraith",
+    "Class": "electroblob.wizardry.entity.living.EntityLightningWraith"
+  },
+  {
+    "Name": "ebwizardry:spirit_wolf",
+    "Registry ID": "ebwizardry:spirit_wolf",
+    "Class": "electroblob.wizardry.entity.living.EntitySpiritWolf"
+  },
+  {
+    "Name": "ebwizardry:spirit_horse",
+    "Registry ID": "ebwizardry:spirit_horse",
+    "Class": "electroblob.wizardry.entity.living.EntitySpiritHorse"
+  },
+  {
+    "Name": "ebwizardry:phoenix",
+    "Registry ID": "ebwizardry:phoenix",
+    "Class": "electroblob.wizardry.entity.living.EntityPhoenix"
+  },
+  {
+    "Name": "ebwizardry:ice_giant",
+    "Registry ID": "ebwizardry:ice_giant",
+    "Class": "electroblob.wizardry.entity.living.EntityIceGiant"
+  },
+  {
+    "Name": "ebwizardry:magic_slime",
+    "Registry ID": "ebwizardry:magic_slime",
+    "Class": "electroblob.wizardry.entity.living.EntityMagicSlime"
+  },
+  {
+    "Name": "ebwizardry:decoy",
+    "Registry ID": "ebwizardry:decoy",
+    "Class": "electroblob.wizardry.entity.living.EntityDecoy"
+  },
+  {
+    "Name": "ebwizardry:shadow_wraith",
+    "Registry ID": "ebwizardry:shadow_wraith",
+    "Class": "electroblob.wizardry.entity.living.EntityShadowWraith"
+  },
+  {
+    "Name": "ebwizardry:storm_elemental",
+    "Registry ID": "ebwizardry:storm_elemental",
+    "Class": "electroblob.wizardry.entity.living.EntityStormElemental"
+  },
+  {
+    "Name": "ebwizardry:wizard",
+    "Registry ID": "ebwizardry:wizard",
+    "Class": "electroblob.wizardry.entity.living.EntityWizard"
+  },
+  {
+    "Name": "ebwizardry:evil_wizard",
+    "Registry ID": "ebwizardry:evil_wizard",
+    "Class": "electroblob.wizardry.entity.living.EntityEvilWizard"
   },
   {
     "Name": "CultistPortalGreater",
@@ -829,111 +944,6 @@
     "Name": "TaintSeedPrime",
     "Registry ID": "thaumcraft:taintseedprime",
     "Class": "thaumcraft.common.entities.monster.tainted.EntityTaintSeedPrime"
-  },
-  {
-    "Name": "ebwizardry:zombie_minion",
-    "Registry ID": "ebwizardry:zombie_minion",
-    "Class": "electroblob.wizardry.entity.living.EntityZombieMinion"
-  },
-  {
-    "Name": "ebwizardry:husk_minion",
-    "Registry ID": "ebwizardry:husk_minion",
-    "Class": "electroblob.wizardry.entity.living.EntityHuskMinion"
-  },
-  {
-    "Name": "ebwizardry:skeleton_minion",
-    "Registry ID": "ebwizardry:skeleton_minion",
-    "Class": "electroblob.wizardry.entity.living.EntitySkeletonMinion"
-  },
-  {
-    "Name": "ebwizardry:stray_minion",
-    "Registry ID": "ebwizardry:stray_minion",
-    "Class": "electroblob.wizardry.entity.living.EntityStrayMinion"
-  },
-  {
-    "Name": "ebwizardry:spider_minion",
-    "Registry ID": "ebwizardry:spider_minion",
-    "Class": "electroblob.wizardry.entity.living.EntitySpiderMinion"
-  },
-  {
-    "Name": "ebwizardry:blaze_minion",
-    "Registry ID": "ebwizardry:blaze_minion",
-    "Class": "electroblob.wizardry.entity.living.EntityBlazeMinion"
-  },
-  {
-    "Name": "ebwizardry:wither_skeleton_minion",
-    "Registry ID": "ebwizardry:wither_skeleton_minion",
-    "Class": "electroblob.wizardry.entity.living.EntityWitherSkeletonMinion"
-  },
-  {
-    "Name": "ebwizardry:silverfish_minion",
-    "Registry ID": "ebwizardry:silverfish_minion",
-    "Class": "electroblob.wizardry.entity.living.EntitySilverfishMinion"
-  },
-  {
-    "Name": "ebwizardry:vex_minion",
-    "Registry ID": "ebwizardry:vex_minion",
-    "Class": "electroblob.wizardry.entity.living.EntityVexMinion"
-  },
-  {
-    "Name": "ebwizardry:ice_wraith",
-    "Registry ID": "ebwizardry:ice_wraith",
-    "Class": "electroblob.wizardry.entity.living.EntityIceWraith"
-  },
-  {
-    "Name": "ebwizardry:lightning_wraith",
-    "Registry ID": "ebwizardry:lightning_wraith",
-    "Class": "electroblob.wizardry.entity.living.EntityLightningWraith"
-  },
-  {
-    "Name": "ebwizardry:spirit_wolf",
-    "Registry ID": "ebwizardry:spirit_wolf",
-    "Class": "electroblob.wizardry.entity.living.EntitySpiritWolf"
-  },
-  {
-    "Name": "ebwizardry:spirit_horse",
-    "Registry ID": "ebwizardry:spirit_horse",
-    "Class": "electroblob.wizardry.entity.living.EntitySpiritHorse"
-  },
-  {
-    "Name": "ebwizardry:phoenix",
-    "Registry ID": "ebwizardry:phoenix",
-    "Class": "electroblob.wizardry.entity.living.EntityPhoenix"
-  },
-  {
-    "Name": "ebwizardry:ice_giant",
-    "Registry ID": "ebwizardry:ice_giant",
-    "Class": "electroblob.wizardry.entity.living.EntityIceGiant"
-  },
-  {
-    "Name": "ebwizardry:magic_slime",
-    "Registry ID": "ebwizardry:magic_slime",
-    "Class": "electroblob.wizardry.entity.living.EntityMagicSlime"
-  },
-  {
-    "Name": "ebwizardry:decoy",
-    "Registry ID": "ebwizardry:decoy",
-    "Class": "electroblob.wizardry.entity.living.EntityDecoy"
-  },
-  {
-    "Name": "ebwizardry:shadow_wraith",
-    "Registry ID": "ebwizardry:shadow_wraith",
-    "Class": "electroblob.wizardry.entity.living.EntityShadowWraith"
-  },
-  {
-    "Name": "ebwizardry:storm_elemental",
-    "Registry ID": "ebwizardry:storm_elemental",
-    "Class": "electroblob.wizardry.entity.living.EntityStormElemental"
-  },
-  {
-    "Name": "ebwizardry:wizard",
-    "Registry ID": "ebwizardry:wizard",
-    "Class": "electroblob.wizardry.entity.living.EntityWizard"
-  },
-  {
-    "Name": "ebwizardry:evil_wizard",
-    "Registry ID": "ebwizardry:evil_wizard",
-    "Class": "electroblob.wizardry.entity.living.EntityEvilWizard"
   },
   {
     "Name": "bewitchment.lizard",

@@ -1,0 +1,16 @@
+setIcon(<minecraft:spawn_egg, nbt:{EntityTag:{id:"thebetweenlands:dark_druid"}}>)
+
+setTitle("The Corrupting Darkness")
+
+setDescription("Summon and Kill Dark Druids")
+
+addParent("heavens:bookchap4/17birthing")
+
+setRequiresParents()
+
+setPos(400,40)
+
+criteria = addCriteria("killed_druid", "minecraft:player_killed_entity")
+criteria.setEntityType("thebetweenlands:dark_druid")
+
+addRewardItem(<ebwizardry:amulet_potential, count:1>)

@@ -706,6 +706,138 @@
 				}
 			]
 
+		},
+		{
+			"name": "crystal_moonlit",
+			"type":
+			{
+				"type": "block",
+				"name": "blue_skies:moonlit_flower"
+			},
+			"clicktype": "rightclick",
+			"properties":
+			[
+				{
+					"type": "require_item",
+					"name": "contenttweaker:ironwood_wand_two"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "per_block_limit",
+					"usage": 1,
+					"max": 1
+				}
+			],
+			"drops":
+			[
+				{
+					"name": "ebwizardry:crystal_flower",
+					"amount": "1",
+					"chance": "100"
+				}
+			]
+
+		},
+		{
+			"name": "crystal_camellia",
+			"type":
+			{
+				"type": "block",
+				"name": "blue_skies:hot_pink_flower"
+			},
+			"clicktype": "rightclick",
+			"properties":
+			[
+				{
+					"type": "require_item",
+					"name": "contenttweaker:ironwood_wand_two"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "per_block_limit",
+					"usage": 1,
+					"max": 1
+				}
+			],
+			"drops":
+			[
+				{
+					"name": "ebwizardry:crystal_flower",
+					"amount": "1",
+					"chance": "100"
+				}
+			]
+
+		},
+		{
+			"name": "crystal_snowbloom",
+			"type":
+			{
+				"type": "block",
+				"name": "blue_skies:snowbloom"
+			},
+			"clicktype": "rightclick",
+			"properties":
+			[
+				{
+					"type": "require_item",
+					"name": "contenttweaker:ironwood_wand_two"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "per_block_limit",
+					"usage": 1,
+					"max": 1
+				}
+			],
+			"drops":
+			[
+				{
+					"name": "ebwizardry:crystal_flower",
+					"amount": "1",
+					"chance": "100"
+				}
+			]
+
+		},
+		{
+			"name": "crystal_crystal",
+			"type":
+			{
+				"type": "block",
+				"name": "blue_skies:crystal_flower"
+			},
+			"clicktype": "rightclick",
+			"properties":
+			[
+				{
+					"type": "require_item",
+					"name": "contenttweaker:ironwood_wand_two"
+				},
+				{
+					"type": "swing_hand"
+				},
+				{
+					"type": "per_block_limit",
+					"usage": 1,
+					"max": 1
+				}
+			],
+			"drops":
+			[
+				{
+					"name": "ebwizardry:crystal_flower",
+					"amount": "1",
+					"chance": "100"
+				}
+			]
+
 		}
 	]
 }

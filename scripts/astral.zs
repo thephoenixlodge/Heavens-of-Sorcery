@@ -38,6 +38,8 @@ val wisdomWood = <wizardry:wisdom_wood_log>;
 val linkingTool = <astralsorcery:itemlinkingtool>;
 val rockCrystalAny = Utils.getCrystalORIngredient(false, false);
 val rockCrystalAttuned = Utils.getCrystalORIngredient(false, true);
+val rockCrystalCelestial = Utils.getCrystalORIngredient(true, false);
+val rockCrystalCelestialAttuned = Utils.getCrystalORIngredient(true, true);
 val runeAir = <botania:rune:3>;
 val runeMana = <botania:rune:8>;
 val runeStarlight = <contenttweaker:rune_starlight>;
@@ -75,6 +77,9 @@ val nuggetGold = <minecraft:gold_nugget>;
 val infusedWood = <astralsorcery:blockinfusedwood>;
 val fosicResonator = <astralsorcery:itemskyresonator>;
 val wandFormation = <astralsorcery:itemarchitectwand>;
+val iridescentAltar = <astralsorcery:blockaltar:3>;
+val radiantQuartzShaped = <arcanearchives:shaped_quartz>;
+val magicCrystal = <ebwizardry:magic_crystal>;
 //liquids
 val liquidMana = <liquid:mana_fluid>;
 val liquidStarlight = <liquid:astralsorcery.liquidstarlight>;
@@ -161,3 +166,6 @@ Altar.addDiscoveryAltarRecipe("internal/altar/skyresonator", fosicResonator, 300
 
 //Formation Wand
 Altar.addAttunementAltarRecipe("internal/altar/tool_architect", wandFormation, 1000, 300, [null, dustStarmetal, gemZanite, gemZanite, marbleRuned, dustStarmetal, marbleRuned, null, null, null, null, marbleRuned, null]);
+
+//Iridescent altar
+Altar.addConstellationAltarRecipe("internal/altar/upgrade_tier4", iridescentAltar, 3200, 1000, [marbleRuned, glassLens, marbleRuned, magicCrystal, rockCrystalCelestial, magicCrystal, marbleRuned, runeStarlight, marbleRuned, marbleRuned, marbleRuned, marbleRuned, marbleRuned, sootyMarble, sootyMarble, gemResonating, radiantQuartzShaped, radiantQuartzShaped, gemResonating, sootyMarble, sootyMarble]);

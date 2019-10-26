@@ -5,6 +5,11 @@
 		"result": "deny"	
 	},
 	{
+		"dimension": 0,
+		"mob": ["thebetweenlands:dark_druid"],
+		"result": "allow"
+	},
+	{
 		"dimension": 5,
 		"mob": [
 			"spider",

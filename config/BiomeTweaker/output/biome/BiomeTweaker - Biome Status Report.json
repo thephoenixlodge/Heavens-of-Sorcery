@@ -21,8 +21,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "WATER",
-      "OCEAN"
+      "OCEAN",
+      "WATER"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -291,8 +291,8 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "HOT",
-      "DRY",
-      "SANDY"
+      "SANDY",
+      "DRY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -838,8 +838,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "CONIFEROUS",
       "COLD",
+      "CONIFEROUS",
       "FOREST"
     ],
     "BiomeManager Entries": {
@@ -1255,8 +1255,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "WATER",
-      "RIVER"
+      "RIVER",
+      "WATER"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -1394,8 +1394,8 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "HOT",
-      "NETHER",
-      "DRY"
+      "DRY",
+      "NETHER"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -1423,6 +1423,12 @@
         "Weight": 1,
         "Min Group Count": 4,
         "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityLavaCat",
+        "Weight": 2,
+        "Min Group Count": 1,
+        "Max Group Count": 1
       },
       {
         "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
@@ -1505,9 +1511,9 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "DRY",
+      "END",
       "COLD",
-      "END"
+      "DRY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -1522,12 +1528,6 @@
         "Weight": 4,
         "Min Group Count": 1,
         "Max Group Count": 3
-      },
-      {
-        "Entity Class": "epicsquid.mysticalworld.entity.EntityEndermini",
-        "Weight": 50,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       }
     ],
     "Spawnable Monsters": [
@@ -1576,10 +1576,10 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
-      "SNOWY",
-      "WATER",
       "OCEAN",
-      "COLD"
+      "SNOWY",
+      "COLD",
+      "WATER"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -1735,9 +1735,9 @@
     "Enable Snow": true,
     "Dictionary Types": [
       "SNOWY",
-      "WATER",
+      "RIVER",
       "COLD",
-      "RIVER"
+      "WATER"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -1899,8 +1899,8 @@
     "Enable Snow": true,
     "Dictionary Types": [
       "SNOWY",
-      "COLD",
-      "WASTELAND"
+      "WASTELAND",
+      "COLD"
     ],
     "BiomeManager Entries": {
       "ICY Weights": [
@@ -2095,8 +2095,8 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
-      "SNOWY",
       "MOUNTAIN",
+      "SNOWY",
       "COLD"
     ],
     "BiomeManager Entries": {},
@@ -2276,8 +2276,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "RARE",
-      "MUSHROOM"
+      "MUSHROOM",
+      "RARE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -2322,9 +2322,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "RARE",
       "MUSHROOM",
-      "BEACH"
+      "BEACH",
+      "RARE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -2525,9 +2525,9 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "HOT",
-      "DRY",
+      "SANDY",
       "HILLS",
-      "SANDY"
+      "DRY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -2886,9 +2886,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "CONIFEROUS",
       "HILLS",
       "COLD",
+      "CONIFEROUS",
       "FOREST"
     ],
     "BiomeManager Entries": {},
@@ -3277,10 +3277,10 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "JUNGLE",
       "HOT",
-      "DENSE",
-      "WET"
+      "JUNGLE",
+      "WET",
+      "DENSE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -3471,11 +3471,11 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "JUNGLE",
       "HOT",
-      "DENSE",
       "HILLS",
-      "WET"
+      "JUNGLE",
+      "WET",
+      "DENSE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -3672,11 +3672,11 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "JUNGLE",
-      "RARE",
       "HOT",
+      "JUNGLE",
       "WET",
-      "FOREST"
+      "FOREST",
+      "RARE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -3891,8 +3891,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "WATER",
-      "OCEAN"
+      "OCEAN",
+      "WATER"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -4954,9 +4954,9 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
-      "CONIFEROUS",
       "SNOWY",
       "COLD",
+      "CONIFEROUS",
       "FOREST"
     ],
     "BiomeManager Entries": {
@@ -5176,10 +5176,10 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
-      "CONIFEROUS",
-      "SNOWY",
       "HILLS",
+      "SNOWY",
       "COLD",
+      "CONIFEROUS",
       "FOREST"
     ],
     "BiomeManager Entries": {},
@@ -5395,8 +5395,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "CONIFEROUS",
       "COLD",
+      "CONIFEROUS",
       "FOREST"
     ],
     "BiomeManager Entries": {},
@@ -5606,9 +5606,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "CONIFEROUS",
       "HILLS",
       "COLD",
+      "CONIFEROUS",
       "FOREST"
     ],
     "BiomeManager Entries": {},
@@ -5830,8 +5830,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SPARSE",
       "MOUNTAIN",
+      "SPARSE",
       "FOREST"
     ],
     "BiomeManager Entries": {},
@@ -6241,11 +6241,11 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "RARE",
       "HOT",
       "SPARSE",
       "PLAINS",
-      "SAVANNA"
+      "SAVANNA",
+      "RARE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -6454,9 +6454,9 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "DRY",
+      "SANDY",
       "MESA",
-      "SANDY"
+      "DRY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -6580,10 +6580,10 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SPARSE",
-      "DRY",
+      "SANDY",
       "MESA",
-      "SANDY"
+      "SPARSE",
+      "DRY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -6707,9 +6707,9 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "DRY",
+      "SANDY",
       "MESA",
-      "SANDY"
+      "DRY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -6814,6 +6814,63 @@
   },
   {
     "ID": 40,
+    "Name": "A mod doesn\u0027t support extended biome IDs -- report to JEID",
+    "Resource Location": "jeid:error_biome",
+    "Class": "net.minecraft.world.biome.BiomeVoid",
+    "Root Height": 0.1,
+    "Height Variation": 0.2,
+    "Top Block": "minecraft:grass[snowy\u003dfalse]",
+    "Filler Block": "minecraft:dirt[snowy\u003dfalse,variant\u003ddirt]",
+    "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
+    "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
+    "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
+    "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
+    "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
+    "Water Color": "16777215",
+    "Temperature": 0.5,
+    "Humidity": 0.5,
+    "Water Tint": 16777215,
+    "Enable Rain": true,
+    "Enable Snow": false,
+    "Dictionary Types": [
+      "PLAINS"
+    ],
+    "BiomeManager Entries": {},
+    "Spawnable Creatures": [
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityDeer",
+        "Weight": 6,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityBeetle",
+        "Weight": 5,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      }
+    ],
+    "Spawnable Monsters": [
+      {
+        "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
+        "Weight": 1,
+        "Min Group Count": 1,
+        "Max Group Count": 1
+      },
+      {
+        "Entity Class": "electroblob.wizardry.entity.living.EntityEvilWizard",
+        "Weight": 3,
+        "Min Group Count": 1,
+        "Max Group Count": 1
+      }
+    ],
+    "Spawnable Water Creatures": [],
+    "Spawnable Cave Creatures": [],
+    "Spawn Biome": false,
+    "Tweaked": false
+  },
+  {
+    "ID": 41,
     "Name": "Meadow",
     "Resource Location": "mist:up_meadow",
     "Class": "ru.liahim.mist.world.biome.BiomeMistUpMeadow",
@@ -6894,7 +6951,7 @@
     "Tweaked": false
   },
   {
-    "ID": 41,
+    "ID": 42,
     "Name": "Forest",
     "Resource Location": "mist:up_forest",
     "Class": "ru.liahim.mist.world.biome.BiomeMistUpForest",
@@ -6993,7 +7050,7 @@
     "Tweaked": false
   },
   {
-    "ID": 42,
+    "ID": 43,
     "Name": "Dense Forest",
     "Resource Location": "mist:up_dense_forest",
     "Class": "ru.liahim.mist.world.biome.BiomeMistUpForest",
@@ -7013,426 +7070,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
+      "WET",
       "DENSE",
-      "FOREST",
-      "WET"
-    ],
-    "BiomeManager Entries": {},
-    "Spawnable Creatures": [
-      {
-        "Entity Class": "net.minecraft.entity.passive.EntityRabbit",
-        "Weight": 1,
-        "Min Group Count": 0,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "epicsquid.mysticalworld.entity.EntityDeer",
-        "Weight": 6,
-        "Min Group Count": 2,
-        "Max Group Count": 4
-      },
-      {
-        "Entity Class": "epicsquid.mysticalworld.entity.EntityFox",
-        "Weight": 4,
-        "Min Group Count": 1,
-        "Max Group Count": 3
-      },
-      {
-        "Entity Class": "epicsquid.mysticalworld.entity.EntityBeetle",
-        "Weight": 5,
-        "Min Group Count": 2,
-        "Max Group Count": 4
-      },
-      {
-        "Entity Class": "epicsquid.mysticalworld.entity.EntitySprout",
-        "Weight": 2,
-        "Min Group Count": 2,
-        "Max Group Count": 4
-      },
-      {
-        "Entity Class": "epicsquid.mysticalworld.entity.EntityOwl",
-        "Weight": 9,
-        "Min Group Count": 1,
-        "Max Group Count": 3
-      }
-    ],
-    "Spawnable Monsters": [
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntitySpider",
-        "Weight": 20,
-        "Min Group Count": 0,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntitySkeleton",
-        "Weight": 1,
-        "Min Group Count": 0,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityCaveSpider",
-        "Weight": 2,
-        "Min Group Count": 0,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
-        "Weight": 1,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "electroblob.wizardry.entity.living.EntityEvilWizard",
-        "Weight": 3,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      }
-    ],
-    "Spawnable Water Creatures": [],
-    "Spawnable Cave Creatures": [],
-    "Spawn Biome": false,
-    "Tweaked": false
-  },
-  {
-    "ID": 43,
-    "Name": "Savanna",
-    "Resource Location": "mist:up_savanna",
-    "Class": "ru.liahim.mist.world.biome.BiomeMistUpSavanna",
-    "Root Height": 3.6999998,
-    "Height Variation": 0.04,
-    "Top Block": "mist:grass_s[growth\u003dtrue,humus\u003d2,snowy\u003dfalse,wet\u003dfalse]",
-    "Filler Block": "mist:dirt_s[humus\u003d0,wet\u003dfalse]",
-    "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
-    "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
-    "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
-    "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
-    "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
-    "Water Color": "14745518",
-    "Temperature": 1.6,
-    "Humidity": 0.2,
-    "Water Tint": 14745518,
-    "Enable Rain": false,
-    "Enable Snow": false,
-    "Dictionary Types": [
-      "HOT",
-      "DRY",
-      "SAVANNA"
-    ],
-    "BiomeManager Entries": {},
-    "Spawnable Creatures": [
-      {
-        "Entity Class": "net.minecraft.entity.passive.EntityRabbit",
-        "Weight": 1,
-        "Min Group Count": 0,
-        "Max Group Count": 1
-      }
-    ],
-    "Spawnable Monsters": [
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntitySpider",
-        "Weight": 20,
-        "Min Group Count": 0,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntitySkeleton",
-        "Weight": 1,
-        "Min Group Count": 0,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityCaveSpider",
-        "Weight": 2,
-        "Min Group Count": 0,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
-        "Weight": 1,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "electroblob.wizardry.entity.living.EntityEvilWizard",
-        "Weight": 3,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      }
-    ],
-    "Spawnable Water Creatures": [],
-    "Spawnable Cave Creatures": [],
-    "Spawn Biome": false,
-    "Tweaked": false
-  },
-  {
-    "ID": 44,
-    "Name": "Desert",
-    "Resource Location": "mist:up_desert",
-    "Class": "ru.liahim.mist.world.biome.BiomeMistUpDesert",
-    "Root Height": 3.6999998,
-    "Height Variation": 0.0,
-    "Top Block": "mist:sand[variant\u003dsand,wet\u003dfalse]",
-    "Filler Block": "mist:sand[variant\u003dsand,wet\u003dfalse]",
-    "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
-    "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
-    "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
-    "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
-    "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
-    "Water Color": "14745518",
-    "Temperature": 2.1,
-    "Humidity": 0.0,
-    "Water Tint": 14745518,
-    "Enable Rain": false,
-    "Enable Snow": false,
-    "Dictionary Types": [
-      "HOT",
-      "DRY",
-      "SANDY"
-    ],
-    "BiomeManager Entries": {},
-    "Spawnable Creatures": [
-      {
-        "Entity Class": "net.minecraft.entity.passive.EntityRabbit",
-        "Weight": 1,
-        "Min Group Count": 0,
-        "Max Group Count": 1
-      }
-    ],
-    "Spawnable Monsters": [
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntitySpider",
-        "Weight": 20,
-        "Min Group Count": 0,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntitySkeleton",
-        "Weight": 1,
-        "Min Group Count": 0,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityCaveSpider",
-        "Weight": 2,
-        "Min Group Count": 0,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
-        "Weight": 1,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "electroblob.wizardry.entity.living.EntityEvilWizard",
-        "Weight": 3,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      }
-    ],
-    "Spawnable Water Creatures": [],
-    "Spawnable Cave Creatures": [],
-    "Spawn Biome": false,
-    "Tweaked": false
-  },
-  {
-    "ID": 45,
-    "Name": "Dunes",
-    "Resource Location": "mist:up_dunes",
-    "Class": "ru.liahim.mist.world.biome.BiomeMistUpDesert",
-    "Root Height": 3.8,
-    "Height Variation": 0.0,
-    "Top Block": "mist:sand[variant\u003dsand,wet\u003dfalse]",
-    "Filler Block": "mist:sand[variant\u003dsand,wet\u003dfalse]",
-    "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
-    "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
-    "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
-    "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
-    "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
-    "Water Color": "14745518",
-    "Temperature": 1.9,
-    "Humidity": 0.1,
-    "Water Tint": 14745518,
-    "Enable Rain": false,
-    "Enable Snow": false,
-    "Dictionary Types": [
-      "HOT",
-      "DRY",
-      "HILLS",
-      "SANDY"
-    ],
-    "BiomeManager Entries": {},
-    "Spawnable Creatures": [
-      {
-        "Entity Class": "net.minecraft.entity.passive.EntityRabbit",
-        "Weight": 1,
-        "Min Group Count": 0,
-        "Max Group Count": 1
-      }
-    ],
-    "Spawnable Monsters": [
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntitySpider",
-        "Weight": 20,
-        "Min Group Count": 0,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntitySkeleton",
-        "Weight": 1,
-        "Min Group Count": 0,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityCaveSpider",
-        "Weight": 2,
-        "Min Group Count": 0,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
-        "Weight": 1,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "electroblob.wizardry.entity.living.EntityEvilWizard",
-        "Weight": 3,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      }
-    ],
-    "Spawnable Water Creatures": [],
-    "Spawnable Cave Creatures": [],
-    "Spawn Biome": false,
-    "Tweaked": false
-  },
-  {
-    "ID": 46,
-    "Name": "Snowfields",
-    "Resource Location": "mist:up_snowfields",
-    "Class": "ru.liahim.mist.world.biome.BiomeMistUpColdBase",
-    "Root Height": 3.6999998,
-    "Height Variation": 0.02,
-    "Top Block": "mist:grass_r[growth\u003dtrue,humus\u003d2,snowy\u003dfalse,wet\u003dtrue]",
-    "Filler Block": "mist:dirt_r[humus\u003d0,wet\u003dtrue]",
-    "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
-    "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
-    "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
-    "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
-    "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
-    "Water Color": "13818221",
-    "Temperature": 0.1,
-    "Humidity": 0.0,
-    "Water Tint": 13818221,
-    "Enable Rain": true,
-    "Enable Snow": true,
-    "Dictionary Types": [
-      "CONIFEROUS",
-      "SNOWY",
-      "PLAINS",
-      "COLD"
-    ],
-    "BiomeManager Entries": {},
-    "Spawnable Creatures": [
-      {
-        "Entity Class": "net.minecraft.entity.passive.EntityRabbit",
-        "Weight": 1,
-        "Min Group Count": 0,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "epicsquid.mysticalworld.entity.EntityDeer",
-        "Weight": 6,
-        "Min Group Count": 2,
-        "Max Group Count": 4
-      },
-      {
-        "Entity Class": "epicsquid.mysticalworld.entity.EntityFox",
-        "Weight": 4,
-        "Min Group Count": 1,
-        "Max Group Count": 3
-      },
-      {
-        "Entity Class": "epicsquid.mysticalworld.entity.EntityBeetle",
-        "Weight": 5,
-        "Min Group Count": 2,
-        "Max Group Count": 4
-      },
-      {
-        "Entity Class": "epicsquid.mysticalworld.entity.EntityOwl",
-        "Weight": 9,
-        "Min Group Count": 1,
-        "Max Group Count": 3
-      }
-    ],
-    "Spawnable Monsters": [
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntitySpider",
-        "Weight": 20,
-        "Min Group Count": 0,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntitySkeleton",
-        "Weight": 1,
-        "Min Group Count": 0,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityCaveSpider",
-        "Weight": 2,
-        "Min Group Count": 0,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "electroblob.wizardry.entity.living.EntityIceWraith",
-        "Weight": 3,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
-        "Weight": 1,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "electroblob.wizardry.entity.living.EntityEvilWizard",
-        "Weight": 3,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      }
-    ],
-    "Spawnable Water Creatures": [],
-    "Spawnable Cave Creatures": [],
-    "Spawn Biome": false,
-    "Tweaked": false
-  },
-  {
-    "ID": 47,
-    "Name": "Taiga",
-    "Resource Location": "mist:up_taiga",
-    "Class": "ru.liahim.mist.world.biome.BiomeMistUpColdBase",
-    "Root Height": 3.6999998,
-    "Height Variation": 0.03,
-    "Top Block": "mist:grass_r[growth\u003dtrue,humus\u003d2,snowy\u003dfalse,wet\u003dtrue]",
-    "Filler Block": "mist:dirt_r[humus\u003d0,wet\u003dtrue]",
-    "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
-    "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
-    "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
-    "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
-    "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
-    "Water Color": "13818221",
-    "Temperature": 0.1,
-    "Humidity": 0.2,
-    "Water Tint": 13818221,
-    "Enable Rain": true,
-    "Enable Snow": true,
-    "Dictionary Types": [
-      "CONIFEROUS",
-      "SNOWY",
-      "COLD",
       "FOREST"
     ],
     "BiomeManager Entries": {},
@@ -7512,12 +7151,226 @@
     "Tweaked": false
   },
   {
-    "ID": 48,
-    "Name": "Hilly Taiga",
-    "Resource Location": "mist:up_hilly_taiga",
-    "Class": "ru.liahim.mist.world.biome.BiomeMistUpColdBase",
+    "ID": 44,
+    "Name": "Savanna",
+    "Resource Location": "mist:up_savanna",
+    "Class": "ru.liahim.mist.world.biome.BiomeMistUpSavanna",
+    "Root Height": 3.6999998,
+    "Height Variation": 0.04,
+    "Top Block": "mist:grass_s[growth\u003dtrue,humus\u003d2,snowy\u003dfalse,wet\u003dfalse]",
+    "Filler Block": "mist:dirt_s[humus\u003d0,wet\u003dfalse]",
+    "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
+    "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
+    "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
+    "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
+    "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
+    "Water Color": "14745518",
+    "Temperature": 1.6,
+    "Humidity": 0.2,
+    "Water Tint": 14745518,
+    "Enable Rain": false,
+    "Enable Snow": false,
+    "Dictionary Types": [
+      "HOT",
+      "DRY",
+      "SAVANNA"
+    ],
+    "BiomeManager Entries": {},
+    "Spawnable Creatures": [
+      {
+        "Entity Class": "net.minecraft.entity.passive.EntityRabbit",
+        "Weight": 1,
+        "Min Group Count": 0,
+        "Max Group Count": 1
+      }
+    ],
+    "Spawnable Monsters": [
+      {
+        "Entity Class": "net.minecraft.entity.monster.EntitySpider",
+        "Weight": 20,
+        "Min Group Count": 0,
+        "Max Group Count": 1
+      },
+      {
+        "Entity Class": "net.minecraft.entity.monster.EntitySkeleton",
+        "Weight": 1,
+        "Min Group Count": 0,
+        "Max Group Count": 1
+      },
+      {
+        "Entity Class": "net.minecraft.entity.monster.EntityCaveSpider",
+        "Weight": 2,
+        "Min Group Count": 0,
+        "Max Group Count": 1
+      },
+      {
+        "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
+        "Weight": 1,
+        "Min Group Count": 1,
+        "Max Group Count": 1
+      },
+      {
+        "Entity Class": "electroblob.wizardry.entity.living.EntityEvilWizard",
+        "Weight": 3,
+        "Min Group Count": 1,
+        "Max Group Count": 1
+      }
+    ],
+    "Spawnable Water Creatures": [],
+    "Spawnable Cave Creatures": [],
+    "Spawn Biome": false,
+    "Tweaked": false
+  },
+  {
+    "ID": 45,
+    "Name": "Desert",
+    "Resource Location": "mist:up_desert",
+    "Class": "ru.liahim.mist.world.biome.BiomeMistUpDesert",
+    "Root Height": 3.6999998,
+    "Height Variation": 0.0,
+    "Top Block": "mist:sand[variant\u003dsand,wet\u003dfalse]",
+    "Filler Block": "mist:sand[variant\u003dsand,wet\u003dfalse]",
+    "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
+    "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
+    "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
+    "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
+    "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
+    "Water Color": "14745518",
+    "Temperature": 2.1,
+    "Humidity": 0.0,
+    "Water Tint": 14745518,
+    "Enable Rain": false,
+    "Enable Snow": false,
+    "Dictionary Types": [
+      "HOT",
+      "SANDY",
+      "DRY"
+    ],
+    "BiomeManager Entries": {},
+    "Spawnable Creatures": [
+      {
+        "Entity Class": "net.minecraft.entity.passive.EntityRabbit",
+        "Weight": 1,
+        "Min Group Count": 0,
+        "Max Group Count": 1
+      }
+    ],
+    "Spawnable Monsters": [
+      {
+        "Entity Class": "net.minecraft.entity.monster.EntitySpider",
+        "Weight": 20,
+        "Min Group Count": 0,
+        "Max Group Count": 1
+      },
+      {
+        "Entity Class": "net.minecraft.entity.monster.EntitySkeleton",
+        "Weight": 1,
+        "Min Group Count": 0,
+        "Max Group Count": 1
+      },
+      {
+        "Entity Class": "net.minecraft.entity.monster.EntityCaveSpider",
+        "Weight": 2,
+        "Min Group Count": 0,
+        "Max Group Count": 1
+      },
+      {
+        "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
+        "Weight": 1,
+        "Min Group Count": 1,
+        "Max Group Count": 1
+      },
+      {
+        "Entity Class": "electroblob.wizardry.entity.living.EntityEvilWizard",
+        "Weight": 3,
+        "Min Group Count": 1,
+        "Max Group Count": 1
+      }
+    ],
+    "Spawnable Water Creatures": [],
+    "Spawnable Cave Creatures": [],
+    "Spawn Biome": false,
+    "Tweaked": false
+  },
+  {
+    "ID": 46,
+    "Name": "Dunes",
+    "Resource Location": "mist:up_dunes",
+    "Class": "ru.liahim.mist.world.biome.BiomeMistUpDesert",
     "Root Height": 3.8,
-    "Height Variation": 0.07,
+    "Height Variation": 0.0,
+    "Top Block": "mist:sand[variant\u003dsand,wet\u003dfalse]",
+    "Filler Block": "mist:sand[variant\u003dsand,wet\u003dfalse]",
+    "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
+    "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
+    "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
+    "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
+    "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
+    "Water Color": "14745518",
+    "Temperature": 1.9,
+    "Humidity": 0.1,
+    "Water Tint": 14745518,
+    "Enable Rain": false,
+    "Enable Snow": false,
+    "Dictionary Types": [
+      "HOT",
+      "SANDY",
+      "HILLS",
+      "DRY"
+    ],
+    "BiomeManager Entries": {},
+    "Spawnable Creatures": [
+      {
+        "Entity Class": "net.minecraft.entity.passive.EntityRabbit",
+        "Weight": 1,
+        "Min Group Count": 0,
+        "Max Group Count": 1
+      }
+    ],
+    "Spawnable Monsters": [
+      {
+        "Entity Class": "net.minecraft.entity.monster.EntitySpider",
+        "Weight": 20,
+        "Min Group Count": 0,
+        "Max Group Count": 1
+      },
+      {
+        "Entity Class": "net.minecraft.entity.monster.EntitySkeleton",
+        "Weight": 1,
+        "Min Group Count": 0,
+        "Max Group Count": 1
+      },
+      {
+        "Entity Class": "net.minecraft.entity.monster.EntityCaveSpider",
+        "Weight": 2,
+        "Min Group Count": 0,
+        "Max Group Count": 1
+      },
+      {
+        "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
+        "Weight": 1,
+        "Min Group Count": 1,
+        "Max Group Count": 1
+      },
+      {
+        "Entity Class": "electroblob.wizardry.entity.living.EntityEvilWizard",
+        "Weight": 3,
+        "Min Group Count": 1,
+        "Max Group Count": 1
+      }
+    ],
+    "Spawnable Water Creatures": [],
+    "Spawnable Cave Creatures": [],
+    "Spawn Biome": false,
+    "Tweaked": false
+  },
+  {
+    "ID": 47,
+    "Name": "Snowfields",
+    "Resource Location": "mist:up_snowfields",
+    "Class": "ru.liahim.mist.world.biome.BiomeMistUpColdBase",
+    "Root Height": 3.6999998,
+    "Height Variation": 0.02,
     "Top Block": "mist:grass_r[growth\u003dtrue,humus\u003d2,snowy\u003dfalse,wet\u003dtrue]",
     "Filler Block": "mist:dirt_r[humus\u003d0,wet\u003dtrue]",
     "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
@@ -7527,15 +7380,116 @@
     "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
     "Water Color": "13818221",
     "Temperature": 0.1,
-    "Humidity": 0.3,
+    "Humidity": 0.0,
     "Water Tint": 13818221,
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
-      "CONIFEROUS",
       "SNOWY",
-      "HILLS",
       "COLD",
+      "CONIFEROUS",
+      "PLAINS"
+    ],
+    "BiomeManager Entries": {},
+    "Spawnable Creatures": [
+      {
+        "Entity Class": "net.minecraft.entity.passive.EntityRabbit",
+        "Weight": 1,
+        "Min Group Count": 0,
+        "Max Group Count": 1
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityDeer",
+        "Weight": 6,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityFox",
+        "Weight": 4,
+        "Min Group Count": 1,
+        "Max Group Count": 3
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityBeetle",
+        "Weight": 5,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityOwl",
+        "Weight": 9,
+        "Min Group Count": 1,
+        "Max Group Count": 3
+      }
+    ],
+    "Spawnable Monsters": [
+      {
+        "Entity Class": "net.minecraft.entity.monster.EntitySpider",
+        "Weight": 20,
+        "Min Group Count": 0,
+        "Max Group Count": 1
+      },
+      {
+        "Entity Class": "net.minecraft.entity.monster.EntitySkeleton",
+        "Weight": 1,
+        "Min Group Count": 0,
+        "Max Group Count": 1
+      },
+      {
+        "Entity Class": "net.minecraft.entity.monster.EntityCaveSpider",
+        "Weight": 2,
+        "Min Group Count": 0,
+        "Max Group Count": 1
+      },
+      {
+        "Entity Class": "electroblob.wizardry.entity.living.EntityIceWraith",
+        "Weight": 3,
+        "Min Group Count": 1,
+        "Max Group Count": 1
+      },
+      {
+        "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
+        "Weight": 1,
+        "Min Group Count": 1,
+        "Max Group Count": 1
+      },
+      {
+        "Entity Class": "electroblob.wizardry.entity.living.EntityEvilWizard",
+        "Weight": 3,
+        "Min Group Count": 1,
+        "Max Group Count": 1
+      }
+    ],
+    "Spawnable Water Creatures": [],
+    "Spawnable Cave Creatures": [],
+    "Spawn Biome": false,
+    "Tweaked": false
+  },
+  {
+    "ID": 48,
+    "Name": "Taiga",
+    "Resource Location": "mist:up_taiga",
+    "Class": "ru.liahim.mist.world.biome.BiomeMistUpColdBase",
+    "Root Height": 3.6999998,
+    "Height Variation": 0.03,
+    "Top Block": "mist:grass_r[growth\u003dtrue,humus\u003d2,snowy\u003dfalse,wet\u003dtrue]",
+    "Filler Block": "mist:dirt_r[humus\u003d0,wet\u003dtrue]",
+    "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
+    "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
+    "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
+    "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
+    "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
+    "Water Color": "13818221",
+    "Temperature": 0.1,
+    "Humidity": 0.2,
+    "Water Tint": 13818221,
+    "Enable Rain": true,
+    "Enable Snow": true,
+    "Dictionary Types": [
+      "SNOWY",
+      "COLD",
+      "CONIFEROUS",
       "FOREST"
     ],
     "BiomeManager Entries": {},
@@ -7616,199 +7570,30 @@
   },
   {
     "ID": 49,
-    "Name": "Swampland",
-    "Resource Location": "mist:up_swamp",
-    "Class": "ru.liahim.mist.world.biome.BiomeMistUpSwamp",
-    "Root Height": 3.6,
-    "Height Variation": 0.0,
-    "Top Block": "mist:grass_c[growth\u003dtrue,humus\u003d2,snowy\u003dfalse,wet\u003dtrue]",
-    "Filler Block": "mist:dirt_c[humus\u003d0,wet\u003dtrue]",
-    "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
-    "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
-    "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
-    "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
-    "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
-    "Water Color": "12825132",
-    "Temperature": 0.90000004,
-    "Humidity": 0.9,
-    "Water Tint": 12825132,
-    "Enable Rain": true,
-    "Enable Snow": false,
-    "Dictionary Types": [
-      "SWAMP",
-      "WET"
-    ],
-    "BiomeManager Entries": {},
-    "Spawnable Creatures": [
-      {
-        "Entity Class": "net.minecraft.entity.passive.EntityRabbit",
-        "Weight": 1,
-        "Min Group Count": 0,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "epicsquid.mysticalworld.entity.EntityBeetle",
-        "Weight": 5,
-        "Min Group Count": 2,
-        "Max Group Count": 4
-      },
-      {
-        "Entity Class": "epicsquid.mysticalworld.entity.EntityFrog",
-        "Weight": 6,
-        "Min Group Count": 2,
-        "Max Group Count": 4
-      }
-    ],
-    "Spawnable Monsters": [
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntitySpider",
-        "Weight": 20,
-        "Min Group Count": 0,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntitySkeleton",
-        "Weight": 1,
-        "Min Group Count": 0,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityCaveSpider",
-        "Weight": 2,
-        "Min Group Count": 0,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
-        "Weight": 1,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "electroblob.wizardry.entity.living.EntityEvilWizard",
-        "Weight": 3,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      }
-    ],
-    "Spawnable Water Creatures": [],
-    "Spawnable Cave Creatures": [],
-    "Spawn Biome": false,
-    "Tweaked": false
-  },
-  {
-    "ID": 50,
-    "Name": "Swampy Meadow",
-    "Resource Location": "mist:up_swampy_meadow",
-    "Class": "ru.liahim.mist.world.biome.BiomeMistUpSwampyMeadow",
-    "Root Height": 3.6,
-    "Height Variation": 0.01,
-    "Top Block": "mist:grass_c[growth\u003dtrue,humus\u003d2,snowy\u003dfalse,wet\u003dtrue]",
-    "Filler Block": "mist:dirt_c[humus\u003d0,wet\u003dtrue]",
+    "Name": "Hilly Taiga",
+    "Resource Location": "mist:up_hilly_taiga",
+    "Class": "ru.liahim.mist.world.biome.BiomeMistUpColdBase",
+    "Root Height": 3.8,
+    "Height Variation": 0.07,
+    "Top Block": "mist:grass_r[growth\u003dtrue,humus\u003d2,snowy\u003dfalse,wet\u003dtrue]",
+    "Filler Block": "mist:dirt_r[humus\u003d0,wet\u003dtrue]",
     "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
     "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
     "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
     "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
     "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
     "Water Color": "13818221",
-    "Temperature": 1.1,
-    "Humidity": 0.7,
+    "Temperature": 0.1,
+    "Humidity": 0.3,
     "Water Tint": 13818221,
     "Enable Rain": true,
-    "Enable Snow": false,
+    "Enable Snow": true,
     "Dictionary Types": [
-      "PLAINS",
-      "SWAMP",
-      "WET"
-    ],
-    "BiomeManager Entries": {},
-    "Spawnable Creatures": [
-      {
-        "Entity Class": "net.minecraft.entity.passive.EntityRabbit",
-        "Weight": 1,
-        "Min Group Count": 0,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "epicsquid.mysticalworld.entity.EntityDeer",
-        "Weight": 6,
-        "Min Group Count": 2,
-        "Max Group Count": 4
-      },
-      {
-        "Entity Class": "epicsquid.mysticalworld.entity.EntityBeetle",
-        "Weight": 5,
-        "Min Group Count": 2,
-        "Max Group Count": 4
-      },
-      {
-        "Entity Class": "epicsquid.mysticalworld.entity.EntityFrog",
-        "Weight": 6,
-        "Min Group Count": 2,
-        "Max Group Count": 4
-      }
-    ],
-    "Spawnable Monsters": [
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntitySpider",
-        "Weight": 20,
-        "Min Group Count": 0,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntitySkeleton",
-        "Weight": 1,
-        "Min Group Count": 0,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityCaveSpider",
-        "Weight": 2,
-        "Min Group Count": 0,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
-        "Weight": 1,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "electroblob.wizardry.entity.living.EntityEvilWizard",
-        "Weight": 3,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      }
-    ],
-    "Spawnable Water Creatures": [],
-    "Spawnable Cave Creatures": [],
-    "Spawn Biome": false,
-    "Tweaked": false
-  },
-  {
-    "ID": 51,
-    "Name": "Swampy Forest",
-    "Resource Location": "mist:up_swampy_forest",
-    "Class": "ru.liahim.mist.world.biome.BiomeMistUpSwampyForest",
-    "Root Height": 3.6,
-    "Height Variation": 0.03,
-    "Top Block": "mist:grass_c[growth\u003dtrue,humus\u003d2,snowy\u003dfalse,wet\u003dtrue]",
-    "Filler Block": "mist:dirt_c[humus\u003d0,wet\u003dtrue]",
-    "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
-    "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
-    "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
-    "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
-    "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
-    "Water Color": "13818221",
-    "Temperature": 0.70000005,
-    "Humidity": 0.9,
-    "Water Tint": 13818221,
-    "Enable Rain": true,
-    "Enable Snow": false,
-    "Dictionary Types": [
-      "SWAMP",
-      "FOREST",
-      "WET"
+      "HILLS",
+      "SNOWY",
+      "COLD",
+      "CONIFEROUS",
+      "FOREST"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -7833,12 +7618,6 @@
       {
         "Entity Class": "epicsquid.mysticalworld.entity.EntityBeetle",
         "Weight": 5,
-        "Min Group Count": 2,
-        "Max Group Count": 4
-      },
-      {
-        "Entity Class": "epicsquid.mysticalworld.entity.EntityFrog",
-        "Weight": 6,
         "Min Group Count": 2,
         "Max Group Count": 4
       },
@@ -7893,30 +7672,200 @@
     "Tweaked": false
   },
   {
-    "ID": 52,
-    "Name": "Jungle",
-    "Resource Location": "mist:up_jungle",
-    "Class": "ru.liahim.mist.world.biome.BiomeMistUpJungle",
-    "Root Height": 3.8,
-    "Height Variation": 0.05,
-    "Top Block": "mist:grass_t[growth\u003dtrue,humus\u003d2,snowy\u003dfalse,wet\u003dtrue]",
-    "Filler Block": "mist:dirt_t[humus\u003d0,wet\u003dtrue]",
+    "ID": 50,
+    "Name": "Swampland",
+    "Resource Location": "mist:up_swamp",
+    "Class": "ru.liahim.mist.world.biome.BiomeMistUpSwamp",
+    "Root Height": 3.6,
+    "Height Variation": 0.0,
+    "Top Block": "mist:grass_c[growth\u003dtrue,humus\u003d2,snowy\u003dfalse,wet\u003dtrue]",
+    "Filler Block": "mist:dirt_c[humus\u003d0,wet\u003dtrue]",
     "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
     "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
     "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
     "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
     "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
-    "Water Color": "14745518",
-    "Temperature": 1.5,
+    "Water Color": "12825132",
+    "Temperature": 0.90000004,
     "Humidity": 0.9,
-    "Water Tint": 14745518,
+    "Water Tint": 12825132,
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "JUNGLE",
-      "FOREST",
       "WET",
-      "LUSH"
+      "SWAMP"
+    ],
+    "BiomeManager Entries": {},
+    "Spawnable Creatures": [
+      {
+        "Entity Class": "net.minecraft.entity.passive.EntityRabbit",
+        "Weight": 1,
+        "Min Group Count": 0,
+        "Max Group Count": 1
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityBeetle",
+        "Weight": 5,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityFrog",
+        "Weight": 6,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      }
+    ],
+    "Spawnable Monsters": [
+      {
+        "Entity Class": "net.minecraft.entity.monster.EntitySpider",
+        "Weight": 20,
+        "Min Group Count": 0,
+        "Max Group Count": 1
+      },
+      {
+        "Entity Class": "net.minecraft.entity.monster.EntitySkeleton",
+        "Weight": 1,
+        "Min Group Count": 0,
+        "Max Group Count": 1
+      },
+      {
+        "Entity Class": "net.minecraft.entity.monster.EntityCaveSpider",
+        "Weight": 2,
+        "Min Group Count": 0,
+        "Max Group Count": 1
+      },
+      {
+        "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
+        "Weight": 1,
+        "Min Group Count": 1,
+        "Max Group Count": 1
+      },
+      {
+        "Entity Class": "electroblob.wizardry.entity.living.EntityEvilWizard",
+        "Weight": 3,
+        "Min Group Count": 1,
+        "Max Group Count": 1
+      }
+    ],
+    "Spawnable Water Creatures": [],
+    "Spawnable Cave Creatures": [],
+    "Spawn Biome": false,
+    "Tweaked": false
+  },
+  {
+    "ID": 51,
+    "Name": "Swampy Meadow",
+    "Resource Location": "mist:up_swampy_meadow",
+    "Class": "ru.liahim.mist.world.biome.BiomeMistUpSwampyMeadow",
+    "Root Height": 3.6,
+    "Height Variation": 0.01,
+    "Top Block": "mist:grass_c[growth\u003dtrue,humus\u003d2,snowy\u003dfalse,wet\u003dtrue]",
+    "Filler Block": "mist:dirt_c[humus\u003d0,wet\u003dtrue]",
+    "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
+    "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
+    "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
+    "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
+    "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
+    "Water Color": "13818221",
+    "Temperature": 1.1,
+    "Humidity": 0.7,
+    "Water Tint": 13818221,
+    "Enable Rain": true,
+    "Enable Snow": false,
+    "Dictionary Types": [
+      "WET",
+      "PLAINS",
+      "SWAMP"
+    ],
+    "BiomeManager Entries": {},
+    "Spawnable Creatures": [
+      {
+        "Entity Class": "net.minecraft.entity.passive.EntityRabbit",
+        "Weight": 1,
+        "Min Group Count": 0,
+        "Max Group Count": 1
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityDeer",
+        "Weight": 6,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityBeetle",
+        "Weight": 5,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityFrog",
+        "Weight": 6,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      }
+    ],
+    "Spawnable Monsters": [
+      {
+        "Entity Class": "net.minecraft.entity.monster.EntitySpider",
+        "Weight": 20,
+        "Min Group Count": 0,
+        "Max Group Count": 1
+      },
+      {
+        "Entity Class": "net.minecraft.entity.monster.EntitySkeleton",
+        "Weight": 1,
+        "Min Group Count": 0,
+        "Max Group Count": 1
+      },
+      {
+        "Entity Class": "net.minecraft.entity.monster.EntityCaveSpider",
+        "Weight": 2,
+        "Min Group Count": 0,
+        "Max Group Count": 1
+      },
+      {
+        "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
+        "Weight": 1,
+        "Min Group Count": 1,
+        "Max Group Count": 1
+      },
+      {
+        "Entity Class": "electroblob.wizardry.entity.living.EntityEvilWizard",
+        "Weight": 3,
+        "Min Group Count": 1,
+        "Max Group Count": 1
+      }
+    ],
+    "Spawnable Water Creatures": [],
+    "Spawnable Cave Creatures": [],
+    "Spawn Biome": false,
+    "Tweaked": false
+  },
+  {
+    "ID": 52,
+    "Name": "Swampy Forest",
+    "Resource Location": "mist:up_swampy_forest",
+    "Class": "ru.liahim.mist.world.biome.BiomeMistUpSwampyForest",
+    "Root Height": 3.6,
+    "Height Variation": 0.03,
+    "Top Block": "mist:grass_c[growth\u003dtrue,humus\u003d2,snowy\u003dfalse,wet\u003dtrue]",
+    "Filler Block": "mist:dirt_c[humus\u003d0,wet\u003dtrue]",
+    "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
+    "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
+    "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
+    "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
+    "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
+    "Water Color": "13818221",
+    "Temperature": 0.70000005,
+    "Humidity": 0.9,
+    "Water Tint": 13818221,
+    "Enable Rain": true,
+    "Enable Snow": false,
+    "Dictionary Types": [
+      "WET",
+      "FOREST",
+      "SWAMP"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -8002,6 +7951,114 @@
   },
   {
     "ID": 53,
+    "Name": "Jungle",
+    "Resource Location": "mist:up_jungle",
+    "Class": "ru.liahim.mist.world.biome.BiomeMistUpJungle",
+    "Root Height": 3.8,
+    "Height Variation": 0.05,
+    "Top Block": "mist:grass_t[growth\u003dtrue,humus\u003d2,snowy\u003dfalse,wet\u003dtrue]",
+    "Filler Block": "mist:dirt_t[humus\u003d0,wet\u003dtrue]",
+    "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
+    "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
+    "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
+    "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
+    "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
+    "Water Color": "14745518",
+    "Temperature": 1.5,
+    "Humidity": 0.9,
+    "Water Tint": 14745518,
+    "Enable Rain": true,
+    "Enable Snow": false,
+    "Dictionary Types": [
+      "JUNGLE",
+      "WET",
+      "LUSH",
+      "FOREST"
+    ],
+    "BiomeManager Entries": {},
+    "Spawnable Creatures": [
+      {
+        "Entity Class": "net.minecraft.entity.passive.EntityRabbit",
+        "Weight": 1,
+        "Min Group Count": 0,
+        "Max Group Count": 1
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityDeer",
+        "Weight": 6,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityFox",
+        "Weight": 4,
+        "Min Group Count": 1,
+        "Max Group Count": 3
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityBeetle",
+        "Weight": 5,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityFrog",
+        "Weight": 6,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntitySprout",
+        "Weight": 2,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityOwl",
+        "Weight": 9,
+        "Min Group Count": 1,
+        "Max Group Count": 3
+      }
+    ],
+    "Spawnable Monsters": [
+      {
+        "Entity Class": "net.minecraft.entity.monster.EntitySpider",
+        "Weight": 20,
+        "Min Group Count": 0,
+        "Max Group Count": 1
+      },
+      {
+        "Entity Class": "net.minecraft.entity.monster.EntitySkeleton",
+        "Weight": 1,
+        "Min Group Count": 0,
+        "Max Group Count": 1
+      },
+      {
+        "Entity Class": "net.minecraft.entity.monster.EntityCaveSpider",
+        "Weight": 2,
+        "Min Group Count": 0,
+        "Max Group Count": 1
+      },
+      {
+        "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
+        "Weight": 1,
+        "Min Group Count": 1,
+        "Max Group Count": 1
+      },
+      {
+        "Entity Class": "electroblob.wizardry.entity.living.EntityEvilWizard",
+        "Weight": 3,
+        "Min Group Count": 1,
+        "Max Group Count": 1
+      }
+    ],
+    "Spawnable Water Creatures": [],
+    "Spawnable Cave Creatures": [],
+    "Spawn Biome": false,
+    "Tweaked": false
+  },
+  {
+    "ID": 54,
     "Name": "Jungle Edge",
     "Resource Location": "mist:up_jungle_edge",
     "Class": "ru.liahim.mist.world.biome.BiomeMistUpJungleEdge",
@@ -8089,7 +8146,7 @@
     "Tweaked": false
   },
   {
-    "ID": 54,
+    "ID": 55,
     "Name": "Jungle Hills",
     "Resource Location": "mist:up_jungle_hills",
     "Class": "ru.liahim.mist.world.biome.BiomeMistUpJungle",
@@ -8109,10 +8166,10 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "JUNGLE",
       "HILLS",
-      "FOREST",
-      "LUSH"
+      "JUNGLE",
+      "LUSH",
+      "FOREST"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -8197,7 +8254,7 @@
     "Tweaked": false
   },
   {
-    "ID": 55,
+    "ID": 56,
     "Name": "Lake",
     "Resource Location": "mist:up_lake",
     "Class": "ru.liahim.mist.world.biome.BiomeMistUpMeadow",
@@ -8217,9 +8274,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "WATER",
       "WET",
-      "RIVER"
+      "RIVER",
+      "WATER"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -8238,88 +8295,6 @@
       {
         "Entity Class": "epicsquid.mysticalworld.entity.EntitySprout",
         "Weight": 2,
-        "Min Group Count": 2,
-        "Max Group Count": 4
-      }
-    ],
-    "Spawnable Monsters": [
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntitySpider",
-        "Weight": 20,
-        "Min Group Count": 0,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntitySkeleton",
-        "Weight": 1,
-        "Min Group Count": 0,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "net.minecraft.entity.monster.EntityCaveSpider",
-        "Weight": 2,
-        "Min Group Count": 0,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
-        "Weight": 1,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "electroblob.wizardry.entity.living.EntityEvilWizard",
-        "Weight": 3,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      }
-    ],
-    "Spawnable Water Creatures": [],
-    "Spawnable Cave Creatures": [],
-    "Spawn Biome": false,
-    "Tweaked": false
-  },
-  {
-    "ID": 56,
-    "Name": "Marsh",
-    "Resource Location": "mist:up_marsh",
-    "Class": "ru.liahim.mist.world.biome.BiomeMistUpLowland",
-    "Root Height": 3.4499998,
-    "Height Variation": 0.01,
-    "Top Block": "mist:grass_c[growth\u003dtrue,humus\u003d2,snowy\u003dfalse,wet\u003dtrue]",
-    "Filler Block": "mist:dirt_c[humus\u003d0,wet\u003dtrue]",
-    "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
-    "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
-    "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
-    "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
-    "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
-    "Water Color": "13818221",
-    "Temperature": 0.70000005,
-    "Humidity": 0.9,
-    "Water Tint": 13818221,
-    "Enable Rain": true,
-    "Enable Snow": false,
-    "Dictionary Types": [
-      "SWAMP",
-      "WET"
-    ],
-    "BiomeManager Entries": {},
-    "Spawnable Creatures": [
-      {
-        "Entity Class": "net.minecraft.entity.passive.EntityRabbit",
-        "Weight": 1,
-        "Min Group Count": 0,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "epicsquid.mysticalworld.entity.EntityBeetle",
-        "Weight": 5,
-        "Min Group Count": 2,
-        "Max Group Count": 4
-      },
-      {
-        "Entity Class": "epicsquid.mysticalworld.entity.EntityFrog",
-        "Weight": 6,
         "Min Group Count": 2,
         "Max Group Count": 4
       }
@@ -8363,6 +8338,88 @@
   },
   {
     "ID": 57,
+    "Name": "Marsh",
+    "Resource Location": "mist:up_marsh",
+    "Class": "ru.liahim.mist.world.biome.BiomeMistUpLowland",
+    "Root Height": 3.4499998,
+    "Height Variation": 0.01,
+    "Top Block": "mist:grass_c[growth\u003dtrue,humus\u003d2,snowy\u003dfalse,wet\u003dtrue]",
+    "Filler Block": "mist:dirt_c[humus\u003d0,wet\u003dtrue]",
+    "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
+    "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
+    "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
+    "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
+    "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
+    "Water Color": "13818221",
+    "Temperature": 0.70000005,
+    "Humidity": 0.9,
+    "Water Tint": 13818221,
+    "Enable Rain": true,
+    "Enable Snow": false,
+    "Dictionary Types": [
+      "WET",
+      "SWAMP"
+    ],
+    "BiomeManager Entries": {},
+    "Spawnable Creatures": [
+      {
+        "Entity Class": "net.minecraft.entity.passive.EntityRabbit",
+        "Weight": 1,
+        "Min Group Count": 0,
+        "Max Group Count": 1
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityBeetle",
+        "Weight": 5,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      },
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityFrog",
+        "Weight": 6,
+        "Min Group Count": 2,
+        "Max Group Count": 4
+      }
+    ],
+    "Spawnable Monsters": [
+      {
+        "Entity Class": "net.minecraft.entity.monster.EntitySpider",
+        "Weight": 20,
+        "Min Group Count": 0,
+        "Max Group Count": 1
+      },
+      {
+        "Entity Class": "net.minecraft.entity.monster.EntitySkeleton",
+        "Weight": 1,
+        "Min Group Count": 0,
+        "Max Group Count": 1
+      },
+      {
+        "Entity Class": "net.minecraft.entity.monster.EntityCaveSpider",
+        "Weight": 2,
+        "Min Group Count": 0,
+        "Max Group Count": 1
+      },
+      {
+        "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
+        "Weight": 1,
+        "Min Group Count": 1,
+        "Max Group Count": 1
+      },
+      {
+        "Entity Class": "electroblob.wizardry.entity.living.EntityEvilWizard",
+        "Weight": 3,
+        "Min Group Count": 1,
+        "Max Group Count": 1
+      }
+    ],
+    "Spawnable Water Creatures": [],
+    "Spawnable Cave Creatures": [],
+    "Spawn Biome": false,
+    "Tweaked": false
+  },
+  {
+    "ID": 58,
     "Name": "Lowland",
     "Resource Location": "mist:up_lowland",
     "Class": "ru.liahim.mist.world.biome.BiomeMistUpLowland",
@@ -8382,9 +8439,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "WATER",
       "WET",
-      "RIVER"
+      "RIVER",
+      "WATER"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -8445,7 +8502,7 @@
     "Tweaked": false
   },
   {
-    "ID": 58,
+    "ID": 59,
     "Name": "Cold Lowland",
     "Resource Location": "mist:up_cold_lowland",
     "Class": "ru.liahim.mist.world.biome.BiomeMistUpColdBase",
@@ -8466,10 +8523,10 @@
     "Enable Snow": true,
     "Dictionary Types": [
       "SNOWY",
-      "WATER",
-      "COLD",
       "WET",
-      "RIVER"
+      "RIVER",
+      "COLD",
+      "WATER"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -8554,7 +8611,7 @@
     "Tweaked": false
   },
   {
-    "ID": 59,
+    "ID": 60,
     "Name": "Plains Border",
     "Resource Location": "mist:border_plains",
     "Class": "ru.liahim.mist.world.biome.BiomeMistBorderUp",
@@ -8574,8 +8631,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "PLAINS",
-      "WASTELAND"
+      "WASTELAND",
+      "PLAINS"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -8630,7 +8687,7 @@
     "Tweaked": false
   },
   {
-    "ID": 60,
+    "ID": 61,
     "Name": "Desert Border",
     "Resource Location": "mist:border_desert",
     "Class": "ru.liahim.mist.world.biome.BiomeMistBorderUp",
@@ -8651,9 +8708,9 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "HOT",
-      "DRY",
+      "SANDY",
       "WASTELAND",
-      "SANDY"
+      "DRY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -8695,7 +8752,7 @@
     "Tweaked": false
   },
   {
-    "ID": 61,
+    "ID": 62,
     "Name": "Cold Border",
     "Resource Location": "mist:border_cold",
     "Class": "ru.liahim.mist.world.biome.BiomeMistBorderUp",
@@ -8716,8 +8773,8 @@
     "Enable Snow": true,
     "Dictionary Types": [
       "SNOWY",
-      "COLD",
-      "WASTELAND"
+      "WASTELAND",
+      "COLD"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -8784,7 +8841,7 @@
     "Tweaked": false
   },
   {
-    "ID": 62,
+    "ID": 63,
     "Name": "Swampland Border",
     "Resource Location": "mist:border_swamp",
     "Class": "ru.liahim.mist.world.biome.BiomeMistBorderUp",
@@ -8847,7 +8904,7 @@
     "Tweaked": false
   },
   {
-    "ID": 63,
+    "ID": 64,
     "Name": "Jungle Border",
     "Resource Location": "mist:border_jungle",
     "Class": "ru.liahim.mist.world.biome.BiomeMistBorderUp",
@@ -8930,7 +8987,7 @@
     "Tweaked": false
   },
   {
-    "ID": 64,
+    "ID": 65,
     "Name": "Down Border",
     "Resource Location": "mist:border_down",
     "Class": "ru.liahim.mist.world.biome.BiomeMistBorderDown",
@@ -8950,60 +9007,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SPOOKY",
-      "DEAD"
-    ],
-    "BiomeManager Entries": {},
-    "Spawnable Creatures": [
-      {
-        "Entity Class": "epicsquid.mysticalworld.entity.EntityOwl",
-        "Weight": 9,
-        "Min Group Count": 1,
-        "Max Group Count": 3
-      }
-    ],
-    "Spawnable Monsters": [
-      {
-        "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
-        "Weight": 1,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "electroblob.wizardry.entity.living.EntityEvilWizard",
-        "Weight": 3,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      }
-    ],
-    "Spawnable Water Creatures": [],
-    "Spawnable Cave Creatures": [],
-    "Spawn Biome": false,
-    "Tweaked": false
-  },
-  {
-    "ID": 65,
-    "Name": "Border",
-    "Resource Location": "mist:separator",
-    "Class": "ru.liahim.mist.world.biome.BiomeMistBorderDown",
-    "Root Height": 0.29999995,
-    "Height Variation": 0.0,
-    "Top Block": "mist:gravel",
-    "Filler Block": "mist:gravel",
-    "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
-    "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
-    "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
-    "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
-    "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
-    "Water Color": "14745518",
-    "Temperature": 1.0,
-    "Humidity": 0.5,
-    "Water Tint": 14745518,
-    "Enable Rain": true,
-    "Enable Snow": false,
-    "Dictionary Types": [
-      "SPOOKY",
-      "DEAD"
+      "DEAD",
+      "SPOOKY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -9035,27 +9040,27 @@
   },
   {
     "ID": 66,
-    "Name": "Down",
-    "Resource Location": "mist:down",
-    "Class": "ru.liahim.mist.world.biome.BiomeMistDownNormal",
-    "Root Height": -1.7,
-    "Height Variation": 0.05,
-    "Top Block": "mist:acid_grass_2[wet\u003dtrue]",
-    "Filler Block": "mist:acid_dirt_2[wet\u003dtrue]",
+    "Name": "Border",
+    "Resource Location": "mist:separator",
+    "Class": "ru.liahim.mist.world.biome.BiomeMistBorderDown",
+    "Root Height": 0.29999995,
+    "Height Variation": 0.0,
+    "Top Block": "mist:gravel",
+    "Filler Block": "mist:gravel",
     "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
     "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
     "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
     "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
     "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
-    "Water Color": "16777215",
-    "Temperature": 1.5,
+    "Water Color": "14745518",
+    "Temperature": 1.0,
     "Humidity": 0.5,
-    "Water Tint": 16777215,
+    "Water Tint": 14745518,
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SPOOKY",
-      "DEAD"
+      "DEAD",
+      "SPOOKY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -9087,27 +9092,27 @@
   },
   {
     "ID": 67,
-    "Name": "Down Forest",
-    "Resource Location": "mist:down_forest",
-    "Class": "ru.liahim.mist.world.biome.BiomeMistDownForest",
-    "Root Height": -1.5,
+    "Name": "Down",
+    "Resource Location": "mist:down",
+    "Class": "ru.liahim.mist.world.biome.BiomeMistDownNormal",
+    "Root Height": -1.7,
     "Height Variation": 0.05,
-    "Top Block": "mist:acid_grass_1[wet\u003dtrue]",
-    "Filler Block": "mist:acid_dirt_1[wet\u003dtrue]",
+    "Top Block": "mist:acid_grass_2[wet\u003dtrue]",
+    "Filler Block": "mist:acid_dirt_2[wet\u003dtrue]",
     "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
     "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
     "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
     "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
     "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
     "Water Color": "16777215",
-    "Temperature": 1.3,
-    "Humidity": 0.7,
+    "Temperature": 1.5,
+    "Humidity": 0.5,
     "Water Tint": 16777215,
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SPOOKY",
-      "DEAD"
+      "DEAD",
+      "SPOOKY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -9139,27 +9144,27 @@
   },
   {
     "ID": 68,
-    "Name": "Down Swamp",
-    "Resource Location": "mist:down_swamp",
-    "Class": "ru.liahim.mist.world.biome.BiomeMistDownSwamp",
-    "Root Height": -1.7,
-    "Height Variation": 0.01,
-    "Top Block": "mist:acid_grass_0[wet\u003dtrue]",
-    "Filler Block": "mist:acid_dirt_0[wet\u003dtrue]",
+    "Name": "Down Forest",
+    "Resource Location": "mist:down_forest",
+    "Class": "ru.liahim.mist.world.biome.BiomeMistDownForest",
+    "Root Height": -1.5,
+    "Height Variation": 0.05,
+    "Top Block": "mist:acid_grass_1[wet\u003dtrue]",
+    "Filler Block": "mist:acid_dirt_1[wet\u003dtrue]",
     "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
     "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
     "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
     "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
     "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
     "Water Color": "16777215",
-    "Temperature": 1.7,
-    "Humidity": 0.9,
+    "Temperature": 1.3,
+    "Humidity": 0.7,
     "Water Tint": 16777215,
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SPOOKY",
-      "DEAD"
+      "DEAD",
+      "SPOOKY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -9191,27 +9196,27 @@
   },
   {
     "ID": 69,
-    "Name": "Down Center",
-    "Resource Location": "mist:down_center",
-    "Class": "ru.liahim.mist.world.biome.BiomeMistDownCenter",
-    "Root Height": -1.6,
-    "Height Variation": 0.05,
-    "Top Block": "mist:acid_grass_2[wet\u003dtrue]",
-    "Filler Block": "mist:acid_dirt_2[wet\u003dtrue]",
+    "Name": "Down Swamp",
+    "Resource Location": "mist:down_swamp",
+    "Class": "ru.liahim.mist.world.biome.BiomeMistDownSwamp",
+    "Root Height": -1.7,
+    "Height Variation": 0.01,
+    "Top Block": "mist:acid_grass_0[wet\u003dtrue]",
+    "Filler Block": "mist:acid_dirt_0[wet\u003dtrue]",
     "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
     "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
     "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
     "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
     "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
     "Water Color": "16777215",
-    "Temperature": 1.9,
-    "Humidity": 0.1,
+    "Temperature": 1.7,
+    "Humidity": 0.9,
     "Water Tint": 16777215,
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SPOOKY",
-      "DEAD"
+      "DEAD",
+      "SPOOKY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -9243,6 +9248,58 @@
   },
   {
     "ID": 70,
+    "Name": "Down Center",
+    "Resource Location": "mist:down_center",
+    "Class": "ru.liahim.mist.world.biome.BiomeMistDownCenter",
+    "Root Height": -1.6,
+    "Height Variation": 0.05,
+    "Top Block": "mist:acid_grass_2[wet\u003dtrue]",
+    "Filler Block": "mist:acid_dirt_2[wet\u003dtrue]",
+    "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
+    "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
+    "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
+    "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
+    "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
+    "Water Color": "16777215",
+    "Temperature": 1.9,
+    "Humidity": 0.1,
+    "Water Tint": 16777215,
+    "Enable Rain": true,
+    "Enable Snow": false,
+    "Dictionary Types": [
+      "DEAD",
+      "SPOOKY"
+    ],
+    "BiomeManager Entries": {},
+    "Spawnable Creatures": [
+      {
+        "Entity Class": "epicsquid.mysticalworld.entity.EntityOwl",
+        "Weight": 9,
+        "Min Group Count": 1,
+        "Max Group Count": 3
+      }
+    ],
+    "Spawnable Monsters": [
+      {
+        "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
+        "Weight": 1,
+        "Min Group Count": 1,
+        "Max Group Count": 1
+      },
+      {
+        "Entity Class": "electroblob.wizardry.entity.living.EntityEvilWizard",
+        "Weight": 3,
+        "Min Group Count": 1,
+        "Max Group Count": 1
+      }
+    ],
+    "Spawnable Water Creatures": [],
+    "Spawnable Cave Creatures": [],
+    "Spawn Biome": false,
+    "Tweaked": false
+  },
+  {
+    "ID": 71,
     "Name": "Magical Forest",
     "Resource Location": "thaumcraft:magical_forest",
     "Class": "thaumcraft.common.world.biomes.BiomeGenMagicalForest",
@@ -9423,7 +9480,7 @@
     "Tweaked": false
   },
   {
-    "ID": 71,
+    "ID": 72,
     "Name": "Eerie",
     "Resource Location": "thaumcraft:eerie",
     "Class": "thaumcraft.common.world.biomes.BiomeGenEerie",
@@ -9567,7 +9624,7 @@
     "Tweaked": false
   },
   {
-    "ID": 72,
+    "ID": 73,
     "Name": "Outer Lands",
     "Resource Location": "thaumcraft:eldritch",
     "Class": "thaumcraft.common.world.biomes.BiomeGenEldritch",
@@ -9588,8 +9645,8 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "MAGICAL",
-      "SPOOKY",
-      "END"
+      "END",
+      "SPOOKY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -9631,7 +9688,7 @@
     "Tweaked": false
   },
   {
-    "ID": 73,
+    "ID": 74,
     "Name": "Mystic Forest",
     "Resource Location": "kathairis:mystic forest",
     "Class": "mod.krevik.biome.BiomeMysticForest",
@@ -9720,7 +9777,7 @@
     "Tweaked": false
   },
   {
-    "ID": 74,
+    "ID": 75,
     "Name": "Mystic Plains",
     "Resource Location": "kathairis:mystic plains",
     "Class": "mod.krevik.biome.BiomeMysticPlains",
@@ -9740,8 +9797,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "DENSE",
-      "PLAINS"
+      "PLAINS",
+      "DENSE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -9803,7 +9860,7 @@
     "Tweaked": false
   },
   {
-    "ID": 75,
+    "ID": 76,
     "Name": "Mystic Desert",
     "Resource Location": "kathairis:mystic desert",
     "Class": "mod.krevik.biome.BiomeMysticDesert",
@@ -9824,8 +9881,8 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "HOT",
-      "PLAINS",
-      "DEAD"
+      "DEAD",
+      "PLAINS"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -9875,7 +9932,7 @@
     "Tweaked": false
   },
   {
-    "ID": 76,
+    "ID": 77,
     "Name": "Mystic Swamps",
     "Resource Location": "kathairis:mystic swamps",
     "Class": "mod.krevik.biome.BiomeMysticSwamps",
@@ -9939,7 +9996,7 @@
     "Tweaked": false
   },
   {
-    "ID": 77,
+    "ID": 78,
     "Name": "Floating Islands",
     "Resource Location": "kathairis:floating islands",
     "Class": "mod.krevik.biome.BiomeFloatingIslands",
@@ -9959,9 +10016,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
+      "OCEAN",
       "MAGICAL",
-      "WATER",
-      "OCEAN"
+      "WATER"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -10029,7 +10086,7 @@
     "Tweaked": false
   },
   {
-    "ID": 78,
+    "ID": 79,
     "Name": "Katharian Ocean",
     "Resource Location": "kathairis:katharian ocean",
     "Class": "mod.krevik.biome.BiomeKatharianOcean",
@@ -10049,9 +10106,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
+      "OCEAN",
       "MAGICAL",
-      "WATER",
-      "OCEAN"
+      "WATER"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -10069,7 +10126,7 @@
     "Tweaked": false
   },
   {
-    "ID": 79,
+    "ID": 80,
     "Name": "ratlantis",
     "Resource Location": "rats:ratlantis",
     "Class": "com.github.alexthe666.rats.server.world.BiomeRatlantis",
@@ -10089,10 +10146,10 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "JUNGLE",
       "HOT",
-      "DENSE",
-      "WET"
+      "JUNGLE",
+      "WET",
+      "DENSE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -10203,7 +10260,7 @@
     "Tweaked": false
   },
   {
-    "ID": 80,
+    "ID": 81,
     "Name": "wizardry_torikkisea",
     "Resource Location": "wizardry:wizardry_torikkisea",
     "Class": "com.teamwizardry.wizardry.common.world.biome.BiomeTorikkiSea",
@@ -10223,64 +10280,11 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "MAGICAL",
-      "WATER",
       "MOUNTAIN",
-      "SPOOKY",
-      "WASTELAND"
-    ],
-    "BiomeManager Entries": {},
-    "Spawnable Creatures": [],
-    "Spawnable Monsters": [
-      {
-        "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
-        "Weight": 1,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "electroblob.wizardry.entity.living.EntityEvilWizard",
-        "Weight": 3,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "thaumcraft.common.entities.monster.EntityPech",
-        "Weight": 10,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      }
-    ],
-    "Spawnable Water Creatures": [],
-    "Spawnable Cave Creatures": [],
-    "Spawn Biome": false,
-    "Tweaked": false
-  },
-  {
-    "ID": 81,
-    "Name": "wizardry_torikki",
-    "Resource Location": "wizardry:wizardry_torikki",
-    "Class": "com.teamwizardry.wizardry.common.world.biome.BiomeTorikki",
-    "Root Height": 0.1,
-    "Height Variation": 0.2,
-    "Top Block": "minecraft:air",
-    "Filler Block": "minecraft:air",
-    "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
-    "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
-    "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
-    "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
-    "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
-    "Water Color": "16777215",
-    "Temperature": 0.5,
-    "Humidity": 0.5,
-    "Water Tint": 16777215,
-    "Enable Rain": true,
-    "Enable Snow": false,
-    "Dictionary Types": [
       "MAGICAL",
-      "MOUNTAIN",
+      "WASTELAND",
       "SPOOKY",
-      "WASTELAND"
+      "WATER"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -10311,9 +10315,9 @@
   },
   {
     "ID": 82,
-    "Name": "wizardry_underworld",
-    "Resource Location": "wizardry:wizardry_underworld",
-    "Class": "com.teamwizardry.wizardry.common.world.biome.BiomeUnderWorld",
+    "Name": "wizardry_torikki",
+    "Resource Location": "wizardry:wizardry_torikki",
+    "Class": "com.teamwizardry.wizardry.common.world.biome.BiomeTorikki",
     "Root Height": 0.1,
     "Height Variation": 0.2,
     "Top Block": "minecraft:air",
@@ -10330,11 +10334,10 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "VOID",
+      "MOUNTAIN",
       "MAGICAL",
-      "DRY",
-      "SPOOKY",
-      "COLD"
+      "WASTELAND",
+      "SPOOKY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -10365,6 +10368,60 @@
   },
   {
     "ID": 83,
+    "Name": "wizardry_underworld",
+    "Resource Location": "wizardry:wizardry_underworld",
+    "Class": "com.teamwizardry.wizardry.common.world.biome.BiomeUnderWorld",
+    "Root Height": 0.1,
+    "Height Variation": 0.2,
+    "Top Block": "minecraft:air",
+    "Filler Block": "minecraft:air",
+    "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
+    "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
+    "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
+    "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
+    "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
+    "Water Color": "16777215",
+    "Temperature": 0.5,
+    "Humidity": 0.5,
+    "Water Tint": 16777215,
+    "Enable Rain": true,
+    "Enable Snow": false,
+    "Dictionary Types": [
+      "MAGICAL",
+      "COLD",
+      "DRY",
+      "SPOOKY",
+      "VOID"
+    ],
+    "BiomeManager Entries": {},
+    "Spawnable Creatures": [],
+    "Spawnable Monsters": [
+      {
+        "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
+        "Weight": 1,
+        "Min Group Count": 1,
+        "Max Group Count": 1
+      },
+      {
+        "Entity Class": "electroblob.wizardry.entity.living.EntityEvilWizard",
+        "Weight": 3,
+        "Min Group Count": 1,
+        "Max Group Count": 1
+      },
+      {
+        "Entity Class": "thaumcraft.common.entities.monster.EntityPech",
+        "Weight": 10,
+        "Min Group Count": 1,
+        "Max Group Count": 1
+      }
+    ],
+    "Spawnable Water Creatures": [],
+    "Spawnable Cave Creatures": [],
+    "Spawn Biome": false,
+    "Tweaked": false
+  },
+  {
+    "ID": 84,
     "Name": "arcane_void",
     "Resource Location": "arcaneworld:arcane_void",
     "Class": "party.lemons.arcaneworld.gen.BiomeArcaneVoid",
@@ -10408,7 +10465,7 @@
     "Tweaked": false
   },
   {
-    "ID": 84,
+    "ID": 85,
     "Name": "Aether Highlands",
     "Resource Location": "aether_legacy:aether_highlands",
     "Class": "com.legacy.aether.world.biome.AetherBiome",
@@ -10428,11 +10485,11 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "VOID",
       "MAGICAL",
-      "DRY",
+      "COLD",
       "PLAINS",
-      "COLD"
+      "DRY",
+      "VOID"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -10535,7 +10592,7 @@
     "Tweaked": false
   },
   {
-    "ID": 85,
+    "ID": 86,
     "Name": "Calming Skies",
     "Resource Location": "blue_skies:calming_skies",
     "Class": "com.legacy.blue_skies.world.everbright.biome.BiomeCalmingSkies",
@@ -10556,9 +10613,9 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "MAGICAL",
-      "DRY",
+      "COLD",
       "PLAINS",
-      "COLD"
+      "DRY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -10607,7 +10664,7 @@
     "Tweaked": false
   },
   {
-    "ID": 86,
+    "ID": 87,
     "Name": "Brightlands",
     "Resource Location": "blue_skies:brightlands",
     "Class": "com.legacy.blue_skies.world.everbright.biome.BiomeBrightlands",
@@ -10627,10 +10684,10 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
+      "HILLS",
+      "MOUNTAIN",
       "MAGICAL",
       "SNOWY",
-      "MOUNTAIN",
-      "HILLS",
       "COLD"
     ],
     "BiomeManager Entries": {},
@@ -10712,7 +10769,7 @@
     "Tweaked": false
   },
   {
-    "ID": 87,
+    "ID": 88,
     "Name": "Peeking Oceans",
     "Resource Location": "blue_skies:peeking_oceans",
     "Class": "com.legacy.blue_skies.world.everbright.biome.BiomePeekingOceans",
@@ -10732,12 +10789,12 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "MAGICAL",
-      "WATER",
-      "DRY",
-      "PLAINS",
       "OCEAN",
-      "COLD"
+      "MAGICAL",
+      "COLD",
+      "PLAINS",
+      "DRY",
+      "WATER"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -10767,7 +10824,7 @@
     "Tweaked": false
   },
   {
-    "ID": 88,
+    "ID": 89,
     "Name": "Pale Swamplands",
     "Resource Location": "blue_skies:pale_swamplands",
     "Class": "com.legacy.blue_skies.world.everbright.biome.BiomePaleSwamplands",
@@ -10853,7 +10910,7 @@
     "Tweaked": false
   },
   {
-    "ID": 89,
+    "ID": 90,
     "Name": "Frostbitten Forest",
     "Resource Location": "blue_skies:frostbit_forest",
     "Class": "com.legacy.blue_skies.world.everbright.biome.BiomeFrostbitForest",
@@ -10875,11 +10932,11 @@
     "Dictionary Types": [
       "MAGICAL",
       "SNOWY",
-      "DENSE",
-      "PLAINS",
       "COLD",
-      "FOREST",
-      "LUSH"
+      "LUSH",
+      "PLAINS",
+      "DENSE",
+      "FOREST"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -10928,7 +10985,7 @@
     "Tweaked": false
   },
   {
-    "ID": 90,
+    "ID": 91,
     "Name": "Unorthodox Valley",
     "Resource Location": "blue_skies:unorthodox_valley",
     "Class": "com.legacy.blue_skies.world.everdawn.biome.BiomeUnorthodoxValley",
@@ -10948,9 +11005,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "MAGICAL",
+      "HILLS",
       "MOUNTAIN",
-      "HILLS"
+      "MAGICAL"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -11005,7 +11062,7 @@
     "Tweaked": false
   },
   {
-    "ID": 91,
+    "ID": 92,
     "Name": "Shaded Woodlands",
     "Resource Location": "blue_skies:shaded_woods",
     "Class": "com.legacy.blue_skies.world.everdawn.biome.BiomeShadedWoods",
@@ -11025,11 +11082,11 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "DENSE",
+      "LUSH",
       "PLAINS",
+      "DENSE",
       "SPOOKY",
-      "FOREST",
-      "LUSH"
+      "FOREST"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -11084,7 +11141,7 @@
     "Tweaked": false
   },
   {
-    "ID": 92,
+    "ID": 93,
     "Name": "Crystal Dunes",
     "Resource Location": "blue_skies:crystal_dunes",
     "Class": "com.legacy.blue_skies.world.everdawn.biome.BiomeCrystalDunes",
@@ -11104,10 +11161,10 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "DRY",
-      "PLAINS",
+      "SANDY",
       "DEAD",
-      "SANDY"
+      "PLAINS",
+      "DRY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -11144,7 +11201,7 @@
     "Tweaked": false
   },
   {
-    "ID": 93,
+    "ID": 94,
     "Name": "Sunset Maple Forest",
     "Resource Location": "blue_skies:sunset_maple_forest",
     "Class": "com.legacy.blue_skies.world.everdawn.biome.BiomeSunsetMapleForest",
@@ -11194,7 +11251,7 @@
     "Tweaked": false
   },
   {
-    "ID": 94,
+    "ID": 95,
     "Name": "Limbo",
     "Resource Location": "dimdoors:limbo",
     "Class": "org.dimdev.dimdoors.shared.world.limbo.BiomeLimbo",
@@ -11244,7 +11301,7 @@
     "Tweaked": false
   },
   {
-    "ID": 95,
+    "ID": 96,
     "Name": "White Void",
     "Resource Location": "dimdoors:white_void",
     "Class": "org.dimdev.dimdoors.shared.world.pocketdimension.BiomeBlank",
@@ -11288,7 +11345,7 @@
     "Tweaked": false
   },
   {
-    "ID": 96,
+    "ID": 97,
     "Name": "Black Void",
     "Resource Location": "dimdoors:black_void",
     "Class": "org.dimdev.dimdoors.shared.world.pocketdimension.BiomeBlank",
@@ -11332,7 +11389,7 @@
     "Tweaked": false
   },
   {
-    "ID": 97,
+    "ID": 98,
     "Name": "Dangerous Black Void",
     "Resource Location": "dimdoors:dangerous_black_void",
     "Class": "org.dimdev.dimdoors.shared.world.pocketdimension.BiomeBlank",
@@ -11376,7 +11433,7 @@
     "Tweaked": false
   },
   {
-    "ID": 98,
+    "ID": 99,
     "Name": "Patchy Islands",
     "Resource Location": "thebetweenlands:patchy_islands",
     "Class": "thebetweenlands.common.world.biome.BiomePatchyIslands",
@@ -11396,57 +11453,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
+      "WET",
       "WATER",
-      "SWAMP",
-      "WET"
-    ],
-    "BiomeManager Entries": {},
-    "Spawnable Creatures": [],
-    "Spawnable Monsters": [
-      {
-        "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
-        "Weight": 1,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "electroblob.wizardry.entity.living.EntityEvilWizard",
-        "Weight": 3,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      }
-    ],
-    "Spawnable Water Creatures": [],
-    "Spawnable Cave Creatures": [],
-    "Spawn Biome": false,
-    "Tweaked": false
-  },
-  {
-    "ID": 99,
-    "Name": "Swamplands",
-    "Resource Location": "thebetweenlands:swamplands",
-    "Class": "thebetweenlands.common.world.biome.BiomeSwamplands",
-    "Root Height": 118.0,
-    "Height Variation": 1.0,
-    "Top Block": "thebetweenlands:dead_grass",
-    "Filler Block": "thebetweenlands:coarse_swamp_dirt",
-    "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
-    "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
-    "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
-    "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
-    "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
-    "Water Color": "1589792",
-    "Temperature": 0.8,
-    "Humidity": 0.9,
-    "Water Tint": 1589792,
-    "Enable Rain": true,
-    "Enable Snow": false,
-    "Dictionary Types": [
-      "WATER",
-      "DENSE",
-      "SWAMP",
-      "FOREST",
-      "WET"
+      "SWAMP"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -11471,6 +11480,54 @@
   },
   {
     "ID": 100,
+    "Name": "Swamplands",
+    "Resource Location": "thebetweenlands:swamplands",
+    "Class": "thebetweenlands.common.world.biome.BiomeSwamplands",
+    "Root Height": 118.0,
+    "Height Variation": 1.0,
+    "Top Block": "thebetweenlands:dead_grass",
+    "Filler Block": "thebetweenlands:coarse_swamp_dirt",
+    "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
+    "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
+    "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
+    "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
+    "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
+    "Water Color": "1589792",
+    "Temperature": 0.8,
+    "Humidity": 0.9,
+    "Water Tint": 1589792,
+    "Enable Rain": true,
+    "Enable Snow": false,
+    "Dictionary Types": [
+      "WET",
+      "DENSE",
+      "WATER",
+      "FOREST",
+      "SWAMP"
+    ],
+    "BiomeManager Entries": {},
+    "Spawnable Creatures": [],
+    "Spawnable Monsters": [
+      {
+        "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
+        "Weight": 1,
+        "Min Group Count": 1,
+        "Max Group Count": 1
+      },
+      {
+        "Entity Class": "electroblob.wizardry.entity.living.EntityEvilWizard",
+        "Weight": 3,
+        "Min Group Count": 1,
+        "Max Group Count": 1
+      }
+    ],
+    "Spawnable Water Creatures": [],
+    "Spawnable Cave Creatures": [],
+    "Spawn Biome": false,
+    "Tweaked": false
+  },
+  {
+    "ID": 101,
     "Name": "Deep Waters",
     "Resource Location": "thebetweenlands:deep_waters",
     "Class": "thebetweenlands.common.world.biome.BiomeDeepWaters",
@@ -11515,7 +11572,7 @@
     "Tweaked": false
   },
   {
-    "ID": 101,
+    "ID": 102,
     "Name": "Coarse Islands",
     "Resource Location": "thebetweenlands:coarse_islands",
     "Class": "thebetweenlands.common.world.biome.BiomeCoarseIslands",
@@ -11535,56 +11592,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
+      "WET",
       "WATER",
-      "SWAMP",
-      "WET"
-    ],
-    "BiomeManager Entries": {},
-    "Spawnable Creatures": [],
-    "Spawnable Monsters": [
-      {
-        "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
-        "Weight": 1,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "electroblob.wizardry.entity.living.EntityEvilWizard",
-        "Weight": 3,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      }
-    ],
-    "Spawnable Water Creatures": [],
-    "Spawnable Cave Creatures": [],
-    "Spawn Biome": false,
-    "Tweaked": false
-  },
-  {
-    "ID": 102,
-    "Name": "Sludge Plains",
-    "Resource Location": "thebetweenlands:sludge_plains",
-    "Class": "thebetweenlands.common.world.biome.BiomeSludgePlains",
-    "Root Height": 115.0,
-    "Height Variation": 3.0,
-    "Top Block": "thebetweenlands:mud",
-    "Filler Block": "thebetweenlands:swamp_dirt",
-    "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
-    "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
-    "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
-    "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
-    "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
-    "Water Color": "3813131",
-    "Temperature": 0.8,
-    "Humidity": 0.9,
-    "Water Tint": 3813131,
-    "Enable Rain": true,
-    "Enable Snow": false,
-    "Dictionary Types": [
-      "WASTELAND",
-      "DEAD",
-      "SWAMP",
-      "WET"
+      "SWAMP"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -11609,28 +11619,29 @@
   },
   {
     "ID": 103,
-    "Name": "Marsh 0",
-    "Resource Location": "thebetweenlands:marsh_0",
-    "Class": "thebetweenlands.common.world.biome.BiomeMarsh",
-    "Root Height": 119.0,
-    "Height Variation": 1.1,
-    "Top Block": "thebetweenlands:swamp_grass",
+    "Name": "Sludge Plains",
+    "Resource Location": "thebetweenlands:sludge_plains",
+    "Class": "thebetweenlands.common.world.biome.BiomeSludgePlains",
+    "Root Height": 115.0,
+    "Height Variation": 3.0,
+    "Top Block": "thebetweenlands:mud",
     "Filler Block": "thebetweenlands:swamp_dirt",
     "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
     "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
     "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
     "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
     "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
-    "Water Color": "4742680",
+    "Water Color": "3813131",
     "Temperature": 0.8,
     "Humidity": 0.9,
-    "Water Tint": 4742680,
+    "Water Tint": 3813131,
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "WATER",
-      "SWAMP",
-      "WET"
+      "WASTELAND",
+      "DEAD",
+      "WET",
+      "SWAMP"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -11655,8 +11666,8 @@
   },
   {
     "ID": 104,
-    "Name": "Marsh 1",
-    "Resource Location": "thebetweenlands:marsh_1",
+    "Name": "Marsh 0",
+    "Resource Location": "thebetweenlands:marsh_0",
     "Class": "thebetweenlands.common.world.biome.BiomeMarsh",
     "Root Height": 119.0,
     "Height Variation": 1.1,
@@ -11674,9 +11685,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
+      "WET",
       "WATER",
-      "SWAMP",
-      "WET"
+      "SWAMP"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -11701,6 +11712,52 @@
   },
   {
     "ID": 105,
+    "Name": "Marsh 1",
+    "Resource Location": "thebetweenlands:marsh_1",
+    "Class": "thebetweenlands.common.world.biome.BiomeMarsh",
+    "Root Height": 119.0,
+    "Height Variation": 1.1,
+    "Top Block": "thebetweenlands:swamp_grass",
+    "Filler Block": "thebetweenlands:swamp_dirt",
+    "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
+    "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
+    "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
+    "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
+    "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
+    "Water Color": "4742680",
+    "Temperature": 0.8,
+    "Humidity": 0.9,
+    "Water Tint": 4742680,
+    "Enable Rain": true,
+    "Enable Snow": false,
+    "Dictionary Types": [
+      "WET",
+      "WATER",
+      "SWAMP"
+    ],
+    "BiomeManager Entries": {},
+    "Spawnable Creatures": [],
+    "Spawnable Monsters": [
+      {
+        "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
+        "Weight": 1,
+        "Min Group Count": 1,
+        "Max Group Count": 1
+      },
+      {
+        "Entity Class": "electroblob.wizardry.entity.living.EntityEvilWizard",
+        "Weight": 3,
+        "Min Group Count": 1,
+        "Max Group Count": 1
+      }
+    ],
+    "Spawnable Water Creatures": [],
+    "Spawnable Cave Creatures": [],
+    "Spawn Biome": false,
+    "Tweaked": false
+  },
+  {
+    "ID": 106,
     "Name": "Swamplands Clearing",
     "Resource Location": "thebetweenlands:swamplands_clearing",
     "Class": "thebetweenlands.common.world.biome.BiomeSwamplandsClearing",
@@ -11720,11 +11777,11 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "WATER",
+      "WET",
       "DENSE",
-      "SWAMP",
+      "WATER",
       "FOREST",
-      "WET"
+      "SWAMP"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -11812,8 +11869,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "RARE",
-      "PLAINS"
+      "PLAINS",
+      "RARE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -12004,10 +12061,10 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "RARE",
       "HOT",
+      "SANDY",
       "DRY",
-      "SANDY"
+      "RARE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -12144,9 +12201,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "RARE",
+      "MOUNTAIN",
       "SPARSE",
-      "MOUNTAIN"
+      "RARE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -12313,9 +12370,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "RARE",
       "HILLS",
-      "FOREST"
+      "FOREST",
+      "RARE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -12524,11 +12581,11 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "RARE",
-      "CONIFEROUS",
       "MOUNTAIN",
       "COLD",
-      "FOREST"
+      "CONIFEROUS",
+      "FOREST",
+      "RARE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -12737,9 +12794,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "RARE",
       "HILLS",
       "WET",
+      "RARE",
       "SWAMP"
     ],
     "BiomeManager Entries": {},
@@ -12925,10 +12982,10 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
-      "RARE",
-      "SNOWY",
       "HILLS",
-      "COLD"
+      "SNOWY",
+      "COLD",
+      "RARE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -13107,12 +13164,12 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "JUNGLE",
-      "RARE",
       "HOT",
-      "DENSE",
       "MOUNTAIN",
-      "WET"
+      "JUNGLE",
+      "WET",
+      "DENSE",
+      "RARE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -13309,11 +13366,11 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "JUNGLE",
-      "RARE",
       "HOT",
+      "HILLS",
+      "JUNGLE",
       "SPARSE",
-      "HILLS"
+      "RARE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -13498,10 +13555,10 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "RARE",
-      "DENSE",
       "HILLS",
-      "FOREST"
+      "DENSE",
+      "FOREST",
+      "RARE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -13704,10 +13761,10 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "RARE",
-      "DENSE",
       "MOUNTAIN",
-      "FOREST"
+      "DENSE",
+      "FOREST",
+      "RARE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -13904,11 +13961,11 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "RARE",
-      "DENSE",
       "MOUNTAIN",
+      "DENSE",
       "SPOOKY",
-      "FOREST"
+      "FOREST",
+      "RARE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -14105,12 +14162,12 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
-      "RARE",
-      "CONIFEROUS",
-      "SNOWY",
       "MOUNTAIN",
+      "SNOWY",
       "COLD",
-      "FOREST"
+      "CONIFEROUS",
+      "FOREST",
+      "RARE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -14319,9 +14376,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "RARE",
       "DENSE",
-      "FOREST"
+      "FOREST",
+      "RARE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -14530,10 +14587,10 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "RARE",
-      "DENSE",
       "HILLS",
-      "FOREST"
+      "DENSE",
+      "FOREST",
+      "RARE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -14748,9 +14805,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "RARE",
+      "MOUNTAIN",
       "SPARSE",
-      "MOUNTAIN"
+      "RARE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -14917,12 +14974,12 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "RARE",
       "HOT",
+      "MOUNTAIN",
       "SPARSE",
       "DRY",
-      "MOUNTAIN",
-      "SAVANNA"
+      "SAVANNA",
+      "RARE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -15089,12 +15146,12 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "RARE",
       "HOT",
+      "HILLS",
       "SPARSE",
       "DRY",
-      "HILLS",
-      "SAVANNA"
+      "SAVANNA",
+      "RARE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -15261,11 +15318,11 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "RARE",
       "HOT",
+      "MOUNTAIN",
       "SPARSE",
       "DRY",
-      "MOUNTAIN"
+      "RARE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -15396,11 +15453,11 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "RARE",
       "HOT",
+      "HILLS",
       "SPARSE",
       "DRY",
-      "HILLS"
+      "RARE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -15531,11 +15588,11 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "RARE",
       "HOT",
+      "MOUNTAIN",
       "SPARSE",
       "DRY",
-      "MOUNTAIN"
+      "RARE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [

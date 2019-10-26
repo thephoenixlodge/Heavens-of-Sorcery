@@ -7,6 +7,8 @@ import mods.astralsorcery.Altar;
 import mods.cuisine.Mill;
 import mods.ArcaneWorld;
 import mods.inspirations.Cauldron as CauldronCrafting;
+import mods.roots.Fey;
+import mods.roots.Pyre;
 import scripts.globals;
 
 ////Variables
@@ -24,6 +26,8 @@ val goldLeaf = <naturesaura:gold_leaf>;
 val goldDust = <naturesaura:gold_powder>;
 val powderOre = <naturesaura:effect_powder>.withTag({effect: "naturesaura:ore_spawn"});
 val powderGrowth = <naturesaura:effect_powder>.withTag({effect: "naturesaura:plant_boost"});
+val powderFertility = <naturesaura:effect_powder>.withTag({effect: "naturesaura:animal"});
+val powderNoStorage = <naturesaura:effect_powder>.withTag({effect: "naturesaura:cache_recharge"});
 val preciaMundane = <contenttweaker:precia_mundane>;
 val metalliaMundane = <contenttweaker:metallia_mundane>;
 val saplingBluebright = <blue_skies:bluebright_sapling>;
@@ -34,16 +38,19 @@ val tokenJoy = <naturesaura:token_joy>;
 val tokenSorrow = <naturesaura:token_sorrow>;
 val tokenFear = <naturesaura:token_fear>;
 val tokenAnger = <naturesaura:token_anger>;
+val tokenEuphoria = <naturesaura:token_euphoria>;
 val mysticalFlower = <botania:flower:*>;
 val illuminationPowder = <astralsorcery:itemusabledust>;
 val bottledSunlight = <naturesaura:aura_bottle>.withTag({stored_type: "naturesaura:overworld"});
 val bottledGhosts = <naturesaura:aura_bottle>.withTag({stored_type: "naturesaura:nether"});
+val bottledDarkness = <naturesaura:aura_bottle>.withTag({stored_type: "naturesaura:end"});
 val ingotHorizonite = <blue_skies:horizonite_ingot>;
 val blockHorizonite = <blue_skies:horizonite_block>;
 val cherry = <blue_skies:cherry>;
 val woodStand = <naturesaura:wood_stand>;
 val logStarlit = <blue_skies:starlit_log>;
 val sapphire = <arcaneworld:sapphire>;
+val amethyst = <arcaneworld:amethyst>;
 val milk = <liquid:milk>;
 val blockCheese = <rats:block_of_cheese>;
 val cheese = <rats:cheese>;
@@ -71,6 +78,40 @@ val ghastTear = <minecraft:ghast_tear>;
 val shieldZanite = <lost_aether:zanite_shield>;
 val soulBead = <quark:soul_bead>;
 val gravesDust = <tombstone:crafting_ingredient:3>;
+val cloudBerry = <roots:cloud_berry>;
+val spiritCalling = <naturesaura:calling_spirit>;
+val spiritBirthing = <naturesaura:birth_spirit>;
+val lilyPad = <minecraft:waterlily>;
+val lilyPadChilled = <blue_skies:chilled_lily_pad>;
+val catalystTransmutation = <naturesaura:conversion_catalyst>;
+val catalystCrumbling = <naturesaura:crushing_catalyst>;
+val catalystAlchemy = <botania:alchemycatalyst>;
+val goldBrick = <naturesaura:gold_brick>;
+val candleBlack = <quark:candle:15>;
+val birthingAltar = <naturesaura:animal_spawner>;
+val bed = <minecraft:bed:*>;
+val hayBale = <minecraft:hay_block>;
+val heartBeet = <inspirations:edibles>;
+val egg = <minecraft:egg>;
+val auraCache = <naturesaura:aura_cache>;
+val saplingAncient = <naturesaura:ancient_sapling>;
+val crystalFlower = <ebwizardry:crystal_flower>;
+val pereskia = <roots:pereskia>;
+val terraMoss = <roots:terra_moss>;
+val enviroEye = <naturesaura:eye>;
+val enviroOcular = <naturesaura:eye_improved>;
+val ingotVentium = <blue_skies:ventium_ingot>;
+val spiderEye = <minecraft:spider_eye>;
+val stalicripe = <roots:stalicripe>;
+val piston = <minecraft:piston>;
+val pestle = <roots:pestle>;
+val mortar = <roots:mortar>;
+val oblivionRose = <naturesaura:end_flower>;
+val rose = <inspirations:flower>;
+val endstone = <minecraft:end_stone>;
+val dragonsBreath = <minecraft:dragon_breath>;
+val firestarter = <naturesaura:furnace_heater>;
+val moltenCore = <arcaneworld:molten_core>;
 
 //Tweak gold fibre recipe to require misty world
 recipes.remove(brilliantFibre);
@@ -94,6 +135,14 @@ TreeRitual.addRecipe("ore_spawn_powder", saplingBluebright, powderOre * 12, 400,
 TreeRitual.removeRecipe(powderGrowth);
 TreeRitual.addRecipe("plant_boost_powder", saplingBluebright, powderGrowth * 12, 400, [goldDust, goldDust, ingotSkies, corn]);
 
+//fertility powder
+TreeRitual.removeRecipe(powderFertility);
+TreeRitual.addRecipe("animal_powder", saplingStarlit, powderFertility * 8, 400, [goldDust, goldDust, ingotSkies, egg]);
+
+//no storage powder
+TreeRitual.removeRecipe(powderNoStorage);
+TreeRitual.addRecipe("cache_recharge_powder", saplingStarlit, powderNoStorage * 32, 400, [goldDust, goldDust, ingotSkies, auraCache]);
+
 //Joy token
 TreeRitual.removeRecipe(tokenJoy);
 TreeRitual.addRecipe("token_joy", saplingBluebright, tokenJoy * 2, 200, [bottledSunlight, goldLeaf, mysticalFlower, gemTurquoise, illuminationPowder, ingotHorizonite]);
@@ -112,7 +161,7 @@ recipes.remove(woodStand);
 ArcaneWorld.createRitualCreateItem("aura_wooden_stand", "Imbue Ritual Stand", woodStand, logStarlit, goldLeaf, sapphire);
 
 //Birthing recipe for rats
-AnimalSpawner.addRecipe("rat", "rats:rat", 80000, 60, [cheese]);
+AnimalSpawner.addRecipe("rat", "rats:rat", 80000, 60, [spiritBirthing, cheese]);
 
 //Tweak Infused Iron to be Infused Horizonite instead
 globals.setNewName(ingotInfused, "Infused Horizonite Ingot");
@@ -131,4 +180,49 @@ TreeRitual.addRecipe("nature_altar", saplingBluebright, naturalAltar, 800, [toke
 
 //offering table
 recipes.remove(offeringTable);
-Altar.addConstellationAltarRecipe("internal/altar/offering", offeringTable, 3200, 500, [tokenFear, ingotInfused, tokenFear, infusedRock, logWildwood, infusedRock, null, logWildwood, null, runeStone, runeStone, null, null, null, null, infusedRock, infusedRock, null, null, logWildwood, logWildwood]);
+Altar.addConstellationAltarRecipe("internal/altar/offering", offeringTable, 3200, 500, [cloudBerry, ingotInfused, tokenFear, infusedRock, logWildwood, infusedRock, null, logWildwood, null, runeStone, runeStone, null, null, null, null, infusedRock, infusedRock, null, null, logWildwood, logWildwood]);
+
+//spirit of calling
+recipes.remove(spiritCalling);
+Fey.addRecipe("calling_spirit", spiritCalling, [ingotInfused, ingotInfused, bottledSunlight, bottledGhosts, gemPyrope]);
+
+//lilypad
+NatureAltar.addRecipe("lilypad", lilyPadChilled, lilyPad, catalystTransmutation, 15000, 80);
+lilyPadChilled.addTooltip(format.gold("Found in the swamps of the Everbright"));
+
+//Frog summon
+AnimalSpawner.addRecipe("frog", "mysticalworld:entity_frog", 80000, 60, [spiritBirthing, lilyPad]);
+
+//Transmutation catalyst
+TreeRitual.removeRecipe(catalystTransmutation);
+TreeRitual.addRecipe("conversion_catalyst", saplingStarlit, catalystTransmutation, 800, [goldLeaf, catalystAlchemy, ingotSkies, infusedRock, illuminationPowder, goldBrick]);
+
+//crumbling catalyst
+TreeRitual.removeRecipe(catalystCrumbling);
+TreeRitual.addRecipe("crushing_catalyst", saplingStarlit, catalystCrumbling, 400, [goldBrick, infusedRock, pestle, mortar, tokenAnger, stalicripe]);
+
+//Dark Druid summon
+AnimalSpawner.addRecipe("dark_druid", "thebetweenlands:dark_druid", 120000, 40, [spiritBirthing, candleBlack, bottledDarkness]);
+
+//Birthing altar
+recipes.remove(birthingAltar);
+Altar.addTraitAltarRecipe("internal/altar/birthing_altar", birthingAltar, 5000, 800, [null, hayBale, null, tokenEuphoria, heartBeet, tokenEuphoria, null, bed, null, ingotSkies, ingotSkies, ingotSkies, ingotSkies, amethyst, amethyst, sapphire, sapphire, sapphire, sapphire, amethyst, amethyst, null, null, null, null], "astralsorcery.constellation.bootes");
+
+//ancient spaling
+TreeRitual.removeRecipe(saplingAncient);
+TreeRitual.addRecipe("ancient_sapling", saplingBluebright, saplingAncient, 200, [saplingDusk, crystalFlower, crystalFlower, terraMoss, pereskia, goldLeaf]);
+
+//enviromental eye
+TreeRitual.removeRecipe(enviroEye);
+TreeRitual.addRecipe("eye", saplingBluebright, enviroEye, 400, [spiderEye, ingotVentium, goldLeaf, goldLeaf]);
+
+//enviromental ocular
+TreeRitual.removeRecipe(enviroOcular);
+TreeRitual.addRecipe("eye_improved", saplingBluebright, enviroOcular, 600, [enviroEye, ingotSkies, ingotSkies, oblivionRose, goldLeaf, goldLeaf]);
+
+//oblivion rose
+Pyre.addRecipe("oblivion_rose", oblivionRose, [rose, dragonsBreath, goldDust, endstone, endstone], 3);
+
+//firestarter
+TreeRitual.removeRecipe(firestarter);
+TreeRitual.addRecipe("furnace_heater", saplingMaple, firestarter, 400, [infusedRock, infusedRock, ingotInfused, ingotInfused, moltenCore, zealLighter, tokenFear, ingotVentium]);

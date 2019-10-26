@@ -15,6 +15,7 @@ import mods.astralsorcery.Utils;
 import mods.astralsorcery.LightTransmutation;
 import mods.aether_legacy.Freezer;
 import mods.ArcaneWorld;
+import mods.roots.Fey;
 
 ////Variables
 var oreMistyWoods = <ore:mistyWood>;
@@ -139,6 +140,16 @@ val quicksoil = <aether_legacy:quicksoil>;
 val melon = <minecraft:melon>;
 val filterCoal = <mist:filter_coal>;
 val filterCoalBlock = <mist:filter_coal_block>;
+val blockCharcoal = <ore:blockCharcoal>;
+val elvenGateway = <botania:alfheimportal>;
+val pylonMana = <botania:pylon>;
+val pylonNature = <botania:pylon:1>;
+val pylonGaia = <botania:pylon:2>;
+val nuggetTerrasteel = <botania:manaresource:18>;
+val stalicripe = <roots:stalicripe>;
+val pixieDust = <botania:manaresource:8>;
+val manaDiamond = <botania:manaresource:2>;
+val goldLeaf = <naturesaura:gold_leaf>;
 //Runes
 val runeWater = <botania:rune>;
 val runeFire = <botania:rune:1>;
@@ -322,7 +333,21 @@ hardFogStoneBlock.definition.hardness = 45;
 
 //terrestrial agglomeration plate
 recipes.remove(agglomerationPlate);
-Altar.addConstellationAltarRecipe("internal/altar/agglomeration_plate", agglomerationPlate, 3200, 500, [null, null, null, charoite, charoite, charoite, ingotInfused, blockManasteel, ingotInfused, null, null, runeEarth, runeAir, null, null, null, null, runeFire, runeWater, runeMana, runeStarlight]);
+Altar.addConstellationAltarRecipe("internal/altar/agglomeration_plate", agglomerationPlate, 3200, 500, [null, null, null, charoite, charoite, charoite, goldLeaf, blockManasteel, goldLeaf, null, null, runeEarth, runeAir, null, null, null, null, runeFire, runeWater, runeMana, runeStarlight]);
 
 //filter coal block. why wasn't this already a thing?
-recipes.addShapeless(filterCoalBlock, [filterCoal, filterCoal, filterCoal, filterCoal, filterCoal, filterCoal, filterCoal, filterCoal, filterCoal]);
+recipes.removeByRecipeName("mist:filter_coal_mix");
+recipes.addShaped(filterCoalBlock, [[filterCoal, filterCoal, filterCoal], [filterCoal, filterCoal, filterCoal], [filterCoal, filterCoal, filterCoal]]);
+recipes.addShapeless(filterCoal * 9, [filterCoalBlock]);
+
+//elven gateway core
+recipes.remove(elvenGateway);
+Fey.addRecipe("elven_gateway", elvenGateway, [livingwood, livingwood, nuggetTerrasteel, nuggetTerrasteel, nuggetTerrasteel]);
+
+//pylons
+recipes.remove(pylonMana);
+Altar.addDiscoveryAltarRecipe("internal/altar/mana_pylon", pylonMana, 400, 100, [null, ingotGold, null, ingotManasteel, manaDiamond, ingotManasteel, null, ingotGold, null]);
+recipes.remove(pylonNature);
+Fey.addRecipe("nature_pylon", pylonNature, [pylonMana, nuggetTerrasteel, nuggetTerrasteel, nuggetTerrasteel, stalicripe]);
+recipes.remove(pylonGaia);
+Fey.addRecipe("gaia_pylon", pylonGaia, [pylonMana, ingotElementium, ingotElementium, pixieDust, pixieDust]);

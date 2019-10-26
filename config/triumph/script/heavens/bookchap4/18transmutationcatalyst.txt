@@ -1,0 +1,16 @@
+setIcon(<naturesaura:conversion_catalyst>)
+
+setTitle("The Ol' Switcheroo")
+
+setDescription("Craft a Transmutation Catalyst, to upgrade your Natural Altar")
+
+addParent("heavens:bookchap4/16offeringtable")
+
+setRequiresParents()
+
+setPos(320,-40)
+
+criteria1 = addCriteria("hasItemsFurnace", "minecraft:inventory_changed")
+criteria1.addItem(<naturesaura:conversion_catalyst, count:1~>)
+
+addRewardItem(<minecraft:prismarine, meta:1, count:150>)

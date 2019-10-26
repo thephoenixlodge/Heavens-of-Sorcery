@@ -1,0 +1,21 @@
+setTitle("Magicks of the Arcanist")
+
+setIcon(<patchouli:guide_book, count:1, nbt:{"patchouli:book":"patchouli:natures_aura"}>)
+
+setDescription("Further adventures and materials await in these newly accessed dimensions. Let's see what we can do with them.")
+
+setBackground("blue_skies:textures/blocks/wood/bluebright_planks.png")
+
+setShowToast(false)
+
+setAnnounceToChat(false)
+
+setPos(0,0)
+
+setRequirements("any")
+
+criteria = addCriteria("completedChap3a", "triumph:completed_advancement")
+criteria.setString("heavens:bookchap3/28everbright")
+
+criteria = addCriteria("completedChap3b", "triumph:completed_advancement")
+criteria.setString("heavens:bookchap3/29everdawn")

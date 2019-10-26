@@ -1,0 +1,19 @@
+setIcon(<naturesaura:gold_leaf>)
+
+setTitle("Money Grows on Trees")
+
+setDescription("Use materials from the Everbright and Everdawn to craft Brilliant Fibre, and use it on Leaves to transform them into Golden Leaves")
+
+addParent("heavens:bookchap4/root")
+
+setRequiresParents()
+
+setPos(40,-40)
+
+criteria1 = addCriteria("hasItemsFurnace", "minecraft:inventory_changed")
+criteria1.addItem(<naturesaura:gold_fiber, count:1~>)
+criteria2 = addCriteria("hasItemsGoldLeaf", "minecraft:inventory_changed")
+criteria2.addItem(<naturesaura:gold_leaf, count:1~>)
+
+addRewardItem(<naturesaura:gold_leaf, count:20>)
+addRewardItem(<patchouli:guide_book, count:1, nbt:{"patchouli:book":"patchouli:natures_aura"}>)

@@ -8,7 +8,7 @@ addParent("heavens:bookchap1/0wand")
 
 setRequiresParents()
 
-setPos(-50,60)
+setPos(-53,60)
 drawDirectLines()
 
 criteria1 = addCriteria("hasItemsWoodBucket", "triumph:player_crafted_item")

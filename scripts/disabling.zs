@@ -93,6 +93,8 @@ val oreCropTomato = <ore:cropTomato>;
 val oreListAllVeggie = <ore:listAllveggie>;
 val flourRoots = <roots:flour>;
 val bread = <minecraft:bread>;
+//other
+val magicCrystal =<ebwizardry:magic_crystal>;
 
 //remove extra amethyst from the oredict
 oreAmethyst.remove(amethystWings);
@@ -217,3 +219,6 @@ oreListAllVeggie.remove(tomatoCuisine);
 //roots flour
 Mortar.removeRecipe(flourRoots);
 furnace.remove(bread, flourRoots);
+
+//magic crystal ore smelting
+furnace.remove(magicCrystal);

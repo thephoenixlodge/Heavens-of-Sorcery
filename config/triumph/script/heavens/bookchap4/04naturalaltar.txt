@@ -1,0 +1,18 @@
+setIcon(<naturesaura:nature_altar>)
+
+setTitle("It's Only Natural")
+
+setDescription("Construct a Natural Altar and use it to make Wildroot")
+
+addParent("heavens:bookchap4/02forestritual")
+
+setRequiresParents()
+
+setPos(120,0)
+
+criteria1 = addCriteria("hasItemsFurnace", "minecraft:inventory_changed")
+criteria1.addItem(<naturesaura:nature_altar, count:1~>)
+criteria2 = addCriteria("hasItemsGoldLeaf", "minecraft:inventory_changed")
+criteria2.addItem(<roots:wildroot, count:1~>)
+
+addRewardItem(<roots:wildroot, count:5>)

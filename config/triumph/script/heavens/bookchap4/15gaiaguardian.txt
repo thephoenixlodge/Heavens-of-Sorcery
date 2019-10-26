@@ -1,0 +1,18 @@
+setIcon(<botania:pylon, meta:2>)
+
+setTitle("Guardians of the Ground")
+
+setDescription("Build an Arena to Fight and Kill the Gaia Guardian")
+
+addParent("heavens:bookchap4/14alfheimportal")
+
+setRequiresParents()
+
+setPos(360,-80)
+
+criteria1 = addCriteria("hasItemsFurnace", "minecraft:inventory_changed")
+criteria1.addItem(<botania:pylon, meta:2, count:4~>)
+criteria2 = addCriteria("hasItemsFurnace", "minecraft:inventory_changed")
+criteria2.addItem(<botania:manaresource, meta:5, count:1~>)
+
+addRewardItem(<botania:dice, count:1>)

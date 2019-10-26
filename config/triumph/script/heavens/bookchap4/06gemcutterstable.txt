@@ -1,0 +1,17 @@
+setIcon(<arcanearchives:gemcutters_table>)
+
+setTitle("Cut and Polish")
+
+setDescription("Make a Gem Cutters Table")
+
+addParent("heavens:bookchap4/05radiantresonator")
+
+setRequiresParents()
+
+setPos(160,40)
+
+criteria1 = addCriteria("hasItemsFurnace", "minecraft:inventory_changed")
+criteria1.addItem(<arcanearchives:gemcutters_table, count:1~>)
+
+addRewardItem(<arcanearchives:raw_quartz, count:20>)
+addRewardItem(<arcanearchives:radiant_trove, count:4>)

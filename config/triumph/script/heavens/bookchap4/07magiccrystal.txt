@@ -1,0 +1,16 @@
+setIcon(<ebwizardry:magic_crystal>)
+
+setTitle("Pretty Sparkly Flowers")
+
+setDescription("Obtain Magic Crystal from Crystal Flowers")
+
+addParent("heavens:bookchap4/04naturalaltar")
+
+setRequiresParents()
+
+setPos(160,0)
+
+criteria1 = addCriteria("hasItemsFurnace", "minecraft:inventory_changed")
+criteria1.addItem(<ebwizardry:magic_crystal, meta:0, count:1~>)
+
+addRewardItem(<ebwizardry:magic_crystal, count:10>)

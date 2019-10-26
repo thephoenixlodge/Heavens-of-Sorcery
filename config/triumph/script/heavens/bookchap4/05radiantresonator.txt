@@ -1,0 +1,19 @@
+setIcon(<arcanearchives:radiant_resonator>)
+
+setTitle("Resonous")
+
+setDescription("Construct a Radiant Resonator for producing Radiant Quartz")
+
+addParent("heavens:bookchap4/02forestritual")
+addParent("heavens:bookchap4/01moss")
+
+setRequiresParents()
+
+setPos(120,40)
+
+criteria1 = addCriteria("hasItemsFurnace", "minecraft:inventory_changed")
+criteria1.addItem(<arcanearchives:radiant_resonator, count:1~>)
+
+addRewardItem(<arcanearchives:raw_quartz, count:5>)
+addRewardItem(<arcanearchives:radiant_resonator, count:1>)
+addRewardItem(<arcanearchives:tome_arcana, count:1, nbt:{Book:"arcanearchives:xml/tome.xml"}>)

@@ -36,6 +36,9 @@ val poolRare = tableSimpleDungeon.addPool("hos_early_rare_loot", 0, 2, 0, 0);
 val tableFoxhound = LootTables.getTable("quark:entities/foxhound");
 val poolDevilDust = tableFoxhound.addPool("devil_dust", 1, 1, 0, 0);
 
+val tableFrogMW = LootTables.getTable("mysticalworld:entity/frog");
+val poolFrogLeg = tableFrogMW.addPool("leg", 1, 1, 0, 1);
+
 //items
 val extrasSimpleMap = {
 	<dynamictrees:oakseed> : 10,
@@ -56,7 +59,8 @@ val extrasSimpleMap = {
 	<rats:cheese> : 7,
 	<minecraft:ender_pearl> : 4,
 	<inspirations:rope> : 7,
-	<botania:tinypotato> : 3
+	<botania:tinypotato> : 3,
+	<inspirations:flower>: 10
 } as int[IItemStack];
 val grassSeeds = <botania:grassseeds>;
 val chestUpgrade = <metalchests:chest_upgrade>;
@@ -64,7 +68,7 @@ val illuminationPowder = <astralsorcery:itemusabledust>;
 val angelHeart = <contenttweaker:angel_heart>;
 val portalCore = <contenttweaker:otherworlds_core>;
 val elytra = <minecraft:elytra>;
-val doubleFlowers = <minecraft:double_plant>;
+val doubleFlowers = <minecraft:double_plant:*>;
 val beacon = <minecraft:beacon>;
 val pickarang = <quark:pickarang>;
 val wandUnbreakable = <betterbuilderswands:wandunbreakable:12>;
@@ -90,6 +94,7 @@ val shulkerBoxes = [
 	<minecraft:black_shulker_box>
 ] as IItemStack[];
 val devilDust = <wizardry:devil_dust>;
+val frogLeg = <quark:frog_leg>;
 
 //Add angel hearts to the pool
 poolRaid.addItemEntry(angelHeart, 6);
@@ -134,3 +139,6 @@ poolDimDoorsNew.addItemEntry(sentientSword, 1);
 //foxhound
 tableFoxhound.removePool("leather");
 poolDevilDust.addItemEntryHelper(devilDust, 1, 0, [Functions.setCount(0, 3), Functions.lootingEnchantBonus(0, 1, 5)], []);
+
+//frog
+poolFrogLeg.addItemEntryHelper(frogLeg, 1, 0, [], []);

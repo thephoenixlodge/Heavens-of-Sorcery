@@ -1,0 +1,43 @@
+thebetweenlands:mob_spawner (thebetweenlands:mob_spawner - 3420:0) has a TileEntity
+Full block state: thebetweenlands:mob_spawner
+Hardness: 10.0000, Explosion resistance: 10.0000, Material: ROCK
+Block class: thebetweenlands.common.block.structure.BlockMobSpawnerBetweenlands
+IBlockState properties: <none>
+TileEntity class: thebetweenlands.common.tile.spawner.TileEntityMobSpawnerBetweenlands
+
+TileEntity NBT (from TileEntity#writeToNBT()):
+TAG_Compound (10) ('')
+{
+    TAG_Compound (10) ('ForgeData')
+    {
+    }
+    TAG_Short (2) ('MaxNearbyEntities'): 3
+    TAG_Short (2) ('RequiredPlayerRange'): 16
+    TAG_Short (2) ('SpawnCount'): 4
+    TAG_Compound (10) ('SpawnData')
+    {
+        TAG_String (8) ('id'): "thebetweenlands:dark_druid"
+    }
+    TAG_Short (2) ('MaxSpawnDelay'): 800
+    TAG_Byte (1) ('HasParticles'): 1
+    TAG_Short (2) ('Delay'): 0
+    TAG_Byte (1) ('SpawnInAir'): 0
+    TAG_Int (3) ('x'): -5027
+    TAG_Double (6) ('CheckRange'): 32.0
+    TAG_Int (3) ('y'): 94
+    TAG_Int (3) ('z'): -4986
+    TAG_String (8) ('id'): "thebetweenlands:mob_spawner"
+    TAG_Short (2) ('SpawnRange'): 6
+    TAG_List (9) ('SpawnPotentials') (1 entries of TAG_Compound (10))
+    {
+        TAG_Compound (10) ('')
+        {
+            TAG_Compound (10) ('Entity')
+            {
+                TAG_String (8) ('id'): "thebetweenlands:dark_druid"
+            }
+            TAG_Int (3) ('Weight'): 1
+        }
+    }
+    TAG_Short (2) ('MinSpawnDelay'): 200
+}

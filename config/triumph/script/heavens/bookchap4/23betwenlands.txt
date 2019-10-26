@@ -1,0 +1,16 @@
+setIcon(<thebetweenlands:sapling_weedwood>)
+
+setTitle("Down in the Bayou")
+
+setDescription("Enter the Betweenlands")
+
+addParent("heavens:bookchap4/22swamptalisman")
+
+setRequiresParents()
+
+setPos(480,0)
+
+criteria = addCriteria("locationBetweenlands", "minecraft:changed_dimension")
+criteria.setDimensionDestination("betweenlands")
+
+addRewardItem(<minecraft:enchanted_book, meta:0, count:2, nbt:{StoredEnchantments:[{lvl:1s,id:70s}]}>)
