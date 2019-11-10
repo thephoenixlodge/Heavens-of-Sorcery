@@ -2,7 +2,7 @@
     "name": "Automatic Constructor",
     "icon": "naturesaura:auto_crafter",
     "category": "devices",
-    "advancement": "naturesaura:sky_ingot",
+    "advancement": "heavens:bookchap4/17offeringtable",
     "pages": [
         {
             "type": "text",

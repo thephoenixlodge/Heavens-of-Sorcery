@@ -1,0 +1,62 @@
+{
+    "name": "Friends on the Other Side",
+    "icon": "botania:pylon:1",
+    "category": "quests/chap4",
+    "sortnum": 14,
+    "advancement": "heavens:bookchap4/13feygrove",
+    "turnin": "heavens:bookchap4/14alfheimportal",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "Friends on the Other Side",
+            "trigger": "heavens:bookchap4/14alfheimportal",
+            "text": "Resources from yet another new dimension await us my child. Unfortunately, this one was sealed from entry by living creatures long ago. We can however, use the channelled natural energy of a $(item)Fey Crafter$() to create a portal which will allow trading materials with the denizens of that place - the Elves of $(thing)Alfheim$()."
+        },
+        {
+            "type": "checklist_end",
+            "item1": "botania:alfheimportal",
+            "item2": "botania:livingwood#8",
+            "item3": "botania:livingwood:5#3",
+            "item4": "botania:pylon:1#2",
+            "reward1": "botania:manaresource:4#5"
+        },
+        {
+            "type": "multiblock",
+            "name": "Portal to Alfheim",
+            "multiblock": {
+                "pattern": [
+                    [ " ", "L", "G", "L", " " ],
+                    [ "L", " ", " ", " ", "L" ],
+                    [ "G", " ", " ", " ", "G" ],
+                    [ "L", " ", " ", " ", "L" ],
+                    [ " ", "L", "0", "L", " " ],
+                    [ " ", " ", " ", " ", " " ]
+                ],
+                "mapping": {
+                    " ": "ANY",
+                    "0": "botania:alfheimportal",
+                    "G": "botania:livingwood[variant=glimmering]",
+                    "L": "botania:livingwood"
+                },
+                "symmetrical": false,
+                "offset"     : [0, 0, 0],
+                "view_offset": [0, 0, 0]
+            },
+            "text": "Place 2 $(item)Mana Pools$() nearby with $(item)Natura Pylons$() on top.$(br)$(l:https://pastebin.com/rqvkSSXT)Pastebin of Structure$(/l) for use with $(l:useful_things/building_tools/templates)Template Manager$()"
+        },
+        {
+            "type": "fey_crafting",
+            "recipe": "elven_gateway"
+        },
+        {
+            "type": "fey_crafting",
+            "recipe": "nature_pylon"
+        },
+        {
+            "type": "starlight_infuser",
+            "output_item": "botania:livingwood:5",
+            "input": "botania:livingwood"
+        }
+
+    ]
+}

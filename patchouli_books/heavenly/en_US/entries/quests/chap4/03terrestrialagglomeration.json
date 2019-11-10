@@ -1,0 +1,73 @@
+{
+    "name": "T-E-R-R-E-S-T-R-I-A-L",
+    "icon": "botania:terraplate",
+    "category": "quests/chap4",
+    "sortnum": 3,
+    "advancement": "heavens:bookchap4/00goldleaf",
+    "turnin": "heavens:bookchap4/03terrestrialagglomeration",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "T-E-R-R-E-S-T-R-I-A-L",
+            "trigger": "heavens:bookchap4/03terrestrialagglomeration",
+            "text": "$(item)Gold Leaf$(), along with the $(item)Charoite gems$() from the $(thing)Everbright$() and $(thing)Everdawn$() were the final missing ingredients to be able to construst a $(item)Terrestrial Agglomeration Plate$().$(br)In its default configuration, this device allows creation of the most powerful $(thing)Mana$() attuned material - $(item)Terrasteel$()."
+        },
+        {
+            "type": "checklist_end",
+            "item1": "botania:terraplate",
+            "item2": "botania:manaresource:4",
+            "reward1": "contenttweaker:metallia_mundane#25",
+            "reward2": "contenttweaker:precia_mundane#25"
+        },
+        {
+            "type": "altar_celestial",
+            "description": "Crafting the $(item)Terrestrial Agglomeration Plate$()",
+            "output_item": "botania:terraplate",
+            "item4": "blue_skies:charoite",
+            "item5": "blue_skies:charoite",
+            "item6": "blue_skies:charoite",
+            "item7": "naturesaura:gold_leaf",
+            "item8": "botania:storage",
+            "item9": "naturesaura:gold_leaf",
+            "item12": "botania:rune:2",
+            "item13": "botania:rune:3",
+            "item18": "botania:rune:1",
+            "item19": "botania:rune:0",
+            "item20": "botania:rune:8",
+            "item21": "contenttweaker:rune_starlight"
+        },
+        {
+            "type": "multiblock",
+            "name": "Agglomeration Plate",
+            "multiblock": {
+                "pattern": [
+                    [ "   ", " 0 ", "   " ],
+                    [ "RLR", "LRL", "RLR" ]
+                ],
+                "mapping": {
+                    " ": "ANY",
+                    "0": "botania:terraplate",
+                    "L": "minecraft:lapis_block",
+                    "R": "botania:livingrock"
+                },
+                "symmetrical": true,
+                "offset"     : [0, 0, 0],
+                "view_offset": [0, 0, 0]
+            },
+            "text": "5 $(item)Livingrock$(), 4 $(item)Lapis Lazuli Blocks$()"
+        },
+        {
+            "type": "agglomeration",
+            "heading": "Terrasteel",
+            "output_item": "botania:manaresource:4",
+            "item1": "botania:manaresource:0",
+            "item2": "botania:manaresource:1",
+            "item3": "botania:manaresource:2"
+        },
+        {
+            "type": "crafting",
+            "recipe": "botania:manaresource_18",
+            "recipe2": "botania:storage_1"
+        }
+    ]
+}

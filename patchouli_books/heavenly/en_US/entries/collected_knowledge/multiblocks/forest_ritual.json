@@ -1,0 +1,33 @@
+{
+    "name": "Ritual of the Forest",
+    "icon": "naturesaura:wood_stand",
+    "category": "collected_knowledge/multiblocks",
+    "advancement": "heavens:bookchap4/00goldleaf",
+    "pages": [
+        {
+            "type": "multiblock_bill",
+            "item1": "naturesaura:wood_stand#8",
+            "item2": "naturesaura:gold_powder#16",
+            "item3": "blue_skies:bluebright_sapling"
+        },
+        {
+            "type": "multiblock",
+            "name": "Ritual of the Forest",
+            "multiblock": {
+                "pattern": [
+                    [ "    S    ", " S     S ", "   PPP   ", "  PP PP  ", "S P 0 P S", "  PP PP  ", "   PPP   ", " S     S ", "    S    " ]
+                ],
+                "mapping": {
+                    " ": "ANY",
+                    "0": "blue_skies:bluebright_sapling",
+                    "S": "naturesaura:wood_stand",
+                    "P": "naturesaura:gold_powder"
+                },
+                "symmetrical": true,
+                "offset"     : [0, 0, 0],
+                "view_offset": [0, 0, 0]
+            },
+            "text": "$(l:https://pastebin.com/81pY1zZK)Pastebin of the Sapling and Gold Powder$(/l). Sapling needed may vary. $(item)Gold Powder$() will be consumed when crafting."
+        }
+    ]
+}

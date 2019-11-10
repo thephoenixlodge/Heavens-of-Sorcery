@@ -1,0 +1,31 @@
+{
+    "name": "Upmarket Trimming",
+    "icon": "roots:runic_shears",
+    "category": "quests/chap4",
+    "sortnum": 16,
+    "advancement": "heavens:bookchap4/13feygrove",
+    "turnin": "heavens:bookchap4/16runicshears",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "Upmarket Trimming",
+            "trigger": "heavens:bookchap4/16runicshears",
+            "text": "By imbuing the natural energy of a $(item)Fey Crafter$() into some mundane $(item)Shears with $(item)Runestone$(), you get a magically attuned pair which can fundamentally alter some materials as they are harvested. This allows you to obtain a couple of new herbs. For now, the most important is the $(item)Spirit Herb$()."
+        },
+        {
+            "type": "checklist_end",
+            "item1": "roots:runic_shears",
+            "item2": "roots:spirit_herb",
+            "reward1": "roots:spell_dust{spell_holder:{spell_0:\"spell_growth_infusion\",selectedSlot:0,lastCooldown:0,cooldown:0}}"
+        },
+        {
+            "type": "fey_crafting",
+            "recipe": "runic_shears"
+        },
+        {
+            "type": "runic_shears",
+            "recipe": "spirit_herb"
+        }
+
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "name": "Darkosto's Birthday",
+    "icon": "naturesaura:animal_spawner",
+    "category": "quests/chap4",
+    "sortnum": 18,
+    "advancement": "heavens:bookchap4/17offeringtable",
+    "turnin": "heavens:bookchap4/18birthing",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "Darkosto's Birthday",
+            "trigger": "heavens:bookchap4/17offeringtable",
+            "text": "While the old $(item)Ritual Table$() can be used to summon many creatures, there are some more exotic beasts, such as the $(thing)Frogs$() we need, that are out of its reach. For those, you'll need an $(item)Altar of Birthing$() Structure. Every creature created with this altar will require a $(item)Spirit of Birthing$() - obtained by breeding animals with a slight excess of $(thing)Aura$()."
+        },
+        {
+            "type": "checklist_end",
+            "item1": "naturesaura:animal_spawner",
+            "item2": "naturesaura:birth_spirit",
+            "reward1": "naturesaura:birth_spirit#5"
+        },
+        {
+            "type": "altar_iridescent",
+            "constellation": "Bootes",
+            "output_item": "naturesaura:animal_spawner",
+            "item2": "minecraft:hay_block",
+            "item4": "naturesaura:token_euphoria",
+            "item5": "inspirations:edibles",
+            "item6": "naturesaura:token_euphoria",
+            "item8": "minecraft:bed:4",
+            "item10": "naturesaura:sky_ingot",
+            "item11": "naturesaura:sky_ingot",
+            "item12": "naturesaura:sky_ingot",
+            "item13": "naturesaura:sky_ingot",
+            "item14": "arcaneworld:amethyst",
+            "item15": "arcaneworld:amethyst",
+            "item16": "arcaneworld:sapphire",
+            "item17": "arcaneworld:sapphire",
+            "item18": "arcaneworld:sapphire",
+            "item19": "arcaneworld:sapphire",
+            "item20": "arcaneworld:amethyst",
+            "item21": "arcaneworld:amethyst"
+        },
+        {
+            "type": "multiblock",
+            "multiblock_id": "naturesaura:animal_spawner",
+            "text": "To activate, simply drop the ingredients on the ground nearby."
+        }
+    ]
+}

@@ -2,7 +2,7 @@
     "name": "Swamp Homi",
     "icon": "naturesaura:moss_generator",
     "category": "creating",
-    "advancement": "naturesaura:infused_materials",
+    "advancement": "heavens:bookchap4/04naturalaltar",
     "pages": [
         {
             "type": "text",

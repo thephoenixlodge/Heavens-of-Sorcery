@@ -1,0 +1,74 @@
+{
+	"components": [
+		{
+			"type": "header",
+			"text": "Kill:",
+			"guard": "#heading->exists->inv",
+			"x": -1,
+			"y": -5
+		},
+		{
+			"type": "header",
+			"text": "#heading",
+			"guard": "#heading->exists",
+			"x": -1,
+			"y": -5
+		},
+		{
+			"type": "frame",
+			"x": -1,
+			"y": -1
+		},
+        {
+            "type": "entity",
+            "entity": "#entity",
+            "x": 56,
+            "y": 60,
+            "render_size": 60
+        },
+		{
+			"type": "header",
+			"text": "#entity_name",
+			"scale": 1.2,
+			"x": -1,
+			"y": 95
+		},
+		{
+			"type": "header",
+			"text": "Rewards:",
+			"guard": "#reward1->iexists",
+			"x": -1,
+			"y": 113
+		},
+		{
+			"type": "item",
+			"item": "#reward1",
+			"framed": "true",
+			"guard": "#reward1->iexists",
+			"x": 20,
+			"y": 127
+		},
+		{
+			"type": "item",
+			"item": "#reward2",
+			"framed": "true",
+			"guard": "#reward1->iexists",
+			"x": 50,
+			"y": 127
+		},
+		{
+			"type": "item",
+			"item": "#reward3",
+			"framed": "true",
+			"guard": "#reward1->iexists",
+			"x": 80,
+			"y": 127
+		},
+		{
+			"type": "text",
+			"text": "#description",
+			"x": 2,
+			"y": 113
+		}
+	]
+}

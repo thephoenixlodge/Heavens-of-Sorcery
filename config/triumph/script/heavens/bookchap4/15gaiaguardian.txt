@@ -8,11 +8,11 @@ addParent("heavens:bookchap4/14alfheimportal")
 
 setRequiresParents()
 
-setPos(360,-80)
+setPos(400,-80)
 
 criteria1 = addCriteria("hasItemsFurnace", "minecraft:inventory_changed")
 criteria1.addItem(<botania:pylon, meta:2, count:4~>)
-criteria2 = addCriteria("hasItemsFurnace", "minecraft:inventory_changed")
+criteria2 = addCriteria("gaiaSpirit", "minecraft:inventory_changed")
 criteria2.addItem(<botania:manaresource, meta:5, count:1~>)
 
 addRewardItem(<botania:dice, count:1>)

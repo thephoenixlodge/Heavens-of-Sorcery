@@ -1,0 +1,15 @@
+{
+  "parent": "roots:terra_moss",
+  "criteria": {
+    "book": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "roots:fey_crafter"
+          }
+        ]
+      }
+    }
+  }
+}

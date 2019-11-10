@@ -2,7 +2,7 @@
     "name": "Ancient Trees",
     "icon": "naturesaura:ancient_leaves",
     "category": "creating",
-    "advancement": "naturesaura:wood_stand",
+    "advancement": "heavens:bookchap4/11pyre",
     "pages": [
         {
             "type": "text",

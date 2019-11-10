@@ -1,0 +1,71 @@
+{
+    "name": "Into the Woods",
+    "icon": "naturesaura:wood_stand",
+    "category": "quests/chap4",
+    "sortnum": 2,
+    "advancement": "heavens:bookchap4/00goldleaf",
+    "turnin": "heavens:bookchap4/02forestritual",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "Into the Woods",
+            "trigger": "heavens:bookchap4/02forestritual",
+            "text": "With $(item)Gold Leaf$() in hand, you can prepare a site for rituals which focus the latent power of the trees from the $(thing)Everbright$() and $(thing)Everdawn$().$(br2)For this, you'll need 8 $(item)Wood Stands$() and 16 $(item)Gold Powder$() placed in rings surrounding a $(item)Sapling$()."
+        },
+        {
+            "type": "checklist_end",
+            "item1": "naturesaura:wood_stand#8",
+            "item2": "naturesaura:gold_powder#16",
+            "reward1": "naturesaura:gold_powder#50"
+        },
+        {
+            "type": "ritual",
+            "heading": "Wooden Stand",
+            "description": "Creating $(item)Wooden Stands$()",
+            "output_item": "naturesaura:wood_stand",
+            "item1": "blue_skies:starlit_log",
+            "item2": "naturesaura:gold_leaf",
+            "item3": "arcaneworld:sapphire"
+        },
+        {
+            "type": "grindstone",
+            "input": "naturesaura:gold_leaf",
+            "output_item": "naturesaura:gold_powder"
+        },
+        {
+            "type": "multiblock",
+            "name": "Ritual of the Forest",
+            "multiblock": {
+                "pattern": [
+                    [ "    S    ", " S     S ", "   PPP   ", "  PP PP  ", "S P 0 P S", "  PP PP  ", "   PPP   ", " S     S ", "    S    " ]
+                ],
+                "mapping": {
+                    " ": "ANY",
+                    "0": "blue_skies:bluebright_sapling",
+                    "S": "naturesaura:wood_stand",
+                    "P": "naturesaura:gold_powder"
+                },
+                "symmetrical": true,
+                "offset"     : [0, 0, 0],
+                "view_offset": [0, 0, 0]
+            },
+            "text": "It is not required to have all $(item)Wood Stands$() present. The $(item)Gold Powder$() will be consumed when crafting."
+        },
+        {
+            "type": "tree_ritual",
+            "recipe": "token_joy"
+        },
+        {
+            "type": "tree_ritual",
+            "recipe": "token_fear"
+        },
+        {
+            "type": "tree_ritual",
+            "recipe": "token_anger"
+        },
+        {
+            "type": "tree_ritual",
+            "recipe": "token_sorrow"
+        }
+    ]
+}

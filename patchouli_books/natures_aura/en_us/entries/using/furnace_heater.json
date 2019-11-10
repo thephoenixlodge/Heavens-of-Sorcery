@@ -2,7 +2,7 @@
     "name": "Extraneous Firestarter",
     "icon": "naturesaura:furnace_heater",
     "category": "using",
-    "advancement": "naturesaura:infused_materials",
+    "advancement": "heavens:bookchap4/04naturalaltar",
     "pages": [
         {
             "type": "text",

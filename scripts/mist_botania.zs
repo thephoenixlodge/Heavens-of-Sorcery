@@ -141,6 +141,8 @@ val melon = <minecraft:melon>;
 val filterCoal = <mist:filter_coal>;
 val filterCoalBlock = <mist:filter_coal_block>;
 val blockCharcoal = <ore:blockCharcoal>;
+val coal = <minecraft:coal>;
+val blockCoal = <minecraft:coal_block>;
 val elvenGateway = <botania:alfheimportal>;
 val pylonMana = <botania:pylon>;
 val pylonNature = <botania:pylon:1>;
@@ -351,3 +353,7 @@ recipes.remove(pylonNature);
 Fey.addRecipe("nature_pylon", pylonNature, [pylonMana, nuggetTerrasteel, nuggetTerrasteel, nuggetTerrasteel, stalicripe]);
 recipes.remove(pylonGaia);
 Fey.addRecipe("gaia_pylon", pylonGaia, [pylonMana, ingotElementium, ingotElementium, pixieDust, pixieDust]);
+
+//coal from filter coal
+ManaInfusion.addInfusion(coal, filterCoal, 3000);
+ManaInfusion.addInfusion(blockCoal, filterCoalBlock, 27000);

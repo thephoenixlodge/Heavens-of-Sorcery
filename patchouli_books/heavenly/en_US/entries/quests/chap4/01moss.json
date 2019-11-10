@@ -1,0 +1,63 @@
+{
+    "name": "Moss We Really Do This?",
+    "icon": "roots:terra_moss",
+    "category": "quests/chap4",
+    "sortnum": 1,
+    "advancement": "heavens:bookchap4/root",
+    "turnin": "heavens:bookchap4/01moss",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "Moss We Really Do This?",
+            "trigger": "heavens:bookchap4/01moss",
+            "text": "Breaking the long grass in the $(thing)Everbright$() and $(thing)Everdawn$() can net you some $(item)Terra Spores$(). With these, you can grow $(item)Moss$() on a variety of blocks, by using them on the block when it is $(thing)adjacent to $(item)Water$(). The $(item)Moss$() can then be harvested by Right-Clicking with a $(item)Knife$()."
+        },
+        {
+            "type": "checklist_end",
+            "item1": "roots:terra_spores",
+            "item2": "roots:terra_moss",
+            "reward1": "roots:terra_moss#5",
+            "reward2": "patchouli:guide_book{\"patchouli:book\":\"roots:roots_guide\"}"
+        },
+        {
+            "type": "multiblock_bill_many",
+            "heading": "Apply Spores to:",
+            "item1": "minecraft:cobblestone",
+            "item2": "minecraft:stonebrick",
+            "item3": "blue_skies:turquoise_cobblestone",
+            "item4": "blue_skies:turquoise_stonebrick",
+            "item5": "blue_skies:lunar_cobblestone",
+            "item6": "blue_skies:lunar_stonebrick",
+            "item7": "aether_legacy:holystone"
+        },
+        {
+            "type": "multiblock_bill_many",
+            "heading": "Harest Moss From:",
+            "item1": "minecraft:mossy_cobblestone",
+            "item2": "minecraft:stonebrick:1",
+            "item3": "blue_skies:mossy_turquoise_cobblestone",
+            "item4": "blue_skies:mossy_turquoise_stonebrick",
+            "item5": "blue_skies:mossy_lunar_cobblestone",
+            "item6": "blue_skies:mossy_lunar_stonebrick",
+            "item7": "aether_legacy:mossy_holystone"
+        },
+        {
+            "type": "crafting",
+            "anchor": "knife",
+            "recipe": "mysticalworld:amethyst_knife",
+            "text": "Exchange the $(item)Amethyst$() for whichever material you wish to make the knife from."
+        },
+        {
+            "type": "multiblock_bill_many",
+            "heading": "All Knife Materials:",
+            "item1": "roots:wood_knife",
+            "item2": "roots:stone_knife",
+            "item3": "roots:iron_knife",
+            "item4": "roots:gold_knife",
+            "item5": "mysticalworld:copper_knife",
+            "item6": "mysticalworld:silver_knife",
+            "item7": "roots:diamond_knife",
+            "item8": "mysticalworld:amethyst_knife"
+        }
+    ]
+}

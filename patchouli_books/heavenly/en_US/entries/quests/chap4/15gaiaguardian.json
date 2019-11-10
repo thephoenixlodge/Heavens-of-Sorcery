@@ -1,0 +1,52 @@
+{
+    "name": "Guardians of the Ground",
+    "icon": "botania:pylon:2",
+    "category": "quests/chap4",
+    "sortnum": 15,
+    "advancement": "heavens:bookchap4/14alfheimportal",
+    "turnin": "heavens:bookchap4/15gaiaguardian",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "Guardians of the Ground",
+            "trigger": "heavens:bookchap4/15gaiaguardian",
+            "text": "It still perplexes me how little I know about $(thing)the Fall$(). We need to try and investigate that. Fortunately, the Elves of $(thing)Alfheim$() have a simple ritual that can be used to summon an avatar of the earthen deity $(thing)Gaia$(). Hopefully she'll have some insight into the situation."
+        },
+        {
+            "type": "text",
+            "text": "You'll need to build an arena in which to hold the audience with the avatar, then summon it by Shift-Clicking a $(item)Terrasteel Ingot$() onto the central $(item)Beacon$().$(br2)Here's hoping $(thing)Gaia$() isn't taking the lack of, well, everything, too harshly. Perhaps you should arm yourself, just in case..."
+        },
+        {
+            "type": "checklist_end",
+            "item1": "botania:pylon:2#4",
+            "item2": "botania:manaresource:5",
+            "reward1": "botania:dice"
+        },
+        {
+            "type": "multiblock",
+            "name": "Gaia Guardian Arena",
+            "multiblock": {
+                "pattern": [
+                    [ "P       P", "         ", "         ", "         ", "         ", "         ", "         ", "         ", "P       P" ],
+                    [ "         ", "         ", "         ", "         ", "    0    ", "         ", "         ", "         ", "         " ],
+                    [ "         ", "         ", "         ", "   BBB   ", "   BBB   ", "   BBB   ", "         ", "         ", "         " ]
+                ],
+                "mapping": {
+                    " ": "ANY",
+                    "0": "minecraft:beacon",
+                    "P": "botania:pylon[variant=gaia]",
+                    "B": "minecraft:iron_block"
+                },
+                "symmetrical": false,
+                "offset"     : [0, 0, 0],
+                "view_offset": [0, 0, 0]
+            },
+            "text": "The area must be clear around the $(item)Beacon$(). Visualisation shows Mana Pylons, but they are $(item)Gaia Pylons$()"
+        },
+        {
+            "type": "fey_crafting",
+            "recipe": "gaia_pylon"
+        }
+
+    ]
+}

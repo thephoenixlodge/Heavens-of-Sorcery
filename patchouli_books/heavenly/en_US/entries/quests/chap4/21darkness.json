@@ -1,0 +1,40 @@
+{
+    "name": "The Corrupting Darkness",
+    "icon": "naturesaura:aura_bottle{stored_type: \"naturesaura:end\"}",
+    "category": "quests/chap4",
+    "sortnum": 21,
+    "advancement": "heavens:bookchap4/18birthing",
+    "turnin": "heavens:bookchap4/21darkness",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "The Corrupting Darkness",
+            "trigger": "heavens:bookchap4/21darkness",
+            "text": "Where we seek to go next requires summoning something truly evil, but to do that first we'll need to visit a dark place - literally. Just like you've collected $(item)Bottled Sunlight$() from a hnadful of dimensions, and $(item)Bottled Ghosts$() from the $(thing)Nether$(), now you must collect some $(item)Bottled Darkness$() using a $(item)Bottle and Cork$()."
+        },
+        {
+            "type": "text",
+            "text": "Unfotunately, I know only one place where this can be collected - a series of rifts accessed through ancient stone gateways. The first, and only time the council sent a grandmage to investigate that place, she disappeared, never to be heard from again."
+        },
+        {
+            "type": "checklist_end",
+            "item1": "naturesaura:aura_bottle{stored_type: \"naturesaura:end\"}",
+            "reward1": "naturesaura:aura_bottle#10{stored_type: \"naturesaura:end\"}"
+        },
+        {
+            "type": "location",
+            "icon": "books:templates/dimdoors_preview.png",
+            "location": "Labyrinth Rift",
+            "description": "To collect the $(item)Bottled Darkness$(), you need merely step inside. But maybe there's more worth seeing in here?"
+        },
+        {
+            "type": "image",
+            "images": [
+                    "books:templates/dimdoors_gateway.png"
+                ],
+            "title": "Ancient Gateway",
+            "border": "true",
+            "text": "$(thing)Gateways$() are found in most dimensions, incl. $(thing)Aether$(), $(thing)Misty World$(), $(thing)Everbright$() and $(thing)Everdawn"
+        }
+    ]
+}

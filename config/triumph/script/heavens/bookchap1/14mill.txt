@@ -12,8 +12,8 @@ setPos(175,-10)
 drawDirectLines()
 
 criteria1 = addCriteria("hasItemsMill", "triumph:player_crafted_item")
-criteria1.setItem(<cuisine:mill, count:1>)
+criteria1.setItem(<cuisine:mill, count:1~>)
 criteria2 = addCriteria("hasItemsPowder", "minecraft:inventory_changed")
-criteria2.addItem(<cuisine:material, meta:4, count:1>)
+criteria2.addItem(<cuisine:material, meta:4, count:1~>)
 
 addRewardItem(<cuisine:material, meta:4, count:8>)

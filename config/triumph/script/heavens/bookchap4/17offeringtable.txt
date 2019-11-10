@@ -1,0 +1,21 @@
+setIcon(<naturesaura:offering_table>)
+
+setTitle("Offering to the Gods")
+
+setDescription("Craft an Offering Table and a Spirit of Calling to obtain Ingots of the Skies")
+
+addParent("heavens:bookchap4/16runicshears")
+
+setRequiresParents()
+
+setPos(320,0)
+
+criteria1 = addCriteria("hasItemsFurnace", "minecraft:inventory_changed")
+criteria1.addItem(<naturesaura:offering_table, count:1~>)
+criteria2 = addCriteria("hasItemsSpirit", "minecraft:inventory_changed")
+criteria2.addItem(<naturesaura:calling_spirit, count:1~>)
+criteria3 = addCriteria("hasItemsIngot", "minecraft:inventory_changed")
+criteria3.addItem(<naturesaura:sky_ingot, count:1~>)
+
+addRewardItem(<naturesaura:calling_spirit, count:5>)
+addRewardItem(<naturesaura:infused_iron, count:10>)

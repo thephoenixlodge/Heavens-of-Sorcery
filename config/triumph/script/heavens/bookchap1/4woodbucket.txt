@@ -12,7 +12,7 @@ setPos(-53,60)
 drawDirectLines()
 
 criteria1 = addCriteria("hasItemsWoodBucket", "triumph:player_crafted_item")
-criteria1.setItem(<thebetweenlands:bl_bucket>)
+criteria1.setItem(<thebetweenlands:bl_bucket, count:1~>)
 
 addRewardItem(<minecraft:stone_shovel>)
 addRewardItem(<rustic:wildberries, count:3>)

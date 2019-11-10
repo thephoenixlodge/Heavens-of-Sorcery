@@ -1,0 +1,32 @@
+{
+    "name": "As Old as the Trees",
+    "icon": "naturesaura:ancient_sapling",
+    "category": "quests/chap4",
+    "sortnum": 12,
+    "advancement": "heavens:bookchap4/11pyre",
+    "turnin": "heavens:bookchap4/12ancientsapling",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "As Old as the Trees",
+            "trigger": "heavens:bookchap4/12ancientsapling",
+            "text": "Until now, you've been abusing the local $(thing)Aura$(), draining it with your $(item)Natural Altar$(). It's nigh time we change that. With the $(item)Pyre$(), you can create the herb $(item)Pereskia$(). Exposing a $(item)Dusk Sapling$() to this, along with some $(item)Crystal Flowers$() and other ingredients, will morph the sapling into an $(item)Ancient Sapling$(), which when grown, exudes $(thing)Aura$() from its leaves."
+        },
+        {
+            "type": "checklist_end",
+            "item1": "naturesaura:ancient_sapling",
+            "reward1": "naturesaura:ancient_sapling#3",
+            "reward2": "roots:wildroot#10"
+        },
+        {
+            "type": "tree_ritual",
+            "recipe": "ancient_sapling",
+            "text": "Crafting an $(item)Ancient Sapling$()"
+        },
+        {
+            "type": "relations",
+            "entries": [],
+            "text": "Unfortunately, $(item)Ancient Trees$() can do no more than restore the $(thing)Aura$() to a neutral level. I've jotted down some notes on other ways to increase $(thing)Aura$() levels here."
+        }
+    ]
+}

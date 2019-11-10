@@ -16,5 +16,4 @@ criteria2 = addCriteria("hasItemsSpelldust", "minecraft:inventory_changed")
 criteria2.addItem(<roots:spell_dust, count:1~, nbt:{spell_holder:{spell_0:"spell_supplication",selectedSlot:0,lastCooldown:0,cooldown:0}}>)
 criteria3 = addCriteria("activateGroveStone", "roots:grove_activate")
 
-addRewardItem(<naturesaura:ancient_sapling, count:3>)
-addRewardItem(<roots:wildroot, count:10>)
+addRewardItem(<roots:spell_dust, count:1, nbt:{spell_holder:{spell_0:"spell_dandelion_winds",selectedSlot:0,lastCooldown:0,cooldown:0}}>)

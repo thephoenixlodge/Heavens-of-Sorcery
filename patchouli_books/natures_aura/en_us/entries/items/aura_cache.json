@@ -2,7 +2,7 @@
     "name": "Aura Cache",
     "icon": "naturesaura:aura_cache",
     "category": "items",
-    "advancement": "naturesaura:infused_materials",
+    "advancement": "heavens:bookchap4/04naturalaltar",
     "priority": true,
     "pages": [
         {

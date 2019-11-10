@@ -2,7 +2,7 @@
     "name": "World Eye",
     "icon": "naturesaura:chunk_loader",
     "category": "using",
-    "advancement": "naturesaura:aura_bottle_end",
+    "advancement": "heavens:bookchap4/21darkness",
     "flag": "naturesaura:chunk_loader",
     "pages": [
         {

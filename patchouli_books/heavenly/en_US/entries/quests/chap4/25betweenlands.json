@@ -1,0 +1,22 @@
+{
+    "name": "Down in the Bayou",
+    "icon": "thebetweenlands:sapling_weedwood",
+    "category": "quests/chap4",
+    "sortnum": 25,
+    "advancement": "heavens:bookchap4/24swamptalisman",
+    "turnin": "heavens:bookchap4/25betwenlands",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "Down in the Bayou",
+            "trigger": "heavens:bookchap4/25betwenlands",
+            "text": "Finally, you can get to the $(thing)Betweenlands$(). This plane sits between all others, and as such is much closer to the plane of $(thing)Divinity$(), where the gods reside. My hope is that this will make it possible for us to directly commune with them. To enter, simply use the $(item)Swamp Talisman$() on any sapling to produce a $(thing)Portal Tree$()"
+        },
+        {
+            "type": "location",
+            "icon": "books:templates/betweenlands_preview.png",
+            "location": "The Betweenlands",
+            "reward1": "minecraft:enchanted_book#2{StoredEnchantments:[{lvl:1s,id:70s}]}"
+        }
+    ]
+}

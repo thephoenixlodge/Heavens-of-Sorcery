@@ -1,0 +1,89 @@
+{
+	"components": [
+		{
+			"type": "header",
+			"text": "Collect:",
+			"x": -1,
+			"y": -5
+		},
+		{
+			"type": "item",
+			"item": "#item1",
+			"framed": "true",
+			"x": 10,
+			"y": 10
+		},
+		{
+			"type": "text",
+			"text": "#item1->icount# #item1->iname->capital#",
+			"guard": "#item1->iexists",
+			"max_width": 85,
+			"x": 30,
+			"y": 10
+		},
+		{
+			"type": "item",
+			"item": "#item2",
+			"framed": "true",
+			"guard": "#item2->iexists",
+			"x": 10,
+			"y": 35
+		},
+		{
+			"type": "text",
+			"text": "#item2->icount# #item2->iname->capital#",
+			"guard": "#item2->iexists",
+			"max_width": 85,
+			"x": 30,
+			"y": 35
+		},
+		{
+			"type": "item",
+			"item": "#item3",
+			"framed": "true",
+			"guard": "#item3->iexists",
+			"x": 10,
+			"y": 60
+		},
+		{
+			"type": "text",
+			"text": "#item3->icount# #item3->iname->capital#",
+			"guard": "#item3->iexists",
+			"max_width": 85,
+			"x": 30,
+			"y": 60
+		},
+		{
+			"type": "item",
+			"item": "#item4",
+			"framed": "true",
+			"guard": "#item4->iexists",
+			"x": 10,
+			"y": 85
+		},
+		{
+			"type": "text",
+			"text": "#item4->icount# #item4->iname->capital#",
+			"guard": "#item4->iexists",
+			"max_width": 85,
+			"x": 30,
+			"y": 85
+		},
+		{
+			"type": "item",
+			"item": "#item5",
+			"framed": "true",
+			"guard": "#item5->iexists",
+			"x": 10,
+			"y": 110
+		},
+		{
+			"type": "text",
+			"text": "#item5->icount# #item5->iname->capital#",
+			"guard": "#item5->iexists",
+			"max_width": 85,
+			"x": 30,
+			"y": 110
+		}
+	]
+}

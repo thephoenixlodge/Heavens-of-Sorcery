@@ -12,6 +12,6 @@ setPos(140,95)
 drawDirectLines()
 
 criteria1 = addCriteria("hasItemsDiamondPick", "triumph:player_crafted_item")
-criteria1.setItem(<minecraft:diamond_pickaxe, count:1>)
+criteria1.setItem(<minecraft:diamond_pickaxe, count:1~>)
 
 addRewardItem(<minecraft:coal, meta:1, count:70>)

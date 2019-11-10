@@ -1,0 +1,39 @@
+{
+    "name": "Deep in the Swamp...",
+    "icon": "thebetweenlands:druid_altar",
+    "category": "quests/chap4",
+    "sortnum": 23,
+    "advancement": "heavens:bookchap4/15gaiaguardian",
+    "turnin": "heavens:bookchap4/23druidaltar",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "Deep in the Swamp...",
+            "trigger": "heavens:bookchap4/23druidaltar",
+            "text": "Am I mistaken, or did Gaia's Avatar just ask \"Where is it?\" before it flew into a rage? What could that possibly mean..? I think there's something that bear investigating here, but to do that you'll need to head to the $(thing)Betweenlands$(). For that, you'll need the special altar used to reconstruct a broken $(item)Swamp Talisman$()."
+        },
+        {
+            "type": "checklist_end",
+            "item1": "thebetweenlands:druid_altar",
+            "reward1": "minecraft:golden_apple:1#3"
+        },
+        {
+            "type": "altar_iridescent",
+            "output_item": "thebetweenlands:druid_altar",
+            "item2": "arcanearchives:shaped_quartz",
+            "item4": "arcanearchives:radiant_dust",
+            "item5": "botania:manaresource:5",
+            "item6": "arcanearchives:radiant_dust",
+            "item7": "roots:runestone",
+            "item8": "roots:runestone",
+            "item9": "roots:runestone",
+            "item12": "botania:manaresource:4",
+            "item13": "botania:manaresource:4",
+            "item18": "quark:frog_leg",
+            "item19": "quark:frog_leg",
+            "item20": "roots:runestone",
+            "item21": "roots:runestone",
+            "item25": "roots:runestone"
+        }
+    ]
+}

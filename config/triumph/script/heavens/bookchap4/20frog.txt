@@ -1,0 +1,17 @@
+setIcon(<minecraft:spawn_egg, nbt:{EntityTag:{id:"mysticalworld:entity_frog"}}>)
+
+setTitle("Hippity Hoppity")
+
+setDescription("Summon and Kill a frog, for its legs")
+
+addParent("heavens:bookchap4/18birthing")
+addParent("heavens:bookchap4/19transmutationcatalyst")
+
+setRequiresParents()
+
+setPos(400,0)
+
+criteria1 = addCriteria("hasItemsFurnace", "minecraft:inventory_changed")
+criteria1.addItem(<quark:frog_leg, count:1~>)
+
+addRewardItem(<minecraft:spawn_egg, count:2, nbt:{EntityTag:{id:"mysticalworld:entity_frog"}}>)

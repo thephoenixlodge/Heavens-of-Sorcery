@@ -1,0 +1,66 @@
+{
+    "name": "Gather 'Round the Fire",
+    "icon": "roots:bonfire",
+    "category": "quests/chap4",
+    "sortnum": 11,
+    "advancement": "heavens:bookchap4/04naturalaltar",
+    "turnin": "heavens:bookchap4/11pyre",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "Gather 'Round the Fire",
+            "trigger": "heavens:bookchap4/11pyre",
+            "text": "With the $(item)Natural ALtar$() built, we have the means to prepare some devices of natural magic that have more direct effects on the world. This is done with two things. First, the $(item)Pyre$(), which can serve to recreate many rare reagent plants and operate various rituals. Secondly, the $(item)Imbuer$(), which can modify $(item)Spell Dusts$() or apply them to $(item)Staves$()."
+        },
+        {
+            "type": "checklist_end",
+            "item1": "roots:bonfire",
+            "item2": "roots:imbuer",
+            "reward1": "roots:spell_dust{spell_holder:{spell_0:\"spell_growth_infusion\",selectedSlot:0,lastCooldown:0,cooldown:0}}",
+            "reward2": "minecraft:dragon_breath",
+            "reward3": "roots:component_pouch"
+        },
+        {
+            "type": "tree_ritual",
+            "recipe": "pyre",
+            "text": "Crafting the $(item)Pyre$()"
+        },
+        {
+            "type": "tree_ritual",
+            "recipe": "imbuer",
+            "text": "Crafting the $(item)Imbuer$()"
+        },
+        {
+            "type": "crafting",
+            "recipe": "roots:staff"
+        },
+        {
+            "type": "pyre_crafting",
+            "recipe": "cloud_berry"
+        },
+        {
+            "type": "pyre_crafting",
+            "recipe": "stalicripe"
+        },
+        {
+            "type": "pyre_crafting",
+            "recipe": "infernal_bulb"
+        },
+        {
+            "type": "pyre_crafting",
+            "recipe": "dewgonia"
+        },
+        {
+            "type": "pyre_crafting",
+            "recipe": "baffle_cap"
+        },
+        {
+            "type": "pyre_crafting",
+            "recipe": "pereskia"
+        },
+        {
+            "type": "pyre_crafting",
+            "recipe": "moonglow_leaf"
+        }
+    ]
+}

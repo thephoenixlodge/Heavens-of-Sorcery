@@ -14,8 +14,8 @@ setPos(-1,60)
 drawDirectLines()
 
 criteria1 = addCriteria("hasItemsIron", "minecraft:inventory_changed")
-criteria1.addItem(<minecraft:iron_ingot>)
+criteria1.addItem(<minecraft:iron_ingot, count:1~>)
 criteria2 = addCriteria("hasItemsIronDust", "minecraft:inventory_changed")
-criteria2.addItem(<rustic:dust_tiny_iron>)
+criteria2.addItem(<rustic:dust_tiny_iron, count:1~>)
 
 addRewardItem(<minecraft:iron_ingot, count:2>)

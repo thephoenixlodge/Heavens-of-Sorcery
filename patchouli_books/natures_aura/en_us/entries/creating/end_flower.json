@@ -2,7 +2,7 @@
     "name": "Rose of Oblivion",
     "icon": "naturesaura:end_flower",
     "category": "creating",
-    "advancement": "naturesaura:end_flower",
+    "advancement": "heavens:bookchap4/19transmutationcatalyst",
     "pages": [
         {
             "type": "text",

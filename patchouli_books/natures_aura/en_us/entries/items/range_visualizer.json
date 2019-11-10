@@ -2,7 +2,7 @@
     "name": "Mystical Magnifier",
     "icon": "naturesaura:range_visualizer",
     "category": "items",
-    "advancement": "naturesaura:infused_materials",
+    "advancement": "heavens:bookchap4/04naturalaltar",
     "pages": [
         {
             "type": "text",

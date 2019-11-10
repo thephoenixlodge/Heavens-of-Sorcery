@@ -1,0 +1,43 @@
+{
+    "name": "Yer a Wizard Steve",
+    "icon": "ebwizardry:spell_book:1",
+    "category": "quests/chap4",
+    "sortnum": 9,
+    "advancement": "heavens:bookchap4/08arcaneworkbench",
+    "turnin": "heavens:bookchap4/09spellbook",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "Yer a Wizard Steve",
+            "trigger": "heavens:bookchap4/09spellbook",
+            "text": "Now that you have the $(item)Arcane Workbench$(), you need to get your hands on a $(item)Spellbook$(). As mentioned, these can be purchased from friendly $(thing)Wizards$(), but can also be found in old $(thing)Shrines$() and $(thing)Obelisks$() - all within the $(thing)Everbright$() and $(thing)Everdawn$(). Once you have a $(item)Spellbook$(), you will then need to identify it."
+        },
+        {
+            "type": "text",
+            "title": "identifying Spells",
+            "text": "When you first obtain a $(item)Spellbook$(), it will be unidentified - that is, you won't know exactly which spell it is.$(br2)To identify it, you will need to do one of these two things:$(li)Equip the spell to a $(item)Wand$() and $(thing)cast it a few times$().$(li)Use a $(item)Scroll of Identification$()."
+        },
+        {
+            "type": "checklist_end",
+            "item1": "ebwizardry:spell_book{display: {Name: \"Identified Spell\"}}",
+            "reward1": "ebwizardry:magic_crystal#15",
+            "reward2": "ebwizardry:arcane_tome:1"
+        },
+        {
+            "type": "crafting",
+            "recipe": "ebwizardry:magic_wand",
+            "text": "Equip spells to a wand in the $(l:quests/chap4/08arcaneworkbench)Arcane Workbench$() by placing it in the centre with the $(item)Spellbook$(). $(item)Magic Crystal$() can be used to fill it with $(thing)Mana$(), also in the $(l:quests/chap4/08arcaneworkbench)Arcane Workbench$(). As you use the $(item)Wand$(), it will gradually gain progression, until it can be upgraded."
+        },
+        {
+            "type": "spotlight",
+            "item": "ebwizardry:identification_scroll",
+            "text": "Purchased from $(thing)Wizards$() or found in $(thing)Shrines$() and $(thing)Obelisks$().$(br2)Right-click to use, and identify 1 $(item)Unknown Spell$() from your inventory."
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "quests/chap4/08arcaneworkbench"
+            ]
+        }
+    ]
+}

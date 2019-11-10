@@ -3,8 +3,16 @@
 		{
 			"type": "header",
 			"text": "Components:",
+			"guard": "#heading->exists->inv",
 			"x": -1,
-			"y": 0
+			"y": -5
+		},
+		{
+			"type": "header",
+			"text": "#heading",
+			"guard": "#heading->exists",
+			"x": -1,
+			"y": -5
 		},
 		{
 			"type": "image",

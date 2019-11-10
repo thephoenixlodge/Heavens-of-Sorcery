@@ -2,8 +2,7 @@
     "name": "Environmental Eye",
     "icon": "naturesaura:eye",
     "category": "items",
-    "advancement": "naturesaura:wood_stand",
-    "turnin": "naturesaura:eye",
+    "advancement": "heavens:bookchap4/02forestritual",
     "priority": true,
     "pages": [
         {

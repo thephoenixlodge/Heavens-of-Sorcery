@@ -1,8 +1,8 @@
 setIcon(<roots:bonfire>)
 
-setTitle("Gather Around the Bonfire")
+setTitle("Gather 'Round the Fire")
 
-setDescription("Craft a Bonfire and Imbuer")
+setDescription("Craft a Pyre and Imbuer")
 
 addParent("heavens:bookchap4/04naturalaltar")
 
@@ -18,3 +18,4 @@ criteria2.addItem(<roots:imbuer, count:1>)
 addRewardItem(<cuisine:crops, meta:16, count:10>)
 addRewardItem(<roots:spell_dust, count:1, nbt:{spell_holder:{spell_0:"spell_growth_infusion",selectedSlot:0,lastCooldown:0,cooldown:0}}>)
 addRewardItem(<minecraft:dragon_breath, count:1>)
+addRewardItem(<roots:component_pouch, count:1>)

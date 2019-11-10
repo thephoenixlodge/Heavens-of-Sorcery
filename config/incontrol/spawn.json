@@ -5,9 +5,9 @@
 		"result": "deny"	
 	},
 	{
+		"passive": true,
 		"dimension": 0,
-		"mob": ["thebetweenlands:dark_druid"],
-		"result": "allow"
+		"result": "deny"	
 	},
 	{
 		"dimension": 5,
@@ -25,6 +25,47 @@
 	},
 	{
 		"dimension": 5,
+		"result": "deny"
+	},
+	{
+		"dimension": 76,
+		"mob": [
+			"blue_skies:armored_frost_spirit",
+			"ebwizardry:evil_wizard",
+			"ebwizardry:lightning_wraith",
+			"ebwizardry:ice_wraith",
+			"blue_skies:azulfo",
+			"blue_skies:stardust_ram",
+			"blue_skies:cryno",
+			"blue_skies:reindeer_bs",
+			"minecraft:bat",
+			"minecraft:squid",
+			"minecraft:wolf"
+		],
+		"result": "default"
+	},
+	{
+		"dimension": 76,
+		"result": "deny"
+	},
+	{
+		"dimension": 76,
+		"mob": [
+			"ebwizardry:evil_wizard",
+			"ebwizardry:lightning_wraith",
+			"ebwizardry:ice_wraith",
+			"blue_skies:venom_spider",
+			"minecraft:witch",
+			"blue_skies:cosmic_fox",
+			"blue_skies:nightshade_bear",
+			"blue_skies:nycto_bug",
+			"blue_skies:firefly_bs",
+			"blue_skies:crystal_camel"
+		],
+		"result": "default"
+	},
+	{
+		"dimension": 76,
 		"result": "deny"
 	}
 ]

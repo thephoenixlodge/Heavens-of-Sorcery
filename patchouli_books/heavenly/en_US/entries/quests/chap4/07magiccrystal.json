@@ -1,0 +1,53 @@
+{
+    "name": "Pretty Sparkly Flowers",
+    "icon": "ebwizardry:magic_crystal",
+    "category": "quests/chap4",
+    "sortnum": 7,
+    "advancement": "heavens:bookchap4/04naturalaltar",
+    "turnin": "heavens:bookchap4/07magiccrystal",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "Pretty Sparkly Flowers",
+            "trigger": "heavens:bookchap4/07magiccrystal",
+            "text": "In the $(thing)Everbright$() there blooms a rare flower - the $(item)Crystal Flower$(), whose petals are beautifully glassy, akin to crystal. A few hundred years ago, one of the old masters dropped one on his $(item)Natural Altar$() by accident, and in doing so discovered its nature could be transformed into an actual crystal, vibrantly humming with potent magic."
+        },
+        {
+            "type": "checklist_end",
+            "item1": "ebwizardry:magic_crystal",
+            "reward1": "ebwizardry:magic_crystal#10"
+        },
+        {
+            "type": "nature_altar",
+            "recipe": "crafttweaker:magic_crystal",
+            "text": "Remember, using the $(item)Natural Altar$() drains the local aura - be  careful not to drain too much."
+        },
+        {
+            "type": "nature_altar",
+            "recipe": "crafttweaker:magic_crystal_alt",
+            "text": "While its luster is less than that of the $(thing)Everbright's$() $(item)Crystal Flower$(), a similar flower is found in the $(thing)Crystal Deserts$() of the $(thing)Everdawn$()."
+        },
+        {
+            "type": "wand_use_two",
+            "heading": "Transforming Flowers",
+            "interact": "blue_skies:hot_pink_flower",
+            "receive": "ebwizardry:crystal_flower",
+            "description": "While the $(item)Crystal Flower$() is naturally rare, it seems exposing any flower from the $(thing)Everbright$() or $(thing)Everdawn$() to the magicks from your wand will transform them."
+        },
+        {
+            "type": "wand_use_two",
+            "interact": "blue_skies:moonlit_flower",
+            "receive": "ebwizardry:crystal_flower"
+        },
+        {
+            "type": "wand_use_two",
+            "interact": "blue_skies:snowbloom",
+            "receive": "ebwizardry:crystal_flower"
+        },
+        {
+            "type": "wand_use_two",
+            "interact": "blue_skies:crystal_flower",
+            "receive": "ebwizardry:crystal_flower"
+        }
+    ]
+}

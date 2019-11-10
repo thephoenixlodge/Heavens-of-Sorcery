@@ -193,7 +193,7 @@
 		
 		"packVersion":
 		{
-			"text" : "Version 0.1.0 alpha 7",
+			"text" : "Version 1.0.0 alpha 8",
 			"alignment" : "bottom_left",
             "posX" : 150,
             "posY" : -20

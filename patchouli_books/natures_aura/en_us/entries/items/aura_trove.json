@@ -2,7 +2,7 @@
     "name": "Aura Trove",
     "icon": "naturesaura:aura_trove",
     "category": "items",
-    "advancement": "naturesaura:sky_ingot",
+    "advancement": "heavens:bookchap4/17offeringtable",
     "pages": [
         {
             "type": "text",

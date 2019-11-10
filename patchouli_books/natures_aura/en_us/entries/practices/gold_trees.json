@@ -3,7 +3,7 @@
     "icon": "naturesaura:gold_leaf",
     "category": "practices",
     "priority": true,
-    "turnin": "naturesaura:gold_leaf",
+    "turnin": "heavens:bookchap4/00goldleaf",
     "pages": [
         {
             "type": "text",
@@ -21,9 +21,10 @@
             "recipe": "naturesaura:gold_fiber"
         },
         {
-            "type": "crafting",
-            "text": "$(item)Gold Leaf$(), once harvested, can easily be crushed into $(item)Gold Powder$() which can be placed on the ground as an integral part of the $(l:practices/tree_ritual)Ritual of the Forest$().",
-            "recipe": "naturesaura:gold_powder"
+            "type": "grindstone",
+            "description": "$(item)Gold Leaf$(), once harvested, can easily be crushed into $(item)Gold Powder$() which can be placed on the ground as an integral part of the $(l:practices/tree_ritual)Ritual of the Forest$().",
+            "input": "naturesaura:gold_leaf",
+            "output_item": "naturesaura:gold_powder"
         }
     ]
 }

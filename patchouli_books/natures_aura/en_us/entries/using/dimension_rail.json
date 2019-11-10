@@ -2,7 +2,7 @@
     "name": "Rails of the Worlds",
     "icon": "naturesaura:dimension_rail_nether",
     "category": "using",
-    "advancement": "naturesaura:sky_ingot",
+    "advancement": "heavens:bookchap4/17offeringtable",
     "pages": [
         {
             "type": "text",

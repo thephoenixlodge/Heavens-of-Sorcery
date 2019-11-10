@@ -1,0 +1,33 @@
+{
+    "name": "The Corrupted",
+    "icon": "minecraft:spawn_egg{EntityTag: {id: \"thebetweenlands:dark_druid\"}}",
+    "category": "quests/chap4",
+    "sortnum": 22,
+    "advancement": "heavens:bookchap4/21darkness",
+    "turnin": "heavens:bookchap4/22darkdruid",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "The Corrupted",
+            "trigger": "heavens:bookchap4/22darkdruid",
+            "text": "With that $(item)Bottled Darkness$(), you can now summon the hollow creatures of darkness known as $(thing)Dark Druids$(). These foul vestiges carry fragments of the $(item)Swamp Talisman$(), which is needed to open up the next dimension I wish for you to visit, but they surely won't give them up without a fight."
+        },
+        {
+            "type": "kill_task",
+            "entity": "thebetweenlands:dark_druid",
+            "entity_name": "Dark Druid",
+            "reward1": "ebwizardry:amulet_potential"
+        },
+        {
+            "type": "checklist",
+            "item1": "thebetweenlands:swamp_talisman:1",
+            "item2": "thebetweenlands:swamp_talisman:2",
+            "item3": "thebetweenlands:swamp_talisman:3",
+            "item4": "thebetweenlands:swamp_talisman:4"
+        },
+        {
+            "type": "birthing_altar",
+            "recipe": "crafttweaker:dark_druid"
+        }
+    ]
+}

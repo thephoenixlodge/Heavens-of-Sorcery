@@ -1,0 +1,15 @@
+{
+    "parent": "roots:fey_crafter",
+    "criteria": {
+        "book": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "roots:runestone"
+                    }
+                ]
+            }
+        }
+    }
+}

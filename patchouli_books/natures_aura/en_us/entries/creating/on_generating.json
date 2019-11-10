@@ -2,7 +2,7 @@
     "name": "On Creating Aura",
     "icon": "naturesaura:gold_leaf",
     "category": "creating",
-    "advancement": "naturesaura:wood_stand",
+    "advancement": "heavens:bookchap4/02forestritual",
     "priority": true,
     "pages": [
         {

@@ -2,9 +2,9 @@
     "name": "The Natural Altar",
     "icon": "naturesaura:nature_altar",
     "category": "using",
-    "advancement": "naturesaura:aura_bottle_overworld",
+    "advancement": "heavens:bookchap4/02forestritual",
     "priority": true,
-    "turnin": "naturesaura:infused_materials",
+    "turnin": "heavens:bookchap4/04naturalaltar",
     "pages": [
         {
             "type": "text",

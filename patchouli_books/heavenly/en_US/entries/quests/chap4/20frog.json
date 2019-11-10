@@ -1,0 +1,29 @@
+{
+    "name": "Hippity Hoppity",
+    "icon": "minecraft:spawn_egg{EntityTag:{id:\"mysticalworld:entity_frog\"}}",
+    "category": "quests/chap4",
+    "sortnum": 20,
+    "advancement": "heavens:bookchap4/18birthing",
+    "turnin": "heavens:bookchap4/20frog",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "Hippity Hoppity",
+            "trigger": "heavens:bookchap4/20frog",
+            "text": "To get to the next dimension, we're going to need the legs of a $(thing)Frog$(). So you're going to need to summon one with the $(item)Birthing Altar$(). And, yes, you're then going to need to kill it. Don't look at me like that, it's for the, uh, greater good. I swear."
+        },
+        {
+            "type": "checklist_end",
+            "item1": "quark:frog_leg",
+            "reward1": "minecraft:spawn_egg#2{EntityTag:{id:\"mysticalworld:entity_frog\"}}"
+        },
+        {
+            "type": "birthing_altar",
+            "recipe": "crafttweaker:frog"
+        },
+        {
+            "type": "nature_altar",
+            "recipe": "crafttweaker:lilypad"
+        }
+    ]
+}

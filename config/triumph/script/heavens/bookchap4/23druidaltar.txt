@@ -1,0 +1,17 @@
+setIcon(<thebetweenlands:druid_altar>)
+
+setTitle("Deep in the Swamp...")
+
+setDescription("Recreate the Dark Druids' Altar")
+
+addParent("heavens:bookchap4/20frog")
+addParent("heavens:bookchap4/15gaiaguardian")
+
+setRequiresParents()
+
+setPos(440,-40)
+
+criteria1 = addCriteria("hasItemsFurnace", "minecraft:inventory_changed")
+criteria1.addItem(<thebetweenlands:druid_altar, count:1~>)
+
+addRewardItem(<minecraft:golden_apple, meta:1, count:3>)

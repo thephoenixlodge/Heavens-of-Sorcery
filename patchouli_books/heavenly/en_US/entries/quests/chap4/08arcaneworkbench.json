@@ -1,0 +1,48 @@
+{
+    "name": "Superior Spellcraft",
+    "icon": "ebwizardry:arcane_workbench",
+    "category": "quests/chap4",
+    "sortnum": 8,
+    "advancement": "heavens:bookchap4/07magiccrystal",
+    "turnin": "heavens:bookchap4/08arcaneworkbench",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "Superior Spellcraft",
+            "trigger": "heavens:bookchap4/08arcaneworkbench",
+            "text": "Previously, I taught you the way I know of making spells, but I was far from an expert. However, it seems some of the old $(thing)Wizards$() survived in the $(thing)Everbright$(). While they won't share how to write their spells, they will trade for pre-written $(item)Spellbooks$(). To make use of this though, you'll need a special $(item)Arcane Workbench$()."
+        },
+        {
+            "type": "checklist_end",
+            "item1": "ebwizardry:arcane_workbench",
+            "reward1": "ebwizardry:magic_crystal#10",
+            "reward2": "ebwizardry:wizard_handbook"
+        },
+        {
+            "type": "altar_celestial",
+            "description": "Crafting the $(item)Arcane Workbench$()",
+            "output_item": "ebwizardry:arcane_workbench",
+            "item1": "arcanearchives:raw_quartz",
+            "item2": "naturesaura:gold_powder",
+            "item3": "arcanearchives:raw_quartz",
+            "item4": "naturesaura:gold_powder",
+            "item5": "arcaneworld:block_amethyst",
+            "item6": "naturesaura:gold_powder",
+            "item7": "arcanearchives:raw_quartz",
+            "item8": "naturesaura:gold_powder",
+            "item9": "arcanearchives:raw_quartz",
+            "item10": "ebwizardry:magic_crystal",
+            "item11": "ebwizardry:magic_crystal",
+            "item12": "ebwizardry:magic_crystal",
+            "item13": "ebwizardry:magic_crystal",
+            "item14": "blue_skies:smooth_crystal_sandstone",
+            "item15": "blue_skies:smooth_crystal_sandstone",
+            "item16": "minecraft:dye:4",
+            "item17": "minecraft:dye:4",
+            "item18": "minecraft:dye:4",
+            "item19": "minecraft:dye:4",
+            "item20": "blue_skies:smooth_crystal_sandstone",
+            "item21": "blue_skies:smooth_crystal_sandstone"
+        }
+    ]
+}

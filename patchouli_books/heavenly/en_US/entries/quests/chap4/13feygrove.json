@@ -1,0 +1,63 @@
+{
+    "name": "Fey and Far Between",
+    "icon": "roots:fey_crafter",
+    "category": "quests/chap4",
+    "sortnum": 13,
+    "advancement": "heavens:bookchap4/12ancientsapling",
+    "turnin": "heavens:bookchap4/13feygrove",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "Fey and Far Between",
+            "trigger": "heavens:bookchap4/13feygrove",
+            "text": "Those $(item)Ancient Saplings$() have other uses too. Most importantly for now is in the creation of the $(thing)Grove Supplication $(item)Spell Dust$().$(br2)Once applied to a $(item)Staff$() in an $(item)Imbuer$(), this spell will allow you to activate $(item)Grove Stones$(), charging them with natural energy to the point they cause plants to grow around them."
+        },
+        {
+            "type": "text",
+            "text": "This energy can then be siphoned by a $(item)Fey Crafter$(), for further developments requiring this energy. As such, the $(item)Fey Crafter$() must be placed close to the activated $(item)Grove Stone$().$(br2)Note: When casting a Spell with a Staff, the casting cost materials must be stored in a $(item)Component Pouch$()."
+        },
+        {
+            "type": "checklist_end",
+            "item1": "roots:fey_crafter",
+            "item2": "roots:spell_dust{display: {Name: \"Spell Dust - Grove Supplication\"}, spell_holder: {spell_0: \"spell_supplication\", selectedSlot: 0, lastCooldown: 0, cooldown: 0}}",
+            "item3": "roots:grove_stone{display: {Name: \"Grove Stone (Activated)\"}}",
+            "reward1": "roots:spell_dust{spell_holder: {spell_0: \"spell_dandelion_winds\", selectedSlot: 0, lastCooldown: 0, cooldown: 0}}"
+        },
+        {
+            "type": "altar_celestial",
+            "description": "When using the $(item)Fey Crafter$(), start the craft by Right-Clicking with a $(l:quests/chap4/01moss#knife)Knife$().",
+            "output_item": "roots:fey_crafter",
+            "item1": "naturesaura:infused_iron",
+            "item2": "roots:terra_moss",
+            "item3": "naturesaura:infused_iron",
+            "item5": "roots:wildroot",
+            "item8": "naturesaura:wood_stand",
+            "item20": "botania:livingwood",
+            "item21": "botania:livingwood"
+        },
+        {
+            "type": "altar_celestial",
+            "description": "After crafting the $(item)Grove Stone$(), place in world to activate with the $(thing)Grove Supplication Spell$().",
+            "output_item": "roots:grove_stone",
+            "item2": "naturesaura:infused_stone",
+            "item4": "naturesaura:infused_stone",
+            "item5": "roots:terra_moss",
+            "item6": "naturesaura:infused_stone",
+            "item7": "naturesaura:infused_stone",
+            "item8": "roots:wildroot",
+            "item9": "naturesaura:infused_stone",
+            "item12": "naturesaura:infused_slab",
+            "item13": "naturesaura:infused_slab",
+            "item20": "naturesaura:infused_stone",
+            "item21": "naturesaura:infused_stone"
+        },
+        {
+            "type": "spell_dust",
+            "spell": "spell_supplication"
+        },
+        {
+            "type": "fey_crafting",
+            "recipe": "runestone"
+        }
+    ]
+}

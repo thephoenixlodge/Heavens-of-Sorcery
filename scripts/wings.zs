@@ -44,5 +44,5 @@ wingsToFoci[wingsFire] = blazePowder;
 //Add Altar recipes for wings
 for wings, foci in wingsToFoci {
 	recipes.remove(wings);
-	Altar.addTraitAltarRecipe("internal/altar/" ~ wings.name, wings, 5000, 800, [feather, foci, feather, manaweave, elytra, manaweave, fairyDust, stardust, fairyDust, null, null, feather, feather, null, null, null, null, feather, feather, null, null, null, feather, feather, null, foci, foci], "astralsorcery.constellation.vicio");
+	Altar.addConstellationAltarRecipe("internal/altar/" ~ wings.name, wings, 3000, 800, [feather, foci, feather, manaweave, elytra, manaweave, fairyDust, stardust, fairyDust, null, null, feather, feather, null, null, null, null, feather, feather, null, null]);
 }

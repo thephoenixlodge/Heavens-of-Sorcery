@@ -2,7 +2,7 @@
     "name": "Shifting Sundial",
     "icon": "naturesaura:time_changer",
     "category": "using",
-    "advancement": "naturesaura:aura_bottle_end",
+    "advancement": "heavens:bookchap4/21darkness",
     "pages": [
         {
             "type": "text",

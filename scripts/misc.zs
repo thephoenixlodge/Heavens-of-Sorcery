@@ -72,6 +72,8 @@ val bookNA = <patchouli:guide_book>.withTag({"patchouli:book": "patchouli:nature
 val book = <minecraft:book>;
 val saplingBS = <blue_skies:bluebright_sapling>|<blue_skies:lunar_sapling>|<blue_skies:starlit_sapling>|<blue_skies:frostbright_sapling>|<blue_skies:dusk_sapling>|<blue_skies:maple_sapling>;
 val stick = <ore:stickWood>;
+val bookCuisine = <cuisine:manual>;
+val flour = <cuisine:food:1>;
 //Architexture tools
 val chiselIron = <chisel:chisel_iron>;
 val chiselArch = <architecturecraft:chisel>;
@@ -145,3 +147,7 @@ recipes.addShaped(chainManasteel * 4, [[nuggetManasteel], [nuggetManasteel], [nu
 
 //chainmail gloves
 recipes.addShaped(chainGloves, [[chainItem, null, chainItem]]);
+
+//cuisine book
+recipes.remove(bookCuisine);
+recipes.addShapeless(bookCuisine, [book, flour]);

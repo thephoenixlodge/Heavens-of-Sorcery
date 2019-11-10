@@ -271,6 +271,11 @@
     "Class": "hellfirepvp.astralsorcery.common.entities.EntityLiquidSpark"
   },
   {
+    "Name": "quark:leash_knot",
+    "Registry ID": "quark:leash_knot",
+    "Class": "vazkii.quark.decoration.entity.EntityLeashKnot2TheKnotting"
+  },
+  {
     "Name": "quark:stoneling",
     "Registry ID": "quark:stoneling",
     "Class": "vazkii.quark.world.entity.EntityStoneling"
@@ -309,11 +314,6 @@
     "Name": "quark:wraith",
     "Registry ID": "quark:wraith",
     "Class": "vazkii.quark.world.entity.EntityWraith"
-  },
-  {
-    "Name": "quark:leash_knot",
-    "Registry ID": "quark:leash_knot",
-    "Class": "vazkii.quark.decoration.entity.EntityLeashKnot2TheKnotting"
   },
   {
     "Name": "botania:pixie",
@@ -619,6 +619,106 @@
     "Name": "thebetweenlands.root_sprite",
     "Registry ID": "thebetweenlands:root_sprite",
     "Class": "thebetweenlands.common.entity.mobs.EntityRootSprite"
+  },
+  {
+    "Name": "thebetweenlands.small_sludge_worm",
+    "Registry ID": "thebetweenlands:small_sludge_worm",
+    "Class": "thebetweenlands.common.entity.mobs.EntitySludgeWorm"
+  },
+  {
+    "Name": "thebetweenlands.tiny_sludge_worm",
+    "Registry ID": "thebetweenlands:tiny_sludge_worm",
+    "Class": "thebetweenlands.common.entity.mobs.EntityTinySludgeWorm"
+  },
+  {
+    "Name": "thebetweenlands.large_sludge_worm",
+    "Registry ID": "thebetweenlands:large_sludge_worm",
+    "Class": "thebetweenlands.common.entity.mobs.EntityLargeSludgeWorm"
+  },
+  {
+    "Name": "thebetweenlands.tiny_worm_egg_sac",
+    "Registry ID": "thebetweenlands:tiny_worm_egg_sac",
+    "Class": "thebetweenlands.common.entity.EntityTinyWormEggSac"
+  },
+  {
+    "Name": "thebetweenlands.tiny_sludge_worm_helper",
+    "Registry ID": "thebetweenlands:tiny_sludge_worm_helper",
+    "Class": "thebetweenlands.common.entity.mobs.EntityTinySludgeWormHelper"
+  },
+  {
+    "Name": "thebetweenlands.shambler",
+    "Registry ID": "thebetweenlands:shambler",
+    "Class": "thebetweenlands.common.entity.mobs.EntityShambler"
+  },
+  {
+    "Name": "thebetweenlands.wall_lamprey",
+    "Registry ID": "thebetweenlands:wall_lamprey",
+    "Class": "thebetweenlands.common.entity.mobs.EntityWallLamprey"
+  },
+  {
+    "Name": "thebetweenlands.moving_spawner_hole",
+    "Registry ID": "thebetweenlands:moving_spawner_hole",
+    "Class": "thebetweenlands.common.entity.mobs.EntityMovingSpawnerHole"
+  },
+  {
+    "Name": "thebetweenlands.wall_living_root",
+    "Registry ID": "thebetweenlands:wall_living_root",
+    "Class": "thebetweenlands.common.entity.mobs.EntityWallLivingRoot"
+  },
+  {
+    "Name": "thebetweenlands.crypt_crawler",
+    "Registry ID": "thebetweenlands:crypt_crawler",
+    "Class": "thebetweenlands.common.entity.mobs.EntityCryptCrawler"
+  },
+  {
+    "Name": "thebetweenlands.barrishee",
+    "Registry ID": "thebetweenlands:barrishee",
+    "Class": "thebetweenlands.common.entity.mobs.EntityBarrishee"
+  },
+  {
+    "Name": "thebetweenlands.ash_sprite",
+    "Registry ID": "thebetweenlands:ash_sprite",
+    "Class": "thebetweenlands.common.entity.mobs.EntityAshSprite"
+  },
+  {
+    "Name": "thebetweenlands.triggered_falling_block",
+    "Registry ID": "thebetweenlands:triggered_falling_block",
+    "Class": "thebetweenlands.common.entity.EntityTriggeredFallingBlock"
+  },
+  {
+    "Name": "thebetweenlands.triggered_sludge_wall_jet",
+    "Registry ID": "thebetweenlands:triggered_sludge_wall_jet",
+    "Class": "thebetweenlands.common.entity.EntityTriggeredSludgeWallJet"
+  },
+  {
+    "Name": "thebetweenlands.splodeshroom",
+    "Registry ID": "thebetweenlands:splodeshroom",
+    "Class": "thebetweenlands.common.entity.EntitySplodeshroom"
+  },
+  {
+    "Name": "thebetweenlands.cc_ground_spawner",
+    "Registry ID": "thebetweenlands:cc_ground_spawner",
+    "Class": "thebetweenlands.common.entity.EntityCCGroundSpawner"
+  },
+  {
+    "Name": "thebetweenlands.emberling_shaman",
+    "Registry ID": "thebetweenlands:emberling_shaman",
+    "Class": "thebetweenlands.common.entity.mobs.EntityEmberlingShaman"
+  },
+  {
+    "Name": "thebetweenlands.flame_jet",
+    "Registry ID": "thebetweenlands:flame_jet",
+    "Class": "thebetweenlands.common.entity.mobs.EntityFlameJet"
+  },
+  {
+    "Name": "thebetweenlands.emberling",
+    "Registry ID": "thebetweenlands:emberling",
+    "Class": "thebetweenlands.common.entity.mobs.EntityEmberling"
+  },
+  {
+    "Name": "thebetweenlands.sludge_menace",
+    "Registry ID": "thebetweenlands:sludge_menace",
+    "Class": "thebetweenlands.common.entity.mobs.EntitySludgeMenace"
   },
   {
     "Name": "entity_fox",
@@ -1044,6 +1144,26 @@
     "Name": "pirat",
     "Registry ID": "rats:pirat",
     "Class": "com.github.alexthe666.rats.server.entity.EntityPirat"
+  },
+  {
+    "Name": "plague_doctor",
+    "Registry ID": "rats:plague_doctor",
+    "Class": "com.github.alexthe666.rats.server.entity.EntityPlagueDoctor"
+  },
+  {
+    "Name": "black_death",
+    "Registry ID": "rats:black_death",
+    "Class": "com.github.alexthe666.rats.server.entity.EntityBlackDeath"
+  },
+  {
+    "Name": "plague_cloud",
+    "Registry ID": "rats:plague_cloud",
+    "Class": "com.github.alexthe666.rats.server.entity.EntityPlagueCloud"
+  },
+  {
+    "Name": "plague_beast",
+    "Registry ID": "rats:plague_beast",
+    "Class": "com.github.alexthe666.rats.server.entity.EntityPlagueBeast"
   },
   {
     "Name": "Overgrown Sheep",

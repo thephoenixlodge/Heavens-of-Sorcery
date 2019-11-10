@@ -22,7 +22,7 @@
                     [ "           ", " C       C ", "           ", "           ", "           ", "           ", "           ", "           ", "           ", " C       C ", "           " ],
                     [ "           ", " P       P ", "           ", "           ", "           ", "           ", "           ", "           ", "           ", " P       P ", "           " ],
                     [ "           ", " P       P ", "           ", "           ", "           ", "           ", "           ", "           ", "           ", " P       P ", "           " ],
-                    [ "           ", " R       R ", "           ", "           ", "     0     ", "           ", "           ", "           ", "           ", " R       R ", "           " ],
+                    [ "           ", " R       R ", "           ", "           ", "           ", "     0     ", "           ", "           ", "           ", " R       R ", "           " ],
                     [ "BBB     BBB", "BMMBBBBBMMB", "BMSSSSSSSMB", " BSSSSSSSB ", " BSSSSSSSB ", " BSSSSSSSB ", " BSSSSSSSB ", " BSSSSSSSB ", "BMSSSSSSSMB", "BMMBBBBBMMB", "BBB     BBB" ]
                 ],
                 "mapping": {

@@ -1,0 +1,24 @@
+{
+  "parent": "roots:wildwood",
+  "criteria": {
+    "book": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "roots:wildwood_helmet"
+          },
+          {
+            "item": "roots:wildwood_chestplate"
+          },
+          {
+            "item": "roots:wildwood_leggings"
+          },
+          {
+            "item": "roots:wildwood_boots"
+          }
+        ]
+      }
+    }
+  }
+}

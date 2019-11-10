@@ -49,6 +49,7 @@
 			"type": "item",
 			"item": "#output_item",
 			"framed": "false",
+			"link_recipe": "true",
 			"x": 85,
 			"y": 37
 		},

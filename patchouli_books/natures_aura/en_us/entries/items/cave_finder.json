@@ -2,7 +2,7 @@
     "name": "Staff of Shadows",
     "icon": "naturesaura:cave_finder",
     "category": "items",
-    "advancement": "naturesaura:offering",
+    "advancement": "heavens:bookchap4/17offeringtable",
     "pages": [
         {
             "type": "text",

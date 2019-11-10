@@ -1,0 +1,18 @@
+setIcon(<roots:runic_shears>)
+
+setTitle("Upmarket Trimming")
+
+setDescription("Craft Runic Shears and use them to trim Spirit Herbs from fully grown Beetroot crops")
+
+addParent("heavens:bookchap4/13feygrove")
+
+setRequiresParents()
+
+setPos(280,0)
+
+criteria1 = addCriteria("hasItemsFurnace", "minecraft:inventory_changed")
+criteria1.addItem(<roots:runic_shears, count:1~>)
+criteria2 = addCriteria("hasItemsSpirit", "minecraft:inventory_changed")
+criteria2.addItem(<roots:spirit_herb, count:1~>)
+
+addRewardItem(<roots:spell_dust, count:1, nbt:{spell_holder:{spell_0:"spell_growth_infusion",selectedSlot:0,lastCooldown:0,cooldown:0}}>)

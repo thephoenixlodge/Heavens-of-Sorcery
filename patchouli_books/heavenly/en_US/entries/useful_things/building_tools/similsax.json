@@ -13,7 +13,7 @@
         {
             "type": "crafting",
             "advancement": "heavens:bookchap1/9diamond",
-            "recipe": "crafttweaker:ct_shaped1563371775",
+            "recipe": "crafttweaker:ct_shaped-262816451",
             "title": "Basic Similsax",
             "text": "Durability: 199 $(br2)Max blocks placed: 15 out from the starting block"
         },

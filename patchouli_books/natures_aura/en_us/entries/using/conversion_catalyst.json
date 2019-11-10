@@ -2,7 +2,7 @@
     "name": "Transmutation Catalyst",
     "icon": "naturesaura:conversion_catalyst",
     "category": "using",
-    "advancement": "naturesaura:sky_ingot",
+    "advancement": "heavens:bookchap4/17offeringtable",
     "pages": [
         {
             "type": "text",

@@ -1,6 +1,6 @@
 setIcon(<botania:terraplate>)
 
-setTitle("That's T-E-R-R-E-S-T-R-I-A-L")
+setTitle("T-E-R-R-E-S-T-R-I-A-L")
 
 setDescription("Make a Terrestrial Agglomeration Plate, and use it to craft Terrasteel")
 
@@ -13,7 +13,7 @@ setPos(80,-80)
 criteria1 = addCriteria("hasItemsFurnace", "minecraft:inventory_changed")
 criteria1.addItem(<botania:terraplate, count:1~>)
 criteria2 = addCriteria("hasItemsTerrasteel", "minecraft:inventory_changed")
-criteria2.addItem(<botania:manaresource, count:1~>)
+criteria2.addItem(<botania:manaresource, meta:4, count:1~>)
 
 addRewardItem(<contenttweaker:metallia_mundane, count:25>)
 addRewardItem(<contenttweaker:precia_mundane, count:25>)

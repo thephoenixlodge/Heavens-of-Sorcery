@@ -1,0 +1,34 @@
+{
+    "name": "Turn a New Leaf",
+    "icon": "naturesaura:gold_leaf",
+    "category": "quests/chap4",
+    "sortnum": 0,
+    "advancement": "heavens:bookchap4/root",
+    "turnin": "heavens:bookchap4/00goldleaf",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "Turn a New Leaf",
+            "trigger": "heavens:bookchap4/00goldleaf",
+            "text": "The first thing you'll need from these new dimensions is simply just some of the long grass there. The unchanging light in the $(thing)Everbright$() and $(thing)Everdawn$() means these grow with rather unique properties. Mix it with materials from the $(thing)Aether$() to make $(item)Brilliant Fibre$(), then use it on some leaves to transform them and harvest the resulting $(item)Gold Leaf$()."
+        },
+        {
+            "type": "checklist_end",
+            "item1": "naturesaura:gold_fiber",
+            "item2": "naturesaura:gold_leaf",
+            "reward1": "naturesaura:gold_leaf#20",
+            "reward2": "patchouli:guide_book{\"patchouli:book\":\"patchouli:natures_aura\"}"
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:gold_fiber"
+        },
+        {
+            "type": "gold_fiber",
+            "heading": "Transforming Leaves",
+            "input": "ore:treeLeaves",
+            "output": "naturesaura:golden_leaves",
+            "description": "Slowly transforms over time. Once fully transformed, you can see particles indicating the leaves are ready to be harvested."
+        }
+    ]
+}

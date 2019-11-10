@@ -2,7 +2,7 @@
     "name": "Herbivorous Absorber",
     "icon": "naturesaura:flower_generator",
     "category": "creating",
-    "advancement": "naturesaura:infused_materials",
+    "advancement": "heavens:bookchap4/04naturalaltar",
     "pages": [
         {
             "type": "text",

@@ -1,0 +1,22 @@
+{
+    "name": "Natural Altar",
+    "icon": "naturesaura:nature_altar",
+    "category": "collected_knowledge/multiblocks",
+    "advancement": "heavens:bookchap4/02forestritual",
+    "pages": [
+        {
+            "type": "multiblock_bill",
+            "item1": "naturesaura:nature_altar",
+            "item2": "minecraft:planks#20",
+            "item3": "minecraft:stonebrick#16",
+            "item4": "naturesaura:gold_brick#8",
+            "item5": "minecraft:stonebrick:3#4"
+        },
+        {
+            "type": "multiblock",
+            "name": "Natural Altar",
+            "multiblock_id": "naturesaura:altar",
+            "text": "$(l:https://pastebin.com/27v4sDXL)Pastebin of the Structure$(/l).$(br)Note: Excludes Tile Entities"
+        }
+    ]
+}

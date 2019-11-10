@@ -1,0 +1,77 @@
+{
+    "name": "Offering to the Gods",
+    "icon": "naturesaura:offering_table",
+    "category": "quests/chap4",
+    "sortnum": 17,
+    "advancement": "heavens:bookchap4/16runicshears",
+    "turnin": "heavens:bookchap4/17offeringtable",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "Offering to the Gods",
+            "trigger": "heavens:bookchap4/17offeringtable",
+            "text": "With $(item)Spirit Herb$() you have all the ingredients required for the $(thing)Ritual of Wildwood Growth$(). This ritual causes nearby $(item)Wildroot$() plants to undergo intensive growth into a large tree. The wood from this tree is the last thing we need to create an $(item)Offering Table$(), upon which we can make offerings to the Gods in exchange for more divine materials."
+        },
+        {
+            "type": "checklist_end",
+            "item1": "naturesaura:offering_table",
+            "item2": "naturesaura:calling_spirit",
+            "item3": "naturesaura:sky_ingot",
+            "reward1": "naturesaura:calling_spirit#5",
+            "reward2": "naturesaura:infused_iron#10"
+        },
+        {
+            "type": "pyre_ritual",
+            "ritual": "ritual_wild_growth",
+            "text": "$(item)Wildroot$() must be planted nearby, and fully grown."
+        },
+        {
+            "type": "fey_crafting",
+            "recipe": "calling_spirit"
+        },
+        {
+            "type": "altar_celestial",
+            "description": "Crafting the $(item)Offering Table$()",
+            "output_item": "naturesaura:offering_table",
+            "item1": "roots:cloud_berry",
+            "item2": "naturesaura:infused_iron",
+            "item3": "naturesaura:token_fear",
+            "item4": "naturesaura:infused_stone",
+            "item5": "roots:wildwood_log",
+            "item6": "naturesaura:infused_stone",
+            "item8": "roots:wildwood_log",
+            "item10": "roots:runestone",
+            "item11": "roots:runestone",
+            "item16": "naturesaura:infused_stone",
+            "item17": "naturesaura:infused_stone",
+            "item20": "roots:wildwood_log",
+            "item21": "roots:wildwood_log"
+        },
+        {
+            "type": "multiblock",
+            "multiblock_id": "naturesaura:offering_table",
+            "text": "Preparing the $(item)Offering to the Gods$(). Any type of flower can be used."
+        },
+        {
+            "type": "offering",
+            "recipe": "naturesaura:sky_ingot",
+            "text": "Place the required items in the $(item)Offering Table$() and drop a $(item)Spirit of Calling$() nearby. Multiple crafts may be done at the same time, still only needing 1 $(item)Spirit of Calling$()."
+        },
+        {
+            "type": "offering",
+            "recipe": "naturesaura:token_euphoria"
+        },
+        {
+            "type": "offering",
+            "recipe": "naturesaura:token_terror"
+        },
+        {
+            "type": "offering",
+            "recipe": "naturesaura:token_rage"
+        },
+        {
+            "type": "offering",
+            "recipe": "naturesaura:token_grief"
+        }
+    ]
+}

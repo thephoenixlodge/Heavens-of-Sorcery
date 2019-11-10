@@ -2,7 +2,7 @@
     "name": "Firecracker Gaze",
     "icon": "naturesaura:firework_generator",
     "category": "creating",
-    "advancement": "naturesaura:offering",
+    "advancement": "heavens:bookchap4/17offeringtable",
     "pages": [
         {
             "type": "text",

@@ -12,9 +12,9 @@ setPos(-35,25)
 drawDirectLines()
 
 criteria1 = addCriteria("hasItemsCrushTub", "triumph:player_crafted_item")
-criteria1.setItem(<rustic:crushing_tub>)
+criteria1.setItem(<rustic:crushing_tub, count:1~>)
 criteria2 = addCriteria("hasItemsDryingBasin", "triumph:player_crafted_item")
-criteria2.setItem(<rustic:evaporating_basin>)
+criteria2.setItem(<rustic:evaporating_basin, count:1~>)
 
 addRewardItem(<rustic:evaporating_basin>)
 addRewardItem(<rustic:ironberries, count:50>)

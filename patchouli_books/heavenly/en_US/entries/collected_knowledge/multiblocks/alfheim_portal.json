@@ -1,0 +1,40 @@
+{
+    "name": "Alfheim Portal",
+    "icon": "botania:pylon:1",
+    "category": "collected_knowledge/multiblocks",
+    "advancement": "heavens:bookchap4/13feygrove",
+    "pages": [
+        {
+            "type": "multiblock_bill",
+            "item1": "botania:alfheimportal",
+            "item2": "botania:livingwood#8",
+            "item3": "botania:livingwood:5#3",
+            "item4": "botania:pylon:1#2",
+            "item5": "botania:pool#2"
+        },
+        {
+            "type": "multiblock",
+            "name": "Portal to Alfheim",
+            "multiblock": {
+                "pattern": [
+                    [ " ", "L", "G", "L", " " ],
+                    [ "L", " ", " ", " ", "L" ],
+                    [ "G", " ", " ", " ", "G" ],
+                    [ "L", " ", " ", " ", "L" ],
+                    [ " ", "L", "0", "L", " " ],
+                    [ " ", " ", " ", " ", " " ]
+                ],
+                "mapping": {
+                    " ": "ANY",
+                    "0": "botania:alfheimportal",
+                    "G": "botania:livingwood[variant=glimmering]",
+                    "L": "botania:livingwood"
+                },
+                "symmetrical": false,
+                "offset"     : [0, 0, 0],
+                "view_offset": [0, 0, 0]
+            },
+            "text": "Place 2 $(item)Mana Pools$() nearby with $(item)Natura Pylons$() on top.$(br)$(l)$(l:https://pastebin.com/rqvkSSXT)Structure Template Link$()$(br)Note: Excludes Tile Entities"
+        }
+    ]
+}

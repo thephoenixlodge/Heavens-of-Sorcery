@@ -1,0 +1,21 @@
+{
+    "name": "Altar of Birthing",
+    "icon": "naturesaura:animal_spawner",
+    "category": "collected_knowledge/multiblocks",
+    "advancement": "heavens:bookchap4/17offeringtable",
+    "pages": [
+        {
+            "type": "multiblock_bill",
+            "item1": "naturesaura:animal_spawner",
+            "item2": "naturesaura:infused_brick#16",
+            "item3": "naturesaura:ancient_planks#4",
+            "item4": "minecraft:hay_block#16"
+        },
+        {
+            "type": "multiblock",
+            "name": "Birthing Altar",
+            "multiblock_id": "naturesaura:animal_spawner",
+            "text": "$(l:https://pastebin.com/MX3t7Zqy)Structure Template Link$(/l). $(br)Note: Excludes Tile Entities."
+        }
+    ]
+}

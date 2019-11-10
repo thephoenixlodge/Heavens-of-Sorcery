@@ -2,7 +2,7 @@
     "name": "Bucket of Infinite Color",
     "icon": "naturesaura:color_changer",
     "category": "items",
-    "advancement": "naturesaura:infused_materials",
+    "advancement": "heavens:bookchap4/04naturalaltar",
     "pages": [
         {
             "type": "text",

@@ -1,0 +1,15 @@
+{
+  "parent": "roots:root",
+  "criteria": {
+    "book": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "roots:wildroot"
+          }
+        ]
+      }
+    }
+  }
+}

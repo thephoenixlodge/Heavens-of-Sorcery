@@ -1,0 +1,46 @@
+{
+    "name": "Iridescent Altar",
+    "icon": "astralsorcery:blockaltar:3",
+    "category": "collected_knowledge/multiblocks",
+    "advancement": "heavens:bookchap4/06gemcutterstable",
+    "pages": [
+        {
+            "type": "multiblock_bill_many",
+            "item1": "astralsorcery:blockaltar:3",
+            "item2": "astralsorcery:blockmarble:6#4",
+            "item3": "astralsorcery:blockmarble:1#68",
+            "item4": "astralsorcery:blockmarble:0#12",
+            "item5": "astralsorcery:blockblackmarble#49",
+            "item6": "astralsorcery:blockmarble:2#8",
+            "item7": "astralsorcery:blockmarble:4#4"
+        },
+        {
+            "type": "multiblock",
+            "name": "Iridescent Altar",
+            "multiblock": {
+                "pattern": [
+                    [ "           ", "           ", "  BBB BBB  ", "  B     B  ", "  B     B  ", "           ", "  B     B  ", "  B     B  ", "  BBB BBB  ", "           ", "           " ],
+                    [ "           ", " CB     BC ", " B       B ", "           ", "           ", "           ", "           ", "           ", " B       B ", " CB     BC ", "           " ],
+                    [ "           ", " P       P ", "           ", "           ", "           ", "           ", "           ", "           ", "           ", " P       P ", "           " ],
+                    [ "           ", " P       P ", "           ", "           ", "           ", "           ", "           ", "           ", "           ", " P       P ", "           " ],
+                    [ "           ", " R       R ", "           ", "           ", "           ", "     0     ", "           ", "           ", "           ", " R       R ", "           " ],
+                    [ "BBB     BBB", "BMMBBBBBMMB", "BMSSSSSSSMB", " BSSSSSSSB ", " BSSSSSSSB ", " BSSSSSSSB ", " BSSSSSSSB ", " BSSSSSSSB ", "BMSSSSSSSMB", "BMMBBBBBMMB", "BBB     BBB" ]
+                ],
+                "mapping": {
+                    " ": "ANY",
+                    "0": "astralsorcery:blockaltar[altartype=altar_4]",
+                    "M": "astralsorcery:blockmarble[marbletype=raw]",
+                    "C": "astralsorcery:blockmarble[marbletype=chiseled]",
+                    "B": "astralsorcery:blockmarble[marbletype=bricks]",
+                    "P": "astralsorcery:blockmarble[marbletype=pillar]",
+                    "R": "astralsorcery:blockmarble[marbletype=runed]",
+                    "S": "astralsorcery:blockblackmarble[marbletype=raw]"
+                },
+                "symmetrical": true,
+                "offset"     : [0, 0, 0],
+                "view_offset": [0, 0, 0]
+            },
+            "text": "$(l:https://pastebin.com/xNG1yZzS)Pastebin of Structure$(/l) for use with $(l:useful_things/building_tools/templates)Template Manager$()$(br)Note: Excludes Tile Entities"
+        }
+    ]
+}

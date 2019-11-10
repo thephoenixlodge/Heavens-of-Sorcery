@@ -2,7 +2,7 @@
     "name": "Hopper Enhancement",
     "icon": "naturesaura:hopper_upgrade",
     "category": "using",
-    "advancement": "naturesaura:infused_materials",
+    "advancement": "heavens:bookchap4/04naturalaltar",
     "pages": [
         {
             "type": "text",

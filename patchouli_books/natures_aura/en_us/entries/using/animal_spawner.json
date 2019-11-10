@@ -2,7 +2,7 @@
     "name": "Altar of Birthing",
     "icon": "naturesaura:animal_spawner",
     "category": "using",
-    "advancement": "naturesaura:sky_ingot",
+    "advancement": "heavens:bookchap4/17offeringtable",
     "pages": [
         {
             "type": "text",

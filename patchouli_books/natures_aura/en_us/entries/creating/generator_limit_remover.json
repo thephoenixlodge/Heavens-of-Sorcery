@@ -2,7 +2,7 @@
     "name": "Creational Catalyst",
     "icon": "naturesaura:generator_limit_remover",
     "category": "creating",
-    "advancement": "naturesaura:offering",
+    "advancement": "heavens:bookchap4/17offeringtable",
     "priority": true,
     "pages": [
         {

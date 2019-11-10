@@ -2,9 +2,9 @@
     "name": "Ritual of the Forest",
     "icon": "naturesaura:wood_stand",
     "category": "practices",
-    "advancement": "naturesaura:gold_leaf",
+    "advancement": "heavens:bookchap4/00goldleaf",
     "priority": true,
-    "turnin": "naturesaura:wood_stand",
+    "turnin": "heavens:bookchap4/02forestritual",
     "pages": [
         {
             "type": "text",
@@ -16,7 +16,21 @@
         },
         {
             "type": "multiblock",
-            "multiblock_id": "naturesaura:tree_ritual",
+            "name": "Ritual of the Forest",
+            "multiblock": {
+                "pattern": [
+                    [ "    S    ", " S     S ", "   PPP   ", "  PP PP  ", "S P 0 P S", "  PP PP  ", "   PPP   ", " S     S ", "    S    " ]
+                ],
+                "mapping": {
+                    " ": "ANY",
+                    "0": "blue_skies:bluebright_sapling",
+                    "S": "naturesaura:wood_stand",
+                    "P": "naturesaura:gold_powder"
+                },
+                "symmetrical": true,
+                "offset"     : [0, 0, 0],
+                "view_offset": [0, 0, 0]
+            },
             "text": "Preparing the $(item)Ritual of the Forest$(). It is not required to have all $(item)Wood Stands$() present."
         },
         {

@@ -2,7 +2,7 @@
     "name": "Aura Attraction Cart",
     "icon": "naturesaura:mover_cart",
     "category": "devices",
-    "advancement": "naturesaura:aura_bottle_end",
+    "advancement": "heavens:bookchap4/21darkness",
     "pages": [
         {
             "type": "text",

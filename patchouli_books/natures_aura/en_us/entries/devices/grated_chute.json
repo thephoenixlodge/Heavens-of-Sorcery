@@ -2,7 +2,7 @@
     "name": "Adept Hopper",
     "icon": "naturesaura:grated_chute",
     "category": "devices",
-    "advancement": "naturesaura:infused_materials",
+    "advancement": "heavens:bookchap4/04naturalaltar",
     "pages": [
         {
             "type": "text",

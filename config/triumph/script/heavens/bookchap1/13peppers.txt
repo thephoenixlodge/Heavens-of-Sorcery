@@ -12,8 +12,8 @@ setPos(140,-10)
 drawDirectLines()
 
 criteria1 = addCriteria("hasItemsChili", "minecraft:inventory_changed")
-criteria1.addItem(<rustic:chili_pepper_seeds, count:1>)
+criteria1.addItem(<rustic:chili_pepper_seeds, count:1~>)
 criteria2 = addCriteria("hasItemsStake", "minecraft:inventory_changed")
-criteria2.addItem(<rustic:crop_stake, count:1>)
+criteria2.addItem(<rustic:crop_stake, count:1~>)
 
 addRewardItem(<rustic:chili_pepper, count:6>)

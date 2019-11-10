@@ -14,7 +14,7 @@
         },
         {
             "type": "text",
-            "text": "Firstly, spellcrafting requires a big ol' $(item)Altar$(). To build it, you're going to need a combination of $(item)Quartz$(), $(item)Wisdom Wood$() and $(item)Gold$(), along with an $(thing)open 9x9 area$()."
+            "text": "Firstly, spellcrafting requires a big ol' $(item)Altar$(). To build it, you're going to need a combination of $(item)Quartz$(), $(item)Wisdom Wood$() and $(item)Gold$(), along with an $(thing)open 9x9 area$(). Once constructed, you'll need to place $(item)Glass Orbs$() in the $(item)Orb Holders$()"
         },
         {
         	"type": "checklist_many",

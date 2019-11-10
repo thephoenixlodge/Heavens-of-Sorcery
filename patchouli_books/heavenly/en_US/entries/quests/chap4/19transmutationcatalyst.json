@@ -1,0 +1,25 @@
+{
+    "name": "The Ol' Switcheroo",
+    "icon": "naturesaura:conversion_catalyst",
+    "category": "quests/chap4",
+    "sortnum": 19,
+    "advancement": "heavens:bookchap4/17offeringtable",
+    "turnin": "heavens:bookchap4/19transmutationcatalyst",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "The Ol' Switcheroo",
+            "trigger": "heavens:bookchap4/19transmutationcatalyst",
+            "text": "I think it's time we give the $(item)Natural Altar$() a bit of an upgrade. Crafting a Transmutation catalyst, and placing it on one of the short pillars in tha Altar structure will allow it to perform some simple transmutations."
+        },
+        {
+            "type": "checklist_end",
+            "item1": "naturesaura:conversion_catalyst",
+            "reward1": "minecraft:prismarine:1#150"
+        },
+        {
+            "type": "tree_ritual",
+            "recipe": "crafttweaker:conversion_catalyst"
+        }
+    ]
+}

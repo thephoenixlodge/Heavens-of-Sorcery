@@ -1,0 +1,43 @@
+{
+    "name": "Cut and Polish",
+    "icon": "arcanearchives:gemcutters_table",
+    "category": "quests/chap4",
+    "sortnum": 6,
+    "advancement": "heavens:bookchap4/05radiantresonator",
+    "turnin": "heavens:bookchap4/06gemcutterstable",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "Cut and Polish",
+            "trigger": "heavens:bookchap4/06gemcutterstable",
+            "text": "$(item)Raw Radiant Quartz$() is pretty useful by itself, but if we can refine it further, it'll be significantly more so. To do this, you'll need a specialized $(item)Gem Cutter's Table$()."
+        },
+        {
+            "type": "checklist_end",
+            "item1": "arcanearchives:gemcutters_table",
+            "reward1": "arcanearchives:radiant_trove#4",
+            "reward2": "arcanearchives:raw_quartz#20"
+        },
+        {
+            "type": "altar_celestial",
+            "description": "Crafting the $(item)Gem Cutter's Table$()",
+            "output_item": "arcanearchives:gemcutters_table",
+            "item4": "astralsorcery:blockmachine:1",
+            "item5": "astralsorcery:itemcraftingcomponent:3",
+            "item6": "minecraft:paper",
+            "item7": "embers:ingot_dawnstone",
+            "item8": "astralsorcery:blockaltar",
+            "item9": "embers:ingot_dawnstone",
+            "item10": "blue_skies:diopside_gem",
+            "item11": "minecraft:diamond",
+            "item14": "blue_skies:pyrope_gem",
+            "item15": "arcaneworld:sapphire",
+            "item16": "blue_skies:turquoise_gem",
+            "item17": "aether_legacy:zanite_gemstone",
+            "item18": "arcanearchives:raw_quartz",
+            "item19": "arcanearchives:raw_quartz",
+            "item20": "astralsorcery:blockinfusedwood",
+            "item21": "astralsorcery:blockinfusedwood"
+        }
+    ]
+}

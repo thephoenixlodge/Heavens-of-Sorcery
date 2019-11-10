@@ -2,7 +2,7 @@
     "name": "Aura Detector",
     "icon": "naturesaura:aura_detector",
     "category": "devices",
-    "advancement": "naturesaura:infused_materials",
+    "advancement": "heavens:bookchap4/04naturalaltar",
     "pages": [
         {
             "type": "text",

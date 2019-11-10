@@ -1,0 +1,76 @@
+{
+    "name": "Truly Iridescent",
+    "icon": "astralsorcery:blockaltar:3",
+    "category": "quests/chap4",
+    "sortnum": 10,
+    "advancement": "heavens:bookchap4/06gemcutterstable",
+    "turnin": "heavens:bookchap4/10iridescentaltar",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "Truly Iridescent",
+            "trigger": "heavens:bookchap4/10iridescentaltar",
+            "text": "With $(item)Magic Crystal$() and $(item)Radiant Quartz$(), you now have everything needed for the final upgrade for your $(thing)Starlight$() Altar - the $(item)Iridescent Altar$(). As well as an expanded recipe grid, this new upgrade can perform recipes attuned to specific constellations, and pull even more items from nearby $(item)Spectral Relays$()."
+        },
+        {
+            "type": "checklist_end",
+            "item1": "astralsorcery:blockaltar:3",
+            "reward1": "astralsorcery:blockattunementrelay#5",
+            "reward2": "ebwizardry:magic_crystal#15"
+        },
+        {
+            "type": "altar_celestial",
+            "description": "Upgrading to the $(item)Iridescent Altar$()",
+            "output_item": "ebwizardry:arcane_workbench",
+            "item1": "astralsorcery:blockmarble:6",
+            "item2": "astralsorcery:itemcraftingcomponent:3",
+            "item3": "astralsorcery:blockmarble:6",
+            "item4": "ebwizardry:magic_crystal",
+            "item5": "astralsorcery:itemcelestialcrystal",
+            "item6": "ebwizardry:magic_crystal",
+            "item7": "astralsorcery:blockmarble:6",
+            "item8": "contenttweaker:rune_starlight",
+            "item9": "astralsorcery:blockmarble:6",
+            "item10": "astralsorcery:blockmarble:6",
+            "item11": "astralsorcery:blockmarble:6",
+            "item12": "astralsorcery:blockmarble:6",
+            "item13": "astralsorcery:blockmarble:6",
+            "item14": "astralsorcery:blockblackmarble",
+            "item15": "astralsorcery:blockblackmarble",
+            "item16": "astralsorcery:itemcraftingcomponent:4",
+            "item17": "arcanearchives:shaped_quartz",
+            "item18": "arcanearchives:shaped_quartz",
+            "item19": "astralsorcery:itemcraftingcomponent:4",
+            "item20": "astralsorcery:blockblackmarble",
+            "item21": "astralsorcery:blockblackmarble"
+        },
+        {
+            "type": "multiblock",
+            "name": "Iridescent Altar",
+            "multiblock": {
+                "pattern": [
+                    [ "           ", "           ", "  BBB BBB  ", "  B     B  ", "  B     B  ", "           ", "  B     B  ", "  B     B  ", "  BBB BBB  ", "           ", "           " ],
+                    [ "           ", " CB     BC ", " B       B ", "           ", "           ", "           ", "           ", "           ", " B       B ", " CB     BC ", "           " ],
+                    [ "           ", " P       P ", "           ", "           ", "           ", "           ", "           ", "           ", "           ", " P       P ", "           " ],
+                    [ "           ", " P       P ", "           ", "           ", "           ", "           ", "           ", "           ", "           ", " P       P ", "           " ],
+                    [ "           ", " R       R ", "           ", "           ", "           ", "     0     ", "           ", "           ", "           ", " R       R ", "           " ],
+                    [ "BBB     BBB", "BMMBBBBBMMB", "BMSSSSSSSMB", " BSSSSSSSB ", " BSSSSSSSB ", " BSSSSSSSB ", " BSSSSSSSB ", " BSSSSSSSB ", "BMSSSSSSSMB", "BMMBBBBBMMB", "BBB     BBB" ]
+                ],
+                "mapping": {
+                    " ": "ANY",
+                    "0": "astralsorcery:blockaltar[altartype=altar_4]",
+                    "M": "astralsorcery:blockmarble[marbletype=raw]",
+                    "C": "astralsorcery:blockmarble[marbletype=chiseled]",
+                    "B": "astralsorcery:blockmarble[marbletype=bricks]",
+                    "P": "astralsorcery:blockmarble[marbletype=pillar]",
+                    "R": "astralsorcery:blockmarble[marbletype=runed]",
+                    "S": "astralsorcery:blockblackmarble[marbletype=raw]"
+                },
+                "symmetrical": true,
+                "offset"     : [0, 0, 0],
+                "view_offset": [0, 0, 0]
+            },
+            "text": "$(l:https://pastebin.com/xNG1yZzS)Pastebin of Structure$(/l) for use with $(l:useful_things/building_tools/templates)Template Manager$()"
+        }
+    ]
+}

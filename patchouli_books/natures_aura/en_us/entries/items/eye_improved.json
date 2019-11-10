@@ -2,7 +2,7 @@
     "name": "Environmental Ocular",
     "icon": "naturesaura:eye_improved",
     "category": "items",
-    "advancement": "naturesaura:end_flower",
+    "advancement": "heavens:bookchap4/19transmutationcatalyst",
     "pages": [
         {
             "type": "text",

@@ -1,0 +1,16 @@
+{
+    "parent": "roots:wildroot",
+    "criteria": {
+        "book": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "patchouli:guide_book",
+                        "nbt": "{\"patchouli:book\":  \"roots:roots_guide\"}"
+                    }
+                ]
+            }
+        }
+    }
+}

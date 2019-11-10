@@ -40,6 +40,7 @@
 		{
 			"type": "header",
 			"text": "Rewards:",
+			"guard": "#reward1->iexists",
 			"x": -1,
 			"y": 113
 		},
@@ -47,6 +48,7 @@
 			"type": "item",
 			"item": "#reward1",
 			"framed": "true",
+			"guard": "#reward1->iexists",
 			"x": 20,
 			"y": 127
 		},
@@ -54,6 +56,7 @@
 			"type": "item",
 			"item": "#reward2",
 			"framed": "true",
+			"guard": "#reward1->iexists",
 			"x": 50,
 			"y": 127
 		},
@@ -61,8 +64,15 @@
 			"type": "item",
 			"item": "#reward3",
 			"framed": "true",
+			"guard": "#reward1->iexists",
 			"x": 80,
 			"y": 127
+		},
+		{
+			"type": "text",
+			"text": "#description",
+			"x": 2,
+			"y": 113
 		}
 	]
 }

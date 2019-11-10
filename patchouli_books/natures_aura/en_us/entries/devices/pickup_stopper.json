@@ -2,7 +2,7 @@
     "name": "Item Grounder",
     "icon": "naturesaura:pickup_stopper",
     "category": "devices",
-    "advancement": "naturesaura:infused_materials",
+    "advancement": "heavens:bookchap4/04naturalaltar",
     "pages": [
         {
             "type": "text",

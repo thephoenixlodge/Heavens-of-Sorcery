@@ -1,0 +1,8 @@
+{
+  "parent": "roots:terra_moss",
+  "criteria": {
+    "book": {
+      "trigger": "roots:grove_activate"
+    }
+  }
+}

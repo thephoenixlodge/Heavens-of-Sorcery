@@ -1,0 +1,32 @@
+{
+    "name": "Resonous",
+    "icon": "arcanearchives:radiant_resonator",
+    "category": "quests/chap4",
+    "sortnum": 5,
+    "advancement": "heavens:bookchap4/02forestritual",
+    "turnin": "heavens:bookchap4/05radiantresonator",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "Resonous",
+            "trigger": "heavens:bookchap4/05radiantresonator",
+            "text": "With these new materials, it's possible to craft a device which vibrates in frequency with your soul. While this doesn't sound all that practical, it uses the energy from this resonance to coalesce an incredibly pure type of quartz - $(item)Radiant Quartz$()."
+        },
+        {
+            "type": "text",
+            "text": "This material can be used in contruction of many things which will all resonate in tune with the soul of whomever placed them.$(br2)Unfortunately, these resonators are not without cost - only 3 can be placed at a given time, lest they do lasting harm to your soul."
+        },
+        {
+            "type": "checklist_end",
+            "item1": "arcanearchives:radiant_resonator",
+            "reward1": "arcanearchives:radiant_resonator#1",
+            "reward2": "arcanearchives:raw_quartz#5",
+            "reward3": "arcanearchives:tome_arcana{Book:\"arcanearchives:xml/tome.xml\"}"
+        },
+        {
+            "type": "tree_ritual",
+            "text": "Creating the $(item)Radiant Resonator$() using the $(l:quests/chap4/02forestritual)Ritual of the Forest$().",
+            "recipe": "contenttweaker:resonator"
+        }
+    ]
+}

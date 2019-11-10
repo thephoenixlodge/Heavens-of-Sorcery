@@ -1,6 +1,7 @@
 {
 	"name": "Diary of the Doomed",
-	"landing_text": "Go explore the Dimensional Rifts they said. It'll be fine they said...",
+	"subtitle": "Property of Grandmage Ley",
+	"landing_text": "Go investigate the Labyrinth Rifts they said. It'll be fine they said...",
 	"version": 1,
 	"book_texture": "patchouli:textures/gui/book_red.png",
 	"model": "patchouli:book_red",

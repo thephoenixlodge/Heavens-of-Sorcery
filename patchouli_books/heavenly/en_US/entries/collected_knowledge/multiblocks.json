@@ -14,10 +14,16 @@
             "entries": [
                 "collected_knowledge/multiblocks/starlight_altar",
                 "collected_knowledge/multiblocks/spellcrafting_altar",
+                "collected_knowledge/multiblocks/iridescent_altar",
                 "collected_knowledge/multiblocks/mana_battery",
                 "collected_knowledge/multiblocks/attunement_altar",
                 "collected_knowledge/multiblocks/celestial_altar",
-                "collected_knowledge/multiblocks/starlight_infuser"
+                "collected_knowledge/multiblocks/starlight_infuser",
+                "collected_knowledge/multiblocks/forest_ritual",
+                "collected_knowledge/multiblocks/natural_altar",
+                "collected_knowledge/multiblocks/alfheim_portal",
+                "collected_knowledge/multiblocks/birthing_altar",
+                "collected_knowledge/multiblocks/offering_table"
             ]
         },
         {

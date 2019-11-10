@@ -12,6 +12,6 @@ setPos(105,60)
 drawDirectLines()
 
 criteria1 = addCriteria("hasItemsSugarSeeds", "minecraft:inventory_changed")
-criteria1.addItem(<inspirations:sugar_cane_seeds, count:1>)
+criteria1.addItem(<inspirations:sugar_cane_seeds, count:1~>)
 
 addRewardItem(<minecraft:paper, count:10>)

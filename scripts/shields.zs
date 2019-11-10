@@ -30,6 +30,7 @@ val stickLivingwood = <botania:manaresource:3>;
 val stickDreamwood = <botania:manaresource:13>;
 val stickLunar = <blue_skies:lunar_stick>;
 val stickBluebright = <blue_skies:bluebright_stick>;
+val stickAncient = <naturesaura:ancient_stick>;
 val devilDust = <wizardry:devil_dust>;
 val logWisdomWood = <wizardry:wisdom_wood_log>;
 val plankWisdomWoodPigmented = <wizardry:wisdom_wood_pigmented_planks>;
@@ -53,6 +54,11 @@ val manaDiamond = <botania:manaresource:2>;
 val ingotElementium = <botania:manaresource:7>;
 val dragonstone = <botania:manaresource:9>;
 val ingotTerrasteel = <botania:manaresource:4>;
+val ingotInfused = <naturesaura:infused_iron>;
+val ingotSkies = <naturesaura:sky_ingot>;
+val infusedRock = <naturesaura:infused_stone>;
+val goldPowder = <naturesaura:gold_powder>;
+val spiritCalling = <naturesaura:calling_spirit>;
 
 //wooden shield
 recipes.remove(shieldWood);
@@ -105,3 +111,12 @@ Altar.addConstellationAltarRecipe("shield/terrasteel", shieldTerrasteel, 2000, 5
 //elementium shield
 recipes.remove(shieldElementium);
 Altar.addConstellationAltarRecipe("shield/elementium", shieldElementium, 2000, 500, [stickLivingwood, ingotElementium, stickLivingwood, dragonstone, shieldManasteel, dragonstone, stickLivingwood, ingotElementium, stickLivingwood, null, null, null, null, stickDreamwood, stickDreamwood, stickDreamwood, stickDreamwood, stickDreamwood, stickDreamwood, stickDreamwood, stickDreamwood]);
+
+//infused iron shield
+recipes.remove(shieldInfusedIron);
+Altar.addConstellationAltarRecipe("shield/infused", shieldInfusedIron, 2000, 500, [null, infusedRock, null, infusedRock, shieldDiamond, infusedRock, ingotInfused, infusedRock, ingotInfused, null, null, ingotInfused, ingotInfused, stickLunar, stickBluebright, stickBluebright, stickLunar, stickLunar, stickBluebright, stickBluebright, stickLunar]);
+globals.setNewName(shieldInfusedIron, "Infused Aura Shield");
+
+//ingot of skies shield
+recipes.remove(shieldSkyIngot);
+Altar.addConstellationAltarRecipe("shield/skies", shieldSkyIngot, 2200, 500, [null, spiritCalling, null, goldPowder, shieldInfusedIron, goldPowder, ingotSkies, spiritCalling, ingotSkies, null, null, ingotSkies, ingotSkies, stickAncient, stickAncient, stickAncient, stickAncient, stickAncient, stickAncient, stickAncient, stickAncient]);

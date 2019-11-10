@@ -14,7 +14,7 @@
         },
         {
             "type": "text",
-            "text": "Hopefully opening up this realm of fire will grant you the means to get many new resources. To access the nether, build a frame of 10 or more $(item)Obsidian$() and ignite it to open the gateway."
+            "text": "Hopefully opening up this realm of fire will grant you the means to get many new resources. To access the nether, build a frame of 10 or more $(item)Obsidian$() (chiseled variants are allowed) and ignite it to open the gateway."
         },
         {
         	"type": "location",
@@ -27,23 +27,23 @@
             "name": "Nether Portal",
             "text": "Portal Frame can be various sizes (Frame size shown is the smallest allowed). Activate by lighting a fire.",
             "multiblock": {
-            "pattern": [
-                [ " ", "O", "O", " " ],
-                [ "O", "P", "P", "O" ],
-                [ "O", "P", "P", "O" ],
-                [ "O", "P", "P", "O" ],
-                [ " ", "O", "0", " " ],
-                [ " ", " ", " ", " " ]
-            ],
-            "mapping": {
-                " ": "ANY",
-                "0": "minecraft:obsidian",
-                "O": "minecraft:obsidian",
-                "P": "AIR"
-            },
-            "symmetrical": false,
-            "offset"     : [0, 0, 0],
-            "view_offset": [0, 0, 0]
+                "pattern": [
+                    [ " ", "O", "O", " " ],
+                    [ "O", "P", "P", "O" ],
+                    [ "O", "P", "P", "O" ],
+                    [ "O", "P", "P", "O" ],
+                    [ " ", "O", "0", " " ],
+                    [ " ", " ", " ", " " ]
+                ],
+                "mapping": {
+                    " ": "ANY",
+                    "0": "minecraft:obsidian",
+                    "O": "minecraft:obsidian",
+                    "P": "AIR"
+                },
+                "symmetrical": false,
+                "offset"     : [0, 0, 0],
+                "view_offset": [0, 0, 0]
             }
         }
     ]

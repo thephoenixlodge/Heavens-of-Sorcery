@@ -1,0 +1,18 @@
+setTitle("Discoveries of the Doomed")
+
+setIcon(<patchouli:guide_book, nbt:{"patchouli:book":"patchouli:doomed"}>)
+
+setDescription("What have we here..?")
+
+setBackground("bloodmagic:textures/blocks/bloodstonebrick.png")
+
+setShowToast(false)
+
+setAnnounceToChat(false)
+
+setPos(0,0)
+
+setRequirements("any")
+
+criteria = addCriteria("locationDimDoorsDungeon", "minecraft:changed_dimension")
+criteria.setDimensionDestination("dungeon_pockets")

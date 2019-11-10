@@ -1,3 +1,0 @@
-// username: url2_to.png
-// uuid: url_to.png
-// For more info see https://guides.latmod.com/ftbutilities/ranks/badges/

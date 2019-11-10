@@ -1,0 +1,49 @@
+{
+    "name": "It's Only Natural",
+    "icon": "naturesaura:nature_altar",
+    "category": "quests/chap4",
+    "sortnum": 4,
+    "advancement": "heavens:bookchap4/02forestritual",
+    "turnin": "heavens:bookchap4/04naturalaltar",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "It's Only Natural",
+            "trigger": "heavens:bookchap4/04naturalaltar",
+            "text": "$(item)Gold Leaf$(), along with the $(item)Charoite gems$() from the $(thing)Everbright$() and $(thing)Everdawn$() were the final missing ingredients to be able to construst a $(item)Terrestrial Agglomeration Plate$().$(br)In its default configuration, this device allows creation of the most powerful $(thing)Mana$() attuned material - $(item)Terrasteel$()."
+        },
+        {
+            "type": "checklist_end",
+            "item1": "naturesaura:nature_altar",
+            "item2": "roots:wildroot",
+            "reward1": "roots:wildroot#5"
+        },
+        {
+            "type": "tree_ritual",
+            "text": "Creating the $(item)Natural Altar$() using the $(l:quests/chap4/02forestritual)Ritual of the Forest$().",
+            "recipe": "naturesaura:nature_altar"
+        },
+        {
+            "type": "multiblock",
+            "name": "Natural Altar",
+            "multiblock_id": "naturesaura:altar",
+            "text": "How to assemble the $(item)Natural Altar$(). Note the block under the altar is empty, so can be used for automation."
+        },
+        {
+            "type": "nature_altar",
+            "recipe": "crafttweaker:wildroot"
+        },
+        {
+            "type": "crafting",
+            "recipe": "naturesaura:gold_brick"
+        },
+        {
+            "type": "nature_altar",
+            "recipe": "infused_stone"
+        },
+        {
+            "type": "nature_altar",
+            "recipe": "infused_iron"
+        }
+    ]
+}

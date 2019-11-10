@@ -1,0 +1,6 @@
+{
+	"name": "Arcanist's Magicks",
+	"description": "Yet more realms await us. It seems some folk have survived in the $(thing)Everbright$() though they seem outright unfriendly. And who knows what awaits in the dark reaches of the $(thing)Everdawn$()?",
+	"icon": "patchouli:guide_book{\"patchouli:book\":\"patchouli:natures_aura\"}",
+	"sortnum": 3
+}

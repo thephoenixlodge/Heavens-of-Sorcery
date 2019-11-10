@@ -1,0 +1,30 @@
+{
+    "name": "Caution: Makes Big Tree",
+    "icon": "thebetweenlands:swamp_talisman",
+    "category": "quests/chap4",
+    "sortnum": 24,
+    "advancement": "heavens:bookchap4/22darkdruid",
+    "turnin": "heavens:bookchap4/24swamptalisman",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "Caution: Makes Big Tree",
+            "trigger": "heavens:bookchap4/24swamptalisman",
+            "text": "With the fragments recovered from the $(thing)Dark Druids$(), its time to reconstruct the key $(item)Swamp Talisman$(), which acts as a key to opening the way to the $(thing)Betweenlands$(). Once you get there, it should be possible to launch a more thorough investigation into what's going on."
+        },
+        {
+            "type": "checklist_end",
+            "item1": "thebetweenlands:swamp_talisman",
+            "reward1": "minecraft:golden_apple:1#3"
+        },
+        {
+            "type": "druid_altar",
+            "heading": "Swamp Talisman",
+            "output_item": "thebetweenlands:swamp_talisman",
+            "item1": "thebetweenlands:swamp_talisman:1",
+            "item2": "thebetweenlands:swamp_talisman:2",
+            "item3": "thebetweenlands:swamp_talisman:3",
+            "item4": "thebetweenlands:swamp_talisman:4"
+        }
+    ]
+}

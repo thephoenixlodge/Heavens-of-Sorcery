@@ -1,0 +1,73 @@
+{
+	"components": [
+		{
+			"type": "header",
+			"text": "#heading",
+			"x": -1,
+			"y": -5
+		},
+		{
+			"type": "image",
+			"image": "books:templates/druid_altar.png",
+			"texture_width": 64,
+			"texture_height": 64,
+			"width": 64,
+			"height": 64,
+			"scale": 1.5,
+			"x": 10,
+			"y": 15
+		},
+		{
+			"type": "item",
+			"item": "thebetweenlands:druid_altar",
+			"x": 50,
+			"y": 80
+		},
+		{
+			"type": "item",
+			"item": "#output_item",
+			"framed": "false",
+			"link_recipe": "true",
+			"x": 50,
+			"y": 55
+		},
+		{
+			"type": "item",
+			"item": "#item1",
+			"guard": "#item1->iexists",
+			"framed": "false",
+			"x": 19,
+			"y": 24
+		},
+		{
+			"type": "item",
+			"item": "#item2",
+			"guard": "#item2->iexists",
+			"framed": "false",
+			"x": 82,
+			"y": 24
+		},
+		{
+			"type": "item",
+			"item": "#item3",
+			"guard": "#item3->iexists",
+			"framed": "false",
+			"x": 19,
+			"y": 86
+		},
+		{
+			"type": "item",
+			"item": "#item4",
+			"guard": "#item4->iexists",
+			"framed": "false",
+			"x": 82,
+			"y": 86
+		},
+		{
+			"type": "text",
+			"text": "#description",
+			"x": 2,
+			"y": 120
+		}
+	]
+}

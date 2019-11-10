@@ -1,0 +1,18 @@
+{
+    "name": "Offering Table",
+    "icon": "naturesaura:offering_table",
+    "category": "collected_knowledge/multiblocks",
+    "advancement": "heavens:bookchap4/16runicshears",
+    "pages": [
+        {
+            "type": "multiblock_bill",
+            "item1": "naturesaura:offering_table",
+            "item2": "minecraft:yellow_flower#36{display: {Name: \"Any Flower\"}}"
+        },
+        {
+            "type": "multiblock",
+            "name": "Offering Table",
+            "multiblock_id": "naturesaura:offering_table"
+        }
+    ]
+}
