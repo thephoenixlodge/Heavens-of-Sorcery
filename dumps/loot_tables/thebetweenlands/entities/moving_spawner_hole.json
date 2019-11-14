@@ -1,0 +1,23 @@
+{
+  "pools": [
+    {
+      "name": "moving_spawner_hole",
+      "entries": [
+        {
+          "entryName": "thebetweenlands:sludge_worm_egg_sac",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:sludge_worm_egg_sac"
+        },
+        {
+          "entryName": "empty",
+          "weight": 2,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+    "pools": [
+        {
+			"name": "chest",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "blue_skies:chests/blinding_dungeon/library_chest",
+                    "weight": 1
+                }
+            ]
+        },
+		{
+			"name": "key",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "blue_skies:dungeon_key"
+                }
+			]
+        }
+    ]
+}

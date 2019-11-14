@@ -180,6 +180,32 @@
         }
       ],
       "rolls": 1.0
+    },
+    {
+      "name": "bm_book",
+      "entries": [
+        {
+          "entryName": "patchouli:guide_book",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{\"patchouli:book\":\"patchouli:doomed\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "patchouli:guide_book"
+        },
+        {
+          "entryName": "bloodmagic:sentient_sword",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "bloodmagic:sentient_sword"
+        }
+      ],
+      "rolls": 1.0
     }
   ]
 }

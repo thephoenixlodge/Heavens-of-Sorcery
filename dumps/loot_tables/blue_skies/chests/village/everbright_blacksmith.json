@@ -1,0 +1,166 @@
+{
+    "pools": [
+        {
+			"name": "chest",
+            "rolls": {
+                "min": 3,
+                "max": 8
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "blue_skies:pyrope_gem",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ],
+                    "weight": 7
+                },
+                {
+                    "type": "item",
+                    "name": "blue_skies:turquoise_gem",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 5
+                            }
+                        }
+                    ],
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "blue_skies:diopside_gem",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ],
+                    "weight": 4
+                },
+                {
+                    "type": "item",
+                    "name": "blue_skies:azulfo_steak",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ],
+                    "weight": 15
+                },
+                {
+                    "type": "item",
+                    "name": "blue_skies:raspberry",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ],
+                    "weight": 15
+                },
+                {
+                    "type": "item",
+                    "name": "blue_skies:devine",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "blue_skies:everbright_turquoise_pickaxe",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "blue_skies:everbright_turquoise_sword",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "blue_skies:turquoise_chestplate",
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "blue_skies:turquoise_helmet",
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "blue_skies:turquoise_leggings",
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "blue_skies:turquoise_boots",
+                    "weight": 2
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:obsidian",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 3,
+                                "max": 7
+                            }
+                        }
+                    ],
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "blue_skies:bluebright_sapling",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 3,
+                                "max": 7
+                            }
+                        }
+                    ],
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:saddle",
+                    "weight": 3
+                },
+                {
+                    "type": "item",
+                    "name": "blue_skies:cherry",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "blue_skies:pink_raspberry",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "blue_skies:charoite",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

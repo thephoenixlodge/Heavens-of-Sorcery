@@ -3,6 +3,7 @@ import mods.jei.JEI;
 import mods.ArcaneWorld;
 import crafttweaker.item.IItemStack;
 import scripts.globals;
+import mods.naturesaura.Altar as NatureAltar;
 
 ////Variables
 val clayTile = <cathedral:firedtile>;
@@ -67,6 +68,8 @@ val similsax = <similsaxtranstructors:similsaxtranstructorbasic>;
 val similsaxAdv = <similsaxtranstructors:similsaxtranstructoradvanced>;
 val nuggetDiamond = <extrabitmanipulation:diamond_nugget>;
 val ingotIron = <minecraft:iron_ingot>;
+val diamond = <minecraft:diamond>;
+val ingotGold = <minecraft:gold_ingot>;
 val enderPearl = <minecraft:ender_pearl>;
 val bookNA = <patchouli:guide_book>.withTag({"patchouli:book": "patchouli:natures_aura"});
 val book = <minecraft:book>;
@@ -91,16 +94,14 @@ val nuggetManasteel = <botania:manaresource:17>;
 val chainBrass = <rusticthaumaturgy:chain_brass>;
 val nuggetBrass = <thaumcraft:nugget:8>;
 val chainGloves = <aether_legacy:chain_gloves>;
+val horseArmourIron = <minecraft:iron_horse_armor>;
+val horseArmourGold = <minecraft:golden_horse_armor>;
+val horseArmourDiamond = <minecraft:diamond_horse_armor>;
+val crumblingCatalyst = <naturesaura:crushing_catalyst>;
 
 //tweak clay tile related recipes
 recipes.remove(terracottaShingle);
 recipes.addShaped(terracottaShingle * 4, [[clayTile, clayTile], [clayTile, clayTile]]);
-
-//Change YABBA Barrel recipe to default to the Crate model
-//recipes.remove(yabbaBarrel);
-//recipes.addShaped(yabbaBarrelCrate, [[blockQuartz, slabQuartz, blockQuartz], [itemQuartz, chest, itemQuartz], [blockQuartz, slabQuartz, blockQuartz]]);
-//JEI.hide(yabbaBarrel);
-//JEI.addItem(yabbaBarrelCrate);
 
 //Artifacts recycling
 for artifact in artifactsArray {
@@ -151,3 +152,8 @@ recipes.addShaped(chainGloves, [[chainItem, null, chainItem]]);
 //cuisine book
 recipes.remove(bookCuisine);
 recipes.addShapeless(bookCuisine, [book, flour]);
+
+//horse armour recycling
+NatureAltar.addRecipe("iron_horse_armour", horseArmourIron, ingotIron * 6, crumblingCatalyst, 15000, 80);
+NatureAltar.addRecipe("gold_horse_armour", horseArmourGold, ingotGold * 6, crumblingCatalyst, 15000, 80);
+NatureAltar.addRecipe("diamond_horse_armour", horseArmourDiamond, diamond * 6, crumblingCatalyst, 15000, 80);

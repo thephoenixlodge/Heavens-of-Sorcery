@@ -1,0 +1,99 @@
+{
+  "pools": [
+    {
+      "name": "sludge_worm_dungeon_item_shelf",
+      "entries": [
+        {
+          "entryName": "empty",
+          "weight": 120,
+          "quality": 0,
+          "type": "empty"
+        },
+        {
+          "entryName": "green_dentrothyst_vial",
+          "weight": 25,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thebetweenlands:dentrothyst_vial"
+        },
+        {
+          "entryName": "orange_dentrothyst_vial",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 2.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thebetweenlands:dentrothyst_vial"
+        },
+        {
+          "entryName": "aqua_middle_gem",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:aqua_middle_gem"
+        },
+        {
+          "entryName": "crimson_middle_gem",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:crimson_middle_gem"
+        },
+        {
+          "entryName": "green_middle_gem",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:green_middle_gem"
+        },
+        {
+          "entryName": "thebetweenlands:reed_donut",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:reed_donut"
+        },
+        {
+          "entryName": "thebetweenlands:items_plant_drop",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": {
+                "min": 41.0,
+                "max": 47.0
+              },
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thebetweenlands:items_plant_drop"
+        },
+        {
+          "entryName": "thebetweenlands:manual_hl",
+          "weight": 8,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:manual_hl"
+        }
+      ],
+      "rolls": {
+        "min": 1.0,
+        "max": 3.0
+      }
+    }
+  ]
+}

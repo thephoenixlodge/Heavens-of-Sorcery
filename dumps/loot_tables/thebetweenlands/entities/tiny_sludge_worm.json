@@ -1,0 +1,134 @@
+{
+  "pools": [
+    {
+      "name": "squashed_drops",
+      "entries": [
+        {
+          "entryName": "thebetweenlands:items_misc",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 43.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thebetweenlands:items_misc"
+        },
+        {
+          "entryName": "empty",
+          "weight": 50,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "properties": {
+            "thebetweenlands:sludge_worm_squashed": true
+          },
+          "entity": "this",
+          "condition": "minecraft:entity_properties"
+        }
+      ]
+    },
+    {
+      "name": "regular_drops",
+      "entries": [
+        {
+          "entryName": "empty",
+          "weight": 1,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "spook_candy",
+      "entries": [
+        {
+          "entryName": "empty",
+          "weight": 8,
+          "quality": 0,
+          "type": "empty"
+        },
+        {
+          "entryName": "thebetweenlands:candy_blue",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:candy_blue"
+        },
+        {
+          "entryName": "thebetweenlands:candy_red",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:candy_red"
+        },
+        {
+          "entryName": "thebetweenlands:candy_yellow",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:candy_yellow"
+        }
+      ],
+      "rolls": 2.0,
+      "conditions": [
+        {
+          "inverse": false,
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "properties": {
+            "thebetweenlands:is_event_active": {
+              "event": "thebetweenlands:spook",
+              "active": true
+            }
+          },
+          "entity": "this",
+          "condition": "minecraft:entity_properties"
+        }
+      ]
+    },
+    {
+      "name": "winter_mince_pie",
+      "entries": [
+        {
+          "entryName": "empty",
+          "weight": 3,
+          "quality": 0,
+          "type": "empty"
+        },
+        {
+          "entryName": "thebetweenlands:mince_pie",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:mince_pie"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "inverse": false,
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "properties": {
+            "thebetweenlands:is_event_active": {
+              "event": "thebetweenlands:winter",
+              "active": true
+            }
+          },
+          "entity": "this",
+          "condition": "minecraft:entity_properties"
+        }
+      ]
+    }
+  ]
+}

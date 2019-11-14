@@ -25,7 +25,7 @@ bisonMinDomestication: 500
 bisonOwnableTameness: 900
 bisonRideOneSecondTameness: 3
 bisonRiderTameness: 800
-maxNumberOfBenders: 3
+maxNumberOfBenders: 0
 scrollDropChance:
   zombie_pigman: 0.0
   chicken: 0.0

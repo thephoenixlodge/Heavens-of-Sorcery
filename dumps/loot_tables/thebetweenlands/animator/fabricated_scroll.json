@@ -1,0 +1,37 @@
+{
+  "pools": [
+    {
+      "name": "scroll",
+      "entries": [
+        {
+          "entryName": "thebetweenlands:items_misc",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 48.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thebetweenlands:items_misc"
+        },
+        {
+          "entryName": "thebetweenlands:animator/scroll",
+          "weight": 3,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "thebetweenlands:animator/scroll"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

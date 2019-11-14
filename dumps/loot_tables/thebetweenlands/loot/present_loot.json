@@ -11,8 +11,8 @@
           "functions": [
             {
               "count": {
-                "min": 3.0,
-                "max": 8.0
+                "min": 2.0,
+                "max": 5.0
               },
               "function": "minecraft:set_count"
             }
@@ -27,8 +27,8 @@
           "functions": [
             {
               "count": {
-                "min": 3.0,
-                "max": 8.0
+                "min": 2.0,
+                "max": 5.0
               },
               "function": "minecraft:set_count"
             }
@@ -44,7 +44,7 @@
             {
               "count": {
                 "min": 3.0,
-                "max": 8.0
+                "max": 6.0
               },
               "function": "minecraft:set_count"
             }

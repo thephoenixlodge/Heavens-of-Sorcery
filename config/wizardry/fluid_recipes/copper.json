@@ -1,19 +1,14 @@
 {
   "output": {
-    "item": "embers:nugget_copper"
+    "item": "embers:nugget_copper",
+    "count": 3
   },
   "input": {
     "item": "minecraft:magma"
   },
   "extraInputs": [
     {
-      "item": "rustic:dust_tiny_iron"
-    },
-    {
-      "item": "rustic:dust_tiny_iron"
-    },
-    {
-      "item": "rustic:dust_tiny_iron"
+      "item": "mysticalworld:iron_dust"
     },
     {
       "item": "botania:manaresource",

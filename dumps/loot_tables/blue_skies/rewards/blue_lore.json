@@ -1,0 +1,14 @@
+{
+    "pools": [
+        {
+            "name": "book",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "blue_skies:blue_lore"
+                }
+            ]
+        }
+    ]
+}

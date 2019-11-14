@@ -9,7 +9,7 @@ import crafttweaker.entity.IEntityDefinition;
 
 
 //message from gaia
-events.onCheckSpawn(function(event as EntityLivingExtendedSpawnEvent){
+events.onSpecialSpawn(function(event as EntityLivingExtendedSpawnEvent){
 	if(!isNull(event.entity.definition) && event.entity.definition.id == <entity:botania:doppleganger>.id){
 		var sender = event.entity as ICommandSender;
 		server.commandManager.executeCommand(sender, "say WHERE IS IT??");

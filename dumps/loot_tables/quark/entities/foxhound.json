@@ -1,35 +1,6 @@
 {
   "pools": [
     {
-      "name": "leather",
-      "entries": [
-        {
-          "entryName": "minecraft:leather",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 0.0,
-                "max": 3.0
-              },
-              "function": "minecraft:set_count"
-            },
-            {
-              "count": {
-                "min": 0.0,
-                "max": 1.0
-              },
-              "function": "minecraft:looting_enchant"
-            }
-          ],
-          "name": "minecraft:leather"
-        }
-      ],
-      "rolls": 1.0
-    },
-    {
       "name": "blaze",
       "entries": [
         {
@@ -54,6 +25,36 @@
             }
           ],
           "name": "minecraft:blaze_powder"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "devil_dust",
+      "entries": [
+        {
+          "entryName": "wizardry:devil_dust",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "limit": 5,
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "wizardry:devil_dust"
         }
       ],
       "rolls": 1.0

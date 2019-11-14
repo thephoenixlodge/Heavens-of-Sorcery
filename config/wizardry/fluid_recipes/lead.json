@@ -1,19 +1,14 @@
 {
   "output": {
-    "item": "embers:nugget_lead"
+    "item": "embers:nugget_lead",
+    "count": 3
   },
   "input": {
     "item": "aether_legacy:aechor_petal"
   },
   "extraInputs": [
     {
-      "item": "rustic:dust_tiny_iron"
-    },
-    {
-      "item": "rustic:dust_tiny_iron"
-    },
-    {
-      "item": "rustic:dust_tiny_iron"
+      "item": "mysticalworld:iron_dust"
     },
     {
       "item": "botania:manaresource",

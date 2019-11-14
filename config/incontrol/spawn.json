@@ -1,11 +1,5 @@
 [
 	{
-		"hostile": true,
-		"dimension": 0,
-		"result": "deny"	
-	},
-	{
-		"passive": true,
 		"dimension": 0,
 		"result": "deny"	
 	},
@@ -25,7 +19,25 @@
 	},
 	{
 		"dimension": 5,
+		"mob": [
+			"mysticalworld:entity_deer",
+			"mysticalworld:entity_fox"
+		],
+		"minheight": 120,
+		"maxcount": 10,
+		"result": "allow"
+	},
+	{
+		"dimension": 5,
 		"result": "deny"
+	},
+	{
+		"dimension": 3,
+		"mob": [
+			"avatarmod:skybison"
+		],
+		"maxcount": 5,
+		"result": "allow"
 	},
 	{
 		"dimension": 76,
@@ -34,38 +46,67 @@
 			"ebwizardry:evil_wizard",
 			"ebwizardry:lightning_wraith",
 			"ebwizardry:ice_wraith",
+			"minecraft:bat",
+			"minecraft:evocation_illager",
+			"minecraft:illusion_illager",
+			"minecraft:vindication_illager",
+			"minecraft:witch",
+			"rats:illager_piper",
+			"rats:rat"
+		],
+		"maxlight": 10,
+		"maxcount": 10,
+		"result": "allow"
+	},
+	{
+		"dimension": 76,
+		"mob": [
 			"blue_skies:azulfo",
 			"blue_skies:stardust_ram",
 			"blue_skies:cryno",
 			"blue_skies:reindeer_bs",
-			"minecraft:bat",
 			"minecraft:squid",
-			"minecraft:wolf"
+			"minecraft:wolf",
+			"bewitchment:toad",
+			"avatarmod:otterpenguin"
 		],
-		"result": "default"
+		"maxcount": 15,
+		"result": "allow"
 	},
 	{
 		"dimension": 76,
 		"result": "deny"
 	},
 	{
-		"dimension": 76,
+		"dimension": 77,
 		"mob": [
 			"ebwizardry:evil_wizard",
 			"ebwizardry:lightning_wraith",
 			"ebwizardry:ice_wraith",
 			"blue_skies:venom_spider",
 			"minecraft:witch",
-			"blue_skies:cosmic_fox",
-			"blue_skies:nightshade_bear",
 			"blue_skies:nycto_bug",
-			"blue_skies:firefly_bs",
-			"blue_skies:crystal_camel"
+			"bewitchment:black_dog"
 		],
+		"maxcount": 10,
 		"result": "default"
 	},
 	{
-		"dimension": 76,
+		"dimension": 77,
+		"mob": [
+			"blue_skies:cosmic_fox",
+			"blue_skies:nightshade_bear",
+			"blue_skies:firefly_bs",
+			"blue_skies:crystal_camel",
+			"bewitchment:owl",
+			"mysticalworld:entity_beetle",
+			"bewitchment:raven"
+		],
+		"maxcount": 10,
+		"result": "allow"
+	},
+	{
+		"dimension": 77,
 		"result": "deny"
 	}
 ]

@@ -39,5 +39,151 @@
 				"groupcountmax": 3
 			}
 		]
+	},
+	{
+		"dimension": 5,
+		"mobs": [
+			{
+				"mob": "mysticalworld:entity_deer",
+				"weight": 50,
+				"groupcountmin": 2,
+				"groupcountmax": 5
+			},
+			{
+				"mob": "mysticalworld:entity_fox",
+				"weight": 50,
+				"groupcountmin": 1,
+				"groupcountmax": 3
+			}
+		]
+	},
+	{
+		"dimension": 76,
+		"mobs": [
+			{
+				"mob": "minecraft:evocation_illager",
+				"weight": 3,
+				"groupcountmin": 1,
+				"groupcountmax": 2
+			},
+			{
+				"mob": "minecraft:illusion_illager",
+				"weight": 1,
+				"groupcountmin": 1,
+				"groupcountmax": 2
+			},
+			{
+				"mob": "minecraft:vindication_illager",
+				"weight": 3,
+				"groupcountmin": 1,
+				"groupcountmax": 2
+			},
+			{
+				"mob": "minecraft:witch",
+				"weight": 3,
+				"groupcountmin": 1,
+				"groupcountmax": 2
+			},
+			{
+				"mob": "rats:illager_piper",
+				"weight": 5,
+				"groupcountmin": 1,
+				"groupcountmax": 2
+			},
+			{
+				"mob": "rats:rat",
+				"weight": 15,
+				"groupcountmin": 1,
+				"groupcountmax": 2
+			},
+			{
+				"mob": "bewitchment:raven",
+				"weight": 20,
+				"groupcountmin": 1,
+				"groupcountmax": 2
+			}
+		]
+	},
+	{
+		"dimension": 76,
+		"biometype": "SWAMP",
+		"mobs": [
+			{
+				"mob": "bewitchment:toad",
+				"weight": 5,
+				"groupcountmin": 1,
+				"groupcountmax": 2
+			}
+		]
+	},
+	{
+		"dimension": 76,
+		"biometype": "COLD",
+		"mobs": [
+			{
+				"mob": "avatarmod:otterpenguin",
+				"weight": 5,
+				"groupcountmin": 1,
+				"groupcountmax": 4
+			}
+		]
+	},
+	{
+		"dimension": 77,
+		"biometype": "SPOOKY",
+		"mobs": [
+			{
+				"mob": "bewitchment:black_dog",
+				"weight": 10,
+				"groupcountmin": 1,
+				"groupcountmax": 2
+			}
+		]
+	},
+	{
+		"dimension": 77,
+		"biometype": "FOREST",
+		"mobs": [
+			{
+				"mob": "bewitchment:owl",
+				"weight": 15,
+				"groupcountmin": 1,
+				"groupcountmax": 2
+			},
+			{
+				"mob": "mysticalworld:entity_beetle",
+				"weight": 15,
+				"groupcountmin": 1,
+				"groupcountmax": 2
+			},
+			{
+				"mob": "bewitchment:raven",
+				"weight": 15,
+				"groupcountmin": 1,
+				"groupcountmax": 2
+			}
+		]
+	},
+	{
+		"dimension": 77,
+		"mobs": [
+			{
+				"mob": "minecraft:vindication_illager",
+				"weight": 5,
+				"groupcountmin": 1,
+				"groupcountmax": 2
+			}
+		]
+	},
+	{
+		"dimension": 3,
+		"mobs": [
+			{
+				"mob": "avatarmod:skybison",
+				"weight": 5,
+				"groupcountmin": 1,
+				"groupcountmax": 1
+			}
+		]
 	}
 ]

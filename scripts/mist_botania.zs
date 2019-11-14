@@ -152,6 +152,10 @@ val stalicripe = <roots:stalicripe>;
 val pixieDust = <botania:manaresource:8>;
 val manaDiamond = <botania:manaresource:2>;
 val goldLeaf = <naturesaura:gold_leaf>;
+val endStone = <minecraft:end_stone>;
+val enderPearl = <minecraft:ender_pearl>;
+val bottledDarkness = <naturesaura:aura_bottle>.withTag({stored_type: "naturesaura:end"});
+val enderAir = <botania:manaresource:15>;
 //Runes
 val runeWater = <botania:rune>;
 val runeFire = <botania:rune:1>;
@@ -357,3 +361,6 @@ Fey.addRecipe("gaia_pylon", pylonGaia, [pylonMana, ingotElementium, ingotElement
 //coal from filter coal
 ManaInfusion.addInfusion(coal, filterCoal, 3000);
 ManaInfusion.addInfusion(blockCoal, filterCoalBlock, 27000);
+
+//ender air recipe
+Fey.addRecipe("ender_air", enderAir, [endStone, endStone, endStone, enderPearl, bottledDarkness]);

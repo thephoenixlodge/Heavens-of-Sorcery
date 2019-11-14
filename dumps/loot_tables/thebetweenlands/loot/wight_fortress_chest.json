@@ -1,0 +1,818 @@
+{
+  "pools": [
+    {
+      "name": "shared_lore_pool",
+      "entries": [
+        {
+          "entryName": "thebetweenlands:lore_scrap",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 9.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thebetweenlands:lore_scrap"
+        }
+      ],
+      "rolls": {
+        "min": 0.0,
+        "max": 1.0
+      },
+      "conditions": [
+        {
+          "condition": "thebetweenlands:shared_pool"
+        }
+      ]
+    },
+    {
+      "name": "lore_scrap",
+      "entries": [
+        {
+          "entryName": "empty",
+          "weight": 4,
+          "quality": 0,
+          "type": "empty"
+        },
+        {
+          "entryName": "thebetweenlands:lore_scrap",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "condition": "thebetweenlands:from_shared_pool"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "data": 9.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thebetweenlands:lore_scrap"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "shared_gemsinger_pool",
+      "entries": [
+        {
+          "entryName": "thebetweenlands:gem_singer",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:gem_singer"
+        }
+      ],
+      "rolls": 1.0,
+      "bonus_rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "thebetweenlands:shared_pool"
+        }
+      ]
+    },
+    {
+      "name": "shared_flight_ring_pool",
+      "entries": [
+        {
+          "entryName": "thebetweenlands:ring_of_flight",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:ring_of_flight"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "thebetweenlands:shared_pool"
+        }
+      ]
+    },
+    {
+      "name": "shared_wight_pool",
+      "entries": [
+        {
+          "entryName": "thebetweenlands:wights_bane",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:wights_bane"
+        }
+      ],
+      "rolls": {
+        "min": 1.0,
+        "max": 3.0
+      },
+      "conditions": [
+        {
+          "condition": "thebetweenlands:shared_pool"
+        }
+      ]
+    },
+    {
+      "name": "shared_critter_pool",
+      "entries": [
+        {
+          "entryName": "thebetweenlands:critter_cruncher",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:critter_cruncher"
+        }
+      ],
+      "rolls": {
+        "min": 1.0,
+        "max": 2.0
+      },
+      "conditions": [
+        {
+          "condition": "thebetweenlands:shared_pool"
+        }
+      ]
+    },
+    {
+      "name": "shared_sludge_pool",
+      "entries": [
+        {
+          "entryName": "thebetweenlands:sludge_slicer",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:sludge_slicer"
+        }
+      ],
+      "rolls": {
+        "min": 1.0,
+        "max": 2.0
+      },
+      "conditions": [
+        {
+          "condition": "thebetweenlands:shared_pool"
+        }
+      ]
+    },
+    {
+      "name": "shared_hag_pool",
+      "entries": [
+        {
+          "entryName": "thebetweenlands:hag_hacker",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:hag_hacker"
+        }
+      ],
+      "rolls": {
+        "min": 1.0,
+        "max": 2.0
+      },
+      "conditions": [
+        {
+          "condition": "thebetweenlands:shared_pool"
+        }
+      ]
+    },
+    {
+      "name": "shared_fig_pool",
+      "entries": [
+        {
+          "entryName": "thebetweenlands:forbidden_fig",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:forbidden_fig"
+        }
+      ],
+      "rolls": {
+        "min": 1.0,
+        "max": 2.0
+      },
+      "conditions": [
+        {
+          "condition": "thebetweenlands:shared_pool"
+        }
+      ]
+    },
+    {
+      "name": "shared_hat_pool",
+      "entries": [
+        {
+          "entryName": "thebetweenlands:explorers_hat",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:explorers_hat"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "thebetweenlands:shared_pool"
+        }
+      ]
+    },
+    {
+      "name": "shared_pick_pool",
+      "entries": [
+        {
+          "entryName": "thebetweenlands:swift_pick",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:swift_pick"
+        }
+      ],
+      "rolls": {
+        "min": 1.0,
+        "max": 2.0
+      },
+      "conditions": [
+        {
+          "condition": "thebetweenlands:shared_pool"
+        }
+      ]
+    },
+    {
+      "name": "rare_loot",
+      "entries": [
+        {
+          "entryName": "empty",
+          "weight": 90,
+          "quality": 0,
+          "type": "empty"
+        },
+        {
+          "entryName": "ring_of_flight",
+          "weight": 4,
+          "quality": 0,
+          "conditions": [
+            {
+              "condition": "thebetweenlands:from_shared_pool"
+            }
+          ],
+          "type": "item",
+          "name": "thebetweenlands:ring_of_flight"
+        },
+        {
+          "entryName": "forbidden_fig",
+          "weight": 5,
+          "quality": 0,
+          "conditions": [
+            {
+              "condition": "thebetweenlands:from_shared_pool"
+            }
+          ],
+          "type": "item",
+          "name": "thebetweenlands:forbidden_fig"
+        },
+        {
+          "entryName": "explorers_hat",
+          "weight": 5,
+          "quality": 0,
+          "conditions": [
+            {
+              "condition": "thebetweenlands:from_shared_pool"
+            }
+          ],
+          "type": "item",
+          "name": "thebetweenlands:explorers_hat"
+        },
+        {
+          "entryName": "swift_pick",
+          "weight": 6,
+          "quality": 0,
+          "conditions": [
+            {
+              "condition": "thebetweenlands:from_shared_pool"
+            }
+          ],
+          "type": "item",
+          "name": "thebetweenlands:swift_pick"
+        },
+        {
+          "entryName": "wights_bane",
+          "weight": 8,
+          "quality": 0,
+          "conditions": [
+            {
+              "condition": "thebetweenlands:from_shared_pool"
+            }
+          ],
+          "type": "item",
+          "name": "thebetweenlands:wights_bane"
+        },
+        {
+          "entryName": "critter_cruncher",
+          "weight": 10,
+          "quality": 0,
+          "conditions": [
+            {
+              "condition": "thebetweenlands:from_shared_pool"
+            }
+          ],
+          "type": "item",
+          "name": "thebetweenlands:critter_cruncher"
+        },
+        {
+          "entryName": "hag_hacker",
+          "weight": 10,
+          "quality": 0,
+          "conditions": [
+            {
+              "condition": "thebetweenlands:from_shared_pool"
+            }
+          ],
+          "type": "item",
+          "name": "thebetweenlands:hag_hacker"
+        },
+        {
+          "entryName": "sludge_slicer",
+          "weight": 8,
+          "quality": 0,
+          "conditions": [
+            {
+              "condition": "thebetweenlands:from_shared_pool"
+            }
+          ],
+          "type": "item",
+          "name": "thebetweenlands:sludge_slicer"
+        },
+        {
+          "entryName": "gem_singer",
+          "weight": 5,
+          "quality": 0,
+          "conditions": [
+            {
+              "condition": "thebetweenlands:from_shared_pool"
+            }
+          ],
+          "type": "item",
+          "name": "thebetweenlands:gem_singer"
+        },
+        {
+          "entryName": "aspectrus_seeds",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:aspectrus_seeds"
+        },
+        {
+          "entryName": "life_crystal",
+          "weight": 8,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:life_crystal"
+        },
+        {
+          "entryName": "thebetweenlands:loot/music_disc",
+          "weight": 7,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "thebetweenlands:loot/music_disc"
+        }
+      ],
+      "rolls": {
+        "min": 2.0,
+        "max": 3.0
+      },
+      "bonus_rolls": {
+        "min": 1.0,
+        "max": 2.0
+      }
+    },
+    {
+      "name": "uncommon_loot",
+      "entries": [
+        {
+          "entryName": "empty",
+          "weight": 20,
+          "quality": 0,
+          "type": "empty"
+        },
+        {
+          "entryName": "amulet_socket",
+          "weight": 22,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 38.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thebetweenlands:items_misc"
+        },
+        {
+          "entryName": "scroll",
+          "weight": 24,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 40.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thebetweenlands:items_misc"
+        },
+        {
+          "entryName": "wight_heart",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "thebetweenlands:wight_heart"
+        },
+        {
+          "entryName": "angry_pebble",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "thebetweenlands:angry_pebble"
+        },
+        {
+          "entryName": "bone_wayfinder",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:bone_wayfinder"
+        },
+        {
+          "entryName": "valonite_splinters",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 43.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thebetweenlands:items_misc"
+        },
+        {
+          "entryName": "octine_ingot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "thebetweenlands:octine_ingot"
+        },
+        {
+          "entryName": "syrmorite_ingot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 11.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thebetweenlands:items_misc"
+        },
+        {
+          "entryName": "valonite_shard",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 19.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thebetweenlands:items_misc"
+        },
+        {
+          "entryName": "basilisk_arrow",
+          "weight": 12,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "thebetweenlands:basilisk_arrow"
+        },
+        {
+          "entryName": "orange_dentrothyst",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "thebetweenlands:dentrothyst_shard_orange"
+        }
+      ],
+      "rolls": {
+        "min": 3.0,
+        "max": 5.0
+      },
+      "bonus_rolls": {
+        "min": 1.0,
+        "max": 2.0
+      }
+    },
+    {
+      "name": "common_loot",
+      "entries": [
+        {
+          "entryName": "green_marshmallow",
+          "weight": 26,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:marshmallow"
+        },
+        {
+          "entryName": "pink_marshmallow",
+          "weight": 26,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:marshmallow_pink"
+        },
+        {
+          "entryName": "lurker_skin",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 4.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thebetweenlands:items_misc"
+        },
+        {
+          "entryName": "angler_tooth_arrow",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 8.0,
+                "max": 16.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "thebetweenlands:angler_tooth_arrow"
+        },
+        {
+          "entryName": "syrmorite_nugget",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 4.0,
+                "max": 8.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 41.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thebetweenlands:items_misc"
+        },
+        {
+          "entryName": "octine_nugget",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 4.0,
+                "max": 8.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 42.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thebetweenlands:items_misc"
+        },
+        {
+          "entryName": "reed_donut",
+          "weight": 24,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "thebetweenlands:reed_donut"
+        },
+        {
+          "entryName": "jam_donut",
+          "weight": 26,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "thebetweenlands:jam_donut"
+        },
+        {
+          "entryName": "sap_ball",
+          "weight": 28,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 4.0,
+                "max": 12.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "thebetweenlands:sap_ball"
+        },
+        {
+          "entryName": "weeping_blue",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "thebetweenlands:weeping_blue_petal"
+        },
+        {
+          "entryName": "green_dentrothyst",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "thebetweenlands:dentrothyst_shard_green"
+        }
+      ],
+      "rolls": {
+        "min": 5.0,
+        "max": 9.0
+      },
+      "bonus_rolls": {
+        "min": 1.0,
+        "max": 2.0
+      }
+    },
+    {
+      "name": "filler_loot",
+      "entries": [
+        {
+          "entryName": "sulfur",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 4.0,
+                "max": 8.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 18.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thebetweenlands:items_misc"
+        },
+        {
+          "entryName": "swamp_reed",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 4.0,
+                "max": 8.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 7.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thebetweenlands:items_misc"
+        }
+      ],
+      "rolls": {
+        "min": 5.0,
+        "max": 6.0
+      },
+      "bonus_rolls": {
+        "min": 1.0,
+        "max": 2.0
+      }
+    }
+  ]
+}

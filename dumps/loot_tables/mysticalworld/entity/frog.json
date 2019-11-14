@@ -18,6 +18,19 @@
         }
       ],
       "rolls": 1.0
+    },
+    {
+      "name": "leg",
+      "entries": [
+        {
+          "entryName": "quark:frog_leg",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "quark:frog_leg"
+        }
+      ],
+      "rolls": 1.0
     }
   ]
 }

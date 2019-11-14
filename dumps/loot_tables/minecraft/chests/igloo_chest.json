@@ -394,14 +394,14 @@
       "entries": [
         {
           "entryName": "tombstone:scroll_buff",
-          "weight": 5,
+          "weight": 6,
           "quality": -2,
           "type": "item",
           "functions": [
             {
               "data": {
                 "min": 0.0,
-                "max": 4.0
+                "max": 5.0
               },
               "function": "minecraft:set_data"
             },
@@ -434,7 +434,7 @@
         },
         {
           "entryName": "empty",
-          "weight": 93,
+          "weight": 92,
           "quality": 0,
           "type": "empty"
         }

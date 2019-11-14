@@ -18,8 +18,8 @@
           "functions": [
             {
               "count": {
-                "min": 2.0,
-                "max": 4.0
+                "min": 1.0,
+                "max": 2.0
               },
               "function": "minecraft:set_count"
             },
@@ -58,8 +58,8 @@
           "functions": [
             {
               "count": {
-                "min": 4.0,
-                "max": 8.0
+                "min": 1.0,
+                "max": 3.0
               },
               "function": "minecraft:set_count"
             },
@@ -78,8 +78,8 @@
           "functions": [
             {
               "count": {
-                "min": 12.0,
-                "max": 16.0
+                "min": 8.0,
+                "max": 12.0
               },
               "function": "minecraft:set_count"
             }
@@ -87,8 +87,8 @@
           "name": "thebetweenlands:angler_tooth_arrow"
         },
         {
-          "entryName": "syrmorite_ingot",
-          "weight": 30,
+          "entryName": "syrmorite_nugget",
+          "weight": 25,
           "quality": 0,
           "type": "item",
           "functions": [
@@ -100,15 +100,15 @@
               "function": "minecraft:set_count"
             },
             {
-              "data": 11.0,
+              "data": 41.0,
               "function": "minecraft:set_data"
             }
           ],
           "name": "thebetweenlands:items_misc"
         },
         {
-          "entryName": "thebetweenlands:octine_ingot",
-          "weight": 30,
+          "entryName": "octine_nugget",
+          "weight": 25,
           "quality": 0,
           "type": "item",
           "functions": [
@@ -118,13 +118,17 @@
                 "max": 16.0
               },
               "function": "minecraft:set_count"
+            },
+            {
+              "data": 42.0,
+              "function": "minecraft:set_data"
             }
           ],
-          "name": "thebetweenlands:octine_ingot"
+          "name": "thebetweenlands:items_misc"
         },
         {
           "entryName": "thebetweenlands:marshmallow",
-          "weight": 18,
+          "weight": 24,
           "quality": 0,
           "type": "item",
           "name": "thebetweenlands:marshmallow"
@@ -137,8 +141,8 @@
           "functions": [
             {
               "count": {
-                "min": 2.0,
-                "max": 4.0
+                "min": 1.0,
+                "max": 2.0
               },
               "function": "minecraft:set_count"
             }
@@ -150,20 +154,11 @@
           "weight": 18,
           "quality": 0,
           "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 2.0,
-                "max": 4.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
           "name": "thebetweenlands:jam_donut"
         },
         {
           "entryName": "amulet_socket",
-          "weight": 18,
+          "weight": 15,
           "quality": 0,
           "type": "item",
           "functions": [
@@ -189,14 +184,14 @@
         },
         {
           "entryName": "thebetweenlands:sap_ball",
-          "weight": 13,
+          "weight": 18,
           "quality": 0,
           "type": "item",
           "functions": [
             {
               "count": {
-                "min": 8.0,
-                "max": 16.0
+                "min": 2.0,
+                "max": 8.0
               },
               "function": "minecraft:set_count"
             }
@@ -211,8 +206,8 @@
           "functions": [
             {
               "count": {
-                "min": 8.0,
-                "max": 16.0
+                "min": 4.0,
+                "max": 8.0
               },
               "function": "minecraft:set_count"
             }
@@ -228,7 +223,7 @@
             {
               "count": {
                 "min": 1.0,
-                "max": 3.0
+                "max": 2.0
               },
               "function": "minecraft:set_count"
             }
@@ -243,8 +238,8 @@
           "functions": [
             {
               "count": {
-                "min": 2.0,
-                "max": 8.0
+                "min": 1.0,
+                "max": 3.0
               },
               "function": "minecraft:set_count"
             }
@@ -259,8 +254,8 @@
           "functions": [
             {
               "count": {
-                "min": 8.0,
-                "max": 16.0
+                "min": 4.0,
+                "max": 8.0
               },
               "function": "minecraft:set_count"
             }
@@ -275,7 +270,7 @@
           "functions": [
             {
               "count": {
-                "min": 6.0,
+                "min": 4.0,
                 "max": 8.0
               },
               "function": "minecraft:set_count"
@@ -284,7 +279,66 @@
           "name": "thebetweenlands:basilisk_arrow"
         },
         {
-          "entryName": "valonite_shard",
+          "entryName": "syrmorite_ingot",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 11.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thebetweenlands:items_misc"
+        },
+        {
+          "entryName": "thebetweenlands:octine_ingot",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "thebetweenlands:octine_ingot"
+        },
+        {
+          "entryName": "thebetweenlands:angry_pebble",
+          "weight": 12,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "thebetweenlands:angry_pebble"
+        },
+        {
+          "entryName": "thebetweenlands:bone_wayfinder",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:bone_wayfinder"
+        },
+        {
+          "entryName": "valonite_splinter",
           "weight": 8,
           "quality": 0,
           "type": "item",
@@ -297,7 +351,7 @@
               "function": "minecraft:set_count"
             },
             {
-              "data": 19.0,
+              "data": 43.0,
               "function": "minecraft:set_data"
             }
           ],
@@ -318,6 +372,19 @@
             }
           ],
           "name": "thebetweenlands:lore_scrap"
+        },
+        {
+          "entryName": "valonite_shard",
+          "weight": 6,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 19.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thebetweenlands:items_misc"
         }
       ],
       "rolls": {

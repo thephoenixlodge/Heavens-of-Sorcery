@@ -1,0 +1,42 @@
+{
+  "pools": [
+    {
+      "name": "key",
+      "entries": [
+        {
+          "entryName": "thebetweenlands:rune_door_key",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "thebetweenlands:rune_door_key"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "life_crystal",
+      "entries": [
+        {
+          "entryName": "thebetweenlands:life_crystal",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "thebetweenlands:life_crystal"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

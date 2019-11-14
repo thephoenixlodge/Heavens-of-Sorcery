@@ -182,25 +182,6 @@
           "type": "empty"
         },
         {
-          "entryName": "thaumic_arcana:magical_enchant_powder",
-          "weight": 5,
-          "quality": 1,
-          "type": "item",
-          "name": "thaumic_arcana:enchanting_powder_magical"
-        },
-        {
-          "entryName": "quark:treasure_map",
-          "weight": 10,
-          "quality": 2,
-          "type": "item",
-          "functions": [
-            {
-              "function": "quark:set_treasure"
-            }
-          ],
-          "name": "minecraft:filled_map"
-        },
-        {
           "entryName": "quark:rune",
           "weight": 15,
           "quality": 0,
@@ -215,6 +196,18 @@
             }
           ],
           "name": "quark:rune"
+        },
+        {
+          "entryName": "quark:treasure_map",
+          "weight": 10,
+          "quality": 2,
+          "type": "item",
+          "functions": [
+            {
+              "function": "quark:set_treasure"
+            }
+          ],
+          "name": "minecraft:filled_map"
         },
         {
           "entryName": "astralsorcery:constellation_paper",
@@ -656,14 +649,14 @@
       "entries": [
         {
           "entryName": "tombstone:scroll_buff",
-          "weight": 5,
+          "weight": 6,
           "quality": -2,
           "type": "item",
           "functions": [
             {
               "data": {
                 "min": 0.0,
-                "max": 4.0
+                "max": 5.0
               },
               "function": "minecraft:set_data"
             },
@@ -696,7 +689,7 @@
         },
         {
           "entryName": "empty",
-          "weight": 93,
+          "weight": 92,
           "quality": 0,
           "type": "empty"
         }

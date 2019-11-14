@@ -1,19 +1,14 @@
 {
   "output": {
-    "item": "embers:nugget_tin"
+    "item": "embers:nugget_tin",
+    "count": 3
   },
   "input": {
     "item": "aether_legacy:icestone"
   },
   "extraInputs": [
     {
-      "item": "rustic:dust_tiny_iron"
-    },
-    {
-      "item": "rustic:dust_tiny_iron"
-    },
-    {
-      "item": "rustic:dust_tiny_iron"
+      "item": "mysticalworld:iron_dust"
     },
     {
       "item": "botania:manaresource",

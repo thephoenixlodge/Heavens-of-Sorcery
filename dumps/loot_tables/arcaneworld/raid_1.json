@@ -219,6 +219,27 @@
             }
           ],
           "name": "minecraft:bow"
+        },
+        {
+          "entryName": "contenttweaker:angel_heart",
+          "weight": 6,
+          "quality": 0,
+          "type": "item",
+          "name": "contenttweaker:angel_heart"
+        },
+        {
+          "entryName": "contenttweaker:otherworlds_core",
+          "weight": 14,
+          "quality": 0,
+          "type": "item",
+          "name": "contenttweaker:otherworlds_core"
+        },
+        {
+          "entryName": "minecraft:elytra",
+          "weight": 6,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:elytra"
         }
       ],
       "rolls": {

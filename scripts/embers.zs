@@ -179,3 +179,4 @@ for stampCooked in stampCookedArray {
 //Molten core recipe
 recipes.remove(moltenCore);
 recipes.addShaped(moltenCore, [[amethyst, emberShard, amethyst], [emberCrystal, lava, emberCrystal], [magmaCream, emberShard, magmaCream]]);
+furnace.setFuel(moltenCore, 20000);
