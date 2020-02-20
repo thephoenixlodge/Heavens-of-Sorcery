@@ -1,6 +1,35 @@
 {
   "pools": [
     {
+      "name": "leather",
+      "entries": [
+        {
+          "entryName": "minecraft:leather",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "minecraft:leather"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
       "name": "blaze",
       "entries": [
         {
@@ -33,7 +62,7 @@
       "name": "devil_dust",
       "entries": [
         {
-          "entryName": "wizardry:devil_dust",
+          "entryName": "loottweaker#1",
           "weight": 1,
           "quality": 0,
           "type": "item",

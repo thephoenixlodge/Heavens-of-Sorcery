@@ -17,7 +17,7 @@ val brilliantFibre = <naturesaura:gold_fiber>;
 val leaves = <ore:treeLeaves>;
 val goldLeaves = <aether_legacy:aether_leaves:1>;
 val nuggetGold = <ore:nuggetGold>;
-val tallGrassBS = <blue_skies:turquoise_tallgrass>|<blue_skies:lunar_tallgrass>|<blue_skies:cherry_tallgrass>;
+val tallGrassBS = <blue_skies:turquoise_tallgrass>/*|<blue_skies:lunar_tallgrass>|<blue_skies:cherry_tallgrass>*/;
 val shardMoonstone = <blue_skies:moonstone_shard>;
 val infusedStone = <naturesaura:infused_stone>;
 val turqoiseStone = <blue_skies:turquoise_stone>;
@@ -126,6 +126,7 @@ NatureAltar.addRecipe("infused_stone_alt", lunarStone, infusedStone, null, 7500,
 recipes.remove(goldDust);
 Grindstone.addRecipe(goldLeaf, goldDust * 2, 0.1F);
 Mill.add(goldLeaf, null, goldDust * 2, null);
+NaturalAltar.addRecipe("gold_powder", goldLeaf, goldDust, null, 1000, 20);
 
 //bountiful ore powder
 TreeRitual.removeRecipe(powderOre);
@@ -226,3 +227,8 @@ Pyre.addRecipe("oblivion_rose", oblivionRose, [rose, dragonsBreath, goldDust, en
 //firestarter
 TreeRitual.removeRecipe(firestarter);
 TreeRitual.addRecipe("furnace_heater", saplingMaple, firestarter, 400, [infusedRock, infusedRock, ingotInfused, ingotInfused, moltenCore, zealLighter, tokenFear, ingotVentium]);
+
+//add tooltips to bottled aura
+bottledSunlight.addTooltip(format.gold("Use Bottle and Cork in the Overworld, Dungeon Raid, Aether, Misty World, Everbright, Everdawn or Kathairis to collect"));
+bottledGhosts.addTooltip(format.gold("Use Bottle and Cork in the Nether or Betweenlands to collect"));
+bottledDarkness.addTooltip(format.gold("Use Bottle and Cork in Limbo or other Dimensional Doors' Pocket Dimensions to collect"));

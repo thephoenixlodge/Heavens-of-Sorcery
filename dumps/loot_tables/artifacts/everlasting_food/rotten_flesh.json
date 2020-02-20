@@ -1,0 +1,27 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "entries": [
+        {
+          "entryName": "artifacts:everlasting_rotten_flesh",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "artifacts:everlasting_rotten_flesh"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "inverse": false,
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "chance": 4.0E-4,
+          "condition": "minecraft:random_chance"
+        }
+      ]
+    }
+  ]
+}

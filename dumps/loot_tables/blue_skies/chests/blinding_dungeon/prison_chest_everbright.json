@@ -1,42 +1,214 @@
 {
-    "pools": [
+  "pools": [
+    {
+      "name": "chest",
+      "entries": [
         {
-			"name": "chest",
-            "rolls": {
-                "min": 3,
-                "max": 8
-            },
-            "entries": [
-                {
-                    "type": "item",
-                    "name": "minecraft:bread",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 2
-                            }
-                        }
-                    ],
-                    "weight": 3
-                },
-				{
-                    "type": "item",
-                    "name": "blue_skies:everbright_turquoise_axe",
-                    "weight": 1
-                }
-            ]
+          "entryName": "minecraft:bread",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:bread"
         },
-		{
-			"name": "key",
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "item",
-                    "name": "blue_skies:dungeon_key"
-                }
-			]
+        {
+          "entryName": "blue_skies:everbright_turquoise_axe",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "blue_skies:everbright_turquoise_axe"
         }
-    ]
+      ],
+      "rolls": {
+        "min": 3.0,
+        "max": 8.0
+      }
+    },
+    {
+      "name": "key",
+      "entries": [
+        {
+          "entryName": "blue_skies:dungeon_key",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "blue_skies:dungeon_key"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "hos_extra",
+      "entries": [
+        {
+          "entryName": "loottweaker#1",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "name": "rats:token_fragment"
+        },
+        {
+          "entryName": "loottweaker#2",
+          "weight": 6,
+          "quality": 0,
+          "type": "item",
+          "name": "arcaneworld:fang_wand"
+        },
+        {
+          "entryName": "loottweaker#3",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "superiorshields:botania_shield_manasteel"
+        },
+        {
+          "entryName": "loottweaker#4",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "contenttweaker:metallia_mundane"
+        },
+        {
+          "entryName": "loottweaker#5",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "embers:ingot_dawnstone"
+        },
+        {
+          "entryName": "loottweaker#6",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "name": "superiorshields:vanilla_shield_gold"
+        },
+        {
+          "entryName": "loottweaker#7",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "name": "embers:ingot_copper"
+        },
+        {
+          "entryName": "loottweaker#8",
+          "weight": 12,
+          "quality": 0,
+          "type": "item",
+          "name": "embers:ingot_bronze"
+        },
+        {
+          "entryName": "loottweaker#9",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "contenttweaker:precia_mundane"
+        },
+        {
+          "entryName": "loottweaker#10",
+          "weight": 6,
+          "quality": 0,
+          "type": "item",
+          "name": "superiorshields:vanilla_shield_iron"
+        },
+        {
+          "entryName": "loottweaker#11",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "name": "rats:token_piece"
+        },
+        {
+          "entryName": "loottweaker#12",
+          "weight": 12,
+          "quality": 0,
+          "type": "item",
+          "name": "buildinggadgets:constructionpaste"
+        },
+        {
+          "entryName": "loottweaker#13",
+          "weight": 8,
+          "quality": 0,
+          "type": "item",
+          "name": "botania:tinypotato"
+        },
+        {
+          "entryName": "loottweaker#14",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "name": "embers:ingot_lead"
+        },
+        {
+          "entryName": "loottweaker#15",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "name": "embers:ingot_tin"
+        },
+        {
+          "entryName": "loottweaker#16",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "superiorshields:vanilla_shield_diamond"
+        },
+        {
+          "entryName": "loottweaker#17",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "name": "astralsorcery:blockworldilluminator"
+        },
+        {
+          "entryName": "loottweaker#18",
+          "weight": 4,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "data": {
+                "min": 0.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "botania:sparkupgrade"
+        },
+        {
+          "entryName": "loottweaker#19",
+          "weight": 16,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 20.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 4.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "minecraft:dye"
+        }
+      ],
+      "rolls": {
+        "min": 1.0,
+        "max": 3.0
+      },
+      "bonus_rolls": 1.0
+    }
+  ]
 }

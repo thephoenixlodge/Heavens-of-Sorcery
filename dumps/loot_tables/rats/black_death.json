@@ -1,0 +1,86 @@
+{
+  "pools": [
+    {
+      "name": "black_death",
+      "entries": [
+        {
+          "entryName": "rats:token_piece",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "rats:token_piece"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "black_death",
+      "entries": [
+        {
+          "entryName": "rats:herb_bundle",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "rats:herb_bundle"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "black_death",
+      "entries": [
+        {
+          "entryName": "rats:black_death_mask",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "rats:black_death_mask"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "black_death",
+      "entries": [
+        {
+          "entryName": "rats:plague_scythe",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "rats:plague_scythe"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

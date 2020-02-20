@@ -1,0 +1,37 @@
+{
+  "pools": [
+    {
+      "name": "kathairis:bisonmeat",
+      "entries": [
+        {
+          "entryName": "kathairis:bisonmeat",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 5.0,
+                "max": 14.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 10.0
+              },
+              "function": "minecraft:looting_enchant"
+            },
+            {
+              "tag": "{}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "kathairis:bisonmeat"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

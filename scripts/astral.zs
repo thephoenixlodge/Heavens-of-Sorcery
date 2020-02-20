@@ -4,6 +4,7 @@ import mods.astralsorcery.Altar;
 import mods.astralsorcery.Utils;
 import mods.astralsorcery.Lightwell;
 import mods.astralsorcery.StarlightInfusion;
+import mods.astralsorcery.Grindstone;
 import mods.botania.PureDaisy;
 import mods.ArcaneWorld;
 
@@ -80,6 +81,8 @@ val wandFormation = <astralsorcery:itemarchitectwand>;
 val iridescentAltar = <astralsorcery:blockaltar:3>;
 val radiantQuartzShaped = <arcanearchives:shaped_quartz>;
 val magicCrystal = <ebwizardry:magic_crystal>;
+val dustIron = <mysticalworld:iron_dust>;
+val oreIron = <mist:iron_ore>;
 //liquids
 val liquidMana = <liquid:mana_fluid>;
 val liquidStarlight = <liquid:astralsorcery.liquidstarlight>;
@@ -135,7 +138,7 @@ Lightwell.addLiquefaction(devilDust, liquidLava, 0.8F, 10, 0xFF350C);
 //Mana
 Lightwell.addLiquefaction(pastureSeedInfused, liquidMana, 0.4F, 4, 0x00CCCC);
 //Ironberry Juice
-Lightwell.addLiquefaction(ironberry, liquidIronberry, 0.2F, 2, 0xA0A0A0);
+Lightwell.addLiquefaction(ironberry, liquidIronberry, 2.0F, 1, 0xA0A0A0);
 
 //Glass Lens alt recipe
 Altar.addDiscoveryAltarRecipe("internal/altar/alt_lens", glassLens * 2, 150, 50, [null, manaGlassPane, null, manaGlassPane, aquamarine, manaGlassPane, null, manaGlassPane, null]);
@@ -169,3 +172,5 @@ Altar.addAttunementAltarRecipe("internal/altar/tool_architect", wandFormation, 1
 
 //Iridescent altar
 Altar.addConstellationAltarRecipe("internal/altar/upgrade_tier4", iridescentAltar, 3200, 1000, [marbleRuned, glassLens, marbleRuned, magicCrystal, rockCrystalCelestial, magicCrystal, marbleRuned, runeStarlight, marbleRuned, marbleRuned, marbleRuned, marbleRuned, marbleRuned, sootyMarble, sootyMarble, gemResonating, radiantQuartzShaped, radiantQuartzShaped, gemResonating, sootyMarble, sootyMarble]);
+
+Grindstone.addRecipe(oreIron, dustIron, 0.85f);

@@ -221,21 +221,21 @@
           "name": "minecraft:bow"
         },
         {
-          "entryName": "contenttweaker:angel_heart",
+          "entryName": "loottweaker#1",
           "weight": 6,
           "quality": 0,
           "type": "item",
           "name": "contenttweaker:angel_heart"
         },
         {
-          "entryName": "contenttweaker:otherworlds_core",
+          "entryName": "loottweaker#2",
           "weight": 14,
           "quality": 0,
           "type": "item",
           "name": "contenttweaker:otherworlds_core"
         },
         {
-          "entryName": "minecraft:elytra",
+          "entryName": "loottweaker#3",
           "weight": 6,
           "quality": 0,
           "type": "item",

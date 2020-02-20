@@ -10,11 +10,11 @@
             "type": "quest",
             "title": "Metallic Transition",
             "trigger": "heavens:bookchap3/0niobium",
-            "text": "Take care in this place. The $(thing)Mist$() is a great risk to one's personal health. Unfortunately the path to making it safer means risking the danger. You're going to need to harvest a material know as $(item)Niobium$(), which can be found as an ore around the mist."
+            "text": "Take care in this place. The $(thing)Mist$() is a great risk to one's personal health. Unfortunately the path to making it safer means risking the danger. You're going to need to harvest a material know as $(item)Niobium$(), which can be found as an ore on the cliffs around the mist."
         },
         {
             "type": "text",
-            "text": "Fortunately, the $(thing)Mist$() ebbs and flows with daylight, and is at its lowest at night, allowing careful collection of this precious ore, though that's to speak nothing of the other dangers of this realm. $(br2)Take care my child."
+            "text": "Fortunately, the $(thing)Mist ebbs and flows with daylight$(), and is at its lowest at night, allowing careful collection of this precious ore, though that's to speak nothing of the other dangers of this realm. $(br2)Take care my child. $(br2)Note: Unlike $(item)Foggy Stone$() and most other materials here, $(item)Niobium Ore$() can be harvested with any pickaxe."
         },
         {
             "type": "checklist_end",

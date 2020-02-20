@@ -9,7 +9,7 @@
         {
             "type": "quest",
             "title": "Creating Company",
-            "trigger": "heavens:bookchap2/0sapphires",
+            "trigger": "heavens:bookchap2/3cows",
             "text": "This Ritual Table is swirling with energy, both peaceful and malicious. You should be able to use this to restore some of the creatures that were lost to the void. Let's keep it simple to start with - Conjure some livestock, a $(item)Cow$() for example. You may require an approximation of its flesh and bones to accomplish this, but surely you can figure that out."
         },
         {

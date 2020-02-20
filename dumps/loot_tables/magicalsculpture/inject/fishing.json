@@ -1,0 +1,32 @@
+{
+  "pools": [
+    {
+      "name": "magicalsculpture_fishing",
+      "entries": [
+        {
+          "entryName": "magicalsculpture:relic",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": {
+                "min": 42.0,
+                "max": 48.0
+              },
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "magicalsculpture:relic"
+        },
+        {
+          "entryName": "empty",
+          "weight": 95,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

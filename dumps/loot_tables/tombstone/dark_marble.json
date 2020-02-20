@@ -1,0 +1,17 @@
+{
+  "pools": [
+    {
+      "name": "dark_marble",
+      "entries": [
+        {
+          "entryName": "tombstone:dark_marble",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "tombstone:dark_marble"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

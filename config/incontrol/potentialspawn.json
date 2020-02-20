@@ -129,6 +129,30 @@
 		]
 	},
 	{
+		"dimension": 76,
+		"biometype": "PLAINS",
+		"mobs": [
+			{
+				"mob": "blue_skies:azulfo",
+				"weight": 20,
+				"groupcountmin": 1,
+				"groupcountmax": 3
+			},
+			{
+				"mob": "blue_skies:stardust_ram",
+				"weight": 15,
+				"groupcountmin": 1,
+				"groupcountmax": 3
+			},
+			{
+				"mob": "blue_skies:reindeer_bs",
+				"weight": 15,
+				"groupcountmin": 1,
+				"groupcountmax": 3
+			}
+		]
+	},
+	{
 		"dimension": 77,
 		"biometype": "SPOOKY",
 		"mobs": [
@@ -175,15 +199,27 @@
 			}
 		]
 	},
-	{
-		"dimension": 3,
-		"mobs": [
-			{
-				"mob": "avatarmod:skybison",
-				"weight": 5,
-				"groupcountmin": 1,
-				"groupcountmax": 1
-			}
-		]
-	}
+    {
+        "dimension": 3,
+        "mobs": [
+            {
+                "mob": "aether_legacy:swet",
+                "weight": 20,
+                "groupcountmin": 1,
+                "groupcountmax": 1
+            },
+            {
+                "mob": "avatarmod:skybison",
+                "weight": 5,
+                "groupcountmin": 1,
+                "groupcountmax": 1
+            },
+            {
+                "mob": "aether_legacy:aechor_plant",
+                "weight": 50,
+                "groupcountmin": 1,
+                "groupcountmax": 1
+            }
+        ]
+    }
 ]

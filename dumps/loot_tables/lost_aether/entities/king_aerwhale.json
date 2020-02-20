@@ -1,0 +1,97 @@
+{
+  "pools": [
+    {
+      "name": "key",
+      "entries": [
+        {
+          "entryName": "lost_aether:platinum_key",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": 0.0,
+              "function": "minecraft:looting_enchant"
+            },
+            {
+              "data": 0.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "lost_aether:platinum_key"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "cloud",
+      "entries": [
+        {
+          "entryName": "aether_legacy:aercloud",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 2.0
+              },
+              "function": "minecraft:looting_enchant"
+            },
+            {
+              "data": 3.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "aether_legacy:aercloud"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "legacy_disc",
+      "entries": [
+        {
+          "entryName": "aether_legacy:legacy",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "aether_legacy:legacy"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "inverse": false,
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "chance": 0.025,
+          "looting_multiplier": 0.01,
+          "condition": "minecraft:random_chance_with_looting"
+        }
+      ]
+    }
+  ]
+}

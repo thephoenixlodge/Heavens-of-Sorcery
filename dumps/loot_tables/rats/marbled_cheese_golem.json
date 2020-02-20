@@ -1,0 +1,56 @@
+{
+  "pools": [
+    {
+      "name": "marbled_cheese_golem",
+      "entries": [
+        {
+          "entryName": "rats:arcane_technology",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "rats:arcane_technology"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "marbled_cheese_golem",
+      "entries": [
+        {
+          "entryName": "rats:ancient_sawblade",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "rats:ancient_sawblade"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

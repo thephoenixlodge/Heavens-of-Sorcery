@@ -1,52 +1,139 @@
 {
-    "pools": [
+  "pools": [
+    {
+      "name": "chest",
+      "entries": [
         {
-			"name": "chest",
-            "rolls": {
-                "min": 5,
-                "max": 11
-            },
-            "entries": [
-                {
-                    "type": "item",
-                    "name": "minecraft:paper",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 3
-                            }
-                        }
-                    ],
-                    "weight": 2
-                },
-				{
-                    "type": "item",
-                    "name": "minecraft:book",
-                    "weight": 3
-                }
-            ]
+          "entryName": "minecraft:paper",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:paper"
         },
-		{
-			"name": "enchanted_book",
-            "rolls": {
-				"min": 0,
-                "max": 2
-			},
-            "entries": [
-                {
-                    "type": "item",
-                    "name": "minecraft:book",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "enchant_with_levels", 
-                            "levels": 10
-                        }
-                    ]
-                }
-			]
+        {
+          "entryName": "minecraft:book",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:book"
         }
-    ]
+      ],
+      "rolls": {
+        "min": 5.0,
+        "max": 11.0
+      }
+    },
+    {
+      "name": "enchanted_book",
+      "entries": [
+        {
+          "entryName": "minecraft:book",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 10.0,
+              "treasure": false,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "minecraft:book"
+        }
+      ],
+      "rolls": {
+        "min": 0.0,
+        "max": 2.0
+      }
+    },
+    {
+      "name": "hos_extra",
+      "entries": [
+        {
+          "entryName": "loottweaker#1",
+          "weight": 10,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "levels": {
+                "min": 25.0,
+                "max": 35.0
+              },
+              "treasure": false,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "minecraft:book"
+        },
+        {
+          "entryName": "loottweaker#2",
+          "weight": 2,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "levels": {
+                "min": 25.0,
+                "max": 35.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "minecraft:book"
+        },
+        {
+          "entryName": "loottweaker#3",
+          "weight": 8,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "data": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "avatarmod:scroll"
+        }
+      ],
+      "rolls": {
+        "min": 1.0,
+        "max": 2.0
+      },
+      "bonus_rolls": 1.0
+    },
+    {
+      "name": "wiz_inject",
+      "entries": [
+        {
+          "entryName": "loottweaker#1",
+          "weight": 10,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "ebwizardry:chests/shrine"
+        }
+      ],
+      "rolls": {
+        "min": 0.0,
+        "max": 4.0
+      },
+      "bonus_rolls": {
+        "min": 1.0,
+        "max": 2.0
+      }
+    }
+  ]
 }

@@ -1,14 +1,17 @@
 {
-    "pools": [
+  "pools": [
+    {
+      "name": "book",
+      "entries": [
         {
-            "name": "book",
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "item",
-                    "name": "blue_skies:blue_lore"
-                }
-            ]
+          "entryName": "blue_skies:blue_lore",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "blue_skies:blue_lore"
         }
-    ]
+      ],
+      "rolls": 1.0
+    }
+  ]
 }

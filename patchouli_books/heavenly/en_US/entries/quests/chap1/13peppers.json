@@ -16,7 +16,7 @@
         	"type": "checklist_end",
         	"item1": "rustic:chili_pepper_seeds#1",
             "item2": "rustic:crop_stake#1",
-            "reward1": "rustic:chili_pepper#2"
+            "reward1": "rustic:chili_pepper#6"
         },
         {
             "type": "cauldron",

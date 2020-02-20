@@ -1,0 +1,38 @@
+{
+  "pools": [
+    {
+      "name": "random_decorative_grave",
+      "entries": [
+        {
+          "entryName": "tombstone:decorative_grave_simple",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "tombstone:decorative_grave_simple"
+        },
+        {
+          "entryName": "tombstone:decorative_grave_normal",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "tombstone:decorative_grave_normal"
+        },
+        {
+          "entryName": "tombstone:decorative_grave_cross",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "tombstone:decorative_grave_cross"
+        },
+        {
+          "entryName": "tombstone:decorative_tombstone",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "tombstone:decorative_tombstone"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

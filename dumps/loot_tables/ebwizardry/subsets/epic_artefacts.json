@@ -1,0 +1,101 @@
+{
+  "pools": [
+    {
+      "name": "epic_artefacts",
+      "entries": [
+        {
+          "entryName": "ebwizardry:ring_combustion",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "ebwizardry:ring_combustion"
+        },
+        {
+          "entryName": "ebwizardry:ring_arcane_frost",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "ebwizardry:ring_arcane_frost"
+        },
+        {
+          "entryName": "ebwizardry:ring_seeking",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "ebwizardry:ring_seeking"
+        },
+        {
+          "entryName": "ebwizardry:ring_hammer",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "ebwizardry:ring_hammer"
+        },
+        {
+          "entryName": "ebwizardry:ring_mana_return",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "ebwizardry:ring_mana_return"
+        },
+        {
+          "entryName": "ebwizardry:ring_interdiction",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "ebwizardry:ring_interdiction"
+        },
+        {
+          "entryName": "ebwizardry:amulet_ice_immunity",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "ebwizardry:amulet_ice_immunity"
+        },
+        {
+          "entryName": "ebwizardry:amulet_wither_immunity",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "ebwizardry:amulet_wither_immunity"
+        },
+        {
+          "entryName": "ebwizardry:amulet_glide",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "ebwizardry:amulet_glide"
+        },
+        {
+          "entryName": "ebwizardry:amulet_resurrection",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "ebwizardry:amulet_resurrection"
+        },
+        {
+          "entryName": "ebwizardry:charm_experience_tome",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "ebwizardry:charm_experience_tome"
+        },
+        {
+          "entryName": "ebwizardry:charm_silk_touch",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "ebwizardry:charm_silk_touch"
+        },
+        {
+          "entryName": "ebwizardry:charm_stop_time",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "ebwizardry:charm_stop_time"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "pools": [
+    {
+      "name": "minecraft:leather",
+      "entries": [
+        {
+          "entryName": "minecraft:leather",
+          "weight": 1,
+          "quality": 2,
+          "type": "item",
+          "name": "minecraft:leather"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

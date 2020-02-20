@@ -1,0 +1,44 @@
+{
+  "pools": [
+    {
+      "name": "kathairis:jellyfishtentacle",
+      "entries": [
+        {
+          "entryName": "kathairis:jellyfishtentacle",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.25,
+              "looting_multiplier": 0.5,
+              "condition": "minecraft:random_chance_with_looting"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:looting_enchant"
+            },
+            {
+              "tag": "{}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "kathairis:jellyfishtentacle"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

@@ -8,7 +8,7 @@
     "pages": [
         {
             "type": "quest",
-            "title": "Lighten Up",
+            "title": "Don't Lick the Lead",
             "trigger": "heavens:bookchap3/15metals",
             "text": "Iron... Gold... Both are useful metals in their own right, but lack many of the properties necessary to practice some of the more refined magicks. Most others were lost, but with $(thing)Mana Powder$(), it should be possible to recreate small quantities of them. For now, let's prioritize $(item)Copper$() and $(item)Lead$()."
         },
@@ -23,22 +23,18 @@
             "type": "mana_world",
             "heading": "Copper Transmutation",
             "input": "minecraft:magma",
-            "input5": "botania:manaresource:23",
-            "input3": "rustic:dust_tiny_iron",
-            "input4": "rustic:dust_tiny_iron",
+            "input3": "botania:manaresource:23",
             "input2": "rustic:dust_tiny_iron",
-            "output": "embers:nugget_copper",
+            "output": "embers:nugget_copper#3",
             "description": "Requires a pool of at least $(thing)6 buckets$() of $(item)Liquid Mana$()"
         },
         {
             "type": "mana_world",
             "heading": "Lead Transmutation",
             "input": "aether_legacy:aechor_petal",
-            "input5": "botania:manaresource:23",
-            "input3": "rustic:dust_tiny_iron",
-            "input4": "rustic:dust_tiny_iron",
+            "input3": "botania:manaresource:23",
             "input2": "rustic:dust_tiny_iron",
-            "output": "embers:nugget_lead",
+            "output": "embers:nugget_lead#3",
             "description": "Requires a pool of at least $(thing)6 buckets$() of $(item)Liquid Mana$()"
         }
     ]

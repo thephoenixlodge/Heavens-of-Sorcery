@@ -1,0 +1,26 @@
+{
+    "name": "Night Owl's Nap Time",
+    "icon": "comforts:hammock:14",
+    "category": "useful_things",
+    "advancement": "heavens:bookchap2/15misty",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Everyone knows that you can sleep in a bed to pass the night, but there's a couple of other ways to rest your weary head. If you're feeling lazy, and want to pass the day to get to your busy night life, you can rest in a $(item)Hammock$().$(br)To setup a hammock, you need a 4 block long space between two vertical surfaces, and 2 $(item)Rope and Nails$()."
+        },
+        {
+            "type": "image",
+            "title": "Hammock Setup",
+            "images": [
+                "books:templates/hammock_1.png",
+                "books:templates/hammock_2.png"
+            ],
+            "text": "First, place the 2 $(item)Rope and Nails$(), and then use the $(item)Hammock$() on one of them."
+        },
+        {
+            "type": "crafting",
+            "recipe": "comforts:hammock_white",
+            "recipe2": "comforts:rope"
+        }
+    ]
+}

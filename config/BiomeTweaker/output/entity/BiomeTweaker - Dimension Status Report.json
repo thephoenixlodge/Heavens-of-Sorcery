@@ -271,11 +271,6 @@
     "Class": "hellfirepvp.astralsorcery.common.entities.EntityLiquidSpark"
   },
   {
-    "Name": "quark:leash_knot",
-    "Registry ID": "quark:leash_knot",
-    "Class": "vazkii.quark.decoration.entity.EntityLeashKnot2TheKnotting"
-  },
-  {
     "Name": "quark:stoneling",
     "Registry ID": "quark:stoneling",
     "Class": "vazkii.quark.world.entity.EntityStoneling"
@@ -314,6 +309,11 @@
     "Name": "quark:wraith",
     "Registry ID": "quark:wraith",
     "Class": "vazkii.quark.world.entity.EntityWraith"
+  },
+  {
+    "Name": "quark:leash_knot",
+    "Registry ID": "quark:leash_knot",
+    "Class": "vazkii.quark.decoration.entity.EntityLeashKnot2TheKnotting"
   },
   {
     "Name": "botania:pixie",
@@ -716,6 +716,11 @@
     "Class": "thebetweenlands.common.entity.mobs.EntityEmberling"
   },
   {
+    "Name": "thebetweenlands.wild_emberling",
+    "Registry ID": "thebetweenlands:wild_emberling",
+    "Class": "thebetweenlands.common.entity.mobs.EntityEmberlingWild"
+  },
+  {
     "Name": "thebetweenlands.sludge_menace",
     "Registry ID": "thebetweenlands:sludge_menace",
     "Class": "thebetweenlands.common.entity.mobs.EntitySludgeMenace"
@@ -1051,11 +1056,6 @@
     "Class": "com.bewitchment.common.entity.living.EntityLizard"
   },
   {
-    "Name": "bewitchment.newt",
-    "Registry ID": "bewitchment:newt",
-    "Class": "com.bewitchment.common.entity.living.EntityNewt"
-  },
-  {
     "Name": "bewitchment.owl",
     "Registry ID": "bewitchment:owl",
     "Class": "com.bewitchment.common.entity.living.EntityOwl"
@@ -1081,14 +1081,19 @@
     "Class": "com.bewitchment.common.entity.spirit.ghost.EntityBlackDog"
   },
   {
+    "Name": "bewitchment.ghost",
+    "Registry ID": "bewitchment:ghost",
+    "Class": "com.bewitchment.common.entity.spirit.ghost.EntityGhost"
+  },
+  {
     "Name": "bewitchment.hellhound",
     "Registry ID": "bewitchment:hellhound",
     "Class": "com.bewitchment.common.entity.spirit.demon.EntityHellhound"
   },
   {
-    "Name": "bewitchment.serpent",
-    "Registry ID": "bewitchment:serpent",
-    "Class": "com.bewitchment.common.entity.spirit.demon.EntitySerpent"
+    "Name": "bewitchment.feuerwurm",
+    "Registry ID": "bewitchment:feuerwurm",
+    "Class": "com.bewitchment.common.entity.spirit.demon.EntityFeuerwurm"
   },
   {
     "Name": "bewitchment.demon",
@@ -1104,6 +1109,26 @@
     "Name": "bewitchment.imp",
     "Registry ID": "bewitchment:imp",
     "Class": "com.bewitchment.common.entity.spirit.demon.EntityImp"
+  },
+  {
+    "Name": "bewitchment.shadow_person",
+    "Registry ID": "bewitchment:shadow_person",
+    "Class": "com.bewitchment.common.entity.spirit.demon.EntityShadowPerson"
+  },
+  {
+    "Name": "bewitchment.druden",
+    "Registry ID": "bewitchment:druden",
+    "Class": "com.bewitchment.common.entity.spirit.demon.EntityDruden"
+  },
+  {
+    "Name": "bewitchment.baphomet",
+    "Registry ID": "bewitchment:baphomet",
+    "Class": "com.bewitchment.common.entity.spirit.demon.EntityBaphomet"
+  },
+  {
+    "Name": "bewitchment.leonard",
+    "Registry ID": "bewitchment:leonard",
+    "Class": "com.bewitchment.common.entity.spirit.demon.EntityLeonard"
   },
   {
     "Name": "rat",

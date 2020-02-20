@@ -1,0 +1,45 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "entries": [
+        {
+          "entryName": "embers:archaic_brick",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 4.0,
+                "max": 11.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "embers:archaic_brick"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "main",
+      "entries": [
+        {
+          "entryName": "embers:ancient_motive_core",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "embers:ancient_motive_core"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

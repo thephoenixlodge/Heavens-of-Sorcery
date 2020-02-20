@@ -5,7 +5,7 @@
       "entries": [
         {
           "entryName": "bewitchment:heart",
-          "weight": 1,
+          "weight": 3,
           "quality": 0,
           "type": "item",
           "functions": [
@@ -28,21 +28,21 @@
         },
         {
           "entryName": "bewitchment:hellhound_horn",
-          "weight": 1,
+          "weight": 2,
           "quality": 0,
           "type": "item",
           "functions": [
             {
               "count": {
                 "min": 0.0,
-                "max": 1.0
+                "max": 2.0
               },
               "function": "minecraft:set_count"
             },
             {
               "count": {
                 "min": 0.0,
-                "max": 1.0
+                "max": 2.0
               },
               "function": "minecraft:looting_enchant"
             }
@@ -51,7 +51,7 @@
         },
         {
           "entryName": "minecraft:blaze_powder",
-          "weight": 1,
+          "weight": 2,
           "quality": 0,
           "type": "item",
           "functions": [
@@ -81,14 +81,14 @@
             {
               "count": {
                 "min": 0.0,
-                "max": 2.0
+                "max": 4.0
               },
               "function": "minecraft:set_count"
             },
             {
               "count": {
                 "min": 0.0,
-                "max": 1.0
+                "max": 4.0
               },
               "function": "minecraft:looting_enchant"
             }

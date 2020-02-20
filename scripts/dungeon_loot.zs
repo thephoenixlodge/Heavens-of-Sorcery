@@ -11,7 +11,7 @@ val tableDungeonRaid = LootTables.getTable("arcaneworld:raid_1");
 val poolRaid = tableDungeonRaid.getPool("raid_1");
 
 //EBWiz mob loot inject
-val tableEBWizInjectMob = LootTables.getTableUnchecked("ebwizardry:entities/mob_additions");
+val tableEBWizInjectMob = LootTables.getTable("ebwizardry:entities/mob_additions");
 val poolEBWizInjectMob = tableEBWizInjectMob.getPool("wizardry");
 
 //dimdoors
@@ -25,9 +25,12 @@ val poolsToRemove = [
 	"custom_avatar_loot_pools_2",
 	"custom_avatar_loot_pools_3",
 	"MysticalWorld",
-	"magicalsculpture_simple_dungeon",
 	"bewitchment_materials_pool",
-	"botania_inject_pool"
+	"botania_inject_pool",
+	"rat_upgrade_basic",
+	"token_fragment",
+	"rats:contaminated_food",
+	"magicalsculpture_simple_dungeon"
 ] as string[];
 val poolExtra = tableSimpleDungeon.addPool("hos_early_loot", 1, 3, 1, 1);
 val poolRare = tableSimpleDungeon.addPool("hos_early_rare_loot", 0, 2, 0, 0);
@@ -46,9 +49,10 @@ val netherPoolsToRemove = [
 	"custom_avatar_loot_pools_2",
 	"custom_avatar_loot_pools_3",
 	"custom_avatar_loot_pools_4",
-	"magicalsculpture_nether_bridge",
+	"bewitchment_nether_materials_pool",
 	"bewitchment_materials_pool",
-	"bewitchment_books_pool"
+	"magicalsculpture_nether_bridge"
+//	"chest_treasure"
 ] as string[];
 val poolNetherExtra = tableNetherFortress.addPool("hos_nether_loot", 1, 3, 1, 1);
 val poolNetherRare = tableNetherFortress.addPool("hos_nether_rare_loot", 0, 2, 0, 0);
@@ -76,10 +80,10 @@ val tableBSVillageBright = LootTables.getTable("blue_skies:chests/village/everbr
 val tableBSVillageDawn = LootTables.getTable("blue_skies:chests/village/everdawn_blacksmith");
 
 val poolBSLibrary = tableBSLibrary.addPool("hos_extra", 1, 2, 1, 1);
-val poolBSLibaryWizInject = tableBSLibrary.addPool("wiz_inject", 0, 4, 1, 2);
+val poolBSLibaryWizInject = tableBSLibrary.addPool("wiz_inject", 1, 1, 0, 0);
 val poolBSStudy = tableBSStudy.addPool("hos_extra", 1, 3, 1, 1);
 val poolBSPrisonBright = tableBSPrisonBright.addPool("hos_extra", 1, 3, 1, 1);
-val poolBSPrisonDawn = tableBSPrisonBright.addPool("hos_extra", 1, 3, 1, 1);
+val poolBSPrisonDawn = tableBSPrisonDawn.addPool("hos_extra", 1, 3, 1, 1);
 val poolBSAlchemist = tableBSAlchemist.addPool("hos_extra", 1, 3, 0, 0);
 val poolBSSummoner = tableBSSummoner.addPool("hos_extra", 1, 3, 0, 0);
 val poolBSVillageBright = tableBSVillageBright.addPool("hos_extra", 1, 3, 1, 1);
@@ -146,19 +150,20 @@ val extrasNetherMap = {
 	<rustic:cohosh> : 5,
 	<rustic:chamomile> : 5,
 	<rustic:aloe_vera> : 5,
-	<arcaneworld:amethyst> : 1,
+	<arcaneworld:amethyst> : 3,
 	<cuisine:crops:8> : 5,
 	<cuisine:crops:1> : 5,
 	<minecraft:nether_wart> : 5,
 	<rustic:blood_orchid> : 3,
-	<minecraft:splash_potion>.withTag({Potion: "minecraft:fire_resistance"}) : 5,
+	<minecraft:splash_potion>.withTag({Potion: "minecraft:fire_resistance"}) : 15,
 	<rustic:oliveseed> : 5,
 	<rustic:core_root> : 5,
 	<rustic:ginseng> : 5,
 	<rustic:wind_thistle> : 5,
 	<rustic:horsetail> : 5,
 	<rustic:cloudsbluff> : 5,
-	<rustic:marsh_mallow> : 5
+	<rustic:marsh_mallow> : 5,
+	<minecraft:ender_pearl> : 25
 } as int[IItemStack];
 val biomeStones = <botania:biomestonea>;
 val coal = <minecraft:coal>;
@@ -180,8 +185,7 @@ val extrasAetherMap = {
 	<cuisine:crops:9> : 5,
 	<cuisine:crops:3>: 5,
 	<botania:tinypotato> : 5,
-	<quark:iron_rod> : 2,
-	<minecraft:dye:4> : 20
+	<quark:iron_rod> : 2
 } as int[IItemStack];
 val chorusFlower = <minecraft:chorus_flower>;
 val skyRod = <botania:tornadorod>;
@@ -214,11 +218,13 @@ val extrasBSMap = {
 	<buildinggadgets:constructionpaste> : 12,
 	<botania:tinypotato> : 8,
 	<arcaneworld:fang_wand> : 6,
-	<minecraft:dye:4> : 18
+	<rats:token_fragment> : 15,
+	<rats:token_piece> : 3
 } as int[IItemStack];
 val sparkUpgrade = <botania:sparkupgrade>;
 val caveIlluminator = <astralsorcery:blockworldilluminator>;
 val book = <minecraft:book>;
+val lapis = <minecraft:dye:4>;
 val bendingScroll = <avatarmod:scroll>;
 
 //Add angel hearts to the pool
@@ -229,6 +235,9 @@ poolRaid.addItemEntry(portalCore, 14);
 
 //add Elytra to the pool
 poolRaid.addItemEntry(elytra, 6);
+
+//remove Potion Orbs
+poolRaid.removeEntry("arcaneworld:potion_orb");
 
 //remove spell books from mob drops
 poolEBWizInjectMob.removeEntry("ebwizardry:spell_book");
@@ -243,18 +252,19 @@ for item, weight in extrasSimpleMap {
 	poolExtra.addItemEntry(item, weight);	
 }
 poolExtra.addItemEntryHelper(grassSeeds, 6, 1, [Functions.setMetadata(0, 8)], []);
-poolExtra.addItemEntryHelper(chestUpgrade, 2, 2, [Functions.setMetadata(0, 14)], []);
+poolExtra.addItemEntryHelper(chestUpgrade, 4, 2, [Functions.setMetadata(0, 14)], []);
 poolExtra.addItemEntryHelper(illuminationPowder, 6, 1, [Functions.setCount(1, 10)], []);
 poolExtra.addItemEntryHelper(doubleFlowers, 5, 1, [Functions.setMetadata(0, 1)], []);
 poolExtra.addItemEntryHelper(doubleFlowers, 5, 1, [Functions.setMetadata(4, 5)], []);
 for box in shulkerBoxes {
 	poolExtra.addItemEntry(box, 2);
+	box.addTooltip(format.gold("Insert items without placing: Right click the item directly onto it in your inventory!"));
 }
 
 poolRare.addItemEntryHelper(beacon, 1, 3, [Functions.setCount(0, 1)], []);
 poolRare.addItemEntryHelper(pickarang, 3, 2, [Functions.setCount(0, 1)], []);
 poolRare.addItemEntryHelper(wandUnbreakable, 1, 4, [Functions.setCount(0, 1)], []);
-poolRare.addItemEntryHelper(moltenCore, 4, 1, [Functions.setCount(0, 1)], []);
+poolRare.addItemEntryHelper(moltenCore, 5, 1, [Functions.setCount(0, 1)], []);
 poolRare.addItemEntryHelper(elytra, 3, 1, [Functions.setCount(0, 1)], []);
 
 //Dim doors
@@ -284,7 +294,7 @@ poolNetherRare.addItemEntryHelper(advSimilsax, 2, 2, [Functions.setCount(0, 1)],
 poolNetherRare.addItemEntryHelper(shieldWood, 3, 4, [Functions.setCount(0, 1)], []);
 poolNetherRare.addItemEntryHelper(shieldStone, 2, 1, [Functions.setCount(0, 1)], []);
 poolNetherRare.addItemEntryHelper(obsidian, 7, 1, [Functions.setCount(0, 5)], []);
-poolNetherRare.addItemEntryHelper(chestUpgrade, 4, 1, [Functions.setCount(0, 1), Functions.setMetadata(0, 14)], []);
+poolNetherRare.addItemEntryHelper(chestUpgrade, 6, 1, [Functions.setCount(0, 1), Functions.setMetadata(0, 14)], []);
 
 //Aether dungeons
 for aetherItem, weight in extrasAetherMap {
@@ -292,12 +302,15 @@ for aetherItem, weight in extrasAetherMap {
 	poolAetherSilverChest.addItemEntry(aetherItem, weight);
 	poolAetherGoldChest.addItemEntry(aetherItem, weight);
 }
+poolAetherBronzeChest.addItemEntryHelper(lapis, 16, 1, [Functions.setCount(1, 20)], []);
+poolAetherSilverChest.addItemEntryHelper(lapis, 16, 1, [Functions.setCount(1, 20)], []);
+poolAetherGoldChest.addItemEntryHelper(lapis, 16, 1, [Functions.setCount(1, 20)], []);
 poolAetherBronzeChest.addItemEntryHelper(chestUpgrade, 3, 1, [Functions.setCount(0, 1), Functions.setMetadata(0, 14)], []);
 poolAetherSilverChest.addItemEntryHelper(chestUpgrade, 3, 1, [Functions.setCount(0, 1), Functions.setMetadata(0, 14)], []);
 poolAetherGoldChest.addItemEntryHelper(chestUpgrade, 3, 1, [Functions.setCount(0, 1), Functions.setMetadata(0, 14)], []);
 poolAetherBronzeReward.addItemEntryHelper(iChisel, 2, 3, [Functions.setCount(0, 1)], []);
 poolAetherBronzeReward.addItemEntryHelper(skyRod, 2, 3, [Functions.setCount(0, 1)], []);
-poolAetherBronzeReward.addItemEntryHelper(chorusFlower, 2, 3, [Functions.setCount(0, 1)], []);
+poolAetherBronzeReward.addItemEntryHelper(chorusFlower, 2, 3, [Functions.setCount(1, 2)], []);
 poolAetherSilverReward.addItemEntryHelper(elytra, 3, 1, [Functions.setCount(0, 1)], []);
 poolAetherSilverReward.addItemEntryHelper(wandUnbreakable, 1, 4, [Functions.setCount(0, 1)], []);
 poolAetherSilverReward.addItemEntryHelper(totemUndying, 1, 1, [Functions.setCount(0, 1)], []);
@@ -322,6 +335,11 @@ poolBSPrisonBright.addItemEntryHelper(sparkUpgrade, 4, 1, [Functions.setMetadata
 poolBSPrisonDawn.addItemEntryHelper(sparkUpgrade, 4, 1, [Functions.setMetadata(0, 3)], []);
 poolBSLibrary.addItemEntryHelper(book, 10, 1, [Functions.enchantWithLevels(25, 35, false)], []);
 poolBSLibrary.addItemEntryHelper(book, 2, 1, [Functions.enchantWithLevels(25, 35, true)], []);
+poolBSVillageBright.addItemEntryHelper(lapis, 16, 1, [Functions.setCount(1, 20)], []);
+poolBSVillageDawn.addItemEntryHelper(lapis, 16, 1, [Functions.setCount(1, 20)], []);
+poolBSStudy.addItemEntryHelper(lapis, 16, 1, [Functions.setCount(1, 20)], []);
+poolBSPrisonBright.addItemEntryHelper(lapis, 16, 1, [Functions.setCount(1, 20)], []);
+poolBSPrisonDawn.addItemEntryHelper(lapis, 16, 1, [Functions.setCount(1, 20)], []);
 poolBSLibrary.addItemEntryHelper(bendingScroll, 8, 1, [Functions.setMetadata(1, 4)], []);
 for wings, weight in wingsMap {
 	poolBSAlchemist.addItemEntry(wings, weight);

@@ -1,7 +1,7 @@
 import mods.spawntabletweaker;
 
 ////variables
-var plainsMobs = [
+var arcaneDungeonMobs = [
 	"ebwizardry:evil_wizard",
 	"ebwizardry:lightning_wraith",
 	"bewitchment:black_dog",
@@ -23,10 +23,10 @@ var plainsMobs = [
 ] as string[];
 
 
-for mob in plainsMobs {
-	spawntabletweaker.removeSpawn(mob, "MONSTER", ["minecraft:plains"]);
+for mob in arcaneDungeonMobs {
+	spawntabletweaker.removeSpawn(mob, "MONSTER", ["arcaneworld:arcane_dungeon"]);
 }
 
-spawntabletweaker.addSpawn("embers:ancient_golem", 10, 1, 1, "MONSTER", ["minecraft:plains"]);
-spawntabletweaker.addSpawn("quark:stoneling", 5, 1, 1, "MONSTER", ["minecraft:plains"]);
-spawntabletweaker.addSpawn("artifacts:mimic", 1, 1, 1, "MONSTER", ["minecraft:plains"]);
+spawntabletweaker.addSpawn("embers:ancient_golem", 10, 1, 1, "MONSTER", ["arcaneworld:arcane_dungeon"]);
+spawntabletweaker.addSpawn("quark:stoneling", 5, 1, 1, "MONSTER", ["arcaneworld:arcane_dungeon"]);
+spawntabletweaker.addSpawn("artifacts:mimic", 1, 1, 1, "MONSTER", ["arcaneworld:arcane_dungeon"]);

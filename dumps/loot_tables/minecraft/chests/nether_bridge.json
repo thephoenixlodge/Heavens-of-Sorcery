@@ -155,394 +155,6 @@
       }
     },
     {
-      "name": "custom_avatar_loot_pools",
-      "entries": [
-        {
-          "entryName": "empty",
-          "weight": 50,
-          "quality": 1,
-          "type": "empty"
-        },
-        {
-          "entryName": "custom_0",
-          "weight": 20,
-          "quality": 1,
-          "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            },
-            {
-              "data": 0.0,
-              "function": "minecraft:set_data"
-            },
-            {
-              "tag": "{}",
-              "function": "minecraft:set_nbt"
-            }
-          ],
-          "name": "avatarmod:bison_whistle"
-        },
-        {
-          "entryName": "custom_1",
-          "weight": 20,
-          "quality": 1,
-          "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            },
-            {
-              "data": 1.0,
-              "function": "minecraft:set_data"
-            },
-            {
-              "tag": "{}",
-              "function": "minecraft:set_nbt"
-            }
-          ],
-          "name": "avatarmod:bison_saddle"
-        },
-        {
-          "entryName": "custom_2",
-          "weight": 10,
-          "quality": 1,
-          "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            },
-            {
-              "data": 0.0,
-              "function": "minecraft:set_data"
-            },
-            {
-              "tag": "{}",
-              "function": "minecraft:set_nbt"
-            }
-          ],
-          "name": "avatarmod:bison_saddle"
-        },
-        {
-          "entryName": "custom_3",
-          "weight": 10,
-          "quality": 1,
-          "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            },
-            {
-              "data": 2.0,
-              "function": "minecraft:set_data"
-            },
-            {
-              "tag": "{}",
-              "function": "minecraft:set_nbt"
-            }
-          ],
-          "name": "avatarmod:bison_saddle"
-        },
-        {
-          "entryName": "custom_4",
-          "weight": 5,
-          "quality": 1,
-          "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            },
-            {
-              "data": 3.0,
-              "function": "minecraft:set_data"
-            },
-            {
-              "tag": "{}",
-              "function": "minecraft:set_nbt"
-            }
-          ],
-          "name": "avatarmod:bison_saddle"
-        },
-        {
-          "entryName": "custom_5",
-          "weight": 30,
-          "quality": 1,
-          "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            },
-            {
-              "data": 0.0,
-              "function": "minecraft:set_data"
-            },
-            {
-              "tag": "{}",
-              "function": "minecraft:set_nbt"
-            }
-          ],
-          "name": "avatarmod:water_pouch"
-        }
-      ],
-      "rolls": 1.0,
-      "bonus_rolls": 1.0
-    },
-    {
-      "name": "custom_avatar_loot_pools_2",
-      "entries": [
-        {
-          "entryName": "empty",
-          "weight": 120,
-          "quality": 1,
-          "type": "empty"
-        },
-        {
-          "entryName": "custom_0",
-          "weight": 20,
-          "quality": 1,
-          "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            },
-            {
-              "data": 0.0,
-              "function": "minecraft:set_data"
-            },
-            {
-              "tag": "{}",
-              "function": "minecraft:set_nbt"
-            }
-          ],
-          "name": "avatarmod:scroll"
-        },
-        {
-          "entryName": "custom_1",
-          "weight": 5,
-          "quality": 1,
-          "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            },
-            {
-              "data": 1.0,
-              "function": "minecraft:set_data"
-            },
-            {
-              "tag": "{}",
-              "function": "minecraft:set_nbt"
-            }
-          ],
-          "name": "avatarmod:scroll"
-        },
-        {
-          "entryName": "custom_2",
-          "weight": 5,
-          "quality": 1,
-          "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            },
-            {
-              "data": 2.0,
-              "function": "minecraft:set_data"
-            },
-            {
-              "tag": "{}",
-              "function": "minecraft:set_nbt"
-            }
-          ],
-          "name": "avatarmod:scroll"
-        },
-        {
-          "entryName": "custom_3",
-          "weight": 5,
-          "quality": 1,
-          "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            },
-            {
-              "data": 3.0,
-              "function": "minecraft:set_data"
-            },
-            {
-              "tag": "{}",
-              "function": "minecraft:set_nbt"
-            }
-          ],
-          "name": "avatarmod:scroll"
-        },
-        {
-          "entryName": "custom_4",
-          "weight": 5,
-          "quality": 1,
-          "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            },
-            {
-              "data": 4.0,
-              "function": "minecraft:set_data"
-            },
-            {
-              "tag": "{}",
-              "function": "minecraft:set_nbt"
-            }
-          ],
-          "name": "avatarmod:scroll"
-        },
-        {
-          "entryName": "custom_5",
-          "weight": 10,
-          "quality": 1,
-          "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            },
-            {
-              "data": 5.0,
-              "function": "minecraft:set_data"
-            },
-            {
-              "tag": "{}",
-              "function": "minecraft:set_nbt"
-            }
-          ],
-          "name": "avatarmod:scroll"
-        }
-      ],
-      "rolls": 1.0,
-      "bonus_rolls": 1.0
-    },
-    {
-      "name": "custom_avatar_loot_pools_3",
-      "entries": [
-        {
-          "entryName": "empty",
-          "weight": 65,
-          "quality": 1,
-          "type": "empty"
-        },
-        {
-          "entryName": "custom_0",
-          "weight": 10,
-          "quality": 1,
-          "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            },
-            {
-              "data": 0.0,
-              "function": "minecraft:set_data"
-            },
-            {
-              "tag": "{}",
-              "function": "minecraft:set_nbt"
-            }
-          ],
-          "name": "avatarmod:ostrich_equip"
-        },
-        {
-          "entryName": "custom_1",
-          "weight": 10,
-          "quality": 1,
-          "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            },
-            {
-              "data": 1.0,
-              "function": "minecraft:set_data"
-            },
-            {
-              "tag": "{}",
-              "function": "minecraft:set_nbt"
-            }
-          ],
-          "name": "avatarmod:ostrich_equip"
-        },
-        {
-          "entryName": "custom_2",
-          "weight": 15,
-          "quality": 1,
-          "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            },
-            {
-              "data": 0.0,
-              "function": "minecraft:set_data"
-            },
-            {
-              "tag": "{}",
-              "function": "minecraft:set_nbt"
-            }
-          ],
-          "name": "avatarmod:ostrich_equip"
-        }
-      ],
-      "rolls": 1.0,
-      "bonus_rolls": 1.0
-    },
-    {
-      "name": "custom_avatar_loot_pools_4",
-      "entries": [
-        {
-          "entryName": "empty",
-          "weight": 0,
-          "quality": 1,
-          "type": "empty"
-        },
-        {
-          "entryName": "custom_0",
-          "weight": 40,
-          "quality": 1,
-          "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            },
-            {
-              "data": 8.0,
-              "function": "minecraft:set_data"
-            },
-            {
-              "tag": "{}",
-              "function": "minecraft:set_nbt"
-            }
-          ],
-          "name": "avatarmod:scroll"
-        }
-      ],
-      "rolls": 1.0,
-      "bonus_rolls": 1.0
-    },
-    {
       "name": "magicalsculpture_nether_bridge",
       "entries": [
         {
@@ -556,14 +168,14 @@
       "rolls": 1.0
     },
     {
-      "name": "bewitchment_books_pool",
+      "name": "bewitchment_nether_materials_pool",
       "entries": [
         {
-          "entryName": "bewitchment_books_entry",
+          "entryName": "bewitchment_nether_materials_entry",
           "weight": 5,
           "quality": 0,
           "type": "loot_table",
-          "name": "bewitchment:chests/books"
+          "name": "bewitchment:chests/nether_materials"
         }
       ],
       "rolls": 1.0
@@ -580,6 +192,320 @@
         }
       ],
       "rolls": 1.0
+    },
+    {
+      "name": "hos_nether_loot",
+      "entries": [
+        {
+          "entryName": "loottweaker#1",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:nether_wart"
+        },
+        {
+          "entryName": "loottweaker#2",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "rustic:cloudsbluff"
+        },
+        {
+          "entryName": "loottweaker#3",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "rustic:core_root"
+        },
+        {
+          "entryName": "loottweaker#4",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 8.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "cuisine:crops"
+        },
+        {
+          "entryName": "loottweaker#5",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "rustic:oliveseed"
+        },
+        {
+          "entryName": "loottweaker#6",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "rustic:horsetail"
+        },
+        {
+          "entryName": "loottweaker#7",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "arcaneworld:amethyst"
+        },
+        {
+          "entryName": "loottweaker#8",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "rustic:chamomile"
+        },
+        {
+          "entryName": "loottweaker#9",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "rustic:aloe_vera"
+        },
+        {
+          "entryName": "loottweaker#10",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "rustic:marsh_mallow"
+        },
+        {
+          "entryName": "loottweaker#11",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "rustic:mooncap_mushroom"
+        },
+        {
+          "entryName": "loottweaker#12",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{Potion:\"minecraft:fire_resistance\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:splash_potion"
+        },
+        {
+          "entryName": "loottweaker#13",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "rustic:ginseng"
+        },
+        {
+          "entryName": "loottweaker#14",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "rustic:cohosh"
+        },
+        {
+          "entryName": "loottweaker#15",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "rustic:wind_thistle"
+        },
+        {
+          "entryName": "loottweaker#16",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 1.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "cuisine:crops"
+        },
+        {
+          "entryName": "loottweaker#17",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "name": "rustic:blood_orchid"
+        },
+        {
+          "entryName": "loottweaker#18",
+          "weight": 10,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "data": {
+                "min": 8.0,
+                "max": 15.0
+              },
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": {
+                "min": 5.0,
+                "max": 100.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "botania:biomestonea"
+        },
+        {
+          "entryName": "loottweaker#19",
+          "weight": 20,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 5.0,
+                "max": 100.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:cobblestone"
+        },
+        {
+          "entryName": "loottweaker#20",
+          "weight": 4,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:coal"
+        }
+      ],
+      "rolls": {
+        "min": 1.0,
+        "max": 3.0
+      },
+      "bonus_rolls": 1.0
+    },
+    {
+      "name": "hos_nether_rare_loot",
+      "entries": [
+        {
+          "entryName": "loottweaker#1",
+          "weight": 2,
+          "quality": 3,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "chisel:chisel_hitech"
+        },
+        {
+          "entryName": "loottweaker#2",
+          "weight": 2,
+          "quality": 2,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "similsaxtranstructors:similsaxtranstructoradvanced"
+        },
+        {
+          "entryName": "loottweaker#3",
+          "weight": 3,
+          "quality": 4,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "superiorshields:vanilla_shield_wood"
+        },
+        {
+          "entryName": "loottweaker#4",
+          "weight": 2,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "superiorshields:vanilla_shield_stone"
+        },
+        {
+          "entryName": "loottweaker#5",
+          "weight": 7,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:obsidian"
+        },
+        {
+          "entryName": "loottweaker#6",
+          "weight": 4,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": {
+                "min": 0.0,
+                "max": 14.0
+              },
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "metalchests:chest_upgrade"
+        }
+      ],
+      "rolls": {
+        "min": 0.0,
+        "max": 2.0
+      }
     },
     {
       "name": "chest_treasure",

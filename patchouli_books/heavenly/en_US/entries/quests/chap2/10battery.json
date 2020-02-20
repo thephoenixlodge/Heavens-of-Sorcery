@@ -10,11 +10,11 @@
             "type": "quest",
             "title": "Battery Builder",
             "trigger": "heavens:bookchap2/11manabattery",
-            "text": "The spellcrafting altar can be fed mana by placing $(item)Mana Orbs$() on the $()Pearl Holders$(), but that's a rather small reserve, and requires frequent manual refilling. A $(item)Mana Battery$() structure will slowly regenerate $(thing)mana$() and act as a reserve of it for creating your spells. Like the spellcrafting altar, the structure is built mostly of "
+            "text": "The spellcrafting altar can be fed mana by placing $(item)Mana Orbs$() on the $()Pearl Holders$(), but that's a rather small reserve, and requires frequent manual refilling. A $(item)Mana Battery$() structure will slowly regenerate $(thing)mana$() and act as a reserve of it for creating your spells (stored in $(item)Glass Orbs$() placed on its own holders)."
         },
         {
             "type": "text",
-            "text": "$(item)Quartz$(), $(item)Gold$() and $(item)Wisdom Wood$(), but also includes 8 buckets of $(item)Liquid Mana$() in the middle of the structure."
+            "text": "Like the spellcrafting altar, the structure is built mostly of $(item)Quartz$(), $(item)Gold$() and $(item)Wisdom Wood$(), but also includes 8 buckets of $(item)Liquid Mana$() in the middle of the structure."
         },
         {
         	"type": "checklist_many",

@@ -2,7 +2,7 @@
     "name": "Attunement Altar",
     "icon": "astralsorcery:blockattunementaltar",
     "category": "collected_knowledge/multiblocks",
-    "advancement": "heavens:bookchap3/23telescope",
+    "advancement": "heavens:bookchap3/18linkingtool",
     "pages": [
         {
             "type": "multiblock_bill",

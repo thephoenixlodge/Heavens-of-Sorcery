@@ -1,31 +1,33 @@
 {
-    "pools": [
+  "pools": [
+    {
+      "name": "ice",
+      "entries": [
         {
-			"name": "ice",
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "item",
-                    "name": "blue_skies:moonstone",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": {
-                                "min": 1,
-                                "max": 3
-                            }
-                        },
-                        {
-                            "function": "looting_enchant",
-                            "count": {
-                                "min": 0,
-                                "max": 1
-                            }
-                        }
-                    ]
-                }
-            ]
+          "entryName": "blue_skies:moonstone",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "blue_skies:moonstone"
         }
-    ]
+      ],
+      "rolls": 1.0
+    }
+  ]
 }

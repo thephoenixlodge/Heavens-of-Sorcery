@@ -1,0 +1,18 @@
+{
+    "name": "Rest on the Go",
+    "icon": "comforts:sleeping_bag",
+    "category": "useful_things",
+    "advancement": "heavens:bookchap2/2rituals",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Everyone knows that you can sleep in a bed to pass the night, but there's a couple of other ways to rest your weary head. If you're on the go, you can sleep through the night in a $(item)Sleeping Bag$()."
+        },
+        {
+            "type": "crafting",
+            "recipe": "comforts:sleeping_bag_white",
+            "title": "Sleeping Bag",
+            "text": "Any colour wool may be used, though all must be the same colour."
+        }
+    ]
+}

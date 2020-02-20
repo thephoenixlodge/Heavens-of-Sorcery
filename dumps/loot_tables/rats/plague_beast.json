@@ -1,0 +1,65 @@
+{
+  "pools": [
+    {
+      "name": "plague_beast",
+      "entries": [
+        {
+          "entryName": "rats:feral_rat_claw",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "rats:feral_rat_claw"
+        },
+        {
+          "entryName": "rats:plague_leech",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "rats:plague_leech"
+        },
+        {
+          "entryName": "rats:rat_pelt",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "rats:rat_pelt"
+        }
+      ],
+      "rolls": 2.0
+    }
+  ]
+}

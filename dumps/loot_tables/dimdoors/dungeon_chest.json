@@ -185,7 +185,7 @@
       "name": "bm_book",
       "entries": [
         {
-          "entryName": "patchouli:guide_book",
+          "entryName": "loottweaker#1",
           "weight": 1,
           "quality": 0,
           "type": "item",
@@ -198,7 +198,7 @@
           "name": "patchouli:guide_book"
         },
         {
-          "entryName": "bloodmagic:sentient_sword",
+          "entryName": "loottweaker#2",
           "weight": 1,
           "quality": 0,
           "type": "item",

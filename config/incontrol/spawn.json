@@ -32,14 +32,6 @@
 		"result": "deny"
 	},
 	{
-		"dimension": 3,
-		"mob": [
-			"avatarmod:skybison"
-		],
-		"maxcount": 5,
-		"result": "allow"
-	},
-	{
 		"dimension": 76,
 		"mob": [
 			"blue_skies:armored_frost_spirit",
@@ -108,5 +100,35 @@
 	{
 		"dimension": 77,
 		"result": "deny"
-	}
+	},
+	{
+        "dimension": 3,
+        "mob": "avatarmod:skybison",
+        "mincount": {
+            "mob": "avatarmod:skybison",
+            "amount": 5,
+            "perplayer": true
+        },
+        "result": "deny"
+    },
+    {
+        "dimension": 3,
+        "mob": "aether_legacy:swet",
+        "mincount": {
+            "mob": "aether_legacy:swet",
+            "amount": 5,
+            "perplayer": true
+        },
+        "result": "deny"
+    },
+    {
+        "dimension": 3,
+        "mob": "aether_legacy:aechor_plant",
+        "mincount": {
+            "mob": "aether_legacy:aechor_plant",
+            "amount": 5,
+            "perplayer": true
+        },
+        "result": "deny"
+    }
 ]

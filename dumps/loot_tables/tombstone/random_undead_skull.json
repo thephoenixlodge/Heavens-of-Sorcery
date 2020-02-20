@@ -1,0 +1,26 @@
+{
+  "pools": [
+    {
+      "name": "random_undead_skull",
+      "entries": [
+        {
+          "entryName": "minecraft:skull",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": {
+                "min": 0.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "minecraft:skull"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

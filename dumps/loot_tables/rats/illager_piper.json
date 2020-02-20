@@ -1,0 +1,167 @@
+{
+  "pools": [
+    {
+      "name": "piper",
+      "entries": [
+        {
+          "entryName": "rats:rat_pelt",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "rats:rat_pelt"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "piper",
+      "entries": [
+        {
+          "entryName": "minecraft:feather",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:feather"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "piper",
+      "entries": [
+        {
+          "entryName": "rats:raw_rat",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "rats:raw_rat"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "piper",
+      "entries": [
+        {
+          "entryName": "minecraft:dye",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 2.0
+              },
+              "function": "minecraft:looting_enchant"
+            },
+            {
+              "data": 4.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "minecraft:dye"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "piper",
+      "entries": [
+        {
+          "entryName": "minecraft:gold_nugget",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 2.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "minecraft:gold_nugget"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "piper",
+      "entries": [
+        {
+          "entryName": "rats:token_fragment",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "rats:token_fragment"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "inverse": false,
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "chance": 0.05,
+          "looting_multiplier": 0.05,
+          "condition": "minecraft:random_chance_with_looting"
+        }
+      ]
+    }
+  ]
+}

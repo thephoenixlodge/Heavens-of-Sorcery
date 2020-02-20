@@ -1,0 +1,89 @@
+{
+  "pools": [
+    {
+      "name": "feral_ratlantean",
+      "entries": [
+        {
+          "entryName": "rats:feral_rat_claw",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "rats:feral_rat_claw"
+        },
+        {
+          "entryName": "rats:rat_toga",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "rats:rat_toga"
+        },
+        {
+          "entryName": "rats:rat_pelt",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "rats:rat_pelt"
+        }
+      ],
+      "rolls": 2.0
+    },
+    {
+      "name": "feral_ratlantean",
+      "entries": [
+        {
+          "entryName": "rats:marbled_cheese_rat_head",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "rats:marbled_cheese_rat_head"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "inverse": false,
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "chance": 0.05,
+          "looting_multiplier": 0.05,
+          "condition": "minecraft:random_chance_with_looting"
+        }
+      ]
+    }
+  ]
+}

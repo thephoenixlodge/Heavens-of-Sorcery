@@ -167,6 +167,189 @@
         "min": 3.0,
         "max": 5.0
       }
+    },
+    {
+      "name": "hos_extra",
+      "entries": [
+        {
+          "entryName": "loottweaker#1",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 3.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "tag": "{Fireworks:{Flight:3b}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:fireworks"
+        },
+        {
+          "entryName": "loottweaker#2",
+          "weight": 7,
+          "quality": 0,
+          "type": "item",
+          "name": "quark:biotite"
+        },
+        {
+          "entryName": "loottweaker#3",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "name": "quark:iron_rod"
+        },
+        {
+          "entryName": "loottweaker#4",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 3.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "cuisine:crops"
+        },
+        {
+          "entryName": "loottweaker#5",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "quark:arrow_torch"
+        },
+        {
+          "entryName": "loottweaker#6",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "botania:tinypotato"
+        },
+        {
+          "entryName": "loottweaker#7",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 21.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "cuisine:crops"
+        },
+        {
+          "entryName": "loottweaker#8",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 9.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "cuisine:crops"
+        },
+        {
+          "entryName": "loottweaker#9",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 1.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "botania:manaresource"
+        },
+        {
+          "entryName": "loottweaker#10",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 10.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "cuisine:crops"
+        },
+        {
+          "entryName": "loottweaker#11",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 12.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "cuisine:crops"
+        },
+        {
+          "entryName": "loottweaker#12",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "astralsorcery:itemusabledust"
+        },
+        {
+          "entryName": "loottweaker#13",
+          "weight": 16,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 20.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 4.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "minecraft:dye"
+        },
+        {
+          "entryName": "loottweaker#14",
+          "weight": 3,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": {
+                "min": 0.0,
+                "max": 14.0
+              },
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "metalchests:chest_upgrade"
+        }
+      ],
+      "rolls": {
+        "min": 1.0,
+        "max": 3.0
+      },
+      "bonus_rolls": 1.0
     }
   ]
 }

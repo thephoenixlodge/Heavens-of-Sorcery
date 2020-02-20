@@ -1,32 +1,36 @@
 {
-    "pools": [
+  "pools": [
+    {
+      "name": "wool",
+      "entries": [
         {
-			"name": "wool",
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "item",
-                    "name": "minecraft:wool",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "minecraft:set_data",
-                            "data": 10
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-			"name": "meat",
-            "rolls": 1,
-            "entries": [
-                {
-                    "type": "loot_table",
-                    "name": "blue_skies:entities/stardust_ram",
-                    "weight": 1
-                }
-            ]
+          "entryName": "minecraft:wool",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 10.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "minecraft:wool"
         }
-    ]
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "meat",
+      "entries": [
+        {
+          "entryName": "blue_skies:entities/stardust_ram",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "blue_skies:entities/stardust_ram"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
 }

@@ -1,0 +1,48 @@
+{
+  "pools": [
+    {
+      "name": "lore_book",
+      "entries": [
+        {
+          "entryName": "aether_legacy:lore_book",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "properties": {
+                "minecraft:aether_loot_spawn": true
+              },
+              "entity": "this",
+              "condition": "minecraft:entity_properties"
+            }
+          ],
+          "type": "item",
+          "name": "aether_legacy:lore_book"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "golden_parachute",
+      "entries": [
+        {
+          "entryName": "aether_legacy:golden_parachute",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "properties": {
+                "minecraft:aether_loot_spawn": true
+              },
+              "entity": "this",
+              "condition": "minecraft:entity_properties"
+            }
+          ],
+          "type": "item",
+          "name": "aether_legacy:golden_parachute"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

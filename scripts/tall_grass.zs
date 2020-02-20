@@ -62,7 +62,7 @@ Dropt.list("everdawn_grass")
       )
   );
 
-  Dropt.list("list_name")
+  Dropt.list("everbright_grass")
 
   .add(Dropt.rule()
       .matchBlocks(["blue_skies:turquoise_tallgrass"])

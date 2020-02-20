@@ -1,1 +1,2 @@
-astralsorcery research @p BASIC_CRAFT
+astralsorcery research @s BASIC_CRAFT
+astralsorcery progress @s next

@@ -96,6 +96,64 @@
         "min": 5.0,
         "max": 6.0
       }
+    },
+    {
+      "name": "hos_extra",
+      "entries": [
+        {
+          "entryName": "loottweaker#1",
+          "weight": 2,
+          "quality": 3,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "chisel:chisel_hitech"
+        },
+        {
+          "entryName": "loottweaker#2",
+          "weight": 2,
+          "quality": 3,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "botania:tornadorod"
+        },
+        {
+          "entryName": "loottweaker#3",
+          "weight": 2,
+          "quality": 3,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:chorus_flower"
+        }
+      ],
+      "rolls": {
+        "min": 1.0,
+        "max": 3.0
+      },
+      "bonus_rolls": 1.0
     }
   ]
 }

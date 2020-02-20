@@ -6,7 +6,23 @@
 		"0": {
 			"rate": 2000,
 			"entities": {
-				"minecraft:zombie_pigman": {
+				"aether_legacy:phyg": {
+					"nbt": "{}",
+					"weight": 100.0
+				},
+				"aether_legacy:sheepuff": {
+					"nbt": "{}",
+					"weight": 100.0
+				},
+				"aether_legacy:aerbunny": {
+					"nbt": "{}",
+					"weight": 100.0
+				},
+				"aether_legacy:flying_cow": {
+					"nbt": "{}",
+					"weight": 100.0
+				},
+				"aether_legacy:swet": {
 					"nbt": "{}",
 					"weight": 100.0
 				}

@@ -1,0 +1,174 @@
+{
+  "pools": [
+    {
+      "name": "nether_materials",
+      "entries": [
+        {
+          "entryName": "patchouli:guide_book",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "tag": "{\"patchouli:book\":\"bewitchment:codex_infernalis\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "patchouli:guide_book"
+        },
+        {
+          "entryName": "bewitchment:dragons_blood_sapling",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "bewitchment:dragons_blood_sapling"
+        },
+        {
+          "entryName": "bewitchment:scorned_bricks",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 16.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "bewitchment:scorned_bricks"
+        },
+        {
+          "entryName": "bewitchment:nethersteel",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 16.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "bewitchment:nethersteel"
+        },
+        {
+          "entryName": "bewitchment:hellebore",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "bewitchment:hellebore"
+        },
+        {
+          "entryName": "bewitchment:dragons_blood_resin",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "bewitchment:dragons_blood_resin"
+        },
+        {
+          "entryName": "bewitchment:heart",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "bewitchment:heart"
+        },
+        {
+          "entryName": "bewitchment:fortunes_favor",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "bewitchment:fortunes_favor"
+        },
+        {
+          "entryName": "bewitchment:hellhound_horn",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "bewitchment:hellhound_horn"
+        },
+        {
+          "entryName": "bewitchment:hecates_visage",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "bewitchment:hecates_visage"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

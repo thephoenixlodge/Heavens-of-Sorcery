@@ -1,0 +1,23 @@
+{
+  "pools": [
+    {
+      "name": "leonard",
+      "entries": [
+        {
+          "entryName": "bewitchment:leonards_wand",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "bewitchment:leonards_wand"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

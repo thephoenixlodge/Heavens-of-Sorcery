@@ -1,0 +1,17 @@
+{
+  "pools": [
+    {
+      "name": "kathairis:fungal_drug",
+      "entries": [
+        {
+          "entryName": "kathairis:fungal_drug",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "kathairis:fungal_drug"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

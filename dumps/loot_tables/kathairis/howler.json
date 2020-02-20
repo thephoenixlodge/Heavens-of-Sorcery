@@ -1,0 +1,17 @@
+{
+  "pools": [
+    {
+      "name": "kathairis:howler_fur",
+      "entries": [
+        {
+          "entryName": "kathairis:howler_fur",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "kathairis:howler_fur"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "pools": [
+    {
+      "name": "baphomet",
+      "entries": [
+        {
+          "entryName": "bewitchment:caduceus",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "bewitchment:caduceus"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

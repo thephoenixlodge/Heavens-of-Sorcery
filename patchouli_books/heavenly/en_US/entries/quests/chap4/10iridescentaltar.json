@@ -3,7 +3,7 @@
     "icon": "astralsorcery:blockaltar:3",
     "category": "quests/chap4",
     "sortnum": 10,
-    "advancement": "heavens:bookchap4/06gemcutterstable",
+    "advancement": "heavens:bookchap4/07magiccrystal",
     "turnin": "heavens:bookchap4/10iridescentaltar",
     "pages": [
         {

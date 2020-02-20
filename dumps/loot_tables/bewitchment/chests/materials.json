@@ -30,6 +30,54 @@
           "name": "minecraft:diamond"
         },
         {
+          "entryName": "bewitchment:juniper_sapling",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "bewitchment:juniper_sapling"
+        },
+        {
+          "entryName": "bewitchment:elder_sapling",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "bewitchment:elder_sapling"
+        },
+        {
+          "entryName": "bewitchment:cypress_sapling",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "bewitchment:cypress_sapling"
+        },
+        {
           "entryName": "minecraft:gold_ingot",
           "weight": 2,
           "quality": 0,
@@ -108,6 +156,54 @@
             }
           ],
           "name": "bewitchment:opal"
+        },
+        {
+          "entryName": "bewitchment:fortunes_favor",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "bewitchment:fortunes_favor"
+        },
+        {
+          "entryName": "bewitchment:hecates_visage",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "bewitchment:hecates_visage"
+        },
+        {
+          "entryName": "bewitchment:triskelion",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "bewitchment:triskelion"
         }
       ],
       "rolls": 2.0

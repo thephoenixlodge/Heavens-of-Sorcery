@@ -1,0 +1,39 @@
+{
+  "pools": [
+    {
+      "name": "magicalsculpture_elder_guardian",
+      "entries": [
+        {
+          "entryName": "magicalsculpture:relic",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 15.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "magicalsculpture:relic"
+        },
+        {
+          "entryName": "empty",
+          "weight": 95,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "inverse": false,
+          "condition": "minecraft:killed_by_player"
+        }
+      ]
+    }
+  ]
+}

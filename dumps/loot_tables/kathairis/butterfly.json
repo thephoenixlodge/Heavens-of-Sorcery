@@ -1,0 +1,41 @@
+{
+  "pools": [
+    {
+      "name": "kathairis:wingspiece",
+      "entries": [
+        {
+          "entryName": "kathairis:wingspiece",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.2,
+              "looting_multiplier": 0.1,
+              "condition": "minecraft:random_chance_with_looting"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": 1.0,
+              "function": "minecraft:looting_enchant"
+            },
+            {
+              "tag": "{}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "kathairis:wingspiece"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

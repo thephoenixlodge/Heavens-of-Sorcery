@@ -1,0 +1,29 @@
+{
+  "pools": [
+    {
+      "name": "magicalsculpture_nether_bridge",
+      "entries": [
+        {
+          "entryName": "magicalsculpture:relic",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 13.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "magicalsculpture:relic"
+        },
+        {
+          "entryName": "empty",
+          "weight": 90,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

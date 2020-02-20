@@ -1,0 +1,36 @@
+{
+  "pools": [
+    {
+      "name": "ancient_tablet",
+      "entries": [
+        {
+          "entryName": "tombstone:tablet_of_recall",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{ancient:1b}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "tombstone:tablet_of_recall"
+        },
+        {
+          "entryName": "tombstone:tablet_of_home",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{ancient:1b}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "tombstone:tablet_of_home"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

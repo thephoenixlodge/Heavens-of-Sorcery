@@ -373,6 +373,28 @@
       "rolls": 1.0
     },
     {
+      "name": "rats:contaminated_food",
+      "entries": [
+        {
+          "entryName": "rats:contaminated_food",
+          "weight": 20,
+          "quality": 1,
+          "type": "item",
+          "name": "rats:contaminated_food"
+        }
+      ],
+      "rolls": {
+        "min": 1.0,
+        "max": 5.0
+      },
+      "conditions": [
+        {
+          "chance": 0.4,
+          "condition": "minecraft:random_chance"
+        }
+      ]
+    },
+    {
       "name": "chest_treasure",
       "entries": [
         {

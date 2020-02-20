@@ -1,0 +1,17 @@
+{
+  "pools": [
+    {
+      "name": "soul_receptacle",
+      "entries": [
+        {
+          "entryName": "tombstone:soul_receptacle",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "tombstone:soul_receptacle"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

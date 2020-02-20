@@ -142,6 +142,18 @@
           "name": "minecraft:book"
         },
         {
+          "entryName": "quark:treasure_map",
+          "weight": 10,
+          "quality": 2,
+          "type": "item",
+          "functions": [
+            {
+              "function": "quark:set_treasure"
+            }
+          ],
+          "name": "minecraft:filled_map"
+        },
+        {
           "entryName": "quark:rune",
           "weight": 15,
           "quality": 0,
@@ -156,18 +168,6 @@
             }
           ],
           "name": "quark:rune"
-        },
-        {
-          "entryName": "quark:treasure_map",
-          "weight": 10,
-          "quality": 2,
-          "type": "item",
-          "functions": [
-            {
-              "function": "quark:set_treasure"
-            }
-          ],
-          "name": "minecraft:filled_map"
         },
         {
           "entryName": "astralsorcery:constellation_paper",
@@ -402,6 +402,66 @@
         }
       ],
       "rolls": 1.0
+    },
+    {
+      "name": "rats:contaminated_food",
+      "entries": [
+        {
+          "entryName": "rats:contaminated_food",
+          "weight": 20,
+          "quality": 1,
+          "type": "item",
+          "name": "rats:contaminated_food"
+        }
+      ],
+      "rolls": {
+        "min": 1.0,
+        "max": 5.0
+      },
+      "conditions": [
+        {
+          "chance": 0.4,
+          "condition": "minecraft:random_chance"
+        }
+      ]
+    },
+    {
+      "name": "token_fragment",
+      "entries": [
+        {
+          "entryName": "rats:token_fragment",
+          "weight": 8,
+          "quality": 10,
+          "type": "item",
+          "name": "rats:token_fragment"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "chance": 0.2,
+          "condition": "minecraft:random_chance"
+        }
+      ]
+    },
+    {
+      "name": "rat_upgrade_basic",
+      "entries": [
+        {
+          "entryName": "rats:rat_upgrade_basic",
+          "weight": 3,
+          "quality": 8,
+          "type": "item",
+          "name": "rats:rat_upgrade_basic"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "chance": 0.05,
+          "condition": "minecraft:random_chance"
+        }
+      ]
     },
     {
       "name": "botania_inject_pool",

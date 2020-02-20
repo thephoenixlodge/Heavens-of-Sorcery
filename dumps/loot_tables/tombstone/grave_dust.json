@@ -1,0 +1,17 @@
+{
+  "pools": [
+    {
+      "name": "grave_dust",
+      "entries": [
+        {
+          "entryName": "tombstone:crafting_ingredient",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "tombstone:crafting_ingredient"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}
