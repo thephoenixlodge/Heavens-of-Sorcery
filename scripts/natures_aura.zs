@@ -10,6 +10,8 @@ import mods.inspirations.Cauldron as CauldronCrafting;
 import mods.roots.Fey;
 import mods.roots.Pyre;
 import scripts.globals;
+import mods.arcanearchives.GCT;
+import mods.rats.recipes as RatRecipes;
 
 ////Variables
 val goldShroom = <mist:mushrooms_food:23>;
@@ -126,7 +128,9 @@ NatureAltar.addRecipe("infused_stone_alt", lunarStone, infusedStone, null, 7500,
 recipes.remove(goldDust);
 Grindstone.addRecipe(goldLeaf, goldDust * 2, 0.1F);
 Mill.add(goldLeaf, null, goldDust * 2, null);
-NaturalAltar.addRecipe("gold_powder", goldLeaf, goldDust, null, 1000, 20);
+NatureAltar.addRecipe("gold_powder", goldLeaf, goldDust * 2, null, 1000, 20);
+GCT.addRecipe("gold_powder", goldDust * 2, [goldLeaf]);
+RatRecipes.addGemcutterRatRecipe(goldLeaf, goldDust * 3);
 
 //bountiful ore powder
 TreeRitual.removeRecipe(powderOre);

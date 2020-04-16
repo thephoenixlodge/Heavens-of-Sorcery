@@ -20,3 +20,5 @@ for item in game.items {
         }
     }
 }
+
+<wizardry:nacre_pearl>.maxStackSize = 2048;

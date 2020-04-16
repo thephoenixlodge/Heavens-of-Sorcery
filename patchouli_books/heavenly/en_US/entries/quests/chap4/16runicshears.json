@@ -16,7 +16,7 @@
             "type": "checklist_end",
             "item1": "roots:runic_shears",
             "item2": "roots:spirit_herb",
-            "reward1": "roots:spell_dust{spell_holder:{spell_0:\"spell_growth_infusion\",selectedSlot:0,lastCooldown:0,cooldown:0}}"
+            "reward1": "roots:spell_dust{spell_holder:{spell_0:\"spell_rampant_growth\",selectedSlot:0,lastCooldown:0,cooldown:0}}"
         },
         {
             "type": "fey_crafting",

@@ -1,0 +1,94 @@
+{
+	"frame": {
+		"type": "LATERAL",
+		"size": {
+			"lateral": {
+				"minWidth": 4,
+				"maxWidth": 30,
+				"minHeight": 4,
+				"maxHeight": 30
+			},
+			"verticalX": {
+				"minWidth": 3,
+				"maxWidth": 30,
+				"minHeight": 3,
+				"maxHeight": 30
+			},
+			"verticalZ": {
+				"minWidth": 3,
+				"maxWidth": 30,
+				"minHeight": 3,
+				"maxHeight": 30
+			}
+		},
+		"blocks": [
+			{
+				"registryName": "wizardry:wisdom_wood_pigmented_planks",
+				"meta": 32767,
+				"minimumAmount": 0
+			}
+		],
+		"requiredCorner": "ANY",
+		"cornerBlocksContributeToMinimumAmount": true,
+		"doGeneratedFramesDrop": true
+	},
+	"activation": {
+		"canBeActivatedByFire": false,
+		"activators": [
+			{
+				"registryName": "tombstone:crafting_ingredient",
+				"meta": 3
+			}
+		],
+		"activatorConsumeBehavior": "CONSUME",
+		"spawnFireBeforeActivating": false,
+		"activationSounds": []
+	},
+	"color": {
+		"colors": [
+			"BLACK"
+		],
+		"dyeBehavior": "DISABLE"
+	},
+	"destination": {
+		"dimensionID": 33,
+		"locationDetectionBehavior": "IGNORE_INITIAL",
+		"initialLocation": {
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"coordinateMultiplier": 1.0,
+		"teleportToPortal": true,
+		"oneWay": true,
+		"generatePortalIfNotFound": false,
+		"portalGenerationBehavior": "CLONE",
+		"generatedFrameType": "SAME",
+		"generatedFrameSize": {
+			"lateral": {
+				"minWidth": 3,
+				"maxWidth": 30,
+				"minHeight": 3,
+				"maxHeight": 30
+			},
+			"verticalX": {
+				"minWidth": 4,
+				"maxWidth": 4,
+				"minHeight": 5,
+				"maxHeight": 5
+			},
+			"verticalZ": {
+				"minWidth": 4,
+				"maxWidth": 4,
+				"minHeight": 5,
+				"maxHeight": 5
+			}
+		}
+	},
+	"teleportationDelay": {
+		"lateral": 0,
+		"verticalX": 5,
+		"verticalZ": 5
+	},
+	"decorative": false
+}

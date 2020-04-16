@@ -8,15 +8,15 @@
   "_comment_size": "Change the number of rows and columns for chest inventories (max 8 rows x 23 cols., or 192 slots)",
   "chests": {
     "copper": {
-      "index": 0,
-      "enabled": "auto",
-      "rows": 5,
-      "cols": 9,
-      "holding": 1
+      "index": 1,
+      "enabled": "true",
+      "rows": 6,
+      "cols": 15,
+      "holding": 2
     },
     "iron": {
       "index": 0,
-      "enabled": true,
+      "enabled": "auto",
       "rows": 6,
       "cols": 9,
       "holding": 1
@@ -25,27 +25,27 @@
       "index": 2,
       "enabled": "auto",
       "rows": 6,
-      "cols": 12,
+      "cols": 18,
       "holding": 2
     },
     "gold": {
-      "index": 1,
+      "index": 0,
       "enabled": true,
-      "rows": 5,
-      "cols": 16,
-      "holding": 2
+      "rows": 6,
+      "cols": 12,
+      "holding": 1
     },
     "diamond": {
       "index": 2,
       "enabled": true,
-      "rows": 6,
+      "rows": 7,
       "cols": 18,
       "holding": 3
     },
     "obsidian": {
       "index": 3,
       "enabled": true,
-      "rows": 6,
+      "rows": 8,
       "cols": 18,
       "holding": 4
     }

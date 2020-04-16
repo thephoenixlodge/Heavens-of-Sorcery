@@ -24,7 +24,7 @@
             "heading": "Copper Transmutation",
             "input": "minecraft:magma",
             "input3": "botania:manaresource:23",
-            "input2": "rustic:dust_tiny_iron",
+            "input2": "mysticalworld:iron_dust",
             "output": "embers:nugget_copper#3",
             "description": "Requires a pool of at least $(thing)6 buckets$() of $(item)Liquid Mana$()"
         },
@@ -33,9 +33,18 @@
             "heading": "Lead Transmutation",
             "input": "aether_legacy:aechor_petal",
             "input3": "botania:manaresource:23",
-            "input2": "rustic:dust_tiny_iron",
+            "input2": "mysticalworld:iron_dust",
             "output": "embers:nugget_lead#3",
             "description": "Requires a pool of at least $(thing)6 buckets$() of $(item)Liquid Mana$()"
+        },
+        {
+            "type": "mana_world",
+            "heading": "Tin Transmutation",
+            "input": "aether_legacy:icestone",
+            "input3": "botania:manaresource:23",
+            "input2": "mysticalworld:iron_dust",
+            "output": "embers:nugget_tin#3",
+            "description": "Requires a pool of at least $(thing)6 buckets$() of $(item)Liquid Mana$().$(br2)(Tin is not required to complete this quest)"
         }
     ]
 }

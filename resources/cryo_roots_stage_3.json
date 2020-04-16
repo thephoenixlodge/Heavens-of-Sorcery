@@ -1,6 +1,0 @@
-{
-    "parent": "block/crop",
-    "textures": {
-        "crop": "blue_skies:blocks/plants/cryo_roots_stage_3"
-    }
-}

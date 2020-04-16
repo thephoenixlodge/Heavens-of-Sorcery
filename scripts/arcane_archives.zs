@@ -1,6 +1,7 @@
 import mods.naturesaura.TreeRitual;
 import mods.astralsorcery.Altar;
 import mods.arcanearchives.GCT;
+import mods.rats.recipes as RatRecipes;
 
 ////variables
 val resonator = <arcanearchives:radiant_resonator>;
@@ -17,7 +18,9 @@ val lens = <astralsorcery:itemcraftingcomponent:3>;
 val paper = <minecraft:paper>;
 val luminousCraftingTable = <astralsorcery:blockaltar>;
 val radiantQuartzRaw = <arcanearchives:raw_quartz>;
+val radiantQuartzRawBlock = <arcanearchives:storage_raw_quartz>;
 val radiantQuartzShaped = <arcanearchives:shaped_quartz>;
+val radiantQuartzShapedBlock = <arcanearchives:storage_shaped_quartz>;
 val radiantQuartzDust = <arcanearchives:radiant_dust>;
 val woodInfused = <astralsorcery:blockinfusedwood>;
 val gemDiopside = <blue_skies:diopside_gem>;
@@ -46,6 +49,8 @@ val brazierHoarding = <arcanearchives:brazier_of_hoarding>;
 val radiantKey = <arcanearchives:radiant_key>;
 val amphora = <arcanearchives:radiant_amphora>;
 val gemSocket = <arcanearchives:gemsocket>;
+val runeFire = <botania:rune:1>;
+val runeSummer = <botania:rune:5>;
 
 //resonator
 recipes.remove(resonator);
@@ -80,7 +85,7 @@ GCT.replaceRecipe("material_interface", materialInterface, [scintillatingInlay, 
 GCT.replaceRecipe("devouring_charm", devouringCharm * 4, [ingotDawnstone, obsidian * 2, zealLighter]);
 
 //brazier
-GCT.replaceRecipe("brazier_of_hoarding", brazierHoarding, [radiantQuartzDust * 4, moltenCore, ingotDawnstone * 2, livingwood * 3, extraneousFirestarter]);
+GCT.replaceRecipe("brazier_of_hoarding", brazierHoarding, [radiantQuartzDust * 4, moltenCore, ingotDawnstone * 2, livingwood * 3, runeFire, runeSummer]);
 
 //radiant key
 GCT.replaceRecipe("radiant_key", radiantKey * 4, [ingotDawnstone, nuggetDawnstone * 3, radiantQuartzShaped]);
@@ -90,3 +95,8 @@ GCT.replaceRecipe("radiant_amphora", amphora, [radiantQuartzDust * 4, blockClay 
 
 //gem socket
 GCT.replaceRecipe("gemsocket", gemSocket, [scintillatingInlay, nuggetDawnstone * 4, mundaneAmulet]);
+
+//rat recipe for shaped quartz and dust
+RatRecipes.addGemcutterRatRecipe(radiantQuartzRaw, radiantQuartzShaped);
+RatRecipes.addGemcutterRatRecipe(radiantQuartzRawBlock, radiantQuartzDust * 21);
+RatRecipes.addGemcutterRatRecipe(radiantQuartzShapedBlock, radiantQuartzDust * 27);

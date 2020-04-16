@@ -95,6 +95,7 @@ val flourRoots = <roots:flour>;
 val bread = <minecraft:bread>;
 //other
 val magicCrystal =<ebwizardry:magic_crystal>;
+val skyrootSword = <aether_legacy:skyroot_sword>;
 
 //remove extra amethyst from the oredict
 oreAmethyst.remove(amethystWings);
@@ -222,3 +223,6 @@ furnace.remove(bread, flourRoots);
 
 //magic crystal ore smelting
 furnace.remove(magicCrystal);
+
+//skyroot sword
+recipes.remove(skyrootSword);

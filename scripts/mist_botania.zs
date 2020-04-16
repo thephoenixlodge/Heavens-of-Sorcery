@@ -179,6 +179,19 @@ val tokenJoy = <naturesaura:token_joy>;
 val tokenSorrow = <naturesaura:token_sorrow>;
 val tokenAnger = <naturesaura:token_anger>;
 val tokenFear = <naturesaura:token_fear>;
+//tree seed cycling
+val treeSeeds = {
+	<dynamictrees:appleseed> : <dynamictrees:oakseed>,
+	<dynamictrees:oakseed> : <dynamictrees:spruceseed>,
+	<dynamictrees:spruceseed> : <dynamictrees:birchseed>,
+	<dynamictrees:birchseed> : <dynamictrees:jungleseed>,
+	<dynamictrees:jungleseed> : <dynamictrees:acaciaseed>,
+	<dynamictrees:acaciaseed> : <dynamictrees:darkoakseed>,
+	<dynamictrees:darkoakseed> : <dynamictrees:appleseed>
+} as IItemStack[IItemStack];
+val saplings = <minecraft:sapling>.definition;
+val manaGear = <mystgears:gear_manasteel>;
+
 
 //Oredict all Misty World logs
 for wood in mistyWoods {
@@ -364,3 +377,14 @@ ManaInfusion.addInfusion(blockCoal, filterCoalBlock, 27000);
 
 //ender air recipe
 Fey.addRecipe("ender_air", enderAir, [endStone, endStone, endStone, enderPearl, bottledDarkness]);
+
+//change sapling transmute cycle to tree seeds
+for i in 0 .. 5 {
+	ManaInfusion.removeRecipe(saplings.makeStack(i));
+} 
+for seed1, seed2 in treeSeeds {
+	ManaInfusion.addAlchemy(seed2, seed1, 1000);
+}
+
+//disable infusion recipe for manasteel gear
+ManaInfusion.removeRecipe(manaGear);

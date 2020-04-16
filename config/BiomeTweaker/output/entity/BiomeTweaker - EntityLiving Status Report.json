@@ -276,11 +276,6 @@
     "Class": "vazkii.quark.world.entity.EntityStoneling"
   },
   {
-    "Name": "quark:archaeologist",
-    "Registry ID": "quark:archaeologist",
-    "Class": "vazkii.quark.world.entity.EntityArchaeologist"
-  },
-  {
     "Name": "quark:foxhound",
     "Registry ID": "quark:foxhound",
     "Class": "vazkii.quark.world.entity.EntityFoxhound"

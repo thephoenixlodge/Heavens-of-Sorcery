@@ -3,6 +3,7 @@ import mods.jei.JEI;
 import mods.ArcaneWorld;
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IItemDefinition;
+import crafttweaker.game.IGame;
 import scripts.globals;
 import mods.naturesaura.Altar as NatureAltar;
 import mods.roots.Fey;
@@ -193,6 +194,60 @@ val doNotAddRepairRecipe = [
 	<minecraft:diamond_chestplate>,
 	<minecraft:diamond_leggings>,
 	<minecraft:diamond_boots>,
+	<ebwizardry:magic_wand>,
+	<ebwizardry:apprentice_wand>,
+	<ebwizardry:advanced_wand>,
+	<ebwizardry:master_wand>,
+	<ebwizardry:novice_fire_wand>,
+	<ebwizardry:apprentice_fire_wand>,
+	<ebwizardry:advanced_fire_wand>,
+	<ebwizardry:master_fire_wand>,
+	<ebwizardry:novice_ice_wand>,
+	<ebwizardry:apprentice_ice_wand>,
+	<ebwizardry:advanced_ice_wand>,
+	<ebwizardry:master_ice_wand>,
+	<ebwizardry:novice_lightning_wand>,
+	<ebwizardry:apprentice_lightning_wand>,
+	<ebwizardry:advanced_lightning_wand>,
+	<ebwizardry:master_lightning_wand>,
+	<ebwizardry:novice_necromancy_wand>,
+	<ebwizardry:apprentice_necromancy_wand>,
+	<ebwizardry:advanced_necromancy_wand>,
+	<ebwizardry:master_necromancy_wand>,
+	<ebwizardry:novice_earth_wand>,
+	<ebwizardry:apprentice_earth_wand>,
+	<ebwizardry:advanced_earth_wand>,
+	<ebwizardry:master_earth_wand>,
+	<ebwizardry:novice_sorcery_wand>,
+	<ebwizardry:apprentice_sorcery_wand>,
+	<ebwizardry:advanced_sorcery_wand>,
+	<ebwizardry:master_sorcery_wand>,
+	<ebwizardry:novice_healing_wand>,
+	<ebwizardry:apprentice_healing_wand>,
+	<ebwizardry:advanced_healing_wand>,
+	<ebwizardry:master_healing_wand>,
+	<thebetweenlands:life_crystal>,
+	<arcane_essentials:master_lightning_sword>,
+	<arcane_essentials:master_sorcery_sword>,
+	<arcane_essentials:master_nature_sword>,
+	<arcane_essentials:master_fire_sword>,
+	<arcane_essentials:master_ice_sword>,
+	<arcane_essentials:master_healing_sword>,
+	<arcane_essentials:master_necromancy_sword>,
+	<astralsorcery:iteminfusedglass>,
+	<botania:manamirror:*>,
+	<thaumcraft:scribing_tools>,
+	<arcaneworld:biome_crystal>,
+	<thaumcraft:primordial_pearl>,
+	<botania:manabottle>,
+	<astralsorcery:itemcrystalsword>,
+	<astralsorcery:itemcrystalpickaxe>,
+	<astralsorcery:itemcrystalshovel>,
+	<astralsorcery:itemcrystalaxe>,
+	<astralsorcery:itemchargedcrystalaxe>,
+	<astralsorcery:itemchargedcrystalsword>,
+	<astralsorcery:itemchargedcrystalpickaxe>,
+	<astralsorcery:itemchargedcrystalshovel>
 ] as IItemStack[];
 
 //tweak clay tile related recipes
@@ -287,18 +342,24 @@ furnace.addRecipe(charcoal, oreLogWood, 0.15);
 }*/
 
 for item in game.items {
-    if (item.name != "tile.air") {
-        if (item.makeStack().isDamageable == true) {
-        	for itemToIgnore in doNotAddRepairRecipe {
-        		if (item.name != itemToIgnore.definition.name) {
-        			var durability = item.makeStack().maxDamage;
-	        		Enchanter.registerEnchantment(item.makeStack(), durability * 2);
-	        	}
-	        }
-        }
-    }
+	if (item.name != "tile.air") {
+    	if (item.makeStack().isDamageable == true) {
+      		var blacklisted = false;
+      		for itemToIgnore in doNotAddRepairRecipe {
+        		if (item.name == itemToIgnore.definition.name) {
+          			blacklisted = true;
+        		}
+      		}
+      		if (!blacklisted) {
+        		var durability = item.makeStack().maxDamage;
+        		Enchanter.registerEnchantment(item.makeStack(), durability * 2);
+      		}
+    	}
+  	}
 }
 
 //remove iron and gold sands from dust oredict
 oreDustIron.remove(sandIron);
 oreDustGold.remove(sandGold);
+
+game.setLocalization("en_us", "enchantment.ebwizardry:magic_protection", "Spell Protection");

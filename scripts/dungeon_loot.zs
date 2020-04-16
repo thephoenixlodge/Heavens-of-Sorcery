@@ -39,6 +39,7 @@ val poolRare = tableSimpleDungeon.addPool("hos_early_rare_loot", 0, 2, 0, 0);
 val tableFoxhound = LootTables.getTable("quark:entities/foxhound");
 val poolDevilDust = tableFoxhound.addPool("devil_dust", 1, 1, 0, 0);
 
+val tableFrogQ = LootTables.getTable("quark:entities/frog");
 val tableFrogMW = LootTables.getTable("mysticalworld:entity/frog");
 val poolFrogLeg = tableFrogMW.addPool("leg", 1, 1, 0, 1);
 
@@ -276,6 +277,8 @@ tableFoxhound.removePool("leather");
 poolDevilDust.addItemEntryHelper(devilDust, 1, 0, [Functions.setCount(0, 3), Functions.lootingEnchantBonus(0, 1, 5)], []);
 
 //frog
+
+tableFrogQ.removePool("main");
 poolFrogLeg.addItemEntryHelper(frogLeg, 1, 0, [], []);
 
 //nether fortress

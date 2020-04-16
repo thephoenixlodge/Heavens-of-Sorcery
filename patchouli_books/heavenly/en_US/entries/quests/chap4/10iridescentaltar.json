@@ -21,7 +21,7 @@
         {
             "type": "altar_celestial",
             "description": "Upgrading to the $(item)Iridescent Altar$()",
-            "output_item": "ebwizardry:arcane_workbench",
+            "output_item": "astralsorcery:blockaltar:3",
             "item1": "astralsorcery:blockmarble:6",
             "item2": "astralsorcery:itemcraftingcomponent:3",
             "item3": "astralsorcery:blockmarble:6",

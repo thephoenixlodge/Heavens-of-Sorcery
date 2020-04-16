@@ -47,6 +47,8 @@ val mixer = <embers:mixer>;
 val stamper = <embers:stamper>;
 val stamperBase = <embers:stamper_base>;
 val bin = <embers:bin>;
+val trapdoorIron = <minecraft:iron_trapdoor>;
+val binTrapdoor = <soot:redstone_bin>;
 val stampRawArray = [
 	<embers:stamp_bar_raw>,
 	<embers:stamp_plate_raw>,
@@ -183,5 +185,9 @@ for stampCooked in stampCookedArray {
 
 //Molten core recipe
 recipes.remove(moltenCore);
-recipes.addShaped(moltenCore, [[amethyst, emberShard, amethyst], [emberCrystal, lava, emberCrystal], [magmaCream, emberShard, magmaCream]]);
+recipes.addShaped(moltenCore, [[amethyst, emberShard, amethyst], [emberCrystal, lava * 1000, emberCrystal], [magmaCream, emberShard, magmaCream]]);
 furnace.setFuel(moltenCore, 20000);
+
+//trapdoor bin
+recipes.remove(binTrapdoor);
+recipes.addShapeless(binTrapdoor, [bin, trapdoorIron]);

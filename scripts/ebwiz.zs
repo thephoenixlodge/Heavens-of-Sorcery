@@ -1,6 +1,9 @@
 import mods.naturesaura.Altar as NatureAltar;
 import mods.astralsorcery.Altar;
 import mods.arcanearchives.GCT;
+import mods.spawntabletweaker;
+import crafttweaker.game.IGame;
+import crafttweaker.world.IBiome;
 
 ////variables
 val crystalFlower = <ebwizardry:crystal_flower>;
@@ -28,6 +31,24 @@ val visOrdo = <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "
 val visSol = <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "sol"}]});
 val dustRadiant = <arcanearchives:radiant_dust>;
 
+//mob management
+val wlBiomes = [
+	"blue_skies:calming_skies",
+	"blue_skies:brightlands",
+	"blue_skies:peeking_oceans",
+	"blue_skies:pale_swamplands",
+	"blue_skies:frostbit_forest",
+	"blue_skies:unorthodox_valley",
+	"blue_skies:shaded_woods",
+	"blue_skies:crystal_dunes",
+	"blue_skies:sunset_maple_forest",
+	"minecraft:extreme_hills"
+] as string[];
+val mobs = [
+	"ebwizardry:evil_wizard",
+	"ebwizardry:lightning_wraith"
+] as string[];
+
 //Magic Crystal from flowers
 recipes.removeByRecipeName("ebwizardry:crystal_flower_to_crystals");
 NatureAltar.addRecipe("magic_crystal", crystalFlower, crystalMagic, null, 10000, 50);
@@ -45,3 +66,21 @@ GCT.addRecipe("crystal_dark", crystalDark, [crystalMagic * 5, dustRadiant * 2, v
 GCT.addRecipe("crystal_verdant", crystalVerdant, [crystalMagic * 5, dustRadiant * 2, visTerra * 2]);
 GCT.addRecipe("crystal_mystical", crystalMystical, [crystalMagic * 5, dustRadiant * 2, visOrdo * 2]);
 GCT.addRecipe("crystal_radiant", crystalRadiant, [crystalMagic * 5, dustRadiant * 2, visSol * 2]);
+
+
+
+var blBiomes = [] as string[];
+for biome in game.biomes {
+    var blacklisted = true;
+    for skip in wlBiomes {
+        if (biome.name == skip) {
+            blacklisted = false;
+        }
+    }
+    if (blacklisted) {
+        blBiomes += biome.name;
+    }
+}
+for mob in mobs {
+    spawntabletweaker.removeSpawn(mob, "MONSTER", blBiomes);
+}
