@@ -16,16 +16,16 @@ function addCuttingMeat(table as string, poolsAndDrops as int[][IItemStack][stri
 		[2, 4]
 	] as int[][];
 	var lootTable = LootTables.getTable(table);
-	var lootPools = {} as int[LootPool];
+	var lootPools = {} as LootPool[int];
 	for pool, drops in poolsAndDrops {
 		print(pool);
-		lootPools[lootTable.getPool(pool)] = 1;
-		lootPools[lootTable.addPool(pool ~ "_cutting_2", 0, 0, 0, 0)] = 2;
-		lootPools[lootTable.addPool(pool ~ "_cutting_3", 0, 0, 0, 0)] = 3;
-		lootPools[lootTable.addPool(pool ~ "_cutting_4", 0, 0, 0, 0)] = 4;
-		lootPools[lootTable.addPool(pool ~ "_cutting_5", 0, 0, 0, 0)] = 5;
+		lootPools[1] = lootTable.getPool(pool);
+		lootPools[2] = lootTable.addPool(pool ~ "_cutting_2", 0, 0, 0, 0);
+		lootPools[3] = lootTable.addPool(pool ~ "_cutting_3", 0, 0, 0, 0);
+		lootPools[4] = lootTable.addPool(pool ~ "_cutting_4", 0, 0, 0, 0);
+		lootPools[5] = lootTable.addPool(pool ~ "_cutting_5", 0, 0, 0, 0);
 	}
-	for pool, cuttingLevel in lootPools {
+	for cuttingLevel, pool in lootPools {
 		var cuttingConditions = {
 			1 : {"value": 1, "condition": "mist:skill_cutting"},
 			2 : {"value": 2, "condition": "mist:skill_cutting"},
@@ -46,7 +46,7 @@ function addCuttingMeat(table as string, poolsAndDrops as int[][IItemStack][stri
 	}
 }
 
-
+//TODO - exclude original pool from adding the new entry, change the smelt function to be conditional on mob being on fire
 
 
 //table, {pool : {drop : [minCount, maxCount]}}
