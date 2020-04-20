@@ -1,0 +1,85 @@
+{
+  "pools": [
+    {
+      "name": "basement_desert",
+      "entries": [
+        {
+          "entryName": "mist:desert_cotton_seed",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "mist:desert_cotton_seed"
+        },
+        {
+          "entryName": "mist:tree_seed",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": [
+                0,
+                2
+              ],
+              "function": "mist:set_array_data"
+            }
+          ],
+          "name": "mist:tree_seed"
+        },
+        {
+          "entryName": "mist:swim_bladder",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "mist:swim_bladder"
+        },
+        {
+          "entryName": "empty",
+          "weight": 50,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": {
+        "min": 0.0,
+        "max": 2.0
+      }
+    },
+    {
+      "name": "basement_main",
+      "entries": [
+        {
+          "entryName": "mist:urn_basements",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "mist:urn_basements"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

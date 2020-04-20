@@ -1,0 +1,43 @@
+{
+  "pools": [
+    {
+      "name": "sniff_meat",
+      "entries": [
+        {
+          "entryName": "mist:meat_food",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 8.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "function": "minecraft:furnace_smelt",
+              "conditions": [
+                {
+                  "properties": {
+                    "minecraft:on_fire": true
+                  },
+                  "entity": "this",
+                  "condition": "minecraft:entity_properties"
+                }
+              ]
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "limit": 2,
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "mist:meat_food"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

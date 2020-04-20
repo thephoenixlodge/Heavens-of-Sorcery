@@ -1,0 +1,18 @@
+setIcon(<mist:furnace>)
+
+setTitle("Burnout")
+
+setDescription("Create a Foggy Furnace from the rocks of the Misty World, then use it to get Ash")
+
+addParent("heavens:bookchap3/1respirator")
+
+setRequiresParents()
+
+setPos(-8,-93)
+
+criteria1 = addCriteria("hasItems", "minecraft:inventory_changed")
+criteria1.addItem(<mist:furnace, count:1~>)
+criteria2 = addCriteria("hasAsh", "minecraft:inventory_changed")
+criteria2.addItem(<mist:ash, count:1~>)
+
+addRewardItem(<mist:ash, count:5>)

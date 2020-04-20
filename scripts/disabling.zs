@@ -1,6 +1,11 @@
 ////Imports
 import mods.jei.JEI;
 import mods.roots.Mortar;
+import loottweaker.vanilla.loot.LootTables;
+import loottweaker.vanilla.loot.LootTable;
+import loottweaker.vanilla.loot.LootPool;
+import loottweaker.vanilla.loot.Functions;
+import crafttweaker.item.IItemStack;
 
 ////Vars
 //Amethyst
@@ -96,6 +101,28 @@ val bread = <minecraft:bread>;
 //other
 val magicCrystal =<ebwizardry:magic_crystal>;
 val skyrootSword = <aether_legacy:skyroot_sword>;
+
+//tallow
+val oreTallow = <ore:tallow>;
+val oreWax = <ore:wax>;
+val tallowBW = <bewitchment:tallow>;
+val tallowMist = <mist:tallow>;
+val blockTallow = <mist:tallow_block>;
+val tallowRustic = <rustic:tallow>;
+val tableTallow = LootTables.getTable("mist:entities/tallow");
+val tableTallowMaxi = LootTables.getTable("mist:entities/tallow_maxi");
+val poolsTallowNames = [
+	"tallow_1",
+	"tallow_2",
+	"tallow_3",
+	"tallow_4"
+] as string[];
+var poolsTallow = [] as LootPool[];
+var poolsTallowMaxi = [] as LootPool[];
+for pool in poolsTallowNames {
+	poolsTallow += tableTallow.getPool(pool);
+	poolsTallowMaxi += tableTallowMaxi.getPool(pool);
+}
 
 //remove extra amethyst from the oredict
 oreAmethyst.remove(amethystWings);
@@ -226,3 +253,27 @@ furnace.remove(magicCrystal);
 
 //skyroot sword
 recipes.remove(skyrootSword);
+
+//tallow madness
+furnace.remove(tallowRustic);
+recipes.remove(tallowMist);
+recipes.remove(blockTallow);
+recipes.addShaped(blockTallow, [[tallowBW, tallowBW], [tallowBW, tallowBW]]);
+recipes.addShapeless(tallowBW * 4, [blockTallow]);
+oreTallow.remove(tallowMist);
+oreTallow.remove(tallowRustic);
+oreWax.remove(tallowRustic);
+for poolTallow in poolsTallow {
+	poolTallow.removeEntry("mist:tallow");
+}
+for poolTallowMaxi in poolsTallowMaxi {
+	poolTallowMaxi.removeEntry("mist:tallow");
+}
+poolsTallow[0].addItemEntryHelper(tallowBW, 1, 0, [], []);
+poolsTallow[1].addItemEntryHelper(tallowBW, 2, 0, [Functions.lootingEnchantBonus(0, 1, 2)], []);
+poolsTallow[2].addItemEntryHelper(tallowBW, 1, 0, [Functions.lootingEnchantBonus(0, 1, 2)], []);
+poolsTallow[3].addItemEntryHelper(tallowBW, 1, 0, [Functions.setCount(1, 2), Functions.lootingEnchantBonus(0, 1, 3)], []);
+poolsTallowMaxi[0].addItemEntryHelper(tallowBW, 1, 0, [Functions.setCount(0, 2)], []);
+poolsTallowMaxi[1].addItemEntryHelper(tallowBW, 1, 0, [Functions.setCount(1, 2), Functions.lootingEnchantBonus(0, 1, 2)], []);
+poolsTallowMaxi[2].addItemEntryHelper(tallowBW, 1, 0, [Functions.setCount(2, 3), Functions.lootingEnchantBonus(0, 1, 4)], []);
+poolsTallowMaxi[3].addItemEntryHelper(tallowBW, 1, 0, [Functions.setCount(2, 4), Functions.lootingEnchantBonus(0, 1, 5)], []);

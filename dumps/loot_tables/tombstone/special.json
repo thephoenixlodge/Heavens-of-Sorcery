@@ -12,7 +12,7 @@
         },
         {
           "entryName": "empty",
-          "weight": 95,
+          "weight": 995,
           "quality": 0,
           "type": "empty"
         },
@@ -54,6 +54,19 @@
             }
           ],
           "name": "tombstone:scroll_buff"
+        },
+        {
+          "entryName": "tombstone:tablet_of_cupidity",
+          "weight": 1,
+          "quality": -2,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{enchant:1b}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "tombstone:tablet_of_cupidity"
         },
         {
           "entryName": "tombstone:scroll_of_knowledge",

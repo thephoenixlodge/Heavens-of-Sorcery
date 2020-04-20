@@ -1,0 +1,95 @@
+{
+  "pools": [
+    {
+      "name": "basement_forest",
+      "entries": [
+        {
+          "entryName": "mist:tree_seed",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": [
+                3,
+                4,
+                8
+              ],
+              "function": "mist:set_array_data"
+            }
+          ],
+          "name": "mist:tree_seed"
+        },
+        {
+          "entryName": "mist:tinder_fungus",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "mist:tinder_fungus"
+        },
+        {
+          "entryName": "empty",
+          "weight": 50,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": {
+        "min": 0.0,
+        "max": 3.0
+      }
+    },
+    {
+      "name": "basement_painting",
+      "entries": [
+        {
+          "entryName": "mist:painting",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": [
+                0,
+                1,
+                3,
+                8,
+                10,
+                11
+              ],
+              "function": "mist:set_array_data"
+            }
+          ],
+          "name": "mist:painting"
+        },
+        {
+          "entryName": "empty",
+          "weight": 3,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "basement_main",
+      "entries": [
+        {
+          "entryName": "mist:chest_basements",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "mist:chest_basements"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

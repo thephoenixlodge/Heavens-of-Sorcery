@@ -126,7 +126,7 @@
         },
         {
           "entryName": "ebwizardry:astral_diamond",
-          "weight": 1,
+          "weight": 2,
           "quality": 0,
           "type": "item",
           "name": "ebwizardry:astral_diamond"
@@ -140,7 +140,7 @@
         },
         {
           "entryName": "ebwizardry:grand_crystal",
-          "weight": 1,
+          "weight": 2,
           "quality": 0,
           "type": "item",
           "name": "ebwizardry:grand_crystal"

@@ -1,0 +1,140 @@
+{
+  "pools": [
+    {
+      "name": "tallow_1",
+      "entries": [
+        {
+          "entryName": "mist:tallow",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "mist:tallow"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "value": 1,
+          "condition": "mist:skill_cutting"
+        }
+      ]
+    },
+    {
+      "name": "tallow_2",
+      "entries": [
+        {
+          "entryName": "mist:tallow",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "limit": 2,
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "mist:tallow"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "value": 2,
+          "condition": "mist:skill_cutting"
+        }
+      ]
+    },
+    {
+      "name": "tallow_3",
+      "entries": [
+        {
+          "entryName": "mist:tallow",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "limit": 4,
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "mist:tallow"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "value": 3,
+          "condition": "mist:skill_cutting"
+        }
+      ]
+    },
+    {
+      "name": "tallow_4",
+      "entries": [
+        {
+          "entryName": "mist:tallow",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "limit": 5,
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "mist:tallow"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "value": 4,
+          "condition": "mist:skill_cutting"
+        }
+      ]
+    }
+  ]
+}

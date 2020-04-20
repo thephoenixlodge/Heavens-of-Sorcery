@@ -126,14 +126,7 @@
           "name": "ebwizardry:chests/shrine"
         }
       ],
-      "rolls": {
-        "min": 0.0,
-        "max": 4.0
-      },
-      "bonus_rolls": {
-        "min": 1.0,
-        "max": 2.0
-      }
+      "rolls": 1.0
     }
   ]
 }

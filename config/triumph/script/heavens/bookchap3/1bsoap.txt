@@ -1,0 +1,17 @@
+setIcon(<mist:soap>)
+
+setTitle("Rub-a-dub-dub")
+
+setDescription("Make Soap!")
+
+addParent("heavens:bookchap3/1amistfurnace")
+addParent("heavens:bookchap3/2mist")
+
+setRequiresParents()
+
+setPos(32,-93)
+
+criteria1 = addCriteria("hasItems", "minecraft:inventory_changed")
+criteria1.addItem(<mist:soap, count:1~>)
+
+addRewardItem(<bewitchment:tallow, count:5>)

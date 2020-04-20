@@ -446,58 +446,6 @@
         }
       ],
       "rolls": 1.0
-    },
-    {
-      "name": "chest_treasure",
-      "entries": [
-        {
-          "entryName": "tombstone:scroll_buff",
-          "weight": 6,
-          "quality": -2,
-          "type": "item",
-          "functions": [
-            {
-              "data": {
-                "min": 0.0,
-                "max": 5.0
-              },
-              "function": "minecraft:set_data"
-            },
-            {
-              "tag": "{enchant:1b}",
-              "function": "minecraft:set_nbt"
-            }
-          ],
-          "name": "tombstone:scroll_buff"
-        },
-        {
-          "entryName": "tombstone:scroll_of_knowledge",
-          "weight": 1,
-          "quality": -2,
-          "type": "item",
-          "functions": [
-            {
-              "tag": "{stored_xp:2000}",
-              "function": "minecraft:set_nbt"
-            }
-          ],
-          "name": "tombstone:scroll_of_knowledge"
-        },
-        {
-          "entryName": "tombstone:lost_tablet",
-          "weight": 1,
-          "quality": -2,
-          "type": "item",
-          "name": "tombstone:lost_tablet"
-        },
-        {
-          "entryName": "empty",
-          "weight": 92,
-          "quality": 0,
-          "type": "empty"
-        }
-      ],
-      "rolls": 1.0
     }
   ]
 }

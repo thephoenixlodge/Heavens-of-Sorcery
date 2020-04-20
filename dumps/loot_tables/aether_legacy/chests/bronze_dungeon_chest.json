@@ -173,20 +173,10 @@
       "entries": [
         {
           "entryName": "loottweaker#1",
-          "weight": 20,
+          "weight": 2,
           "quality": 0,
           "type": "item",
-          "functions": [
-            {
-              "count": 3.0,
-              "function": "minecraft:set_count"
-            },
-            {
-              "tag": "{Fireworks:{Flight:3b}}",
-              "function": "minecraft:set_nbt"
-            }
-          ],
-          "name": "minecraft:fireworks"
+          "name": "quark:iron_rod"
         },
         {
           "entryName": "loottweaker#2",
@@ -197,13 +187,33 @@
         },
         {
           "entryName": "loottweaker#3",
-          "weight": 2,
+          "weight": 10,
           "quality": 0,
           "type": "item",
-          "name": "quark:iron_rod"
+          "name": "astralsorcery:itemusabledust"
         },
         {
           "entryName": "loottweaker#4",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "botania:tinypotato"
+        },
+        {
+          "entryName": "loottweaker#5",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 12.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "cuisine:crops"
+        },
+        {
+          "entryName": "loottweaker#6",
           "weight": 5,
           "quality": 0,
           "type": "item",
@@ -214,20 +224,6 @@
             }
           ],
           "name": "cuisine:crops"
-        },
-        {
-          "entryName": "loottweaker#5",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "name": "quark:arrow_torch"
-        },
-        {
-          "entryName": "loottweaker#6",
-          "weight": 5,
-          "quality": 0,
-          "type": "item",
-          "name": "botania:tinypotato"
         },
         {
           "entryName": "loottweaker#7",
@@ -257,6 +253,30 @@
         },
         {
           "entryName": "loottweaker#9",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 3.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "tag": "{Fireworks:{Flight:3b}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:fireworks"
+        },
+        {
+          "entryName": "loottweaker#10",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "quark:arrow_torch"
+        },
+        {
+          "entryName": "loottweaker#11",
           "weight": 2,
           "quality": 0,
           "type": "item",
@@ -269,7 +289,7 @@
           "name": "botania:manaresource"
         },
         {
-          "entryName": "loottweaker#10",
+          "entryName": "loottweaker#12",
           "weight": 5,
           "quality": 0,
           "type": "item",
@@ -280,26 +300,6 @@
             }
           ],
           "name": "cuisine:crops"
-        },
-        {
-          "entryName": "loottweaker#11",
-          "weight": 5,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "data": 12.0,
-              "function": "minecraft:set_data"
-            }
-          ],
-          "name": "cuisine:crops"
-        },
-        {
-          "entryName": "loottweaker#12",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "name": "astralsorcery:itemusabledust"
         },
         {
           "entryName": "loottweaker#13",

@@ -1,0 +1,137 @@
+{
+  "pools": [
+    {
+      "name": "mossling_meat_1",
+      "entries": [
+        {
+          "entryName": "mist:entities/mossling_meat",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "mist:entities/mossling_meat"
+        }
+      ],
+      "rolls": {
+        "min": 0.0,
+        "max": 1.0
+      },
+      "conditions": [
+        {
+          "value": 1,
+          "condition": "mist:skill_cutting"
+        }
+      ]
+    },
+    {
+      "name": "mossling_meat_2",
+      "entries": [
+        {
+          "entryName": "mist:entities/mossling_meat",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "mist:entities/mossling_meat"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "value": 2,
+          "condition": "mist:skill_cutting"
+        }
+      ]
+    },
+    {
+      "name": "mossling_meat_3",
+      "entries": [
+        {
+          "entryName": "mist:entities/mossling_meat",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "mist:entities/mossling_meat"
+        }
+      ],
+      "rolls": {
+        "min": 1.0,
+        "max": 2.0
+      },
+      "conditions": [
+        {
+          "value": 3,
+          "condition": "mist:skill_cutting"
+        }
+      ]
+    },
+    {
+      "name": "mossling_meat_4",
+      "entries": [
+        {
+          "entryName": "mist:entities/mossling_meat",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "mist:entities/mossling_meat"
+        }
+      ],
+      "rolls": {
+        "min": 1.0,
+        "max": 3.0
+      },
+      "conditions": [
+        {
+          "value": 4,
+          "condition": "mist:skill_cutting"
+        }
+      ]
+    },
+    {
+      "name": "mossling_meat_5",
+      "entries": [
+        {
+          "entryName": "mist:entities/mossling_meat",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "mist:entities/mossling_meat"
+        }
+      ],
+      "rolls": {
+        "min": 2.0,
+        "max": 4.0
+      },
+      "conditions": [
+        {
+          "value": 5,
+          "condition": "mist:skill_cutting"
+        }
+      ]
+    },
+    {
+      "name": "leather",
+      "entries": [
+        {
+          "entryName": "mist:entities/leather_mini",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "mist:entities/leather_mini"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "bone",
+      "entries": [
+        {
+          "entryName": "mist:entities/bone",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "mist:entities/bone"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

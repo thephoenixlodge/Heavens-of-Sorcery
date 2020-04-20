@@ -50,7 +50,11 @@ val ingotNiobium = <mist:niobium_ingot>;
 val blockNiobium = <mist:niobium_block>;
 val ingotManasteel = <botania:manaresource>;
 val blockManasteel = <botania:storage>;
-val respirator = <mist:respirator_single>;
+val respirator = <mist:respirator_single_open>;
+val respiratorClosed = <mist:respirator_single>;
+val respiratorRubber = <mist:respirator_rubber_open>;
+val respiratorRubberClosed = <mist:respirator_rubber>;
+val rubber = <mist:rubber>;
 val leather = <minecraft:leather>;
 val itemString = <minecraft:string>;
 val sapphire = <arcaneworld:sapphire>;
@@ -236,9 +240,15 @@ ManaInfusion.addInfusion(manaPearl, nacrePearl, 6000);
 recipes.remove(runicAltar);
 Altar.addDiscoveryAltarRecipe("custom_runic_altar", runicAltar, 700, 250, [null, null, null, livingrock, livingrock, livingrock, marblePillar, manaPearl, marblePillar]);
 
-//Tweak respirator recipe
+//Tweak respirator recipes
 recipes.remove(respirator);
 recipes.addShaped(respirator, [[itemString, null, itemString], [leather, null, leather], [ingotNiobium, sapphire, ingotNiobium]]);
+recipes.remove(respiratorClosed);
+recipes.addShapeless(respiratorClosed, [respirator, leather]);
+recipes.remove(respiratorRubber);
+recipes.addShaped(respiratorRubber, [[itemString, null, itemString], [rubber, null, rubber], [ingotNiobium, sapphire, ingotNiobium]]);
+recipes.remove(respiratorRubberClosed);
+recipes.addShapeless(respiratorRubberClosed, [respiratorRubber, rubber]);
 
 //Tweak Petal Apothecary recipe
 recipes.remove(petalApothecary);

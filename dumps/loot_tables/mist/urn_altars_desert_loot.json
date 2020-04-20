@@ -1,0 +1,106 @@
+{
+  "pools": [
+    {
+      "name": "desert_altar_1",
+      "entries": [
+        {
+          "entryName": "minecraft:dye",
+          "weight": 100,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 4.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "minecraft:dye"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "desert_altar_2",
+      "entries": [
+        {
+          "entryName": "mist:niobium_nugget",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "mist:niobium_nugget"
+        },
+        {
+          "entryName": "minecraft:gold_nugget",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:gold_nugget"
+        }
+      ],
+      "rolls": {
+        "min": 1.0,
+        "max": 2.0
+      }
+    },
+    {
+      "name": "desert_altar_3",
+      "entries": [
+        {
+          "entryName": "mist:filter_coal",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.2,
+                "max": 1.0
+              },
+              "function": "minecraft:set_damage"
+            }
+          ],
+          "name": "mist:filter_coal"
+        },
+        {
+          "entryName": "minecraft:name_tag",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:name_tag"
+        },
+        {
+          "entryName": "empty",
+          "weight": 30,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

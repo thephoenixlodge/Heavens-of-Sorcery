@@ -11,8 +11,8 @@
           "functions": [
             {
               "count": {
-                "min": 0.0,
-                "max": 1.0
+                "min": 1.0,
+                "max": 2.0
               },
               "function": "minecraft:set_count"
             },
@@ -80,7 +80,7 @@
             {
               "count": {
                 "min": 0.0,
-                "max": 4.0
+                "max": 6.0
               },
               "function": "minecraft:set_count"
             }
@@ -96,7 +96,7 @@
             {
               "count": {
                 "min": 0.0,
-                "max": 4.0
+                "max": 8.0
               },
               "function": "minecraft:set_count"
             }
@@ -112,7 +112,7 @@
             {
               "count": {
                 "min": 0.0,
-                "max": 3.0
+                "max": 6.0
               },
               "function": "minecraft:set_count"
             }
@@ -134,6 +134,22 @@
             }
           ],
           "name": "bewitchment:fortunes_favor"
+        },
+        {
+          "entryName": "bewitchment:demon_heart",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "bewitchment:demon_heart"
         },
         {
           "entryName": "bewitchment:hellhound_horn",

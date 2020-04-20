@@ -121,22 +121,6 @@
           "name": "arcaneworld:ethereal_sword"
         },
         {
-          "entryName": "arcaneworld:potion_orb",
-          "weight": 5,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            },
-            {
-              "function": "arcaneworld:random_potion"
-            }
-          ],
-          "name": "arcaneworld:potion_orb"
-        },
-        {
           "entryName": "minecraft:redstone",
           "weight": 15,
           "quality": 0,

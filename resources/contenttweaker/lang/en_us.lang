@@ -19,6 +19,7 @@ item.contenttweaker.precia_awakened.name=Awakened Precia
 contenttweaker.part.metal_materia=%s Metallia
 contenttweaker.part.precious_materia=%s Precia
 contenttweaker.part.etheric=Etheric %s
+fluid.latex_fluid=Latex
 
 tile.cathedral_chain_various.enderium.name=Manasteel Chain
 

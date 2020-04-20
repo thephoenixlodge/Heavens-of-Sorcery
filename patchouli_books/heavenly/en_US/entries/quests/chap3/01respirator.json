@@ -1,6 +1,6 @@
 {
     "name": "Just Breathe",
-    "icon": "mist:respirator_single",
+    "icon": "mist:respirator_single_open",
     "category": "quests/chap3",
     "sortnum": 1,
     "advancement": "heavens:bookchap3/0niobium",
@@ -16,17 +16,18 @@
             "type": "checklist_end",
             "item1": "mist:niobium_pickaxe",
             "item2": "mist:filter_coal",
-            "item3": "mist:respirator_single",
+            "item3": "mist:respirator_single_open",
             "reward1": "mist:filter_coal#20"
         },
         {
             "type": "crafting",
-            "recipe": "mist:niobium_pickaxe"
+            "recipe": "mist:niobium_pickaxe",
+            "recipe2": "crafttweaker:ct_shaped-2010665991"
         },
         {
-            "type": "crafting",
-            "recipe": "crafttweaker:ct_shaped-683928126",
-            "text": "Can be equipped as a helmet, or in a unique slot accessed by clicking directly above the helmet slot in your inventory.$(br2)Hold in your hand and right click to add $(item)Filter Coal$()."
+            "type": "text",
+            "title": "Respirators",
+            "text": "Can be equipped as a helmet, or in a unique slot accessed by clicking directly above the helmet slot in your inventory.$(br2)Hold in your hand and right click to add $(item)Filter Coal$().$(br2)Adding additional leather to the $(item)Open Respirator$() closes it, increasing protection from the $(thing)Mist$(), but at the expense of it being impossible to eat anything while it's worn."
         }
     ]
 }

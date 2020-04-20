@@ -32,7 +32,7 @@
       "entries": [
         {
           "entryName": "ebwizardry:subsets/arcane_tomes",
-          "weight": 6,
+          "weight": 8,
           "quality": 0,
           "type": "loot_table",
           "name": "ebwizardry:subsets/arcane_tomes"
@@ -127,7 +127,7 @@
         },
         {
           "entryName": "ebwizardry:astral_diamond",
-          "weight": 1,
+          "weight": 2,
           "quality": 0,
           "type": "item",
           "name": "ebwizardry:astral_diamond"
@@ -141,7 +141,7 @@
         },
         {
           "entryName": "ebwizardry:grand_crystal",
-          "weight": 1,
+          "weight": 2,
           "quality": 0,
           "type": "item",
           "name": "ebwizardry:grand_crystal"

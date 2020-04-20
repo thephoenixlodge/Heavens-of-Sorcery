@@ -1,6 +1,7 @@
 ////Imports
 import mods.chisel.Carving;
 import crafttweaker.item.IItemDefinition;
+import crafttweaker.item.IItemStack;
 
 ////Variables
 //Sapphire blocks
@@ -124,7 +125,26 @@ val chainGoldR = <rustic:chain_gold>;
 val crystalSandstone = <blue_skies:crystal_sandstone>;
 val crystalSandstoneChiseled = <blue_skies:chiseled_crystal_sandstone>;
 val crystalSandstoneSmooth = <blue_skies:smooth_crystal_sandstone>;
-
+//candles
+val candleMap = {
+	"white" : [<bewitchment:white_candle>, <quark:candle>, <thaumcraft:candle_white>],
+	"orange" : [<bewitchment:orange_candle>, <quark:candle:1>, <thaumcraft:candle_orange>],
+	"magenta" : [<bewitchment:magenta_candle>, <quark:candle:2>, <thaumcraft:candle_magenta>],
+	"light-blue" : [<bewitchment:light_blue_candle>, <quark:candle:3>, <thaumcraft:candle_lightblue>],
+	"yellow" : [<bewitchment:yellow_candle>, <quark:candle:4>, <thaumcraft:candle_yellow>],
+	"lime" : [<bewitchment:lime_candle>, <quark:candle:5>, <thaumcraft:candle_lime>],
+	"pink" : [<bewitchment:pink_candle>, <quark:candle:6>, <thaumcraft:candle_pink>],
+	"gray" : [<bewitchment:gray_candle>, <quark:candle:7>, <thaumcraft:candle_gray>],
+	"light-gray" : [<bewitchment:light_gray_candle>, <quark:candle:8>, <thaumcraft:candle_silver>],
+	"cyan" : [<bewitchment:cyan_candle>, <quark:candle:9>, <thaumcraft:candle_cyan>],
+	"purple" : [<bewitchment:purple_candle>, <quark:candle:10>, <thaumcraft:candle_purple>],
+	"blue" : [<bewitchment:blue_candle>, <quark:candle:11>, <thaumcraft:candle_blue>],
+	"brown" : [<bewitchment:brown_candle>, <quark:candle:12>, <thaumcraft:candle_brown>],
+	"green" : [<bewitchment:green_candle>, <quark:candle:13>, <thaumcraft:candle_green>],
+	"red" : [<bewitchment:red_candle>, <quark:candle:14>, <thaumcraft:candle_red>],
+	"black" : [<bewitchment:black_candle>, <quark:candle:15>, <thaumcraft:candle_black>]
+} as IItemStack[][string];
+val oreCandle = <ore:candle>;
 
 //Add group for Sapphire Blocks
 //Carving.addGroup("blockSapphire");
@@ -303,3 +323,12 @@ Carving.addGroup("crystal-sandstone");
 Carving.addVariation("crystal-sandstone", crystalSandstone);
 Carving.addVariation("crystal-sandstone", crystalSandstoneChiseled);
 Carving.addVariation("crystal-sandstone", crystalSandstoneSmooth);
+
+for colour, candles in candleMap {
+	var group = "candle-" ~ colour;
+	Carving.addGroup(group);
+	for candle in candles {
+		Carving.addVariation(group, candle);
+		oreCandle.add(candle);
+	}
+}

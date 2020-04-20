@@ -1,0 +1,17 @@
+{
+  "pools": [
+    {
+      "name": "desert_fish",
+      "entries": [
+        {
+          "entryName": "mist:swim_bladder",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "mist:swim_bladder"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

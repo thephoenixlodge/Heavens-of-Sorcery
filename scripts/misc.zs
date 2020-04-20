@@ -116,6 +116,16 @@ val horseArmourIron = <minecraft:iron_horse_armor>;
 val horseArmourGold = <minecraft:golden_horse_armor>;
 val horseArmourDiamond = <minecraft:diamond_horse_armor>;
 val crumblingCatalyst = <naturesaura:crushing_catalyst>;
+val gravesDust = <tombstone:crafting_ingredient:3>;
+val manaPowder = <botania:manaresource:23>;
+val radiantDust = <arcanearchives:radiant_dust>;
+val candleIron = <rustic:candle>;
+val candleGold = <rustic:candle_gold>;
+val candleBrass = <rusticthaumaturgy:candle_brass>;
+val oreCandle = <ore:candle>;
+val wax = <ore:wax>;
+val ingotBrass = <thaumcraft:ingot:2>;
+val itemString = <minecraft:string>;
 //sculptures
 val sculptureStone = <magicalsculpture:magicalsculpture:1>;
 val sculptureBase = <magicalsculpture:magicalsculpture>;
@@ -126,9 +136,6 @@ val amplifier3 = <magicalsculpture:amplifier:2>;
 val amplifier4 = <magicalsculpture:amplifier:3>;
 val sculptureRelic = <magicalsculpture:relic:*>;
 val reincarnationDust = <magicalsculpture:reverser>;
-val gravesDust = <tombstone:crafting_ingredient:3>;
-val manaPowder = <botania:manaresource:23>;
-val radiantDust = <arcanearchives:radiant_dust>;
 
 val doNotAddRepairRecipe = [
 	<mist:flint_and_stone>,
@@ -363,3 +370,10 @@ oreDustIron.remove(sandIron);
 oreDustGold.remove(sandGold);
 
 game.setLocalization("en_us", "enchantment.ebwizardry:magic_protection", "Spell Protection");
+
+//candles
+recipes.remove(candleBrass);
+recipes.addShaped(candleIron * 8, [[oreCandle], [ingotIron]]);
+recipes.addShaped(candleGold * 8, [[oreCandle], [ingotGold]]);
+recipes.addShaped(candleBrass * 8, [[oreCandle], [ingotBrass]]);
+recipes.addShaped(candleBrass * 4, [[itemString], [wax], [ingotBrass]]);

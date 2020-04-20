@@ -5,7 +5,7 @@
       "entries": [
         {
           "entryName": "ebwizardry:subsets/arcane_tomes",
-          "weight": 3,
+          "weight": 4,
           "quality": 0,
           "type": "loot_table",
           "name": "ebwizardry:subsets/arcane_tomes"

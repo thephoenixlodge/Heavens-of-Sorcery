@@ -1,0 +1,23 @@
+{
+  "pools": [
+    {
+      "name": "snow_flea",
+      "entries": [
+        {
+          "entryName": "mist:wing",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "mist:wing"
+        },
+        {
+          "entryName": "empty",
+          "weight": 5,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

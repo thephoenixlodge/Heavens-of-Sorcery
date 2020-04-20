@@ -1,0 +1,151 @@
+{
+  "pools": [
+    {
+      "name": "basement_swamp",
+      "entries": [
+        {
+          "entryName": "mist:peat",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 1.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "mist:peat"
+        },
+        {
+          "entryName": "mist:sapropel",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 1.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "mist:sapropel"
+        },
+        {
+          "entryName": "mist:sapropel_ball",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "mist:sapropel_ball"
+        },
+        {
+          "entryName": "mist:tree_seed",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": [
+                1,
+                6,
+                11
+              ],
+              "function": "mist:set_array_data"
+            }
+          ],
+          "name": "mist:tree_seed"
+        },
+        {
+          "entryName": "mist:nightberry",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "mist:nightberry"
+        },
+        {
+          "entryName": "empty",
+          "weight": 50,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": {
+        "min": 0.0,
+        "max": 3.0
+      }
+    },
+    {
+      "name": "basement_painting",
+      "entries": [
+        {
+          "entryName": "mist:painting",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": [
+                2,
+                3,
+                5,
+                9,
+                10,
+                11
+              ],
+              "function": "mist:set_array_data"
+            }
+          ],
+          "name": "mist:painting"
+        },
+        {
+          "entryName": "empty",
+          "weight": 3,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "basement_main",
+      "entries": [
+        {
+          "entryName": "mist:chest_basements",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "mist:chest_basements"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

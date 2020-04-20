@@ -1,0 +1,20 @@
+{
+  "pools": [
+    {
+      "name": "grave_bug",
+      "entries": [
+        {
+          "entryName": "mist:wing",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "mist:wing"
+        }
+      ],
+      "rolls": {
+        "min": 0.0,
+        "max": 1.0
+      }
+    }
+  ]
+}

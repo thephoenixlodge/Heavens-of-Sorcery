@@ -203,108 +203,108 @@
       "entries": [
         {
           "entryName": "loottweaker#1",
-          "weight": 15,
-          "quality": 0,
-          "type": "item",
-          "name": "rats:token_fragment"
-        },
-        {
-          "entryName": "loottweaker#2",
           "weight": 6,
           "quality": 0,
           "type": "item",
           "name": "arcaneworld:fang_wand"
         },
         {
-          "entryName": "loottweaker#3",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "name": "superiorshields:botania_shield_manasteel"
-        },
-        {
-          "entryName": "loottweaker#4",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "name": "contenttweaker:metallia_mundane"
-        },
-        {
-          "entryName": "loottweaker#5",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "name": "embers:ingot_dawnstone"
-        },
-        {
-          "entryName": "loottweaker#6",
-          "weight": 3,
-          "quality": 0,
-          "type": "item",
-          "name": "superiorshields:vanilla_shield_gold"
-        },
-        {
-          "entryName": "loottweaker#7",
+          "entryName": "loottweaker#2",
           "weight": 15,
           "quality": 0,
           "type": "item",
-          "name": "embers:ingot_copper"
+          "name": "embers:ingot_tin"
         },
         {
-          "entryName": "loottweaker#8",
-          "weight": 12,
-          "quality": 0,
-          "type": "item",
-          "name": "embers:ingot_bronze"
-        },
-        {
-          "entryName": "loottweaker#9",
+          "entryName": "loottweaker#3",
           "weight": 10,
           "quality": 0,
           "type": "item",
           "name": "contenttweaker:precia_mundane"
         },
         {
-          "entryName": "loottweaker#10",
-          "weight": 6,
+          "entryName": "loottweaker#4",
+          "weight": 15,
           "quality": 0,
           "type": "item",
-          "name": "superiorshields:vanilla_shield_iron"
+          "name": "embers:ingot_copper"
         },
         {
-          "entryName": "loottweaker#11",
+          "entryName": "loottweaker#5",
+          "weight": 12,
+          "quality": 0,
+          "type": "item",
+          "name": "embers:ingot_bronze"
+        },
+        {
+          "entryName": "loottweaker#6",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "superiorshields:botania_shield_manasteel"
+        },
+        {
+          "entryName": "loottweaker#7",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "name": "rats:token_fragment"
+        },
+        {
+          "entryName": "loottweaker#8",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "name": "superiorshields:vanilla_shield_gold"
+        },
+        {
+          "entryName": "loottweaker#9",
           "weight": 3,
           "quality": 0,
           "type": "item",
           "name": "rats:token_piece"
         },
         {
-          "entryName": "loottweaker#12",
-          "weight": 12,
-          "quality": 0,
-          "type": "item",
-          "name": "buildinggadgets:constructionpaste"
-        },
-        {
-          "entryName": "loottweaker#13",
+          "entryName": "loottweaker#10",
           "weight": 8,
           "quality": 0,
           "type": "item",
           "name": "botania:tinypotato"
         },
         {
-          "entryName": "loottweaker#14",
+          "entryName": "loottweaker#11",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "contenttweaker:metallia_mundane"
+        },
+        {
+          "entryName": "loottweaker#12",
+          "weight": 6,
+          "quality": 0,
+          "type": "item",
+          "name": "superiorshields:vanilla_shield_iron"
+        },
+        {
+          "entryName": "loottweaker#13",
           "weight": 15,
           "quality": 0,
           "type": "item",
           "name": "embers:ingot_lead"
         },
         {
-          "entryName": "loottweaker#15",
-          "weight": 15,
+          "entryName": "loottweaker#14",
+          "weight": 12,
           "quality": 0,
           "type": "item",
-          "name": "embers:ingot_tin"
+          "name": "buildinggadgets:constructionpaste"
+        },
+        {
+          "entryName": "loottweaker#15",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "embers:ingot_dawnstone"
         },
         {
           "entryName": "loottweaker#16",

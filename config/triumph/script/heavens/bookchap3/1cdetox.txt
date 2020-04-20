@@ -1,0 +1,28 @@
+setIcon(<mist:tinder_fungus>)
+
+setTitle("Detox Time")
+
+setDescription("Unprotected exposure to the mist is toxic. Eat 1 of the foods which can detoxify - Raw Gold Mushroom, Raw Silver Mushroom, Tinder Fungus, Stone Tree Berries, Nightberry, or Desert Fish Swim Bladder")
+
+addParent("heavens:bookchap3/2mist")
+
+setRequiresParents()
+
+setRequirements("any")
+
+setPos(72,-93)
+
+criteria1 = addCriteria("hasSilverMush", "minecraft:consume_item")
+criteria1.addItem(<mist:mushrooms_food, meta:21, count:1~>)
+criteria2 = addCriteria("hasGoldMush", "minecraft:consume_item")
+criteria2.addItem(<mist:mushrooms_food, meta:23, count:1~>)
+criteria3 = addCriteria("hasTinderFungus", "minecraft:consume_item")
+criteria3.addItem(<mist:tinder_fungus, count:1~>)
+criteria4 = addCriteria("hasStoneTreeBerry", "minecraft:consume_item")
+criteria4.addItem(<mist:tree_seed, meta:9, count:1~>)
+criteria5 = addCriteria("hasNightberry", "minecraft:consume_item")
+criteria5.addItem(<mist:nightberry, count:1~>)
+criteria6 = addCriteria("hasSwimBladder", "minecraft:consume_item")
+criteria6.addItem(<mist:swim_bladder, count:1~>)
+
+addRewardItem(<mist:tree_seed, meta:9, count:10>)

@@ -29,6 +29,33 @@
 	},
 	{
 		"dimension": 5,
+		"mob": [
+			"mist:mossling",
+			"mist:forest_runner",
+			"mist:momo",
+			"mist:barvog",
+			"mist:prickler",
+			"mist:caravan",
+			"mist:wulder",
+			"mist:horb",
+			"mist:sniff",
+			"mist:sloth",
+			"mist:monk",
+			"mist:galaga",
+			"mist:hulter",
+			"mist:brachiodon",
+			"mist:grave_bug",
+			"mist:forest_spider",
+			"mist:swamp_crab",
+			"mist:snow_flea",
+			"mist:woodlouse",
+			"mist:cyclops",
+			"mist:desert_fish"
+		],
+		"result": "default"
+	},
+	{
+		"dimension": 5,
 		"result": "deny"
 	},
 	{

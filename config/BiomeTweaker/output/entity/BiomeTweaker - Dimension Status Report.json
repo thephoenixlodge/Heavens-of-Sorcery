@@ -386,6 +386,111 @@
     "Class": "mcjty.meecreeps.entities.EntityMeeCreeps"
   },
   {
+    "Name": "mist.mossling",
+    "Registry ID": "mist:mossling",
+    "Class": "ru.liahim.mist.entity.EntityMossling"
+  },
+  {
+    "Name": "mist.forest_runner",
+    "Registry ID": "mist:forest_runner",
+    "Class": "ru.liahim.mist.entity.EntityForestRunner"
+  },
+  {
+    "Name": "mist.momo",
+    "Registry ID": "mist:momo",
+    "Class": "ru.liahim.mist.entity.EntityMomo"
+  },
+  {
+    "Name": "mist.barvog",
+    "Registry ID": "mist:barvog",
+    "Class": "ru.liahim.mist.entity.EntityBarvog"
+  },
+  {
+    "Name": "mist.prickler",
+    "Registry ID": "mist:prickler",
+    "Class": "ru.liahim.mist.entity.EntityPrickler"
+  },
+  {
+    "Name": "mist.caravan",
+    "Registry ID": "mist:caravan",
+    "Class": "ru.liahim.mist.entity.EntityCaravan"
+  },
+  {
+    "Name": "mist.wulder",
+    "Registry ID": "mist:wulder",
+    "Class": "ru.liahim.mist.entity.EntityWulder"
+  },
+  {
+    "Name": "mist.horb",
+    "Registry ID": "mist:horb",
+    "Class": "ru.liahim.mist.entity.EntityHorb"
+  },
+  {
+    "Name": "mist.sniff",
+    "Registry ID": "mist:sniff",
+    "Class": "ru.liahim.mist.entity.EntitySniff"
+  },
+  {
+    "Name": "mist.sloth",
+    "Registry ID": "mist:sloth",
+    "Class": "ru.liahim.mist.entity.EntitySloth"
+  },
+  {
+    "Name": "mist.monk",
+    "Registry ID": "mist:monk",
+    "Class": "ru.liahim.mist.entity.EntityMonk"
+  },
+  {
+    "Name": "mist.galaga",
+    "Registry ID": "mist:galaga",
+    "Class": "ru.liahim.mist.entity.EntityGalaga"
+  },
+  {
+    "Name": "mist.hulter",
+    "Registry ID": "mist:hulter",
+    "Class": "ru.liahim.mist.entity.EntityHulter"
+  },
+  {
+    "Name": "mist.brachiodon",
+    "Registry ID": "mist:brachiodon",
+    "Class": "ru.liahim.mist.entity.EntityBrachiodon"
+  },
+  {
+    "Name": "mist.grave_bug",
+    "Registry ID": "mist:grave_bug",
+    "Class": "ru.liahim.mist.entity.EntityGraveBug"
+  },
+  {
+    "Name": "mist.forest_spider",
+    "Registry ID": "mist:forest_spider",
+    "Class": "ru.liahim.mist.entity.EntityForestSpider"
+  },
+  {
+    "Name": "mist.swamp_crab",
+    "Registry ID": "mist:swamp_crab",
+    "Class": "ru.liahim.mist.entity.EntitySwampCrab"
+  },
+  {
+    "Name": "mist.snow_flea",
+    "Registry ID": "mist:snow_flea",
+    "Class": "ru.liahim.mist.entity.EntitySnowFlea"
+  },
+  {
+    "Name": "mist.woodlouse",
+    "Registry ID": "mist:woodlouse",
+    "Class": "ru.liahim.mist.entity.EntityWoodlouse"
+  },
+  {
+    "Name": "mist.cyclops",
+    "Registry ID": "mist:cyclops",
+    "Class": "ru.liahim.mist.entity.EntityCyclops"
+  },
+  {
+    "Name": "mist.desert_fish",
+    "Registry ID": "mist:desert_fish",
+    "Class": "ru.liahim.mist.entity.EntityDesertFish"
+  },
+  {
     "Name": "muse",
     "Registry ID": "soot:muse",
     "Class": "soot.entity.EntityMuse"
@@ -1548,6 +1653,6 @@
   {
     "Name": "king_aerwhale",
     "Registry ID": "lost_aether:king_aerwhale",
-    "Class": "com.legacy.lostaether.entities.EntityKingAerwhale"
+    "Class": "com.legacy.lostaether.entities.EntityAerwhaleKing"
   }
 ]

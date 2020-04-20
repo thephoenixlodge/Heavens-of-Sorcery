@@ -62,13 +62,11 @@ val tableAetherBronzeChest = LootTables.getTable("aether_legacy:chests/bronze_du
 val tableAetherBronzeReward = LootTables.getTable("aether_legacy:chests/bronze_dungeon_reward");
 val tableAetherSilverChest = LootTables.getTable("aether_legacy:chests/silver_dungeon_chest");
 val tableAetherSilverReward = LootTables.getTable("aether_legacy:chests/silver_dungeon_reward");
-val tableAetherGoldChest = LootTables.getTable("aether_legacy:chests/gold_dungeon_chest");
 val tableAetherGoldReward = LootTables.getTable("aether_legacy:chests/gold_dungeon_reward");
 val poolAetherBronzeChest = tableAetherBronzeChest.addPool("hos_extra", 1, 3, 1, 1);
 val poolAetherBronzeReward = tableAetherBronzeReward.addPool("hos_extra", 1, 3, 1, 1);
 val poolAetherSilverChest = tableAetherSilverChest.addPool("hos_extra", 1, 3, 1, 1);
 val poolAetherSilverReward = tableAetherSilverReward.addPool("hos_extra", 1, 2, 0, 0);
-val poolAetherGoldChest = tableAetherGoldChest.addPool("hos_extra", 1, 2, 0, 0);
 val poolAetherGoldReward = tableAetherGoldReward.addPool("hos_extra", 1, 2, 0, 0);
 
 val tableBSLibrary = LootTables.getTable("blue_skies:chests/blinding_dungeon/library_chest");
@@ -303,14 +301,14 @@ poolNetherRare.addItemEntryHelper(chestUpgrade, 6, 1, [Functions.setCount(0, 1),
 for aetherItem, weight in extrasAetherMap {
 	poolAetherBronzeChest.addItemEntry(aetherItem, weight);
 	poolAetherSilverChest.addItemEntry(aetherItem, weight);
-	poolAetherGoldChest.addItemEntry(aetherItem, weight);
+	poolAetherGoldReward.addItemEntry(aetherItem, weight);
 }
 poolAetherBronzeChest.addItemEntryHelper(lapis, 16, 1, [Functions.setCount(1, 20)], []);
 poolAetherSilverChest.addItemEntryHelper(lapis, 16, 1, [Functions.setCount(1, 20)], []);
-poolAetherGoldChest.addItemEntryHelper(lapis, 16, 1, [Functions.setCount(1, 20)], []);
+poolAetherGoldReward.addItemEntryHelper(lapis, 16, 1, [Functions.setCount(1, 20)], []);
 poolAetherBronzeChest.addItemEntryHelper(chestUpgrade, 3, 1, [Functions.setCount(0, 1), Functions.setMetadata(0, 14)], []);
 poolAetherSilverChest.addItemEntryHelper(chestUpgrade, 3, 1, [Functions.setCount(0, 1), Functions.setMetadata(0, 14)], []);
-poolAetherGoldChest.addItemEntryHelper(chestUpgrade, 3, 1, [Functions.setCount(0, 1), Functions.setMetadata(0, 14)], []);
+poolAetherGoldReward.addItemEntryHelper(chestUpgrade, 3, 1, [Functions.setCount(0, 1), Functions.setMetadata(0, 14)], []);
 poolAetherBronzeReward.addItemEntryHelper(iChisel, 2, 3, [Functions.setCount(0, 1)], []);
 poolAetherBronzeReward.addItemEntryHelper(skyRod, 2, 3, [Functions.setCount(0, 1)], []);
 poolAetherBronzeReward.addItemEntryHelper(chorusFlower, 2, 3, [Functions.setCount(1, 2)], []);

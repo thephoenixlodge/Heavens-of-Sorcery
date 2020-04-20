@@ -1,0 +1,56 @@
+{
+  "pools": [
+    {
+      "name": "ghost",
+      "entries": [
+        {
+          "entryName": "bewitchment:ectoplasm",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "bewitchment:ectoplasm"
+        },
+        {
+          "entryName": "bewitchment:spectral_dust",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "bewitchment:spectral_dust"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

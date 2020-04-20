@@ -1,0 +1,153 @@
+{
+  "pools": [
+    {
+      "name": "stego_meat_1",
+      "entries": [
+        {
+          "entryName": "mist:entities/stego_meat",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "mist:entities/stego_meat"
+        }
+      ],
+      "rolls": {
+        "min": 0.0,
+        "max": 2.0
+      },
+      "conditions": [
+        {
+          "value": 1,
+          "condition": "mist:skill_cutting"
+        }
+      ]
+    },
+    {
+      "name": "stego_meat_2",
+      "entries": [
+        {
+          "entryName": "mist:entities/stego_meat",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "mist:entities/stego_meat"
+        }
+      ],
+      "rolls": {
+        "min": 1.0,
+        "max": 2.0
+      },
+      "conditions": [
+        {
+          "value": 2,
+          "condition": "mist:skill_cutting"
+        }
+      ]
+    },
+    {
+      "name": "stego_meat_3",
+      "entries": [
+        {
+          "entryName": "mist:entities/stego_meat",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "mist:entities/stego_meat"
+        }
+      ],
+      "rolls": {
+        "min": 1.0,
+        "max": 3.0
+      },
+      "conditions": [
+        {
+          "value": 3,
+          "condition": "mist:skill_cutting"
+        }
+      ]
+    },
+    {
+      "name": "stego_meat_4",
+      "entries": [
+        {
+          "entryName": "mist:entities/stego_meat",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "mist:entities/stego_meat"
+        }
+      ],
+      "rolls": {
+        "min": 2.0,
+        "max": 4.0
+      },
+      "conditions": [
+        {
+          "value": 4,
+          "condition": "mist:skill_cutting"
+        }
+      ]
+    },
+    {
+      "name": "stego_meat_5",
+      "entries": [
+        {
+          "entryName": "mist:entities/stego_meat",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "mist:entities/stego_meat"
+        }
+      ],
+      "rolls": {
+        "min": 2.0,
+        "max": 5.0
+      },
+      "conditions": [
+        {
+          "value": 5,
+          "condition": "mist:skill_cutting"
+        }
+      ]
+    },
+    {
+      "name": "leather",
+      "entries": [
+        {
+          "entryName": "mist:entities/leather",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "mist:entities/leather"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "bone",
+      "entries": [
+        {
+          "entryName": "mist:entities/bone",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "mist:entities/bone"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "tallow",
+      "entries": [
+        {
+          "entryName": "mist:entities/tallow_maxi",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "mist:entities/tallow_maxi"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

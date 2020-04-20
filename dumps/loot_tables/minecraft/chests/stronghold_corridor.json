@@ -196,18 +196,6 @@
             }
           ],
           "name": "minecraft:book"
-        },
-        {
-          "entryName": "quark:treasure_map",
-          "weight": 10,
-          "quality": 2,
-          "type": "item",
-          "functions": [
-            {
-              "function": "quark:set_treasure"
-            }
-          ],
-          "name": "minecraft:filled_map"
         }
       ],
       "rolls": {

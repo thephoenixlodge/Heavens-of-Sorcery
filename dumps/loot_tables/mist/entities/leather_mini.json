@@ -1,0 +1,104 @@
+{
+  "pools": [
+    {
+      "name": "leather_1",
+      "entries": [
+        {
+          "entryName": "minecraft:leather",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:leather"
+        },
+        {
+          "entryName": "empty",
+          "weight": 5,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "value": 1,
+          "condition": "mist:skill_cutting"
+        }
+      ]
+    },
+    {
+      "name": "leather_2",
+      "entries": [
+        {
+          "entryName": "minecraft:leather",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:leather"
+        },
+        {
+          "entryName": "empty",
+          "weight": 2,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "value": 2,
+          "condition": "mist:skill_cutting"
+        }
+      ]
+    },
+    {
+      "name": "leather_3",
+      "entries": [
+        {
+          "entryName": "minecraft:leather",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:leather"
+        },
+        {
+          "entryName": "empty",
+          "weight": 1,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "value": 3,
+          "condition": "mist:skill_cutting"
+        }
+      ]
+    },
+    {
+      "name": "leather_4",
+      "entries": [
+        {
+          "entryName": "minecraft:leather",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:leather"
+        },
+        {
+          "entryName": "empty",
+          "weight": 1,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "value": 4,
+          "condition": "mist:skill_cutting"
+        }
+      ]
+    }
+  ]
+}

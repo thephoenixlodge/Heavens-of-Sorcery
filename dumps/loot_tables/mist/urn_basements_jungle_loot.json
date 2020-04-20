@@ -1,0 +1,118 @@
+{
+  "pools": [
+    {
+      "name": "basement_jungle",
+      "entries": [
+        {
+          "entryName": "mist:clay",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": {
+                "min": 8.0,
+                "max": 9.0
+              },
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "mist:clay"
+        },
+        {
+          "entryName": "mist:clay_ball",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 1.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "mist:clay_ball"
+        },
+        {
+          "entryName": "mist:tree_seed",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": [
+                10,
+                12
+              ],
+              "function": "mist:set_array_data"
+            }
+          ],
+          "name": "mist:tree_seed"
+        },
+        {
+          "entryName": "mist:mushrooms_food",
+          "weight": 50,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 23.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "mist:mushrooms_food"
+        },
+        {
+          "entryName": "empty",
+          "weight": 50,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": {
+        "min": 0.0,
+        "max": 2.0
+      }
+    },
+    {
+      "name": "basement_main",
+      "entries": [
+        {
+          "entryName": "mist:urn_basements",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "mist:urn_basements"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

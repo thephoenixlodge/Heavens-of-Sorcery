@@ -1,0 +1,23 @@
+{
+  "pools": [
+    {
+      "name": "swamp_crab",
+      "entries": [
+        {
+          "entryName": "mist:sapropel_ball",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "mist:sapropel_ball"
+        },
+        {
+          "entryName": "empty",
+          "weight": 5,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

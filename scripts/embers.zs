@@ -4,6 +4,8 @@ import mods.astralsorcery.Altar;
 import mods.astralsorcery.Utils;
 import crafttweaker.item.IItemStack;
 import mods.chisel.Carving;
+import mods.embers.Melter;
+import mods.embers.Stamper;
 
 ////Variables
 val caminiteBlend = <embers:blend_caminite>;
@@ -67,6 +69,7 @@ val stampCookedArray = [
 	<soot:stamp_text>
 ] as IItemStack[];
 val stampCookedBlank = <embers:stamp_flat>;
+val stampBar = <embers:stamp_bar>;
 val moltenCore = <arcaneworld:molten_core>;
 val plateIron = <embers:plate_iron>;
 val plateCaminite = <embers:plate_caminite>;
@@ -80,6 +83,11 @@ val emberShard = <embers:shard_ember>;
 val emberCrystal = <embers:crystal_ember>;
 val beamSplitter = <embers:beam_splitter>;
 val ingotDawnstone = <embers:ingot_dawnstone>;
+val latex = <mist:latex>;
+val blockLatex = <mist:latex_block>;
+val latexFluid = <liquid:latex_fluid>;
+val sulfur = <mist:sulfur>;
+val rubber = <mist:rubber>;
 
 //tweak caminite blend recipe
 recipes.remove(caminiteBlend);
@@ -191,3 +199,9 @@ furnace.setFuel(moltenCore, 20000);
 //trapdoor bin
 recipes.remove(binTrapdoor);
 recipes.addShapeless(binTrapdoor, [bin, trapdoorIron]);
+
+//Misty World latex/rubber
+Melter.add(latexFluid * 144, latex);
+Melter.add(latexFluid * 1296, blockLatex);
+recipes.remove(rubber);
+Stamper.add(rubber, latexFluid * 144, stampBar, sulfur);

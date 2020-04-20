@@ -41,12 +41,12 @@ val wlBiomes = [
 	"blue_skies:unorthodox_valley",
 	"blue_skies:shaded_woods",
 	"blue_skies:crystal_dunes",
-	"blue_skies:sunset_maple_forest",
-	"minecraft:extreme_hills"
+	"blue_skies:sunset_maple_forest"
 ] as string[];
 val mobs = [
 	"ebwizardry:evil_wizard",
-	"ebwizardry:lightning_wraith"
+	"ebwizardry:lightning_wraith",
+	"ebwizardry:ice_wraith"
 ] as string[];
 
 //Magic Crystal from flowers
@@ -71,14 +71,16 @@ GCT.addRecipe("crystal_radiant", crystalRadiant, [crystalMagic * 5, dustRadiant 
 
 var blBiomes = [] as string[];
 for biome in game.biomes {
+    var biomeId = biome.id;
     var blacklisted = true;
     for skip in wlBiomes {
-        if (biome.name == skip) {
+        if (biomeId == skip) {
             blacklisted = false;
         }
     }
     if (blacklisted) {
-        blBiomes += biome.name;
+    	//print(biomeId);
+        blBiomes += biomeId;
     }
 }
 for mob in mobs {
