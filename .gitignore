@@ -8,3 +8,4 @@ config/BiomeTweaker/output/biome/BiomeTweaker - Biome Status Report.json
 config/BiomeTweaker/output/entity/BiomeTweaker - Dimension Status Report.json
 config/BiomeTweaker/output/entity/BiomeTweaker - EntityLiving Status Report.json
 config/jei/worldSettings.cfg
+config/BiomeTweaker/output/biome/BiomeTweaker - Biome Status Report.json

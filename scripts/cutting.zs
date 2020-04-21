@@ -7,7 +7,7 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.data.IData;
 
 
-function addCuttingMeat(table as string, poolsAndDrops as int[][IItemStack][string]) {
+function addCuttingMeat(name as string, table as string, poolsAndDrops as int[][IItemStack][string]) {
 	val rollsPerLevel = [
 		[0, 1],
 		[1, 1],
@@ -15,8 +15,19 @@ function addCuttingMeat(table as string, poolsAndDrops as int[][IItemStack][stri
 		[1, 3],
 		[2, 4]
 	] as int[][];
+	var meatTableName = "hos:cutting/" ~ name ~ "_meat";
+	var lootTableMeat = LootTables.newTable(meatTableName);
+	var lootPoolMeat = lootTableMeat.addPool("meat", 1, 1, 0, 0);
 	var lootTable = LootTables.getTable(table);
 	var lootPools = {} as LootPool[int];
+	for drops in poolsAndDrops.values {
+		for drop, count in drops {
+			var minCount = count[0];
+			var maxCount = count[1];
+			var meta = drop.metadata;
+			lootPoolMeat.addItemEntryHelper(drop, 1, 0, [Functions.setMetadata(meta, meta), Functions.setCount(minCount, maxCount), Functions.lootingEnchantBonus(0, 1, 2), Functions.parse({"function": "minecraft:furnace_smelt","conditions": [{"properties": {"minecraft:on_fire": true}, "entity": "this", "condition": "minecraft:entity_properties"}]})], []);
+		}
+	}
 	for pool, drops in poolsAndDrops {
 		print(pool);
 		lootPools[1] = lootTable.getPool(pool);
@@ -25,6 +36,7 @@ function addCuttingMeat(table as string, poolsAndDrops as int[][IItemStack][stri
 		lootPools[4] = lootTable.addPool(pool ~ "_cutting_4", 0, 0, 0, 0);
 		lootPools[5] = lootTable.addPool(pool ~ "_cutting_5", 0, 0, 0, 0);
 	}
+	lootPools[1].clearEntries();
 	for cuttingLevel, pool in lootPools {
 		var cuttingConditions = {
 			1 : {"value": 1, "condition": "mist:skill_cutting"},
@@ -35,14 +47,7 @@ function addCuttingMeat(table as string, poolsAndDrops as int[][IItemStack][stri
 		} as IData[int];
 		pool.addConditionsJson([cuttingConditions[cuttingLevel]]);
 		pool.setRolls(rollsPerLevel[cuttingLevel][0], rollsPerLevel[cuttingLevel][1]);
-		for drops in poolsAndDrops.values {
-			for drop, count in drops {
-				var minCount = count[0];
-				var maxCount = count[1];
-				var meta = drop.metadata;
-				pool.addItemEntryHelper(drop, 1, 0, [Functions.setMetadata(meta, meta), Functions.setCount(minCount, maxCount), Functions.lootingEnchantBonus(0, 1, 2), Functions.smelt()], []);
-			}
-		}
+		pool.addLootTableEntry(meatTableName, 1, 0, "meat");
 	}
 }
 
@@ -50,4 +55,4 @@ function addCuttingMeat(table as string, poolsAndDrops as int[][IItemStack][stri
 
 
 //table, {pool : {drop : [minCount, maxCount]}}
-addCuttingMeat("minecraft:entities/pig", {"main" : {<minecraft:porkchop> : [1, 3]}});
+addCuttingMeat("pig", "minecraft:entities/pig", {"main" : {<minecraft:porkchop> : [1, 3]}});
