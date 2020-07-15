@@ -87,7 +87,7 @@ val latex = <mist:latex>;
 val blockLatex = <mist:latex_block>;
 val latexFluid = <liquid:latex_fluid>;
 val sulfur = <mist:sulfur>;
-val rubber = <mist:rubber>;
+val rubber = <thebetweenlands:items_misc:23>;
 
 //tweak caminite blend recipe
 recipes.remove(caminiteBlend);

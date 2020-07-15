@@ -1,0 +1,26 @@
+{
+    "name": "Rub-a-dub-dub",
+    "icon": "mist:soap",
+    "category": "quests/chap3",
+    "sortnum": 3,
+    "advancement": "heavens:bookchap3/2mist",
+    "turnin": "heavens:bookchap3/1bsoap",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "Rub-a-dub-dub",
+            "trigger": "heavens:bookchap3/1bsoap",
+            "text": "Having delved into the mist further now, you may notice your skin is a bit itchy. Unfortunately, while $(item)Respirators$() protect your lungs, the $(thing)Mist$() doesn't do much for your skin either. Fortunately, a bath can solve this. Water alone will clear $(thing)Chemical Pollution$() slowly, but soap clears it much faster - so have a good scrub!"
+        },
+        {
+            "type": "checklist_end",
+            "item1": "mist:soap",
+            "reward1": "mist:tallow#5"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mist:soap",
+            "text": "Tallow can be collected from some of the creatures of the $(thing)Misty World$(), while $(item)Saltpeter$() can be mined there."
+        }
+    ]
+}

@@ -37,6 +37,18 @@
 				"weight": 2,
 				"groupcountmin": 1,
 				"groupcountmax": 3
+			},
+			{
+				"mob": "bewitchment:ghost",
+				"weight": 4,
+				"groupcountmin": 1,
+				"groupcountmax": 1
+			},
+			{
+				"mob": "thaumcraft:wisp",
+				"weight": 1,
+				"groupcountmin": 1,
+				"groupcountmax": 1
 			}
 		]
 	},

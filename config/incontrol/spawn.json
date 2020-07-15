@@ -20,6 +20,16 @@
 	{
 		"dimension": 5,
 		"mob": [
+			"bewitchment:ghost",
+			"thaumcraft:wisp"
+		],
+		"maxheight": 100,
+		"maxcount": 5,
+		"result": "default"
+	},
+	{
+		"dimension": 5,
+		"mob": [
 			"mysticalworld:entity_deer",
 			"mysticalworld:entity_fox"
 		],
@@ -90,6 +100,7 @@
 			"avatarmod:otterpenguin"
 		],
 		"maxcount": 15,
+		"minheight": 110,
 		"result": "allow"
 	},
 	{
@@ -122,6 +133,7 @@
 			"bewitchment:raven"
 		],
 		"maxcount": 10,
+		"minheight": 110,
 		"result": "allow"
 	},
 	{

@@ -1,5 +1,5 @@
 ////imports
-import loottweaker.vanilla.loot.LootTables;
+import loottweaker.LootTweaker;
 import loottweaker.vanilla.loot.LootTable;
 import loottweaker.vanilla.loot.LootPool;
 import loottweaker.vanilla.loot.Functions;
@@ -8,18 +8,18 @@ import crafttweaker.data.IData;
 
 
 function addCuttingMeat(name as string, table as string, poolsAndDrops as int[][IItemStack][string]) {
-	val rollsPerLevel = [
-		[0, 1],
-		[1, 1],
-		[1, 2],
-		[1, 3],
-		[2, 4]
-	] as int[][];
+	val rollsPerLevel = {
+		"one" : [0, 1],
+		"two" : [1, 1],
+		"three" : [1, 2],
+		"four" : [1, 3],
+		"five" : [2, 4]
+	} as int[][string];
 	var meatTableName = "hos:cutting/" ~ name ~ "_meat";
-	var lootTableMeat = LootTables.newTable(meatTableName);
+	var lootTableMeat = LootTweaker.newTable(meatTableName);
 	var lootPoolMeat = lootTableMeat.addPool("meat", 1, 1, 0, 0);
-	var lootTable = LootTables.getTable(table);
-	var lootPools = {} as LootPool[int];
+	var lootTable = LootTweaker.getTable(table);
+	var lootPools = {} as LootPool[string];
 	for drops in poolsAndDrops.values {
 		for drop, count in drops {
 			var minCount = count[0];
@@ -30,29 +30,32 @@ function addCuttingMeat(name as string, table as string, poolsAndDrops as int[][
 	}
 	for pool, drops in poolsAndDrops {
 		print(pool);
-		lootPools[1] = lootTable.getPool(pool);
-		lootPools[2] = lootTable.addPool(pool ~ "_cutting_2", 0, 0, 0, 0);
-		lootPools[3] = lootTable.addPool(pool ~ "_cutting_3", 0, 0, 0, 0);
-		lootPools[4] = lootTable.addPool(pool ~ "_cutting_4", 0, 0, 0, 0);
-		lootPools[5] = lootTable.addPool(pool ~ "_cutting_5", 0, 0, 0, 0);
+		lootPools["one"] = lootTable.getPool(pool);
+		lootPools["two"] = lootTable.addPool(pool ~ "_cutting_2", 0, 0, 0, 0);
+		lootPools["three"] = lootTable.addPool(pool ~ "_cutting_3", 0, 0, 0, 0);
+		lootPools["four"] = lootTable.addPool(pool ~ "_cutting_4", 0, 0, 0, 0);
+		lootPools["five"] = lootTable.addPool(pool ~ "_cutting_5", 0, 0, 0, 0);
 	}
-	lootPools[1].clearEntries();
+	lootPools["one"].clearEntries(); //DOUBLE CHECK IF THIS NECESSARY
 	for cuttingLevel, pool in lootPools {
 		var cuttingConditions = {
-			1 : {"value": 1, "condition": "mist:skill_cutting"},
-			2 : {"value": 2, "condition": "mist:skill_cutting"},
-			3 : {"value": 3, "condition": "mist:skill_cutting"},
-			4 : {"value": 4, "condition": "mist:skill_cutting"},
-			5 : {"value": 5, "condition": "mist:skill_cutting"}
-		} as IData[int];
+			"one" : {"value": 1, "condition": "mist:skill_cutting"},
+			"two" : {"value": 2, "condition": "mist:skill_cutting"},
+			"three" : {"value": 3, "condition": "mist:skill_cutting"},
+			"four" : {"value": 4, "condition": "mist:skill_cutting"},
+			"five" : {"value": 5, "condition": "mist:skill_cutting"}
+		} as IData[string];
 		pool.addConditionsJson([cuttingConditions[cuttingLevel]]);
 		pool.setRolls(rollsPerLevel[cuttingLevel][0], rollsPerLevel[cuttingLevel][1]);
 		pool.addLootTableEntry(meatTableName, 1, 0, "meat");
 	}
 }
 
-//TODO - exclude original pool from adding the new entry, change the smelt function to be conditional on mob being on fire
+//TODO - exclude original pool from adding the new entry
 
 
 //table, {pool : {drop : [minCount, maxCount]}}
 addCuttingMeat("pig", "minecraft:entities/pig", {"main" : {<minecraft:porkchop> : [1, 3]}});
+addCuttingMeat("cow", "minecraft:entities/cow", {"main" : {<minecraft:beef> : [1, 3]}});
+addCuttingMeat("chicken", "minecraft:entities/chicken", {"main" : {<minecraft:chicken> : [1, 3]}});
+addCuttingMeat("sheep", "minecraft:entities/sheep", {"main" : {<minecraft:mutton> : [1, 3]}});

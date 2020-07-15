@@ -1,0 +1,28 @@
+{
+    "name": "Linear",
+    "icon": "minecraft:stonebrick",
+    "category": "collected_knowledge",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Building can be tedious - we've all placed millions of blocks. Luckily there's an easier way. Holding $(l)Sneak + Right-Click$() to place blocks allows you to drag and place multiple at once!$(br2)Furthermore, there are different placement modes, cycled with $(l)$(k:linear.switchmode.desc)$().$(br)Note: this keybind conflicts by default, it is recommended to rebind it"
+        },
+        {
+            "type": "image",
+            "title": "Drag it out!",
+            "images": [
+                "books:templates/linear.png"
+            ],
+            "text": "This behaviour is toggleable with $(l)$(k:linear.enablebuilding.desc)$()."
+        },
+        {
+            "type": "text",
+            "title": "Building Modes",
+            "text": "There are 5 Building Modes as follows.$(br2)$(l)Line:$()$(br)$(l)1 Axis:$() Builds between the two points in a straight line along the longest axis.$(br)$(l)2 Axes:$() Builds a straight line between the two points along the two longest axes$(br)$(l)3 Axes:$() Builds a straight line between the two points using all 3 axes."
+        },
+        {
+            "type": "text",
+            "text": "$(l)Wall:$()$(br)$(l)2 Axes:$() Builds a flat wall between the two points along the two longest axes$(br)$(l)3 Axes:$() Builds a vertical wall between the two points using all 3 axes."
+        }
+    ]
+}

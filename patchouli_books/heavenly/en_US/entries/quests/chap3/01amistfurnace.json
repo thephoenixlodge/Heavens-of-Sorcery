@@ -1,0 +1,39 @@
+{
+    "name": "Burnout",
+    "icon": "mist:furnace",
+    "category": "quests/chap3",
+    "sortnum": 2,
+    "advancement": "heavens:bookchap3/1respirator",
+    "turnin": "heavens:bookchap3/1amistfurnace",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "Burnout",
+            "trigger": "heavens:bookchap3/1amistfurnace",
+            "text": "The $(item)Rocks$() here are also well suited to making a slightly more specialized $(item)Furnace$(). In this furnace, combustion of fuels is incomplete, and will result in $(item)Ash$(). Under most circumstances, this would be of little use, but right now, $(item)Ash$() is an important ingredient for fighting the more harmful effects of the $(thing)Mist$()."
+        },
+        {
+            "type": "checklist_end",
+            "item1": "mist:furnace",
+            "item2": "mist:ash",
+            "reward1": "mist:ash#5"
+        },
+        {
+            "type": "text",
+            "title": "Using the Furnace",
+            "text": "The Foggy Furnace has two modes - determined by whether the Air Intake[1] is Open or Closed.$(br2)When it's $(l)Open$(), the $(item)Furnace$() will consume $(thing)Fuel$(), heating the furnace, and burning up the $(thing)fuel$() into $(item)Ash$().$(br2)With the intake $(l)Closed$(), fuel will not be consumed, and the furnace will instead smelt anything placed in it, consuming stored heat."
+        },
+        {
+            "type": "image",
+            "images": ["books:templates/mist_furnace.png"],
+            "border": true,
+            "title": "Using the Furnace",
+            "text": "To ignite, use a $(item)Flint & Steel$() on it while Air Intake is $(l)Open$() (pictured), with any $(thing)Fuel$() inside"
+        },
+        {
+            "type": "crafting",
+            "recipe": "mist:furnace",
+            "text": "$(item)Rocks$() can found scattered on the surface, or collected by breaking $(item)Foggy Stone$()."
+        }
+    ]
+}

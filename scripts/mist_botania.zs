@@ -54,7 +54,7 @@ val respirator = <mist:respirator_single_open>;
 val respiratorClosed = <mist:respirator_single>;
 val respiratorRubber = <mist:respirator_rubber_open>;
 val respiratorRubberClosed = <mist:respirator_rubber>;
-val rubber = <mist:rubber>;
+val rubber = <thebetweenlands:items_misc:23>;
 val leather = <minecraft:leather>;
 val itemString = <minecraft:string>;
 val sapphire = <arcaneworld:sapphire>;
@@ -195,7 +195,15 @@ val treeSeeds = {
 } as IItemStack[IItemStack];
 val saplings = <minecraft:sapling>.definition;
 val manaGear = <mystgears:gear_manasteel>;
-
+val latexPot = <mist:latex_pot>;
+val flowerPot = <minecraft:flower_pot>;
+val plateIron = <embers:plate_iron>;
+val rubberHelmet = <mist:rubber_helmet>;
+val rubberChestplate = <mist:rubber_chestplate>;
+val rubberLeggings = <mist:rubber_leggings>;
+val rubberBoots = <mist:rubber_boots>;
+val glassContainer = <mist:glass_container>;
+val glassBottle = <minecraft:glass_bottle>;
 
 //Oredict all Misty World logs
 for wood in mistyWoods {
@@ -249,6 +257,16 @@ recipes.remove(respiratorRubber);
 recipes.addShaped(respiratorRubber, [[itemString, null, itemString], [rubber, null, rubber], [ingotNiobium, sapphire, ingotNiobium]]);
 recipes.remove(respiratorRubberClosed);
 recipes.addShapeless(respiratorRubberClosed, [respiratorRubber, rubber]);
+
+//tweak protective suit recipe to BL rubber item
+recipes.remove(rubberHelmet);
+recipes.remove(rubberChestplate);
+recipes.remove(rubberLeggings);
+recipes.remove(rubberBoots);
+recipes.addShaped(rubberHelmet, [[rubber, rubber, rubber], [rubber, null, rubber]]);
+recipes.addShaped(rubberChestplate, [[rubber, null, rubber], [rubber, rubber, rubber], [rubber, rubber, rubber]]);
+recipes.addShaped(rubberLeggings, [[rubber, rubber, rubber], [rubber, null, rubber], [rubber, null, rubber]]);
+recipes.addShaped(rubberBoots, [[rubber, null, rubber], [rubber, null, rubber]]);
 
 //Tweak Petal Apothecary recipe
 recipes.remove(petalApothecary);
@@ -398,3 +416,11 @@ for seed1, seed2 in treeSeeds {
 
 //disable infusion recipe for manasteel gear
 ManaInfusion.removeRecipe(manaGear);
+
+//tweak latex pot recipe
+recipes.remove(latexPot);
+recipes.addShapeless(latexPot, [flowerPot, itemString, itemString, plateIron]);
+
+//glass container recipe to BL rubber
+recipes.remove(glassContainer);
+recipes.addShaped(glassContainer, [[rubber], [glassBottle]]);

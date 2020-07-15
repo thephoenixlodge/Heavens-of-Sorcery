@@ -1,0 +1,26 @@
+{
+    "name": "Detox Time",
+    "icon": "mist:tinder_fungus",
+    "category": "quests/chap3",
+    "sortnum": 3,
+    "advancement": "heavens:bookchap3/2mist",
+    "turnin": "heavens:bookchap3/1cdetox",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "Detox Time",
+            "trigger": "heavens:bookchap3/1cdetox",
+            "text": "If you dared to enter the mist without the protections of a $(item)Respirator$(), you may feel a bit ill, due to the sheer $(thing)Toxicity$() of the $(thing)Mist$(). Thankfully, experimentation in my youth led me to discover 6 edibles which can counter this $(thing)Toxicity$(). I suggest you eat one."
+        },
+        {
+            "type": "eat_task",
+            "item1": "mist:mushrooms_food:21",
+            "item2": "mist:mushrooms_food:23",
+            "item3": "mist:tinder_fungus",
+            "item4": "mist:tree_seed:9",
+            "item5": "mist:nightberry",
+            "item6": "mist:swim_bladder",
+            "reward1": "mist:tree_seed:9#10"
+        }
+    ]
+}

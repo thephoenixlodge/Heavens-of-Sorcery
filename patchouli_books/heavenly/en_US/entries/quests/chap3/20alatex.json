@@ -1,0 +1,45 @@
+{
+    "name": "Tap it!",
+    "icon": "mist:furnace",
+    "category": "quests/chap3",
+    "sortnum": 21,
+    "advancement": "heavens:bookchap3/20melter",
+    "turnin": "heavens:bookchap3/20alatex",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "Tap it!",
+            "trigger": "heavens:bookchap3/20alatex",
+            "text": "With the means to melt and cast, it's time to get some more serious protection against the $(thing)Mist$(). The first step of this is to find a $(item)Rubber Tree$() in the $(thing)Misty World's$() Tropical biomes and tap it with a $(item)Latex Pot$() to produce $(item)Latex$(), before processing it into $(item)Rubber$()."
+        },
+        {
+            "type": "checklist_end",
+            "item1": "mist:latex_pot",
+            "item2": "mist:latex",
+            "item3": "thebetweenlands:items_misc:23",
+            "reward1": "mist:latex_pot#2",
+            "reward2": "mist:latex#8"
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:ct_shapeless593815534",
+            "recipe2": "minecraft:flower_pot"
+        },
+        {
+            "type": "stamping",
+            "heading": "Rubber from Latex",
+            "item1": "mist:latex",
+            "item2": "mist:sulfur",
+            "stamp": "embers:stamp_bar",
+            "output_item": "thebetweenlands:items_misc:23",
+            "description": "Stamp Sulfur (mined in Misty World) with liquid Latex and a Bar Stamp."
+        },
+        {
+            "type": "image",
+            "images": ["books:templates/mist_rubber.png"],
+            "border": true,
+            "title": "Using a Latex Pot",
+            "text": "Place a Latex Pot on a Rubber Tree and wait for it to fill (pictured) to collect Latex."
+        }
+    ]
+}

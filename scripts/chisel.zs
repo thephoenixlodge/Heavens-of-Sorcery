@@ -145,6 +145,9 @@ val candleMap = {
 	"black" : [<bewitchment:black_candle>, <quark:candle:15>, <thaumcraft:candle_black>]
 } as IItemStack[][string];
 val oreCandle = <ore:candle>;
+//rubber block
+val blockRubberMW = <mist:rubber_block>;
+val blockRubberBL = <thebetweenlands:rubber_block>;
 
 //Add group for Sapphire Blocks
 //Carving.addGroup("blockSapphire");
@@ -332,3 +335,9 @@ for colour, candles in candleMap {
 		oreCandle.add(candle);
 	}
 }
+
+//rubber blocks
+recipes.remove(blockRubberMW);
+Carving.addGroup("rubber-block");
+Carving.addVariation("rubber-block", blockRubberBL);
+Carving.addVariation("rubber-block", blockRubberMW);

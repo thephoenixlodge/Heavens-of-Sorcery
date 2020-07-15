@@ -1,7 +1,7 @@
 ////Imports
 import mods.jei.JEI;
 import mods.roots.Mortar;
-import loottweaker.vanilla.loot.LootTables;
+import loottweaker.LootTweaker;
 import loottweaker.vanilla.loot.LootTable;
 import loottweaker.vanilla.loot.LootPool;
 import loottweaker.vanilla.loot.Functions;
@@ -109,8 +109,8 @@ val tallowBW = <bewitchment:tallow>;
 val tallowMist = <mist:tallow>;
 val blockTallow = <mist:tallow_block>;
 val tallowRustic = <rustic:tallow>;
-val tableTallow = LootTables.getTable("mist:entities/tallow");
-val tableTallowMaxi = LootTables.getTable("mist:entities/tallow_maxi");
+val tableTallow = LootTweaker.getTable("mist:entities/tallow");
+val tableTallowMaxi = LootTweaker.getTable("mist:entities/tallow_maxi");
 val poolsTallowNames = [
 	"tallow_1",
 	"tallow_2",

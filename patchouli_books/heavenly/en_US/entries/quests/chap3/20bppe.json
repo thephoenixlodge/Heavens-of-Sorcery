@@ -1,0 +1,39 @@
+{
+    "name": "PPE Powerup",
+    "icon": "mist:rubber_chestplate",
+    "category": "quests/chap3",
+    "sortnum": 21,
+    "advancement": "heavens:bookchap3/20alatex",
+    "turnin": "heavens:bookchap3/20bppe",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "PPE Powerup",
+            "trigger": "heavens:bookchap3/20bppe",
+            "text": "$(item)Rubber$() is the key to an all new, whole body protective suit. This prevents you from getting affected by $(thing)Chemical Pollution$(), and saves you from the pain of rain acidified by the $(thing)Mist$(). Furthermore, this suit is slim fitting enough to be applied as a lining on any other armour, simply by crafting it with the matching piece of $(item)Protective Suit$()!"
+        },
+        {
+            "type": "checklist_end",
+            "item1": "mist:rubber_helmet",
+            "item2": "mist:rubber_chestplate",
+            "item3": "mist:rubber_leggings",
+            "item4": "mist:rubber_boots",
+            "reward1": "mist:niobium_ingot#30"
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:ct_shaped-1553199086",
+            "recipe2": "crafttweaker:ct_shaped-1118242295"
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:ct_shaped856662922",
+            "recipe2": "crafttweaker:ct_shaped-1566100314"
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:ct_shaped-220570815",
+            "text": "You can also make a more protective $(item)Respirator$()."
+        }
+    ]
+}

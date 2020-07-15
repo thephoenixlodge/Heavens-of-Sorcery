@@ -10,9 +10,17 @@ import crafttweaker.entity.IEntityDefinition;
 ////Variables
 
 events.onEntityLivingAttacked(function(event as EntityLivingAttackedEvent){
-	if(!isNull(event.entity.definition) && event.entity.definition.id == <entity:meecreeps:meecreeps>.id){
-		if(event.damageSource.damageType == <damageSource:mist_in_fog>.damageType){
-			event.cancel();
+	val entities = [
+		<entity:meecreeps:meecreeps>,
+		<entity:thaumcraft:wisp>,
+		<entity:bewitchment:ghost>
+	] as IEntityDefinition[];
+	for entityCheck in entities {
+		if(!isNull(event.entity.definition) && event.entity.definition.id == entityCheck.id){
+			print(event.damageSource.damageType);
+			if(event.damageSource.damageType == "mist.in_fog"){
+				event.cancel();
+			}
 		}
 	}
 });

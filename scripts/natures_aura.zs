@@ -79,7 +79,7 @@ val crystalGlass = <blue_skies:crystal_glass>;
 val ghastTear = <minecraft:ghast_tear>;
 val shieldZanite = <lost_aether:zanite_shield>;
 val soulBead = <quark:soul_bead>;
-val gravesDust = <tombstone:crafting_ingredient:3>;
+val darkCrystal = <ebwizardry:magic_crystal:4>;
 val cloudBerry = <roots:cloud_berry>;
 val spiritCalling = <naturesaura:calling_spirit>;
 val spiritBirthing = <naturesaura:birth_spirit>;
@@ -156,7 +156,7 @@ TreeRitual.removeRecipe(tokenAnger);
 TreeRitual.addRecipe("token_anger", saplingMaple, tokenAnger * 2, 200, [bottledGhosts, goldLeaf, swordHorizonite, enderEye, zealLighter, gemPyrope]);
 //Fear
 TreeRitual.removeRecipe(tokenFear);
-TreeRitual.addRecipe("token_fear", saplingDusk, tokenFear * 2, 200, [bottledGhosts, goldLeaf, shieldZanite, soulBead, gravesDust, gemDiopside]);
+TreeRitual.addRecipe("token_fear", saplingDusk, tokenFear * 2, 200, [bottledGhosts, goldLeaf, shieldZanite, soulBead, darkCrystal, gemDiopside]);
 //Sorrow
 TreeRitual.removeRecipe(tokenSorrow);
 TreeRitual.addRecipe("token_sorrow", saplingStarlit, tokenSorrow * 2, 200, [bottledSunlight, goldLeaf, rawCarabeef, crystalGlass, ghastTear, shardMoonstone]);
@@ -212,6 +212,7 @@ AnimalSpawner.addRecipe("dark_druid", "thebetweenlands:dark_druid", 120000, 40, 
 //Birthing altar
 recipes.remove(birthingAltar);
 Altar.addTraitAltarRecipe("internal/altar/birthing_altar", birthingAltar, 5000, 800, [null, hayBale, null, tokenEuphoria, heartBeet, tokenEuphoria, null, bed, null, ingotSkies, ingotSkies, ingotSkies, ingotSkies, amethyst, amethyst, sapphire, sapphire, sapphire, sapphire, amethyst, amethyst, null, null, null, null], "astralsorcery.constellation.bootes");
+heartBeet.addTooltip(format.gold("Rare drop from harvesting Beetroot"));
 
 //ancient spaling
 TreeRitual.removeRecipe(saplingAncient);

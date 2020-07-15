@@ -5,7 +5,7 @@ import mods.bloodmagic.AlchemyTable;
 ////variables
 val snare = <bloodmagic:soul_snare>;
 val slate = <rustic:slate>;
-val gravesDust = <tombstone:crafting_ingredient:3>;
+val spectralDust = <bewitchment:spectral_dust>;
 val devilDust = <wizardry:devil_dust>;
 val cauldron = <minecraft:cauldron>;
 val stableFabric = <dimdoors:stable_fabric>;
@@ -48,7 +48,8 @@ val nuggetBronze = <embers:nugget_bronze>;
 val plateBronze = <embers:plate_bronze>;
 val incenseAltar = <bloodmagic:incense_altar>;
 val imperfectRitualStone = <bloodmagic:ritual_controller:1>;
-val darkMarble = <tombstone:dark_marble>;
+val scornedBricks = <bewitchment:scorned_bricks>;
+val marbleSooty = <astralsorcery:blockblackmarble>;
 val ritualTable = <arcaneworld:ritual_table>;
 val obsidian = <minecraft:obsidian>;
 val alchemyTable = <bloodmagic:alchemy_table>;
@@ -75,7 +76,7 @@ recipes.remove(snare);
 
 //hellfire forge
 recipes.remove(hellfireForge);
-recipes.addShaped(hellfireForge, [[gravesDust, null, gravesDust], [slate, devilDust, slate], [slate, stableFabric, slate]]);
+recipes.addShaped(hellfireForge, [[spectralDust, null, spectralDust], [slate, devilDust, slate], [slate, stableFabric, slate]]);
 
 //blood altar
 recipes.remove(bloodAltar);
@@ -83,7 +84,7 @@ recipes.addShaped(bloodAltar, [[devilDust, null, devilDust], [slate, cauldron, s
 
 //petty tartaric gem
 TartaricForge.removeRecipe([redstone, ingotGold, <minecraft:glass>, <minecraft:dye:4>]);
-TartaricForge.addRecipe(gemTartaricPetty, [gemZanite, worldThread, redstone, gravesDust], 1, 1);
+TartaricForge.addRecipe(gemTartaricPetty, [gemZanite, worldThread, redstone, spectralDust], 1, 1);
 //lesser
 TartaricForge.removeRecipe([gemTartaricPetty, gemDiamond, blockRedstone, blockLapis]);
 TartaricForge.addRecipe(gemTartaricLesser, [gemTartaricPetty, gemZanite, slateT2, blockLapis], 60, 20);
@@ -113,17 +114,17 @@ recipes.addShaped(incenseAltar, [[nuggetBronze, null, nuggetBronze], [plateBronz
 
 //imperfect ritual stone
 recipes.remove(imperfectRitualStone);
-recipes.addShaped(imperfectRitualStone, [[darkMarble, obsidian, darkMarble], [obsidian, bloodOrbs1, obsidian], [darkMarble, ritualTable, darkMarble]]);
+recipes.addShaped(imperfectRitualStone, [[scornedBricks, obsidian, scornedBricks], [obsidian, bloodOrbs1, obsidian], [scornedBricks, ritualTable, scornedBricks]]);
 
 //alchemy table
 recipes.remove(alchemyTable);
-recipes.addShaped(alchemyTable, [[vial, carpetRed, vial], [darkMarble, alchemyCatalyst, darkMarble], [darkMarble, bloodOrbs1, darkMarble]]);
+recipes.addShaped(alchemyTable, [[vial, carpetRed, vial], [scornedBricks, alchemyCatalyst, scornedBricks], [scornedBricks, bloodOrbs1, scornedBricks]]);
 
 //arcane ash
 TartaricForge.removeRecipe([redstone, bonemeal, gunpowder, charcoal]);
-TartaricForge.addRecipe(arcaneAsh, [redstone, gravesDust, gunpowder, charcoal], 240, 50);
-TartaricForge.addRecipe(arcaneAsh, [redstone, gravesDust, woodAsh], 0, 0);
-TartaricForge.addRecipe(arcaneAsh, [redstone, gravesDust, ash], 0, 0);
+TartaricForge.addRecipe(arcaneAsh, [redstone, spectralDust, gunpowder, charcoal], 240, 50);
+TartaricForge.addRecipe(arcaneAsh, [redstone, spectralDust, woodAsh], 0, 0);
+TartaricForge.addRecipe(arcaneAsh, [redstone, spectralDust, ash], 0, 0);
 
 //plant oil
 AlchemyTable.removeRecipe([<minecraft:potato>, <minecraft:potato>, bonemeal]);
@@ -134,5 +135,10 @@ AlchemyTable.addRecipe(plantOil, [sesameOil, bonemeal], 100, 100, 0);
 AlchemyTable.addRecipe(plantOil, [edibleOil, bonemeal], 100, 100, 0);
 
 //graves dust bonus recipes
-AlchemyTable.addRecipe(gravesDust * 4, [bottledGhosts, dustFairy, bone, rottenFlesh], 100, 100, 2);
-AlchemyTable.addRecipe(gravesDust * 20, [bottledGhosts, dustSpectral, ebbOfDeath], 150, 200, 2);
+AlchemyTable.addRecipe(spectralDust * 4, [bottledGhosts, dustFairy, bone, rottenFlesh], 100, 100, 2);
+AlchemyTable.addRecipe(spectralDust * 20, [bottledGhosts, dustSpectral, ebbOfDeath], 150, 200, 2);
+
+//scorned bricks
+recipes.remove(scornedBricks);
+TartaricForge.addRecipe(scornedBricks * 4, [marbleSooty, marbleSooty, spectralDust, null], 65, 1);
+recipes.addShapeless(scornedBricks, [marbleSooty, marbleSooty, spectralDust]);

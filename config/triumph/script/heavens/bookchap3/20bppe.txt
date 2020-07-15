@@ -1,0 +1,22 @@
+setIcon(<mist:rubber_chestplate>)
+
+setTitle("PPE Powerup")
+
+setDescription("Make a full Protective Suit from Rubber")
+
+addParent("heavens:bookchap3/20alatex")
+
+setRequiresParents()
+
+setPos(272,-93)
+
+criteria1 = addCriteria("hasItems1", "minecraft:inventory_changed")
+criteria1.addItem(<mist:rubber_helmet, count:1~>)
+criteria2 = addCriteria("hasItems2", "minecraft:inventory_changed")
+criteria2.addItem(<mist:rubber_chestplate, count:1~>)
+criteria3 = addCriteria("hasItems3", "minecraft:inventory_changed")
+criteria3.addItem(<mist:rubber_leggings, count:1~>)
+criteria4 = addCriteria("hasItems4", "minecraft:inventory_changed")
+criteria4.addItem(<mist:rubber_boots, count:1~>)
+
+addRewardItem(<mist:niobium_ingot, count:30>)

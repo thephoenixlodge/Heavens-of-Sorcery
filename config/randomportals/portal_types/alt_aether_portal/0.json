@@ -78,6 +78,7 @@
 		"coordinateMultiplier": 1.0,
 		"teleportToPortal": true,
 		"oneWay": false,
+		"ensureReturnToSameDimension": false,
 		"generatePortalIfNotFound": true,
 		"portalGenerationBehavior": "CLONE",
 		"generatedFrameType": "VERTICAL",

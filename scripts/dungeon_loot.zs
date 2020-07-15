@@ -1,5 +1,5 @@
 //Imports
-import loottweaker.vanilla.loot.LootTables;
+import loottweaker.LootTweaker;
 import loottweaker.vanilla.loot.LootTable;
 import loottweaker.vanilla.loot.LootPool;
 import loottweaker.vanilla.loot.Functions;
@@ -7,23 +7,23 @@ import crafttweaker.item.IItemStack;
 
 
 //Loot Tables and Pools
-val tableDungeonRaid = LootTables.getTable("arcaneworld:raid_1");
+val tableDungeonRaid = LootTweaker.getTable("arcaneworld:raid_1");
 val poolRaid = tableDungeonRaid.getPool("raid_1");
 
 //EBWiz mob loot inject
-val tableEBWizInjectMob = LootTables.getTable("ebwizardry:entities/mob_additions");
+val tableEBWizInjectMob = LootTweaker.getTable("ebwizardry:entities/mob_additions");
 val poolEBWizInjectMob = tableEBWizInjectMob.getPool("wizardry");
 
 //dimdoors
-val tableDimDoors = LootTables.getTable("dimdoors:dungeon_chest");
+val tableDimDoors = LootTweaker.getTable("dimdoors:dungeon_chest");
 val poolDimDoorsNew = tableDimDoors.addPool("bm_book", 1, 1, 0, 0);
 
 //simple_dungeon
-val tableSimpleDungeon = LootTables.getTable("minecraft:chests/simple_dungeon");
+val tableSimpleDungeon = LootTweaker.getTable("minecraft:chests/simple_dungeon");
 val poolsToRemove = [
-	"custom_avatar_loot_pools",
-	"custom_avatar_loot_pools_2",
-	"custom_avatar_loot_pools_3",
+	//"custom_avatar_loot_pools",
+	//"custom_avatar_loot_pools_2",
+	//"custom_avatar_loot_pools_3",
 	"MysticalWorld",
 	"bewitchment_materials_pool",
 	"botania_inject_pool",
@@ -36,47 +36,47 @@ val poolExtra = tableSimpleDungeon.addPool("hos_early_loot", 1, 3, 1, 1);
 val poolRare = tableSimpleDungeon.addPool("hos_early_rare_loot", 0, 2, 0, 0);
 
 //foxhound drops
-val tableFoxhound = LootTables.getTable("quark:entities/foxhound");
+val tableFoxhound = LootTweaker.getTable("quark:entities/foxhound");
 val poolDevilDust = tableFoxhound.addPool("devil_dust", 1, 1, 0, 0);
 
-val tableFrogQ = LootTables.getTable("quark:entities/frog");
-val tableFrogMW = LootTables.getTable("mysticalworld:entity/frog");
+val tableFrogQ = LootTweaker.getTable("quark:entities/frog");
+val tableFrogMW = LootTweaker.getTable("mysticalworld:entity/frog");
 val poolFrogLeg = tableFrogMW.addPool("leg", 1, 1, 0, 1);
 
 //nether fortress
-val tableNetherFortress = LootTables.getTable("minecraft:chests/nether_bridge");
+val tableNetherFortress = LootTweaker.getTable("minecraft:chests/nether_bridge");
 val netherPoolsToRemove = [
-	"custom_avatar_loot_pools",
-	"custom_avatar_loot_pools_2",
-	"custom_avatar_loot_pools_3",
-	"custom_avatar_loot_pools_4",
+	//"custom_avatar_loot_pools",
+	//"custom_avatar_loot_pools_2",
+	//"custom_avatar_loot_pools_3",
+	//"custom_avatar_loot_pools_4",
 	"bewitchment_nether_materials_pool",
 	"bewitchment_materials_pool",
 	"magicalsculpture_nether_bridge"
-//	"chest_treasure"
+	//"chest_treasure"
 ] as string[];
 val poolNetherExtra = tableNetherFortress.addPool("hos_nether_loot", 1, 3, 1, 1);
 val poolNetherRare = tableNetherFortress.addPool("hos_nether_rare_loot", 0, 2, 0, 0);
 
-val tableAetherBronzeChest = LootTables.getTable("aether_legacy:chests/bronze_dungeon_chest");
-val tableAetherBronzeReward = LootTables.getTable("aether_legacy:chests/bronze_dungeon_reward");
-val tableAetherSilverChest = LootTables.getTable("aether_legacy:chests/silver_dungeon_chest");
-val tableAetherSilverReward = LootTables.getTable("aether_legacy:chests/silver_dungeon_reward");
-val tableAetherGoldReward = LootTables.getTable("aether_legacy:chests/gold_dungeon_reward");
+val tableAetherBronzeChest = LootTweaker.getTable("aether_legacy:chests/bronze_dungeon_chest");
+val tableAetherBronzeReward = LootTweaker.getTable("aether_legacy:chests/bronze_dungeon_reward");
+val tableAetherSilverChest = LootTweaker.getTable("aether_legacy:chests/silver_dungeon_chest");
+val tableAetherSilverReward = LootTweaker.getTable("aether_legacy:chests/silver_dungeon_reward");
+val tableAetherGoldReward = LootTweaker.getTable("aether_legacy:chests/gold_dungeon_reward");
 val poolAetherBronzeChest = tableAetherBronzeChest.addPool("hos_extra", 1, 3, 1, 1);
 val poolAetherBronzeReward = tableAetherBronzeReward.addPool("hos_extra", 1, 3, 1, 1);
 val poolAetherSilverChest = tableAetherSilverChest.addPool("hos_extra", 1, 3, 1, 1);
 val poolAetherSilverReward = tableAetherSilverReward.addPool("hos_extra", 1, 2, 0, 0);
 val poolAetherGoldReward = tableAetherGoldReward.addPool("hos_extra", 1, 2, 0, 0);
 
-val tableBSLibrary = LootTables.getTable("blue_skies:chests/blinding_dungeon/library_chest");
-val tableBSStudy = LootTables.getTable("blue_skies:chests/blinding_dungeon/study_chest");
-val tableBSPrisonBright = LootTables.getTable("blue_skies:chests/blinding_dungeon/prison_chest_everbright");
-val tableBSPrisonDawn = LootTables.getTable("blue_skies:chests/blinding_dungeon/prison_chest_everdawn");
-val tableBSAlchemist = LootTables.getTable("blue_skies:chests/blinding_dungeon/bosses/alchemist_loot");
-val tableBSSummoner = LootTables.getTable("blue_skies:chests/blinding_dungeon/bosses/summoner_loot");
-val tableBSVillageBright = LootTables.getTable("blue_skies:chests/village/everbright_blacksmith");
-val tableBSVillageDawn = LootTables.getTable("blue_skies:chests/village/everdawn_blacksmith");
+val tableBSLibrary = LootTweaker.getTable("blue_skies:chests/blinding_dungeon/library_chest");
+val tableBSStudy = LootTweaker.getTable("blue_skies:chests/blinding_dungeon/study_chest");
+val tableBSPrisonBright = LootTweaker.getTable("blue_skies:chests/blinding_dungeon/prison_chest_everbright");
+val tableBSPrisonDawn = LootTweaker.getTable("blue_skies:chests/blinding_dungeon/prison_chest_everdawn");
+val tableBSAlchemist = LootTweaker.getTable("blue_skies:chests/blinding_dungeon/bosses/alchemist_loot");
+val tableBSSummoner = LootTweaker.getTable("blue_skies:chests/blinding_dungeon/bosses/summoner_loot");
+val tableBSVillageBright = LootTweaker.getTable("blue_skies:chests/village/everbright_blacksmith");
+val tableBSVillageDawn = LootTweaker.getTable("blue_skies:chests/village/everdawn_blacksmith");
 
 val poolBSLibrary = tableBSLibrary.addPool("hos_extra", 1, 2, 1, 1);
 val poolBSLibaryWizInject = tableBSLibrary.addPool("wiz_inject", 1, 1, 0, 0);
@@ -224,7 +224,7 @@ val sparkUpgrade = <botania:sparkupgrade>;
 val caveIlluminator = <astralsorcery:blockworldilluminator>;
 val book = <minecraft:book>;
 val lapis = <minecraft:dye:4>;
-val bendingScroll = <avatarmod:scroll>;
+//val bendingScroll = <avatarmod:scroll>;
 
 //Add angel hearts to the pool
 poolRaid.addItemEntry(angelHeart, 6);
@@ -341,7 +341,7 @@ poolBSVillageDawn.addItemEntryHelper(lapis, 16, 1, [Functions.setCount(1, 20)], 
 poolBSStudy.addItemEntryHelper(lapis, 16, 1, [Functions.setCount(1, 20)], []);
 poolBSPrisonBright.addItemEntryHelper(lapis, 16, 1, [Functions.setCount(1, 20)], []);
 poolBSPrisonDawn.addItemEntryHelper(lapis, 16, 1, [Functions.setCount(1, 20)], []);
-poolBSLibrary.addItemEntryHelper(bendingScroll, 8, 1, [Functions.setMetadata(1, 4)], []);
+//poolBSLibrary.addItemEntryHelper(bendingScroll, 8, 1, [Functions.setMetadata(1, 4)], []);
 for wings, weight in wingsMap {
 	poolBSAlchemist.addItemEntry(wings, weight);
 	poolBSSummoner.addItemEntry(wings, weight);
@@ -355,5 +355,5 @@ poolBSSummoner.addItemEntryHelper(overgrowthSeed, 2, 1, [Functions.setCount(1, 2
 poolBSLibaryWizInject.addLootTableEntry("ebwizardry:chests/shrine", 10);
 poolBSAlchemist.addLootTableEntry("ebwizardry:chests/shrine", 10);
 poolBSSummoner.addLootTableEntry("ebwizardry:chests/shrine", 10);
-poolBSAlchemist.addItemEntryHelper(bendingScroll, 2, 1, [Functions.setMetadata(5, 6), Functions.setCount(0, 1)], []);
-poolBSSummoner.addItemEntryHelper(bendingScroll, 2, 1, [Functions.setMetadata(7, 8), Functions.setCount(0, 1)], []);
+//poolBSAlchemist.addItemEntryHelper(bendingScroll, 2, 1, [Functions.setMetadata(5, 6), Functions.setCount(0, 1)], []);
+//poolBSSummoner.addItemEntryHelper(bendingScroll, 2, 1, [Functions.setMetadata(7, 8), Functions.setCount(0, 1)], []);

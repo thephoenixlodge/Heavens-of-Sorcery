@@ -1,0 +1,58 @@
+////Imports
+import mods.bloodmagic.TartaricForge;
+import mods.bloodmagic.BloodAltar;
+import mods.chisel.Carving;
+import loottweaker.vanilla.loot.LootTables;
+import loottweaker.vanilla.loot.LootTable;
+import loottweaker.vanilla.loot.LootPool;
+import loottweaker.vanilla.loot.Functions;
+import loottweaker.vanilla.loot.Conditions;
+import crafttweaker.item.IItemStack;
+
+////Variables
+val marbleDark = <tombstone:dark_marble>;
+val marbleSooty = <astralsorcery:blockblackmarble>;
+val gravesDust = <tombstone:crafting_ingredient:3>;
+val graveSimple = <tombstone:decorative_grave_simple>;
+val decorativeGraves = [
+	graveSimple,
+	<tombstone:decorative_grave_normal>,
+	<tombstone:decorative_grave_cross>,
+	<tombstone:decorative_tombstone>
+] as IItemStack[];
+val head = <minecraft:skull:*>;
+val borealSeed = <botania:grassseeds:1>;
+val dirt = <minecraft:dirt>;
+/*val gravesDustEntities = {
+	"minecraft" : "zombie",
+	"minecraft" : "zombie_villager",
+	"minecraft" : "wither_skeleton",
+	"minecraft" : "skeleton",
+	"minecraft" : "husk",
+	"quark" : "wraith",
+	"thebetweenlands" : "banshee",
+	"thebetweenlands" : "wight",
+	"thebetweenlands" : "peat_mummy",
+	"blue_skies" : "armored_frost_spirit",
+	"blue_skies" : "frost_spirit",
+	"bewitchment" : "ghost"
+} as string[string];*/
+
+//dark marble
+recipes.remove(marbleDark);
+TartaricForge.addRecipe(marbleDark * 4, [marbleSooty, marbleSooty, gravesDust, null], 65, 1);
+recipes.addShapeless(marbleDark, [marbleSooty, marbleSooty, gravesDust]);
+
+Carving.addGroup("grave");
+for grave in decorativeGraves {
+	recipes.remove(grave);
+	Carving.addVariation("grave", grave);
+}
+recipes.addShaped(graveSimple, [[marbleDark, null, null], [marbleDark, borealSeed, null], [head, dirt, dirt]]);
+
+
+/*for mod, entity in gravesDustEntities {
+	var table = LootTables.getTable(mod ~ ":entities/" ~ entity);
+	var poolExtraDust = table.addPool("extra_graves_dust", 0, 1, 0 ,0);
+	poolExtraDust.addLootTableEntryHelper("tombstone:grave_dust", 1, 0, [Conditions.parse({"condition": "match_tool", "item" : "bloodmagic:sentient_sword"})], "graves_dust");
+}*/

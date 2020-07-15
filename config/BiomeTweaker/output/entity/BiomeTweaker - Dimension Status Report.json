@@ -271,11 +271,6 @@
     "Class": "hellfirepvp.astralsorcery.common.entities.EntityLiquidSpark"
   },
   {
-    "Name": "quark:leash_knot",
-    "Registry ID": "quark:leash_knot",
-    "Class": "vazkii.quark.decoration.entity.EntityLeashKnot2TheKnotting"
-  },
-  {
     "Name": "quark:stoneling",
     "Registry ID": "quark:stoneling",
     "Class": "vazkii.quark.world.entity.EntityStoneling"
@@ -309,6 +304,11 @@
     "Name": "quark:wraith",
     "Registry ID": "quark:wraith",
     "Class": "vazkii.quark.world.entity.EntityWraith"
+  },
+  {
+    "Name": "quark:leash_knot",
+    "Registry ID": "quark:leash_knot",
+    "Class": "vazkii.quark.decoration.entity.EntityLeashKnot2TheKnotting"
   },
   {
     "Name": "botania:pixie",
@@ -494,41 +494,6 @@
     "Name": "muse",
     "Registry ID": "soot:muse",
     "Class": "soot.entity.EntityMuse"
-  },
-  {
-    "Name": "spirit_blight",
-    "Registry ID": "wizardry:spirit_blight",
-    "Class": "com.teamwizardry.wizardry.common.entity.EntitySpiritBlight"
-  },
-  {
-    "Name": "spirit_wight",
-    "Registry ID": "wizardry:spirit_wight",
-    "Class": "com.teamwizardry.wizardry.common.entity.EntitySpiritWight"
-  },
-  {
-    "Name": "angel_zachriel",
-    "Registry ID": "wizardry:angel_zachriel",
-    "Class": "com.teamwizardry.wizardry.common.entity.angel.zachriel.EntityZachriel"
-  },
-  {
-    "Name": "fairy",
-    "Registry ID": "wizardry:fairy",
-    "Class": "com.teamwizardry.wizardry.common.entity.EntityFairy"
-  },
-  {
-    "Name": "jump_pad",
-    "Registry ID": "wizardry:jump_pad",
-    "Class": "com.teamwizardry.wizardry.common.entity.EntityJumpPad"
-  },
-  {
-    "Name": "unicorn",
-    "Registry ID": "wizardry:unicorn",
-    "Class": "com.teamwizardry.wizardry.common.entity.EntityUnicorn"
-  },
-  {
-    "Name": "summon_zombie",
-    "Registry ID": "wizardry:summon_zombie",
-    "Class": "com.teamwizardry.wizardry.common.entity.EntityBackupZombie"
   },
   {
     "Name": "thebetweenlands.dark_druid",
@@ -824,6 +789,76 @@
     "Name": "thebetweenlands.sludge_menace",
     "Registry ID": "thebetweenlands:sludge_menace",
     "Class": "thebetweenlands.common.entity.mobs.EntitySludgeMenace"
+  },
+  {
+    "Name": "thebetweenlands.draeton_dragonfly",
+    "Registry ID": "thebetweenlands:draeton_dragonfly",
+    "Class": "thebetweenlands.common.entity.draeton.EntityPullerDragonfly"
+  },
+  {
+    "Name": "thebetweenlands.draeton_firefly",
+    "Registry ID": "thebetweenlands:draeton_firefly",
+    "Class": "thebetweenlands.common.entity.draeton.EntityPullerFirefly"
+  },
+  {
+    "Name": "thebetweenlands.draeton_chiromaw_tamed",
+    "Registry ID": "thebetweenlands:draeton_chiromaw_tamed",
+    "Class": "thebetweenlands.common.entity.draeton.EntityPullerChiromaw"
+  },
+  {
+    "Name": "thebetweenlands.chiromaw_greebling_rider",
+    "Registry ID": "thebetweenlands:chiromaw_greebling_rider",
+    "Class": "thebetweenlands.common.entity.mobs.EntityChiromawGreeblingRider"
+  },
+  {
+    "Name": "thebetweenlands.worm_ground_spawner",
+    "Registry ID": "thebetweenlands:worm_ground_spawner",
+    "Class": "thebetweenlands.common.entity.EntityWormGroundSpawner"
+  },
+  {
+    "Name": "thebetweenlands.chiromaw_matriarch",
+    "Registry ID": "thebetweenlands:chiromaw_matriarch",
+    "Class": "thebetweenlands.common.entity.mobs.EntityChiromawMatriarch"
+  },
+  {
+    "Name": "thebetweenlands.chiromaw_hatchling",
+    "Registry ID": "thebetweenlands:chiromaw_hatchling",
+    "Class": "thebetweenlands.common.entity.mobs.EntityChiromawHatchling"
+  },
+  {
+    "Name": "thebetweenlands.chiromaw_tame",
+    "Registry ID": "thebetweenlands:chiromaw_tame",
+    "Class": "thebetweenlands.common.entity.mobs.EntityChiromawTame"
+  },
+  {
+    "Name": "spirit_blight",
+    "Registry ID": "wizardry:spirit_blight",
+    "Class": "com.teamwizardry.wizardry.common.entity.EntitySpiritBlight"
+  },
+  {
+    "Name": "spirit_wight",
+    "Registry ID": "wizardry:spirit_wight",
+    "Class": "com.teamwizardry.wizardry.common.entity.EntitySpiritWight"
+  },
+  {
+    "Name": "fairy",
+    "Registry ID": "wizardry:fairy",
+    "Class": "com.teamwizardry.wizardry.common.entity.EntityFairy"
+  },
+  {
+    "Name": "jump_pad",
+    "Registry ID": "wizardry:jump_pad",
+    "Class": "com.teamwizardry.wizardry.common.entity.EntityJumpPad"
+  },
+  {
+    "Name": "unicorn",
+    "Registry ID": "wizardry:unicorn",
+    "Class": "com.teamwizardry.wizardry.common.entity.EntityUnicorn"
+  },
+  {
+    "Name": "summon_zombie",
+    "Registry ID": "wizardry:summon_zombie",
+    "Class": "com.teamwizardry.wizardry.common.entity.EntityBackupZombie"
   },
   {
     "Name": "entity_fox",
@@ -1196,6 +1231,16 @@
     "Class": "com.bewitchment.common.entity.spirit.demon.EntityFeuerwurm"
   },
   {
+    "Name": "bewitchment.werewolf",
+    "Registry ID": "bewitchment:werewolf",
+    "Class": "com.bewitchment.common.entity.living.EntityWerewolf"
+  },
+  {
+    "Name": "bewitchment.cleaver",
+    "Registry ID": "bewitchment:cleaver",
+    "Class": "com.bewitchment.common.entity.spirit.demon.EntityCleaver"
+  },
+  {
     "Name": "bewitchment.demon",
     "Registry ID": "bewitchment:demon",
     "Class": "com.bewitchment.common.entity.spirit.demon.EntityDemon"
@@ -1211,9 +1256,19 @@
     "Class": "com.bewitchment.common.entity.spirit.demon.EntityImp"
   },
   {
+    "Name": "bewitchment.bafometyr",
+    "Registry ID": "bewitchment:bafometyr",
+    "Class": "com.bewitchment.common.entity.spirit.demon.EntityBafometyr"
+  },
+  {
     "Name": "bewitchment.shadow_person",
     "Registry ID": "bewitchment:shadow_person",
     "Class": "com.bewitchment.common.entity.spirit.demon.EntityShadowPerson"
+  },
+  {
+    "Name": "bewitchment.cambion",
+    "Registry ID": "bewitchment:cambion",
+    "Class": "com.bewitchment.common.entity.spirit.demon.EntityCambion"
   },
   {
     "Name": "bewitchment.druden",
@@ -1409,31 +1464,6 @@
     "Name": "aov.EntityDruidicWolf",
     "Registry ID": "aov:entitydruidicwolf",
     "Class": "tamaized.aov.common.entity.EntityDruidicWolf"
-  },
-  {
-    "Name": "Firebender",
-    "Registry ID": "avatarmod:firebender",
-    "Class": "com.crowsofwar.avatar.common.entity.mob.EntityFirebender"
-  },
-  {
-    "Name": "Airbender",
-    "Registry ID": "avatarmod:airbender",
-    "Class": "com.crowsofwar.avatar.common.entity.mob.EntityAirbender"
-  },
-  {
-    "Name": "SkyBison",
-    "Registry ID": "avatarmod:skybison",
-    "Class": "com.crowsofwar.avatar.common.entity.mob.EntitySkyBison"
-  },
-  {
-    "Name": "OtterPenguin",
-    "Registry ID": "avatarmod:otterpenguin",
-    "Class": "com.crowsofwar.avatar.common.entity.mob.EntityOtterPenguin"
-  },
-  {
-    "Name": "OstrichHorse",
-    "Registry ID": "avatarmod:ostrichhorse",
-    "Class": "com.crowsofwar.avatar.common.entity.mob.EntityOstrichHorse"
   },
   {
     "Name": "azulfo",
@@ -1654,5 +1684,15 @@
     "Name": "king_aerwhale",
     "Registry ID": "lost_aether:king_aerwhale",
     "Class": "com.legacy.lostaether.entities.EntityAerwhaleKing"
+  },
+  {
+    "Name": "falling_rock",
+    "Registry ID": "lost_aether:falling_rock",
+    "Class": "com.legacy.lostaether.entities.EntityFallingRock"
+  },
+  {
+    "Name": "zephyroo",
+    "Registry ID": "lost_aether:zephyroo",
+    "Class": "com.legacy.lostaether.entities.EntityZephyroo"
   }
 ]

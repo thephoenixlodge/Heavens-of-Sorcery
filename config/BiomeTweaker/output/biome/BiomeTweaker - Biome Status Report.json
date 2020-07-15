@@ -210,12 +210,6 @@
         "Weight": 20,
         "Min Group Count": 1,
         "Max Group Count": 4
-      },
-      {
-        "Entity Class": "com.crowsofwar.avatar.common.entity.mob.EntityOstrichHorse",
-        "Weight": 5,
-        "Min Group Count": 1,
-        "Max Group Count": 3
       }
     ],
     "Spawnable Monsters": [
@@ -355,12 +349,6 @@
         "Weight": 4,
         "Min Group Count": 2,
         "Max Group Count": 3
-      },
-      {
-        "Entity Class": "com.crowsofwar.avatar.common.entity.mob.EntityOstrichHorse",
-        "Weight": 5,
-        "Min Group Count": 1,
-        "Max Group Count": 3
       }
     ],
     "Spawnable Monsters": [
@@ -477,8 +465,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "MOUNTAIN",
-      "HILLS"
+      "HILLS",
+      "MOUNTAIN"
     ],
     "BiomeManager Entries": {
       "WARM Weights": [
@@ -530,12 +518,6 @@
         "Weight": 20,
         "Min Group Count": 1,
         "Max Group Count": 4
-      },
-      {
-        "Entity Class": "com.crowsofwar.avatar.common.entity.mob.EntitySkyBison",
-        "Weight": 5,
-        "Min Group Count": 1,
-        "Max Group Count": 3
       }
     ],
     "Spawnable Monsters": [
@@ -724,12 +706,6 @@
         "Max Group Count": 3
       },
       {
-        "Entity Class": "com.bewitchment.common.entity.living.EntityLizard",
-        "Weight": 20,
-        "Min Group Count": 1,
-        "Max Group Count": 4
-      },
-      {
         "Entity Class": "com.bewitchment.common.entity.living.EntityOwl",
         "Weight": 20,
         "Min Group Count": 1,
@@ -822,6 +798,12 @@
         "Max Group Count": 8
       },
       {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityWerewolf",
+        "Weight": 1,
+        "Min Group Count": 1,
+        "Max Group Count": 4
+      },
+      {
         "Entity Class": "com.bewitchment.common.entity.spirit.demon.EntityDruden",
         "Weight": 1,
         "Min Group Count": 0,
@@ -842,6 +824,12 @@
         "Weight": 10,
         "Min Group Count": 8,
         "Max Group Count": 8
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityLizard",
+        "Weight": 20,
+        "Min Group Count": 1,
+        "Max Group Count": 4
       }
     ],
     "Spawn Biome": true,
@@ -868,9 +856,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "COLD",
       "FOREST",
-      "CONIFEROUS"
+      "CONIFEROUS",
+      "COLD"
     ],
     "BiomeManager Entries": {
       "COOL Weights": [
@@ -945,12 +933,6 @@
         "Max Group Count": 3
       },
       {
-        "Entity Class": "com.bewitchment.common.entity.living.EntityLizard",
-        "Weight": 20,
-        "Min Group Count": 1,
-        "Max Group Count": 4
-      },
-      {
         "Entity Class": "com.bewitchment.common.entity.living.EntityOwl",
         "Weight": 20,
         "Min Group Count": 1,
@@ -1043,6 +1025,12 @@
         "Max Group Count": 8
       },
       {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityWerewolf",
+        "Weight": 1,
+        "Min Group Count": 1,
+        "Max Group Count": 4
+      },
+      {
         "Entity Class": "com.bewitchment.common.entity.spirit.demon.EntityDruden",
         "Weight": 1,
         "Min Group Count": 0,
@@ -1063,6 +1051,12 @@
         "Weight": 10,
         "Min Group Count": 8,
         "Max Group Count": 8
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityLizard",
+        "Weight": 20,
+        "Min Group Count": 1,
+        "Max Group Count": 4
       }
     ],
     "Spawn Biome": true,
@@ -1394,8 +1388,8 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "DRY",
-      "HOT",
-      "NETHER"
+      "NETHER",
+      "HOT"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -1441,6 +1435,18 @@
         "Weight": 6,
         "Min Group Count": 1,
         "Max Group Count": 4
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.spirit.demon.EntityCleaver",
+        "Weight": 1,
+        "Min Group Count": 0,
+        "Max Group Count": 1
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.spirit.demon.EntityBafometyr",
+        "Weight": 1,
+        "Min Group Count": 0,
+        "Max Group Count": 1
       },
       {
         "Entity Class": "net.minecraft.entity.monster.EntityBlaze",
@@ -1553,9 +1559,9 @@
     "Enable Snow": true,
     "Dictionary Types": [
       "OCEAN",
+      "WATER",
       "SNOWY",
-      "COLD",
-      "WATER"
+      "COLD"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -1650,6 +1656,12 @@
         "Weight": 0,
         "Min Group Count": 1,
         "Max Group Count": 1
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityWerewolf",
+        "Weight": 1,
+        "Min Group Count": 1,
+        "Max Group Count": 4
       }
     ],
     "Spawnable Water Creatures": [
@@ -1693,9 +1705,9 @@
     "Enable Snow": true,
     "Dictionary Types": [
       "RIVER",
+      "WATER",
       "SNOWY",
-      "COLD",
-      "WATER"
+      "COLD"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -1796,6 +1808,12 @@
         "Weight": 10,
         "Min Group Count": 1,
         "Max Group Count": 2
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityWerewolf",
+        "Weight": 1,
+        "Min Group Count": 1,
+        "Max Group Count": 4
       }
     ],
     "Spawnable Water Creatures": [
@@ -1838,8 +1856,8 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
-      "WASTELAND",
       "SNOWY",
+      "WASTELAND",
       "COLD"
     ],
     "BiomeManager Entries": {
@@ -1883,12 +1901,6 @@
         "Weight": 20,
         "Min Group Count": 1,
         "Max Group Count": 4
-      },
-      {
-        "Entity Class": "com.crowsofwar.avatar.common.entity.mob.EntityOtterPenguin",
-        "Weight": 10,
-        "Min Group Count": 3,
-        "Max Group Count": 6
       }
     ],
     "Spawnable Monsters": [
@@ -1981,6 +1993,12 @@
         "Weight": 6,
         "Min Group Count": 1,
         "Max Group Count": 8
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityWerewolf",
+        "Weight": 1,
+        "Min Group Count": 1,
+        "Max Group Count": 4
       }
     ],
     "Spawnable Water Creatures": [
@@ -2024,8 +2042,8 @@
     "Enable Snow": true,
     "Dictionary Types": [
       "SNOWY",
-      "COLD",
-      "MOUNTAIN"
+      "MOUNTAIN",
+      "COLD"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -2058,18 +2076,6 @@
         "Weight": 9,
         "Min Group Count": 1,
         "Max Group Count": 3
-      },
-      {
-        "Entity Class": "com.crowsofwar.avatar.common.entity.mob.EntitySkyBison",
-        "Weight": 5,
-        "Min Group Count": 1,
-        "Max Group Count": 3
-      },
-      {
-        "Entity Class": "com.crowsofwar.avatar.common.entity.mob.EntityOtterPenguin",
-        "Weight": 10,
-        "Min Group Count": 3,
-        "Max Group Count": 6
       }
     ],
     "Spawnable Monsters": [
@@ -2144,6 +2150,12 @@
         "Weight": 10,
         "Min Group Count": 1,
         "Max Group Count": 2
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityWerewolf",
+        "Weight": 1,
+        "Min Group Count": 1,
+        "Max Group Count": 4
       }
     ],
     "Spawnable Water Creatures": [
@@ -2232,9 +2244,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "BEACH",
       "RARE",
-      "MUSHROOM"
+      "MUSHROOM",
+      "BEACH"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -2423,9 +2435,9 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "DRY",
+      "HILLS",
       "HOT",
-      "SANDY",
-      "HILLS"
+      "SANDY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -2440,12 +2452,6 @@
         "Weight": 20,
         "Min Group Count": 1,
         "Max Group Count": 4
-      },
-      {
-        "Entity Class": "com.crowsofwar.avatar.common.entity.mob.EntityOstrichHorse",
-        "Weight": 5,
-        "Min Group Count": 1,
-        "Max Group Count": 3
       }
     ],
     "Spawnable Monsters": [
@@ -2562,8 +2568,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "FOREST",
-      "HILLS"
+      "HILLS",
+      "FOREST"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -2626,12 +2632,6 @@
         "Weight": 9,
         "Min Group Count": 1,
         "Max Group Count": 3
-      },
-      {
-        "Entity Class": "com.bewitchment.common.entity.living.EntityLizard",
-        "Weight": 20,
-        "Min Group Count": 1,
-        "Max Group Count": 4
       },
       {
         "Entity Class": "com.bewitchment.common.entity.living.EntityOwl",
@@ -2726,6 +2726,12 @@
         "Max Group Count": 8
       },
       {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityWerewolf",
+        "Weight": 1,
+        "Min Group Count": 1,
+        "Max Group Count": 4
+      },
+      {
         "Entity Class": "com.bewitchment.common.entity.spirit.demon.EntityDruden",
         "Weight": 1,
         "Min Group Count": 0,
@@ -2746,6 +2752,12 @@
         "Weight": 10,
         "Min Group Count": 8,
         "Max Group Count": 8
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityLizard",
+        "Weight": 20,
+        "Min Group Count": 1,
+        "Max Group Count": 4
       }
     ],
     "Spawn Biome": true,
@@ -2772,10 +2784,10 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "COLD",
+      "HILLS",
       "FOREST",
       "CONIFEROUS",
-      "HILLS"
+      "COLD"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -2846,12 +2858,6 @@
         "Max Group Count": 3
       },
       {
-        "Entity Class": "com.bewitchment.common.entity.living.EntityLizard",
-        "Weight": 20,
-        "Min Group Count": 1,
-        "Max Group Count": 4
-      },
-      {
         "Entity Class": "com.bewitchment.common.entity.living.EntityOwl",
         "Weight": 20,
         "Min Group Count": 1,
@@ -2862,12 +2868,6 @@
         "Weight": 20,
         "Min Group Count": 1,
         "Max Group Count": 4
-      },
-      {
-        "Entity Class": "com.crowsofwar.avatar.common.entity.mob.EntitySkyBison",
-        "Weight": 5,
-        "Min Group Count": 1,
-        "Max Group Count": 3
       }
     ],
     "Spawnable Monsters": [
@@ -2950,6 +2950,12 @@
         "Max Group Count": 8
       },
       {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityWerewolf",
+        "Weight": 1,
+        "Min Group Count": 1,
+        "Max Group Count": 4
+      },
+      {
         "Entity Class": "com.bewitchment.common.entity.spirit.demon.EntityDruden",
         "Weight": 1,
         "Min Group Count": 0,
@@ -2970,6 +2976,12 @@
         "Weight": 10,
         "Min Group Count": 8,
         "Max Group Count": 8
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityLizard",
+        "Weight": 20,
+        "Min Group Count": 1,
+        "Max Group Count": 4
       }
     ],
     "Spawn Biome": true,
@@ -3033,12 +3045,6 @@
       {
         "Entity Class": "epicsquid.mysticalworld.entity.EntityOwl",
         "Weight": 9,
-        "Min Group Count": 1,
-        "Max Group Count": 3
-      },
-      {
-        "Entity Class": "com.crowsofwar.avatar.common.entity.mob.EntitySkyBison",
-        "Weight": 5,
         "Min Group Count": 1,
         "Max Group Count": 3
       }
@@ -3152,8 +3158,8 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "HOT",
-      "JUNGLE",
       "WET",
+      "JUNGLE",
       "DENSE"
     ],
     "BiomeManager Entries": {},
@@ -3339,10 +3345,10 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "HOT",
-      "JUNGLE",
-      "WET",
       "HILLS",
+      "HOT",
+      "WET",
+      "JUNGLE",
       "DENSE"
     ],
     "BiomeManager Entries": {},
@@ -3534,10 +3540,10 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "HOT",
-      "JUNGLE",
       "RARE",
+      "HOT",
       "WET",
+      "JUNGLE",
       "FOREST"
     ],
     "BiomeManager Entries": {},
@@ -3613,12 +3619,6 @@
         "Weight": 9,
         "Min Group Count": 1,
         "Max Group Count": 3
-      },
-      {
-        "Entity Class": "com.bewitchment.common.entity.living.EntityLizard",
-        "Weight": 20,
-        "Min Group Count": 1,
-        "Max Group Count": 4
       },
       {
         "Entity Class": "com.bewitchment.common.entity.living.EntityOwl",
@@ -3707,6 +3707,12 @@
         "Max Group Count": 8
       },
       {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityWerewolf",
+        "Weight": 1,
+        "Min Group Count": 1,
+        "Max Group Count": 4
+      },
+      {
         "Entity Class": "com.bewitchment.common.entity.spirit.demon.EntityDruden",
         "Weight": 1,
         "Min Group Count": 0,
@@ -3727,6 +3733,12 @@
         "Weight": 10,
         "Min Group Count": 8,
         "Max Group Count": 8
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityLizard",
+        "Weight": 20,
+        "Min Group Count": 1,
+        "Max Group Count": 4
       }
     ],
     "Spawn Biome": false,
@@ -3997,8 +4009,8 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
-      "BEACH",
       "SNOWY",
+      "BEACH",
       "COLD"
     ],
     "BiomeManager Entries": {},
@@ -4032,12 +4044,6 @@
         "Weight": 9,
         "Min Group Count": 1,
         "Max Group Count": 3
-      },
-      {
-        "Entity Class": "com.crowsofwar.avatar.common.entity.mob.EntityOtterPenguin",
-        "Weight": 10,
-        "Min Group Count": 3,
-        "Max Group Count": 6
       }
     ],
     "Spawnable Monsters": [
@@ -4106,6 +4112,12 @@
         "Weight": 10,
         "Min Group Count": 1,
         "Max Group Count": 2
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityWerewolf",
+        "Weight": 1,
+        "Min Group Count": 1,
+        "Max Group Count": 4
       }
     ],
     "Spawnable Water Creatures": [
@@ -4211,12 +4223,6 @@
         "Max Group Count": 3
       },
       {
-        "Entity Class": "com.bewitchment.common.entity.living.EntityLizard",
-        "Weight": 20,
-        "Min Group Count": 1,
-        "Max Group Count": 4
-      },
-      {
         "Entity Class": "com.bewitchment.common.entity.living.EntityOwl",
         "Weight": 20,
         "Min Group Count": 1,
@@ -4309,6 +4315,12 @@
         "Max Group Count": 8
       },
       {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityWerewolf",
+        "Weight": 1,
+        "Min Group Count": 1,
+        "Max Group Count": 4
+      },
+      {
         "Entity Class": "com.bewitchment.common.entity.spirit.demon.EntityDruden",
         "Weight": 1,
         "Min Group Count": 0,
@@ -4329,6 +4341,12 @@
         "Weight": 10,
         "Min Group Count": 8,
         "Max Group Count": 8
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityLizard",
+        "Weight": 20,
+        "Min Group Count": 1,
+        "Max Group Count": 4
       }
     ],
     "Spawn Biome": false,
@@ -4355,8 +4373,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "FOREST",
-      "HILLS"
+      "HILLS",
+      "FOREST"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -4415,12 +4433,6 @@
         "Max Group Count": 3
       },
       {
-        "Entity Class": "com.bewitchment.common.entity.living.EntityLizard",
-        "Weight": 20,
-        "Min Group Count": 1,
-        "Max Group Count": 4
-      },
-      {
         "Entity Class": "com.bewitchment.common.entity.living.EntityOwl",
         "Weight": 20,
         "Min Group Count": 1,
@@ -4431,12 +4443,6 @@
         "Weight": 20,
         "Min Group Count": 1,
         "Max Group Count": 4
-      },
-      {
-        "Entity Class": "com.crowsofwar.avatar.common.entity.mob.EntitySkyBison",
-        "Weight": 5,
-        "Min Group Count": 1,
-        "Max Group Count": 3
       }
     ],
     "Spawnable Monsters": [
@@ -4519,6 +4525,12 @@
         "Max Group Count": 8
       },
       {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityWerewolf",
+        "Weight": 1,
+        "Min Group Count": 1,
+        "Max Group Count": 4
+      },
+      {
         "Entity Class": "com.bewitchment.common.entity.spirit.demon.EntityDruden",
         "Weight": 1,
         "Min Group Count": 0,
@@ -4539,6 +4551,12 @@
         "Weight": 10,
         "Min Group Count": 8,
         "Max Group Count": 8
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityLizard",
+        "Weight": 20,
+        "Min Group Count": 1,
+        "Max Group Count": 4
       }
     ],
     "Spawn Biome": false,
@@ -4565,8 +4583,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "FOREST",
       "SPOOKY",
+      "FOREST",
       "DENSE"
     ],
     "BiomeManager Entries": {
@@ -4630,12 +4648,6 @@
         "Max Group Count": 3
       },
       {
-        "Entity Class": "com.bewitchment.common.entity.living.EntityLizard",
-        "Weight": 20,
-        "Min Group Count": 1,
-        "Max Group Count": 4
-      },
-      {
         "Entity Class": "com.bewitchment.common.entity.living.EntityOwl",
         "Weight": 20,
         "Min Group Count": 1,
@@ -4728,6 +4740,12 @@
         "Max Group Count": 8
       },
       {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityWerewolf",
+        "Weight": 1,
+        "Min Group Count": 1,
+        "Max Group Count": 4
+      },
+      {
         "Entity Class": "com.bewitchment.common.entity.spirit.demon.EntityDruden",
         "Weight": 1,
         "Min Group Count": 0,
@@ -4748,6 +4766,12 @@
         "Weight": 10,
         "Min Group Count": 8,
         "Max Group Count": 8
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityLizard",
+        "Weight": 20,
+        "Min Group Count": 1,
+        "Max Group Count": 4
       }
     ],
     "Spawn Biome": false,
@@ -4775,9 +4799,9 @@
     "Enable Snow": true,
     "Dictionary Types": [
       "SNOWY",
-      "COLD",
       "FOREST",
-      "CONIFEROUS"
+      "CONIFEROUS",
+      "COLD"
     ],
     "BiomeManager Entries": {
       "ICY Weights": [
@@ -4852,12 +4876,6 @@
         "Max Group Count": 3
       },
       {
-        "Entity Class": "com.bewitchment.common.entity.living.EntityLizard",
-        "Weight": 20,
-        "Min Group Count": 1,
-        "Max Group Count": 4
-      },
-      {
         "Entity Class": "com.bewitchment.common.entity.living.EntityOwl",
         "Weight": 20,
         "Min Group Count": 1,
@@ -4950,6 +4968,12 @@
         "Max Group Count": 8
       },
       {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityWerewolf",
+        "Weight": 1,
+        "Min Group Count": 1,
+        "Max Group Count": 4
+      },
+      {
         "Entity Class": "com.bewitchment.common.entity.spirit.demon.EntityDruden",
         "Weight": 1,
         "Min Group Count": 0,
@@ -4970,6 +4994,12 @@
         "Weight": 10,
         "Min Group Count": 8,
         "Max Group Count": 8
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityLizard",
+        "Weight": 20,
+        "Min Group Count": 1,
+        "Max Group Count": 4
       }
     ],
     "Spawn Biome": false,
@@ -4996,11 +5026,11 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
+      "HILLS",
       "SNOWY",
-      "COLD",
       "FOREST",
       "CONIFEROUS",
-      "HILLS"
+      "COLD"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -5069,12 +5099,6 @@
         "Weight": 9,
         "Min Group Count": 1,
         "Max Group Count": 3
-      },
-      {
-        "Entity Class": "com.bewitchment.common.entity.living.EntityLizard",
-        "Weight": 20,
-        "Min Group Count": 1,
-        "Max Group Count": 4
       },
       {
         "Entity Class": "com.bewitchment.common.entity.living.EntityOwl",
@@ -5169,6 +5193,12 @@
         "Max Group Count": 8
       },
       {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityWerewolf",
+        "Weight": 1,
+        "Min Group Count": 1,
+        "Max Group Count": 4
+      },
+      {
         "Entity Class": "com.bewitchment.common.entity.spirit.demon.EntityDruden",
         "Weight": 1,
         "Min Group Count": 0,
@@ -5189,6 +5219,12 @@
         "Weight": 10,
         "Min Group Count": 8,
         "Max Group Count": 8
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityLizard",
+        "Weight": 20,
+        "Min Group Count": 1,
+        "Max Group Count": 4
       }
     ],
     "Spawn Biome": false,
@@ -5215,9 +5251,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "COLD",
       "FOREST",
-      "CONIFEROUS"
+      "CONIFEROUS",
+      "COLD"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -5286,12 +5322,6 @@
         "Weight": 9,
         "Min Group Count": 1,
         "Max Group Count": 3
-      },
-      {
-        "Entity Class": "com.bewitchment.common.entity.living.EntityLizard",
-        "Weight": 20,
-        "Min Group Count": 1,
-        "Max Group Count": 4
       },
       {
         "Entity Class": "com.bewitchment.common.entity.living.EntityOwl",
@@ -5380,6 +5410,12 @@
         "Max Group Count": 8
       },
       {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityWerewolf",
+        "Weight": 1,
+        "Min Group Count": 1,
+        "Max Group Count": 4
+      },
+      {
         "Entity Class": "com.bewitchment.common.entity.spirit.demon.EntityDruden",
         "Weight": 1,
         "Min Group Count": 0,
@@ -5400,6 +5436,12 @@
         "Weight": 10,
         "Min Group Count": 8,
         "Max Group Count": 8
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityLizard",
+        "Weight": 20,
+        "Min Group Count": 1,
+        "Max Group Count": 4
       }
     ],
     "Spawn Biome": false,
@@ -5426,10 +5468,10 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "COLD",
+      "HILLS",
       "FOREST",
       "CONIFEROUS",
-      "HILLS"
+      "COLD"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -5500,12 +5542,6 @@
         "Max Group Count": 3
       },
       {
-        "Entity Class": "com.bewitchment.common.entity.living.EntityLizard",
-        "Weight": 20,
-        "Min Group Count": 1,
-        "Max Group Count": 4
-      },
-      {
         "Entity Class": "com.bewitchment.common.entity.living.EntityOwl",
         "Weight": 20,
         "Min Group Count": 1,
@@ -5516,12 +5552,6 @@
         "Weight": 20,
         "Min Group Count": 1,
         "Max Group Count": 4
-      },
-      {
-        "Entity Class": "com.crowsofwar.avatar.common.entity.mob.EntitySkyBison",
-        "Weight": 5,
-        "Min Group Count": 1,
-        "Max Group Count": 3
       }
     ],
     "Spawnable Monsters": [
@@ -5604,6 +5634,12 @@
         "Max Group Count": 8
       },
       {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityWerewolf",
+        "Weight": 1,
+        "Min Group Count": 1,
+        "Max Group Count": 4
+      },
+      {
         "Entity Class": "com.bewitchment.common.entity.spirit.demon.EntityDruden",
         "Weight": 1,
         "Min Group Count": 0,
@@ -5624,6 +5660,12 @@
         "Weight": 10,
         "Min Group Count": 8,
         "Max Group Count": 8
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityLizard",
+        "Weight": 20,
+        "Min Group Count": 1,
+        "Max Group Count": 4
       }
     ],
     "Spawn Biome": false,
@@ -5650,9 +5692,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SPARSE",
+      "MOUNTAIN",
       "FOREST",
-      "MOUNTAIN"
+      "SPARSE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -5717,22 +5759,10 @@
         "Max Group Count": 3
       },
       {
-        "Entity Class": "com.bewitchment.common.entity.living.EntityLizard",
-        "Weight": 20,
-        "Min Group Count": 1,
-        "Max Group Count": 4
-      },
-      {
         "Entity Class": "com.bewitchment.common.entity.living.EntityOwl",
         "Weight": 20,
         "Min Group Count": 1,
         "Max Group Count": 4
-      },
-      {
-        "Entity Class": "com.crowsofwar.avatar.common.entity.mob.EntitySkyBison",
-        "Weight": 5,
-        "Min Group Count": 1,
-        "Max Group Count": 3
       }
     ],
     "Spawnable Monsters": [
@@ -5815,6 +5845,12 @@
         "Max Group Count": 8
       },
       {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityWerewolf",
+        "Weight": 1,
+        "Min Group Count": 1,
+        "Max Group Count": 4
+      },
+      {
         "Entity Class": "com.bewitchment.common.entity.spirit.demon.EntityDruden",
         "Weight": 1,
         "Min Group Count": 0,
@@ -5835,6 +5871,12 @@
         "Weight": 10,
         "Min Group Count": 8,
         "Max Group Count": 8
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityLizard",
+        "Weight": 20,
+        "Min Group Count": 1,
+        "Max Group Count": 4
       }
     ],
     "Spawn Biome": false,
@@ -5861,10 +5903,10 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SPARSE",
-      "HOT",
       "SAVANNA",
-      "PLAINS"
+      "HOT",
+      "PLAINS",
+      "SPARSE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -5927,12 +5969,6 @@
         "Weight": 20,
         "Min Group Count": 1,
         "Max Group Count": 4
-      },
-      {
-        "Entity Class": "com.crowsofwar.avatar.common.entity.mob.EntityOstrichHorse",
-        "Weight": 5,
-        "Min Group Count": 1,
-        "Max Group Count": 3
       }
     ],
     "Spawnable Monsters": [
@@ -6055,11 +6091,11 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SPARSE",
-      "HOT",
+      "RARE",
       "SAVANNA",
+      "HOT",
       "PLAINS",
-      "RARE"
+      "SPARSE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -6128,18 +6164,6 @@
         "Weight": 20,
         "Min Group Count": 1,
         "Max Group Count": 4
-      },
-      {
-        "Entity Class": "com.crowsofwar.avatar.common.entity.mob.EntitySkyBison",
-        "Weight": 5,
-        "Min Group Count": 1,
-        "Max Group Count": 3
-      },
-      {
-        "Entity Class": "com.crowsofwar.avatar.common.entity.mob.EntityOstrichHorse",
-        "Weight": 5,
-        "Min Group Count": 1,
-        "Max Group Count": 3
       }
     ],
     "Spawnable Monsters": [
@@ -6262,8 +6286,8 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "MESA",
       "DRY",
+      "MESA",
       "SANDY"
     ],
     "BiomeManager Entries": {},
@@ -6376,10 +6400,10 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "MESA",
       "DRY",
-      "SPARSE",
-      "SANDY"
+      "MESA",
+      "SANDY",
+      "SPARSE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -6491,8 +6515,8 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "MESA",
       "DRY",
+      "MESA",
       "SANDY"
     ],
     "BiomeManager Entries": {},
@@ -6805,8 +6829,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "FOREST",
       "WET",
+      "FOREST",
       "DENSE"
     ],
     "BiomeManager Entries": {},
@@ -6901,8 +6925,8 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "DRY",
-      "HOT",
-      "SAVANNA"
+      "SAVANNA",
+      "HOT"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -7013,9 +7037,9 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "DRY",
+      "HILLS",
       "HOT",
-      "SANDY",
-      "HILLS"
+      "SANDY"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -7073,9 +7097,9 @@
     "Enable Snow": true,
     "Dictionary Types": [
       "SNOWY",
-      "COLD",
       "PLAINS",
-      "CONIFEROUS"
+      "CONIFEROUS",
+      "COLD"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -7151,9 +7175,9 @@
     "Enable Snow": true,
     "Dictionary Types": [
       "SNOWY",
-      "COLD",
       "FOREST",
-      "CONIFEROUS"
+      "CONIFEROUS",
+      "COLD"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -7240,11 +7264,11 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
+      "HILLS",
       "SNOWY",
-      "COLD",
       "FOREST",
       "CONIFEROUS",
-      "HILLS"
+      "COLD"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -7401,8 +7425,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "PLAINS",
       "WET",
+      "PLAINS",
       "SWAMP"
     ],
     "BiomeManager Entries": {},
@@ -7478,8 +7502,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "FOREST",
       "WET",
+      "FOREST",
       "SWAMP"
     ],
     "BiomeManager Entries": {},
@@ -7579,10 +7603,10 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "JUNGLE",
-      "FOREST",
+      "LUSH",
       "WET",
-      "LUSH"
+      "FOREST",
+      "JUNGLE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -7681,8 +7705,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "JUNGLE",
-      "WET"
+      "WET",
+      "JUNGLE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -7757,10 +7781,10 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "JUNGLE",
-      "FOREST",
+      "LUSH",
       "HILLS",
-      "LUSH"
+      "FOREST",
+      "JUNGLE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -7860,8 +7884,8 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "RIVER",
-      "WET",
-      "WATER"
+      "WATER",
+      "WET"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -7924,8 +7948,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "JUNGLE",
-      "WET"
+      "WET",
+      "JUNGLE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -8001,10 +8025,10 @@
     "Enable Snow": true,
     "Dictionary Types": [
       "RIVER",
+      "WATER",
       "SNOWY",
-      "COLD",
       "WET",
-      "WATER"
+      "COLD"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -8086,8 +8110,8 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "RIVER",
-      "WET",
-      "WATER"
+      "WATER",
+      "WET"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -8156,8 +8180,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "WASTELAND",
-      "PLAINS"
+      "PLAINS",
+      "WASTELAND"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -8208,9 +8232,9 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "WASTELAND",
       "DRY",
       "HOT",
+      "WASTELAND",
       "SANDY"
     ],
     "BiomeManager Entries": {},
@@ -8249,8 +8273,8 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
-      "WASTELAND",
       "SNOWY",
+      "WASTELAND",
       "COLD"
     ],
     "BiomeManager Entries": {},
@@ -8308,8 +8332,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "WASTELAND",
-      "WET"
+      "WET",
+      "WASTELAND"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -8347,9 +8371,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
+      "WET",
       "WASTELAND",
-      "JUNGLE",
-      "WET"
+      "JUNGLE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -8406,8 +8430,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "DEAD",
-      "SPOOKY"
+      "SPOOKY",
+      "DEAD"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -8445,8 +8469,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "DEAD",
-      "SPOOKY"
+      "SPOOKY",
+      "DEAD"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -8484,8 +8508,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "DEAD",
-      "SPOOKY"
+      "SPOOKY",
+      "DEAD"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -8523,8 +8547,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "DEAD",
-      "SPOOKY"
+      "SPOOKY",
+      "DEAD"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -8562,8 +8586,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "DEAD",
-      "SPOOKY"
+      "SPOOKY",
+      "DEAD"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -8601,8 +8625,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "DEAD",
-      "SPOOKY"
+      "SPOOKY",
+      "DEAD"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -8643,14 +8667,7 @@
       "MAGICAL",
       "FOREST"
     ],
-    "BiomeManager Entries": {
-      "WARM Weights": [
-        5
-      ],
-      "COOL Weights": [
-        5
-      ]
-    },
+    "BiomeManager Entries": {},
     "Spawnable Creatures": [
       {
         "Entity Class": "net.minecraft.entity.passive.EntitySheep",
@@ -8809,8 +8826,8 @@
     "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "MAGICAL",
-      "SPOOKY"
+      "SPOOKY",
+      "MAGICAL"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -8941,9 +8958,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
+      "SPOOKY",
       "MAGICAL",
-      "END",
-      "SPOOKY"
+      "END"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -9432,8 +9449,8 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "HOT",
-      "JUNGLE",
       "WET",
+      "JUNGLE",
       "DENSE"
     ],
     "BiomeManager Entries": {},
@@ -9534,30 +9551,29 @@
   },
   {
     "ID": 81,
-    "Name": "wizardry_torikkisea",
-    "Resource Location": "wizardry:wizardry_torikkisea",
-    "Class": "com.teamwizardry.wizardry.common.world.biome.BiomeTorikkiSea",
-    "Root Height": 0.1,
-    "Height Variation": 0.2,
-    "Top Block": "minecraft:air",
-    "Filler Block": "minecraft:air",
+    "Name": "Emptiness",
+    "Resource Location": "thaumicaugmentation:emptiness",
+    "Class": "thecodex6824.thaumicaugmentation.common.world.biome.BiomeEmptiness",
+    "Root Height": -1.8,
+    "Height Variation": 0.15,
+    "Top Block": "thaumicaugmentation:stone[ta_stone_type\u003dstone_void]",
+    "Filler Block": "thaumicaugmentation:stone[ta_stone_type\u003dstone_void]",
     "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
     "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
     "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
     "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
     "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
-    "Water Color": "16777215",
-    "Temperature": 0.5,
+    "Water Color": "11141290",
+    "Temperature": 0.25,
     "Humidity": 0.5,
-    "Water Tint": 16777215,
-    "Enable Rain": true,
+    "Water Tint": 11141290,
+    "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "WASTELAND",
-      "MAGICAL",
-      "MOUNTAIN",
       "SPOOKY",
-      "WATER"
+      "VOID",
+      "COLD",
+      "SPARSE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -9569,29 +9585,83 @@
   },
   {
     "ID": 82,
-    "Name": "wizardry_torikki",
-    "Resource Location": "wizardry:wizardry_torikki",
-    "Class": "com.teamwizardry.wizardry.common.world.biome.BiomeTorikki",
-    "Root Height": 0.1,
-    "Height Variation": 0.2,
-    "Top Block": "minecraft:air",
-    "Filler Block": "minecraft:air",
+    "Name": "Tainted Lands",
+    "Resource Location": "thaumicaugmentation:tainted_lands",
+    "Class": "thecodex6824.thaumicaugmentation.common.world.biome.BiomeTaintedLands",
+    "Root Height": -1.8,
+    "Height Variation": 0.15,
+    "Top Block": "thaumicaugmentation:stone[ta_stone_type\u003dsoil_stone_taint_nodecay]",
+    "Filler Block": "thaumicaugmentation:stone[ta_stone_type\u003dstone_void]",
     "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
     "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
     "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
     "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
     "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
-    "Water Color": "16777215",
-    "Temperature": 0.5,
+    "Water Color": "16711935",
+    "Temperature": 0.25,
     "Humidity": 0.5,
-    "Water Tint": 16777215,
-    "Enable Rain": true,
+    "Water Tint": 16711935,
+    "Enable Rain": false,
     "Enable Snow": false,
     "Dictionary Types": [
-      "WASTELAND",
-      "MAGICAL",
+      "SPOOKY",
+      "VOID",
+      "COLD"
+    ],
+    "BiomeManager Entries": {},
+    "Spawnable Creatures": [],
+    "Spawnable Monsters": [
+      {
+        "Entity Class": "thaumcraft.common.entities.monster.tainted.EntityTaintCrawler",
+        "Weight": 100,
+        "Min Group Count": 3,
+        "Max Group Count": 5
+      },
+      {
+        "Entity Class": "thaumcraft.common.entities.monster.tainted.EntityTaintacleSmall",
+        "Weight": 75,
+        "Min Group Count": 1,
+        "Max Group Count": 2
+      },
+      {
+        "Entity Class": "thaumcraft.common.entities.monster.tainted.EntityTaintacle",
+        "Weight": 50,
+        "Min Group Count": 1,
+        "Max Group Count": 1
+      }
+    ],
+    "Spawnable Water Creatures": [],
+    "Spawnable Cave Creatures": [],
+    "Spawn Biome": false,
+    "Tweaked": false
+  },
+  {
+    "ID": 83,
+    "Name": "Emptiness Highlands",
+    "Resource Location": "thaumicaugmentation:emptiness_highlands",
+    "Class": "thecodex6824.thaumicaugmentation.common.world.biome.BiomeEmptinessHighlands",
+    "Root Height": 0.75,
+    "Height Variation": 0.3,
+    "Top Block": "thaumicaugmentation:stone[ta_stone_type\u003dstone_void]",
+    "Filler Block": "thaumicaugmentation:stone[ta_stone_type\u003dstone_void]",
+    "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
+    "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
+    "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
+    "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
+    "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
+    "Water Color": "11141290",
+    "Temperature": 0.25,
+    "Humidity": 0.5,
+    "Water Tint": 11141290,
+    "Enable Rain": false,
+    "Enable Snow": false,
+    "Dictionary Types": [
+      "SPOOKY",
+      "VOID",
+      "HILLS",
       "MOUNTAIN",
-      "SPOOKY"
+      "COLD",
+      "SPARSE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -9602,7 +9672,7 @@
     "Tweaked": false
   },
   {
-    "ID": 83,
+    "ID": 84,
     "Name": "wizardry_underworld",
     "Resource Location": "wizardry:wizardry_underworld",
     "Class": "com.teamwizardry.wizardry.common.world.biome.BiomeUnderWorld",
@@ -9623,10 +9693,10 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "DRY",
-      "MAGICAL",
-      "COLD",
       "VOID",
-      "SPOOKY"
+      "SPOOKY",
+      "MAGICAL",
+      "COLD"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -9637,7 +9707,7 @@
     "Tweaked": false
   },
   {
-    "ID": 84,
+    "ID": 85,
     "Name": "arcane_void",
     "Resource Location": "arcaneworld:arcane_void",
     "Class": "party.lemons.arcaneworld.gen.BiomeArcaneVoid",
@@ -9668,7 +9738,7 @@
     "Tweaked": false
   },
   {
-    "ID": 85,
+    "ID": 86,
     "Name": "Arcane Dungeon",
     "Resource Location": "arcaneworld:arcane_dungeon",
     "Class": "party.lemons.arcaneworld.gen.BiomeArcaneDungeon",
@@ -9757,7 +9827,7 @@
     "Tweaked": false
   },
   {
-    "ID": 86,
+    "ID": 87,
     "Name": "Aether Highlands",
     "Resource Location": "aether_legacy:aether_highlands",
     "Class": "com.legacy.aether.world.biome.AetherBiome",
@@ -9778,10 +9848,10 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "DRY",
+      "VOID",
       "MAGICAL",
-      "COLD",
       "PLAINS",
-      "VOID"
+      "COLD"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -9826,6 +9896,12 @@
         "Weight": 11,
         "Min Group Count": 3,
         "Max Group Count": 3
+      },
+      {
+        "Entity Class": "com.legacy.lostaether.entities.EntityZephyroo",
+        "Weight": 10,
+        "Min Group Count": 2,
+        "Max Group Count": 2
       }
     ],
     "Spawnable Monsters": [
@@ -9872,7 +9948,7 @@
     "Tweaked": false
   },
   {
-    "ID": 87,
+    "ID": 88,
     "Name": "Calming Skies",
     "Resource Location": "blue_skies:calming_skies",
     "Class": "com.legacy.blue_skies.world.everbright.biome.BiomeCalmingSkies",
@@ -9894,8 +9970,8 @@
     "Dictionary Types": [
       "DRY",
       "MAGICAL",
-      "COLD",
-      "PLAINS"
+      "PLAINS",
+      "COLD"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -9944,7 +10020,7 @@
     "Tweaked": false
   },
   {
-    "ID": 88,
+    "ID": 89,
     "Name": "Brightlands",
     "Resource Location": "blue_skies:brightlands",
     "Class": "com.legacy.blue_skies.world.everbright.biome.BiomeBrightlands",
@@ -9964,11 +10040,11 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
-      "SNOWY",
+      "HILLS",
       "MAGICAL",
-      "COLD",
+      "SNOWY",
       "MOUNTAIN",
-      "HILLS"
+      "COLD"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -10049,7 +10125,7 @@
     "Tweaked": false
   },
   {
-    "ID": 89,
+    "ID": 90,
     "Name": "Peeking Oceans",
     "Resource Location": "blue_skies:peeking_oceans",
     "Class": "com.legacy.blue_skies.world.everbright.biome.BiomePeekingOceans",
@@ -10071,10 +10147,10 @@
     "Dictionary Types": [
       "DRY",
       "OCEAN",
+      "WATER",
       "MAGICAL",
-      "COLD",
       "PLAINS",
-      "WATER"
+      "COLD"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -10104,7 +10180,7 @@
     "Tweaked": false
   },
   {
-    "ID": 90,
+    "ID": 91,
     "Name": "Pale Swamplands",
     "Resource Location": "blue_skies:pale_swamplands",
     "Class": "com.legacy.blue_skies.world.everbright.biome.BiomePaleSwamplands",
@@ -10124,8 +10200,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SNOWY",
       "MAGICAL",
+      "SNOWY",
       "PLAINS",
       "SWAMP"
     ],
@@ -10190,7 +10266,7 @@
     "Tweaked": false
   },
   {
-    "ID": 91,
+    "ID": 92,
     "Name": "Frostbitten Forest",
     "Resource Location": "blue_skies:frostbit_forest",
     "Class": "com.legacy.blue_skies.world.everbright.biome.BiomeFrostbitForest",
@@ -10210,13 +10286,13 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
-      "SNOWY",
+      "LUSH",
       "MAGICAL",
-      "COLD",
+      "SNOWY",
       "PLAINS",
       "FOREST",
-      "LUSH",
-      "DENSE"
+      "DENSE",
+      "COLD"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -10265,7 +10341,7 @@
     "Tweaked": false
   },
   {
-    "ID": 92,
+    "ID": 93,
     "Name": "Unorthodox Valley",
     "Resource Location": "blue_skies:unorthodox_valley",
     "Class": "com.legacy.blue_skies.world.everdawn.biome.BiomeUnorthodoxValley",
@@ -10285,9 +10361,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
+      "HILLS",
       "MAGICAL",
-      "MOUNTAIN",
-      "HILLS"
+      "MOUNTAIN"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -10342,7 +10418,7 @@
     "Tweaked": false
   },
   {
-    "ID": 93,
+    "ID": 94,
     "Name": "Shaded Woodlands",
     "Resource Location": "blue_skies:shaded_woods",
     "Class": "com.legacy.blue_skies.world.everdawn.biome.BiomeShadedWoods",
@@ -10362,10 +10438,10 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "PLAINS",
-      "FOREST",
       "SPOOKY",
       "LUSH",
+      "PLAINS",
+      "FOREST",
       "DENSE"
     ],
     "BiomeManager Entries": {},
@@ -10421,7 +10497,7 @@
     "Tweaked": false
   },
   {
-    "ID": 94,
+    "ID": 95,
     "Name": "Crystal Dunes",
     "Resource Location": "blue_skies:crystal_dunes",
     "Class": "com.legacy.blue_skies.world.everdawn.biome.BiomeCrystalDunes",
@@ -10481,7 +10557,7 @@
     "Tweaked": false
   },
   {
-    "ID": 95,
+    "ID": 96,
     "Name": "Sunset Maple Forest",
     "Resource Location": "blue_skies:sunset_maple_forest",
     "Class": "com.legacy.blue_skies.world.everdawn.biome.BiomeSunsetMapleForest",
@@ -10531,7 +10607,7 @@
     "Tweaked": false
   },
   {
-    "ID": 96,
+    "ID": 97,
     "Name": "Limbo",
     "Resource Location": "dimdoors:limbo",
     "Class": "org.dimdev.dimdoors.shared.world.limbo.BiomeLimbo",
@@ -10569,7 +10645,7 @@
     "Tweaked": false
   },
   {
-    "ID": 97,
+    "ID": 98,
     "Name": "White Void",
     "Resource Location": "dimdoors:white_void",
     "Class": "org.dimdev.dimdoors.shared.world.pocketdimension.BiomeBlank",
@@ -10600,7 +10676,7 @@
     "Tweaked": false
   },
   {
-    "ID": 98,
+    "ID": 99,
     "Name": "Black Void",
     "Resource Location": "dimdoors:black_void",
     "Class": "org.dimdev.dimdoors.shared.world.pocketdimension.BiomeBlank",
@@ -10631,7 +10707,7 @@
     "Tweaked": false
   },
   {
-    "ID": 99,
+    "ID": 100,
     "Name": "Dangerous Black Void",
     "Resource Location": "dimdoors:dangerous_black_void",
     "Class": "org.dimdev.dimdoors.shared.world.pocketdimension.BiomeBlank",
@@ -10662,7 +10738,7 @@
     "Tweaked": false
   },
   {
-    "ID": 100,
+    "ID": 101,
     "Name": "Patchy Islands",
     "Resource Location": "thebetweenlands:patchy_islands",
     "Class": "thebetweenlands.common.world.biome.BiomePatchyIslands",
@@ -10682,9 +10758,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
+      "WATER",
       "WET",
-      "SWAMP",
-      "WATER"
+      "SWAMP"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -10695,7 +10771,7 @@
     "Tweaked": false
   },
   {
-    "ID": 101,
+    "ID": 102,
     "Name": "Swamplands",
     "Resource Location": "thebetweenlands:swamplands",
     "Class": "thebetweenlands.common.world.biome.BiomeSwamplands",
@@ -10715,11 +10791,11 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "FOREST",
+      "WATER",
       "WET",
-      "SWAMP",
+      "FOREST",
       "DENSE",
-      "WATER"
+      "SWAMP"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -10730,7 +10806,7 @@
     "Tweaked": false
   },
   {
-    "ID": 102,
+    "ID": 103,
     "Name": "Deep Waters",
     "Resource Location": "thebetweenlands:deep_waters",
     "Class": "thebetweenlands.common.world.biome.BiomeDeepWaters",
@@ -10750,8 +10826,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SWAMP",
-      "WATER"
+      "WATER",
+      "SWAMP"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -10762,7 +10838,7 @@
     "Tweaked": false
   },
   {
-    "ID": 103,
+    "ID": 104,
     "Name": "Coarse Islands",
     "Resource Location": "thebetweenlands:coarse_islands",
     "Class": "thebetweenlands.common.world.biome.BiomeCoarseIslands",
@@ -10782,9 +10858,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
+      "WATER",
       "WET",
-      "SWAMP",
-      "WATER"
+      "SWAMP"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -10795,7 +10871,40 @@
     "Tweaked": false
   },
   {
-    "ID": 104,
+    "ID": 105,
+    "Name": "Raised Isles",
+    "Resource Location": "thebetweenlands:raised_isles",
+    "Class": "thebetweenlands.common.world.biome.BiomeRaisedIsles",
+    "Root Height": 115.0,
+    "Height Variation": 4.0,
+    "Top Block": "thebetweenlands:swamp_grass",
+    "Filler Block": "thebetweenlands:swamp_dirt",
+    "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
+    "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
+    "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
+    "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
+    "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
+    "Water Color": "1784132",
+    "Temperature": 0.8,
+    "Humidity": 0.9,
+    "Water Tint": 1784132,
+    "Enable Rain": true,
+    "Enable Snow": false,
+    "Dictionary Types": [
+      "WATER",
+      "WET",
+      "SWAMP"
+    ],
+    "BiomeManager Entries": {},
+    "Spawnable Creatures": [],
+    "Spawnable Monsters": [],
+    "Spawnable Water Creatures": [],
+    "Spawnable Cave Creatures": [],
+    "Spawn Biome": false,
+    "Tweaked": false
+  },
+  {
+    "ID": 106,
     "Name": "Sludge Plains",
     "Resource Location": "thebetweenlands:sludge_plains",
     "Class": "thebetweenlands.common.world.biome.BiomeSludgePlains",
@@ -10815,9 +10924,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "WASTELAND",
-      "DEAD",
       "WET",
+      "DEAD",
+      "WASTELAND",
       "SWAMP"
     ],
     "BiomeManager Entries": {},
@@ -10829,7 +10938,7 @@
     "Tweaked": false
   },
   {
-    "ID": 105,
+    "ID": 107,
     "Name": "Marsh 0",
     "Resource Location": "thebetweenlands:marsh_0",
     "Class": "thebetweenlands.common.world.biome.BiomeMarsh",
@@ -10849,9 +10958,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
+      "WATER",
       "WET",
-      "SWAMP",
-      "WATER"
+      "SWAMP"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -10862,7 +10971,7 @@
     "Tweaked": false
   },
   {
-    "ID": 106,
+    "ID": 108,
     "Name": "Marsh 1",
     "Resource Location": "thebetweenlands:marsh_1",
     "Class": "thebetweenlands.common.world.biome.BiomeMarsh",
@@ -10882,9 +10991,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
+      "WATER",
       "WET",
-      "SWAMP",
-      "WATER"
+      "SWAMP"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -10895,7 +11004,7 @@
     "Tweaked": false
   },
   {
-    "ID": 107,
+    "ID": 109,
     "Name": "Swamplands Clearing",
     "Resource Location": "thebetweenlands:swamplands_clearing",
     "Class": "thebetweenlands.common.world.biome.BiomeSwamplandsClearing",
@@ -10915,11 +11024,11 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "FOREST",
+      "WATER",
       "WET",
-      "SWAMP",
+      "FOREST",
       "DENSE",
-      "WATER"
+      "SWAMP"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [],
@@ -10930,7 +11039,7 @@
     "Tweaked": false
   },
   {
-    "ID": 108,
+    "ID": 110,
     "Name": "Sludge Plains Clearing",
     "Resource Location": "thebetweenlands:sludge_plains_clearing",
     "Class": "thebetweenlands.common.world.biome.BiomeSludgePlainsClearing",
@@ -10950,9 +11059,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "WASTELAND",
-      "DEAD",
       "WET",
+      "DEAD",
+      "WASTELAND",
       "SWAMP"
     ],
     "BiomeManager Entries": {},
@@ -11015,8 +11124,8 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "PLAINS",
-      "RARE"
+      "RARE",
+      "PLAINS"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -11202,8 +11311,8 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "DRY",
-      "HOT",
       "RARE",
+      "HOT",
       "SANDY"
     ],
     "BiomeManager Entries": {},
@@ -11329,9 +11438,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SPARSE",
       "RARE",
-      "MOUNTAIN"
+      "MOUNTAIN",
+      "SPARSE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -11368,12 +11477,6 @@
       {
         "Entity Class": "epicsquid.mysticalworld.entity.EntityOwl",
         "Weight": 9,
-        "Min Group Count": 1,
-        "Max Group Count": 3
-      },
-      {
-        "Entity Class": "com.crowsofwar.avatar.common.entity.mob.EntitySkyBison",
-        "Weight": 5,
         "Min Group Count": 1,
         "Max Group Count": 3
       }
@@ -11444,18 +11547,6 @@
         "Weight": 10,
         "Min Group Count": 1,
         "Max Group Count": 2
-      },
-      {
-        "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
-        "Weight": 1,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "electroblob.wizardry.entity.living.EntityEvilWizard",
-        "Weight": 3,
-        "Min Group Count": 1,
-        "Max Group Count": 1
       }
     ],
     "Spawnable Water Creatures": [
@@ -11499,8 +11590,8 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "RARE",
-      "FOREST",
-      "HILLS"
+      "HILLS",
+      "FOREST"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -11563,12 +11654,6 @@
         "Weight": 9,
         "Min Group Count": 1,
         "Max Group Count": 3
-      },
-      {
-        "Entity Class": "com.bewitchment.common.entity.living.EntityLizard",
-        "Weight": 20,
-        "Min Group Count": 1,
-        "Max Group Count": 4
       },
       {
         "Entity Class": "com.bewitchment.common.entity.living.EntityOwl",
@@ -11651,18 +11736,6 @@
         "Max Group Count": 2
       },
       {
-        "Entity Class": "electroblob.wizardry.entity.living.EntityLightningWraith",
-        "Weight": 1,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
-        "Entity Class": "electroblob.wizardry.entity.living.EntityEvilWizard",
-        "Weight": 3,
-        "Min Group Count": 1,
-        "Max Group Count": 1
-      },
-      {
         "Entity Class": "com.bewitchment.common.entity.spirit.ghost.EntityBlackDog",
         "Weight": 6,
         "Min Group Count": 1,
@@ -11673,6 +11746,12 @@
         "Weight": 6,
         "Min Group Count": 1,
         "Max Group Count": 8
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityWerewolf",
+        "Weight": 1,
+        "Min Group Count": 1,
+        "Max Group Count": 4
       },
       {
         "Entity Class": "com.bewitchment.common.entity.spirit.demon.EntityDruden",
@@ -11695,6 +11774,12 @@
         "Weight": 10,
         "Min Group Count": 8,
         "Max Group Count": 8
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityLizard",
+        "Weight": 20,
+        "Min Group Count": 1,
+        "Max Group Count": 4
       }
     ],
     "Spawn Biome": false,
@@ -11721,11 +11806,11 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "COLD",
       "RARE",
-      "FOREST",
       "MOUNTAIN",
-      "CONIFEROUS"
+      "FOREST",
+      "CONIFEROUS",
+      "COLD"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -11794,12 +11879,6 @@
         "Weight": 9,
         "Min Group Count": 1,
         "Max Group Count": 3
-      },
-      {
-        "Entity Class": "com.bewitchment.common.entity.living.EntityLizard",
-        "Weight": 20,
-        "Min Group Count": 1,
-        "Max Group Count": 4
       },
       {
         "Entity Class": "com.bewitchment.common.entity.living.EntityOwl",
@@ -11900,6 +11979,12 @@
         "Max Group Count": 8
       },
       {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityWerewolf",
+        "Weight": 1,
+        "Min Group Count": 1,
+        "Max Group Count": 4
+      },
+      {
         "Entity Class": "com.bewitchment.common.entity.spirit.demon.EntityDruden",
         "Weight": 1,
         "Min Group Count": 0,
@@ -11920,6 +12005,12 @@
         "Weight": 10,
         "Min Group Count": 8,
         "Max Group Count": 8
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityLizard",
+        "Weight": 20,
+        "Min Group Count": 1,
+        "Max Group Count": 4
       }
     ],
     "Spawn Biome": false,
@@ -11947,9 +12038,9 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "RARE",
+      "HILLS",
       "WET",
-      "SWAMP",
-      "HILLS"
+      "SWAMP"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -12128,10 +12219,10 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
-      "SNOWY",
-      "COLD",
       "RARE",
-      "HILLS"
+      "HILLS",
+      "SNOWY",
+      "COLD"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -12170,12 +12261,6 @@
         "Weight": 20,
         "Min Group Count": 1,
         "Max Group Count": 4
-      },
-      {
-        "Entity Class": "com.crowsofwar.avatar.common.entity.mob.EntityOtterPenguin",
-        "Weight": 10,
-        "Min Group Count": 3,
-        "Max Group Count": 6
       }
     ],
     "Spawnable Monsters": [
@@ -12268,6 +12353,12 @@
         "Weight": 3,
         "Min Group Count": 1,
         "Max Group Count": 1
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityWerewolf",
+        "Weight": 1,
+        "Min Group Count": 1,
+        "Max Group Count": 4
       }
     ],
     "Spawnable Water Creatures": [
@@ -12310,11 +12401,11 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "HOT",
-      "JUNGLE",
       "RARE",
+      "HOT",
       "WET",
       "MOUNTAIN",
+      "JUNGLE",
       "DENSE"
     ],
     "BiomeManager Entries": {},
@@ -12518,11 +12609,11 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SPARSE",
+      "RARE",
+      "HILLS",
       "HOT",
       "JUNGLE",
-      "RARE",
-      "HILLS"
+      "SPARSE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -12708,8 +12799,8 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "RARE",
-      "FOREST",
       "HILLS",
+      "FOREST",
       "DENSE"
     ],
     "BiomeManager Entries": {},
@@ -12767,12 +12858,6 @@
         "Weight": 9,
         "Min Group Count": 1,
         "Max Group Count": 3
-      },
-      {
-        "Entity Class": "com.bewitchment.common.entity.living.EntityLizard",
-        "Weight": 20,
-        "Min Group Count": 1,
-        "Max Group Count": 4
       },
       {
         "Entity Class": "com.bewitchment.common.entity.living.EntityOwl",
@@ -12879,6 +12964,12 @@
         "Max Group Count": 8
       },
       {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityWerewolf",
+        "Weight": 1,
+        "Min Group Count": 1,
+        "Max Group Count": 4
+      },
+      {
         "Entity Class": "com.bewitchment.common.entity.spirit.demon.EntityDruden",
         "Weight": 1,
         "Min Group Count": 0,
@@ -12899,6 +12990,12 @@
         "Weight": 10,
         "Min Group Count": 8,
         "Max Group Count": 8
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityLizard",
+        "Weight": 20,
+        "Min Group Count": 1,
+        "Max Group Count": 4
       }
     ],
     "Spawn Biome": false,
@@ -12926,8 +13023,8 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "RARE",
-      "FOREST",
       "MOUNTAIN",
+      "FOREST",
       "DENSE"
     ],
     "BiomeManager Entries": {},
@@ -12985,12 +13082,6 @@
         "Weight": 9,
         "Min Group Count": 1,
         "Max Group Count": 3
-      },
-      {
-        "Entity Class": "com.bewitchment.common.entity.living.EntityLizard",
-        "Weight": 20,
-        "Min Group Count": 1,
-        "Max Group Count": 4
       },
       {
         "Entity Class": "com.bewitchment.common.entity.living.EntityOwl",
@@ -13091,6 +13182,12 @@
         "Max Group Count": 8
       },
       {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityWerewolf",
+        "Weight": 1,
+        "Min Group Count": 1,
+        "Max Group Count": 4
+      },
+      {
         "Entity Class": "com.bewitchment.common.entity.spirit.demon.EntityDruden",
         "Weight": 1,
         "Min Group Count": 0,
@@ -13111,6 +13208,12 @@
         "Weight": 10,
         "Min Group Count": 8,
         "Max Group Count": 8
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityLizard",
+        "Weight": 20,
+        "Min Group Count": 1,
+        "Max Group Count": 4
       }
     ],
     "Spawn Biome": false,
@@ -13137,10 +13240,10 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "RARE",
-      "FOREST",
-      "MOUNTAIN",
       "SPOOKY",
+      "RARE",
+      "MOUNTAIN",
+      "FOREST",
       "DENSE"
     ],
     "BiomeManager Entries": {},
@@ -13198,12 +13301,6 @@
         "Weight": 9,
         "Min Group Count": 1,
         "Max Group Count": 3
-      },
-      {
-        "Entity Class": "com.bewitchment.common.entity.living.EntityLizard",
-        "Weight": 20,
-        "Min Group Count": 1,
-        "Max Group Count": 4
       },
       {
         "Entity Class": "com.bewitchment.common.entity.living.EntityOwl",
@@ -13304,6 +13401,12 @@
         "Max Group Count": 8
       },
       {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityWerewolf",
+        "Weight": 1,
+        "Min Group Count": 1,
+        "Max Group Count": 4
+      },
+      {
         "Entity Class": "com.bewitchment.common.entity.spirit.demon.EntityDruden",
         "Weight": 1,
         "Min Group Count": 0,
@@ -13324,6 +13427,12 @@
         "Weight": 10,
         "Min Group Count": 8,
         "Max Group Count": 8
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityLizard",
+        "Weight": 20,
+        "Min Group Count": 1,
+        "Max Group Count": 4
       }
     ],
     "Spawn Biome": false,
@@ -13350,12 +13459,12 @@
     "Enable Rain": true,
     "Enable Snow": true,
     "Dictionary Types": [
-      "SNOWY",
-      "COLD",
       "RARE",
-      "FOREST",
+      "SNOWY",
       "MOUNTAIN",
-      "CONIFEROUS"
+      "FOREST",
+      "CONIFEROUS",
+      "COLD"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -13426,12 +13535,6 @@
         "Max Group Count": 3
       },
       {
-        "Entity Class": "com.bewitchment.common.entity.living.EntityLizard",
-        "Weight": 20,
-        "Min Group Count": 1,
-        "Max Group Count": 4
-      },
-      {
         "Entity Class": "com.bewitchment.common.entity.living.EntityOwl",
         "Weight": 20,
         "Min Group Count": 1,
@@ -13530,6 +13633,12 @@
         "Max Group Count": 8
       },
       {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityWerewolf",
+        "Weight": 1,
+        "Min Group Count": 1,
+        "Max Group Count": 4
+      },
+      {
         "Entity Class": "com.bewitchment.common.entity.spirit.demon.EntityDruden",
         "Weight": 1,
         "Min Group Count": 0,
@@ -13550,6 +13659,12 @@
         "Weight": 10,
         "Min Group Count": 8,
         "Max Group Count": 8
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityLizard",
+        "Weight": 20,
+        "Min Group Count": 1,
+        "Max Group Count": 4
       }
     ],
     "Spawn Biome": false,
@@ -13649,12 +13764,6 @@
         "Max Group Count": 3
       },
       {
-        "Entity Class": "com.bewitchment.common.entity.living.EntityLizard",
-        "Weight": 20,
-        "Min Group Count": 1,
-        "Max Group Count": 4
-      },
-      {
         "Entity Class": "com.bewitchment.common.entity.living.EntityOwl",
         "Weight": 20,
         "Min Group Count": 1,
@@ -13753,6 +13862,12 @@
         "Max Group Count": 8
       },
       {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityWerewolf",
+        "Weight": 1,
+        "Min Group Count": 1,
+        "Max Group Count": 4
+      },
+      {
         "Entity Class": "com.bewitchment.common.entity.spirit.demon.EntityDruden",
         "Weight": 1,
         "Min Group Count": 0,
@@ -13773,6 +13888,12 @@
         "Weight": 10,
         "Min Group Count": 8,
         "Max Group Count": 8
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityLizard",
+        "Weight": 20,
+        "Min Group Count": 1,
+        "Max Group Count": 4
       }
     ],
     "Spawn Biome": false,
@@ -13800,8 +13921,8 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "RARE",
-      "FOREST",
       "HILLS",
+      "FOREST",
       "DENSE"
     ],
     "BiomeManager Entries": {},
@@ -13871,12 +13992,6 @@
         "Weight": 9,
         "Min Group Count": 1,
         "Max Group Count": 3
-      },
-      {
-        "Entity Class": "com.bewitchment.common.entity.living.EntityLizard",
-        "Weight": 20,
-        "Min Group Count": 1,
-        "Max Group Count": 4
       },
       {
         "Entity Class": "com.bewitchment.common.entity.living.EntityOwl",
@@ -13983,6 +14098,12 @@
         "Max Group Count": 8
       },
       {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityWerewolf",
+        "Weight": 1,
+        "Min Group Count": 1,
+        "Max Group Count": 4
+      },
+      {
         "Entity Class": "com.bewitchment.common.entity.spirit.demon.EntityDruden",
         "Weight": 1,
         "Min Group Count": 0,
@@ -14003,6 +14124,12 @@
         "Weight": 10,
         "Min Group Count": 8,
         "Max Group Count": 8
+      },
+      {
+        "Entity Class": "com.bewitchment.common.entity.living.EntityLizard",
+        "Weight": 20,
+        "Min Group Count": 1,
+        "Max Group Count": 4
       }
     ],
     "Spawn Biome": false,
@@ -14029,9 +14156,9 @@
     "Enable Rain": true,
     "Enable Snow": false,
     "Dictionary Types": [
-      "SPARSE",
       "RARE",
-      "MOUNTAIN"
+      "MOUNTAIN",
+      "SPARSE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -14068,12 +14195,6 @@
       {
         "Entity Class": "epicsquid.mysticalworld.entity.EntityOwl",
         "Weight": 9,
-        "Min Group Count": 1,
-        "Max Group Count": 3
-      },
-      {
-        "Entity Class": "com.crowsofwar.avatar.common.entity.mob.EntitySkyBison",
-        "Weight": 5,
         "Min Group Count": 1,
         "Max Group Count": 3
       }
@@ -14199,11 +14320,11 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "DRY",
-      "SPARSE",
-      "HOT",
-      "SAVANNA",
       "RARE",
-      "MOUNTAIN"
+      "SAVANNA",
+      "HOT",
+      "MOUNTAIN",
+      "SPARSE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -14371,11 +14492,11 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "DRY",
-      "SPARSE",
-      "HOT",
-      "SAVANNA",
       "RARE",
-      "HILLS"
+      "HILLS",
+      "SAVANNA",
+      "HOT",
+      "SPARSE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -14543,10 +14664,10 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "DRY",
-      "SPARSE",
-      "HOT",
       "RARE",
-      "MOUNTAIN"
+      "HOT",
+      "MOUNTAIN",
+      "SPARSE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -14678,10 +14799,10 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "DRY",
-      "SPARSE",
-      "HOT",
       "RARE",
-      "HILLS"
+      "HILLS",
+      "HOT",
+      "SPARSE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [
@@ -14813,10 +14934,10 @@
     "Enable Snow": false,
     "Dictionary Types": [
       "DRY",
-      "SPARSE",
-      "HOT",
       "RARE",
-      "MOUNTAIN"
+      "HOT",
+      "MOUNTAIN",
+      "SPARSE"
     ],
     "BiomeManager Entries": {},
     "Spawnable Creatures": [

@@ -9,7 +9,7 @@
         {
             "type": "quest",
             "title": "Darkosto's Birthday",
-            "trigger": "heavens:bookchap4/17offeringtable",
+            "trigger": "heavens:bookchap4/18birthing",
             "text": "While the old $(item)Ritual Table$() can be used to summon many creatures, there are some more exotic beasts, such as the $(thing)Frogs$() we need, that are out of its reach. For those, you'll need an $(item)Altar of Birthing$() Structure. Every creature created with this altar will require a $(item)Spirit of Birthing$() - obtained by breeding animals with a slight excess of $(thing)Aura$()."
         },
         {

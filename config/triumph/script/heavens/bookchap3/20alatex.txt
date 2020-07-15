@@ -1,0 +1,21 @@
+setIcon(<mist:latex>)
+
+setTitle("Tap it!")
+
+setDescription("Use a Latex Pot on a Rubber tree to collect Latex, then process it into Rubber")
+
+addParent("heavens:bookchap3/20melter")
+
+setRequiresParents()
+
+setPos(232,-93)
+
+criteria1 = addCriteria("hasItems", "minecraft:inventory_changed")
+criteria1.addItem(<mist:latex_pot, count:1~>)
+criteria2 = addCriteria("hasItems2", "minecraft:inventory_changed")
+criteria2.addItem(<mist:latex, count:1~>)
+criteria3 = addCriteria("hasItems3", "minecraft:inventory_changed")
+criteria3.addItem(<thebetweenlands:items_misc, meta:23, count:1~>)
+
+addRewardItem(<mist:latex, count:8>)
+addRewardItem(<mist:latex_pot, count:2>)

@@ -8,12 +8,11 @@ import scripts.globals;
 import mods.naturesaura.Altar as NatureAltar;
 import mods.roots.Fey;
 import mods.aether_legacy.Enchanter;
+import mods.buildersbag;
 
 ////Variables
 val clayTile = <cathedral:firedtile>;
 val terracottaShingle = <quark:hardened_clay_tiles>;
-//val yabbaBarrel = <yabba:item_barrel>;
-//val yabbaBarrelCrate = <yabba:item_barrel>.withTag({BlockEntityTag: {Model: "crate", Skin: "minecraft:quartz_block_chiseled"}});
 val chest = <ore:chestWood>;
 val blockQuartz = <ore:blockQuartz>;
 val itemQuartz = <ore:gemQuartz>;
@@ -116,7 +115,8 @@ val horseArmourIron = <minecraft:iron_horse_armor>;
 val horseArmourGold = <minecraft:golden_horse_armor>;
 val horseArmourDiamond = <minecraft:diamond_horse_armor>;
 val crumblingCatalyst = <naturesaura:crushing_catalyst>;
-val gravesDust = <tombstone:crafting_ingredient:3>;
+val soulBead = <quark:soul_bead>;
+val bottledDarkness = <naturesaura:aura_bottle>.withTag({stored_type: "naturesaura:end"});
 val manaPowder = <botania:manaresource:23>;
 val radiantDust = <arcanearchives:radiant_dust>;
 val candleIron = <rustic:candle>;
@@ -136,6 +136,23 @@ val amplifier3 = <magicalsculpture:amplifier:2>;
 val amplifier4 = <magicalsculpture:amplifier:3>;
 val sculptureRelic = <magicalsculpture:relic:*>;
 val reincarnationDust = <magicalsculpture:reverser>;
+//builders bag
+val bBag1 = <buildersbag:builders_bag_tier_one>;
+val bBag2 = <buildersbag:builders_bag_tier_two>;
+val bBag3 = <buildersbag:builders_bag_tier_three>;
+val bBag4 = <buildersbag:builders_bag_tier_four>;
+val bBag5 = <buildersbag:builders_bag_tier_five>;
+val leather = <minecraft:leather>;
+val wisdomWoodPigmented = <wizardry:wisdom_wood_pigmented_planks>;
+val sapphire = <arcaneworld:sapphire>;
+val otherworldsCore = <contenttweaker:otherworlds_core>;
+val feyLeather = <roots:fey_leather>;
+val manaWeave = <botania:manaresource:22>;
+val stardust = <astralsorcery:itemcraftingcomponent:2>;
+val assemblyHalo = <botania:craftinghalo>;
+val goldPowder = <naturesaura:gold_powder>;
+val callingSpirit = <naturesaura:calling_spirit>;
+
 
 val doNotAddRepairRecipe = [
 	<mist:flint_and_stone>,
@@ -336,7 +353,7 @@ recipes.addShaped(amplifier4, [[amplifier, ingotSkies, amplifier], [ingotSkies, 
 
 //reincarnation powder
 recipes.remove(reincarnationDust);
-Fey.addRecipe("reincpowder", reincarnationDust * 3, [radiantDust, gravesDust, gravesDust, manaPowder, manaPowder]);
+Fey.addRecipe("reincpowder", reincarnationDust * 3, [radiantDust, soulBead, bottledDarkness, manaPowder, manaPowder]);
 
 //BS ore location hints
 oreHorizonite.addTooltip(format.gold("Found deep beneath the Crystal Dunes"));
@@ -377,3 +394,18 @@ recipes.addShaped(candleIron * 8, [[oreCandle], [ingotIron]]);
 recipes.addShaped(candleGold * 8, [[oreCandle], [ingotGold]]);
 recipes.addShaped(candleBrass * 8, [[oreCandle], [ingotBrass]]);
 recipes.addShaped(candleBrass * 4, [[itemString], [wax], [ingotBrass]]);
+
+//builders bags
+bBag1.addTooltip(format.blue("Shift-Right-Click to Open"));
+recipes.remove(bBag2);
+bBag2.addTooltip(format.blue("Shift-Right-Click to Open"));
+recipes.remove(bBag3);
+bBag3.addTooltip(format.blue("Shift-Right-Click to Open"));
+recipes.remove(bBag4);
+bBag4.addTooltip(format.blue("Shift-Right-Click to Open"));
+recipes.remove(bBag5);
+bBag5.addTooltip(format.blue("Shift-Click to Open"));
+buildersbag.addBagUpgradeRecipeShaped("b_bag_t2", bBag2, [[null, nacrePearl, null], [leather, bBag1, leather], [wisdomWoodPigmented, leather, wisdomWoodPigmented]]);
+buildersbag.addBagUpgradeRecipeShaped("b_bag_t3", bBag3, [[null, otherworldsCore, null], [leather, bBag2, leather], [sapphire, leather, sapphire]]);
+buildersbag.addBagUpgradeRecipeShaped("b_bag_t4", bBag4, [[null, assemblyHalo, null], [manaWeave, bBag3, manaWeave], [stardust, manaWeave, stardust]]);
+buildersbag.addBagUpgradeRecipeShaped("b_bag_t5", bBag5, [[null, callingSpirit, null], [feyLeather, bBag1, feyLeather], [goldPowder, feyLeather, goldPowder]]);
