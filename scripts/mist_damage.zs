@@ -17,7 +17,6 @@ events.onEntityLivingAttacked(function(event as EntityLivingAttackedEvent){
 	] as IEntityDefinition[];
 	for entityCheck in entities {
 		if(!isNull(event.entity.definition) && event.entity.definition.id == entityCheck.id){
-			print(event.damageSource.damageType);
 			if(event.damageSource.damageType == "mist.in_fog"){
 				event.cancel();
 			}
