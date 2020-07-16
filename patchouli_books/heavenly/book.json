@@ -6,5 +6,9 @@
 	"model": "patchouli:book_cyan",
 	"advancement_namespaces": [
 		"heavens"
-	]
+	],
+	"macros": {
+		"$(comm)" : "$(thing)$(o)",
+		"$(numli)" : "$(br)$(l)"
+	}
 }

@@ -1,0 +1,51 @@
+{
+    "name": "Multiplayer: How to Co-op",
+    "icon": "botania:cosmetic:30",
+    "category": "collected_knowledge",
+    "sortnum": 0,
+    "pages": [
+        {
+            "type": "text",
+            "text": "When playing co-op with other players, there are $(l)3 team mechanics$() you need to setup to properly work together.$(br2)Click the team types below to jump to the page detailing setup for each one:$(li)$(l:collected_knowledge/coop#islands)Void Islands$()$(li)$(l:collected_knowledge/coop#ftb)FTB Teams (Chunk Loading)$()$(li)$(l:collected_knowledge/coop#together)Advancements/Quests$()"
+        },
+        {
+            "type": "empty"
+        },
+        {
+            "type": "text",
+            "anchor": "islands",
+            "title": "Void Islands",
+            "text": "To create a multiplayer co-op island, perform the following steps:$(numli)1.$() First Player 1 ($(item)P1$()) must run the command $(comm)/island create$(). If an island has already been created, skip to step 2.$(numli)2.$() $(item)P1$() must run the command $(comm)/island invite <username>$() for each other player they wish to team up with, where $(o)<username>$() is the name of the players to be invited."
+        },
+        {
+            "type": "text",
+            "text": "$(l)3.$() Invited players must run the command $(comm)/island join$() to accept the invitation. Upon accepting, they will be teleported directly to the island."
+        },
+        {
+            "type": "text",
+            "anchor": "ftb",
+            "title": "FTB Teams",
+            "text": "If you wish to $(thing)Chunkload$() your island, you'll need to make use of the FTB Teams system. This is entirely GUI based, and is very simple to setup using the following steps:$(numli)1.$()Select \"My Team\" button in top left of inventory.$(numli)2.$() $(thing)P1$() selects \"Create a New Team\", naming it and choosing a colour.$(numli)3.$() At this point, there are two options - $(thing)P1$() can invite other players from the $(l)Members$() "
+        },
+        {
+            "type": "text",
+            "text": "section by clicking on their names, OR, other players can request to join by selecting the team from the list of teams.$(numli)4.$() To confirm the other players' addition to the team, $(thing)P1$() must approve join requests, or other players must accept invites, depending on which method was used at step 3.$(br2)Images over page."
+        },
+        {
+            "type": "image",
+            "images": [
+                "books:templates/ftb_teams_button.png",
+                "books:templates/ftb_teams_gui_1.png"
+            ]
+        },
+        {
+            "type": "empty"
+        },
+        {
+            "type": "text",
+            "anchor": "together",
+            "title": "Advancements/Quests",
+            "text": "In order to sync your advancements, and by extension your progress through this book, your team will need to perform the following:$(numli)1.$()$(thing)P1$() must use the command $(comm)/tf invite <username>$() to invite each other player to the team.$(numli)2. $()Other players must use the command $(comm)/tf accept <p1's username>$() to accept the invitation.$(br)In the event progress is not synced, you can use $(comm)/tf forcesync$()"
+        }
+    ]
+}
