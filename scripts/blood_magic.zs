@@ -123,8 +123,8 @@ recipes.addShaped(alchemyTable, [[vial, carpetRed, vial], [scornedBricks, alchem
 //arcane ash
 TartaricForge.removeRecipe([redstone, bonemeal, gunpowder, charcoal]);
 TartaricForge.addRecipe(arcaneAsh, [redstone, spectralDust, gunpowder, charcoal], 240, 50);
-TartaricForge.addRecipe(arcaneAsh, [redstone, spectralDust, woodAsh], 0, 0);
-TartaricForge.addRecipe(arcaneAsh, [redstone, spectralDust, ash], 0, 0);
+TartaricForge.addRecipe(arcaneAsh, [redstone, spectralDust, woodAsh], 240, 25);
+TartaricForge.addRecipe(arcaneAsh, [redstone, spectralDust, ash], 240, 35);
 
 //plant oil
 AlchemyTable.removeRecipe([<minecraft:potato>, <minecraft:potato>, bonemeal]);
