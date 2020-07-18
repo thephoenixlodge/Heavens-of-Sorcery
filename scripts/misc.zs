@@ -408,4 +408,4 @@ bBag5.addTooltip(format.blue("Shift-Click to Open"));
 buildersbag.addBagUpgradeRecipeShaped("b_bag_t2", bBag2, [[null, nacrePearl, null], [leather, bBag1, leather], [wisdomWoodPigmented, leather, wisdomWoodPigmented]]);
 buildersbag.addBagUpgradeRecipeShaped("b_bag_t3", bBag3, [[null, otherworldsCore, null], [leather, bBag2, leather], [sapphire, leather, sapphire]]);
 buildersbag.addBagUpgradeRecipeShaped("b_bag_t4", bBag4, [[null, assemblyHalo, null], [manaWeave, bBag3, manaWeave], [stardust, manaWeave, stardust]]);
-buildersbag.addBagUpgradeRecipeShaped("b_bag_t5", bBag5, [[null, callingSpirit, null], [feyLeather, bBag1, feyLeather], [goldPowder, feyLeather, goldPowder]]);
+buildersbag.addBagUpgradeRecipeShaped("b_bag_t5", bBag5, [[null, callingSpirit, null], [feyLeather, bBag4, feyLeather], [goldPowder, feyLeather, goldPowder]]);
