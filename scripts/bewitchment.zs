@@ -28,6 +28,11 @@ val treeSeedJuniper = <bewitchment:juniper_berries>;
 val treeSeedElder = <bewitchment:elderberries>;
 val treeSeedDragonBlood = <bewitchment:dragonsbloodseed>;
 val treeSeedCypress = <bewitchment:cypressseed>;
+val furnaceMW = <mist:furnace>;
+val scornedBrick = <bewitchment:scorned_bricks>;
+val slateT1 = <bloodmagic:slate>;
+val ironGrate = <quark:grate>;
+val witchesOven = <bewitchment:witches_oven>;
 
 
 //Chalk
@@ -52,3 +57,7 @@ AlchemyArray.addRecipe(treeSeedJuniper, seedDry, cloudyOil, "bloodmagic:textures
 AlchemyArray.addRecipe(treeSeedElder, seedGolden, birchSoul, "bloodmagic:textures/models/AlchemyArrays/WaterSigil.png");
 AlchemyArray.addRecipe(treeSeedDragonBlood, seedScorched, acaciaResin, "bloodmagic:textures/models/AlchemyArrays/WaterSigil.png");
 AlchemyArray.addRecipe(treeSeedCypress, seedBoreal, spruceHeart, "bloodmagic:textures/models/AlchemyArrays/WaterSigil.png");
+
+//witches oven
+recipes.remove(witchesOven);
+TartaricForge.addRecipe(witchesOven, [furnaceMW, scornedBrick, slateT1, ironGrate], 20, 10);
