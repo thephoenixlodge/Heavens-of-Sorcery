@@ -148,6 +148,24 @@ val oreCandle = <ore:candle>;
 //rubber block
 val blockRubberMW = <mist:rubber_block>;
 val blockRubberBL = <thebetweenlands:rubber_block>;
+//mud
+val mudBL = <thebetweenlands:mud>;
+val mudEW = <earthworks:block_mud>;
+val mudBricks = <thebetweenlands:mud_bricks>;
+val mudTiles = <thebetweenlands:mud_tiles>;
+val mudTilesD = <thebetweenlands:mud_tiles:1>;
+val mudTilesC = <thebetweenlands:mud_tiles:2>;
+val mudTilesCD = <thebetweenlands:mud_tiles:3>;
+val mudCarved = <thebetweenlands:mud_bricks_carved>;
+val mudCarvedS1 = <thebetweenlands:mud_bricks_carved:1>;
+val mudCarvedS2 = <thebetweenlands:mud_bricks_carved:2>;
+val mudCarvedS3 = <thebetweenlands:mud_bricks_carved:3>;
+val mudCarvedS4 = <thebetweenlands:mud_bricks_carved:4>;
+val mudCarvedE = <thebetweenlands:mud_bricks_carved:5>;
+val mudCarvedES1 = <thebetweenlands:mud_bricks_carved:6>;
+val mudCarvedES2 = <thebetweenlands:mud_bricks_carved:7>;
+val mudCarvedES3 = <thebetweenlands:mud_bricks_carved:8>;
+val mudCarvedES4 = <thebetweenlands:mud_bricks_carved:9>;
 
 //Add group for Sapphire Blocks
 //Carving.addGroup("blockSapphire");
@@ -341,3 +359,25 @@ recipes.remove(blockRubberMW);
 Carving.addGroup("rubber-block");
 Carving.addVariation("rubber-block", blockRubberBL);
 Carving.addVariation("rubber-block", blockRubberMW);
+
+//Mud
+Carving.addGroup("mud");
+Carving.addVariation("mud", mudBL);
+Carving.addVariation("mud", mudEW);
+Carving.addGroup("mud-brick");
+Carving.addVariation("mud-brick", mudBricks);
+Carving.addVariation("mud-brick", mudTiles);
+Carving.addVariation("mud-brick", mudTilesD);
+Carving.addVariation("mud-brick", mudTilesC);
+Carving.addVariation("mud-brick", mudTilesCD);
+Carving.addGroup("mud-carved");
+Carving.addVariation("mud-carved", mudCarved);
+Carving.addVariation("mud-carved", mudCarvedS1);
+Carving.addVariation("mud-carved", mudCarvedS2);
+Carving.addVariation("mud-carved", mudCarvedS3);
+Carving.addVariation("mud-carved", mudCarvedS4);
+Carving.addVariation("mud-carved", mudCarvedE);
+Carving.addVariation("mud-carved", mudCarvedES1);
+Carving.addVariation("mud-carved", mudCarvedES2);
+Carving.addVariation("mud-carved", mudCarvedES3);
+Carving.addVariation("mud-carved", mudCarvedES4);
