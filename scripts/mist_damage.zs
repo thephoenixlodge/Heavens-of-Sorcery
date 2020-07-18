@@ -7,8 +7,6 @@ import crafttweaker.damage.IDamageSource;
 import crafttweaker.entity.IEntityLivingBase;
 import crafttweaker.entity.IEntityDefinition;
 
-////Variables
-
 events.onEntityLivingAttacked(function(event as EntityLivingAttackedEvent){
 	val entities = [
 		<entity:meecreeps:meecreeps>,
