@@ -1,6 +1,7 @@
 ////imports
 import mods.botania.PureDaisy;
 import mods.bloodmagic.TartaricForge;
+import mods.bloodmagic.AlchemyArray;
 
 
 
@@ -16,6 +17,17 @@ val jarUnfired = <bewitchment:unfired_jar>;
 val woodAsh = <bewitchment:wood_ash>;
 val ritualChalk = <bewitchment:ritual_chalk>;
 val birchSoul = <bewitchment:birch_soul>;
+val spruceHeart = <bewitchment:spruce_heart>;
+val cloudyOil = <bewitchment:cloudy_oil>;
+val acaciaResin =  <bewitchment:acacia_resin>;
+val seedDry = <botania:grassseeds:3>;
+val seedBoreal = <botania:grassseeds:1>;
+val seedGolden = <botania:grassseeds:4>;
+val seedScorched = <botania:grassseeds:6>;
+val treeSeedJuniper = <bewitchment:juniper_berries>;
+val treeSeedElder = <bewitchment:elderberries>;
+val treeSeedDragonBlood = <bewitchment:dragonsbloodseed>;
+val treeSeedCypress = <bewitchment:cypressseed>;
 
 
 //Chalk
@@ -34,3 +46,9 @@ recipes.addShaped(jarUnfired * 2, [[cobBall], [cobBall]]);
 
 //ritual chalk
 TartaricForge.addRecipe(ritualChalk, [birchSoul, chalk, woodAsh, woodAsh], 240, 70);
+
+//tree seeds
+AlchemyArray.addRecipe(treeSeedJuniper, seedDry, cloudyOil, "bloodmagic:textures/models/AlchemyArrays/LightSigil.png");
+AlchemyArray.addRecipe(treeSeedElder, seedGolden, birchSoul, "bloodmagic:textures/models/AlchemyArrays/LightSigil.png");
+AlchemyArray.addRecipe(treeSeedDragonBlood, seedScorched, acaciaResin, "bloodmagic:textures/models/AlchemyArrays/LightSigil.png");
+AlchemyArray.addRecipe(treeSeedCypress, seedBoreal, spruceHeart, "bloodmagic:textures/models/AlchemyArrays/LightSigil.png");

@@ -134,9 +134,9 @@ AlchemyTable.removeRecipe([<minecraft:beetroot>, <minecraft:beetroot>, <minecraf
 AlchemyTable.addRecipe(plantOil, [sesameOil, bonemeal], 100, 100, 0);
 AlchemyTable.addRecipe(plantOil, [edibleOil, bonemeal], 100, 100, 0);
 
-//graves dust bonus recipes
+//spectral dust bonus recipes
 AlchemyTable.addRecipe(spectralDust * 4, [bottledGhosts, dustFairy, bone, rottenFlesh], 100, 100, 2);
-AlchemyTable.addRecipe(spectralDust * 20, [bottledGhosts, dustSpectral, ebbOfDeath], 150, 200, 2);
+AlchemyTable.addRecipe(spectralDust * 6, [bottledGhosts, dustSpectral, ebbOfDeath], 150, 200, 2);
 
 //scorned bricks
 recipes.remove(scornedBricks);
