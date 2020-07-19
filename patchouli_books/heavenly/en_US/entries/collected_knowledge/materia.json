@@ -1,0 +1,217 @@
+{
+    "name": "Material Multiplication",
+    "icon": "contenttweaker:metallia_awakened",
+    "category": "collected_knowledge",
+    "advancement": "heavens:bookchap4/03terrestrialagglomeration",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Sometimes it becomes tiresome repeatedly harvesting materials the way you've found them before. However, there exists a malleable ore, only summonable by magical means, which can be used to replicate various materials.$(br2)This fantastic ore is known as $(thing)Materia$(), and comes in two varieties - $(item)Metallia$() and $(item)Precia$()."
+        },
+        {
+            "type": "text",
+            "text": "$(l)$(item)Metallia$() is specifically able to bind to various metals which normally occur naturally, such as $(item)Iron$(), $(item)Gold$(), $(item)Niobium$() and many more. Manufactured metals such as $(item)Terrasteel$() cannot be reproduced this way.$(br2)$(l)$(item)Precia$() on the other hand replicates more crystalline structures, such as $(item)Diamonds$() and $(item)Sapphires$()."
+        },
+        {
+            "type": "text",
+            "title": "Collecting Materia",
+            "text": "$(item)Metallia$() and $(item)Precia ores$() do not occur naturally in any dimension, however you may occasionally find some left behind in $(thing)dungeon chests$().$(br2)The primary way to collect them however, is magical in nature. An $(item)Orechid$() will transform nearby $(item)Stone$() into these two ores, as will a $(thing)Mineralis Starlight Ritual$()."
+        },
+        {
+            "type": "image",
+            "title": "Materia Ore Creation",
+            "images": [
+                "books:templates/orechid.png",
+                "books:templates/mineralis.png"
+            ]
+        },
+        {
+            "type": "text",
+            "title": "Enhancing Materia",
+            "text": "Once you've got your $(item)Mundane Materia$() in hand, you'll need to awaken it using $(thing)Mana$().$(br2)As you gain access to more processes, further refinements will become available to increase your material yield."
+        },
+        {
+            "type": "mana_pool",
+            "heading": "Awakening Materia",
+            "input": "contenttweaker:metallia_mundane",
+            "output": "contenttweaker:metallia_awakened",
+            "input2": "contenttweaker:precia_mundane",
+            "output2": "contenttweaker:precia_awakened"
+        },
+        {
+            "type": "text",
+            "title": "Materia Catalysts",
+            "text": "With your base $(item)Materia$() enhanced, the next step is to attune it to the material you wish to produce. This is done with the $(item)Terrestrial Agglomeration Plate$(), though using a different structure than when making Terrasteel.$(br)A core part of this structure is the $(item)Materia Catalysts$() - $(item)Lunar Stone$() based for $(item)Metallia$() processing, and $(item)Turquoise Stone$() bsed for $(item)Precia$() processing."
+        },
+        {
+            "type": "altar_celestial",
+            "output_item": "contenttweaker:catalyst_inert_2#2",
+            "item2": "contenttweaker:rune_starlight",
+            "item4": "blue_skies:falsite_ingot",
+            "item5": "naturesaura:token_joy",
+            "item6": "blue_skies:falsite_ingot",
+            "item8": "botania:rune:8",
+            "item10": "blue_skies:turquoise_stonebrick",
+            "item11": "blue_skies:turquoise_stonebrick",
+            "item12": "blue_skies:turquoise_stonebrick",
+            "item13": "blue_skies:turquoise_stonebrick",
+            "item14": "blue_skies:turquoise_stonebrick",
+            "item15": "blue_skies:turquoise_stonebrick",
+            "item20": "blue_skies:turquoise_stonebrick",
+            "item21": "blue_skies:turquoise_stonebrick"
+        },
+        {
+            "type": "altar_celestial",
+            "output_item": "contenttweaker:catalyst_inert#2",
+            "item2": "contenttweaker:rune_starlight",
+            "item4": "blue_skies:falsite_ingot",
+            "item5": "naturesaura:token_joy",
+            "item6": "blue_skies:falsite_ingot",
+            "item8": "botania:rune:8",
+            "item10": "blue_skies:lunar_stonebrick",
+            "item11": "blue_skies:lunar_stonebrick",
+            "item12": "blue_skies:lunar_stonebrick",
+            "item13": "blue_skies:lunar_stonebrick",
+            "item14": "blue_skies:lunar_stonebrick",
+            "item15": "blue_skies:lunar_stonebrick",
+            "item20": "blue_skies:lunar_stonebrick",
+            "item21": "blue_skies:lunar_stonebrick"
+        },
+        {
+            "type": "text",
+            "text": "When crafted initially, $(item)Materia Catalysts$() are $(thing)Inert$(). To be used in the $(thing)Materia Agglomeration$() process, they must first be $(thing)Purified$() by a $(item)Pure Daisy$(), then $(thing)Starlit$() by a $(item)Collector Crystal$().$(br2)This process must be repeated after each $(thing)Agglomeration$(), as the energy stored in the $(item)Catalysts$() is consumed, reverting them to the $(thing)Inert$() state."
+        },
+        {
+            "type": "pure_daisy",
+            "heading": "Purifying Catalysts",
+            "input": "contenttweaker:catalyst_inert",
+            "output": "contenttweaker:catalyst_pure",
+            "input2": "contenttweaker:catalyst_inert_2",
+            "output2": "contenttweaker:catalyst_pure_2"
+        },
+        {
+            "type": "starlight_trans",
+            "heading": "Starlight Activation",
+            "input": "contenttweaker:catalyst_pure",
+            "output_item": "contenttweaker:catalyst_starlit"
+        },
+        {
+            "type": "starlight_trans",
+            "heading": "Starlight Activation",
+            "input": "contenttweaker:catalyst_pure_2",
+            "output_item": "contenttweaker:catalyst_starlit_2"
+        },
+        {
+            "type": "text",
+            "title": "Agglomeration",
+            "text": "Using this Agglomeration setup, $(item)Materia$() can be attuned to specific materials. This is done with 1 piece of the target material, some $(item)Powder of the Bountiful Core$(), and $(item)Ember Crystals$().$(br2)Remember, $(item)Metallia$() combines with natural metals on a $(item)Lunar Stone$() Agglomeration structure, while $(item)Precia$() combines with crystalline materials on a $(item)Turquoise Stone$() Agglomeration structure."
+        },
+        {
+            "type": "multiblock",
+            "name": "Precia Agglomeration",
+            "multiblock": {
+                "pattern": [
+                    [ "   ", " 0 ", "   " ],
+                    [ "RLR", "LRL", "RLR" ]
+                ],
+                "mapping": {
+                    " ": "ANY",
+                    "0": "botania:terraplate",
+                    "L": "contenttweaker:catalyst_starlit_2",
+                    "R": "blue_skies:turquoise_stonebrick"
+                },
+                "symmetrical": true,
+                "offset"     : [0, 0, 0],
+                "view_offset": [0, 0, 0]
+            },
+            "text": "5 $(item)Turquoise Stone Bricks$(), 4 $(item)Starlit Catalysts$()"
+        },
+        {
+            "type": "agglomeration",
+            "heading": "Precia Agglomeration",
+            "output_item": "contenttweaker:material_part:46",
+            "item1": "naturesaura:effect_powder{effect: \"naturesaura:ore_spawn\"}",
+            "item2": "minecraft:diamond",
+            "item3": "embers:crystal_ember",
+            "item4": "contenttweaker:precia_awakened",
+            "description": "Materia Catalysts revert to Inert state"
+        },
+        {
+            "type": "multiblock",
+            "name": "Metallia Agglomeration",
+            "multiblock": {
+                "pattern": [
+                    [ "   ", " 0 ", "   " ],
+                    [ "RLR", "LRL", "RLR" ]
+                ],
+                "mapping": {
+                    " ": "ANY",
+                    "0": "botania:terraplate",
+                    "L": "contenttweaker:catalyst_starlit",
+                    "R": "blue_skies:lunar_stonebrick"
+                },
+                "symmetrical": true,
+                "offset"     : [0, 0, 0],
+                "view_offset": [0, 0, 0]
+            },
+            "text": "5 $(item)Lunar Stone Bricks$(), 4 $(item)Starlit Catalysts$()"
+        },
+        {
+            "type": "agglomeration",
+            "heading": "Metallia Agglomeration",
+            "output_item": "contenttweaker:material_part:0",
+            "item1": "naturesaura:effect_powder{effect: \"naturesaura:ore_spawn\"}",
+            "item2": "minecraft:iron_ingot",
+            "item3": "embers:crystal_ember",
+            "item4": "contenttweaker:metallia_awakened",
+            "description": "Materia Catalysts revert to Inert state"
+        },
+        {
+            "type": "tree_ritual",
+            "recipe": "ore_spawn_powder",
+            "heading": "Bountiful Core Powder"
+        },
+        {
+            "type": "text",
+            "title": "Using Specific Materia",
+            "text": "Now that you've attuned the $(item)Materia$() to a specific material, you'll need to process it further in order to turn it into that material.$(br2)One option, is to simply add it to a $(item)Cauldron$() of $(item)Liquid Mana$(), immediately producing 3 of the attuned material."
+        },
+        {
+            "type": "cauldron",
+            "heading": "Processing Materia",
+            "input_item": "contenttweaker:material_part:0",
+            "input_fluid": "forge:bucketfilled{FluidName: \"mana_fluid\", Amount: 1000}",
+            "output_item": "minecraft:iron_ingot#3",
+            "description": "Consumes a full bucket of Liquid Mana"
+        },
+        {
+            "type": "text",
+            "text": "Alternatively, a $(item)Lightwell$() will expose your $(item)Materia$() to $(thing)Starlight$(), producing $(item)Etheric Liquid$(). This liquid can then be transferred to a $(item)Containment Chalice$(), where it will react with any $(item)Liquid Mana$() in nearby $(item)Containment Chalices$() to produce the material."
+        },
+        {
+            "type": "image",
+            "title": "Etheric Materia Reaction",
+            "images": [
+                "books:templates/chalices.png"
+            ]
+        },
+        {
+            "type": "altar_iridescent",
+            "output_item": "astralsorcery:blockchalice",
+            "item8": "astralsorcery:itemcraftingcomponent:1",
+            "item14": "minecraft:gold_ingot",
+            "item15": "minecraft:gold_ingot",
+            "item20": "minecraft:gold_ingot",
+            "item21": "minecraft:gold_ingot",
+            "item22": "astralsorcery:itemcraftingcomponent:1",
+            "item23": "astralsorcery:itemcraftingcomponent:4",
+            "item24": "astralsorcery:itemcraftingcomponent:4",
+            "item25": "astralsorcery:blockblackmarble",
+            "relay1": "astralsorcery:itemcraftingcomponent:0",
+            "relay2": "astralsorcery:itemcraftingcomponent:0",
+            "relay3": "astralsorcery:itemcraftingcomponent:0",
+            "relay4": "astralsorcery:itemcraftingcomponent:0",
+            "relay5": "astralsorcery:itemcraftingcomponent:0"
+        }
+    ]
+}
