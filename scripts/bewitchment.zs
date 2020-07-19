@@ -9,6 +9,7 @@ import mods.bloodmagic.AlchemyArray;
 val chalk = <earthworks:block_chalk>;
 val dustChalk = <earthworks:item_chalk>;
 val limestone = <ore:stoneLimestone>;
+val limestoneBL = <thebetweenlands:limestone>;
 val cobBall = <earthworks:item_cob>;
 val cob = <earthworks:block_cob>;
 val mudBrick = <thebetweenlands:items_misc:10>;
@@ -36,6 +37,7 @@ val witchesOven = <bewitchment:witches_oven>;
 
 
 //Chalk
+limestone.add(limestoneBL);
 PureDaisy.addRecipe(limestone, chalk);
 recipes.addShapeless(dustChalk * 4, [chalk]);
 
