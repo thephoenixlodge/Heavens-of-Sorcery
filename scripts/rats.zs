@@ -106,6 +106,8 @@ val ratglovePetals = <rats:ratglove_petals>;
 val ratBotHead = <rats:marbled_cheese_rat_head>;
 val ratSpiritFlame = <rats:ratlantean_flame>;
 val ratToga = <rats:rat_toga>;
+val slime = <ore:slimeball>;
+val manaWeave = <botania:manaresource:22>;
 //upgrades
 val upgradeBasic = <rats:rat_upgrade_basic>;
 val upgradeSpeed = <rats:rat_upgrade_speed>;
@@ -159,6 +161,8 @@ val upgradeRobot = <rats:rat_upgrade_ratinator>;
 val upgradePsychic = <rats:rat_upgrade_psychic>;
 val upgradeNonBeliever = <rats:rat_upgrade_nonbeliever>;
 val upgradeCombined = <rats:rat_upgrade_combined>;
+val upgradeReplanter = <rats:rat_upgrade_replanter>;
+val upgradeJuryRigged = <rats:rat_upgrade_jury_rigged>;
 
 var mapUpgradeRecipes = {} as IIngredient[][IItemStack];
 mapUpgradeRecipes[upgradeBasic] = [gemTurquoise * 4, cheese * 4];
@@ -211,7 +215,8 @@ mapUpgradeRecipes[upgradeNonBeliever] = [upgradeGod * 4, ratlantisAvatar, arcane
 mapUpgradeRecipes[upgradeCombined] = [upgradeBasic2, feralClaw * 2, gemRatlantis * 4, marbledRaw * 4];
 mapUpgradeRecipes[gemRatlantis] = [gemDiopside * 8, ratglovePetals];
 mapUpgradeRecipes[ratlantisAvatar] = [gemRatlantis, psiBrain, arcaneTech, ratBotHead, ratSpiritFlame, feralClaw, ratToga, piratHat];
-
+mapUpgradeRecipes[upgradeReplanter] = [upgradeBasic, cheese * 2, seeds * 8];
+mapUpgradeRecipes[upgradeJuryRigged] = [upgradeBasic * 2, cheese * 8, manaWeave, slime * 2, gemPyrope * 2];
 
 //rat gems
 RatRecipes.removeGemcutterRatRecipe(gemRatGem);
