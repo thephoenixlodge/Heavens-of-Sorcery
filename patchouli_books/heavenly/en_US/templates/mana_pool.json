@@ -1,0 +1,92 @@
+{
+	"components": [
+		{
+			"type": "header",
+			"text": "#heading",
+			"x": -1,
+			"y": -1
+		},
+		{
+			"type": "image",
+			"image": "books:templates/wand_background.png",
+			"texture_width": 64,
+			"texture_height": 16,
+			"width": 64,
+			"height": 16,
+			"scale": 1.5,
+			"x": 10,
+			"y": 20
+		},
+		{
+			"type": "item",
+			"item": "#input",
+			"framed": "true",
+			"x": 10,
+			"y": 25
+		},
+		{
+			"type": "item",
+			"item": "#output",
+			"framed": "true",
+			"link_recipe": true,
+			"x": 90,
+			"y": 25
+		},
+		{
+			"type": "item",
+			"item": "botania:pool",
+			"framed": "false",
+			"x": 50,
+			"y": 35
+		},
+		{
+			"type": "header",
+			"text": "#heading2",
+			"x": -1,
+			"y": 55
+		},
+		{
+			"type": "image",
+			"image": "books:templates/wand_background.png",
+			"guard": "#output2->iexists",
+			"texture_width": 64,
+			"texture_height": 16,
+			"width": 64,
+			"height": 16,
+			"scale": 1.5,
+			"x": 10,
+			"y": 70
+		},
+		{
+			"type": "item",
+			"item": "#input2",
+			"framed": "true",
+			"guard": "#output2->iexists",
+			"x": 10,
+			"y": 75
+		},
+		{
+			"type": "item",
+			"item": "#output2",
+			"framed": "true",
+			"guard": "#output2->iexists",
+			"link_recipe": true,
+			"x": 90,
+			"y": 75
+		},
+		{
+			"type": "item",
+			"item": "botania:pool",
+			"framed": "false",
+			"guard": "#output2->iexists",
+			"x": 50,
+			"y": 85
+		},
+		{
+			"type": "text",
+			"text": "#description",
+			"x": 2,
+			"y": 105
+		}
+	]
+}

@@ -44,6 +44,14 @@
             "type": "crafting",
             "recipe": "botania:wands/twigwand_yellow_red",
             "recipe2": "botania:manaresource_3"
+        },
+        {
+            "type": "mana_pool",
+            "heading": "Mana Infusion",
+            "input": "mist:niobium_ingot",
+            "output": "botania:manaresource:0",
+            "input2": "wizardry:nacre_pearl",
+            "output2": "botania:manaresource:1"
         }
     ]
 }
