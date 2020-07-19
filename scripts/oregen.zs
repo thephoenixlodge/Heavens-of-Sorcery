@@ -11,6 +11,7 @@ import mods.botaniatweaks.AgglomerationRecipe;
 import mods.astralsorcery.Lightwell;
 import mods.astralsorcery.LiquidInteraction;
 import mods.astralsorcery.Altar;
+import mods.inspirations.Cauldron as CauldronCrafting;
 
 ////Variables
 //Multiblocks
@@ -38,6 +39,7 @@ val metalliaMundane = <contenttweaker:metallia_mundane>;
 val metalliaAwakened = <contenttweaker:metallia_awakened>;
 val preciaMundane = <contenttweaker:precia_mundane>;
 val preciaAwakened = <contenttweaker:precia_awakened>;
+val manaLiquid = <liquid:mana_fluid>;
 var arrayOresFromOrechid = [
 	"oreAluminum", "oreIron", "oreOsmium", "oreMythril", "oreInfusedFire",
 	"oreTin", "oreCertusQuartz", "oreMCropsEssence", "oreChimerite", "oreRuby",
@@ -257,8 +259,6 @@ preciousToPrecia[preciaPyrope] = [gemPyrope];
 preciousToPrecia[preciaTurquoise] = [gemTurquoise];
 preciousToPrecia[preciaCharoite] = [gemCharoite];
 preciousToPrecia[preciaMoonstone] = [gemMoonstone];
-//preciousToPrecia[preciaCrystalQuartz] = [gemCrystalQuartz];
-//preciousToPrecia[preciaWiserGem] = [gemWiserGem];
 preciousToPrecia[preciaQuicksilver] = [gemQuicksilver];
 preciousToPrecia[preciaAmber] = [gemAmber];
 preciousToPrecia[preciaValonite] = [gemValonite];
@@ -282,8 +282,6 @@ preciaToEtheric[preciaPyrope] = ethericPyrope;
 preciaToEtheric[preciaTurquoise] = ethericTurquoise;
 preciaToEtheric[preciaCharoite] = ethericCharoite;
 preciaToEtheric[preciaMoonstone] = ethericMoonstone;
-//preciaToEtheric[preciaCrystalQuartz] = ethericCrystalQuartz;
-//preciaToEtheric[preciaWiserGem] = ethericWiserGem;
 preciaToEtheric[preciaQuicksilver] = ethericQuicksilver;
 preciaToEtheric[preciaAmber] = ethericAmber;
 preciaToEtheric[preciaValonite] = ethericValonite;
@@ -315,6 +313,7 @@ for metallia, metal in metalToMetallia {
 	Agglomeration.addRecipe(ingotRecipe);
 	//var clusterRecipe = AgglomerationRecipe.create().output(metallia * 2).inputs([powderBountiful, metal[1], emberCrystal]).manaCost(60000).multiblock(multiblockLunar);
 	//Agglomeration.addRecipe(clusterRecipe);
+	CauldronCrafting.addFluidRecipe(metal[0] * 3, metallia, manaLiquid, 4);
 	Lightwell.addLiquefaction(metallia, metalliaToEtheric[metallia], 0.8F, 8, 0);
 	LiquidInteraction.addInteraction(liquidMana * 500, 0.4, metalliaToEtheric[metallia] * 200, 0.8, 100, metal[0]);
 	metalliaToEtheric[metallia].addTooltip(format.gold("Interacts with Liquid Mana in Containment Chalices"));
@@ -324,6 +323,7 @@ for metallia, metal in metalToMetallia {
 for precia, gem in preciousToPrecia {
 	var gemRecipe = AgglomerationRecipe.create().output(precia).inputs([powderBountiful, gem[0], emberCrystal, preciaAwakened]).manaCost(50000).multiblock(multiblockTurquoise);
 	Agglomeration.addRecipe(gemRecipe);
+	CauldronCrafting.addFluidRecipe(gem[0] * 3, precia, manaLiquid, 4);
 	Lightwell.addLiquefaction(precia, preciaToEtheric[precia], 0.8F, 8, 0);
 	LiquidInteraction.addInteraction(liquidMana * 500, 0.4, preciaToEtheric[precia] * 200, 0.8, 100, gem[0]);
 	preciaToEtheric[precia].addTooltip(format.gold("interacts with Liquid Mana in Containment Chalices"));
