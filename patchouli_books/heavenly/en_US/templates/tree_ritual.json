@@ -75,6 +75,13 @@
         {
             "type": "header",
             "text": "#name",
+            "guard": "#heading->exists->inv",
+            "x": -1,
+            "y": 0
+        },
+        {
+            "type": "header",
+            "text": "#heading",
             "x": -1,
             "y": 0
         },
