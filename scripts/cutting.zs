@@ -56,6 +56,6 @@ function addCuttingMeat(name as string, table as string, poolsAndDrops as int[][
 
 //table, {pool : {drop : [minCount, maxCount]}}
 addCuttingMeat("pig", "minecraft:entities/pig", {"main" : {<minecraft:porkchop> : [1, 3]}});
-addCuttingMeat("cow", "minecraft:entities/cow", {"main" : {<minecraft:beef> : [1, 3]}});
+//addCuttingMeat("cow", "minecraft:entities/cow", {"main" : {<minecraft:beef> : [1, 3]}}); ////Gah! was stopping leather from dropping!!
 addCuttingMeat("chicken", "minecraft:entities/chicken", {"main" : {<minecraft:chicken> : [1, 3]}});
 addCuttingMeat("sheep", "minecraft:entities/sheep", {"main" : {<minecraft:mutton> : [1, 3]}});

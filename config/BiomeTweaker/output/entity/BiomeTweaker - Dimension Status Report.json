@@ -381,6 +381,11 @@
     "Class": "teamroots.embers.entity.EntityAncientGolem"
   },
   {
+    "Name": "magma_worm",
+    "Registry ID": "embers:magma_worm",
+    "Class": "teamroots.embers.entity.EntityMagmaWorm"
+  },
+  {
     "Name": "MeeCreeps",
     "Registry ID": "meecreeps:meecreeps",
     "Class": "mcjty.meecreeps.entities.EntityMeeCreeps"

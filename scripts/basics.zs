@@ -139,6 +139,8 @@ recipes.addShapeless(dustIron, [dustTinyIron, dustTinyIron, dustTinyIron, dustTi
 recipes.addShaped(wandIronwood, [[null, null, stick], [null, stick, null], [plankIronwood, null, null]]);
 
 //alt furnace recipe
+recipes.removeByRecipeName("blue_skies:turquoise_furnace");
+recipes.removeByRecipeName("blue_skies:lunar_furnace");
 recipes.addShaped(furnaceBlock, [[cobbleTaiga, cobbleTaiga, cobbleTaiga], [clayBlock, null, clayBlock], [cobbleTaiga, cobbleTaiga, cobbleTaiga]]);
 
 //boneshard usage
