@@ -130,18 +130,6 @@
 	},
 	{
 		"dimension": 76,
-		"biometype": "COLD",
-		"mobs": [
-			{
-				"mob": "avatarmod:otterpenguin",
-				"weight": 5,
-				"groupcountmin": 1,
-				"groupcountmax": 4
-			}
-		]
-	},
-	{
-		"dimension": 76,
 		"biometype": "PLAINS",
 		"mobs": [
 			{
@@ -217,12 +205,6 @@
             {
                 "mob": "aether_legacy:swet",
                 "weight": 20,
-                "groupcountmin": 1,
-                "groupcountmax": 1
-            },
-            {
-                "mob": "avatarmod:skybison",
-                "weight": 5,
                 "groupcountmin": 1,
                 "groupcountmax": 1
             },

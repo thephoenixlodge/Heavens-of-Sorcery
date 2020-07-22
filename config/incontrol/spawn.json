@@ -96,8 +96,7 @@
 			"blue_skies:reindeer_bs",
 			"minecraft:squid",
 			"minecraft:wolf",
-			"bewitchment:toad",
-			"avatarmod:otterpenguin"
+			"bewitchment:toad"
 		],
 		"maxcount": 15,
 		"minheight": 110,
@@ -140,16 +139,6 @@
 		"dimension": 77,
 		"result": "deny"
 	},
-	{
-        "dimension": 3,
-        "mob": "avatarmod:skybison",
-        "mincount": {
-            "mob": "avatarmod:skybison",
-            "amount": 5,
-            "perplayer": true
-        },
-        "result": "deny"
-    },
     {
         "dimension": 3,
         "mob": "aether_legacy:swet",
