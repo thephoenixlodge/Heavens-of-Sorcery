@@ -33,7 +33,7 @@ function addCuttingMeat(name as string, table as string, poolsAndDrops as int[][
 			var minCount = count[0];
 			var maxCount = count[1];
 			var meta = drop.metadata;
-			lootPoolMeat.addItemEntryHelper(drop, 1, 0, [Functions.setMetadata(meta, meta), Functions.setCount(minCount, maxCount), Functions.lootingEnchantBonus(0, 1, 2), Functions.parse({"function": "minecraft:furnace_smelt","conditions": [{"properties": {"minecraft:on_fire": true}, "entity": "this", "condition": "minecraft:entity_properties"}]})], []);
+			lootPoolMeat.addItemEntryHelper(drop, 1, 0, [Functions.setMetadata(meta, meta), Functions.setCount(minCount, maxCount), Functions.lootingEnchantBonus(0, 1, 10), Functions.parse({"function": "minecraft:furnace_smelt","conditions": [{"properties": {"minecraft:on_fire": true}, "entity": "this", "condition": "minecraft:entity_properties"}]})], []);
 			lootPoolDefault.removeEntry(drop.definition.id);
 		}
 		for cuttingLevel, pool in lootPools {
