@@ -296,4 +296,3 @@ Mortar.addRecipe(flour, [wheat]);
 //alt way for dough
 CauldronCrafting.addFluidRecipe(dough, flour, water, 1);
 recipes.remove(dough);
-recipes.addShapeless(dough, [flour, water * 1000]);
