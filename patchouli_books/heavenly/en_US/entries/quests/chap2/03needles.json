@@ -14,7 +14,7 @@
         },
         {
             "type": "text",
-            "text": "To do this you will need a $(item)Syringe$(), and an $(item)Orb of Mana$(), both constructed of $(item)Glass$(). Combine these to crate a $(item)Mana Booster Lite$(), which you can use to directly inject the Mana into your body, enabling you to power spells."
+            "text": "To do this you will need a $(item)Syringe$(), and an $(item)Orb of Mana$(), both constructed of $(item)Glass$(). Combine these to create a $(item)Mana Booster Lite$(), which you can use to directly inject the Mana into your body, enabling you to power spells."
         },
         {
             "type": "checklist_end",
