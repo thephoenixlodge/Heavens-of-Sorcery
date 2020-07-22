@@ -221,7 +221,7 @@
         },
         {
           "entryName": "thebetweenlands:basilisk_arrow",
-          "weight": 10,
+          "weight": 6,
           "quality": 0,
           "type": "item",
           "functions": [
@@ -234,6 +234,22 @@
             }
           ],
           "name": "thebetweenlands:basilisk_arrow"
+        },
+        {
+          "entryName": "thebetweenlands:shock_arrow",
+          "weight": 6,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "thebetweenlands:shock_arrow"
         },
         {
           "entryName": "thebetweenlands:sludge_jello",

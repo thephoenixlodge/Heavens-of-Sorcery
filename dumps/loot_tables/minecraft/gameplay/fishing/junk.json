@@ -116,38 +116,6 @@
         }
       ],
       "rolls": 1.0
-    },
-    {
-      "name": "lost_tablet",
-      "entries": [
-        {
-          "entryName": "tombstone:lost_tablet",
-          "weight": 5,
-          "quality": -2,
-          "type": "item",
-          "name": "tombstone:lost_tablet"
-        },
-        {
-          "entryName": "empty",
-          "weight": 995,
-          "quality": 0,
-          "type": "empty"
-        },
-        {
-          "entryName": "tombstone:tablet_of_recall",
-          "weight": 1,
-          "quality": -2,
-          "type": "item",
-          "functions": [
-            {
-              "tag": "{ancient:1b}",
-              "function": "minecraft:set_nbt"
-            }
-          ],
-          "name": "tombstone:tablet_of_recall"
-        }
-      ],
-      "rolls": 1.0
     }
   ]
 }

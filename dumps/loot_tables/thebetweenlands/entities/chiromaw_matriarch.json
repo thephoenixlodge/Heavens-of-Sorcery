@@ -1,0 +1,123 @@
+{
+  "pools": [
+    {
+      "name": "lurker",
+      "entries": [
+        {
+          "entryName": "thebetweenlands:chirobarb_erupter",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:chirobarb_erupter"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "barbs",
+      "entries": [
+        {
+          "entryName": "thebetweenlands:chiromaw_barb",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 5.0,
+                "max": 10.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "thebetweenlands:chiromaw_barb"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "spook_candy",
+      "entries": [
+        {
+          "entryName": "empty",
+          "weight": 6,
+          "quality": 0,
+          "type": "empty"
+        },
+        {
+          "entryName": "thebetweenlands:candy_blue",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:candy_blue"
+        },
+        {
+          "entryName": "thebetweenlands:candy_red",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:candy_red"
+        },
+        {
+          "entryName": "thebetweenlands:candy_yellow",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:candy_yellow"
+        }
+      ],
+      "rolls": 2.0,
+      "conditions": [
+        {
+          "inverse": false,
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "properties": {
+            "thebetweenlands:is_event_active": {
+              "event": "thebetweenlands:spook",
+              "active": true
+            }
+          },
+          "entity": "this",
+          "condition": "minecraft:entity_properties"
+        }
+      ]
+    },
+    {
+      "name": "winter_mince_pie",
+      "entries": [
+        {
+          "entryName": "empty",
+          "weight": 1,
+          "quality": 0,
+          "type": "empty"
+        },
+        {
+          "entryName": "thebetweenlands:mince_pie",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:mince_pie"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "inverse": false,
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "properties": {
+            "thebetweenlands:is_event_active": {
+              "event": "thebetweenlands:winter",
+              "active": true
+            }
+          },
+          "entity": "this",
+          "condition": "minecraft:entity_properties"
+        }
+      ]
+    }
+  ]
+}

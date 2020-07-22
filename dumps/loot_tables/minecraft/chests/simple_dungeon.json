@@ -1,62 +1,177 @@
 {
   "pools": [
     {
-      "name": "main",
+      "name": "hos_early_rare_loot",
       "entries": [
         {
-          "entryName": "minecraft:saddle",
-          "weight": 20,
-          "quality": 0,
+          "entryName": "loottweaker#1",
+          "weight": 1,
+          "quality": 3,
           "type": "item",
-          "name": "minecraft:saddle"
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:beacon"
         },
         {
-          "entryName": "minecraft:golden_apple",
-          "weight": 15,
-          "quality": 0,
+          "entryName": "loottweaker#5",
+          "weight": 3,
+          "quality": 1,
           "type": "item",
-          "name": "minecraft:golden_apple"
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:elytra"
         },
         {
-          "entryName": "minecraft:golden_apple#0",
-          "weight": 2,
+          "entryName": "loottweaker#4",
+          "weight": 5,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "arcaneworld:molten_core"
+        },
+        {
+          "entryName": "loottweaker#3",
+          "weight": 1,
+          "quality": 4,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 12.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "betterbuilderswands:wandunbreakable"
+        },
+        {
+          "entryName": "loottweaker#2",
+          "weight": 3,
+          "quality": 2,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "quark:pickarang"
+        }
+      ],
+      "rolls": {
+        "min": 0.0,
+        "max": 2.0
+      }
+    },
+    {
+      "name": "pool2",
+      "entries": [
+        {
+          "entryName": "minecraft:gunpowder",
+          "weight": 10,
           "quality": 0,
           "type": "item",
           "functions": [
             {
-              "data": 1.0,
-              "function": "minecraft:set_data"
+              "count": {
+                "min": 1.0,
+                "max": 8.0
+              },
+              "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:golden_apple"
+          "name": "minecraft:gunpowder"
         },
+        {
+          "entryName": "minecraft:bone",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 8.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:bone"
+        },
+        {
+          "entryName": "minecraft:string",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 8.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:string"
+        },
+        {
+          "entryName": "minecraft:rotten_flesh",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 8.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:rotten_flesh"
+        }
+      ],
+      "rolls": 3.0
+    },
+    {
+      "name": "main",
+      "entries": [
         {
           "entryName": "minecraft:record_13",
           "weight": 15,
           "quality": 0,
           "type": "item",
           "name": "minecraft:record_13"
-        },
-        {
-          "entryName": "minecraft:record_cat",
-          "weight": 15,
-          "quality": 0,
-          "type": "item",
-          "name": "minecraft:record_cat"
-        },
-        {
-          "entryName": "minecraft:name_tag",
-          "weight": 20,
-          "quality": 0,
-          "type": "item",
-          "name": "minecraft:name_tag"
-        },
-        {
-          "entryName": "minecraft:golden_horse_armor",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "name": "minecraft:golden_horse_armor"
         },
         {
           "entryName": "minecraft:iron_horse_armor",
@@ -73,16 +188,50 @@
           "name": "minecraft:diamond_horse_armor"
         },
         {
-          "entryName": "minecraft:book",
-          "weight": 10,
+          "entryName": "minecraft:golden_apple",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:golden_apple"
+        },
+        {
+          "entryName": "minecraft:name_tag",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:name_tag"
+        },
+        {
+          "entryName": "quark:ancient_tome",
+          "weight": 8,
+          "quality": 2,
+          "type": "item",
+          "functions": [
+            {
+              "function": "quark:enchant_tome"
+            }
+          ],
+          "name": "quark:ancient_tome"
+        },
+        {
+          "entryName": "minecraft:golden_apple#0",
+          "weight": 2,
           "quality": 0,
           "type": "item",
           "functions": [
             {
-              "function": "minecraft:enchant_randomly"
+              "data": 1.0,
+              "function": "minecraft:set_data"
             }
           ],
-          "name": "minecraft:book"
+          "name": "minecraft:golden_apple"
+        },
+        {
+          "entryName": "minecraft:record_cat",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:record_cat"
         },
         {
           "entryName": "quark:rune",
@@ -101,16 +250,30 @@
           "name": "quark:rune"
         },
         {
-          "entryName": "quark:ancient_tome",
-          "weight": 8,
-          "quality": 2,
+          "entryName": "minecraft:golden_horse_armor",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:golden_horse_armor"
+        },
+        {
+          "entryName": "minecraft:saddle",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:saddle"
+        },
+        {
+          "entryName": "minecraft:book",
+          "weight": 10,
+          "quality": 0,
           "type": "item",
           "functions": [
             {
-              "function": "quark:enchant_tome"
+              "function": "minecraft:enchant_randomly"
             }
           ],
-          "name": "quark:ancient_tome"
+          "name": "minecraft:book"
         }
       ],
       "rolls": {
@@ -122,20 +285,11 @@
       "name": "pool1",
       "entries": [
         {
-          "entryName": "minecraft:iron_ingot",
+          "entryName": "minecraft:bucket",
           "weight": 10,
           "quality": 0,
           "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 1.0,
-                "max": 4.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:iron_ingot"
+          "name": "minecraft:bucket"
         },
         {
           "entryName": "minecraft:gold_ingot",
@@ -161,6 +315,38 @@
           "name": "minecraft:bread"
         },
         {
+          "entryName": "minecraft:iron_ingot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:iron_ingot"
+        },
+        {
+          "entryName": "minecraft:beetroot_seeds",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:beetroot_seeds"
+        },
+        {
           "entryName": "minecraft:wheat",
           "weight": 20,
           "quality": 0,
@@ -175,13 +361,6 @@
             }
           ],
           "name": "minecraft:wheat"
-        },
-        {
-          "entryName": "minecraft:bucket",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "name": "minecraft:bucket"
         },
         {
           "entryName": "minecraft:redstone",
@@ -216,22 +395,6 @@
           "name": "minecraft:coal"
         },
         {
-          "entryName": "minecraft:melon_seeds",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 2.0,
-                "max": 4.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:melon_seeds"
-        },
-        {
           "entryName": "minecraft:pumpkin_seeds",
           "weight": 10,
           "quality": 0,
@@ -248,7 +411,7 @@
           "name": "minecraft:pumpkin_seeds"
         },
         {
-          "entryName": "minecraft:beetroot_seeds",
+          "entryName": "minecraft:melon_seeds",
           "weight": 10,
           "quality": 0,
           "type": "item",
@@ -261,7 +424,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:beetroot_seeds"
+          "name": "minecraft:melon_seeds"
         }
       ],
       "rolls": {
@@ -270,229 +433,95 @@
       }
     },
     {
-      "name": "pool2",
-      "entries": [
-        {
-          "entryName": "minecraft:bone",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 1.0,
-                "max": 8.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:bone"
-        },
-        {
-          "entryName": "minecraft:gunpowder",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 1.0,
-                "max": 8.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:gunpowder"
-        },
-        {
-          "entryName": "minecraft:rotten_flesh",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 1.0,
-                "max": 8.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:rotten_flesh"
-        },
-        {
-          "entryName": "minecraft:string",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 1.0,
-                "max": 8.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:string"
-        }
-      ],
-      "rolls": 3.0
-    },
-    {
       "name": "hos_early_loot",
       "entries": [
         {
-          "entryName": "loottweaker#1",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "name": "dynamictrees:jungleseed"
-        },
-        {
-          "entryName": "loottweaker#2",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "name": "rustic:grape_stem"
-        },
-        {
-          "entryName": "loottweaker#3",
-          "weight": 4,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "data": 1.0,
-              "function": "minecraft:set_data"
-            }
-          ],
-          "name": "wizardry:syringe"
-        },
-        {
-          "entryName": "loottweaker#4",
-          "weight": 4,
-          "quality": 0,
-          "type": "item",
-          "name": "minecraft:ender_pearl"
-        },
-        {
-          "entryName": "loottweaker#5",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "name": "dynamictrees:darkoakseed"
-        },
-        {
-          "entryName": "loottweaker#6",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "name": "dynamictrees:spruceseed"
-        },
-        {
-          "entryName": "loottweaker#7",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "name": "dynamictrees:acaciaseed"
-        },
-        {
-          "entryName": "loottweaker#8",
-          "weight": 3,
-          "quality": 0,
-          "type": "item",
-          "name": "quark:glass_item_frame"
-        },
-        {
-          "entryName": "loottweaker#9",
-          "weight": 6,
-          "quality": 0,
-          "type": "item",
-          "name": "dynamictrees:appleseed"
-        },
-        {
-          "entryName": "loottweaker#10",
+          "entryName": "loottweaker#40",
           "weight": 2,
           "quality": 0,
           "type": "item",
-          "functions": [
-            {
-              "data": 2.0,
-              "function": "minecraft:set_data"
-            }
-          ],
-          "name": "wizardry:syringe"
+          "name": "minecraft:red_shulker_box"
         },
         {
-          "entryName": "loottweaker#11",
-          "weight": 7,
+          "entryName": "loottweaker#41",
+          "weight": 2,
           "quality": 0,
           "type": "item",
-          "name": "inspirations:rope"
+          "name": "minecraft:black_shulker_box"
         },
         {
-          "entryName": "loottweaker#12",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "name": "rustic:tomato_seeds"
-        },
-        {
-          "entryName": "loottweaker#13",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "name": "dynamictrees:cactusseed"
-        },
-        {
-          "entryName": "loottweaker#14",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "name": "inspirations:potato_seeds"
-        },
-        {
-          "entryName": "loottweaker#15",
-          "weight": 3,
-          "quality": 0,
-          "type": "item",
-          "name": "botania:tinypotato"
-        },
-        {
-          "entryName": "loottweaker#16",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "name": "inspirations:flower"
-        },
-        {
-          "entryName": "loottweaker#17",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "name": "inspirations:carrot_seeds"
-        },
-        {
-          "entryName": "loottweaker#18",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "name": "dynamictrees:birchseed"
-        },
-        {
-          "entryName": "loottweaker#19",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "name": "dynamictrees:oakseed"
-        },
-        {
-          "entryName": "loottweaker#20",
+          "entryName": "loottweaker#1",
           "weight": 7,
           "quality": 0,
           "type": "item",
           "name": "rats:cheese"
+        },
+        {
+          "entryName": "loottweaker#28",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:magenta_shulker_box"
+        },
+        {
+          "entryName": "loottweaker#29",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:light_blue_shulker_box"
+        },
+        {
+          "entryName": "loottweaker#24",
+          "weight": 5,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "data": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "minecraft:double_plant"
+        },
+        {
+          "entryName": "loottweaker#25",
+          "weight": 5,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "data": {
+                "min": 4.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "minecraft:double_plant"
+        },
+        {
+          "entryName": "loottweaker#26",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:white_shulker_box"
+        },
+        {
+          "entryName": "loottweaker#27",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:orange_shulker_box"
+        },
+        {
+          "entryName": "loottweaker#20",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:ender_pearl"
         },
         {
           "entryName": "loottweaker#21",
@@ -543,66 +572,6 @@
           "name": "astralsorcery:itemusabledust"
         },
         {
-          "entryName": "loottweaker#24",
-          "weight": 5,
-          "quality": 1,
-          "type": "item",
-          "functions": [
-            {
-              "data": {
-                "min": 0.0,
-                "max": 1.0
-              },
-              "function": "minecraft:set_data"
-            }
-          ],
-          "name": "minecraft:double_plant"
-        },
-        {
-          "entryName": "loottweaker#25",
-          "weight": 5,
-          "quality": 1,
-          "type": "item",
-          "functions": [
-            {
-              "data": {
-                "min": 4.0,
-                "max": 5.0
-              },
-              "function": "minecraft:set_data"
-            }
-          ],
-          "name": "minecraft:double_plant"
-        },
-        {
-          "entryName": "loottweaker#26",
-          "weight": 2,
-          "quality": 0,
-          "type": "item",
-          "name": "minecraft:white_shulker_box"
-        },
-        {
-          "entryName": "loottweaker#27",
-          "weight": 2,
-          "quality": 0,
-          "type": "item",
-          "name": "minecraft:orange_shulker_box"
-        },
-        {
-          "entryName": "loottweaker#28",
-          "weight": 2,
-          "quality": 0,
-          "type": "item",
-          "name": "minecraft:magenta_shulker_box"
-        },
-        {
-          "entryName": "loottweaker#29",
-          "weight": 2,
-          "quality": 0,
-          "type": "item",
-          "name": "minecraft:light_blue_shulker_box"
-        },
-        {
           "entryName": "loottweaker#30",
           "weight": 2,
           "quality": 0,
@@ -610,60 +579,11 @@
           "name": "minecraft:yellow_shulker_box"
         },
         {
-          "entryName": "loottweaker#31",
-          "weight": 2,
+          "entryName": "loottweaker#17",
+          "weight": 10,
           "quality": 0,
           "type": "item",
-          "name": "minecraft:lime_shulker_box"
-        },
-        {
-          "entryName": "loottweaker#32",
-          "weight": 2,
-          "quality": 0,
-          "type": "item",
-          "name": "minecraft:pink_shulker_box"
-        },
-        {
-          "entryName": "loottweaker#33",
-          "weight": 2,
-          "quality": 0,
-          "type": "item",
-          "name": "minecraft:gray_shulker_box"
-        },
-        {
-          "entryName": "loottweaker#34",
-          "weight": 2,
-          "quality": 0,
-          "type": "item",
-          "name": "minecraft:silver_shulker_box"
-        },
-        {
-          "entryName": "loottweaker#35",
-          "weight": 2,
-          "quality": 0,
-          "type": "item",
-          "name": "minecraft:cyan_shulker_box"
-        },
-        {
-          "entryName": "loottweaker#36",
-          "weight": 2,
-          "quality": 0,
-          "type": "item",
-          "name": "minecraft:purple_shulker_box"
-        },
-        {
-          "entryName": "loottweaker#37",
-          "weight": 2,
-          "quality": 0,
-          "type": "item",
-          "name": "minecraft:blue_shulker_box"
-        },
-        {
-          "entryName": "loottweaker#38",
-          "weight": 2,
-          "quality": 0,
-          "type": "item",
-          "name": "minecraft:brown_shulker_box"
+          "name": "dynamictrees:acaciaseed"
         },
         {
           "entryName": "loottweaker#39",
@@ -673,18 +593,191 @@
           "name": "minecraft:green_shulker_box"
         },
         {
-          "entryName": "loottweaker#40",
-          "weight": 2,
+          "entryName": "loottweaker#18",
+          "weight": 3,
           "quality": 0,
           "type": "item",
-          "name": "minecraft:red_shulker_box"
+          "name": "quark:glass_item_frame"
         },
         {
-          "entryName": "loottweaker#41",
+          "entryName": "loottweaker#19",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "dynamictrees:jungleseed"
+        },
+        {
+          "entryName": "loottweaker#5",
           "weight": 2,
           "quality": 0,
           "type": "item",
-          "name": "minecraft:black_shulker_box"
+          "functions": [
+            {
+              "data": 2.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "wizardry:syringe"
+        },
+        {
+          "entryName": "loottweaker#13",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "rustic:tomato_seeds"
+        },
+        {
+          "entryName": "loottweaker#35",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:cyan_shulker_box"
+        },
+        {
+          "entryName": "loottweaker#4",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "inspirations:carrot_seeds"
+        },
+        {
+          "entryName": "loottweaker#14",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "inspirations:potato_seeds"
+        },
+        {
+          "entryName": "loottweaker#36",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:purple_shulker_box"
+        },
+        {
+          "entryName": "loottweaker#3",
+          "weight": 6,
+          "quality": 0,
+          "type": "item",
+          "name": "dynamictrees:appleseed"
+        },
+        {
+          "entryName": "loottweaker#15",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "dynamictrees:cactusseed"
+        },
+        {
+          "entryName": "loottweaker#37",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:blue_shulker_box"
+        },
+        {
+          "entryName": "loottweaker#2",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "rustic:grape_stem"
+        },
+        {
+          "entryName": "loottweaker#16",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "inspirations:flower"
+        },
+        {
+          "entryName": "loottweaker#38",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:brown_shulker_box"
+        },
+        {
+          "entryName": "loottweaker#9",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "dynamictrees:spruceseed"
+        },
+        {
+          "entryName": "loottweaker#31",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:lime_shulker_box"
+        },
+        {
+          "entryName": "loottweaker#8",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "dynamictrees:birchseed"
+        },
+        {
+          "entryName": "loottweaker#10",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 1.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "wizardry:syringe"
+        },
+        {
+          "entryName": "loottweaker#32",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:pink_shulker_box"
+        },
+        {
+          "entryName": "loottweaker#7",
+          "weight": 7,
+          "quality": 0,
+          "type": "item",
+          "name": "inspirations:rope"
+        },
+        {
+          "entryName": "loottweaker#11",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "name": "botania:tinypotato"
+        },
+        {
+          "entryName": "loottweaker#33",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:gray_shulker_box"
+        },
+        {
+          "entryName": "loottweaker#6",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "dynamictrees:darkoakseed"
+        },
+        {
+          "entryName": "loottweaker#12",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "dynamictrees:oakseed"
+        },
+        {
+          "entryName": "loottweaker#34",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:silver_shulker_box"
         }
       ],
       "rolls": {
@@ -692,99 +785,6 @@
         "max": 3.0
       },
       "bonus_rolls": 1.0
-    },
-    {
-      "name": "hos_early_rare_loot",
-      "entries": [
-        {
-          "entryName": "loottweaker#1",
-          "weight": 1,
-          "quality": 3,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 0.0,
-                "max": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:beacon"
-        },
-        {
-          "entryName": "loottweaker#2",
-          "weight": 3,
-          "quality": 2,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 0.0,
-                "max": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "quark:pickarang"
-        },
-        {
-          "entryName": "loottweaker#3",
-          "weight": 1,
-          "quality": 4,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 0.0,
-                "max": 1.0
-              },
-              "function": "minecraft:set_count"
-            },
-            {
-              "data": 12.0,
-              "function": "minecraft:set_data"
-            }
-          ],
-          "name": "betterbuilderswands:wandunbreakable"
-        },
-        {
-          "entryName": "loottweaker#4",
-          "weight": 5,
-          "quality": 1,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 0.0,
-                "max": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "arcaneworld:molten_core"
-        },
-        {
-          "entryName": "loottweaker#5",
-          "weight": 3,
-          "quality": 1,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 0.0,
-                "max": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:elytra"
-        }
-      ],
-      "rolls": {
-        "min": 0.0,
-        "max": 2.0
-      }
     }
   ]
 }

@@ -381,7 +381,7 @@
         },
         {
           "entryName": "basilisk_arrow",
-          "weight": 12,
+          "weight": 8,
           "quality": 0,
           "type": "item",
           "functions": [
@@ -394,6 +394,22 @@
             }
           ],
           "name": "thebetweenlands:basilisk_arrow"
+        },
+        {
+          "entryName": "shock_arrow",
+          "weight": 8,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "thebetweenlands:shock_arrow"
         },
         {
           "entryName": "orange_dentrothyst",

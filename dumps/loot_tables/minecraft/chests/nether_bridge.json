@@ -1,305 +1,28 @@
 {
   "pools": [
     {
-      "name": "main",
-      "entries": [
-        {
-          "entryName": "minecraft:diamond",
-          "weight": 5,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 1.0,
-                "max": 3.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:diamond"
-        },
-        {
-          "entryName": "minecraft:iron_ingot",
-          "weight": 5,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 1.0,
-                "max": 5.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:iron_ingot"
-        },
-        {
-          "entryName": "minecraft:gold_ingot",
-          "weight": 15,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 1.0,
-                "max": 3.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:gold_ingot"
-        },
-        {
-          "entryName": "minecraft:golden_sword",
-          "weight": 5,
-          "quality": 0,
-          "type": "item",
-          "name": "minecraft:golden_sword"
-        },
-        {
-          "entryName": "minecraft:golden_chestplate",
-          "weight": 5,
-          "quality": 0,
-          "type": "item",
-          "name": "minecraft:golden_chestplate"
-        },
-        {
-          "entryName": "minecraft:flint_and_steel",
-          "weight": 5,
-          "quality": 0,
-          "type": "item",
-          "name": "minecraft:flint_and_steel"
-        },
-        {
-          "entryName": "minecraft:nether_wart",
-          "weight": 5,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 3.0,
-                "max": 7.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:nether_wart"
-        },
-        {
-          "entryName": "minecraft:saddle",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "name": "minecraft:saddle"
-        },
-        {
-          "entryName": "minecraft:golden_horse_armor",
-          "weight": 8,
-          "quality": 0,
-          "type": "item",
-          "name": "minecraft:golden_horse_armor"
-        },
-        {
-          "entryName": "minecraft:iron_horse_armor",
-          "weight": 5,
-          "quality": 0,
-          "type": "item",
-          "name": "minecraft:iron_horse_armor"
-        },
-        {
-          "entryName": "minecraft:diamond_horse_armor",
-          "weight": 3,
-          "quality": 0,
-          "type": "item",
-          "name": "minecraft:diamond_horse_armor"
-        },
-        {
-          "entryName": "minecraft:obsidian",
-          "weight": 2,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 2.0,
-                "max": 4.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:obsidian"
-        },
-        {
-          "entryName": "quark:rune",
-          "weight": 15,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "data": {
-                "min": 0.0,
-                "max": 15.0
-              },
-              "function": "minecraft:set_data"
-            }
-          ],
-          "name": "quark:rune"
-        }
-      ],
-      "rolls": {
-        "min": 2.0,
-        "max": 4.0
-      }
-    },
-    {
       "name": "hos_nether_loot",
       "entries": [
         {
           "entryName": "loottweaker#1",
-          "weight": 5,
-          "quality": 0,
-          "type": "item",
-          "name": "rustic:ginseng"
-        },
-        {
-          "entryName": "loottweaker#2",
-          "weight": 5,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "data": 8.0,
-              "function": "minecraft:set_data"
-            }
-          ],
-          "name": "cuisine:crops"
-        },
-        {
-          "entryName": "loottweaker#3",
-          "weight": 15,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "tag": "{Potion:\"minecraft:fire_resistance\"}",
-              "function": "minecraft:set_nbt"
-            }
-          ],
-          "name": "minecraft:splash_potion"
-        },
-        {
-          "entryName": "loottweaker#4",
-          "weight": 25,
-          "quality": 0,
-          "type": "item",
-          "name": "minecraft:ender_pearl"
-        },
-        {
-          "entryName": "loottweaker#5",
           "weight": 3,
           "quality": 0,
           "type": "item",
           "name": "arcaneworld:amethyst"
         },
         {
-          "entryName": "loottweaker#6",
-          "weight": 5,
-          "quality": 0,
-          "type": "item",
-          "name": "rustic:aloe_vera"
-        },
-        {
-          "entryName": "loottweaker#7",
-          "weight": 5,
-          "quality": 0,
-          "type": "item",
-          "name": "rustic:core_root"
-        },
-        {
-          "entryName": "loottweaker#8",
-          "weight": 5,
-          "quality": 0,
-          "type": "item",
-          "name": "rustic:cohosh"
-        },
-        {
-          "entryName": "loottweaker#9",
-          "weight": 5,
-          "quality": 0,
-          "type": "item",
-          "name": "rustic:horsetail"
-        },
-        {
-          "entryName": "loottweaker#10",
-          "weight": 5,
-          "quality": 0,
-          "type": "item",
-          "name": "minecraft:nether_wart"
-        },
-        {
-          "entryName": "loottweaker#11",
-          "weight": 3,
-          "quality": 0,
-          "type": "item",
-          "name": "rustic:blood_orchid"
-        },
-        {
-          "entryName": "loottweaker#12",
-          "weight": 5,
-          "quality": 0,
-          "type": "item",
-          "name": "rustic:wind_thistle"
-        },
-        {
-          "entryName": "loottweaker#13",
-          "weight": 5,
-          "quality": 0,
-          "type": "item",
-          "name": "rustic:cloudsbluff"
-        },
-        {
-          "entryName": "loottweaker#14",
-          "weight": 5,
-          "quality": 0,
-          "type": "item",
-          "name": "rustic:marsh_mallow"
-        },
-        {
-          "entryName": "loottweaker#15",
-          "weight": 5,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "data": 1.0,
-              "function": "minecraft:set_data"
-            }
-          ],
-          "name": "cuisine:crops"
-        },
-        {
-          "entryName": "loottweaker#16",
-          "weight": 5,
-          "quality": 0,
-          "type": "item",
-          "name": "rustic:chamomile"
-        },
-        {
           "entryName": "loottweaker#17",
-          "weight": 5,
+          "weight": 25,
           "quality": 0,
           "type": "item",
-          "name": "rustic:mooncap_mushroom"
+          "name": "minecraft:ender_pearl"
         },
         {
           "entryName": "loottweaker#18",
           "weight": 5,
           "quality": 0,
           "type": "item",
-          "name": "rustic:oliveseed"
+          "name": "rustic:mooncap_mushroom"
         },
         {
           "entryName": "loottweaker#19",
@@ -325,6 +48,81 @@
           "name": "botania:biomestonea"
         },
         {
+          "entryName": "loottweaker#5",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 1.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "cuisine:crops"
+        },
+        {
+          "entryName": "loottweaker#13",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "rustic:chamomile"
+        },
+        {
+          "entryName": "loottweaker#4",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "rustic:core_root"
+        },
+        {
+          "entryName": "loottweaker#14",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:nether_wart"
+        },
+        {
+          "entryName": "loottweaker#3",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "rustic:oliveseed"
+        },
+        {
+          "entryName": "loottweaker#15",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 8.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "cuisine:crops"
+        },
+        {
+          "entryName": "loottweaker#2",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "rustic:cohosh"
+        },
+        {
+          "entryName": "loottweaker#16",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "rustic:horsetail"
+        },
+        {
+          "entryName": "loottweaker#9",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "name": "rustic:blood_orchid"
+        },
+        {
           "entryName": "loottweaker#20",
           "weight": 20,
           "quality": 1,
@@ -341,6 +139,26 @@
           "name": "minecraft:cobblestone"
         },
         {
+          "entryName": "loottweaker#8",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "rustic:marsh_mallow"
+        },
+        {
+          "entryName": "loottweaker#10",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{Potion:\"minecraft:fire_resistance\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:splash_potion"
+        },
+        {
           "entryName": "loottweaker#21",
           "weight": 4,
           "quality": 1,
@@ -355,6 +173,34 @@
             }
           ],
           "name": "minecraft:coal"
+        },
+        {
+          "entryName": "loottweaker#7",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "rustic:wind_thistle"
+        },
+        {
+          "entryName": "loottweaker#11",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "rustic:ginseng"
+        },
+        {
+          "entryName": "loottweaker#6",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "rustic:cloudsbluff"
+        },
+        {
+          "entryName": "loottweaker#12",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "rustic:aloe_vera"
         }
       ],
       "rolls": {
@@ -383,36 +229,20 @@
           "name": "chisel:chisel_hitech"
         },
         {
-          "entryName": "loottweaker#2",
-          "weight": 2,
-          "quality": 2,
+          "entryName": "loottweaker#5",
+          "weight": 7,
+          "quality": 1,
           "type": "item",
           "functions": [
             {
               "count": {
                 "min": 0.0,
-                "max": 1.0
+                "max": 5.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "similsaxtranstructors:similsaxtranstructoradvanced"
-        },
-        {
-          "entryName": "loottweaker#3",
-          "weight": 3,
-          "quality": 4,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 0.0,
-                "max": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "superiorshields:vanilla_shield_wood"
+          "name": "minecraft:obsidian"
         },
         {
           "entryName": "loottweaker#4",
@@ -431,20 +261,36 @@
           "name": "superiorshields:vanilla_shield_stone"
         },
         {
-          "entryName": "loottweaker#5",
-          "weight": 7,
-          "quality": 1,
+          "entryName": "loottweaker#3",
+          "weight": 3,
+          "quality": 4,
           "type": "item",
           "functions": [
             {
               "count": {
                 "min": 0.0,
-                "max": 5.0
+                "max": 1.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:obsidian"
+          "name": "superiorshields:vanilla_shield_wood"
+        },
+        {
+          "entryName": "loottweaker#2",
+          "weight": 2,
+          "quality": 2,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "similsaxtranstructors:similsaxtranstructoradvanced"
         },
         {
           "entryName": "loottweaker#6",
@@ -473,6 +319,160 @@
       "rolls": {
         "min": 0.0,
         "max": 2.0
+      }
+    },
+    {
+      "name": "main",
+      "entries": [
+        {
+          "entryName": "minecraft:diamond_horse_armor",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:diamond_horse_armor"
+        },
+        {
+          "entryName": "minecraft:diamond",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:diamond"
+        },
+        {
+          "entryName": "minecraft:golden_horse_armor",
+          "weight": 8,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:golden_horse_armor"
+        },
+        {
+          "entryName": "minecraft:flint_and_steel",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:flint_and_steel"
+        },
+        {
+          "entryName": "minecraft:nether_wart",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 3.0,
+                "max": 7.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:nether_wart"
+        },
+        {
+          "entryName": "minecraft:gold_ingot",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:gold_ingot"
+        },
+        {
+          "entryName": "minecraft:golden_sword",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:golden_sword"
+        },
+        {
+          "entryName": "minecraft:iron_horse_armor",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:iron_horse_armor"
+        },
+        {
+          "entryName": "minecraft:iron_ingot",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:iron_ingot"
+        },
+        {
+          "entryName": "minecraft:golden_chestplate",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:golden_chestplate"
+        },
+        {
+          "entryName": "quark:rune",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": {
+                "min": 0.0,
+                "max": 15.0
+              },
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "quark:rune"
+        },
+        {
+          "entryName": "minecraft:saddle",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:saddle"
+        },
+        {
+          "entryName": "minecraft:obsidian",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:obsidian"
+        }
+      ],
+      "rolls": {
+        "min": 2.0,
+        "max": 4.0
       }
     }
   ]

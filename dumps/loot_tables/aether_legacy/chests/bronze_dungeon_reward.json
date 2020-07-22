@@ -1,8 +1,124 @@
 {
   "pools": [
     {
+      "name": "hos_extra",
+      "entries": [
+        {
+          "entryName": "loottweaker#1",
+          "weight": 2,
+          "quality": 3,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "chisel:chisel_hitech"
+        },
+        {
+          "entryName": "loottweaker#3",
+          "weight": 2,
+          "quality": 3,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:chorus_flower"
+        },
+        {
+          "entryName": "loottweaker#2",
+          "weight": 2,
+          "quality": 3,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "botania:tornadorod"
+        }
+      ],
+      "rolls": {
+        "min": 1.0,
+        "max": 3.0
+      },
+      "bonus_rolls": 1.0
+    },
+    {
       "name": "main",
       "entries": [
+        {
+          "entryName": "aether_legacy:cloud_staff",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "aether_legacy:cloud_staff"
+        },
+        {
+          "entryName": "aether_legacy:lightning_knife",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 15.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "aether_legacy:lightning_knife"
+        },
+        {
+          "entryName": "aether_legacy:phoenix_bow",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "aether_legacy:phoenix_bow"
+        },
+        {
+          "entryName": "aether_legacy:sentry_boots",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "aether_legacy:sentry_boots"
+        },
+        {
+          "entryName": "aether_legacy:repulsion_shield",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "aether_legacy:repulsion_shield"
+        },
+        {
+          "entryName": "aether_legacy:agility_cape",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "aether_legacy:agility_cape"
+        },
+        {
+          "entryName": "aether_legacy:valkyrie_lance",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "aether_legacy:valkyrie_lance"
+        },
         {
           "entryName": "aether_legacy:gummy_swet",
           "weight": 1,
@@ -27,133 +143,17 @@
           "name": "aether_legacy:gummy_swet"
         },
         {
-          "entryName": "aether_legacy:phoenix_bow",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "name": "aether_legacy:phoenix_bow"
-        },
-        {
           "entryName": "aether_legacy:flaming_sword",
           "weight": 1,
           "quality": 0,
           "type": "item",
           "name": "aether_legacy:flaming_sword"
-        },
-        {
-          "entryName": "aether_legacy:lightning_knife",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 1.0,
-                "max": 15.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "aether_legacy:lightning_knife"
-        },
-        {
-          "entryName": "aether_legacy:valkyrie_lance",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "name": "aether_legacy:valkyrie_lance"
-        },
-        {
-          "entryName": "aether_legacy:agility_cape",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "name": "aether_legacy:agility_cape"
-        },
-        {
-          "entryName": "aether_legacy:sentry_boots",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "name": "aether_legacy:sentry_boots"
-        },
-        {
-          "entryName": "aether_legacy:repulsion_shield",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "name": "aether_legacy:repulsion_shield"
-        },
-        {
-          "entryName": "aether_legacy:cloud_staff",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "name": "aether_legacy:cloud_staff"
         }
       ],
       "rolls": {
         "min": 5.0,
         "max": 6.0
       }
-    },
-    {
-      "name": "hos_extra",
-      "entries": [
-        {
-          "entryName": "loottweaker#1",
-          "weight": 2,
-          "quality": 3,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 0.0,
-                "max": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "chisel:chisel_hitech"
-        },
-        {
-          "entryName": "loottweaker#2",
-          "weight": 2,
-          "quality": 3,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 0.0,
-                "max": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "botania:tornadorod"
-        },
-        {
-          "entryName": "loottweaker#3",
-          "weight": 2,
-          "quality": 3,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 1.0,
-                "max": 2.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:chorus_flower"
-        }
-      ],
-      "rolls": {
-        "min": 1.0,
-        "max": 3.0
-      },
-      "bonus_rolls": 1.0
     }
   ]
 }

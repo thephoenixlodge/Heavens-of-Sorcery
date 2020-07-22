@@ -56,6 +56,54 @@
           "name": "bewitchment:scorned_bricks"
         },
         {
+          "entryName": "bewitchment:despair_bricks",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 16.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "bewitchment:despair_bricks"
+        },
+        {
+          "entryName": "minecraft:quartz",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:quartz"
+        },
+        {
+          "entryName": "minecraft:nether_wart",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:nether_wart"
+        },
+        {
           "entryName": "bewitchment:nethersteel",
           "weight": 2,
           "quality": 0,

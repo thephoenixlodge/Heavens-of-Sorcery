@@ -1,0 +1,140 @@
+{
+  "pools": [
+    {
+      "name": "chiromaw_nest_scattered_loot",
+      "entries": [
+        {
+          "entryName": "thebetweenlands:crimson_middle_gem",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:crimson_middle_gem"
+        },
+        {
+          "entryName": "thebetweenlands:aqua_middle_gem",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:aqua_middle_gem"
+        },
+        {
+          "entryName": "thebetweenlands:green_middle_gem",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:green_middle_gem"
+        },
+        {
+          "entryName": "thebetweenlands:chiromaw_barb",
+          "weight": 8,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:chiromaw_barb"
+        },
+        {
+          "entryName": "valonite_shard",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 19.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thebetweenlands:items_misc"
+        },
+        {
+          "entryName": "syrmorite_nugget",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 41.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thebetweenlands:items_misc"
+        },
+        {
+          "entryName": "octine_nugget",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 42.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thebetweenlands:items_misc"
+        },
+        {
+          "entryName": "valonite_splinters",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 43.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thebetweenlands:items_misc"
+        },
+        {
+          "entryName": "green_dentrothyst_vial",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thebetweenlands:dentrothyst_vial"
+        },
+        {
+          "entryName": "orange_dentrothyst_vial",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 2.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thebetweenlands:dentrothyst_vial"
+        },
+        {
+          "entryName": "thebetweenlands:dentrothyst_shard_green",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:dentrothyst_shard_green"
+        },
+        {
+          "entryName": "thebetweenlands:dentrothyst_shard_orange",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:dentrothyst_shard_orange"
+        },
+        {
+          "entryName": "thebetweenlands:explorers_hat",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:explorers_hat"
+        }
+      ],
+      "rolls": 2.0
+    }
+  ]
+}

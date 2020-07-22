@@ -1,6 +1,19 @@
 {
   "pools": [
     {
+      "name": "wiz_inject",
+      "entries": [
+        {
+          "entryName": "loottweaker#1",
+          "weight": 10,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "ebwizardry:chests/shrine"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
       "name": "chest",
       "entries": [
         {
@@ -30,29 +43,6 @@
       "rolls": {
         "min": 5.0,
         "max": 11.0
-      }
-    },
-    {
-      "name": "enchanted_book",
-      "entries": [
-        {
-          "entryName": "minecraft:book",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "levels": 10.0,
-              "treasure": false,
-              "function": "minecraft:enchant_with_levels"
-            }
-          ],
-          "name": "minecraft:book"
-        }
-      ],
-      "rolls": {
-        "min": 0.0,
-        "max": 2.0
       }
     },
     {
@@ -91,22 +81,6 @@
             }
           ],
           "name": "minecraft:book"
-        },
-        {
-          "entryName": "loottweaker#3",
-          "weight": 8,
-          "quality": 1,
-          "type": "item",
-          "functions": [
-            {
-              "data": {
-                "min": 1.0,
-                "max": 4.0
-              },
-              "function": "minecraft:set_data"
-            }
-          ],
-          "name": "avatarmod:scroll"
         }
       ],
       "rolls": {
@@ -116,17 +90,27 @@
       "bonus_rolls": 1.0
     },
     {
-      "name": "wiz_inject",
+      "name": "enchanted_book",
       "entries": [
         {
-          "entryName": "loottweaker#1",
-          "weight": 10,
+          "entryName": "minecraft:book",
+          "weight": 1,
           "quality": 0,
-          "type": "loot_table",
-          "name": "ebwizardry:chests/shrine"
+          "type": "item",
+          "functions": [
+            {
+              "levels": 10.0,
+              "treasure": false,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "minecraft:book"
         }
       ],
-      "rolls": 1.0
+      "rolls": {
+        "min": 0.0,
+        "max": 2.0
+      }
     }
   ]
 }

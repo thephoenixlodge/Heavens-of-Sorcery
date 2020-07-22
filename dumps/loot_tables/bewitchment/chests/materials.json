@@ -46,6 +46,22 @@
           "name": "bewitchment:juniper_sapling"
         },
         {
+          "entryName": "bewitchment:salt",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 16.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "bewitchment:salt"
+        },
+        {
           "entryName": "bewitchment:elder_sapling",
           "weight": 1,
           "quality": 0,

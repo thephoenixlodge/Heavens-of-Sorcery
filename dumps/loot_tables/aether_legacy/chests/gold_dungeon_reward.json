@@ -1,35 +1,251 @@
 {
   "pools": [
     {
+      "name": "hos_extra",
+      "entries": [
+        {
+          "entryName": "loottweaker#1",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "quark:arrow_torch"
+        },
+        {
+          "entryName": "loottweaker#17",
+          "weight": 3,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:totem_of_undying"
+        },
+        {
+          "entryName": "loottweaker#5",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 9.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "cuisine:crops"
+        },
+        {
+          "entryName": "loottweaker#13",
+          "weight": 16,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 20.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 4.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "minecraft:dye"
+        },
+        {
+          "entryName": "loottweaker#4",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 3.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "tag": "{Fireworks:{Flight:3b}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:fireworks"
+        },
+        {
+          "entryName": "loottweaker#14",
+          "weight": 3,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": {
+                "min": 0.0,
+                "max": 14.0
+              },
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "metalchests:chest_upgrade"
+        },
+        {
+          "entryName": "loottweaker#3",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 21.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "cuisine:crops"
+        },
+        {
+          "entryName": "loottweaker#15",
+          "weight": 3,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "botania:overgrowthseed"
+        },
+        {
+          "entryName": "loottweaker#2",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 3.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "cuisine:crops"
+        },
+        {
+          "entryName": "loottweaker#16",
+          "weight": 2,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": {
+                "min": 0.0,
+                "max": 19.0
+              },
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "botania:laputashard"
+        },
+        {
+          "entryName": "loottweaker#9",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 12.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "cuisine:crops"
+        },
+        {
+          "entryName": "loottweaker#8",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 1.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "botania:manaresource"
+        },
+        {
+          "entryName": "loottweaker#10",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "astralsorcery:itemusabledust"
+        },
+        {
+          "entryName": "loottweaker#7",
+          "weight": 7,
+          "quality": 0,
+          "type": "item",
+          "name": "quark:biotite"
+        },
+        {
+          "entryName": "loottweaker#11",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 10.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "cuisine:crops"
+        },
+        {
+          "entryName": "loottweaker#6",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "botania:tinypotato"
+        },
+        {
+          "entryName": "loottweaker#12",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "name": "quark:iron_rod"
+        }
+      ],
+      "rolls": {
+        "min": 1.0,
+        "max": 2.0
+      }
+    },
+    {
       "name": "main",
       "entries": [
         {
-          "entryName": "aether_legacy:iron_bubble",
+          "entryName": "aether_legacy:obsidian_chestplate",
           "weight": 1,
           "quality": 0,
           "type": "item",
-          "name": "aether_legacy:iron_bubble"
-        },
-        {
-          "entryName": "aether_legacy:vampire_blade",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "name": "aether_legacy:vampire_blade"
-        },
-        {
-          "entryName": "aether_legacy:chests/gold_dungeon_reward_sub0",
-          "weight": 1,
-          "quality": 0,
-          "type": "loot_table",
-          "name": "aether_legacy:chests/gold_dungeon_reward_sub0"
-        },
-        {
-          "entryName": "aether_legacy:chests/gold_dungeon_reward_sub1",
-          "weight": 1,
-          "quality": 0,
-          "type": "loot_table",
-          "name": "aether_legacy:chests/gold_dungeon_reward_sub1"
+          "name": "aether_legacy:obsidian_chestplate"
         },
         {
           "entryName": "aether_legacy:life_shard",
@@ -37,6 +253,13 @@
           "quality": 0,
           "type": "item",
           "name": "aether_legacy:life_shard"
+        },
+        {
+          "entryName": "aether_legacy:iron_bubble",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "aether_legacy:iron_bubble"
         },
         {
           "entryName": "aether_legacy:chests/gold_dungeon_reward_sub2",
@@ -60,80 +283,30 @@
           "name": "aether_legacy:chests/gold_dungeon_reward_sub4"
         },
         {
-          "entryName": "aether_legacy:obsidian_chestplate",
+          "entryName": "aether_legacy:vampire_blade",
           "weight": 1,
           "quality": 0,
           "type": "item",
-          "name": "aether_legacy:obsidian_chestplate"
+          "name": "aether_legacy:vampire_blade"
+        },
+        {
+          "entryName": "aether_legacy:chests/gold_dungeon_reward_sub0",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "aether_legacy:chests/gold_dungeon_reward_sub0"
+        },
+        {
+          "entryName": "aether_legacy:chests/gold_dungeon_reward_sub1",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "aether_legacy:chests/gold_dungeon_reward_sub1"
         }
       ],
       "rolls": {
         "min": 5.0,
         "max": 6.0
-      }
-    },
-    {
-      "name": "hos_extra",
-      "entries": [
-        {
-          "entryName": "loottweaker#1",
-          "weight": 3,
-          "quality": 1,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 0.0,
-                "max": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "botania:overgrowthseed"
-        },
-        {
-          "entryName": "loottweaker#2",
-          "weight": 2,
-          "quality": 1,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 0.0,
-                "max": 1.0
-              },
-              "function": "minecraft:set_count"
-            },
-            {
-              "data": {
-                "min": 0.0,
-                "max": 19.0
-              },
-              "function": "minecraft:set_data"
-            }
-          ],
-          "name": "botania:laputashard"
-        },
-        {
-          "entryName": "loottweaker#3",
-          "weight": 3,
-          "quality": 1,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 0.0,
-                "max": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:totem_of_undying"
-        }
-      ],
-      "rolls": {
-        "min": 1.0,
-        "max": 2.0
       }
     }
   ]

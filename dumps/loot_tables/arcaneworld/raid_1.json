@@ -4,6 +4,114 @@
       "name": "raid_1",
       "entries": [
         {
+          "entryName": "arcaneworld:growth_powder",
+          "weight": 17,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 6.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "arcaneworld:growth_powder"
+        },
+        {
+          "entryName": "minecraft:diamond_hoe",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:diamond_hoe"
+        },
+        {
+          "entryName": "loottweaker#1",
+          "weight": 6,
+          "quality": 0,
+          "type": "item",
+          "name": "contenttweaker:angel_heart"
+        },
+        {
+          "entryName": "minecraft:name_tag",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:name_tag"
+        },
+        {
+          "entryName": "arcaneworld:ethereal_sword",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "arcaneworld:ethereal_sword"
+        },
+        {
+          "entryName": "minecraft:redstone",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:redstone"
+        },
+        {
+          "entryName": "minecraft:diamond",
+          "weight": 7,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 6.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:diamond"
+        },
+        {
+          "entryName": "minecraft:diamond_chestplate",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:diamond_chestplate"
+        },
+        {
+          "entryName": "minecraft:book",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly"
+            }
+          ],
+          "name": "minecraft:book"
+        },
+        {
+          "entryName": "minecraft:bucket",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:bucket"
+        },
+        {
           "entryName": "minecraft:gold_ingot",
           "weight": 10,
           "quality": 0,
@@ -36,58 +144,6 @@
           "name": "minecraft:iron_ingot"
         },
         {
-          "entryName": "minecraft:diamond",
-          "weight": 7,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 1.0,
-                "max": 6.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:diamond"
-        },
-        {
-          "entryName": "arcaneworld:growth_powder",
-          "weight": 17,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 1.0,
-                "max": 6.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "arcaneworld:growth_powder"
-        },
-        {
-          "entryName": "arcaneworld:sapphire",
-          "weight": 15,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "data": 0.0,
-              "function": "minecraft:set_data"
-            },
-            {
-              "count": {
-                "min": 1.0,
-                "max": 8.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "arcaneworld:sapphire"
-        },
-        {
           "entryName": "arcaneworld:amethyst",
           "weight": 13,
           "quality": 0,
@@ -108,80 +164,24 @@
           "name": "arcaneworld:amethyst"
         },
         {
-          "entryName": "arcaneworld:ethereal_sword",
-          "weight": 5,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "arcaneworld:ethereal_sword"
-        },
-        {
-          "entryName": "minecraft:redstone",
+          "entryName": "arcaneworld:sapphire",
           "weight": 15,
           "quality": 0,
           "type": "item",
           "functions": [
             {
+              "data": 0.0,
+              "function": "minecraft:set_data"
+            },
+            {
               "count": {
                 "min": 1.0,
-                "max": 4.0
+                "max": 8.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:redstone"
-        },
-        {
-          "entryName": "minecraft:bucket",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "name": "minecraft:bucket"
-        },
-        {
-          "entryName": "minecraft:name_tag",
-          "weight": 20,
-          "quality": 0,
-          "type": "item",
-          "name": "minecraft:name_tag"
-        },
-        {
-          "entryName": "minecraft:chainmail_chestplate",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "name": "minecraft:chainmail_chestplate"
-        },
-        {
-          "entryName": "minecraft:diamond_hoe",
-          "weight": 15,
-          "quality": 0,
-          "type": "item",
-          "name": "minecraft:diamond_hoe"
-        },
-        {
-          "entryName": "minecraft:diamond_chestplate",
-          "weight": 5,
-          "quality": 0,
-          "type": "item",
-          "name": "minecraft:diamond_chestplate"
-        },
-        {
-          "entryName": "minecraft:book",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "function": "minecraft:enchant_randomly"
-            }
-          ],
-          "name": "minecraft:book"
+          "name": "arcaneworld:sapphire"
         },
         {
           "entryName": "minecraft:bow",
@@ -205,11 +205,11 @@
           "name": "minecraft:bow"
         },
         {
-          "entryName": "loottweaker#1",
+          "entryName": "loottweaker#3",
           "weight": 6,
           "quality": 0,
           "type": "item",
-          "name": "contenttweaker:angel_heart"
+          "name": "minecraft:elytra"
         },
         {
           "entryName": "loottweaker#2",
@@ -219,11 +219,11 @@
           "name": "contenttweaker:otherworlds_core"
         },
         {
-          "entryName": "loottweaker#3",
-          "weight": 6,
+          "entryName": "minecraft:chainmail_chestplate",
+          "weight": 10,
           "quality": 0,
           "type": "item",
-          "name": "minecraft:elytra"
+          "name": "minecraft:chainmail_chestplate"
         }
       ],
       "rolls": {

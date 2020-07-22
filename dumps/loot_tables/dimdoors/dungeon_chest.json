@@ -1,23 +1,49 @@
 {
   "pools": [
     {
+      "name": "ench_book",
+      "entries": [
+        {
+          "entryName": "minecraft:book",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "levels": 30.0,
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "minecraft:book"
+        },
+        {
+          "entryName": "empty",
+          "weight": 14,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
       "name": "default",
       "entries": [
         {
-          "entryName": "minecraft:diamond",
-          "weight": 4,
+          "entryName": "minecraft:gold_ingot",
+          "weight": 8,
           "quality": 0,
           "type": "item",
           "functions": [
             {
               "count": {
                 "min": 1.0,
-                "max": 2.0
+                "max": 3.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:diamond"
+          "name": "minecraft:gold_ingot"
         },
         {
           "entryName": "minecraft:iron_ingot",
@@ -36,20 +62,11 @@
           "name": "minecraft:iron_ingot"
         },
         {
-          "entryName": "minecraft:gold_ingot",
-          "weight": 8,
+          "entryName": "minecraft:golden_apple",
+          "weight": 1,
           "quality": 0,
           "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 1.0,
-                "max": 3.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:gold_ingot"
+          "name": "minecraft:golden_apple"
         },
         {
           "entryName": "minecraft:emerald",
@@ -68,22 +85,6 @@
           "name": "minecraft:emerald"
         },
         {
-          "entryName": "minecraft:coal",
-          "weight": 12,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 1.0,
-                "max": 3.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:coal"
-        },
-        {
           "entryName": "minecraft:quartz",
           "weight": 12,
           "quality": 0,
@@ -98,6 +99,22 @@
             }
           ],
           "name": "minecraft:quartz"
+        },
+        {
+          "entryName": "minecraft:coal",
+          "weight": 12,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:coal"
         },
         {
           "entryName": "dimdoors:world_thread",
@@ -136,50 +153,33 @@
           "name": "dimdoors:fabric"
         },
         {
+          "entryName": "minecraft:diamond",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:diamond"
+        },
+        {
           "entryName": "minecraft:book",
           "weight": 10,
           "quality": 0,
           "type": "item",
           "name": "minecraft:book"
-        },
-        {
-          "entryName": "minecraft:golden_apple",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "name": "minecraft:golden_apple"
         }
       ],
       "rolls": {
         "min": 2.0,
         "max": 6.0
       }
-    },
-    {
-      "name": "ench_book",
-      "entries": [
-        {
-          "entryName": "minecraft:book",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "levels": 30.0,
-              "treasure": true,
-              "function": "minecraft:enchant_with_levels"
-            }
-          ],
-          "name": "minecraft:book"
-        },
-        {
-          "entryName": "empty",
-          "weight": 14,
-          "quality": 0,
-          "type": "empty"
-        }
-      ],
-      "rolls": 1.0
     },
     {
       "name": "bm_book",

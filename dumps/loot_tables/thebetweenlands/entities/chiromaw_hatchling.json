@@ -1,0 +1,110 @@
+{
+  "pools": [
+    {
+      "name": "chiromaw_hatchling",
+      "entries": [
+        {
+          "entryName": "thebetweenlands:angler_meat_raw",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:angler_meat_raw"
+        },
+        {
+          "entryName": "thebetweenlands:silt_crab_claw",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:silt_crab_claw"
+        },
+        {
+          "entryName": "dragonfly",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{Entity:{id:\"thebetweenlands:dragonfly\"}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "thebetweenlands:critter"
+        },
+        {
+          "entryName": "dragonfly_wing",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 3.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thebetweenlands:items_misc"
+        },
+        {
+          "entryName": "firefly",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{Entity:{id:\"thebetweenlands:firefly\"}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "thebetweenlands:critter"
+        },
+        {
+          "entryName": "thebetweenlands:frog_legs_raw",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:frog_legs_raw"
+        },
+        {
+          "entryName": "gecko",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{Entity:{id:\"thebetweenlands:gecko\"}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "thebetweenlands:critter"
+        },
+        {
+          "entryName": "lurker_skin",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 4.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thebetweenlands:items_misc"
+        },
+        {
+          "entryName": "thebetweenlands:mire_snail_egg",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:mire_snail_egg"
+        },
+        {
+          "entryName": "thebetweenlands:snail_flesh_raw",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:snail_flesh_raw"
+        }
+      ],
+      "rolls": 2.0
+    }
+  ]
+}

@@ -187,7 +187,7 @@
         },
         {
           "entryName": "basilisk_arrow",
-          "weight": 20,
+          "weight": 12,
           "quality": 0,
           "type": "item",
           "functions": [
@@ -200,6 +200,22 @@
             }
           ],
           "name": "thebetweenlands:basilisk_arrow"
+        },
+        {
+          "entryName": "shock_arrow",
+          "weight": 12,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "thebetweenlands:shock_arrow"
         },
         {
           "entryName": "octine_arrow",

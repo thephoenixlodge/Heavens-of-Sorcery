@@ -62,6 +62,26 @@
         }
       ],
       "rolls": 1.0
+    },
+    {
+      "name": "fragment",
+      "entries": [
+        {
+          "entryName": "rats:rat_upgrade_fragment",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "rats:rat_upgrade_fragment"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "chance": 0.01,
+          "looting_multiplier": 0.02,
+          "condition": "minecraft:random_chance_with_looting"
+        }
+      ]
     }
   ]
 }

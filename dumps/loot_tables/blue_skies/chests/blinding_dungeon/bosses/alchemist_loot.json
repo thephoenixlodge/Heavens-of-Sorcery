@@ -1,75 +1,6 @@
 {
   "pools": [
     {
-      "name": "arc",
-      "entries": [
-        {
-          "entryName": "blue_skies:arcs",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "data": 0.0,
-              "function": "minecraft:set_data"
-            }
-          ],
-          "name": "blue_skies:arcs"
-        }
-      ],
-      "rolls": 1.0
-    },
-    {
-      "name": "sword",
-      "entries": [
-        {
-          "entryName": "blue_skies:different_sword",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "name": "blue_skies:different_sword"
-        }
-      ],
-      "rolls": {
-        "min": 0.0,
-        "max": 1.0
-      }
-    },
-    {
-      "name": "shadow_armor",
-      "entries": [
-        {
-          "entryName": "blue_skies:shadow_chestplate",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "name": "blue_skies:shadow_chestplate"
-        },
-        {
-          "entryName": "blue_skies:shadow_leggings",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "name": "blue_skies:shadow_leggings"
-        },
-        {
-          "entryName": "blue_skies:shadow_boots",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "name": "blue_skies:shadow_boots"
-        },
-        {
-          "entryName": "blue_skies:shadow_helmet",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "name": "blue_skies:shadow_helmet"
-        }
-      ],
-      "rolls": 1.0
-    },
-    {
       "name": "horse",
       "entries": [
         {
@@ -104,45 +35,43 @@
       "rolls": 1.0
     },
     {
-      "name": "enchanted_book",
+      "name": "sword",
       "entries": [
         {
-          "entryName": "minecraft:book",
+          "entryName": "blue_skies:different_sword",
           "weight": 1,
           "quality": 0,
           "type": "item",
-          "functions": [
-            {
-              "function": "minecraft:enchant_randomly"
-            }
-          ],
-          "name": "minecraft:book"
+          "name": "blue_skies:different_sword"
         }
       ],
       "rolls": {
         "min": 0.0,
-        "max": 2.0
+        "max": 1.0
       }
     },
     {
-      "name": "material",
+      "name": "arc",
       "entries": [
         {
-          "entryName": "minecraft:redstone",
+          "entryName": "blue_skies:arcs",
           "weight": 1,
           "quality": 0,
           "type": "item",
           "functions": [
             {
-              "count": {
-                "min": 1.0,
-                "max": 3.0
-              },
-              "function": "minecraft:set_count"
+              "data": 0.0,
+              "function": "minecraft:set_data"
             }
           ],
-          "name": "minecraft:redstone"
-        },
+          "name": "blue_skies:arcs"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "material",
+      "entries": [
         {
           "entryName": "minecraft:glowstone_dust",
           "weight": 1,
@@ -174,12 +103,62 @@
             }
           ],
           "name": "blue_skies:lunar_stick"
+        },
+        {
+          "entryName": "minecraft:redstone",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:redstone"
         }
       ],
       "rolls": {
         "min": 5.0,
         "max": 8.0
       }
+    },
+    {
+      "name": "shadow_armor",
+      "entries": [
+        {
+          "entryName": "blue_skies:shadow_chestplate",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "blue_skies:shadow_chestplate"
+        },
+        {
+          "entryName": "blue_skies:shadow_leggings",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "blue_skies:shadow_leggings"
+        },
+        {
+          "entryName": "blue_skies:shadow_helmet",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "blue_skies:shadow_helmet"
+        },
+        {
+          "entryName": "blue_skies:shadow_boots",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "blue_skies:shadow_boots"
+        }
+      ],
+      "rolls": 1.0
     },
     {
       "name": "hos_extra",
@@ -189,7 +168,35 @@
           "weight": 1,
           "quality": 0,
           "type": "item",
+          "name": "wings:monarch_butterfly_wings"
+        },
+        {
+          "entryName": "loottweaker#5",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "wings:evil_wings"
+        },
+        {
+          "entryName": "loottweaker#13",
+          "weight": 10,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "ebwizardry:chests/shrine"
+        },
+        {
+          "entryName": "loottweaker#4",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
           "name": "wings:angel_wings"
+        },
+        {
+          "entryName": "loottweaker#3",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "wings:fire_wings"
         },
         {
           "entryName": "loottweaker#2",
@@ -199,49 +206,14 @@
           "name": "wings:dragon_wings"
         },
         {
-          "entryName": "loottweaker#3",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "name": "wings:evil_wings"
-        },
-        {
-          "entryName": "loottweaker#4",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "name": "wings:blue_butterfly_wings"
-        },
-        {
-          "entryName": "loottweaker#5",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "name": "wings:fire_wings"
-        },
-        {
-          "entryName": "loottweaker#6",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "name": "wings:slime_wings"
-        },
-        {
-          "entryName": "loottweaker#7",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "name": "wings:monarch_butterfly_wings"
-        },
-        {
-          "entryName": "loottweaker#8",
+          "entryName": "loottweaker#9",
           "weight": 1,
           "quality": 0,
           "type": "item",
           "name": "wings:bat_wings"
         },
         {
-          "entryName": "loottweaker#9",
+          "entryName": "loottweaker#8",
           "weight": 1,
           "quality": 0,
           "type": "item",
@@ -264,6 +236,13 @@
           "name": "botania:sparkupgrade"
         },
         {
+          "entryName": "loottweaker#7",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "wings:blue_butterfly_wings"
+        },
+        {
           "entryName": "loottweaker#11",
           "weight": 2,
           "quality": 1,
@@ -280,6 +259,13 @@
           "name": "minecraft:totem_of_undying"
         },
         {
+          "entryName": "loottweaker#6",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "wings:slime_wings"
+        },
+        {
           "entryName": "loottweaker#12",
           "weight": 2,
           "quality": 1,
@@ -294,41 +280,32 @@
             }
           ],
           "name": "botania:overgrowthseed"
-        },
-        {
-          "entryName": "loottweaker#13",
-          "weight": 10,
-          "quality": 0,
-          "type": "loot_table",
-          "name": "ebwizardry:chests/shrine"
-        },
-        {
-          "entryName": "loottweaker#14",
-          "weight": 2,
-          "quality": 1,
-          "type": "item",
-          "functions": [
-            {
-              "data": {
-                "min": 5.0,
-                "max": 6.0
-              },
-              "function": "minecraft:set_data"
-            },
-            {
-              "count": {
-                "min": 0.0,
-                "max": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "avatarmod:scroll"
         }
       ],
       "rolls": {
         "min": 1.0,
         "max": 3.0
+      }
+    },
+    {
+      "name": "enchanted_book",
+      "entries": [
+        {
+          "entryName": "minecraft:book",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly"
+            }
+          ],
+          "name": "minecraft:book"
+        }
+      ],
+      "rolls": {
+        "min": 0.0,
+        "max": 2.0
       }
     }
   ]

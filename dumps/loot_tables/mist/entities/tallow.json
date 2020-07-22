@@ -4,11 +4,11 @@
       "name": "tallow_1",
       "entries": [
         {
-          "entryName": "mist:tallow",
+          "entryName": "loottweaker#1",
           "weight": 1,
           "quality": 0,
           "type": "item",
-          "name": "mist:tallow"
+          "name": "bewitchment:tallow"
         },
         {
           "entryName": "empty",
@@ -26,74 +26,10 @@
       ]
     },
     {
-      "name": "tallow_2",
-      "entries": [
-        {
-          "entryName": "mist:tallow",
-          "weight": 2,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 0.0,
-                "max": 1.0
-              },
-              "limit": 2,
-              "function": "minecraft:looting_enchant"
-            }
-          ],
-          "name": "mist:tallow"
-        },
-        {
-          "entryName": "empty",
-          "weight": 1,
-          "quality": 0,
-          "type": "empty"
-        }
-      ],
-      "rolls": 1.0,
-      "conditions": [
-        {
-          "value": 2,
-          "condition": "mist:skill_cutting"
-        }
-      ]
-    },
-    {
-      "name": "tallow_3",
-      "entries": [
-        {
-          "entryName": "mist:tallow",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 0.0,
-                "max": 1.0
-              },
-              "limit": 2,
-              "function": "minecraft:looting_enchant"
-            }
-          ],
-          "name": "mist:tallow"
-        }
-      ],
-      "rolls": 1.0,
-      "conditions": [
-        {
-          "value": 3,
-          "condition": "mist:skill_cutting"
-        }
-      ]
-    },
-    {
       "name": "tallow_4",
       "entries": [
         {
-          "entryName": "mist:tallow",
+          "entryName": "loottweaker#1",
           "weight": 1,
           "quality": 0,
           "type": "item",
@@ -114,13 +50,77 @@
               "function": "minecraft:looting_enchant"
             }
           ],
-          "name": "mist:tallow"
+          "name": "bewitchment:tallow"
         }
       ],
       "rolls": 1.0,
       "conditions": [
         {
           "value": 4,
+          "condition": "mist:skill_cutting"
+        }
+      ]
+    },
+    {
+      "name": "tallow_2",
+      "entries": [
+        {
+          "entryName": "loottweaker#1",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "limit": 2,
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "bewitchment:tallow"
+        },
+        {
+          "entryName": "empty",
+          "weight": 1,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "value": 2,
+          "condition": "mist:skill_cutting"
+        }
+      ]
+    },
+    {
+      "name": "tallow_3",
+      "entries": [
+        {
+          "entryName": "loottweaker#1",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "limit": 2,
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "bewitchment:tallow"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "value": 3,
           "condition": "mist:skill_cutting"
         }
       ]
