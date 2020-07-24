@@ -14,7 +14,7 @@
         },
         {
             "type": "text",
-            "text": "onto the paper. Do the same thing with a $(thing)Spell Effect$(), and then you can drag with RMB to link them. Order is important - you must draw from the $(thing)Type$() to the $(thing)Effect#(), not the reverse. Provided you're carrying your $(item)Codex$(), you can then save the spell recipe to it, and see what ingredients will be necessary to craft the spell on the $(item)Crafting Plate$().$(br)Gather the ingredients, then throw them onto the $(item)Plate$() $(n)in order$() with the $(item)Nacre Pearl$() being added last. With enough $(thing)Mana$() available (either through"
+            "text": "onto the paper. Do the same thing with a $(thing)Spell Effect$(), and then you can drag with RMB to link them. Order is important - you must draw from the $(thing)Type$() to the $(thing)Effect$(), not the reverse. Provided you're carrying your $(item)Codex$(), you can then save the spell recipe to it, and see what ingredients will be necessary to craft the spell on the $(item)Crafting Plate$().$(br)Gather the ingredients, then throw them onto the $(item)Plate$() $(n)in order$() with the $(item)Nacre Pearl$() being added last. With enough $(thing)Mana$() available (either through"
         },
         {
         	"type": "text",
