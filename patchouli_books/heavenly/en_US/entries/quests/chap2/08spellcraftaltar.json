@@ -80,12 +80,6 @@
             "title": "Planks & Pigmented Planks",
             "recipe": "wizardry:wisdom_wood/planks",
             "recipe2": "wizardry:wisdom_wood/pigmented_planks"
-        },
-        {
-            "type": "mana_world",
-            "heading": "Infusing Wood Planks",
-            "input": "ore:plankWood",
-            "output": "wizardry:wisdom_wood_planks"
         }
     ]
 }

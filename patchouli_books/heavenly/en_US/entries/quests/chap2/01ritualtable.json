@@ -23,6 +23,12 @@
             "type": "crafting",
             "title": "Ritual Table",
             "recipe": "crafttweaker:ct_shaped-832280076"
+        },
+        {
+            "type": "mana_world",
+            "heading": "Infusing Wood Planks",
+            "input": "ore:plankWood",
+            "output": "wizardry:wisdom_wood_planks"
         }
     ]
 }
