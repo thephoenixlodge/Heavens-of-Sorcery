@@ -1,5 +1,6 @@
 ////imports
 import mods.botania.PureDaisy;
+import mods.botania.ManaInfusion;
 import mods.bloodmagic.TartaricForge;
 import mods.bloodmagic.AlchemyArray;
 
@@ -34,7 +35,8 @@ val scornedBrick = <bewitchment:scorned_bricks>;
 val slateT1 = <bloodmagic:slate>;
 val ironGrate = <quark:grate>;
 val witchesOven = <bewitchment:witches_oven>;
-
+val athame = <bewitchment:athame>;
+val silverKnife = <mysticalworld:silver_knife>;
 
 //Chalk
 limestone.add(limestoneBL);
@@ -63,3 +65,7 @@ AlchemyArray.addRecipe(treeSeedCypress, seedBoreal, spruceHeart, "bloodmagic:tex
 //witches oven
 recipes.remove(witchesOven);
 TartaricForge.addRecipe(witchesOven, [furnaceMW, scornedBrick, slateT1, ironGrate], 20, 10);
+
+//athame
+recipes.remove(athame);
+ManaInfusion.addInfusion(athame, silverKnife, 30000);
