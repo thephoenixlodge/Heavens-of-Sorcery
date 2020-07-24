@@ -15,7 +15,7 @@
         {
             "type": "checklist_end",
             "item1": "mist:soap",
-            "reward1": "mist:tallow#5"
+            "reward1": "bewitchment:tallow#5"
         },
         {
             "type": "crafting",
