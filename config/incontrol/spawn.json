@@ -4,6 +4,13 @@
 		"result": "deny"	
 	},
 	{
+		"dimension": -1,
+		"mob": [
+			"thaumcraft:wisp"
+		],
+		"result": "deny"
+	},
+	{
 		"dimension": 5,
 		"mob": [
 			"spider",
