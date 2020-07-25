@@ -10,7 +10,7 @@
             "type": "quest",
             "title": "It's Only Natural",
             "trigger": "heavens:bookchap4/04naturalaltar",
-            "text": "$(item)Gold Leaf$(), along with the $(item)Charoite gems$() from the $(thing)Everbright$() and $(thing)Everdawn$() were the final missing ingredients to be able to construst a $(item)Terrestrial Agglomeration Plate$().$(br)In its default configuration, this device allows creation of the most powerful $(thing)Mana$() attuned material - $(item)Terrasteel$()."
+            "text": "Another important tool of natural magicks is the $(item)Natural Altar$(). Unlike the $(thing)Ritual of the Forest$(), it directly utilises the local $(thing)Aura$() to imbue objects with potent natural energies. For now, lets use it to transform a $(item)Redstone Root$() into $(item)Wildroot$()"
         },
         {
             "type": "checklist_end",
