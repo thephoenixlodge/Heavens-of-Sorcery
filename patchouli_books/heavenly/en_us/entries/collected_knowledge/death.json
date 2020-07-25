@@ -1,0 +1,18 @@
+{
+    "name": "Grave Situations",
+    "icon": "minecraft:skull",
+    "category": "collected_knowledge",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Death happens to all of us, so if it happens to you, don't worry, it's not that big a deal. All your items are saved in a handy dandy grave right where you died.$(br2)All you have to do is return to the scene of the crime and $(l)crouch on your grave$() to recover all your items, right back to where they were in your inventory beforehand."
+        },
+        {
+            "type": "image",
+            "title": "You're Dead",
+            "images": [
+                "books:templates/grave.png"
+            ]
+        }
+    ]
+}
