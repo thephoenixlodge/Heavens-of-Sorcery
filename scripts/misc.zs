@@ -161,6 +161,10 @@ val mistPicks = [
 	<botania:elementiumpick>,
 	<botania:terrapick>
 ] as IItemStack[];
+val pressurePlateWood = <ore:pressurePlateWood>;
+val sawBlade = <architecturecraft:sawblade>;
+val pulley = <architecturecraft:largepulley>;
+val sawBench = <architecturecraft:sawbench>;
 
 val doNotAddRepairRecipe = [
 	<mist:flint_and_stone>,
@@ -425,3 +429,7 @@ for pick in mistPicks {
 
 //apple upgrades
 ManaInfusion.addInfusion(appleSeed, applePip, 10000);
+
+//allow all wooden pressure plates in sawbench recipe
+recipes.remove(sawBench);
+recipes.addShaped(sawBench, [[ingotIron, sawBlade, ingotIron], [stick, pulley, stick], [stick, pressurePlateWood, stick]]);

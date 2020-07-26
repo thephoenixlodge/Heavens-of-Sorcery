@@ -13,7 +13,7 @@
         {
             "type": "crafting",
             "advancement": "heavens:bookchap1/6iron",
-            "recipe": "architecturecraft:tile.architecturecraft.sawbench0",
+            "recipe": "crafttweaker:ct_shaped-1212115646",
             "title": "Architect's Sawbench",
             "text": "Input the blocks you want to shape in the top left, and select which shape you want. Different shapes give different amounts per block used."
         },
