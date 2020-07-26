@@ -424,4 +424,4 @@ for pick in mistPicks {
 }
 
 //apple upgrades
-ManaInfusion.addInfusion(appleSeeds, applePip, 10000);
+ManaInfusion.addInfusion(appleSeed, applePip, 10000);
