@@ -166,6 +166,27 @@ val mudCarvedES1 = <thebetweenlands:mud_bricks_carved:6>;
 val mudCarvedES2 = <thebetweenlands:mud_bricks_carved:7>;
 val mudCarvedES3 = <thebetweenlands:mud_bricks_carved:8>;
 val mudCarvedES4 = <thebetweenlands:mud_bricks_carved:9>;
+//terracotta tiles
+val terracottaMap = {
+	"natural" : [<cathedral:roofing_block_natural>, <quark:hardened_clay_tiles>],
+	"white" : [<cathedral:roofing_block_white>, <quark:stained_clay_tiles>],
+	"orange" : [<cathedral:roofing_block_orange>, <quark:stained_clay_tiles:1>],
+	"magenta" : [<cathedral:roofing_block_magenta>, <quark:stained_clay_tiles:2>],
+	"light_blue" : [<cathedral:roofing_block_light_blue>, <quark:stained_clay_tiles:3>],
+	"yellow" : [<cathedral:roofing_block_yellow>, <quark:stained_clay_tiles:4>],
+	"lime" : [<cathedral:roofing_block_lime>, <quark:stained_clay_tiles:5>],
+	"pink" : [<cathedral:roofing_block_pink>, <quark:stained_clay_tiles:6>],
+	"gray" : [<cathedral:roofing_block_gray>, <quark:stained_clay_tiles:7>],
+	"silver" : [<cathedral:roofing_block_silver>, <quark:stained_clay_tiles:8>],
+	"cyan" : [<cathedral:roofing_block_cyan>, <quark:stained_clay_tiles:9>],
+	"purple" : [<cathedral:roofing_block_purple>, <quark:stained_clay_tiles:10>],
+	"blue" : [<cathedral:roofing_block_blue>, <quark:stained_clay_tiles:11>],
+	"brown" : [<cathedral:roofing_block_brown>, <quark:stained_clay_tiles:12>],
+	"green" : [<cathedral:roofing_block_green>, <quark:stained_clay_tiles:13>],
+	"red" : [<cathedral:roofing_block_red>, <quark:stained_clay_tiles:14>],
+	"black" : [<cathedral:roofing_block_black>, <quark:stained_clay_tiles:15>]
+} as IItemStack[][string];
+
 
 //Add group for Sapphire Blocks
 //Carving.addGroup("blockSapphire");
@@ -381,3 +402,18 @@ Carving.addVariation("mud-carved", mudCarvedES1);
 Carving.addVariation("mud-carved", mudCarvedES2);
 Carving.addVariation("mud-carved", mudCarvedES3);
 Carving.addVariation("mud-carved", mudCarvedES4);
+
+//terracotta tiles
+for colour, tiles in terracottaMap {
+	recipes.removeByRecipeName("cathedral:roof_block_" ~ colour);
+	var group = "terracotta-tiles-" ~ colour;
+	Carving.addGroup(group);
+	for tile in tiles {
+		Carving.addVariation(group, tile);
+	}
+}
+recipes.removeByRecipeName("quark:stained_clay_tiles");
+for i in 1 to 16 {
+	var n = i * 2;
+	recipes.removeByRecipeName("quark:stained_clay_tiles_" ~ n);
+}
