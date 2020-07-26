@@ -9,6 +9,7 @@ import mods.naturesaura.Altar as NatureAltar;
 import mods.roots.Fey;
 import mods.aether_legacy.Enchanter;
 import mods.buildersbag;
+import mods.botania.ManaInfusion;
 
 ////Variables
 val clayTile = <cathedral:firedtile>;
@@ -421,3 +422,6 @@ buildersbag.addBagUpgradeRecipeShaped("b_bag_t5", bBag5, [[null, callingSpirit, 
 for pick in mistPicks {
 	pick.addTooltip(format.blue("Mistborn"));
 }
+
+//apple upgrades
+ManaInfusion.addInfusion(appleSeeds, applePip, 10000);
