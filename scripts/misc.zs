@@ -152,7 +152,14 @@ val stardust = <astralsorcery:itemcraftingcomponent:2>;
 val assemblyHalo = <botania:craftinghalo>;
 val goldPowder = <naturesaura:gold_powder>;
 val callingSpirit = <naturesaura:calling_spirit>;
-
+val applePip = <dynamictrees:appleseed>;
+val appleSeed = <rustic:apple_seeds>;
+val mistPicks = [
+	<mist:niobium_pickaxe>,
+	<botania:manasteelpick>,
+	<botania:elementiumpick>,
+	<botania:terrapick>
+] as IItemStack[];
 
 val doNotAddRepairRecipe = [
 	<mist:flint_and_stone>,
@@ -409,3 +416,8 @@ buildersbag.addBagUpgradeRecipeShaped("b_bag_t2", bBag2, [[null, nacrePearl, nul
 buildersbag.addBagUpgradeRecipeShaped("b_bag_t3", bBag3, [[null, otherworldsCore, null], [leather, bBag2, leather], [sapphire, leather, sapphire]]);
 buildersbag.addBagUpgradeRecipeShaped("b_bag_t4", bBag4, [[null, assemblyHalo, null], [manaWeave, bBag3, manaWeave], [stardust, manaWeave, stardust]]);
 buildersbag.addBagUpgradeRecipeShaped("b_bag_t5", bBag5, [[null, callingSpirit, null], [feyLeather, bBag4, feyLeather], [goldPowder, feyLeather, goldPowder]]);
+
+//misty mining tooltip
+for pick in mistPicks {
+	pick.addTooltip(format.blue("Mistborn"));
+}
