@@ -124,6 +124,38 @@ for pool in poolsTallowNames {
 	poolsTallowMaxi += tableTallowMaxi.getPool(pool);
 }
 
+
+//misty world branches
+var branches = [
+	<mist:acacia_branch>,
+	<mist:acacia_branch:3>,
+	<mist:aspen_branch>,
+	<mist:aspen_branch:3>,
+	<mist:a_tree_branch>,
+	<mist:a_tree_branch:3>,
+	<mist:birch_branch>,
+	<mist:birch_branch:3>,
+	<mist:oak_branch>,
+	<mist:oak_branch:3>,
+	<mist:pine_branch>,
+	<mist:pine_branch:3>,
+	<mist:poplar_branch>,
+	<mist:poplar_branch:3>,
+	<mist:snow_branch>,
+	<mist:snow_branch:3>,
+	<mist:spruce_branch>,
+	<mist:spruce_branch:3>,
+	<mist:s_tree_branch>,
+	<mist:s_tree_branch:3>,
+	<mist:t_tree_branch>,
+	<mist:t_tree_branch:3>,
+	<mist:willow_branch>,
+	<mist:willow_branch:3>,
+	<mist:r_tree_branch>,
+	<mist:r_tree_branch:3>
+] as IItemStack[];
+val stick = <ore:stickWood>;
+
 //remove extra amethyst from the oredict
 oreAmethyst.remove(amethystWings);
 oreAmethyst.remove(amethystBW);
@@ -277,3 +309,8 @@ poolsTallowMaxi[0].addItemEntryHelper(tallowBW, 1, 0, [Functions.setCount(0, 2)]
 poolsTallowMaxi[1].addItemEntryHelper(tallowBW, 1, 0, [Functions.setCount(1, 2), Functions.lootingEnchantBonus(0, 1, 2)], []);
 poolsTallowMaxi[2].addItemEntryHelper(tallowBW, 1, 0, [Functions.setCount(2, 3), Functions.lootingEnchantBonus(0, 1, 4)], []);
 poolsTallowMaxi[3].addItemEntryHelper(tallowBW, 1, 0, [Functions.setCount(2, 4), Functions.lootingEnchantBonus(0, 1, 5)], []);
+
+//remove branches from stick oredict
+for branch in branches {
+	stick.remove(branch);
+}
