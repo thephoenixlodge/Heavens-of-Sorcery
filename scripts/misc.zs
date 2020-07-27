@@ -165,6 +165,8 @@ val pressurePlateWood = <ore:pressurePlateWood>;
 val sawBlade = <architecturecraft:sawblade>;
 val pulley = <architecturecraft:largepulley>;
 val sawBench = <architecturecraft:sawbench>;
+val bookRustic = <rustic:book>;
+val ironberries = <rustic:ironberries>;
 
 val doNotAddRepairRecipe = [
 	<mist:flint_and_stone>,
@@ -433,3 +435,7 @@ ManaInfusion.addInfusion(appleSeed, applePip, 10000);
 //allow all wooden pressure plates in sawbench recipe
 recipes.remove(sawBench);
 recipes.addShaped(sawBench, [[ingotIron, sawBlade, ingotIron], [stick, pulley, stick], [stick, pressurePlateWood, stick]]);
+
+//tweak rustic almanac recipe
+recipes.remove(bookRustic);
+recipes.addShapeless(bookRustic, [book, ironberries]);
