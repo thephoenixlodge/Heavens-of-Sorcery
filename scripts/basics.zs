@@ -159,8 +159,8 @@ CauldronCrafting.addFluidTransform(manaLiquid, pastureSeedInfused, water);
 CauldronCrafting.addFluidRecipe(orbMana100, orbGlass, manaLiquid, 0);
 
 //Clay to dirt
-CauldronCrafting.addFluidRecipe(dirt, clay, manaLiquid, 1);
-CauldronCrafting.addFluidRecipe(dirt * 4, clayBlock, manaLiquid, 4);
+CauldronCrafting.addFluidRecipe(dirt * 4, clay, manaLiquid, 1);
+CauldronCrafting.addFluidRecipe(dirt * 16, clayBlock, manaLiquid, 4);
 
 //Seeds
 CauldronCrafting.addFluidRecipe(seedWheat, seedIronberry, manaLiquid, 1);
@@ -174,7 +174,7 @@ recipes.addShaped(mill, [[null, null, cuisineHandle], [stoneTaiga, stoneTaiga, s
 CauldronCrafting.addFluidTransform(lava, chiliPowder * 2, manaLiquid, 4, true);
 
 //Taiga cobble production
-CauldronCrafting.addFluidRecipe(cobbleTaiga, cobble, manaLiquid, 0);
+CauldronCrafting.addFluidRecipe(cobbleTaiga * 2, cobble, manaLiquid, 0);
 
 //Flint
 CauldronCrafting.addFluidRecipe(flint, nuggetIron, manaLiquid, 1);
@@ -187,7 +187,7 @@ recipes.addShapeless(quartzNether, [quartzSliver, quartzSliver, quartzSliver, qu
 
 //Diorite
 recipes.remove(diorite);
-recipes.addShaped(diorite, [[quartzSliver, oreCobble],[oreCobble, quartzSliver]]);
+recipes.addShaped(diorite * 2, [[quartzSliver, oreCobble],[oreCobble, quartzSliver]]);
 
 //Granite
 recipes.remove(granite);
