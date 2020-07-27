@@ -19,7 +19,8 @@
         {
             "type": "checklist_end",
             "item1": "wizardry:nacre_pearl",
-            "reward1": "wizardry:orb#20"
+            "reward1": "wizardry:orb#20",
+            "reward2": "minecraft:diamond_chestplate"
         },
         {
             "type": "nacre_world",
