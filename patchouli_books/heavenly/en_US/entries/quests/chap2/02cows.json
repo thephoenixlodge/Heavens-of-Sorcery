@@ -24,7 +24,7 @@
             "item1": "arcaneworld:sapphire",
             "item2": "minecraft:beef",
             "item3": "minecraft:bone",
-            "output_item": "minecraft:spawn_egg#2{EntityTag:{id:\"minecraft:cow\"}}",
+            "output_item": "minecraft:spawn_egg{EntityTag:{id:\"minecraft:cow\"}}",
             "description": "Summon a Cow at the Ritual Altar"
         },
         {
