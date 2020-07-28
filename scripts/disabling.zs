@@ -156,6 +156,9 @@ var branches = [
 ] as IItemStack[];
 val stick = <ore:stickWood>;
 
+//MW rubber
+val rubberMW = <mist:rubber>;
+
 //remove extra amethyst from the oredict
 oreAmethyst.remove(amethystWings);
 oreAmethyst.remove(amethystBW);
@@ -314,3 +317,6 @@ poolsTallowMaxi[3].addItemEntryHelper(tallowBW, 1, 0, [Functions.setCount(2, 4),
 for branch in branches {
 	stick.remove(branch);
 }
+
+//MW rubber recipe removal
+recipes.remove(rubberMW);
