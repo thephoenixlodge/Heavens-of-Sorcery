@@ -85,6 +85,13 @@
         {
         	"type": "crafting",
         	"recipe": "soot:caminite_plate"
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "useful_things/tinker_lens"
+            ],
+            "text": "It is recommended to make a $(item)Tinkers Lens$() for ease of use of all Ember related devices."
         }
     ]
 }

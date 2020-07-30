@@ -53,8 +53,10 @@
         {
             "type": "relations",
             "entries": [
-                "collected_knowledge/moving_ember"
-            ]
+                "collected_knowledge/moving_ember",
+                "useful_things/tinker_lens"
+            ],
+            "text": "It is recommended to make a $(item)Tinkers Lens$() for ease of use of all Ember related devices."
         }
     ]
 }

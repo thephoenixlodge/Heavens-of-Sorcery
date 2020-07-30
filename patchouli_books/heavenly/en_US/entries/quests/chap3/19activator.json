@@ -38,6 +38,13 @@
             "type": "crafting",
             "recipe": "crafttweaker:ct_shaped737845474",
             "recipe2": "embers:plate_iron"
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "useful_things/tinker_lens"
+            ],
+            "text": "It is recommended to make a $(item)Tinkers Lens$() for ease of use of all Ember related devices."
         }
     ]
 }

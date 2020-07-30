@@ -1,0 +1,17 @@
+{
+    "name": "Mechanical Inspection",
+    "icon": "embers:tinker_lens",
+    "category": "useful_things",
+    "advancement": "heavens:bookchap3/15metals",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Sometimes it's not all that clear what things connect to where on some devices, particularly when working with those powered by $(thing)Activated Ember$(). The dwarves dealt with this using a special lens, which allowed easy inspection, showing simply whether something requires, provides, or simply holds $(thing)items$(), $(thing)fluids$(), or $(thing)Activated Ember$()"
+        },
+        {
+            "type": "crafting",
+            "recipe": "embers:tinker_lens",
+            "title": "Tinkers Lens"
+        }
+    ]
+}
