@@ -16,6 +16,8 @@ criteria2 = addCriteria("hasItems1", "triumph:player_crafted_item")
 criteria2.setItem(<botania:spreader, count:1>)
 criteria3 = addCriteria("hasItems2", "triumph:player_crafted_item")
 criteria3.setItem(<botania:pool, count:1>)
+criteria4 = addCriteria("hasItemsWand", "minecraft:inventory_changed")
+criteria4.addItem(<botania:twigwand, count:1~>)
 
 addRewardItem(<botania:specialflower, count:3, nbt:{type:"endoflame"}>)
 addRewardItem(<botania:livingrock, count:30>)
