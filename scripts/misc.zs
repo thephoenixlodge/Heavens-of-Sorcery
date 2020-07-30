@@ -167,6 +167,7 @@ val pulley = <architecturecraft:largepulley>;
 val sawBench = <architecturecraft:sawbench>;
 val bookRustic = <rustic:book>;
 val ironberries = <rustic:ironberries>;
+val nuggetIron = <minecraft:iron_nugget>;
 
 val doNotAddRepairRecipe = [
 	<mist:flint_and_stone>,
@@ -438,4 +439,4 @@ recipes.addShaped(sawBench, [[ingotIron, sawBlade, ingotIron], [stick, pulley, s
 
 //tweak rustic almanac recipe
 recipes.remove(bookRustic);
-recipes.addShapeless(bookRustic, [book, ironberries]);
+recipes.addShapeless(bookRustic, [book, ironberries, nuggetIron]);
