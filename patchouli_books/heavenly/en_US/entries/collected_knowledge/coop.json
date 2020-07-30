@@ -45,7 +45,7 @@
             "type": "text",
             "anchor": "together",
             "title": "Advancements/Quests",
-            "text": "In order to sync your advancements, and by extension your progress through this book, your team will need to perform the following:$(numli)1.$()$(thing)P1$() must use the command $(comm)/tf invite <username>$() to invite each other player to the team.$(numli)2. $()Other players must use the command $(comm)/tf accept <p1's username>$() to accept the invitation.$(br)In the event progress is not synced, you can use $(comm)/tf forcesync$()"
+            "text": "In order to sync your advancements, and by extension your progress through this book, your team will need to perform the following:$(numli)1.$()$(thing)P1$() must use the command $(comm)/tofe invite <username>$() to invite each other player to the team.$(numli)2. $()Other players must use the command $(comm)/tofe accept <p1's username>$() to accept the invitation.$(br)In the event progress is not synced, you can use $(comm)/tofe forcesync$()"
         }
     ]
 }
