@@ -27,7 +27,7 @@
         {
             "type": "text",
             "title": "Respirators",
-            "text": "Can be equipped as a helmet, or in a unique slot accessed by clicking directly above the helmet slot in your inventory.$(br2)Hold in your hand and right click to add $(item)Filter Coal$().$(br2)Adding additional leather to the $(item)Open Respirator$() closes it, increasing protection from the $(thing)Mist$(), but at the expense of it being impossible to eat anything while it's worn."
+            "text": "Can be equipped as a helmet, or in a unique slot accessed by clicking directly above the helmet slot in your inventory.$(br2)Hold in your hand and Shift-Right-Click to add $(item)Filter Coal$().$(br2)Adding additional leather to the $(item)Open Respirator$() closes it, increasing protection from the $(thing)Mist$(), but at the expense of it being impossible to eat anything while it's worn."
         }
     ]
 }
