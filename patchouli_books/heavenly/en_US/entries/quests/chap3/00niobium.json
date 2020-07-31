@@ -10,7 +10,7 @@
             "type": "quest",
             "title": "Metallic Transition",
             "trigger": "heavens:bookchap3/0niobium",
-            "text": "Take care in this place. The $(thing)Mist$() is a great risk to one's personal health. Unfortunately the path to making it safer means risking the danger. You're going to need to harvest a material know as $(item)Niobium$(), which can be found as an ore on the cliffs around the mist."
+            "text": "Take care in this place. The $(thing)Mist$() is a great risk to one's personal health. Unfortunately the path to making it safer means risking the danger. You're going to need to harvest a material known as $(item)Niobium$(), which can be found as an ore on the cliffs around the mist."
         },
         {
             "type": "text",
