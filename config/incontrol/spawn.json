@@ -106,7 +106,7 @@
 			"bewitchment:toad"
 		],
 		"maxcount": 15,
-		"minheight": 110,
+		"minheight": 60,
 		"result": "allow"
 	},
 	{
@@ -139,7 +139,7 @@
 			"bewitchment:raven"
 		],
 		"maxcount": 10,
-		"minheight": 110,
+		"minheight": 60,
 		"result": "allow"
 	},
 	{
