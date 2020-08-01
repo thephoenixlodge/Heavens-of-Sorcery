@@ -168,6 +168,8 @@ val sawBench = <architecturecraft:sawbench>;
 val bookRustic = <rustic:book>;
 val ironberries = <rustic:ironberries>;
 val nuggetIron = <minecraft:iron_nugget>;
+val pressurePlateOak = <minecraft:wooden_pressure_plate>;
+val plankIronwood = <rustic:planks:1>;
 
 val doNotAddRepairRecipe = [
 	<mist:flint_and_stone>,
@@ -440,3 +442,6 @@ recipes.addShaped(sawBench, [[ingotIron, sawBlade, ingotIron], [stick, pulley, s
 //tweak rustic almanac recipe
 recipes.remove(bookRustic);
 recipes.addShapeless(bookRustic, [book, ironberries, nuggetIron]);
+
+//pressureplate from ironwood
+recipes.addShaped(pressurePlateOak, [[plankIronwood, plankIronwood]]);
