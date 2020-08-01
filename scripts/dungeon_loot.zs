@@ -225,6 +225,7 @@ val caveIlluminator = <astralsorcery:blockworldilluminator>;
 val book = <minecraft:book>;
 val lapis = <minecraft:dye:4>;
 //val bendingScroll = <avatarmod:scroll>;
+val tokenReforge = <contenttweaker:token_reforge>;
 
 //Add angel hearts to the pool
 poolRaid.addItemEntry(angelHeart, 6);
@@ -234,6 +235,11 @@ poolRaid.addItemEntry(portalCore, 14);
 
 //add Elytra to the pool
 poolRaid.addItemEntry(elytra, 6);
+
+//reforge tokens
+poolRaid.addItemEntryHelper(tokenReforge, 10, 1, [Functions.setCount(1, 8)], []);
+poolExtra.addItemEntryHelper(tokenReforge, 14, 1, [Functions.setCount(1, 5)], []);
+tokenReforge.addTooltip(format.gold("Use in Reforging Station to reroll equipment Traits"));
 
 //remove Potion Orbs
 poolRaid.removeEntry("arcaneworld:potion_orb");
