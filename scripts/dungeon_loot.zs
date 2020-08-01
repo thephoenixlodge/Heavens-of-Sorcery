@@ -274,7 +274,7 @@ poolRare.addItemEntryHelper(elytra, 3, 1, [Functions.setCount(0, 1)], []);
 
 //Dim doors
 poolDimDoorsNew.addItemEntry(diaryDoomed, 1);
-poolDimDoorsNew.addItemEntry(sentientSword, 1);
+poolDimDoorsNew.addItemEntry(sentientSword, 2);
 
 //foxhound
 tableFoxhound.removePool("leather");
