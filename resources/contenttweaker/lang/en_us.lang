@@ -20,6 +20,7 @@ contenttweaker.part.metal_materia=%s Metallia
 contenttweaker.part.precious_materia=%s Precia
 contenttweaker.part.etheric=Etheric %s
 fluid.latex_fluid=Latex
+item.contenttweaker.token_reforge.name=Reforging Token
 
 tile.cathedral_chain_various.enderium.name=Manasteel Chain
 
