@@ -170,6 +170,12 @@ val ironberries = <rustic:ironberries>;
 val nuggetIron = <minecraft:iron_nugget>;
 val pressurePlateOak = <minecraft:wooden_pressure_plate>;
 val plankIronwood = <rustic:planks:1>;
+val reforgingStation = <qualitytools:reforging_station>;
+val reforgingToken = <contenttweaker:token_reforge>;
+val anvil = <minecraft:anvil>;
+val polishedStone = <quark:polished_stone>;
+val obsidian = <ore:obsidian>;
+val hammerIron = <earthworks:tool_iron_hammer>;
 
 val basicBlocks = {
 	<minecraft:end_stone> : 6,
@@ -478,3 +484,7 @@ for block, multiplier in basicBlocks {
 	var manaCost = 3000 * multiplier;
 	ManaInfusion.addConjuration(block * 50, block, manaCost);
 }
+
+//reforging station recipe
+recipes.remove(reforgingStation);
+recipes.addShaped(reforgingStation, [[reforgingToken, reforgingToken], [polishedStone, hammerIron], [obsidian, anvil]]);
