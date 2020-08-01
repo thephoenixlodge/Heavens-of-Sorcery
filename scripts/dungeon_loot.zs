@@ -109,8 +109,7 @@ val extrasSimpleMap = {
 	<minecraft:ender_pearl> : 4,
 	<inspirations:rope> : 7,
 	<botania:tinypotato> : 3,
-	<inspirations:flower> : 10,
-	<minecraft:anvil> : 6
+	<inspirations:flower>: 10
 } as int[IItemStack];
 val grassSeeds = <botania:grassseeds>;
 val chestUpgrade = <metalchests:chest_upgrade>;
@@ -162,7 +161,8 @@ val extrasNetherMap = {
 	<rustic:wind_thistle> : 5,
 	<rustic:horsetail> : 5,
 	<rustic:cloudsbluff> : 5,
-	<rustic:marsh_mallow> : 5
+	<rustic:marsh_mallow> : 5,
+	<minecraft:ender_pearl> : 25
 } as int[IItemStack];
 val biomeStones = <botania:biomestonea>;
 val coal = <minecraft:coal>;
@@ -274,7 +274,7 @@ poolRare.addItemEntryHelper(elytra, 3, 1, [Functions.setCount(0, 1)], []);
 
 //Dim doors
 poolDimDoorsNew.addItemEntry(diaryDoomed, 1);
-poolDimDoorsNew.addItemEntry(sentientSword, 3);
+poolDimDoorsNew.addItemEntry(sentientSword, 1);
 
 //foxhound
 tableFoxhound.removePool("leather");
