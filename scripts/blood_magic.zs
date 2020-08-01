@@ -49,7 +49,7 @@ val plateBronze = <embers:plate_bronze>;
 val incenseAltar = <bloodmagic:incense_altar>;
 val imperfectRitualStone = <bloodmagic:ritual_controller:1>;
 val scornedBricks = <bewitchment:scorned_bricks>;
-val marbleSooty = <astralsorcery:blockblackmarble>;
+val marbleSooty = <astralsorcery:blockblackmarble:*>;
 val ritualTable = <arcaneworld:ritual_table>;
 val obsidian = <minecraft:obsidian>;
 val alchemyTable = <bloodmagic:alchemy_table>;
@@ -140,5 +140,5 @@ AlchemyTable.addRecipe(spectralDust * 6, [bottledGhosts, dustSpectral, ebbOfDeat
 
 //scorned bricks
 recipes.remove(scornedBricks);
-TartaricForge.addRecipe(scornedBricks * 4, [marbleSooty, marbleSooty, spectralDust, null], 65, 1);
+TartaricForge.addRecipe(scornedBricks * 4, [marbleSooty, marbleSooty, spectralDust], 65, 1);
 recipes.addShapeless(scornedBricks, [marbleSooty, marbleSooty, spectralDust]);
