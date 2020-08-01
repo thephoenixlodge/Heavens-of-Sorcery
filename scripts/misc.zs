@@ -171,6 +171,34 @@ val nuggetIron = <minecraft:iron_nugget>;
 val pressurePlateOak = <minecraft:wooden_pressure_plate>;
 val plankIronwood = <rustic:planks:1>;
 
+val basicBlocks = {
+	<minecraft:end_stone> : 6,
+	<aether_legacy:holystone> : 2,
+	<blue_skies:turquoise_cobblestone> : 3,
+	<blue_skies:lunar_cobblestone> : 3,
+	<mist:cobblestone> : 2,
+	<aether_legacy:icestone> : 15,
+	<thebetweenlands:betweenstone> : 4,
+	<minecraft:cobblestone> : 1,
+	<minecraft:stone:1> : 1,
+	<minecraft:stone:3> : 1,
+	<minecraft:stone:5> : 1,
+	<minecraft:end_stone> : 1,
+	<minecraft:dirt> : 1,
+	<minecraft:sand> : 2,
+	<minecraft:sand:1> : 2,
+	<minecraft:gravel> : 2,
+	<minecraft:ice> : 3,
+	<minecraft:snow> : 3,
+	<minecraft:clay> : 2,
+	<astralsorcery:blockmarble> : 5,
+	<thebetweenlands:cragrock> : 4,
+	<thebetweenlands:mud> : 2,
+	<earthworks:block_chalk> : 6,
+	<thebetweenlands:limestone> : 3,
+	<quark:basalt> : 2
+} as int[IItemStack];
+
 val doNotAddRepairRecipe = [
 	<mist:flint_and_stone>,
 	<aether_legacy:skyroot_pickaxe>,
@@ -445,3 +473,8 @@ recipes.addShapeless(bookRustic, [book, ironberries, nuggetIron]);
 
 //pressureplate from ironwood
 recipes.addShaped(pressurePlateOak, [[plankIronwood, plankIronwood]]);
+
+for block, multiplier in basicBlocks {
+	var manaCost = 3000 * multiplier;
+	ManaInfusion.addConjuration(block * 50, block, manaCost);
+}
