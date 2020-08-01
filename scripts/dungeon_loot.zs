@@ -109,7 +109,8 @@ val extrasSimpleMap = {
 	<minecraft:ender_pearl> : 4,
 	<inspirations:rope> : 7,
 	<botania:tinypotato> : 3,
-	<inspirations:flower>: 10
+	<inspirations:flower> : 10,
+	<minecraft:anvil> : 3
 } as int[IItemStack];
 val grassSeeds = <botania:grassseeds>;
 val chestUpgrade = <metalchests:chest_upgrade>;
