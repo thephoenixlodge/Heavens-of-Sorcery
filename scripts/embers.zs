@@ -41,6 +41,8 @@ val ingotVoid = <thaumcraft:ingot:1>;
 val plateBrass = <thaumcraft:plate>;
 val plateThaumium = <thaumcraft:plate:2>;
 val plateVoid = <thaumcraft:plate:3>;
+val plateColdIron = <bewitchment:cold_iron_plate>;
+val ingotColdIron = <bewitchment:cold_iron_ingot>;
 val emberActivator = <embers:ember_activator>;
 val emberEmitter = <embers:ember_emitter>;
 val emberReceptor = <embers:ember_receiver>;
@@ -129,6 +131,10 @@ recipes.remove(plateThaumium);
 recipes.addShapeless(plateThaumium, [ingotThaumium, ingotThaumium, tinkersHammer.reuse()]);
 recipes.remove(plateVoid);
 recipes.addShapeless(plateVoid, [ingotVoid, ingotVoid, tinkersHammer.reuse()]);
+
+//cold iron plate
+recipes.remove(plateColdIron);
+recipes.addShapeless(plateColdIron, [ingotColdIron, ingotColdIron, tinkersHammer.reuse()]);
 
 //Ember activator
 emberActivator.addTooltip(format.gold("Input Ember Crystals to bottom half"));

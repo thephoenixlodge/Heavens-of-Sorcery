@@ -57,7 +57,8 @@ val oreSilverMW = <mysticalworld:silver_ore>;
 //val blockSilverIF = <iceandfire:silver_block>;
 val blockSilverBW = <bewitchment:block_of_silver>;
 val blockSilverMW = <mysticalworld:silver_block>;
-
+val plateSilver = <bewitchment:silver_plate>;
+val orePlateSilver = <ore:plateSilver>;
 val plateIronTC = <thaumcraft:plate:1>;
 val plateIronOre = <ore:plateIron>;
 //copper tools
@@ -320,3 +321,7 @@ for branch in branches {
 
 //MW rubber recipe removal
 recipes.remove(rubberMW);
+
+//silver plate
+recipes.remove(plateSilver);
+orePlateSilver.remove(plateSilver);
