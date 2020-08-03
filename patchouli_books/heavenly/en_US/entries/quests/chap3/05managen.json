@@ -14,7 +14,7 @@
         },
         {
             "type": "text",
-            "text": "can be used to focus and direct it for more refined uses. $(br)To get started, use some more $(item)Mushrooms$() to make an $(item)Endoflame$(), which coalesces $(thing)Mana$() from burning$(thing)furnace fuels$() dropped nearby. This will need to be linked to a $(item)Mana Spreader$(), which should in turn be pointed at a $(item)Mana Pool$(). $(br)For finer control of linking, a $(item)Wand of the Forest$() may be required."
+            "text": "can be used to focus and direct it for more refined uses. $(br)To get started, use some more $(item)Mushrooms$() to make an $(item)Endoflame$(), which coalesces $(thing)Mana$() from burning $(thing)furnace fuels$() dropped nearby. This will need to be linked to a $(item)Mana Spreader$(), which should in turn be pointed at a $(item)Mana Pool$(). $(br)For finer control of linking, a $(item)Wand of the Forest$() may be required."
         },
         {
             "type": "checklist_end",
