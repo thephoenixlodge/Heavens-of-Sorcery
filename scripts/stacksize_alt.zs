@@ -22,3 +22,4 @@ for item in game.items {
 }
 
 <wizardry:nacre_pearl>.maxStackSize = 2048;
+<rustic:bee>.maxStackSize = 64;
