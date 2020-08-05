@@ -1,21 +1,17 @@
 {
 	"output": {
-		"item": "wizardry:halo_real",
-		"nbt": "{display:{Lore:[\"§7§oThis is a temporary recipe! Don't rely on it!\"]}}"
+		"item": "wizardry:halo_real"
 	},
 	"input": {
 		"item": "wizardry:halo_fake"
 	},
 	"extraInputs": [
 		{
-			"item": "minecraft:prismarine_shard"
+			"item": "contenttweaker:angel_heart"
 		},
 		{
-			"item": "minecraft:dragon_breath"
-		},
-		{
-			"type": "forge:ore_dict",
-			"ore": "netherStar"
+			"item": "aether_legacy:aercloud",
+			"data": 2
 		},
 		{
 			"item": "wizardry:fairy_dust"
