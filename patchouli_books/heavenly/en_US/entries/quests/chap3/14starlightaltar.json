@@ -8,7 +8,7 @@
     "pages": [
         {
             "type": "quest",
-            "title": "Resonating",
+            "title": "Altar-ation",
             "trigger": "heavens:bookchap3/14starlightaltar",
             "text": "The $(thing)Luminous Crafting Table$() is useful by itself, but its ability to absorb and channel $(thing)Starlight$() is limited. However, by utilising some of the other materials you've unearthed, you can enhance it. Combine this with a structure built of $(item)Marble$() and $(item)Sooty Marble$() and you'll find yourself with a much more capable $(item)Starlight Crafting Altar$()."
         },
