@@ -10,7 +10,7 @@
             "type": "quest",
             "title": "Ugh, So Boring",
             "trigger": "heavens:bookchap3/16emberbore",
-            "text": "In times long past, the deep mountain folk, unskilled in magicks powered by their own bodies, devised ways to use metallic materials to harness the raw energy of the molten core of the world. Though our world is gone and lacks any sort of core now, we should be able to utilise the core of the $(thing)Misty World$() instead. The difficulty lies in now"
+            "text": "In times long past, the deep mountain folk, unskilled in magicks powered by their own bodies, devised ways to use metallic materials to harness the raw energy of the molten core of the world. Though our world is gone and lacks any sort of core now, we should be able to utilise the core of the $(thing)Misty World$() instead. The difficulty lies in how"
         },
         {
         	"type": "text",
