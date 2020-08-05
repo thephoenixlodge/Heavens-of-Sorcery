@@ -6,7 +6,8 @@
 	{
 		"dimension": -1,
 		"mob": [
-			"thaumcraft:wisp"
+			"thaumcraft:wisp",
+			"bewitchment:hellhound"
 		],
 		"result": "deny"
 	},
