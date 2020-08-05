@@ -16,7 +16,8 @@
         	"type": "checklist_end",
         	"item1": "minecraft:cobblestone#10",
             "item2": "minecraft:obsidian",
-            "reward1": "minecraft:cobblestone#400"
+            "reward1": "minecraft:cobblestone#400",
+            "reward2": "chisel:obsidian#6"
         }   
     ]
 }

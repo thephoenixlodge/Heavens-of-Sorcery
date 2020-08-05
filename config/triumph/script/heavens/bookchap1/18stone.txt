@@ -17,3 +17,4 @@ criteria2 = addCriteria("hasItemsObsidian", "minecraft:inventory_changed")
 criteria2.addItem(<minecraft:obsidian, count:1~>)
 
 addRewardItem(<minecraft:cobblestone, count:400>)
+addRewardItem(<chisel:obsidian, count:6>)
