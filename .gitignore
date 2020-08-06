@@ -13,3 +13,4 @@ config/BiomeTweaker/output/biome/BiomeTweaker - Biome Status Report.json
 config/BiomeTweaker/output/entity/BiomeTweaker - Dimension Status Report.json
 config/BiomeTweaker/output/entity/BiomeTweaker - EntityLiving Status Report.json
 config/jei/bookmarks.ini
+config/jei/bookmarks.ini
