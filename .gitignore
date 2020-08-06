@@ -4,13 +4,5 @@ config/Aether/analytics.json.gz
 local/ftbutilities/all_permissions_full_list.txt
 config/qualitytools/problems.txt
 config/BiomeTweaker/output/**
-config/BiomeTweaker/output/biome/BiomeTweaker - Biome Status Report.json
-config/BiomeTweaker/output/entity/BiomeTweaker - Dimension Status Report.json
-config/BiomeTweaker/output/entity/BiomeTweaker - EntityLiving Status Report.json
 config/jei/worldSettings.cfg
-config/BiomeTweaker/output/biome/BiomeTweaker - Biome Status Report.json
-config/BiomeTweaker/output/biome/BiomeTweaker - Biome Status Report.json
-config/BiomeTweaker/output/entity/BiomeTweaker - Dimension Status Report.json
-config/BiomeTweaker/output/entity/BiomeTweaker - EntityLiving Status Report.json
-config/jei/bookmarks.ini
 config/jei/bookmarks.ini
