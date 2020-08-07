@@ -1,0 +1,19 @@
+{
+    "name": "! Preface - Read Me First!",
+    "icon": "botania:cosmetic:31",
+    "category": "quests/chap1",
+    "sortnum": 0,
+    "turnin": "heavens:bookchap1/root",
+    "pages": [
+        {
+            "type": "quest",
+            "title": "Preface",
+            "trigger": "heavens:bookchap1/root",
+            "text": "Before doing anything else, run the command $(comm)/island create$() to begin playing in earnest. If looking to play co-op with others, instead refer to $(l:collected_knowledge/coop)\"Multiplayer: How to Co-op\"$().$(br2)This quest book is structured such that not all entries are completable \"quests\". All entries when first unlocked will have a red mark"
+        },
+        {
+            "type": "text",
+            "text": "indicating they are unread. However, after reading them, $(thing)quests$() will have an orange marker indicating they are incomplete, changing to green once complete.$(br2)$(thing)Quests$() are explicitly for tracking the core progression, while other items/information are contained in other chapters, and neither track completion nor give rewards.$(br2)$(thing)Quest$() rewards are granted instantly, directly into your inventory."
+        }
+    ]
+}
