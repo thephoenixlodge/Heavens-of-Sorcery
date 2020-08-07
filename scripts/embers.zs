@@ -223,4 +223,4 @@ Altar.addDiscoveryAltarRecipe("custom_fluid_vessel", fluidVessel, 200, 40, [cami
 pressureRefinery.addTooltip(format.gold("Input Ember Crystals and Water to bottom half"));
 pressureRefinery.addTooltip(format.gold("Attach Ember Emitter to top half"));
 recipes.remove(pressureRefinery);
-Altar.addConstellationAltarRecipe("custom_ember_boiler", pressureRefinery, 500, 120, [ingotCopper, blockCopper, ingotCopper, ingotCopper, moltenCore, ingotCopper, plateIron, fluidVessel, plateIron, null, null, plateIron, plateIron]);
+Altar.addAttunementAltarRecipe("custom_ember_boiler", pressureRefinery, 1000, 120, [ingotCopper, blockCopper, ingotCopper, ingotCopper, moltenCore, ingotCopper, plateIron, fluidVessel, plateIron, null, null, plateIron, plateIron]);
