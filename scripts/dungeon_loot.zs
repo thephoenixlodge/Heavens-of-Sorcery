@@ -295,7 +295,7 @@ for netherItem, weight in extrasNetherMap {
 	poolNetherExtra.addItemEntry(netherItem, weight);	
 }
 poolNetherExtra.addItemEntryHelper(biomeStones, 10, 1, [Functions.setMetadata(8, 15), Functions.setCount(5, 100)], []);
-poolNetherExtra.addItemEntryHelper(cobblestone, 20, 1, [Functions.setCount(5, 100)], []);
+poolNetherExtra.addItemEntryHelper(cobblestone, 15, 1, [Functions.setCount(5, 100)], []);
 poolNetherExtra.addItemEntryHelper(coal, 4, 1, [Functions.setCount(1, 3)], []);
 
 poolNetherRare.addItemEntryHelper(iChisel, 2, 3, [Functions.setCount(0, 1)], []);
