@@ -90,6 +90,9 @@ val blockLatex = <mist:latex_block>;
 val latexFluid = <liquid:latex_fluid>;
 val sulfur = <mist:sulfur>;
 val rubber = <thebetweenlands:items_misc:23>;
+val fluidVessel = <embers:block_tank>;
+val pressureRefinery = <embers:boiler>;
+val blockCopper = <ore:blockCopper>;
 
 //tweak caminite blend recipe
 recipes.remove(caminiteBlend);
@@ -211,3 +214,13 @@ Melter.add(latexFluid * 144, latex);
 Melter.add(latexFluid * 1296, blockLatex);
 recipes.remove(rubber);
 Stamper.add(rubber, latexFluid * 144, stampBar, sulfur);
+
+//fluid vessel
+recipes.removeByRecipeName("embers:block_tank");
+Altar.addDiscoveryAltarRecipe("custom_fluid_vessel", fluidVessel, 200, 40, [caminiteBrickItem, null, caminiteBrickItem, plateIron, null, plateIron, caminiteBrickItem, ingotNiobium, caminiteBrickItem]);
+
+//pressure refinery
+pressureRefinery.addTooltip(format.gold("Input Ember Crystals and Water to bottom half"));
+pressureRefinery.addTooltip(format.gold("Attach Ember Emitter to top half"));
+recipes.remove(pressureRefinery);
+Altar.addConstellationAltarRecipe("custom_ember_boiler", pressureRefinery, 500, 120, [ingotCopper, blockCopper, ingotCopper, ingotCopper, moltenCore, ingotCopper, plateIron, fluidVessel, plateIron, null, null, plateIron, plateIron]);
