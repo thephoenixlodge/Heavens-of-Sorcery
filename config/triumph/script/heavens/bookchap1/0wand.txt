@@ -1,6 +1,6 @@
 setIcon(<contenttweaker:ironwood_wand_one>)
 
-setTitle("An End and a beginning")
+setTitle("An End and a Beginning")
 
 setDescription("Craft an Ironwood wand")
 
