@@ -186,7 +186,14 @@ val terracottaMap = {
 	"red" : [<cathedral:roofing_block_red>, <quark:stained_clay_tiles:14>],
 	"black" : [<cathedral:roofing_block_black>, <quark:stained_clay_tiles:15>]
 } as IItemStack[][string];
-
+val marbledCheeses = [
+	<rats:marbled_cheese>,
+	<rats:marbled_cheese_tile>,
+	<rats:marbled_cheese_chiseled>,
+	<rats:marbled_cheese_pillar>,
+	<rats:marbled_cheese_brick>,
+	<rats:marbled_cheese_brick_chiseled>
+] as IItemStack[];
 
 //Add group for Sapphire Blocks
 //Carving.addGroup("blockSapphire");
@@ -416,4 +423,10 @@ recipes.removeByRecipeName("quark:stained_clay_tiles");
 for i in 1 to 16 {
 	var n = i * 2;
 	recipes.removeByRecipeName("quark:stained_clay_tiles_" ~ n);
+}
+
+//marbled cheese
+Carving.addGroup("cheese-marbled");
+for cheese in marbledCheeses {
+	Carving.addVariation("cheese-marbled", cheese);
 }
