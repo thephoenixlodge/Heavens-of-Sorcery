@@ -163,7 +163,8 @@ val extrasNetherMap = {
 	<rustic:horsetail> : 5,
 	<rustic:cloudsbluff> : 5,
 	<rustic:marsh_mallow> : 5,
-	<minecraft:ender_pearl> : 25
+	<minecraft:ender_pearl> : 25,
+	<embers:breaker> : 2
 } as int[IItemStack];
 val biomeStones = <botania:biomestonea>;
 val coal = <minecraft:coal>;
