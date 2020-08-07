@@ -30,6 +30,7 @@ val ingotFalsite = <blue_skies:falsite_ingot>;
 val sand = <ore:sand>;
 val clay = <minecraft:clay_ball>;
 val water = <liquid:water>;
+val enderPearl = <minecraft:ender_pearl>;
 
 //Building Gadget
 recipes.remove(gadgetBuilding);
@@ -43,7 +44,7 @@ globals.setNewName(gadgetExchanging, "Tome of Exchanging");
 
 //Copy-Paste Gadget
 recipes.remove(gadgetCopyPaste);
-ArcaneWorld.createRitualCreateItem("gadget_copy", "Tome of Transferrance", gadgetCopyPaste, book, sapphire, amethyst, slime);
+ArcaneWorld.createRitualCreateItem("gadget_copy", "Tome of Transferrance", gadgetCopyPaste, book, sapphire, amethyst, enderPearl);
 globals.setNewName(gadgetCopyPaste, "Tome of Transferrence");
 
 //Destruction Gadget
