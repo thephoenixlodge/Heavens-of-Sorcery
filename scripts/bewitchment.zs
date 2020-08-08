@@ -37,6 +37,9 @@ val ironGrate = <quark:grate>;
 val witchesOven = <bewitchment:witches_oven>;
 val athame = <bewitchment:athame>;
 val silverKnife = <mysticalworld:silver_knife>;
+val silverAspectus = <embers:aspectus_silver>;
+val witchesCauldron = <bewitchment:witches_cauldron>;
+val cauldron = <minecraft:cauldron>;
 
 //Chalk
 limestone.add(limestoneBL);
@@ -69,3 +72,7 @@ TartaricForge.addRecipe(witchesOven, [furnaceMW, scornedBrick, slateT1, ironGrat
 //athame
 recipes.remove(athame);
 ManaInfusion.addInfusion(athame, silverKnife, 30000);
+
+//witches cauldron
+recipes.remove(witchesCauldron);
+AlchemyArray.addRecipe(witchesCauldron, cauldron, silverAspectus, "bloodmagic:textures/models/AlchemyArrays/AirSigil.png");
