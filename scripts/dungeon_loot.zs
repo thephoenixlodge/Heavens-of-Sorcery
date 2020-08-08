@@ -55,8 +55,9 @@ val netherPoolsToRemove = [
 	"magicalsculpture_nether_bridge"
 	//"chest_treasure"
 ] as string[];
-val poolNetherExtra = tableNetherFortress.addPool("hos_nether_loot", 1, 3, 1, 1);
-val poolNetherRare = tableNetherFortress.addPool("hos_nether_rare_loot", 0, 2, 0, 0);
+val poolNetherExtra = tableNetherFortress.addPool("hos_nether_loot", 2, 7, 1, 1);
+val poolNetherRare = tableNetherFortress.addPool("hos_nether_rare_loot", 1, 2, 0, 0);
+val poolNetherMain = tableNetherFortress.getPool("main");
 
 val tableAetherBronzeChest = LootTweaker.getTable("aether_legacy:chests/bronze_dungeon_chest");
 val tableAetherBronzeReward = LootTweaker.getTable("aether_legacy:chests/bronze_dungeon_reward");
@@ -164,8 +165,14 @@ val extrasNetherMap = {
 	<rustic:cloudsbluff> : 5,
 	<rustic:marsh_mallow> : 5,
 	<minecraft:ender_pearl> : 25,
-	<embers:breaker> : 5
+	<embers:breaker> : 6
 } as int[IItemStack];
+val netherMainRemovals = [
+	"minecraft:iron_horse_armor",
+	"minecraft:diamond_horse_armor",
+	"minecraft:golden_horse_armor",
+	"minecraft:saddle"
+] as string[];
 val biomeStones = <botania:biomestonea>;
 val coal = <minecraft:coal>;
 val cobblestone = <minecraft:cobblestone>;
@@ -174,6 +181,7 @@ val advSimilsax = <similsaxtranstructors:similsaxtranstructoradvanced>;
 val shieldWood = <superiorshields:vanilla_shield_wood>;
 val shieldStone = <superiorshields:vanilla_shield_stone>;
 val obsidian = <minecraft:obsidian>;
+val autoBreaker = <embers:breaker>;
 val extrasAetherMap = {
 	<cuisine:crops:21> : 5,
 	<cuisine:crops:10> : 5,
@@ -283,7 +291,6 @@ tableFoxhound.removePool("leather");
 poolDevilDust.addItemEntryHelper(devilDust, 1, 0, [Functions.setCount(0, 3), Functions.lootingEnchantBonus(0, 1, 5)], []);
 
 //frog
-
 tableFrogQ.removePool("main");
 poolFrogLeg.addItemEntryHelper(frogLeg, 1, 0, [], []);
 
@@ -297,6 +304,9 @@ for netherItem, weight in extrasNetherMap {
 poolNetherExtra.addItemEntryHelper(biomeStones, 10, 1, [Functions.setMetadata(8, 15), Functions.setCount(5, 100)], []);
 poolNetherExtra.addItemEntryHelper(cobblestone, 15, 1, [Functions.setCount(5, 100)], []);
 poolNetherExtra.addItemEntryHelper(coal, 4, 1, [Functions.setCount(1, 3)], []);
+for trash in netherMainRemovals {
+	poolNetherMain.removeEntry(trash);
+}
 
 poolNetherRare.addItemEntryHelper(iChisel, 2, 3, [Functions.setCount(0, 1)], []);
 poolNetherRare.addItemEntryHelper(advSimilsax, 2, 2, [Functions.setCount(0, 1)], []);
@@ -304,6 +314,7 @@ poolNetherRare.addItemEntryHelper(shieldWood, 3, 4, [Functions.setCount(0, 1)], 
 poolNetherRare.addItemEntryHelper(shieldStone, 2, 1, [Functions.setCount(0, 1)], []);
 poolNetherRare.addItemEntryHelper(obsidian, 7, 1, [Functions.setCount(0, 5)], []);
 poolNetherRare.addItemEntryHelper(chestUpgrade, 6, 1, [Functions.setCount(0, 1), Functions.setMetadata(0, 14)], []);
+poolNetherRare.addItemEntryHelper(autoBreaker, 5, 1, [], []);
 
 //Aether dungeons
 for aetherItem, weight in extrasAetherMap {
