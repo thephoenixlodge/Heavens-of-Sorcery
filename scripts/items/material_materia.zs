@@ -59,12 +59,12 @@ var opal = MaterialSystem.getMaterialBuilder().setName("Opal").setColor(Color.fr
 var listPrecious = [coal, redstone, lapis, diamond, emerald, quartz, ambrosium, zanite, sapphire, amethyst, diopside, pyrope, turquoise, charoite, moonstone, cinnabar, amber, valonite, sulfur, garnet, opal] as Material[];
 
 //register materials
-for i, metal in listMetals {
+for metal in listMetals {
 	metal.registerPart("metal_materia");
 	metal.registerPart("etheric");
 }
 
-for j, precious in listPrecious {
+for precious in listPrecious {
 	precious.registerPart("precious_materia");
 	precious.registerPart("etheric");
 }
