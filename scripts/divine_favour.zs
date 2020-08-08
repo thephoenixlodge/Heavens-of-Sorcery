@@ -33,4 +33,4 @@ for blend, ingredients in blends {
 	Alchemy.add(blend, [ingredients[0], ingredients[1], ingredients[1], ingredients[1], ingredients[1]], {"thaumium" : 16 to 20});
 }
 recipes.remove(etherealGooBlend);
-Alchemy.add(etherealGooBlend, [soulShardAny, sludge, sludge], {"thaumium" : 8 to 12, "iron" : 8 to 12});
+Alchemy.add(etherealGooBlend, [soulShardAny, sludge, null, sludge, null], {"thaumium" : 8 to 12, "iron" : 8 to 12});
