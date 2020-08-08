@@ -10,7 +10,7 @@
             "type": "quest",
             "title": "A Link to the Stars",
             "trigger": "heavens:bookchap3/18linkingtool",
-            "text": "You've seen the large crystals in those big Marble Temples right? Those actually collect and $(thing)Starlight$() and can redirect focused beams of it elsewhere. To control it, you'll need a $(item)Linking Tool$(). Once you have some take some of the $(item)Iron Ore$() from the $(thing)Misty World$() and use the Crystal to turn it into $(item)Starmetal Ore$()."
+            "text": "You've seen the large crystals in those big Marble Temples right? Those actually collect $(thing)Starlight$() and can redirect focused beams of it elsewhere. To control it, you'll need a $(item)Linking Tool$(). Once you have some take some of the $(item)Iron Ore$() from the $(thing)Misty World$() and use the Crystal to turn it into $(item)Starmetal Ore$()."
         },
         {
             "type": "checklist_end",
