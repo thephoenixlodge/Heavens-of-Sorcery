@@ -26,6 +26,7 @@ val nuggetNiobium = <mist:niobium_nugget>;
 val ingotNickel = <embers:ingot_nickel>;
 val blockNickel = <embers:block_nickel>;
 val ingotCopper = <embers:ingot_copper>;
+val plateCopper = <embers:plate_copper>;
 val plateLead = <embers:plate_lead>;
 val ingotIron = <minecraft:iron_ingot>;
 val hardFoggyStone = <mist:stone_basic>;
@@ -85,6 +86,7 @@ val emberShard = <embers:shard_ember>;
 val emberCrystal = <embers:crystal_ember>;
 val beamSplitter = <embers:beam_splitter>;
 val ingotDawnstone = <embers:ingot_dawnstone>;
+val plateDawnstone = <embers:plate_dawnstone>;
 val latex = <mist:latex>;
 val blockLatex = <mist:latex_block>;
 val latexFluid = <liquid:latex_fluid>;
@@ -93,6 +95,11 @@ val rubber = <thebetweenlands:items_misc:23>;
 val fluidVessel = <embers:block_tank>;
 val pressureRefinery = <embers:boiler>;
 val blockCopper = <ore:blockCopper>;
+val ingotOctine = <thebetweenlands:octine_ingot>;
+val beamCannon = <embers:beam_cannon>;
+val alchemyPedestal = <embers:alchemy_pedestal>;
+val exchangeTablet = <embers:alchemy_tablet>;
+val lifeCrystal = <thebetweenlands:life_crystal>;
 
 //tweak caminite blend recipe
 recipes.remove(caminiteBlend);
@@ -222,5 +229,18 @@ Altar.addDiscoveryAltarRecipe("custom_fluid_vessel", fluidVessel, 200, 40, [cami
 //pressure refinery
 pressureRefinery.addTooltip(format.gold("Input Ember Crystals and Water to bottom half"));
 pressureRefinery.addTooltip(format.gold("Attach Ember Emitter to top half"));
+pressureRefinery.addTooltip(format.gold("Place a Block of Metal below, to improve efficiency based on how much lava is adjacent to the metal block"));
 recipes.remove(pressureRefinery);
 Altar.addAttunementAltarRecipe("custom_ember_boiler", pressureRefinery, 1000, 120, [ingotCopper, blockCopper, ingotCopper, ingotCopper, moltenCore, ingotCopper, plateIron, fluidVessel, plateIron, null, null, plateIron, plateIron]);
+
+//Beam cannon
+recipes.remove(beamCannon);
+Altar.addTraitAltarRecipe("custom_beam_cannon", beamCannon, 5000, 400, [plateCopper, emberCrystal, plateCopper, plateCopper, emberCrystal, plateCopper, ingotOctine, plateBrass, ingotOctine, null, null, caminiteBrickBlock, caminiteBrickBlock, null, null, null, null, plateDawnstone, plateDawnstone, caminiteBrickBlock, caminiteBrickBlock, null, null, null, ingotDawnstone], "astralsorcery.constellation.fornax");
+
+//alchemy pedestal
+recipes.remove(alchemyPedestal);
+Altar.addTraitAltarRecipe("custom_alchemy_pedestal", alchemyPedestal, 4000, 300, [ingotDawnstone, emberCrystal, ingotDawnstone, caminiteBrickBlock, ingotOctine, caminiteBrickBlock, caminiteBrickBlock, plateBrass, caminiteBrickBlock, null, null, caminiteBrickStairs, caminiteBrickStairs, plateDawnstone, plateDawnstone, caminiteBrickStairs, caminiteBrickStairs, null, null, plateBrass, plateBrass, null, null, null, null], "astralsorcery.constellation.fornax");
+
+//exchange tablet
+recipes.remove(exchangeTablet);
+Altar.addTraitAltarRecipe("custom_exchange_tablet", exchangeTablet, 5000, 400, [plateDawnstone, plateDawnstone, plateDawnstone, ingotBrass, null, ingotBrass, plateCopper, lifeCrystal, plateCopper, null, null, caminiteBrickStairs, caminiteBrickStairs, null, null, null, null, null, null, caminiteBrickBlock, caminiteBrickBlock, null, caminiteBrickStairs, caminiteBrickStairs, caminiteBrickBlock], "astralsorcery.constellation.fornax");
