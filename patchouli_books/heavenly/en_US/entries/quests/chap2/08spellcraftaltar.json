@@ -28,7 +28,8 @@
             "item8": "minecraft:quartz_stairs#4",
             "item9": "minecraft:stone_slab:7#4",
             "reward1": "minecraft:quartz_block#30",
-            "reward2": "wizardry:wisdom_wood_log#40"
+            "reward2": "wizardry:wisdom_wood_log#40",
+            "reward3": "buildinggadgets:copypastetool"
         },
         {
             "type": "multiblock",
@@ -80,6 +81,13 @@
             "title": "Planks & Pigmented Planks",
             "recipe": "wizardry:wisdom_wood/planks",
             "recipe2": "wizardry:wisdom_wood/pigmented_planks"
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "useful_things/building_tools/templates",
+                "useful_things/building_tools/transferrence_tome"
+            ]
         }
     ]
 }

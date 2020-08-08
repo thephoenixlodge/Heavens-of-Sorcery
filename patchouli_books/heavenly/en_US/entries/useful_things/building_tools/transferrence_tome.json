@@ -2,7 +2,7 @@
     "name": "Tome of Transferrence",
     "icon": "buildinggadgets:copypastetool",
     "category": "useful_things/building_tools",
-    "advancement": "heavens:bookchap3/0niobium",
+    "advancement": "heavens:bookchap2/2rituals",
     "pages": [
         {
             "type": "text",

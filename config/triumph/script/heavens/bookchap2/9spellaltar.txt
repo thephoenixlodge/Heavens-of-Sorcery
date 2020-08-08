@@ -32,3 +32,4 @@ criteria9.addItem(<minecraft:quartz_stairs, count:1~>)
 
 addRewardItem(<minecraft:quartz_block, meta:0, count:30>)
 addRewardItem(<wizardry:wisdom_wood_log, meta:0, count:40>)
+addRewardItem(<buildinggadgets:copypastetool, count:1>)
