@@ -7,9 +7,11 @@ import crafttweaker.game.IGame;
 import scripts.globals;
 import mods.naturesaura.Altar as NatureAltar;
 import mods.roots.Fey;
+import mods.roots.Mortar;
 import mods.aether_legacy.Enchanter;
 import mods.buildersbag;
 import mods.botania.ManaInfusion;
+import mods.astralsorcery.Grindstone;
 
 ////Variables
 val clayTile = <cathedral:firedtile>;
@@ -176,6 +178,8 @@ val anvil = <minecraft:anvil>;
 val polishedStone = <quark:polished_stone>;
 val obsidian = <ore:obsidian>;
 val hammerIron = <earthworks:tool_iron_hammer>;
+val fairyWings = <wizardry:fairy_wings>;
+val fairyDust = <wizardry:fairy_dust>;
 
 val basicBlocks = {
 	<minecraft:end_stone> : 6,
@@ -488,3 +492,7 @@ for block, multiplier in basicBlocks {
 //reforging station recipe
 recipes.remove(reforgingStation);
 recipes.addShaped(reforgingStation, [[reforgingToken, reforgingToken], [polishedStone, hammerIron], [obsidian, anvil]]);
+
+//crush those fairy wings
+Mortar.addRecipe(fairyDust, [fairyWings]);
+Grindstone.addRecipe(fairyWings, fairyDust, 0.1f);
