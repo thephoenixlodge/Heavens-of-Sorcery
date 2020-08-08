@@ -1,0 +1,27 @@
+{
+    "name": "Reforging Traits",
+    "icon": "contenttweaker:token_reforge",
+    "category": "collected_knowledge",
+    "advancement": "heavens:bookchap3/19activator",
+    "pages": [
+        {
+            "type": "text",
+            "text": "You may have noticed that the latent magicks here cause your equipment to be imbued with various traits; some of which are helpful, while others are hindrances. Dealing with such hindrances is a nuisance, but fortunately, mages past saw fit to stash $(item)Reforging Tokens$() in various places."
+        },
+        {
+            "type": "spotlight",
+            "item": "contenttweaker:token_reforge",
+            "text": "These unusual tokens can be looted from $(thing)Nether Fortresses$(), and $(thing)Dungeon Raids$(). Once obtained, you can use them in a $(item)Reforging Station$() to change the trait of the weapon, armor or bauble you choose."
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:ct_shaped-1103659111",
+            "recipe2": "earthworks:tool_iron_hammer"
+        },
+        {
+            "type": "crafting",
+            "recipe": "minecraft:anvil",
+            "text": "Can also be looted from $(thing)Dungeon Raids$()"
+        }
+    ]
+}
