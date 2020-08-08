@@ -165,7 +165,8 @@ val extrasNetherMap = {
 	<rustic:cloudsbluff> : 5,
 	<rustic:marsh_mallow> : 5,
 	<minecraft:ender_pearl> : 25,
-	<embers:breaker> : 6
+	<embers:breaker> : 6,
+	<contenttweaker:token_reforge> : 3
 } as int[IItemStack];
 val netherMainRemovals = [
 	"minecraft:iron_horse_armor",
