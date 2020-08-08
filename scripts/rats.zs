@@ -108,6 +108,7 @@ val ratSpiritFlame = <rats:ratlantean_flame>;
 val ratToga = <rats:rat_toga>;
 val slime = <ore:slimeball>;
 val manaWeave = <botania:manaresource:22>;
+val superSoundMuffler = <supersoundmuffler:sound_muffler>;
 //upgrades
 val upgradeBasic = <rats:rat_upgrade_basic>;
 val upgradeSpeed = <rats:rat_upgrade_speed>;
@@ -205,7 +206,7 @@ mapUpgradeRecipes[upgradeGemcutter] = [upgradeBasic, gemCuttingTable, cheese * 1
 mapUpgradeRecipes[upgradeEnchanter] = [upgradeBasic, enchantingTable, gravitite * 4, cheese * 10];
 mapUpgradeRecipes[upgradeDisenchanter] = [upgradeBasic, spellCloth, gravitite * 4, cheese * 10];
 mapUpgradeRecipes[upgradeXmas] = [upgradeBasic, santaHat * 3, spruceSeed * 3, cheese * 6];
-mapUpgradeRecipes[upgradeNoFlute] = [upgradeBasic, flute * 2, wool * 8, cheese * 6];
+mapUpgradeRecipes[upgradeNoFlute] = [upgradeBasic, flute * 2, superSoundMuffler, cheese * 6];
 mapUpgradeRecipes[upgradeArcheologist] = [upgradeBasic, archeologistHat, ratlantisAvatar, bone * 4, scrollIdentify, marbledRaw * 4];
 mapUpgradeRecipes[upgradeFeral] = [upgradeBasic2, feralClaw * 6, spiderEye * 2, marbledRaw * 4];
 mapUpgradeRecipes[upgradeBuccaneer] = [upgradeBasic2, piratHat, piratCutlass, cheeseCannonball * 6];
