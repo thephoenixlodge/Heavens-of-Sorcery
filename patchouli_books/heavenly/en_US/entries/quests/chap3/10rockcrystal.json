@@ -30,7 +30,7 @@
         {
             "type": "spotlight",
             "item": "astralsorcery:blockcustomore",
-            "text": "When harvested, gives multiple $(item)Rock Crystals$(), which have three stats - Size, Cutting, and Purity. These stats have some influence on the usage of the crystals, but all can be improved later.$(br2)Each Crystal takes up a separate inventory slot, so make sure you have space to carry them!"
+            "text": "Harvesting can give multiple $(item)Rock Crystals$(), which have three stats - Size, Cutting, and Purity. These stats can all be improved later.$(br)$(item)Niobium Picks$() are not strong enough to harvest these! Use $(item)Diamond$() or $(item)Manasteel$() instead.$(br2)$(item)Rock Crystals$() do not stack, so make sure you have space to carry them!"
         }
     ]
 }
