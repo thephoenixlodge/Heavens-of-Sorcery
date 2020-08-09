@@ -467,7 +467,7 @@ buildersbag.addBagUpgradeRecipeShaped("b_bag_t5", bBag5, [[null, callingSpirit, 
 
 //misty mining tooltip
 for pick in mistPicks {
-	pick.addTooltip(format.blue("Mistborn"));
+	pick.addTooltip(format.gold("Mistborn"));
 }
 
 //apple upgrades
