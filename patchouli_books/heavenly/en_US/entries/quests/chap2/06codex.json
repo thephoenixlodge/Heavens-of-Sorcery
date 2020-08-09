@@ -14,7 +14,7 @@
         },
         {
             "type": "text",
-            "text": "So with the right materials, you can imbue books with their otherwise lost knowledge. For now, lets get you started with a $(item)Spellforger's Codex$()."
+            "text": "So with the right materials, you can imbue books with their otherwise lost knowledge. For now, lets get you started with a $(item)Spellforger's Codex$().$(br2)Note: $(item)Leather$() can be obtained by summoning cows with the $(item)Ritual Table$()"
         },
         {
             "type": "checklist_end",
