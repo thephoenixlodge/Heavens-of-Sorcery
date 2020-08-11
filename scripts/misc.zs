@@ -12,6 +12,8 @@ import mods.aether_legacy.Enchanter;
 import mods.buildersbag;
 import mods.botania.ManaInfusion;
 import mods.astralsorcery.Grindstone;
+import mods.astralsorcery.Altar;
+import mods.bloodmagic.AlchemyTable;
 
 ////Variables
 val clayTile = <cathedral:firedtile>;
@@ -180,6 +182,8 @@ val obsidian = <ore:obsidian>;
 val hammerIron = <earthworks:tool_iron_hammer>;
 val fairyWings = <wizardry:fairy_wings>;
 val fairyDust = <wizardry:fairy_dust>;
+val hammers = <earthworks:tool_stone_hammer>|hammerIron;
+val cuttingFluid = <bloodmagic:cutting_fluid>;
 
 val basicBlocks = {
 	<minecraft:end_stone> : 6,
@@ -496,3 +500,7 @@ recipes.addShaped(reforgingStation, [[reforgingToken, reforgingToken], [polished
 //crush those fairy wings
 Mortar.addRecipe(fairyDust, [fairyWings]);
 Grindstone.addRecipe(fairyWings, fairyDust, 0.1f);
+
+//otherworlds core to reforging token
+AlchemyTable.addRecipe(reforgingToken * 5, [otherworldsCore, manaPowder, cuttingFluid], 200, 50, 2);
+ManaInfusion.addAlchemy(reforgingToken * 2, otherworldsCore, 1000);
