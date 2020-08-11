@@ -166,7 +166,7 @@ val extrasNetherMap = {
 	<rustic:marsh_mallow> : 5,
 	<minecraft:ender_pearl> : 25,
 	<embers:breaker> : 6,
-	<contenttweaker:token_reforge> : 3
+	<contenttweaker:token_reforge> : 5
 } as int[IItemStack];
 val netherMainRemovals = [
 	"minecraft:iron_horse_armor",
@@ -248,8 +248,9 @@ poolRaid.addItemEntry(portalCore, 14);
 poolRaid.addItemEntry(elytra, 6);
 
 //reforge tokens
-poolRaid.addItemEntryHelper(tokenReforge, 10, 1, [Functions.setCount(1, 8)], []);
-poolExtra.addItemEntryHelper(tokenReforge, 14, 1, [Functions.setCount(1, 5)], []);
+poolRaid.addItemEntryHelper(tokenReforge, 10, 1, [Functions.setCount(3, 8)], []);
+poolExtra.addItemEntryHelper(tokenReforge, 20, 2, [Functions.setCount(2, 7)], []);
+poolDimDoorsNew.addItemEntryHelper(tokenReforge, 6, 1, [Functions.setCount(3, 8)], []);
 tokenReforge.addTooltip(format.gold("Use in Reforging Station to reroll equipment Traits"));
 
 //remove Potion Orbs
@@ -316,6 +317,7 @@ poolNetherRare.addItemEntryHelper(shieldStone, 2, 1, [Functions.setCount(0, 1)],
 poolNetherRare.addItemEntryHelper(obsidian, 7, 1, [Functions.setCount(0, 5)], []);
 poolNetherRare.addItemEntryHelper(chestUpgrade, 6, 1, [Functions.setCount(0, 1), Functions.setMetadata(0, 14)], []);
 poolNetherRare.addItemEntryHelper(autoBreaker, 5, 1, [], []);
+poolNetherRare.addItemEntryHelper(tokenReforge, 6, 1, [Functions.setCount(1, 3)], []);
 
 //Aether dungeons
 for aetherItem, weight in extrasAetherMap {
