@@ -1,0 +1,18 @@
+{
+	"name": "Ancient Codex",
+	"subtitle": "Knowledge Rekindled",
+	"creative_tab": "embers",
+	"landing_text": "Power lurks in the core of the World.",
+	"book_texture": "books:templates/book_embers.png",
+	"text_color": "FFC97D",
+	"header_color": "FFAA5C",
+	"open_sound": "embers:item.codex.open",
+	"flip_sound": "embers:item.codex.category.select",
+	"model": "embers:codex",
+	"version": 2,
+	"show_progress": false,
+	"macros": {
+		"$(info)": "$(thing)$(bold)$(t:Important Detail)[!]$()",
+		"$(warning)": "$(#f00)$(bold)$(t:Warning)[!]$()"
+	}
+}
