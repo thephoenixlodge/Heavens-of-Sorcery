@@ -417,8 +417,8 @@ Fey.addRecipe("reincpowder", reincarnationDust * 3, [radiantDust, soulBead, bott
 //BS ore location hints
 oreHorizonite.addTooltip(format.gold("Found deep beneath the Crystal Dunes"));
 
-furnace.remove(charcoal);
-furnace.addRecipe(charcoal, oreLogWood, 0.15);
+//furnace.remove(charcoal);
+//furnace.addRecipe(charcoal, oreLogWood, 0.15);
 
 /*for repairable in repairables {
 	Enchanter.registerEnchantment(repairable, 600);
