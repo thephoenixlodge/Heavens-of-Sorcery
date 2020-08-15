@@ -24,8 +24,8 @@
         {
             "type": "mana_world",
             "heading": "Diamond Nuggets",
-            "input": "minecraft:coal:1#3",
-            "output": "extrabitmanipulation:diamond_nugget",
+            "input": "quark:charcoal_block",
+            "output": "extrabitmanipulation:diamond_nugget#3",
             "description": "In world transmutation. Requires a pool of at least 4 blocks of Liquid Mana"
         }
     ]
