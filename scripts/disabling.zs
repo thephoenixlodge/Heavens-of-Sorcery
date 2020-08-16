@@ -93,6 +93,8 @@ val bookNA = <patchouli:guide_book>.withTag({"patchouli:book": "naturesaura:book
 val bitChiselStone = <chiselsandbits:chisel_stone>;
 val bitChiselGold = <chiselsandbits:chisel_gold>;
 
+val resonatingGemKathairis = <kathairis:mysticgem>;
+
 //crops
 val tomatoCuisine = <cuisine:crops:4>;
 val oreCropTomato = <ore:cropTomato>;
@@ -325,3 +327,6 @@ recipes.remove(rubberMW);
 //silver plate
 recipes.remove(plateSilver);
 orePlateSilver.remove(plateSilver);
+
+//kathairin gem
+recipes.remove(resonatingGemKathairis);
