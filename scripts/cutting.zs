@@ -53,6 +53,7 @@ function addCuttingMeat(name as string, table as string, poolsAndDrops as int[][
 
 //table, {pool : {drop : [minCount, maxCount]}}
 addCuttingMeat("pig", "minecraft:entities/pig", {"main" : {<minecraft:porkchop> : [1, 3]}});
-addCuttingMeat("cow", "minecraft:entities/cow", {"pool1" : {<minecraft:beef> : [1, 3]}, "main" : {<minecraft:leather> : [1, 3]}});
-addCuttingMeat("chicken", "minecraft:entities/chicken", {"pool1" : {<minecraft:chicken> : [1, 3]}});
-addCuttingMeat("sheep", "minecraft:entities/sheep", {"main" : {<minecraft:mutton> : [1, 3]}});
+addCuttingMeat("cow", "minecraft:entities/cow", {"pool1" : {<minecraft:beef> : [1, 2]}, "main" : {<minecraft:leather> : [1, 3]}});
+addCuttingMeat("chicken", "minecraft:entities/chicken", {"pool1" : {<minecraft:chicken> : [1, 2]}});
+addCuttingMeat("sheep", "minecraft:entities/sheep", {"main" : {<minecraft:mutton> : [1, 2]}});
+addCuttingMeat("aechor", "aether_legacy:entities/aechor_plant", {"petal" : {<aether_legacy:aechor_petal> : [1, 2]}});
