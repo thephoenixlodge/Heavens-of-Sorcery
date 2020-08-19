@@ -15,4 +15,4 @@ criteria1 = addCriteria("hasItems1", "minecraft:inventory_changed")
 criteria1.addItem(<wizardry:nacre_pearl, count:1~>)
 
 addRewardItem(<wizardry:orb, meta:0, count:20>)
-addRewardItem(<minecraft:diamond_chestplate, count:1, durability:0>)
+addRewardItem(<minecraft:diamond_chestplate, count:1>)
