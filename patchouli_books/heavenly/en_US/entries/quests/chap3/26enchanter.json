@@ -47,12 +47,12 @@
             "type": "enchanter",
             "heading": "Zeal Lighter",
             "output": "blue_skies:zeal_lighter",
-            "input": "mist:flint_and_stone"
+            "input": "mist:flint_and_stone",
+            "description": "Fuel the Enchanter with $(item)Ambrosium$(). Zeal Lighter is used to light the $(thing)Everbright$() and $(thing)Everdawn$() portals."
         },
         {
             "type": "crafting",
-            "recipe": "mist:flint_and_stone",
-            "text": "Used to light the $(thing)Everbright$() and $(thing)Everdawn$() portals."
+            "recipe": "mist:flint_and_stone"
         }
     ]
 }
