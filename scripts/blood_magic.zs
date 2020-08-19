@@ -70,6 +70,10 @@ val bone = <minecraft:bone>;
 val bottledGhosts = <naturesaura:aura_bottle>.withTag({stored_type: "naturesaura:nether"});
 val dustSpectral = <bewitchment:spectral_dust>;
 val ebbOfDeath = <bewitchment:ebb_of_death>;
+val diaryDoomed = <patchouli:guide_book>.withTag({"patchouli:book": "patchouli:doomed", "display":{"Lore": ["Torn Pages added: 0"]}});
+val diaryDoomed1 = <patchouli:guide_book>.withTag({"patchouli:book": "patchouli:doomed", "display":{"Lore": ["Torn Pages added: 1"]}});
+val tornPage = <contenttweaker:torn_page>;
+val leather = <minecraft:leather>;
 
 //disable snare
 recipes.remove(snare);
@@ -142,3 +146,7 @@ AlchemyTable.addRecipe(spectralDust * 6, [bottledGhosts, dustSpectral, ebbOfDeat
 recipes.remove(scornedBricks);
 TartaricForge.addRecipe(scornedBricks * 4, [marbleSooty, marbleSooty, spectralDust], 65, 1);
 recipes.addShapeless(scornedBricks, [marbleSooty, marbleSooty, spectralDust]);
+
+//diary of the doomed recipe
+recipes.addShapeless(diaryDoomed, [tornPage, leather]);
+recipes.addShapeless(diaryDoomed1, [diaryDoomed, tornPage]);
