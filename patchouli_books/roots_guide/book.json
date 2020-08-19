@@ -11,6 +11,7 @@
 	"model": "roots:druid_handbook",
 	"version": 3,
 	"show_progress": false,
+	"show_toasts": false,
 	"macros": {
 		"$(info)": "$(thing)$(bold)$(t:Important Detail)[!]$()",
 		"$(warning)": "$(#f00)$(bold)$(t:Warning)[!]$()",
