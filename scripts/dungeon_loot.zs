@@ -125,6 +125,7 @@ val pickarang = <quark:pickarang>;
 val wandUnbreakable = <betterbuilderswands:wandunbreakable:12>;
 val moltenCore = <arcaneworld:molten_core>;
 val diaryDoomed = <patchouli:guide_book>.withTag({"patchouli:book": "patchouli:doomed"});
+val tornPage = <contenttweaker:torn_page>;
 val sentientSword = <bloodmagic:sentient_sword>;
 val shulkerBoxes = [
 	<minecraft:white_shulker_box>,
@@ -285,7 +286,7 @@ poolRare.addItemEntryHelper(moltenCore, 5, 1, [Functions.setCount(0, 1)], []);
 poolRare.addItemEntryHelper(elytra, 3, 1, [Functions.setCount(0, 1)], []);
 
 //Dim doors
-poolDimDoorsNew.addItemEntry(diaryDoomed, 1);
+poolDimDoorsNew.addItemEntry(tornPage, 1);
 poolDimDoorsNew.addItemEntry(sentientSword, 2);
 
 //foxhound

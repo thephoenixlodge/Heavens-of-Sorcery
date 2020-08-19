@@ -22,6 +22,7 @@ contenttweaker.part.etheric=Etheric %s
 fluid.latex_fluid=Latex
 item.contenttweaker.token_reforge.name=Reforging Token
 item.contenttweaker.thaumium_aspectus.name=Thaumium Aspectus
+item.contenttweaker.torn_page.name=Torn Page
 contenttweaker.part.molten=Molten %s
 
 tile.cathedral_chain_various.enderium.name=Manasteel Chain
