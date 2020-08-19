@@ -4,7 +4,7 @@
 	"item": "minecraft:obsidian",
 	"primary_color": "FF0000",
 	"secondary_color": "FF0000",
-	"mana": { "min": 100 },
+	"mana": { "min": 50 },
 	"burnout": { "min": 300 },
 	"range": { "min": 2, "max": 20 },
 	"duration": { "min": 5, "max": 40 },

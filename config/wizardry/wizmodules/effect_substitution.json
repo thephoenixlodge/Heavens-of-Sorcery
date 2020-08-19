@@ -4,7 +4,7 @@
 	"item": "minecraft:ender_eye",
 	"primary_color": "FF0000",
 	"secondary_color": "00FFFF",
-	"mana": { "min": 50 },
+	"mana": { "min": 25 },
 	"burnout": { "min": 100 },
 	"area": { "min": 10, "max": 64 },
 	"tags": [ "block", "movement" ],

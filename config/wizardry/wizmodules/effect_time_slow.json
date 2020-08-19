@@ -4,7 +4,7 @@
 	"item": "minecraft:red_flower",
 	"primary_color": "8D0000",
 	"secondary_color": "FFA5A5",
-	"mana": { "min": 300 },
+	"mana": { "min": 150 },
 	"burnout": { "min": 200 },
 	"cooldown": { "min": 80 },
 	"potency": { "min": 2, "max": 20 },

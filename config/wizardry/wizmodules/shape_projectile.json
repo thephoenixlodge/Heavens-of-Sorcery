@@ -2,7 +2,7 @@
 	"sub_module_id": "shape_projectile",
 	"reference_module_id": "shape_projectile",
 	"item": "minecraft:nether_wart",
-	"mana": { "min": 30 },
+	"mana": { "min": 15 },
 	"burnout": { "min": 20 },
 	"cooldown": { "min": 20 },
 	"range": { "min": 15, "max": 60 },

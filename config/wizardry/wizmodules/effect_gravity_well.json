@@ -6,7 +6,7 @@
 	"primary_color": "ff0000",
 	"secondary_color": "ffaa00",
 	"cooldown_time": 100,
-	"mana": { "min": 10 },
+	"mana": { "min": 5 },
 	"burnout": { "min": 1 },
 	"cooldown": { "min": 100 },
 	"area": { "min": 3, "max": 16 },

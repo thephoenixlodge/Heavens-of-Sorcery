@@ -2,7 +2,7 @@
 	"sub_module_id": "shape_touch",
 	"reference_module_id": "shape_touch",
 	"item": "minecraft:beef",
-	"mana": { "min": 30 },
+	"mana": { "min": 15 },
 	"burnout": { "min": 20 },
 	"cooldown": { "min": 30 },
 	"tags": [  ],

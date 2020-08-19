@@ -4,7 +4,7 @@
 	"item": "minecraft:chorus_fruit",
 	"primary_color": "ff1952",
 	"secondary_color": "18fff3",
-	"mana": { "min": 300 },
+	"mana": { "min": 150 },
 	"burnout": { "min": 400 },
 	"cooldown": { "min": 100 },
 	"duration": { "min": 40, "max": 200 },

@@ -4,7 +4,7 @@
 	"item": "minecraft:ender_pearl",
 	"primary_color": "800000",
 	"secondary_color": "FF0000",
-	"mana": { "min": 200 },
+	"mana": { "min": 100 },
 	"burnout": { "min": 100 },
 	"cooldown": { "min": 40 },
 	"chargeup": { "min": 10 },

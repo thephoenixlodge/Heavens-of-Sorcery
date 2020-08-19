@@ -2,7 +2,7 @@
 	"sub_module_id": "shape_zone",
 	"reference_module_id": "shape_zone",
 	"item": "minecraft:glass",
-	"mana": { "min": 10 },
+	"mana": { "min": 5 },
 	"burnout": { "min": 5 },
 	"cooldown": { "min": 20 },
 	"area": { "min": 3, "max": 10 },

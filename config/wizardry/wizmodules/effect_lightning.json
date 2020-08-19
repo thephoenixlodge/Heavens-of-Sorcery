@@ -4,7 +4,7 @@
 	"item": "minecraft:ice",
 	"primary_color": "ff72ed",
 	"secondary_color": "ff00e0",
-	"mana": { "min": 100 },
+	"mana": { "min": 50 },
 	"burnout": { "min": 70 },
 	"range": { "min": 1, "max": 16 },
 	"potency": { "min": 4, "max": 20 },

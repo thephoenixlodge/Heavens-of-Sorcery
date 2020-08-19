@@ -4,7 +4,7 @@
 	"item": "minecraft:clay",
 	"primary_color": "2EFFFF",
 	"secondary_color": "F3FFFF",
-	"mana": { "min": 30 },
+	"mana": { "min": 15 },
 	"burnout": { "min": 20 },
 	"area": { "min": 1, "max": 64 },
 	"tags": [ "block" ],

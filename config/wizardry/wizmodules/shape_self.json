@@ -2,7 +2,7 @@
 	"sub_module_id": "shape_self",
 	"reference_module_id": "shape_self",
 	"item": "minecraft:diamond",
-	"mana": { "min": 30 },
+	"mana": { "min": 15 },
 	"burnout": { "min": 20 },
 	"cooldown": { "min": 30 },
 	"tags": [  ],
