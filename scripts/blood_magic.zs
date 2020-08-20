@@ -72,6 +72,10 @@ val dustSpectral = <bewitchment:spectral_dust>;
 val ebbOfDeath = <bewitchment:ebb_of_death>;
 val diaryDoomed = <patchouli:guide_book>.withTag({"patchouli:book": "patchouli:doomed", "display":{"Lore": ["Torn Pages added: 0"]}});
 val diaryDoomed1 = <patchouli:guide_book>.withTag({"patchouli:book": "patchouli:doomed", "display":{"Lore": ["Torn Pages added: 1"]}});
+val diaryDoomed2 = <patchouli:guide_book>.withTag({"patchouli:book": "patchouli:doomed", "display":{"Lore": ["Torn Pages added: 2"]}});
+val diaryDoomed3 = <patchouli:guide_book>.withTag({"patchouli:book": "patchouli:doomed", "display":{"Lore": ["Torn Pages added: 3"]}});
+val diaryDoomed4 = <patchouli:guide_book>.withTag({"patchouli:book": "patchouli:doomed", "display":{"Lore": ["Torn Pages added: 4"]}});
+val diaryDoomed5 = <patchouli:guide_book>.withTag({"patchouli:book": "patchouli:doomed", "display":{"Lore": ["Torn Pages added: 5"]}});
 val tornPage = <contenttweaker:torn_page>;
 val leather = <minecraft:leather>;
 
@@ -150,3 +154,7 @@ recipes.addShapeless(scornedBricks, [marbleSooty, marbleSooty, spectralDust]);
 //diary of the doomed recipe
 recipes.addShapeless(diaryDoomed, [tornPage, leather]);
 recipes.addShapeless(diaryDoomed1, [diaryDoomed, tornPage]);
+recipes.addShapeless(diaryDoomed2, [diaryDoomed1, tornPage]);
+recipes.addShapeless(diaryDoomed3, [diaryDoomed2, tornPage]);
+recipes.addShapeless(diaryDoomed4, [diaryDoomed3, tornPage]);
+recipes.addShapeless(diaryDoomed5, [diaryDoomed4, tornPage]);
