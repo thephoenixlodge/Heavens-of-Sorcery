@@ -42,7 +42,7 @@
         {
             "type": "multiblock",
             "name": "Misty World Portal",
-            "text": "Warning: $(item)Gold Block$() is lost if portal is broken.",
+            "text": "Warning: $(item)Gold Block$() is lost if portal is broken. If your portal appears above the Down Center, Summon a $(thing)Rift$() to move.",
             "multiblock": {
             "pattern": [
                 ["T"],
@@ -60,6 +60,14 @@
             "offset"     : [0, 0, 0],
             "view_offset": [0, 0, 0]
             }
+        },
+        {
+            "type": "ritual",
+            "heading": "Summon Rift",
+            "item1": "minecraft:ender_eye",
+            "item2": "arcaneworld:amethyst",
+            "tip": "Summon Rift - Permanent",
+            "description": "$(thing)Rifts$() are Permanent! advised to wear an $(item)Elytra$() in case it places you above the Down"
         }
     ]
 }

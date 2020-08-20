@@ -184,6 +184,7 @@ val fairyWings = <wizardry:fairy_wings>;
 val fairyDust = <wizardry:fairy_dust>;
 val hammers = <earthworks:tool_stone_hammer>|hammerIron;
 val cuttingFluid = <bloodmagic:cutting_fluid>;
+val enderEye = <minecraft:ender_eye>;
 
 val basicBlocks = {
 	<minecraft:end_stone> : 6,
@@ -504,3 +505,6 @@ Grindstone.addRecipe(fairyWings, fairyDust, 0.1f);
 //otherworlds core to reforging token
 AlchemyTable.addRecipe(reforgingToken * 5, [otherworldsCore, manaPowder, cuttingFluid], 200, 50, 2);
 ManaInfusion.addAlchemy(reforgingToken * 2, otherworldsCore, 1000);
+
+//summon rift
+ArcaneWorld.createRitualSummon("summon_rift", "Conjure Rift", "arcaneworld:rift", enderEye, amethyst);
