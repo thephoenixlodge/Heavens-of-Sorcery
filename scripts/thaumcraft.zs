@@ -36,5 +36,5 @@ SalisMundus.addSingleConversion(weedwoodCraftingTableBlock, arcaneWorkbench);
 
 //change enchanted fabric recipe
 ArcaneWorkbench.removeRecipe(enchantedFabric);
-ArcaneWorkbench.registerShapedRecipe("enchanted_fabric", "UNLOCKINFUSION", 5, [], enchantedFabric * 2, [[feyLeather, itemString, feyLeather], [manaweave, magicSilk, manaweave], [feyLeather, itemString, feyLeather]]);
+ArcaneWorkbench.registerShapedRecipe("EnchantedFabric", "UNLOCKINFUSION", 5, [], enchantedFabric * 2, [[feyLeather, itemString, feyLeather], [manaweave, magicSilk, manaweave], [feyLeather, itemString, feyLeather]]);
 ArcaneWorkbench.registerShapedRecipe("enchanted_fabric_golden", "UNLOCKINFUSION", 5, [], enchantedFabric * 4, [[feyLeather, goldenThread, feyLeather], [manaweave, magicSilk, manaweave], [feyLeather, goldenThread, feyLeather]]);
