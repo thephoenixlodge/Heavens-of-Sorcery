@@ -1,9 +1,19 @@
 ////imports
 import mods.embers.Alchemy;
 import crafttweaker.item.IItemStack;
+import thaumcraft.aspect.CTAspectStack;
+import mods.thaumcraft.ArcaneWorkbench;
 
 
 ////variables
+//aspects
+val aer = <aspect:aer>;
+val ignis = <aspect:ignis>;
+val aqua = <aspect:aqua>;
+val terra = <aspect:terra>;
+val ordo = <aspect:ordo>;
+val perditio = <aspect:perditio>;
+//other
 val boneDagger = <divinefavor:bone_dagger>;
 val slimyBone = <thebetweenlands:items_misc:14>;
 val gemMiddleBlue = <thebetweenlands:aqua_middle_gem>;
@@ -22,7 +32,14 @@ var blends = {
 val etherealGooBlend = <divinefavor:blend_ethereal_goo>;
 val soulShardAny = <ore:soulShard>;
 val sludge = <thebetweenlands:sludge_ball>;
-
+val ritualPouch = <divinefavor:ritual_pouch>;
+val lurkerPouch = <thebetweenlands:lurker_skin_pouch>;
+val enchantedFabric = <thaumcraft:fabric>;
+val manaString = <botania:manaresource:16>;
+val bathHeater = <divinefavor:bath_heater>;
+val runeStone = <roots:runestone>;
+val wildfireCore = <embers:wildfire_core>;
+val bellows = <thaumcraft:bellows>;
 
 //bone dagger
 recipes.remove(boneDagger);
@@ -34,3 +51,11 @@ for blend, ingredients in blends {
 }
 recipes.remove(etherealGooBlend);
 Alchemy.add(etherealGooBlend, [soulShardAny, sludge, null, sludge, null], {"thaumium" : 8 to 12, "iron" : 8 to 12});
+
+//ritual pouch
+recipes.remove(ritualPouch);
+ArcaneWorkbench.registerShapedRecipe("ritual_pouch", "UNLOCKINFUSION", 25, [terra, aer], ritualPouch, [[null, manaString, null], [enchantedFabric, lurkerPouch, enchantedFabric], [null, enchantedFabric, null]]);
+
+//bath heater
+recipes.remove(bathHeater);
+ArcaneWorkbench.registerShapedRecipe("bath_heater", "BELLOWS", 25, [ignis * 2, aqua * 2, terra], bathHeater, [[runeStone, wildfireCore, runeStone], [runeStone, bellows, runeStone], [runeStone, runeStone, runeStone]]);
