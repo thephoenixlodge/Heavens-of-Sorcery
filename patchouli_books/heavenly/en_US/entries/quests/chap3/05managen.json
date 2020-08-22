@@ -23,7 +23,8 @@
             "item3": "botania:pool",
             "item4": "botania:twigwand",
             "reward1": "botania:livingrock#30",
-            "reward2": "botania:livingwood#30"
+            "reward2": "botania:livingwood#30",
+            "reward3": "botania:specialflower#3{type:\"endoflame\"}"
         },
         {
             "type": "petal_apothecary",
