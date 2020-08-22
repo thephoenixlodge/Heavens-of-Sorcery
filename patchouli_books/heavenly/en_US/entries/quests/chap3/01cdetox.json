@@ -45,12 +45,12 @@
         {
             "type": "spotlight",
             "item": "mist:mushrooms_food:23",
-            "text": "$(item)Gold Mushrooms$() can be found growing on the ground in wet areas.$(br2)Check Humidity with a $(item)Hygrometer$()" 
+            "text": "$(item)Gold Mushrooms$() can be found growing on the ground in higher elevation $(thing)Tropical Biomes$() (such as Jungle Hills)." 
         },
         {
             "type": "spotlight",
             "item": "mist:mushrooms_food:21",
-            "text": "$(item)Silver Mushrooms$() can be found growing on the ground in wet areas." 
+            "text": "$(item)Silver Mushrooms$() can be found growing on the ground in $(thing)Tropics Biomes$()." 
         }
     ]
 }
