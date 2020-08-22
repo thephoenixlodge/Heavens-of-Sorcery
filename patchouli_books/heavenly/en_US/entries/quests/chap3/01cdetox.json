@@ -21,6 +21,36 @@
             "item5": "mist:nightberry",
             "item6": "mist:swim_bladder",
             "reward1": "mist:tree_seed:9#10"
+        },
+        {
+            "type": "spotlight",
+            "item": "mist:tinder_fungus",
+            "text": "$(item)Tinder Fungus$() can be found rarely on $(thing)Forest Islands$(), growing on the side of $(item)Forest Deceiver$() trees." 
+        },
+        {
+            "type": "spotlight",
+            "item": "mist:nightberry",
+            "text": "$(item)Nightberrries$() can be found at night on the water on $(thing)Swamp Islands$()." 
+        },
+        {
+            "type": "spotlight",
+            "item": "mist:tree_seed:9",
+            "text": "$(item)Stone Tress Berries$() can be found on $(thing)Taiga Islands$(), rarely harvestable from the leaves of $(item)Stone Trees$()." 
+        },
+        {
+            "type": "spotlight",
+            "item": "mist:swim_bladder",
+            "text": "$(item)Swim Bladders$() can be obtained by killing Desert Fish, encountered by digging or wetting the $(item)Virgin Dry Clay$() lakebeds (layer below the surface) on $(thing)Desert/Savannah Islands$()." 
+        },
+        {
+            "type": "spotlight",
+            "item": "mist:mushrooms_food:23",
+            "text": "$(item)Gold Mushrooms$() can be found growing on the ground in wet areas.$(br2)Check Humidity with a $(item)Hygrometer$()" 
+        },
+        {
+            "type": "spotlight",
+            "item": "mist:mushrooms_food:21",
+            "text": "$(item)Silver Mushrooms$() can be found growing on the ground in wet areas." 
         }
     ]
 }
