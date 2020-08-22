@@ -3,7 +3,7 @@ import mods.botania.PureDaisy;
 import mods.botania.ManaInfusion;
 import mods.bloodmagic.TartaricForge;
 import mods.bloodmagic.AlchemyArray;
-
+import mods.MobStages;
 
 
 ////variables
@@ -41,6 +41,12 @@ val silverAspectus = <embers:aspectus_silver>;
 val witchesCauldron = <bewitchment:witches_cauldron>;
 val cauldron = <minecraft:cauldron>;
 
+val mobStrings = [
+	"bewitchment:hellhound",
+	"bewitchment:bafometyr",
+	"bewitchment:cleaver"
+] as string[];
+
 //Chalk
 limestone.add(limestoneBL);
 PureDaisy.addRecipe(limestone, chalk);
@@ -76,3 +82,8 @@ ManaInfusion.addInfusion(athame, silverKnife, 30000);
 //witches cauldron
 recipes.remove(witchesCauldron);
 AlchemyArray.addRecipe(witchesCauldron, cauldron, silverAspectus, "bloodmagic:textures/models/AlchemyArrays/AirSigil.png");
+
+//harder nether
+for mob in mobStrings {
+	MobStages.addStage("harder_nether", mob);
+}
