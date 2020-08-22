@@ -8,41 +8,17 @@
   },
   "components": [
     {
-      "weight": 400,
-      "oreName": "oreIron"
+      "weight": 65,
+      "oreName": "oreMetallia"
     },
     {
-      "weight": 200,
-      "oreName": "oreCopper"
-    },
-    {
-      "weight": 140,
-      "oreName": "oreTin"
-    },
-    {
-      "weight": 70,
-      "oreName": "oreSilver"
-    },
-    {
-      "weight": 80,
-      "oreName": "oreLead"
-    },
-    {
-      "weight": 30,
-      "oreName": "oreGold"
-    },
-    {
-      "weight": 60,
-      "oreName": "oreLapis"
-    },
-    {
-      "weight": 100,
-      "oreName": "oreRedstone"
+      "weight": 35,
+      "oreName": "orePrecia"
     }
   ],
   "explosionStrength": 15.0,
   "radius": 5,
-  "maxWeight": 1080,
+  "maxWeight": 100,
   "version": 3,
   "cost": 1000000
 }
