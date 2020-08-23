@@ -193,7 +193,7 @@
 		
 		"packVersion":
 		{
-			"text" : "Version 0.9.6-public-beta",
+			"text" : "Version 0.9.6.1-public-beta",
 			"alignment" : "bottom_left",
             "posX" : 150,
             "posY" : -20
