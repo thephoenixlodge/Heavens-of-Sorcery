@@ -69,7 +69,7 @@ addCuttingMeat("azulfo", "blue_skies:entities/azulfo", {"meat" : {<blue_skies:ra
 addCuttingMeat("cosmic_fox", "blue_skies:entities/cosmic_fox", {"fur" : {<blue_skies:fox_fur> : [0, 1]}});
 addCuttingMeat("reindeer", "blue_skies:entities/reindeer", {"meat" : {<blue_skies:raw_venison> : [1, 2]}});
 addCuttingMeat("stardust_ram", "blue_skies:entities/stardust_ram", {"meat" : {<minecraft:mutton> : [1, 2]}});
-addCuttingMeat("raven", "bewitchment:entities/raven", {"feather" : {<bewitchment:ravens_feather> : [0, 4]}});
+addCuttingMeat("raven", "bewitchment:entities/raven", {"raven" : {<bewitchment:ravens_feather> : [0, 4]}});
 addCuttingMeat("toad", "bewitchment:entities/toad", {"toad" : {<bewitchment:toe_of_frog> : [0, 4]}});
 addCuttingMeat("lizard", "bewitchment:entities/lizard", {"lizard" : {<bewitchment:lizard_leg> : [0, 4]}});
 addCuttingMeat("owl", "bewitchment:entities/owl", {"owl" : {<bewitchment:owlets_wing> : [0, 2]}});
