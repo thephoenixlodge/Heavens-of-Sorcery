@@ -32,7 +32,7 @@
         },
         {
             "type": "multiblock_bill_many",
-            "heading": "Harest Moss From:",
+            "heading": "Harvest Moss From:",
             "item1": "minecraft:mossy_cobblestone",
             "item2": "minecraft:stonebrick:1",
             "item3": "blue_skies:mossy_turquoise_cobblestone",
