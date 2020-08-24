@@ -10,7 +10,7 @@
             "type": "quest",
             "title": "Into the Woods",
             "trigger": "heavens:bookchap4/02forestritual",
-            "text": "With $(item)Gold Leaf$() in hand, you can prepare a site for rituals which focus the latent power of the trees from the $(thing)Everbright$() and $(thing)Everdawn$().$(br2)For this, you'll need 8 $(item)Wood Stands$() and 16 $(item)Gold Powder$() placed in rings surrounding a $(item)Sapling$()."
+            "text": "With $(item)Gold Leaf$() in hand, you can prepare a site for rituals which focus the latent power of the trees from the $(thing)Everbright$() and $(thing)Everdawn$().$(br2)For this, you'll need 8 $(item)Wood Stands$() and 16 $(item)Gold Powder$() placed in rings surrounding a $(item)Sapling$().$(br)Start Rituals by growing the sapling."
         },
         {
             "type": "checklist_end",
