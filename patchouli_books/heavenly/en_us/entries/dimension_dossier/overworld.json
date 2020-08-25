@@ -1,0 +1,16 @@
+{
+    "name": "Overworld Remnants",
+    "icon": "botania:altgrass:4",
+    "category": "dimension_dossier",
+    "pages": [
+        {
+            "type": "text",
+            "text": "All that's left of the old world, these Remnants will have to serve to help grow your power until we can get you into other planes.$(br2)Basic resources available here include $(item)Infused Grass$(), $(item)Metamorphic Taiga Stone$() and $(item)Ironwood$()."
+        },
+        {
+            "type": "location",
+            "icon": "books:templates/overworld_preview.png",
+            "heading": "The Overworld"
+        }
+    ]
+}
