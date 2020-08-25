@@ -185,6 +185,7 @@ val fairyDust = <wizardry:fairy_dust>;
 val hammers = <earthworks:tool_stone_hammer>|hammerIron;
 val cuttingFluid = <bloodmagic:cutting_fluid>;
 val enderEye = <minecraft:ender_eye>;
+val blockCharcoal = <quark:charcoal_block>;
 
 val basicBlocks = {
 	<minecraft:end_stone> : 6,
@@ -508,3 +509,6 @@ ManaInfusion.addAlchemy(reforgingToken * 2, otherworldsCore, 1000);
 
 //summon rift
 ArcaneWorld.createRitualSummon("summon_rift", "Conjure Rift", "arcaneworld:rift", enderEye, amethyst);
+
+//charcoal block tooltip
+blockCharcoal.addTooltip(format.gold("Can sustain Fire indefinitely"));
