@@ -277,6 +277,7 @@ poolExtra.addItemEntryHelper(doubleFlowers, 5, 1, [Functions.setMetadata(4, 5)],
 for box in shulkerBoxes {
 	poolExtra.addItemEntry(box, 2);
 	box.addTooltip(format.gold("Insert items without placing: Right click the item directly onto it in your inventory!"));
+	box.addTooltip(format.gold("Does NOT work on your hotbar, or with other UIs open"));
 }
 
 poolRare.addItemEntryHelper(beacon, 1, 3, [Functions.setCount(0, 1)], []);
