@@ -1,0 +1,7 @@
+{
+	"name": "Nether",
+	"description": "More details on the creatures, structures and resources of the Nether",
+	"icon": "minecraft:netherrack",
+	"parent": "dimension_dossier",
+	"sortnum": 997
+}

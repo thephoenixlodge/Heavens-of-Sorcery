@@ -2,6 +2,7 @@
     "name": "Overworld Remnants",
     "icon": "botania:altgrass:4",
     "category": "dimension_dossier",
+    "sortnum": 0,
     "pages": [
         {
             "type": "text",

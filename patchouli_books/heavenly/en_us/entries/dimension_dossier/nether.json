@@ -1,0 +1,18 @@
+{
+    "name": "The Nether",
+    "icon": "minecraft:netherrack",
+    "category": "dimension_dossier",
+    "advancement": "heavens:bookchap1/18stone",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "text",
+            "text": "The Nether is an infernal dimension, brimming with fire, and death. Yet it seems tamer than I recall. It contains a variety of resources useful to us, and there may even be loot to be had from the towering $(thing)Nether Fortresses$()."
+        },
+        {
+            "type": "location",
+            "icon": "books:templates/nether_preview.png",
+            "heading": "The Nether"
+        }
+    ]
+}
