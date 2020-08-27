@@ -100,6 +100,7 @@ val beamCannon = <embers:beam_cannon>;
 val alchemyPedestal = <embers:alchemy_pedestal>;
 val exchangeTablet = <embers:alchemy_tablet>;
 val lifeCrystal = <thebetweenlands:life_crystal>;
+val autoBreaker = <embers:breaker>;
 
 //tweak caminite blend recipe
 recipes.remove(caminiteBlend);
@@ -244,3 +245,6 @@ Altar.addTraitAltarRecipe("custom_alchemy_pedestal", alchemyPedestal, 4000, 300,
 //exchange tablet
 recipes.remove(exchangeTablet);
 Altar.addTraitAltarRecipe("custom_exchange_tablet", exchangeTablet, 5000, 400, [plateDawnstone, plateDawnstone, plateDawnstone, ingotBrass, null, ingotBrass, plateCopper, lifeCrystal, plateCopper, null, null, caminiteBrickStairs, caminiteBrickStairs, null, null, null, null, null, null, caminiteBrickBlock, caminiteBrickBlock, null, caminiteBrickStairs, caminiteBrickStairs, caminiteBrickBlock], "astralsorcery.constellation.fornax");
+
+//add tooltip to auto breaker
+autoBreaker.addTooltip(format.gold("Attach a Bin behind for autocollection"));
