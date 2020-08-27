@@ -97,6 +97,7 @@ val heartBeet = <inspirations:edibles>;
 val egg = <minecraft:egg>;
 val auraCache = <naturesaura:aura_cache>;
 val saplingAncient = <naturesaura:ancient_sapling>;
+val saplingAncientDynamic = <dynamictreesnaturesaura:ancientseed>;
 val crystalFlower = <ebwizardry:crystal_flower>;
 val pereskia = <roots:pereskia>;
 val terraMoss = <roots:terra_moss>;
@@ -216,7 +217,8 @@ heartBeet.addTooltip(format.gold("Rare drop from harvesting Beetroot"));
 
 //ancient spaling
 TreeRitual.removeRecipe(saplingAncient);
-TreeRitual.addRecipe("ancient_sapling", saplingBluebright, saplingAncient, 200, [saplingDusk, crystalFlower, crystalFlower, terraMoss, pereskia, goldLeaf]);
+TreeRitual.removeRecipe(saplingAncientDynamic);
+TreeRitual.addRecipe("ancient_sapling", saplingBluebright, saplingAncientDynamic, 200, [saplingDusk, crystalFlower, crystalFlower, terraMoss, pereskia, goldLeaf]);
 
 //enviromental eye
 TreeRitual.removeRecipe(enviroEye);

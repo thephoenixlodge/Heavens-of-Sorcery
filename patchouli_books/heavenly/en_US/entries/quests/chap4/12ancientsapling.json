@@ -10,18 +10,18 @@
             "type": "quest",
             "title": "As Old as the Trees",
             "trigger": "heavens:bookchap4/12ancientsapling",
-            "text": "Until now, you've been abusing the local $(thing)Aura$(), draining it with your $(item)Natural Altar$(). It's nigh time we change that. With the $(item)Pyre$(), you can create the herb $(item)Pereskia$(). Exposing a $(item)Dusk Sapling$() to this, along with some $(item)Crystal Flowers$() and other ingredients, will morph the sapling into an $(item)Ancient Sapling$(), which when grown, exudes $(thing)Aura$() from its leaves."
+            "text": "Until now, you've been abusing the local $(thing)Aura$(), draining it with your $(item)Natural Altar$(). It's nigh time we change that. With the $(item)Pyre$(), you can create the herb $(item)Pereskia$(). Exposing a $(item)Dusk Sapling$() to this, along with some $(item)Crystal Flowers$() and other ingredients, will morph the sapling into an $(item)Ancient Acorn$(), which when grown, exudes $(thing)Aura$() from its leaves."
         },
         {
             "type": "checklist_end",
-            "item1": "naturesaura:ancient_sapling",
-            "reward1": "naturesaura:ancient_sapling#3",
+            "item1": "dynamictreesnaturesaura:ancientseed",
+            "reward1": "dynamictreesnaturesaura:ancientseed#3",
             "reward2": "roots:wildroot#10"
         },
         {
             "type": "tree_ritual",
             "recipe": "ancient_sapling",
-            "text": "Crafting an $(item)Ancient Sapling$()"
+            "text": "Crafting an $(item)Ancient Acorn$()"
         },
         {
             "type": "relations",

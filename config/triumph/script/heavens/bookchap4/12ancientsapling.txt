@@ -1,8 +1,8 @@
-setIcon(<naturesaura:ancient_sapling>)
+setIcon(<dynamictreesnaturesaura:ancientseed>)
 
 setTitle("As Old as the Trees")
 
-setDescription("Create an Ancient Sapling, to help replenish damage you've done to the Aura")
+setDescription("Create an Ancient Acorn, to help replenish damage you've done to the Aura")
 
 addParent("heavens:bookchap4/11pyre")
 
@@ -11,7 +11,7 @@ setRequiresParents()
 setPos(200,-40)
 
 criteria1 = addCriteria("hasItemsFurnace", "minecraft:inventory_changed")
-criteria1.addItem(<naturesaura:ancient_sapling, count:1~>)
+criteria1.addItem(<dynamictreesnaturesaura:ancientseed, count:1~>)
 
-addRewardItem(<naturesaura:ancient_sapling, count:3>)
+addRewardItem(<dynamictreesnaturesaura:ancientseed, count:3>)
 addRewardItem(<roots:wildroot, count:10>)
