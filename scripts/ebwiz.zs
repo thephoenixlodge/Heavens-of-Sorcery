@@ -59,13 +59,13 @@ recipes.remove(workbench);
 Altar.addConstellationAltarRecipe("internal/altar/arcane_workbench", workbench, 3000, 500, [radiantQuartz, goldPowder, radiantQuartz, goldPowder, blockAmethyst, goldPowder, radiantQuartz, goldPowder, radiantQuartz, crystalMagic, crystalMagic, crystalMagic, crystalMagic, crystalSandstoneSmooth, crystalSandstoneSmooth, lapis, lapis, lapis, lapis, crystalSandstoneSmooth, crystalSandstoneSmooth]);
 
 //elemental crystals
-GCT.addRecipe("crystal_fiery", crystalFiery, [crystalMagic * 5, dustRadiant * 2, visIgnis * 2]);
-GCT.addRecipe("crystal_icy", crystalIcy, [crystalMagic * 5, dustRadiant * 2, visAqua * 2]);
-GCT.addRecipe("crystal_stormy", crystalStormy, [crystalMagic * 5, dustRadiant * 2, visAer * 2]);
-GCT.addRecipe("crystal_dark", crystalDark, [crystalMagic * 5, dustRadiant * 2, visPerditio * 2]);
-GCT.addRecipe("crystal_verdant", crystalVerdant, [crystalMagic * 5, dustRadiant * 2, visTerra * 2]);
-GCT.addRecipe("crystal_mystical", crystalMystical, [crystalMagic * 5, dustRadiant * 2, visOrdo * 2]);
-GCT.addRecipe("crystal_radiant", crystalRadiant, [crystalMagic * 5, dustRadiant * 2, visSol * 2]);
+GCT.addRecipe("crystal_fiery", crystalFiery, [crystalMagic * 5, crystalFiery, dustRadiant * 2, visIgnis * 2]);
+GCT.addRecipe("crystal_icy", crystalIcy, [crystalMagic * 5, crystalIcy, dustRadiant * 2, visAqua * 2]);
+GCT.addRecipe("crystal_stormy", crystalStormy, [crystalMagic * 5, crystalStormy, dustRadiant * 2, visAer * 2]);
+GCT.addRecipe("crystal_dark", crystalDark, [crystalMagic * 5, crystalDark, dustRadiant * 2, visPerditio * 2]);
+GCT.addRecipe("crystal_verdant", crystalVerdant, [crystalMagic * 5, crystalVerdant, dustRadiant * 2, visTerra * 2]);
+GCT.addRecipe("crystal_mystical", crystalMystical, [crystalMagic * 5, crystalMystical, dustRadiant * 2, visOrdo * 2]);
+GCT.addRecipe("crystal_radiant", crystalRadiant, [crystalMagic * 5, crystalRadiant, dustRadiant * 2, visSol * 2]);
 
 
 
