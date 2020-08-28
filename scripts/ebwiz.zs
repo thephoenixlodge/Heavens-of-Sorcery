@@ -66,6 +66,13 @@ GCT.addRecipe("crystal_dark", crystalDark, [crystalMagic * 5, crystalDark, dustR
 GCT.addRecipe("crystal_verdant", crystalVerdant, [crystalMagic * 5, crystalVerdant, dustRadiant * 2, visTerra * 2]);
 GCT.addRecipe("crystal_mystical", crystalMystical, [crystalMagic * 5, crystalMystical, dustRadiant * 2, visOrdo * 2]);
 GCT.addRecipe("crystal_radiant", crystalRadiant, [crystalMagic * 5, crystalRadiant, dustRadiant * 2, visSol * 2]);
+crystalFiery.addTooltip(format.gold("Looted from Shrines and Obelisks in the Everbright and Everdawn"));
+crystalIcy.addTooltip(format.gold("Looted from Shrines and Obelisks in the Everbright and Everdawn"));
+crystalStormy.addTooltip(format.gold("Looted from Shrines and Obelisks in the Everbright and Everdawn"));
+crystalDark.addTooltip(format.gold("Looted from Shrines and Obelisks in the Everbright and Everdawn"));
+crystalVerdant.addTooltip(format.gold("Looted from Shrines and Obelisks in the Everbright and Everdawn"));
+crystalMystical.addTooltip(format.gold("Looted from Shrines and Obelisks in the Everbright and Everdawn"));
+crystalRadiant.addTooltip(format.gold("Looted from Shrines and Obelisks in the Everbright and Everdawn"));
 
 
 
