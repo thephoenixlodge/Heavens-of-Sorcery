@@ -192,7 +192,6 @@ val extrasAetherMap = {
 	<quark:biotite> : 7,
 	<quark:arrow_torch> : 10,
 	<astralsorcery:itemusabledust> : 10,
-	<botania:manaresource:1> : 2,
 	<cuisine:crops:9> : 5,
 	<cuisine:crops:3>: 5,
 	<botania:tinypotato> : 5,
