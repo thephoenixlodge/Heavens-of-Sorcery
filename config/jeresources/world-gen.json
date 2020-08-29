@@ -3,19 +3,19 @@
 		"block": "quark:blaze_lantern:0",
 		"distrib": "0,0.0;52,0.0;53,1.9054878E-6;54,0.0;55,0.0;56,1.9054878E-6;57,0.0;",
 		"silktouch": false,
-		"dim": "Dim -1: -1"
+		"dim": "Dim -1: The Nether"
 	},
 	{
 		"block": "minecraft:magma:0",
 		"distrib": "0,0.0;21,0.0;22,5.7164634E-6;23,0.005272485;24,0.024618903;25,0.054037727;26,0.081713036;27,0.09590701;28,0.09479421;29,0.087776296;30,0.08044398;31,0.07842035;32,0.076049924;33,0.074582696;34,0.063923396;35,0.04160061;36,0.018530868;37,0.003254573;38,0.0;",
 		"silktouch": false,
-		"dim": "Dim -1: -1"
+		"dim": "Dim -1: The Nether"
 	},
 	{
 		"block": "minecraft:soul_sand:0",
 		"distrib": "0,0.0;15,0.0;16,1.5243902E-5;17,3.125E-4;18,0.0018883384;19,0.0044817072;20,0.0078810975;21,0.011293827;22,0.0112423785;23,0.008502287;24,0.0032907773;25,0.0033650915;26,0.003605183;27,0.004352134;28,0.0049161585;29,0.005198171;30,0.004249238;31,0.0041463412;32,0.0045483992;33,0.004575076;34,0.0043616616;35,0.0034813262;36,0.0032355182;37,0.0036509146;38,0.0042073173;39,0.0042206557;40,0.0035251523;41,0.0033727135;42,0.0034813262;43,0.003734756;44,0.0032526676;45,0.002258003;46,0.0014329269;47,9.375E-4;48,5.945122E-4;49,5.7926826E-4;50,5.1829265E-4;51,4.0205792E-4;52,2.991616E-4;53,2.1913109E-4;54,9.527439E-5;55,3.429878E-5;56,5.354421E-4;57,0.0046646344;58,0.014108231;59,0.024407392;60,0.032456174;61,0.027637195;62,0.019346418;63,0.015213415;64,0.011829268;65,0.006124238;66,6.6692075E-5;67,0.0;",
 		"silktouch": false,
-		"dim": "Dim -1: -1"
+		"dim": "Dim -1: The Nether"
 	},
 	{
 		"block": "minecraft:nether_wart:0",
@@ -32,7 +32,7 @@
 				}
 			}
 		],
-		"dim": "Dim -1: -1"
+		"dim": "Dim -1: The Nether"
 	},
 	{
 		"block": "minecraft:quartz_ore:0",
@@ -49,7 +49,7 @@
 				}
 			}
 		],
-		"dim": "Dim -1: -1"
+		"dim": "Dim -1: The Nether"
 	},
 	{
 		"block": "minecraft:glowstone:0",
@@ -66,13 +66,13 @@
 				}
 			}
 		],
-		"dim": "Dim -1: -1"
+		"dim": "Dim -1: The Nether"
 	},
 	{
 		"block": "thaumicaugmentation:stone:0",
 		"distrib": "0,0.0;63,0.0;64,3.8109756E-6;65,5.7164634E-6;66,1.3338415E-5;67,2.4771341E-5;68,7.621951E-6;69,1.1432927E-5;70,3.8109756E-6;71,7.621951E-6;72,1.1432927E-5;73,3.239329E-5;74,2.8582317E-5;75,4.0015242E-5;76,1.1432927E-5;77,7.621951E-6;78,9.527439E-6;79,0.0;81,0.0;82,1.9054878E-6;83,0.0;101,0.0;102,3.8109756E-6;103,3.8109756E-6;104,1.5243902E-5;105,1.9054878E-5;106,2.4771341E-5;107,3.239329E-5;108,2.0960366E-5;109,3.0487805E-5;110,2.2865854E-5;111,4.3826218E-5;112,0.0;",
 		"silktouch": false,
-		"dim": "Dim -1: -1"
+		"dim": "Dim -1: The Nether"
 	},
 	{
 		"block": "quark:smoker:0",
@@ -89,25 +89,25 @@
 				}
 			}
 		],
-		"dim": "Dim -1: -1"
+		"dim": "Dim -1: The Nether"
 	},
 	{
 		"block": "thaumicaugmentation:stone:2",
 		"distrib": "0,0.0;65,0.0;66,1.9054878E-6;67,1.9054878E-6;68,2.2865854E-5;69,7.621951E-6;70,1.3338415E-5;71,0.0;",
 		"silktouch": false,
-		"dim": "Dim -1: -1"
+		"dim": "Dim -1: The Nether"
 	},
 	{
 		"block": "minecraft:bone_block:0",
 		"distrib": "0,0.0;29,0.0;30,2.9153965E-4;31,4.0777438E-4;32,4.1349087E-4;33,6.116616E-4;34,3.5632623E-4;35,1.7530487E-4;36,0.0;",
 		"silktouch": false,
-		"dim": "Dim -1: -1"
+		"dim": "Dim -1: The Nether"
 	},
 	{
 		"block": "quark:basalt:0",
 		"distrib": "0,0.0;2,0.0;3,3.7919206E-4;4,0.0011166158;5,0.0026028964;6,0.003950076;7,0.005745046;8,0.0073570884;9,0.009115853;10,0.010785061;11,0.012612424;12,0.014066311;13,0.015762195;14,0.017122714;15,0.018883385;16,0.020476371;17,0.02244855;18,0.024072027;19,0.025739329;20,0.027210366;21,0.027587652;22,0.027595274;23,0.028098322;24,0.026244283;25,0.025939405;26,0.02494093;27,0.024333078;28,0.023843369;29,0.02285061;30,0.021935975;31,0.020926068;32,0.019535061;33,0.019477896;34,0.021168064;35,0.022242758;36,0.022606708;37,0.022029344;38,0.01980564;39,0.01978849;40,0.019674161;41,0.019742759;42,0.01967035;43,0.019249238;44,0.019359756;45,0.019375;46,0.019066311;47,0.01872904;48,0.01816692;49,0.018117378;50,0.017351372;51,0.016766388;52,0.016057545;53,0.015806021;54,0.015689787;55,0.014847561;56,0.014517912;57,0.01439215;58,0.01550686;59,0.016234756;60,0.017357089;61,0.01832317;62,0.019479802;63,0.021572027;64,0.022875382;65,0.023742378;66,0.024552211;67,0.024542684;68,0.024735138;69,0.024748476;70,0.024554117;71,0.024291158;72,0.023559451;73,0.023245046;74,0.02261052;75,0.022235136;76,0.021690167;77,0.021278583;78,0.019542683;79,0.019011052;80,0.01870427;81,0.02002096;82,0.02045541;83,0.020952744;84,0.022258002;85,0.022195121;86,0.021928353;87,0.020729803;88,0.019719893;89,0.019925686;90,0.01931593;91,0.019075839;92,0.018841464;93,0.019153964;94,0.018934833;95,0.01869093;96,0.019243522;97,0.020653583;98,0.022088414;99,0.02375;100,0.025623094;101,0.027425686;102,0.028365092;103,0.028401297;104,0.028972942;105,0.031389102;106,0.032879192;107,0.034133002;108,0.035886053;109,0.036831174;110,0.03725038;111,0.036223322;112,0.0014310214;113,0.0014500762;114,0.0013929115;115,0.0013871951;116,0.0013395579;117,0.0012900153;118,0.0012233232;119,0.0011547256;120,0.0010537348;121,9.679878E-4;122,8.6318597E-4;123,5.487805E-4;124,3.2583842E-4;125,1.5625E-4;126,4.192073E-5;127,0.0;",
 		"silktouch": false,
-		"dim": "Dim -1: -1"
+		"dim": "Dim -1: The Nether"
 	},
 	{
 		"block": "minecraft:gravel:0",
@@ -124,7 +124,7 @@
 				}
 			}
 		],
-		"dim": "Dim -1: -1"
+		"dim": "Dim -1: The Nether"
 	},
 	{
 		"block": "rustic:deathstalk_mushroom:0",
@@ -141,7 +141,7 @@
 				}
 			}
 		],
-		"dim": "Dim -1: -1"
+		"dim": "Dim -1: The Nether"
 	},
 	{
 		"block": "arcaneworld:ore_amethyst_nether:0",
@@ -158,19 +158,19 @@
 				}
 			}
 		],
-		"dim": "Dim -1: -1"
+		"dim": "Dim -1: The Nether"
 	},
 	{
 		"block": "minecraft:netherrack:0",
 		"distrib": "0,0.0;1,0.19983993;2,0.39549732;3,0.5938777;4,0.7895274;5,0.9843293;6,0.9823418;7,0.9791768;8,0.9741902;9,0.96828127;10,0.9633365;11,0.96028394;12,0.9580907;13,0.954617;14,0.9529078;15,0.94988567;16,0.9472142;17,0.94595087;18,0.9447656;19,0.93976754;20,0.9292054;21,0.8985785;22,0.84269816;23,0.75290775;24,0.60958844;25,0.56370044;26,0.51664823;27,0.48144245;28,0.45879382;29,0.4354192;30,0.410686;31,0.38478276;32,0.3608708;33,0.36372334;34,0.38227707;35,0.40957317;36,0.43133193;37,0.44038302;38,0.4436852;39,0.43869093;40,0.43278012;41,0.43188834;42,0.4362843;43,0.4383632;44,0.4405869;45,0.44327363;46,0.449133;47,0.452803;48,0.45373285;49,0.46005717;50,0.4653125;51,0.47324315;52,0.4810023;53,0.48856136;54,0.49387196;55,0.49710938;56,0.49946836;57,0.49359566;58,0.48259336;59,0.47900534;60,0.47390625;61,0.48036584;62,0.4862481;63,0.48225608;64,0.48491615;65,0.49162537;66,0.5055164;67,0.51057357;68,0.51293635;69,0.5144074;70,0.5114634;71,0.50414634;72,0.4991254;73,0.49661967;74,0.49822217;75,0.50061166;76,0.49900913;77,0.49161968;78,0.4787214;79,0.4714501;80,0.4643674;81,0.46647486;82,0.47111282;83,0.47365853;84,0.47050306;85,0.46639863;86,0.46539062;87,0.46226183;88,0.45724657;89,0.4595865;90,0.4602763;91,0.45995617;92,0.4580145;93,0.4545827;94,0.44866806;95,0.44588795;96,0.44610518;97,0.46151295;98,0.48008955;99,0.49529153;100,0.50716466;101,0.5237729;102,0.53872335;103,0.5430183;104,0.548609;105,0.6324543;106,0.71557736;107,0.79095846;108,0.85495615;109,0.89150155;110,0.90869284;111,0.91800684;112,0.050470654;113,0.050783157;114,0.051088035;115,0.051194742;116,0.051552974;117,0.051960748;118,0.05228468;119,0.052446645;120,0.05254192;121,0.05314215;122,0.05325648;123,0.042783916;124,0.032345656;125,0.021474848;126,0.010625;127,0.0;",
 		"silktouch": false,
-		"dim": "Dim -1: -1"
+		"dim": "Dim -1: The Nether"
 	},
 	{
 		"block": "minecraft:obsidian:0",
 		"distrib": "0,0.0;20,0.0;21,9.33689E-4;33,9.33689E-4;34,7.945884E-4;35,6.573933E-4;36,5.2400917E-4;37,4.3826218E-4;38,3.3536585E-4;39,2.0960366E-4;40,1.4481707E-4;41,7.8125E-5;42,5.335366E-5;43,2.667683E-5;44,2.2865854E-5;45,1.9054878E-5;50,1.9054878E-5;51,1.714939E-5;52,1.714939E-5;53,9.527439E-6;55,9.527439E-6;56,1.9054878E-6;57,3.8109756E-6;58,3.8109756E-6;59,1.9054878E-6;63,1.9054878E-6;64,0.0;",
 		"silktouch": false,
-		"dim": "Dim -1: -1"
+		"dim": "Dim -1: The Nether"
 	},
 	{
 		"block": "minecraft:red_mushroom:0",
@@ -187,7 +187,7 @@
 				}
 			}
 		],
-		"dim": "Dim -1: -1"
+		"dim": "Dim -1: The Nether"
 	},
 	{
 		"block": "minecraft:brown_mushroom:0",
@@ -204,7 +204,7 @@
 				}
 			}
 		],
-		"dim": "Dim -1: -1"
+		"dim": "Dim -1: The Nether"
 	},
 	{
 		"block": "minecraft:chorus_plant:0",
@@ -221,7 +221,7 @@
 				}
 			}
 		],
-		"dim": "Dim 1: 1"
+		"dim": "Dim 1: The End"
 	},
 	{
 		"block": "minecraft:purpur_slab:0",
@@ -238,19 +238,19 @@
 				}
 			}
 		],
-		"dim": "Dim 1: 1"
+		"dim": "Dim 1: The End"
 	},
 	{
 		"block": "minecraft:purpur_block:0",
 		"distrib": "0,0.0;59,0.0;60,1.1432927E-4;61,1.9054878E-6;63,1.9054878E-6;64,1.3719512E-4;65,1.9054878E-6;67,1.9054878E-6;68,1.9245427E-4;69,0.0;71,0.0;72,2.496189E-4;73,0.0;74,0.0;75,1.714939E-5;76,1.2195122E-4;77,5.144817E-5;78,3.239329E-5;79,4.192073E-5;80,0.0;",
 		"silktouch": false,
-		"dim": "Dim 1: 1"
+		"dim": "Dim 1: The End"
 	},
 	{
 		"block": "minecraft:end_bricks:0",
 		"distrib": "0,0.0;60,0.0;61,3.0487805E-5;62,2.667683E-5;63,2.667683E-5;64,0.0;65,4.192073E-5;66,3.239329E-5;67,3.239329E-5;68,0.0;69,4.9542683E-5;70,3.0487805E-5;71,3.0487805E-5;72,0.0;",
 		"silktouch": false,
-		"dim": "Dim 1: 1"
+		"dim": "Dim 1: The End"
 	},
 	{
 		"block": "arcaneworld:ore_amethyst:0",
@@ -267,19 +267,19 @@
 				}
 			}
 		],
-		"dim": "Dim 1: 1"
+		"dim": "Dim 1: The End"
 	},
 	{
 		"block": "minecraft:end_stone:0",
 		"distrib": "0,0.0;9,0.0;10,1.867378E-4;11,0.0020445883;12,0.017412348;13,0.03302782;14,0.049190167;15,0.065672636;16,0.08011243;17,0.09370045;18,0.106008;19,0.11779916;20,0.12937881;21,0.14026296;22,0.14981136;23,0.15912919;24,0.16842034;25,0.17870426;26,0.1869074;27,0.19439977;28,0.20095846;29,0.20688643;30,0.21220084;31,0.21672066;32,0.2177439;33,0.21776487;34,0.2178125;35,0.217742;36,0.21769436;37,0.21844894;38,0.21831554;39,0.21751143;40,0.21774772;41,0.21747713;42,0.21736471;43,0.21726753;44,0.21705984;45,0.21829078;46,0.21908727;47,0.21987805;48,0.08072408;49,0.080729805;50,0.08059261;51,0.08053544;52,0.08043826;53,0.08043826;54,0.08038491;55,0.08039634;56,0.08043636;57,0.07550686;58,0.06834032;59,0.05883575;60,0.045769818;61,0.03196456;62,0.020158155;63,0.01261814;64,0.0017016006;65,5.754573E-4;66,0.0;",
 		"silktouch": false,
-		"dim": "Dim 1: 1"
+		"dim": "Dim 1: The End"
 	},
 	{
 		"block": "minecraft:chorus_flower:0",
 		"distrib": "0,0.0;40,0.0;41,1.9054878E-6;42,1.9054878E-6;43,0.0;44,1.9054878E-6;45,5.7164634E-6;46,1.9054878E-6;47,5.7164634E-6;48,0.0;52,0.0;53,1.9054878E-6;54,0.0;60,0.0;61,1.9054878E-6;62,3.8109756E-6;63,2.4771341E-5;64,0.0;65,3.8109756E-6;66,1.1432927E-5;67,7.621951E-6;68,3.8109756E-6;69,5.7164634E-6;70,1.1432927E-5;71,9.527439E-6;72,1.3338415E-5;73,1.5243902E-5;74,2.0960366E-5;75,9.527439E-6;76,1.714939E-5;77,1.1432927E-5;78,9.527439E-6;79,1.1432927E-5;80,0.0;",
 		"silktouch": false,
-		"dim": "Dim 1: 1"
+		"dim": "Dim 1: The End"
 	},
 	{
 		"block": "minecraft:end_rod:0",
@@ -296,19 +296,19 @@
 				}
 			}
 		],
-		"dim": "Dim 1: 1"
+		"dim": "Dim 1: The End"
 	},
 	{
 		"block": "minecraft:purpur_pillar:0",
 		"distrib": "0,0.0;60,0.0;61,3.8109756E-6;63,3.8109756E-6;64,0.0;65,3.8109756E-6;67,3.8109756E-6;68,0.0;69,5.7164634E-6;71,5.7164634E-6;72,0.0;73,2.2865854E-5;74,2.2865854E-5;75,3.0487805E-5;76,0.0;77,5.7164634E-6;78,5.7164634E-6;79,9.527439E-6;80,0.0;",
 		"silktouch": false,
-		"dim": "Dim 1: 1"
+		"dim": "Dim 1: The End"
 	},
 	{
 		"block": "minecraft:obsidian:0",
 		"distrib": "0,7.2599086E-4;79,7.2599086E-4;80,3.8109755E-4;95,3.8109755E-4;96,0.0;",
 		"silktouch": false,
-		"dim": "Dim 1: 1"
+		"dim": "Dim 1: The End"
 	},
 	{
 		"block": "kathairis:mystictallgrass:0",
@@ -1689,7 +1689,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:a_tree_trunk:0",
@@ -1715,7 +1715,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:clay:10",
@@ -1758,7 +1758,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:bio_shale_ore:0",
@@ -1775,7 +1775,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:filter_coal_ore:0",
@@ -1792,7 +1792,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "minecraft:snow_layer:0",
@@ -1809,13 +1809,13 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:niobium_ore:0",
 		"distrib": "0,0.0;26,0.0;27,2.0960366E-5;28,4.9542683E-5;29,8.0030484E-5;30,1.1051829E-4;31,4.5731707E-5;32,1.5053354E-4;33,1.2766768E-4;34,1.2957316E-4;35,1.6387196E-4;36,1.6958841E-4;37,1.6387196E-4;38,2.3818598E-4;39,1.6768293E-4;40,2.1532012E-4;41,2.5152438E-4;42,1.8292683E-4;43,3.4489328E-4;44,1.8864329E-4;45,2.5914633E-4;46,2.8582316E-4;47,3.277439E-4;48,3.5251526E-4;49,3.105945E-4;50,3.7157012E-4;51,4.0967987E-4;52,3.0106708E-4;53,3.9443598E-4;54,4.6112805E-4;55,3.925305E-4;56,4.7827745E-4;57,4.4778964E-4;58,4.6303353E-4;59,4.992378E-4;60,5.46875E-4;61,5.5259146E-4;62,5.830793E-4;63,4.8018293E-4;64,4.839939E-4;65,6.192835E-4;66,6.345274E-4;67,5.830793E-4;68,5.926067E-4;69,5.106707E-4;70,5.583079E-4;71,5.983232E-4;72,6.4977136E-4;73,6.573933E-4;74,7.1455794E-4;75,6.5167685E-4;76,7.2789635E-4;77,7.202744E-4;78,7.221799E-4;79,7.9077744E-4;80,7.5457315E-4;81,7.469512E-4;82,9.451219E-4;83,8.3650916E-4;84,9.0129575E-4;85,8.841463E-4;86,8.0411584E-4;87,9.546494E-4;88,8.917683E-4;89,8.841463E-4;90,8.727134E-4;91,8.8795734E-4;92,9.584604E-4;93,9.870427E-4;94,7.679116E-4;95,9.203506E-4;96,9.737043E-4;97,0.0010499238;98,0.0010461129;99,0.001097561;100,0.0011032774;101,9.698933E-4;102,0.0010480183;103,0.0010537348;104,0.0011089939;105,9.717988E-4;106,0.0012366616;107,0.0011490091;108,7.602896E-4;109,3.8871952E-4;110,0.0;",
 		"silktouch": false,
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:mycelium:5:{BlockEntityTag:{Mushroom:{id:\"mist:mushrooms_1\",Damage:11s}}}",
@@ -1832,13 +1832,13 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:poplar_block:0",
 		"distrib": "0,0.0;126,0.0;127,1.1432927E-5;128,0.0;",
 		"silktouch": false,
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:lapis_ore:0",
@@ -1855,7 +1855,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:mycelium:4:{BlockEntityTag:{Mushroom:{id:\"mist:mushrooms_1\",Damage:0s}}}",
@@ -1872,7 +1872,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:mycelium:8:{BlockEntityTag:{Mushroom:{id:\"mist:mushrooms_0\",Damage:8s}}}",
@@ -1889,7 +1889,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:mycelium:0:{BlockEntityTag:{Mushroom:{id:\"mist:mushrooms_1\",Damage:6s}}}",
@@ -1906,7 +1906,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "minecraft:flint:0",
@@ -1923,7 +1923,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:mycelium:8:{BlockEntityTag:{Mushroom:{id:\"mist:mushrooms_1\",Damage:5s}}}",
@@ -1940,7 +1940,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "rustic:mooncap_mushroom:0",
@@ -1957,7 +1957,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "rustic:blood_orchid:0",
@@ -1974,7 +1974,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:mycelium:8:{BlockEntityTag:{Mushroom:{id:\"mist:mushrooms_0\",Damage:4s}}}",
@@ -1991,13 +1991,13 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:pine_block:0",
 		"distrib": "0,0.0;127,0.0;128,1.1432927E-5;129,0.0;136,0.0;137,1.1432927E-5;138,0.0;",
 		"silktouch": false,
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:mushrooms_food:27",
@@ -2014,7 +2014,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:cobblestone:1",
@@ -2031,13 +2031,13 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:spruce_leaves:0",
 		"distrib": "0,0.0;126,0.0;127,1.714939E-5;128,2.2865854E-5;129,3.8109756E-5;130,7.050305E-5;131,1.0099085E-4;132,1.1814024E-4;133,2.5914633E-4;134,3.0678354E-4;135,3.5632623E-4;136,3.4489328E-4;137,3.6775914E-4;138,3.601372E-4;139,3.6394817E-4;140,3.429878E-4;141,3.3155488E-4;142,2.7820122E-4;143,2.4009147E-4;144,0.0;",
 		"silktouch": true,
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:mycelium:2:{BlockEntityTag:{Mushroom:{id:\"mist:mushrooms_0\",Damage:10s}}}",
@@ -2054,7 +2054,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:cobblestone:0",
@@ -2071,7 +2071,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:grass_t:0",
@@ -2088,7 +2088,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:grass_t:1",
@@ -2105,7 +2105,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:grass_t:2",
@@ -2122,7 +2122,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:mycelium:8:{BlockEntityTag:{Mushroom:{id:\"mist:mushrooms_1\",Damage:2s}}}",
@@ -2139,7 +2139,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:tinder_fungus:0",
@@ -2156,13 +2156,13 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:peat:0",
 		"distrib": "0,0.0;120,0.0;121,4.7637193E-5;122,0.0011775915;123,0.0031726372;124,0.00790968;125,0.0;",
 		"silktouch": false,
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:pine_trunk:0",
@@ -2188,13 +2188,13 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:acacia_block:0",
 		"distrib": "0,0.0;126,0.0;127,9.527439E-6;128,0.0;",
 		"silktouch": false,
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "botania:mushroom:5",
@@ -2211,7 +2211,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "botania:mushroom:4",
@@ -2228,7 +2228,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "botania:mushroom:7",
@@ -2245,7 +2245,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:willow_trunk:0",
@@ -2271,7 +2271,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "botania:mushroom:6",
@@ -2288,7 +2288,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "botania:mushroom:9",
@@ -2305,7 +2305,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "botania:mushroom:8",
@@ -2322,13 +2322,13 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:acid_dirt_0:0",
 		"distrib": "0,0.0;26,0.0;27,1.9054877E-4;28,4.5731707E-4;29,0.0025571645;30,0.008237423;31,0.016518673;32,5.7164634E-6;33,1.9054878E-5;34,4.3826218E-5;35,6.097561E-5;36,2.667683E-5;37,3.8109756E-6;38,7.621951E-6;40,7.621951E-6;41,9.527439E-6;42,3.8109756E-6;43,0.0;",
 		"silktouch": false,
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "rustic:marsh_mallow:0",
@@ -2345,7 +2345,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "botania:mushroom:1",
@@ -2362,7 +2362,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "botania:mushroom:0",
@@ -2379,7 +2379,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "botania:mushroom:3",
@@ -2396,13 +2396,13 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "astralsorcery:blockcustomore:0",
 		"distrib": "0,0.0;1,0.0;2,6.478658E-5;3,7.8125E-5;4,8.574695E-5;5,7.8125E-5;6,1.3338415E-5;7,0.0;",
 		"silktouch": false,
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "botania:mushroom:2",
@@ -2419,13 +2419,13 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "minecraft:bedrock:0",
 		"distrib": "0,1.0;1,0.7997047;2,0.5998285;3,0.39984185;4,0.20061547;5,0.0;",
 		"silktouch": true,
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:mushrooms_food:9",
@@ -2442,7 +2442,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:acid_grass_2:0",
@@ -2459,7 +2459,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:mushrooms_food:12",
@@ -2476,7 +2476,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:mushrooms_food:7",
@@ -2493,7 +2493,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:mushrooms_food:10",
@@ -2510,7 +2510,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:mushrooms_food:4",
@@ -2527,7 +2527,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:mushrooms_food:3",
@@ -2544,7 +2544,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "rustic:wildberry_bush:0",
@@ -2561,13 +2561,13 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:a_tree_block:8",
 		"distrib": "0,0.0;132,0.0;133,1.9054878E-6;134,0.0;",
 		"silktouch": false,
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:grass_c:0",
@@ -2584,7 +2584,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:grass_c:1",
@@ -2601,13 +2601,13 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:a_tree_leaves:0",
 		"distrib": "0,0.0;126,0.0;127,6.097561E-5;128,6.859756E-5;129,1.410061E-4;130,1.7911586E-4;131,1.867378E-4;132,2.34375E-4;133,1.867378E-4;134,2.5342987E-4;135,1.9245427E-4;136,2.496189E-4;137,1.8292683E-4;138,2.5914633E-4;139,1.8292683E-4;140,2.4390244E-4;141,1.714939E-4;142,2.2294208E-4;143,1.0480183E-4;144,0.0;",
 		"silktouch": true,
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:grass_c:2",
@@ -2624,7 +2624,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:saltpeter_ore:0",
@@ -2641,7 +2641,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:grass_c:4",
@@ -2658,7 +2658,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:grass_s:5",
@@ -2675,7 +2675,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:grass_s:6",
@@ -2692,19 +2692,19 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:a_tree_block:0",
 		"distrib": "0,0.0;127,0.0;128,9.527439E-6;129,0.0;",
 		"silktouch": false,
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:dirt_c:4",
 		"distrib": "0,0.0;125,0.0;126,3.0487805E-5;127,0.0;",
 		"silktouch": false,
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:sponge_spore:0",
@@ -2721,13 +2721,13 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:dirt_c:2",
 		"distrib": "0,0.0;120,0.0;121,0.009996189;122,0.0036547256;123,0.003136433;124,7.621951E-6;125,1.5434451E-4;126,2.477134E-4;127,1.5053354E-4;128,1.1432927E-5;129,5.7164634E-6;130,5.7164634E-6;131,0.0;132,0.0;133,5.7164634E-6;134,1.9054878E-6;135,3.8109756E-6;136,5.7164634E-6;137,0.0;",
 		"silktouch": false,
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:a_tree_branch:0",
@@ -2744,19 +2744,19 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:dirt_s:1",
 		"distrib": "0,0.0;121,0.0;122,4.9542683E-5;123,0.0014710366;124,3.429878E-5;125,9.1463415E-5;126,8.0030484E-5;127,3.8109756E-5;128,1.3338415E-5;129,1.714939E-5;130,3.429878E-5;131,5.7164634E-6;132,1.9054878E-6;133,7.621951E-6;134,1.9054878E-5;135,5.7164634E-5;136,2.0960366E-5;137,5.7164634E-6;138,1.9054878E-6;139,2.8582317E-5;140,0.0;",
 		"silktouch": false,
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:dirt_s:0",
 		"distrib": "0,0.0;117,0.0;118,5.7164634E-6;119,2.4771341E-5;120,4.0015242E-5;121,5.144817E-5;122,3.1631096E-4;123,9.33689E-4;124,0.0029192073;125,0.0021894055;126,0.0017378049;127,7.2789635E-4;128,4.344512E-4;129,5.2400917E-4;130,4.3826218E-4;131,2.648628E-4;132,2.7820122E-4;133,4.554116E-4;134,5.849848E-4;135,6.573933E-4;136,2.5342987E-4;137,1.0099085E-4;138,1.7911586E-4;139,9.717988E-5;140,0.0;",
 		"silktouch": false,
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:mushrooms_food:26",
@@ -2773,7 +2773,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:grass_s:0",
@@ -2790,7 +2790,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:mushrooms_food:24",
@@ -2807,7 +2807,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:grass_s:1",
@@ -2824,7 +2824,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:mushrooms_food:21",
@@ -2841,7 +2841,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:t_tree_trunk:0",
@@ -2867,7 +2867,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:grass_s:2",
@@ -2884,7 +2884,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:grass_s:4",
@@ -2901,7 +2901,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "rustic:beehive:0",
@@ -2927,19 +2927,19 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:dirt_s:6",
 		"distrib": "0,0.0;124,0.0;125,4.192073E-5;126,3.6204267E-5;127,6.2881096E-5;128,9.527439E-6;129,1.1432927E-5;130,7.621951E-6;131,3.8109756E-6;132,3.8109756E-6;133,1.9054878E-6;134,1.9054878E-6;135,0.0;",
 		"silktouch": false,
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:dirt_s:5",
 		"distrib": "0,0.0;121,0.0;122,1.3338415E-5;123,7.8125E-5;124,0.0073094512;125,0.0072446647;126,0.016650153;127,0.0032755334;128,0.0013300305;129,0.0012004573;130,0.0010232469;131,5.2782014E-4;132,4.5160062E-4;133,2.7629573E-4;134,5.945122E-4;135,5.087652E-4;136,0.0;",
 		"silktouch": false,
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:mushrooms_food:18",
@@ -2956,13 +2956,13 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:dirt_s:4",
 		"distrib": "0,0.0;118,0.0;119,3.8109756E-6;120,4.3826218E-4;121,0.0043959604;122,0.009317836;123,0.012734375;124,0.014455031;125,0.016484374;126,0.005554497;127,0.0039272103;128,0.0020255335;129,0.0011966464;130,6.0403964E-4;131,4.535061E-4;132,2.991616E-4;133,5.773628E-4;134,4.2873475E-4;135,3.8109756E-5;136,9.527439E-6;137,0.0;",
 		"silktouch": false,
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:acacia_trunk:0",
@@ -2979,7 +2979,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:mushrooms_food:19",
@@ -2996,7 +2996,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:mushrooms_food:16",
@@ -3013,7 +3013,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "minecraft:double_plant:2",
@@ -3030,13 +3030,13 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:dirt_s:2",
 		"distrib": "0,0.0;124,0.0;125,1.9054878E-6;126,1.3338415E-5;127,2.2865854E-5;128,0.0;129,5.7164634E-6;130,1.9054878E-6;131,5.7164634E-6;132,1.9054878E-6;133,0.0;134,0.0;135,1.9054878E-6;136,1.9054878E-6;137,3.8109756E-6;138,1.9054878E-6;139,0.0;",
 		"silktouch": false,
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:mushrooms_food:17",
@@ -3053,19 +3053,19 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:pine_leaves:0",
 		"distrib": "0,0.0;128,0.0;129,1.1432927E-5;130,2.0960366E-5;131,2.2865854E-5;132,8.955793E-5;133,2.2484756E-4;134,4.0205792E-4;135,5.754573E-4;136,8.003049E-4;137,9.527439E-4;138,0.0011604421;139,0.0013700457;140,0.0015605945;141,0.0015110518;142,0.0017035061;143,0.001636814;144,0.0;",
 		"silktouch": true,
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:aspen_leaves:0",
 		"distrib": "0,0.0;126,0.0;127,1.1432927E-5;128,2.2294208E-4;129,5.316311E-4;130,8.59375E-4;131,0.0011356707;132,0.0013033537;133,0.0014424543;134,0.0015129573;135,0.0014729421;136,0.0014386433;137,0.0013852896;138,0.0014919969;139,0.001324314;140,0.0011185213;141,8.3650916E-4;142,5.621189E-4;143,3.601372E-4;144,0.0;",
 		"silktouch": true,
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:remains:0",
@@ -3082,7 +3082,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:stone_porous:0",
@@ -3108,19 +3108,19 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:t_tree_block:0",
 		"distrib": "0,0.0;131,0.0;132,5.7164634E-6;133,0.0;",
 		"silktouch": false,
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:spruce_block:0",
 		"distrib": "0,0.0;126,0.0;127,7.621951E-6;128,7.621951E-6;129,0.0;131,0.0;132,9.527439E-6;133,0.0;",
 		"silktouch": false,
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:mycelium:0:{BlockEntityTag:{Mushroom:{id:\"mist:mushrooms_1\",Damage:0s}}}",
@@ -3137,7 +3137,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:mycelium:8:{BlockEntityTag:{Mushroom:{id:\"mist:mushrooms_1\",Damage:1s}}}",
@@ -3154,7 +3154,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:mycelium:2:{BlockEntityTag:{Mushroom:{id:\"mist:mushrooms_1\",Damage:8s}}}",
@@ -3171,25 +3171,25 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:dirt_r:2",
 		"distrib": "0,0.0;123,0.0;124,3.8109756E-6;125,5.907012E-5;126,3.239329E-5;127,4.3826218E-5;128,9.527439E-6;129,1.1432927E-5;130,1.5243902E-5;131,1.1432927E-5;132,4.3826218E-5;133,7.621951E-6;134,7.621951E-6;135,1.3338415E-5;136,1.5243902E-5;137,2.2865854E-5;138,7.621951E-6;139,0.0;",
 		"silktouch": false,
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:dirt_r:1",
 		"distrib": "0,0.0;116,0.0;117,9.527439E-6;118,6.2881096E-5;119,1.238567E-4;120,4.3064024E-4;121,0.0013452744;122,0.0039710365;123,0.012980183;124,0.02251715;125,0.021726372;126,0.020285822;127,0.009466464;128,0.0034870426;129,0.0055926065;130,0.0075342986;131,0.007299924;132,0.0030259145;133,0.002663872;134,0.0037614328;135,0.004110137;136,0.0026467226;137,6.345274E-4;138,0.0;",
 		"silktouch": false,
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:dirt_r:0",
 		"distrib": "0,0.0;121,0.0;122,5.7164634E-6;123,1.0670732E-4;124,4.0967987E-4;125,2.8391767E-4;126,2.6105184E-4;127,8.0030484E-5;128,8.955793E-5;129,1.3147866E-4;130,1.2766768E-4;131,2.5914633E-4;132,6.478658E-5;133,6.097561E-5;134,8.955793E-5;135,1.0670732E-4;136,1.2957316E-4;137,3.429878E-5;138,0.0;",
 		"silktouch": false,
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:grass_r:0",
@@ -3206,7 +3206,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:grass_r:1",
@@ -3223,7 +3223,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:grass_r:2",
@@ -3240,7 +3240,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "rustic:core_root:0",
@@ -3257,7 +3257,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:rocks:0",
@@ -3274,7 +3274,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:mycelium:6:{BlockEntityTag:{Mushroom:{id:\"mist:mushrooms_1\",Damage:10s}}}",
@@ -3291,13 +3291,13 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:acacia_leaves:0",
 		"distrib": "0,0.0;130,0.0;131,1.9054878E-5;132,8.0030484E-5;133,3.429878E-4;134,4.2492378E-4;135,6.0403964E-4;136,6.6310976E-4;137,9.108232E-4;138,7.679116E-4;139,7.660061E-4;140,7.4123475E-4;141,7.602896E-4;142,5.106707E-4;143,4.4016767E-4;144,0.0;",
 		"silktouch": true,
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:acacia_branch:6",
@@ -3314,25 +3314,25 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:acid_dirt_2:0",
 		"distrib": "0,0.0;26,0.0;27,5.449695E-4;28,0.0021722561;29,0.009449314;30,0.018252667;31,0.025956554;32,5.5259145E-5;33,1.3528964E-4;34,2.2865854E-4;35,6.1356707E-4;36,6.6310976E-4;37,5.773628E-4;38,1.8292683E-4;39,7.050305E-5;40,4.192073E-5;41,1.2766768E-4;42,1.2576219E-4;43,1.3338415E-4;44,1.5243902E-4;45,2.667683E-5;46,1.5243902E-5;47,9.527439E-6;48,1.9054878E-6;49,0.0;",
 		"silktouch": false,
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:poplar_leaves:0",
 		"distrib": "0,0.0;128,0.0;129,1.6387196E-4;130,4.4778964E-4;131,8.479421E-4;132,9.4893295E-4;133,9.527439E-4;134,9.946646E-4;135,9.965701E-4;136,9.698933E-4;137,9.984756E-4;138,9.051067E-4;139,9.1653963E-4;140,0.0010099085;141,9.927591E-4;142,0.0010689787;143,0.0010060975;144,0.0;",
 		"silktouch": true,
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:clay:5",
 		"distrib": "0,0.0;125,0.0;126,2.3818598E-4;127,0.0;",
 		"silktouch": false,
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:clay:2",
@@ -3375,7 +3375,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:acid_grass_0:0",
@@ -3392,13 +3392,13 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:clay:3",
 		"distrib": "0,0.0;122,0.0;123,3.239329E-5;124,2.3818598E-4;125,2.8772865E-4;126,1.9054878E-5;127,0.0;",
 		"silktouch": false,
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "botania:mushroom:11",
@@ -3415,7 +3415,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "botania:mushroom:12",
@@ -3432,7 +3432,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "botania:mushroom:13",
@@ -3449,7 +3449,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "botania:mushroom:14",
@@ -3466,7 +3466,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "botania:mushroom:10",
@@ -3483,7 +3483,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "botania:mushroom:15",
@@ -3500,7 +3500,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "rustic:chamomile:0",
@@ -3517,13 +3517,13 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "minecraft:ice:0",
 		"distrib": "0,0.0;123,0.0;124,2.7057927E-4;125,5.7164634E-6;126,0.0;",
 		"silktouch": true,
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:gravel:0",
@@ -3563,7 +3563,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "rustic:aloe_vera:0",
@@ -3580,7 +3580,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "rustic:horsetail:0",
@@ -3597,7 +3597,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:snow_trunk:0",
@@ -3623,7 +3623,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:mycelium:2:{BlockEntityTag:{Mushroom:{id:\"mist:mushrooms_1\",Damage:3s}}}",
@@ -3640,7 +3640,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:mycelium:5:{BlockEntityTag:{Mushroom:{id:\"mist:mushrooms_0\",Damage:12s}}}",
@@ -3657,13 +3657,13 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:acid_dirt_1:0",
 		"distrib": "0,0.0;26,0.0;27,7.621951E-6;28,2.4771341E-5;29,1.4672257E-4;30,5.735518E-4;31,0.0018178354;32,3.8109756E-6;33,1.714939E-5;34,8.193598E-5;35,2.667683E-4;36,7.336128E-4;37,0.0010251524;38,9.6227136E-4;39,6.1547256E-4;40,7.793445E-4;41,0.0010327743;42,4.3254573E-4;43,2.2484756E-4;44,2.6105184E-4;45,2.667683E-4;46,2.0769818E-4;47,1.5815548E-4;48,0.0;",
 		"silktouch": false,
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:acid_grass_1:0",
@@ -3680,7 +3680,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "rustic:ginseng:0",
@@ -3697,61 +3697,61 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:dirt_c:0",
 		"distrib": "0,0.0;116,0.0;117,1.5243902E-5;118,0.0014939024;119,0.006505335;120,0.013706174;121,0.014094893;122,0.02712462;123,0.042631477;124,0.05394817;125,0.031067073;126,0.006627287;127,0.003925305;128,0.0010785061;129,8.841463E-4;130,7.4314023E-4;131,7.1265246E-4;132,9.546494E-4;133,9.1272866E-4;134,4.954268E-4;135,9.717988E-5;136,5.7164634E-5;137,2.0769818E-4;138,1.4481707E-4;139,0.0;",
 		"silktouch": false,
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:dirt_c:1",
 		"distrib": "0,0.0;120,0.0;121,9.1463415E-5;122,0.0012976372;123,0.004113948;124,0.016823553;125,0.03681593;126,0.02904535;127,0.0048304116;128,4.3826218E-4;129,0.0012938263;130,0.001015625;131,3.1440548E-4;132,3.4489328E-4;133,6.230945E-4;134,5.46875E-4;135,9.679878E-4;136,3.8109756E-6;137,1.9054878E-6;138,1.1432927E-5;139,0.0;",
 		"silktouch": false,
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:oak_leaves:0",
 		"distrib": "0,0.0;126,0.0;127,2.2865854E-5;128,0.0;129,1.2576219E-4;130,6.192835E-4;131,8.689024E-4;132,0.0012747713;133,0.0018254573;134,0.0022103658;135,0.0028963415;136,0.0033936738;137,0.0037557164;138,0.004039634;139,0.004293064;140,0.004102515;141,0.003972942;142,0.003828125;143,0.0036528201;144,0.0;",
 		"silktouch": true,
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:birch_block:0",
 		"distrib": "0,0.0;131,0.0;132,5.7164634E-6;133,0.0;",
 		"silktouch": false,
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:t_tree_leaves:0",
 		"distrib": "0,0.0;129,0.0;130,7.621951E-6;131,2.1150915E-4;132,8.460366E-4;133,0.0012671493;134,0.0021894055;135,0.0025705032;136,0.0034032012;137,0.0038300306;138,0.0035727897;139,0.0034851371;140,0.0031459604;141,0.00296875;142,0.002265625;143,0.0018902438;144,0.0;",
 		"silktouch": true,
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:dirt_t:0",
 		"distrib": "0,0.0;116,0.0;117,2.0960366E-5;118,6.478658E-5;119,1.16234754E-4;120,2.0579268E-4;121,8.003049E-4;122,0.0032469511;123,0.008588034;124,0.010809832;125,0.012238949;126,0.008342226;127,0.006280488;128,0.0038147867;129,0.003843369;130,0.0023266007;131,0.0014729421;132,6.7835365E-4;133,3.8300306E-4;134,4.4588416E-4;135,7.050305E-5;136,1.9054878E-6;137,0.0;",
 		"silktouch": false,
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:birch_leaves:0",
 		"distrib": "0,0.0;128,0.0;129,5.7164634E-6;130,5.335366E-5;131,1.7721037E-4;132,2.9344513E-4;133,3.734756E-4;134,4.6493902E-4;135,5.773628E-4;136,6.99314E-4;137,7.85061E-4;138,8.612805E-4;139,9.3940547E-4;140,9.717988E-4;141,8.936738E-4;142,8.326982E-4;143,7.583841E-4;144,0.0;",
 		"silktouch": true,
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:dirt_t:2",
 		"distrib": "0,0.0;123,0.0;124,1.1432927E-5;125,5.144817E-5;126,8.0030484E-5;127,8.574695E-5;128,2.2865854E-5;129,1.9054878E-5;130,3.429878E-5;131,3.429878E-5;132,9.527439E-6;133,1.1432927E-5;134,3.8109756E-6;135,1.9054878E-6;136,5.7164634E-6;137,0.0;",
 		"silktouch": false,
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:dirt_t:1",
 		"distrib": "0,0.0;120,0.0;121,2.4771341E-5;122,2.8582317E-5;123,2.820122E-4;124,0.0047237044;125,0.007976372;126,0.009127286;127,0.0047351373;128,0.0024790396;129,0.0026238568;130,0.003277439;131,0.0012176067;132,0.001183308;133,4.535061E-4;134,3.4679877E-4;135,6.0403964E-4;136,4.7637193E-5;137,0.0;",
 		"silktouch": false,
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:aspen_trunk:0",
@@ -3777,7 +3777,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:sulfur_ore:0",
@@ -3794,7 +3794,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:mycelium:2:{BlockEntityTag:{Mushroom:{id:\"mist:mushrooms_0\",Damage:9s}}}",
@@ -3811,7 +3811,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:spruce_branch:0",
@@ -3828,7 +3828,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:mycelium:0:{BlockEntityTag:{Mushroom:{id:\"mist:mushrooms_0\",Damage:3s}}}",
@@ -3845,13 +3845,13 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:stone_basic:0",
 		"distrib": "0,0.0;1,0.20029534;2,0.4001067;3,0.60008;4,0.79929876;5,0.99992186;6,0.99998665;7,1.0;26,1.0;27,0.66662157;28,0.3337157;29,0.0;",
 		"silktouch": false,
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:birch_trunk:0",
@@ -3877,7 +3877,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:oak_trunk:0",
@@ -3903,7 +3903,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:mycelium:6:{BlockEntityTag:{Mushroom:{id:\"mist:mushrooms_1\",Damage:0s}}}",
@@ -3920,7 +3920,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:poplar_trunk:0",
@@ -3937,7 +3937,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:sapropel:2",
@@ -3972,19 +3972,19 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:gold_ore:0",
 		"distrib": "0,0.0;26,0.0;27,4.5160062E-4;28,8.8986283E-4;29,0.0014634146;30,0.0011852134;31,0.0010746951;32,0.0010289634;33,9.0129575E-4;34,9.0129575E-4;35,8.5175305E-4;36,8.288872E-4;37,8.708079E-4;38,8.0411584E-4;39,8.4984757E-4;40,7.240854E-4;41,6.95503E-4;42,6.592988E-4;43,7.221799E-4;44,8.079268E-4;45,9.4702747E-4;46,6.554878E-4;47,6.612043E-4;48,7.2599086E-4;49,6.707317E-4;50,8.4984757E-4;51,7.469512E-4;52,5.735518E-4;53,5.811738E-4;54,6.383384E-4;55,6.059451E-4;56,5.945122E-4;57,5.754573E-4;58,4.6303353E-4;59,4.8971036E-4;60,5.945122E-4;61,5.754573E-4;62,4.6493902E-4;63,5.087652E-4;64,5.373476E-4;65,6.097561E-4;66,5.602134E-4;67,5.4115854E-4;68,5.5449695E-4;69,5.2400917E-4;70,4.039634E-4;71,4.363567E-4;72,5.5259146E-4;73,5.335366E-4;74,5.583079E-4;75,5.0685974E-4;76,3.5251526E-4;77,3.7919206E-4;78,3.3536585E-4;79,3.5060974E-4;80,3.6394817E-4;81,2.5914633E-4;82,2.686738E-4;83,3.6394817E-4;84,3.3727134E-4;85,1.3147866E-4;86,2.1341463E-4;87,2.1150915E-4;88,1.7721037E-4;89,2.019817E-4;90,2.1150915E-4;91,2.2484756E-4;92,2.2294208E-4;93,1.5243902E-4;94,2.1913109E-4;95,1.9626525E-4;96,1.6006097E-4;97,8.574695E-5;98,1.0670732E-4;99,1.4862805E-4;100,1.410061E-4;101,1.238567E-4;102,5.144817E-5;103,1.3338415E-5;104,5.7164634E-5;105,8.384146E-5;106,6.478658E-5;107,4.192073E-5;108,2.0960366E-5;109,1.9054878E-6;110,0.0;",
 		"silktouch": false,
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:snow_leaves:0",
 		"distrib": "0,0.0;140,0.0;141,9.527439E-6;142,3.8109756E-6;143,1.3338415E-5;144,0.0;",
 		"silktouch": true,
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:mycelium:8:{BlockEntityTag:{Mushroom:{id:\"mist:mushrooms_0\",Damage:7s}}}",
@@ -4001,7 +4001,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "minecraft:tallgrass:2",
@@ -4045,7 +4045,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "minecraft:tallgrass:1",
@@ -4089,7 +4089,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:grass_f:2",
@@ -4106,31 +4106,31 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:acid_sand:0",
 		"distrib": "0,0.0;26,0.0;27,1.8864329E-4;28,4.973323E-4;29,0.0030106707;30,0.005539253;31,0.008370808;32,2.8582317E-5;33,2.667683E-5;34,7.8125E-5;35,1.3338415E-4;36,1.5815548E-4;37,6.097561E-5;38,3.6204267E-5;39,2.0960366E-5;40,3.239329E-5;41,8.193598E-5;42,7.240853E-5;43,6.478658E-5;44,2.667683E-5;45,1.1432927E-5;46,0.0;",
 		"silktouch": false,
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "rustic:log:0",
 		"distrib": "0,0.0;124,0.0;125,1.9054878E-6;126,5.7164634E-6;127,7.621951E-6;128,5.7164634E-6;129,7.621951E-6;130,3.8109756E-6;132,3.8109756E-6;133,1.9054878E-6;135,1.9054878E-6;136,3.8109756E-6;139,3.8109756E-6;140,1.9054878E-6;141,0.0;",
 		"silktouch": false,
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "rustic:log:1",
 		"distrib": "0,0.0;125,0.0;126,1.9054878E-6;127,5.7164634E-6;128,5.7164634E-6;129,7.621951E-6;131,7.621951E-6;132,9.527439E-6;133,9.527439E-6;134,7.621951E-6;136,7.621951E-6;137,3.8109756E-6;139,3.8109756E-6;140,1.9054878E-6;141,1.9054878E-6;142,0.0;",
 		"silktouch": false,
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:iron_ore:0",
 		"distrib": "0,0.0;107,0.0;108,5.640244E-4;109,9.0320123E-4;110,0.001183308;111,0.0010270579;112,0.0010575458;113,0.0011490091;114,0.0012099848;115,0.0011375762;116,0.0010861281;117,0.0011585365;118,0.001156631;119,0.0012252287;120,0.0011394817;121,0.0011909299;122,9.070122E-4;123,7.945884E-4;124,5.811738E-4;125,4.8208842E-4;126,5.011433E-4;127,3.2012194E-4;128,1.4862805E-4;129,8.384146E-5;130,6.2881096E-5;131,5.7164634E-5;132,5.7164634E-5;133,1.5243902E-5;134,0.0;135,7.621951E-6;136,9.527439E-6;137,7.621951E-6;138,0.0;",
 		"silktouch": false,
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:grass_f:0",
@@ -4147,7 +4147,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:grass_f:1",
@@ -4164,7 +4164,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:sand:0",
@@ -4181,7 +4181,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:floating_mat:0",
@@ -4207,7 +4207,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "rustic:leaves:1",
@@ -4233,19 +4233,19 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:dirt_f:1",
 		"distrib": "0,0.0;119,0.0;120,4.9542683E-5;121,5.811738E-4;122,0.0012118903;123,0.0018483232;124,0.0057641007;125,0.010316311;126,0.013578506;127,0.002191311;128,0.0015948933;129,0.0029839939;130,0.003999619;131,0.002953506;132,0.0025228658;133,0.0027648627;134,0.0024314024;135,0.0025342987;136,7.8887196E-4;137,3.7919206E-4;138,7.7743904E-4;139,0.0017454268;140,8.955793E-5;141,0.0;",
 		"silktouch": false,
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:dirt_f:2",
 		"distrib": "0,0.0;123,0.0;124,1.9054878E-6;125,5.5259145E-5;126,1.2957316E-4;127,1.7911586E-4;128,1.5243902E-5;129,2.2865854E-5;130,6.2881096E-5;131,8.574695E-5;132,3.6204267E-5;133,4.5731707E-5;134,3.8109756E-5;135,4.3826218E-5;136,6.097561E-5;137,9.527439E-6;138,1.9054878E-6;139,1.3338415E-5;140,4.3826218E-5;141,0.0;",
 		"silktouch": false,
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "rustic:leaves:0",
@@ -4271,13 +4271,13 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:dirt_f:0",
 		"distrib": "0,0.0;117,0.0;118,4.192073E-5;119,6.116616E-4;120,0.001101372;121,0.0017644817;122,0.005546875;123,0.011051829;124,0.015398247;125,0.012277058;126,0.0038624238;127,0.004609375;128,0.0042778202;129,0.0053887195;130,0.004858994;131,0.0041006096;132,0.0041272864;133,0.0032888718;134,0.0023246952;135,0.0012176067;136,9.965701E-4;137,0.0012576219;138,0.0014081555;139,2.5533536E-4;140,5.7164634E-6;141,0.0;",
 		"silktouch": false,
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "minecraft:web:0",
@@ -4294,7 +4294,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:mycelium:0:{BlockEntityTag:{Mushroom:{id:\"mist:mushrooms_0\",Damage:10s}}}",
@@ -4311,7 +4311,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:sand:3",
@@ -4328,7 +4328,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:sand:1",
@@ -4345,7 +4345,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "rustic:cohosh:0",
@@ -4362,7 +4362,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:sand:2",
@@ -4379,13 +4379,13 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:willow_leaves:0",
 		"distrib": "0,0.0;125,0.0;126,3.6204267E-5;127,2.2294208E-4;128,2.3628048E-4;129,5.964177E-4;130,9.813262E-4;131,0.0013128811;132,0.0015129573;133,0.0015987043;134,0.0014653201;135,0.0013205031;136,0.0010175304;137,7.374238E-4;138,4.5160062E-4;139,2.2294208E-4;140,7.621951E-5;141,1.3338415E-5;142,0.0;",
 		"silktouch": true,
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "mist:stone:0",
@@ -4411,7 +4411,7 @@
 				}
 			}
 		],
-		"dim": "Dim 5: misty_world"
+		"dim": "Dim 5: Misty World"
 	},
 	{
 		"block": "rats:marbled_cheese:0",
