@@ -22,10 +22,113 @@
           "weight": 5,
           "quality": 0,
           "type": "item",
-          "name": "rustic:mooncap_mushroom"
+          "functions": [
+            {
+              "data": 8.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "cuisine:crops"
         },
         {
           "entryName": "loottweaker#19",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{Potion:\"minecraft:fire_resistance\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:splash_potion"
+        },
+        {
+          "entryName": "loottweaker#5",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "rustic:aloe_vera"
+        },
+        {
+          "entryName": "loottweaker#13",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:nether_wart"
+        },
+        {
+          "entryName": "loottweaker#4",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "rustic:chamomile"
+        },
+        {
+          "entryName": "loottweaker#14",
+          "weight": 6,
+          "quality": 0,
+          "type": "item",
+          "name": "embers:breaker"
+        },
+        {
+          "entryName": "loottweaker#3",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "rustic:oliveseed"
+        },
+        {
+          "entryName": "loottweaker#15",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "rustic:ginseng"
+        },
+        {
+          "entryName": "loottweaker#2",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "rustic:cohosh"
+        },
+        {
+          "entryName": "loottweaker#16",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "rustic:core_root"
+        },
+        {
+          "entryName": "loottweaker#9",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "rustic:mooncap_mushroom"
+        },
+        {
+          "entryName": "loottweaker#20",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "rustic:horsetail"
+        },
+        {
+          "entryName": "loottweaker#8",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "rustic:wind_thistle"
+        },
+        {
+          "entryName": "loottweaker#10",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "contenttweaker:token_reforge"
+        },
+        {
+          "entryName": "loottweaker#21",
           "weight": 10,
           "quality": 1,
           "type": "item",
@@ -48,7 +151,14 @@
           "name": "botania:biomestonea"
         },
         {
-          "entryName": "loottweaker#5",
+          "entryName": "loottweaker#7",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "name": "rustic:blood_orchid"
+        },
+        {
+          "entryName": "loottweaker#11",
           "weight": 5,
           "quality": 0,
           "type": "item",
@@ -61,70 +171,8 @@
           "name": "cuisine:crops"
         },
         {
-          "entryName": "loottweaker#13",
-          "weight": 5,
-          "quality": 0,
-          "type": "item",
-          "name": "rustic:chamomile"
-        },
-        {
-          "entryName": "loottweaker#4",
-          "weight": 5,
-          "quality": 0,
-          "type": "item",
-          "name": "rustic:core_root"
-        },
-        {
-          "entryName": "loottweaker#14",
-          "weight": 5,
-          "quality": 0,
-          "type": "item",
-          "name": "minecraft:nether_wart"
-        },
-        {
-          "entryName": "loottweaker#3",
-          "weight": 5,
-          "quality": 0,
-          "type": "item",
-          "name": "rustic:oliveseed"
-        },
-        {
-          "entryName": "loottweaker#15",
-          "weight": 5,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "data": 8.0,
-              "function": "minecraft:set_data"
-            }
-          ],
-          "name": "cuisine:crops"
-        },
-        {
-          "entryName": "loottweaker#2",
-          "weight": 5,
-          "quality": 0,
-          "type": "item",
-          "name": "rustic:cohosh"
-        },
-        {
-          "entryName": "loottweaker#16",
-          "weight": 5,
-          "quality": 0,
-          "type": "item",
-          "name": "rustic:horsetail"
-        },
-        {
-          "entryName": "loottweaker#9",
-          "weight": 3,
-          "quality": 0,
-          "type": "item",
-          "name": "rustic:blood_orchid"
-        },
-        {
-          "entryName": "loottweaker#20",
-          "weight": 20,
+          "entryName": "loottweaker#22",
+          "weight": 15,
           "quality": 1,
           "type": "item",
           "functions": [
@@ -139,27 +187,21 @@
           "name": "minecraft:cobblestone"
         },
         {
-          "entryName": "loottweaker#8",
+          "entryName": "loottweaker#6",
           "weight": 5,
           "quality": 0,
           "type": "item",
           "name": "rustic:marsh_mallow"
         },
         {
-          "entryName": "loottweaker#10",
-          "weight": 15,
+          "entryName": "loottweaker#12",
+          "weight": 5,
           "quality": 0,
           "type": "item",
-          "functions": [
-            {
-              "tag": "{Potion:\"minecraft:fire_resistance\"}",
-              "function": "minecraft:set_nbt"
-            }
-          ],
-          "name": "minecraft:splash_potion"
+          "name": "rustic:cloudsbluff"
         },
         {
-          "entryName": "loottweaker#21",
+          "entryName": "loottweaker#23",
           "weight": 4,
           "quality": 1,
           "type": "item",
@@ -173,39 +215,11 @@
             }
           ],
           "name": "minecraft:coal"
-        },
-        {
-          "entryName": "loottweaker#7",
-          "weight": 5,
-          "quality": 0,
-          "type": "item",
-          "name": "rustic:wind_thistle"
-        },
-        {
-          "entryName": "loottweaker#11",
-          "weight": 5,
-          "quality": 0,
-          "type": "item",
-          "name": "rustic:ginseng"
-        },
-        {
-          "entryName": "loottweaker#6",
-          "weight": 5,
-          "quality": 0,
-          "type": "item",
-          "name": "rustic:cloudsbluff"
-        },
-        {
-          "entryName": "loottweaker#12",
-          "weight": 5,
-          "quality": 0,
-          "type": "item",
-          "name": "rustic:aloe_vera"
         }
       ],
       "rolls": {
-        "min": 1.0,
-        "max": 3.0
+        "min": 2.0,
+        "max": 7.0
       },
       "bonus_rolls": 1.0
     },
@@ -293,6 +307,29 @@
           "name": "similsaxtranstructors:similsaxtranstructoradvanced"
         },
         {
+          "entryName": "loottweaker#8",
+          "weight": 6,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "contenttweaker:token_reforge"
+        },
+        {
+          "entryName": "loottweaker#7",
+          "weight": 5,
+          "quality": 1,
+          "type": "item",
+          "name": "embers:breaker"
+        },
+        {
           "entryName": "loottweaker#6",
           "weight": 6,
           "quality": 1,
@@ -317,20 +354,13 @@
         }
       ],
       "rolls": {
-        "min": 0.0,
+        "min": 1.0,
         "max": 2.0
       }
     },
     {
       "name": "main",
       "entries": [
-        {
-          "entryName": "minecraft:diamond_horse_armor",
-          "weight": 3,
-          "quality": 0,
-          "type": "item",
-          "name": "minecraft:diamond_horse_armor"
-        },
         {
           "entryName": "minecraft:diamond",
           "weight": 5,
@@ -346,13 +376,6 @@
             }
           ],
           "name": "minecraft:diamond"
-        },
-        {
-          "entryName": "minecraft:golden_horse_armor",
-          "weight": 8,
-          "quality": 0,
-          "type": "item",
-          "name": "minecraft:golden_horse_armor"
         },
         {
           "entryName": "minecraft:flint_and_steel",
@@ -401,13 +424,6 @@
           "name": "minecraft:golden_sword"
         },
         {
-          "entryName": "minecraft:iron_horse_armor",
-          "weight": 5,
-          "quality": 0,
-          "type": "item",
-          "name": "minecraft:iron_horse_armor"
-        },
-        {
           "entryName": "minecraft:iron_ingot",
           "weight": 5,
           "quality": 0,
@@ -445,13 +461,6 @@
             }
           ],
           "name": "quark:rune"
-        },
-        {
-          "entryName": "minecraft:saddle",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "name": "minecraft:saddle"
         },
         {
           "entryName": "minecraft:obsidian",

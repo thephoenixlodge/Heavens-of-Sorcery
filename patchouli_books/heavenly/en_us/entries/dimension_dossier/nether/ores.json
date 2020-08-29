@@ -1,0 +1,24 @@
+{
+    "name": "Nether Ores",
+    "icon": "minecraft:quartz",
+    "category": "dimension_dossier/nether",
+    "advancement": "heavens:bookchap1/18stone",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Detailed here are the ores found within the $(thing)Nether$(), including whether they're affected by Fortune or Silk Touch."
+        },
+        {
+            "type": "spotlight",
+            "title": "Nether Quartz",
+            "item": "minecraft:quartz",
+            "text": "A white crystalline material. Often used in mechanical devices alongside $(item)Redstone$(). Found embedded in $(item)Netherrack$().$(br2)Silk Touch: True$(br2)Fortune: True"
+        },
+        {
+            "type": "spotlight",
+            "title": "Amethyst",
+            "item": "arcaneworld:amethyst",
+            "text": "An uncommon purple gemstone embodying chaos. Found embedded in $(item)Netherrack$().$(br2)Silk Touch: True$(br2)Fortune: True"
+        }
+    ]
+}

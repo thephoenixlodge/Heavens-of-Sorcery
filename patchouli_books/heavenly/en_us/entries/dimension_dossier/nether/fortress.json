@@ -1,0 +1,84 @@
+{
+    "name": "Nether Fortresses",
+    "icon": "minecraft:nether_brick",
+    "category": "dimension_dossier/nether",
+    "advancement": "heavens:bookchap1/18stone",
+    "sortnum": 1,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Within the $(thing)Nether$(), lie old ruined Fortresses of lost civilizations. These towering structures are primarily built of $(item)Nether Brick$() and are home to $(thing)Blazes$() and $(thing)Skeletons$(), including the elusive, yet dangerous $(thing)Wither Skeletons$()."
+        },
+        {
+            "type": "image",
+            "images": [
+                    "books:templates/nether_fortress.png",
+                    "books:templates/nether_fortress_1.png"
+                ],
+            "title": "Nether Fortresses",
+            "border": "true"
+        },
+        {
+            "type": "loot",
+            "lootpool": "Common",
+            "item1": "arcaneworld:amethyst",
+            "item2": "minecraft:ender_pearl",
+            "item3": "cuisine:crops:8",
+            "item4": "minecraft:splash_potion{Potion:\"minecraft:fire_resistance\"}",
+            "item5": "rustic:aloe_vera",
+            "item6": "minecraft:nether_wart",
+            "item7": "rustic:chamomile",
+            "item8": "embers:breaker",
+            "item9": "rustic:oliveseed",
+            "item10": "rustic:ginseng",
+            "item11": "rustic:cohosh",
+            "item12": "rustic:core_root",
+            "item13": "rustic:mooncap_mushroom",
+            "item14": "rustic:horsetail",
+            "item15": "rustic:wind_thistle",
+            "item16": "contenttweaker:token_reforge",
+            "item17": "rustic:blood_orchid",
+            "item18": "cuisine:crops:1",
+            "item19": "rustic:marsh_mallow",
+            "item20": "rustic:cloudsbluff"
+        },
+        {
+            "type": "loot",
+            "lootpool": "Common",
+            "item1": "minecraft:coal",
+            "item2": "minecraft:cobblestone",
+            "item3": "botania:biomestonea:8",
+            "item4": "botania:biomestonea:9",
+            "item5": "botania:biomestonea:10",
+            "item6": "botania:biomestonea:11",
+            "item7": "botania:biomestonea:12",
+            "item8": "botania:biomestonea:13",
+            "item9": "botania:biomestonea:14",
+            "item10": "botania:biomestonea:15"
+        },
+        {
+            "type": "loot",
+            "lootpool": "Rare",
+            "item1": "chisel:chisel_hitech",
+            "item2": "minecraft:obsidian",
+            "item3": "superiorshields:vanilla_shield_wood",
+            "item4": "superiorshields:vanilla_shield_stone",
+            "item5": "similsaxtranstructors:similsaxtranstructoradvanced",
+            "item6": "contenttweaker:token_reforge",
+            "item7": "embers:breaker",
+            "item8": "minecraft:diamond",
+            "item9": "minecraft:flint_and_steel",
+            "item10": "minecraft:nether_wart",
+            "item11": "minecraft:gold_ingot",
+            "item12": "minecraft:golden_sword",
+            "item13": "minecraft:iron_ingot",
+            "item14": "minecraft:golden_chestplate",
+            "item15": "quark:rune",
+            "item16": "minecraft:obsidian",
+            "item17": "metalchests:chest_upgrade:0",
+            "item18": "metalchests:chest_upgrade:5",
+            "item19": "metalchests:chest_upgrade:9",
+            "item20": "metalchests:chest_upgrade:12"
+        }
+    ]
+}

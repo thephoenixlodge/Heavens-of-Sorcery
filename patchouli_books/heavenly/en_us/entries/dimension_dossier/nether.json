@@ -13,6 +13,72 @@
             "type": "location",
             "icon": "books:templates/nether_preview.png",
             "heading": "The Nether"
+        },
+        {
+            "type": "multiblock",
+            "name": "Portal Setup",
+            "text": "Activate by lighting a fire.",
+            "multiblock": {
+                "pattern": [
+                    [ " ", "O", "O", " " ],
+                    [ "O", "P", "P", "O" ],
+                    [ "O", "P", "P", "O" ],
+                    [ "O", "P", "P", "O" ],
+                    [ " ", "O", "0", " " ],
+                    [ " ", " ", " ", " " ]
+                ],
+                "mapping": {
+                    " ": "ANY",
+                    "0": "minecraft:obsidian",
+                    "O": "minecraft:obsidian",
+                    "P": "AIR"
+                },
+                "symmetrical": false,
+                "offset"     : [0, 0, 0],
+                "view_offset": [0, 0, 0]
+            }
+        },
+        {
+            "type": "chisel",
+            "heading": "Valid Blocks for Portal",
+            "item1": "minecraft:obsidian",
+            "item2": "chisel:obsidian:0",
+            "item3": "chisel:obsidian:1",
+            "item4": "chisel:obsidian:2",
+            "item5": "chisel:obsidian:3",
+            "item6": "chisel:obsidian:4",
+            "item7": "chisel:obsidian:5",
+            "item8": "chisel:obsidian:6",
+            "item9": "chisel:obsidian:7",
+            "item10": "chisel:obsidian:8",
+            "item11": "chisel:obsidian:9",
+            "item12": "chisel:obsidian:10",
+            "item13": "chisel:obsidian:11",
+            "item14": "chisel:obsidian:12",
+            "item15": "chisel:obsidian:13",
+            "item16": "chisel:obsidian:14",
+            "description": "Portal Frame can be various sizes (Frame size shown is the smallest allowed)."
+        },
+        {
+            "type": "relations",
+            "title": "Notable Structures",
+            "entries": [
+                "dimension_dossier/nether/fortress"
+            ]
+        },
+        {
+            "type": "relations",
+            "title": "Key Materials",
+            "entries": [
+                "dimension_dossier/nether/ores"
+            ]
+        },
+        {
+            "type": "relations",
+            "title": "Creatures",
+            "entries": [
+                
+            ]
         }
     ]
 }
