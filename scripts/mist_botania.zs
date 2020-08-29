@@ -22,21 +22,38 @@ var oreMistyWoods = <ore:mistyWood>;
 var oreMistyPlanks = <ore:mistyPlanks>;
 var oreLog = <ore:logWood>;
 var orePlanks = <ore:plankWood>;
-var mistyWoods = [
-	<mist:acacia_block>.definition,
-	<mist:aspen_block>.definition,
-	<mist:a_tree_block>.definition,
-	<mist:birch_block>.definition,
-	<mist:oak_block>.definition,
-	<mist:pine_block>.definition,
-	<mist:poplar_block>.definition,
-	<mist:snow_block>.definition,
-	<mist:spruce_block>.definition,
-	<mist:s_tree_block>.definition,
-	<mist:t_tree_block>.definition,
-	<mist:willow_block>.definition
-] as IItemDefinition[];
+var mistyWoods = {
+	"acacia" : <mist:acacia_block>.definition,
+	"aspen" : <mist:aspen_block>.definition,
+	"a_tree" : <mist:a_tree_block>.definition,
+	"birch" : <mist:birch_block>.definition,
+	"oak" : <mist:oak_block>.definition,
+	"pine" : <mist:pine_block>.definition,
+	"poplar" : <mist:poplar_block>.definition,
+	"snow" : <mist:snow_block>.definition,
+	"spruce" : <mist:spruce_block>.definition,
+	"s_tree" : <mist:s_tree_block>.definition,
+	"t_tree" : <mist:t_tree_block>.definition,
+	"willow" : <mist:willow_block>.definition,
+	"r_tree" : <mist:r_tree_block>.definition
+} as IItemDefinition[string];
 var mistyLogMeta = [0,4,7,8,11] as int[];
+var mistyPlankMeta = 13;
+var mistyTimbers = {
+	"acacia" : <mist:acacia_step>,
+	"aspen" : <mist:aspen_step>,
+	"a_tree" : <mist:a_tree_step>,
+	"birch" : <mist:birch_step>,
+	"oak" : <mist:oak_step>,
+	"pine" : <mist:pine_step>,
+	"poplar" : <mist:poplar_step>,
+	"snow" : <mist:snow_step>,
+	"spruce" : <mist:spruce_step>,
+	"s_tree" : <mist:s_tree_step>,
+	"t_tree" : <mist:t_tree_step>,
+	"willow" : <mist:willow_step>,
+	"r_tree" : <mist:r_tree_step>
+} as IItemStack[string];
 var oreFogStone = <ore:fogStone>;
 var fogStones = [
 	<mist:cobblestone>,
@@ -206,13 +223,23 @@ val glassContainer = <mist:glass_container>;
 val glassBottle = <minecraft:glass_bottle>;
 
 //Oredict all Misty World logs
-for wood in mistyWoods {
+for type, wood in mistyWoods {
 	for i in mistyLogMeta {
 		oreMistyWoods.add(wood.makeStack(i));
 		oreLog.add(wood.makeStack(i));
 	}
-	oreMistyPlanks.add(wood.makeStack(13));
-	orePlanks.add(wood.makeStack(13));
+	oreMistyPlanks.add(wood.makeStack(mistyPlankMeta));
+	orePlanks.add(wood.makeStack(mistyPlankMeta));
+}
+for woodType, timber in mistyTimbers {
+	var logRecipeID = "mist:" ~ woodType ~ "_step_from_log";
+	var plankRecipeID = "mist:" ~ woodType ~ "_step_from_planks";
+	recipes.removeByRecipeName(logRecipeID);
+	recipes.removeByRecipeName(plankRecipeID);
+	for i in mistyLogMeta {
+		recipes.addShapeless(timber * 4, [mistyWoods[woodType].makeStack(i)]);
+	}
+	recipes.addShapeless(timber * 4, [mistyWoods[woodType].makeStack(13)]);
 }
 
 //Oredict for all variants of Foggy Stone
