@@ -186,6 +186,16 @@ val hammers = <earthworks:tool_stone_hammer>|hammerIron;
 val cuttingFluid = <bloodmagic:cutting_fluid>;
 val enderEye = <minecraft:ender_eye>;
 val blockCharcoal = <quark:charcoal_block>;
+val basaltBlockCathedral = <cathedral:basalt_block_carved:*>;
+val oreBasalt = <ore:stoneBasalt>;
+val basaltRaw = <chisel:basalt2:7>;
+val basaltOutputsToChange = [
+	<cathedral:cathedral_railing_various:11>,
+	<cathedral:cathedral_pillar_various:11>,
+	<cathedral:cathedral_gargoyle_demon_basalt>,
+	<cathedral:basalt_block_checkered>,
+	<cathedral:dwemer_block_carved>
+] as IItemStack[];
 
 val basicBlocks = {
 	<minecraft:end_stone> : 6,
@@ -512,3 +522,9 @@ ArcaneWorld.createRitualSummon("summon_rift", "Conjure Rift", "arcaneworld:rift"
 
 //charcoal block tooltip
 blockCharcoal.addTooltip(format.gold("Can sustain Fire indefinitely"));
+
+//basalt tidying
+oreBasalt.add(basaltBlockCathedral);
+for output in basaltOutputsToChange {
+	recipes.replaceAllOccurences(basaltRaw, oreBasalt, output);
+}
