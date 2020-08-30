@@ -1,0 +1,40 @@
+{
+    "name": "Skeleton",
+    "icon": "minecraft:spawn_egg{EntityTag: {id: \"minecraft:skeleton\"}}",
+    "category": "collected_knowledge/mobs",
+    "advancement": "heavens:bookchap1/18stone",
+    "pages": [
+        {
+            "type": "text",
+            "text": "These reanimated bags of bones stalk the halls of $(thing)Nether Fortresses$() and the islands of the $(thing)Misty World$(). They are Hostile, and will attack from range with their $(item)Bows$()."
+        },
+        {
+            "type": "mob_drops",
+            "name": "Skeleton",
+            "mob": "minecraft:skeleton{HandItems:[{Count:1,id:\"minecraft:bow\"}]}",
+            "drop1": "minecraft:bone{display: {Lore: [\"Drops: 0-2\", \"Affected by Looting\", \"Unaffected by Cutting Skill\"]}}",
+            "drop2": "minecraft:arrow{display: {Lore: [\"Drops: 0-2\", \"Affected by Looting\", \"Unaffected by Cutting Skill\"]}}",
+            "raredrop1": "minecraft:skull:0{display: {Lore: [\"Drop Chance: 2.5%\", \"Affected by Looting\", \"Requires Player Kill\"]}}",
+            "raredrop2": "minecraft:bow{display: {Lore: [\"Applies to all Equipment the Skeleton spawns with:\", \"Drop Chance: 8.5%\", \"Affected by Looting\", \"Requires Player Kill\"]}}"
+        },
+        {
+            "type": "ritual",
+            "heading": "Conjure Skeleton",
+            "item1": "arcaneworld:amethyst",
+            "item2": "contenttweaker:boneshard",
+            "item3": "contenttweaker:boneshard",
+            "item4": "contenttweaker:boneshard",
+            "item5": "contenttweaker:boneshard",
+            "output_item": "minecraft:spawn_egg{EntityTag: {id: \"minecraft:skeleton\"}}",
+            "description": "Summon a Skeleton at the Ritual Altar."
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "dimension_dossier/nether",
+                "dimension_dossier/nether/fortress",
+                "dimension_dossier/misty_world"
+            ]
+        }
+    ]
+}

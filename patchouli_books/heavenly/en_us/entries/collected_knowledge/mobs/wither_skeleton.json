@@ -1,0 +1,29 @@
+{
+    "name": "Wither Skeleton",
+    "icon": "minecraft:spawn_egg{EntityTag: {id: \"minecraft:wither_skeleton\"}}",
+    "category": "collected_knowledge/mobs",
+    "advancement": "heavens:bookchap1/18stone",
+    "pages": [
+        {
+            "type": "text",
+            "text": "The reanimated bones of those killed by the $(thing)Wither$(), these blackened $(thing)Skeletons$() stalk the halls of $(thing)Nether Fortresses$(). They are Hostile, and will attack on sight, using $(item)Stone Swords$(), inflicting the $(thing)Wither$() Effect."
+        },
+        {
+            "type": "mob_drops",
+            "name": "Wither Skeleton",
+            "mob": "minecraft:wither_skeleton{HandItems:[{Count:1,id:\"minecraft:stone_sword\"}]}",
+            "drop1": "minecraft:bone{display: {Lore: [\"Drops: 0-2\", \"Affected by Looting\", \"Unaffected by Cutting Skill\"]}}",
+            "drop2": "minecraft:coal{display: {Lore: [\"Drops: 0-1\", \"Affected by Looting\", \"Unaffected by Cutting Skill\"]}}",
+            "raredrop1": "minecraft:skull:1{display: {Lore: [\"Drop Chance: 2.5%\", \"Affected by Looting\", \"Requires Player Kill\"]}}",
+            "raredrop2": "minecraft:stone_sword{display: {Lore: [\"Drop Chance: 8.5%\", \"Affected by Looting\", \"Requires Player Kill\"]}}",
+            "raredrop3": "inspirations:materials:7{display: {Lore: [\"Drop Chance: 7%\", \"Affected by Looting\", \"Requires Player Kill\"]}}"
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "dimension_dossier/nether",
+                "dimension_dossier/nether/fortress"
+            ]
+        }
+    ]
+}

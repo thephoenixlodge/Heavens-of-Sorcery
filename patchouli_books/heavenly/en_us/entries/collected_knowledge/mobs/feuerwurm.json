@@ -1,0 +1,24 @@
+{
+    "name": "Feuerwurm",
+    "icon": "minecraft:spawn_egg{EntityTag: {id: \"bewitchment:feuerwurm\"}}",
+    "category": "collected_knowledge/mobs",
+    "advancement": "heavens:bookchap1/18stone",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Demonic in nature, the primordial snakes known as $(thing)Feuerwurms$() stalk the $(thing)Nether$(), attacking their victims with their $(thing)Withering$() bite."
+        },
+        {
+            "type": "mob_drops",
+            "name": "Feuerwurm",
+            "mob": "bewitchment:feuerwurm",
+            "drop1": "bewitchment:adders_fork{display: {Lore: [\"Drops: 0-1\", \"Affected by Looting\", \"Unaffected by Cutting Skill\"]}}"
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "dimension_dossier/nether"
+            ]
+        }
+    ]
+}

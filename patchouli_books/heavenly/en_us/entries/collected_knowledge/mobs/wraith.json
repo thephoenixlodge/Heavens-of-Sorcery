@@ -1,0 +1,24 @@
+{
+    "name": "Wraith",
+    "icon": "minecraft:spawn_egg{EntityTag: {id: \"quark:wraith\"}}",
+    "category": "collected_knowledge/mobs",
+    "advancement": "heavens:bookchap1/18stone",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Lost Souls known as $(thing)Wraiths$() occasionally break free from $(item)Soul Sand$() in the $(thing)Nether$(). Amnesiac, they are known to attack any people they see, mimicking the cries of other creatures in a vain attempt to remember who they were."
+        },
+        {
+            "type": "mob_drops",
+            "name": "Wraith",
+            "mob": "quark:wraith",
+            "drop1": "quark:soul_bead{display: {Lore: [\"Drops: 1\", \"Affected by Looting\", \"Unaffected by Cutting Skill\"]}}"
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "dimension_dossier/nether"
+            ]
+        }
+    ]
+}

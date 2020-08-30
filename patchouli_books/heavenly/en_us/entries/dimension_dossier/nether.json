@@ -66,7 +66,13 @@
                 "collected_knowledge/mobs/blaze",
                 "collected_knowledge/mobs/pigmen",
                 "collected_knowledge/mobs/foxhound",
-                "collected_knowledge/mobs/lava_cat"
+                "collected_knowledge/mobs/lava_cat",
+                "collected_knowledge/mobs/skeleton",
+                "collected_knowledge/mobs/wither_skeleton",
+                "collected_knowledge/mobs/ghast",
+                "collected_knowledge/mobs/firebat",
+                "collected_knowledge/mobs/feuerwurm",
+                "collected_knowledge/mobs/wraith"
             ]
         },
         {

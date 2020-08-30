@@ -6,7 +6,7 @@
     "pages": [
         {
             "type": "text",
-            "text": "$(thing)Lava Cats$() are a $(thing)Friendly$() type of Fire Elemental, native to the $(thing)Nether$(). Their body consists entirely of $(item)Lava$() and will turn to $(item)Obsidian$() if they come into contact with $(item)Water$().$(br2)They can be $(thing)Tamed$() by feeding them $(item)Blaze Rods$() and bred using $(item)Blaze Powder$()."
+            "text": "$(thing)Lava Cats$() are a $(thing)Friendly$() type of Fire Elemental, native to the $(thing)Nether$(). Their body consists entirely of $(item)Lava$(), allowing them to take less damage from magical sources. They will turn into $(thing)Obsidian Cats$() if they come into contact with $(item)Water$(). $(thing)Obsidian Cats$() move slower, deal more damage, and receive reduced physical damage. Both forms can be $(thing)Tamed$() using $(item)Blaze Rods$() and bred using $(item)Blaze Powder$()."
         },
         {
             "type": "mob_drops",

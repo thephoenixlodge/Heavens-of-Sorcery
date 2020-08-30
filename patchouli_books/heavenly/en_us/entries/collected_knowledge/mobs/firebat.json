@@ -1,0 +1,24 @@
+{
+    "name": "Firebat",
+    "icon": "minecraft:spawn_egg{EntityTag: {id: \"thaumcraft:firebat\"}}",
+    "category": "collected_knowledge/mobs",
+    "advancement": "heavens:bookchap1/18stone",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Infernal $(thing)Firebats$() can occasionally be found flying around the $(thing)Nether$(). These little monsters have little value over their own life, attacking their targets relentlessly, to the point where they will sometimes explode, killing themselves in the attack."
+        },
+        {
+            "type": "mob_drops",
+            "name": "Firebat",
+            "mob": "thaumcraft:firebat",
+            "drop1": "minecraft:gunpowder{display: {Lore: [\"Drops: 0-2\", \"Affected by Looting\", \"Unaffected by Cutting Skill\"]}}"
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "dimension_dossier/nether"
+            ]
+        }
+    ]
+}

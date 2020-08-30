@@ -1,0 +1,34 @@
+{
+    "name": "Ghast",
+    "icon": "minecraft:spawn_egg{EntityTag: {id: \"minecraft:ghast\"}}",
+    "category": "collected_knowledge/mobs",
+    "advancement": "heavens:bookchap1/18stone",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Lost souls known as $(thing)Ghasts$() wander the $(thing)Nether$(), floating through the air. These large creatures are hostile, and though they are relatively weak, their ability to fly, and penchant for attacking from range with explosive fireballs can make them dangerous to foolhardy explorers."
+        },
+        {
+            "type": "mob_drops_large_mob",
+            "name": "Ghast",
+            "mob": "minecraft:ghast",
+            "drop1": "minecraft:ghast_tear{display: {Lore: [\"Drops: 0-1\", \"Affected by Looting\", \"Unaffected by Cutting Skill\"]}}",
+            "drop2": "minecraft:gunpowder{display: {Lore: [\"Drops: 0-2\", \"Affected by Looting\", \"Unaffected by Cutting Skill\"]}}"
+        },
+        {
+            "type": "ritual",
+            "heading": "Conjure Ghast",
+            "item1": "arcaneworld:amethyst",
+            "item2": "minecraft:ghast_tear",
+            "item3": "minecraft:bone",
+            "output_item": "minecraft:spawn_egg{EntityTag:{id:\"minecraft:ghast\"}}",
+            "description": "Summon a Ghast at the Ritual Altar"
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "dimension_dossier/nether"
+            ]
+        }
+    ]
+}
