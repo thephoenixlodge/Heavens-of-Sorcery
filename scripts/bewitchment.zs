@@ -44,7 +44,8 @@ val cauldron = <minecraft:cauldron>;
 val mobStrings = [
 	"bewitchment:hellhound",
 	"bewitchment:bafometyr",
-	"bewitchment:cleaver"
+	"bewitchment:cleaver",
+	"bewitchment:cambion"
 ] as string[];
 
 //Chalk
