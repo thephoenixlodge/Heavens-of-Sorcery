@@ -528,3 +528,7 @@ oreBasalt.add(basaltBlockCathedral);
 for output in basaltOutputsToChange {
 	recipes.replaceAllOccurences(basaltRaw, oreBasalt, output);
 }
+
+//remove a couple of Arcane World rituals
+ArcaneWorld.remove("arcaneworld:ritual_scroll");
+ArcaneWorld.remove("arcaneworld:create_biome_crystal");
