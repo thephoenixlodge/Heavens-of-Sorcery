@@ -1,0 +1,36 @@
+{
+    "name": "Zombie Pigmen",
+    "icon": "minecraft:spawn_egg{EntityTag: {id: \"minecraft:zombie_pigman\"}}",
+    "category": "collected_knowledge/mobs",
+    "advancement": "heavens:bookchap1/18stone",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Legends say that long ago the curious creatures known as $(thing)Pigmen$(), driven by their love of gold, attempted to rob our world of all ore, causing a cataclysm in the process, and reducing themselves to this zombified state. They can be found roaming the $(thing)Nether$(), and are peaceful unless attacked."
+        },
+        {
+            "type": "mob_drops",
+            "name": "Zombie Pigman",
+            "mob": "minecraft:zombie_pigman",
+            "drop1": "minecraft:rotten_flesh{display: {Lore: [\"Drops: 0-1\", \"Affected by Looting\", \"Unaffected by Cutting Skill\"]}}",
+            "drop2": "minecraft:gold_nugget{display: {Lore: [\"Drops: 0-1\", \"Affected by Looting\", \"Unaffected by Cutting Skill\"]}}",
+            "drop1": "minecraft:gold_ingot{display: {Lore: [\"Drop Chance: 2.5%\", \"Affected by Looting\", \"Requires Player Kill\", \"Unaffected by Cutting Skill\"]}}",
+            "raredrop1": "magicalsculpture:relic:14{display: {Lore: [\"Drop Chance: 0.04%\", \"Requires Player Kill\"]}}"
+        },
+        {
+            "type": "ritual",
+            "heading": "Conjure Zombie Pigman",
+            "item1": "arcaneworld:amethyst",
+            "item2": "minecraft:gold_ingot",
+            "item3": "minecraft:bone",
+            "output_item": "minecraft:spawn_egg{EntityTag:{id:\"minecraft:zombie_pigman\"}}",
+            "description": "Summon a Zombie Pigman at the Ritual Altar"
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "dimension_dossier/nether"
+            ]
+        }
+    ]
+}

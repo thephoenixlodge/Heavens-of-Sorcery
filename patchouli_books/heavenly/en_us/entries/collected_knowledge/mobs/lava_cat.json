@@ -1,0 +1,25 @@
+{
+    "name": "Lava Cat",
+    "icon": "minecraft:spawn_egg{EntityTag: {id: \"mysticalworld:entity_lava_cat\"}}",
+    "category": "collected_knowledge/mobs",
+    "advancement": "heavens:bookchap1/18stone",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(thing)Lava Cats$() are a $(thing)Friendly$() type of Fire Elemental, native to the $(thing)Nether$(). Their body consists entirely of $(item)Lava$() and will turn to $(item)Obsidian$() if they come into contact with $(item)Water$().$(br2)They can be $(thing)Tamed$() by feeding them $(item)Blaze Rods$() and bred using $(item)Blaze Powder$()."
+        },
+        {
+            "type": "mob_drops",
+            "name": "Lava Cat",
+            "mob": "mysticalworld:entity_lava_cat",
+            "drop1": "minecraft:obsidian{display: {Lore: [\"Dropchance: 70%\", \"Only if Lava Cat has been turned to Obsidian\"]}}",
+            "drop2": "minecraft:cobblestone{display: {Lore: [\"Dropchance: 50%\", \"Only if Lava Cat has been turned to Obsidian\"]}}"
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "dimension_dossier/nether"
+            ]
+        }
+    ]
+}

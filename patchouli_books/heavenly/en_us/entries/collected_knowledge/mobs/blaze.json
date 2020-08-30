@@ -1,0 +1,35 @@
+{
+    "name": "Blaze",
+    "icon": "minecraft:spawn_egg{EntityTag: {id: \"minecraft:blaze\"}}",
+    "category": "collected_knowledge/mobs",
+    "advancement": "heavens:bookchap1/18stone",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(thing)Blazes$() are a $(thing)Hostile$() type of Fire Elemental, native to the $(thing)Nether$(). While they can be found rarely throughout the $(thing)Nether$(), they are most readily encountered within $(thing)Nether Fortresses$()."
+        },
+        {
+            "type": "mob_drops",
+            "name": "Blaze",
+            "mob": "minecraft:blaze",
+            "drop1": "minecraft:blaze_rod{display: {Lore: [\"Drops: 0-1\", \"Affected by Looting\", \"Requires Player Kill\", \"Unaffected by Cutting Skill\"]}}",
+            "raredrop1": "magicalsculpture:relic:14{display: {Lore: [\"Drop Chance: 5%\", \"Requires Player Kill\"]}}"
+        },
+        {
+            "type": "ritual",
+            "heading": "Conjure Blaze",
+            "item1": "arcaneworld:amethyst",
+            "item2": "minecraft:blaze_rod",
+            "item3": "minecraft:bone",
+            "output_item": "minecraft:spawn_egg{EntityTag:{id:\"minecraft:blaze\"}}",
+            "description": "Summon a Blaze at the Ritual Altar"
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "dimension_dossier/nether",
+                "dimension_dossier/nether/fortress"
+            ]
+        }
+    ]
+}

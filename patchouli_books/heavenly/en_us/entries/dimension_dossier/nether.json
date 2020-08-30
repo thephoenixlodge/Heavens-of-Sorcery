@@ -61,6 +61,16 @@
         },
         {
             "type": "relations",
+            "title": "Creatures",
+            "entries": [
+                "collected_knowledge/mobs/blaze",
+                "collected_knowledge/mobs/pigmen",
+                "collected_knowledge/mobs/foxhound",
+                "collected_knowledge/mobs/lava_cat"
+            ]
+        },
+        {
+            "type": "relations",
             "title": "Notable Structures",
             "entries": [
                 "dimension_dossier/nether/fortress"
@@ -71,13 +81,6 @@
             "title": "Key Materials",
             "entries": [
                 "dimension_dossier/nether/ores"
-            ]
-        },
-        {
-            "type": "relations",
-            "title": "Creatures",
-            "entries": [
-                
             ]
         }
     ]

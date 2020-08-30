@@ -1,0 +1,93 @@
+{
+	"components": [
+		{
+			"type": "header",
+			"text": "#name",
+			"x": 75,
+			"y": 10
+		},
+		{
+			"type": "entity",
+			"entity": "#mob",
+			"render_size": 50,
+			"rotate": "false",
+			"default_rotation ": "90F",
+			"x": 25,
+			"y": 22
+		},
+		{
+			"type": "header",
+			"text": "Standard Drops:",
+			"guard": "#drop1->iexists",
+			"x": -1,
+			"y": 45
+		},
+		{
+			"type": "item",
+			"item": "#drop1",
+			"framed": "true",
+			"link_recipe": "true",
+			"guard": "#drop1->iexists",
+			"x": 20,
+			"y": 59
+		},
+		{
+			"type": "item",
+			"item": "#drop2",
+			"framed": "true",
+			"link_recipe": "true",
+			"guard": "#drop1->iexists",
+			"x": 50,
+			"y": 59
+		},
+		{
+			"type": "item",
+			"item": "#drop3",
+			"framed": "true",
+			"link_recipe": "true",
+			"guard": "#drop1->iexists",
+			"x": 80,
+			"y": 59
+		},
+		{
+			"type": "header",
+			"text": "Rare Drops:",
+			"guard": "#raredrop1->iexists",
+			"x": -1,
+			"y": 80
+		},
+		{
+			"type": "item",
+			"item": "#raredrop1",
+			"framed": "true",
+			"link_recipe": "true",
+			"guard": "#raredrop1->iexists",
+			"x": 20,
+			"y": 94
+		},
+		{
+			"type": "item",
+			"item": "#raredrop2",
+			"framed": "true",
+			"link_recipe": "true",
+			"guard": "#raredrop1->iexists",
+			"x": 50,
+			"y": 94
+		},
+		{
+			"type": "item",
+			"item": "#raredrop3",
+			"framed": "true",
+			"link_recipe": "true",
+			"guard": "#raredrop1->iexists",
+			"x": 80,
+			"y": 94
+		},
+		{
+			"type": "text",
+			"text": "Hover over items for more info on drop rates/conditions",
+			"x": 2,
+			"y": 120
+		}
+	]
+}

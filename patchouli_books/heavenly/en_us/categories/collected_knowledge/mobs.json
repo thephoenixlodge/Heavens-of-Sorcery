@@ -1,0 +1,6 @@
+{
+	"name": "Bestiary",
+	"description": "Here we have information about the various Creatures and Monsters you may encounter.",
+	"icon": "minecraft:spawn_egg{EntityTag: {id: \"minecraft:zombie\"}}",
+	"parent": "collected_knowledge"
+}

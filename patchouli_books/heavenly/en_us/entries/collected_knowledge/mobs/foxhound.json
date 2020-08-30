@@ -1,0 +1,25 @@
+{
+    "name": "Foxhound",
+    "icon": "minecraft:spawn_egg{EntityTag: {id: \"quark:foxhound\"}}",
+    "category": "collected_knowledge/mobs",
+    "advancement": "heavens:bookchap1/18stone",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(thing)Foxhounds$() are a $(thing)Hostile$() type of Fire Elemental, native to the $(thing)Nether$(). They can be found commonly throughout the $(thing)Nether$().$(br2)They can be $(thing)Tamed$() by feeding them $(item)Coal$() while you are under the effects of a $(item)Fire Resistance Potion$().$(br)Tamed $(thing)Foxhounds$() will speed up any $(item)Furnace$() they sit on."
+        },
+        {
+            "type": "mob_drops",
+            "name": "Foxhound",
+            "mob": "quark:foxhound",
+            "drop1": "minecraft:blaze_powder{display: {Lore: [\"Drops: 1-2\", \"Affected by Looting\", \"Unaffected by Cutting Skill\"]}}",
+            "drop2": "wizardry:devil_dust{display: {Lore: [\"Drops: 0-3\", \"Affected by Looting\", \"Unaffected by Cutting Skill\"]}}"
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "dimension_dossier/nether"
+            ]
+        }
+    ]
+}
