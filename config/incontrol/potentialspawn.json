@@ -66,6 +66,12 @@
 				"weight": 50,
 				"groupcountmin": 1,
 				"groupcountmax": 3
+			},
+			{
+				"mob": "minecraft:rabbit",
+				"weight": 30,
+				"groupcountmin": 1,
+				"groupcountmax": 5
 			}
 		]
 	},

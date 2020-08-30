@@ -38,7 +38,8 @@
 		"dimension": 5,
 		"mob": [
 			"mysticalworld:entity_deer",
-			"mysticalworld:entity_fox"
+			"mysticalworld:entity_fox",
+			"minecraft:rabbit"
 		],
 		"minheight": 120,
 		"maxcount": 10,
