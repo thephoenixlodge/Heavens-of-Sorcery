@@ -87,6 +87,10 @@ val silverSwordMy = <mysticalworld:silver_sword>;
 val silverChestIF = <iceandfire:armor_silver_metal_chestplate>;
 val silverLegsIF = <iceandfire:armor_silver_metal_leggings>;
 val silverBootsIF = <iceandfire:armor_silver_metal_boots>;*/
+val silverHelmetBW = <bewitchment:silver_helmet>;
+val silverChestBW = <bewitchment:silver_chestplate>;
+val silverLegsBW = <bewitchment:silver_leggings>;
+val silverBootsBW = <bewitchment:silver_boots>;
 
 val bwStone = <betterbuilderswands:wandstone>;
 val bookNA = <patchouli:guide_book>.withTag({"patchouli:book": "naturesaura:book"});
@@ -260,13 +264,17 @@ recipes.remove(silverShovelMy);
 //recipes.remove(silverHoeBW);
 recipes.remove(silverHoeEm);
 recipes.remove(silverHoeMy);
-//recipes.remove(silverSwordBW);
+recipes.remove(silverSwordBW);
 recipes.remove(silverSwordEm);
-recipes.remove(silverSwordMy);
+//recipes.remove(silverSwordMy);
 /*recipes.remove(silverHelmetIF);
 recipes.remove(silverChestIF);
 recipes.remove(silverLegsIF);
 recipes.remove(silverBootsIF);*/
+recipes.remove(silverHelmetBW);
+recipes.remove(silverChestBW);
+recipes.remove(silverLegsBW);
+recipes.remove(silverBootsBW);
 
 //stone builder's wand
 recipes.remove(bwStone);
