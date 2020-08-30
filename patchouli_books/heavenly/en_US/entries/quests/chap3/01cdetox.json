@@ -30,7 +30,7 @@
         {
             "type": "spotlight",
             "item": "mist:nightberry",
-            "text": "$(item)Nightberrries$() can be found at night on plants floating on the water on $(thing)Swamp Islands$()." 
+            "text": "$(item)Nightberrries$() can be found at night growing on $(item)Floating Mats$() amongst the water on $(thing)Swamp Islands$()." 
         },
         {
             "type": "spotlight",
