@@ -56,6 +56,7 @@ addCuttingMeat("pig", "minecraft:entities/pig", {"main" : {<minecraft:porkchop> 
 addCuttingMeat("cow", "minecraft:entities/cow", {"pool1" : {<minecraft:beef> : [1, 2]}, "main" : {<minecraft:leather> : [1, 2]}});
 addCuttingMeat("chicken", "minecraft:entities/chicken", {"pool1" : {<minecraft:chicken> : [1, 2]}});
 addCuttingMeat("sheep", "minecraft:entities/sheep", {"main" : {<minecraft:mutton> : [1, 2]}});
+addCuttingMeat("rabbit", "minecraft:entities/rabbit", {"pool1" : {<minecraft:rabbit> : [0, 1]}});
 addCuttingMeat("aechor", "aether_legacy:entities/aechor_plant", {"petal" : {<aether_legacy:aechor_petal> : [1, 2]}});
 addCuttingMeat("sheepuff", "aether_legacy:entities/sheepuff", {"meat" : {<minecraft:mutton> : [1, 2]}});
 addCuttingMeat("aerbunny", "aether_legacy:entities/aerbunny", {"string" : {<minecraft:string> : [0, 2]}});
