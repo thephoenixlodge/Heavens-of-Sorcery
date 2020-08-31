@@ -1,0 +1,26 @@
+{
+    "name": "Deer",
+    "icon": "minecraft:spawn_egg{EntityTag: {id: \"mysticalworld:entity_deer\"}}",
+    "category": "collected_knowledge/mobs",
+    "advancement": "heavens:bookchap2/13raidloot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(thing)Deer$() are a common, passive creature found across all the $(thing)Islands$() of the $(thing)Misty World$(). They have three varieties - Doe, Stag and Rudolph - with Stags identifiable by their $(item)Antlers$(), and Rudolphs by their red noses.$(br2)Killing a $(thing)Deer$() grants 1 $(thing)Cutting$() experience.$(br2)They can be bred with $(item)Wheat$() like many other livestock."
+        },
+        {
+            "type": "mob_drops_large_mob",
+            "name": "Deer",
+            "mob": "mysticalworld:entity_deer",
+            "drop1": "mysticalworld:venison{display: {Lore: [\"Drops: 0-2\", \"Affected by Looting\", \"Affected by Cutting Skill\", \"Cooks if killed while on Fire\"]}}",
+            "drop2": "minecraft:leather{display: {Lore: [\"Drops: 0-1\", \"Affected by Looting\", \"Affected by Cutting Skill\"]}}",
+            "drop3": "mysticalworld:antlers{display: {Lore: [\"Drops: 1\", \"Unaffected by Cutting Skill\", \"Only from Stags\"]}}"
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "dimension_dossier/misty_world"
+            ]
+        }
+    ]
+}

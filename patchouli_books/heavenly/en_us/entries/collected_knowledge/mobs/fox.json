@@ -1,0 +1,25 @@
+{
+    "name": "Fox",
+    "icon": "minecraft:spawn_egg{EntityTag: {id: \"mysticalworld:entity_fox\"}}",
+    "category": "collected_knowledge/mobs",
+    "advancement": "heavens:bookchap2/13raidloot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(thing)Foxes$() are a common, passive creature found across all the $(thing)Islands$() of the $(thing)Misty World$(), where they hunt $(thing)Rabbits$().$(br2)Killing a $(thing)Fox$() grants 1 $(thing)Cutting$() experience.$(br2)They can be $(thing)Tamed$() and bred by feeding them $(item)Apples$(). Tame $(thing)Foxes$() will fight alongside their master."
+        },
+        {
+            "type": "mob_drops",
+            "name": "Fox",
+            "mob": "mysticalworld:entity_fox",
+            "drop1": "mysticalworld:pelt{display: {Lore: [\"Drops: 0-1\", \"Affected by Looting\", \"Affected by Cutting Skill\"]}}"
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "dimension_dossier/misty_world",
+                "collected_knowledge/mobs/rabbit"
+            ]
+        }
+    ]
+}

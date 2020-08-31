@@ -1,5 +1,5 @@
 {
-    "name": "Zombie Pigmen",
+    "name": "Zombie Pigman",
     "icon": "minecraft:spawn_egg{EntityTag: {id: \"minecraft:zombie_pigman\"}}",
     "category": "collected_knowledge/mobs",
     "advancement": "heavens:bookchap1/18stone",
@@ -14,8 +14,8 @@
             "mob": "minecraft:zombie_pigman",
             "drop1": "minecraft:rotten_flesh{display: {Lore: [\"Drops: 0-1\", \"Affected by Looting\", \"Unaffected by Cutting Skill\"]}}",
             "drop2": "minecraft:gold_nugget{display: {Lore: [\"Drops: 0-1\", \"Affected by Looting\", \"Unaffected by Cutting Skill\"]}}",
-            "drop1": "minecraft:gold_ingot{display: {Lore: [\"Drop Chance: 2.5%\", \"Affected by Looting\", \"Requires Player Kill\", \"Unaffected by Cutting Skill\"]}}",
-            "raredrop1": "magicalsculpture:relic:14{display: {Lore: [\"Drop Chance: 0.04%\", \"Requires Player Kill\"]}}"
+            "drop3": "minecraft:gold_ingot{display: {Lore: [\"Drop Chance: 2.5%\", \"Affected by Looting\", \"Requires Player Kill\", \"Unaffected by Cutting Skill\"]}}",
+            "raredrop1": "artifacts:everlasting_rotten_flesh{display: {Lore: [\"Drop Chance: 0.04%\", \"Requires Player Kill\"]}}"
         },
         {
             "type": "ritual",

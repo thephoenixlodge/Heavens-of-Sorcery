@@ -3,7 +3,6 @@
     "icon": "minecraft:nether_brick",
     "category": "dimension_dossier/nether",
     "advancement": "heavens:bookchap1/18stone",
-    "sortnum": 1,
     "pages": [
         {
             "type": "text",

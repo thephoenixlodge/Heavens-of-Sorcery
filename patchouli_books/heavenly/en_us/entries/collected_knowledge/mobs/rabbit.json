@@ -1,0 +1,37 @@
+{
+    "name": "Rabbit",
+    "icon": "minecraft:spawn_egg{EntityTag: {id: \"minecraft:rabbit\"}}",
+    "category": "collected_knowledge/mobs",
+    "advancement": "heavens:bookchap2/13raidloot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(thing)Rabbits$() are a common, passive creature found across all the $(thing)Islands$() of the $(thing)Misty World$(), where they are hunted by $(thing)Foxes$().$(br2)Killing a $(thing)Rabbit$() grants 1 $(thing)Cutting$() experience. "
+        },
+        {
+            "type": "mob_drops",
+            "name": "Rabbit",
+            "mob": "minecraft:rabbit",
+            "drop1": "minecraft:rabbit{display: {Lore: [\"Drops: 0-1\", \"Affected by Looting\", \"Affected by Cutting Skill\", \"Cooks if killed while on Fire\"]}}",
+            "drop2": "minecraft:rabbit_hide{display: {Lore: [\"Drops: 0-1\", \"Affected by Looting\", \"Unaffected by Cutting Skill\"]}}",
+            "raredrop1": "minecraft:rabbit_foot{display: {Lore: [\"Drop Chance: 10%\", \"Affected by Looting\", \"Unaffected by Cutting Skill\"]}}",
+            "raredrop2": "artifacts:everlasting_rabbit{display: {Lore: [\"Drop Chance: 0.04%\", \"Affected by Looting\", \"Unaffected by Cutting Skill\", \"Cooks if killed while on Fire\"]}}"
+        },
+        {
+            "type": "ritual",
+            "heading": "Conjure Rabbit",
+            "item1": "arcaneworld:sapphire",
+            "item2": "minecraft:rabbit_foot",
+            "item3": "minecraft:bone",
+            "output_item": "minecraft:spawn_egg{EntityTag:{id:\"minecraft:rabbit\"}}",
+            "description": "Summon a Rabbit at the Ritual Altar"
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "dimension_dossier/misty_world",
+                "collected_knowledge/mobs/fox"
+            ]
+        }
+    ]
+}
