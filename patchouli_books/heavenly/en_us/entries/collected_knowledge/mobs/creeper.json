@@ -1,0 +1,33 @@
+{
+    "name": "Creeper",
+    "icon": "minecraft:spawn_egg{EntityTag: {id: \"minecraft:creeper\"}}",
+    "category": "collected_knowledge/mobs",
+    "advancement": "heavens:bookchap2/13raidloot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "The creatures dubbed \"$(thing)Creepers$()\" which wander the $(thing)Islands$() of the $(thing)Misty World$() at night, are well known for having more hostility than sense.$(br)They will attack humans indiscrimately, with the fatal flaw that their attacks are by way of suicidal explosion. Best to take care when ending their existence. Personally I like yelling \"Ok Boomer!\" at them."
+        },
+        {
+            "type": "mob_drops",
+            "name": "Creeper",
+            "mob": "minecraft:creeper",
+            "drop1": "minecraft:gunpowder{display: {Lore: [\"Drops: 0-2\", \"Affected by Looting\", \"Unaffected by Cutting Skill\"]}}"
+        },
+        {
+            "type": "ritual",
+            "heading": "Conjure Creeper",
+            "item1": "arcaneworld:amethyst",
+            "item2": "minecraft:gunpowder",
+            "item3": "minecraft:bone",
+            "output_item": "minecraft:spawn_egg{EntityTag: {id: \"minecraft:creeper\"}}",
+            "description": "Summon a Creeper at the Ritual Altar. Why you'd want to do this I have no idea."
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "dimension_dossier/misty_world"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "name": "Cave Spider",
+    "icon": "minecraft:spawn_egg{EntityTag: {id: \"minecraft:cave_spider\"}}",
+    "category": "collected_knowledge/mobs",
+    "advancement": "heavens:bookchap2/13raidloot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "I hope you aren't arachnophobic, as the $(thing)Misty World$() is home to a few varieties of Hostile Giant $(thing)Spiders$(). $(thing)Cave Spiders$(), smaller cousin to the $(thing)Spider$(), are much the same, though their bite is $(thing)Poisonous$()."
+        },
+        {
+            "type": "mob_drops",
+            "name": "Cave Spider",
+            "mob": "minecraft:cave_spider",
+            "drop1": "minecraft:string{display: {Lore: [\"Drops: 0-2\", \"Affected by Looting\", \"Unaffected by Cutting Skill\"]}}",
+            "drop2": "minecraft:spider_eye{display: {Lore: [\"Drops: 0-1\", \"Affected by Looting\", \"Requires Player Kill\", \"Unaffected by Cutting Skill\"]}}",
+            "raredrop1": "minecraft:web{display: {Lore: [\"Drop Chance: 2.5%\", \"Affected by Looting\", \"Unaffected by Cutting Skill\"]}}",
+            "raredrop2": "artifacts:everlasting_spider_eye{display: {Lore: [\"Drop Chance: 0.04%\", \"Requires Player Kill\", \"Unaffected by Cutting Skill\"]}}"
+        },
+        {
+            "type": "ritual",
+            "heading": "Conjure Cave Spider",
+            "item1": "arcaneworld:amethyst",
+            "item2": "minecraft:spider_eye",
+            "item3": "minecraft:bone",
+            "output_item": "minecraft:spawn_egg{EntityTag: {id: \"minecraft:cave_spider\"}}",
+            "description": "Summon a Cave Spider at the Ritual Altar."
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "dimension_dossier/misty_world",
+                "collected_knowledge/mobs/spider"
+            ]
+        }
+    ]
+}

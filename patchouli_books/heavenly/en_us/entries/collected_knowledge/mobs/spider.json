@@ -1,0 +1,36 @@
+{
+    "name": "Spider",
+    "icon": "minecraft:spawn_egg{EntityTag: {id: \"minecraft:spider\"}}",
+    "category": "collected_knowledge/mobs",
+    "advancement": "heavens:bookchap2/13raidloot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "I hope you aren't arachnophobic, as the $(thing)Misty World$() is home to a few varieties of Hostile Giant $(thing)Spiders$(). This, the most common variety, is fairly simple to deal with, though it can climb vertical surfaces."
+        },
+        {
+            "type": "mob_drops",
+            "name": "Spider",
+            "mob": "minecraft:spider",
+            "drop1": "minecraft:string{display: {Lore: [\"Drops: 0-2\", \"Affected by Looting\", \"Unaffected by Cutting Skill\"]}}",
+            "drop2": "minecraft:spider_eye{display: {Lore: [\"Drops: 0-1\", \"Affected by Looting\", \"Requires Player Kill\", \"Unaffected by Cutting Skill\"]}}",
+            "raredrop1": "artifacts:everlasting_spider_eye{display: {Lore: [\"Drop Chance: 0.04%\", \"Requires Player Kill\", \"Unaffected by Cutting Skill\"]}}"
+        },
+        {
+            "type": "ritual",
+            "heading": "Conjure Spider",
+            "item1": "arcaneworld:amethyst",
+            "item2": "minecraft:string",
+            "item3": "minecraft:bone",
+            "output_item": "minecraft:spawn_egg{EntityTag: {id: \"minecraft:spider\"}}",
+            "description": "Summon a Spider at the Ritual Altar."
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "dimension_dossier/misty_world",
+                "collected_knowledge/mobs/cave_spider"
+            ]
+        }
+    ]
+}
