@@ -99,7 +99,11 @@ val hardFogStone = <mist:stone_basic>;
 val porousFogStone = <mist:stone_porous>;
 val foggyCobble = <mist:cobblestone>;
 val oreMushroom = <ore:shrooms>;
-val skyrootLeaves = <aether_legacy:aether_leaves>;
+val oreSkyrootLeaves = <ore:skyroot_leaves>;
+val skyrootLeavesArray = [
+	<aether_legacy:aether_leaves>,
+	<aether_legacy:aether_leaves:8>
+] as IItemStack[];
 val feather = <ore:feather>;
 val coldAercloud = <aether_legacy:aercloud>;
 val mushroomsArray = [
@@ -304,6 +308,11 @@ for shroom in mushroomsArray {
 	oreMushroom.add(shroom);
 }
 
+//Oredict Aether and Dynamic Trees Skyroot Leaves variants
+for leaves in skyrootLeavesArray {
+	oreSkyrootLeaves.add(leaves);
+}
+
 //Runes
 //Water
 RuneAltar.removeRecipe(runeWater);
@@ -316,7 +325,7 @@ RuneAltar.removeRecipe(runeEarth);
 RuneAltar.addRecipe(runeEarth, [manaPowder, ingotManasteel, holyStone, oreFogStone, oreMushroom], 5200);
 //Air
 RuneAltar.removeRecipe(runeAir);
-RuneAltar.addRecipe(runeAir, [manaPowder, ingotManasteel, feather, skyrootLeaves, coldAercloud], 5200);
+RuneAltar.addRecipe(runeAir, [manaPowder, ingotManasteel, feather, oreSkyrootLeaves, coldAercloud], 5200);
 //Mana
 RuneAltar.removeRecipe(runeMana);
 RuneAltar.addRecipe(runeMana, [manaPowder, ingotManasteel, ingotManasteel, ingotManasteel, manaOrb, manaOrb, manaPearl, manaPearl], 8000);
