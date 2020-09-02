@@ -427,10 +427,6 @@ recipes.addShaped(amplifier4, [[amplifier, ingotSkies, amplifier], [ingotSkies, 
 recipes.remove(reincarnationDust);
 Fey.addRecipe("reincpowder", reincarnationDust * 3, [radiantDust, soulBead, bottledDarkness, manaPowder, manaPowder]);
 
-//BS ore location hints
-oreHorizonite.addTooltip(format.gold("Found deep beneath the Crystal Dunes"));
-oreFalsite.addTooltip(format.gold("Found deep beneath the Pale Swamplands"));
-
 //furnace.remove(charcoal);
 //furnace.addRecipe(charcoal, oreLogWood, 0.15);
 
