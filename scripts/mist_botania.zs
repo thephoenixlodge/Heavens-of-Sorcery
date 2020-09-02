@@ -200,6 +200,8 @@ val tokenJoy = <naturesaura:token_joy>;
 val tokenSorrow = <naturesaura:token_sorrow>;
 val tokenAnger = <naturesaura:token_anger>;
 val tokenFear = <naturesaura:token_fear>;
+val redStringNutrifier = <botania:redstringfertilizer>;
+val boneBlock = <minecraft:bone_block>;
 //tree seed cycling
 val treeSeeds = {
 	<dynamictrees:appleseed> : <dynamictrees:oakseed>,
@@ -371,6 +373,9 @@ StarlightInfusion.addInfusion(livingwood, livingwoodGlimmering, false, 0.8, 120)
 
 //remove recipe for Floral Fertilizer (add new one to later point in progression?)
 recipes.remove(floralFertilizer);
+
+//sub floral fert for bone block in nutrifier recipe
+recipes.replaceAllOccurences(floralFertilizer, boneBlock, redStringNutrifier);
 
 //increase max durability for niobium pick
 niobiumPick.maxDamage = 600;
