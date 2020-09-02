@@ -2,8 +2,11 @@ import mods.naturesaura.Altar as NatureAltar;
 import mods.astralsorcery.Altar;
 import mods.arcanearchives.GCT;
 import mods.spawntabletweaker;
+import crafttweaker.item.IItemStack;
+import crafttweaker.item.IItemDefinition;
 import crafttweaker.game.IGame;
 import crafttweaker.world.IBiome;
+import mods.botania.ManaInfusion;
 
 ////variables
 val crystalFlower = <ebwizardry:crystal_flower>;
@@ -30,6 +33,7 @@ val visPerditio = <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, ke
 val visOrdo = <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ordo"}]});
 val visSol = <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "sol"}]});
 val dustRadiant = <arcanearchives:radiant_dust>;
+val conversionCatalyst = <naturesaura:conversion_catalyst>;
 
 //mob management
 val wlBiomes = [
@@ -74,7 +78,20 @@ crystalVerdant.addTooltip(format.gold("Looted from Shrines and Obelisks in the E
 crystalMystical.addTooltip(format.gold("Looted from Shrines and Obelisks in the Everbright and Everdawn"));
 crystalRadiant.addTooltip(format.gold("Looted from Shrines and Obelisks in the Everbright and Everdawn"));
 
-
+NatureAltar.addRecipe("crystal_transmute_fiery", crystalMystical, crystalFiery, conversionCatalyst, 10000, 50);
+ManaInfusion.addAlchemy(crystalFiery, crystalMystical, 15000);
+NatureAltar.addRecipe("crystal_transmute_icy", crystalFiery, crystalIcy, conversionCatalyst, 10000, 50);
+ManaInfusion.addAlchemy(crystalIcy, crystalFiery, 15000);
+NatureAltar.addRecipe("crystal_transmute_stormy", crystalIcy, crystalStormy, conversionCatalyst, 10000, 50);
+ManaInfusion.addAlchemy(crystalStormy, crystalIcy, 15000);
+NatureAltar.addRecipe("crystal_transmute_verdant", crystalStormy, crystalVerdant, conversionCatalyst, 10000, 50);
+ManaInfusion.addAlchemy(crystalVerdant, crystalStormy, 15000);
+NatureAltar.addRecipe("crystal_transmute_dark", crystalVerdant, crystalDark, conversionCatalyst, 10000, 50);
+ManaInfusion.addAlchemy(crystalDark, crystalVerdant, 15000);
+NatureAltar.addRecipe("crystal_transmute_radiant", crystalDark, crystalRadiant, conversionCatalyst, 10000, 50);
+ManaInfusion.addAlchemy(crystalRadiant, crystalDark, 15000);
+NatureAltar.addRecipe("crystal_transmute_mystical", crystalRadiant, crystalMystical, conversionCatalyst, 10000, 50);
+ManaInfusion.addAlchemy(crystalMystical, crystalRadiant, 15000);
 
 var blBiomes = [] as string[];
 for biome in game.biomes {
