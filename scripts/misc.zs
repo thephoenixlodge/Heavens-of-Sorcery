@@ -95,6 +95,7 @@ val rodIron = <quark:iron_rod>;
 val ingotManasteel = <botania:manaresource>;
 val ingotSkies = <naturesaura:sky_ingot>;
 val oreHorizonite = <blue_skies:horizonite_ore>;
+val oreFalsite = <blue_skies:falsite_ore>;
 val sandIron = <bloodmagic:component:19>;
 val sandGold = <bloodmagic:component:20>;
 val oreDustIron = <ore:dustIron>;
@@ -428,6 +429,7 @@ Fey.addRecipe("reincpowder", reincarnationDust * 3, [radiantDust, soulBead, bott
 
 //BS ore location hints
 oreHorizonite.addTooltip(format.gold("Found deep beneath the Crystal Dunes"));
+oreFalsite.addTooltip(format.gold("Found deep beneath the Pale Swamplands"));
 
 //furnace.remove(charcoal);
 //furnace.addRecipe(charcoal, oreLogWood, 0.15);
