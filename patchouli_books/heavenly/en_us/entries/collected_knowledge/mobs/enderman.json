@@ -1,0 +1,34 @@
+{
+    "name": "Enderman",
+    "icon": "minecraft:spawn_egg{EntityTag: {id: \"minecraft:enderman\"}}",
+    "category": "collected_knowledge/mobs",
+    "advancement": "heavens:bookchap2/13raidloot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "At night in the $(thing)Misty World$() and rarely in the $(thing)Nether$(), you'll encounter these tall, dark, menacing figures known simply as $(thing)Endermen$(). These creatures come straight from the nightmares of children, yet fortunately are mostly passive unless provoked. Unfortunately, merely looking at them directly is enough of a slight to attract their ire."
+        },
+        {
+            "type": "mob_drops",
+            "name": "Enderman",
+            "mob": "minecraft:enderman",
+            "drop1": "minecraft:ender_pearl{display: {Lore: [\"Drops: 0-1\", \"Affected by Looting\", \"Unaffected by Cutting Skill\"]}}"
+        },
+        {
+            "type": "ritual",
+            "heading": "Conjure Enderman",
+            "item1": "arcaneworld:amethyst",
+            "item2": "minecraft:ender_pearl",
+            "item3": "minecraft:bone",
+            "output_item": "minecraft:spawn_egg{EntityTag:{id:\"minecraft:enderman\"}}",
+            "description": "Summon an Enderman at the Ritual Altar"
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "dimension_dossier/nether",
+                "dimension_dossier/misty_world"
+            ]
+        }
+    ]
+}

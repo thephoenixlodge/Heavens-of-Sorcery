@@ -73,7 +73,9 @@
                 "collected_knowledge/mobs/skeleton",
                 "collected_knowledge/mobs/creeper",
                 "collected_knowledge/mobs/spider",
-                "collected_knowledge/mobs/cave_spider"
+                "collected_knowledge/mobs/cave_spider",
+                "collected_knowledge/mobs/zombie",
+                "collected_knowledge/mobs/enderman"
             ]
         },
         {

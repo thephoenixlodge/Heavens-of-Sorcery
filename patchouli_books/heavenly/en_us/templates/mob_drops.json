@@ -28,7 +28,7 @@
 			"framed": "true",
 			"link_recipe": "true",
 			"guard": "#drop1->iexists",
-			"x": 20,
+			"x": 10,
 			"y": 59
 		},
 		{
@@ -37,7 +37,7 @@
 			"framed": "true",
 			"link_recipe": "true",
 			"guard": "#drop1->iexists",
-			"x": 50,
+			"x": 35,
 			"y": 59
 		},
 		{
@@ -46,7 +46,16 @@
 			"framed": "true",
 			"link_recipe": "true",
 			"guard": "#drop1->iexists",
-			"x": 80,
+			"x": 60,
+			"y": 59
+		},
+		{
+			"type": "item",
+			"item": "#drop3",
+			"framed": "true",
+			"link_recipe": "true",
+			"guard": "#drop1->iexists",
+			"x": 85,
 			"y": 59
 		},
 		{
@@ -62,7 +71,7 @@
 			"framed": "true",
 			"link_recipe": "true",
 			"guard": "#raredrop1->iexists",
-			"x": 20,
+			"x": 10,
 			"y": 94
 		},
 		{
@@ -71,7 +80,7 @@
 			"framed": "true",
 			"link_recipe": "true",
 			"guard": "#raredrop1->iexists",
-			"x": 50,
+			"x": 35,
 			"y": 94
 		},
 		{
@@ -80,7 +89,16 @@
 			"framed": "true",
 			"link_recipe": "true",
 			"guard": "#raredrop1->iexists",
-			"x": 80,
+			"x": 60,
+			"y": 94
+		},
+		{
+			"type": "item",
+			"item": "#raredrop4",
+			"framed": "true",
+			"link_recipe": "true",
+			"guard": "#raredrop1->iexists",
+			"x": 85,
 			"y": 94
 		},
 		{

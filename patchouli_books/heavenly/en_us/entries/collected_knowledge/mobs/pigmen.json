@@ -15,7 +15,8 @@
             "drop1": "minecraft:rotten_flesh{display: {Lore: [\"Drops: 0-1\", \"Affected by Looting\", \"Unaffected by Cutting Skill\"]}}",
             "drop2": "minecraft:gold_nugget{display: {Lore: [\"Drops: 0-1\", \"Affected by Looting\", \"Unaffected by Cutting Skill\"]}}",
             "drop3": "minecraft:gold_ingot{display: {Lore: [\"Drop Chance: 2.5%\", \"Affected by Looting\", \"Requires Player Kill\", \"Unaffected by Cutting Skill\"]}}",
-            "raredrop1": "artifacts:everlasting_rotten_flesh{display: {Lore: [\"Drop Chance: 0.04%\", \"Requires Player Kill\"]}}"
+            "raredrop1": "artifacts:everlasting_rotten_flesh{display: {Lore: [\"Drop Chance: 0.04%\", \"Requires Player Kill\"]}}",
+            "raredrop2": "thaumcraft:brain{display: {Lore: [\"Drop Chance: 10%\", \"Affected by Looting\"]}}"
         },
         {
             "type": "ritual",

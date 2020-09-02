@@ -1,0 +1,38 @@
+{
+    "name": "Zombie",
+    "icon": "minecraft:spawn_egg{EntityTag: {id: \"minecraft:zombie\"}}",
+    "category": "collected_knowledge/mobs",
+    "advancement": "heavens:bookchap2/13raidloot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "The $(thing)Misty World$() is a dangerous place, and the $(thingMist$() tends to not let things stay dead, which explains the shambling $(thing)Zombies$() commonly encountered throughout the islands at night."
+        },
+        {
+            "type": "mob_drops",
+            "name": "Zombie",
+            "mob": "minecraft:zombie",
+            "drop1": "minecraft:rotten_flesh{display: {Lore: [\"Drops: 0-1\", \"Affected by Looting\", \"Unaffected by Cutting Skill\"]}}",
+            "drop2": "thaumcraft:brain{display: {Lore: [\"Drop Chance: 10%\", \"Affected by Looting\"]}}",
+            "raredrop1": "artifacts:everlasting_rotten_flesh{display: {Lore: [\"Drop Chance: 0.04%\", \"Requires Player Kill\"]}}",
+            "raredrop2": "minecraft:iron_ingot{display: {Lore: [\"Drops: 0-1\", \"Drop Chance: 2.5%\", \"Affected by Looting\", \"Requires Player Kill\"]}}",
+            "raredrop3": "minecraft:carrot{display: {Lore: [\"Drops: 0-1\", \"Drop Chance: 2.5%\", \"Affected by Looting\", \"Requires Player Kill\"]}}",
+            "raredrop4": "minecraft:potato{display: {Lore: [\"Drops: 0-1\", \"Drop Chance: 2.5%\", \"Affected by Looting\", \"Requires Player Kill\"]}}"
+        },
+        {
+            "type": "ritual",
+            "heading": "Conjure Zombie",
+            "item1": "arcaneworld:amethyst",
+            "item2": "minecraft:rotten_flesh",
+            "item3": "minecraft:bone",
+            "output_item": "minecraft:spawn_egg{EntityTag:{id:\"minecraft:zombie\"}}",
+            "description": "Summon a Zombie at the Ritual Altar"
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "dimension_dossier/misty_world"
+            ]
+        }
+    ]
+}
