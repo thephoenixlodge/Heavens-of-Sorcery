@@ -530,3 +530,4 @@ for output in basaltOutputsToChange {
 //remove a couple of Arcane World rituals
 ArcaneWorld.remove("arcaneworld:ritual_scroll");
 ArcaneWorld.remove("arcaneworld:create_biome_crystal");
+ArcaneWorld.remove("arcaneworld:create_glowing_chorus");
