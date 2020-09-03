@@ -1,0 +1,27 @@
+{
+    "name": "Wulder",
+    "icon": "minecraft:spawn_egg{EntityTag: {id: \"mist:wulder\"}}",
+    "category": "collected_knowledge/mobs",
+    "advancement": "heavens:bookchap2/13raidloot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "The passive creatures known as $(thing)Wulders$() wander the $(thing)Snowy Islands$() of the $(thing)Misty World$().$(br2)Killing a $(thing)Wulder$() grants 2 $(thing)Cutting$() experience.$(br2)They can be tamed and bred using $(item)Snow Tree Saplings$(), requiring $(thing)Taming level 3$(). Once tamed, they can be sheared, milked, and ridden when equipped with a saddle."
+        },
+        {
+            "type": "mob_drops",
+            "name": "Wulder",
+            "mob": "mist:wulder",
+            "drop1": "mist:meat_food:6{display: {Lore: [\"Drops: 0-1\", \"Affected by Looting\", \"Affected by Cutting Skill\", \"Cooks if killed while on Fire\"]}}",
+            "drop2": "minecraft:leather{display: {Lore: [\"Drops: 0-1\", \"Affected by Looting\", \"Affected by Cutting Skill\"]}}",
+            "drop3": "minecraft:bone{display: {Lore: [\"Drops: 0-3\", \"Affected by Looting\", \"Affected by Cutting Skill\"]}}",
+            "drop4": "minecraft:wool:12{display: {Lore: [\"Drops: 1\"]}}"
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "dimension_dossier/misty_world"
+            ]
+        }
+    ]
+}

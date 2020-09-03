@@ -51,7 +51,7 @@
 		},
 		{
 			"type": "item",
-			"item": "#drop3",
+			"item": "#drop4",
 			"framed": "true",
 			"link_recipe": "true",
 			"guard": "#drop1->iexists",
@@ -104,6 +104,7 @@
 		{
 			"type": "text",
 			"text": "Hover over items for more info on drop rates/conditions",
+			"guard": "#drop1->iexists",
 			"x": 2,
 			"y": 120
 		}

@@ -51,7 +51,7 @@
 		},
 		{
 			"type": "item",
-			"item": "#drop3",
+			"item": "#drop4",
 			"framed": "true",
 			"link_recipe": "true",
 			"guard": "#drop1->iexists",

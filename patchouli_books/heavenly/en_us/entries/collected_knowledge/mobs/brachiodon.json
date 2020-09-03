@@ -1,0 +1,27 @@
+{
+    "name": "Brachiodon",
+    "icon": "minecraft:spawn_egg{EntityTag: {id: \"mist:brachiodon\"}}",
+    "category": "collected_knowledge/mobs",
+    "advancement": "heavens:bookchap2/13raidloot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(thing)Brachiodons$() wander the $(thing)Snowy Islands$() of the $(thing)Misty World$(). These normally passive creatures don't appreciate being attacked, and will retaliate.$(br2)Killing a $(thing)Brachiodon$() grants 3 $(thing)Cutting$() experience.$(br2)They can be tamed and bred using $(item)Black Mushrooms$() and $(item)Spotted Mushrooms$(), requiring $(thing)Taming level 4$()."
+        },
+        {
+            "type": "mob_drops",
+            "name": "Brachiodon",
+            "mob": "mist:brachiodon",
+            "drop1": "mist:meat_food:13{display: {Lore: [\"Drops: 0-2\", \"Affected by Looting\", \"Affected by Cutting Skill\", \"Cooks if killed while on Fire\"]}}",
+            "drop2": "minecraft:leather{display: {Lore: [\"Drops: 0-1\", \"Affected by Looting\", \"Affected by Cutting Skill\"]}}",
+            "drop3": "minecraft:bone{display: {Lore: [\"Drops: 0-3\", \"Affected by Looting\", \"Affected by Cutting Skill\"]}}",
+            "drop4": "bewitchment:tallow{display: {Lore: [\"Drops: 0-2\", \"Affected by Looting\", \"Affected by Cutting Skill\"]}}"
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "dimension_dossier/misty_world"
+            ]
+        }
+    ]
+}

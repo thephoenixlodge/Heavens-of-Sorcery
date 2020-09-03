@@ -1,0 +1,25 @@
+{
+    "name": "Prickler",
+    "icon": "minecraft:spawn_egg{EntityTag: {id: \"mist:prickler\"}}",
+    "category": "collected_knowledge/mobs",
+    "advancement": "heavens:bookchap2/13raidloot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(thing)Pricklers$() can be found in the $(thing)Snowy Islands$() of the $(thing)Misty World$().These normally passive creatures don't appreciate being attacked, and will retaliate, aided by their prickly spines.$(br2)Killing a $(thing)Prickler$() grants 1 $(thing)Cutting$() experience.$(br2)They can be tamed and bred using $(item)Lilac Mushrooms$(), requiring $(thing)Taming level 2$()."
+        },
+        {
+            "type": "mob_drops",
+            "name": "Prickler",
+            "mob": "mist:prickler",
+            "drop1": "mist:meat_food:4{display: {Lore: [\"Drops: 0-1\", \"Affected by Looting\", \"Affected by Cutting Skill\", \"Cooks if killed while on Fire\"]}}",
+            "drop2": "minecraft:bone{display: {Lore: [\"Drops: 0-3\", \"Affected by Looting\", \"Affected by Cutting Skill\"]}}"
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "dimension_dossier/misty_world"
+            ]
+        }
+    ]
+}

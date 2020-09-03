@@ -1,0 +1,23 @@
+{
+    "name": "Cyclops",
+    "icon": "minecraft:spawn_egg{EntityTag: {id: \"mist:cyclops\"}}",
+    "category": "collected_knowledge/mobs",
+    "advancement": "heavens:bookchap2/13raidloot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Horrible bugs called $(thing)Cyclops$() can be found on the $(thing)Desert/Savannah Islands$() of the $(thing)Misty World$(). These are hostile, and will attack people on sight."
+        },
+        {
+            "type": "mob_drops",
+            "name": "Cyclops",
+            "mob": "mist:cyclops"
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "dimension_dossier/misty_world"
+            ]
+        }
+    ]
+}

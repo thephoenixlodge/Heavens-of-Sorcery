@@ -6,7 +6,7 @@
     "pages": [
         {
             "type": "text",
-            "text": "The $(thing)Misty World$() is a dangerous place, and the $(thingMist$() tends to not let things stay dead, which explains the shambling $(thing)Zombies$() commonly encountered throughout the islands at night."
+            "text": "The $(thing)Misty World$() is a dangerous place, and the $(thing)Mist$() tends to not let things stay dead, which explains the shambling $(thing)Zombies$() commonly encountered throughout the islands at night."
         },
         {
             "type": "mob_drops",

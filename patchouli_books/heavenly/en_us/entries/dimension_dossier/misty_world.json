@@ -67,15 +67,27 @@
             "type": "relations",
             "title": "Creatures",
             "entries": [
-                "collected_knowledge/mobs/fox",
-                "collected_knowledge/mobs/rabbit",
-                "collected_knowledge/mobs/deer",
-                "collected_knowledge/mobs/skeleton",
-                "collected_knowledge/mobs/creeper",
-                "collected_knowledge/mobs/spider",
+                "collected_knowledge/mobs/barvog",
+                "collected_knowledge/mobs/brachiodon",
+                "collected_knowledge/mobs/caravan",
                 "collected_knowledge/mobs/cave_spider",
-                "collected_knowledge/mobs/zombie",
-                "collected_knowledge/mobs/enderman"
+                "collected_knowledge/mobs/creeper",
+                "collected_knowledge/mobs/cyclops",
+                "collected_knowledge/mobs/deer",
+                "collected_knowledge/mobs/enderman",
+                "collected_knowledge/mobs/fox",
+                "collected_knowledge/mobs/prickler",
+                "collected_knowledge/mobs/rabbit",
+                "collected_knowledge/mobs/skeleton"
+            ]
+        },
+        {
+            "type": "relations",
+            "title": "Creatures",
+            "entries": [
+                "collected_knowledge/mobs/spider",
+                "collected_knowledge/mobs/wulder",
+                "collected_knowledge/mobs/zombie"
             ]
         },
         {
