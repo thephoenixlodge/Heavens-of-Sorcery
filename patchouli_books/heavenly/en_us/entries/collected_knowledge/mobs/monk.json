@@ -1,0 +1,27 @@
+{
+    "name": "Monk",
+    "icon": "minecraft:spawn_egg{EntityTag: {id: \"mist:monk\"}}",
+    "category": "collected_knowledge/mobs",
+    "advancement": "heavens:bookchap2/13raidloot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(thing)Monks$() are a large creature found on the $(thing)Forests$() of the $(thing)Misty World$().Despite the dopey appearance, they are aggressive.$(br2)Killing a $(thing)Caravan$() grants 2 $(thing)Cutting$() experience.$(br2)They can be tamed and bred using any $(item)Meat$(), requiring $(thing)Taming level 6$(). Once tamed, they can be ridden with a $(item)Saddle$() and carry a chest."
+        },
+        {
+            "type": "mob_drops",
+            "name": "Monk",
+            "mob": "mist:monk",
+            "drop1": "mist:meat_food:10{display: {Lore: [\"Drops: 0-1\", \"Affected by Looting\", \"Affected by Cutting Skill\", \"Cooks if killed while on Fire\"]}}",
+            "drop2": "minecraft:leather{display: {Lore: [\"Drops: 0-1\", \"Affected by Looting\", \"Affected by Cutting Skill\"]}}",
+            "drop3": "minecraft:bone{display: {Lore: [\"Drops: 0-3\", \"Affected by Looting\", \"Affected by Cutting Skill\"]}}",
+            "drop4": "bewitchment:tallow{display: {Lore: [\"Drops: 0-1\", \"Affected by Looting\", \"Affected by Cutting Skill\"]}}"
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "dimension_dossier/misty_world"
+            ]
+        }
+    ]
+}

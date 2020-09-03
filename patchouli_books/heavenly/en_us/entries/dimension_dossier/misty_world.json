@@ -75,16 +75,22 @@
                 "collected_knowledge/mobs/cyclops",
                 "collected_knowledge/mobs/deer",
                 "collected_knowledge/mobs/enderman",
+                "collected_knowledge/mobs/forest_runner",
+                "collected_knowledge/mobs/forest_spider",
                 "collected_knowledge/mobs/fox",
-                "collected_knowledge/mobs/prickler",
-                "collected_knowledge/mobs/rabbit",
-                "collected_knowledge/mobs/skeleton"
+                "collected_knowledge/mobs/horb"
             ]
         },
         {
             "type": "relations",
             "title": "Creatures",
             "entries": [
+                "collected_knowledge/mobs/momo",
+                "collected_knowledge/mobs/monk",
+                "collected_knowledge/mobs/prickler",
+                "collected_knowledge/mobs/rabbit",
+                "collected_knowledge/mobs/skeleton",
+                "collected_knowledge/mobs/snow_flea",
                 "collected_knowledge/mobs/spider",
                 "collected_knowledge/mobs/wulder",
                 "collected_knowledge/mobs/zombie"

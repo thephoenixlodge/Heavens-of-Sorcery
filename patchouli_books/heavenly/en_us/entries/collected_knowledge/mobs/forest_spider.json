@@ -1,0 +1,24 @@
+{
+    "name": "Forest Spider",
+    "icon": "minecraft:spawn_egg{EntityTag: {id: \"mist:forest_spider\"}}",
+    "category": "collected_knowledge/mobs",
+    "advancement": "heavens:bookchap2/13raidloot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "I hope you aren't arachnophobic, as the $(thing)Misty World$() is home to a few varieties of Hostile Giant $(thing)Spiders$(). This variety is only found on the $(thing)Forest/Meadow Islands$() and has a smaller body relative to the length of its legs.$(br2)Like other varieties, it will attack humans at night, but is more docile during the day."
+        },
+        {
+            "type": "mob_drops_large_mob",
+            "name": "Forest Spider",
+            "mob": "mist:forest_spider",
+            "drop1": "minecraft:string{display: {Lore: [\"Drops: 0-2\", \"Affected by Looting\", \"Unaffected by Cutting Skill\"]}}"
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "dimension_dossier/misty_world"
+            ]
+        }
+    ]
+}

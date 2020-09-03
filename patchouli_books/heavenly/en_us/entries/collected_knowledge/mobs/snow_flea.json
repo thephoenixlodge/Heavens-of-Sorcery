@@ -1,0 +1,24 @@
+{
+    "name": "Snow Flea",
+    "icon": "minecraft:spawn_egg{EntityTag: {id: \"mist:snow_flea\"}}",
+    "category": "collected_knowledge/mobs",
+    "advancement": "heavens:bookchap2/13raidloot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Hostile little ankle-biters known as $(thing)Snow Fleas$() inhabit the $(thing)Snowy Islands$() of the $(thing)Misty World$(). These creatures are aggressive, and will attack any humans they see."
+        },
+        {
+            "type": "mob_drops",
+            "name": "Snow Flea",
+            "mob": "mist:snow_flea",
+            "drop1": "mist:wing{display: {Lore: [\"Drops Chance: 16.7%\"]}}"
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "dimension_dossier/misty_world"
+            ]
+        }
+    ]
+}

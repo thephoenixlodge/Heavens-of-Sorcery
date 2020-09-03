@@ -1,0 +1,27 @@
+{
+    "name": "Forest Runner",
+    "icon": "minecraft:spawn_egg{EntityTag: {id: \"mist:forest_runner\"}}",
+    "category": "collected_knowledge/mobs",
+    "advancement": "heavens:bookchap2/13raidloot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(thing)Forest Runners$() are a timid creature found on the $(thing)Forest/Meadow Islands$() of the $(thing)Misty World$(), with a tendency to flee any human they encounter.$(br2)Killing a $(thing)Forest Runner$() grants 1 $(thing)Cutting$() experience.$(br2)They can be tamed and bred using $(item)Forest Deceiver Saplings$(), requiring $(thing)Taming level 2$(). Once tamed, they can be milked."
+        },
+        {
+            "type": "mob_drops",
+            "name": "Forest Runner",
+            "mob": "mist:forest_runner",
+            "drop1": "mist:meat_food:1{display: {Lore: [\"Drops: 0-1\", \"Affected by Looting\", \"Affected by Cutting Skill\", \"Cooks if killed while on Fire\"]}}",
+            "drop2": "minecraft:leather{display: {Lore: [\"Drops: 0-1\", \"Affected by Looting\", \"Affected by Cutting Skill\"]}}",
+            "drop3": "minecraft:bone{display: {Lore: [\"Drops: 0-3\", \"Affected by Looting\", \"Affected by Cutting Skill\"]}}",
+            "raredrop1": "mist:tree_sapling:3{display: {Lore: [\"Drops: 0-1\", \"Drop Chance: 25%\", \"Affected by Looting\"]}}"
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "dimension_dossier/misty_world"
+            ]
+        }
+    ]
+}
