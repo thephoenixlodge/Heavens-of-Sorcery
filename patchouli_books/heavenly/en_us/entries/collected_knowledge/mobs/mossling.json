@@ -1,0 +1,29 @@
+{
+    "name": "Mossling",
+    "icon": "minecraft:spawn_egg{EntityTag: {id: \"mist:mossling\"}}",
+    "category": "collected_knowledge/mobs",
+    "advancement": "heavens:bookchap2/13raidloot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Timid $(thing)Mosslings$() roam the $(thing)Swamp Islands$() of the $(thing)Misty World$().$(br2)Killing a $(thing)Mossling$() grants 1 $(thing)Cutting$() experience.$(br2)They can be tamed and bred using $(item)Pink Mushrooms$() and $(item)Marsh Mushrooms$(), requiring $(thing)Taming level 2$(). Once tamed, they can be sheared, and ridden using a $(item)Saddle$() and $(thing)Pink/Marsh Mushroom on a Stick$()."
+        },
+        {
+            "type": "mob_drops_large_mob",
+            "name": "Mossling",
+            "mob": "mist:mossling",
+            "drop1": "mist:meat_food:0{display: {Lore: [\"Drops: 0-1\", \"Affected by Looting\", \"Affected by Cutting Skill\", \"Cooks if killed while on Fire\"]}}",
+            "drop2": "minecraft:leather{display: {Lore: [\"Drops: 0-1\", \"Affected by Looting\", \"Affected by Cutting Skill\"]}}",
+            "drop3": "minecraft:bone{display: {Lore: [\"Drops: 0-3\", \"Affected by Looting\", \"Affected by Cutting Skill\"]}}",
+            "raredrop1": "minecraft:wool:13{display: {Lore: [\"Drops: 0-1\", \"Affected by Cutting Skill\", \"Colour can be affected by Albinism\"]}}",
+            "raredrop2": "mist:mushrooms_food:9{display: {Lore: [\"Drops: 0-1\", \"Drop Chance: 25%\", \"Affected by Looting\"]}}",
+            "raredrop3": "mist:mushrooms_food:10{display: {Lore: [\"Drops: 0-1\", \"Drop Chance: 25%\", \"Affected by Looting\"]}}"
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "dimension_dossier/misty_world"
+            ]
+        }
+    ]
+}

@@ -6,7 +6,7 @@
     "pages": [
         {
             "type": "text",
-            "text": "$(thing)Monks$() are a large creature found on the $(thing)Forests$() of the $(thing)Misty World$().Despite the dopey appearance, they are aggressive.$(br2)Killing a $(thing)Caravan$() grants 2 $(thing)Cutting$() experience.$(br2)They can be tamed and bred using any $(item)Meat$(), requiring $(thing)Taming level 6$(). Once tamed, they can be ridden with a $(item)Saddle$() and carry a chest."
+            "text": "$(thing)Monks$() are a large creature found in the $(thing)Forests$() of the $(thing)Misty World$().Despite the dopey appearance, they are aggressive.$(br2)Killing a $(thing)Monk$() grants 2 $(thing)Cutting$() experience.$(br2)They can be tamed and bred using any $(item)Meat$(), requiring $(thing)Taming level 6$(). Once tamed, they can be ridden with a $(item)Saddle$() and carry a chest."
         },
         {
             "type": "mob_drops",

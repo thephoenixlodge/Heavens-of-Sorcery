@@ -6,7 +6,7 @@
     "pages": [
         {
             "type": "text",
-            "text": "$(thing)Horbs$() are a large, yet timid creature found in the $(thing)Forests$() of the $(thing)Misty World$(), with a tendency to flee any human they encounter.$(br2)Killing a $(thing)Forest Runner$() grants 2 $(thing)Cutting$() experience.$(br2)They can be tamed and bred using $(item)Red Mushrooms$() and $(item)Orange Mushrooms$(), requiring $(thing)Taming level 2$()."
+            "text": "$(thing)Horbs$() are a large, yet timid creature found in the $(thing)Forests$() of the $(thing)Misty World$(), with a tendency to flee any human they encounter.$(br2)Killing a $(thing)Horb$() grants 2 $(thing)Cutting$() experience.$(br2)They can be tamed and bred using $(item)Red Mushrooms$() and $(item)Orange Mushrooms$(), requiring $(thing)Taming level 2$()."
         },
         {
             "type": "mob_drops",

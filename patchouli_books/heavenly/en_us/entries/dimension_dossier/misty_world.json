@@ -85,14 +85,24 @@
             "type": "relations",
             "title": "Creatures",
             "entries": [
+                "collected_knowledge/mobs/hulter",
                 "collected_knowledge/mobs/momo",
                 "collected_knowledge/mobs/monk",
+                "collected_knowledge/mobs/mossling",
                 "collected_knowledge/mobs/prickler",
                 "collected_knowledge/mobs/rabbit",
                 "collected_knowledge/mobs/skeleton",
+                "collected_knowledge/mobs/sniff",
                 "collected_knowledge/mobs/snow_flea",
                 "collected_knowledge/mobs/spider",
-                "collected_knowledge/mobs/wulder",
+                "collected_knowledge/mobs/tropic_woodlouse",
+                "collected_knowledge/mobs/wulder"
+            ]
+        },
+        {
+            "type": "relations",
+            "title": "Creatures",
+            "entries": [
                 "collected_knowledge/mobs/zombie"
             ]
         },

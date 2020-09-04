@@ -1,0 +1,25 @@
+{
+    "name": "Hulter",
+    "icon": "minecraft:spawn_egg{EntityTag: {id: \"mist:hulter\"}}",
+    "category": "collected_knowledge/mobs",
+    "advancement": "heavens:bookchap2/13raidloot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "The ape-like $(thing)Hulters$() are a large carnivorous creature found on the $(thing)Tropic Islands$() of the $(thing)Misty World$(). They are aggressive, attacking people on sight.$(br2)Killing a $(thing)Hulter$() grants 1 $(thing)Cutting$() experience.$(br2)They can be tamed and bred using any $(item)Meat$(), requiring $(thing)Taming level 4$()."
+        },
+        {
+            "type": "mob_drops",
+            "name": "Hulter",
+            "mob": "mist:hulter",
+            "drop1": "mist:meat_food:12{display: {Lore: [\"Drops: 0-1\", \"Affected by Looting\", \"Affected by Cutting Skill\", \"Cooks if killed while on Fire\"]}}",
+            "drop2": "minecraft:bone{display: {Lore: [\"Drops: 0-3\", \"Affected by Looting\", \"Affected by Cutting Skill\"]}}"
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "dimension_dossier/misty_world"
+            ]
+        }
+    ]
+}
