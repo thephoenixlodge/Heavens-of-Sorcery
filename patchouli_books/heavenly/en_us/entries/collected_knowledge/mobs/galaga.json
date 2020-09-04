@@ -1,0 +1,26 @@
+{
+    "name": "Galaga",
+    "icon": "minecraft:spawn_egg{EntityTag: {id: \"mist:galaga\"}}",
+    "category": "collected_knowledge/mobs",
+    "advancement": "heavens:bookchap2/13raidloot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(thing)Galagas$() roam the $(thing)Swamp Islands$() of the $(thing)Misty World$().These large creatures are aggressive, and have a $(thing)Poisonous$() bite, damaging and slowing their prey.$(br2)Killing a $(thing)Galaga$() grants 1 $(thing)Cutting$() experience.$(br2)They can be tamed and bred using any $(item)Meat$(), requiring $(thing)Taming level 5$(). Once tamed, they can be $(item)Saddled$()."
+        },
+        {
+            "type": "mob_drops",
+            "name": "Galaga",
+            "mob": "mist:galaga",
+            "drop1": "mist:meat_food:11{display: {Lore: [\"Drops: 0-1\", \"Affected by Looting\", \"Affected by Cutting Skill\", \"Cooks if killed while on Fire\"]}}",
+            "drop3": "mist:rocks{display: {Lore: [\"Drops: 0-2\", \"Unaffected by Cutting Skill\"]}}",
+            "drop2": "minecraft:bone{display: {Lore: [\"Drops: 0-3\", \"Affected by Looting\", \"Affected by Cutting Skill\"]}}"
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "dimension_dossier/misty_world"
+            ]
+        }
+    ]
+}

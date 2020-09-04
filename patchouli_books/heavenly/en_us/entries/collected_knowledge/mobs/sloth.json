@@ -1,0 +1,28 @@
+{
+    "name": "Sloth",
+    "icon": "minecraft:spawn_egg{EntityTag: {id: \"mist:sloth\"}}",
+    "category": "collected_knowledge/mobs",
+    "advancement": "heavens:bookchap2/13raidloot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Large, aggressive creatures known as $(thing)Sloths$() roam the $(thing)Forests$() of the $(thing)Misty World's Swampy Islands$().$(br2)Killing a $(thing)Sloth$() grants 2 $(thing)Cutting$() experience.$(br2)They can be tamed and bred using $(item)Swampy Poplar Saplings$() and $(item)Weeping Tree Saplings$(), requiring $(thing)Taming level 3$()."
+        },
+        {
+            "type": "mob_drops",
+            "name": "Sloth",
+            "mob": "mist:sloth",
+            "drop1": "mist:meat_food:9{display: {Lore: [\"Drops: 0-1\", \"Affected by Looting\", \"Affected by Cutting Skill\", \"Cooks if killed while on Fire\"]}}",
+            "drop2": "minecraft:bone{display: {Lore: [\"Drops: 0-3\", \"Affected by Looting\", \"Affected by Cutting Skill\"]}}",
+            "drop3": "bewitchment:tallow{display: {Lore: [\"Drops: 0-1\", \"Affected by Looting\", \"Affected by Cutting Skill\"]}}",
+            "raredrop1": "mist:tree_sapling:11{display: {Lore: [\"Drops: 0-1\", \"Drop Chance: 25%\", \"Affected by Looting\"]}}",
+            "raredrop2": "mist:tree_sapling:6{display: {Lore: [\"Drops: 0-1\", \"Drop Chance: 25%\", \"Affected by Looting\"]}}"
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "dimension_dossier/misty_world"
+            ]
+        }
+    ]
+}

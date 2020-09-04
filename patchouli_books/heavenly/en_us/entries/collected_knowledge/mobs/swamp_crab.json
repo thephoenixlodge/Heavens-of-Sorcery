@@ -1,0 +1,24 @@
+{
+    "name": "Swamp Crab",
+    "icon": "minecraft:spawn_egg{EntityTag: {id: \"mist:swamp_crab\"}}",
+    "category": "collected_knowledge/mobs",
+    "advancement": "heavens:bookchap2/13raidloot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Hostile little ankle-biters known as $(thing)Swamp Crabs$() inhabit the $(thing)Swampy Islands$() of the $(thing)Misty World$(). These creatures are aggressive, and will attack any humans they see."
+        },
+        {
+            "type": "mob_drops",
+            "name": "Swamp Crab",
+            "mob": "mist:swamp_crab",
+            "drop1": "mist:sapropel_ball{display: {Lore: [\"Drop Chance: 16.7%\"]}}"
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "dimension_dossier/misty_world"
+            ]
+        }
+    ]
+}

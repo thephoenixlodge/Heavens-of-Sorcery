@@ -78,13 +78,14 @@
                 "collected_knowledge/mobs/forest_runner",
                 "collected_knowledge/mobs/forest_spider",
                 "collected_knowledge/mobs/fox",
-                "collected_knowledge/mobs/horb"
+                "collected_knowledge/mobs/galaga"
             ]
         },
         {
             "type": "relations",
             "title": "Creatures",
             "entries": [
+                "collected_knowledge/mobs/horb",
                 "collected_knowledge/mobs/hulter",
                 "collected_knowledge/mobs/momo",
                 "collected_knowledge/mobs/monk",
@@ -92,17 +93,19 @@
                 "collected_knowledge/mobs/prickler",
                 "collected_knowledge/mobs/rabbit",
                 "collected_knowledge/mobs/skeleton",
+                "collected_knowledge/mobs/sloth",
                 "collected_knowledge/mobs/sniff",
                 "collected_knowledge/mobs/snow_flea",
-                "collected_knowledge/mobs/spider",
-                "collected_knowledge/mobs/tropic_woodlouse",
-                "collected_knowledge/mobs/wulder"
+                "collected_knowledge/mobs/spider"
             ]
         },
         {
             "type": "relations",
             "title": "Creatures",
             "entries": [
+                "collected_knowledge/mobs/swamp_crab",
+                "collected_knowledge/mobs/tropic_woodlouse",
+                "collected_knowledge/mobs/wulder",
                 "collected_knowledge/mobs/zombie"
             ]
         },

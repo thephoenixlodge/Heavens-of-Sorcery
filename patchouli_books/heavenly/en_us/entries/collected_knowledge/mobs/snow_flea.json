@@ -12,7 +12,7 @@
             "type": "mob_drops",
             "name": "Snow Flea",
             "mob": "mist:snow_flea",
-            "drop1": "mist:wing{display: {Lore: [\"Drops Chance: 16.7%\"]}}"
+            "drop1": "mist:wing{display: {Lore: [\"Drop Chance: 16.7%\"]}}"
         },
         {
             "type": "relations",
