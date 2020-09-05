@@ -6,7 +6,7 @@
     "pages": [
         {
             "type": "text",
-            "text": "Horrible bugs called $(thing)Cyclops$() can be found on the $(thing)Desert/Savannah Islands$() of the $(thing)Misty World$(). These are hostile, and will attack people on sight."
+            "text": "Horrible bugs called $(thing)Cyclops$() can be found on the $(thing)Desert/Savannah Zones$() of the $(thing)Misty World$(). These are hostile, and will attack people on sight."
         },
         {
             "type": "mob_drops",

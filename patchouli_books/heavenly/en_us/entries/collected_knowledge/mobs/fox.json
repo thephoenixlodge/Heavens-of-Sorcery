@@ -6,7 +6,7 @@
     "pages": [
         {
             "type": "text",
-            "text": "$(thing)Foxes$() are a common, passive creature found across all the $(thing)Islands$() of the $(thing)Misty World$(), where they hunt $(thing)Rabbits$().$(br2)Killing a $(thing)Fox$() grants 1 $(thing)Cutting$() experience.$(br2)They can be $(thing)Tamed$() and bred by feeding them $(item)Apples$(). Tame $(thing)Foxes$() will fight alongside their master."
+            "text": "$(thing)Foxes$() are a common, passive creature found across all the $(thing)Climate Zones$() of the $(thing)Misty World$(), where they hunt $(thing)Rabbits$().$(br2)Killing a $(thing)Fox$() grants 1 $(thing)Cutting$() experience.$(br2)They can be $(thing)Tamed$() and bred by feeding them $(item)Apples$(). Tame $(thing)Foxes$() will fight alongside their master."
         },
         {
             "type": "mob_drops",

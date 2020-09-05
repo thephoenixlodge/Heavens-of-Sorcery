@@ -6,7 +6,7 @@
     "pages": [
         {
             "type": "text",
-            "text": "These reanimated bags of bones stalk the halls of $(thing)Nether Fortresses$() and the islands of the $(thing)Misty World$(). They are Hostile, and will attack from range with their $(item)Bows$()."
+            "text": "These reanimated bags of bones stalk the halls of $(thing)Nether Fortresses$() and all the $(thing)Climate Zones$() of the $(thing)Misty World$(). They are Hostile, and will attack from range with their $(item)Bows$()."
         },
         {
             "type": "mob_drops",

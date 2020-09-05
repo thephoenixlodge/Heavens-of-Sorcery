@@ -6,7 +6,7 @@
     "pages": [
         {
             "type": "text",
-            "text": "$(thing)Forest Runners$() are a timid creature found on the $(thing)Forest/Meadow Islands$() of the $(thing)Misty World$(), with a tendency to flee any human they encounter.$(br2)Killing a $(thing)Forest Runner$() grants 1 $(thing)Cutting$() experience.$(br2)They can be tamed and bred using $(item)Forest Deceiver Saplings$(), requiring $(thing)Taming level 2$(). Once tamed, they can be milked."
+            "text": "$(thing)Forest Runners$() are a timid creature found on the $(thing)Forest/Meadow Zones$() of the $(thing)Misty World$(), with a tendency to flee any human they encounter.$(br2)Killing a $(thing)Forest Runner$() grants 1 $(thing)Cutting$() experience.$(br2)They can be tamed and bred using $(item)Forest Deceiver Saplings$(), requiring $(thing)Taming level 2$(). Once tamed, they can be milked."
         },
         {
             "type": "mob_drops",

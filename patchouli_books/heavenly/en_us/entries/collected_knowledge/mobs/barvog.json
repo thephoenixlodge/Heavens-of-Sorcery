@@ -6,7 +6,7 @@
     "pages": [
         {
             "type": "text",
-            "text": "$(thing)Barvogs$() wander the $(thing)Desert/Savannah Islands$() of the $(thing)Misty World$(). They are passive, but retaliate if attacked.$(br2)Killing a $(thing)Barvog$() grants 1 $(thing)Cutting$() experience.$(br2)They can be tamed and bred using $(item)Sand Mushrooms$() and $(item)Tan Mushrooms$(), requiring $(thing)Taming level 3$(). Once tamed, they can be ridden using a $(item)Saddle$() and $(thing)Tan/Sand Mushroom on a Stick$()."
+            "text": "$(thing)Barvogs$() wander the $(thing)Desert/Savannah Zones$() of the $(thing)Misty World$(). They are passive, but retaliate if attacked.$(br2)Killing a $(thing)Barvog$() grants 1 $(thing)Cutting$() experience.$(br2)They can be tamed and bred using $(item)Sand Mushrooms$() and $(item)Tan Mushrooms$(), requiring $(thing)Taming level 3$(). Once tamed, they can be ridden using a $(item)Saddle$() and $(thing)Tan/Sand Mushroom on a Stick$()."
         },
         {
             "type": "mob_drops",

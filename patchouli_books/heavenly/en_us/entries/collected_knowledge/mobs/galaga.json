@@ -6,7 +6,7 @@
     "pages": [
         {
             "type": "text",
-            "text": "$(thing)Galagas$() roam the $(thing)Swamp Islands$() of the $(thing)Misty World$().These large creatures are aggressive, and have a $(thing)Poisonous$() bite, damaging and slowing their prey.$(br2)Killing a $(thing)Galaga$() grants 1 $(thing)Cutting$() experience.$(br2)They can be tamed and bred using any $(item)Meat$(), requiring $(thing)Taming level 5$(). Once tamed, they can be $(item)Saddled$()."
+            "text": "$(thing)Galagas$() roam the $(thing)Swamp Zones$() of the $(thing)Misty World$().These large creatures are aggressive, and have a $(thing)Poisonous$() bite, damaging and slowing their prey.$(br2)Killing a $(thing)Galaga$() grants 1 $(thing)Cutting$() experience.$(br2)They can be tamed and bred using any $(item)Meat$(), requiring $(thing)Taming level 5$(). Once tamed, they can be $(item)Saddled$()."
         },
         {
             "type": "mob_drops",

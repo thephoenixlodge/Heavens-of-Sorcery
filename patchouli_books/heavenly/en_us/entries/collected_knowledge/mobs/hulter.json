@@ -6,7 +6,7 @@
     "pages": [
         {
             "type": "text",
-            "text": "The ape-like $(thing)Hulters$() are a large carnivorous creature found on the $(thing)Tropic Islands$() of the $(thing)Misty World$(). They are aggressive, attacking people on sight.$(br2)Killing a $(thing)Hulter$() grants 1 $(thing)Cutting$() experience.$(br2)They can be tamed and bred using any $(item)Meat$(), requiring $(thing)Taming level 4$()."
+            "text": "The ape-like $(thing)Hulters$() are a large carnivorous creature found on the $(thing)Tropic Zones$() of the $(thing)Misty World$(). They are aggressive, attacking people on sight.$(br2)Killing a $(thing)Hulter$() grants 1 $(thing)Cutting$() experience.$(br2)They can be tamed and bred using any $(item)Meat$(), requiring $(thing)Taming level 4$()."
         },
         {
             "type": "mob_drops",

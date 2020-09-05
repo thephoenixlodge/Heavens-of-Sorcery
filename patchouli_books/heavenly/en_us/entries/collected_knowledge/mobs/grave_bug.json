@@ -1,0 +1,24 @@
+{
+    "name": "Grave Bug",
+    "icon": "minecraft:spawn_egg{EntityTag: {id: \"mist:grave_bug\"}}",
+    "category": "collected_knowledge/mobs",
+    "advancement": "heavens:bookchap2/13raidloot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Hostile little ankle-biters known as $(thing)Grave Bugs$() will occasionally be encountered when digging through $(item)Remains$() in $(thing)Tombs$() in the $(thing)Misty World$(). These creatures are aggressive, and will attack any humans they see."
+        },
+        {
+            "type": "mob_drops",
+            "name": "Grave Bug",
+            "mob": "mist:grave_bug",
+            "drop1": "mist:wing{display: {Lore: [\"Drops: 0-1\"]}}"
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "dimension_dossier/misty_world"
+            ]
+        }
+    ]
+}

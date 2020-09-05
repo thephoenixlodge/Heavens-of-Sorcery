@@ -6,7 +6,7 @@
     "pages": [
         {
             "type": "text",
-            "text": "$(thing)Rabbits$() are a common, passive creature found across all the $(thing)Islands$() of the $(thing)Misty World$(), where they are hunted by $(thing)Foxes$().$(br2)Killing a $(thing)Rabbit$() grants 1 $(thing)Cutting$() experience. "
+            "text": "$(thing)Rabbits$() are a common, passive creature found across all the $(thing)Climate Zones$() of the $(thing)Misty World$(), where they are hunted by $(thing)Foxes$().$(br2)Killing a $(thing)Rabbit$() grants 1 $(thing)Cutting$() experience. "
         },
         {
             "type": "mob_drops",

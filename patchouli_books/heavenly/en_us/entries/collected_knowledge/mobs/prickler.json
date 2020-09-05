@@ -6,7 +6,7 @@
     "pages": [
         {
             "type": "text",
-            "text": "$(thing)Pricklers$() can be found in the $(thing)Snowy Islands$() of the $(thing)Misty World$(). These normally passive creatures don't appreciate being attacked, and will retaliate, aided by their prickly spines.$(br2)Killing a $(thing)Prickler$() grants 1 $(thing)Cutting$() experience.$(br2)They can be tamed and bred using $(item)Lilac Mushrooms$(), requiring $(thing)Taming level 2$()."
+            "text": "$(thing)Pricklers$() can be found in the $(thing)Snowy Zones$() of the $(thing)Misty World$(). These normally passive creatures don't appreciate being attacked, and will retaliate, aided by their prickly spines.$(br2)Killing a $(thing)Prickler$() grants 1 $(thing)Cutting$() experience.$(br2)They can be tamed and bred using $(item)Lilac Mushrooms$(), requiring $(thing)Taming level 2$()."
         },
         {
             "type": "mob_drops",

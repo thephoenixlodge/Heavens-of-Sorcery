@@ -6,7 +6,7 @@
     "pages": [
         {
             "type": "text",
-            "text": "The creatures dubbed \"$(thing)Creepers$()\" which wander the $(thing)Islands$() of the $(thing)Misty World$() at night, are well known for having more hostility than sense.$(br)They will attack humans indiscrimately, with the fatal flaw that their attacks are by way of suicidal explosion. Best to take care when ending their existence. Personally I like yelling \"Ok Boomer!\" at them."
+            "text": "The creatures dubbed \"$(thing)Creepers$()\" which wander the $(thing)Climate Zones$() of the $(thing)Misty World$() at night, are well known for having more hostility than sense.$(br)They will attack humans indiscrimately, with the fatal flaw that their attacks are by way of suicidal explosion. Best to take care when ending their existence. Personally I like yelling \"Ok Boomer!\" at them."
         },
         {
             "type": "mob_drops",

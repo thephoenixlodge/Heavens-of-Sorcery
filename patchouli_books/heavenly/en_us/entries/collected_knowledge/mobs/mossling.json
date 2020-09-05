@@ -6,7 +6,7 @@
     "pages": [
         {
             "type": "text",
-            "text": "Timid $(thing)Mosslings$() roam the $(thing)Swamp Islands$() of the $(thing)Misty World$().$(br2)Killing a $(thing)Mossling$() grants 1 $(thing)Cutting$() experience.$(br2)They can be tamed and bred using $(item)Pink Mushrooms$() and $(item)Marsh Mushrooms$(), requiring $(thing)Taming level 2$(). Once tamed, they can be sheared, and ridden using a $(item)Saddle$() and $(thing)Pink/Marsh Mushroom on a Stick$()."
+            "text": "Timid $(thing)Mosslings$() roam the $(thing)Swamp Zones$() of the $(thing)Misty World$().$(br2)Killing a $(thing)Mossling$() grants 1 $(thing)Cutting$() experience.$(br2)They can be tamed and bred using $(item)Pink Mushrooms$() and $(item)Marsh Mushrooms$(), requiring $(thing)Taming level 2$(). Once tamed, they can be sheared, and ridden using a $(item)Saddle$() and $(thing)Pink/Marsh Mushroom on a Stick$()."
         },
         {
             "type": "mob_drops_large_mob",

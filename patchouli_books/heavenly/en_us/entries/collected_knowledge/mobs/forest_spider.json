@@ -6,7 +6,7 @@
     "pages": [
         {
             "type": "text",
-            "text": "I hope you aren't arachnophobic, as the $(thing)Misty World$() is home to a few varieties of Hostile Giant $(thing)Spiders$(). This variety is only found on the $(thing)Forest/Meadow Islands$() and has a smaller body relative to the length of its legs.$(br2)Like other varieties, it will attack humans at night, but is more docile during the day."
+            "text": "I hope you aren't arachnophobic, as the $(thing)Misty World$() is home to a few varieties of Hostile Giant $(thing)Spiders$(). This variety is only found on the $(thing)Forest/Meadow Zones$() and has a smaller body relative to the length of its legs.$(br2)Like other varieties, it will attack humans at night, but is more docile during the day."
         },
         {
             "type": "mob_drops_large_mob",

@@ -1,0 +1,25 @@
+{
+    "name": "Wisp",
+    "icon": "thebetweenlands:wisp",
+    "category": "collected_knowledge/mobs",
+    "advancement": "heavens:bookchap2/13raidloot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Deep in the $(thing)Mist$(), there have been reports of strange lights guiding the unwary astray. My experience with them was a bit more shocking though, as they attacked me whenever I got near. Anyone claiming these made them get lost is just looking for excuses I say."
+        },
+        {
+            "type": "image",
+            "title": "Wisp",
+            "images": [
+                "books:templates/wisp.png"
+            ]
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "dimension_dossier/misty_world"
+            ]
+        }
+    ]
+}

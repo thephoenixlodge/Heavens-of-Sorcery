@@ -6,7 +6,7 @@
     "pages": [
         {
             "type": "text",
-            "text": "Large, aggressive creatures known as $(thing)Sloths$() roam the $(thing)Forests$() of the $(thing)Misty World's Swampy Islands$().$(br2)Killing a $(thing)Sloth$() grants 2 $(thing)Cutting$() experience.$(br2)They can be tamed and bred using $(item)Swampy Poplar Saplings$() and $(item)Weeping Tree Saplings$(), requiring $(thing)Taming level 3$()."
+            "text": "Large, aggressive creatures known as $(thing)Sloths$() roam the $(thing)Forests$() of the $(thing)Misty World's Swampy Zones$().$(br2)Killing a $(thing)Sloth$() grants 2 $(thing)Cutting$() experience.$(br2)They can be tamed and bred using $(item)Swampy Poplar Saplings$() and $(item)Weeping Tree Saplings$(), requiring $(thing)Taming level 3$()."
         },
         {
             "type": "mob_drops",

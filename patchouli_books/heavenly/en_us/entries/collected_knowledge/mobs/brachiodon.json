@@ -6,7 +6,7 @@
     "pages": [
         {
             "type": "text",
-            "text": "$(thing)Brachiodons$() wander the $(thing)Snowy Islands$() of the $(thing)Misty World$(). These normally passive creatures don't appreciate being attacked, and will retaliate.$(br2)Killing a $(thing)Brachiodon$() grants 3 $(thing)Cutting$() experience.$(br2)They can be tamed and bred using $(item)Black Mushrooms$() and $(item)Spotted Mushrooms$(), requiring $(thing)Taming level 4$()."
+            "text": "$(thing)Brachiodons$() wander the $(thing)Snowy Zones$() of the $(thing)Misty World$(). These normally passive creatures don't appreciate being attacked, and will retaliate.$(br2)Killing a $(thing)Brachiodon$() grants 3 $(thing)Cutting$() experience.$(br2)They can be tamed and bred using $(item)Black Mushrooms$() and $(item)Spotted Mushrooms$(), requiring $(thing)Taming level 4$()."
         },
         {
             "type": "mob_drops",

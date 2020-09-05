@@ -6,7 +6,7 @@
     "pages": [
         {
             "type": "text",
-            "text": "$(thing)Momos$() are timid creatures found on the $(thing)Tropic Islands$() of the $(thing)Misty World$(), with a tendency to flee from humans.$(br2)Killing a $(thing)Momo$() grants 1 $(thing)Cutting$() experience.$(br2)They can be tamed and bred using $(item)Cup Mushrooms$(), requiring $(thing)Taming level 1$(). Once tamed, they can be saddled and led using a $(item)Cup Mushroom on a Stick$()."
+            "text": "$(thing)Momos$() are timid creatures found on the $(thing)Tropic Zones$() of the $(thing)Misty World$(), with a tendency to flee from humans.$(br2)Killing a $(thing)Momo$() grants 1 $(thing)Cutting$() experience.$(br2)They can be tamed and bred using $(item)Cup Mushrooms$(), requiring $(thing)Taming level 1$(). Once tamed, they can be saddled and led using a $(item)Cup Mushroom on a Stick$()."
         },
         {
             "type": "mob_drops",

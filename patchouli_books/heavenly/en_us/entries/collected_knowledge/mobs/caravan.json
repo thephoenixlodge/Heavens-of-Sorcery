@@ -6,7 +6,7 @@
     "pages": [
         {
             "type": "text",
-            "text": "The passive creatures known as $(thing)Caravans$() wander the $(thing)Desert/Savannah Islands$() of the $(thing)Misty World$().$(br2)Killing a $(thing)Caravan$() grants 2 $(thing)Cutting$() experience.$(br2)They can be tamed and bred using $(item)Sand Mushrooms$() and $(item)Tan Mushrooms$(), requiring $(thing)Taming level 2$(). Once tamed, they can be milked."
+            "text": "The passive creatures known as $(thing)Caravans$() wander the $(thing)Desert/Savannah Zones$() of the $(thing)Misty World$().$(br2)Killing a $(thing)Caravan$() grants 2 $(thing)Cutting$() experience.$(br2)They can be tamed and bred using $(item)Sand Mushrooms$() and $(item)Tan Mushrooms$(), requiring $(thing)Taming level 2$(). Once tamed, they can be milked."
         },
         {
             "type": "mob_drops",

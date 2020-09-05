@@ -6,7 +6,7 @@
     "pages": [
         {
             "type": "text",
-            "text": "Hostile little ankle-biters known as $(thing)Tropic Woodlice$() inhabit the $(thing)Tropical Islands$() of the $(thing)Misty World$(). These creatures are aggressive, and will attack any humans they see."
+            "text": "Hostile little ankle-biters known as $(thing)Tropic Woodlice$() inhabit the $(thing)Tropical Zones$() of the $(thing)Misty World$(). These creatures are aggressive, and will attack any humans they see."
         },
         {
             "type": "mob_drops",

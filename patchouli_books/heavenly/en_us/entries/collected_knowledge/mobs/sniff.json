@@ -6,7 +6,7 @@
     "pages": [
         {
             "type": "text",
-            "text": "Large $(thing)Sniffs$() roam the $(thing)Tropical Islands$() of the $(thing)Misty World$().$(br2)Killing a $(thing)Sniff$() grants 2 $(thing)Cutting$() experience.$(br2)They can be tamed and bred using $(item)Purple Mushrooms$(), requiring $(thing)Taming level 3$()."
+            "text": "Large $(thing)Sniffs$() roam the $(thing)Tropical Zones$() of the $(thing)Misty World$().$(br2)Killing a $(thing)Sniff$() grants 2 $(thing)Cutting$() experience.$(br2)They can be tamed and bred using $(item)Purple Mushrooms$(), requiring $(thing)Taming level 3$()."
         },
         {
             "type": "mob_drops",

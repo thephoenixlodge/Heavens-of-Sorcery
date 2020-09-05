@@ -1,0 +1,25 @@
+{
+    "name": "Ghost",
+    "icon": "minecraft:spawn_egg{EntityTag: {id: \"bewitchment:ghost\"}}",
+    "category": "collected_knowledge/mobs",
+    "advancement": "heavens:bookchap2/13raidloot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Deep in the $(thing)Mist$(), the $(thing)Ghosts$() of those lost to the $(thing)Mist$() still linger, attacking those who ventrure there, as they are attracted to life energy."
+        },
+        {
+            "type": "mob_drops",
+            "name": "Ghost",
+            "mob": "bewitchment:ghost",
+            "drop1": "bewitchment:ectoplasm{display: {Lore: [\"Drops: 0-1\", \"Affected by Looting\"]}}",
+            "drop2": "bewitchment:spectral_dust{display: {Lore: [\"Drops: 1\", \"Requires Athame\", \"Affected by Looting\"]}}"
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "dimension_dossier/misty_world"
+            ]
+        }
+    ]
+}

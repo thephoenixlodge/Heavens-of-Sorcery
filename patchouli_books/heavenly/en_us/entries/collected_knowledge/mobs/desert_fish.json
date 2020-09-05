@@ -1,0 +1,41 @@
+{
+    "name": "Desert Fish",
+    "icon": "minecraft:spawn_egg{EntityTag: {id: \"mist:desert_fish\"}}",
+    "category": "collected_knowledge/mobs",
+    "advancement": "heavens:bookchap2/13raidloot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "In the $(thing)Savannahs$() of the $(thing)Misty World$(), you will encounter dried clay lake beds. Though the top layer is cracked, the layer below is just enough to support life. Burrowed in this layer of $(item)Virgin Gray Clay$() lurks the $(thing)Desert Fish$(), whose $(item)Swim Bladders$() are able to reduce $(thing)Toxicity$() when eaten. They can be lured out by breaking the clay, or wetting it with $(item)Water$()."
+        },
+        {
+            "type": "mob_drops",
+            "name": "Desert Fish",
+            "mob": "mist:desert_fish",
+            "drop1": "mist:swim_bladder{display: {Lore: [\"Drops: 1\"]}}"
+        },
+        {
+            "type": "image",
+            "title": "Dried Clay Lakebeds",
+            "images": [
+                "books:templates/dry_lakebed.png"
+            ],
+            "text": "The Dried Lakebeds found in the Savannah Biomes."
+        },
+        {
+            "type": "image",
+            "title": "Virgin Gray Clay",
+            "images": [
+                "books:templates/virgin_clay.png"
+            ],
+            "text": "The $(item)Virgin Clay$() where $(thing)Desert Fish$() hide. Break or Wet it to expose them."
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "dimension_dossier/misty_world",
+                "quests/chap3/01cdetox"
+            ]
+        }
+    ]
+}
