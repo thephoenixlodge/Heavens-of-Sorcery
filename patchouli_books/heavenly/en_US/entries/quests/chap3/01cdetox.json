@@ -25,22 +25,22 @@
         {
             "type": "spotlight",
             "item": "mist:tinder_fungus",
-            "text": "$(item)Tinder Fungus$() can be found rarely on $(thing)Forest Islands$(), growing on the side of $(item)Forest Deceiver$() trees." 
+            "text": "$(item)Tinder Fungus$() can be found rarely in $(thing)Forest Zones$(), growing on the side of $(item)Forest Deceiver$() trees." 
         },
         {
             "type": "spotlight",
             "item": "mist:nightberry",
-            "text": "$(item)Nightberrries$() can be found at night growing on $(item)Floating Mats$() amongst the water on $(thing)Swamp Islands$()." 
+            "text": "$(item)Nightberrries$() can be found at night growing in $(item)Floating Mats$() amongst the water on $(thing)Swamp Zones$(). Can be replanted on the $(item)Floating Mats$() to grow more." 
         },
         {
             "type": "spotlight",
             "item": "mist:tree_seed:9",
-            "text": "$(item)Stone Tress Berries$() can be found on $(thing)Taiga Islands$(), rarely harvestable from the leaves of $(item)Stone Trees$() in specific seasons." 
+            "text": "$(item)Stone Tress Berries$() can be found in $(thing)Taiga Zones$(), rarely harvestable from the leaves of $(item)Stone Trees$() from February to March.$(br2)See Seasons for more information." 
         },
         {
             "type": "spotlight",
             "item": "mist:swim_bladder",
-            "text": "$(item)Swim Bladders$() can be obtained by killing Desert Fish, encountered by digging or wetting the $(item)Virgin Dry Clay$() lakebeds (layer below the surface) on $(thing)Desert/Savannah Islands$()." 
+            "text": "$(item)Swim Bladders$() can be obtained by killing $(l:collected_knowledge/mobs/desert_fish)$(thing)Desert Fish$(), encountered by digging or wetting the $(item)Virgin Dry Clay$() lakebeds (layer below the surface) in $(thing)Desert/Savannah Zones$()." 
         },
         {
             "type": "spotlight",
@@ -50,7 +50,7 @@
         {
             "type": "spotlight",
             "item": "mist:mushrooms_food:21",
-            "text": "$(item)Silver Mushrooms$() can be found growing on the ground in $(thing)Tropics Biomes$()." 
+            "text": "$(item)Silver Mushrooms$() can be found growing on the ground in the $(thing)Tropics Zones$()." 
         }
     ]
 }
