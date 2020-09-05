@@ -21,6 +21,17 @@
             "type": "crafting",
             "recipe": "mist:soap",
             "text": "Tallow can be collected from some of the creatures of the $(thing)Misty World$(), while $(item)Saltpeter$() can be mined there."
+        },
+        {
+            "type": "relations",
+            "title": "Sources of Tallow",
+            "entries": [
+                "collected_knowledge/mobs/brachiodon",
+                "collected_knowledge/mobs/caravan",
+                "collected_knowledge/mobs/monk",
+                "collected_knowledge/mobs/sloth",
+                "collected_knowledge/mobs/sniff"
+            ]
         }
     ]
 }
