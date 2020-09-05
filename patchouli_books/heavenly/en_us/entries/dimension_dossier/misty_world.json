@@ -60,7 +60,8 @@
             "type": "relations",
             "title": "Unique Mechanics",
             "entries": [
-                "dimension_dossier/misty_world/ores"
+                "dimension_dossier/misty_world/ores",
+                "dimension_dossier/misty_world/seasons"
             ]
         },
         {

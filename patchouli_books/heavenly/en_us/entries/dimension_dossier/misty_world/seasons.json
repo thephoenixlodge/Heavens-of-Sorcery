@@ -1,0 +1,24 @@
+{
+    "name": "Seasons",
+    "icon": "minecraft:clock",
+    "category": "dimension_dossier/misty_world",
+    "advancement": "heavens:bookchap2/13raidloot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Some plants in the $(thing)Misty World$() bloom only in specific $(thing)Seasons$(). The current date can be seen on the tooltip of a $(item)Clock$() while in the $(thing)Misty World$().$(br2)Each $(thing)Month$() lasts for 4 days. The main things this affects are $(item)Desert Cotton$(), and $(item)Tree Seeds$()."
+        },
+        {
+            "type": "spotlight",
+            "title": "Clock",
+            "item": "minecraft:clock",
+            "text": "Check the tooltip of a $(item)Clock$() to see the current date while in the $(thing)Misty World$()."
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "dimension_dossier/misty_world"
+            ]
+        }
+    ]
+}
