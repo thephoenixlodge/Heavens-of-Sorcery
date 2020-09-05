@@ -4,6 +4,10 @@ import mods.botania.ManaInfusion;
 import mods.bloodmagic.TartaricForge;
 import mods.bloodmagic.AlchemyArray;
 import mods.MobStages;
+import loottweaker.LootTweaker;
+import loottweaker.vanilla.loot.LootTable;
+import loottweaker.vanilla.loot.LootPool;
+import loottweaker.vanilla.loot.Functions;
 
 
 ////variables
@@ -88,3 +92,8 @@ AlchemyArray.addRecipe(witchesCauldron, cauldron, silverAspectus, "bloodmagic:te
 for mob in mobStrings {
 	MobStages.addStage("harder_nether", mob);
 }
+
+//make spectral dust not drop without athame
+val tableGhost = LootTweaker.getTable("bewitchment:entities/ghost");
+val poolGhost = tableGhost.getPool("ghost");
+poolGhost.removeEntry("bewitchment:spectral_dust");
