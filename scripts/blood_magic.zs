@@ -160,7 +160,7 @@ recipes.addShapeless(scornedBricks, [marbleSooty, marbleSooty, spectralDust]);
 
 //diary of the doomed recipe
 recipes.addShapeless(diaryDoomed, [tornPage, leather]);
-recipes.addShapeless("diary_doomed_1", diaryDoomed, [diaryDoomed.marked("book"), tornPage], function(output, inputs, CInfo){
+recipes.addShapeless("diary_doomed_1", diaryDoomed1, [diaryDoomed.marked("book"), tornPage], function(output, inputs, CInfo){
 	var tag = inputs.book.tag as IData;
 	var displayTag = tag.memberGet("display") as IData;
 	var overrideLore = {Lore: ["Torn Pages added: 1"]} as IData;
@@ -169,7 +169,7 @@ recipes.addShapeless("diary_doomed_1", diaryDoomed, [diaryDoomed.marked("book"),
 	var tagOutput = tag - "display" + overrideTag as IData;
 	return output.withTag(tagOutput);
 }, null);
-recipes.addShapeless("diary_doomed_2", diaryDoomed, [diaryDoomed1.marked("book"), tornPage], function(output, inputs, CInfo){
+recipes.addShapeless("diary_doomed_2", diaryDoomed2, [diaryDoomed1.marked("book"), tornPage], function(output, inputs, CInfo){
 	var tag = inputs.book.tag as IData;
 	var displayTag = tag.memberGet("display") as IData;
 	var overrideLore = {Lore: ["Torn Pages added: 2"]} as IData;
@@ -178,7 +178,7 @@ recipes.addShapeless("diary_doomed_2", diaryDoomed, [diaryDoomed1.marked("book")
 	var tagOutput = tag - "display" + overrideTag as IData;
 	return output.withTag(tagOutput);
 }, null);
-recipes.addShapeless("diary_doomed_3", diaryDoomed, [diaryDoomed2.marked("book"), tornPage], function(output, inputs, CInfo){
+recipes.addShapeless("diary_doomed_3", diaryDoomed3, [diaryDoomed2.marked("book"), tornPage], function(output, inputs, CInfo){
 	var tag = inputs.book.tag as IData;
 	var displayTag = tag.memberGet("display") as IData;
 	var overrideLore = {Lore: ["Torn Pages added: 3"]} as IData;
@@ -187,7 +187,7 @@ recipes.addShapeless("diary_doomed_3", diaryDoomed, [diaryDoomed2.marked("book")
 	var tagOutput = tag - "display" + overrideTag as IData;
 	return output.withTag(tagOutput);
 }, null);
-recipes.addShapeless("diary_doomed_4", diaryDoomed, [diaryDoomed3.marked("book"), tornPage], function(output, inputs, CInfo){
+recipes.addShapeless("diary_doomed_4", diaryDoomed4, [diaryDoomed3.marked("book"), tornPage], function(output, inputs, CInfo){
 	var tag = inputs.book.tag as IData;
 	var displayTag = tag.memberGet("display") as IData;
 	var overrideLore = {Lore: ["Torn Pages added: 4"]} as IData;
@@ -196,7 +196,7 @@ recipes.addShapeless("diary_doomed_4", diaryDoomed, [diaryDoomed3.marked("book")
 	var tagOutput = tag - "display" + overrideTag as IData;
 	return output.withTag(tagOutput);
 }, null);
-recipes.addShapeless("diary_doomed_5", diaryDoomed, [diaryDoomed4.marked("book"), tornPage], function(output, inputs, CInfo){
+recipes.addShapeless("diary_doomed_5", diaryDoomed5, [diaryDoomed4.marked("book"), tornPage], function(output, inputs, CInfo){
 	var tag = inputs.book.tag as IData;
 	var displayTag = tag.memberGet("display") as IData;
 	var overrideLore = {Lore: ["Torn Pages added: 5"]} as IData;
