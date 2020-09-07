@@ -78,6 +78,7 @@ val diaryDoomed4 = <patchouli:guide_book>.withTag({"patchouli:book": "patchouli:
 val diaryDoomed5 = <patchouli:guide_book>.withTag({"patchouli:book": "patchouli:doomed", "display":{"Lore": ["Torn Pages added: 5"]}});
 val tornPage = <contenttweaker:torn_page>;
 val leather = <minecraft:leather>;
+val marbleDark = <tombstone:dark_marble>;
 
 //disable snare
 recipes.remove(snare);
