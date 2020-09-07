@@ -1,0 +1,663 @@
++----------------------------------+-----------------------------------------------------------+--------------------------------+-----+
+| Mod name                         | Registry name                                             | Entity class name              |  ID |
++----------------------------------+-----------------------------------------------------------+--------------------------------+-----+
+| Angel of Vengeance               | aov:entityalignmentaoe                                    | EntityAlignmentAoE             |  14 |
+| Angel of Vengeance               | aov:entitycelestialopposition                             | EntityCelestialOpposition      |   9 |
+| Angel of Vengeance               | aov:entitycombust                                         | EntityCombust                  |   7 |
+| Angel of Vengeance               | aov:entitydruidicwolf                                     | EntityDruidicWolf              |  13 |
+| Angel of Vengeance               | aov:entityearthquake                                      | EntityEarthquake               |  11 |
+| Angel of Vengeance               | aov:entitygravity                                         | EntityGravity                  |   8 |
+| Angel of Vengeance               | aov:entitymalefic                                         | EntityMalefic                  |   6 |
+| Angel of Vengeance               | aov:entityspellaovparticles                               | EntitySpellAoVParticles        |   5 |
+| Angel of Vengeance               | aov:entityspellbladebarrier                               | EntitySpellBladeBarrier        |   3 |
+| Angel of Vengeance               | aov:entityspellimplosion                                  | EntitySpellImplosion           |   2 |
+| Angel of Vengeance               | aov:entityspelllightningbolt                              | EntitySpellLightningBolt       |  10 |
+| Angel of Vengeance               | aov:entityspelllightningstorm                             | EntitySpellLightningStorm      |  12 |
+| Angel of Vengeance               | aov:entityspellvanillaparticles                           | EntitySpellVanillaParticles    |   4 |
+| Angel of Vengeance               | aov:projectileflamestrike                                 | ProjectileFlameStrike          |   1 |
+| Angel of Vengeance               | aov:projectilenimbusray                                   | ProjectileNimbusRay            |   0 |
+| Arcane Archives                  | arcanearchives:weight                                     | EntityWeight                   |   0 |
+| Arcane Essentials                | arcane_essentials:blockspawner                            | EntityFallingBlockSpawner      |  13 |
+| Arcane Essentials                | arcane_essentials:cyclonebolt                             | EntityCycloneBolt              |  14 |
+| Arcane Essentials                | arcane_essentials:cyloneshield                            | EntityCycloneShield            |   8 |
+| Arcane Essentials                | arcane_essentials:fireball                                | EntityFireball                 |  15 |
+| Arcane Essentials                | arcane_essentials:flamepillar                             | EntityFlamePillar              |   6 |
+| Arcane Essentials                | arcane_essentials:flamepillarspawner                      | EntityFlamePillarSpawner       |  11 |
+| Arcane Essentials                | arcane_essentials:flameslash                              | EntityFlameSlash               |  16 |
+| Arcane Essentials                | arcane_essentials:floatingblock                           | EntityFloatingBlock            |  17 |
+| Arcane Essentials                | arcane_essentials:lightningspawner                        | EntityLightningSpawner         |  12 |
+| Arcane Essentials                | arcane_essentials:lightningvortex                         | EntityLightningVortex          |   5 |
+| Arcane Essentials                | arcane_essentials:magicbolt                               | EntityMagicBolt                |   2 |
+| Arcane Essentials                | arcane_essentials:magicconstruct                          | EntityMagicConstruct           |   1 |
+| Arcane Essentials                | arcane_essentials:magiclightning                          | EntityMagicLightning           |  10 |
+| Arcane Essentials                | arcane_essentials:magicspawner                            | EntityMagicSpawner             |   3 |
+| Arcane Essentials                | arcane_essentials:solarbeam                               | EntitySolarBeam                |   9 |
+| Arcane Essentials                | arcane_essentials:thunderburst                            | EntityThunderBurst             |   4 |
+| Arcane Essentials                | arcane_essentials:waterball                               | EntityWaterBall                |  18 |
+| Arcane Essentials                | arcane_essentials:whirlpool                               | EntityWhirlpool                |   7 |
+| Arcane World                     | arcaneworld:overgrown_sheep                               | EntityOvergrownSheep           |   1 |
+| Arcane World                     | arcaneworld:rift                                          | EntityRift                     |   0 |
+| Artifacts                        | artifacts:hallow_star                                     | EntityHallowStar               |   1 |
+| Artifacts                        | artifacts:mimic                                           | EntityMimic                    |   0 |
+| Astral Sorcery                   | astralsorcery:entitycrystal                               | EntityCrystal                  |   2 |
+| Astral Sorcery                   | astralsorcery:entitycrystaltool                           | EntityCrystalTool              |   7 |
+| Astral Sorcery                   | astralsorcery:entityflare                                 | EntityFlare                    |   3 |
+| Astral Sorcery                   | astralsorcery:entitygrapplinghook                         | EntityGrapplingHook            |   8 |
+| Astral Sorcery                   | astralsorcery:entityhighlighted                           | EntityItemHighlighted          |   0 |
+| Astral Sorcery                   | astralsorcery:entityilluminationspark                     | EntityIlluminationSpark        |   5 |
+| Astral Sorcery                   | astralsorcery:entityitemdamageresistant                   | EntityItemExplosionResistant   |  13 |
+| Astral Sorcery                   | astralsorcery:entityliquidspark                           | EntityLiquidSpark              |  10 |
+| Astral Sorcery                   | astralsorcery:entitynocturnalspark                        | EntityNocturnalSpark           |   6 |
+| Astral Sorcery                   | astralsorcery:entityobservatoryhelper                     | EntityObservatoryHelper        |  11 |
+| Astral Sorcery                   | astralsorcery:entityshootingstar                          | EntityShootingStar             |  12 |
+| Astral Sorcery                   | astralsorcery:entityspectraltool                          | EntitySpectralTool             |   9 |
+| Astral Sorcery                   | astralsorcery:entitystarburst                             | EntityStarburst                |   4 |
+| Astral Sorcery                   | astralsorcery:entitystardust                              | EntityItemStardust             |   1 |
+| Bewitchment                      | bewitchment:bafometyr                                     | EntityBafometyr                |  18 |
+| Bewitchment                      | bewitchment:baphomet                                      | EntityBaphomet                 |  22 |
+| Bewitchment                      | bewitchment:black_dog                                     | EntityBlackDog                 |   9 |
+| Bewitchment                      | bewitchment:cambion                                       | EntityCambion                  |  20 |
+| Bewitchment                      | bewitchment:cleaver                                       | EntityCleaver                  |  14 |
+| Bewitchment                      | bewitchment:cypress_broom                                 | EntityCypressBroom             |   0 |
+| Bewitchment                      | bewitchment:demon                                         | EntityDemon                    |  15 |
+| Bewitchment                      | bewitchment:demoness                                      | EntityDemoness                 |  16 |
+| Bewitchment                      | bewitchment:dragons_blood_broom                           | EntityDragonsBloodBroom        |   3 |
+| Bewitchment                      | bewitchment:druden                                        | EntityDruden                   |  21 |
+| Bewitchment                      | bewitchment:elder_broom                                   | EntityElderBroom               |   1 |
+| Bewitchment                      | bewitchment:feuerwurm                                     | EntityFeuerwurm                |  12 |
+| Bewitchment                      | bewitchment:ghost                                         | EntityGhost                    |  10 |
+| Bewitchment                      | bewitchment:hellhound                                     | EntityHellhound                |  11 |
+| Bewitchment                      | bewitchment:imp                                           | EntityImp                      |  17 |
+| Bewitchment                      | bewitchment:juniper_broom                                 | EntityJuniperBroom             |   2 |
+| Bewitchment                      | bewitchment:leonard                                       | EntityLeonard                  |  23 |
+| Bewitchment                      | bewitchment:lizard                                        | EntityLizard                   |   4 |
+| Bewitchment                      | bewitchment:owl                                           | EntityOwl                      |   5 |
+| Bewitchment                      | bewitchment:raven                                         | EntityRaven                    |   6 |
+| Bewitchment                      | bewitchment:shadow_person                                 | EntityShadowPerson             |  19 |
+| Bewitchment                      | bewitchment:silver_arrow                                  | EntitySilverArrow              |  24 |
+| Bewitchment                      | bewitchment:snake                                         | EntitySnake                    |   7 |
+| Bewitchment                      | bewitchment:toad                                          | EntityToad                     |   8 |
+| Bewitchment                      | bewitchment:werewolf                                      | EntityWerewolf                 |  13 |
+| Blood Magic: Alchemical Wizardry | bloodmagic:blood_light                                    | EntityBloodLight               |   1 |
+| Blood Magic: Alchemical Wizardry | bloodmagic:corrupted_chicken                              | EntityCorruptedChicken         |   9 |
+| Blood Magic: Alchemical Wizardry | bloodmagic:corrupted_sheep                                | EntityCorruptedSheep           |   8 |
+| Blood Magic: Alchemical Wizardry | bloodmagic:corrupted_spider                               | EntityCorruptedSpider          |  10 |
+| Blood Magic: Alchemical Wizardry | bloodmagic:corrupted_zombie                               | EntityCorruptedZombie          |   7 |
+| Blood Magic: Alchemical Wizardry | bloodmagic:meteor                                         | EntityMeteor                   |   4 |
+| Blood Magic: Alchemical Wizardry | bloodmagic:mimic                                          | EntityMimic                    |   6 |
+| Blood Magic: Alchemical Wizardry | bloodmagic:sentient_specter                               | EntitySentientSpecter          |   5 |
+| Blood Magic: Alchemical Wizardry | bloodmagic:soul_arrow                                     | EntitySentientArrow            |   3 |
+| Blood Magic: Alchemical Wizardry | bloodmagic:soul_snare                                     | EntitySoulSnare                |   2 |
+| Blue Skies                       | blue_skies:alchemist_illager                              | EntityAlchemist                |  14 |
+| Blue Skies                       | blue_skies:armored_frost_spirit                           | EntityArmoredFrostSpirit       |   3 |
+| Blue Skies                       | blue_skies:artificial_golem                               | EntityArtificialGolem          |  15 |
+| Blue Skies                       | blue_skies:azulfo                                         | EntityAzulfo                   |   0 |
+| Blue Skies                       | blue_skies:cosmic_fox                                     | EntityCosmicFox                |   6 |
+| Blue Skies                       | blue_skies:cryno                                          | EntityCryno                    |   4 |
+| Blue Skies                       | blue_skies:crystal_camel                                  | EntityCrystalCamel             |   9 |
+| Blue Skies                       | blue_skies:decaying_falling_block                         | EntityDecayingFallingBlock     |  16 |
+| Blue Skies                       | blue_skies:firefly_bs                                     | EntityFirefly                  |   7 |
+| Blue Skies                       | blue_skies:frost_spirit                                   | EntityFrostSpirit              |   5 |
+| Blue Skies                       | blue_skies:nightshade_bear                                | EntityNightshadeBear           |   8 |
+| Blue Skies                       | blue_skies:nycto_bug                                      | EntityNyctoBug                 |  10 |
+| Blue Skies                       | blue_skies:reindeer_bs                                    | EntityReindeer                 |   2 |
+| Blue Skies                       | blue_skies:stardust_ram                                   | EntityStardustRam              |   1 |
+| Blue Skies                       | blue_skies:summoner_illager                               | EntitySummoner                 |  13 |
+| Blue Skies                       | blue_skies:summoner_lightning                             | EntitySummonedLightningBolt    |  19 |
+| Blue Skies                       | blue_skies:upward_spike                                   | EntityUpwardSpike              |  17 |
+| Blue Skies                       | blue_skies:venom_spider                                   | EntityVenomSpider              |  11 |
+| Blue Skies                       | blue_skies:venom_spit                                     | EntityVenomSpit                |  18 |
+| Blue Skies                       | blue_skies:villager_warrior                               | EntityVillagerWarrior          |  12 |
+| Botania                          | botania:babylon_weapon                                    | EntityBabylonWeapon            |  17 |
+| Botania                          | botania:corporea_spark                                    | EntityCorporeaSpark            |  11 |
+| Botania                          | botania:doppleganger                                      | EntityDoppleganger             |   5 |
+| Botania                          | botania:ender_air_bottle                                  | EntityEnderAirBottle           |  12 |
+| Botania                          | botania:falling_star                                      | EntityFallingStar              |  18 |
+| Botania                          | botania:flame_ring                                        | EntityFlameRing                |   3 |
+| Botania                          | botania:magic_landmine                                    | EntityMagicLandmine            |   6 |
+| Botania                          | botania:magic_missile                                     | EntityMagicMissile             |   9 |
+| Botania                          | botania:mana_burst                                        | EntityManaBurst                |   0 |
+| Botania                          | botania:mana_storm                                        | EntityManaStorm                |  16 |
+| Botania                          | botania:pink_wither                                       | EntityPinkWither               |  14 |
+| Botania                          | botania:pixie                                             | EntityPixie                    |   2 |
+| Botania                          | botania:player_mover                                      | EntityPlayerMover              |  15 |
+| Botania                          | botania:pool_minecart                                     | EntityPoolMinecart             |  13 |
+| Botania                          | botania:signal_flare                                      | EntitySignalFlare              |   1 |
+| Botania                          | botania:spark                                             | EntitySpark                    |   7 |
+| Botania                          | botania:thorn_chakram                                     | EntityThornChakram             |  10 |
+| Botania                          | botania:thrown_item                                       | EntityThrownItem               |   8 |
+| Botania                          | botania:vine_ball                                         | EntityVineBall                 |   4 |
+| Building Gadgets                 | buildinggadgets:blockbuildentity                          | BlockBuildEntity               |   1 |
+| Building Gadgets                 | buildinggadgets:constructionblockentity                   | ConstructionBlockEntity        |   2 |
+| Comforts                         | comforts:_entity_rest                                     | EntityRest                     |   1 |
+| CreativeCore                     | creativecore:sit                                          | EntitySit                      |   0 |
+| Cuisine                          | cuisine:boat                                              | EntityModBoat                  |   1 |
+| Dimensional Doors                | dimdoors:mob_monolith                                     | EntityMonolith                 |   0 |
+| Divine Favor                     | divinefavor:entity.climbing                               | EntityClimbingArrow            |   1 |
+| Divine Favor                     | divinefavor:entity.direwolf                               | EntityDirewolf                 |  13 |
+| Divine Favor                     | divinefavor:entity.ice_arrow                              | EntityIceArrow                 |   4 |
+| Divine Favor                     | divinefavor:entity.minion_blaze                           | EntityMinionBlaze              |   5 |
+| Divine Favor                     | divinefavor:entity.minion_cave_spider                     | EntityMinionCaveSpider         |   6 |
+| Divine Favor                     | divinefavor:entity.minion_creeper                         | EntityMinionCreeper            |   7 |
+| Divine Favor                     | divinefavor:entity.minion_husk                            | EntityMinionHusk               |   8 |
+| Divine Favor                     | divinefavor:entity.minion_skeleton                        | EntityMinionSkeleton           |   9 |
+| Divine Favor                     | divinefavor:entity.minion_spider                          | EntityMinionSpider             |  10 |
+| Divine Favor                     | divinefavor:entity.minion_stray                           | EntityMinionStray              |  11 |
+| Divine Favor                     | divinefavor:entity.minion_zombie                          | EntityMinionZombie             |  12 |
+| Divine Favor                     | divinefavor:entity.ping                                   | EntityPing                     |  21 |
+| Divine Favor                     | divinefavor:entity.rope_barrier                           | EntityRopeBarrierNode          |  14 |
+| Divine Favor                     | divinefavor:entity.rope_explosive                         | EntityRopeExplosiveNode        |  15 |
+| Divine Favor                     | divinefavor:entity.rope_glowing                           | EntityRopeGlowingNode          |  16 |
+| Divine Favor                     | divinefavor:entity.rope_guide                             | EntityRopeGuideNode            |  17 |
+| Divine Favor                     | divinefavor:entity.rope_inert                             | EntityRopeInertNode            |  18 |
+| Divine Favor                     | divinefavor:entity.rope_luminous                          | EntityRopeLuminousNode         |  19 |
+| Divine Favor                     | divinefavor:entity.rope_teleporting                       | EntityRopeTeleportingNode      |  20 |
+| Divine Favor                     | divinefavor:entity.spell_arrow                            | EntitySpellArrow               |   2 |
+| Divine Favor                     | divinefavor:entity.spooky                                 | EntitySpookyArrow              |   3 |
+| Divine Favor                     | divinefavor:entity.stoneball                              | EntityStoneball                |   0 |
+| Dynamic Trees                    | dynamictrees:falling_tree                                 | EntityFallingTree              |   0 |
+| Electroblob's Wizardry           | ebwizardry:arrow_rain                                     | EntityArrowRain                |  55 |
+| Electroblob's Wizardry           | ebwizardry:black_hole                                     | EntityBlackHole                |  45 |
+| Electroblob's Wizardry           | ebwizardry:blaze_minion                                   | EntityBlazeMinion              |   5 |
+| Electroblob's Wizardry           | ebwizardry:blizzard                                       | EntityBlizzard                 |  46 |
+| Electroblob's Wizardry           | ebwizardry:bubble                                         | EntityBubble                   |  59 |
+| Electroblob's Wizardry           | ebwizardry:combustion_rune                                | EntityCombustionRune           |  51 |
+| Electroblob's Wizardry           | ebwizardry:darkness_orb                                   | EntityDarknessOrb              |  34 |
+| Electroblob's Wizardry           | ebwizardry:dart                                           | EntityDart                     |  25 |
+| Electroblob's Wizardry           | ebwizardry:decay                                          | EntityDecay                    |  54 |
+| Electroblob's Wizardry           | ebwizardry:decoy                                          | EntityDecoy                    |  16 |
+| Electroblob's Wizardry           | ebwizardry:earthquake                                     | EntityEarthquake               |  56 |
+| Electroblob's Wizardry           | ebwizardry:ember                                          | EntityEmber                    |  38 |
+| Electroblob's Wizardry           | ebwizardry:evil_wizard                                    | EntityEvilWizard               |  20 |
+| Electroblob's Wizardry           | ebwizardry:fire_sigil                                     | EntityFireSigil                |  48 |
+| Electroblob's Wizardry           | ebwizardry:firebolt                                       | EntityFirebolt                 |  35 |
+| Electroblob's Wizardry           | ebwizardry:firebomb                                       | EntityFirebomb                 |  27 |
+| Electroblob's Wizardry           | ebwizardry:force_arrow                                    | EntityForceArrow               |  24 |
+| Electroblob's Wizardry           | ebwizardry:force_orb                                      | EntityForceOrb                 |  32 |
+| Electroblob's Wizardry           | ebwizardry:forcefield                                     | EntityForcefield               |  47 |
+| Electroblob's Wizardry           | ebwizardry:frost_sigil                                    | EntityFrostSigil               |  49 |
+| Electroblob's Wizardry           | ebwizardry:hailstorm                                      | EntityHailstorm                |  57 |
+| Electroblob's Wizardry           | ebwizardry:healing_aura                                   | EntityHealAura                 |  53 |
+| Electroblob's Wizardry           | ebwizardry:husk_minion                                    | EntityHuskMinion               |   1 |
+| Electroblob's Wizardry           | ebwizardry:ice_charge                                     | EntityIceCharge                |  31 |
+| Electroblob's Wizardry           | ebwizardry:ice_giant                                      | EntityIceGiant                 |  14 |
+| Electroblob's Wizardry           | ebwizardry:ice_lance                                      | EntityIceLance                 |  26 |
+| Electroblob's Wizardry           | ebwizardry:ice_shard                                      | EntityIceShard                 |  22 |
+| Electroblob's Wizardry           | ebwizardry:ice_spike                                      | EntityIceSpike                 |  61 |
+| Electroblob's Wizardry           | ebwizardry:ice_wraith                                     | EntityIceWraith                |   9 |
+| Electroblob's Wizardry           | ebwizardry:iceball                                        | EntityIceball                  |  41 |
+| Electroblob's Wizardry           | ebwizardry:large_magic_fireball                           | EntityLargeMagicFireball       |  40 |
+| Electroblob's Wizardry           | ebwizardry:levitating_block                               | EntityLevitatingBlock          |  44 |
+| Electroblob's Wizardry           | ebwizardry:lightning_arrow                                | EntityLightningArrow           |  23 |
+| Electroblob's Wizardry           | ebwizardry:lightning_disc                                 | EntityLightningDisc            |  37 |
+| Electroblob's Wizardry           | ebwizardry:lightning_hammer                               | EntityHammer                   |  43 |
+| Electroblob's Wizardry           | ebwizardry:lightning_sigil                                | EntityLightningSigil           |  50 |
+| Electroblob's Wizardry           | ebwizardry:lightning_wraith                               | EntityLightningWraith          |  10 |
+| Electroblob's Wizardry           | ebwizardry:magic_fireball                                 | EntityMagicFireball            |  39 |
+| Electroblob's Wizardry           | ebwizardry:magic_missile                                  | EntityMagicMissile             |  21 |
+| Electroblob's Wizardry           | ebwizardry:magic_slime                                    | EntityMagicSlime               |  15 |
+| Electroblob's Wizardry           | ebwizardry:meteor                                         | EntityMeteor                   |  42 |
+| Electroblob's Wizardry           | ebwizardry:phoenix                                        | EntityPhoenix                  |  13 |
+| Electroblob's Wizardry           | ebwizardry:poison_bomb                                    | EntityPoisonBomb               |  28 |
+| Electroblob's Wizardry           | ebwizardry:ring_of_fire                                   | EntityFireRing                 |  52 |
+| Electroblob's Wizardry           | ebwizardry:shadow_wraith                                  | EntityShadowWraith             |  17 |
+| Electroblob's Wizardry           | ebwizardry:shield                                         | EntityShield                   |  58 |
+| Electroblob's Wizardry           | ebwizardry:silverfish_minion                              | EntitySilverfishMinion         |   7 |
+| Electroblob's Wizardry           | ebwizardry:skeleton_minion                                | EntitySkeletonMinion           |   2 |
+| Electroblob's Wizardry           | ebwizardry:smoke_bomb                                     | EntitySmokeBomb                |  30 |
+| Electroblob's Wizardry           | ebwizardry:spark                                          | EntitySpark                    |  33 |
+| Electroblob's Wizardry           | ebwizardry:spark_bomb                                     | EntitySparkBomb                |  29 |
+| Electroblob's Wizardry           | ebwizardry:spider_minion                                  | EntitySpiderMinion             |   4 |
+| Electroblob's Wizardry           | ebwizardry:spirit_horse                                   | EntitySpiritHorse              |  12 |
+| Electroblob's Wizardry           | ebwizardry:spirit_wolf                                    | EntitySpiritWolf               |  11 |
+| Electroblob's Wizardry           | ebwizardry:storm_elemental                                | EntityStormElemental           |  18 |
+| Electroblob's Wizardry           | ebwizardry:stray_minion                                   | EntityStrayMinion              |   3 |
+| Electroblob's Wizardry           | ebwizardry:thunderbolt                                    | EntityThunderbolt              |  36 |
+| Electroblob's Wizardry           | ebwizardry:tornado                                        | EntityTornado                  |  60 |
+| Electroblob's Wizardry           | ebwizardry:vex_minion                                     | EntityVexMinion                |   8 |
+| Electroblob's Wizardry           | ebwizardry:wither_skeleton_minion                         | EntityWitherSkeletonMinion     |   6 |
+| Electroblob's Wizardry           | ebwizardry:wizard                                         | EntityWizard                   |  19 |
+| Electroblob's Wizardry           | ebwizardry:zombie_minion                                  | EntityZombieMinion             |   0 |
+| Embers Rekindled                 | embers:ancient_golem                                      | EntityAncientGolem             |   2 |
+| Embers Rekindled                 | embers:ember_light                                        | EntityEmberLight               |   3 |
+| Embers Rekindled                 | embers:ember_packet                                       | EntityEmberPacket              |   0 |
+| Embers Rekindled                 | embers:ember_projectile                                   | EntityEmberProjectile          |   1 |
+| Embers Rekindled                 | embers:magma_projectile                                   | EntityMagmaProjectile          |   5 |
+| Embers Rekindled                 | embers:magma_worm                                         | EntityMagmaWorm                |   4 |
+| Extra Bit Manipulation           | extrabitmanipulation:entity_bit                           | EntityBit                      |   0 |
+| Inspirations                     | inspirations:arrow                                        | EntityModArrow                 |   0 |
+| Kathairis                        | kathairis:textures/entity/bigturtle.png                   | EntityBigTurtle                |   5 |
+| Kathairis                        | kathairis:textures/entity/bison.png                       | EntityBison                    |   7 |
+| Kathairis                        | kathairis:textures/entity/butterfly.png                   | EntityButterfly                |   8 |
+| Kathairis                        | kathairis:textures/entity/butterfly1.png                  | EntityButterfly1               |   9 |
+| Kathairis                        | kathairis:textures/entity/cacti_spore.png                 | EntityCactiSpore               |  28 |
+| Kathairis                        | kathairis:textures/entity/camel.png                       | EntityCamel                    |  16 |
+| Kathairis                        | kathairis:textures/entity/cloudoister.png                 | EntityCloudOister              |  18 |
+| Kathairis                        | kathairis:textures/entity/cloudshimmer.png                | EntityCloudShimmer             |  20 |
+| Kathairis                        | kathairis:textures/entity/cloudyslime.png                 | EntityCloudySlime              |  19 |
+| Kathairis                        | kathairis:textures/entity/death.png                       | EntityDeath                    |  15 |
+| Kathairis                        | kathairis:textures/entity/flyingsquid.png                 | EntityFlyingSquid              |  21 |
+| Kathairis                        | kathairis:textures/entity/fungite.png                     | EntityFungite                  |  17 |
+| Kathairis                        | kathairis:textures/entity/gaznowel.png                    | EntityGaznowel                 |  26 |
+| Kathairis                        | kathairis:textures/entity/gecko.png                       | EntityGecko                    |  25 |
+| Kathairis                        | kathairis:textures/entity/howler.png                      | EntityHowler                   |   3 |
+| Kathairis                        | kathairis:textures/entity/illukini.png                    | EntityIllukini                 |  23 |
+| Kathairis                        | kathairis:textures/entity/jellyfish.png                   | EntityJellyFish                |   4 |
+| Kathairis                        | kathairis:textures/entity/livingflower.png                | EntityLivingFlower             |   1 |
+| Kathairis                        | kathairis:textures/entity/mysticbird.png                  | EntityMysticBird               |   2 |
+| Kathairis                        | kathairis:textures/entity/phasm.png                       | EntityPhasm                    |  29 |
+| Kathairis                        | kathairis:textures/entity/poisonousscorpion.png           | EntityPoisonousScorpion        |   6 |
+| Kathairis                        | kathairis:textures/entity/projectiles/katharian_arrow.png | EntityKatharianArrow           |  27 |
+| Kathairis                        | kathairis:textures/entity/rubysile.png                    | EntityRubySile                 |  24 |
+| Kathairis                        | kathairis:textures/entity/shockingball.png                | EntityShockingBall             |  10 |
+| Kathairis                        | kathairis:textures/entity/skeletonwarrior.png             | EntitySkeletonWarrior          |  13 |
+| Kathairis                        | kathairis:textures/entity/skylight.png                    | EntitySkylight                 |  12 |
+| Kathairis                        | kathairis:textures/entity/skyray.png                      | EntitySkyray                   |  22 |
+| Kathairis                        | kathairis:textures/entity/steveghost.png                  | EntitySteveGhost               |  14 |
+| Kathairis                        | kathairis:textures/entity/strangewanderer.png             | EntityStrangeWanderer          |  11 |
+| LittleTiles                      | littletiles:animation                                     | EntityAnimation                |   2 |
+| LittleTiles                      | littletiles:sizetnt                                       | EntitySizedTNTPrimed           |   0 |
+| Lost Aether Content              | lost_aether:falling_rock                                  | EntityFallingRock              |   1 |
+| Lost Aether Content              | lost_aether:king_aerwhale                                 | EntityAerwhaleKing             |   0 |
+| Lost Aether Content              | lost_aether:zephyroo                                      | EntityZephyroo                 |   2 |
+| MeeCreeps                        | meecreeps:meecreeps                                       | EntityMeeCreeps                |   1 |
+| MeeCreeps                        | meecreeps:meecreeps_projectile                            | EntityProjectile               |   2 |
+| Meldexun's Extra Spells          | extra_spells:armor_piercing_missile                       | EntityArmorPiercingMissile     |   1 |
+| Meldexun's Extra Spells          | extra_spells:chargable_strike_missile                     | EntityChargableStrike          |   0 |
+| Minecraft                        | minecraft:area_effect_cloud                               | EntityAreaEffectCloud          |   3 |
+| Minecraft                        | minecraft:armor_stand                                     | EntityArmorStand               |  30 |
+| Minecraft                        | minecraft:arrow                                           | EntityTippedArrow              |  10 |
+| Minecraft                        | minecraft:bat                                             | EntityBat                      |  65 |
+| Minecraft                        | minecraft:blaze                                           | EntityBlaze                    |  61 |
+| Minecraft                        | minecraft:boat                                            | EntityBoat                     |  41 |
+| Minecraft                        | minecraft:cave_spider                                     | EntityCaveSpider               |  59 |
+| Minecraft                        | minecraft:chest_minecart                                  | EntityMinecartChest            |  43 |
+| Minecraft                        | minecraft:chicken                                         | EntityChicken                  |  93 |
+| Minecraft                        | minecraft:commandblock_minecart                           | EntityMinecartCommandBlock     |  40 |
+| Minecraft                        | minecraft:cow                                             | EntityCow                      |  92 |
+| Minecraft                        | minecraft:creeper                                         | EntityCreeper                  |  50 |
+| Minecraft                        | minecraft:donkey                                          | EntityDonkey                   |  31 |
+| Minecraft                        | minecraft:dragon_fireball                                 | EntityDragonFireball           |  26 |
+| Minecraft                        | minecraft:egg                                             | EntityEgg                      |   7 |
+| Minecraft                        | minecraft:elder_guardian                                  | EntityElderGuardian            |   4 |
+| Minecraft                        | minecraft:ender_crystal                                   | EntityEnderCrystal             | 200 |
+| Minecraft                        | minecraft:ender_dragon                                    | EntityDragon                   |  63 |
+| Minecraft                        | minecraft:ender_pearl                                     | EntityEnderPearl               |  14 |
+| Minecraft                        | minecraft:enderman                                        | EntityEnderman                 |  58 |
+| Minecraft                        | minecraft:endermite                                       | EntityEndermite                |  67 |
+| Minecraft                        | minecraft:evocation_fangs                                 | EntityEvokerFangs              |  33 |
+| Minecraft                        | minecraft:evocation_illager                               | EntityEvoker                   |  34 |
+| Minecraft                        | minecraft:eye_of_ender_signal                             | EntityEnderEye                 |  15 |
+| Minecraft                        | minecraft:falling_block                                   | EntityFallingBlock             |  21 |
+| Minecraft                        | minecraft:fireball                                        | EntityLargeFireball            |  12 |
+| Minecraft                        | minecraft:fireworks_rocket                                | EntityFireworkRocket           |  22 |
+| Minecraft                        | minecraft:furnace_minecart                                | EntityMinecartFurnace          |  44 |
+| Minecraft                        | minecraft:ghast                                           | EntityGhast                    |  56 |
+| Minecraft                        | minecraft:giant                                           | EntityGiantZombie              |  53 |
+| Minecraft                        | minecraft:guardian                                        | EntityGuardian                 |  68 |
+| Minecraft                        | minecraft:hopper_minecart                                 | EntityMinecartHopper           |  46 |
+| Minecraft                        | minecraft:horse                                           | EntityHorse                    | 100 |
+| Minecraft                        | minecraft:husk                                            | EntityHusk                     |  23 |
+| Minecraft                        | minecraft:illusion_illager                                | EntityIllusionIllager          |  37 |
+| Minecraft                        | minecraft:item                                            | EntityItem                     |   1 |
+| Minecraft                        | minecraft:item_frame                                      | EntityItemFrame                |  18 |
+| Minecraft                        | minecraft:leash_knot                                      | EntityLeashKnot                |   8 |
+| Minecraft                        | minecraft:llama                                           | EntityLlama                    | 103 |
+| Minecraft                        | minecraft:llama_spit                                      | EntityLlamaSpit                | 104 |
+| Minecraft                        | minecraft:magma_cube                                      | EntityMagmaCube                |  62 |
+| Minecraft                        | minecraft:minecart                                        | EntityMinecartEmpty            |  42 |
+| Minecraft                        | minecraft:mooshroom                                       | EntityMooshroom                |  96 |
+| Minecraft                        | minecraft:mule                                            | EntityMule                     |  32 |
+| Minecraft                        | minecraft:ocelot                                          | EntityOcelot                   |  98 |
+| Minecraft                        | minecraft:painting                                        | EntityPainting                 |   9 |
+| Minecraft                        | minecraft:parrot                                          | EntityParrot                   | 105 |
+| Minecraft                        | minecraft:pig                                             | EntityPig                      |  90 |
+| Minecraft                        | minecraft:polar_bear                                      | EntityPolarBear                | 102 |
+| Minecraft                        | minecraft:potion                                          | EntityPotion                   |  16 |
+| Minecraft                        | minecraft:rabbit                                          | EntityRabbit                   | 101 |
+| Minecraft                        | minecraft:sheep                                           | EntitySheep                    |  91 |
+| Minecraft                        | minecraft:shulker                                         | EntityShulker                  |  69 |
+| Minecraft                        | minecraft:shulker_bullet                                  | EntityShulkerBullet            |  25 |
+| Minecraft                        | minecraft:silverfish                                      | EntitySilverfish               |  60 |
+| Minecraft                        | minecraft:skeleton                                        | EntitySkeleton                 |  51 |
+| Minecraft                        | minecraft:skeleton_horse                                  | EntitySkeletonHorse            |  28 |
+| Minecraft                        | minecraft:slime                                           | EntitySlime                    |  55 |
+| Minecraft                        | minecraft:small_fireball                                  | EntitySmallFireball            |  13 |
+| Minecraft                        | minecraft:snowball                                        | EntitySnowball                 |  11 |
+| Minecraft                        | minecraft:snowman                                         | EntitySnowman                  |  97 |
+| Minecraft                        | minecraft:spawner_minecart                                | EntityMinecartMobSpawner       |  47 |
+| Minecraft                        | minecraft:spectral_arrow                                  | EntitySpectralArrow            |  24 |
+| Minecraft                        | minecraft:spider                                          | EntitySpider                   |  52 |
+| Minecraft                        | minecraft:squid                                           | EntitySquid                    |  94 |
+| Minecraft                        | minecraft:stray                                           | EntityStray                    |   6 |
+| Minecraft                        | minecraft:tnt                                             | EntityTNTPrimed                |  20 |
+| Minecraft                        | minecraft:tnt_minecart                                    | EntityMinecartTNT              |  45 |
+| Minecraft                        | minecraft:vex                                             | EntityVex                      |  35 |
+| Minecraft                        | minecraft:villager                                        | EntityVillager                 | 120 |
+| Minecraft                        | minecraft:villager_golem                                  | EntityIronGolem                |  99 |
+| Minecraft                        | minecraft:vindication_illager                             | EntityVindicator               |  36 |
+| Minecraft                        | minecraft:witch                                           | EntityWitch                    |  66 |
+| Minecraft                        | minecraft:wither                                          | EntityWither                   |  64 |
+| Minecraft                        | minecraft:wither_skeleton                                 | EntityWitherSkeleton           |   5 |
+| Minecraft                        | minecraft:wither_skull                                    | EntityWitherSkull              |  19 |
+| Minecraft                        | minecraft:wolf                                            | EntityWolf                     |  95 |
+| Minecraft                        | minecraft:xp_bottle                                       | EntityExpBottle                |  17 |
+| Minecraft                        | minecraft:xp_orb                                          | EntityXPOrb                    |   2 |
+| Minecraft                        | minecraft:zombie                                          | EntityZombie                   |  54 |
+| Minecraft                        | minecraft:zombie_horse                                    | EntityZombieHorse              |  29 |
+| Minecraft                        | minecraft:zombie_pigman                                   | EntityPigZombie                |  57 |
+| Minecraft                        | minecraft:zombie_villager                                 | EntityZombieVillager           |  27 |
+| Misty World                      | mist:barvog                                               | EntityBarvog                   |   3 |
+| Misty World                      | mist:brachiodon                                           | EntityBrachiodon               |  13 |
+| Misty World                      | mist:caravan                                              | EntityCaravan                  |   5 |
+| Misty World                      | mist:cyclops                                              | EntityCyclops                  |  19 |
+| Misty World                      | mist:desert_fish                                          | EntityDesertFish               |  20 |
+| Misty World                      | mist:forest_runner                                        | EntityForestRunner             |   1 |
+| Misty World                      | mist:forest_spider                                        | EntityForestSpider             |  15 |
+| Misty World                      | mist:galaga                                               | EntityGalaga                   |  11 |
+| Misty World                      | mist:grave_bug                                            | EntityGraveBug                 |  14 |
+| Misty World                      | mist:horb                                                 | EntityHorb                     |   7 |
+| Misty World                      | mist:hulter                                               | EntityHulter                   |  12 |
+| Misty World                      | mist:momo                                                 | EntityMomo                     |   2 |
+| Misty World                      | mist:monk                                                 | EntityMonk                     |  10 |
+| Misty World                      | mist:mossling                                             | EntityMossling                 |   0 |
+| Misty World                      | mist:painting                                             | EntityMistPainting             |  21 |
+| Misty World                      | mist:prickler                                             | EntityPrickler                 |   4 |
+| Misty World                      | mist:rubber_ball                                          | EntityRubberBall               |  22 |
+| Misty World                      | mist:sloth                                                | EntitySloth                    |   9 |
+| Misty World                      | mist:sniff                                                | EntitySniff                    |   8 |
+| Misty World                      | mist:snow_flea                                            | EntitySnowFlea                 |  17 |
+| Misty World                      | mist:swamp_crab                                           | EntitySwampCrab                |  16 |
+| Misty World                      | mist:woodlouse                                            | EntityWoodlouse                |  18 |
+| Misty World                      | mist:wulder                                               | EntityWulder                   |   6 |
+| Mystical Gears                   | mystgears:turret                                          | EntityTurret                   |   0 |
+| Mystical Lib                     | dynamictreesroots:patched_entity_ritual_wild_growth       | PatchedEntityRitualWildGrowth  |   0 |
+| Mystical Lib                     | mysticalworld:entity_beetle                               | EntityBeetle                   |  25 |
+| Mystical Lib                     | mysticalworld:entity_clam                                 | EntityClam                     |  35 |
+| Mystical Lib                     | mysticalworld:entity_deer                                 | EntityDeer                     |  28 |
+| Mystical Lib                     | mysticalworld:entity_endermini                            | EntityEndermini                |  31 |
+| Mystical Lib                     | mysticalworld:entity_fox                                  | EntityFox                      |  23 |
+| Mystical Lib                     | mysticalworld:entity_frog                                 | EntityFrog                     |  24 |
+| Mystical Lib                     | mysticalworld:entity_hell_sprout                          | EntityHellSprout               |  27 |
+| Mystical Lib                     | mysticalworld:entity_lava_cat                             | EntityLavaCat                  |  33 |
+| Mystical Lib                     | mysticalworld:entity_lurker                               | EntityLurker                   |  36 |
+| Mystical Lib                     | mysticalworld:entity_owl                                  | EntityOwl                      |  32 |
+| Mystical Lib                     | mysticalworld:entity_silkworm                             | EntitySilkworm                 |  34 |
+| Mystical Lib                     | mysticalworld:entity_spirit_beetle                        | EntitySpiritBeetle             |  30 |
+| Mystical Lib                     | mysticalworld:entity_spirit_deer                          | EntitySpiritDeer               |  29 |
+| Mystical Lib                     | mysticalworld:entity_sprout                               | EntitySprout                   |  26 |
+| Mystical Lib                     | roots:entity_boost                                        | EntityBoost                    |   4 |
+| Mystical Lib                     | roots:entity_fire_jet                                     | EntityFireJet                  |   1 |
+| Mystical Lib                     | roots:entity_flare                                        | EntityFlare                    |   5 |
+| Mystical Lib                     | roots:entity_ritual_animal_harvest                        | EntityRitualAnimalHarvest      |   6 |
+| Mystical Lib                     | roots:entity_ritual_divine_protection                     | EntityRitualDivineProtection   |   7 |
+| Mystical Lib                     | roots:entity_ritual_fire_storm                            | EntityRitualFireStorm          |   8 |
+| Mystical Lib                     | roots:entity_ritual_flower_growth                         | EntityRitualFlowerGrowth       |   9 |
+| Mystical Lib                     | roots:entity_ritual_frost_lands                           | EntityRitualFrostLands         |  10 |
+| Mystical Lib                     | roots:entity_ritual_gathering                             | EntityRitualGathering          |  11 |
+| Mystical Lib                     | roots:entity_ritual_germination                           | EntityRitualGermination        |  12 |
+| Mystical Lib                     | roots:entity_ritual_healing_aura                          | EntityRitualHealingAura        |  13 |
+| Mystical Lib                     | roots:entity_ritual_heavy_storms                          | EntityRitualHeavyStorms        |  14 |
+| Mystical Lib                     | roots:entity_ritual_overgrowth                            | EntityRitualOvergrowth         |  15 |
+| Mystical Lib                     | roots:entity_ritual_purity                                | EntityRitualPurity             |  16 |
+| Mystical Lib                     | roots:entity_ritual_spreading_forest                      | EntityRitualSpreadingForest    |  17 |
+| Mystical Lib                     | roots:entity_ritual_summon_creatures                      | EntityRitualSummonCreatures    |  22 |
+| Mystical Lib                     | roots:entity_ritual_transmutation                         | EntityRitualTransmutation      |  18 |
+| Mystical Lib                     | roots:entity_ritual_warding_protection                    | EntityRitualWardingProtection  |  19 |
+| Mystical Lib                     | roots:entity_ritual_wild_growth                           | EntityRitualWildGrowth         |  20 |
+| Mystical Lib                     | roots:entity_ritual_windwall                              | EntityRitualWindwall           |  21 |
+| Mystical Lib                     | roots:entity_thorn_trap                                   | EntityThornTrap                |   2 |
+| Mystical Lib                     | roots:entity_time_stop                                    | EntityTimeStop                 |   3 |
+| Natural Pledge                   | naturalpledge:sealarrow                                   | EntitySealedArrow              |   0 |
+| Nature's Aura                    | naturesaura:effect_inhibitor                              | EntityEffectInhibitor          |   0 |
+| Nature's Aura                    | naturesaura:mover_cart                                    | EntityMoverMinecart            |   1 |
+| Platforms                        | platforms:gui-item                                        | EntityGuiItem                  |   2 |
+| Quark                            | quark:arrow_ender                                         | EntityArrowEnder               |   5 |
+| Quark                            | quark:arrow_explosive                                     | EntityArrowExplosive           |   6 |
+| Quark                            | quark:arrow_torch                                         | EntityArrowTorch               |   7 |
+| Quark                            | quark:ashen                                               | EntityAshen                    |   1 |
+| Quark                            | quark:chest_passenger                                     | EntityChestPassenger           |  13 |
+| Quark                            | quark:colored_item_frame                                  | EntityColoredItemFrame         |   0 |
+| Quark                            | quark:crab                                                | EntityCrab                     |  22 |
+| Quark                            | quark:dragon_breath_bottle                                | EntityDragonBreathBottle       |  11 |
+| Quark                            | quark:dweller                                             | EntityDweller                  |   2 |
+| Quark                            | quark:flat_item_frame                                     | EntityFlatItemFrame            |   9 |
+| Quark                            | quark:foxhound                                            | EntityFoxhound                 |  21 |
+| Quark                            | quark:frog                                                | EntityFrog                     |  18 |
+| Quark                            | quark:glass_item_frame                                    | EntityGlassItemFrame           |  10 |
+| Quark                            | quark:gravisand                                           | EntityGravisand                |  23 |
+| Quark                            | quark:leash_knot                                          | EntityLeashKnot2TheKnotting    |  19 |
+| Quark                            | quark:pickarang                                           | EntityPickarang                |  20 |
+| Quark                            | quark:seat                                                | Seat                           |  12 |
+| Quark                            | quark:soul_powder                                         | EntitySoulPowder               |   8 |
+| Quark                            | quark:stoneling                                           | EntityStoneling                |  17 |
+| Quark                            | quark:wraith                                              | EntityWraith                   |   4 |
+| Rats                             | rats:black_death                                          | EntityBlackDeath               |  18 |
+| Rats                             | rats:cheese_cannonball                                    | EntityCheeseCannonball         |  15 |
+| Rats                             | rats:feral_ratlantean                                     | EntityFeralRatlantean          |   7 |
+| Rats                             | rats:illager_piper                                        | EntityIllagerPiper             |   2 |
+| Rats                             | rats:laser_beam                                           | EntityLaserBeam                |   9 |
+| Rats                             | rats:marbled_cheese_golem                                 | EntityMarbleCheeseGolem        |   5 |
+| Rats                             | rats:marbled_cheese_golem_beam                            | EntityGolemBeam                |   6 |
+| Rats                             | rats:neo_ratlantean                                       | EntityNeoRatlantean            |   8 |
+| Rats                             | rats:neo_ratlantean_portal                                | EntityLaserPortal              |  10 |
+| Rats                             | rats:pirat                                                | EntityPirat                    |  14 |
+| Rats                             | rats:pirat_boat                                           | EntityPiratBoat                |  13 |
+| Rats                             | rats:plague_beast                                         | EntityPlagueBeast              |  20 |
+| Rats                             | rats:plague_cloud                                         | EntityPlagueCloud              |  19 |
+| Rats                             | rats:plague_doctor                                        | EntityPlagueDoctor             |  16 |
+| Rats                             | rats:plague_shot                                          | EntityPlagueShot               |  21 |
+| Rats                             | rats:purifying_liquid                                     | EntityPurifyingLiquid          |  17 |
+| Rats                             | rats:rat                                                  | EntityRat                      |   1 |
+| Rats                             | rats:rat_arrow                                            | EntityRatArrow                 |  24 |
+| Rats                             | rats:rat_capture_net                                      | EntityRatCaptureNet            |  22 |
+| Rats                             | rats:rat_dragon_fire                                      | EntityRatDragonFire            |  23 |
+| Rats                             | rats:ratlantean_flame                                     | EntityRatlanteanFlame          |   4 |
+| Rats                             | rats:ratlantean_spirit                                    | EntityRatlanteanSpirit         |   3 |
+| Rats                             | rats:thrown_block                                         | EntityThrownBlock              |  11 |
+| Rats                             | rats:vial_of_sentience                                    | EntityVialOfSentience          |  12 |
+| Realistic Item Drops             | realdrops:item_loot                                       | EntityItemLoot                 |   0 |
+| Rustic                           | rustic:chair                                              | EntityChair                    |   1 |
+| Rustic                           | rustic:tomato                                             | EntityTomato                   |   0 |
+| Soot                             | soot:cloud                                                | EntityCustomCloud              |   3 |
+| Soot                             | soot:firecloud                                            | EntityFireCloud                |   0 |
+| Soot                             | soot:muse                                                 | EntityMuse                     |   2 |
+| Soot                             | soot:snowpoff                                             | EntitySnowpoff                 |   1 |
+| TamModized                       | tammodized:dragonold                                      | EntityDragonOld                |   0 |
+| Thaumcraft                       | thaumcraft:alumentum                                      | EntityAlumentum                |   6 |
+| Thaumcraft                       | thaumcraft:arcanebore                                     | EntityArcaneBore               |  18 |
+| Thaumcraft                       | thaumcraft:bottletaint                                    | EntityBottleTaint              |   9 |
+| Thaumcraft                       | thaumcraft:brainyzombie                                   | EntityBrainyZombie             |  24 |
+| Thaumcraft                       | thaumcraft:causalitycollapser                             | EntityCausalityCollapser       |  12 |
+| Thaumcraft                       | thaumcraft:cultistcleric                                  | EntityCultistCleric            |  33 |
+| Thaumcraft                       | thaumcraft:cultistknight                                  | EntityCultistKnight            |  32 |
+| Thaumcraft                       | thaumcraft:cultistleader                                  | EntityCultistLeader            |  22 |
+| Thaumcraft                       | thaumcraft:cultistportalgreater                           | EntityCultistPortalGreater     |   0 |
+| Thaumcraft                       | thaumcraft:cultistportallesser                            | EntityCultistPortalLesser      |   1 |
+| Thaumcraft                       | thaumcraft:eldritchcrab                                   | EntityEldritchCrab             |  34 |
+| Thaumcraft                       | thaumcraft:eldritchgolem                                  | EntityEldritchGolem            |  21 |
+| Thaumcraft                       | thaumcraft:eldritchguardian                               | EntityEldritchGuardian         |  31 |
+| Thaumcraft                       | thaumcraft:eldritchorb                                    | EntityEldritchOrb              |   8 |
+| Thaumcraft                       | thaumcraft:eldritchwarden                                 | EntityEldritchWarden           |  20 |
+| Thaumcraft                       | thaumcraft:fallingtaint                                   | EntityFallingTaint             |   5 |
+| Thaumcraft                       | thaumcraft:firebat                                        | EntityFireBat                  |  27 |
+| Thaumcraft                       | thaumcraft:fluxrift                                       | EntityFluxRift                 |   2 |
+| Thaumcraft                       | thaumcraft:focuscloud                                     | EntityFocusCloud               |  14 |
+| Thaumcraft                       | thaumcraft:focusmine                                      | EntityFocusMine                |  15 |
+| Thaumcraft                       | thaumcraft:focusprojectile                                | EntityFocusProjectile          |  13 |
+| Thaumcraft                       | thaumcraft:followitem                                     | EntityFollowingItem            |   4 |
+| Thaumcraft                       | thaumcraft:giantbrainyzombie                              | EntityGiantBrainyZombie        |  25 |
+| Thaumcraft                       | thaumcraft:golem                                          | EntityThaumcraftGolem          |  19 |
+| Thaumcraft                       | thaumcraft:golemdart                                      | EntityGolemDart                |   7 |
+| Thaumcraft                       | thaumcraft:golemorb                                       | EntityGolemOrb                 |  10 |
+| Thaumcraft                       | thaumcraft:grapple                                        | EntityGrapple                  |  11 |
+| Thaumcraft                       | thaumcraft:inhabitedzombie                                | EntityInhabitedZombie          |  35 |
+| Thaumcraft                       | thaumcraft:mindspider                                     | EntityMindSpider               |  30 |
+| Thaumcraft                       | thaumcraft:pech                                           | EntityPech                     |  29 |
+| Thaumcraft                       | thaumcraft:specialitem                                    | EntitySpecialItem              |   3 |
+| Thaumcraft                       | thaumcraft:spellbat                                       | EntitySpellBat                 |  28 |
+| Thaumcraft                       | thaumcraft:taintacle                                      | EntityTaintacle                |  38 |
+| Thaumcraft                       | thaumcraft:taintaclegiant                                 | EntityTaintacleGiant           |  23 |
+| Thaumcraft                       | thaumcraft:taintacletiny                                  | EntityTaintacleSmall           |  39 |
+| Thaumcraft                       | thaumcraft:taintcrawler                                   | EntityTaintCrawler             |  37 |
+| Thaumcraft                       | thaumcraft:taintseed                                      | EntityTaintSeed                |  41 |
+| Thaumcraft                       | thaumcraft:taintseedprime                                 | EntityTaintSeedPrime           |  42 |
+| Thaumcraft                       | thaumcraft:taintswarm                                     | EntityTaintSwarm               |  40 |
+| Thaumcraft                       | thaumcraft:thaumslime                                     | EntityThaumicSlime             |  36 |
+| Thaumcraft                       | thaumcraft:turretadvanced                                 | EntityTurretCrossbowAdvanced   |  17 |
+| Thaumcraft                       | thaumcraft:turretbasic                                    | EntityTurretCrossbow           |  16 |
+| Thaumcraft                       | thaumcraft:wisp                                           | EntityWisp                     |  26 |
+| Thaumic Augmentation             | thaumicaugmentation:dimensional_fracture                  | EntityDimensionalFracture      |   0 |
+| Thaumic Periphery                | thaumicperiphery:magic_arrow                              | EntityMagicArrow               |   0 |
+| The Aether                       | aether_legacy:aechor_plant                                | EntityAechorPlant              |  10 |
+| The Aether                       | aether_legacy:aerbunny                                    | EntityAerbunny                 |   4 |
+| The Aether                       | aether_legacy:aerwhale                                    | EntityAerwhale                 |   5 |
+| The Aether                       | aether_legacy:cockatrice                                  | EntityCockatrice               |   7 |
+| The Aether                       | aether_legacy:enchanted_dart                              | EntityDartEnchanted            |  17 |
+| The Aether                       | aether_legacy:fire_ball                                   | EntityFireBall                 |  19 |
+| The Aether                       | aether_legacy:fire_minion                                 | EntityFireMinion               |  23 |
+| The Aether                       | aether_legacy:floating_block                              | EntityFloatingBlock            |  25 |
+| The Aether                       | aether_legacy:flying_cow                                  | EntityFlyingCow                |   2 |
+| The Aether                       | aether_legacy:golden_dart                                 | EntityDartGolden               |  15 |
+| The Aether                       | aether_legacy:hammer_projectile                           | EntityHammerProjectile         |  29 |
+| The Aether                       | aether_legacy:ice_ball                                    | EntityIceyBall                 |  20 |
+| The Aether                       | aether_legacy:lightning_knife                             | EntityLightningKnife           |  30 |
+| The Aether                       | aether_legacy:mimic                                       | EntityMimic                    |  11 |
+| The Aether                       | aether_legacy:mini_cloud                                  | EntityMiniCloud                |  24 |
+| The Aether                       | aether_legacy:moa                                         | EntityMoa                      |   0 |
+| The Aether                       | aether_legacy:parachute                                   | EntityParachute                |  31 |
+| The Aether                       | aether_legacy:phoenix_arrow                               | EntityPhoenixArrow             |  27 |
+| The Aether                       | aether_legacy:phyg                                        | EntityPhyg                     |   1 |
+| The Aether                       | aether_legacy:poison_dart                                 | EntityDartPoison               |  16 |
+| The Aether                       | aether_legacy:poison_needle                               | EntityPoisonNeedle             |  18 |
+| The Aether                       | aether_legacy:sentry                                      | EntitySentry                   |   8 |
+| The Aether                       | aether_legacy:sheepuff                                    | EntitySheepuff                 |   3 |
+| The Aether                       | aether_legacy:slider                                      | EntitySlider                   |  12 |
+| The Aether                       | aether_legacy:sun_spirit                                  | EntitySunSpirit                |  14 |
+| The Aether                       | aether_legacy:swet                                        | EntitySwet                     |   6 |
+| The Aether                       | aether_legacy:thunder_ball                                | EntityThunderBall              |  21 |
+| The Aether                       | aether_legacy:tipped_phoenix_arrow                        | EntityTippedPhoenixArrow       |  33 |
+| The Aether                       | aether_legacy:tnt_present                                 | EntityTNTPresent               |  26 |
+| The Aether                       | aether_legacy:valkyrie                                    | EntityValkyrie                 |  22 |
+| The Aether                       | aether_legacy:valkyrie_queen                              | EntityValkyrieQueen            |  13 |
+| The Aether                       | aether_legacy:whirlwind                                   | EntityWhirlwind                |  32 |
+| The Aether                       | aether_legacy:zephyr                                      | EntityZephyr                   |   9 |
+| The Aether                       | aether_legacy:zephyr_snowball                             | EntityZephyrSnowball           |  28 |
+| The Betweenlands                 | thebetweenlands:angler                                    | EntityAngler                   |   2 |
+| The Betweenlands                 | thebetweenlands:angry_pebble                              | EntityAngryPebble              |  61 |
+| The Betweenlands                 | thebetweenlands:ash_sprite                                | EntityAshSprite                | 113 |
+| The Betweenlands                 | thebetweenlands:barrishee                                 | EntityBarrishee                | 111 |
+| The Betweenlands                 | thebetweenlands:betweenstone_pebble                       | EntityBetweenstonePebble       | 145 |
+| The Betweenlands                 | thebetweenlands:bl_arrow                                  | EntityBLArrow                  |  23 |
+| The Betweenlands                 | thebetweenlands:bl_elexir                                 | EntityElixir                   |  70 |
+| The Betweenlands                 | thebetweenlands:blind_cave_fish                           | EntityBlindCaveFish            |  33 |
+| The Betweenlands                 | thebetweenlands:blood_snail                               | EntityBloodSnail               |  18 |
+| The Betweenlands                 | thebetweenlands:boulder_sprite                            | EntityBoulderSprite            |  79 |
+| The Betweenlands                 | thebetweenlands:cc_ground_spawner                         | EntityCCGroundSpawner          | 123 |
+| The Betweenlands                 | thebetweenlands:chiromaw                                  | EntityChiromaw                 |  35 |
+| The Betweenlands                 | thebetweenlands:chiromaw_droppings                        | EntityChiromawDroppings        | 149 |
+| The Betweenlands                 | thebetweenlands:chiromaw_greebling_rider                  | EntityChiromawGreeblingRider   | 142 |
+| The Betweenlands                 | thebetweenlands:chiromaw_hatchling                        | EntityChiromawHatchling        | 150 |
+| The Betweenlands                 | thebetweenlands:chiromaw_matriarch                        | EntityChiromawMatriarch        | 147 |
+| The Betweenlands                 | thebetweenlands:chiromaw_tame                             | EntityChiromawTame             | 151 |
+| The Betweenlands                 | thebetweenlands:crypt_crawler                             | EntityCryptCrawler             | 109 |
+| The Betweenlands                 | thebetweenlands:dark_druid                                | EntityDarkDruid                |   0 |
+| The Betweenlands                 | thebetweenlands:decay_pit_target                          | EntityDecayPitTarget           | 115 |
+| The Betweenlands                 | thebetweenlands:draeton                                   | EntityDraeton                  | 138 |
+| The Betweenlands                 | thebetweenlands:draeton_chiromaw_tamed                    | EntityPullerChiromaw           | 141 |
+| The Betweenlands                 | thebetweenlands:draeton_dragonfly                         | EntityPullerDragonfly          | 139 |
+| The Betweenlands                 | thebetweenlands:draeton_firefly                           | EntityPullerFirefly            | 140 |
+| The Betweenlands                 | thebetweenlands:dragonfly                                 | EntityDragonFly                |  16 |
+| The Betweenlands                 | thebetweenlands:dreadful_mummy                            | EntityDreadfulMummy            |  71 |
+| The Betweenlands                 | thebetweenlands:emberling                                 | EntityEmberling                | 128 |
+| The Betweenlands                 | thebetweenlands:emberling_shaman                          | EntityEmberlingShaman          | 124 |
+| The Betweenlands                 | thebetweenlands:firefly                                   | EntityFirefly                  |  10 |
+| The Betweenlands                 | thebetweenlands:flame_jet                                 | EntityFlameJet                 | 126 |
+| The Betweenlands                 | thebetweenlands:fortress_boss                             | EntityFortressBoss             |  62 |
+| The Betweenlands                 | thebetweenlands:fortress_boss_blockade                    | EntityFortressBossBlockade     |  65 |
+| The Betweenlands                 | thebetweenlands:fortress_boss_projectile                  | EntityFortressBossProjectile   |  66 |
+| The Betweenlands                 | thebetweenlands:fortress_boss_spawner                     | EntityFortressBossSpawner      |  64 |
+| The Betweenlands                 | thebetweenlands:fortress_boss_teleporter                  | EntityFortressBossTeleporter   |  68 |
+| The Betweenlands                 | thebetweenlands:fortress_boss_turret                      | EntityFortressBossTurret       |  67 |
+| The Betweenlands                 | thebetweenlands:frog                                      | EntityFrog                     |  37 |
+| The Betweenlands                 | thebetweenlands:gallery_frame                             | EntityGalleryFrame             | 131 |
+| The Betweenlands                 | thebetweenlands:gas_cloud                                 | EntityGasCloud                 |  42 |
+| The Betweenlands                 | thebetweenlands:gecko                                     | EntityGecko                    |  27 |
+| The Betweenlands                 | thebetweenlands:grapping_hook_node                        | EntityGrapplingHookNode        |  58 |
+| The Betweenlands                 | thebetweenlands:greebling                                 | EntityGreebling                |  77 |
+| The Betweenlands                 | thebetweenlands:greebling_corpse                          | EntityGreeblingCorpse          | 152 |
+| The Betweenlands                 | thebetweenlands:greebling_volarpad_floater                | EntityGreeblingVolarpadFloater | 144 |
+| The Betweenlands                 | thebetweenlands:large_sludge_worm                         | EntityLargeSludgeWorm          |  95 |
+| The Betweenlands                 | thebetweenlands:leech                                     | EntityLeech                    |  14 |
+| The Betweenlands                 | thebetweenlands:lightning                                 | EntityBLLightningBolt          | 136 |
+| The Betweenlands                 | thebetweenlands:lurker                                    | EntityLurker                   |  25 |
+| The Betweenlands                 | thebetweenlands:lurker_skin_raft                          | EntityLurkerSkinRaft           | 100 |
+| The Betweenlands                 | thebetweenlands:mire_snail                                | EntityMireSnail                |  20 |
+| The Betweenlands                 | thebetweenlands:mire_snail_egg                            | EntityMireSnailEgg             |  22 |
+| The Betweenlands                 | thebetweenlands:moving_spawner_hole                       | EntityMovingSpawnerHole        | 105 |
+| The Betweenlands                 | thebetweenlands:moving_wall                               | EntityMovingWall               | 127 |
+| The Betweenlands                 | thebetweenlands:multipart_dummy                           | EntityMultipartDummy           | 137 |
+| The Betweenlands                 | thebetweenlands:mummy_arm                                 | EntityMummyArm                 |  60 |
+| The Betweenlands                 | thebetweenlands:peat_mummy                                | EntityPeatMummy                |  52 |
+| The Betweenlands                 | thebetweenlands:predator_arrow_guide                      | EntityPredatorArrowGuide       |  90 |
+| The Betweenlands                 | thebetweenlands:pyrad                                     | EntityPyrad                    |  49 |
+| The Betweenlands                 | thebetweenlands:pyrad_flame                               | EntityPyradFlame               |  51 |
+| The Betweenlands                 | thebetweenlands:root_grabber                              | EntityRootGrabber              |  86 |
+| The Betweenlands                 | thebetweenlands:root_sprite                               | EntityRootSprite               |  88 |
+| The Betweenlands                 | thebetweenlands:rope_node                                 | EntityRopeNode                 |  57 |
+| The Betweenlands                 | thebetweenlands:sap_spit                                  | EntitySapSpit                  |  84 |
+| The Betweenlands                 | thebetweenlands:shambler                                  | EntityShambler                 | 101 |
+| The Betweenlands                 | thebetweenlands:shock                                     | EntityShock                    | 135 |
+| The Betweenlands                 | thebetweenlands:shockwave_block                           | EntityShockwaveBlock           |  41 |
+| The Betweenlands                 | thebetweenlands:shockwave_sword_item                      | EntityShockwaveSwordItem       |  40 |
+| The Betweenlands                 | thebetweenlands:silt_crab                                 | EntitySiltCrab                 |  47 |
+| The Betweenlands                 | thebetweenlands:sludge                                    | EntitySludge                   |   4 |
+| The Betweenlands                 | thebetweenlands:sludge_ball                               | EntitySludgeBall               |  73 |
+| The Betweenlands                 | thebetweenlands:sludge_jet                                | EntitySludgeJet                | 116 |
+| The Betweenlands                 | thebetweenlands:sludge_menace                             | EntitySludgeMenace             | 132 |
+| The Betweenlands                 | thebetweenlands:sludge_menace_multipart_dummy             | DummyPart                      | 134 |
+| The Betweenlands                 | thebetweenlands:sludge_wall_jet                           | EntitySludgeWallJet            | 120 |
+| The Betweenlands                 | thebetweenlands:small_sludge_worm                         | EntitySludgeWorm               |  91 |
+| The Betweenlands                 | thebetweenlands:smoll_sludge                              | EntitySmollSludge              |  75 |
+| The Betweenlands                 | thebetweenlands:snail_poison_jet                          | EntitySnailPoisonJet           |  24 |
+| The Betweenlands                 | thebetweenlands:spike_wave                                | EntitySpikeWave                |  85 |
+| The Betweenlands                 | thebetweenlands:spirit_tree_face_large                    | EntitySpiritTreeFaceLarge      |  82 |
+| The Betweenlands                 | thebetweenlands:spirit_tree_face_mask                     | EntitySpiritTreeFaceMask       |  87 |
+| The Betweenlands                 | thebetweenlands:spirit_tree_face_small                    | EntitySpiritTreeFaceSmall      |  81 |
+| The Betweenlands                 | thebetweenlands:splodeshroom                              | EntitySplodeshroom             | 121 |
+| The Betweenlands                 | thebetweenlands:spore_jet                                 | EntitySporeJet                 |  74 |
+| The Betweenlands                 | thebetweenlands:sporeling                                 | EntitySporeling                |  12 |
+| The Betweenlands                 | thebetweenlands:swamp_hag                                 | EntitySwampHag                 |   6 |
+| The Betweenlands                 | thebetweenlands:sword_energy                              | EntitySwordEnergy              |  39 |
+| The Betweenlands                 | thebetweenlands:tamed_spirit_tree_face                    | EntityTamedSpiritTreeFace      |  83 |
+| The Betweenlands                 | thebetweenlands:tar_beast                                 | EntityTarBeast                 |  45 |
+| The Betweenlands                 | thebetweenlands:tarminion                                 | EntityTarminion                |  54 |
+| The Betweenlands                 | thebetweenlands:termite                                   | EntityTermite                  |  29 |
+| The Betweenlands                 | thebetweenlands:thrown_tarminion                          | EntityThrownTarminion          |  56 |
+| The Betweenlands                 | thebetweenlands:tiny_sludge_worm                          | EntityTinySludgeWorm           |  93 |
+| The Betweenlands                 | thebetweenlands:tiny_sludge_worm_helper                   | EntityTinySludgeWormHelper     |  98 |
+| The Betweenlands                 | thebetweenlands:tiny_worm_egg_sac                         | EntityTinyWormEggSac           |  97 |
+| The Betweenlands                 | thebetweenlands:toad                                      | EntityGiantToad                |  31 |
+| The Betweenlands                 | thebetweenlands:triggered_falling_block                   | EntityTriggeredFallingBlock    | 117 |
+| The Betweenlands                 | thebetweenlands:triggered_sludge_wall_jet                 | EntityTriggeredSludgeWallJet   | 118 |
+| The Betweenlands                 | thebetweenlands:volarkite                                 | EntityVolarkite                |  59 |
+| The Betweenlands                 | thebetweenlands:volatile_soul                             | EntityVolatileSoul             |  44 |
+| The Betweenlands                 | thebetweenlands:wall_lamprey                              | EntityWallLamprey              | 103 |
+| The Betweenlands                 | thebetweenlands:wall_living_root                          | EntityWallLivingRoot           | 107 |
+| The Betweenlands                 | thebetweenlands:weedwood_rowboat                          | EntityWeedwoodRowboat          |  69 |
+| The Betweenlands                 | thebetweenlands:wight                                     | EntityWight                    |   8 |
+| The Betweenlands                 | thebetweenlands:wild_emberling                            | EntityEmberlingWild            | 129 |
+| The Betweenlands                 | thebetweenlands:worm_ground_spawner                       | EntityWormGroundSpawner        | 146 |
+| Wizardry                         | wizardry:bomb                                             | EntityBomb                     |   0 |
+| Wizardry                         | wizardry:fairy                                            | EntityFairy                    |   4 |
+| Wizardry                         | wizardry:halo_infusion_item                               | EntityHaloInfusionItem         |   1 |
+| Wizardry                         | wizardry:jump_pad                                         | EntityJumpPad                  |   7 |
+| Wizardry                         | wizardry:lightning_projectile                             | EntityLightningProjectile      |   6 |
+| Wizardry                         | wizardry:spell_projectile                                 | EntitySpellProjectile          |   5 |
+| Wizardry                         | wizardry:spirit_blight                                    | EntitySpiritBlight             |   2 |
+| Wizardry                         | wizardry:spirit_wight                                     | EntitySpiritWight              |   3 |
+| Wizardry                         | wizardry:summon_zombie                                    | EntityBackupZombie             |   9 |
+| Wizardry                         | wizardry:unicorn                                          | EntityUnicorn                  |   8 |
++----------------------------------+-----------------------------------------------------------+--------------------------------+-----+
+| Mod name                         | Registry name                                             | Entity class name              |  ID |
++----------------------------------+-----------------------------------------------------------+--------------------------------+-----+
