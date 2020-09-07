@@ -173,4 +173,8 @@ Altar.addAttunementAltarRecipe("internal/altar/tool_architect", wandFormation, 1
 //Iridescent altar
 Altar.addConstellationAltarRecipe("internal/altar/upgrade_tier4", iridescentAltar, 3200, 1000, [marbleRuned, glassLens, marbleRuned, magicCrystal, rockCrystalCelestial, magicCrystal, marbleRuned, runeStarlight, marbleRuned, marbleRuned, marbleRuned, marbleRuned, marbleRuned, sootyMarble, sootyMarble, gemResonating, radiantQuartzShaped, radiantQuartzShaped, gemResonating, sootyMarble, sootyMarble]);
 
+//iron dust
 Grindstone.addRecipe(oreIron, dustIron, 0.85f);
+
+//infused wood tooltip
+infusedWood.addTooltip(format.gold("Obtained by dropping Wood Logs in Liquid Starlight in-world"));
