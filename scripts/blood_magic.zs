@@ -167,7 +167,6 @@ recipes.addShapeless("diary_doomed_1", diaryDoomed, [diaryDoomed.marked("book"),
 	var displayTagOut = displayTag - "Lore" + overrideLore as IData;
 	var overrideTag = {display: displayTagOut} as IData;
 	var tagOutput = tag - "display" + overrideTag as IData;
-	print(tagOutput);
 	return output.withTag(tagOutput);
 }, null);
 recipes.addShapeless("diary_doomed_2", diaryDoomed, [diaryDoomed1.marked("book"), tornPage], function(output, inputs, CInfo){
@@ -177,7 +176,6 @@ recipes.addShapeless("diary_doomed_2", diaryDoomed, [diaryDoomed1.marked("book")
 	var displayTagOut = displayTag - "Lore" + overrideLore as IData;
 	var overrideTag = {display: displayTagOut} as IData;
 	var tagOutput = tag - "display" + overrideTag as IData;
-	print(tagOutput);
 	return output.withTag(tagOutput);
 }, null);
 recipes.addShapeless("diary_doomed_3", diaryDoomed, [diaryDoomed2.marked("book"), tornPage], function(output, inputs, CInfo){
@@ -187,7 +185,6 @@ recipes.addShapeless("diary_doomed_3", diaryDoomed, [diaryDoomed2.marked("book")
 	var displayTagOut = displayTag - "Lore" + overrideLore as IData;
 	var overrideTag = {display: displayTagOut} as IData;
 	var tagOutput = tag - "display" + overrideTag as IData;
-	print(tagOutput);
 	return output.withTag(tagOutput);
 }, null);
 recipes.addShapeless("diary_doomed_4", diaryDoomed, [diaryDoomed3.marked("book"), tornPage], function(output, inputs, CInfo){
@@ -197,7 +194,6 @@ recipes.addShapeless("diary_doomed_4", diaryDoomed, [diaryDoomed3.marked("book")
 	var displayTagOut = displayTag - "Lore" + overrideLore as IData;
 	var overrideTag = {display: displayTagOut} as IData;
 	var tagOutput = tag - "display" + overrideTag as IData;
-	print(tagOutput);
 	return output.withTag(tagOutput);
 }, null);
 recipes.addShapeless("diary_doomed_5", diaryDoomed, [diaryDoomed4.marked("book"), tornPage], function(output, inputs, CInfo){
@@ -207,7 +203,6 @@ recipes.addShapeless("diary_doomed_5", diaryDoomed, [diaryDoomed4.marked("book")
 	var displayTagOut = displayTag - "Lore" + overrideLore as IData;
 	var overrideTag = {display: displayTagOut} as IData;
 	var tagOutput = tag - "display" + overrideTag as IData;
-	print(tagOutput);
 	return output.withTag(tagOutput);
 }, null);
 
