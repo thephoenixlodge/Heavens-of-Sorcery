@@ -79,6 +79,8 @@ val diaryDoomed5 = <patchouli:guide_book>.withTag({"patchouli:book": "patchouli:
 val tornPage = <contenttweaker:torn_page>;
 val leather = <minecraft:leather>;
 val marbleDark = <tombstone:dark_marble>;
+val masterRitualStone = <bloodmagic:ritual_controller>;
+val ritualStone = <bloodmagic:ritual_stone>;
 
 //disable snare
 recipes.remove(snare);
@@ -159,3 +161,9 @@ recipes.addShapeless(diaryDoomed2, [diaryDoomed1, tornPage]);
 recipes.addShapeless(diaryDoomed3, [diaryDoomed2, tornPage]);
 recipes.addShapeless(diaryDoomed4, [diaryDoomed3, tornPage]);
 recipes.addShapeless(diaryDoomed5, [diaryDoomed4, tornPage]);
+
+//replace obsidian with dark marble in ritual stone recipes
+recipes.removeByRecipeName("bloodmagic:ritual_stone_blank");
+recipes.addShaped(ritualStone * 4, [[marbleDark, slateT2, marbleDark], [slateT2, bloodOrbs2, slateT2], [marbleDark, slateT2, marbleDark]]);
+recipes.removeByRecipeName("bloodmagic:ritual_controller_master");
+recipes.addShaped(masterRitualStone, [[marbleDark, ritualStone, marbleDark], [ritualStone, bloodOrbs2, ritualStone], [marbleDark, ritualStone, marbleDark]]);
