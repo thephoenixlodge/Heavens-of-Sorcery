@@ -201,6 +201,7 @@ val garlic = <ore:cropGarlic>;
 val garlicBread = <bewitchment:garlic_bread>;
 val bread = <minecraft:bread>;
 val salt = <ore:dustSalt>;
+val goldenAmber = <aether_legacy:golden_amber>;
 
 val basicBlocks = {
 	<minecraft:end_stone> : 6,
@@ -545,3 +546,6 @@ ArcaneWorld.remove("arcaneworld:create_glowing_chorus");
 //garlic bread
 recipes.remove(garlicBread);
 recipes.addShapeless(garlicBread * 2, [bread, garlic, garlic, salt]);
+
+//golden amber tooltip
+goldenAmber.addTooltip(format.gold("Harvested from Golden Oaks with a Zanite Axe, Gravitite Axe or Valkyrie Axe"));
