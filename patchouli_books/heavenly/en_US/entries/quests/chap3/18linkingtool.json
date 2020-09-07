@@ -38,7 +38,7 @@
             "heading": "Starmetal Ore",
             "output_item": "astralsorcery:blockcustomore:1",
             "input": "mist:iron_ore",
-            "description": "$(l)To use the Linking Tool:$() Right-Click the Crystal to select it, then Right-Click any and all blocks you wish to link to it. To deselect and stop linking, simply hold a different item."
+            "description": "$(l)To use the Linking Tool:$() Right-Click the Crystal to select it, then Right-Click any and all blocks you wish to link to it. To deselect and stop linking, simply hold a different item. $(l)Crystal must be able to see the sky!$()"
         },
         {
             "type": "grindstone",
