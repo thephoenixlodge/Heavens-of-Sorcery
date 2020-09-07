@@ -1,6 +1,10 @@
 import mods.bloodmagic.TartaricForge;
 import mods.bloodmagic.BloodAltar;
 import mods.bloodmagic.AlchemyTable;
+import crafttweaker.recipes.ICraftingInfo;
+import crafttweaker.recipes.IRecipeFunction;
+import crafttweaker.item.IItemStack;
+import crafttweaker.data.IData;
 
 ////variables
 val snare = <bloodmagic:soul_snare>;
@@ -156,14 +160,65 @@ recipes.addShapeless(scornedBricks, [marbleSooty, marbleSooty, spectralDust]);
 
 //diary of the doomed recipe
 recipes.addShapeless(diaryDoomed, [tornPage, leather]);
-recipes.addShapeless(diaryDoomed1, [diaryDoomed, tornPage]);
-recipes.addShapeless(diaryDoomed2, [diaryDoomed1, tornPage]);
-recipes.addShapeless(diaryDoomed3, [diaryDoomed2, tornPage]);
-recipes.addShapeless(diaryDoomed4, [diaryDoomed3, tornPage]);
-recipes.addShapeless(diaryDoomed5, [diaryDoomed4, tornPage]);
+recipes.addShapeless("diary_doomed_1", diaryDoomed, [diaryDoomed.marked("book"), tornPage], function(output, inputs, CInfo){
+	var tag = inputs.book.tag as IData;
+	var displayTag = tag.memberGet("display") as IData;
+	var overrideLore = {Lore: ["Torn Pages added: 1"]} as IData;
+	var displayTagOut = displayTag - "Lore" + overrideLore as IData;
+	var overrideTag = {display: displayTagOut} as IData;
+	var tagOutput = tag - "display" + overrideTag as IData;
+	print(tagOutput);
+	return output.withTag(tagOutput);
+}, null);
+recipes.addShapeless("diary_doomed_2", diaryDoomed, [diaryDoomed1.marked("book"), tornPage], function(output, inputs, CInfo){
+	var tag = inputs.book.tag as IData;
+	var displayTag = tag.memberGet("display") as IData;
+	var overrideLore = {Lore: ["Torn Pages added: 2"]} as IData;
+	var displayTagOut = displayTag - "Lore" + overrideLore as IData;
+	var overrideTag = {display: displayTagOut} as IData;
+	var tagOutput = tag - "display" + overrideTag as IData;
+	print(tagOutput);
+	return output.withTag(tagOutput);
+}, null);
+recipes.addShapeless("diary_doomed_3", diaryDoomed, [diaryDoomed2.marked("book"), tornPage], function(output, inputs, CInfo){
+	var tag = inputs.book.tag as IData;
+	var displayTag = tag.memberGet("display") as IData;
+	var overrideLore = {Lore: ["Torn Pages added: 3"]} as IData;
+	var displayTagOut = displayTag - "Lore" + overrideLore as IData;
+	var overrideTag = {display: displayTagOut} as IData;
+	var tagOutput = tag - "display" + overrideTag as IData;
+	print(tagOutput);
+	return output.withTag(tagOutput);
+}, null);
+recipes.addShapeless("diary_doomed_4", diaryDoomed, [diaryDoomed3.marked("book"), tornPage], function(output, inputs, CInfo){
+	var tag = inputs.book.tag as IData;
+	var displayTag = tag.memberGet("display") as IData;
+	var overrideLore = {Lore: ["Torn Pages added: 4"]} as IData;
+	var displayTagOut = displayTag - "Lore" + overrideLore as IData;
+	var overrideTag = {display: displayTagOut} as IData;
+	var tagOutput = tag - "display" + overrideTag as IData;
+	print(tagOutput);
+	return output.withTag(tagOutput);
+}, null);
+recipes.addShapeless("diary_doomed_5", diaryDoomed, [diaryDoomed4.marked("book"), tornPage], function(output, inputs, CInfo){
+	var tag = inputs.book.tag as IData;
+	var displayTag = tag.memberGet("display") as IData;
+	var overrideLore = {Lore: ["Torn Pages added: 5"]} as IData;
+	var displayTagOut = displayTag - "Lore" + overrideLore as IData;
+	var overrideTag = {display: displayTagOut} as IData;
+	var tagOutput = tag - "display" + overrideTag as IData;
+	print(tagOutput);
+	return output.withTag(tagOutput);
+}, null);
 
 //replace obsidian with dark marble in ritual stone recipes
 recipes.removeByRecipeName("bloodmagic:ritual_stone_blank");
 recipes.addShaped(ritualStone * 4, [[marbleDark, slateT2, marbleDark], [slateT2, bloodOrbs2, slateT2], [marbleDark, slateT2, marbleDark]]);
 recipes.removeByRecipeName("bloodmagic:ritual_controller_master");
 recipes.addShaped(masterRitualStone, [[marbleDark, ritualStone, marbleDark], [ritualStone, bloodOrbs2, ritualStone], [marbleDark, ritualStone, marbleDark]]);
+
+/*
+<patchouli:guide_book>.withTag({"akashictome:displayName": "Diary of the Doomed", "akashictome:definedMod": "patchouli", display: {Lore: ["Torn Pages added: 1"], Name: "§rAkashic Tome (§aDiary of the Doomed§r)"}, "akashictome:is_morphing": 1 as byte, "patchouli:book": "patchouli:doomed", "akashictome:data": {}})
+
+<patchouli:guide_book>.withTag({display: {Lore: ["Torn Pages added: 1"]}, "patchouli:book": "patchouli:doomed"})
+*/
