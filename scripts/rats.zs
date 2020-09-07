@@ -109,6 +109,7 @@ val ratToga = <rats:rat_toga>;
 val slime = <ore:slimeball>;
 val manaWeave = <botania:manaresource:22>;
 val superSoundMuffler = <supersoundmuffler:sound_muffler>;
+val swordEthereal = <arcaneworld:ethereal_sword>;
 //upgrades
 val upgradeBasic = <rats:rat_upgrade_basic>;
 val upgradeSpeed = <rats:rat_upgrade_speed>;
@@ -172,7 +173,7 @@ mapUpgradeRecipes[upgradeSpeed] = [upgradeBasic, sojournersSash, sugar * 4];
 mapUpgradeRecipes[upgradePlatter] = [upgradeBasic, plate, cheese * 4];
 mapUpgradeRecipes[upgradeHealth] = [upgradeBasic, angelHeart, heartBeet * 2];
 mapUpgradeRecipes[upgradeArmor] = [upgradeBasic, chestplateCharoite, shield];
-mapUpgradeRecipes[upgradeStrength] = [upgradeBasic, swordCharoite * 2, ingotVentium * 4];
+mapUpgradeRecipes[upgradeStrength] = [upgradeBasic, swordCharoite, swordEthereal, ingotVentium * 4];
 mapUpgradeRecipes[upgradeWarrior] = [upgradeHealth, upgradeArmor, upgradeStrength, gemTurquoise * 15];
 mapUpgradeRecipes[upgradeGod] = [upgradeWarrior * 4, netherStar, runicArc];
 mapUpgradeRecipes[upgradeChef] = [upgradeBasic, toque, wok, kitchenKnife, gApple];
