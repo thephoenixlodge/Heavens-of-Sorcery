@@ -35,7 +35,7 @@
         {
             "type": "spotlight",
             "item": "mist:tree_seed:9",
-            "text": "$(item)Stone Tress Berries$() can be found in $(thing)Taiga Zones$(), rarely harvestable from the leaves of $(item)Stone Trees$() from February to March.$(br2)See Seasons for more information." 
+            "text": "$(item)Stone Tress Berries$() can be found in $(thing)Taiga Zones$(), rarely harvestable from the leaves of $(item)Stone Trees$() from February to March.$(br2)See $(l:dimension_dossier/misty_world/seasons)Seasons$() for more information." 
         },
         {
             "type": "spotlight",

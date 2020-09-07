@@ -1,0 +1,62 @@
+{
+    "name": "Saplings and Tree Seeds",
+    "icon": "mist:tree_sapling:12",
+    "category": "dimension_dossier/misty_world",
+    "advancement": "heavens:bookchap2/13raidloot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "The Trees of the $(thing)Misty World$() are less straight-forward to cultivate than most. Of particular note, is the way saplings are harvested from the trees. This is done by $(l)breaking $(item)Branches$() $(l)at their thinnest point, where they attach to the $(item)Leaves$(). The more $(item)Leaves$() attached to the branch, the more likely you will successfully prune a $(item)Sapling$()."
+        },
+        {
+            "type": "text",
+            "title": "Growing Seeds",
+            "text": "The other way to obtain $(item)Saplings$() is by growing $(item)Tree Seeds$(), plucked from the leaves during specific $(l:dimension_dossier/misty_world/seasons)Seasons$(). Once you've got a seed, plant it in a $(item)Flower Pot$() and given a little time it'll grow up into a $(item)Sapling$()."
+        },
+        {
+            "type": "text_list",
+            "heading": "Tree Seed Seasons",
+            "item1": "mist:tree_seed:0",
+            "text1": "February to April",
+            "item2": "mist:tree_seed:1",
+            "text2": "September to November",
+            "item3": "mist:tree_seed:2",
+            "text3": "March to May",
+            "item4": "mist:tree_seed:3",
+            "text4": "May to July",
+            "item5": "mist:tree_seed:4",
+            "text5": "July to September"
+        },
+        {
+            "type": "text_list",
+            "heading": "Tree Seed Seasons",
+            "item1": "mist:tree_seed:5",
+            "text1": "June to October",
+            "item2": "mist:tree_seed:6",
+            "text2": "May to July",
+            "item3": "mist:tree_seed:7",
+            "text3": "January to March",
+            "item4": "mist:tree_seed:8",
+            "text4": "September to December",
+            "item5": "mist:tree_seed:9",
+            "text5": "February to March"
+        },
+        {
+            "type": "text_list",
+            "heading": "Tree Seed Seasons",
+            "item1": "mist:tree_seed:10",
+            "text1": "June to Aug",
+            "item2": "mist:tree_seed:11",
+            "text2": "April to June",
+            "item3": "mist:tree_seed:12",
+            "text3": "July to September"
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "dimension_dossier/misty_world",
+                "dimension_dossier/misty_world/seasons"
+            ]
+        }
+    ]
+}
