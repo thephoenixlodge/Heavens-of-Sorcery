@@ -197,6 +197,10 @@ val basaltOutputsToChange = [
 	<cathedral:basalt_block_checkered>,
 	<cathedral:dwemer_block_carved>
 ] as IItemStack[];
+val garlic = <ore:cropGarlic>;
+val garlicBread = <bewitchment:garlic_bread>;
+val bread = <minecraft:bread>;
+val salt = <ore:dustSalt>;
 
 val basicBlocks = {
 	<minecraft:end_stone> : 6,
@@ -531,3 +535,7 @@ for output in basaltOutputsToChange {
 ArcaneWorld.remove("arcaneworld:ritual_scroll");
 ArcaneWorld.remove("arcaneworld:create_biome_crystal");
 ArcaneWorld.remove("arcaneworld:create_glowing_chorus");
+
+//garlic bread
+recipes.remove(garlicBread);
+recipes.addShapeless(garlicBread * 2, [bread, garlic, garlic, salt]);
