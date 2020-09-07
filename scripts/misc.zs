@@ -222,6 +222,7 @@ val basicBlocks = {
 	<minecraft:ice> : 3,
 	<minecraft:snow> : 3,
 	<minecraft:clay> : 2,
+	<minecraft:soul_sand> : 5,
 	<astralsorcery:blockmarble> : 5,
 	<thebetweenlands:cragrock> : 4,
 	<thebetweenlands:mud> : 2,
@@ -229,6 +230,8 @@ val basicBlocks = {
 	<thebetweenlands:limestone> : 3,
 	<quark:basalt> : 2
 } as int[IItemStack];
+val gravel = <minecraft:gravel>;
+val soulSand = <minecraft:soul_sand>;
 
 val doNotAddRepairRecipe = [
 	<mist:flint_and_stone>,
@@ -502,6 +505,9 @@ recipes.addShapeless(bookRustic, [book, ironberries, nuggetIron]);
 //pressureplate from ironwood
 recipes.addShaped(pressurePlateOak, [[plankIronwood, plankIronwood]]);
 
+//building block duplication
+ManaInfusion.removeRecipe(gravel);
+ManaInfusion.removeRecipe(soulSand);
 for block, multiplier in basicBlocks {
 	var manaCost = 3000 * multiplier;
 	ManaInfusion.addConjuration(block * 50, block, manaCost);
