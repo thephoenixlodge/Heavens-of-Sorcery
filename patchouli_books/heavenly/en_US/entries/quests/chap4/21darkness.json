@@ -10,7 +10,7 @@
             "type": "quest",
             "title": "The Corrupting Darkness",
             "trigger": "heavens:bookchap4/21darkness",
-            "text": "Where we seek to go next requires summoning something truly evil, but to do that first we'll need to visit a dark place - literally. Just like you've collected $(item)Bottled Sunlight$() from a hnadful of dimensions, and $(item)Bottled Ghosts$() from the $(thing)Nether$(), now you must collect some $(item)Bottled Darkness$() using a $(item)Bottle and Cork$()."
+            "text": "Where we seek to go next requires summoning something truly evil, but to do that first we'll need to visit a dark place - literally. Just like you've collected $(item)Bottled Sunlight$() from a handful of dimensions, and $(item)Bottled Ghosts$() from the $(thing)Nether$(), now you must collect some $(item)Bottled Darkness$() using a $(item)Bottle and Cork$()."
         },
         {
             "type": "text",
