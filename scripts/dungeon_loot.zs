@@ -89,6 +89,9 @@ val poolBSSummoner = tableBSSummoner.addPool("hos_extra", 1, 3, 0, 0);
 val poolBSVillageBright = tableBSVillageBright.addPool("hos_extra", 1, 3, 1, 1);
 val poolBSVillageDawn = tableBSVillageDawn.addPool("hos_extra", 1, 3, 1, 1);
 
+val tableAetherMimic = LootTweaker.getTable("aether_legacy:entities/chest_mimic");
+val poolAetherMimic = tableAetherMimic.getPool("chest");
+
 //items
 val extrasSimpleMap = {
 	<dynamictrees:oakseed> : 10,
@@ -237,6 +240,22 @@ val book = <minecraft:book>;
 val lapis = <minecraft:dye:4>;
 //val bendingScroll = <avatarmod:scroll>;
 val tokenReforge = <contenttweaker:token_reforge>;
+val chests = {
+	<metalchests:metal_chest:0> : 4,
+	<metalchests:metal_chest:1> : 3,
+	<metalchests:metal_chest:2> : 2,
+	<metalchests:metal_chest:3> : 2,
+	<metalchests:metal_chest:4> : 1,
+	<metalchests:metal_chest:5> : 1,
+	<minecraft:ender_chest> : 3,
+	<minecraft:chest> : 5,
+	<quark:custom_chest:0> : 5,
+	<quark:custom_chest:1> : 5,
+	<quark:custom_chest:2> : 5,
+	<quark:custom_chest:3> : 5,
+	<quark:custom_chest:4> : 5
+} as int[IItemStack];
+
 
 //Add angel hearts to the pool
 poolRaid.addItemEntry(angelHeart, 6);
@@ -380,3 +399,10 @@ poolBSAlchemist.addLootTableEntry("ebwizardry:chests/shrine", 10);
 poolBSSummoner.addLootTableEntry("ebwizardry:chests/shrine", 10);
 //poolBSAlchemist.addItemEntryHelper(bendingScroll, 2, 1, [Functions.setMetadata(5, 6), Functions.setCount(0, 1)], []);
 //poolBSSummoner.addItemEntryHelper(bendingScroll, 2, 1, [Functions.setMetadata(7, 8), Functions.setCount(0, 1)], []);
+
+
+//aether mimic upgrading
+poolAetherMimic.clearEntries();
+for chest, weight in chests {
+	poolAetherMimic.addItemEntryHelper(chest, weight, 0, [Functions.lootingEnchantBonus(0, 1, 4)], []);
+}
