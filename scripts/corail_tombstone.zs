@@ -79,7 +79,7 @@ TartaricForge.addRecipe(tomeDisenchantment, [tomePeritia, spellbindingCloth, gra
 
 //enchant graves key
 recipes.removeByRecipeName("tombstone:enchanted_grave_key");
-recipes.addShapeless("enchant_graves_key", gravesKey, [gravesKey.marked("key"), nacrePearl.marked("pearl")], function(output, inputs, CInfo){
+recipes.addShapeless("enchant_graves_key", gravesKey.withTag({enchant: 1}), [gravesKey.marked("key"), nacrePearl.marked("pearl")], function(output, inputs, CInfo){
 	var keyTag = inputs.key.tag as IData;
 	var overrideEnchant = {enchant: 1} as IData;
 	var keyTagOutput = keyTag + overrideEnchant as IData;
