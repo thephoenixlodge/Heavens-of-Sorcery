@@ -7,7 +7,10 @@ import loottweaker.vanilla.loot.LootTable;
 import loottweaker.vanilla.loot.LootPool;
 import loottweaker.vanilla.loot.Functions;
 import loottweaker.vanilla.loot.Conditions;
+import crafttweaker.recipes.ICraftingInfo;
+import crafttweaker.recipes.IRecipeFunction;
 import crafttweaker.item.IItemStack;
+import crafttweaker.data.IData;
 
 ////Variables
 val marbleDark = <tombstone:dark_marble>;
@@ -43,6 +46,8 @@ val tomePeritia = <bloodmagic:experience_tome>;
 val spellbindingCloth = <botania:spellcloth>;
 val spectralDust = <bewitchment:spectral_dust>;
 val fairyDust = <wizardry:fairy_dust>;
+val gravesKey = <tombstone:grave_key>;
+val nacrePearl = <wizardry:nacre_pearl>;
 
 //marble
 recipes.remove(marbleDark);
@@ -70,3 +75,28 @@ recipes.addShaped(graveSimpleWhite, [[marbleLight, null, null], [marbleLight, bo
 //disenchantment tome
 recipes.remove(tomeDisenchantment);
 TartaricForge.addRecipe(tomeDisenchantment, [tomePeritia, spellbindingCloth, gravesDust, slateT4], 350, 50);
+
+
+//enchant graves key
+recipes.removeByRecipeName("tombstone:enchanted_grave_key");
+recipes.addShapeless("enchant_graves_key", gravesKey, [gravesKey.marked("key"), nacrePearl.marked("pearl")], function(output, inputs, CInfo){
+	var keyTag = inputs.key.tag as IData;
+	var overrideEnchant = {enchant: 1} as IData;
+	var keyTagOutput = keyTag + overrideEnchant as IData;
+	var pearlTag = inputs.pearl.tag as IData;
+	var purity = pearlTag.memberGet("purity") as int;
+	var potentPurity = false;
+	if (purity >= 480 & purity <= 719){
+		potentPurity = true;
+	}
+	var testEnchanted = false;
+	if (keyTag.memberGet("enchant") == 1){
+		testEnchanted = true;
+	}
+	if (potentPurity & !testEnchanted){
+		return output.withTag(keyTagOutput);
+	}
+	else {
+		return null;
+	}
+}, null);
