@@ -202,6 +202,17 @@ val garlicBread = <bewitchment:garlic_bread>;
 val bread = <minecraft:bread>;
 val salt = <ore:dustSalt>;
 val goldenAmber = <aether_legacy:golden_amber>;
+val chests = [
+	<blue_skies:maple_chest>,
+	<blue_skies:cherry_chest>,
+	<blue_skies:bluebright_chest>,
+	<blue_skies:lunar_chest>,
+	<blue_skies:starlit_chest>,
+	<blue_skies:frostbright_chest>,
+	<blue_skies:dusk_chest>
+] as IItemStack[];
+val dictChest = <ore:chest>;
+val dictChestWood = <ore:chestWood>;
 
 val basicBlocks = {
 	<minecraft:end_stone> : 6,
@@ -549,3 +560,9 @@ recipes.addShapeless(garlicBread * 2, [bread, garlic, garlic, salt]);
 
 //golden amber tooltip
 goldenAmber.addTooltip(format.gold("Harvested from Golden Oaks with a Zanite Axe, Gravitite Axe or Valkyrie Axe"));
+
+//wood chest oredicts for Blue SKies
+for chest in chests {
+	dictChest.add(chest);
+	dictChestWood.add(chest);
+}
