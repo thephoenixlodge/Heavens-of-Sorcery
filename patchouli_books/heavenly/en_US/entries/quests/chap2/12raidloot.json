@@ -19,6 +19,12 @@
             "reward2": "minecraft:enchanted_book{StoredEnchantments: [{lvl: 4, id: 0}]}"
         },
         {
+            "type": "spotlight",
+            "item": "tombstone:grave_key{enchant: 1}",
+            "title": "Moooom, I diiiiiied!",
+            "text": "If you find yourself as dead as my great-grandpa, you can recover your items by $(l:collected_knowledge/death#enchanted_key)Enchanting your Grave's Key$()."
+        },
+        {
             "type": "loot",
             "lootpool": "Raid",
             "item1": "minecraft:gold_ingot",

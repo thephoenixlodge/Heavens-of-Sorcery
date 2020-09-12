@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "text",
-            "text": "Death happens to all of us, so if it happens to you, don't worry, it's not that big a deal. All your items are saved in a handy dandy grave right where you died.$(br2)All you have to do is return to the scene of the crime and $(l)crouch on your grave$() to recover all your items, right back to where they were in your inventory beforehand."
+            "text": "Death happens to all of us, so if it happens to you, don't worry, it's not that big a deal. All your items are saved in a handy dandy grave right where you died.$(br2)You'll respawn with a $(item)Grave's Key$(), and the $(thing)Ghostly Shape$() Effect preventing monsters from seeing you. Simply return to the site of your demise, and use the $(item)Key$() to retrieve your items from the $(item)Tomb$()."
         },
         {
             "type": "image",
@@ -13,6 +13,12 @@
             "images": [
                 "books:templates/grave.png"
             ]
+        },
+        {
+            "type": "crafting",
+            "recipe": "crafttweaker:enchant_graves_key",
+            "anchor": "enchanted_key",
+            "text": "Crafting your Key with a Potent or Apex Nacre Pearl will enable it to teleport you directly to your grave by holding Right Click."
         }
     ]
 }
