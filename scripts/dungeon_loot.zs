@@ -269,7 +269,7 @@ poolRaid.addItemEntry(elytra, 6);
 //reforge tokens
 poolRaid.addItemEntryHelper(tokenReforge, 10, 1, [Functions.setCount(3, 8)], []);
 poolExtra.addItemEntryHelper(tokenReforge, 20, 2, [Functions.setCount(2, 7)], []);
-poolDimDoorsNew.addItemEntryHelper(tokenReforge, 6, 1, [Functions.setCount(3, 8)], []);
+poolDimDoorsNew.addItemEntryHelper(tokenReforge, 5, 1, [Functions.setCount(3, 8)], []);
 tokenReforge.addTooltip(format.gold("Use in Reforging Station to reroll equipment Traits"));
 
 //remove Potion Orbs
@@ -305,7 +305,7 @@ poolRare.addItemEntryHelper(moltenCore, 5, 1, [Functions.setCount(0, 1)], []);
 poolRare.addItemEntryHelper(elytra, 3, 1, [Functions.setCount(0, 1)], []);
 
 //Dim doors
-poolDimDoorsNew.addItemEntry(tornPage, 1);
+poolDimDoorsNew.addItemEntry(tornPage, 2);
 poolDimDoorsNew.addItemEntry(sentientSword, 2);
 
 //foxhound
