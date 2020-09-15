@@ -221,7 +221,7 @@ recipes.addShapeless(binTrapdoor, [bin, trapdoorIron]);
 Melter.add(latexFluid * 144, latex);
 Melter.add(latexFluid * 1296, blockLatex);
 recipes.remove(rubber);
-Stamper.add(rubber, latexFluid * 144, stampBar, sulfur);
+Stamper.add(rubber, latexFluid * 72, stampBar, sulfur);
 
 //fluid vessel
 recipes.removeByRecipeName("embers:block_tank");
