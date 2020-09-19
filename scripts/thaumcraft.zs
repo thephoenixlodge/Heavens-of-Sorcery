@@ -35,10 +35,12 @@ val wisdomSapling = <wizardry:wisdom_sapling>;
 val lifeCrystal = <thebetweenlands:life_crystal>;
 val ordaniisVial = <thebetweenlands:aspect_vial:*>.withTag({blHerbloreAspects: {container: [{aspect: {type: "Ordaniis"}}]}});
 val freiwynnVial = <thebetweenlands:aspect_vial:*>.withTag({blHerbloreAspects: {container: [{aspect: {type: "Freiwynn"}}]}});
+val menhir = <thebetweenlands:waystone> as IBlock;
 
 //tweak thaumonomicon transformation
 SalisMundus.removeSingleConversion(thaumonomicon);
-Animator.addRecipe(book, 16, 20, thaumonomicon);
+SalisMundus.addSingleConversion(menhir, thaumonomicon);
+//Animator.addRecipe(book, 16, 20, thaumonomicon);
 
 //tweak arcane worktable transformation
 SalisMundus.removeSingleConversion(arcaneWorkbench);
