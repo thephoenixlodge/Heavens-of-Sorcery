@@ -51,6 +51,20 @@ val amphora = <arcanearchives:radiant_amphora>;
 val gemSocket = <arcanearchives:gemsocket>;
 val runeFire = <botania:rune:1>;
 val runeSummer = <botania:rune:5>;
+val corporeaSpark = <botania:corporeaspark>;
+val corporeasparkMaster = <botania:corporeaspark:1>;
+val corporeaIndex = <botania:corporeaindex>;
+val corporeaCube = <botania:corporeacrystalcube>;
+val corporeaFunnel = <botania:corporeafunnel>;
+val corporeaInterceptor = <botania:corporeainterceptor>;
+val corporeaRetainer = <botania:corporearetainer>;
+val corporeaResonator = <naturalpledge:corporea_resonator>;
+val recallStone = <naturalpledge:corporea_focus>;
+val spark = <botania:spark>;
+val enderAir = <botania:manaresource:15>;
+val pixieDust = <botania:manaresource:8>;
+val dragonstone = <botania:manaresource:9>;
+val rawMoonstone = <blue_skies:moonstone_spike_block>;
 
 //resonator
 recipes.remove(resonator);
@@ -100,3 +114,11 @@ GCT.replaceRecipe("gemsocket", gemSocket, [scintillatingInlay, nuggetDawnstone *
 RatRecipes.addGemcutterRatRecipe(radiantQuartzRaw, radiantQuartzShaped);
 RatRecipes.addGemcutterRatRecipe(radiantQuartzRawBlock, radiantQuartzDust * 21);
 RatRecipes.addGemcutterRatRecipe(radiantQuartzShapedBlock, radiantQuartzDust * 27);
+
+//corporea stuff
+recipes.remove(corporeaSpark);
+GCT.addRecipe("corporea_spark", corporeaSpark * 2, [spark * 2, enderAir, pixieDust, radiantQuartzDust]);
+recipes.remove(corporeasparkMaster);
+GCT.addRecipe("corporea_spark_master", corporeasparkMaster, [corporeaSpark, dragonstone, radiantQuartzShaped]);
+recipes.remove(corporeaIndex);
+GCT.addRecipe("corporea_index", corporeaIndex, [corporeaSpark, enderAir * 2, rawMoonstone * 2, containmentField, dragonstone * 2]);
