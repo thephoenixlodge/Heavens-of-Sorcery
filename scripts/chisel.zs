@@ -194,6 +194,9 @@ val marbledCheeses = [
 	<rats:marbled_cheese_brick>,
 	<rats:marbled_cheese_brick_chiseled>
 ] as IItemStack[];
+//holystone
+val holystone = <aether_legacy:holystone>;
+val holystoneBrick = <aether_legacy:holystone_brick>;
 
 //Add group for Sapphire Blocks
 //Carving.addGroup("blockSapphire");
@@ -430,3 +433,8 @@ Carving.addGroup("cheese-marbled");
 for cheese in marbledCheeses {
 	Carving.addVariation("cheese-marbled", cheese);
 }
+
+//holystone
+Carving.addGroup("holystone");
+Carving.addVariation("holystone", holystone);
+Carving.addVariation("holystone", holystoneBrick);
