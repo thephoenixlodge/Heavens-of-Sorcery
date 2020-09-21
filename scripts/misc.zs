@@ -364,6 +364,11 @@ val doNotAddRepairRecipe = [
 	<astralsorcery:itemchargedcrystalpickaxe>,
 	<astralsorcery:itemchargedcrystalshovel>
 ] as IItemStack[];
+val kathDoors = {
+	<kathairis:mysticplanks> : <kathairis:mystic_wood_door_item>,
+	<kathairis:soulplanks> : <kathairis:soul_wood_door_item>,
+	<kathairis:shinyplanks> : <kathairis:shiny_wood_door_item>
+} as IItemStack[IItemStack];
 
 //tweak clay tile related recipes
 recipes.remove(terracottaShingle);
@@ -565,4 +570,12 @@ goldenAmber.addTooltip(format.gold("Harvested from Golden Oaks with a Zanite Axe
 for chest in chests {
 	dictChest.add(chest);
 	dictChestWood.add(chest);
+}
+
+//kathairis doors
+recipes.removeByRecipeName("kathairis:soul wood door");
+recipes.removeByRecipeName("kathairis:shiny wood door");
+recipes.removeByRecipeName("kathairis:mystic wood door");
+for planks, door in kathDoors {
+	recipes.addShaped(door * 3, [[planks, planks], [planks, planks], [planks, planks]]);
 }
