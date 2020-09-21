@@ -8,6 +8,8 @@ import loottweaker.LootTweaker;
 import loottweaker.vanilla.loot.LootTable;
 import loottweaker.vanilla.loot.LootPool;
 import loottweaker.vanilla.loot.Functions;
+import moretweaker.bewitchment.WitchesOven;
+import crafttweaker.item.IItemStack;
 
 
 ////variables
@@ -44,6 +46,32 @@ val silverKnife = <mysticalworld:silver_knife>;
 val silverAspectus = <embers:aspectus_silver>;
 val witchesCauldron = <bewitchment:witches_cauldron>;
 val cauldron = <minecraft:cauldron>;
+val meats = {
+	<mist:meat_food> : <mist:meat_cook>,
+	<mist:meat_food:1> : <mist:meat_cook:1>,
+	<mist:meat_food:2> : <mist:meat_cook:2>,
+	<mist:meat_food:3> : <mist:meat_cook:3>,
+	<mist:meat_food:4> : <mist:meat_cook:4>,
+	<mist:meat_food:5> : <mist:meat_cook:5>,
+	<mist:meat_food:6> : <mist:meat_cook:6>,
+	<mist:meat_food:7> : <mist:meat_cook:7>,
+	<mist:meat_food:8> : <mist:meat_cook:8>,
+	<mist:meat_food:9> : <mist:meat_cook:9>,
+	<mist:meat_food:10> : <mist:meat_cook:10>,
+	<mist:meat_food:11> : <mist:meat_cook:11>,
+	<mist:meat_food:12> : <mist:meat_cook:12>,
+	<mist:meat_food:13> : <mist:meat_cook:13>,
+	<thebetweenlands:angler_meat_raw> : <thebetweenlands:angler_meat_cooked>,
+	<blue_skies:raw_azulfo_beef> : <blue_skies:azulfo_steak>,
+	<blue_skies:raw_venison> : <blue_skies:venison_steak>,
+	<mysticalworld:venison> : <mysticalworld:cooked_venison>,
+	<thebetweenlands:frog_legs_raw> : <thebetweenlands:frog_legs_cooked>,
+	<quark:frog_leg> : <quark:cooked_frog_leg>,
+	<kathairis:bisonmeat> : <kathairis:cookedbisonmeat>,
+	<thebetweenlands:snail_flesh_raw> : <thebetweenlands:snail_flesh_cooked>,
+	<quark:crab_leg> : <quark:cooked_crab_leg>
+} as IItemStack[IItemStack];
+val tallow = <bewitchment:tallow>;
 
 val mobStrings = [
 	"bewitchment:hellhound",
@@ -97,3 +125,8 @@ for mob in mobStrings {
 val tableGhost = LootTweaker.getTable("bewitchment:entities/ghost");
 val poolGhost = tableGhost.getPool("ghost");
 poolGhost.removeEntry("bewitchment:spectral_dust");
+
+//meats for tallow
+for raw, cooked in meats {
+	WitchesOven.addRecipe(raw, cooked, tallow, 0.5F, false);
+}
