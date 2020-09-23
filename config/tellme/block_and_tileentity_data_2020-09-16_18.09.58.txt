@@ -1,0 +1,34 @@
+Rainbow Bookshelf (inspirations:bookshelf - 2492:1) has a TileEntity
+Full block state: inspirations:bookshelf[facing=south,type=rainbow]
+Hardness: 2.0000, Explosion resistance: 3.0000, Material: WOOD
+Block class: knightminer.inspirations.building.block.BlockBookshelf
+IBlockState properties, including getActualState():
+PropertyDirection{name=facing, clazz=class net.minecraft.util.EnumFacing, values=[north, south, west, east]}: south
+PropertyEnum{name=type, clazz=class knightminer.inspirations.building.block.BlockBookshelf$BookshelfType, values=[NORMAL, RAINBOW, TOMES, ANCIENT]}: RAINBOW
+IExtendedBlockState properties:
+PropertyString{name=TEXTURE, clazz=class java.lang.String, value=Optional[thebetweenlands:blocks/weedwood_planks]}
+PropertyUnlistedInteger{name=books, clazz=class java.lang.Integer, value=Optional[0]}
+TileEntity class: knightminer.inspirations.building.tileentity.TileBookshelf
+
+TileEntity NBT (from TileEntity#writeToNBT()):
+TAG_Compound (10) ('')
+{
+    TAG_Compound (10) ('ForgeData')
+    {
+        TAG_Compound (10) ('texture')
+        {
+            TAG_String (8) ('id'): "thebetweenlands:weedwood_plank_slab"
+            TAG_Int (3) ('Count'): 1
+            TAG_Short (2) ('Damage'): 0
+        }
+        TAG_String (8) ('texture_path'): "thebetweenlands:blocks/weedwood_planks"
+    }
+    TAG_Int (3) ('x'): -4994
+    TAG_Int (3) ('y'): 95
+    TAG_Int (3) ('z'): -4993
+    TAG_List (9) ('Items') (0 entries of TAG_End (0))
+    {
+    }
+    TAG_String (8) ('id'): "inspirations:bookshelf"
+    TAG_Int (3) ('InventorySize'): 14
+}
