@@ -6,6 +6,8 @@ import loottweaker.vanilla.loot.LootTable;
 import loottweaker.vanilla.loot.LootPool;
 import loottweaker.vanilla.loot.Functions;
 import crafttweaker.item.IItemStack;
+import mods.bloodmagic.AlchemyTable;
+import mods.embers.Stamper;
 
 ////Vars
 //Amethyst
@@ -165,6 +167,32 @@ val stick = <ore:stickWood>;
 
 //MW rubber
 val rubberMW = <mist:rubber>;
+
+//dusts
+val dustIron = <mysticalworld:iron_dust>;
+val sandIron = <bloodmagic:component:19>;
+val ingotIron = <minecraft:iron_ingot>;
+val dictDustIron = <ore:dustIron>;
+val dictOreIron = <ore:oreIron>;
+val dustGold = <mysticalworld:gold_dust>;
+val sandGold = <bloodmagic:component:20>;
+val ingotGold = <minecraft:gold_ingot>;
+val dictDustGold = <ore:dustGold>;
+val dictOreGold = <ore:oreGold>;
+val cuttingFluid = <bloodmagic:cutting_fluid>;
+val saltpeterBM = <bloodmagic:component:24>;
+val saltpeterMW = <mist:saltpeter>;
+val dictSaltpeter = <ore:dustSaltpeter>;
+val sandCoal = <bloodmagic:component:21>;
+val dictDustCoal = <ore:dustCoal>;
+val plantOil = <bloodmagic:component:22>;
+val sulfurBM = <bloodmagic:component:23>;
+val sulfurMW = <mist:sulfur>;
+val sulfurSoot = <soot:sulfur>;
+val dictSulfur = <ore:dustSulfur>;
+val clumpSulfur = <soot:sulfur_clump>;
+val oreSulfurBL = <thebetweenlands:sulfur_ore>;
+val dictOreSulfur = <ore:oreSulfur>;
 
 //remove extra amethyst from the oredict
 oreAmethyst.remove(amethystWings);
@@ -338,3 +366,23 @@ orePlateSilver.remove(plateSilver);
 
 //kathairin gem
 recipes.remove(resonatingGemKathairis);
+
+//dust unification
+AlchemyTable.removeRecipe([<mist:iron_ore>, cuttingFluid]);
+AlchemyTable.addRecipe(dustIron * 2, [dictOreIron, cuttingFluid], 400, 200, 1);
+furnace.remove(ingotIron, sandIron);
+dictDustIron.remove(sandIron);
+AlchemyTable.removeRecipe([<mist:gold_ore>, cuttingFluid]);
+AlchemyTable.addRecipe(dustGold * 2, [dictOreGold, cuttingFluid], 400, 200, 1);
+furnace.remove(ingotGold, sandGold);
+dictDustGold.remove(sandGold);
+AlchemyTable.removeRecipe([plantOil, plantOil, sandCoal]);
+AlchemyTable.addRecipe(saltpeterMW * 4, [plantOil, plantOil, dictDustCoal], 0, 100, 0);
+dictSaltpeter.remove(saltpeterBM);
+AlchemyTable.removeRecipe([<minecraft:lava_bucket>]);
+AlchemyTable.addRecipe(sulfurMW * 8, [<minecraft:lava_bucket>], 0, 100, 0);
+dictSulfur.remove(sulfurBM);
+Stamper.remove(sulfurSoot);
+Stamper.add(sulfurMW, null, <embers:stamp_flat>, clumpSulfur);
+dictSulfur.remove(sulfurSoot);
+dictOreSulfur.remove(oreSulfurBL);
