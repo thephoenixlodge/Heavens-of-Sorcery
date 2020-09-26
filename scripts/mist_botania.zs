@@ -150,6 +150,8 @@ val agglomerationPlate = <botania:terraplate>;
 val charoite = <blue_skies:charoite>;
 val ingotInfused = <naturesaura:infused_iron>;
 val saplingGoldenOak = <aether_legacy:golden_oak_sapling>;
+val seedGoldenOak = <dynamictreestheaether:goldenoakseed>;
+val dictSaplingGoldenOak = <ore:saplingGoldenOak>;
 val blueBerry = <aether_legacy:blue_berry>;
 val manaCloth = <botania:manaresource:22>;
 val pumpkinPie = <minecraft:pumpkin_pie>;
@@ -306,6 +308,10 @@ for shroom in mushroomsArray {
 	oreMushroom.add(shroom);
 }
 
+//golden oak sapling dict
+dictSaplingGoldenOak.add(saplingGoldenOak);
+dictSaplingGoldenOak.add(seedGoldenOak);
+
 //Runes
 //Water
 RuneAltar.removeRecipe(runeWater);
@@ -333,7 +339,7 @@ RuneAltar.removeRecipe(runeWinter);
 RuneAltar.addRecipe(runeWinter, [runeWater, runeEarth, iceStone, iceStone, pumpkinPie, manaCloth], 8000);
 //Spring
 RuneAltar.removeRecipe(runeSpring);
-RuneAltar.addRecipe(runeSpring, [runeWater, runeFire, saplingGoldenOak, saplingGoldenOak, saplingGoldenOak, blueBerry], 8000);
+RuneAltar.addRecipe(runeSpring, [runeWater, runeFire, dictSaplingGoldenOak, dictSaplingGoldenOak, dictSaplingGoldenOak, blueBerry], 8000);
 //Lust
 RuneAltar.removeRecipe(runeLust);
 RuneAltar.addRecipe(runeLust, [tokenJoy, tokenJoy, runeAir, runeSummer], 12000);
