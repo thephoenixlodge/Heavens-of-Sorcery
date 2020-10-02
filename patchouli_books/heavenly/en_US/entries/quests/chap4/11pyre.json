@@ -10,7 +10,7 @@
             "type": "quest",
             "title": "Gather 'Round the Fire",
             "trigger": "heavens:bookchap4/11pyre",
-            "text": "With the $(item)Natural ALtar$() built, we have the means to prepare some devices of natural magic that have more direct effects on the world. This is done with two things. First, the $(item)Pyre$(), which can serve to recreate many rare reagent plants and operate various rituals. Secondly, the $(item)Imbuer$(), which can modify $(item)Spell Dusts$() or apply them to $(item)Staves$()."
+            "text": "With the $(item)Natural Altar$() built, we have the means to prepare some devices of natural magic that have more direct effects on the world. This is done with two things. First, the $(item)Pyre$(), which can serve to recreate many rare reagent plants and operate various rituals. Secondly, the $(item)Imbuer$(), which can modify $(item)Spell Dusts$() or apply them to $(item)Staves$()."
         },
         {
             "type": "checklist_end",
