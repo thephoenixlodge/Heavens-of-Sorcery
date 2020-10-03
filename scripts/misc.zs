@@ -51,7 +51,8 @@ val artifactsArray = [
 	<artifacts:drinking_hat>,
 	<artifacts:star_cloak>,
 	<artifacts:pocket_piston>,
-	<artifacts:night_vision_goggles>
+	<artifacts:night_vision_goggles>,
+	<artifacts:tiny_shirt>
 ] as IItemStack[];
 val oreArtifact = <ore:artifact>;
 val kathairisLog = [
