@@ -92,6 +92,9 @@ val poolBSVillageDawn = tableBSVillageDawn.addPool("hos_extra", 1, 3, 1, 1);
 val tableAetherMimic = LootTweaker.getTable("aether_legacy:entities/chest_mimic");
 val poolAetherMimic = tableAetherMimic.getPool("chest");
 
+val tableArtifactMimic = LootTweaker.getTable("artifacts:mimic_underground");
+val poolArtifactMimic = tableArtifactMimic.getPool("main");
+
 //items
 val extrasSimpleMap = {
 	<dynamictrees:oakseed> : 10,
@@ -255,7 +258,8 @@ val chests = {
 	<quark:custom_chest:3> : 5,
 	<quark:custom_chest:4> : 5
 } as int[IItemStack];
-
+val snorkel = <artifacts:snorkel>;
+val drinkingHat = <artifacts:drinking_hat>;
 
 //Add angel hearts to the pool
 poolRaid.addItemEntry(angelHeart, 6);
@@ -406,3 +410,7 @@ poolAetherMimic.clearEntries();
 for chest, weight in chests {
 	poolAetherMimic.addItemEntryHelper(chest, weight, 0, [Functions.lootingEnchantBonus(0, 1, 4)], []);
 }
+
+//add snorkel and drinking hat to mimic drops
+poolArtifactMimic.addItemEntryHelper(snorkel, 2, 0, [], []);
+poolArtifactMimic.addItemEntryHelper(drinkingHat, 2, 0, [], []);
