@@ -6,12 +6,6 @@
 
 IGNORE_CONFIG_FILE: true
 
-AirBurstSettings:
-  durationToFire: 40.0
-  knockback: 2.0
-  performanceAmount: 15
-  radius: 3.0
-InfernoPunchDamage: 3.0
 addDungeonLoot: true
 airBladeBreakableBlockNames:
 - minecraft:stone
@@ -32,11 +26,18 @@ airBladeBreakableBlockNames:
 - minecraft:grass
 - minecraft:grass_path
 airBurstSettings:
-  damage: 5.0
-  push: 1.0
+  beamDamage: 6.0
+  beamPush: 20.0
+  beamRange: 10
+  beamSize: 1.0
+  damage: 4.0
+  durationToFire: 40.0
+  performanceAmount: 12
+  push: 2.0
+  radius: 4.0
 airbladeSettings:
-  damage: 5.0
-  push: 0.03
+  damage: 3.5
+  push: 0.5
 allowAirBubbleElytra: false
 allowMultiAirbendingWalljump: false
 bendableBlocksNames:
@@ -56,6 +57,7 @@ bendableBlocksNames:
 - minecraft:coal_ore
 - minecraft:iron_ore
 - minecraft:emerald_ore
+- minecraft:diamond_ore
 - minecraft:gold_ore
 - minecraft:lapis_ore
 - minecraft:redstone_ore
@@ -82,17 +84,17 @@ chiEarthspike: 3.5
 chiExplosion: 3.0
 chiExplosionUpgraded: 4.5
 chiExplosivePillar: 4.0
-chiFireArc: 1.0
 chiFireJump: 2.0
+chiFireShot: 2.5
 chiFireball: 2.0
-chiFlamethrowerSecond: 1.75
-chiFlamethrowerSecondLvl4_1: 2.625
-chiFlamethrowerSecondLvl4_2: 2.0
+chiFlameStrike: 2.0
+chiFlamethrowerSecond: 2.5
+chiFlamethrowerSecondLvl4_1: 3.75
+chiFlamethrowerSecondLvl4_2: 4.25
 chiIceShieldCreate: 4.0
 chiIceShieldProtect: 0.15
 chiInfernoPunch: 3.0
 chiLargeInfernoPunch: 6.0
-chiLightFire: 2.0
 chiLightning: 6.0
 chiLightningRaze: 5.0
 chiLightningSpear: 4.0
@@ -125,6 +127,7 @@ earthspikeSettings:
   frequency: 4.0
   push: 0.5
   size: 1.0
+enableAutoModCompat: true
 explosionSettings:
   damage: 6.0
   damageBlocks: false
@@ -132,16 +135,31 @@ explosionSettings:
   fireTime: 2
   push: 1.0
 fireAngles: 8.0
-fireArcSettings:
-  damage: 3.5
+fireBlastSettings:
+  damage: 2.5
   push: 1.0
 fireSearchRadius: 4.0
+fireShotSetttings:
+  damage: 1.0
+  push: 0.5
 fireballSettings:
-  damage: 2.5
+  damage: 3.5
   damageBlocks: false
   explosionSize: 1.0
   fireTime: 6
-  push: 0.75
+  push: 1.25
+flameStrikeSettings:
+  chargeDuration: 40
+  damage: 2.0
+  fireTime: 3
+  knockback: 2.0
+  maxDistance: 3.0
+  performanceAmount: 6
+  size: 1.75
+  strikeNumber: 2
+flamethrowerSettings:
+  damage: 0.75
+  push: 0.5
 floatingBlockSettings:
   damage: 2.0
   push: 1.0
@@ -165,6 +183,7 @@ lightningSpearSettings:
 passiveSettings:
   fireResistance: true
   hasteInWater: true
+  knockbackResistanceEarth: true
   noFallDamageAir: true
   waterBreathing: true
 plantBendableBlockNames:
@@ -179,7 +198,7 @@ plantBendableBlockNames:
 - minecraft:red_mushroom
 - minecraft:brown_mushroom
 - minecraft:vine
-preventPickupBlockGriefing: false
+preventEarthGriefing: false
 ravineSettings:
   damage: 3.5
   push: 0.25
@@ -233,4 +252,4 @@ waterCannonSettings:
   waterCannonSearchRadius: 3.0
 waveSettings:
   damage: 0.25
-  push: 4.0
+  push: 2.0

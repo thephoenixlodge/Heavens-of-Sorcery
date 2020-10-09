@@ -1,80 +1,33 @@
-IGNORE_CONFIG_FILE: false
+# WARNING : Any changes to this config file will not take effect!!
+# To fix this, set 'IGNORE_CONFIG_FILE: true' --> 'IGNORE_CONFIG_FILE: false'
+# This was done to prevent default values in new versions from being overriden
+# by outdated config files. By doing this, you will no longer recieve any new
+# config defaults...
 
-bisonBreedMaxMinutes: 120.0
-bisonBreedMinMinutes: 60.0
-bisonChestTameness: 1000
-bisonFoods:
-  minecraft:sugar: 2
-  minecraft:hay_block: 75
-  minecraft:apple: 10
-  minecraft:wheat: 8
-  minecraft:potato: 6
-  minecraft:golden_carrot: 30
-  minecraft:bread: 5
-  minecraft:grass: 9
-  minecraft:beetroot: 8
-  minecraft:carrot: 6
-  minecraft:leaves2: 3
-  minecraft:baked_potato: 5
-  minecraft:leaves: 3
-  minecraft:cake: 45
-bisonGrassFoodBonus: 5
-bisonLeashTameness: 1000
-bisonMaxDomestication: 800
-bisonMinDomestication: 500
-bisonOwnableTameness: 900
-bisonRideOneSecondTameness: 3
-bisonRiderTameness: 800
-maxNumberOfBenders: 0
-scrollDropChance:
-  zombie_pigman: 0.0
-  chicken: 0.0
-  stray: 0.0
-  wither_skeleton: 0.0
-  elder_guardian: 0.0
-  magma_cube: 0.0
-  polar_bear: 0.0
-  skeleton: 0.0
-  bat: 0.0
-  husk: 0.0
-  blaze: 0.0
-  mooshroom: 0.0
-  cave_spider: 0.0
-  silverfish: 0.0
-  zombie: 0.0
-  witch: 0.0
-  squid: 0.0
-  guardian: 0.0
-  ghast: 0.0
-  parrot: 0.0
-  spider: 0.0
-  sheep: 0.0
-  creeper: 0.0
-  enderman: 0.0
-scrollTradeItems:
-  minecraft:gold_ingot: 1
-  minecraft:emerald: 1
-  minecraft:diamond: 1
-scrollType:
-  zombie_pigman: fire
-  chicken: air
-  stray: ice
-  wither_skeleton: fire
-  elder_guardian: water
-  magma_cube: fire
-  polar_bear: water
-  skeleton: earth
-  bat: air
-  husk: sand
-  blaze: fire
-  mooshroom: earth
-  cave_spider: earth
-  silverfish: earth
-  zombie: earth
-  squid: water
-  guardian: water
-  ghast: fire
-  parrot: air
-  spider: earth
-  sheep: air
-  creeper: combustion
+IGNORE_CONFIG_FILE: true
+
+benderSettings:
+  maxLevel: 7
+  maxNumberOfBenders: 3
+bisonFoods: {}
+bisonSettings:
+  bisonBreedMaxMinutes: 120.0
+  bisonBreedMinMinutes: 60.0
+  bisonChestTameness: 1000
+  bisonGrassFoodBonus: 5
+  bisonLeashTameness: 1000
+  bisonMaxDomestication: 800
+  bisonMinDomestication: 500
+  bisonOwnableTameness: 900
+  bisonRideOneSecondTameness: 3
+  bisonRiderTameness: 800
+scrollDropChance: {}
+scrollSettings:
+  absoluteChaos: false
+  chaos: false
+  numberChanceDecreaseMult: 0.6666666865348816
+  percentPerNumber: 10.0
+  percentPerTier: 10.0
+  tierChanceDecreaseMult: 0.5
+scrollTradeItems: {}
+scrollType: {}

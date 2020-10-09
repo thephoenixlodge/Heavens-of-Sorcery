@@ -1,0 +1,44 @@
+# WARNING : Any changes to this config file will not take effect!!
+# To fix this, set 'IGNORE_CONFIG_FILE: true' --> 'IGNORE_CONFIG_FILE: false'
+# This was done to prevent default values in new versions from being overriden
+# by outdated config files. By doing this, you will no longer recieve any new
+# config defaults...
+
+IGNORE_CONFIG_FILE: true
+
+advancedGliderAirResistance: 0.99
+advancedGliderFallReduction: 0.9
+advancedGliderMaxSpeed: 0.0715
+advancedGliderMinSpeed: 0.03
+advancedGliderPitchOffset: 20.0
+advancedGliderTotalDurability: 2048
+advancedGliderWindModifier: 0.75
+advancedGliderYBoost: 0.025
+airResistanceEnabled: true
+airbenderHeightGain: 0.5
+basicGliderAirResistance: 0.985
+basicGliderFallReduction: 0.7
+basicGliderMaxSpeed: 0.0615
+basicGliderMinSpeed: 0.03
+basicGliderPitchOffset: 20.0
+basicGliderTotalDurability: 512
+basicGliderWindModifier: 1.4
+basicGliderYBoost: 0.0025
+disableHandleBarRenderingWhenGliding: true
+disableOffhandRenderingWhenGliding: true
+durabilityEnabled: true
+durabilityPerUse: 1
+durabilityTimeframe: 200
+enableRendering3PP: true
+enableRenderingFPP: true
+gliderVisibilityFPPShiftAmount: 1.9
+heatUpdraftEnabled: false
+shiftSpeedVisualShift: 0.05
+windDurabilityMultiplier: 0.7
+windEnabled: true
+windFrequency: 0.15
+windGustSize: 19.0
+windHeightMultiplier: 1.5
+windOverallPower: 3.0
+windRainingMultiplier: 3.0
+windSpeedMultiplier: 0.4
