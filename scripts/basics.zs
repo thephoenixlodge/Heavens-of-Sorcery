@@ -14,7 +14,6 @@ val slabWood = <ore:slabWood>;
 val bucketWeedwood = <thebetweenlands:bl_bucket>;
 val seedIronberry = <rustic:ironwoodseed>;
 val ironBerryJuice = <liquid:ironberryjuice>;
-val ironBerryJuiceCuisine = <liquid:cuisine_juice>.withTag({material: "ironberry"});
 val dustTinyIron = <rustic:dust_tiny_iron>;
 val wandIronwood = <contenttweaker:ironwood_wand_one>;
 val wandIronwoodAdv = <contenttweaker:ironwood_wand_two>;
@@ -132,7 +131,6 @@ globals.setNewName(bucketWeedwood, "Wooden Bucket");
 //Tweak iron output from drying basin
 EvaporatingBasin.removeRecipe(dustTinyIron);
 EvaporatingBasin.addRecipe(dustTinyIron * 2, ironBerryJuice * 500);
-EvaporatingBasin.addRecipe(dustTinyIron * 2, ironBerryJuiceCuisine * 500);
 
 //add recipe for iron dust from tiny iron dust
 recipes.addShapeless(dustIron, [dustTinyIron, dustTinyIron, dustTinyIron, dustTinyIron, dustTinyIron, dustTinyIron, dustTinyIron, dustTinyIron, dustTinyIron]);
