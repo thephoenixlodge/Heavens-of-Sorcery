@@ -1,0 +1,24 @@
+{
+    "name": "Hell Sprout",
+    "icon": "minecraft:spawn_egg{EntityTag: {id: \"mysticalworld:entity_hell_sprout\"}}",
+    "category": "collected_knowledge/mobs",
+    "advancement": "heavens:bookchap1/18stone",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Freindly little living plants known as $(thing)Hell Sprouts$()can occasionally be found within the $(thing)Nether$(). $(br2)They have a close relationship with $(item)Nether Wart$(), occasionally planting it on any $(item)Soul Sand$() they find."
+        },
+        {
+            "type": "mob_drops",
+            "name": "Hell Sprout",
+            "mob": "mysticalworld:entity_hell_sprout",
+            "drop1": "minecraft:nether_wart{display: {Lore: [\"Drops: 1-2\", \"Unaffected by Looting\", \"Unaffected by Cutting Skill\"]}}"
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "dimension_dossier/nether"
+            ]
+        }
+    ]
+}
