@@ -1,0 +1,23 @@
+{
+    "name": "Aerwhale",
+    "icon": "minecraft:spawn_egg{EntityTag: {id: \"aether_legacy:aerwhale\"}}",
+    "category": "collected_knowledge/mobs",
+    "advancement": "heavens:bookchap2/13raidloot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Peaceful giants of the sky, $(thing)Aerwhales$() wander the open skies of the $(thing)Aether$(). Their booming calls sound almost melancholic, and can be heard from great distances."
+        },
+        {
+            "type": "mob_drops_extra_chonky",
+            "name": "Aerwhale",
+            "mob": "aether_legacy:aerwhale"
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "dimension_dossier/aether"
+            ]
+        }
+    ]
+}

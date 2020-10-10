@@ -1,0 +1,24 @@
+{
+    "name": "Aerbunny",
+    "icon": "minecraft:spawn_egg{EntityTag: {id: \"aether_legacy:aerbunny\"}}",
+    "category": "collected_knowledge/mobs",
+    "advancement": "heavens:bookchap2/13raidloot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Light as a cloud, $(thing)Aerbunnies$() can often be seen leaping high then floating slowly down around the islands of the $(thing)Aether$(). If you're quick, you can catch one, and hold it over your head, slowing your fall, increasing your jump height, and allowing you to jump 1 extra time in midair.$(br2)Killing an $(thing)Aerbunny$() grants 1 $(thing)Cutting$() experience."
+        },
+        {
+            "type": "mob_drops",
+            "name": "Aerbunny",
+            "mob": "aether_legacy:aerbunny",
+            "drop1": "minecraft:string{display: {Lore: [\"Drops: 0-2\", \"Affected by Looting\", \"Affected by Cutting Skill\"]}}"
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "dimension_dossier/aether"
+            ]
+        }
+    ]
+}

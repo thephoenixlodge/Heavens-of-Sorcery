@@ -1,0 +1,109 @@
+{
+    "name": "The Aether",
+    "icon": "aether_legacy:aether_grass",
+    "category": "dimension_dossier",
+    "advancement": "heavens:bookchap2/13raidloot",
+    "sortnum": 4,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Consisting of a plethora of islands suspended in the sky, the $(thing)Aether$() is a relatively peaceful plane, though not without its dangers. While many of the creatures there are friendly, some will readily attack you to defend themselves."
+        },
+        {
+            "type": "location",
+            "icon": "books:templates/aether_preview.png",
+            "heading": "The Aether"
+        },
+        {
+            "type": "multiblock",
+            "name": "Aether Portal",
+            "text": "Portal Frame can be various sizes (Frame size shown is the smallest allowed). Activate with an $(item)Otherworlds Core$().",
+            "multiblock": {
+                "pattern": [
+                    [ " ", "O", "O", " " ],
+                    [ "O", "P", "P", "O" ],
+                    [ "O", "P", "P", "O" ],
+                    [ "O", "P", "P", "O" ],
+                    [ " ", "O", "0", " " ],
+                    [ " ", " ", " ", " " ]
+                ],
+                "mapping": {
+                    " ": "ANY",
+                    "0": "minecraft:glowstone",
+                    "O": "minecraft:glowstone",
+                    "P": "AIR"
+                },
+                "symmetrical": false,
+                "offset"     : [0, 0, 0],
+                "view_offset": [0, 0, 0]
+            }
+        },
+        {
+            "type": "chisel",
+            "heading": "Valid Blocks for Portal",
+            "item1": "minecraft:glowstone",
+            "item2": "chisel:glowstone:0",
+            "item3": "chisel:glowstone:1",
+            "item4": "chisel:glowstone:2",
+            "item5": "chisel:glowstone:3",
+            "item6": "chisel:glowstone:4",
+            "item7": "chisel:glowstone:5",
+            "item8": "chisel:glowstone:6",
+            "item9": "chisel:glowstone:7",
+            "item10": "chisel:glowstone:8",
+            "item11": "chisel:glowstone:9",
+            "item12": "chisel:glowstone:10",
+            "item13": "chisel:glowstone:11",
+            "item14": "chisel:glowstone:12",
+            "item15": "chisel:glowstone:13",
+            "item16": "chisel:glowstone:14",
+            "item17": "chisel:glowstone1:0",
+            "item18": "chisel:glowstone1:1",
+            "item19": "chisel:glowstone1:2",
+            "item20": "chisel:glowstone1:3",
+            "description": "Portal Frame can be various sizes (Frame size shown is the smallest allowed)."
+        },
+        {
+            "type": "chisel",
+            "heading": "Valid Blocks for Portal",
+            "item1": "chisel:glowstone1:4",
+            "item2": "chisel:glowstone1:5",
+            "item3": "chisel:glowstone1:6",
+            "item4": "chisel:glowstone1:7",
+            "item5": "chisel:glowstone1:8",
+            "item6": "chisel:glowstone1:9",
+            "item7": "chisel:glowstone1:10",
+            "item8": "chisel:glowstone1:11",
+            "item9": "chisel:glowstone1:12",
+            "item10": "chisel:glowstone1:13",
+            "item11": "chisel:glowstone1:14",
+            "item12": "chisel:glowstone1:15",
+            "item13": "chisel:glowstone2:0",
+            "description": "Portal Frame can be various sizes (Frame size shown is the smallest allowed)."
+        },
+        {
+            "type": "relations",
+            "title": "Creatures",
+            "entries": [
+                "collected_knowledge/mobs/aerwhale",
+                "collected_knowledge/mobs/aerbunny",
+                "collected_knowledge/mobs/sheepuff",
+                "collected_knowledge/mobs/phyg",
+                "collected_knowledge/mobs/flying_cow",
+                "collected_knowledge/mobs/zephyroo"
+            ]
+        },
+        {
+            "type": "relations",
+            "title": "Notable Structures",
+            "entries": [
+            ]
+        },
+        {
+            "type": "relations",
+            "title": "Key Materials",
+            "entries": [
+            ]
+        }
+    ]
+}

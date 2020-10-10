@@ -1,0 +1,25 @@
+{
+    "name": "Phyg",
+    "icon": "minecraft:spawn_egg{EntityTag: {id: \"aether_legacy:phyg\"}}",
+    "category": "collected_knowledge/mobs",
+    "advancement": "heavens:bookchap2/13raidloot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Apart from their golden wings, the $(thing)Phygs$$() of the $(thing$()Aether$() aren't all that different to regular $(thing)Pigs$(). They too can be saddled and ridden, though will follow your lead without needing a Carrot on a Stick. The wings allow them to almost fly, leaping high into the air, then gliding slowly down.$(br2)Killing a $(thing)Phyg$() grants 1 $(thing)Cutting$() experience. They can be led, and bred using $(item)Blue Berries$()."
+        },
+        {
+            "type": "mob_drops",
+            "name": "Phyg",
+            "mob": "aether_legacy:phyg",
+            "drop1": "minecraft:porkchop{display: {Lore: [\"Drops: 1-3\", \"Affected by Looting\", \"Affected by Cutting Skill\", \"Cooks if killed while on Fire\"]}}",
+            "drop2": "minecraft:feather{display: {Lore: [\"Drops: 0-1\", \"Unaffected by Looting\", \"Unaffected by Cutting Skill\"]}}"
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "dimension_dossier/aether"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "name": "Zephyroo",
+    "icon": "minecraft:spawn_egg{EntityTag: {id: \"lost_aether:zephyroo\"}}",
+    "category": "collected_knowledge/mobs",
+    "advancement": "heavens:bookchap2/13raidloot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Hoppity fellows known as $(thing)Zephyroos$() can be encountered around the $(thing$()Aether$(). These creatures are so friendly they'll let you jump straight on their backs to ride them.$(br2)They can be led, and bred using $(item)Blue Berries$()."
+        },
+        {
+            "type": "mob_drops",
+            "name": "Zephyroo",
+            "mob": "lost_aether:zephyroo"
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "dimension_dossier/aether"
+            ]
+        }
+    ]
+}

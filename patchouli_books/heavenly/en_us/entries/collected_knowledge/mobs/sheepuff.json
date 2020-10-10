@@ -1,0 +1,25 @@
+{
+    "name": "Sheepuff",
+    "icon": "minecraft:spawn_egg{EntityTag: {id: \"aether_legacy:sheepuff\"}}",
+    "category": "collected_knowledge/mobs",
+    "advancement": "heavens:bookchap2/13raidloot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Curious puffballs known as $(thing)Sheepuffs$() roam the $(thing)Aether$(). Similar to regular $(thing)Sheep$(), these can be encountered in a variety of colours. More curiously, they tend to suddenly jump quite high in a puff of air, then slowly float down.$(br2)Killing a $(thing)Sheepuff$() grants 1 $(thing)Cutting$() experience. They can be led, and bred using $(item)Blue Berries$()."
+        },
+        {
+            "type": "mob_drops",
+            "name": "Sheepuff",
+            "mob": "aether_legacy:sheepuff",
+            "drop1": "minecraft:mutton{display: {Lore: [\"Drops: 1-2\", \"Affected by Looting\", \"Affected by Cutting Skill\", \"Cooks if killed while on Fire\"]}}",
+            "drop2": "minecraft:wool{display: {Lore: [\"Drops: 1\", \"Can be collected with Shears\", \"Only Drops if Sheepuff has not been Shorn\", \"Colour matches colour of the Sheepuff\", \"Unaffected by Cutting Skill\"]}}"
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "dimension_dossier/aether"
+            ]
+        }
+    ]
+}
