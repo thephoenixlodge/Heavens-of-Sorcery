@@ -1,0 +1,32 @@
+{
+    "name": "Swet",
+    "icon": "minecraft:spawn_egg{EntityTag: {id: \"aether_legacy:swet\"}}",
+    "category": "collected_knowledge/mobs",
+    "advancement": "heavens:bookchap2/13raidloot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Slime-like creatures known as $(thing)Swets$() can be found across the $(thing)Aether$() in two different varieties. Both the Blue and Golden varieties behave similarly, hopping around derpily, just like $(thing)Slimes$() and $(thing)Magma Cubes$(). Unlike those however, $(thing)Swets$() attack by enveloping their prey, then jumping in an attempt to splat it on the ground."
+        },
+        {
+            "type": "mob_drops",
+            "name": "Blue Swet",
+            "mob": "aether_legacy:swet{\"SwetType\": 1}",
+            "drop1": "aether_legacy:swetty_ball{display: {Lore: [\"Drops: 1\", \"Unaffected by Looting\", \"Unaffected by Cutting Skill\"]}}",
+            "drop2": "aether_legacy:aercloud:1{display: {Lore: [\"Drops: 1\", \"Unaffected by Looting\", \"Unaffected by Cutting Skill\"]}}"
+        },
+        {
+            "type": "mob_drops",
+            "name": "Golden Swet",
+            "mob": "aether_legacy:swet{\"SwetType\": 0}",
+            "drop1": "aether_legacy:swetty_ball{display: {Lore: [\"Drops: 1\", \"Unaffected by Looting\", \"Unaffected by Cutting Skill\"]}}",
+            "drop2": "minecraft:glowstone{display: {Lore: [\"Drops: 1\", \"Unaffected by Looting\", \"Unaffected by Cutting Skill\"]}}"
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "dimension_dossier/aether"
+            ]
+        }
+    ]
+}

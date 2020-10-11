@@ -1,0 +1,106 @@
+{
+    "name": "Silver Dungeon",
+    "icon": "aether_legacy:dungeon_block:3",
+    "category": "dimension_dossier/aether",
+    "advancement": "heavens:bookchap2/13raidloot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Floating on clouds in the skies of the $(thing)Aether$(), $(thing)Silver Dungeons$() are imposing pantheons, home to the $(thing)Valkyries$() and their $(thing)Queen$(). Inside, you must traverse 3 floors of small rooms in order to access the throne room where the $(thing)Queen$() resides. To challenge her, you must prove your worth by defeating 10 of her $(thing)Valkyries$() and bringing her their $(item)Medals$()."
+        },
+        {
+            "type": "image",
+            "images": [
+                    "books:templates/aether_silver_dungeon.png"
+                ],
+            "title": "Silver Dungeon",
+            "border": "true",
+            "text": "The Silver Dungeon."
+        },
+        {
+            "type": "relations",
+            "title": "Creatures Within",
+            "entries": [
+                "collected_knowledge/mobs/valkyrie",
+                "collected_knowledge/mobs/mimic",
+                "collected_knowledge/mobs/valkyrie_queen"
+            ]
+        },
+        {
+            "type": "loot",
+            "lootpool": "Bronze",
+            "item1": "quark:arrow_torch",
+            "item2": "cuisine:crops:9",
+            "item3": "minecraft:dye:4",
+            "item4": "minecraft:fireworks{Fireworks:{Flight:3b}}",
+            "item5": "cuisine:crops:21",
+            "item6": "cuisine:crops:3",
+            "item7": "cuisine:crops:12",
+            "item8": "astralsorcery:itemusabledust",
+            "item9": "quark:biotite",
+            "item10": "cuisine:crops:10",
+            "item11": "botania:tinypotato",
+            "item12": "quark:iron_rod",
+            "item13": "aether_legacy:moa_egg{typeId: 1}",
+            "item14": "aether_legacy:moa_egg{typeId: 0}",
+            "item15": "aether_legacy:dart_shooter",
+            "item16": "aether_legacy:ambrosium_torch",
+            "item17": "aether_legacy:ambrosium_shard",
+            "item18": "aether_legacy:dart:1",
+            "item19": "aether_legacy:skyroot_bucket",
+            "item20": "aether_legacy:dart"
+        },
+        {
+            "type": "loot",
+            "lootpool": "Bronze",
+            "item1": "aether_legacy:skyroot_bucket:2",
+            "item2": "aether_legacy:zanite_ring",
+            "item3": "aether_legacy:dart:2",
+            "item4": "aether_legacy:golden_pendant",
+            "item5": "aether_legacy:iron_pendant",
+            "item6": "aether_legacy:zanite_helmet",
+            "item7": "aether_legacy:zanite_chestplate",
+            "item8": "aether_legacy:zanite_leggings",
+            "item9": "aether_legacy:zanite_boots",
+            "item10": "aether_legacy:zanite_pickaxe",
+            "item11": "aether_legacy:ascending_dawn",
+            "item12": "aether_legacy:aether_tune",
+            "item13": "metalchests:chest_upgrade:0",
+            "item14": "metalchests:chest_upgrade:5",
+            "item15": "metalchests:chest_upgrade:9",
+            "item16": "metalchests:chest_upgrade:12"
+        },
+        {
+            "type": "loot",
+            "lootpool": "Boss Chest",
+            "item1": "minecraft:elytra",
+            "item2": "botania:overgrowthseed",
+            "item3": "minecraft:totem_of_undying",
+            "item4": "betterbuilderswands:wandunbreakable",
+            "item5": "aether_legacy:lightning_sword",
+            "item6": "aether_legacy:neptune_helmet",
+            "item7": "aether_legacy:neptune_chestplate",
+            "item8": "aether_legacy:neptune_leggings",
+            "item9": "aether_legacy:neptune_boots",
+            "item10": "aether_legacy:neptune_gloves",
+            "item11": "aether_legacy:valkyrie_pickaxe",
+            "item12": "aether_legacy:valkyrie_axe",
+            "item13": "aether_legacy:valkyrie_shovel",
+            "item14": "aether_legacy:valkyrie_helmet",
+            "item15": "aether_legacy:valkyrie_chestplate",
+            "item16": "aether_legacy:valkyrie_leggings",
+            "item17": "aether_legacy:valkyrie_boots",
+            "item18": "aether_legacy:valkyrie_gloves",
+            "item19": "aether_legacy:regeneration_stone",
+            "item20": "aether_legacy:invisibility_cape"
+        },
+        {
+            "type": "loot",
+            "lootpool": "Boss Chest",
+            "item1": "aether_legacy:holy_sword",
+            "item2": "aether_legacy:gummy_swet:0",
+            "item3": "aether_legacy:gummy_swet:1",
+            "item4": "aether_legacy:golden_feather"
+        }
+    ]
+}

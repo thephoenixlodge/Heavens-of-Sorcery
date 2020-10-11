@@ -1,0 +1,26 @@
+{
+    "name": "Valkyrie Queen",
+    "icon": "minecraft:spawn_egg{EntityTag: {id: \"aether_legacy:valkyrie_queen\"}}",
+    "category": "collected_knowledge/mobs",
+    "advancement": "heavens:bookchap2/13raidloot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "The $(thing)Queen$() of the $(thing)Valkyries$() resides in the throne room of the $(thing)Silver Dungeons$() of the $(thing)Aether$(). A great warrior, the $(thing)Valkyrie Queen$() will only accept your challenge if you present her with 10 $(item)Victory Medals$() earned by defeating her $(thing)Valkyries$(). In battle, she fights similarly to the her $(thing)Valkyries$(), while also occasionally summoning $(thing)Thunder Balls$() to call lightning on opponents."
+        },
+        {
+            "type": "mob_drops",
+            "name": "Valkyrie Queen",
+            "mob": "aether_legacy:valkyrie_queen",
+            "drop1": "aether_legacy:dungeon_key:1{display: {Lore: [\"Use to open the Treasure Chest in the Silver Dungeon\"]}}",
+            "drop2": "minecraft:golden_sword{display: {Lore: [\"Drops: 1\", \"Unaffected by Looting\", \"Unaffected by Cutting Skill\"]}}"
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "dimension_dossier/aether",
+                "dimension_dossier/aether/silver_dungeon"
+            ]
+        }
+    ]
+}

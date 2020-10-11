@@ -1,0 +1,24 @@
+{
+    "name": "Zephyr",
+    "icon": "minecraft:spawn_egg{EntityTag: {id: \"aether_legacy:zephyr\"}}",
+    "category": "collected_knowledge/mobs",
+    "advancement": "heavens:bookchap2/13raidloot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "While exploring the $(thing)Aether$(), you are likely to encounter the large malevolent storm spirits known as $(thing)Zephyrs$(). These puffed up clouds won't directly injure you, but rather will blow gusts of air to try knock you around, in an effort you to drop you right off the islands."
+        },
+        {
+            "type": "mob_drops",
+            "name": "Zephyr",
+            "mob": "aether_legacy:zephyr",
+            "drop1": "aether_legacy:aercloud{display: {Lore: [\"Drops: 0-2\", \"Affected by Looting\", \"Unaffected by Cutting Skill\"]}}"
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "dimension_dossier/aether"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,86 @@
+{
+    "name": "Bronze Dungeon",
+    "icon": "aether_legacy:dungeon_block:1",
+    "category": "dimension_dossier/aether",
+    "advancement": "heavens:bookchap2/13raidloot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Within the core of the $(thing)Aether's$() larger islands, lurks the domain of the $(thing)Slider$(). These so-called $(thing)Bronze Dungeons$() Are arguably the easiest of the Dungeons found throughout the $(thing)Aether$(), consisting of few rooms, and no real challenges within."
+        },
+        {
+            "type": "image",
+            "images": [
+                    "books:templates/aether_bronze_dungeon.png"
+                ],
+            "title": "Bronze Dungeon",
+            "border": "true",
+            "text": "An entrance to a Bronze Dungeon."
+        },
+        {
+            "type": "relations",
+            "title": "Creatures Within",
+            "entries": [
+                "collected_knowledge/mobs/sentry",
+                "collected_knowledge/mobs/mimic",
+                "collected_knowledge/mobs/slider"
+            ]
+        },
+        {
+            "type": "loot",
+            "lootpool": "Bronze",
+            "item1": "quark:arrow_torch",
+            "item2": "cuisine:crops:9",
+            "item3": "minecraft:dye:4",
+            "item4": "minecraft:fireworks{Fireworks:{Flight:3b}}",
+            "item5": "cuisine:crops:21",
+            "item6": "cuisine:crops:3",
+            "item7": "cuisine:crops:12",
+            "item8": "astralsorcery:itemusabledust",
+            "item9": "quark:biotite",
+            "item10": "cuisine:crops:10",
+            "item11": "botania:tinypotato",
+            "item12": "quark:iron_rod",
+            "item13": "aether_legacy:aether_tune",
+            "item14": "aether_legacy:ambrosium_torch",
+            "item15": "minecraft:record_cat",
+            "item16": "aether_legacy:iron_ring",
+            "item17": "aether_legacy:golden_ring",
+            "item18": "aether_legacy:dart:1",
+            "item19": "aether_legacy:skyroot_bucket:2",
+            "item20": "aether_legacy:dart"
+        },
+        {
+            "type": "loot",
+            "lootpool": "Bronze",
+            "item1": "aether_legacy:swet_cape",
+            "item2": "aether_legacy:ambrosium_shard",
+            "item3": "aether_legacy:dart:2",
+            "item4": "aether_legacy:zanite_shovel",
+            "item5": "aether_legacy:zanite_sword",
+            "item6": "aether_legacy:zanite_pickaxe",
+            "item7": "aether_legacy:zanite_axe",
+            "item8": "metalchests:chest_upgrade:0",
+            "item9": "metalchests:chest_upgrade:5",
+            "item10": "metalchests:chest_upgrade:9",
+            "item11": "metalchests:chest_upgrade:12"
+        },
+        {
+            "type": "loot",
+            "lootpool": "Boss Chest",
+            "item1": "chisel:chisel_hitech",
+            "item2": "minecraft:chorus_flower",
+            "item3": "botania:tornadorod",
+            "item4": "aether_legacy:cloud_staff",
+            "item5": "aether_legacy:lightning_knife",
+            "item6": "aether_legacy:phoenix_bow",
+            "item7": "aether_legacy:sentry_boots",
+            "item8": "aether_legacy:repulsion_shield",
+            "item9": "aether_legacy:agility_cape",
+            "item10": "aether_legacy:valkyrie_lance",
+            "item11": "aether_legacy:gummy_swet:0",
+            "item12": "aether_legacy:gummy_swet:1",
+            "item13": "aether_legacy:flaming_sword"
+        }
+    ]
+}

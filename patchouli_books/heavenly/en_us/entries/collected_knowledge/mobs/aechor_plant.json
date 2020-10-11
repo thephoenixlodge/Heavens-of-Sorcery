@@ -1,0 +1,25 @@
+{
+    "name": "Aechor Plant",
+    "icon": "minecraft:spawn_egg{EntityTag: {id: \"aether_legacy:aechor_plant\"}}",
+    "category": "collected_knowledge/mobs",
+    "advancement": "heavens:bookchap2/13raidloot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Poisonous plants known as $(thing)Aechor Plants$() can be found across the islands of the $(thing)Aether$(). These plants are very unfriendly, and will fire poisonous barbs at anyone who dares to venture close to it, inflicting the $(thing)intoxicated$() effect. Using a $(item)Skyroot Bucket$(), they can be milked for their poison.$(br2)Killing an $(thing)Aechor Plant$() grants 1 $(thing)Cutting$() experience."
+        },
+        {
+            "type": "mob_drops_large_mob",
+            "name": "Aechor Plant",
+            "mob": "aether_legacy:aechor_plant",
+            "drop1": "aether_legacy:aechor_petal{display: {Lore: [\"Drops: 1-2\", \"Affected by Looting\", \"Affected by Cutting Skill\"]}}",
+            "drop2": "aether_legacy:skyroot_bucket:2{display: {Lore: [\"Collected by using a Skyroot Bucket to milk the Aechor Plant\"]}}"
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "dimension_dossier/aether"
+            ]
+        }
+    ]
+}

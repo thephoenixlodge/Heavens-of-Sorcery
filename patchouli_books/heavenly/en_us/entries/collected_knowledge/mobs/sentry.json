@@ -1,0 +1,25 @@
+{
+    "name": "Sentry",
+    "icon": "minecraft:spawn_egg{EntityTag: {id: \"aether_legacy:sentry\"}}",
+    "category": "collected_knowledge/mobs",
+    "advancement": "heavens:bookchap2/13raidloot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Found within the antechamber of the $(thing)Aether's Bronze Dungeons$(), $(thing)Sentries$() are the smaller cousins of the $(thing)Slider$(). However they behave more like $(thing)Slimes$() made of stone, hopping around, with a key difference in their tendency to explode upon colliding with people."
+        },
+        {
+            "type": "mob_drops",
+            "name": "Sentry",
+            "mob": "aether_legacy:sentry",
+            "drop1": "aether_legacy:dungeon_block{display: {Lore: [\"Drops: 1\", \"Unaffected by Looting\", \"Unaffected by Cutting Skill\"]}}"
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "dimension_dossier/aether",
+                "dimension_dossier/aether/bronze_dungeon"
+            ]
+        }
+    ]
+}

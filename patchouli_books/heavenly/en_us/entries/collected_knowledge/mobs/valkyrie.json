@@ -1,0 +1,25 @@
+{
+    "name": "Valkyrie",
+    "icon": "minecraft:spawn_egg{EntityTag: {id: \"aether_legacy:valkyrie\"}}",
+    "category": "collected_knowledge/mobs",
+    "advancement": "heavens:bookchap2/13raidloot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "The noble warriors known as $(thing)Valkyrie$() reside in the $(thing)Silver Dungeons$() of the $(thing)Aether$(). They are a secretive group, only revealing their presence to those who step on their $(item)Angelic Stones$(). Even then, they will not attack unless you challenge them first. Upon defeat, they will yield, retreating into the shadows after giving you their $(item)Victory Medal$()."
+        },
+        {
+            "type": "mob_drops",
+            "name": "Valkyrie",
+            "mob": "aether_legacy:valkyrie",
+            "drop1": "aether_legacy:victory_medal{display: {Lore: [\"Drops: 1\", \"Unaffected by Looting\", \"Unaffected by Cutting Skill\", \"Collect 10 of these to earn the right to challenge the Valkyrie Queen\"]}}"
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "dimension_dossier/aether",
+                "dimension_dossier/aether/silver_dungeon"
+            ]
+        }
+    ]
+}

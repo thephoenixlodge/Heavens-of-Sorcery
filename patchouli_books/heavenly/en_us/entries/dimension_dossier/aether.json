@@ -90,13 +90,30 @@
                 "collected_knowledge/mobs/sheepuff",
                 "collected_knowledge/mobs/phyg",
                 "collected_knowledge/mobs/flying_cow",
-                "collected_knowledge/mobs/zephyroo"
+                "collected_knowledge/mobs/zephyroo",
+                "collected_knowledge/mobs/aechor_plant",
+                "collected_knowledge/mobs/swet",
+                "collected_knowledge/mobs/zephyr"
+            ]
+        },
+        {
+            "type": "relations",
+            "title": "Dungeon Creatures",
+            "entries": [
+                "collected_knowledge/mobs/slider",
+                "collected_knowledge/mobs/sentry",
+                "collected_knowledge/mobs/valkyrie",
+                "collected_knowledge/mobs/valkyrie_queen"
             ]
         },
         {
             "type": "relations",
             "title": "Notable Structures",
             "entries": [
+                "dimension_dossier/aether/bronze_dungeon",
+                "dimension_dossier/aether/silver_dungeon",
+                "dimension_dossier/aether/gold_dungeon",
+                "dimension_dossier/aether/platinum_dungeon"
             ]
         },
         {

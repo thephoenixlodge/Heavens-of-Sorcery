@@ -3,5 +3,5 @@
 	"description": "More details on the creatures, structures, resources and mechanics of the Misty World",
 	"icon": "mist:stone_porous",
 	"parent": "dimension_dossier",
-	"sortnum": 998
+	"sortnum": 2
 }

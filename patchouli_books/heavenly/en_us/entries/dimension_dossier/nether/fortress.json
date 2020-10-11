@@ -18,6 +18,15 @@
             "border": "true"
         },
         {
+            "type": "relations",
+            "title": "Creatures Within",
+            "entries": [
+                "collected_knowledge/mobs/blaze",
+                "collected_knowledge/mobs/wither_skeleton",
+                "collected_knowledge/mobs/skeleton"
+            ]
+        },
+        {
             "type": "loot",
             "lootpool": "Common",
             "item1": "arcaneworld:amethyst",

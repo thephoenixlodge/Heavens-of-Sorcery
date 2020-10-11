@@ -3,8 +3,8 @@
 		{
 			"type": "header",
 			"text": "#name",
-			"x": 75,
-			"y": 10
+			"x": 78,
+			"y": 5
 		},
 		{
 			"type": "entity",

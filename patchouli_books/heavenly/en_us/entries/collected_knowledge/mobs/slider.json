@@ -1,0 +1,26 @@
+{
+    "name": "The Slider",
+    "icon": "minecraft:spawn_egg{EntityTag: {id: \"aether_legacy:slider\"}}",
+    "category": "collected_knowledge/mobs",
+    "advancement": "heavens:bookchap2/13raidloot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "The Boss of the $(thing)Aether's Bronze Dungeon$(), the $(thing)Slider$() is akin to a large block of stone. As such it cannot be damaged by conventional means, and you must utilize a $(item)Pickaxe$() to chip away at its health. While fighting, the $(thing)Slider$() will move in simple straight lines in an attempt to crush you. Once it takes a large amount of damage, its eye will turn red and it move much faster."
+        },
+        {
+            "type": "mob_drops",
+            "name": "The Slider",
+            "mob": "aether_legacy:slider",
+            "drop1": "aether_legacy:dungeon_key{display: {Lore: [\"Use to open the Treasure Chest in the Bronze Dungeon\"]}}",
+            "drop2": "aether_legacy:dungeon_block{display: {Lore: [\"Drops: 7-10\", \"Affected by Looting\", \"Unaffected by Cutting Skill\"]}}"
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "dimension_dossier/aether",
+                "dimension_dossier/aether/bronze_dungeon"
+            ]
+        }
+    ]
+}
