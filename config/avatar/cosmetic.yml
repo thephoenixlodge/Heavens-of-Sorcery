@@ -27,7 +27,7 @@ chiBarSettings:
   shouldChiNumbersRender: true
   shouldChibarRender: true
   widthScale: 1.100000023841858
-  xPos: 115
+  xPos: 5
   yPos: 3
 displayGetBendingMessage: true
 fireRenderSettings:
@@ -81,6 +81,7 @@ nameConflicts:
   wall: false
 nameKeymappings:
   airblade: null
+  fire_shot: null
 particleSettings:
   collideWithBlocks: true
   collideWithParticles: true
