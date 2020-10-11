@@ -168,14 +168,14 @@
           "weight": 1,
           "quality": 0,
           "type": "item",
-          "name": "wings:monarch_butterfly_wings"
+          "name": "wings:fire_wings"
         },
         {
           "entryName": "loottweaker#5",
           "weight": 1,
           "quality": 0,
           "type": "item",
-          "name": "wings:evil_wings"
+          "name": "wings:bat_wings"
         },
         {
           "entryName": "loottweaker#13",
@@ -189,35 +189,35 @@
           "weight": 1,
           "quality": 0,
           "type": "item",
-          "name": "wings:angel_wings"
+          "name": "wings:slime_wings"
         },
         {
           "entryName": "loottweaker#3",
           "weight": 1,
           "quality": 0,
           "type": "item",
-          "name": "wings:fire_wings"
+          "name": "wings:fairy_wings"
         },
         {
           "entryName": "loottweaker#2",
           "weight": 1,
           "quality": 0,
           "type": "item",
-          "name": "wings:dragon_wings"
+          "name": "wings:evil_wings"
         },
         {
           "entryName": "loottweaker#9",
           "weight": 1,
           "quality": 0,
           "type": "item",
-          "name": "wings:bat_wings"
+          "name": "wings:dragon_wings"
         },
         {
           "entryName": "loottweaker#8",
           "weight": 1,
           "quality": 0,
           "type": "item",
-          "name": "wings:fairy_wings"
+          "name": "wings:monarch_butterfly_wings"
         },
         {
           "entryName": "loottweaker#10",
@@ -263,7 +263,7 @@
           "weight": 1,
           "quality": 0,
           "type": "item",
-          "name": "wings:slime_wings"
+          "name": "wings:angel_wings"
         },
         {
           "entryName": "loottweaker#12",

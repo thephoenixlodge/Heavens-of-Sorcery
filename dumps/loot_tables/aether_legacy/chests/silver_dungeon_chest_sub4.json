@@ -4,15 +4,15 @@
       "name": "main",
       "entries": [
         {
-          "entryName": "aether_legacy:golden_pendant",
+          "entryName": "aether_legacy:iron_pendant",
           "weight": 1,
           "quality": 0,
           "type": "item",
-          "name": "aether_legacy:golden_pendant"
+          "name": "aether_legacy:iron_pendant"
         },
         {
           "entryName": "aether_legacy:ambrosium_torch",
-          "weight": 9,
+          "weight": 3,
           "quality": 0,
           "type": "item",
           "functions": [

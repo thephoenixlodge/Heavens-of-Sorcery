@@ -1,0 +1,94 @@
+{
+  "pools": [
+    {
+      "name": "pedestal_common",
+      "entries": [
+        {
+          "entryName": "thaumcraft:salis_mundus",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "name": "thaumcraft:salis_mundus"
+        },
+        {
+          "entryName": "minecraft:ender_pearl",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:ender_pearl"
+        },
+        {
+          "entryName": "minecraft:name_tag",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:name_tag"
+        },
+        {
+          "entryName": "minecraft:gold_ingot",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:gold_ingot"
+        },
+        {
+          "entryName": "minecraft:diamond",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:diamond"
+        },
+        {
+          "entryName": "minecraft:emerald",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:emerald"
+        },
+        {
+          "entryName": "thaumcraft:quicksilver",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "name": "thaumcraft:quicksilver"
+        },
+        {
+          "entryName": "thaumcraft:amber",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "name": "thaumcraft:amber"
+        },
+        {
+          "entryName": "minecraft:experience_bottle",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:experience_bottle"
+        },
+        {
+          "entryName": "thaumcraft:alumentum",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "name": "thaumcraft:alumentum"
+        },
+        {
+          "entryName": "thaumcraft:nitor_yellow",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "name": "thaumcraft:nitor_yellow"
+        },
+        {
+          "entryName": "minecraft:glowstone_dust",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:glowstone_dust"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

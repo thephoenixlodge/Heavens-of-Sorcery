@@ -21,7 +21,7 @@
           "weight": 1,
           "quality": 0,
           "type": "loot_table",
-          "name": "hos:cutting/chicken_meat"
+          "name": "hos:cutting/chicken_pool1_meat"
         }
       ],
       "rolls": {
@@ -43,7 +43,7 @@
           "weight": 1,
           "quality": 0,
           "type": "loot_table",
-          "name": "hos:cutting/chicken_meat"
+          "name": "hos:cutting/chicken_pool1_meat"
         }
       ],
       "rolls": {
@@ -94,7 +94,7 @@
           "weight": 1,
           "quality": 0,
           "type": "loot_table",
-          "name": "hos:cutting/chicken_meat"
+          "name": "hos:cutting/chicken_pool1_meat"
         }
       ],
       "rolls": {
@@ -121,7 +121,7 @@
           "weight": 1,
           "quality": 0,
           "type": "loot_table",
-          "name": "hos:cutting/chicken_meat"
+          "name": "hos:cutting/chicken_pool1_meat"
         }
       ],
       "rolls": 1.0,
@@ -140,7 +140,7 @@
           "weight": 1,
           "quality": 0,
           "type": "loot_table",
-          "name": "hos:cutting/chicken_meat"
+          "name": "hos:cutting/chicken_pool1_meat"
         }
       ],
       "rolls": {

@@ -211,6 +211,13 @@
                 "max": 15.0
               },
               "function": "minecraft:set_count"
+            },
+            {
+              "data": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:set_data"
             }
           ],
           "name": "aether_legacy:gummy_swet"

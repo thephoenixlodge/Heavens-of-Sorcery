@@ -4,15 +4,36 @@
       "name": "main",
       "entries": [
         {
-          "entryName": "aether_legacy:iron_pendant",
-          "weight": 1,
+          "entryName": "aether_legacy:zanite_boots",
+          "weight": 200,
           "quality": 0,
           "type": "item",
-          "name": "aether_legacy:iron_pendant"
+          "name": "aether_legacy:zanite_boots"
+        },
+        {
+          "entryName": "aether_legacy:zanite_helmet",
+          "weight": 100,
+          "quality": 0,
+          "type": "item",
+          "name": "aether_legacy:zanite_helmet"
+        },
+        {
+          "entryName": "aether_legacy:zanite_leggings",
+          "weight": 50,
+          "quality": 0,
+          "type": "item",
+          "name": "aether_legacy:zanite_leggings"
+        },
+        {
+          "entryName": "aether_legacy:zanite_chestplate",
+          "weight": 25,
+          "quality": 0,
+          "type": "item",
+          "name": "aether_legacy:zanite_chestplate"
         },
         {
           "entryName": "aether_legacy:ambrosium_torch",
-          "weight": 3,
+          "weight": 25,
           "quality": 0,
           "type": "item",
           "functions": [

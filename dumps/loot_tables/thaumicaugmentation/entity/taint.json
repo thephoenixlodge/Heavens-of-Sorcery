@@ -1,0 +1,30 @@
+{
+  "pools": [
+    {
+      "name": "taint_curio",
+      "entries": [
+        {
+          "entryName": "thaumcraft:curio",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 5.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thaumcraft:curio"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "chance": 0.002,
+          "looting_multiplier": 0.01,
+          "condition": "minecraft:random_chance_with_looting"
+        }
+      ]
+    }
+  ]
+}

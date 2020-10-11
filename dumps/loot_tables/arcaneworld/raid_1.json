@@ -205,6 +205,22 @@
           "name": "minecraft:bow"
         },
         {
+          "entryName": "loottweaker#4",
+          "weight": 10,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 3.0,
+                "max": 8.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "contenttweaker:token_reforge"
+        },
+        {
           "entryName": "loottweaker#3",
           "weight": 6,
           "quality": 0,

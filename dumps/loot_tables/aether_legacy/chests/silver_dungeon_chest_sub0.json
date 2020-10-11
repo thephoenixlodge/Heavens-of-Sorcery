@@ -4,27 +4,17 @@
       "name": "main",
       "entries": [
         {
-          "entryName": "aether_legacy:aether_tune",
+          "entryName": "aether_legacy:moa_egg",
           "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "name": "aether_legacy:aether_tune"
-        },
-        {
-          "entryName": "aether_legacy:ambrosium_torch",
-          "weight": 19,
           "quality": 0,
           "type": "item",
           "functions": [
             {
-              "count": {
-                "min": 1.0,
-                "max": 4.0
-              },
-              "function": "minecraft:set_count"
+              "moa_type": "aether_legacy:white",
+              "function": "aether_legacy:set_moa_type"
             }
           ],
-          "name": "aether_legacy:ambrosium_torch"
+          "name": "aether_legacy:moa_egg"
         }
       ],
       "rolls": 1.0

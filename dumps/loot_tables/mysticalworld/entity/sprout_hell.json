@@ -4,7 +4,7 @@
       "name": "main",
       "entries": [
         {
-          "entryName": "minecraft:melon",
+          "entryName": "minecraft:nether_wart",
           "weight": 1,
           "quality": 0,
           "type": "item",
@@ -17,7 +17,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:melon"
+          "name": "minecraft:nether_wart"
         }
       ],
       "rolls": 1.0

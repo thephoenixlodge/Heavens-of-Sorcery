@@ -4,15 +4,15 @@
       "name": "main",
       "entries": [
         {
-          "entryName": "aether_legacy:zanite_ring",
+          "entryName": "aether_legacy:golden_pendant",
           "weight": 1,
           "quality": 0,
           "type": "item",
-          "name": "aether_legacy:zanite_ring"
+          "name": "aether_legacy:golden_pendant"
         },
         {
           "entryName": "aether_legacy:ambrosium_torch",
-          "weight": 14,
+          "weight": 9,
           "quality": 0,
           "type": "item",
           "functions": [

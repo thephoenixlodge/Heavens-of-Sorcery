@@ -1,0 +1,195 @@
+{
+  "pools": [
+    {
+      "name": "pedestal_rare",
+      "entries": [
+        {
+          "entryName": "rare_earths",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 10.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thaumcraft:nugget"
+        },
+        {
+          "entryName": "thaumcraft:salis_mundus",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "name": "thaumcraft:salis_mundus"
+        },
+        {
+          "entryName": "minecraft:ender_pearl",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:ender_pearl"
+        },
+        {
+          "entryName": "thaumcraft:primordial_pearl",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.5
+              },
+              "function": "minecraft:set_damage"
+            }
+          ],
+          "name": "thaumcraft:primordial_pearl"
+        },
+        {
+          "entryName": "minecraft:nether_star",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:nether_star"
+        },
+        {
+          "entryName": "thaumcraft:baubles",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 3.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thaumcraft:baubles"
+        },
+        {
+          "entryName": "thaumcraft:curio",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 2.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thaumcraft:curio"
+        },
+        {
+          "entryName": "thaumicaugmentation:material",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 3.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thaumicaugmentation:material"
+        },
+        {
+          "entryName": "thaumicaugmentation:focus_ancient",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "name": "thaumicaugmentation:focus_ancient"
+        },
+        {
+          "entryName": "golden_apple",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 0.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "minecraft:golden_apple"
+        },
+        {
+          "entryName": "enchanted_golden_apple",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 1.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "minecraft:golden_apple"
+        },
+        {
+          "entryName": "minecraft:gold_ingot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:gold_ingot"
+        },
+        {
+          "entryName": "minecraft:diamond",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:diamond"
+        },
+        {
+          "entryName": "minecraft:emerald",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:emerald"
+        },
+        {
+          "entryName": "thaumcraft:quicksilver",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "thaumcraft:quicksilver"
+        },
+        {
+          "entryName": "thaumcraft:amber",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "thaumcraft:amber"
+        },
+        {
+          "entryName": "minecraft:experience_bottle",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:experience_bottle"
+        },
+        {
+          "entryName": "thaumcraft:alumentum",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "thaumcraft:alumentum"
+        },
+        {
+          "entryName": "thaumcraft:nitor_yellow",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "thaumcraft:nitor_yellow"
+        },
+        {
+          "entryName": "minecraft:glowstone_dust",
+          "weight": 7,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:glowstone_dust"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

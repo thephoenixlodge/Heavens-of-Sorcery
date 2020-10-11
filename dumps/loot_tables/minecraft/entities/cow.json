@@ -8,7 +8,7 @@
           "weight": 1,
           "quality": 0,
           "type": "loot_table",
-          "name": "hos:cutting/cow_meat"
+          "name": "hos:cutting/cow_main_meat"
         }
       ],
       "rolls": {
@@ -30,7 +30,7 @@
           "weight": 1,
           "quality": 0,
           "type": "loot_table",
-          "name": "hos:cutting/cow_meat"
+          "name": "hos:cutting/cow_pool1_meat"
         }
       ],
       "rolls": {
@@ -52,7 +52,7 @@
           "weight": 1,
           "quality": 0,
           "type": "loot_table",
-          "name": "hos:cutting/cow_meat"
+          "name": "hos:cutting/cow_main_meat"
         }
       ],
       "rolls": {
@@ -74,7 +74,7 @@
           "weight": 1,
           "quality": 0,
           "type": "loot_table",
-          "name": "hos:cutting/cow_meat"
+          "name": "hos:cutting/cow_pool1_meat"
         }
       ],
       "rolls": {
@@ -101,7 +101,7 @@
           "weight": 1,
           "quality": 0,
           "type": "loot_table",
-          "name": "hos:cutting/cow_meat"
+          "name": "hos:cutting/cow_main_meat"
         }
       ],
       "rolls": 1.0,
@@ -120,7 +120,7 @@
           "weight": 1,
           "quality": 0,
           "type": "loot_table",
-          "name": "hos:cutting/cow_meat"
+          "name": "hos:cutting/cow_pool1_meat"
         }
       ],
       "rolls": {
@@ -147,7 +147,7 @@
           "weight": 1,
           "quality": 0,
           "type": "loot_table",
-          "name": "hos:cutting/cow_meat"
+          "name": "hos:cutting/cow_main_meat"
         }
       ],
       "rolls": {
@@ -169,7 +169,7 @@
           "weight": 1,
           "quality": 0,
           "type": "loot_table",
-          "name": "hos:cutting/cow_meat"
+          "name": "hos:cutting/cow_pool1_meat"
         }
       ],
       "rolls": 1.0,
@@ -188,7 +188,7 @@
           "weight": 1,
           "quality": 0,
           "type": "loot_table",
-          "name": "hos:cutting/cow_meat"
+          "name": "hos:cutting/cow_pool1_meat"
         }
       ],
       "rolls": {
@@ -223,7 +223,7 @@
           "weight": 1,
           "quality": 0,
           "type": "loot_table",
-          "name": "hos:cutting/cow_meat"
+          "name": "hos:cutting/cow_main_meat"
         }
       ],
       "rolls": {

@@ -186,23 +186,33 @@
       "entries": [
         {
           "entryName": "loottweaker#1",
-          "weight": 1,
-          "quality": 0,
+          "weight": 5,
+          "quality": 1,
           "type": "item",
           "functions": [
             {
-              "tag": "{\"patchouli:book\":\"patchouli:doomed\"}",
-              "function": "minecraft:set_nbt"
+              "count": {
+                "min": 3.0,
+                "max": 8.0
+              },
+              "function": "minecraft:set_count"
             }
           ],
-          "name": "patchouli:guide_book"
+          "name": "contenttweaker:token_reforge"
         },
         {
-          "entryName": "loottweaker#2",
-          "weight": 1,
+          "entryName": "loottweaker#3",
+          "weight": 2,
           "quality": 0,
           "type": "item",
           "name": "bloodmagic:sentient_sword"
+        },
+        {
+          "entryName": "loottweaker#2",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "name": "contenttweaker:torn_page"
         }
       ],
       "rolls": 1.0
