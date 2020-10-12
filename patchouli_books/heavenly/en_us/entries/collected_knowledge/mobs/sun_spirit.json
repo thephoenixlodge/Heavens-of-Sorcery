@@ -1,0 +1,26 @@
+{
+    "name": "Sun Spirit",
+    "icon": "minecraft:spawn_egg{EntityTag: {id: \"aether_legacy:sun_spirit\"}}",
+    "category": "collected_knowledge/mobs",
+    "advancement": "heavens:bookchap2/13raidloot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "The $(thing)Sun Spirit$() lurks within his $(thing)Gold Dungeon$() in the $(thing)Aether$(). Typically stoic, he will only choose to fight those who truly pester him by repeatedly talking to him. If one does find themself in battle with him, they will quickly discover he cannot be harmed by most means. The only to hurt the $(thing)Sun Spirit$() is by deflecting his $(thing)Ice Balls$() such that they hit him, causing weakened parts of his spirit to split off."
+        },
+        {
+            "type": "mob_drops_large_mob",
+            "name": "Sun Spirit",
+            "mob": "aether_legacy:sun_spirit",
+            "drop1": "aether_legacy:dungeon_key:2{display: {Lore: [\"Use to open the Treasure Chest in the Gold Dungeon\"]}}",
+            "drop2": "aether_legacy:sun_altar{display: {Lore: [\"Drops: 1\", \"Unaffected by Looting\", \"Unaffected by Cutting Skill\"]}}"
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "dimension_dossier/aether",
+                "dimension_dossier/aether/gold_dungeon"
+            ]
+        }
+    ]
+}

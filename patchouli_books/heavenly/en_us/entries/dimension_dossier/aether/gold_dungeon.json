@@ -1,0 +1,65 @@
+{
+    "name": "Gold Dungeon",
+    "icon": "aether_legacy:dungeon_block:5",
+    "category": "dimension_dossier/aether",
+    "advancement": "heavens:bookchap2/13raidloot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Smaller than the $(thing)Bronze$() and $(thing)Silver Dungeons$(), the $(thing)Gold Dungeons$() of the $(thing)Aether$(), are a single room contained within an orblike island floating in the $(thing)Aether's$() skies. It is home to the $(thing)Sun Spirit$() - a powerful primordial spirit, whose existence holds the sun of the $(thing)Aether$() locked in the sky, unable to move$()."
+        },
+        {
+            "type": "image",
+            "images": [
+                    "books:templates/aether_gold_dungeon.png"
+                ],
+            "title": "Gold Dungeon",
+            "border": "true",
+            "text": "The island that houses the Gold Dungeon."
+        },
+        {
+            "type": "relations",
+            "title": "Creatures Within",
+            "entries": [
+                "collected_knowledge/mobs/sun_spirit"
+            ]
+        },
+        {
+            "type": "loot",
+            "lootpool": "Boss Chest",
+            "item1": "quark:arrow_torch",
+            "item2": "cuisine:crops:9",
+            "item3": "minecraft:dye:4",
+            "item4": "minecraft:fireworks{Fireworks:{Flight:3b}}",
+            "item5": "cuisine:crops:21",
+            "item6": "cuisine:crops:3",
+            "item7": "cuisine:crops:12",
+            "item8": "astralsorcery:itemusabledust",
+            "item9": "quark:biotite",
+            "item10": "cuisine:crops:10",
+            "item11": "botania:tinypotato",
+            "item12": "quark:iron_rod",
+            "item13": "botania:laputashard",
+            "item14": "minecraft:totem_of_undying",
+            "item15": "aether_legacy:pig_slayer",
+            "item16": "aether_legacy:life_shard",
+            "item17": "aether_legacy:iron_bubble",
+            "item18": "aether_legacy:vampire_blade",
+            "item19": "aether_legacy:chain_gloves",
+            "item20": "aether_legacy:obsidian_chestplate"
+        },
+        {
+            "type": "loot",
+            "lootpool": "Boss Chest",
+            "item1": "aether_legacy:phoenix_helmet",
+            "item2": "aether_legacy:phoenix_chestplate",
+            "item3": "aether_legacy:phoenix_leggings",
+            "item4": "aether_legacy:phoenix_boots",
+            "item5": "aether_legacy:phoenix_gloves",
+            "item6": "aether_legacy:gravitite_helmet",
+            "item7": "aether_legacy:gravitite_chestplate",
+            "item8": "aether_legacy:gravitite_boots",
+            "item9": "aether_legacy:gravitite_gloves"
+        }
+    ]
+}

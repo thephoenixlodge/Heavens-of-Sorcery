@@ -1,0 +1,62 @@
+{
+    "name": "Platinum Dungeon",
+    "icon": "lost_aether:light_gale_stone",
+    "category": "dimension_dossier/aether",
+    "advancement": "heavens:bookchap2/13raidloot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "A lonely tower can occasionally be spotted in the skies of the $(thing)Aether$(). This is known as the $(thing)Platinum Dungeon$(), home to the mighty $(thing)Aerwhale King$(), circling around the tower's parapet. Destroying the $(item)Songstone$() on top of the tower will anger the otherwise peaceful $(thing)Aerwhale King$(), causing it to attack you."
+        },
+        {
+            "type": "image",
+            "images": [
+                    "books:templates/aether_platinum_dungeon.png"
+                ],
+            "title": "Platinum Dungeon",
+            "border": "true",
+            "text": "The Platinum Dungeon, with the $(thing)Aerwhale King$() overhead."
+        },
+        {
+            "type": "relations",
+            "title": "Creatures Within",
+            "entries": [
+                "collected_knowledge/mobs/aerwhale_king",
+                "collected_knowledge/mobs/mimic"
+            ]
+        },
+        {
+            "type": "loot",
+            "lootpool": "Platinum",
+            "item1": "aether_legacy:skyroot_bucket:3",
+            "item2": "aether_legacy:zanite_pickaxe",
+            "item3": "aether_legacy:dart_shooter:2",
+            "item4": "aether_legacy:moa_egg{typeId: 2}",
+            "item5": "aether_legacy:white_cape",
+            "item6": "lost_aether:zanite_shield",
+            "item7": "aether_legacy:ice_pendant",
+            "item8": "aether_legacy:ice_ring",
+            "item9": "aether_legacy:zanite_ring",
+            "item10": "aether_legacy:aercloud"
+        },
+        {
+            "type": "loot",
+            "lootpool": "Boss Chest",
+            "item1": "aether_legacy:welcoming_skies",
+            "item2": "aether_legacy:legacy",
+            "item3": "lost_aether:agility_boots",
+            "item4": "lost_aether:power_gloves",
+            "item5": "lost_aether:jeb_shield",
+            "item6": "aether_legacy:enchanted_gravitite",
+            "item7": "lost_aether:sentry_shield",
+            "item8": "lost_aether:invisibility_gem",
+            "item9": "aether_legacy:life_shard",
+            "item10": "aether_legacy:repulsion_shield",
+            "item11": "aether_legacy:cloud_staff",
+            "item12": "lost_aether:phoenix_pickaxe",
+            "item13": "lost_aether:phoenix_axe",
+            "item14": "lost_aether:phoenix_shovel",
+            "item15": "lost_aether:phoenix_sword"
+        }
+    ]
+}

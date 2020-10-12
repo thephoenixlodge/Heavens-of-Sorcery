@@ -103,7 +103,10 @@
                 "collected_knowledge/mobs/slider",
                 "collected_knowledge/mobs/sentry",
                 "collected_knowledge/mobs/valkyrie",
-                "collected_knowledge/mobs/valkyrie_queen"
+                "collected_knowledge/mobs/valkyrie_queen",
+                "collected_knowledge/mobs/sun_spirit",
+                "collected_knowledge/mobs/aerwhale_king",
+                "collected_knowledge/mobs/mimic"
             ]
         },
         {

@@ -1,0 +1,27 @@
+{
+    "name": "Aerwhale King",
+    "icon": "minecraft:spawn_egg{EntityTag: {id: \"lost_aether:king_aerwhale\"}}",
+    "category": "collected_knowledge/mobs",
+    "advancement": "heavens:bookchap2/13raidloot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Like its kin, the $(thing)Aerwhale King$() of the $(thing)Aether's Platinum Dungeon$() is typically peaceful. Unless you destroy its $(item)Songstone$() that is. When it's broken, the $(thing)Aerwhale King$() will attack the perpetrator the only way it knows how - slamming its entire body weight down in attempt to crush them. If you manage to dodge this reckless slam, you'll have a window of opportunity in which you can hurt it."
+        },
+        {
+            "type": "mob_drops_royal_chonky",
+            "name": "Aerwhale King",
+            "mob": "lost_aether:king_aerwhale",
+            "drop1": "lost_aether:platinum_key{display: {Lore: [\"Use to open the Treasure Chest in the Gold Dungeon\"]}}",
+            "drop2": "aether_legacy:aercloud:3{display: {Lore: [\"Drops: 0-2\", \"Affected by Looting\", \"Unaffected by Cutting Skill\"]}}",
+            "raredrop1": "aether_legacy:legacy{display: {Lore: [\"Drop Chance: 2.5%\", \"Requires Player Kill\", \"Affected by Looting\", \"Unaffected by Cutting Skill\"]}}"
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "dimension_dossier/aether",
+                "dimension_dossier/aether/platinum_dungeon"
+            ]
+        }
+    ]
+}
