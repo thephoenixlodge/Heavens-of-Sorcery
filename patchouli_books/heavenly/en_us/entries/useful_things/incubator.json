@@ -1,0 +1,24 @@
+{
+    "name": "Incubation",
+    "icon": "aether_legacy:incubator",
+    "category": "useful_things",
+    "advancement": "heavens:bookchap2/13raidloot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "If you're lucky, you may find yourself in possession of a $(thing)Moa$()$(item)Egg$(). Hatching this requires a specialised device - an $(item)Incubator$(). Using $(item)Ambrosium Torches$() as fuel, it will slowly incubate the $(thing)Moa until it's ready to hatch, at which point the baby $(thing)Moa$() will appear on top of the $(item)Incubator$()"
+        },
+        {
+            "type": "crafting",
+            "recipe": "aether_legacy:incubator",
+            "recipe2": "aether_legacy:ambrosium_torch",
+            "text": "Fuel with $(item)Ambrosium Torches$()"
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "collected_knowledge/mobs/moa"
+            ]
+        }
+    ]
+}

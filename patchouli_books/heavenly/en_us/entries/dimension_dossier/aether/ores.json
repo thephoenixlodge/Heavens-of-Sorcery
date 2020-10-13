@@ -1,0 +1,37 @@
+{
+    "name": "Aether Ores",
+    "icon": "aether_legacy:zanite_gemstone",
+    "category": "dimension_dossier/aether",
+    "advancement": "heavens:bookchap2/13raidloot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Detailed here are the ores found within the $(thing)Aether$(), including whether they're affected by Fortune or Silk Touch, and any special behaviours and requirements for processing them."
+        },
+        {
+            "type": "spotlight",
+            "title": "Ambrosium",
+            "item": "aether_legacy:ambrosium_shard",
+            "text": "A soft, energy rich material, sometimes called the food of the gods. Has important uses as a fuel for the $(item)Enchanting Altar$() and in making torches. Can also be directly consumed to heal your wounds.$(br2)Silk Touch: True$(br2)Fortune: True"
+        },
+        {
+            "type": "spotlight",
+            "title": "Zanite",
+            "item": "aether_legacy:zanite_gemstone",
+            "text": "An uncommon purple gemstone. Tools and weapons made from this become sharper as they wear down, respectively increasing their harvest speed and damage proportionally.$(br2)Silk Touch: True$(br2)Fortune: True"
+        },
+        {
+            "type": "spotlight",
+            "title": "Gravitite",
+            "item": "aether_legacy:enchanted_gravitite",
+            "text": "A rarer material, $(item)Gravitite$() is believed to be what keeps the islands of the $(thing)Aether$() suspended in the sky. The ore and blocks of this material will float upwards if unobstructed.$(br2)Requires an $(item)Enchanting Altar$() to process.$(br)Silk Touch: True$(br)Fortune: True"
+        },
+        {
+            "type": "enchanter",
+            "heading": "Gravitite",
+            "output": "aether_legacy:enchanted_gravitite",
+            "input": "aether_legacy:gravitite_ore",
+            "description": "Fuel the Enchanter with $(item)Ambrosium$()."
+        }
+    ]
+}

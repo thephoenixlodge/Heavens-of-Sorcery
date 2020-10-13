@@ -22,7 +22,7 @@
             "title": "Creatures Within",
             "entries": [
                 "collected_knowledge/mobs/sentry",
-                "collected_knowledge/mobs/mimic",
+                "collected_knowledge/mobs/chest_mimic",
                 "collected_knowledge/mobs/slider"
             ]
         },

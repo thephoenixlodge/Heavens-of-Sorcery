@@ -39,6 +39,12 @@
             "item6": "astralsorcery:blockmarble:5",
             "item7": "astralsorcery:blockmarble:6",
             "description": "Plus many more! These ones are the only ones used for Astral Magicks though."
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "dimension_dossier/aether/astral_ruins"
+            ]
         }
     ]
 }

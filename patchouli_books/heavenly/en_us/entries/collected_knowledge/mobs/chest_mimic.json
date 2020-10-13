@@ -1,0 +1,34 @@
+{
+    "name": "Chest Mimic",
+    "icon": "minecraft:spawn_egg{EntityTag: {id: \"aether_legacy:mimic\"}}",
+    "category": "collected_knowledge/mobs",
+    "advancement": "heavens:bookchap2/13raidloot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "The Dungeons of the $(thing)Aether$() hold many valuables waiting to be claimed. Not all the chests that hold this bounty are friendly however - some bite back."
+        },
+        {
+            "type": "mob_drops",
+            "name": "Chest Mimic",
+            "mob": "aether_legacy:mimic",
+            "drop1": "minecraft:chest{display: {Lore: [\"Drop Chance: 65.2%\", \"Affected by Looting\", \"Unaffected by Cutting Skill\", \"Drops in a variety of wood types\"]}}",
+            "drop2": "minecraft:ender_chest{display: {Lore: [\"Drop Chance: 6.5%\", \"Affected by Looting\", \"Unaffected by Cutting Skill\"]}}",
+            "drop3": "metalchests:metal_chest:0{display: {Lore: [\"Drop Chance: 8.7%\", \"Affected by Looting\", \"Unaffected by Cutting Skill\"]}}",
+            "drop4": "metalchests:metal_chest:1{display: {Lore: [\"Drop Chance: 6.5%\", \"Affected by Looting\", \"Unaffected by Cutting Skill\"]}}",
+            "raredrop1": "metalchests:metal_chest:2{display: {Lore: [\"Drop Chance: 4.3%\", \"Affected by Looting\", \"Unaffected by Cutting Skill\"]}}",
+            "raredrop2": "metalchests:metal_chest:3{display: {Lore: [\"Drop Chance: 4.3%\", \"Affected by Looting\", \"Unaffected by Cutting Skill\"]}}",
+            "raredrop3": "metalchests:metal_chest:4{display: {Lore: [\"Drop Chance: 2.1%\", \"Affected by Looting\", \"Unaffected by Cutting Skill\"]}}",
+            "raredrop4": "metalchests:metal_chest:5{display: {Lore: [\"Drop Chance: 2.1%\", \"Affected by Looting\", \"Unaffected by Cutting Skill\"]}}"
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "dimension_dossier/aether",
+                "dimension_dossier/aether/bronze_dungeon",
+                "dimension_dossier/aether/silver_dungeon",
+                "dimension_dossier/aether/platinum_dungeon"
+            ]
+        }
+    ]
+}

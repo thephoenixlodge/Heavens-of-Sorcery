@@ -1,6 +1,6 @@
 {
     "name": "The Aether",
-    "icon": "aether_legacy:aether_grass",
+    "icon": "aether_legacy:aether_portal_frame",
     "category": "dimension_dossier",
     "advancement": "heavens:bookchap2/13raidloot",
     "sortnum": 4,
@@ -93,7 +93,9 @@
                 "collected_knowledge/mobs/zephyroo",
                 "collected_knowledge/mobs/aechor_plant",
                 "collected_knowledge/mobs/swet",
-                "collected_knowledge/mobs/zephyr"
+                "collected_knowledge/mobs/zephyr",
+                "collected_knowledge/mobs/cockatrice",
+                "collected_knowledge/mobs/moa"
             ]
         },
         {
@@ -106,7 +108,7 @@
                 "collected_knowledge/mobs/valkyrie_queen",
                 "collected_knowledge/mobs/sun_spirit",
                 "collected_knowledge/mobs/aerwhale_king",
-                "collected_knowledge/mobs/mimic"
+                "collected_knowledge/mobs/chest_mimic"
             ]
         },
         {
@@ -116,13 +118,16 @@
                 "dimension_dossier/aether/bronze_dungeon",
                 "dimension_dossier/aether/silver_dungeon",
                 "dimension_dossier/aether/gold_dungeon",
-                "dimension_dossier/aether/platinum_dungeon"
+                "dimension_dossier/aether/platinum_dungeon",
+                "dimension_dossier/aether/astral_ruins"
             ]
         },
         {
             "type": "relations",
             "title": "Key Materials",
             "entries": [
+                "dimension_dossier/aether/ores",
+                "dimension_dossier/aether/remedy"
             ]
         }
     ]

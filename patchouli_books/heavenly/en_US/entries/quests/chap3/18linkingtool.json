@@ -50,6 +50,12 @@
         {
             "type": "smelting",
             "recipe": "astralsorcery:blockcustomore:1"
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "dimension_dossier/aether/astral_ruins"
+            ]
         }
     ]
 }

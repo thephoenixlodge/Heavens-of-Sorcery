@@ -1,0 +1,39 @@
+{
+    "name": "Curing Poison",
+    "icon": "aether_legacy:skyroot_bucket:3",
+    "category": "dimension_dossier/aether",
+    "advancement": "heavens:bookchap2/13raidloot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Some of the creatures of the $(thing)Aether$(), namely $(thing)Aechor Plants$() and $(thing)Cockatrice$(), bear a dangerous, intoxicating poison which causes the sufferer to lose control of their own movements. There's a couple of ways to cure this if one so desires."
+        },
+        {
+            "type": "spotlight",
+            "title": "White Apples",
+            "item": "aether_legacy:white_apple",
+            "text": "Scattered around on small islands are blue-leaved $(item)Crystal Trees$(). These trees bear a fruit knwon as $(item)White Apples$(). These apples are one of the known cures for intoxicating poison. Unfortunately, the $(thing)Crystal Trees$() are difficult, if not outright impossible, to cultivate."
+        },
+        {
+            "type": "spotlight",
+            "title": "Collecting Poison",
+            "item": "aether_legacy:skyroot_bucket:2",
+            "text": "The other cure is made from the refining of the source of the poison itself. To start, you'll need to use a $(item)Skyroot Bucket$() to collect poison from an $(thing)Aechor Plant$()."
+        },
+        {
+            "type": "enchanter",
+            "heading": "Remedy Buckets",
+            "output": "aether_legacy:skyroot_bucket:3",
+            "input": "aether_legacy:skyroot_bucket:2",
+            "description": "The $(item)Poison Bucket$() can then be purified in an $(item)Enchantment Altar$() to produce the $(item)Remedy$()."
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "dimension_dossier/aether",
+                "collected_knowledge/mobs/cockatrice",
+                "collected_knowledge/mobs/aechor_plant"
+            ]
+        }
+    ]
+}

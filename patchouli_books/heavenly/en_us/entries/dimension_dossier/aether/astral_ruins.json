@@ -1,0 +1,42 @@
+{
+    "name": "Temple Ruins",
+    "icon": "astralsorcery:blockmarble",
+    "category": "dimension_dossier/aether",
+    "advancement": "heavens:bookchap2/13raidloot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Across the $(thing)Aether's$() larger islands, are a variety of structures made of $(item)Marble$(), now but a memory of past studies of the stars. The largest of these Shrines houses a $(item)Collector Crystal$(), capable of redirecting starlight when exposed to the sky.$(br2)These can also be tracked using the $(item)Sextant$()."
+        },
+        {
+            "type": "image",
+            "images": [
+                    "books:templates/astral_temple.png",
+                    "books:templates/astral_ruin.png",
+                    "books:templates/astral_fountain.png"
+                ],
+            "title": "Ruins in the Aether",
+            "border": "true"
+        },
+        {
+            "type": "loot",
+            "lootpool": "Ruins",
+            "item1": "astralsorcery:itemconstellationpaper",
+            "item2": "astralsorcery:itemcraftingcomponent",
+            "item3": "minecraft:bone",
+            "item4": "minecraft:gold_ingot",
+            "item5": "minecraft:iron_ingot",
+            "item6": "minecraft:diamond",
+            "item7": "minecraft:glowstone_dust",
+            "item8": "minecraft:emerald",
+            "item9": "minecraft:ender_pearl"
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "dimension_dossier/aether",
+                "useful_things/sextant"
+            ]
+        }
+    ]
+}

@@ -4,24 +4,261 @@
       "name": "chest",
       "entries": [
         {
-          "entryName": "minecraft:chest",
-          "weight": 1,
+          "entryName": "loottweaker#1",
+          "weight": 4,
           "quality": 0,
           "type": "item",
           "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            },
             {
               "count": {
                 "min": 0.0,
                 "max": 1.0
               },
+              "limit": 4,
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "metalchests:metal_chest"
+        },
+        {
+          "entryName": "loottweaker#5",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "limit": 4,
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "minecraft:ender_chest"
+        },
+        {
+          "entryName": "loottweaker#13",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "limit": 4,
+              "function": "minecraft:looting_enchant"
+            },
+            {
+              "data": 2.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "quark:custom_chest"
+        },
+        {
+          "entryName": "loottweaker#4",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "limit": 4,
               "function": "minecraft:looting_enchant"
             }
           ],
           "name": "minecraft:chest"
+        },
+        {
+          "entryName": "loottweaker#3",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "limit": 4,
+              "function": "minecraft:looting_enchant"
+            },
+            {
+              "data": 3.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "quark:custom_chest"
+        },
+        {
+          "entryName": "loottweaker#2",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "limit": 4,
+              "function": "minecraft:looting_enchant"
+            },
+            {
+              "data": 5.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "metalchests:metal_chest"
+        },
+        {
+          "entryName": "loottweaker#9",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "limit": 4,
+              "function": "minecraft:looting_enchant"
+            },
+            {
+              "data": 4.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "metalchests:metal_chest"
+        },
+        {
+          "entryName": "loottweaker#8",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "limit": 4,
+              "function": "minecraft:looting_enchant"
+            },
+            {
+              "data": 3.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "metalchests:metal_chest"
+        },
+        {
+          "entryName": "loottweaker#10",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "limit": 4,
+              "function": "minecraft:looting_enchant"
+            },
+            {
+              "data": 1.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "quark:custom_chest"
+        },
+        {
+          "entryName": "loottweaker#7",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "limit": 4,
+              "function": "minecraft:looting_enchant"
+            },
+            {
+              "data": 4.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "quark:custom_chest"
+        },
+        {
+          "entryName": "loottweaker#11",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "limit": 4,
+              "function": "minecraft:looting_enchant"
+            },
+            {
+              "data": 2.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "metalchests:metal_chest"
+        },
+        {
+          "entryName": "loottweaker#6",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "limit": 4,
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "quark:custom_chest"
+        },
+        {
+          "entryName": "loottweaker#12",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "limit": 4,
+              "function": "minecraft:looting_enchant"
+            },
+            {
+              "data": 1.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "metalchests:metal_chest"
         }
       ],
       "rolls": 1.0

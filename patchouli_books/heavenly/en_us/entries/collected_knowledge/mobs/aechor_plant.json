@@ -18,7 +18,8 @@
         {
             "type": "relations",
             "entries": [
-                "dimension_dossier/aether"
+                "dimension_dossier/aether",
+                "dimension_dossier/aether/remedy"
             ]
         }
     ]

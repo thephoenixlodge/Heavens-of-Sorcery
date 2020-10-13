@@ -1,0 +1,26 @@
+{
+    "name": "Cockatrice",
+    "icon": "minecraft:spawn_egg{EntityTag: {id: \"aether_legacy:cockatrice\"}}",
+    "category": "collected_knowledge/mobs",
+    "advancement": "heavens:bookchap2/13raidloot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Lurking in the shadows around the islands of the $(thing)Aether$(), $(thing)Cockatrice$() are a mutated, hostile cousin to the $(thing)Moa$(). From a distance, one may be easily confused for the other, but be wary, for $(thing)Cockatrice$() are known to spit intoxicating poison at whomever they decide looks like a nice lunch.$(br2)Killing a $(thing)Cockatrice$() grants 1 $(thing)Cutting$() experience."
+        },
+        {
+            "type": "mob_drops",
+            "name": "Cockatrice",
+            "mob": "aether_legacy:cockatrice",
+            "drop1": "minecraft:feather{display: {Lore: [\"Drops: 2-3\", \"Affected by Looting\", \"Affected by Cutting Skill\"]}}"
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "dimension_dossier/aether",
+                "collected_knowledge/mobs/moa",
+                "dimension_dossier/aether/remedy"
+            ]
+        }
+    ]
+}

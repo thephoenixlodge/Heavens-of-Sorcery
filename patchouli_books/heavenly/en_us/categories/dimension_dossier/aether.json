@@ -1,7 +1,7 @@
 {
 	"name": "Aether",
 	"description": "More details on the creatures, structures and resources of the Aether",
-	"icon": "aether_legacy:aether_grass",
+	"icon": "aether_legacy:aether_portal_frame",
 	"parent": "dimension_dossier",
 	"sortnum": 3
 }

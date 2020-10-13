@@ -1,6 +1,6 @@
 {
     "name": "Aerborn",
-    "icon": "aether_legacy:aether_grass",
+    "icon": "aether_legacy:aether_portal_frame",
     "category": "quests/chap2",
     "sortnum": 13,
     "advancement": "heavens:bookchap2/13raidloot",

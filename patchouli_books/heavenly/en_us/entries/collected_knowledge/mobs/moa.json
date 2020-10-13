@@ -1,0 +1,31 @@
+{
+    "name": "Moa",
+    "icon": "minecraft:spawn_egg{EntityTag: {id: \"aether_legacy:moa\"}}",
+    "category": "collected_knowledge/mobs",
+    "advancement": "heavens:bookchap2/13raidloot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Roaming the shadows around the islands of the $(thing)Aether$(), $(thing)Moa$() are large passive birds. Unlike their cousins, the $(thing)Cockatrice$(), there is nothing to fear from $(thing)Moa$(). If you're lucky enough to obtain a $(item)Moa Egg$(), you can hatch it in an $(item)Incubator$() to raise and saddle your own tame $(thing)Moa$() to ride. Baby $(thing)Moa$() growth can be accelerated with $(item)Aechor Petals$().$(br)Killing a $(thing)Moa$() grants 1 $(thing)Cutting$() experience."
+        },
+        {
+            "type": "mob_drops",
+            "name": "Moa",
+            "mob": "aether_legacy:moa",
+            "drop1": "minecraft:feather{display: {Lore: [\"Drops: 2-3\", \"Affected by Looting\", \"Affected by Cutting Skill\"]}}"
+        },
+        {
+            "type": "text",
+            "title": "Moa Colours",
+            "text": "$(thing)Moa$() can have a variety of colours to their plumage, and each colour reflects the abilities of them when tame. The most common is the $(thing)Blue Moa$(), which can jump 3 times in mid-air. Also quite common, the $(thing)Orange Moa$() can only jump twice in mid-air, but can run faster than other variants. $(thing)White Moa$() can jump 4 times in mid-air, as can $(thing)Brown Moa$(), though brown ones can jump much higher. The rarest is the $(thing)Black Moa$(), which can jump 8 times in mid-air."
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "dimension_dossier/aether",
+                "collected_knowledge/mobs/cockatrice",
+                "useful_things/incubator"
+            ]
+        }
+    ]
+}
