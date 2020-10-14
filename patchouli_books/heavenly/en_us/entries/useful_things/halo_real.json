@@ -1,0 +1,24 @@
+{
+    "name": "The REAL Halo",
+    "icon": "wizardry:halo_real",
+    "category": "useful_things",
+    "advancement": "heavens:bookchap2/13raidloot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "The $(item)Crude Halo$() was a good start to enabling some spell-slinging, but a more authentic $(item)Halo$() would avoid the need to keep directly injecting yourself with $(thing)Mana$(). Making such a $(item)Halo$() isn't the simplest of undertakings, but it will increase your capacity for $(item)Mana$(), as well as providing passive regeneration of it."
+        },
+        {
+            "type": "mana_world",
+            "output": "wizardry:halo_real",
+            "input": "wizardry:halo_fake",
+            "input2": "contenttweaker:angel_heart",
+            "input3": "aether_legacy:aercloud:2",
+            "input4": "wizardry:fairy_dust",
+            "input5": "wizardry:devil_dust",
+            "input6": "wizardry:unicorn_horn",
+            "heading": "Authentic Halo",
+            "description": "In world transmutation. Requires and consumes a pool of at least 25 block of $(item)Liquid Mana$()"
+        }
+    ]
+}
