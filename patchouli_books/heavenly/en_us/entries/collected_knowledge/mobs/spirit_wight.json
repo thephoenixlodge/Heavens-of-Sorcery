@@ -1,0 +1,23 @@
+{
+    "name": "Spirit Wight",
+    "icon": "minecraft:spawn_egg{EntityTag: {id: \"wizardry:spirit_wight\"}}",
+    "category": "collected_knowledge/mobs",
+    "advancement": "heavens:bookchap2/13raidloot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "The most dangerous denizen of the $(thing)Underworld$() is the vengeful spirit known as a $(thing)Spirit Wight$(). They may not seem like much at first, but they will relentlessly chase any who enter their domain. Furthermore, most blades cannot harm them, as they are only vulnerable to magic damage, such as is dealt by spells, or a $(item)Unicorn Horn Dagger$()."
+        },
+        {
+            "type": "mob_drops",
+            "name": "Spirit Wight",
+            "mob": "wizardry:spirit_wight"
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "dimension_dossier/underworld"
+            ]
+        }
+    ]
+}

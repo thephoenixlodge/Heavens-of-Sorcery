@@ -1,0 +1,25 @@
+{
+    "name": "Fairy",
+    "icon": "wizardry:fairy_wings",
+    "category": "collected_knowledge/mobs",
+    "advancement": "heavens:bookchap2/13raidloot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Throughout the $(thing)Underworld$(), many small lights can be seen, almost dancing. These lights are in fact the small fae known as $(thing)Fairies$(). Nimble though they are, slaying them will give yield their valuable $(item)Fairy Dust$().$(br2)Alternatively, one could catch them in an $(item)Empty Jar$() to use as a decorative light source."
+        },
+        {
+            "type": "mob_drops_image",
+            "name": "Fairy",
+            "mob": "books:templates/fairy.png",
+            "drop1": "wizardry:fairy_wings{display: {Lore: [\"Drops: 1\", \"Unaffected by Looting\", \"Unaffected by Cutting Skill\"]}}",
+            "drop2": "wizardry:fairy_dust{display: {Lore: [\"Drops: 1\", \"Unaffected by Looting\", \"Unaffected by Cutting Skill\"]}}"
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "dimension_dossier/underworld"
+            ]
+        }
+    ]
+}

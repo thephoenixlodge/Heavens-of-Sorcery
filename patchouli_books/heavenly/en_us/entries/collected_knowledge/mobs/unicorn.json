@@ -1,0 +1,25 @@
+{
+    "name": "Unicorn",
+    "icon": "minecraft:spawn_egg{EntityTag: {id: \"wizardry:unicorn\"}}",
+    "category": "collected_knowledge/mobs",
+    "advancement": "heavens:bookchap2/13raidloot",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Another denizen of the $(thing)Underworld$(), $(thing)Unicorns$() look like something straight out of a child's painting. However, this ridiculously bright and cheery demeanor is nought but a facade, hiding a cruel nature and a never-ending hunger for flesh."
+        },
+        {
+            "type": "mob_drops",
+            "name": "Unicorn",
+            "mob": "wizardry:unicorn",
+            "drop1": "minecraft:leather{display: {Lore: [\"Drops: 0-2\", \"Affected by Looting\", \"Unaffected by Cutting Skill\"]}}",
+            "drop2": "wizardry:unicorn_horn{display: {Lore: [\"Drop Chance: 12.5%\", \"Affected by Looting\", \"Unaffected by Cutting Skill\"]}}"
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "dimension_dossier/underworld"
+            ]
+        }
+    ]
+}

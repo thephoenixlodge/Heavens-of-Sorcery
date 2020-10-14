@@ -1,0 +1,46 @@
+{
+    "name": "The Underworld",
+    "icon": "wizardry:fairy_wings",
+    "category": "dimension_dossier",
+    "advancement": "heavens:bookchap2/13raidloot",
+    "sortnum": 5,
+    "pages": [
+        {
+            "type": "text",
+            "text": "A dark dimension full of lost spirits and fae, the $(thing)Underworld$() is not a required destination on this journey, but the creatures there may hold some useful materials to make your life easier. The portal to this plane is like stepping into a dream, sending you only one-way. To return, drop into the void."
+        },
+        {
+            "type": "location",
+            "icon": "books:templates/underworld_preview.png",
+            "heading": "The Underworld"
+        },
+        {
+            "type": "multiblock",
+            "name": "Underworld Portal",
+            "text": "Portal Frame can be various sizes (Frame size shown is the smallest allowed). Activate with an $(item)Otherworlds Core$().",
+            "multiblock": {
+                "pattern": [
+                    [ " OO ", "O0PO", "OPPO", " OO " ]
+                ],
+                "mapping": {
+                    " ": "ANY",
+                    "0": "AIR",
+                    "O": "wizardry:wisdom_wood_pigmented_planks",
+                    "P": "AIR"
+                },
+                "symmetrical": false,
+                "offset"     : [0, 0, 0],
+                "view_offset": [0, 0, 0]
+            }
+        },
+        {
+            "type": "relations",
+            "title": "Creatures",
+            "entries": [
+                "collected_knowledge/mobs/fairy",
+                "collected_knowledge/mobs/unicorn",
+                "collected_knowledge/mobs/spirit_wight"
+            ]
+        }
+    ]
+}
