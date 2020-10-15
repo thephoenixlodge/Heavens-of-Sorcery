@@ -1,0 +1,46 @@
+{
+    "name": "Dungeon Mimic",
+    "icon": "minecraft:spawn_egg{EntityTag: {id: \"artifacts:mimic\"}}",
+    "category": "collected_knowledge/mobs",
+    "advancement": "heavens:bookchap2/8pearl",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Oh, that's unfortunate. It seems some of the experiments we left in the $(thing)Dungeon Raid$() were \"successful\". Hopefully you don't mind if a chest tries to bite your hand off..."
+        },
+        {
+            "type": "mob_drops_large_mob",
+            "name": "Dungeon Mimic",
+            "mob": "artifacts:mimic"
+        },
+        {
+            "type": "loot",
+            "lootpool": "Mimic",
+            "item1": "artifacts:thorn_pendant",
+            "item2": "artifacts:power_glove",
+            "item3": "artifacts:cobalt_shield",
+            "item4": "artifacts:night_vision_goggles",
+            "item5": "artifacts:lucky_horseshoe",
+            "item6": "artifacts:snorkel",
+            "item7": "artifacts:flame_pendant",
+            "item8": "artifacts:star_cloak",
+            "item9": "artifacts:obsidian_skull",
+            "item10": "artifacts:magma_stone",
+            "item11": "artifacts:shiny_red_balloon",
+            "item12": "artifacts:bottled_cloud",
+            "item13": "artifacts:panic_necklace",
+            "item14": "artifacts:pocket_piston",
+            "item15": "artifacts:whoopie_cushion",
+            "item16": "artifacts:tiny_shirt",
+            "item17": "artifacts:feral_claws",
+            "item18": "artifacts:shock_pendant",
+            "item19": "artifacts:drinking_hat"
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "dimension_dossier/dungeon_raid"
+            ]
+        }
+    ]
+}

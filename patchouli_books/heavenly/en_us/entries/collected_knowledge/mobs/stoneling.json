@@ -1,0 +1,44 @@
+{
+    "name": "Stoneling",
+    "icon": "minecraft:spawn_egg{EntityTag: {id: \"quark:stoneling\"}}",
+    "category": "collected_knowledge/mobs",
+    "advancement": "heavens:bookchap2/8pearl",
+    "pages": [
+        {
+            "type": "text",
+            "text": "The other, smaller, type of golem found in the $(thing)Dungeon Raid$(), Stonelings were our workhorses, used to carry materials around for us. In the absence of their masters though, they've gone somewhat feral. Fear not though, as they are timid, and will simply flee you, unless you happen to be holding their favourite thing, which they may even allow you to exchange for whatever goodies they still carry."
+        },
+        {
+            "type": "mob_drops",
+            "name": "Stoneling",
+            "mob": "quark:stoneling",
+            "drop1": "quark:diamond_heart{display: {Lore: [\"Drop Chance: 20%\", \"Affected by Looting\", \"Unaffected by Cutting Skill\"]}}"
+        },
+        {
+            "type": "loot",
+            "lootpool": "Carrying",
+            "item1": "minecraft:diamond",
+            "item2": "minecraft:ender_pearl",
+            "item3": "minecraft:redstone",
+            "item4": "minecraft:gold_ingot",
+            "item5": "minecraft:iron_ingot",
+            "item6": "minecraft:emerald",
+            "item7": "minecraft:coal",
+            "item8": "minecraft:skull:2",
+            "item9": "minecraft:skull:4",
+            "item10": "minecraft:dye:4",
+            "item11": "minecraft:golden_apple",
+            "item12": "minecraft:saddle",
+            "item13": "minecraft:iron_horse_armor",
+            "item14": "minecraft:golden_horse_armor",
+            "item15": "minecraft:diamond_horse_armor",
+            "item16": "minecraft:name_tag"
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "dimension_dossier/dungeon_raid"
+            ]
+        }
+    ]
+}

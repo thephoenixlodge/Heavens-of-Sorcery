@@ -25,28 +25,10 @@
             "text": "If you find yourself as dead as my great-grandpa, you can recover your items by $(l:collected_knowledge/death#enchanted_key)Enchanting your Grave's Key$()."
         },
         {
-            "type": "loot",
-            "lootpool": "Raid",
-            "item1": "minecraft:gold_ingot",
-            "item2": "minecraft:iron_ingot",
-            "item3": "minecraft:diamond",
-            "item4": "arcaneworld:growth_powder",
-            "item5": "arcaneworld:sapphire",
-            "item6": "arcaneworld:amethyst",
-            "item7": "arcaneworld:ethereal_sword",
-            "item8": "contenttweaker:token_reforge",
-            "item9": "minecraft:redstone",
-            "item10": "minecraft:name_tag",
-            "item11": "minecraft:bucket",
-            "item12": "minecraft:chainmail_chestplate",
-            "item13": "minecraft:diamond_hoe",
-            "item14": "minecraft:diamond_chestplate",
-            "item15": "minecraft:enchanted_book",
-            "item16": "minecraft:bow",
-            "item17": "contenttweaker:angel_heart",
-            "item18": "contenttweaker:otherworlds_core",
-            "item19": "minecraft:elytra",
-            "description": "Some chests in the $(thing)Raid$() give general dungeon loot, some give these things"
+            "type": "relations",
+            "entries": [
+                "dimension_dossier/dungeon_raid"
+            ]
         }
     ]
 }

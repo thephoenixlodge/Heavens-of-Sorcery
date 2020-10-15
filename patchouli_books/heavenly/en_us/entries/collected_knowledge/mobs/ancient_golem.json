@@ -1,0 +1,26 @@
+{
+    "name": "Ancient Golem",
+    "icon": "minecraft:spawn_egg{EntityTag: {id: \"embers:ancient_golem\"}}",
+    "category": "collected_knowledge/mobs",
+    "advancement": "heavens:bookchap2/8pearl",
+    "pages": [
+        {
+            "type": "text",
+            "text": "The $(thing)Ancient Golems$() are why we had to abandon the workshop that became the $(thing)Dungeon Raid$(). Though their numbers are limited in each section of the workshop, we made the fatal mistake of teaching these combative golems how to build more of their kind. The heated blasts of $(thing)Activated Ember$() they shoot can be particularly painful, so some sort of $(thing)Fire Resistance$() may be useful."
+        },
+        {
+            "type": "mob_drops",
+            "name": "Ancient Golem",
+            "mob": "embers:ancient_golem",
+            "drop1": "embers:archaic_brick{display: {Lore: [\"Drops: 4-11\", \"Unaffected by Looting\", \"Unaffected by Cutting Skill\"]}}",
+            "drop2": "embers:ancient_motive_core{display: {Lore: [\"Drops: 1\", \"Unaffected by Looting\", \"Unaffected by Cutting Skill\"]}}",
+            "drop3": "embers:golems_eye{display: {Lore: [\"Drops: 1\", \"Requires being killed with a Pickaxe\"]}}"
+        },
+        {
+            "type": "relations",
+            "entries": [
+                "dimension_dossier/dungeon_raid"
+            ]
+        }
+    ]
+}
