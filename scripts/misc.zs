@@ -370,6 +370,10 @@ val kathDoors = {
 	<kathairis:soulplanks> : <kathairis:soul_wood_door_item>,
 	<kathairis:shinyplanks> : <kathairis:shiny_wood_door_item>
 } as IItemStack[IItemStack];
+val seedOak = <dynamictrees:oakseed>;
+val seedSpruce = <dynamictrees:spruceseed>;
+val seedSwamp = <dynamictreesquark:swampoakseed>;
+val seedBlossom = <dynamictreesquark:blossomingseed>;
 
 //tweak clay tile related recipes
 recipes.remove(terracottaShingle);
@@ -580,3 +584,7 @@ recipes.removeByRecipeName("kathairis:mystic wood door");
 for planks, door in kathDoors {
 	recipes.addShaped(door * 3, [[planks, planks], [planks, planks], [planks, planks]]);
 }
+
+//quark trees
+ManaInfusion.addInfusion(seedBlossom, seedSpruce, 1000);
+ManaInfusion.addInfusion(seedSwamp, seedOak, 1000);
