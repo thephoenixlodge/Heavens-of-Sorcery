@@ -1,7 +1,7 @@
 {
 	"sub_module_id": "effect_leech",
 	"reference_module_id": "effect_leech",
-	"item": "minecraft:lead",
+	"item": "wizardry:syringe",
 	"primary_color": "00ffff",
 	"secondary_color": "00ff61",
 	"mana": { "min": 17	},
