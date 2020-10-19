@@ -90,7 +90,7 @@ recipes.addShapeless("enchant_graves_key", gravesKey.withTag({enchant: 1}), [gra
 		potentPurity = true;
 	}
 	var testEnchanted = false;
-	if (keyTag.memberGet("enchant") == 1){
+	if (!isNull(keyTag.memberGet("enchant")) && keyTag.memberGet("enchant") == 1){
 		testEnchanted = true;
 	}
 	if (potentPurity & !testEnchanted){
