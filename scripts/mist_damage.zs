@@ -25,7 +25,7 @@ events.onEntityLivingAttacked(function(event as EntityLivingAttackedEvent){
 
 events.onEntityLivingDeathDrops(function(dropsEvent as EntityLivingDeathDropsEvent){
 	val wisp = <entity:thaumcraft:wisp> as IEntityDefinition;
-	if(dropsEvent.entity.definition.id == wisp.id){
+	if(!isNull(dropsEvent.entity.definition) && dropsEvent.entity.definition.id == wisp.id){
 		dropsEvent.cancel();
 	}
 });
