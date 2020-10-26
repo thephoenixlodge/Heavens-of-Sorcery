@@ -6,7 +6,7 @@
     "pages": [
         {
             "type": "text",
-            "text": "The $(thing)Sun Spirit$() lurks within his $(thing)Gold Dungeon$() in the $(thing)Aether$(). Typically stoic, he will only choose to fight those who truly pester him by repeatedly talking to him. If one does find themself in battle with him, they will quickly discover he cannot be harmed by most means. The only to hurt the $(thing)Sun Spirit$() is by deflecting his $(thing)Ice Balls$() such that they hit him, causing weakened parts of his spirit to split off."
+            "text": "The $(thing)Sun Spirit$() lurks within his $(thing)Gold Dungeon$() in the $(thing)Aether$(). Typically stoic, he will only choose to fight those who truly pester him by repeatedly talking to him. If one does find themself in battle with him, they will quickly discover he cannot be harmed by most means. The only way to hurt the $(thing)Sun Spirit$() is by deflecting his $(thing)Ice Balls$() such that they hit him, causing weakened parts of his spirit to split off."
         },
         {
             "type": "mob_drops_large_mob",
