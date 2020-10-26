@@ -95,6 +95,29 @@ val poolAetherMimic = tableAetherMimic.getPool("chest");
 val tableArtifactMimic = LootTweaker.getTable("artifacts:mimic_underground");
 val poolArtifactMimic = tableArtifactMimic.getPool("main");
 
+val tableCavePot = LootTweaker.getTable("thebetweenlands:loot/cave_pot");
+val poolCavePot = tableCavePot.getPool("cave_pot");
+val tableCommonPot = LootTweaker.getTable("thebetweenlands:loot/common_pot_loot");
+val poolCommonPot = tableCommonPot.getPool("common_pot");
+val tableCragrockTowerPot = LootTweaker.getTable("thebetweenlands:loot/cragrock_tower_pot");
+val poolCragrockTowerPot = tableCragrockTowerPot.getPool("pot_loot");
+val tableDungeonPot = LootTweaker.getTable("thebetweenlands:loot/dungeon_pot_loot");
+val poolDungeonPot = tableDungeonPot.getPool("dungeon_pot");
+val tableMarshRuinsPot = LootTweaker.getTable("thebetweenlands:loot/marsh_ruins_pot");
+val poolMarshRuinsPot = tableMarshRuinsPot.getPool("marsh_ruins_pot");
+val tableSludgePlainsRuinsUrn = LootTweaker.getTable("thebetweenlands:loot/sludge_plains_ruins_urn");
+val poolSludgePlainsRuinsUrn = tableSludgePlainsRuinsUrn.getPool("sludge_plains_ruins_urn");
+val tableSludgeWormDungeonCryptUrn = LootTweaker.getTable("thebetweenlands:loot/sludge_worm_dungeon_crypt_urn");
+val poolSludgeWormDungeonCryptUrn = tableSludgeWormDungeonCryptUrn.getPool("urn_loot");
+val tableSludgeWormDungeonUrn = LootTweaker.getTable("thebetweenlands:loot/sludge_worm_dungeon_urn");
+val poolSludgeWormDungeonUrn = tableSludgeWormDungeonUrn.getPool("urn_loot");
+val tableTarPoolPot = LootTweaker.getTable("thebetweenlands:loot/tar_pool_pot");
+val poolTarPoolPot = tableTarPoolPot.getPool("tar_pool_pot");
+val tableUndergroundRuinsPot = LootTweaker.getTable("thebetweenlands:loot/underground_ruins_pot");
+val poolUndergroundRuinsPot = tableUndergroundRuinsPot.getPool("underground_ruins_pot");
+val tableWightFortressPot = LootTweaker.getTable("thebetweenlands:loot/wight_fortress_pot");
+val poolWightFortressPot = tableWightFortressPot.getPool("pot_loot");
+
 //items
 val extrasSimpleMap = {
 	<dynamictrees:oakseed> : 10,
@@ -260,6 +283,14 @@ val chests = {
 } as int[IItemStack];
 val snorkel = <artifacts:snorkel>;
 val drinkingHat = <artifacts:drinking_hat>;
+val curiosityArcane = <thaumcraft:curio:0>;
+val curiosityPreserved = <thaumcraft:curio:1>;
+val curiosityAncient = <thaumcraft:curio:2>;
+val curiosityEldritch = <thaumcraft:curio:3>;
+val curiosityIlluminating = <thaumcraft:curio:4>;
+val curiosityTwisted = <thaumcraft:curio:5>;
+val amber = <thaumcraft:amber>;
+val quicksilverDrop = <thaumcraft:nugget:5>;
 
 //Add angel hearts to the pool
 poolRaid.addItemEntry(angelHeart, 6);
@@ -414,3 +445,64 @@ for chest, weight in chests {
 //add snorkel and drinking hat to mimic drops
 poolArtifactMimic.addItemEntryHelper(snorkel, 2, 0, [], []);
 poolArtifactMimic.addItemEntryHelper(drinkingHat, 2, 0, [], []);
+
+
+//TC stuff in urns/pots
+poolCavePot.addItemEntryHelper(curiosityPreserved, 20, 0, [], []);
+poolCavePot.addItemEntryHelper(curiosityArcane, 20, 0, [], []);
+poolCavePot.addItemEntryHelper(curiosityAncient, 10, 0, [], []);
+poolCavePot.addItemEntryHelper(curiosityIlluminating, 10, 0, [], []);
+poolCavePot.addItemEntryHelper(amber, 20, 0, [], []);
+poolCavePot.addItemEntryHelper(quicksilverDrop, 30, 0, [Functions.setCount(1, 3)], []);
+poolCommonPot.addItemEntryHelper(curiosityPreserved, 15, 0, [], []);
+poolCommonPot.addItemEntryHelper(curiosityArcane, 15, 0, [], []);
+poolCommonPot.addItemEntryHelper(amber, 15, 0, [], []);
+poolCommonPot.addItemEntryHelper(quicksilverDrop, 20, 0, [Functions.setCount(1, 3)], []);
+poolCragrockTowerPot.addItemEntryHelper(curiosityEldritch, 20, 0, [], []);
+poolCragrockTowerPot.addItemEntryHelper(curiosityArcane, 20, 0, [], []);
+poolCragrockTowerPot.addItemEntryHelper(curiosityAncient, 10, 0, [], []);
+poolCragrockTowerPot.addItemEntryHelper(curiosityIlluminating, 10, 0, [], []);
+poolCragrockTowerPot.addItemEntryHelper(amber, 20, 0, [], []);
+poolCragrockTowerPot.addItemEntryHelper(quicksilverDrop, 20, 0, [Functions.setCount(1, 3)], []);
+poolDungeonPot.addItemEntryHelper(curiosityPreserved, 20, 0, [], []);
+poolDungeonPot.addItemEntryHelper(curiosityArcane, 20, 0, [], []);
+poolDungeonPot.addItemEntryHelper(curiosityAncient, 10, 0, [], []);
+poolDungeonPot.addItemEntryHelper(curiosityIlluminating, 10, 0, [], []);
+poolDungeonPot.addItemEntryHelper(curiosityTwisted, 10, 0, [], []);
+poolDungeonPot.addItemEntryHelper(amber, 20, 0, [], []);
+poolDungeonPot.addItemEntryHelper(quicksilverDrop, 30, 0, [Functions.setCount(1, 3)], []);
+poolMarshRuinsPot.addItemEntryHelper(curiosityPreserved, 20, 0, [], []);
+poolMarshRuinsPot.addItemEntryHelper(curiosityAncient, 10, 0, [], []);
+poolMarshRuinsPot.addItemEntryHelper(amber, 20, 0, [Functions.setCount(1, 3)], []);
+poolSludgePlainsRuinsUrn.addItemEntryHelper(curiosityPreserved, 20, 0, [], []);
+poolSludgePlainsRuinsUrn.addItemEntryHelper(curiosityTwisted, 20, 0, [], []);
+poolSludgePlainsRuinsUrn.addItemEntryHelper(curiosityEldritch, 10, 0, [], []);
+poolSludgePlainsRuinsUrn.addItemEntryHelper(quicksilverDrop, 30, 0, [Functions.setCount(1, 3)], []);
+poolSludgeWormDungeonCryptUrn.addItemEntryHelper(curiosityEldritch, 20, 0, [], []);
+poolSludgeWormDungeonCryptUrn.addItemEntryHelper(curiosityArcane, 20, 0, [], []);
+poolSludgeWormDungeonCryptUrn.addItemEntryHelper(curiosityAncient, 10, 0, [], []);
+poolSludgeWormDungeonCryptUrn.addItemEntryHelper(curiosityTwisted, 10, 0, [], []);
+poolSludgeWormDungeonCryptUrn.addItemEntryHelper(amber, 20, 0, [], []);
+poolSludgeWormDungeonCryptUrn.addItemEntryHelper(quicksilverDrop, 30, 0, [Functions.setCount(1, 3)], []);
+poolSludgeWormDungeonUrn.addItemEntryHelper(curiosityTwisted, 20, 0, [], []);
+poolSludgeWormDungeonUrn.addItemEntryHelper(curiosityArcane, 20, 0, [], []);
+poolSludgeWormDungeonUrn.addItemEntryHelper(curiosityEldritch, 10, 0, [], []);
+poolSludgeWormDungeonUrn.addItemEntryHelper(curiosityIlluminating, 10, 0, [], []);
+poolSludgeWormDungeonUrn.addItemEntryHelper(amber, 20, 0, [Functions.setCount(1, 3)], []);
+poolSludgeWormDungeonUrn.addItemEntryHelper(quicksilverDrop, 30, 0, [Functions.setCount(1, 3)], []);
+poolTarPoolPot.addItemEntryHelper(curiosityPreserved, 35, 0, [], []);
+poolTarPoolPot.addItemEntryHelper(curiosityEldritch, 35, 0, [], []);
+poolTarPoolPot.addItemEntryHelper(curiosityTwisted, 20, 0, [], []);
+poolUndergroundRuinsPot.addItemEntryHelper(curiosityPreserved, 20, 0, [], []);
+poolUndergroundRuinsPot.addItemEntryHelper(curiosityArcane, 30, 0, [], []);
+poolUndergroundRuinsPot.addItemEntryHelper(curiosityAncient, 20, 0, [], []);
+poolUndergroundRuinsPot.addItemEntryHelper(curiosityIlluminating, 10, 0, [], []);
+poolUndergroundRuinsPot.addItemEntryHelper(amber, 20, 0, [], []);
+poolUndergroundRuinsPot.addItemEntryHelper(quicksilverDrop, 30, 0, [Functions.setCount(1, 3)], []);
+poolWightFortressPot.addItemEntryHelper(curiosityEldritch, 40, 0, [], []);
+poolWightFortressPot.addItemEntryHelper(curiosityArcane, 20, 0, [], []);
+poolWightFortressPot.addItemEntryHelper(curiosityAncient, 10, 0, [], []);
+poolWightFortressPot.addItemEntryHelper(curiosityIlluminating, 10, 0, [], []);
+poolWightFortressPot.addItemEntryHelper(curiosityTwisted, 10, 0, [], []);
+poolWightFortressPot.addItemEntryHelper(amber, 30, 0, [Functions.setCount(1, 3)], []);
+poolWightFortressPot.addItemEntryHelper(quicksilverDrop, 30, 0, [Functions.setCount(1, 3)], []);
