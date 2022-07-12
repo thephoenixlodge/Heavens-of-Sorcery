@@ -540,7 +540,7 @@ recipes.remove(reforgingStation);
 recipes.addShaped(reforgingStation, [[reforgingToken, reforgingToken], [polishedStone, hammerIron], [obsidian, anvil]]);
 
 //crush those fairy wings
-Mortar.addRecipe(fairyDust, [fairyWings]);
+Mortar.addRecipe("fairy_dust", fairyDust, [fairyWings]);
 Grindstone.addRecipe(fairyWings, fairyDust, 0.1f);
 
 //otherworlds core to reforging token

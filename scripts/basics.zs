@@ -202,7 +202,7 @@ recipes.remove(pestle);
 recipes.addShaped(pestle, [[null, null, diorite], [andesite, andesite, null], [andesite, andesite, null]]);
 
 //Growth Powder
-Mortar.addRecipe(pastureSeed, [pastureSeedAny]);
+Mortar.addRecipe("pasture_seeds", pastureSeed, [pastureSeedAny]);
 
 //Meecreep box
 recipes.remove(meecreepBox);
@@ -291,7 +291,7 @@ furnace.addRecipe(ingotCopper, dustCopper, 0.1);
 furnace.addRecipe(ingotSilver, dustSilver, 0.1);
 
 //flour alt recipe
-Mortar.addRecipe(flour, [wheat]);
+Mortar.addRecipe("flour", flour, [wheat]);
 
 //alt way for dough
 CauldronCrafting.addFluidRecipe(dough, flour, water, 1);

@@ -1,4 +1,4 @@
-setIcon(<roots:imbuer>)
+setIcon(<roots:pyre>)
 
 setTitle("Gather 'Round the Fire")
 
@@ -11,7 +11,7 @@ setRequiresParents()
 setPos(160,-40)
 
 criteria1 = addCriteria("hasItemsFurnace", "minecraft:inventory_changed")
-criteria1.addItem(<roots:imbuer, count:1~>)
+criteria1.addItem(<roots:pyre, count:1~>)
 criteria2 = addCriteria("hasItemsImbuer", "minecraft:inventory_changed")
 criteria2.addItem(<roots:imbuer, count:1>)
 

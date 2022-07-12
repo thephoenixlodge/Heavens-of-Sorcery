@@ -8,7 +8,7 @@ import mods.roots.Pyre;
 import crafttweaker.item.IItemStack;
 
 //variables
-val pyre = <roots:bonfire>;
+val pyre = <roots:pyre>;
 val infusedRock = <naturesaura:infused_stone>;
 val tokenJoy = <naturesaura:token_joy>;
 val tokenSorrow = <naturesaura:token_sorrow>;
