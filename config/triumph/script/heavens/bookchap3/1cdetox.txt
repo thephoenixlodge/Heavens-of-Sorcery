@@ -24,5 +24,7 @@ criteria5 = addCriteria("hasNightberry", "minecraft:consume_item")
 criteria5.setItem(<mist:nightberry, count:1~>)
 criteria6 = addCriteria("hasSwimBladder", "minecraft:consume_item")
 criteria6.setItem(<mist:swim_bladder, count:1~>)
+criteria7 = addCriteria("hasBitterPills", "minecraft:consume_item")
+criteria7.setItem(<mist:pills_bitter, count:1~>)
 
 addRewardItem(<mist:tree_seed, meta:9, count:10>)

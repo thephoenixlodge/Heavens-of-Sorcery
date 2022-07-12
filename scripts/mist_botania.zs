@@ -16,6 +16,7 @@ import mods.astralsorcery.LightTransmutation;
 import mods.aether_legacy.Freezer;
 import mods.ArcaneWorld;
 import mods.roots.Fey;
+import mods.roots.Mortar;
 
 ////Variables
 var oreMistyWoods = <ore:mistyWood>;
@@ -225,6 +226,17 @@ val rubberLeggings = <mist:rubber_leggings>;
 val rubberBoots = <mist:rubber_boots>;
 val glassContainer = <mist:glass_container>;
 val glassBottle = <minecraft:glass_bottle>;
+val bitterPills = <mist:pills_bitter>;
+val remains = <mist:remains>;
+val detoxicants = [
+	<mist:swim_bladder>,
+	<mist:tinder_fungus>,
+	<mist:nightberry>,
+	<mist:tree_seed:9>,
+	<mist:mushrooms_food:23>,
+	<mist:mushrooms_food:21>
+] as IItemStack[];
+val oreDetox = <ore:detox>;
 
 //Oredict all Misty World logs
 for type, wood in mistyWoods {
@@ -462,3 +474,8 @@ recipes.addShapeless(latexPot, [flowerPot, itemString, itemString, plateIron]);
 //glass container recipe to BL rubber
 recipes.remove(glassContainer);
 recipes.addShaped(glassContainer, [[rubber], [glassBottle]]);
+
+for i in detoxicants {
+	oreDetox.add(i);
+}
+Mortar.addRecipe("bitter_pills", bitterPills * 3, [remains, remains, remains, remains, oreDetox]);

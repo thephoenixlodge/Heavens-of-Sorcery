@@ -20,7 +20,17 @@
             "item4": "mist:tree_seed:9",
             "item5": "mist:nightberry",
             "item6": "mist:swim_bladder",
+            "item7": "mist:pills_bitter",
             "reward1": "mist:tree_seed:9#10"
+        },
+        {
+            "type": "spotlight",
+            "item": "mist:pills_bitter",
+            "text": "$(item)Bitter Pills$() are the most potent detoxicant, removing a full 10% toxicity. They can be found in the $(thing)Ruins$() of the $(thing)Misty World$() or crafted in a Mortar."
+        },
+        {
+            "type": "mortar_template",
+            "recipe": "bitter_pills"
         },
         {
             "type": "spotlight",
