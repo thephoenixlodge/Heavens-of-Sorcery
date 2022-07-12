@@ -352,6 +352,7 @@ val doNotAddRepairRecipe = [
 	<arcane_essentials:master_necromancy_sword>,
 	<astralsorcery:iteminfusedglass>,
 	<botania:manamirror:*>,
+	<botania:spellcloth:*>,
 	<thaumcraft:scribing_tools>,
 	<arcaneworld:biome_crystal>,
 	<thaumcraft:primordial_pearl>,
