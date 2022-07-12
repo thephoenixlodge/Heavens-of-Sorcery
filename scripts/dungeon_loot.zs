@@ -30,7 +30,8 @@ val poolsToRemove = [
 	"rat_upgrade_basic",
 	"token_fragment",
 	"rats:contaminated_food",
-	"magicalsculpture_simple_dungeon"
+	"magicalsculpture_simple_dungeon",
+	"tombstone:chest_treasure"
 ] as string[];
 val poolExtra = tableSimpleDungeon.addPool("hos_early_loot", 1, 3, 1, 1);
 val poolRare = tableSimpleDungeon.addPool("hos_early_rare_loot", 0, 2, 0, 0);
@@ -52,8 +53,8 @@ val netherPoolsToRemove = [
 	//"custom_avatar_loot_pools_4",
 	"bewitchment_nether_materials_pool",
 	"bewitchment_materials_pool",
-	"magicalsculpture_nether_bridge"
-	//"chest_treasure"
+	"magicalsculpture_nether_bridge",
+	"tombstone:chest_treasure"
 ] as string[];
 val poolNetherExtra = tableNetherFortress.addPool("hos_nether_loot", 2, 7, 1, 1);
 val poolNetherRare = tableNetherFortress.addPool("hos_nether_rare_loot", 1, 2, 0, 0);
