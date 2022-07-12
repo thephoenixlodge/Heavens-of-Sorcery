@@ -8,6 +8,15 @@
           "weight": 1,
           "quality": 0,
           "type": "item",
+          "functions": [
+            {
+              "data": 3.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "function": "tombstone:as_gift"
+            }
+          ],
           "name": "tombstone:crafting_ingredient"
         }
       ],

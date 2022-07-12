@@ -1,8 +1,0 @@
-{
-  "parent": "roots:root",
-  "criteria": {
-    "book": {
-      "trigger": "roots:pacifist"
-    }
-  }
-}

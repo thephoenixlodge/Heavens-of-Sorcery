@@ -1,0 +1,17 @@
+{
+  "pools": [
+    {
+      "name": "silt_crab_trim_3",
+      "entries": [
+        {
+          "entryName": "thebetweenlands:silt_crab_claw",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:silt_crab_claw"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

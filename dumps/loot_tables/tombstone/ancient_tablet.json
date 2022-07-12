@@ -12,6 +12,9 @@
             {
               "tag": "{ancient:1b}",
               "function": "minecraft:set_nbt"
+            },
+            {
+              "function": "tombstone:as_gift"
             }
           ],
           "name": "tombstone:tablet_of_recall"
@@ -25,9 +28,44 @@
             {
               "tag": "{ancient:1b}",
               "function": "minecraft:set_nbt"
+            },
+            {
+              "function": "tombstone:as_gift"
             }
           ],
           "name": "tombstone:tablet_of_home"
+        },
+        {
+          "entryName": "tombstone:tablet_of_assistance",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{ancient:1b}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "function": "tombstone:as_gift"
+            }
+          ],
+          "name": "tombstone:tablet_of_assistance"
+        },
+        {
+          "entryName": "tombstone:tablet_of_cupidity",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{ancient:1b}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "function": "tombstone:as_gift"
+            }
+          ],
+          "name": "tombstone:tablet_of_cupidity"
         }
       ],
       "rolls": 1.0

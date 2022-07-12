@@ -62,7 +62,10 @@
                 3,
                 8,
                 10,
-                11
+                11,
+                12,
+                13,
+                14
               ],
               "function": "mist:set_array_data"
             }
@@ -71,7 +74,7 @@
         },
         {
           "entryName": "empty",
-          "weight": 3,
+          "weight": 2,
           "quality": 0,
           "type": "empty"
         }

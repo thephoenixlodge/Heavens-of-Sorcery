@@ -1,7 +1,0 @@
-{
-    "criteria": {
-        "auto": {
-            "trigger": "minecraft:location"
-        }
-    }
-}

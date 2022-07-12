@@ -1,0 +1,55 @@
+{
+  "pools": [
+    {
+      "name": "loot_bag",
+      "entries": [
+        {
+          "entryName": "thaumcraft:loot_bag",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 1.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thaumcraft:loot_bag"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "primordial_pearl",
+      "entries": [
+        {
+          "entryName": "pearl_very_damaged",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": 0.125,
+              "function": "minecraft:set_damage"
+            }
+          ],
+          "name": "thaumcraft:primordial_pearl"
+        },
+        {
+          "entryName": "pearl_damaged",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": 0.25,
+              "function": "minecraft:set_damage"
+            }
+          ],
+          "name": "thaumcraft:primordial_pearl"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

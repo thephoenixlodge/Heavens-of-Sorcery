@@ -1,0 +1,347 @@
+{
+  "pools": [
+    {
+      "name": "wizardry",
+      "entries": [
+        {
+          "entryName": "ebwizardry:subsets/arcane_tomes",
+          "weight": 2,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "ebwizardry:subsets/arcane_tomes"
+        },
+        {
+          "entryName": "ebwizardry:subsets/wand_upgrades",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "ebwizardry:subsets/wand_upgrades"
+        },
+        {
+          "entryName": "ebwizardry:spell_book",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "ignore_weighting": false,
+              "undiscovered_bias": 0.3,
+              "function": "ebwizardry:random_spell"
+            }
+          ],
+          "name": "ebwizardry:spell_book"
+        },
+        {
+          "entryName": "ebwizardry:ruined_spell_book",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "ebwizardry:ruined_spell_book"
+        },
+        {
+          "entryName": "ebwizardry:scroll",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "ignore_weighting": false,
+              "undiscovered_bias": 0.3,
+              "function": "ebwizardry:random_spell"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "ebwizardry:scroll"
+        },
+        {
+          "entryName": "ebwizardry:identification_scroll",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "name": "ebwizardry:identification_scroll"
+        }
+      ],
+      "rolls": {
+        "min": 0.0,
+        "max": 2.0
+      },
+      "conditions": [
+        {
+          "chance": 0.6,
+          "condition": "minecraft:random_chance"
+        }
+      ]
+    },
+    {
+      "name": "tombstone:chest_treasure",
+      "entries": [
+        {
+          "entryName": "tombstone:crafting_ingredient_loot",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 4.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "tombstone:crafting_ingredient"
+        },
+        {
+          "entryName": "tombstone:scroll_buff_loot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{enchant:1b}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "data": 0.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "tombstone:scroll_buff"
+        },
+        {
+          "entryName": "tombstone:scroll_buff_loot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{enchant:1b}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "data": 1.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "tombstone:scroll_buff"
+        },
+        {
+          "entryName": "tombstone:scroll_buff_loot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{enchant:1b}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "data": 2.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "tombstone:scroll_buff"
+        },
+        {
+          "entryName": "tombstone:scroll_buff_loot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{enchant:1b}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "data": 3.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "tombstone:scroll_buff"
+        },
+        {
+          "entryName": "tombstone:scroll_buff_loot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{enchant:1b}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "data": 4.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "tombstone:scroll_buff"
+        },
+        {
+          "entryName": "tombstone:scroll_buff_loot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{enchant:1b}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "data": 5.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "tombstone:scroll_buff"
+        },
+        {
+          "entryName": "tombstone:scroll_buff_loot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{enchant:1b}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "data": 6.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "tombstone:scroll_buff"
+        },
+        {
+          "entryName": "tombstone:scroll_buff_loot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{enchant:1b}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "data": 7.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "tombstone:scroll_buff"
+        },
+        {
+          "entryName": "tombstone:scroll_buff_loot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{enchant:1b}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "data": 8.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "tombstone:scroll_buff"
+        },
+        {
+          "entryName": "tombstone:scroll_of_knowledge_loot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "function": "tombstone:delayed_nbt_loot"
+            }
+          ],
+          "name": "tombstone:scroll_of_knowledge"
+        },
+        {
+          "entryName": "tombstone:tablet_of_cupidity_loot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{enchant:1b}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "tombstone:tablet_of_cupidity"
+        },
+        {
+          "entryName": "tombstone:tablet_of_home_loot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{enchant:1b}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "tombstone:tablet_of_home"
+        },
+        {
+          "entryName": "tombstone:tablet_of_assistance_loot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{enchant:1b}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "tombstone:tablet_of_assistance"
+        },
+        {
+          "entryName": "tombstone:voodoo_poppet_loot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "function": "tombstone:delayed_nbt_loot"
+            }
+          ],
+          "name": "tombstone:voodoo_poppet"
+        },
+        {
+          "entryName": "tombstone:familiar_receptacle_loot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "function": "tombstone:delayed_nbt_loot"
+            }
+          ],
+          "name": "tombstone:familiar_receptacle"
+        },
+        {
+          "entryName": "tombstone:fishing_rod_of_misadventure_loot",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "function": "tombstone:delayed_nbt_loot"
+            }
+          ],
+          "name": "tombstone:fishing_rod_of_misadventure"
+        },
+        {
+          "entryName": "tombstone:empty",
+          "weight": 844,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

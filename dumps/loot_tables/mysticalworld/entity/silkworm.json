@@ -1,26 +1,3 @@
 {
-  "pools": [
-    {
-      "name": "main",
-      "entries": [
-        {
-          "entryName": "mysticalworld:silkworm_egg",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 0.0,
-                "max": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "mysticalworld:silkworm_egg"
-        }
-      ],
-      "rolls": 1.0
-    }
-  ]
+  "pools": []
 }

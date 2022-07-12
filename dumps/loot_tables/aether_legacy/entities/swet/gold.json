@@ -1,0 +1,17 @@
+{
+  "pools": [
+    {
+      "name": "swet_gold",
+      "entries": [
+        {
+          "entryName": "minecraft:glowstone",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:glowstone"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

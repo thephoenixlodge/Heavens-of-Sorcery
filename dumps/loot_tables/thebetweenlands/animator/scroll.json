@@ -97,7 +97,7 @@
         },
         {
           "entryName": "amulet_socket",
-          "weight": 16,
+          "weight": 10,
           "quality": 0,
           "type": "item",
           "functions": [
@@ -141,6 +141,20 @@
           "quality": 0,
           "type": "loot_table",
           "name": "thebetweenlands:loot/music_disc"
+        },
+        {
+          "entryName": "thebetweenlands:shadow_staff",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:shadow_staff"
+        },
+        {
+          "entryName": "thebetweenlands:mist_staff",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:mist_staff"
         }
       ],
       "rolls": 1.0

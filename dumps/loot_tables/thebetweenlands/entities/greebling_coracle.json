@@ -1,0 +1,282 @@
+{
+  "pools": [
+    {
+      "name": "greebling_coracle",
+      "entries": [
+        {
+          "entryName": "thebetweenlands:anadia_meat_raw",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:anadia_meat_raw"
+        },
+        {
+          "entryName": "thebetweenlands:tiny_sludge_worm",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:tiny_sludge_worm"
+        },
+        {
+          "entryName": "anadia_bones",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 55.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thebetweenlands:items_misc"
+        },
+        {
+          "entryName": "anadia_remains",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 56.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thebetweenlands:items_misc"
+        },
+        {
+          "entryName": "anadia_normal",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "function": "thebetweenlands:set_anadia_properties"
+            }
+          ],
+          "name": "thebetweenlands:anadia"
+        },
+        {
+          "entryName": "anadia_rotten",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "function": "thebetweenlands:set_anadia_properties"
+            }
+          ],
+          "name": "thebetweenlands:anadia"
+        },
+        {
+          "entryName": "anadia_treasure",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "function": "thebetweenlands:set_anadia_properties"
+            }
+          ],
+          "name": "thebetweenlands:anadia"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "greebling_coracle_junk",
+      "entries": [
+        {
+          "entryName": "angler_tooth",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 21.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thebetweenlands:items_misc"
+        },
+        {
+          "entryName": "lurker_skin",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 4.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thebetweenlands:items_misc"
+        },
+        {
+          "entryName": "thebetweenlands:swamp_kelp_item",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "thebetweenlands:swamp_kelp_item"
+        },
+        {
+          "entryName": "reed_rope",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 7.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "thebetweenlands:items_misc"
+        },
+        {
+          "entryName": "algae_clump",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 1.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "thebetweenlands:items_plant_drop"
+        },
+        {
+          "entryName": "water_weeds",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 34.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "thebetweenlands:items_plant_drop"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "greebling_coracle_gear",
+      "entries": [
+        {
+          "entryName": "thebetweenlands:net",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:net"
+        },
+        {
+          "entryName": "fishing_float",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 60.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thebetweenlands:items_misc"
+        },
+        {
+          "entryName": "weedwood_bowl",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 22.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thebetweenlands:items_misc"
+        },
+        {
+          "entryName": "thebetweenlands:amate_map",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:amate_map"
+        },
+        {
+          "entryName": "fishing_spear_1",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": 0.72,
+              "function": "minecraft:set_damage"
+            }
+          ],
+          "name": "thebetweenlands:fishing_spear"
+        },
+        {
+          "entryName": "fishing_spear_2",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": 0.2,
+              "function": "minecraft:set_damage"
+            }
+          ],
+          "name": "thebetweenlands:fishing_spear"
+        },
+        {
+          "entryName": "fabricated_scroll",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 49.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thebetweenlands:items_misc"
+        }
+      ],
+      "rolls": {
+        "min": 0.0,
+        "max": 1.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "pools": [
+    {
+      "name": "swet_blue",
+      "entries": [
+        {
+          "entryName": "aether_legacy:swetty_ball",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "aether_legacy:swetty_ball"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "swet_blue",
+      "entries": [
+        {
+          "entryName": "aether_legacy:aercloud",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 1.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "aether_legacy:aercloud"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

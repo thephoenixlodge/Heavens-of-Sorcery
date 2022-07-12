@@ -1,3 +1,36 @@
 {
-  "pools": []
+  "pools": [
+    {
+      "name": "sheepuff_silver",
+      "entries": [
+        {
+          "entryName": "minecraft:wool",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 8.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "minecraft:wool"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "sheepuff_silver",
+      "entries": [
+        {
+          "entryName": "aether_legacy:entities/sheepuff",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "aether_legacy:entities/sheepuff"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
 }

@@ -1,3 +1,9 @@
 {
-  "pools": []
+  "pools": [
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": 1.0
+    }
+  ]
 }

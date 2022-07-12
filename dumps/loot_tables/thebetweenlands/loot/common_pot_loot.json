@@ -4,96 +4,21 @@
       "name": "common_pot",
       "entries": [
         {
-          "entryName": "swamp_reed_rope",
-          "weight": 45,
+          "entryName": "loottweaker#1",
+          "weight": 15,
           "quality": 0,
           "type": "item",
           "functions": [
             {
-              "count": {
-                "min": 1.0,
-                "max": 3.0
-              },
-              "function": "minecraft:set_count"
-            },
-            {
-              "data": 7.0,
+              "data": 1.0,
               "function": "minecraft:set_data"
             }
           ],
-          "name": "thebetweenlands:items_misc"
+          "name": "thaumcraft:curio"
         },
         {
-          "entryName": "sulfur",
-          "weight": 40,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 2.0,
-                "max": 4.0
-              },
-              "function": "minecraft:set_count"
-            },
-            {
-              "data": 18.0,
-              "function": "minecraft:set_data"
-            }
-          ],
-          "name": "thebetweenlands:items_misc"
-        },
-        {
-          "entryName": "thebetweenlands:sap_ball",
-          "weight": 26,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 1.0,
-                "max": 4.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "thebetweenlands:sap_ball"
-        },
-        {
-          "entryName": "thebetweenlands:dentrothyst_shard_green",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 1.0,
-                "max": 3.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "thebetweenlands:dentrothyst_shard_green"
-        },
-        {
-          "entryName": "thebetweenlands:dentrothyst_shard_orange",
+          "entryName": "thebetweenlands:aspectrus_seeds",
           "weight": 4,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 1.0,
-                "max": 3.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "thebetweenlands:dentrothyst_shard_orange"
-        },
-        {
-          "entryName": "lurker_skin",
-          "weight": 12,
           "quality": 0,
           "type": "item",
           "functions": [
@@ -103,121 +28,9 @@
                 "max": 2.0
               },
               "function": "minecraft:set_count"
-            },
-            {
-              "data": 4.0,
-              "function": "minecraft:set_data"
             }
           ],
-          "name": "thebetweenlands:items_misc"
-        },
-        {
-          "entryName": "thebetweenlands:angler_tooth_arrow",
-          "weight": 12,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 4.0,
-                "max": 12.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "thebetweenlands:angler_tooth_arrow"
-        },
-        {
-          "entryName": "syrmorite_nugget",
-          "weight": 11,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 2.0,
-                "max": 8.0
-              },
-              "function": "minecraft:set_count"
-            },
-            {
-              "data": 41.0,
-              "function": "minecraft:set_data"
-            }
-          ],
-          "name": "thebetweenlands:items_misc"
-        },
-        {
-          "entryName": "octine_nugget",
-          "weight": 11,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 2.0,
-                "max": 8.0
-              },
-              "function": "minecraft:set_count"
-            },
-            {
-              "data": 42.0,
-              "function": "minecraft:set_data"
-            }
-          ],
-          "name": "thebetweenlands:items_misc"
-        },
-        {
-          "entryName": "scroll",
-          "weight": 8,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "data": 40.0,
-              "function": "minecraft:set_data"
-            }
-          ],
-          "name": "thebetweenlands:items_misc"
-        },
-        {
-          "entryName": "thebetweenlands:poisoned_angler_tooth_arrow",
-          "weight": 7,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 4.0,
-                "max": 10.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "thebetweenlands:poisoned_angler_tooth_arrow"
-        },
-        {
-          "entryName": "thebetweenlands:octine_arrow",
-          "weight": 7,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 4.0,
-                "max": 10.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "thebetweenlands:octine_arrow"
-        },
-        {
-          "entryName": "thebetweenlands:wight_heart",
-          "weight": 6,
-          "quality": 0,
-          "type": "item",
-          "name": "thebetweenlands:wight_heart"
+          "name": "thebetweenlands:aspectrus_seeds"
         },
         {
           "entryName": "thebetweenlands:basilisk_arrow",
@@ -236,27 +49,20 @@
           "name": "thebetweenlands:basilisk_arrow"
         },
         {
-          "entryName": "thebetweenlands:shock_arrow",
+          "entryName": "thebetweenlands:dentrothyst_shard_orange",
           "weight": 4,
           "quality": 0,
           "type": "item",
           "functions": [
             {
               "count": {
-                "min": 2.0,
-                "max": 8.0
+                "min": 1.0,
+                "max": 3.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "thebetweenlands:shock_arrow"
-        },
-        {
-          "entryName": "thebetweenlands:weeping_blue_petal",
-          "weight": 6,
-          "quality": 0,
-          "type": "item",
-          "name": "thebetweenlands:weeping_blue_petal"
+          "name": "thebetweenlands:dentrothyst_shard_orange"
         },
         {
           "entryName": "valonite_splinter",
@@ -279,6 +85,153 @@
           "name": "thebetweenlands:items_misc"
         },
         {
+          "entryName": "thebetweenlands:wight_heart",
+          "weight": 6,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:wight_heart"
+        },
+        {
+          "entryName": "thebetweenlands:bone_wayfinder",
+          "weight": 6,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:bone_wayfinder"
+        },
+        {
+          "entryName": "sulfur",
+          "weight": 40,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 18.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thebetweenlands:items_misc"
+        },
+        {
+          "entryName": "swamp_reed_rope",
+          "weight": 45,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 7.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thebetweenlands:items_misc"
+        },
+        {
+          "entryName": "thebetweenlands:angler_tooth_arrow",
+          "weight": 12,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 4.0,
+                "max": 12.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "thebetweenlands:angler_tooth_arrow"
+        },
+        {
+          "entryName": "thebetweenlands:shock_arrow",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 8.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "thebetweenlands:shock_arrow"
+        },
+        {
+          "entryName": "thebetweenlands:dentrothyst_shard_green",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "thebetweenlands:dentrothyst_shard_green"
+        },
+        {
+          "entryName": "thebetweenlands:octine_arrow",
+          "weight": 7,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 4.0,
+                "max": 10.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "thebetweenlands:octine_arrow"
+        },
+        {
+          "entryName": "thebetweenlands:sap_ball",
+          "weight": 26,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "thebetweenlands:sap_ball"
+        },
+        {
+          "entryName": "scroll",
+          "weight": 8,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 40.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thebetweenlands:items_misc"
+        },
+        {
           "entryName": "amulet_socket",
           "weight": 2,
           "quality": 0,
@@ -286,6 +239,107 @@
           "functions": [
             {
               "data": 38.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thebetweenlands:items_misc"
+        },
+        {
+          "entryName": "thebetweenlands:weeping_blue_petal",
+          "weight": 6,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:weeping_blue_petal"
+        },
+        {
+          "entryName": "octine_nugget",
+          "weight": 11,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 8.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 42.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thebetweenlands:items_misc"
+        },
+        {
+          "entryName": "syrmorite_nugget",
+          "weight": 11,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 8.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 41.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thebetweenlands:items_misc"
+        },
+        {
+          "entryName": "loottweaker#4",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 5.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thaumcraft:nugget"
+        },
+        {
+          "entryName": "loottweaker#3",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "name": "thaumcraft:amber"
+        },
+        {
+          "entryName": "loottweaker#2",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "name": "thaumcraft:curio"
+        },
+        {
+          "entryName": "lurker_skin",
+          "weight": 12,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 4.0,
               "function": "minecraft:set_data"
             }
           ],
@@ -308,27 +362,20 @@
           "name": "thebetweenlands:lore_scrap"
         },
         {
-          "entryName": "thebetweenlands:aspectrus_seeds",
-          "weight": 4,
+          "entryName": "thebetweenlands:poisoned_angler_tooth_arrow",
+          "weight": 7,
           "quality": 0,
           "type": "item",
           "functions": [
             {
               "count": {
-                "min": 1.0,
-                "max": 2.0
+                "min": 4.0,
+                "max": 10.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "thebetweenlands:aspectrus_seeds"
-        },
-        {
-          "entryName": "thebetweenlands:bone_wayfinder",
-          "weight": 6,
-          "quality": 0,
-          "type": "item",
-          "name": "thebetweenlands:bone_wayfinder"
+          "name": "thebetweenlands:poisoned_angler_tooth_arrow"
         }
       ],
       "rolls": {

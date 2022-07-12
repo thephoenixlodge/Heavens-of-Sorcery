@@ -1,0 +1,27 @@
+{
+  "pools": [
+    {
+      "name": "tombstone:blessing",
+      "entries": [
+        {
+          "entryName": "minecraft:enchanted_book",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "id": "tombstone:blessing",
+              "level": 1,
+              "function": "tombstone:precise_enchant"
+            },
+            {
+              "function": "tombstone:as_gift"
+            }
+          ],
+          "name": "minecraft:enchanted_book"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

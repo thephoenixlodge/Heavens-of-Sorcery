@@ -70,6 +70,271 @@
       "rolls": 1.0
     },
     {
+      "name": "tombstone:chest_treasure",
+      "entries": [
+        {
+          "entryName": "tombstone:scroll_buff_loot1",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{enchant:1b}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "data": 2.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "tombstone:scroll_buff"
+        },
+        {
+          "entryName": "tombstone:scroll_buff_loot2",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{enchant:1b}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "data": 3.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "tombstone:scroll_buff"
+        },
+        {
+          "entryName": "tombstone:scroll_buff_loot0",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{enchant:1b}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "data": 1.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "tombstone:scroll_buff"
+        },
+        {
+          "entryName": "tombstone:scroll_buff_loot5",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{enchant:1b}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "data": 6.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "tombstone:scroll_buff"
+        },
+        {
+          "entryName": "tombstone:tablet_of_cupidity_loot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{enchant:1b}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "tombstone:tablet_of_cupidity"
+        },
+        {
+          "entryName": "tombstone:voodoo_poppet_loot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "function": "tombstone:delayed_nbt_loot"
+            }
+          ],
+          "name": "tombstone:voodoo_poppet"
+        },
+        {
+          "entryName": "tombstone:scroll_buff_loot6",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{enchant:1b}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "data": 7.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "tombstone:scroll_buff"
+        },
+        {
+          "entryName": "tombstone:scroll_buff_loot3",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{enchant:1b}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "data": 4.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "tombstone:scroll_buff"
+        },
+        {
+          "entryName": "tombstone:scroll_buff_loot4",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{enchant:1b}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "data": 5.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "tombstone:scroll_buff"
+        },
+        {
+          "entryName": "tombstone:scroll_of_knowledge_loot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "function": "tombstone:delayed_nbt_loot"
+            }
+          ],
+          "name": "tombstone:scroll_of_knowledge"
+        },
+        {
+          "entryName": "tombstone:empty",
+          "weight": 844,
+          "quality": 0,
+          "type": "empty"
+        },
+        {
+          "entryName": "tombstone:crafting_ingredient_loot",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 4.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "tombstone:crafting_ingredient"
+        },
+        {
+          "entryName": "tombstone:scroll_buff_loot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{enchant:1b}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "data": 0.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "tombstone:scroll_buff"
+        },
+        {
+          "entryName": "tombstone:tablet_of_assistance_loot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{enchant:1b}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "tombstone:tablet_of_assistance"
+        },
+        {
+          "entryName": "tombstone:fishing_rod_of_misadventure_loot",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "function": "tombstone:delayed_nbt_loot"
+            }
+          ],
+          "name": "tombstone:fishing_rod_of_misadventure"
+        },
+        {
+          "entryName": "tombstone:familiar_receptacle_loot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "function": "tombstone:delayed_nbt_loot"
+            }
+          ],
+          "name": "tombstone:familiar_receptacle"
+        },
+        {
+          "entryName": "tombstone:tablet_of_home_loot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{enchant:1b}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "tombstone:tablet_of_home"
+        },
+        {
+          "entryName": "tombstone:scroll_buff_loot7",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{enchant:1b}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "data": 8.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "tombstone:scroll_buff"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
       "name": "material",
       "entries": [
         {
@@ -168,14 +433,14 @@
           "weight": 1,
           "quality": 0,
           "type": "item",
-          "name": "wings:fire_wings"
+          "name": "wings:angel_wings"
         },
         {
           "entryName": "loottweaker#5",
           "weight": 1,
           "quality": 0,
           "type": "item",
-          "name": "wings:bat_wings"
+          "name": "wings:evil_wings"
         },
         {
           "entryName": "loottweaker#13",
@@ -203,14 +468,14 @@
           "weight": 1,
           "quality": 0,
           "type": "item",
-          "name": "wings:evil_wings"
+          "name": "wings:dragon_wings"
         },
         {
           "entryName": "loottweaker#9",
           "weight": 1,
           "quality": 0,
           "type": "item",
-          "name": "wings:dragon_wings"
+          "name": "wings:bat_wings"
         },
         {
           "entryName": "loottweaker#8",
@@ -240,7 +505,7 @@
           "weight": 1,
           "quality": 0,
           "type": "item",
-          "name": "wings:blue_butterfly_wings"
+          "name": "wings:fire_wings"
         },
         {
           "entryName": "loottweaker#11",
@@ -263,7 +528,7 @@
           "weight": 1,
           "quality": 0,
           "type": "item",
-          "name": "wings:angel_wings"
+          "name": "wings:blue_butterfly_wings"
         },
         {
           "entryName": "loottweaker#12",

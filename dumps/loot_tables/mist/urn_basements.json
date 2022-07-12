@@ -415,6 +415,22 @@
           "name": "minecraft:string"
         },
         {
+          "entryName": "mist:pills_bitter",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "mist:pills_bitter"
+        },
+        {
           "entryName": "mist:filter_coal",
           "weight": 2,
           "quality": 0,

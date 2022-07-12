@@ -1,0 +1,85 @@
+{
+  "pools": [
+    {
+      "name": "anadia_body",
+      "entries": [
+        {
+          "entryName": "body_type_0",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "properties": {
+                "thebetweenlands:anadia_body_type": 0
+              },
+              "entity": "this",
+              "condition": "minecraft:entity_properties"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "size_start": 0.125,
+              "size_end": 0.95,
+              "min_count": 1,
+              "max_count": 5,
+              "function": "thebetweenlands:set_count_from_anadia"
+            }
+          ],
+          "name": "thebetweenlands:anadia_meat_raw"
+        },
+        {
+          "entryName": "body_type_1",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "properties": {
+                "thebetweenlands:anadia_body_type": 1
+              },
+              "entity": "this",
+              "condition": "minecraft:entity_properties"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "size_start": 0.125,
+              "size_end": 0.95,
+              "min_count": 1,
+              "max_count": 5,
+              "function": "thebetweenlands:set_count_from_anadia"
+            }
+          ],
+          "name": "thebetweenlands:anadia_meat_raw"
+        },
+        {
+          "entryName": "body_type_2",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "properties": {
+                "thebetweenlands:anadia_body_type": 2
+              },
+              "entity": "this",
+              "condition": "minecraft:entity_properties"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "size_start": 0.125,
+              "size_end": 0.95,
+              "min_count": 1,
+              "max_count": 5,
+              "function": "thebetweenlands:set_count_from_anadia"
+            }
+          ],
+          "name": "thebetweenlands:anadia_meat_raw"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

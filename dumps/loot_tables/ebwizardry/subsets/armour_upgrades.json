@@ -1,0 +1,31 @@
+{
+  "pools": [
+    {
+      "name": "upgrades",
+      "entries": [
+        {
+          "entryName": "ebwizardry:resplendent_thread",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "ebwizardry:resplendent_thread"
+        },
+        {
+          "entryName": "ebwizardry:crystal_silver_plating",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "ebwizardry:crystal_silver_plating"
+        },
+        {
+          "entryName": "ebwizardry:ethereal_crystalweave",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "ebwizardry:ethereal_crystalweave"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

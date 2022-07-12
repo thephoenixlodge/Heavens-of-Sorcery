@@ -1,0 +1,27 @@
+{
+  "pools": [
+    {
+      "name": "tombstone:shadow_step_3",
+      "entries": [
+        {
+          "entryName": "minecraft:enchanted_book",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "id": "tombstone:shadow_step",
+              "level": 3,
+              "function": "tombstone:precise_enchant"
+            },
+            {
+              "function": "tombstone:as_gift"
+            }
+          ],
+          "name": "minecraft:enchanted_book"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

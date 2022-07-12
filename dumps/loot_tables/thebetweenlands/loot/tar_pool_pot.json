@@ -4,26 +4,6 @@
       "name": "tar_pool_pot",
       "entries": [
         {
-          "entryName": "tar_drip",
-          "weight": 28,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 1.0,
-                "max": 3.0
-              },
-              "function": "minecraft:set_count"
-            },
-            {
-              "data": 26.0,
-              "function": "minecraft:set_data"
-            }
-          ],
-          "name": "thebetweenlands:items_misc"
-        },
-        {
           "entryName": "thebetweenlands:dentrothyst_shard_green",
           "weight": 15,
           "quality": 0,
@@ -38,6 +18,111 @@
             }
           ],
           "name": "thebetweenlands:dentrothyst_shard_green"
+        },
+        {
+          "entryName": "loottweaker#1",
+          "weight": 35,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 1.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thaumcraft:curio"
+        },
+        {
+          "entryName": "thebetweenlands:jam_donut",
+          "weight": 28,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:jam_donut"
+        },
+        {
+          "entryName": "thebetweenlands:aspectrus_seeds",
+          "weight": 12,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 6.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "thebetweenlands:aspectrus_seeds"
+        },
+        {
+          "entryName": "scroll",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 40.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thebetweenlands:items_misc"
+        },
+        {
+          "entryName": "amulet_socket",
+          "weight": 12,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 38.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thebetweenlands:items_misc"
+        },
+        {
+          "entryName": "lore_scrap_location",
+          "weight": 12,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 5.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thebetweenlands:lore_scrap"
+        },
+        {
+          "entryName": "thebetweenlands:marshmallow",
+          "weight": 28,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:marshmallow"
+        },
+        {
+          "entryName": "thebetweenlands:reed_donut",
+          "weight": 28,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "thebetweenlands:reed_donut"
+        },
+        {
+          "entryName": "thebetweenlands:marshmallow_pink",
+          "weight": 28,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:marshmallow_pink"
         },
         {
           "entryName": "thebetweenlands:dentrothyst_shard_orange",
@@ -56,20 +141,20 @@
           "name": "thebetweenlands:dentrothyst_shard_orange"
         },
         {
-          "entryName": "syrmorite_nugget",
-          "weight": 28,
+          "entryName": "valonite_splinter",
+          "weight": 12,
           "quality": 0,
           "type": "item",
           "functions": [
             {
               "count": {
-                "min": 4.0,
-                "max": 16.0
+                "min": 1.0,
+                "max": 4.0
               },
               "function": "minecraft:set_count"
             },
             {
-              "data": 41.0,
+              "data": 43.0,
               "function": "minecraft:set_data"
             }
           ],
@@ -96,50 +181,77 @@
           "name": "thebetweenlands:items_misc"
         },
         {
-          "entryName": "scroll",
-          "weight": 20,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "data": 40.0,
-              "function": "minecraft:set_data"
-            }
-          ],
-          "name": "thebetweenlands:items_misc"
-        },
-        {
-          "entryName": "valonite_splinter",
-          "weight": 12,
+          "entryName": "tar_drip",
+          "weight": 28,
           "quality": 0,
           "type": "item",
           "functions": [
             {
               "count": {
                 "min": 1.0,
-                "max": 4.0
+                "max": 3.0
               },
               "function": "minecraft:set_count"
             },
             {
-              "data": 43.0,
+              "data": 26.0,
               "function": "minecraft:set_data"
             }
           ],
           "name": "thebetweenlands:items_misc"
         },
         {
-          "entryName": "amulet_socket",
-          "weight": 12,
+          "entryName": "syrmorite_nugget",
+          "weight": 28,
           "quality": 0,
           "type": "item",
           "functions": [
             {
-              "data": 38.0,
+              "count": {
+                "min": 4.0,
+                "max": 16.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 41.0,
               "function": "minecraft:set_data"
             }
           ],
           "name": "thebetweenlands:items_misc"
+        },
+        {
+          "entryName": "thebetweenlands:ring_of_gathering",
+          "weight": 8,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:ring_of_gathering"
+        },
+        {
+          "entryName": "loottweaker#3",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 5.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thaumcraft:curio"
+        },
+        {
+          "entryName": "loottweaker#2",
+          "weight": 35,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 3.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thaumcraft:curio"
         },
         {
           "entryName": "thebetweenlands:lore_scrap",
@@ -156,79 +268,6 @@
             }
           ],
           "name": "thebetweenlands:lore_scrap"
-        },
-        {
-          "entryName": "lore_scrap_location",
-          "weight": 12,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "data": 5.0,
-              "function": "minecraft:set_data"
-            }
-          ],
-          "name": "thebetweenlands:lore_scrap"
-        },
-        {
-          "entryName": "thebetweenlands:jam_donut",
-          "weight": 28,
-          "quality": 0,
-          "type": "item",
-          "name": "thebetweenlands:jam_donut"
-        },
-        {
-          "entryName": "thebetweenlands:reed_donut",
-          "weight": 28,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 1.0,
-                "max": 2.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "thebetweenlands:reed_donut"
-        },
-        {
-          "entryName": "thebetweenlands:marshmallow_pink",
-          "weight": 28,
-          "quality": 0,
-          "type": "item",
-          "name": "thebetweenlands:marshmallow_pink"
-        },
-        {
-          "entryName": "thebetweenlands:marshmallow",
-          "weight": 28,
-          "quality": 0,
-          "type": "item",
-          "name": "thebetweenlands:marshmallow"
-        },
-        {
-          "entryName": "thebetweenlands:aspectrus_seeds",
-          "weight": 12,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 2.0,
-                "max": 6.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "thebetweenlands:aspectrus_seeds"
-        },
-        {
-          "entryName": "thebetweenlands:ring_of_gathering",
-          "weight": 8,
-          "quality": 0,
-          "type": "item",
-          "name": "thebetweenlands:ring_of_gathering"
         }
       ],
       "rolls": {

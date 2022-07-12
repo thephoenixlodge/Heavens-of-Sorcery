@@ -1,0 +1,41 @@
+{
+  "pools": [
+    {
+      "name": "anadia",
+      "entries": [
+        {
+          "entryName": "thebetweenlands:anadia_meat_raw",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:furnace_smelt",
+              "conditions": [
+                {
+                  "properties": {
+                    "minecraft:on_fire": true
+                  },
+                  "entity": "this",
+                  "condition": "minecraft:entity_properties"
+                }
+              ]
+            }
+          ],
+          "name": "thebetweenlands:anadia_meat_raw"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "inverse": false,
+          "condition": "minecraft:killed_by_player"
+        }
+      ]
+    }
+  ]
+}

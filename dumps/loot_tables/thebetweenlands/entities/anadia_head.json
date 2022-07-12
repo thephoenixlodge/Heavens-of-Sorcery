@@ -1,0 +1,88 @@
+{
+  "pools": [
+    {
+      "name": "anadia_head",
+      "entries": [
+        {
+          "entryName": "head_type_0",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "properties": {
+                "thebetweenlands:anadia_head_type": 0
+              },
+              "entity": "this",
+              "condition": "minecraft:entity_properties"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 55.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thebetweenlands:items_misc"
+        },
+        {
+          "entryName": "head_type_1",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "properties": {
+                "thebetweenlands:anadia_head_type": 1
+              },
+              "entity": "this",
+              "condition": "minecraft:entity_properties"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 52.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thebetweenlands:items_misc"
+        },
+        {
+          "entryName": "head_type_2",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "properties": {
+                "thebetweenlands:anadia_head_type": 2
+              },
+              "entity": "this",
+              "condition": "minecraft:entity_properties"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 53.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thebetweenlands:items_misc"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

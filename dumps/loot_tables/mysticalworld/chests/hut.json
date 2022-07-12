@@ -1,0 +1,1324 @@
+{
+  "pools": [
+    {
+      "name": "gems",
+      "entries": [
+        {
+          "entryName": "minecraft:double_plant",
+          "weight": 8,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 4.0,
+                "max": 10.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:double_plant"
+        },
+        {
+          "entryName": "minecraft:blaze_powder",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:blaze_powder"
+        },
+        {
+          "entryName": "mysticalworld:amethyst_gem",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "mysticalworld:amethyst_gem"
+        },
+        {
+          "entryName": "minecraft:diamond",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:diamond"
+        },
+        {
+          "entryName": "minecraft:magma_cream",
+          "weight": 6,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 7.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:magma_cream"
+        },
+        {
+          "entryName": "minecraft:ender_pearl",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:ender_pearl"
+        },
+        {
+          "entryName": "minecraft:quartz",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 4.0,
+                "max": 12.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:quartz"
+        },
+        {
+          "entryName": "mysticalworld:carapace",
+          "weight": 9,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 3.0,
+                "max": 6.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "mysticalworld:carapace"
+        },
+        {
+          "entryName": "minecraft:spider_eye",
+          "weight": 9,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:spider_eye"
+        },
+        {
+          "entryName": "minecraft:slime_ball",
+          "weight": 9,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 6.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:slime_ball"
+        },
+        {
+          "entryName": "minecraft:glowstone_dust",
+          "weight": 6,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:glowstone_dust"
+        },
+        {
+          "entryName": "minecraft:gunpowder",
+          "weight": 9,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 3.0,
+                "max": 8.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:gunpowder"
+        },
+        {
+          "entryName": "minecraft:dye",
+          "weight": 7,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 3.0,
+                "max": 9.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 4.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "minecraft:dye"
+        },
+        {
+          "entryName": "minecraft:redstone",
+          "weight": 8,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 4.0,
+                "max": 15.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:redstone"
+        },
+        {
+          "entryName": "minecraft:gold_ingot",
+          "weight": 8,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:gold_ingot"
+        },
+        {
+          "entryName": "mysticalworld:silver_ingot",
+          "weight": 8,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "mysticalworld:silver_ingot"
+        },
+        {
+          "entryName": "minecraft:iron_ingot",
+          "weight": 16,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:iron_ingot"
+        },
+        {
+          "entryName": "mysticalworld:copper_ingot",
+          "weight": 16,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "mysticalworld:copper_ingot"
+        },
+        {
+          "entryName": "minecraft:coal",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 4.0,
+                "max": 8.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 1.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "minecraft:coal"
+        }
+      ],
+      "rolls": 2.0,
+      "bonus_rolls": {
+        "min": 1.0,
+        "max": 3.0
+      }
+    },
+    {
+      "name": "mysticalworld",
+      "entries": [
+        {
+          "entryName": "minecraft:dye",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 5.0,
+                "max": 15.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:dye"
+        },
+        {
+          "entryName": "mysticalworld:antler_hat",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "mysticalworld:antler_hat"
+        },
+        {
+          "entryName": "mysticalworld:beetle_mask",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "mysticalworld:beetle_mask"
+        },
+        {
+          "entryName": "mysticalworld:spindle",
+          "weight": 12,
+          "quality": 0,
+          "type": "item",
+          "name": "mysticalworld:spindle"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "clocksnstuff",
+      "entries": [
+        {
+          "entryName": "minecraft:compass",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:compass"
+        },
+        {
+          "entryName": "minecraft:clock",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:clock"
+        },
+        {
+          "entryName": "minecraft:book",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 16.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:book"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "blocks",
+      "entries": [
+        {
+          "entryName": "minecraft:stonebrick",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:stonebrick"
+        },
+        {
+          "entryName": "minecraft:tnt",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:tnt"
+        },
+        {
+          "entryName": "minecraft:anvil",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:anvil"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "food",
+      "entries": [
+        {
+          "entryName": "minecraft:red_flower",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 2.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "minecraft:red_flower"
+        },
+        {
+          "entryName": "minecraft:egg",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 3.0,
+                "max": 8.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:egg"
+        },
+        {
+          "entryName": "minecraft:potato",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 4.0,
+                "max": 12.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:potato"
+        },
+        {
+          "entryName": "minecraft:carrot",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 5.0,
+                "max": 20.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:carrot"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "goldencarrot",
+      "entries": [
+        {
+          "entryName": "minecraft:golden_carrot",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:golden_carrot"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "morefood",
+      "entries": [
+        {
+          "entryName": "minecraft:pumpkin_pie",
+          "weight": 8,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:pumpkin_pie"
+        },
+        {
+          "entryName": "minecraft:cookie",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 4.0,
+                "max": 8.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:cookie"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "mycelium",
+      "entries": [
+        {
+          "entryName": "minecraft:mycelium",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 4.0,
+                "max": 10.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:mycelium"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "webs",
+      "entries": [
+        {
+          "entryName": "minecraft:web",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:web"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "balls",
+      "entries": [
+        {
+          "entryName": "minecraft:red_flower",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 4.0,
+                "max": 12.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 5.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "minecraft:red_flower"
+        },
+        {
+          "entryName": "minecraft:snowball",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 6.0,
+                "max": 10.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:snowball"
+        },
+        {
+          "entryName": "minecraft:clay_ball",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 6.0,
+                "max": 10.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:clay_ball"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "flowers",
+      "entries": [
+        {
+          "entryName": "minecraft:tallgrass",
+          "weight": 14,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 4.0,
+                "max": 12.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 1.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "minecraft:tallgrass"
+        },
+        {
+          "entryName": "minecraft:red_flower",
+          "weight": 8,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 3.0,
+                "max": 8.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 1.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "minecraft:red_flower"
+        },
+        {
+          "entryName": "minecraft:double_plant",
+          "weight": 6,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 9.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 4.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "minecraft:double_plant"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "saplings1",
+      "entries": [
+        {
+          "entryName": "minecraft:sapling",
+          "weight": 14,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 4.0,
+                "max": 8.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 5.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "minecraft:sapling"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "saplings2",
+      "entries": [
+        {
+          "entryName": "minecraft:sapling",
+          "weight": 12,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 3.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "minecraft:sapling"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "saplings3",
+      "entries": [
+        {
+          "entryName": "minecraft:sapling",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 3.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 4.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "minecraft:sapling"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "saplings4",
+      "entries": [
+        {
+          "entryName": "minecraft:sapling",
+          "weight": 8,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 4.0,
+                "max": 12.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 2.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "minecraft:sapling"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "saplings5",
+      "entries": [
+        {
+          "entryName": "minecraft:sapling",
+          "weight": 8,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 8.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 1.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "minecraft:sapling"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "saplings6",
+      "entries": [
+        {
+          "entryName": "minecraft:sapling",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:sapling"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "grassythings",
+      "entries": [
+        {
+          "entryName": "minecraft:vine",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 3.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:vine"
+        },
+        {
+          "entryName": "minecraft:reeds",
+          "weight": 6,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 4.0,
+                "max": 15.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:reeds"
+        },
+        {
+          "entryName": "minecraft:waterlily",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:waterlily"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "shrooms",
+      "entries": [
+        {
+          "entryName": "minecraft:red_mushroom",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 3.0,
+                "max": 9.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:red_mushroom"
+        },
+        {
+          "entryName": "minecraft:brown_mushroom",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 3.0,
+                "max": 9.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:brown_mushroom"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "cacti",
+      "entries": [
+        {
+          "entryName": "minecraft:cactus",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:cactus"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "stuff",
+      "entries": [
+        {
+          "entryName": "minecraft:dye",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 3.0,
+                "max": 9.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 3.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "minecraft:dye"
+        },
+        {
+          "entryName": "minecraft:beetroot_seeds",
+          "weight": 9,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 7.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:beetroot_seeds"
+        },
+        {
+          "entryName": "minecraft:melon_seeds",
+          "weight": 7,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 7.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:melon_seeds"
+        },
+        {
+          "entryName": "minecraft:pumpkin_seeds",
+          "weight": 7,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:pumpkin_seeds"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "tombstone:chest_treasure",
+      "entries": [
+        {
+          "entryName": "tombstone:crafting_ingredient_loot",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 4.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "tombstone:crafting_ingredient"
+        },
+        {
+          "entryName": "tombstone:scroll_buff_loot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{enchant:1b}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "data": 0.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "tombstone:scroll_buff"
+        },
+        {
+          "entryName": "tombstone:scroll_buff_loot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{enchant:1b}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "data": 1.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "tombstone:scroll_buff"
+        },
+        {
+          "entryName": "tombstone:scroll_buff_loot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{enchant:1b}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "data": 2.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "tombstone:scroll_buff"
+        },
+        {
+          "entryName": "tombstone:scroll_buff_loot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{enchant:1b}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "data": 3.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "tombstone:scroll_buff"
+        },
+        {
+          "entryName": "tombstone:scroll_buff_loot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{enchant:1b}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "data": 4.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "tombstone:scroll_buff"
+        },
+        {
+          "entryName": "tombstone:scroll_buff_loot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{enchant:1b}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "data": 5.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "tombstone:scroll_buff"
+        },
+        {
+          "entryName": "tombstone:scroll_buff_loot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{enchant:1b}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "data": 6.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "tombstone:scroll_buff"
+        },
+        {
+          "entryName": "tombstone:scroll_buff_loot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{enchant:1b}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "data": 7.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "tombstone:scroll_buff"
+        },
+        {
+          "entryName": "tombstone:scroll_buff_loot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{enchant:1b}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "data": 8.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "tombstone:scroll_buff"
+        },
+        {
+          "entryName": "tombstone:scroll_of_knowledge_loot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "function": "tombstone:delayed_nbt_loot"
+            }
+          ],
+          "name": "tombstone:scroll_of_knowledge"
+        },
+        {
+          "entryName": "tombstone:tablet_of_cupidity_loot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{enchant:1b}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "tombstone:tablet_of_cupidity"
+        },
+        {
+          "entryName": "tombstone:tablet_of_home_loot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{enchant:1b}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "tombstone:tablet_of_home"
+        },
+        {
+          "entryName": "tombstone:tablet_of_assistance_loot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{enchant:1b}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "tombstone:tablet_of_assistance"
+        },
+        {
+          "entryName": "tombstone:voodoo_poppet_loot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "function": "tombstone:delayed_nbt_loot"
+            }
+          ],
+          "name": "tombstone:voodoo_poppet"
+        },
+        {
+          "entryName": "tombstone:familiar_receptacle_loot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "function": "tombstone:delayed_nbt_loot"
+            }
+          ],
+          "name": "tombstone:familiar_receptacle"
+        },
+        {
+          "entryName": "tombstone:fishing_rod_of_misadventure_loot",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "function": "tombstone:delayed_nbt_loot"
+            }
+          ],
+          "name": "tombstone:fishing_rod_of_misadventure"
+        },
+        {
+          "entryName": "tombstone:empty",
+          "weight": 844,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

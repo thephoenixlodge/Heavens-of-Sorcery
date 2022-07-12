@@ -113,30 +113,37 @@
           "quality": 0,
           "type": "item",
           "name": "minecraft:rotten_flesh"
+        },
+        {
+          "entryName": "ebwizardry_additive_entry",
+          "weight": 4,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "ebwizardry:gameplay/fishing/junk_additions"
         }
       ],
       "rolls": 1.0
     },
     {
-      "name": "lost_tablet",
+      "name": "tombstone:lost_treasure",
       "entries": [
         {
-          "entryName": "tombstone:lost_tablet",
-          "weight": 0,
-          "quality": -2,
-          "type": "item",
-          "name": "tombstone:lost_tablet"
-        },
-        {
-          "entryName": "empty",
-          "weight": 1000,
+          "entryName": "tombstone:crafting_ingredient_loot",
+          "weight": 20,
           "quality": 0,
-          "type": "empty"
+          "type": "item",
+          "functions": [
+            {
+              "data": 4.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "tombstone:crafting_ingredient"
         },
         {
-          "entryName": "tombstone:tablet_of_recall",
-          "weight": 1,
-          "quality": -2,
+          "entryName": "tombstone:tablet_of_recall_loot",
+          "weight": 3,
+          "quality": 0,
           "type": "item",
           "functions": [
             {
@@ -145,6 +152,87 @@
             }
           ],
           "name": "tombstone:tablet_of_recall"
+        },
+        {
+          "entryName": "tombstone:tablet_of_home_loot",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{ancient:1b}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "tombstone:tablet_of_home"
+        },
+        {
+          "entryName": "tombstone:tablet_of_cupidity_loot",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{ancient:1b}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "tombstone:tablet_of_cupidity"
+        },
+        {
+          "entryName": "tombstone:tablet_of_assistance_loot",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{ancient:1b}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "tombstone:tablet_of_assistance"
+        },
+        {
+          "entryName": "tombstone:voodoo_poppet_loot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "function": "tombstone:delayed_nbt_loot"
+            }
+          ],
+          "name": "tombstone:voodoo_poppet"
+        },
+        {
+          "entryName": "tombstone:familiar_receptacle_loot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "function": "tombstone:delayed_nbt_loot"
+            }
+          ],
+          "name": "tombstone:familiar_receptacle"
+        },
+        {
+          "entryName": "tombstone:fishing_rod_of_misadventure_loot",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "function": "tombstone:delayed_nbt_loot"
+            }
+          ],
+          "name": "tombstone:fishing_rod_of_misadventure"
+        },
+        {
+          "entryName": "tombstone:empty",
+          "weight": 928,
+          "quality": 0,
+          "type": "empty"
         }
       ],
       "rolls": 1.0

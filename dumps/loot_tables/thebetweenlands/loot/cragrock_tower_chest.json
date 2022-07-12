@@ -389,11 +389,11 @@
           "name": "thebetweenlands:aspectrus_seeds"
         },
         {
-          "entryName": "life_crystal",
+          "entryName": "life_crystal_fragment",
           "weight": 8,
           "quality": 0,
           "type": "item",
-          "name": "thebetweenlands:life_crystal"
+          "name": "thebetweenlands:life_crystal_fragment"
         },
         {
           "entryName": "thebetweenlands:loot/music_disc",

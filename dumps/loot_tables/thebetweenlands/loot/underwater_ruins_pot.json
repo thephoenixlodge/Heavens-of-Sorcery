@@ -1,0 +1,230 @@
+{
+  "pools": [
+    {
+      "name": "underwater_ruins_pot",
+      "entries": [
+        {
+          "entryName": "sulfur",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 18.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thebetweenlands:items_misc"
+        },
+        {
+          "entryName": "thebetweenlands:swamp_kelp_item",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "thebetweenlands:swamp_kelp_item"
+        },
+        {
+          "entryName": "thebetweenlands:dentrothyst_shard_green",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "thebetweenlands:dentrothyst_shard_green"
+        },
+        {
+          "entryName": "lurker_skin",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 4.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thebetweenlands:items_misc"
+        },
+        {
+          "entryName": "angler_tooth",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 21.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thebetweenlands:items_misc"
+        },
+        {
+          "entryName": "dragonfly_wing",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 3.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thebetweenlands:items_misc"
+        },
+        {
+          "entryName": "syrmorite_nugget",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 8.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 41.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thebetweenlands:items_misc"
+        },
+        {
+          "entryName": "thebetweenlands:rock_snot_pearl",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:rock_snot_pearl"
+        },
+        {
+          "entryName": "thebetweenlands:wight_heart",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:wight_heart"
+        },
+        {
+          "entryName": "anadia_bones",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 55.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thebetweenlands:items_misc"
+        },
+        {
+          "entryName": "thebetweenlands:dentrothyst_shard_orange",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "thebetweenlands:dentrothyst_shard_orange"
+        },
+        {
+          "entryName": "slimy_bone",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 14.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thebetweenlands:items_misc"
+        },
+        {
+          "entryName": "item_scroll",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 40.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thebetweenlands:items_misc"
+        },
+        {
+          "entryName": "thebetweenlands:basilisk_arrow",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "thebetweenlands:basilisk_arrow"
+        }
+      ],
+      "rolls": {
+        "min": 1.0,
+        "max": 2.0
+      }
+    }
+  ]
+}

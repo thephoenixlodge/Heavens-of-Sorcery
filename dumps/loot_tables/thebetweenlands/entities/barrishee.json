@@ -1,19 +1,13 @@
 {
   "pools": [
     {
-      "name": "key",
+      "name": "rune_door_key",
       "entries": [
         {
           "entryName": "thebetweenlands:rune_door_key",
           "weight": 1,
           "quality": 0,
           "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
           "name": "thebetweenlands:rune_door_key"
         }
       ],
@@ -23,14 +17,53 @@
       "name": "life_crystal",
       "entries": [
         {
-          "entryName": "thebetweenlands:life_crystal",
+          "entryName": "life_crystal_1",
           "weight": 1,
           "quality": 0,
           "type": "item",
           "functions": [
             {
-              "count": 1.0,
-              "function": "minecraft:set_count"
+              "damage": 0.68,
+              "function": "minecraft:set_damage"
+            }
+          ],
+          "name": "thebetweenlands:life_crystal"
+        },
+        {
+          "entryName": "life_crystal_2",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": 0.5,
+              "function": "minecraft:set_damage"
+            }
+          ],
+          "name": "thebetweenlands:life_crystal"
+        },
+        {
+          "entryName": "life_crystal_3",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": 0.25,
+              "function": "minecraft:set_damage"
+            }
+          ],
+          "name": "thebetweenlands:life_crystal"
+        },
+        {
+          "entryName": "life_crystal_4",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": 0.2,
+              "function": "minecraft:set_damage"
             }
           ],
           "name": "thebetweenlands:life_crystal"

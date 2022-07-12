@@ -31,7 +31,13 @@
           "name": "thebetweenlands:items_misc"
         }
       ],
-      "rolls": 1.0
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "inverse": false,
+          "condition": "minecraft:killed_by_player"
+        }
+      ]
     },
     {
       "name": "spook_candy",

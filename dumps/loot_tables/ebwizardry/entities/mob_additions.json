@@ -2,7 +2,15 @@
   "pools": [
     {
       "name": "wizardry",
-      "entries": [],
+      "entries": [
+        {
+          "entryName": "ebwizardry:ruined_spell_book",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "ebwizardry:ruined_spell_book"
+        }
+      ],
       "rolls": 1.0,
       "conditions": [
         {

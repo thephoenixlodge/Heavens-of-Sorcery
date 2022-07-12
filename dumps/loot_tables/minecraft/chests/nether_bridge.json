@@ -5,75 +5,6 @@
       "entries": [
         {
           "entryName": "loottweaker#1",
-          "weight": 5,
-          "quality": 0,
-          "type": "item",
-          "name": "rustic:horsetail"
-        },
-        {
-          "entryName": "loottweaker#17",
-          "weight": 25,
-          "quality": 0,
-          "type": "item",
-          "name": "minecraft:ender_pearl"
-        },
-        {
-          "entryName": "loottweaker#18",
-          "weight": 5,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "data": 1.0,
-              "function": "minecraft:set_data"
-            }
-          ],
-          "name": "cuisine:crops"
-        },
-        {
-          "entryName": "loottweaker#19",
-          "weight": 5,
-          "quality": 0,
-          "type": "item",
-          "name": "rustic:mooncap_mushroom"
-        },
-        {
-          "entryName": "loottweaker#5",
-          "weight": 3,
-          "quality": 0,
-          "type": "item",
-          "name": "arcaneworld:amethyst"
-        },
-        {
-          "entryName": "loottweaker#13",
-          "weight": 5,
-          "quality": 0,
-          "type": "item",
-          "name": "rustic:core_root"
-        },
-        {
-          "entryName": "loottweaker#4",
-          "weight": 5,
-          "quality": 0,
-          "type": "item",
-          "name": "rustic:chamomile"
-        },
-        {
-          "entryName": "loottweaker#14",
-          "weight": 3,
-          "quality": 0,
-          "type": "item",
-          "name": "rustic:blood_orchid"
-        },
-        {
-          "entryName": "loottweaker#3",
-          "weight": 6,
-          "quality": 0,
-          "type": "item",
-          "name": "embers:breaker"
-        },
-        {
-          "entryName": "loottweaker#15",
           "weight": 15,
           "quality": 0,
           "type": "item",
@@ -86,46 +17,115 @@
           "name": "minecraft:splash_potion"
         },
         {
-          "entryName": "loottweaker#2",
+          "entryName": "loottweaker#17",
           "weight": 5,
           "quality": 0,
           "type": "item",
           "name": "rustic:wind_thistle"
         },
         {
-          "entryName": "loottweaker#16",
+          "entryName": "loottweaker#18",
           "weight": 5,
           "quality": 0,
           "type": "item",
-          "name": "rustic:aloe_vera"
+          "name": "minecraft:nether_wart"
         },
         {
-          "entryName": "loottweaker#9",
+          "entryName": "loottweaker#19",
           "weight": 5,
           "quality": 0,
           "type": "item",
-          "name": "rustic:oliveseed"
+          "name": "rustic:mooncap_mushroom"
         },
         {
-          "entryName": "loottweaker#20",
+          "entryName": "loottweaker#5",
           "weight": 5,
           "quality": 0,
           "type": "item",
           "name": "contenttweaker:token_reforge"
         },
         {
+          "entryName": "loottweaker#13",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "rustic:marsh_mallow"
+        },
+        {
+          "entryName": "loottweaker#4",
+          "weight": 25,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:ender_pearl"
+        },
+        {
+          "entryName": "loottweaker#14",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "name": "rustic:blood_orchid"
+        },
+        {
+          "entryName": "loottweaker#3",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "rustic:cloudsbluff"
+        },
+        {
+          "entryName": "loottweaker#15",
+          "weight": 6,
+          "quality": 0,
+          "type": "item",
+          "name": "embers:breaker"
+        },
+        {
+          "entryName": "loottweaker#2",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "rustic:oliveseed"
+        },
+        {
+          "entryName": "loottweaker#16",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "name": "arcaneworld:amethyst"
+        },
+        {
+          "entryName": "loottweaker#9",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "rustic:cohosh"
+        },
+        {
+          "entryName": "loottweaker#20",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "rustic:horsetail"
+        },
+        {
           "entryName": "loottweaker#8",
           "weight": 5,
           "quality": 0,
           "type": "item",
-          "name": "rustic:ginseng"
+          "functions": [
+            {
+              "data": 1.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "cuisine:crops"
         },
         {
           "entryName": "loottweaker#10",
           "weight": 5,
           "quality": 0,
           "type": "item",
-          "name": "rustic:cohosh"
+          "name": "rustic:chamomile"
         },
         {
           "entryName": "loottweaker#21",
@@ -155,7 +155,7 @@
           "weight": 5,
           "quality": 0,
           "type": "item",
-          "name": "rustic:cloudsbluff"
+          "name": "rustic:aloe_vera"
         },
         {
           "entryName": "loottweaker#11",
@@ -191,14 +191,14 @@
           "weight": 5,
           "quality": 0,
           "type": "item",
-          "name": "rustic:marsh_mallow"
+          "name": "rustic:core_root"
         },
         {
           "entryName": "loottweaker#12",
           "weight": 5,
           "quality": 0,
           "type": "item",
-          "name": "minecraft:nether_wart"
+          "name": "rustic:ginseng"
         },
         {
           "entryName": "loottweaker#23",
@@ -357,6 +357,271 @@
         "min": 1.0,
         "max": 2.0
       }
+    },
+    {
+      "name": "tombstone:chest_treasure",
+      "entries": [
+        {
+          "entryName": "tombstone:scroll_buff_loot1",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{enchant:1b}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "data": 2.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "tombstone:scroll_buff"
+        },
+        {
+          "entryName": "tombstone:scroll_buff_loot2",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{enchant:1b}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "data": 3.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "tombstone:scroll_buff"
+        },
+        {
+          "entryName": "tombstone:scroll_buff_loot0",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{enchant:1b}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "data": 1.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "tombstone:scroll_buff"
+        },
+        {
+          "entryName": "tombstone:scroll_buff_loot5",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{enchant:1b}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "data": 6.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "tombstone:scroll_buff"
+        },
+        {
+          "entryName": "tombstone:tablet_of_cupidity_loot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{enchant:1b}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "tombstone:tablet_of_cupidity"
+        },
+        {
+          "entryName": "tombstone:voodoo_poppet_loot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "function": "tombstone:delayed_nbt_loot"
+            }
+          ],
+          "name": "tombstone:voodoo_poppet"
+        },
+        {
+          "entryName": "tombstone:scroll_buff_loot6",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{enchant:1b}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "data": 7.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "tombstone:scroll_buff"
+        },
+        {
+          "entryName": "tombstone:scroll_buff_loot3",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{enchant:1b}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "data": 4.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "tombstone:scroll_buff"
+        },
+        {
+          "entryName": "tombstone:scroll_buff_loot4",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{enchant:1b}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "data": 5.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "tombstone:scroll_buff"
+        },
+        {
+          "entryName": "tombstone:scroll_of_knowledge_loot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "function": "tombstone:delayed_nbt_loot"
+            }
+          ],
+          "name": "tombstone:scroll_of_knowledge"
+        },
+        {
+          "entryName": "tombstone:empty",
+          "weight": 844,
+          "quality": 0,
+          "type": "empty"
+        },
+        {
+          "entryName": "tombstone:crafting_ingredient_loot",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 4.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "tombstone:crafting_ingredient"
+        },
+        {
+          "entryName": "tombstone:scroll_buff_loot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{enchant:1b}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "data": 0.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "tombstone:scroll_buff"
+        },
+        {
+          "entryName": "tombstone:tablet_of_assistance_loot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{enchant:1b}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "tombstone:tablet_of_assistance"
+        },
+        {
+          "entryName": "tombstone:fishing_rod_of_misadventure_loot",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "function": "tombstone:delayed_nbt_loot"
+            }
+          ],
+          "name": "tombstone:fishing_rod_of_misadventure"
+        },
+        {
+          "entryName": "tombstone:familiar_receptacle_loot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "function": "tombstone:delayed_nbt_loot"
+            }
+          ],
+          "name": "tombstone:familiar_receptacle"
+        },
+        {
+          "entryName": "tombstone:tablet_of_home_loot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{enchant:1b}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "tombstone:tablet_of_home"
+        },
+        {
+          "entryName": "tombstone:scroll_buff_loot7",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{enchant:1b}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "data": 8.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "tombstone:scroll_buff"
+        }
+      ],
+      "rolls": 1.0
     },
     {
       "name": "main",

@@ -4,11 +4,11 @@
       "name": "chiromaw_hatchling",
       "entries": [
         {
-          "entryName": "thebetweenlands:angler_meat_raw",
+          "entryName": "thebetweenlands:anadia_meat_raw",
           "weight": 1,
           "quality": 0,
           "type": "item",
-          "name": "thebetweenlands:angler_meat_raw"
+          "name": "thebetweenlands:anadia_meat_raw"
         },
         {
           "entryName": "thebetweenlands:silt_crab_claw",

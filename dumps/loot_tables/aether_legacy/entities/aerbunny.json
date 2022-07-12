@@ -1,33 +1,116 @@
 {
   "pools": [
     {
-      "name": "string",
+      "name": "string_cutting_3",
       "entries": [
         {
-          "entryName": "minecraft:string",
+          "entryName": "meat",
           "weight": 1,
           "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 0.0,
-                "max": 2.0
-              },
-              "function": "minecraft:set_count"
-            },
-            {
-              "count": {
-                "min": 0.0,
-                "max": 1.0
-              },
-              "function": "minecraft:looting_enchant"
-            }
-          ],
-          "name": "minecraft:string"
+          "type": "loot_table",
+          "name": "hos:cutting/aerbunny_string_meat"
         }
       ],
+      "rolls": {
+        "min": 1.0,
+        "max": 2.0
+      },
+      "conditions": [
+        {
+          "value": 3,
+          "condition": "mist:skill_cutting"
+        }
+      ]
+    },
+    {
+      "name": "string_cutting_4",
+      "entries": [
+        {
+          "entryName": "meat",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "hos:cutting/aerbunny_string_meat"
+        }
+      ],
+      "rolls": {
+        "min": 1.0,
+        "max": 3.0
+      },
+      "conditions": [
+        {
+          "value": 4,
+          "condition": "mist:skill_cutting"
+        }
+      ]
+    },
+    {
+      "name": "string_cutting_1",
+      "entries": [
+        {
+          "entryName": "meat",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "hos:cutting/aerbunny_string_meat"
+        }
+      ],
+      "rolls": {
+        "min": 0.0,
+        "max": 1.0
+      },
+      "conditions": [
+        {
+          "value": 1,
+          "condition": "mist:skill_cutting"
+        }
+      ]
+    },
+    {
+      "name": "string_cutting_2",
+      "entries": [
+        {
+          "entryName": "meat",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "hos:cutting/aerbunny_string_meat"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "value": 2,
+          "condition": "mist:skill_cutting"
+        }
+      ]
+    },
+    {
+      "name": "string",
+      "entries": [],
       "rolls": 1.0
+    },
+    {
+      "name": "string_cutting_5",
+      "entries": [
+        {
+          "entryName": "meat",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "hos:cutting/aerbunny_string_meat"
+        }
+      ],
+      "rolls": {
+        "min": 2.0,
+        "max": 4.0
+      },
+      "conditions": [
+        {
+          "value": 5,
+          "condition": "mist:skill_cutting"
+        }
+      ]
     }
   ]
 }

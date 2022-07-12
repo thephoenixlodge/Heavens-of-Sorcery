@@ -1,0 +1,49 @@
+{
+  "pools": [
+    {
+      "name": "pearl",
+      "entries": [
+        {
+          "entryName": "thaumcraft:primordial_pearl",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "thaumcraft:primordial_pearl"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "loot_bag",
+      "entries": [
+        {
+          "entryName": "thaumcraft:loot_bag",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 2.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thaumcraft:loot_bag"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "research_notes",
+      "entries": [
+        {
+          "entryName": "thaumicaugmentation:research_notes",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "thaumicaugmentation:research_notes"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

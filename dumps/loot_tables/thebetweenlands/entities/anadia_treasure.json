@@ -1,0 +1,572 @@
+{
+  "pools": [
+    {
+      "name": "anadia_body",
+      "entries": [
+        {
+          "entryName": "shimmerstone",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "properties": {
+                "thebetweenlands:anadia_body_type": 0
+              },
+              "entity": "this",
+              "condition": "minecraft:entity_properties"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "size_start": 0.125,
+              "size_end": 0.95,
+              "min_count": 1,
+              "max_count": 1,
+              "function": "thebetweenlands:set_count_from_anadia"
+            }
+          ],
+          "name": "thebetweenlands:shimmer_stone"
+        },
+        {
+          "entryName": "rubber_boots",
+          "weight": 2,
+          "quality": 0,
+          "conditions": [
+            {
+              "properties": {
+                "thebetweenlands:anadia_body_type": 0
+              },
+              "entity": "this",
+              "condition": "minecraft:entity_properties"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "size_start": 0.125,
+              "size_end": 0.95,
+              "min_count": 1,
+              "max_count": 1,
+              "function": "thebetweenlands:set_count_from_anadia"
+            },
+            {
+              "damage": 0.45,
+              "function": "minecraft:set_damage"
+            }
+          ],
+          "name": "thebetweenlands:rubber_boots"
+        },
+        {
+          "entryName": "pearls_0",
+          "weight": 3,
+          "quality": 0,
+          "conditions": [
+            {
+              "properties": {
+                "thebetweenlands:anadia_body_type": 0
+              },
+              "entity": "this",
+              "condition": "minecraft:entity_properties"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "size_start": 0.125,
+              "size_end": 0.95,
+              "min_count": 1,
+              "max_count": 2,
+              "function": "thebetweenlands:set_count_from_anadia"
+            }
+          ],
+          "name": "thebetweenlands:rock_snot_pearl"
+        },
+        {
+          "entryName": "loot_scraps_0",
+          "weight": 3,
+          "quality": 0,
+          "conditions": [
+            {
+              "properties": {
+                "thebetweenlands:anadia_body_type": 0
+              },
+              "entity": "this",
+              "condition": "minecraft:entity_properties"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "size_start": 0.125,
+              "size_end": 0.95,
+              "min_count": 1,
+              "max_count": 2,
+              "function": "thebetweenlands:set_count_from_anadia"
+            },
+            {
+              "data": 48.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thebetweenlands:items_misc"
+        },
+        {
+          "entryName": "syrmorite_nuggets_0",
+          "weight": 3,
+          "quality": 0,
+          "conditions": [
+            {
+              "properties": {
+                "thebetweenlands:anadia_body_type": 0
+              },
+              "entity": "this",
+              "condition": "minecraft:entity_properties"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "size_start": 0.125,
+              "size_end": 0.95,
+              "min_count": 2,
+              "max_count": 4,
+              "function": "thebetweenlands:set_count_from_anadia"
+            },
+            {
+              "data": 41.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thebetweenlands:items_misc"
+        },
+        {
+          "entryName": "vortex_upgrade",
+          "weight": 2,
+          "quality": 0,
+          "conditions": [
+            {
+              "properties": {
+                "thebetweenlands:anadia_body_type": 0
+              },
+              "entity": "this",
+              "condition": "minecraft:entity_properties"
+            }
+          ],
+          "type": "item",
+          "name": "thebetweenlands:aa_upgrade_vortex"
+        },
+        {
+          "entryName": "urchin_upgrade",
+          "weight": 2,
+          "quality": 0,
+          "conditions": [
+            {
+              "properties": {
+                "thebetweenlands:anadia_body_type": 0
+              },
+              "entity": "this",
+              "condition": "minecraft:entity_properties"
+            }
+          ],
+          "type": "item",
+          "name": "thebetweenlands:aa_upgrade_urchin"
+        },
+        {
+          "entryName": "aqua_middle_gem_1",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "properties": {
+                "thebetweenlands:anadia_body_type": 1
+              },
+              "entity": "this",
+              "condition": "minecraft:entity_properties"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "size_start": 0.125,
+              "size_end": 0.95,
+              "min_count": 1,
+              "max_count": 1,
+              "function": "thebetweenlands:set_count_from_anadia"
+            }
+          ],
+          "name": "thebetweenlands:aqua_middle_gem"
+        },
+        {
+          "entryName": "green_middle_gem_1",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "properties": {
+                "thebetweenlands:anadia_body_type": 1
+              },
+              "entity": "this",
+              "condition": "minecraft:entity_properties"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "size_start": 0.125,
+              "size_end": 0.95,
+              "min_count": 1,
+              "max_count": 1,
+              "function": "thebetweenlands:set_count_from_anadia"
+            }
+          ],
+          "name": "thebetweenlands:green_middle_gem"
+        },
+        {
+          "entryName": "crimson_middle_gem_1",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "properties": {
+                "thebetweenlands:anadia_body_type": 1
+              },
+              "entity": "this",
+              "condition": "minecraft:entity_properties"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "size_start": 0.125,
+              "size_end": 0.95,
+              "min_count": 1,
+              "max_count": 1,
+              "function": "thebetweenlands:set_count_from_anadia"
+            }
+          ],
+          "name": "thebetweenlands:crimson_middle_gem"
+        },
+        {
+          "entryName": "pearls_1",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "properties": {
+                "thebetweenlands:anadia_body_type": 1
+              },
+              "entity": "this",
+              "condition": "minecraft:entity_properties"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "size_start": 0.125,
+              "size_end": 0.95,
+              "min_count": 2,
+              "max_count": 3,
+              "function": "thebetweenlands:set_count_from_anadia"
+            }
+          ],
+          "name": "thebetweenlands:rock_snot_pearl"
+        },
+        {
+          "entryName": "loot_scraps_1",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "properties": {
+                "thebetweenlands:anadia_body_type": 1
+              },
+              "entity": "this",
+              "condition": "minecraft:entity_properties"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "size_start": 0.125,
+              "size_end": 0.95,
+              "min_count": 1,
+              "max_count": 2,
+              "function": "thebetweenlands:set_count_from_anadia"
+            },
+            {
+              "data": 48.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thebetweenlands:items_misc"
+        },
+        {
+          "entryName": "syrmorite_ingot_1",
+          "weight": 3,
+          "quality": 0,
+          "conditions": [
+            {
+              "properties": {
+                "thebetweenlands:anadia_body_type": 1
+              },
+              "entity": "this",
+              "condition": "minecraft:entity_properties"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "size_start": 0.125,
+              "size_end": 0.95,
+              "min_count": 1,
+              "max_count": 2,
+              "function": "thebetweenlands:set_count_from_anadia"
+            },
+            {
+              "data": 41.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thebetweenlands:items_misc"
+        },
+        {
+          "entryName": "glide_upgrade",
+          "weight": 2,
+          "quality": 0,
+          "conditions": [
+            {
+              "properties": {
+                "thebetweenlands:anadia_body_type": 1
+              },
+              "entity": "this",
+              "condition": "minecraft:entity_properties"
+            }
+          ],
+          "type": "item",
+          "name": "thebetweenlands:aa_upgrade_glide"
+        },
+        {
+          "entryName": "electric_upgrade",
+          "weight": 2,
+          "quality": 0,
+          "conditions": [
+            {
+              "properties": {
+                "thebetweenlands:anadia_body_type": 1
+              },
+              "entity": "this",
+              "condition": "minecraft:entity_properties"
+            }
+          ],
+          "type": "item",
+          "name": "thebetweenlands:aa_upgrade_electric"
+        },
+        {
+          "entryName": "valonite_splinter",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "properties": {
+                "thebetweenlands:anadia_body_type": 2
+              },
+              "entity": "this",
+              "condition": "minecraft:entity_properties"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "size_start": 0.125,
+              "size_end": 0.95,
+              "min_count": 2,
+              "max_count": 4,
+              "function": "thebetweenlands:set_count_from_anadia"
+            },
+            {
+              "data": 43.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thebetweenlands:items_misc"
+        },
+        {
+          "entryName": "aqua_middle_gem_2",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "properties": {
+                "thebetweenlands:anadia_body_type": 2
+              },
+              "entity": "this",
+              "condition": "minecraft:entity_properties"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "size_start": 0.125,
+              "size_end": 0.95,
+              "min_count": 1,
+              "max_count": 2,
+              "function": "thebetweenlands:set_count_from_anadia"
+            }
+          ],
+          "name": "thebetweenlands:aqua_middle_gem"
+        },
+        {
+          "entryName": "green_middle_gem_2",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "properties": {
+                "thebetweenlands:anadia_body_type": 2
+              },
+              "entity": "this",
+              "condition": "minecraft:entity_properties"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "size_start": 0.125,
+              "size_end": 0.95,
+              "min_count": 1,
+              "max_count": 2,
+              "function": "thebetweenlands:set_count_from_anadia"
+            }
+          ],
+          "name": "thebetweenlands:green_middle_gem"
+        },
+        {
+          "entryName": "crimson_middle_gem_2",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "properties": {
+                "thebetweenlands:anadia_body_type": 2
+              },
+              "entity": "this",
+              "condition": "minecraft:entity_properties"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "size_start": 0.125,
+              "size_end": 0.95,
+              "min_count": 1,
+              "max_count": 2,
+              "function": "thebetweenlands:set_count_from_anadia"
+            }
+          ],
+          "name": "thebetweenlands:crimson_middle_gem"
+        },
+        {
+          "entryName": "pearls_2",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "properties": {
+                "thebetweenlands:anadia_body_type": 2
+              },
+              "entity": "this",
+              "condition": "minecraft:entity_properties"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "size_start": 0.125,
+              "size_end": 0.95,
+              "min_count": 2,
+              "max_count": 4,
+              "function": "thebetweenlands:set_count_from_anadia"
+            }
+          ],
+          "name": "thebetweenlands:rock_snot_pearl"
+        },
+        {
+          "entryName": "loot_scraps_2",
+          "weight": 2,
+          "quality": 0,
+          "conditions": [
+            {
+              "properties": {
+                "thebetweenlands:anadia_body_type": 2
+              },
+              "entity": "this",
+              "condition": "minecraft:entity_properties"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "size_start": 0.125,
+              "size_end": 0.95,
+              "min_count": 1,
+              "max_count": 3,
+              "function": "thebetweenlands:set_count_from_anadia"
+            },
+            {
+              "data": 48.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thebetweenlands:items_misc"
+        },
+        {
+          "entryName": "syrmorite_ingot_2",
+          "weight": 2,
+          "quality": 0,
+          "conditions": [
+            {
+              "properties": {
+                "thebetweenlands:anadia_body_type": 2
+              },
+              "entity": "this",
+              "condition": "minecraft:entity_properties"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "size_start": 0.125,
+              "size_end": 0.95,
+              "min_count": 2,
+              "max_count": 3,
+              "function": "thebetweenlands:set_count_from_anadia"
+            },
+            {
+              "data": 41.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thebetweenlands:items_misc"
+        },
+        {
+          "entryName": "leap_upgrade",
+          "weight": 3,
+          "quality": 0,
+          "conditions": [
+            {
+              "properties": {
+                "thebetweenlands:anadia_body_type": 2
+              },
+              "entity": "this",
+              "condition": "minecraft:entity_properties"
+            }
+          ],
+          "type": "item",
+          "name": "thebetweenlands:aa_upgrade_leap"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

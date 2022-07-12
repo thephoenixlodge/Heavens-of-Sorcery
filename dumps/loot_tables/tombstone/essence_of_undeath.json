@@ -1,0 +1,26 @@
+{
+  "pools": [
+    {
+      "name": "tombstone:essence_of_undeath",
+      "entries": [
+        {
+          "entryName": "tombstone:crafting_ingredient",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 4.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "function": "tombstone:as_gift"
+            }
+          ],
+          "name": "tombstone:crafting_ingredient"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

@@ -88,7 +88,8 @@
                 5,
                 7,
                 8,
-                9
+                9,
+                13
               ],
               "function": "mist:set_array_data"
             }
@@ -97,7 +98,7 @@
         },
         {
           "entryName": "empty",
-          "weight": 3,
+          "weight": 2,
           "quality": 0,
           "type": "empty"
         }

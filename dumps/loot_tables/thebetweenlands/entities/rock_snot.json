@@ -1,0 +1,108 @@
+{
+  "pools": [
+    {
+      "name": "rock_snot",
+      "entries": [
+        {
+          "entryName": "thebetweenlands:items_misc",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 58.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "thebetweenlands:items_misc"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "properties": {
+            "thebetweenlands:rock_snot_placed": false
+          },
+          "entity": "this",
+          "condition": "minecraft:entity_properties"
+        }
+      ]
+    },
+    {
+      "name": "rock_snot_special",
+      "entries": [
+        {
+          "entryName": "thebetweenlands:rock_snot_pearl",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 2.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "thebetweenlands:rock_snot_pearl"
+        },
+        {
+          "entryName": "empty",
+          "weight": 20,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "properties": {
+            "thebetweenlands:rock_snot_placed": false
+          },
+          "entity": "this",
+          "condition": "minecraft:entity_properties"
+        }
+      ]
+    },
+    {
+      "name": "snot_pod",
+      "entries": [
+        {
+          "entryName": "thebetweenlands:snot_pod",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "thebetweenlands:snot_pod"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "properties": {
+            "thebetweenlands:rock_snot_placed": true
+          },
+          "entity": "this",
+          "condition": "minecraft:entity_properties"
+        }
+      ]
+    }
+  ]
+}

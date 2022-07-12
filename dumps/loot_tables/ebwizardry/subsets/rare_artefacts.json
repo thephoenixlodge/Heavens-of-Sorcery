@@ -11,13 +11,6 @@
           "name": "ebwizardry:ring_condensing"
         },
         {
-          "entryName": "ebwizardry:ring_battlemage",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "name": "ebwizardry:ring_battlemage"
-        },
-        {
           "entryName": "ebwizardry:ring_disintegration",
           "weight": 1,
           "quality": 0,
@@ -37,13 +30,6 @@
           "quality": 0,
           "type": "item",
           "name": "ebwizardry:ring_storm"
-        },
-        {
-          "entryName": "ebwizardry:ring_soulbinding",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "name": "ebwizardry:ring_soulbinding"
         },
         {
           "entryName": "ebwizardry:ring_leeching",
@@ -72,6 +58,13 @@
           "quality": 0,
           "type": "item",
           "name": "ebwizardry:ring_full_moon"
+        },
+        {
+          "entryName": "ebwizardry:ring_evoker",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "ebwizardry:ring_evoker"
         },
         {
           "entryName": "ebwizardry:ring_blockwrangler",
@@ -151,6 +144,13 @@
           "name": "ebwizardry:charm_haggler"
         },
         {
+          "entryName": "ebwizardry:charm_move_speed",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "ebwizardry:charm_move_speed"
+        },
+        {
           "entryName": "ebwizardry:charm_auto_smelt",
           "weight": 1,
           "quality": 0,
@@ -165,11 +165,18 @@
           "name": "ebwizardry:charm_storm"
         },
         {
-          "entryName": "ebwizardry:charm_minion_variants",
+          "entryName": "ebwizardry:charm_undead_helmets",
           "weight": 1,
           "quality": 0,
           "type": "item",
-          "name": "ebwizardry:charm_minion_variants"
+          "name": "ebwizardry:charm_undead_helmets"
+        },
+        {
+          "entryName": "ebwizardry:charm_hunger_casting",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "ebwizardry:charm_hunger_casting"
         },
         {
           "entryName": "ebwizardry:charm_flight",
@@ -191,6 +198,20 @@
           "quality": 0,
           "type": "item",
           "name": "ebwizardry:charm_light"
+        },
+        {
+          "entryName": "ebwizardry:charm_transportation",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "ebwizardry:charm_transportation"
+        },
+        {
+          "entryName": "ebwizardry:charm_mount_teleporting",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "ebwizardry:charm_mount_teleporting"
         }
       ],
       "rolls": 1.0

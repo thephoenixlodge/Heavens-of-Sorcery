@@ -79,6 +79,13 @@
             }
           ],
           "name": "minecraft:book"
+        },
+        {
+          "entryName": "ebwizardry_additive_entry",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "ebwizardry:gameplay/fishing/treasure_additions"
         }
       ],
       "rolls": 1.0

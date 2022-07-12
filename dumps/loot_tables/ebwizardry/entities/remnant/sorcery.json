@@ -1,0 +1,30 @@
+{
+  "pools": [
+    {
+      "name": "spectral_dust",
+      "entries": [
+        {
+          "entryName": "ebwizardry:spectral_dust",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 6.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "ebwizardry:spectral_dust"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

@@ -8,6 +8,11 @@
           "weight": 1,
           "quality": 0,
           "type": "item",
+          "functions": [
+            {
+              "function": "tombstone:as_gift"
+            }
+          ],
           "name": "tombstone:soul_receptacle"
         }
       ],
