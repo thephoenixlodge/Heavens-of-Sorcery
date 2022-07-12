@@ -61,7 +61,6 @@ val meats = {
 	<mist:meat_food:11> : <mist:meat_cook:11>,
 	<mist:meat_food:12> : <mist:meat_cook:12>,
 	<mist:meat_food:13> : <mist:meat_cook:13>,
-	<thebetweenlands:angler_meat_raw> : <thebetweenlands:angler_meat_cooked>,
 	<blue_skies:raw_azulfo_beef> : <blue_skies:azulfo_steak>,
 	<blue_skies:raw_venison> : <blue_skies:venison_steak>,
 	<mysticalworld:venison> : <mysticalworld:cooked_venison>,
