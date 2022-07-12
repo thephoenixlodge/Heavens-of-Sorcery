@@ -354,25 +354,25 @@ RuneAltar.removeRecipe(runeSpring);
 RuneAltar.addRecipe(runeSpring, [runeWater, runeFire, dictSaplingGoldenOak, dictSaplingGoldenOak, dictSaplingGoldenOak, blueBerry], 8000);
 //Lust
 RuneAltar.removeRecipe(runeLust);
-RuneAltar.addRecipe(runeLust, [tokenJoy, tokenJoy, runeAir, runeSummer], 12000);
+RuneAltar.addRecipe(runeLust * 2, [tokenJoy, tokenJoy, runeAir, runeSummer], 12000);
 //Gluttony
 RuneAltar.removeRecipe(runeGluttony);
-RuneAltar.addRecipe(runeGluttony, [tokenJoy, tokenFear, runeFire, runeWinter], 12000);
+RuneAltar.addRecipe(runeGluttony * 2, [tokenJoy, tokenFear, runeFire, runeWinter], 12000);
 //Greed
 RuneAltar.removeRecipe(runeGreed);
-RuneAltar.addRecipe(runeGreed, [tokenFear, tokenAnger, runeWater, runeSpring], 12000);
+RuneAltar.addRecipe(runeGreed * 2, [tokenFear, tokenAnger, runeWater, runeSpring], 12000);
 //Wrath
 RuneAltar.removeRecipe(runeWrath);
-RuneAltar.addRecipe(runeWrath, [tokenAnger, tokenAnger, runeEarth, runeWinter], 12000);
+RuneAltar.addRecipe(runeWrath * 2, [tokenAnger, tokenAnger, runeEarth, runeWinter], 12000);
 //Envy
 RuneAltar.removeRecipe(runeEnvy);
-RuneAltar.addRecipe(runeEnvy, [tokenAnger, tokenSorrow, runeWater, runeWinter], 12000);
+RuneAltar.addRecipe(runeEnvy * 2, [tokenAnger, tokenSorrow, runeWater, runeWinter], 12000);
 //Sloth
 RuneAltar.removeRecipe(runeSloth);
-RuneAltar.addRecipe(runeSloth, [tokenSorrow, tokenFear, runeAir, runeAutumn], 12000);
+RuneAltar.addRecipe(runeSloth * 2, [tokenSorrow, tokenFear, runeAir, runeAutumn], 12000);
 //Pride
 RuneAltar.removeRecipe(runePride);
-RuneAltar.addRecipe(runePride, [tokenJoy, tokenSorrow, runeFire, runeSummer], 12000);
+RuneAltar.addRecipe(runePride * 2, [tokenJoy, tokenSorrow, runeFire, runeSummer], 12000);
 
 //Add recipe for getting slate from Rustic and Earthworks
 PureDaisy.addRecipe(basalt, slate);

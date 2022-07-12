@@ -151,16 +151,16 @@ TreeRitual.addRecipe("cache_recharge_powder", saplingStarlit, powderNoStorage * 
 
 //Joy token
 TreeRitual.removeRecipe(tokenJoy);
-TreeRitual.addRecipe("token_joy", saplingBluebright, tokenJoy * 2, 200, [bottledSunlight, goldLeaf, mysticalFlower, gemTurquoise, illuminationPowder, ingotHorizonite]);
+TreeRitual.addRecipe("token_joy", saplingBluebright, tokenJoy * 3, 250, [bottledSunlight, goldLeaf, mysticalFlower, gemTurquoise, illuminationPowder, ingotHorizonite]);
 //Anger
 TreeRitual.removeRecipe(tokenAnger);
-TreeRitual.addRecipe("token_anger", saplingMaple, tokenAnger * 2, 200, [bottledGhosts, goldLeaf, swordHorizonite, enderEye, zealLighter, gemPyrope]);
+TreeRitual.addRecipe("token_anger", saplingMaple, tokenAnger * 3, 250, [bottledGhosts, goldLeaf, swordHorizonite, enderEye, zealLighter, gemPyrope]);
 //Fear
 TreeRitual.removeRecipe(tokenFear);
-TreeRitual.addRecipe("token_fear", saplingDusk, tokenFear * 2, 200, [bottledGhosts, goldLeaf, shieldZanite, soulBead, darkCrystal, gemDiopside]);
+TreeRitual.addRecipe("token_fear", saplingDusk, tokenFear * 3, 250, [bottledGhosts, goldLeaf, shieldZanite, soulBead, darkCrystal, gemDiopside]);
 //Sorrow
 TreeRitual.removeRecipe(tokenSorrow);
-TreeRitual.addRecipe("token_sorrow", saplingStarlit, tokenSorrow * 2, 200, [bottledSunlight, goldLeaf, rawCarabeef, crystalGlass, ghastTear, shardMoonstone]);
+TreeRitual.addRecipe("token_sorrow", saplingStarlit, tokenSorrow * 3, 250, [bottledSunlight, goldLeaf, rawCarabeef, crystalGlass, ghastTear, shardMoonstone]);
 
 //Wooden stand recipe
 recipes.remove(woodStand);
