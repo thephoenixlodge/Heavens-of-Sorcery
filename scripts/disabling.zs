@@ -343,14 +343,14 @@ for poolTallow in poolsTallow {
 for poolTallowMaxi in poolsTallowMaxi {
 	poolTallowMaxi.removeEntry("mist:tallow");
 }
-poolsTallow[0].addItemEntryHelper(tallowBW, 1, 0, [], []);
-poolsTallow[1].addItemEntryHelper(tallowBW, 2, 0, [Functions.lootingEnchantBonus(0, 1, 2)], []);
-poolsTallow[2].addItemEntryHelper(tallowBW, 1, 0, [Functions.lootingEnchantBonus(0, 1, 2)], []);
-poolsTallow[3].addItemEntryHelper(tallowBW, 1, 0, [Functions.setCount(1, 2), Functions.lootingEnchantBonus(0, 1, 3)], []);
-poolsTallowMaxi[0].addItemEntryHelper(tallowBW, 1, 0, [Functions.setCount(0, 2)], []);
-poolsTallowMaxi[1].addItemEntryHelper(tallowBW, 1, 0, [Functions.setCount(1, 2), Functions.lootingEnchantBonus(0, 1, 2)], []);
-poolsTallowMaxi[2].addItemEntryHelper(tallowBW, 1, 0, [Functions.setCount(2, 3), Functions.lootingEnchantBonus(0, 1, 4)], []);
-poolsTallowMaxi[3].addItemEntryHelper(tallowBW, 1, 0, [Functions.setCount(2, 4), Functions.lootingEnchantBonus(0, 1, 5)], []);
+poolsTallow[0].addItemEntry(tallowBW, 1, 0, [], []);
+poolsTallow[1].addItemEntry(tallowBW, 2, 0, [Functions.lootingEnchantBonus(0, 1, 2)], []);
+poolsTallow[2].addItemEntry(tallowBW, 1, 0, [Functions.lootingEnchantBonus(0, 1, 2)], []);
+poolsTallow[3].addItemEntry(tallowBW, 1, 0, [Functions.setCount(1, 2), Functions.lootingEnchantBonus(0, 1, 3)], []);
+poolsTallowMaxi[0].addItemEntry(tallowBW, 1, 0, [Functions.setCount(0, 2)], []);
+poolsTallowMaxi[1].addItemEntry(tallowBW, 1, 0, [Functions.setCount(1, 2), Functions.lootingEnchantBonus(0, 1, 2)], []);
+poolsTallowMaxi[2].addItemEntry(tallowBW, 1, 0, [Functions.setCount(2, 3), Functions.lootingEnchantBonus(0, 1, 4)], []);
+poolsTallowMaxi[3].addItemEntry(tallowBW, 1, 0, [Functions.setCount(2, 4), Functions.lootingEnchantBonus(0, 1, 5)], []);
 
 //remove branches from stick oredict
 for branch in branches {

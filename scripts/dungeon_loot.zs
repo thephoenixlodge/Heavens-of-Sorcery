@@ -303,9 +303,9 @@ poolRaid.addItemEntry(portalCore, 14);
 poolRaid.addItemEntry(elytra, 6);
 
 //reforge tokens
-poolRaid.addItemEntryHelper(tokenReforge, 10, 1, [Functions.setCount(3, 8)], []);
-poolExtra.addItemEntryHelper(tokenReforge, 20, 2, [Functions.setCount(2, 7)], []);
-poolDimDoorsNew.addItemEntryHelper(tokenReforge, 5, 1, [Functions.setCount(3, 8)], []);
+poolRaid.addItemEntry(tokenReforge, 10, 1, [Functions.setCount(3, 8)], []);
+poolExtra.addItemEntry(tokenReforge, 20, 2, [Functions.setCount(2, 7)], []);
+poolDimDoorsNew.addItemEntry(tokenReforge, 5, 1, [Functions.setCount(3, 8)], []);
 tokenReforge.addTooltip(format.gold("Use in Reforging Station to reroll equipment Traits"));
 
 //remove Potion Orbs
@@ -323,22 +323,22 @@ for pool in poolsToRemove {
 for item, weight in extrasSimpleMap {
 	poolExtra.addItemEntry(item, weight);	
 }
-poolExtra.addItemEntryHelper(grassSeeds, 6, 1, [Functions.setMetadata(0, 8)], []);
-poolExtra.addItemEntryHelper(chestUpgrade, 4, 2, [Functions.setMetadata(0, 14)], []);
-poolExtra.addItemEntryHelper(illuminationPowder, 6, 1, [Functions.setCount(1, 10)], []);
-poolExtra.addItemEntryHelper(doubleFlowers, 5, 1, [Functions.setMetadata(0, 1)], []);
-poolExtra.addItemEntryHelper(doubleFlowers, 5, 1, [Functions.setMetadata(4, 5)], []);
+poolExtra.addItemEntry(grassSeeds, 6, 1, [Functions.setMetadata(0, 8)], []);
+poolExtra.addItemEntry(chestUpgrade, 4, 2, [Functions.setMetadata(0, 14)], []);
+poolExtra.addItemEntry(illuminationPowder, 6, 1, [Functions.setCount(1, 10)], []);
+poolExtra.addItemEntry(doubleFlowers, 5, 1, [Functions.setMetadata(0, 1)], []);
+poolExtra.addItemEntry(doubleFlowers, 5, 1, [Functions.setMetadata(4, 5)], []);
 for box in shulkerBoxes {
 	poolExtra.addItemEntry(box, 2);
 	box.addTooltip(format.gold("Insert items without placing: Right click the item directly onto it in your inventory!"));
 	box.addTooltip(format.gold("Does NOT work on your hotbar, or with other UIs open"));
 }
 
-poolRare.addItemEntryHelper(beacon, 1, 3, [Functions.setCount(0, 1)], []);
-poolRare.addItemEntryHelper(pickarang, 3, 2, [Functions.setCount(0, 1)], []);
-poolRare.addItemEntryHelper(wandUnbreakable, 1, 4, [Functions.setCount(0, 1)], []);
-poolRare.addItemEntryHelper(moltenCore, 5, 1, [Functions.setCount(0, 1)], []);
-poolRare.addItemEntryHelper(elytra, 3, 1, [Functions.setCount(0, 1)], []);
+poolRare.addItemEntry(beacon, 1, 3, [Functions.setCount(0, 1)], []);
+poolRare.addItemEntry(pickarang, 3, 2, [Functions.setCount(0, 1)], []);
+poolRare.addItemEntry(wandUnbreakable, 1, 4, [Functions.setCount(0, 1)], []);
+poolRare.addItemEntry(moltenCore, 5, 1, [Functions.setCount(0, 1)], []);
+poolRare.addItemEntry(elytra, 3, 1, [Functions.setCount(0, 1)], []);
 
 //Dim doors
 poolDimDoorsNew.addItemEntry(tornPage, 2);
@@ -346,11 +346,11 @@ poolDimDoorsNew.addItemEntry(sentientSword, 2);
 
 //foxhound
 tableFoxhound.removePool("leather");
-poolDevilDust.addItemEntryHelper(devilDust, 1, 0, [Functions.setCount(0, 3), Functions.lootingEnchantBonus(0, 1, 5)], []);
+poolDevilDust.addItemEntry(devilDust, 1, 0, [Functions.setCount(0, 3), Functions.lootingEnchantBonus(0, 1, 5)], []);
 
 //frog
 tableFrogQ.removePool("main");
-poolFrogLeg.addItemEntryHelper(frogLeg, 1, 0, [], []);
+poolFrogLeg.addItemEntry(frogLeg, 1, 0, [], []);
 
 //nether fortress
 for poolNether in netherPoolsToRemove {
@@ -359,21 +359,21 @@ for poolNether in netherPoolsToRemove {
 for netherItem, weight in extrasNetherMap {
 	poolNetherExtra.addItemEntry(netherItem, weight);	
 }
-poolNetherExtra.addItemEntryHelper(biomeStones, 10, 1, [Functions.setMetadata(8, 15), Functions.setCount(5, 100)], []);
-poolNetherExtra.addItemEntryHelper(cobblestone, 15, 1, [Functions.setCount(5, 100)], []);
-poolNetherExtra.addItemEntryHelper(coal, 4, 1, [Functions.setCount(1, 3)], []);
+poolNetherExtra.addItemEntry(biomeStones, 10, 1, [Functions.setMetadata(8, 15), Functions.setCount(5, 100)], []);
+poolNetherExtra.addItemEntry(cobblestone, 15, 1, [Functions.setCount(5, 100)], []);
+poolNetherExtra.addItemEntry(coal, 4, 1, [Functions.setCount(1, 3)], []);
 for trash in netherMainRemovals {
 	poolNetherMain.removeEntry(trash);
 }
 
-poolNetherRare.addItemEntryHelper(iChisel, 2, 3, [Functions.setCount(0, 1)], []);
-poolNetherRare.addItemEntryHelper(advSimilsax, 2, 2, [Functions.setCount(0, 1)], []);
-poolNetherRare.addItemEntryHelper(shieldWood, 3, 4, [Functions.setCount(0, 1)], []);
-poolNetherRare.addItemEntryHelper(shieldStone, 2, 1, [Functions.setCount(0, 1)], []);
-poolNetherRare.addItemEntryHelper(obsidian, 7, 1, [Functions.setCount(0, 5)], []);
-poolNetherRare.addItemEntryHelper(chestUpgrade, 6, 1, [Functions.setCount(0, 1), Functions.setMetadata(0, 14)], []);
-poolNetherRare.addItemEntryHelper(autoBreaker, 5, 1, [], []);
-poolNetherRare.addItemEntryHelper(tokenReforge, 6, 1, [Functions.setCount(1, 3)], []);
+poolNetherRare.addItemEntry(iChisel, 2, 3, [Functions.setCount(0, 1)], []);
+poolNetherRare.addItemEntry(advSimilsax, 2, 2, [Functions.setCount(0, 1)], []);
+poolNetherRare.addItemEntry(shieldWood, 3, 4, [Functions.setCount(0, 1)], []);
+poolNetherRare.addItemEntry(shieldStone, 2, 1, [Functions.setCount(0, 1)], []);
+poolNetherRare.addItemEntry(obsidian, 7, 1, [Functions.setCount(0, 5)], []);
+poolNetherRare.addItemEntry(chestUpgrade, 6, 1, [Functions.setCount(0, 1), Functions.setMetadata(0, 14)], []);
+poolNetherRare.addItemEntry(autoBreaker, 5, 1, [], []);
+poolNetherRare.addItemEntry(tokenReforge, 6, 1, [Functions.setCount(1, 3)], []);
 
 //Aether dungeons
 for aetherItem, weight in extrasAetherMap {
@@ -381,22 +381,22 @@ for aetherItem, weight in extrasAetherMap {
 	poolAetherSilverChest.addItemEntry(aetherItem, weight);
 	poolAetherGoldReward.addItemEntry(aetherItem, weight);
 }
-poolAetherBronzeChest.addItemEntryHelper(lapis, 16, 1, [Functions.setCount(1, 20)], []);
-poolAetherSilverChest.addItemEntryHelper(lapis, 16, 1, [Functions.setCount(1, 20)], []);
-poolAetherGoldReward.addItemEntryHelper(lapis, 16, 1, [Functions.setCount(1, 20)], []);
-poolAetherBronzeChest.addItemEntryHelper(chestUpgrade, 3, 1, [Functions.setCount(0, 1), Functions.setMetadata(0, 14)], []);
-poolAetherSilverChest.addItemEntryHelper(chestUpgrade, 3, 1, [Functions.setCount(0, 1), Functions.setMetadata(0, 14)], []);
-poolAetherGoldReward.addItemEntryHelper(chestUpgrade, 3, 1, [Functions.setCount(0, 1), Functions.setMetadata(0, 14)], []);
-poolAetherBronzeReward.addItemEntryHelper(iChisel, 2, 3, [Functions.setCount(0, 1)], []);
-poolAetherBronzeReward.addItemEntryHelper(skyRod, 2, 3, [Functions.setCount(0, 1)], []);
-poolAetherBronzeReward.addItemEntryHelper(chorusFlower, 2, 3, [Functions.setCount(1, 2)], []);
-poolAetherSilverReward.addItemEntryHelper(elytra, 3, 1, [Functions.setCount(0, 1)], []);
-poolAetherSilverReward.addItemEntryHelper(wandUnbreakable, 1, 4, [Functions.setCount(0, 1)], []);
-poolAetherSilverReward.addItemEntryHelper(totemUndying, 1, 1, [Functions.setCount(0, 1)], []);
-poolAetherSilverReward.addItemEntryHelper(overgrowthSeed, 2, 1, [Functions.setCount(0, 1)], []);
-poolAetherGoldReward.addItemEntryHelper(overgrowthSeed, 3, 1, [Functions.setCount(0, 1)], []);
-poolAetherGoldReward.addItemEntryHelper(laputaShard, 2, 1, [Functions.setCount(0, 1), Functions.setMetadata(0, 19)], []);
-poolAetherGoldReward.addItemEntryHelper(totemUndying, 3, 1, [Functions.setCount(0, 1)], []);
+poolAetherBronzeChest.addItemEntry(lapis, 16, 1, [Functions.setCount(1, 20)], []);
+poolAetherSilverChest.addItemEntry(lapis, 16, 1, [Functions.setCount(1, 20)], []);
+poolAetherGoldReward.addItemEntry(lapis, 16, 1, [Functions.setCount(1, 20)], []);
+poolAetherBronzeChest.addItemEntry(chestUpgrade, 3, 1, [Functions.setCount(0, 1), Functions.setMetadata(0, 14)], []);
+poolAetherSilverChest.addItemEntry(chestUpgrade, 3, 1, [Functions.setCount(0, 1), Functions.setMetadata(0, 14)], []);
+poolAetherGoldReward.addItemEntry(chestUpgrade, 3, 1, [Functions.setCount(0, 1), Functions.setMetadata(0, 14)], []);
+poolAetherBronzeReward.addItemEntry(iChisel, 2, 3, [Functions.setCount(0, 1)], []);
+poolAetherBronzeReward.addItemEntry(skyRod, 2, 3, [Functions.setCount(0, 1)], []);
+poolAetherBronzeReward.addItemEntry(chorusFlower, 2, 3, [Functions.setCount(1, 2)], []);
+poolAetherSilverReward.addItemEntry(elytra, 3, 1, [Functions.setCount(0, 1)], []);
+poolAetherSilverReward.addItemEntry(wandUnbreakable, 1, 4, [Functions.setCount(0, 1)], []);
+poolAetherSilverReward.addItemEntry(totemUndying, 1, 1, [Functions.setCount(0, 1)], []);
+poolAetherSilverReward.addItemEntry(overgrowthSeed, 2, 1, [Functions.setCount(0, 1)], []);
+poolAetherGoldReward.addItemEntry(overgrowthSeed, 3, 1, [Functions.setCount(0, 1)], []);
+poolAetherGoldReward.addItemEntry(laputaShard, 2, 1, [Functions.setCount(0, 1), Functions.setMetadata(0, 19)], []);
+poolAetherGoldReward.addItemEntry(totemUndying, 3, 1, [Functions.setCount(0, 1)], []);
 
 //Blue Skies
 for blueItem, weight in extrasBSMap {
@@ -409,101 +409,101 @@ for blueItem, weight in extrasBSMap {
 poolBSStudy.addItemEntry(caveIlluminator, 3);
 poolBSPrisonBright.addItemEntry(caveIlluminator, 3);
 poolBSPrisonDawn.addItemEntry(caveIlluminator, 3);
-poolBSStudy.addItemEntryHelper(sparkUpgrade, 4, 1, [Functions.setMetadata(0, 3)], []);
-poolBSPrisonBright.addItemEntryHelper(sparkUpgrade, 4, 1, [Functions.setMetadata(0, 3)], []);
-poolBSPrisonDawn.addItemEntryHelper(sparkUpgrade, 4, 1, [Functions.setMetadata(0, 3)], []);
-poolBSLibrary.addItemEntryHelper(book, 10, 1, [Functions.enchantWithLevels(25, 35, false)], []);
-poolBSLibrary.addItemEntryHelper(book, 2, 1, [Functions.enchantWithLevels(25, 35, true)], []);
-poolBSVillageBright.addItemEntryHelper(lapis, 16, 1, [Functions.setCount(1, 20)], []);
-poolBSVillageDawn.addItemEntryHelper(lapis, 16, 1, [Functions.setCount(1, 20)], []);
-poolBSStudy.addItemEntryHelper(lapis, 16, 1, [Functions.setCount(1, 20)], []);
-poolBSPrisonBright.addItemEntryHelper(lapis, 16, 1, [Functions.setCount(1, 20)], []);
-poolBSPrisonDawn.addItemEntryHelper(lapis, 16, 1, [Functions.setCount(1, 20)], []);
-//poolBSLibrary.addItemEntryHelper(bendingScroll, 8, 1, [Functions.setMetadata(1, 4)], []);
+poolBSStudy.addItemEntry(sparkUpgrade, 4, 1, [Functions.setMetadata(0, 3)], []);
+poolBSPrisonBright.addItemEntry(sparkUpgrade, 4, 1, [Functions.setMetadata(0, 3)], []);
+poolBSPrisonDawn.addItemEntry(sparkUpgrade, 4, 1, [Functions.setMetadata(0, 3)], []);
+poolBSLibrary.addItemEntry(book, 10, 1, [Functions.enchantWithLevels(25, 35, false)], []);
+poolBSLibrary.addItemEntry(book, 2, 1, [Functions.enchantWithLevels(25, 35, true)], []);
+poolBSVillageBright.addItemEntry(lapis, 16, 1, [Functions.setCount(1, 20)], []);
+poolBSVillageDawn.addItemEntry(lapis, 16, 1, [Functions.setCount(1, 20)], []);
+poolBSStudy.addItemEntry(lapis, 16, 1, [Functions.setCount(1, 20)], []);
+poolBSPrisonBright.addItemEntry(lapis, 16, 1, [Functions.setCount(1, 20)], []);
+poolBSPrisonDawn.addItemEntry(lapis, 16, 1, [Functions.setCount(1, 20)], []);
+//poolBSLibrary.addItemEntry(bendingScroll, 8, 1, [Functions.setMetadata(1, 4)], []);
 for wings, weight in wingsMap {
 	poolBSAlchemist.addItemEntry(wings, weight);
 	poolBSSummoner.addItemEntry(wings, weight);
 }
-poolBSAlchemist.addItemEntryHelper(sparkUpgrade, 4, 1, [Functions.setMetadata(0, 3)], []);
-poolBSSummoner.addItemEntryHelper(sparkUpgrade, 4, 1, [Functions.setMetadata(0, 3)], []);
-poolBSAlchemist.addItemEntryHelper(totemUndying, 2, 1, [Functions.setCount(0, 1)], []);
-poolBSSummoner.addItemEntryHelper(totemUndying, 2, 1, [Functions.setCount(0, 1)], []);
-poolBSAlchemist.addItemEntryHelper(overgrowthSeed, 2, 1, [Functions.setCount(1, 2)], []);
-poolBSSummoner.addItemEntryHelper(overgrowthSeed, 2, 1, [Functions.setCount(1, 2)], []);
+poolBSAlchemist.addItemEntry(sparkUpgrade, 4, 1, [Functions.setMetadata(0, 3)], []);
+poolBSSummoner.addItemEntry(sparkUpgrade, 4, 1, [Functions.setMetadata(0, 3)], []);
+poolBSAlchemist.addItemEntry(totemUndying, 2, 1, [Functions.setCount(0, 1)], []);
+poolBSSummoner.addItemEntry(totemUndying, 2, 1, [Functions.setCount(0, 1)], []);
+poolBSAlchemist.addItemEntry(overgrowthSeed, 2, 1, [Functions.setCount(1, 2)], []);
+poolBSSummoner.addItemEntry(overgrowthSeed, 2, 1, [Functions.setCount(1, 2)], []);
 poolBSLibaryWizInject.addLootTableEntry("ebwizardry:chests/shrine", 10);
 poolBSAlchemist.addLootTableEntry("ebwizardry:chests/shrine", 10);
 poolBSSummoner.addLootTableEntry("ebwizardry:chests/shrine", 10);
-//poolBSAlchemist.addItemEntryHelper(bendingScroll, 2, 1, [Functions.setMetadata(5, 6), Functions.setCount(0, 1)], []);
-//poolBSSummoner.addItemEntryHelper(bendingScroll, 2, 1, [Functions.setMetadata(7, 8), Functions.setCount(0, 1)], []);
+//poolBSAlchemist.addItemEntry(bendingScroll, 2, 1, [Functions.setMetadata(5, 6), Functions.setCount(0, 1)], []);
+//poolBSSummoner.addItemEntry(bendingScroll, 2, 1, [Functions.setMetadata(7, 8), Functions.setCount(0, 1)], []);
 
 
 //aether mimic upgrading
 poolAetherMimic.clearEntries();
 for chest, weight in chests {
-	poolAetherMimic.addItemEntryHelper(chest, weight, 0, [Functions.lootingEnchantBonus(0, 1, 4)], []);
+	poolAetherMimic.addItemEntry(chest, weight, 0, [Functions.lootingEnchantBonus(0, 1, 4)], []);
 }
 
 //add snorkel and drinking hat to mimic drops
-poolArtifactMimic.addItemEntryHelper(snorkel, 2, 0, [], []);
-poolArtifactMimic.addItemEntryHelper(drinkingHat, 2, 0, [], []);
+poolArtifactMimic.addItemEntry(snorkel, 2, 0, [], []);
+poolArtifactMimic.addItemEntry(drinkingHat, 2, 0, [], []);
 
 
 //TC stuff in urns/pots
-poolCavePot.addItemEntryHelper(curiosityPreserved, 20, 0, [], []);
-poolCavePot.addItemEntryHelper(curiosityArcane, 20, 0, [], []);
-poolCavePot.addItemEntryHelper(curiosityAncient, 10, 0, [], []);
-poolCavePot.addItemEntryHelper(curiosityIlluminating, 10, 0, [], []);
-poolCavePot.addItemEntryHelper(amber, 20, 0, [], []);
-poolCavePot.addItemEntryHelper(quicksilverDrop, 30, 0, [Functions.setCount(1, 3)], []);
-poolCommonPot.addItemEntryHelper(curiosityPreserved, 15, 0, [], []);
-poolCommonPot.addItemEntryHelper(curiosityArcane, 15, 0, [], []);
-poolCommonPot.addItemEntryHelper(amber, 15, 0, [], []);
-poolCommonPot.addItemEntryHelper(quicksilverDrop, 20, 0, [Functions.setCount(1, 3)], []);
-poolCragrockTowerPot.addItemEntryHelper(curiosityEldritch, 20, 0, [], []);
-poolCragrockTowerPot.addItemEntryHelper(curiosityArcane, 20, 0, [], []);
-poolCragrockTowerPot.addItemEntryHelper(curiosityAncient, 10, 0, [], []);
-poolCragrockTowerPot.addItemEntryHelper(curiosityIlluminating, 10, 0, [], []);
-poolCragrockTowerPot.addItemEntryHelper(amber, 20, 0, [], []);
-poolCragrockTowerPot.addItemEntryHelper(quicksilverDrop, 20, 0, [Functions.setCount(1, 3)], []);
-poolDungeonPot.addItemEntryHelper(curiosityPreserved, 20, 0, [], []);
-poolDungeonPot.addItemEntryHelper(curiosityArcane, 20, 0, [], []);
-poolDungeonPot.addItemEntryHelper(curiosityAncient, 10, 0, [], []);
-poolDungeonPot.addItemEntryHelper(curiosityIlluminating, 10, 0, [], []);
-poolDungeonPot.addItemEntryHelper(curiosityTwisted, 10, 0, [], []);
-poolDungeonPot.addItemEntryHelper(amber, 20, 0, [], []);
-poolDungeonPot.addItemEntryHelper(quicksilverDrop, 30, 0, [Functions.setCount(1, 3)], []);
-poolMarshRuinsPot.addItemEntryHelper(curiosityPreserved, 20, 0, [], []);
-poolMarshRuinsPot.addItemEntryHelper(curiosityAncient, 10, 0, [], []);
-poolMarshRuinsPot.addItemEntryHelper(amber, 20, 0, [Functions.setCount(1, 3)], []);
-poolSludgePlainsRuinsUrn.addItemEntryHelper(curiosityPreserved, 20, 0, [], []);
-poolSludgePlainsRuinsUrn.addItemEntryHelper(curiosityTwisted, 20, 0, [], []);
-poolSludgePlainsRuinsUrn.addItemEntryHelper(curiosityEldritch, 10, 0, [], []);
-poolSludgePlainsRuinsUrn.addItemEntryHelper(quicksilverDrop, 30, 0, [Functions.setCount(1, 3)], []);
-poolSludgeWormDungeonCryptUrn.addItemEntryHelper(curiosityEldritch, 20, 0, [], []);
-poolSludgeWormDungeonCryptUrn.addItemEntryHelper(curiosityArcane, 20, 0, [], []);
-poolSludgeWormDungeonCryptUrn.addItemEntryHelper(curiosityAncient, 10, 0, [], []);
-poolSludgeWormDungeonCryptUrn.addItemEntryHelper(curiosityTwisted, 10, 0, [], []);
-poolSludgeWormDungeonCryptUrn.addItemEntryHelper(amber, 20, 0, [], []);
-poolSludgeWormDungeonCryptUrn.addItemEntryHelper(quicksilverDrop, 30, 0, [Functions.setCount(1, 3)], []);
-poolSludgeWormDungeonUrn.addItemEntryHelper(curiosityTwisted, 20, 0, [], []);
-poolSludgeWormDungeonUrn.addItemEntryHelper(curiosityArcane, 20, 0, [], []);
-poolSludgeWormDungeonUrn.addItemEntryHelper(curiosityEldritch, 10, 0, [], []);
-poolSludgeWormDungeonUrn.addItemEntryHelper(curiosityIlluminating, 10, 0, [], []);
-poolSludgeWormDungeonUrn.addItemEntryHelper(amber, 20, 0, [Functions.setCount(1, 3)], []);
-poolSludgeWormDungeonUrn.addItemEntryHelper(quicksilverDrop, 30, 0, [Functions.setCount(1, 3)], []);
-poolTarPoolPot.addItemEntryHelper(curiosityPreserved, 35, 0, [], []);
-poolTarPoolPot.addItemEntryHelper(curiosityEldritch, 35, 0, [], []);
-poolTarPoolPot.addItemEntryHelper(curiosityTwisted, 20, 0, [], []);
-poolUndergroundRuinsPot.addItemEntryHelper(curiosityPreserved, 20, 0, [], []);
-poolUndergroundRuinsPot.addItemEntryHelper(curiosityArcane, 30, 0, [], []);
-poolUndergroundRuinsPot.addItemEntryHelper(curiosityAncient, 20, 0, [], []);
-poolUndergroundRuinsPot.addItemEntryHelper(curiosityIlluminating, 10, 0, [], []);
-poolUndergroundRuinsPot.addItemEntryHelper(amber, 20, 0, [], []);
-poolUndergroundRuinsPot.addItemEntryHelper(quicksilverDrop, 30, 0, [Functions.setCount(1, 3)], []);
-poolWightFortressPot.addItemEntryHelper(curiosityEldritch, 40, 0, [], []);
-poolWightFortressPot.addItemEntryHelper(curiosityArcane, 20, 0, [], []);
-poolWightFortressPot.addItemEntryHelper(curiosityAncient, 10, 0, [], []);
-poolWightFortressPot.addItemEntryHelper(curiosityIlluminating, 10, 0, [], []);
-poolWightFortressPot.addItemEntryHelper(curiosityTwisted, 10, 0, [], []);
-poolWightFortressPot.addItemEntryHelper(amber, 30, 0, [Functions.setCount(1, 3)], []);
-poolWightFortressPot.addItemEntryHelper(quicksilverDrop, 30, 0, [Functions.setCount(1, 3)], []);
+poolCavePot.addItemEntry(curiosityPreserved, 20, 0, [], []);
+poolCavePot.addItemEntry(curiosityArcane, 20, 0, [], []);
+poolCavePot.addItemEntry(curiosityAncient, 10, 0, [], []);
+poolCavePot.addItemEntry(curiosityIlluminating, 10, 0, [], []);
+poolCavePot.addItemEntry(amber, 20, 0, [], []);
+poolCavePot.addItemEntry(quicksilverDrop, 30, 0, [Functions.setCount(1, 3)], []);
+poolCommonPot.addItemEntry(curiosityPreserved, 15, 0, [], []);
+poolCommonPot.addItemEntry(curiosityArcane, 15, 0, [], []);
+poolCommonPot.addItemEntry(amber, 15, 0, [], []);
+poolCommonPot.addItemEntry(quicksilverDrop, 20, 0, [Functions.setCount(1, 3)], []);
+poolCragrockTowerPot.addItemEntry(curiosityEldritch, 20, 0, [], []);
+poolCragrockTowerPot.addItemEntry(curiosityArcane, 20, 0, [], []);
+poolCragrockTowerPot.addItemEntry(curiosityAncient, 10, 0, [], []);
+poolCragrockTowerPot.addItemEntry(curiosityIlluminating, 10, 0, [], []);
+poolCragrockTowerPot.addItemEntry(amber, 20, 0, [], []);
+poolCragrockTowerPot.addItemEntry(quicksilverDrop, 20, 0, [Functions.setCount(1, 3)], []);
+poolDungeonPot.addItemEntry(curiosityPreserved, 20, 0, [], []);
+poolDungeonPot.addItemEntry(curiosityArcane, 20, 0, [], []);
+poolDungeonPot.addItemEntry(curiosityAncient, 10, 0, [], []);
+poolDungeonPot.addItemEntry(curiosityIlluminating, 10, 0, [], []);
+poolDungeonPot.addItemEntry(curiosityTwisted, 10, 0, [], []);
+poolDungeonPot.addItemEntry(amber, 20, 0, [], []);
+poolDungeonPot.addItemEntry(quicksilverDrop, 30, 0, [Functions.setCount(1, 3)], []);
+poolMarshRuinsPot.addItemEntry(curiosityPreserved, 20, 0, [], []);
+poolMarshRuinsPot.addItemEntry(curiosityAncient, 10, 0, [], []);
+poolMarshRuinsPot.addItemEntry(amber, 20, 0, [Functions.setCount(1, 3)], []);
+poolSludgePlainsRuinsUrn.addItemEntry(curiosityPreserved, 20, 0, [], []);
+poolSludgePlainsRuinsUrn.addItemEntry(curiosityTwisted, 20, 0, [], []);
+poolSludgePlainsRuinsUrn.addItemEntry(curiosityEldritch, 10, 0, [], []);
+poolSludgePlainsRuinsUrn.addItemEntry(quicksilverDrop, 30, 0, [Functions.setCount(1, 3)], []);
+poolSludgeWormDungeonCryptUrn.addItemEntry(curiosityEldritch, 20, 0, [], []);
+poolSludgeWormDungeonCryptUrn.addItemEntry(curiosityArcane, 20, 0, [], []);
+poolSludgeWormDungeonCryptUrn.addItemEntry(curiosityAncient, 10, 0, [], []);
+poolSludgeWormDungeonCryptUrn.addItemEntry(curiosityTwisted, 10, 0, [], []);
+poolSludgeWormDungeonCryptUrn.addItemEntry(amber, 20, 0, [], []);
+poolSludgeWormDungeonCryptUrn.addItemEntry(quicksilverDrop, 30, 0, [Functions.setCount(1, 3)], []);
+poolSludgeWormDungeonUrn.addItemEntry(curiosityTwisted, 20, 0, [], []);
+poolSludgeWormDungeonUrn.addItemEntry(curiosityArcane, 20, 0, [], []);
+poolSludgeWormDungeonUrn.addItemEntry(curiosityEldritch, 10, 0, [], []);
+poolSludgeWormDungeonUrn.addItemEntry(curiosityIlluminating, 10, 0, [], []);
+poolSludgeWormDungeonUrn.addItemEntry(amber, 20, 0, [Functions.setCount(1, 3)], []);
+poolSludgeWormDungeonUrn.addItemEntry(quicksilverDrop, 30, 0, [Functions.setCount(1, 3)], []);
+poolTarPoolPot.addItemEntry(curiosityPreserved, 35, 0, [], []);
+poolTarPoolPot.addItemEntry(curiosityEldritch, 35, 0, [], []);
+poolTarPoolPot.addItemEntry(curiosityTwisted, 20, 0, [], []);
+poolUndergroundRuinsPot.addItemEntry(curiosityPreserved, 20, 0, [], []);
+poolUndergroundRuinsPot.addItemEntry(curiosityArcane, 30, 0, [], []);
+poolUndergroundRuinsPot.addItemEntry(curiosityAncient, 20, 0, [], []);
+poolUndergroundRuinsPot.addItemEntry(curiosityIlluminating, 10, 0, [], []);
+poolUndergroundRuinsPot.addItemEntry(amber, 20, 0, [], []);
+poolUndergroundRuinsPot.addItemEntry(quicksilverDrop, 30, 0, [Functions.setCount(1, 3)], []);
+poolWightFortressPot.addItemEntry(curiosityEldritch, 40, 0, [], []);
+poolWightFortressPot.addItemEntry(curiosityArcane, 20, 0, [], []);
+poolWightFortressPot.addItemEntry(curiosityAncient, 10, 0, [], []);
+poolWightFortressPot.addItemEntry(curiosityIlluminating, 10, 0, [], []);
+poolWightFortressPot.addItemEntry(curiosityTwisted, 10, 0, [], []);
+poolWightFortressPot.addItemEntry(amber, 30, 0, [Functions.setCount(1, 3)], []);
+poolWightFortressPot.addItemEntry(quicksilverDrop, 30, 0, [Functions.setCount(1, 3)], []);

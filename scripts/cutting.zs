@@ -33,7 +33,7 @@ function addCuttingMeat(name as string, table as string, poolsAndDrops as int[][
 			var minCount = count[0];
 			var maxCount = count[1];
 			var meta = drop.metadata;
-			lootPoolMeat.addItemEntryHelper(drop, 1, 0, [Functions.setMetadata(meta, meta), Functions.setCount(minCount, maxCount), Functions.lootingEnchantBonus(0, 1, 10), Functions.parse({"function": "minecraft:furnace_smelt","conditions": [{"properties": {"minecraft:on_fire": true}, "entity": "this", "condition": "minecraft:entity_properties"}]})], []);
+			lootPoolMeat.addItemEntry(drop, 1, 0, [Functions.setMetadata(meta, meta), Functions.setCount(minCount, maxCount), Functions.lootingEnchantBonus(0, 1, 10), {"function": "minecraft:furnace_smelt","conditions": [{"properties": {"minecraft:on_fire": true}, "entity": "this", "condition": "minecraft:entity_properties"}]}], []);
 			lootPoolDefault.removeEntry(drop.definition.id);
 		}
 		for cuttingLevel, pool in lootPools {
@@ -44,7 +44,7 @@ function addCuttingMeat(name as string, table as string, poolsAndDrops as int[][
 				"four" : {"value": 4, "condition": "mist:skill_cutting"},
 				"five" : {"value": 5, "condition": "mist:skill_cutting"}
 			} as IData[string];
-			pool.addConditionsJson([cuttingConditions[cuttingLevel]]);
+			pool.addConditions([cuttingConditions[cuttingLevel]]);
 			pool.setRolls(rollsPerLevel[cuttingLevel][0], rollsPerLevel[cuttingLevel][1]);
 			pool.addLootTableEntry(meatTableName, 1, 0, "meat");
 		}
