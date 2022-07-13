@@ -15,4 +15,4 @@ criteria1.addItem(<roots:runic_shears, count:1~>)
 criteria2 = addCriteria("hasItemsSpirit", "minecraft:inventory_changed")
 criteria2.addItem(<roots:spirit_herb, count:1~>)
 
-addRewardItem(<roots:spell_dust, count:1, nbt:{spell_holder:{spell_0:"spell_rampant_growth",selectedSlot:0,lastCooldown:0,cooldown:0}}>)
+addRewardItem(<roots:spell_dust, count:1, nbt:{spell_storage: {s: \"spell_rampant_growth\"}}>)

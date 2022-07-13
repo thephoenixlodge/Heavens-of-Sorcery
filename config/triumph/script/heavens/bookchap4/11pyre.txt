@@ -2,7 +2,7 @@ setIcon(<roots:pyre>)
 
 setTitle("Gather 'Round the Fire")
 
-setDescription("Craft a Pyre and Imbuer")
+setDescription("Craft a Pyre")
 
 addParent("heavens:bookchap4/04naturalaltar")
 
@@ -12,10 +12,8 @@ setPos(160,-40)
 
 criteria1 = addCriteria("hasItemsFurnace", "minecraft:inventory_changed")
 criteria1.addItem(<roots:pyre, count:1~>)
-criteria2 = addCriteria("hasItemsImbuer", "minecraft:inventory_changed")
-criteria2.addItem(<roots:imbuer, count:1>)
 
 addRewardItem(<cuisine:crops, meta:16, count:10>)
-addRewardItem(<roots:spell_dust, count:1, nbt:{spell_holder:{spell_0:"spell_growth_infusion",selectedSlot:0,lastCooldown:0,cooldown:0}}>)
+addRewardItem(<roots:spell_dust, count:1, nbt:{spell_storage: {s: \"roots:spell_growth_infusion\"}}>)
 addRewardItem(<minecraft:dragon_breath, count:1>)
 addRewardItem(<roots:component_pouch, count:1>)

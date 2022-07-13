@@ -10,10 +10,8 @@ setRequiresParents()
 
 setPos(240,-40)
 
-criteria1 = addCriteria("hasItemsFurnace", "minecraft:inventory_changed")
+criteria1 = addCriteria("hasItemsFeyCrafter", "minecraft:inventory_changed")
 criteria1.addItem(<roots:fey_crafter, meta:0, count:1~>)
-criteria2 = addCriteria("hasItemsSpelldust", "minecraft:inventory_changed")
-criteria2.addItem(<roots:spell_dust, count:1~, nbt:{spell_holder:{spell_0:"spell_supplication",selectedSlot:0,lastCooldown:0,cooldown:0}}>)
 criteria3 = addCriteria("activateGroveStone", "roots:grove_activate")
 
-addRewardItem(<roots:spell_dust, count:1, nbt:{spell_holder:{spell_0:"spell_dandelion_winds",selectedSlot:0,lastCooldown:0,cooldown:0}}>)
+addRewardItem(<roots:spell_dust, count:1, nbt:{spell_storage: {s: \"roots:spell_dandelion_winds\"}}>)

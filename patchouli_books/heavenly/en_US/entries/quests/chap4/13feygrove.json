@@ -19,9 +19,9 @@
         {
             "type": "checklist_end",
             "item1": "roots:fey_crafter",
-            "item2": "roots:spell_dust{display: {Name: \"Spell Dust - Grove Supplication\"}, spell_holder: {spell_0: \"spell_supplication\", selectedSlot: 0, lastCooldown: 0, cooldown: 0}}",
+            "item2": "roots:ritual_grove_supplication",
             "item3": "roots:grove_stone{display: {Name: \"Grove Stone (Activated)\"}}",
-            "reward1": "roots:spell_dust{spell_holder: {spell_0: \"spell_dandelion_winds\", selectedSlot: 0, lastCooldown: 0, cooldown: 0}}"
+            "reward1": "roots:spell_dust{spell_storage: {s: \"roots:spell_dandelion_winds\"}}",
         },
         {
             "type": "altar_celestial",
@@ -37,7 +37,7 @@
         },
         {
             "type": "altar_celestial",
-            "description": "After crafting the $(item)Grove Stone$(), place in world to activate with the $(thing)Grove Supplication Spell$().",
+            "description": "After crafting the $(item)Grove Stone$(), place in world to activate with the $(thing)Grove Supplication Ritual$().",
             "output_item": "roots:grove_stone",
             "item2": "naturesaura:infused_stone",
             "item4": "naturesaura:infused_stone",
@@ -52,8 +52,8 @@
             "item21": "naturesaura:infused_stone"
         },
         {
-            "type": "spell_dust",
-            "spell": "spell_supplication"
+            "type": "pyre_ritual",
+            "spell": "ritual_grove_supplication"
         },
         {
             "type": "fey_crafting",

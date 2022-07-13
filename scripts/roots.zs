@@ -5,6 +5,7 @@ import mods.astralsorcery.Altar;
 import mods.roots.Fey;
 import mods.roots.Mortar;
 import mods.roots.Pyre;
+import mods.roots.Rituals;
 import crafttweaker.item.IItemStack;
 
 //variables
@@ -49,6 +50,7 @@ val hardFoggyStone = <mist:stone_basic>;
 val sugarcane = <minecraft:reeds>;
 val magicCrystal = <ebwizardry:magic_crystal>;
 val goldLeaf = <naturesaura:gold_leaf>;
+val goldPowder = <naturesaura:gold_powder>;
 val barkBirch = <roots:bark_birch>;
 val runeWater = <botania:rune>;
 val runeFire = <botania:rune:1>;
@@ -102,6 +104,16 @@ val tallFlowers = [
 val oreFlowers = <ore:flowers>;
 val oreAllFlowers = <ore:allFlowers>;
 val oreAllTallFlowers = <ore:allTallFlowers>;
+val banefulShroom = <blue_skies:baneful_mushroom>;
+val snowcapShroom = <blue_skies:snowcap_mushroom>;
+val rottenFlesh = <minecraft:rotten_flesh>;
+val mutatedPastureSeed = <botania:grassseeds:8>;
+val baffleCap = <roots:baffle_cap_mushroom>;
+val imposer = <roots:imposer>;
+val gramary = <roots:gramary>;
+val oreBark = <ore:rootsBark>;
+val saplingBluebright = <blue_skies:bluebright_sapling>;
+val manaString = <botania:manaresource:16>;
 
 //Pyre
 recipes.remove(pyre);
@@ -124,7 +136,7 @@ Fey.removeRecipe(runeStone);
 Fey.addRecipe("runestone", runeStone * 2, [gemTurquoise, infusedRock, infusedRock, infusedRock, infusedRock]);
 
 //grove supplication spelldust
-Mortar.changeSpell("spell_supplication", [runeSpring, holystoneMossy, ancientSapling, wildroot, petals]);
+Rituals.modifyRitual("ritual_grove_supplication", [runeSpring, holystoneMossy, ancientSapling, wildroot, petals]);
 
 //cloud berry
 Pyre.removeRecipe(cloudBerry);
@@ -146,6 +158,10 @@ Pyre.addRecipe("stalicripe", stalicripe, [runeEarth, wildroot, ingotVentium, har
 Pyre.removeRecipe(moonglow);
 Pyre.addRecipe("moonglow_leaf", moonglow, [goldLeaf, moonstone, magicCrystal, barkBirch, barkBirch]);
 
+//baffle cap
+Pyre.removeRecipe(baffleCap);
+Pyre.addRecipe("baffle_cap_mushroom", baffleCap * 3, [terraMoss, rottenFlesh, mutatedPastureSeed, banefulShroom, snowcapShroom]);
+
 //flower oredicts for petals
 for flower in flowers {
 	oreFlowers.add(flower);
@@ -154,3 +170,11 @@ for flower in flowers {
 for tallFlower in tallFlowers {
 	oreAllTallFlowers.add(tallFlower);
 }
+
+//imposer
+recipes.remove(imposer);
+TreeRitual.addRecipe("imposer", saplingLunar, imposer, 400, [imbuer, infusedRock, infusedRock, stickLivingwood, stickLivingwood, goldPowder]);
+
+//gramary
+recipes.remove(gramary);
+TreeRitual.addRecipe("gramary", saplingBluebright, gramary, 400, [oreBark, oreBark, oreBark, wildroot, terraMoss, terraMoss, manaString, manaString]);
