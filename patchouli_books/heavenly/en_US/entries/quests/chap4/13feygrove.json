@@ -21,7 +21,7 @@
             "item1": "roots:fey_crafter",
             "item2": "roots:ritual_grove_supplication",
             "item3": "roots:grove_stone{display: {Name: \"Grove Stone (Activated)\"}}",
-            "reward1": "roots:spell_dust{spell_storage: {s: \"roots:spell_dandelion_winds\"}}",
+            "reward1": "roots:spell_dust{spell_storage: {s: \"roots:spell_dandelion_winds\"}}"
         },
         {
             "type": "altar_celestial",
@@ -53,7 +53,7 @@
         },
         {
             "type": "pyre_ritual",
-            "spell": "ritual_grove_supplication"
+            "ritual": "ritual_grove_supplication"
         },
         {
             "type": "fey_crafting",
