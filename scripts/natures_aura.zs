@@ -115,6 +115,9 @@ val endstone = <minecraft:end_stone>;
 val dragonsBreath = <minecraft:dragon_breath>;
 val firestarter = <naturesaura:furnace_heater>;
 val moltenCore = <arcaneworld:molten_core>;
+val naturesCompass = <naturescompass:naturescompass>;
+val compass = <minecraft:compass>;
+val stickLivingwood = <botania:manaresource:3>;
 
 //Tweak gold fibre recipe to require misty world
 recipes.remove(brilliantFibre);
@@ -239,3 +242,7 @@ TreeRitual.addRecipe("furnace_heater", saplingMaple, firestarter, 400, [infusedR
 bottledSunlight.addTooltip(format.gold("Use Bottle and Cork in the Overworld, Dungeon Raid, Aether, Misty World, Everbright, Everdawn or Kathairis to collect"));
 bottledGhosts.addTooltip(format.gold("Use Bottle and Cork in the Nether or Betweenlands to collect"));
 bottledDarkness.addTooltip(format.gold("Use Bottle and Cork in Limbo or other Dimensional Doors' Pocket Dimensions to collect"));
+
+//Nature's compass
+recipes.remove(naturesCompass);
+TreeRitual.addRecipe("natures_compass", saplingMaple, naturesCompass, 500, [compass, stickLivingwood, wildroot, terraMoss]);
