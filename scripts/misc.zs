@@ -214,6 +214,9 @@ val chests = [
 ] as IItemStack[];
 val dictChest = <ore:chest>;
 val dictChestWood = <ore:chestWood>;
+val positiveDesign = <chiselsandbits:positiveprint>;
+val bucketWater = <minecraft:water_bucket>;
+val paper = <minecraft:paper>;
 
 val basicBlocks = {
 	<minecraft:end_stone> : 6,
@@ -589,3 +592,7 @@ for planks, door in kathDoors {
 //quark trees
 ManaInfusion.addInfusion(seedBlossom, seedSpruce, 1000);
 ManaInfusion.addInfusion(seedSwamp, seedOak, 1000);
+
+//positive chisel design
+recipes.removeByRecipeName("chiselsandbits:positiveprint");
+recipes.addShapeless(positiveDesign, [bucketWater, paper, oreDustIron]);
