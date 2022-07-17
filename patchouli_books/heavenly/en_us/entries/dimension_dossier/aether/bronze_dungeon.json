@@ -29,6 +29,7 @@
         {
             "type": "loot",
             "lootpool": "Bronze",
+            "chest": "true",
             "item1": "quark:arrow_torch",
             "item2": "cuisine:crops:9",
             "item3": "minecraft:dye:4",
@@ -53,6 +54,7 @@
         {
             "type": "loot",
             "lootpool": "Bronze",
+            "chest": "true",
             "item1": "aether_legacy:swet_cape",
             "item2": "aether_legacy:ambrosium_shard",
             "item3": "aether_legacy:dart:2",
@@ -68,6 +70,7 @@
         {
             "type": "loot",
             "lootpool": "Boss Chest",
+            "aetherchest": "true",
             "item1": "chisel:chisel_hitech",
             "item2": "minecraft:chorus_flower",
             "item3": "botania:tornadorod",

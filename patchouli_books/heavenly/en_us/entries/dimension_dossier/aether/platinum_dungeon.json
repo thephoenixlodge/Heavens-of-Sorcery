@@ -28,6 +28,7 @@
         {
             "type": "loot",
             "lootpool": "Platinum",
+            "chest": "true",
             "item1": "aether_legacy:skyroot_bucket:3",
             "item2": "aether_legacy:zanite_pickaxe",
             "item3": "aether_legacy:dart_shooter:2",
@@ -42,6 +43,7 @@
         {
             "type": "loot",
             "lootpool": "Boss Chest",
+            "aetherchest": "true",
             "item1": "aether_legacy:welcoming_skies",
             "item2": "aether_legacy:legacy",
             "item3": "lost_aether:agility_boots",

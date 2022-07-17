@@ -29,6 +29,7 @@
         {
             "type": "loot",
             "lootpool": "Common",
+            "chest": "true",
             "item1": "arcaneworld:amethyst",
             "item2": "minecraft:ender_pearl",
             "item3": "cuisine:crops:8",
@@ -53,6 +54,7 @@
         {
             "type": "loot",
             "lootpool": "Common",
+            "chest": "true",
             "item1": "minecraft:coal",
             "item2": "minecraft:cobblestone",
             "item3": "botania:biomestonea:8",
@@ -67,6 +69,7 @@
         {
             "type": "loot",
             "lootpool": "Rare",
+            "chest": "true",
             "item1": "chisel:chisel_hitech",
             "item2": "minecraft:obsidian",
             "item3": "superiorshields:vanilla_shield_wood",

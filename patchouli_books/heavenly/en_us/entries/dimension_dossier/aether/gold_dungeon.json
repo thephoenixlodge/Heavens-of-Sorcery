@@ -27,6 +27,7 @@
         {
             "type": "loot",
             "lootpool": "Boss Chest",
+            "aetherchest": "true",
             "item1": "quark:arrow_torch",
             "item2": "cuisine:crops:9",
             "item3": "minecraft:dye:4",
@@ -51,6 +52,7 @@
         {
             "type": "loot",
             "lootpool": "Boss Chest",
+            "aetherchest": "true",
             "item1": "aether_legacy:phoenix_helmet",
             "item2": "aether_legacy:phoenix_chestplate",
             "item3": "aether_legacy:phoenix_leggings",

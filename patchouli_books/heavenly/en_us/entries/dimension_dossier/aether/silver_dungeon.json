@@ -28,7 +28,8 @@
         },
         {
             "type": "loot",
-            "lootpool": "Bronze",
+            "lootpool": "Silver",
+            "chest": "true",
             "item1": "quark:arrow_torch",
             "item2": "cuisine:crops:9",
             "item3": "minecraft:dye:4",
@@ -52,7 +53,8 @@
         },
         {
             "type": "loot",
-            "lootpool": "Bronze",
+            "lootpool": "Silver",
+            "chest": "true",
             "item1": "aether_legacy:skyroot_bucket:2",
             "item2": "aether_legacy:zanite_ring",
             "item3": "aether_legacy:dart:2",
@@ -73,6 +75,7 @@
         {
             "type": "loot",
             "lootpool": "Boss Chest",
+            "aetherchest": "true",
             "item1": "minecraft:elytra",
             "item2": "botania:overgrowthseed",
             "item3": "minecraft:totem_of_undying",
@@ -97,6 +100,7 @@
         {
             "type": "loot",
             "lootpool": "Boss Chest",
+            "aetherchest": "true",
             "item1": "aether_legacy:holy_sword",
             "item2": "aether_legacy:gummy_swet:0",
             "item3": "aether_legacy:gummy_swet:1",

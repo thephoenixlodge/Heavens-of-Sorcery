@@ -9,6 +9,31 @@
 		{
 			"type": "image",
 			"image": "books:templates/chest.png",
+			"guard": "#chest->exists",
+			"texture_width": 16,
+			"texture_height": 16,
+			"width": 9,
+			"height": 9,
+			"scale": 2.5,
+			"x": 46,
+			"y": 9
+		},
+		{
+			"type": "image",
+			"image": "books:templates/mw_urn.png",
+			"guard": "#mwurn->exists",
+			"texture_width": 16,
+			"texture_height": 16,
+			"width": 9,
+			"height": 9,
+			"scale": 2.5,
+			"x": 46,
+			"y": 9
+		},
+		{
+			"type": "image",
+			"image": "books:templates/aether_chest.png",
+			"guard": "#aetherchest->exists",
 			"texture_width": 16,
 			"texture_height": 16,
 			"width": 9,

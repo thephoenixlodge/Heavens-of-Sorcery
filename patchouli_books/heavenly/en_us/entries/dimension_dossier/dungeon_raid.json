@@ -37,6 +37,7 @@
         {
             "type": "loot",
             "lootpool": "Common",
+            "chest": "true",
             "item1": "minecraft:beacon",
             "item2": "minecraft:elytra",
             "item3": "arcaneworld:molten_core",
@@ -61,6 +62,7 @@
         {
             "type": "loot",
             "lootpool": "Common",
+            "chest": "true",
             "item1": "minecraft:enchanted_book",
             "item2": "minecraft:bucket",
             "item3": "minecraft:gold_ingot",
@@ -85,6 +87,7 @@
         {
             "type": "loot",
             "lootpool": "Common",
+            "chest": "true",
             "item1": "minecraft:double_plant:1",
             "item2": "minecraft:double_plant:4",
             "item3": "minecraft:double_plant:5",
@@ -109,6 +112,7 @@
         {
             "type": "loot",
             "lootpool": "Common",
+            "chest": "true",
             "item1": "minecraft:anvil",
             "item2": "wizardry:syringe:1",
             "item3": "inspirations:carrot_seeds",
@@ -121,11 +125,13 @@
             "item10": "botania:grassseeds:5",
             "item11": "botania:grassseeds:6",
             "item12": "botania:grassseeds:7",
-            "item13": "botania:grassseeds:8"
+            "item13": "botania:grassseeds:8",
+            "item14": "naturescompass:naturescompass"
         },
         {
             "type": "loot",
             "lootpool": "Raid",
+            "chest": "true",
             "item1": "minecraft:gold_ingot",
             "item2": "minecraft:iron_ingot",
             "item3": "minecraft:diamond",
