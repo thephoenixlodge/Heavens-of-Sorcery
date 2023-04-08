@@ -1,7 +1,7 @@
 {
 	"name": "Diary of the Doomed",
-	"subtitle": "Property of Grandmage Ley",
-	"landing_text": "Go investigate the Labyrinth Rifts they said. It'll be fine they said...",
+	"subtitle": "Notes from a Lost Mage",
+	"landing_text": "I found some notes within a dimensional rift and bound them in this tome to keep them intact. They seem to form a journal of sorts...",
 	"version": 1,
 	"book_texture": "patchouli:textures/gui/book_red.png",
 	"model": "patchouli:book_red",
