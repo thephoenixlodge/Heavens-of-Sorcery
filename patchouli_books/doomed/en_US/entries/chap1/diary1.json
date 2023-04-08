@@ -1,0 +1,26 @@
+{
+    "name": "7th Moon, 4th Night",
+    "icon": "dimdoors:fabric:15",
+    "category": "chap1",
+    "sortnum": 0,
+    "advancement": "heavens:doomed/00page1",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Arriving at the doorway took some effort - it was not where the council had promised. I suspect it may have directly warped the space around itself, but when I arrived it was deep within the corrosive Mist and I had to detour to scrap together some equipment to delve it."
+        },
+        {
+            "type": "image",
+            "images": [
+                    "books:templates/dimdoors_gateway.png"
+                ],
+            "title": "Curious Gateway",
+            "border": "true",
+            "text": "The doorway, as I found it."
+        },
+        {
+            "type": "text",
+            "text": "As soon as I touched the nebula at the core of the gateway, I found myself somewhere else entirely - a plane of bottomless darkness, interrupted only by the structure where I stood, seemingly torn from a lost civilization. $(br2)Curiously, though there is no evident source of light, everything is visible as if it were midday."
+        }
+    ]
+}

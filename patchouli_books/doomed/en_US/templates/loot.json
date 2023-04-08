@@ -1,0 +1,202 @@
+{
+	"components": [
+		{
+			"type": "header",
+			"text": "Loot Chest: #lootpool#",
+			"x": -1,
+			"y": -5
+		},
+		{
+			"type": "image",
+			"image": "books:templates/chest.png",
+			"guard": "#chest->exists",
+			"texture_width": 16,
+			"texture_height": 16,
+			"width": 9,
+			"height": 9,
+			"scale": 2.5,
+			"x": 46,
+			"y": 9
+		},
+		{
+			"type": "image",
+			"image": "books:templates/mw_urn.png",
+			"guard": "#mwurn->exists",
+			"texture_width": 16,
+			"texture_height": 16,
+			"width": 9,
+			"height": 9,
+			"scale": 2.5,
+			"x": 46,
+			"y": 9
+		},
+		{
+			"type": "image",
+			"image": "books:templates/aether_chest.png",
+			"guard": "#aetherchest->exists",
+			"texture_width": 16,
+			"texture_height": 16,
+			"width": 9,
+			"height": 9,
+			"scale": 2.5,
+			"x": 46,
+			"y": 9
+		},
+		{
+			"type": "image",
+			"image": "books:templates/loot_frame.png",
+			"texture_width": 128,
+			"texture_height": 128,
+			"width": 100,
+			"height": 81,
+			"x": 7,
+			"y": 30
+		},
+		{
+			"type": "item",
+			"item": "#item1",
+			"framed": "false",
+			"x": 11,
+			"y": 34
+		},		
+		{
+			"type": "item",
+			"item": "#item2",
+			"framed": "false",
+			"x": 30,
+			"y": 34
+		},
+		{
+			"type": "item",
+			"item": "#item3",
+			"framed": "false",
+			"x": 49,
+			"y": 34
+		},
+		{
+			"type": "item",
+			"item": "#item4",
+			"framed": "false",
+			"x": 68,
+			"y": 34
+		},
+		{
+			"type": "item",
+			"item": "#item5",
+			"framed": "false",
+			"x": 87,
+			"y": 34
+		},		
+		{
+			"type": "item",
+			"item": "#item6",
+			"framed": "false",
+			"x": 11,
+			"y": 53
+		},
+		{
+			"type": "item",
+			"item": "#item7",
+			"framed": "false",
+			"x": 30,
+			"y": 53
+		},
+		{
+			"type": "item",
+			"item": "#item8",
+			"framed": "false",
+			"x": 49,
+			"y": 53
+		},
+		{
+			"type": "item",
+			"item": "#item9",
+			"framed": "false",
+			"x": 68,
+			"y": 53
+		},		
+		{
+			"type": "item",
+			"item": "#item10",
+			"framed": "false",
+			"x": 87,
+			"y": 53
+		},
+		{
+			"type": "item",
+			"item": "#item11",
+			"framed": "false",
+			"x": 11,
+			"y": 72
+		},
+		{
+			"type": "item",
+			"item": "#item12",
+			"framed": "false",
+			"x": 30,
+			"y": 72
+		},
+		{
+			"type": "item",
+			"item": "#item13",
+			"framed": "false",
+			"x": 49,
+			"y": 72
+		},
+		{
+			"type": "item",
+			"item": "#item14",
+			"framed": "false",
+			"x": 68,
+			"y": 72
+		},
+		{
+			"type": "item",
+			"item": "#item15",
+			"framed": "false",
+			"x": 87,
+			"y": 72
+		},
+		{
+			"type": "item",
+			"item": "#item16",
+			"framed": "false",
+			"x": 11,
+			"y": 91
+		},
+		{
+			"type": "item",
+			"item": "#item17",
+			"framed": "false",
+			"x": 30,
+			"y": 91
+		},
+		{
+			"type": "item",
+			"item": "#item18",
+			"framed": "false",
+			"x": 49,
+			"y": 91
+		},
+		{
+			"type": "item",
+			"item": "#item19",
+			"framed": "false",
+			"x": 68,
+			"y": 91
+		},
+		{
+			"type": "item",
+			"item": "#item20",
+			"framed": "false",
+			"x": 87,
+			"y": 91
+		},
+		{
+			"type": "text",
+			"text": "#description",
+			"x": 5,
+			"y": 115
+		}
+	]
+}

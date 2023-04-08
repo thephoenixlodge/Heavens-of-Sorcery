@@ -74,12 +74,12 @@ val bone = <minecraft:bone>;
 val bottledGhosts = <naturesaura:aura_bottle>.withTag({stored_type: "naturesaura:nether"});
 val dustSpectral = <bewitchment:spectral_dust>;
 val ebbOfDeath = <bewitchment:ebb_of_death>;
-val diaryDoomed = <patchouli:guide_book>.withTag({"patchouli:book": "patchouli:doomed", "display":{"Lore": ["Torn Pages added: 0"]}});
-val diaryDoomed1 = <patchouli:guide_book>.withTag({"patchouli:book": "patchouli:doomed", "display":{"Lore": ["Torn Pages added: 1"]}});
-val diaryDoomed2 = <patchouli:guide_book>.withTag({"patchouli:book": "patchouli:doomed", "display":{"Lore": ["Torn Pages added: 2"]}});
-val diaryDoomed3 = <patchouli:guide_book>.withTag({"patchouli:book": "patchouli:doomed", "display":{"Lore": ["Torn Pages added: 3"]}});
-val diaryDoomed4 = <patchouli:guide_book>.withTag({"patchouli:book": "patchouli:doomed", "display":{"Lore": ["Torn Pages added: 4"]}});
-val diaryDoomed5 = <patchouli:guide_book>.withTag({"patchouli:book": "patchouli:doomed", "display":{"Lore": ["Torn Pages added: 5"]}});
+val diaryDoomed = <patchouli:guide_book>.withTag({"patchouli:book": "patchouli:doomed", "display":{"Lore": ["Torn Pages added: 1"]}});
+val diaryDoomed1 = <patchouli:guide_book>.withTag({"patchouli:book": "patchouli:doomed", "display":{"Lore": ["Torn Pages added: 2"]}});
+val diaryDoomed2 = <patchouli:guide_book>.withTag({"patchouli:book": "patchouli:doomed", "display":{"Lore": ["Torn Pages added: 3"]}});
+val diaryDoomed3 = <patchouli:guide_book>.withTag({"patchouli:book": "patchouli:doomed", "display":{"Lore": ["Torn Pages added: 4"]}});
+val diaryDoomed4 = <patchouli:guide_book>.withTag({"patchouli:book": "patchouli:doomed", "display":{"Lore": ["Torn Pages added: 5"]}});
+val diaryDoomed5 = <patchouli:guide_book>.withTag({"patchouli:book": "patchouli:doomed", "display":{"Lore": ["Torn Pages added: 6"]}});
 val tornPage = <contenttweaker:torn_page>;
 val leather = <minecraft:leather>;
 val marbleDark = <tombstone:dark_marble>;
@@ -163,7 +163,7 @@ recipes.addShapeless(diaryDoomed, [tornPage, leather]);
 recipes.addShapeless("diary_doomed_1", diaryDoomed1, [diaryDoomed.marked("book"), tornPage], function(output, inputs, CInfo){
 	var tag = inputs.book.tag as IData;
 	var displayTag = tag.memberGet("display") as IData;
-	var overrideLore = {Lore: ["Torn Pages added: 1"]} as IData;
+	var overrideLore = {Lore: ["Torn Pages added: 2"]} as IData;
 	var displayTagOut = displayTag - "Lore" + overrideLore as IData;
 	var overrideTag = {display: displayTagOut} as IData;
 	var tagOutput = tag - "display" + overrideTag as IData;
@@ -172,7 +172,7 @@ recipes.addShapeless("diary_doomed_1", diaryDoomed1, [diaryDoomed.marked("book")
 recipes.addShapeless("diary_doomed_2", diaryDoomed2, [diaryDoomed1.marked("book"), tornPage], function(output, inputs, CInfo){
 	var tag = inputs.book.tag as IData;
 	var displayTag = tag.memberGet("display") as IData;
-	var overrideLore = {Lore: ["Torn Pages added: 2"]} as IData;
+	var overrideLore = {Lore: ["Torn Pages added: 3"]} as IData;
 	var displayTagOut = displayTag - "Lore" + overrideLore as IData;
 	var overrideTag = {display: displayTagOut} as IData;
 	var tagOutput = tag - "display" + overrideTag as IData;
@@ -181,7 +181,7 @@ recipes.addShapeless("diary_doomed_2", diaryDoomed2, [diaryDoomed1.marked("book"
 recipes.addShapeless("diary_doomed_3", diaryDoomed3, [diaryDoomed2.marked("book"), tornPage], function(output, inputs, CInfo){
 	var tag = inputs.book.tag as IData;
 	var displayTag = tag.memberGet("display") as IData;
-	var overrideLore = {Lore: ["Torn Pages added: 3"]} as IData;
+	var overrideLore = {Lore: ["Torn Pages added: 4"]} as IData;
 	var displayTagOut = displayTag - "Lore" + overrideLore as IData;
 	var overrideTag = {display: displayTagOut} as IData;
 	var tagOutput = tag - "display" + overrideTag as IData;
@@ -190,7 +190,7 @@ recipes.addShapeless("diary_doomed_3", diaryDoomed3, [diaryDoomed2.marked("book"
 recipes.addShapeless("diary_doomed_4", diaryDoomed4, [diaryDoomed3.marked("book"), tornPage], function(output, inputs, CInfo){
 	var tag = inputs.book.tag as IData;
 	var displayTag = tag.memberGet("display") as IData;
-	var overrideLore = {Lore: ["Torn Pages added: 4"]} as IData;
+	var overrideLore = {Lore: ["Torn Pages added: 5"]} as IData;
 	var displayTagOut = displayTag - "Lore" + overrideLore as IData;
 	var overrideTag = {display: displayTagOut} as IData;
 	var tagOutput = tag - "display" + overrideTag as IData;
@@ -199,7 +199,7 @@ recipes.addShapeless("diary_doomed_4", diaryDoomed4, [diaryDoomed3.marked("book"
 recipes.addShapeless("diary_doomed_5", diaryDoomed5, [diaryDoomed4.marked("book"), tornPage], function(output, inputs, CInfo){
 	var tag = inputs.book.tag as IData;
 	var displayTag = tag.memberGet("display") as IData;
-	var overrideLore = {Lore: ["Torn Pages added: 5"]} as IData;
+	var overrideLore = {Lore: ["Torn Pages added: 6"]} as IData;
 	var displayTagOut = displayTag - "Lore" + overrideLore as IData;
 	var overrideTag = {display: displayTagOut} as IData;
 	var tagOutput = tag - "display" + overrideTag as IData;

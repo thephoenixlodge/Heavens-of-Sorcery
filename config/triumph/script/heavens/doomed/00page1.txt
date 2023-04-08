@@ -1,0 +1,15 @@
+setIcon(<patchouli:guide_book, nbt:{"patchouli:book":"patchouli:doomed"}>)
+
+setTitle("A Scrap of Lost Knowledge")
+
+setDescription("Collate 1 torn page in the Diary of the Doomed")
+
+addParent("heavens:doomed/root")
+
+setPos(35,0)
+drawDirectLines()
+
+criteria = addCriteria("hasDiary1", "minecraft:inventory_changed")
+criteria.addItem(<patchouli:guide_book, meta:0, count:1, nbt:{display:{Lore:["Torn Pages added: 1"]},"patchouli:book":"patchouli:doomed"}>)
+
+setRewardExperience(500)

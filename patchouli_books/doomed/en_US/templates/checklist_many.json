@@ -1,0 +1,152 @@
+{
+	"components": [
+		{
+			"type": "header",
+			"text": "Collect:",
+			"x": -1,
+			"y": 0
+		},
+		{
+			"type": "image",
+			"image": "books:templates/checklist_frame.png",
+			"texture_width": 128,
+			"texture_height": 64,
+			"width": 81,
+			"height": 24,
+			"scale": 1,
+			"x": 15,
+			"y": 15
+		},
+		{
+			"type": "image",
+			"image": "books:templates/checklist_frame.png",
+			"texture_width": 128,
+			"texture_height": 64,
+			"width": 81,
+			"height": 24,
+			"scale": 1,
+			"x": 15,
+			"y": 45
+		},
+		{
+			"type": "image",
+			"image": "books:templates/checklist_frame.png",
+			"texture_width": 128,
+			"texture_height": 64,
+			"width": 81,
+			"height": 24,
+			"scale": 1,
+			"x": 15,
+			"y": 75
+		},
+		{
+			"type": "item",
+			"item": "#item1",
+			"framed": "false",
+			"x": 19,
+			"y": 19
+		},		{
+			"type": "item",
+			"item": "#item2",
+			"framed": "false",
+			"x": 38,
+			"y": 19
+		},
+		{
+			"type": "item",
+			"item": "#item3",
+			"framed": "false",
+			"x": 57,
+			"y": 19
+		},
+		{
+			"type": "item",
+			"item": "#item4",
+			"framed": "false",
+			"x": 76,
+			"y": 19
+		},
+		{
+			"type": "item",
+			"item": "#item5",
+			"framed": "false",
+			"x": 19,
+			"y": 49
+		},		{
+			"type": "item",
+			"item": "#item6",
+			"framed": "false",
+			"x": 38,
+			"y": 49
+		},
+		{
+			"type": "item",
+			"item": "#item7",
+			"framed": "false",
+			"x": 57,
+			"y": 49
+		},
+		{
+			"type": "item",
+			"item": "#item8",
+			"framed": "false",
+			"x": 76,
+			"y": 49
+		},
+		{
+			"type": "item",
+			"item": "#item9",
+			"framed": "false",
+			"x": 19,
+			"y": 79
+		},		
+		{
+			"type": "item",
+			"item": "#item10",
+			"framed": "false",
+			"x": 38,
+			"y": 79
+		},
+		{
+			"type": "item",
+			"item": "#item11",
+			"framed": "false",
+			"x": 57,
+			"y": 79
+		},
+		{
+			"type": "item",
+			"item": "#item12",
+			"framed": "false",
+			"x": 76,
+			"y": 79
+		},
+		{
+			"type": "header",
+			"text": "Rewards:",
+			"x": -1,
+			"y": 110
+		},
+		{
+			"type": "item",
+			"item": "#reward1",
+			"framed": "true",
+			"x": 20,
+			"y": 125
+		},
+		{
+			"type": "item",
+			"item": "#reward2",
+			"framed": "true",
+			"x": 50,
+			"y": 125
+		},
+		{
+			"type": "item",
+			"item": "#reward3",
+			"framed": "true",
+			"x": 80,
+			"y": 125
+		}
+	]
+}

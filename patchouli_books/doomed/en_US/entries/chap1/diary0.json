@@ -1,0 +1,19 @@
+{
+    "name": "7th Moon, 3rd Night",
+    "icon": "dimdoors:iron_dimensional_door",
+    "category": "chap1",
+    "sortnum": 0,
+    "advancement": "heavens:doomed/00page1",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Five nights past, I received a missive from the council; Investigate the curious doorways that have begun to appear throughout various realms. $(br2)While many of these doorways disappeared as quickly as they arrived, one was identified within the realm of Mist, which I am now bound for."
+        },
+        {
+            "type": "location",
+            "icon": "books:templates/dimdoors_preview.png",
+            "location": "Curious Gateway",
+            "description": "The missive included this mana-sketch of the doorway."
+        }
+    ]
+}

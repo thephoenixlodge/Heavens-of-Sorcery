@@ -1,0 +1,17 @@
+setIcon(<patchouli:guide_book, nbt:{"patchouli:book":"patchouli:doomed"}>)
+
+setTitle("What May Yet Be")
+
+setDescription("Collate all 6 torn pages in the Diary of the Doomed")
+
+addParent("heavens:doomed/40page5")
+
+setRequiresParents()
+
+setPos(210,0)
+drawDirectLines()
+
+criteria = addCriteria("hasDiary1", "minecraft:inventory_changed")
+criteria.addItem(<patchouli:guide_book, meta:0, count:1, nbt:{display:{Lore:["Torn Pages added: 6"]},"patchouli:book":"patchouli:doomed"}>)
+
+setRewardExperience(500)

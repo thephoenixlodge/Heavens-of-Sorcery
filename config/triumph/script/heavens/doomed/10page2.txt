@@ -1,0 +1,17 @@
+setIcon(<patchouli:guide_book, nbt:{"patchouli:book":"patchouli:doomed"}>)
+
+setTitle("Dark Experiences")
+
+setDescription("Collate 2 torn pages in the Diary of the Doomed")
+
+addParent("heavens:doomed/00page1")
+
+setRequiresParents()
+
+setPos(70,0)
+drawDirectLines()
+
+criteria = addCriteria("hasDiary1", "minecraft:inventory_changed")
+criteria.addItem(<patchouli:guide_book, meta:0, count:1, nbt:{display:{Lore:["Torn Pages added: 2"]},"patchouli:book":"patchouli:doomed"}>)
+
+setRewardExperience(500)
