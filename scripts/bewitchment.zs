@@ -3,6 +3,8 @@ import mods.botania.PureDaisy;
 import mods.botania.ManaInfusion;
 import mods.bloodmagic.TartaricForge;
 import mods.bloodmagic.AlchemyArray;
+import mods.bloodmagic.BloodAltar;
+import mods.astralsorcery.LightTransmutation;
 import mods.MobStages;
 import loottweaker.LootTweaker;
 import loottweaker.vanilla.loot.LootTable;
@@ -71,6 +73,20 @@ val meats = {
 	<quark:crab_leg> : <quark:cooked_crab_leg>
 } as IItemStack[IItemStack];
 val tallow = <bewitchment:tallow>;
+val seedMandrake = <bewitchment:mandrake_seeds>;
+val wildroot = <roots:wildroot>;
+val seedSage = <bewitchment:white_sage_seeds>;
+val seedSpiritHerb = <roots:spirit_herb_seed>;
+val pereskiaBulb = <roots:pereskia_bulb>;
+val seedHellebore = <bewitchment:hellebore_seeds>;
+val poisonIvy = <thebetweenlands:poison_ivy>;
+val seedBelladonna = <bewitchment:belladonna_seeds>;
+val milkweed = <thebetweenlands:items_plant_drop:31>;
+val seedWormwood = <bewitchment:wormwood_seeds>;
+val posionousPotato = <minecraft:poisonous_potato>;
+val seedAconitum = <bewitchment:aconitum_seeds>;
+val blockRawMoonstone = <blue_skies:moonstone_spike_block>;
+val blockOpal = <bewitchment:block_of_opal>;
 
 val mobStrings = [
 	"bewitchment:hellhound",
@@ -129,3 +145,14 @@ poolGhost.removeEntry("bewitchment:spectral_dust");
 for raw, cooked in meats {
 	WitchesOven.addRecipe(raw, cooked, tallow, 0.5F, false);
 }
+
+//Seeds
+BloodAltar.addRecipe(seedMandrake, wildroot, 1, 800, 20, 20);
+BloodAltar.addRecipe(seedHellebore, pereskiaBulb, 1, 800, 20, 20);
+BloodAltar.addRecipe(seedBelladonna, poisonIvy, 1, 800, 20, 20);
+BloodAltar.addRecipe(seedWormwood, milkweed, 1, 800, 20, 20);
+BloodAltar.addRecipe(seedAconitum, posionousPotato, 1, 800, 20, 20);
+BloodAltar.addRecipe(seedSage, seedSpiritHerb, 1, 800, 20, 20);
+
+//Opal
+LightTransmutation.addTransmutation(blockRawMoonstone, blockOpal, 500);
