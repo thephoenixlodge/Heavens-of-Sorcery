@@ -5,6 +5,8 @@ import crafttweaker.recipes.ICraftingInfo;
 import crafttweaker.recipes.IRecipeFunction;
 import crafttweaker.item.IItemStack;
 import crafttweaker.data.IData;
+import mods.botania.ManaInfusion;
+import mods.ArcaneWorld;
 
 ////variables
 val snare = <bloodmagic:soul_snare>;
@@ -85,6 +87,13 @@ val leather = <minecraft:leather>;
 val marbleDark = <tombstone:dark_marble>;
 val masterRitualStone = <bloodmagic:ritual_controller>;
 val ritualStone = <bloodmagic:ritual_stone>;
+val daggerSelfSacrifice = <bloodmagic:sacrificial_dagger>;
+val daggerMobSacrifice = <bloodmagic:dagger_of_sacrifice>;
+val knifeGold = <roots:gold_knife>;
+val knifeAmethyst = <mysticalworld:amethyst_knife>;
+val enderPearl = <minecraft:ender_pearl>;
+val otherworldsCore = <contenttweaker:otherworlds_core>;
+val manaPearl = <botania:manaresource:1>;
 
 //disable snare
 recipes.remove(snare);
@@ -212,8 +221,15 @@ recipes.addShaped(ritualStone * 4, [[marbleDark, slateT2, marbleDark], [slateT2,
 recipes.removeByRecipeName("bloodmagic:ritual_controller_master");
 recipes.addShaped(masterRitualStone, [[marbleDark, ritualStone, marbleDark], [ritualStone, bloodOrbs2, ritualStone], [marbleDark, ritualStone, marbleDark]]);
 
-/*
-<patchouli:guide_book>.withTag({"akashictome:displayName": "Diary of the Doomed", "akashictome:definedMod": "patchouli", display: {Lore: ["Torn Pages added: 1"], Name: "§rAkashic Tome (§aDiary of the Doomed§r)"}, "akashictome:is_morphing": 1 as byte, "patchouli:book": "patchouli:doomed", "akashictome:data": {}})
+//self sac dagger
+recipes.remove(daggerSelfSacrifice);
+ManaInfusion.addInfusion(daggerSelfSacrifice, knifeGold, 30000);
 
-<patchouli:guide_book>.withTag({display: {Lore: ["Torn Pages added: 1"]}, "patchouli:book": "patchouli:doomed"})
-*/
+//mob sac dagger
+BloodAltar.removeRecipe(<minecraft:iron_sword>);
+BloodAltar.addRecipe(daggerMobSacrifice, knifeAmethyst, 1, 3000, 5, 5);
+
+//stable fabric
+recipes.remove(stableFabric);
+ArcaneWorld.createRitualCreateItem("stable_fabric", "Stabilized World Thread", stableFabric, otherworldsCore, enderPearl, worldThread, worldThread, worldThread);
+TartaricForge.addRecipe(stableFabric * 2, [manaPearl, worldThread, worldThread], 60, 15);
