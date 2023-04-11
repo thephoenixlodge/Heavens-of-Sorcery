@@ -217,6 +217,10 @@ val dictChestWood = <ore:chestWood>;
 val positiveDesign = <chiselsandbits:positiveprint>;
 val bucketWater = <minecraft:water_bucket>;
 val paper = <minecraft:paper>;
+val assortedVeges = <rats:assorted_vegetables>;
+val dictVeg = <ore:listAllveggie>;
+val chiliRustic = <rustic:chili_pepper>;
+val garlicBW = <bewitchment:garlic>;
 
 val basicBlocks = {
 	<minecraft:end_stone> : 6,
@@ -596,3 +600,21 @@ ManaInfusion.addInfusion(seedSwamp, seedOak, 1000);
 //positive chisel design
 recipes.removeByRecipeName("chiselsandbits:positiveprint");
 recipes.addShapeless(positiveDesign, [bucketWater, paper, oreDustIron]);
+
+//couple of extra additions to the vege tag
+dictVeg.add(chiliRustic);
+dictVeg.add(garlicBW);
+
+//rats assorted veges balance
+recipes.remove(assortedVeges);
+recipes.addShapeless("assortedVeg", assortedVeges, [dictVeg.marked("veg0"), dictVeg.marked("veg1"), dictVeg.marked("veg2"), dictVeg.marked("veg3"), dictVeg.marked("veg4"), dictVeg.marked("veg5"), dictVeg.marked("veg6"), dictVeg.marked("veg7"), dictVeg.marked("veg8")], function(out, inputs, CInfo){
+	var duplicate = false;
+	for i, input in inputs.values {
+		var otherStacks = inputs.values as IItemStack[];
+		otherStacks[i] = <minecraft:stone>;
+		if (otherStacks has input){
+			duplicate = true;
+		}
+	}
+	return duplicate ? null : assortedVeges;
+}, null);
