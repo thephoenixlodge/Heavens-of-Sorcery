@@ -1,0 +1,15 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "bewitchment:cube_overlay",
+    "textures": {
+      "base": "blue_skies:blocks/stone/turquoise_stone",
+      "overlay": "bewitchment:blocks/garnet_ore"
+    }
+  },
+  "variants": {
+    "normal": [
+      {}
+    ]
+  }
+}

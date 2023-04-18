@@ -12,6 +12,9 @@ import loottweaker.vanilla.loot.LootPool;
 import loottweaker.vanilla.loot.Functions;
 import moretweaker.bewitchment.WitchesOven;
 import crafttweaker.item.IItemStack;
+import mods.botaniatweaks.Agglomeration;
+import mods.botaniatweaks.AgglomerationMultiblock;
+import mods.botaniatweaks.AgglomerationRecipe;
 
 
 ////variables
@@ -85,8 +88,15 @@ val milkweed = <thebetweenlands:items_plant_drop:31>;
 val seedWormwood = <bewitchment:wormwood_seeds>;
 val posionousPotato = <minecraft:poisonous_potato>;
 val seedAconitum = <bewitchment:aconitum_seeds>;
-val blockRawMoonstone = <blue_skies:moonstone_spike_block>;
-val blockOpal = <bewitchment:block_of_opal>;
+val stoneTurquoise = <blue_skies:turquoise_stone>;
+val stoneLunar = <blue_skies:lunar_stone>;
+val oreOpal = <bewitchment:opal_ore>;
+val oreGarnet = <bewitchment:garnet_ore>;
+val bucketStarlight = <forge:bucketfilled>.withTag({FluidName: "astralsorcery.liquidstarlight", Amount: 1000});
+val bucketBlood = <forge:bucketfilled>.withTag({FluidName: "lifeessence", Amount: 1000});
+val bucket = <minecraft:bucket>;
+var multiblockOpal = AgglomerationMultiblock.create().all(stoneLunar).edgeReplace(oreOpal).cornerReplace(oreOpal);
+var multiblockGarnet = AgglomerationMultiblock.create().all(stoneTurquoise).edgeReplace(oreGarnet).cornerReplace(oreGarnet);
 
 val mobStrings = [
 	"bewitchment:hellhound",
@@ -154,5 +164,8 @@ BloodAltar.addRecipe(seedWormwood, milkweed, 1, 800, 20, 20);
 BloodAltar.addRecipe(seedAconitum, posionousPotato, 1, 800, 20, 20);
 BloodAltar.addRecipe(seedSage, seedSpiritHerb, 1, 800, 20, 20);
 
-//Opal
-LightTransmutation.addTransmutation(blockRawMoonstone, blockOpal, 500);
+//Opal and Garnet
+var opalRecipe = AgglomerationRecipe.create().output(bucket).inputs([bucketStarlight]).manaCost(50000).multiblock(multiblockOpal);
+Agglomeration.addRecipe(opalRecipe);
+var garnetRecipe = AgglomerationRecipe.create().output(bucket).inputs([bucketBlood]).manaCost(50000).multiblock(multiblockGarnet);
+Agglomeration.addRecipe(garnetRecipe);
