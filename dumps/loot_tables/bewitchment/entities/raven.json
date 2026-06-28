@@ -1,5 +1,14 @@
 {
+  "daomephsta_loot_shared:dump_info": {
+    "__comment": "Ignored when loading loot tables. Included in dumps for development and debugging.",
+    "id": "bewitchment:entities/raven"
+  },
   "pools": [
+    {
+      "name": "raven",
+      "entries": [],
+      "rolls": 1.0
+    },
     {
       "name": "raven_cutting_1",
       "entries": [
@@ -21,11 +30,6 @@
           "condition": "mist:skill_cutting"
         }
       ]
-    },
-    {
-      "name": "raven",
-      "entries": [],
-      "rolls": 1.0
     },
     {
       "name": "raven_cutting_2",

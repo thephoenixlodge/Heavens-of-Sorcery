@@ -1,5 +1,36 @@
 {
+  "daomephsta_loot_shared:dump_info": {
+    "__comment": "Ignored when loading loot tables. Included in dumps for development and debugging.",
+    "id": "bewitchment:entities/lizard"
+  },
   "pools": [
+    {
+      "name": "lizard",
+      "entries": [],
+      "rolls": 1.0
+    },
+    {
+      "name": "lizard_cutting_1",
+      "entries": [
+        {
+          "entryName": "meat",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "hos:cutting/lizard_lizard_meat"
+        }
+      ],
+      "rolls": {
+        "min": 0.0,
+        "max": 1.0
+      },
+      "conditions": [
+        {
+          "value": 1,
+          "condition": "mist:skill_cutting"
+        }
+      ]
+    },
     {
       "name": "lizard_cutting_2",
       "entries": [
@@ -40,33 +71,6 @@
           "condition": "mist:skill_cutting"
         }
       ]
-    },
-    {
-      "name": "lizard_cutting_1",
-      "entries": [
-        {
-          "entryName": "meat",
-          "weight": 1,
-          "quality": 0,
-          "type": "loot_table",
-          "name": "hos:cutting/lizard_lizard_meat"
-        }
-      ],
-      "rolls": {
-        "min": 0.0,
-        "max": 1.0
-      },
-      "conditions": [
-        {
-          "value": 1,
-          "condition": "mist:skill_cutting"
-        }
-      ]
-    },
-    {
-      "name": "lizard",
-      "entries": [],
-      "rolls": 1.0
     },
     {
       "name": "lizard_cutting_4",

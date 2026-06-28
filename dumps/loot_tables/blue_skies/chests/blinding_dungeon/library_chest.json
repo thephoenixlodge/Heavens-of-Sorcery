@@ -1,18 +1,9 @@
 {
+  "daomephsta_loot_shared:dump_info": {
+    "__comment": "Ignored when loading loot tables. Included in dumps for development and debugging.",
+    "id": "blue_skies:chests/blinding_dungeon/library_chest"
+  },
   "pools": [
-    {
-      "name": "wiz_inject",
-      "entries": [
-        {
-          "entryName": "loottweaker#1",
-          "weight": 10,
-          "quality": 0,
-          "type": "loot_table",
-          "name": "ebwizardry:chests/shrine"
-        }
-      ],
-      "rolls": 1.0
-    },
     {
       "name": "chest",
       "entries": [
@@ -46,269 +37,27 @@
       }
     },
     {
-      "name": "tombstone:chest_treasure",
+      "name": "enchanted_book",
       "entries": [
         {
-          "entryName": "tombstone:scroll_buff_loot1",
-          "weight": 10,
+          "entryName": "minecraft:book",
+          "weight": 1,
           "quality": 0,
           "type": "item",
           "functions": [
             {
-              "tag": "{enchant:1b}",
-              "function": "minecraft:set_nbt"
-            },
-            {
-              "data": 2.0,
-              "function": "minecraft:set_data"
+              "levels": 10.0,
+              "treasure": false,
+              "function": "minecraft:enchant_with_levels"
             }
           ],
-          "name": "tombstone:scroll_buff"
-        },
-        {
-          "entryName": "tombstone:scroll_buff_loot2",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "tag": "{enchant:1b}",
-              "function": "minecraft:set_nbt"
-            },
-            {
-              "data": 3.0,
-              "function": "minecraft:set_data"
-            }
-          ],
-          "name": "tombstone:scroll_buff"
-        },
-        {
-          "entryName": "tombstone:scroll_buff_loot0",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "tag": "{enchant:1b}",
-              "function": "minecraft:set_nbt"
-            },
-            {
-              "data": 1.0,
-              "function": "minecraft:set_data"
-            }
-          ],
-          "name": "tombstone:scroll_buff"
-        },
-        {
-          "entryName": "tombstone:scroll_buff_loot5",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "tag": "{enchant:1b}",
-              "function": "minecraft:set_nbt"
-            },
-            {
-              "data": 6.0,
-              "function": "minecraft:set_data"
-            }
-          ],
-          "name": "tombstone:scroll_buff"
-        },
-        {
-          "entryName": "tombstone:tablet_of_cupidity_loot",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "tag": "{enchant:1b}",
-              "function": "minecraft:set_nbt"
-            }
-          ],
-          "name": "tombstone:tablet_of_cupidity"
-        },
-        {
-          "entryName": "tombstone:voodoo_poppet_loot",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "function": "tombstone:delayed_nbt_loot"
-            }
-          ],
-          "name": "tombstone:voodoo_poppet"
-        },
-        {
-          "entryName": "tombstone:scroll_buff_loot6",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "tag": "{enchant:1b}",
-              "function": "minecraft:set_nbt"
-            },
-            {
-              "data": 7.0,
-              "function": "minecraft:set_data"
-            }
-          ],
-          "name": "tombstone:scroll_buff"
-        },
-        {
-          "entryName": "tombstone:scroll_buff_loot3",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "tag": "{enchant:1b}",
-              "function": "minecraft:set_nbt"
-            },
-            {
-              "data": 4.0,
-              "function": "minecraft:set_data"
-            }
-          ],
-          "name": "tombstone:scroll_buff"
-        },
-        {
-          "entryName": "tombstone:scroll_buff_loot4",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "tag": "{enchant:1b}",
-              "function": "minecraft:set_nbt"
-            },
-            {
-              "data": 5.0,
-              "function": "minecraft:set_data"
-            }
-          ],
-          "name": "tombstone:scroll_buff"
-        },
-        {
-          "entryName": "tombstone:scroll_of_knowledge_loot",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "function": "tombstone:delayed_nbt_loot"
-            }
-          ],
-          "name": "tombstone:scroll_of_knowledge"
-        },
-        {
-          "entryName": "tombstone:empty",
-          "weight": 844,
-          "quality": 0,
-          "type": "empty"
-        },
-        {
-          "entryName": "tombstone:crafting_ingredient_loot",
-          "weight": 3,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "data": 4.0,
-              "function": "minecraft:set_data"
-            }
-          ],
-          "name": "tombstone:crafting_ingredient"
-        },
-        {
-          "entryName": "tombstone:scroll_buff_loot",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "tag": "{enchant:1b}",
-              "function": "minecraft:set_nbt"
-            },
-            {
-              "data": 0.0,
-              "function": "minecraft:set_data"
-            }
-          ],
-          "name": "tombstone:scroll_buff"
-        },
-        {
-          "entryName": "tombstone:tablet_of_assistance_loot",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "tag": "{enchant:1b}",
-              "function": "minecraft:set_nbt"
-            }
-          ],
-          "name": "tombstone:tablet_of_assistance"
-        },
-        {
-          "entryName": "tombstone:fishing_rod_of_misadventure_loot",
-          "weight": 3,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "function": "tombstone:delayed_nbt_loot"
-            }
-          ],
-          "name": "tombstone:fishing_rod_of_misadventure"
-        },
-        {
-          "entryName": "tombstone:familiar_receptacle_loot",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "function": "tombstone:delayed_nbt_loot"
-            }
-          ],
-          "name": "tombstone:familiar_receptacle"
-        },
-        {
-          "entryName": "tombstone:tablet_of_home_loot",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "tag": "{enchant:1b}",
-              "function": "minecraft:set_nbt"
-            }
-          ],
-          "name": "tombstone:tablet_of_home"
-        },
-        {
-          "entryName": "tombstone:scroll_buff_loot7",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "tag": "{enchant:1b}",
-              "function": "minecraft:set_nbt"
-            },
-            {
-              "data": 8.0,
-              "function": "minecraft:set_data"
-            }
-          ],
-          "name": "tombstone:scroll_buff"
+          "name": "minecraft:book"
         }
       ],
-      "rolls": 1.0
+      "rolls": {
+        "min": 0.0,
+        "max": 2.0
+      }
     },
     {
       "name": "hos_extra",
@@ -355,27 +104,17 @@
       "bonus_rolls": 1.0
     },
     {
-      "name": "enchanted_book",
+      "name": "wiz_inject",
       "entries": [
         {
-          "entryName": "minecraft:book",
-          "weight": 1,
+          "entryName": "loottweaker#1",
+          "weight": 10,
           "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "levels": 10.0,
-              "treasure": false,
-              "function": "minecraft:enchant_with_levels"
-            }
-          ],
-          "name": "minecraft:book"
+          "type": "loot_table",
+          "name": "ebwizardry:chests/shrine"
         }
       ],
-      "rolls": {
-        "min": 0.0,
-        "max": 2.0
-      }
+      "rolls": 1.0
     }
   ]
 }

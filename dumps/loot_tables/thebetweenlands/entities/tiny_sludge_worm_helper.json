@@ -1,3 +1,7 @@
 {
+  "daomephsta_loot_shared:dump_info": {
+    "__comment": "Ignored when loading loot tables. Included in dumps for development and debugging.",
+    "id": "thebetweenlands:entities/tiny_sludge_worm_helper"
+  },
   "pools": []
 }

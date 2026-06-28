@@ -1,4 +1,8 @@
 {
+  "daomephsta_loot_shared:dump_info": {
+    "__comment": "Ignored when loading loot tables. Included in dumps for development and debugging.",
+    "id": "minecraft:gameplay/fishing/junk"
+  },
   "pools": [
     {
       "name": "main",
@@ -129,13 +133,16 @@
       "entries": [
         {
           "entryName": "tombstone:crafting_ingredient_loot",
-          "weight": 20,
+          "weight": 10,
           "quality": 0,
           "type": "item",
           "functions": [
             {
               "data": 4.0,
               "function": "minecraft:set_data"
+            },
+            {
+              "function": "tombstone:check_enabled"
             }
           ],
           "name": "tombstone:crafting_ingredient"
@@ -147,8 +154,11 @@
           "type": "item",
           "functions": [
             {
-              "tag": "{ancient:1b}",
+              "tag": "{enchant:1b,ancient:1b}",
               "function": "minecraft:set_nbt"
+            },
+            {
+              "function": "tombstone:check_enabled"
             }
           ],
           "name": "tombstone:tablet_of_recall"
@@ -160,8 +170,11 @@
           "type": "item",
           "functions": [
             {
-              "tag": "{ancient:1b}",
+              "tag": "{enchant:1b,ancient:1b}",
               "function": "minecraft:set_nbt"
+            },
+            {
+              "function": "tombstone:check_enabled"
             }
           ],
           "name": "tombstone:tablet_of_home"
@@ -173,8 +186,11 @@
           "type": "item",
           "functions": [
             {
-              "tag": "{ancient:1b}",
+              "tag": "{enchant:1b,ancient:1b}",
               "function": "minecraft:set_nbt"
+            },
+            {
+              "function": "tombstone:check_enabled"
             }
           ],
           "name": "tombstone:tablet_of_cupidity"
@@ -186,11 +202,66 @@
           "type": "item",
           "functions": [
             {
-              "tag": "{ancient:1b}",
+              "tag": "{enchant:1b,ancient:1b}",
               "function": "minecraft:set_nbt"
+            },
+            {
+              "function": "tombstone:check_enabled"
             }
           ],
           "name": "tombstone:tablet_of_assistance"
+        },
+        {
+          "entryName": "tombstone:tablet_of_guard_loot",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{enchant:1b,ancient:1b}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "function": "tombstone:check_enabled"
+            }
+          ],
+          "name": "tombstone:tablet_of_guard"
+        },
+        {
+          "entryName": "tombstone:scroll_of_knowledge_loot",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "function": "tombstone:delayed_nbt_loot"
+            }
+          ],
+          "name": "tombstone:scroll_of_knowledge"
+        },
+        {
+          "entryName": "tombstone:magic_scroll_loot",
+          "weight": 50,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "function": "tombstone:delayed_nbt_loot"
+            }
+          ],
+          "name": "tombstone:magic_scroll"
+        },
+        {
+          "entryName": "tombstone:gemstone_of_familiar_loot",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "function": "tombstone:check_enabled"
+            }
+          ],
+          "name": "tombstone:gemstone_of_familiar"
         },
         {
           "entryName": "tombstone:voodoo_poppet_loot",
@@ -205,7 +276,7 @@
           "name": "tombstone:voodoo_poppet"
         },
         {
-          "entryName": "tombstone:familiar_receptacle_loot",
+          "entryName": "tombstone:receptacle_of_familiar_loot",
           "weight": 10,
           "quality": 0,
           "type": "item",
@@ -214,7 +285,7 @@
               "function": "tombstone:delayed_nbt_loot"
             }
           ],
-          "name": "tombstone:familiar_receptacle"
+          "name": "tombstone:receptacle_of_familiar"
         },
         {
           "entryName": "tombstone:fishing_rod_of_misadventure_loot",
@@ -229,8 +300,20 @@
           "name": "tombstone:fishing_rod_of_misadventure"
         },
         {
-          "entryName": "tombstone:empty",
-          "weight": 928,
+          "entryName": "tombstone:lost_tablet_loot",
+          "weight": 100,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "function": "tombstone:check_enabled"
+            }
+          ],
+          "name": "tombstone:lost_tablet"
+        },
+        {
+          "entryName": "empty",
+          "weight": 755,
           "quality": 0,
           "type": "empty"
         }

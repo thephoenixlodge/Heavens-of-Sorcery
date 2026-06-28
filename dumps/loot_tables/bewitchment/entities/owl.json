@@ -1,5 +1,36 @@
 {
+  "daomephsta_loot_shared:dump_info": {
+    "__comment": "Ignored when loading loot tables. Included in dumps for development and debugging.",
+    "id": "bewitchment:entities/owl"
+  },
   "pools": [
+    {
+      "name": "owl",
+      "entries": [],
+      "rolls": 1.0
+    },
+    {
+      "name": "owl_cutting_1",
+      "entries": [
+        {
+          "entryName": "meat",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "hos:cutting/owl_owl_meat"
+        }
+      ],
+      "rolls": {
+        "min": 0.0,
+        "max": 1.0
+      },
+      "conditions": [
+        {
+          "value": 1,
+          "condition": "mist:skill_cutting"
+        }
+      ]
+    },
     {
       "name": "owl_cutting_2",
       "entries": [
@@ -81,33 +112,6 @@
       "conditions": [
         {
           "value": 5,
-          "condition": "mist:skill_cutting"
-        }
-      ]
-    },
-    {
-      "name": "owl",
-      "entries": [],
-      "rolls": 1.0
-    },
-    {
-      "name": "owl_cutting_1",
-      "entries": [
-        {
-          "entryName": "meat",
-          "weight": 1,
-          "quality": 0,
-          "type": "loot_table",
-          "name": "hos:cutting/owl_owl_meat"
-        }
-      ],
-      "rolls": {
-        "min": 0.0,
-        "max": 1.0
-      },
-      "conditions": [
-        {
-          "value": 1,
           "condition": "mist:skill_cutting"
         }
       ]

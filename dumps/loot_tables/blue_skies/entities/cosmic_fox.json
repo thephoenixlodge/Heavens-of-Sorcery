@@ -1,12 +1,45 @@
 {
+  "daomephsta_loot_shared:dump_info": {
+    "__comment": "Ignored when loading loot tables. Included in dumps for development and debugging.",
+    "id": "blue_skies:entities/cosmic_fox"
+  },
   "pools": [
+    {
+      "name": "meat",
+      "entries": [
+        {
+          "entryName": "minecraft:fish",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "minecraft:fish"
+        }
+      ],
+      "rolls": 1.0
+    },
     {
       "name": "fur",
       "entries": [],
       "rolls": 1.0
     },
     {
-      "name": "fur_cutting_5",
+      "name": "fur_cutting_1",
       "entries": [
         {
           "entryName": "meat",
@@ -17,12 +50,31 @@
         }
       ],
       "rolls": {
-        "min": 2.0,
-        "max": 4.0
+        "min": 0.0,
+        "max": 1.0
       },
       "conditions": [
         {
-          "value": 5,
+          "value": 1,
+          "condition": "mist:skill_cutting"
+        }
+      ]
+    },
+    {
+      "name": "fur_cutting_2",
+      "entries": [
+        {
+          "entryName": "meat",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "hos:cutting/cosmic_fox_fur_meat"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "value": 2,
           "condition": "mist:skill_cutting"
         }
       ]
@@ -72,36 +124,7 @@
       ]
     },
     {
-      "name": "meat",
-      "entries": [
-        {
-          "entryName": "minecraft:fish",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 2.0,
-                "max": 4.0
-              },
-              "function": "minecraft:set_count"
-            },
-            {
-              "count": {
-                "min": 0.0,
-                "max": 1.0
-              },
-              "function": "minecraft:looting_enchant"
-            }
-          ],
-          "name": "minecraft:fish"
-        }
-      ],
-      "rolls": 1.0
-    },
-    {
-      "name": "fur_cutting_1",
+      "name": "fur_cutting_5",
       "entries": [
         {
           "entryName": "meat",
@@ -112,31 +135,12 @@
         }
       ],
       "rolls": {
-        "min": 0.0,
-        "max": 1.0
+        "min": 2.0,
+        "max": 4.0
       },
       "conditions": [
         {
-          "value": 1,
-          "condition": "mist:skill_cutting"
-        }
-      ]
-    },
-    {
-      "name": "fur_cutting_2",
-      "entries": [
-        {
-          "entryName": "meat",
-          "weight": 1,
-          "quality": 0,
-          "type": "loot_table",
-          "name": "hos:cutting/cosmic_fox_fur_meat"
-        }
-      ],
-      "rolls": 1.0,
-      "conditions": [
-        {
-          "value": 2,
+          "value": 5,
           "condition": "mist:skill_cutting"
         }
       ]

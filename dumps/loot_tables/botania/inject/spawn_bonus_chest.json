@@ -1,4 +1,8 @@
 {
+  "daomephsta_loot_shared:dump_info": {
+    "__comment": "Ignored when loading loot tables. Included in dumps for development and debugging.",
+    "id": "botania:inject/spawn_bonus_chest"
+  },
   "pools": [
     {
       "name": "main",

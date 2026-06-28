@@ -1,5 +1,95 @@
 {
+  "daomephsta_loot_shared:dump_info": {
+    "__comment": "Ignored when loading loot tables. Included in dumps for development and debugging.",
+    "id": "minecraft:entities/cow"
+  },
   "pools": [
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": 1.0
+    },
+    {
+      "name": "pool1",
+      "entries": [],
+      "rolls": 1.0
+    },
+    {
+      "name": "everlasting_food",
+      "entries": [
+        {
+          "entryName": "entry#0",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "artifacts:everlasting_food/beef"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "main_cutting_1",
+      "entries": [
+        {
+          "entryName": "meat",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "hos:cutting/cow_main_meat"
+        }
+      ],
+      "rolls": {
+        "min": 0.0,
+        "max": 1.0
+      },
+      "conditions": [
+        {
+          "value": 1,
+          "condition": "mist:skill_cutting"
+        }
+      ]
+    },
+    {
+      "name": "main_cutting_2",
+      "entries": [
+        {
+          "entryName": "meat",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "hos:cutting/cow_main_meat"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "value": 2,
+          "condition": "mist:skill_cutting"
+        }
+      ]
+    },
+    {
+      "name": "main_cutting_3",
+      "entries": [
+        {
+          "entryName": "meat",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "hos:cutting/cow_main_meat"
+        }
+      ],
+      "rolls": {
+        "min": 1.0,
+        "max": 2.0
+      },
+      "conditions": [
+        {
+          "value": 3,
+          "condition": "mist:skill_cutting"
+        }
+      ]
+    },
     {
       "name": "main_cutting_4",
       "entries": [
@@ -23,7 +113,29 @@
       ]
     },
     {
-      "name": "pool1_cutting_3",
+      "name": "main_cutting_5",
+      "entries": [
+        {
+          "entryName": "meat",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "hos:cutting/cow_main_meat"
+        }
+      ],
+      "rolls": {
+        "min": 2.0,
+        "max": 4.0
+      },
+      "conditions": [
+        {
+          "value": 5,
+          "condition": "mist:skill_cutting"
+        }
+      ]
+    },
+    {
+      "name": "pool1_cutting_1",
       "entries": [
         {
           "entryName": "meat",
@@ -34,25 +146,44 @@
         }
       ],
       "rolls": {
-        "min": 1.0,
-        "max": 2.0
+        "min": 0.0,
+        "max": 1.0
       },
       "conditions": [
         {
-          "value": 3,
+          "value": 1,
           "condition": "mist:skill_cutting"
         }
       ]
     },
     {
-      "name": "main_cutting_3",
+      "name": "pool1_cutting_2",
       "entries": [
         {
           "entryName": "meat",
           "weight": 1,
           "quality": 0,
           "type": "loot_table",
-          "name": "hos:cutting/cow_main_meat"
+          "name": "hos:cutting/cow_pool1_meat"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "value": 2,
+          "condition": "mist:skill_cutting"
+        }
+      ]
+    },
+    {
+      "name": "pool1_cutting_3",
+      "entries": [
+        {
+          "entryName": "meat",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "hos:cutting/cow_pool1_meat"
         }
       ],
       "rolls": {
@@ -89,98 +220,6 @@
       ]
     },
     {
-      "name": "main",
-      "entries": [],
-      "rolls": 1.0
-    },
-    {
-      "name": "main_cutting_2",
-      "entries": [
-        {
-          "entryName": "meat",
-          "weight": 1,
-          "quality": 0,
-          "type": "loot_table",
-          "name": "hos:cutting/cow_main_meat"
-        }
-      ],
-      "rolls": 1.0,
-      "conditions": [
-        {
-          "value": 2,
-          "condition": "mist:skill_cutting"
-        }
-      ]
-    },
-    {
-      "name": "pool1_cutting_1",
-      "entries": [
-        {
-          "entryName": "meat",
-          "weight": 1,
-          "quality": 0,
-          "type": "loot_table",
-          "name": "hos:cutting/cow_pool1_meat"
-        }
-      ],
-      "rolls": {
-        "min": 0.0,
-        "max": 1.0
-      },
-      "conditions": [
-        {
-          "value": 1,
-          "condition": "mist:skill_cutting"
-        }
-      ]
-    },
-    {
-      "name": "pool1",
-      "entries": [],
-      "rolls": 1.0
-    },
-    {
-      "name": "main_cutting_1",
-      "entries": [
-        {
-          "entryName": "meat",
-          "weight": 1,
-          "quality": 0,
-          "type": "loot_table",
-          "name": "hos:cutting/cow_main_meat"
-        }
-      ],
-      "rolls": {
-        "min": 0.0,
-        "max": 1.0
-      },
-      "conditions": [
-        {
-          "value": 1,
-          "condition": "mist:skill_cutting"
-        }
-      ]
-    },
-    {
-      "name": "pool1_cutting_2",
-      "entries": [
-        {
-          "entryName": "meat",
-          "weight": 1,
-          "quality": 0,
-          "type": "loot_table",
-          "name": "hos:cutting/cow_pool1_meat"
-        }
-      ],
-      "rolls": 1.0,
-      "conditions": [
-        {
-          "value": 2,
-          "condition": "mist:skill_cutting"
-        }
-      ]
-    },
-    {
       "name": "pool1_cutting_5",
       "entries": [
         {
@@ -189,41 +228,6 @@
           "quality": 0,
           "type": "loot_table",
           "name": "hos:cutting/cow_pool1_meat"
-        }
-      ],
-      "rolls": {
-        "min": 2.0,
-        "max": 4.0
-      },
-      "conditions": [
-        {
-          "value": 5,
-          "condition": "mist:skill_cutting"
-        }
-      ]
-    },
-    {
-      "name": "everlasting_food",
-      "entries": [
-        {
-          "entryName": "entry#0",
-          "weight": 1,
-          "quality": 0,
-          "type": "loot_table",
-          "name": "artifacts:everlasting_food/beef"
-        }
-      ],
-      "rolls": 1.0
-    },
-    {
-      "name": "main_cutting_5",
-      "entries": [
-        {
-          "entryName": "meat",
-          "weight": 1,
-          "quality": 0,
-          "type": "loot_table",
-          "name": "hos:cutting/cow_main_meat"
         }
       ],
       "rolls": {

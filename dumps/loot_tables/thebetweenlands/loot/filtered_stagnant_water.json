@@ -1,0 +1,103 @@
+{
+  "daomephsta_loot_shared:dump_info": {
+    "__comment": "Ignored when loading loot tables. Included in dumps for development and debugging.",
+    "id": "thebetweenlands:loot/filtered_stagnant_water"
+  },
+  "pools": [
+    {
+      "name": "sulfur",
+      "entries": [
+        {
+          "entryName": "thebetweenlands:items_misc",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 18.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thebetweenlands:items_misc"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "anadia remains",
+      "entries": [
+        {
+          "entryName": "thebetweenlands:items_misc",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 56.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thebetweenlands:items_misc"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "syrmorite_nugget",
+      "entries": [
+        {
+          "entryName": "thebetweenlands:items_misc",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 41.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thebetweenlands:items_misc"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "slimy_bone",
+      "entries": [
+        {
+          "entryName": "thebetweenlands:items_misc",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 14.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thebetweenlands:items_misc"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "limestone_flux",
+      "entries": [
+        {
+          "entryName": "thebetweenlands:items_misc",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 27.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thebetweenlands:items_misc"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

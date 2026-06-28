@@ -1,49 +1,25 @@
 {
+  "daomephsta_loot_shared:dump_info": {
+    "__comment": "Ignored when loading loot tables. Included in dumps for development and debugging.",
+    "id": "artifacts:mimic_underground"
+  },
   "pools": [
     {
       "name": "main",
       "entries": [
+        {
+          "entryName": "artifacts:shiny_red_balloon",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "name": "artifacts:shiny_red_balloon"
+        },
         {
           "entryName": "artifacts:thorn_pendant",
           "weight": 4,
           "quality": 0,
           "type": "item",
           "name": "artifacts:thorn_pendant"
-        },
-        {
-          "entryName": "artifacts:power_glove",
-          "weight": 2,
-          "quality": 0,
-          "type": "item",
-          "name": "artifacts:power_glove"
-        },
-        {
-          "entryName": "artifacts:cobalt_shield",
-          "weight": 4,
-          "quality": 0,
-          "type": "item",
-          "name": "artifacts:cobalt_shield"
-        },
-        {
-          "entryName": "artifacts:night_vision_goggles",
-          "weight": 2,
-          "quality": 0,
-          "type": "item",
-          "name": "artifacts:night_vision_goggles"
-        },
-        {
-          "entryName": "artifacts:lucky_horseshoe",
-          "weight": 2,
-          "quality": 0,
-          "type": "item",
-          "name": "artifacts:lucky_horseshoe"
-        },
-        {
-          "entryName": "loottweaker#1",
-          "weight": 2,
-          "quality": 0,
-          "type": "item",
-          "name": "artifacts:snorkel"
         },
         {
           "entryName": "artifacts:flame_pendant",
@@ -53,11 +29,18 @@
           "name": "artifacts:flame_pendant"
         },
         {
-          "entryName": "artifacts:star_cloak",
+          "entryName": "artifacts:shock_pendant",
           "weight": 1,
           "quality": 0,
           "type": "item",
-          "name": "artifacts:star_cloak"
+          "name": "artifacts:shock_pendant"
+        },
+        {
+          "entryName": "artifacts:cobalt_shield",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "name": "artifacts:cobalt_shield"
         },
         {
           "entryName": "artifacts:obsidian_skull",
@@ -67,6 +50,13 @@
           "name": "artifacts:obsidian_skull"
         },
         {
+          "entryName": "artifacts:panic_necklace",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "name": "artifacts:panic_necklace"
+        },
+        {
           "entryName": "artifacts:magma_stone",
           "weight": 3,
           "quality": 0,
@@ -74,11 +64,18 @@
           "name": "artifacts:magma_stone"
         },
         {
-          "entryName": "artifacts:shiny_red_balloon",
-          "weight": 4,
+          "entryName": "artifacts:feral_claws",
+          "weight": 3,
           "quality": 0,
           "type": "item",
-          "name": "artifacts:shiny_red_balloon"
+          "name": "artifacts:feral_claws"
+        },
+        {
+          "entryName": "artifacts:power_glove",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "name": "artifacts:power_glove"
         },
         {
           "entryName": "artifacts:bottled_cloud",
@@ -88,11 +85,25 @@
           "name": "artifacts:bottled_cloud"
         },
         {
-          "entryName": "artifacts:panic_necklace",
-          "weight": 3,
+          "entryName": "artifacts:lucky_horseshoe",
+          "weight": 2,
           "quality": 0,
           "type": "item",
-          "name": "artifacts:panic_necklace"
+          "name": "artifacts:lucky_horseshoe"
+        },
+        {
+          "entryName": "artifacts:star_cloak",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "artifacts:star_cloak"
+        },
+        {
+          "entryName": "artifacts:night_vision_goggles",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "name": "artifacts:night_vision_goggles"
         },
         {
           "entryName": "artifacts:pocket_piston",
@@ -116,18 +127,11 @@
           "name": "artifacts:tiny_shirt"
         },
         {
-          "entryName": "artifacts:feral_claws",
-          "weight": 3,
+          "entryName": "loottweaker#1",
+          "weight": 2,
           "quality": 0,
           "type": "item",
-          "name": "artifacts:feral_claws"
-        },
-        {
-          "entryName": "artifacts:shock_pendant",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "name": "artifacts:shock_pendant"
+          "name": "artifacts:snorkel"
         },
         {
           "entryName": "loottweaker#2",

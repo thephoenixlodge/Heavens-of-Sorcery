@@ -1,4 +1,8 @@
 {
+  "daomephsta_loot_shared:dump_info": {
+    "__comment": "Ignored when loading loot tables. Included in dumps for development and debugging.",
+    "id": "minecraft:entities/creeper"
+  },
   "pools": [
     {
       "name": "main",
@@ -40,7 +44,11 @@
           "name": "ebwizardry:entities/mob_additions"
         }
       ],
-      "rolls": 1.0
+      "rolls": 1.0,
+      "bonus_rolls": {
+        "min": 0.0,
+        "max": 1.0
+      }
     }
   ]
 }

@@ -1,0 +1,7 @@
+{
+  "daomephsta_loot_shared:dump_info": {
+    "__comment": "Ignored when loading loot tables. Included in dumps for development and debugging.",
+    "id": "blessing_5.json:blessing_5"
+  },
+  "pools": []
+}

@@ -1,4 +1,8 @@
 {
+  "daomephsta_loot_shared:dump_info": {
+    "__comment": "Ignored when loading loot tables. Included in dumps for development and debugging.",
+    "id": "mist:entities/tallow_maxi"
+  },
   "pools": [
     {
       "name": "tallow_1",
@@ -24,42 +28,6 @@
       "conditions": [
         {
           "value": 1,
-          "condition": "mist:skill_cutting"
-        }
-      ]
-    },
-    {
-      "name": "tallow_4",
-      "entries": [
-        {
-          "entryName": "loottweaker#1",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 2.0,
-                "max": 4.0
-              },
-              "function": "minecraft:set_count"
-            },
-            {
-              "count": {
-                "min": 0.0,
-                "max": 1.0
-              },
-              "limit": 5,
-              "function": "minecraft:looting_enchant"
-            }
-          ],
-          "name": "bewitchment:tallow"
-        }
-      ],
-      "rolls": 1.0,
-      "conditions": [
-        {
-          "value": 4,
           "condition": "mist:skill_cutting"
         }
       ]
@@ -132,6 +100,42 @@
       "conditions": [
         {
           "value": 3,
+          "condition": "mist:skill_cutting"
+        }
+      ]
+    },
+    {
+      "name": "tallow_4",
+      "entries": [
+        {
+          "entryName": "loottweaker#1",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "limit": 5,
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "bewitchment:tallow"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "value": 4,
           "condition": "mist:skill_cutting"
         }
       ]

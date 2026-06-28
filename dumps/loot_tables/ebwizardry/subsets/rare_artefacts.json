@@ -1,4 +1,8 @@
 {
+  "daomephsta_loot_shared:dump_info": {
+    "__comment": "Ignored when loading loot tables. Included in dumps for development and debugging.",
+    "id": "ebwizardry:subsets/rare_artefacts"
+  },
   "pools": [
     {
       "name": "rare_artefacts",
@@ -212,6 +216,34 @@
           "quality": 0,
           "type": "item",
           "name": "ebwizardry:charm_mount_teleporting"
+        },
+        {
+          "entryName": "ring_key_0",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "spellbundle:ring_key"
+        },
+        {
+          "entryName": "charm_frozen_lock_0",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "spellbundle:charm_frozen_lock"
+        },
+        {
+          "entryName": "charm_spirit_guide_0",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "spellbundle:charm_spirit_guide"
+        },
+        {
+          "entryName": "charm_spectral_hammer_0",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "spellbundle:charm_spectral_hammer"
         }
       ],
       "rolls": 1.0

@@ -1,4 +1,8 @@
 {
+  "daomephsta_loot_shared:dump_info": {
+    "__comment": "Ignored when loading loot tables. Included in dumps for development and debugging.",
+    "id": "mist:urn_mixed_loot"
+  },
   "pools": [
     {
       "name": "urn_mixed_0",
@@ -344,6 +348,10 @@
       "rolls": {
         "min": 1.0,
         "max": 2.0
+      },
+      "bonus_rolls": {
+        "min": 0.0,
+        "max": 4.0
       }
     },
     {

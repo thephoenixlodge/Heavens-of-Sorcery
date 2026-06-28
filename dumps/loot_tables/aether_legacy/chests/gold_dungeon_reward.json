@@ -1,20 +1,97 @@
 {
+  "daomephsta_loot_shared:dump_info": {
+    "__comment": "Ignored when loading loot tables. Included in dumps for development and debugging.",
+    "id": "aether_legacy:chests/gold_dungeon_reward"
+  },
   "pools": [
+    {
+      "name": "main",
+      "entries": [
+        {
+          "entryName": "aether_legacy:iron_bubble",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "aether_legacy:iron_bubble"
+        },
+        {
+          "entryName": "aether_legacy:vampire_blade",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "aether_legacy:vampire_blade"
+        },
+        {
+          "entryName": "aether_legacy:pig_slayer",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "aether_legacy:pig_slayer"
+        },
+        {
+          "entryName": "aether_legacy:chests/gold_dungeon_reward_sub0",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "aether_legacy:chests/gold_dungeon_reward_sub0"
+        },
+        {
+          "entryName": "aether_legacy:chests/gold_dungeon_reward_sub1",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "aether_legacy:chests/gold_dungeon_reward_sub1"
+        },
+        {
+          "entryName": "aether_legacy:life_shard",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "aether_legacy:life_shard"
+        },
+        {
+          "entryName": "aether_legacy:chests/gold_dungeon_reward_sub2",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "aether_legacy:chests/gold_dungeon_reward_sub2"
+        },
+        {
+          "entryName": "aether_legacy:chests/gold_dungeon_reward_sub3",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "aether_legacy:chests/gold_dungeon_reward_sub3"
+        },
+        {
+          "entryName": "aether_legacy:chests/gold_dungeon_reward_sub4",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "aether_legacy:chests/gold_dungeon_reward_sub4"
+        },
+        {
+          "entryName": "aether_legacy:obsidian_chestplate",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "aether_legacy:obsidian_chestplate"
+        }
+      ],
+      "rolls": {
+        "min": 5.0,
+        "max": 6.0
+      }
+    },
     {
       "name": "hos_extra",
       "entries": [
         {
           "entryName": "loottweaker#1",
-          "weight": 5,
+          "weight": 10,
           "quality": 0,
           "type": "item",
-          "functions": [
-            {
-              "data": 21.0,
-              "function": "minecraft:set_data"
-            }
-          ],
-          "name": "cuisine:crops"
+          "name": "astralsorcery:itemusabledust"
         },
         {
           "entryName": "loottweaker#5",
@@ -71,10 +148,16 @@
         },
         {
           "entryName": "loottweaker#3",
-          "weight": 10,
+          "weight": 5,
           "quality": 0,
           "type": "item",
-          "name": "astralsorcery:itemusabledust"
+          "functions": [
+            {
+              "data": 9.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "cuisine:crops"
         },
         {
           "entryName": "loottweaker#15",
@@ -106,7 +189,7 @@
           "type": "item",
           "functions": [
             {
-              "data": 9.0,
+              "data": 21.0,
               "function": "minecraft:set_data"
             }
           ],
@@ -135,7 +218,7 @@
           "type": "item",
           "functions": [
             {
-              "data": 12.0,
+              "data": 10.0,
               "function": "minecraft:set_data"
             }
           ],
@@ -148,7 +231,7 @@
           "type": "item",
           "functions": [
             {
-              "data": 10.0,
+              "data": 12.0,
               "function": "minecraft:set_data"
             }
           ],
@@ -156,10 +239,10 @@
         },
         {
           "entryName": "loottweaker#10",
-          "weight": 7,
+          "weight": 10,
           "quality": 0,
           "type": "item",
-          "name": "quark:biotite"
+          "name": "quark:arrow_torch"
         },
         {
           "entryName": "loottweaker#7",
@@ -180,10 +263,10 @@
         },
         {
           "entryName": "loottweaker#11",
-          "weight": 10,
+          "weight": 7,
           "quality": 0,
           "type": "item",
-          "name": "quark:arrow_torch"
+          "name": "quark:biotite"
         },
         {
           "entryName": "loottweaker#6",
@@ -223,350 +306,6 @@
         "min": 1.0,
         "max": 2.0
       }
-    },
-    {
-      "name": "main",
-      "entries": [
-        {
-          "entryName": "aether_legacy:pig_slayer",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "name": "aether_legacy:pig_slayer"
-        },
-        {
-          "entryName": "aether_legacy:obsidian_chestplate",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "name": "aether_legacy:obsidian_chestplate"
-        },
-        {
-          "entryName": "aether_legacy:life_shard",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "name": "aether_legacy:life_shard"
-        },
-        {
-          "entryName": "aether_legacy:iron_bubble",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "name": "aether_legacy:iron_bubble"
-        },
-        {
-          "entryName": "aether_legacy:chests/gold_dungeon_reward_sub2",
-          "weight": 1,
-          "quality": 0,
-          "type": "loot_table",
-          "name": "aether_legacy:chests/gold_dungeon_reward_sub2"
-        },
-        {
-          "entryName": "aether_legacy:chests/gold_dungeon_reward_sub3",
-          "weight": 1,
-          "quality": 0,
-          "type": "loot_table",
-          "name": "aether_legacy:chests/gold_dungeon_reward_sub3"
-        },
-        {
-          "entryName": "aether_legacy:chests/gold_dungeon_reward_sub4",
-          "weight": 1,
-          "quality": 0,
-          "type": "loot_table",
-          "name": "aether_legacy:chests/gold_dungeon_reward_sub4"
-        },
-        {
-          "entryName": "aether_legacy:vampire_blade",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "name": "aether_legacy:vampire_blade"
-        },
-        {
-          "entryName": "aether_legacy:chests/gold_dungeon_reward_sub0",
-          "weight": 1,
-          "quality": 0,
-          "type": "loot_table",
-          "name": "aether_legacy:chests/gold_dungeon_reward_sub0"
-        },
-        {
-          "entryName": "aether_legacy:chests/gold_dungeon_reward_sub1",
-          "weight": 1,
-          "quality": 0,
-          "type": "loot_table",
-          "name": "aether_legacy:chests/gold_dungeon_reward_sub1"
-        }
-      ],
-      "rolls": {
-        "min": 5.0,
-        "max": 6.0
-      }
-    },
-    {
-      "name": "tombstone:chest_treasure",
-      "entries": [
-        {
-          "entryName": "tombstone:scroll_buff_loot1",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "tag": "{enchant:1b}",
-              "function": "minecraft:set_nbt"
-            },
-            {
-              "data": 2.0,
-              "function": "minecraft:set_data"
-            }
-          ],
-          "name": "tombstone:scroll_buff"
-        },
-        {
-          "entryName": "tombstone:scroll_buff_loot2",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "tag": "{enchant:1b}",
-              "function": "minecraft:set_nbt"
-            },
-            {
-              "data": 3.0,
-              "function": "minecraft:set_data"
-            }
-          ],
-          "name": "tombstone:scroll_buff"
-        },
-        {
-          "entryName": "tombstone:scroll_buff_loot0",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "tag": "{enchant:1b}",
-              "function": "minecraft:set_nbt"
-            },
-            {
-              "data": 1.0,
-              "function": "minecraft:set_data"
-            }
-          ],
-          "name": "tombstone:scroll_buff"
-        },
-        {
-          "entryName": "tombstone:scroll_buff_loot5",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "tag": "{enchant:1b}",
-              "function": "minecraft:set_nbt"
-            },
-            {
-              "data": 6.0,
-              "function": "minecraft:set_data"
-            }
-          ],
-          "name": "tombstone:scroll_buff"
-        },
-        {
-          "entryName": "tombstone:tablet_of_cupidity_loot",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "tag": "{enchant:1b}",
-              "function": "minecraft:set_nbt"
-            }
-          ],
-          "name": "tombstone:tablet_of_cupidity"
-        },
-        {
-          "entryName": "tombstone:voodoo_poppet_loot",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "function": "tombstone:delayed_nbt_loot"
-            }
-          ],
-          "name": "tombstone:voodoo_poppet"
-        },
-        {
-          "entryName": "tombstone:scroll_buff_loot6",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "tag": "{enchant:1b}",
-              "function": "minecraft:set_nbt"
-            },
-            {
-              "data": 7.0,
-              "function": "minecraft:set_data"
-            }
-          ],
-          "name": "tombstone:scroll_buff"
-        },
-        {
-          "entryName": "tombstone:scroll_buff_loot3",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "tag": "{enchant:1b}",
-              "function": "minecraft:set_nbt"
-            },
-            {
-              "data": 4.0,
-              "function": "minecraft:set_data"
-            }
-          ],
-          "name": "tombstone:scroll_buff"
-        },
-        {
-          "entryName": "tombstone:scroll_buff_loot4",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "tag": "{enchant:1b}",
-              "function": "minecraft:set_nbt"
-            },
-            {
-              "data": 5.0,
-              "function": "minecraft:set_data"
-            }
-          ],
-          "name": "tombstone:scroll_buff"
-        },
-        {
-          "entryName": "tombstone:scroll_of_knowledge_loot",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "function": "tombstone:delayed_nbt_loot"
-            }
-          ],
-          "name": "tombstone:scroll_of_knowledge"
-        },
-        {
-          "entryName": "tombstone:empty",
-          "weight": 844,
-          "quality": 0,
-          "type": "empty"
-        },
-        {
-          "entryName": "tombstone:crafting_ingredient_loot",
-          "weight": 3,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "data": 4.0,
-              "function": "minecraft:set_data"
-            }
-          ],
-          "name": "tombstone:crafting_ingredient"
-        },
-        {
-          "entryName": "tombstone:scroll_buff_loot",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "tag": "{enchant:1b}",
-              "function": "minecraft:set_nbt"
-            },
-            {
-              "data": 0.0,
-              "function": "minecraft:set_data"
-            }
-          ],
-          "name": "tombstone:scroll_buff"
-        },
-        {
-          "entryName": "tombstone:tablet_of_assistance_loot",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "tag": "{enchant:1b}",
-              "function": "minecraft:set_nbt"
-            }
-          ],
-          "name": "tombstone:tablet_of_assistance"
-        },
-        {
-          "entryName": "tombstone:fishing_rod_of_misadventure_loot",
-          "weight": 3,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "function": "tombstone:delayed_nbt_loot"
-            }
-          ],
-          "name": "tombstone:fishing_rod_of_misadventure"
-        },
-        {
-          "entryName": "tombstone:familiar_receptacle_loot",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "function": "tombstone:delayed_nbt_loot"
-            }
-          ],
-          "name": "tombstone:familiar_receptacle"
-        },
-        {
-          "entryName": "tombstone:tablet_of_home_loot",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "tag": "{enchant:1b}",
-              "function": "minecraft:set_nbt"
-            }
-          ],
-          "name": "tombstone:tablet_of_home"
-        },
-        {
-          "entryName": "tombstone:scroll_buff_loot7",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "tag": "{enchant:1b}",
-              "function": "minecraft:set_nbt"
-            },
-            {
-              "data": 8.0,
-              "function": "minecraft:set_data"
-            }
-          ],
-          "name": "tombstone:scroll_buff"
-        }
-      ],
-      "rolls": 1.0
     }
   ]
 }

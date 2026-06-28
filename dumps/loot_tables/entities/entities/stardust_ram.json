@@ -1,0 +1,7 @@
+{
+  "daomephsta_loot_shared:dump_info": {
+    "__comment": "Ignored when loading loot tables. Included in dumps for development and debugging.",
+    "id": "entities:entities/stardust_ram"
+  },
+  "pools": []
+}

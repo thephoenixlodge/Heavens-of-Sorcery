@@ -1,0 +1,21 @@
+{
+  "daomephsta_loot_shared:dump_info": {
+    "__comment": "Ignored when loading loot tables. Included in dumps for development and debugging.",
+    "id": "spellbundle:inject/rare_scrolls"
+  },
+  "pools": [
+    {
+      "name": "spellbundle",
+      "entries": [
+        {
+          "entryName": "spellbundle:reforging_scroll",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "spellbundle:reforging_scroll"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

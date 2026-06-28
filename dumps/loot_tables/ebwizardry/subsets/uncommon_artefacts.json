@@ -1,4 +1,8 @@
 {
+  "daomephsta_loot_shared:dump_info": {
+    "__comment": "Ignored when loading loot tables. Included in dumps for development and debugging.",
+    "id": "ebwizardry:subsets/uncommon_artefacts"
+  },
   "pools": [
     {
       "name": "uncommon_artefacts",
@@ -170,6 +174,13 @@
           "quality": 0,
           "type": "item",
           "name": "ebwizardry:charm_feeding"
+        },
+        {
+          "entryName": "charm_wishing_well_0",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "spellbundle:charm_wishing_well"
         }
       ],
       "rolls": 1.0

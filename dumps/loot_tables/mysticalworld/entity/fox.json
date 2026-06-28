@@ -1,7 +1,16 @@
 {
+  "daomephsta_loot_shared:dump_info": {
+    "__comment": "Ignored when loading loot tables. Included in dumps for development and debugging.",
+    "id": "mysticalworld:entity/fox"
+  },
   "pools": [
     {
-      "name": "main_cutting_4",
+      "name": "main",
+      "entries": [],
+      "rolls": 1.0
+    },
+    {
+      "name": "main_cutting_1",
       "entries": [
         {
           "entryName": "meat",
@@ -12,12 +21,31 @@
         }
       ],
       "rolls": {
-        "min": 1.0,
-        "max": 3.0
+        "min": 0.0,
+        "max": 1.0
       },
       "conditions": [
         {
-          "value": 4,
+          "value": 1,
+          "condition": "mist:skill_cutting"
+        }
+      ]
+    },
+    {
+      "name": "main_cutting_2",
+      "entries": [
+        {
+          "entryName": "meat",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "hos:cutting/fox_main_meat"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "value": 2,
           "condition": "mist:skill_cutting"
         }
       ]
@@ -45,31 +73,7 @@
       ]
     },
     {
-      "name": "main",
-      "entries": [],
-      "rolls": 1.0
-    },
-    {
-      "name": "main_cutting_2",
-      "entries": [
-        {
-          "entryName": "meat",
-          "weight": 1,
-          "quality": 0,
-          "type": "loot_table",
-          "name": "hos:cutting/fox_main_meat"
-        }
-      ],
-      "rolls": 1.0,
-      "conditions": [
-        {
-          "value": 2,
-          "condition": "mist:skill_cutting"
-        }
-      ]
-    },
-    {
-      "name": "main_cutting_1",
+      "name": "main_cutting_4",
       "entries": [
         {
           "entryName": "meat",
@@ -80,12 +84,12 @@
         }
       ],
       "rolls": {
-        "min": 0.0,
-        "max": 1.0
+        "min": 1.0,
+        "max": 3.0
       },
       "conditions": [
         {
-          "value": 1,
+          "value": 4,
           "condition": "mist:skill_cutting"
         }
       ]

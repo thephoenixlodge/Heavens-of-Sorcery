@@ -1,20 +1,215 @@
 {
+  "daomephsta_loot_shared:dump_info": {
+    "__comment": "Ignored when loading loot tables. Included in dumps for development and debugging.",
+    "id": "aether_legacy:chests/silver_dungeon_chest"
+  },
   "pools": [
+    {
+      "name": "main",
+      "entries": [
+        {
+          "entryName": "aether_legacy:zanite_pickaxe",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "aether_legacy:zanite_pickaxe"
+        },
+        {
+          "entryName": "aether_legacy:skyroot_bucket",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "aether_legacy:skyroot_bucket"
+        },
+        {
+          "entryName": "aether_legacy:dart_shooter",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "aether_legacy:dart_shooter"
+        },
+        {
+          "entryName": "aether_legacy:moa_egg",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "moa_type": "aether_legacy:blue",
+              "function": "aether_legacy:set_moa_type"
+            }
+          ],
+          "name": "aether_legacy:moa_egg"
+        },
+        {
+          "entryName": "aether_legacy:chests/silver_dungeon_chest_sub0",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "aether_legacy:chests/silver_dungeon_chest_sub0"
+        },
+        {
+          "entryName": "aether_legacy:ambrosium_shard",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 10.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "aether_legacy:ambrosium_shard"
+        },
+        {
+          "entryName": "golden_dart",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 0.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "aether_legacy:dart"
+        },
+        {
+          "entryName": "poison_dart",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 1.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "aether_legacy:dart"
+        },
+        {
+          "entryName": "enchanted_dart",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 2.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "aether_legacy:dart"
+        },
+        {
+          "entryName": "aether_legacy:chests/silver_dungeon_chest_sub1",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "aether_legacy:chests/silver_dungeon_chest_sub1"
+        },
+        {
+          "entryName": "poison_bucket",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 2.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "aether_legacy:skyroot_bucket"
+        },
+        {
+          "entryName": "aether_legacy:chests/silver_dungeon_chest_sub2",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "aether_legacy:chests/silver_dungeon_chest_sub2"
+        },
+        {
+          "entryName": "aether_legacy:chests/silver_dungeon_chest_sub3",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "aether_legacy:chests/silver_dungeon_chest_sub3"
+        },
+        {
+          "entryName": "aether_legacy:chests/silver_dungeon_chest_sub4",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "aether_legacy:chests/silver_dungeon_chest_sub4"
+        },
+        {
+          "entryName": "aether_legacy:chests/silver_dungeon_chest_sub5",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "aether_legacy:chests/silver_dungeon_chest_sub5"
+        },
+        {
+          "entryName": "aether_legacy:chests/silver_dungeon_chest_sub6",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "aether_legacy:chests/silver_dungeon_chest_sub6"
+        },
+        {
+          "entryName": "aether_legacy:ambrosium_torch",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "aether_legacy:ambrosium_torch"
+        }
+      ],
+      "rolls": {
+        "min": 3.0,
+        "max": 5.0
+      }
+    },
     {
       "name": "hos_extra",
       "entries": [
         {
           "entryName": "loottweaker#1",
-          "weight": 5,
+          "weight": 10,
           "quality": 0,
           "type": "item",
-          "functions": [
-            {
-              "data": 21.0,
-              "function": "minecraft:set_data"
-            }
-          ],
-          "name": "cuisine:crops"
+          "name": "astralsorcery:itemusabledust"
         },
         {
           "entryName": "loottweaker#5",
@@ -55,13 +250,6 @@
         },
         {
           "entryName": "loottweaker#3",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "name": "astralsorcery:itemusabledust"
-        },
-        {
-          "entryName": "loottweaker#2",
           "weight": 5,
           "quality": 0,
           "type": "item",
@@ -74,20 +262,20 @@
           "name": "cuisine:crops"
         },
         {
-          "entryName": "loottweaker#9",
+          "entryName": "loottweaker#2",
           "weight": 5,
           "quality": 0,
           "type": "item",
           "functions": [
             {
-              "data": 12.0,
+              "data": 21.0,
               "function": "minecraft:set_data"
             }
           ],
           "name": "cuisine:crops"
         },
         {
-          "entryName": "loottweaker#8",
+          "entryName": "loottweaker#9",
           "weight": 5,
           "quality": 0,
           "type": "item",
@@ -100,11 +288,24 @@
           "name": "cuisine:crops"
         },
         {
-          "entryName": "loottweaker#10",
-          "weight": 7,
+          "entryName": "loottweaker#8",
+          "weight": 5,
           "quality": 0,
           "type": "item",
-          "name": "quark:biotite"
+          "functions": [
+            {
+              "data": 12.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "cuisine:crops"
+        },
+        {
+          "entryName": "loottweaker#10",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "quark:arrow_torch"
         },
         {
           "entryName": "loottweaker#7",
@@ -125,10 +326,10 @@
         },
         {
           "entryName": "loottweaker#11",
-          "weight": 10,
+          "weight": 7,
           "quality": 0,
           "type": "item",
-          "name": "quark:arrow_torch"
+          "name": "quark:biotite"
         },
         {
           "entryName": "loottweaker#6",
@@ -169,468 +370,6 @@
         "max": 3.0
       },
       "bonus_rolls": 1.0
-    },
-    {
-      "name": "main",
-      "entries": [
-        {
-          "entryName": "aether_legacy:chests/silver_dungeon_chest_sub0",
-          "weight": 1,
-          "quality": 0,
-          "type": "loot_table",
-          "name": "aether_legacy:chests/silver_dungeon_chest_sub0"
-        },
-        {
-          "entryName": "aether_legacy:dart_shooter",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "name": "aether_legacy:dart_shooter"
-        },
-        {
-          "entryName": "aether_legacy:moa_egg",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "moa_type": "aether_legacy:blue",
-              "function": "aether_legacy:set_moa_type"
-            }
-          ],
-          "name": "aether_legacy:moa_egg"
-        },
-        {
-          "entryName": "poison_dart",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 1.0,
-                "max": 3.0
-              },
-              "function": "minecraft:set_count"
-            },
-            {
-              "data": 1.0,
-              "function": "minecraft:set_data"
-            }
-          ],
-          "name": "aether_legacy:dart"
-        },
-        {
-          "entryName": "aether_legacy:skyroot_bucket",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "name": "aether_legacy:skyroot_bucket"
-        },
-        {
-          "entryName": "aether_legacy:ambrosium_torch",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 1.0,
-                "max": 4.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "aether_legacy:ambrosium_torch"
-        },
-        {
-          "entryName": "golden_dart",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 1.0,
-                "max": 5.0
-              },
-              "function": "minecraft:set_count"
-            },
-            {
-              "data": 0.0,
-              "function": "minecraft:set_data"
-            }
-          ],
-          "name": "aether_legacy:dart"
-        },
-        {
-          "entryName": "aether_legacy:ambrosium_shard",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 1.0,
-                "max": 10.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "aether_legacy:ambrosium_shard"
-        },
-        {
-          "entryName": "enchanted_dart",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 1.0,
-                "max": 3.0
-              },
-              "function": "minecraft:set_count"
-            },
-            {
-              "data": 2.0,
-              "function": "minecraft:set_data"
-            }
-          ],
-          "name": "aether_legacy:dart"
-        },
-        {
-          "entryName": "aether_legacy:chests/silver_dungeon_chest_sub6",
-          "weight": 1,
-          "quality": 0,
-          "type": "loot_table",
-          "name": "aether_legacy:chests/silver_dungeon_chest_sub6"
-        },
-        {
-          "entryName": "aether_legacy:chests/silver_dungeon_chest_sub5",
-          "weight": 1,
-          "quality": 0,
-          "type": "loot_table",
-          "name": "aether_legacy:chests/silver_dungeon_chest_sub5"
-        },
-        {
-          "entryName": "aether_legacy:chests/silver_dungeon_chest_sub4",
-          "weight": 1,
-          "quality": 0,
-          "type": "loot_table",
-          "name": "aether_legacy:chests/silver_dungeon_chest_sub4"
-        },
-        {
-          "entryName": "poison_bucket",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "data": 2.0,
-              "function": "minecraft:set_data"
-            }
-          ],
-          "name": "aether_legacy:skyroot_bucket"
-        },
-        {
-          "entryName": "aether_legacy:chests/silver_dungeon_chest_sub3",
-          "weight": 1,
-          "quality": 0,
-          "type": "loot_table",
-          "name": "aether_legacy:chests/silver_dungeon_chest_sub3"
-        },
-        {
-          "entryName": "aether_legacy:zanite_pickaxe",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "name": "aether_legacy:zanite_pickaxe"
-        },
-        {
-          "entryName": "aether_legacy:chests/silver_dungeon_chest_sub2",
-          "weight": 1,
-          "quality": 0,
-          "type": "loot_table",
-          "name": "aether_legacy:chests/silver_dungeon_chest_sub2"
-        },
-        {
-          "entryName": "aether_legacy:chests/silver_dungeon_chest_sub1",
-          "weight": 1,
-          "quality": 0,
-          "type": "loot_table",
-          "name": "aether_legacy:chests/silver_dungeon_chest_sub1"
-        }
-      ],
-      "rolls": {
-        "min": 3.0,
-        "max": 5.0
-      }
-    },
-    {
-      "name": "tombstone:chest_treasure",
-      "entries": [
-        {
-          "entryName": "tombstone:scroll_buff_loot1",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "tag": "{enchant:1b}",
-              "function": "minecraft:set_nbt"
-            },
-            {
-              "data": 2.0,
-              "function": "minecraft:set_data"
-            }
-          ],
-          "name": "tombstone:scroll_buff"
-        },
-        {
-          "entryName": "tombstone:scroll_buff_loot2",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "tag": "{enchant:1b}",
-              "function": "minecraft:set_nbt"
-            },
-            {
-              "data": 3.0,
-              "function": "minecraft:set_data"
-            }
-          ],
-          "name": "tombstone:scroll_buff"
-        },
-        {
-          "entryName": "tombstone:scroll_buff_loot0",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "tag": "{enchant:1b}",
-              "function": "minecraft:set_nbt"
-            },
-            {
-              "data": 1.0,
-              "function": "minecraft:set_data"
-            }
-          ],
-          "name": "tombstone:scroll_buff"
-        },
-        {
-          "entryName": "tombstone:scroll_buff_loot5",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "tag": "{enchant:1b}",
-              "function": "minecraft:set_nbt"
-            },
-            {
-              "data": 6.0,
-              "function": "minecraft:set_data"
-            }
-          ],
-          "name": "tombstone:scroll_buff"
-        },
-        {
-          "entryName": "tombstone:tablet_of_cupidity_loot",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "tag": "{enchant:1b}",
-              "function": "minecraft:set_nbt"
-            }
-          ],
-          "name": "tombstone:tablet_of_cupidity"
-        },
-        {
-          "entryName": "tombstone:voodoo_poppet_loot",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "function": "tombstone:delayed_nbt_loot"
-            }
-          ],
-          "name": "tombstone:voodoo_poppet"
-        },
-        {
-          "entryName": "tombstone:scroll_buff_loot6",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "tag": "{enchant:1b}",
-              "function": "minecraft:set_nbt"
-            },
-            {
-              "data": 7.0,
-              "function": "minecraft:set_data"
-            }
-          ],
-          "name": "tombstone:scroll_buff"
-        },
-        {
-          "entryName": "tombstone:scroll_buff_loot3",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "tag": "{enchant:1b}",
-              "function": "minecraft:set_nbt"
-            },
-            {
-              "data": 4.0,
-              "function": "minecraft:set_data"
-            }
-          ],
-          "name": "tombstone:scroll_buff"
-        },
-        {
-          "entryName": "tombstone:scroll_buff_loot4",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "tag": "{enchant:1b}",
-              "function": "minecraft:set_nbt"
-            },
-            {
-              "data": 5.0,
-              "function": "minecraft:set_data"
-            }
-          ],
-          "name": "tombstone:scroll_buff"
-        },
-        {
-          "entryName": "tombstone:scroll_of_knowledge_loot",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "function": "tombstone:delayed_nbt_loot"
-            }
-          ],
-          "name": "tombstone:scroll_of_knowledge"
-        },
-        {
-          "entryName": "tombstone:empty",
-          "weight": 844,
-          "quality": 0,
-          "type": "empty"
-        },
-        {
-          "entryName": "tombstone:crafting_ingredient_loot",
-          "weight": 3,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "data": 4.0,
-              "function": "minecraft:set_data"
-            }
-          ],
-          "name": "tombstone:crafting_ingredient"
-        },
-        {
-          "entryName": "tombstone:scroll_buff_loot",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "tag": "{enchant:1b}",
-              "function": "minecraft:set_nbt"
-            },
-            {
-              "data": 0.0,
-              "function": "minecraft:set_data"
-            }
-          ],
-          "name": "tombstone:scroll_buff"
-        },
-        {
-          "entryName": "tombstone:tablet_of_assistance_loot",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "tag": "{enchant:1b}",
-              "function": "minecraft:set_nbt"
-            }
-          ],
-          "name": "tombstone:tablet_of_assistance"
-        },
-        {
-          "entryName": "tombstone:fishing_rod_of_misadventure_loot",
-          "weight": 3,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "function": "tombstone:delayed_nbt_loot"
-            }
-          ],
-          "name": "tombstone:fishing_rod_of_misadventure"
-        },
-        {
-          "entryName": "tombstone:familiar_receptacle_loot",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "function": "tombstone:delayed_nbt_loot"
-            }
-          ],
-          "name": "tombstone:familiar_receptacle"
-        },
-        {
-          "entryName": "tombstone:tablet_of_home_loot",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "tag": "{enchant:1b}",
-              "function": "minecraft:set_nbt"
-            }
-          ],
-          "name": "tombstone:tablet_of_home"
-        },
-        {
-          "entryName": "tombstone:scroll_buff_loot7",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "tag": "{enchant:1b}",
-              "function": "minecraft:set_nbt"
-            },
-            {
-              "data": 8.0,
-              "function": "minecraft:set_data"
-            }
-          ],
-          "name": "tombstone:scroll_buff"
-        }
-      ],
-      "rolls": 1.0
     }
   ]
 }

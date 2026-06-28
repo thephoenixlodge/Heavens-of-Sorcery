@@ -1,0 +1,97 @@
+{
+  "daomephsta_loot_shared:dump_info": {
+    "__comment": "Ignored when loading loot tables. Included in dumps for development and debugging.",
+    "id": "thebetweenlands:loot/filtered_swamp_water"
+  },
+  "pools": [
+    {
+      "name": "sludge_ball",
+      "entries": [
+        {
+          "entryName": "thebetweenlands:sludge_ball",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:sludge_ball"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "angler_tooth",
+      "entries": [
+        {
+          "entryName": "thebetweenlands:items_misc",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 21.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thebetweenlands:items_misc"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "lurker_skin",
+      "entries": [
+        {
+          "entryName": "thebetweenlands:items_misc",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 4.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thebetweenlands:items_misc"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "dragonfly_wing",
+      "entries": [
+        {
+          "entryName": "thebetweenlands:items_misc",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 3.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thebetweenlands:items_misc"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "betweenstone_pebble",
+      "entries": [
+        {
+          "entryName": "thebetweenlands:items_misc",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 50.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "thebetweenlands:items_misc"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

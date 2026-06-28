@@ -1,24 +1,9 @@
 {
+  "daomephsta_loot_shared:dump_info": {
+    "__comment": "Ignored when loading loot tables. Included in dumps for development and debugging.",
+    "id": "aether_legacy:entities/cockatrice"
+  },
   "pools": [
-    {
-      "name": "feather_cutting_2",
-      "entries": [
-        {
-          "entryName": "meat",
-          "weight": 1,
-          "quality": 0,
-          "type": "loot_table",
-          "name": "hos:cutting/cockatrice_feather_meat"
-        }
-      ],
-      "rolls": 1.0,
-      "conditions": [
-        {
-          "value": 2,
-          "condition": "mist:skill_cutting"
-        }
-      ]
-    },
     {
       "name": "feather",
       "entries": [],
@@ -47,7 +32,26 @@
       ]
     },
     {
-      "name": "feather_cutting_5",
+      "name": "feather_cutting_2",
+      "entries": [
+        {
+          "entryName": "meat",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "hos:cutting/cockatrice_feather_meat"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "value": 2,
+          "condition": "mist:skill_cutting"
+        }
+      ]
+    },
+    {
+      "name": "feather_cutting_3",
       "entries": [
         {
           "entryName": "meat",
@@ -58,12 +62,12 @@
         }
       ],
       "rolls": {
-        "min": 2.0,
-        "max": 4.0
+        "min": 1.0,
+        "max": 2.0
       },
       "conditions": [
         {
-          "value": 5,
+          "value": 3,
           "condition": "mist:skill_cutting"
         }
       ]
@@ -91,7 +95,7 @@
       ]
     },
     {
-      "name": "feather_cutting_3",
+      "name": "feather_cutting_5",
       "entries": [
         {
           "entryName": "meat",
@@ -102,12 +106,12 @@
         }
       ],
       "rolls": {
-        "min": 1.0,
-        "max": 2.0
+        "min": 2.0,
+        "max": 4.0
       },
       "conditions": [
         {
-          "value": 3,
+          "value": 5,
           "condition": "mist:skill_cutting"
         }
       ]

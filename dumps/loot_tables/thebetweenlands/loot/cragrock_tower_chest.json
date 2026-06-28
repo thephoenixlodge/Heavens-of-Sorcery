@@ -1,4 +1,8 @@
 {
+  "daomephsta_loot_shared:dump_info": {
+    "__comment": "Ignored when loading loot tables. Included in dumps for development and debugging.",
+    "id": "thebetweenlands:loot/cragrock_tower_chest"
+  },
   "pools": [
     {
       "name": "shared_lore_pool",
@@ -73,7 +77,11 @@
         {
           "condition": "thebetweenlands:shared_pool"
         }
-      ]
+      ],
+      "bonus_rolls": {
+        "min": 0.0,
+        "max": 1.0
+      }
     },
     {
       "name": "shared_flight_ring_pool",

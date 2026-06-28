@@ -1,4 +1,8 @@
 {
+  "daomephsta_loot_shared:dump_info": {
+    "__comment": "Ignored when loading loot tables. Included in dumps for development and debugging.",
+    "id": "bewitchment:entities/toad"
+  },
   "pools": [
     {
       "name": "toad",
@@ -6,7 +10,7 @@
       "rolls": 1.0
     },
     {
-      "name": "toad_cutting_4",
+      "name": "toad_cutting_1",
       "entries": [
         {
           "entryName": "meat",
@@ -17,34 +21,12 @@
         }
       ],
       "rolls": {
-        "min": 1.0,
-        "max": 3.0
+        "min": 0.0,
+        "max": 1.0
       },
       "conditions": [
         {
-          "value": 4,
-          "condition": "mist:skill_cutting"
-        }
-      ]
-    },
-    {
-      "name": "toad_cutting_5",
-      "entries": [
-        {
-          "entryName": "meat",
-          "weight": 1,
-          "quality": 0,
-          "type": "loot_table",
-          "name": "hos:cutting/toad_toad_meat"
-        }
-      ],
-      "rolls": {
-        "min": 2.0,
-        "max": 4.0
-      },
-      "conditions": [
-        {
-          "value": 5,
+          "value": 1,
           "condition": "mist:skill_cutting"
         }
       ]
@@ -91,7 +73,7 @@
       ]
     },
     {
-      "name": "toad_cutting_1",
+      "name": "toad_cutting_4",
       "entries": [
         {
           "entryName": "meat",
@@ -102,12 +84,34 @@
         }
       ],
       "rolls": {
-        "min": 0.0,
-        "max": 1.0
+        "min": 1.0,
+        "max": 3.0
       },
       "conditions": [
         {
-          "value": 1,
+          "value": 4,
+          "condition": "mist:skill_cutting"
+        }
+      ]
+    },
+    {
+      "name": "toad_cutting_5",
+      "entries": [
+        {
+          "entryName": "meat",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "hos:cutting/toad_toad_meat"
+        }
+      ],
+      "rolls": {
+        "min": 2.0,
+        "max": 4.0
+      },
+      "conditions": [
+        {
+          "value": 5,
           "condition": "mist:skill_cutting"
         }
       ]

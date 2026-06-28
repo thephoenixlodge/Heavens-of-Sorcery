@@ -1,4 +1,8 @@
 {
+  "daomephsta_loot_shared:dump_info": {
+    "__comment": "Ignored when loading loot tables. Included in dumps for development and debugging.",
+    "id": "ebwizardry:subsets/epic_artefacts"
+  },
   "pools": [
     {
       "name": "epic_artefacts",
@@ -121,6 +125,34 @@
           "quality": 0,
           "type": "item",
           "name": "ebwizardry:charm_black_hole"
+        },
+        {
+          "entryName": "ring_warpstone_0",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "spellbundle:ring_warpstone"
+        },
+        {
+          "entryName": "ring_wraith_0",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "spellbundle:ring_wraith"
+        },
+        {
+          "entryName": "amulet_reforging_0",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "spellbundle:amulet_reforging"
+        },
+        {
+          "entryName": "charm_portals_0",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "spellbundle:charm_portals"
         }
       ],
       "rolls": 1.0

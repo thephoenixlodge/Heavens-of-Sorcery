@@ -1,0 +1,7 @@
+{
+  "daomephsta_loot_shared:dump_info": {
+    "__comment": "Ignored when loading loot tables. Included in dumps for development and debugging.",
+    "id": "furnace_input_loot.json:furnace_input_loot"
+  },
+  "pools": []
+}

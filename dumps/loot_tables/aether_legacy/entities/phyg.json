@@ -1,26 +1,13 @@
 {
+  "daomephsta_loot_shared:dump_info": {
+    "__comment": "Ignored when loading loot tables. Included in dumps for development and debugging.",
+    "id": "aether_legacy:entities/phyg"
+  },
   "pools": [
     {
-      "name": "meat_cutting_5",
-      "entries": [
-        {
-          "entryName": "meat",
-          "weight": 1,
-          "quality": 0,
-          "type": "loot_table",
-          "name": "hos:cutting/phyg_meat_meat"
-        }
-      ],
-      "rolls": {
-        "min": 2.0,
-        "max": 4.0
-      },
-      "conditions": [
-        {
-          "value": 5,
-          "condition": "mist:skill_cutting"
-        }
-      ]
+      "name": "meat",
+      "entries": [],
+      "rolls": 1.0
     },
     {
       "name": "feather",
@@ -50,6 +37,47 @@
         }
       ],
       "rolls": 1.0
+    },
+    {
+      "name": "meat_cutting_1",
+      "entries": [
+        {
+          "entryName": "meat",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "hos:cutting/phyg_meat_meat"
+        }
+      ],
+      "rolls": {
+        "min": 0.0,
+        "max": 1.0
+      },
+      "conditions": [
+        {
+          "value": 1,
+          "condition": "mist:skill_cutting"
+        }
+      ]
+    },
+    {
+      "name": "meat_cutting_2",
+      "entries": [
+        {
+          "entryName": "meat",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "hos:cutting/phyg_meat_meat"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "value": 2,
+          "condition": "mist:skill_cutting"
+        }
+      ]
     },
     {
       "name": "meat_cutting_3",
@@ -96,12 +124,7 @@
       ]
     },
     {
-      "name": "meat",
-      "entries": [],
-      "rolls": 1.0
-    },
-    {
-      "name": "meat_cutting_1",
+      "name": "meat_cutting_5",
       "entries": [
         {
           "entryName": "meat",
@@ -112,31 +135,12 @@
         }
       ],
       "rolls": {
-        "min": 0.0,
-        "max": 1.0
+        "min": 2.0,
+        "max": 4.0
       },
       "conditions": [
         {
-          "value": 1,
-          "condition": "mist:skill_cutting"
-        }
-      ]
-    },
-    {
-      "name": "meat_cutting_2",
-      "entries": [
-        {
-          "entryName": "meat",
-          "weight": 1,
-          "quality": 0,
-          "type": "loot_table",
-          "name": "hos:cutting/phyg_meat_meat"
-        }
-      ],
-      "rolls": 1.0,
-      "conditions": [
-        {
-          "value": 2,
+          "value": 5,
           "condition": "mist:skill_cutting"
         }
       ]

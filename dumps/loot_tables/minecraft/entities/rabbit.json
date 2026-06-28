@@ -1,16 +1,41 @@
 {
+  "daomephsta_loot_shared:dump_info": {
+    "__comment": "Ignored when loading loot tables. Included in dumps for development and debugging.",
+    "id": "minecraft:entities/rabbit"
+  },
   "pools": [
     {
-      "name": "everlasting_food",
+      "name": "main",
       "entries": [
         {
-          "entryName": "entry#0",
+          "entryName": "minecraft:rabbit_hide",
           "weight": 1,
           "quality": 0,
-          "type": "loot_table",
-          "name": "artifacts:everlasting_food/rabbit"
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "minecraft:rabbit_hide"
         }
       ],
+      "rolls": 1.0
+    },
+    {
+      "name": "pool1",
+      "entries": [],
       "rolls": 1.0
     },
     {
@@ -34,6 +59,60 @@
           "chance": 0.1,
           "looting_multiplier": 0.03,
           "condition": "minecraft:random_chance_with_looting"
+        }
+      ]
+    },
+    {
+      "name": "everlasting_food",
+      "entries": [
+        {
+          "entryName": "entry#0",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "artifacts:everlasting_food/rabbit"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "pool1_cutting_1",
+      "entries": [
+        {
+          "entryName": "meat",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "hos:cutting/rabbit_pool1_meat"
+        }
+      ],
+      "rolls": {
+        "min": 0.0,
+        "max": 1.0
+      },
+      "conditions": [
+        {
+          "value": 1,
+          "condition": "mist:skill_cutting"
+        }
+      ]
+    },
+    {
+      "name": "pool1_cutting_2",
+      "entries": [
+        {
+          "entryName": "meat",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "hos:cutting/rabbit_pool1_meat"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "value": 2,
+          "condition": "mist:skill_cutting"
         }
       ]
     },
@@ -77,81 +156,6 @@
       "conditions": [
         {
           "value": 4,
-          "condition": "mist:skill_cutting"
-        }
-      ]
-    },
-    {
-      "name": "main",
-      "entries": [
-        {
-          "entryName": "minecraft:rabbit_hide",
-          "weight": 1,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 0.0,
-                "max": 1.0
-              },
-              "function": "minecraft:set_count"
-            },
-            {
-              "count": {
-                "min": 0.0,
-                "max": 1.0
-              },
-              "function": "minecraft:looting_enchant"
-            }
-          ],
-          "name": "minecraft:rabbit_hide"
-        }
-      ],
-      "rolls": 1.0
-    },
-    {
-      "name": "pool1_cutting_1",
-      "entries": [
-        {
-          "entryName": "meat",
-          "weight": 1,
-          "quality": 0,
-          "type": "loot_table",
-          "name": "hos:cutting/rabbit_pool1_meat"
-        }
-      ],
-      "rolls": {
-        "min": 0.0,
-        "max": 1.0
-      },
-      "conditions": [
-        {
-          "value": 1,
-          "condition": "mist:skill_cutting"
-        }
-      ]
-    },
-    {
-      "name": "pool1",
-      "entries": [],
-      "rolls": 1.0
-    },
-    {
-      "name": "pool1_cutting_2",
-      "entries": [
-        {
-          "entryName": "meat",
-          "weight": 1,
-          "quality": 0,
-          "type": "loot_table",
-          "name": "hos:cutting/rabbit_pool1_meat"
-        }
-      ],
-      "rolls": 1.0,
-      "conditions": [
-        {
-          "value": 2,
           "condition": "mist:skill_cutting"
         }
       ]
