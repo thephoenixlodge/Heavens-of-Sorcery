@@ -6,3 +6,5 @@ config/qualitytools/problems.txt
 config/BiomeTweaker/output/**
 config/jei/worldSettings.cfg
 config/jei/bookmarks.ini
+local/ftbutilities/backups.json
+config/jei/worldSettings.cfg
