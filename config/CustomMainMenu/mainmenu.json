@@ -93,7 +93,7 @@
             "text" : " ",
             "tooltip" : "Join the discussion on Discord",
             "posX" : 110,
-            "posY" : -130,
+            "posY" : -80,
             "width" : 20,
             "height" : 20,
 			"alignment" : "bottom_left",
@@ -105,40 +105,6 @@
             }
         },
         
-		"patreon":
-        {
-            "text" : " ",
-            "tooltip" : "Support thephoenixlodge on Patreon",
-            "posX" : 110,
-            "posY" : -80,
-            "width" : 20,
-            "height" : 20,
-			"alignment" : "bottom_left",
-            "texture" : "textures:gui/buttonpatreon.png",
-            "action" : 
-            {
-                "type" : "openLink",
-				"link" : "https://www.patreon.com/thephoenixlodge"
-            }
-        },
-		
-		"twitter":
-        {
-            "text" : " ",
-            "tooltip" : "Follow thephoenixlodge on Twitter for news about updates and new packs",
-            "posX" : 110,
-            "posY" : -105,
-            "width" : 20,
-            "height" : 20,
-			"alignment" : "bottom_left",
-            "texture" : "textures:gui/buttontwitter.png",
-            "action" : 
-            {
-                "type" : "openLink",
-				"link" : "https://twitter.com/ThePhoenixLodge"
-            }
-        },
-		
         "language":
         {
             "text" : " ",
