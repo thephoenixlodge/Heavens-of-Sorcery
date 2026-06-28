@@ -101,7 +101,7 @@ val bitChiselGold = <chiselsandbits:chisel_gold>;
 
 val resonatingGemKathairis = <kathairis:mysticgem>;
 
-val firestarter = <roots:fire_starter>;
+val fireStarter = <roots:fire_starter>;
 
 //crops
 val tomatoCuisine = <cuisine:crops:4>;
