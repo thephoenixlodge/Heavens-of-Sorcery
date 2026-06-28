@@ -101,6 +101,8 @@ val bitChiselGold = <chiselsandbits:chisel_gold>;
 
 val resonatingGemKathairis = <kathairis:mysticgem>;
 
+val firestarter = <roots:fire_starter>;
+
 //crops
 val tomatoCuisine = <cuisine:crops:4>;
 val oreCropTomato = <ore:cropTomato>;
@@ -386,3 +388,6 @@ Stamper.remove(sulfurSoot);
 Stamper.add(sulfurMW, null, <embers:stamp_flat>, clumpSulfur);
 dictSulfur.remove(sulfurSoot);
 dictOreSulfur.remove(oreSulfurBL);
+
+//firestarter
+recipes.remove(fireStarter);
