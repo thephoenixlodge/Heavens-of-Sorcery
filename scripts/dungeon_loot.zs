@@ -183,6 +183,7 @@ val extrasNetherMap = {
 	<rustic:cohosh> : 5,
 	<rustic:chamomile> : 5,
 	<rustic:aloe_vera> : 5,
+	<rustic:vanta_lily> : 5,
 	<arcaneworld:amethyst> : 3,
 	<cuisine:crops:8> : 5,
 	<cuisine:crops:1> : 5,
