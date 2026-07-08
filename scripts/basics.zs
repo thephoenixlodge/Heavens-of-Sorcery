@@ -245,7 +245,7 @@ CauldronCrafting.addFluidRecipe(gravel, basalt, manaLiquid, 1);
 
 //Ritual Table
 recipes.remove(ritualTable);
-recipes.addShaped(ritualTable, [[null, paper, null], [ingotGold, amethyst, ingotGold], [blockSapphire, plankWisdomWood, blockSapphire]]);
+recipes.addShaped(ritualTable, [[null, paper, null], [ingotGold, amethyst, ingotGold], [plankWisdomWood, blockSapphire, plankWisdomWood]]);
 
 //Angelic Statue
 recipes.remove(angelicStatue);
