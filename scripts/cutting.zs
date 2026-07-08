@@ -10,10 +10,10 @@ import crafttweaker.data.IData;
 
 function addCuttingMeat(name as string, table as string, poolsAndDrops as int[][IItemStack][string]) {
 	val rollsPerLevel = {
-		"one" : [0, 1],
-		"two" : [1, 1],
-		"three" : [1, 2],
-		"four" : [1, 3],
+		"one" : [1, 1],
+		"two" : [1, 2],
+		"three" : [1, 3],
+		"four" : [2, 3],
 		"five" : [2, 4]
 	} as int[][string];
 	var lootTable = LootTweaker.getTable(table);
